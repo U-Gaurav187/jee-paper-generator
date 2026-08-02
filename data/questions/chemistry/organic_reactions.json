@@ -42,7 +42,7 @@
     "topic": "Reaction Cascades & Grignard Reagents",
     "type": "paragraph",
     "difficulty": "Advanced",
-    "paragraphText": "**Passage for Questions 4 and 5:**\nAn organic compound $A$ ($\\text{C}_7\\text{H}_6\\text{O}$) has a Benzene ring structure. Compound $A$ gives a positive 2,4-DNP test but negative Tollens and Fehling tests. On treatment with methylmagnesium bromide ($\\text{CH}_3\\text{MgBr}$) followed by acid hydrolysis, compound $A$ yields alcohol $B$.",
+    "paragraphText": "**Passage for Questions:**\nAn organic compound $A$ ($\\text{C}_7\\text{H}_6\\text{O}$) has a Benzene ring structure. Compound $A$ gives a positive 2,4-DNP test but negative Tollens and Fehling tests. On treatment with methylmagnesium bromide ($\\text{CH}_3\\text{MgBr}$) followed by acid hydrolysis, compound $A$ yields alcohol $B$.",
     "chemStructure": "O=C(c1ccccc1)C",
     "subQuestions": [
       {
