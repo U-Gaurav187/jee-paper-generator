@@ -14,7 +14,7 @@ export default function App() {
   const [wizardStep, setWizardStep] = useState(1); // 1 to 6
   const [isIngestionGuideOpen, setIsIngestionGuideOpen] = useState(false);
 
-  // Master Question Repository Loaded from JSON Files
+  // Master Question Repository Loaded from Modular JSON Files
   const [questionsBank, setQuestionsBank] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -39,31 +39,77 @@ export default function App() {
   // Generated Paper Questions Set
   const [paperQuestions, setPaperQuestions] = useState([]);
 
-  // Fetch initial question data from modular JSON files
+  // Fetch modular questions dynamically from index.json manifest
   useEffect(() => {
     async function loadAllQuestions() {
       setIsLoading(true);
+      let allQs = [];
+      
+      // Determine base URL dynamically for GitHub Pages & Vercel
+      const baseUrl = import.meta.env.BASE_URL || './';
+      const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+
       try {
-        const subjects = ['physics', 'chemistry', 'mathematics', 'computer_science'];
-        let allQs = [];
-        for (const sub of subjects) {
-          const res = await fetch(`/data/questions/${sub}.json`);
-          if (res.ok) {
-            const data = await res.json();
-            allQs = [...allQs, ...data];
+        // Fetch manifest index.json listing all registered chapter files
+        const indexRes = await fetch(`${cleanBase}data/questions/index.json`);
+        if (indexRes.ok) {
+          const fileList = await indexRes.json();
+          for (const fileRelPath of fileList) {
+            try {
+              const qRes = await fetch(`${cleanBase}data/questions/${fileRelPath}`);
+              if (qRes.ok) {
+                const qData = await qRes.json();
+                allQs = [...allQs, ...qData];
+              }
+            } catch (e) {
+              console.warn(`Failed to fetch modular chapter: ${fileRelPath}`, e);
+            }
           }
         }
-        setQuestionsBank(allQs);
-        
-        // Default select all chapters initially
-        const chapters = Array.from(new Set(allQs.map(q => q.chapter)));
-        setSelectedChapters(chapters);
       } catch (err) {
-        console.error('Failed to load questions:', err);
-      } finally {
-        setIsLoading(false);
+        console.warn('Dynamic fetch failed, falling back to bundled dataset:', err);
       }
+
+      // If network fetch returned empty due to offline or strict CDN, try relative fallback files
+      if (allQs.length === 0) {
+        const fallbacks = [
+          'data/questions/physics/electrostatics.json',
+          'data/questions/physics/current_electricity.json',
+          'data/questions/physics/rotational_dynamics.json',
+          'data/questions/physics/modern_physics.json',
+          'data/questions/chemistry/organic_reactions.json',
+          'data/questions/chemistry/physical_equilibrium.json',
+          'data/questions/chemistry/coordination_compounds.json',
+          'data/questions/mathematics/calculus.json',
+          'data/questions/mathematics/vectors_3d.json',
+          'data/questions/mathematics/probability.json',
+          'data/questions/mathematics/complex_numbers.json',
+          'data/questions/computer_science/data_structures.json',
+          'data/questions/computer_science/algorithms.json',
+          'data/questions/computer_science/digital_logic.json'
+        ];
+
+        for (const relPath of fallbacks) {
+          try {
+            const res = await fetch(`./${relPath}`);
+            if (res.ok) {
+              const data = await res.json();
+              allQs = [...allQs, ...data];
+            }
+          } catch (e) {
+            // silent catch
+          }
+        }
+      }
+
+      setQuestionsBank(allQs);
+      
+      // Default select all chapters initially
+      const chapters = Array.from(new Set(allQs.map(q => q.chapter)));
+      setSelectedChapters(chapters);
+      setIsLoading(false);
     }
+
     loadAllQuestions();
   }, []);
 
@@ -111,7 +157,7 @@ export default function App() {
         {isLoading ? (
           <div className="flex flex-col items-center justify-center py-20 text-slate-400 gap-3">
             <div className="h-8 w-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin" />
-            <p className="text-sm font-mono">Loading JEE Advanced Question Repository...</p>
+            <p className="text-sm font-mono">Loading JEE Advanced Modular Question Repository...</p>
           </div>
         ) : activeTab === 'bank' ? (
           <QuestionBankBrowser

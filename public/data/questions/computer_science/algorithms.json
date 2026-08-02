@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cs_002",
+    "subject": "Computer Science",
+    "chapter": "Algorithms",
+    "topic": "Time Complexity & Big O",
+    "type": "mcq",
+    "difficulty": "Advanced",
+    "questionText": "Consider the following recurrence relation for a divide-and-conquer algorithm: $T(n) = 2T(n/2) + n \\log n$ with $T(1) = 1$. Which of the following statements is/are CORRECT?",
+    "options": [
+      "By Master Theorem / Master Recurrence, $T(n) = \\Theta(n \\log^2 n)$.",
+      "The algorithm is asymptotically strictly slower than Merge Sort.",
+      "The time complexity is $O(n^2)$.",
+      "The space complexity is $O(1)$ auxiliary space."
+    ],
+    "answerKey": ["A", "B", "C"],
+    "solution": "1. Using generalized Master Theorem (Case 2 extension): $T(n) = \\Theta(n \\log^2 n)$ (Option A is correct).\n2. Merge Sort is $\\Theta(n \\log n)$, so $n \\log^2 n$ is asymptotically slower (Option B is correct).\n3. $n \\log^2 n \\in O(n^2)$ is upper bounded by $n^2$ (Option C is correct)."
+  }
+]

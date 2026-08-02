@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cs_001",
+    "subject": "Computer Science",
+    "chapter": "Data Structures",
+    "topic": "Binary Search Trees & Heap",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A min-heap contains 15 distinct integers. Which of the following array indices (1-based) CANNOT contain the maximum element of the heap?",
+    "options": [
+      "Index 1",
+      "Index 8",
+      "Index 12",
+      "Index 15"
+    ],
+    "answerKey": "A",
+    "solution": "In a min-heap, the root element (Index 1) is guaranteed to be the minimum element. The maximum element must reside in one of the leaf nodes (indices $\\lfloor N/2 \\rfloor + 1$ to $N$, i.e. 8 to 15). Therefore, Index 1 can never contain the maximum element."
+  }
+]

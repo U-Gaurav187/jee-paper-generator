@@ -1,0 +1,36 @@
+[
+  {
+    "id": "phy_001",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electric Field & Potential",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin spherical shell of radius $R$ has a total charge $Q$ distributed uniformly over its surface. A point charge $q$ is placed at a distance $r = \\frac{R}{2}$ from the center of the shell. The total electrostatic force exerted by the shell on the point charge $q$ is:",
+    "options": [
+      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{Qq}{R^2}$",
+      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{4Qq}{R^2}$",
+      "Zero",
+      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{2Qq}{R^2}$"
+    ],
+    "answerKey": "C",
+    "solution": "Inside a uniformly charged spherical shell, the electric field is zero everywhere by Gauss's Law ($E_{in} = 0$). Therefore, the electrostatic force exerted on charge $q$ inside the shell at $r = R/2$ is zero."
+  },
+  {
+    "id": "phy_002",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Capacitance & Dielectrics",
+    "type": "mcq",
+    "difficulty": "Advanced",
+    "questionText": "A parallel plate capacitor of capacitance $C$ is connected to a battery of EMF $V$. A dielectric slab of dielectric constant $K$ is slowly inserted between the plates to completely fill the space, while the battery remains connected. Which of the following statements is/are CORRECT?",
+    "options": [
+      "The final capacitance of the capacitor becomes $KC$.",
+      "The energy stored in the capacitor increases by a factor of $K$.",
+      "The charge supplied by the battery is $(K-1)CV$.",
+      "The work done by the battery is $K C V^2$."
+    ],
+    "answerKey": ["A", "B", "C"],
+    "solution": "1. Capacitance with dielectric: $C' = KC$ (Option A is correct).\n2. Energy stored initially $U_i = \\frac{1}{2}CV^2$, final $U_f = \\frac{1}{2}KC V^2 = K U_i$ (Option B is correct).\n3. Extra charge supplied $\\Delta Q = Q_f - Q_i = (KC - C)V = (K-1)CV$ (Option C is correct)."
+  }
+]

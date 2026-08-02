@@ -1,0 +1,18 @@
+[
+  {
+    "id": "phy_003",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Kirchhoff Laws & Circuit Networks",
+    "type": "numerical",
+    "difficulty": "Hard",
+    "questionText": "In the circuit shown below, five identical resistors each of resistance $R = 10\\ \\Omega$ are connected in a bridge configuration. An ideal DC voltage source of $V = 20\\text{ V}$ is connected across the network. Calculate the equivalent resistance (in $\\Omega$) of the circuit network.",
+    "media": {
+      "type": "svg",
+      "content": "<svg viewBox='0 0 300 160' class='w-full max-w-xs mx-auto my-2'><rect x='40' y='30' width='220' height='100' fill='none' stroke='#000' stroke-width='2'/><polyline points='40,80 150,30 260,80 150,130 40,80' fill='none' stroke='#2563eb' stroke-width='2'/ stroke-dasharray='4,4'/><line x1='150' y1='30' x2='150' y2='130' stroke='#dc2626' stroke-width='2.5'/><circle cx='40' cy='80' r='4' fill='#000'/><circle cx='260' cy='80' r='4' fill='#000'/><text x='150' y='22' text-anchor='middle' font-size='12' fill='#1e293b'>Balanced Wheatstone Bridge</text></svg>",
+      "position": "bottom"
+    },
+    "answerKey": "10",
+    "solution": "The circuit forms a balanced Wheatstone bridge ($R_1/R_2 = R_3/R_4 = 1$). The central resistor carries zero current and can be removed. The network reduces to two parallel branches each of resistance $2R = 20\\ \\Omega$. Equivalent resistance $R_{eq} = \\frac{20 \\times 20}{20 + 20} = 10\\ \\Omega$."
+  }
+]
