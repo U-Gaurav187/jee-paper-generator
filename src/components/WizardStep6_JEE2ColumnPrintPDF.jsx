@@ -15,8 +15,9 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
   const [showWatermark, setShowWatermark] = useState(true);
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
 
-  // Group questions by type to form authentic JEE Advanced Section headers
-  const groupedQuestions = React.useMemo(() => {
+  // Calculate sequential question numbers and group questions by section type
+  const { groupedQuestions, totalAssignedQuestions } = React.useMemo(() => {
+    let currentNumber = 1;
     const sections = [];
     const types = ['scq', 'mcq', 'numerical', 'paragraph', 'matrix_match'];
     const typeTitles = {
@@ -30,14 +31,40 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
     types.forEach(t => {
       const qs = paperQuestions.filter(q => q.type === t);
       if (qs.length > 0) {
+        const numberedQs = qs.map(q => {
+          if (q.type === 'paragraph' && Array.isArray(q.subQuestions)) {
+            const startNo = currentNumber;
+            const endNo = currentNumber + q.subQuestions.length - 1;
+            const subQsNumbered = q.subQuestions.map((subQ, idx) => ({
+              ...subQ,
+              qNo: startNo + idx
+            }));
+            currentNumber += q.subQuestions.length;
+            return {
+              ...q,
+              startNo,
+              endNo,
+              subQuestions: subQsNumbered
+            };
+          } else {
+            const qNo = currentNumber;
+            currentNumber += 1;
+            return {
+              ...q,
+              qNo
+            };
+          }
+        });
+
         sections.push({
           type: t,
           title: typeTitles[t],
-          questions: qs
+          questions: numberedQs
         });
       }
     });
-    return sections;
+
+    return { groupedQuestions: sections, totalAssignedQuestions: currentNumber - 1 };
   }, [paperQuestions]);
 
   // Native Browser Print Trigger
@@ -52,7 +79,6 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
 
     const element = paperRef.current;
     
-    // Configure html2pdf to generate 100% full-bleed A4 PDF with ZERO grey background padding
     const opt = {
       margin: [10, 10, 10, 10],
       filename: `${metadata.testTitle.replace(/[^a-z0-9]/gi, '_')}.pdf`,
@@ -182,7 +208,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
               <div className="flex items-center justify-between text-[8.5pt] font-semibold text-slate-800 mt-2.5 pt-2 border-t border-slate-300">
                 <span>Standard: {metadata.standard}</span>
                 <span>Time Allowed: {metadata.timeAllowed}</span>
-                <span>Max Marks: {paperQuestions.length * 4} Marks</span>
+                <span>Max Marks: {totalAssignedQuestions * 4} Marks</span>
               </div>
             </div>
 
@@ -190,7 +216,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
             <div className="bg-slate-50 border border-slate-300 rounded p-2 mb-4 text-[8.5pt] text-slate-800 leading-tight">
               <span className="font-bold uppercase text-[9pt] block mb-0.5">Read the Following Instructions Carefully:</span>
               <ol className="list-decimal list-inside space-y-0.5 text-[8.5pt]">
-                <li>This question paper contains <strong>{paperQuestions.length} Questions</strong> split into 2 columns.</li>
+                <li>This question paper contains <strong>{totalAssignedQuestions} Questions</strong> split into 2 columns.</li>
                 <li>Marking Scheme: {metadata.markingScheme}</li>
                 <li>For Numerical / Integer type questions, enter the non-negative integer or decimal value.</li>
                 <li>Use of calculators, smartwatches, or logarithmic tables is strictly prohibited.</li>
@@ -208,109 +234,105 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                   </div>
 
                   {/* Questions inside Section */}
-                  {sec.questions.map((q) => {
-                    const globalIndex = paperQuestions.findIndex(item => item.id === q.id) + 1;
-
-                    return (
-                      <div key={q.id} className="jee-question-card text-[9.5pt]">
-                        
-                        {/* Paragraph Passage Stem */}
-                        {q.type === 'paragraph' ? (
-                          <div className="mb-3">
-                            
-                            {/* Publication-Grade Passage Stem Header */}
-                            <div className="mb-3 bg-slate-50 border-l-4 border-slate-900 p-2.5 rounded-r border border-slate-200">
-                              <span className="text-[8pt] uppercase font-extrabold tracking-wider text-indigo-900 block mb-1">
-                                Passage / Comprehension Stem
-                              </span>
-                              <div className="text-[9pt] text-slate-900 leading-snug font-serif">
-                                <KaTeXRenderer text={q.paragraphText} />
-                              </div>
+                  {sec.questions.map((q) => (
+                    <div key={q.id} className="jee-question-card text-[9.5pt]">
+                      
+                      {/* Paragraph Passage Stem */}
+                      {q.type === 'paragraph' ? (
+                        <div className="mb-3">
+                          
+                          {/* Dynamic Passage Header: Passage for Questions X and Y */}
+                          <div className="mb-3 bg-slate-50 border-l-4 border-slate-900 p-2.5 rounded-r border border-slate-200">
+                            <span className="text-[8.5pt] uppercase font-extrabold tracking-wider text-indigo-900 block mb-1">
+                              Passage for Questions {q.startNo} {q.startNo !== q.endNo ? `to ${q.endNo}` : ''}:
+                            </span>
+                            <div className="text-[9pt] text-slate-900 leading-snug font-serif">
+                              <KaTeXRenderer text={q.paragraphText} />
                             </div>
-
-                            {/* Sub-Questions with Clean Numbering Q.X(a), Q.X(b) */}
-                            {q.subQuestions?.map((subQ, subIdx) => (
-                              <div key={subQ.subId} className="mt-2.5 pt-2 border-t border-slate-200/80 text-[9.5pt]">
-                                <div className="font-bold text-slate-950 flex items-start gap-1">
-                                  <span className="font-mono text-indigo-900 flex-shrink-0">
-                                    Q.{globalIndex}({String.fromCharCode(97 + subIdx)}).
-                                  </span>
-                                  <div className="font-normal">
-                                    <KaTeXRenderer text={subQ.questionText} />
-                                  </div>
-                                </div>
-
-                                {subQ.options && (
-                                  <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt]">
-                                    {subQ.options.map((opt, oIdx) => (
-                                      <div key={oIdx} className="flex items-start gap-1">
-                                        <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
-                                        <KaTeXRenderer text={opt} />
-                                      </div>
-                                    ))}
-                                  </div>
-                                )}
-                              </div>
-                            ))}
                           </div>
-                        ) : (
-                          <div>
-                            {/* Question Number & Text */}
-                            <div className="font-bold flex items-start gap-1 text-slate-950">
-                              <span className="font-mono text-slate-900 flex-shrink-0">Q.{globalIndex}.</span>
-                              <div className="font-normal">
-                                <KaTeXRenderer text={q.questionText} />
-                              </div>
-                            </div>
 
-                            {/* Render Organic Chemistry SMILES Structure */}
-                            {q.chemStructure && (
-                              <div className="my-2 text-center">
-                                <SmilesRenderer smiles={q.chemStructure} width={130} height={95} />
-                              </div>
-                            )}
-
-                            {/* Render Vector SVG Media Diagram */}
-                            {q.media && q.media.type === 'svg' && (
-                              <div className="my-2 text-center" dangerouslySetInnerHTML={{ __html: q.media.content }} />
-                            )}
-
-                            {/* SCQ / MCQ Options */}
-                            {q.options && (
-                              <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt] text-slate-900">
-                                {q.options.map((opt, oIdx) => (
-                                  <div key={oIdx} className="flex items-start gap-1">
-                                    <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
-                                    <KaTeXRenderer text={opt} />
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-
-                            {/* Matrix Match Type Grid Table */}
-                            {q.type === 'matrix_match' && q.matrixMatch && (
-                              <div className="mt-2 text-[8.5pt] border border-slate-300 rounded p-1.5 bg-slate-50/60">
-                                <div className="grid grid-cols-2 gap-1.5">
-                                  <div>
-                                    <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column I</span>
-                                    {q.matrixMatch.column1.map((item, i) => (
-                                      <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
-                                    ))}
-                                  </div>
-                                  <div>
-                                    <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column II</span>
-                                    {q.matrixMatch.column2.map((item, i) => (
-                                      <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
-                                    ))}
-                                  </div>
+                          {/* Sub-Questions with Clean Sequential Numbering Q.5, Q.6 */}
+                          {q.subQuestions?.map((subQ) => (
+                            <div key={subQ.subId} className="mt-2.5 pt-2 border-t border-slate-200/80 text-[9.5pt]">
+                              <div className="font-bold text-slate-950 flex items-start gap-1">
+                                <span className="font-mono text-slate-900 flex-shrink-0">
+                                  Q.{subQ.qNo}.
+                                </span>
+                                <div className="font-normal">
+                                  <KaTeXRenderer text={subQ.questionText} />
                                 </div>
                               </div>
-                            )}
+
+                              {subQ.options && (
+                                <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt]">
+                                  {subQ.options.map((opt, oIdx) => (
+                                    <div key={oIdx} className="flex items-start gap-1">
+                                      <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
+                                      <KaTeXRenderer text={opt} />
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div>
+                          {/* Sequential Question Number & Text */}
+                          <div className="font-bold flex items-start gap-1 text-slate-950">
+                            <span className="font-mono text-slate-900 flex-shrink-0">Q.{q.qNo}.</span>
+                            <div className="font-normal">
+                              <KaTeXRenderer text={q.questionText} />
+                            </div>
                           </div>
-                        )}
-                      </div>
-                    );
-                  })}
+
+                          {/* Render Organic Chemistry SMILES Structure */}
+                          {q.chemStructure && (
+                            <div className="my-2 text-center">
+                              <SmilesRenderer smiles={q.chemStructure} width={130} height={95} />
+                            </div>
+                          )}
+
+                          {/* Render Vector SVG Media Diagram */}
+                          {q.media && q.media.type === 'svg' && (
+                            <div className="my-2 text-center" dangerouslySetInnerHTML={{ __html: q.media.content }} />
+                          )}
+
+                          {/* SCQ / MCQ Options */}
+                          {q.options && (
+                            <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt] text-slate-900">
+                              {q.options.map((opt, oIdx) => (
+                                <div key={oIdx} className="flex items-start gap-1">
+                                  <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
+                                  <KaTeXRenderer text={opt} />
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {/* Matrix Match Type Grid Table */}
+                          {q.type === 'matrix_match' && q.matrixMatch && (
+                            <div className="mt-2 text-[8.5pt] border border-slate-300 rounded p-1.5 bg-slate-50/60">
+                              <div className="grid grid-cols-2 gap-1.5">
+                                <div>
+                                  <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column I</span>
+                                  {q.matrixMatch.column1.map((item, i) => (
+                                    <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
+                                  ))}
+                                </div>
+                                <div>
+                                  <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column II</span>
+                                  {q.matrixMatch.column2.map((item, i) => (
+                                    <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
               ))}
             </div>
@@ -327,14 +349,24 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                   <p className="text-[8.5pt] text-slate-600 font-mono">{metadata.testTitle}</p>
                 </div>
 
-                {/* Grid Table of Answer Keys */}
+                {/* Grid Table of Sequential Answer Keys */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 font-mono text-[8pt] mb-6">
-                  {paperQuestions.map((q, idx) => (
-                    <div key={q.id} className="border border-slate-400 p-1.5 bg-slate-50 rounded">
-                      <span className="font-bold text-slate-700 mr-1">Q.{idx + 1}:</span>
-                      <span className="font-bold text-indigo-800">{formatAnswerKey(q)}</span>
-                    </div>
-                  ))}
+                  {groupedQuestions.flatMap(sec => sec.questions).flatMap(q => {
+                    if (q.type === 'paragraph' && Array.isArray(q.subQuestions)) {
+                      return q.subQuestions.map(subQ => (
+                        <div key={subQ.subId} className="border border-slate-400 p-1.5 bg-slate-50 rounded">
+                          <span className="font-bold text-slate-700 mr-1">Q.{subQ.qNo}:</span>
+                          <span className="font-bold text-indigo-800">{formatAnswerKey(subQ)}</span>
+                        </div>
+                      ));
+                    }
+                    return (
+                      <div key={q.id} className="border border-slate-400 p-1.5 bg-slate-50 rounded">
+                        <span className="font-bold text-slate-700 mr-1">Q.{q.qNo}:</span>
+                        <span className="font-bold text-indigo-800">{formatAnswerKey(q)}</span>
+                      </div>
+                    );
+                  })}
                 </div>
 
                 {/* Step-by-Step Solutions */}
@@ -345,16 +377,30 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                 </div>
 
                 <div className="space-y-3 text-[9pt]">
-                  {paperQuestions.map((q, idx) => (
-                    <div key={q.id} className="border-b border-slate-200 pb-2">
-                      <span className="font-bold font-mono text-indigo-900">
-                        Question {idx + 1} ({q.subject} - {q.chapter}):
-                      </span>
-                      <div className="mt-1 text-slate-800 leading-relaxed font-sans bg-slate-50 p-2 rounded border border-slate-200 text-[8.5pt]">
-                        <KaTeXRenderer text={q.solution || 'Detailed step-by-step solution available in question repository.'} />
+                  {groupedQuestions.flatMap(sec => sec.questions).flatMap(q => {
+                    if (q.type === 'paragraph' && Array.isArray(q.subQuestions)) {
+                      return q.subQuestions.map(subQ => (
+                        <div key={subQ.subId} className="border-b border-slate-200 pb-2">
+                          <span className="font-bold font-mono text-indigo-900">
+                            Question {subQ.qNo} ({q.subject} - {q.chapter}):
+                          </span>
+                          <div className="mt-1 text-slate-800 leading-relaxed font-sans bg-slate-50 p-2 rounded border border-slate-200 text-[8.5pt]">
+                            <KaTeXRenderer text={subQ.solution || q.solution || 'Detailed step-by-step solution available in question repository.'} />
+                          </div>
+                        </div>
+                      ));
+                    }
+                    return (
+                      <div key={q.id} className="border-b border-slate-200 pb-2">
+                        <span className="font-bold font-mono text-indigo-900">
+                          Question {q.qNo} ({q.subject} - {q.chapter}):
+                        </span>
+                        <div className="mt-1 text-slate-800 leading-relaxed font-sans bg-slate-50 p-2 rounded border border-slate-200 text-[8.5pt]">
+                          <KaTeXRenderer text={q.solution || 'Detailed step-by-step solution available in question repository.'} />
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             )}
