@@ -1,0 +1,116 @@
+[
+  {
+    "id": "chem_001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Aromatic Compounds & Electrophilic Substitution",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Phenol reacts with concentrated $\\text{HNO}_3$ in the presence of concentrated $\\text{H}_2\\text{SO}_4$ to give a major product $X$. What is the IUPAC name and SMILES chemical structure of product $X$?",
+    "chemStructure": "Oc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]",
+    "options": [
+      "2,4,6-Trinitrophenol (Picric Acid)",
+      "2,4-Dinitrophenol",
+      "o-Nitrophenol",
+      "p-Nitrophenol"
+    ],
+    "answerKey": "A",
+    "solution": "Concentrated nitrating mixture ($\text{HNO}_3 + \text{H}_2\text{SO}_4$) strongly nitrates phenol at both ortho and para positions due to the strong activating $+M$ effect of the $-\text{OH}$ group, forming 2,4,6-Trinitrophenol (Picric acid)."
+  },
+  {
+    "id": "chem_002",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Reimer-Tiemann & Kolbe Reactions",
+    "type": "mcq",
+    "difficulty": "Advanced",
+    "questionText": "Consider the Reimer-Tiemann reaction of Phenol with chloroform ($\text{CHCl}_3$) in aqueous $\\text{NaOH}$ solution. Which of the following statements regarding the reaction mechanism is/are CORRECT?",
+    "chemStructure": "Oc1ccccc1C=O",
+    "options": [
+      "The reactive electrophilic intermediate is Dichlorocarbene ($:\\text{CCl}_2$).",
+      "The major product obtained after acidification is Salicylaldehyde (2-hydroxybenzaldehyde).",
+      "Intramolecular hydrogen bonding stabilizes the ortho-isomer over the para-isomer.",
+      "The reaction involves a free radical mechanism."
+    ],
+    "answerKey": ["A", "B", "C"],
+    "solution": "1. $\\text{CHCl}_3 + \\text{OH}^- \\rightarrow :\\text{CCl}_2 + \\text{Cl}^- + \\text{H}_2\\text{O}$ (Dichlorocarbene electrophile, Option A is correct).\n2. Major product is Salicylaldehyde (Option B is correct).\n3. Chelation / Intramolecular H-bonding between $-\\text{OH}$ and $-\\text{CHO}$ stabilizes the ortho product (Option C is correct)."
+  },
+  {
+    "id": "chem_003",
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "topic": "Chemical Equilibrium & Thermodynamics",
+    "type": "numerical",
+    "difficulty": "Hard",
+    "questionText": "For the gaseous dissociation reaction $\\text{N}_2\\text{O}_4(g) \\rightleftharpoons 2\\text{NO}_2(g)$, the standard Gibbs free energy change at $T = 300\\text{ K}$ is $\\Delta G^\\circ = 5.75\\text{ kJ/mol}$. Take $R = 8.314\\text{ J/(mol K)}$ and $\\ln(10) = 2.3$. Calculate the equilibrium constant $K_p$ (rounded to 1 decimal place).",
+    "answerKey": "0.1",
+    "solution": "$\\Delta G^\\circ = -RT \\ln K_p \\implies \\ln K_p = -\\frac{5750}{8.314 \\times 300} = -2.3 \\implies K_p = e^{-2.3} = 10^{-1} = 0.1$."
+  },
+  {
+    "id": "chem_004",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Reaction Cascades & Grignard Reagents",
+    "type": "paragraph",
+    "difficulty": "Advanced",
+    "paragraphText": "**Passage for Questions 4 and 5:**\nAn organic compound $A$ ($\text{C}_7\text{H}_6\text{O}$) has a Benzene ring structure. Compound $A$ gives a positive 2,4-DNP test but negative Tollens and Fehling tests. On treatment with methylmagnesium bromide ($\text{CH}_3\text{MgBr}$) followed by acid hydrolysis, compound $A$ yields alcohol $B$.",
+    "chemStructure": "O=C(c1ccccc1)C",
+    "subQuestions": [
+      {
+        "subId": "chem_004_1",
+        "questionText": "Identify Compound $A$:",
+        "options": [
+          "Benzaldehyde",
+          "Acetophenone (Methyl phenyl ketone)",
+          "Benzoic acid",
+          "Benzyl alcohol"
+        ],
+        "answerKey": "B",
+        "solution": "Acetophenone gives 2,4-DNP test (ketone) but does not reduce Tollens/Fehling reagents (ketones are non-reducing sugars/aldehydes)."
+      },
+      {
+        "subId": "chem_004_2",
+        "questionText": "Alcohol $B$ formed upon Grignard reaction is a:",
+        "options": [
+          "Primary Alcohol",
+          "Secondary Alcohol",
+          "Tertiary Alcohol",
+          "Aromatic Phenol"
+        ],
+        "answerKey": "C",
+        "solution": "Grignard addition of $\\text{CH}_3\\text{MgBr}$ to Acetophenone gives 2-phenylpropan-2-ol, which is a tertiary ($3^\\circ$) alcohol."
+      }
+    ]
+  },
+  {
+    "id": "chem_005",
+    "subject": "Chemistry",
+    "chapter": "Inorganic Chemistry",
+    "topic": "Coordination Compounds & Hybridization",
+    "type": "matrix_match",
+    "difficulty": "Hard",
+    "questionText": "Match the coordination complexes in Column I with their geometric hybridization and magnetic properties in Column II:",
+    "matrixMatch": {
+      "column1": [
+        "A. $[\\text{Fe}(\\text{CN})_6]^{3-}$",
+        "B. $[\\text{Ni}(\\text{CO})_4]$",
+        "C. $[\\text{Ni}(\\text{CN})_4]^{2-}$",
+        "D. $[\\text{MnCl}_4]^{2-}$"
+      ],
+      "column2": [
+        "P. $sp^3 d^2$ / Octahedral, Paramagnetic",
+        "Q. $d^2 sp^3$ / Octahedral, Paramagnetic (1 unpaired electron)",
+        "R. $sp^3$ / Tetrahedral, Diamagnetic",
+        "S. $dsp^2$ / Square planar, Diamagnetic",
+        "T. $sp^3$ / Tetrahedral, Paramagnetic (5 unpaired electrons)"
+      ]
+    },
+    "answerKey": {
+      "A": ["Q"],
+      "B": ["R"],
+      "C": ["S"],
+      "D": ["T"]
+    },
+    "solution": "A -> Q ($d^2sp^3$, low spin octahedral, $\\text{Fe}^{3+} (d^5)$ 1 unpaired e-).\nB -> R ($sp^3$, tetrahedral, $\\text{Ni}^0 (d^{10})$ diamagnetic).\nC -> S ($dsp^2$, square planar, $\\text{Ni}^{2+} (d^8)$ strong field ligand $\\text{CN}^-$ pairing).\nD -> T ($sp^3$, tetrahedral, $\\text{Mn}^{2+} (d^5)$ weak field $\\text{Cl}^-$ high spin)."
+  }
+]
