@@ -3,6 +3,7 @@ import katex from 'katex';
 
 /**
  * Parses inline ($...$) and block ($$...$$) LaTeX expressions mixed with plain text.
+ * Also sanitizes JSON tab-escaped strings (e.g. 'ext{' -> '\text{').
  */
 export default function KaTeXRenderer({ text, className = '' }) {
   const containerRef = useRef(null);
@@ -13,9 +14,18 @@ export default function KaTeXRenderer({ text, className = '' }) {
     // Reset container
     containerRef.current.innerHTML = '';
 
+    // Sanitize string if JSON tab escape converted \text to ext or \hat to ^
+    let sanitizedText = text
+      .replace(/ext\{/g, '\\text{')
+      .replace(/\\ext\{/g, '\\text{')
+      .replace(/(\s)ext\s/g, '$1\\text{ }')
+      .replace(/\^i/g, '\\hat{i}')
+      .replace(/\^j/g, '\\hat{j}')
+      .replace(/\^k/g, '\\hat{k}');
+
     // Regex to split by $$...$$ (block) and $...$ (inline)
     const regex = /(\$\$[\s\S]+?\$\$|\$[^$\n]+?\$)/g;
-    const parts = text.split(regex);
+    const parts = sanitizedText.split(regex);
 
     parts.forEach((part) => {
       if (!part) return;

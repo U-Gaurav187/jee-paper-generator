@@ -15,7 +15,7 @@
       "p-Nitrophenol"
     ],
     "answerKey": "A",
-    "solution": "Concentrated nitrating mixture ($\text{HNO}_3 + \text{H}_2\text{SO}_4$) strongly nitrates phenol at both ortho and para positions due to the strong activating $+M$ effect of the $-\text{OH}$ group, forming 2,4,6-Trinitrophenol (Picric acid)."
+    "solution": "Concentrated nitrating mixture ($\\text{HNO}_3 + \\text{H}_2\\text{SO}_4$) strongly nitrates phenol at both ortho and para positions due to the strong activating $+M$ effect of the $-\\text{OH}$ group, forming 2,4,6-Trinitrophenol (Picric acid)."
   },
   {
     "id": "chem_002",
@@ -24,7 +24,7 @@
     "topic": "Reimer-Tiemann & Kolbe Reactions",
     "type": "mcq",
     "difficulty": "Advanced",
-    "questionText": "Consider the Reimer-Tiemann reaction of Phenol with chloroform ($\text{CHCl}_3$) in aqueous $\\text{NaOH}$ solution. Which of the following statements regarding the reaction mechanism is/are CORRECT?",
+    "questionText": "Consider the Reimer-Tiemann reaction of Phenol with chloroform ($\\text{CHCl}_3$) in aqueous $\\text{NaOH}$ solution. Which of the following statements regarding the reaction mechanism is/are CORRECT?",
     "chemStructure": "Oc1ccccc1C=O",
     "options": [
       "The reactive electrophilic intermediate is Dichlorocarbene ($:\\text{CCl}_2$).",
@@ -42,7 +42,7 @@
     "topic": "Reaction Cascades & Grignard Reagents",
     "type": "paragraph",
     "difficulty": "Advanced",
-    "paragraphText": "**Passage for Questions 4 and 5:**\nAn organic compound $A$ ($\text{C}_7\text{H}_6\text{O}$) has a Benzene ring structure. Compound $A$ gives a positive 2,4-DNP test but negative Tollens and Fehling tests. On treatment with methylmagnesium bromide ($\text{CH}_3\text{MgBr}$) followed by acid hydrolysis, compound $A$ yields alcohol $B$.",
+    "paragraphText": "**Passage for Questions 4 and 5:**\nAn organic compound $A$ ($\\text{C}_7\\text{H}_6\\text{O}$) has a Benzene ring structure. Compound $A$ gives a positive 2,4-DNP test but negative Tollens and Fehling tests. On treatment with methylmagnesium bromide ($\\text{CH}_3\\text{MgBr}$) followed by acid hydrolysis, compound $A$ yields alcohol $B$.",
     "chemStructure": "O=C(c1ccccc1)C",
     "subQuestions": [
       {

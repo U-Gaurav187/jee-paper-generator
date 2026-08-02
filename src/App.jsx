@@ -70,38 +70,6 @@ export default function App() {
         console.warn('Dynamic fetch failed, falling back to bundled dataset:', err);
       }
 
-      // If network fetch returned empty due to offline or strict CDN, try relative fallback files
-      if (allQs.length === 0) {
-        const fallbacks = [
-          'data/questions/physics/electrostatics.json',
-          'data/questions/physics/current_electricity.json',
-          'data/questions/physics/rotational_dynamics.json',
-          'data/questions/physics/modern_physics.json',
-          'data/questions/chemistry/organic_reactions.json',
-          'data/questions/chemistry/physical_equilibrium.json',
-          'data/questions/chemistry/coordination_compounds.json',
-          'data/questions/mathematics/calculus.json',
-          'data/questions/mathematics/vectors_3d.json',
-          'data/questions/mathematics/probability.json',
-          'data/questions/mathematics/complex_numbers.json',
-          'data/questions/computer_science/data_structures.json',
-          'data/questions/computer_science/algorithms.json',
-          'data/questions/computer_science/digital_logic.json'
-        ];
-
-        for (const relPath of fallbacks) {
-          try {
-            const res = await fetch(`./${relPath}`);
-            if (res.ok) {
-              const data = await res.json();
-              allQs = [...allQs, ...data];
-            }
-          } catch (e) {
-            // silent catch
-          }
-        }
-      }
-
       setQuestionsBank(allQs);
       
       // Default select all chapters initially
@@ -143,19 +111,21 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
       
-      {/* Navigation Header */}
-      <Header
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        questionCount={questionsBank.length}
-        onOpenIngestionGuide={() => setIsIngestionGuideOpen(true)}
-      />
+      {/* Navigation Header (Hidden during print) */}
+      <div className="no-print">
+        <Header
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+          questionCount={questionsBank.length}
+          onOpenIngestionGuide={() => setIsIngestionGuideOpen(true)}
+        />
+      </div>
 
       {/* Main App Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         
         {isLoading ? (
-          <div className="flex flex-col items-center justify-center py-20 text-slate-400 gap-3">
+          <div className="flex flex-col items-center justify-center py-20 text-slate-400 gap-3 no-print">
             <div className="h-8 w-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin" />
             <p className="text-sm font-mono">Loading JEE Advanced Modular Question Repository...</p>
           </div>
@@ -166,8 +136,8 @@ export default function App() {
           />
         ) : (
           <div>
-            {/* Step Progress Stepper Bar */}
-            <div className="mb-8 bg-slate-900/60 border border-slate-800 rounded-2xl p-4 backdrop-blur-xl">
+            {/* Step Progress Stepper Bar (Explicitly Hidden during Print) */}
+            <div className="no-print mb-8 bg-slate-900/60 border border-slate-800 rounded-2xl p-4 backdrop-blur-xl">
               <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
                 {[
                   { step: 1, label: 'Metadata' },
