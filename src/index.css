@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* 2-Column JEE A4 Printable Styles */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 12mm 12mm 12mm;
+  }
+  
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 10.5pt;
+    line-height: 1.35;
+  }
+
+  /* Hide interactive web chrome */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Show only paper render container */
+  .print-only-container {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .jee-paper-page {
+    column-count: 2 !important;
+    column-gap: 18px !important;
+    column-rule: 1px solid #cbd5e1 !important;
+    page-break-after: always;
+    width: 100% !important;
+  }
+
+  .question-block {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e2e8f0;
+  }
+
+  .full-width-header {
+    column-span: all !important;
+    margin-bottom: 12px;
+  }
+}
+
+/* On-screen 2-column preview simulation */
+.jee-paper-preview {
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #000000;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  min-height: 1000px;
+}
+
+.jee-question-card {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.span-all-columns {
+  column-span: all;
+}
