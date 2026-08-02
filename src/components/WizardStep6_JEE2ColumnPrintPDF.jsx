@@ -51,11 +51,18 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
     setIsGeneratingPdf(true);
 
     const element = paperRef.current;
+    
+    // Configure html2pdf to generate 100% full-bleed A4 PDF with ZERO grey background padding
     const opt = {
-      margin: [8, 8, 8, 8],
+      margin: [10, 10, 10, 10],
       filename: `${metadata.testTitle.replace(/[^a-z0-9]/gi, '_')}.pdf`,
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true, letterRendering: true },
+      html2canvas: { 
+        scale: 2, 
+        useCORS: true, 
+        letterRendering: true,
+        backgroundColor: '#ffffff'
+      },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
     };
@@ -83,7 +90,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
   return (
     <div className="space-y-6">
       
-      {/* Top Action Bar (Web Screen Only - Hidden during print) */}
+      {/* Top Action Bar (Web Screen Only - Explicitly Hidden during Print) */}
       <div className="no-print bg-slate-900/90 border border-slate-800 rounded-2xl p-4 sm:p-6 backdrop-blur-xl flex flex-col sm:flex-row items-center justify-between gap-4 sticky top-20 z-30 shadow-2xl">
         <div className="flex items-center gap-3">
           <button
@@ -143,13 +150,14 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
         </div>
       </div>
 
-      {/* Pure A4 Paper Document Node Target for PDF Generation */}
-      <div className="print-only-container flex justify-center overflow-x-auto py-4 bg-slate-950 sm:p-6 rounded-2xl">
+      {/* Outer Web Container (Grey on screen, strictly white & unbordered on PDF export) */}
+      <div className="print-only-container flex justify-center overflow-x-auto py-2 bg-slate-950 sm:p-4 rounded-2xl">
         
+        {/* Pure A4 Paper Target Node (Targeted by html2pdf - 0 shadow, 0 outer border) */}
         <div
           ref={paperRef}
-          className="jee-paper-document relative bg-white text-slate-950 p-6 sm:p-10 rounded shadow-2xl max-w-[210mm] w-full text-[10.5pt] leading-normal font-sans"
-          style={{ minHeight: '297mm' }}
+          className="jee-paper-document relative bg-white text-slate-950 p-6 sm:p-8 max-w-[210mm] w-full text-[10pt] leading-snug font-sans"
+          style={{ minHeight: '297mm', boxSizing: 'border-box' }}
         >
           {/* Optional Background Watermark */}
           {showWatermark && (
@@ -167,11 +175,11 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
               <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-slate-900 mb-1">
                 {metadata.instituteName || 'JEE ADVANCED EXAMINATION'}
               </h1>
-              <h2 className="text-base font-bold text-slate-800 uppercase tracking-wide">
+              <h2 className="text-sm font-bold text-slate-800 uppercase tracking-wide">
                 {metadata.testTitle || 'JEE ADVANCED FULL MOCK TEST'}
               </h2>
 
-              <div className="flex items-center justify-between text-xs font-semibold text-slate-800 mt-3 pt-2 border-t border-slate-300">
+              <div className="flex items-center justify-between text-[8.5pt] font-semibold text-slate-800 mt-2.5 pt-2 border-t border-slate-300">
                 <span>Standard: {metadata.standard}</span>
                 <span>Time Allowed: {metadata.timeAllowed}</span>
                 <span>Max Marks: {paperQuestions.length * 4} Marks</span>
@@ -179,8 +187,8 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
             </div>
 
             {/* Test Instructions Box */}
-            <div className="bg-slate-50 border border-slate-300 rounded p-2.5 mb-5 text-[9pt] text-slate-800 leading-snug">
-              <span className="font-bold uppercase text-[9.5pt] block mb-1">Read the Following Instructions Carefully:</span>
+            <div className="bg-slate-50 border border-slate-300 rounded p-2 mb-4 text-[8.5pt] text-slate-800 leading-tight">
+              <span className="font-bold uppercase text-[9pt] block mb-0.5">Read the Following Instructions Carefully:</span>
               <ol className="list-decimal list-inside space-y-0.5 text-[8.5pt]">
                 <li>This question paper contains <strong>{paperQuestions.length} Questions</strong> split into 2 columns.</li>
                 <li>Marking Scheme: {metadata.markingScheme}</li>
@@ -192,10 +200,10 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
             {/* 2-Column Question Layout Container */}
             <div className="jee-paper-preview">
               {groupedQuestions.map((sec) => (
-                <div key={sec.type} className="mb-5">
+                <div key={sec.type} className="mb-4">
                   
                   {/* Section Title Banner */}
-                  <div className="span-all-columns bg-slate-100 border-y-2 border-slate-800 py-1 px-2 mb-3 font-bold text-[9.5pt] uppercase tracking-wide text-slate-900 text-center">
+                  <div className="span-all-columns bg-slate-100 border-y-2 border-slate-800 py-1 px-2 mb-3 font-bold text-[9pt] uppercase tracking-wide text-slate-900 text-center">
                     {sec.title}
                   </div>
 
@@ -204,26 +212,36 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                     const globalIndex = paperQuestions.findIndex(item => item.id === q.id) + 1;
 
                     return (
-                      <div key={q.id} className="jee-question-card text-[10pt]">
+                      <div key={q.id} className="jee-question-card text-[9.5pt]">
                         
                         {/* Paragraph Passage Stem */}
                         {q.type === 'paragraph' ? (
                           <div className="mb-3">
-                            <div className="bg-slate-50 border-l-2 border-slate-800 p-2 text-[9pt] mb-2 text-slate-900 italic font-serif leading-snug">
-                              <KaTeXRenderer text={q.paragraphText} />
+                            
+                            {/* Publication-Grade Passage Stem Header */}
+                            <div className="mb-3 bg-slate-50 border-l-4 border-slate-900 p-2.5 rounded-r border border-slate-200">
+                              <span className="text-[8pt] uppercase font-extrabold tracking-wider text-indigo-900 block mb-1">
+                                Passage / Comprehension Stem
+                              </span>
+                              <div className="text-[9pt] text-slate-900 leading-snug font-serif">
+                                <KaTeXRenderer text={q.paragraphText} />
+                              </div>
                             </div>
 
+                            {/* Sub-Questions with Clean Numbering Q.X(a), Q.X(b) */}
                             {q.subQuestions?.map((subQ, subIdx) => (
-                              <div key={subQ.subId} className="mt-2 text-[9.5pt]">
+                              <div key={subQ.subId} className="mt-2.5 pt-2 border-t border-slate-200/80 text-[9.5pt]">
                                 <div className="font-bold text-slate-950 flex items-start gap-1">
-                                  <span>Q.{globalIndex}.{subIdx + 1}</span>
+                                  <span className="font-mono text-indigo-900 flex-shrink-0">
+                                    Q.{globalIndex}({String.fromCharCode(97 + subIdx)}).
+                                  </span>
                                   <div className="font-normal">
                                     <KaTeXRenderer text={subQ.questionText} />
                                   </div>
                                 </div>
 
                                 {subQ.options && (
-                                  <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1 text-[9pt]">
+                                  <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt]">
                                     {subQ.options.map((opt, oIdx) => (
                                       <div key={oIdx} className="flex items-start gap-1">
                                         <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
@@ -248,7 +266,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                             {/* Render Organic Chemistry SMILES Structure */}
                             {q.chemStructure && (
                               <div className="my-2 text-center">
-                                <SmilesRenderer smiles={q.chemStructure} width={140} height={100} />
+                                <SmilesRenderer smiles={q.chemStructure} width={130} height={95} />
                               </div>
                             )}
 
@@ -259,7 +277,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
 
                             {/* SCQ / MCQ Options */}
                             {q.options && (
-                              <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9.5pt] text-slate-900">
+                              <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-1.5 text-[9pt] text-slate-900">
                                 {q.options.map((opt, oIdx) => (
                                   <div key={oIdx} className="flex items-start gap-1">
                                     <span className="font-semibold font-mono text-slate-800">({String.fromCharCode(65 + oIdx)})</span>
@@ -271,16 +289,16 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
 
                             {/* Matrix Match Type Grid Table */}
                             {q.type === 'matrix_match' && q.matrixMatch && (
-                              <div className="mt-2 text-[9pt] border border-slate-300 rounded p-1.5 bg-slate-50/60">
+                              <div className="mt-2 text-[8.5pt] border border-slate-300 rounded p-1.5 bg-slate-50/60">
                                 <div className="grid grid-cols-2 gap-1.5">
                                   <div>
-                                    <span className="font-bold text-slate-800 uppercase text-[8.5pt] border-b border-slate-300 block mb-1">Column I</span>
+                                    <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column I</span>
                                     {q.matrixMatch.column1.map((item, i) => (
                                       <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
                                     ))}
                                   </div>
                                   <div>
-                                    <span className="font-bold text-slate-800 uppercase text-[8.5pt] border-b border-slate-300 block mb-1">Column II</span>
+                                    <span className="font-bold text-slate-800 uppercase text-[8pt] border-b border-slate-300 block mb-1">Column II</span>
                                     {q.matrixMatch.column2.map((item, i) => (
                                       <div key={i} className="py-0.5 text-slate-900 leading-tight"><KaTeXRenderer text={item} /></div>
                                     ))}
@@ -299,18 +317,18 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
 
             {/* SEPARATE ANSWER KEY & DETAILED SOLUTIONS MANUAL (IF SELECTED) */}
             {paperMode === 'question_with_solutions' && (
-              <div className="mt-10 pt-6 border-t-2 border-slate-900 page-break-before">
+              <div className="mt-8 pt-6 border-t-2 border-slate-900 page-break-before">
                 
                 {/* Answer Key Grid Header */}
-                <div className="text-center mb-5">
+                <div className="text-center mb-4">
                   <h2 className="text-base font-black uppercase text-slate-900 tracking-wider">
                     ANSWER KEY MANUAL
                   </h2>
-                  <p className="text-[9pt] text-slate-600 font-mono">{metadata.testTitle}</p>
+                  <p className="text-[8.5pt] text-slate-600 font-mono">{metadata.testTitle}</p>
                 </div>
 
                 {/* Grid Table of Answer Keys */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 font-mono text-[8.5pt] mb-8">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 font-mono text-[8pt] mb-6">
                   {paperQuestions.map((q, idx) => (
                     <div key={q.id} className="border border-slate-400 p-1.5 bg-slate-50 rounded">
                       <span className="font-bold text-slate-700 mr-1">Q.{idx + 1}:</span>
@@ -320,19 +338,19 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
                 </div>
 
                 {/* Step-by-Step Solutions */}
-                <div className="text-center mb-4 border-b border-slate-300 pb-2">
+                <div className="text-center mb-3 border-b border-slate-300 pb-2">
                   <h3 className="text-sm font-black uppercase text-slate-900 tracking-wider">
                     STEP-BY-STEP DETAILED SOLUTIONS
                   </h3>
                 </div>
 
-                <div className="space-y-3 text-[9.5pt]">
+                <div className="space-y-3 text-[9pt]">
                   {paperQuestions.map((q, idx) => (
-                    <div key={q.id} className="border-b border-slate-200 pb-2.5">
+                    <div key={q.id} className="border-b border-slate-200 pb-2">
                       <span className="font-bold font-mono text-indigo-900">
                         Question {idx + 1} ({q.subject} - {q.chapter}):
                       </span>
-                      <div className="mt-1 text-slate-800 leading-relaxed font-sans bg-slate-50 p-2 rounded border border-slate-200 text-[9pt]">
+                      <div className="mt-1 text-slate-800 leading-relaxed font-sans bg-slate-50 p-2 rounded border border-slate-200 text-[8.5pt]">
                         <KaTeXRenderer text={q.solution || 'Detailed step-by-step solution available in question repository.'} />
                       </div>
                     </div>
@@ -342,7 +360,7 @@ export default function WizardStep6_JEE2ColumnPrintPDF({
             )}
 
             {/* Footer Page Branding */}
-            <div className="mt-8 pt-3 border-t border-slate-300 flex items-center justify-between text-[8pt] text-slate-500 font-mono">
+            <div className="mt-8 pt-2.5 border-t border-slate-300 flex items-center justify-between text-[8pt] text-slate-500 font-mono">
               <span>{metadata.instituteName}</span>
               <span>JEE Advanced PaperGen Engine</span>
               <span>End of Question Paper</span>
