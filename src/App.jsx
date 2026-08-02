@@ -53,19 +53,24 @@ export default function App() {
         // Fetch manifest index.json listing all registered chapter files
         const indexRes = await fetch(`${cleanBase}data/questions/index.json`);
         if (indexRes.ok) {
-          const fileList = await indexRes.json();
+          const indexData = await indexRes.json();
+          const fileList = Array.isArray(indexData) ? indexData : (indexData.questionFiles || []);
+          
           for (const fileRelPath of fileList) {
             try {
               const qRes = await fetch(`${cleanBase}data/questions/${fileRelPath}`);
               if (qRes.ok) {
                 const qData = await qRes.json();
-                allQs = [...allQs, ...qData];
+                if (Array.isArray(qData)) {
+                  allQs = [...allQs, ...qData];
+                }
               }
             } catch (e) {
               console.warn(`Failed to fetch modular chapter: ${fileRelPath}`, e);
             }
           }
         }
+
       } catch (err) {
         console.warn('Dynamic fetch failed, falling back to bundled dataset:', err);
       }
