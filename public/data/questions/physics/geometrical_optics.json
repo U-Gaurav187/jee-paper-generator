@@ -1,0 +1,370 @@
+[
+  {
+    "id": "phy_geometrical_optics_001",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "6.4\u00b0",
+    "solution": "Detailed step-by-step solution for 6.4\u00b0... (JEE Advanced PYQ).",
+    "options": [
+      "4.8\u00b0",
+      "3.2\u00b0",
+      "2.4\u00b0",
+      "A double convex lens made of glass of refractive index 1.5 and radii of curvature of the curved surfaces 20 cm each is immersed in a liquid of refractive index nL. The correct plot showing the variation of the power, in the units of diopter (D), as a function of nL is :"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vc28g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_002",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If prism 2 is at minimum deviation condition, then $\\sin i_1 = n_2 \\sin \\left(\\dfrac{A_2}{2}\\right)$ is always true.",
+    "solution": "Detailed step-by-step solution for If prism 2 is at minimum deviation condi... (JEE Advanced PYQ).",
+    "options": [
+      "If both the prisms 1 and 2 are thin and are at minimum deviation condition with angles of deviation $\\delta_{m1}$ and $\\delta_{m2}$, respectively, then $\\theta = \\dfrac{\\delta_{m1}}{2(n_1 - 1)} + \\dfrac{\\delta_{m2}}{2(n_2 - 1)}$.",
+      "If prism 1 is at minimum deviation condition, then $\\sin i_2 = n_1 \\sin \\left(\\dfrac{A_1}{2}\\right)$ is always true.",
+      "Two identical concave mirrors each of focal length f are facing each other as shown in the schematic diagram. The focal length f is much larger than the size of the mirrors. A glass slab of thickness t and refractive index n_0 is kept equidistant from the mirrors and perpendicular to their common principal axis. A monochromatic point light source S is embedded at the center of the slab on the principal axis, as shown in the schematic diagram. For the image to be formed on S itself, which of the following distances between the two mirrors is/are correct:",
+      "$4f + \\left(1 - \\frac{1}{n_0}\\right)t$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9wgrhg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_003",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Two equilateral-triangular prisms $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are kept with their sides parallel to each other, in vacuum, as shown in the figure. A light ray enters prism $\\mathrm{P}_1$ at an angle of incidence $\\theta$ such that the outgoing ray undergoes minimum deviation in prism $\\mathrm{P}_2$. If the respective refractive indices of $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are $\\sqrt{\\frac{3}{2}}$ and $\\sqrt{3}$, then $\\theta=\\sin ^{-1}\\left[\\sqrt{\\frac{3}{2}} \\sin \\left(\\frac{\\pi}{\\beta}\\right)\\right]$, where the value of $\\beta$ is ____.",
+    "solution": "Detailed step-by-step solution for Two equilateral-triangular prisms $\\math... (JEE Advanced PYQ).",
+    "options": [
+      "Consider a configuration of $n$ identical units, each consisting of three layers. The first layer is a column of air of height $h=\\frac{1}{3} \\mathrm{~cm}$, and the second and third layers are of equal thickness $d=$ $\\frac{\\sqrt{3}-1}{2} \\mathrm{~cm}$, and refractive indices $\\mu_{1}=\\sqrt{\\frac{3}{2}}$ and $\\mu_{2}=\\sqrt{3}$, respectively. A light source 0 is placed on the top of the first unit, as shown in the figure. A ray of light from 0 is incident on the second layer of the first unit at an angle of $\\theta=60^{\\circ}$ to the normal. For a specific value of $n$, the ray of light emerges from the bottom of the configuration at a distance $l=\\frac{8}{\\sqrt{3}} \\mathrm{~cm}$, as shown in the figure. The value of $n$ is ________.",
+      "Questions from Geometrical Optics Numerical \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 2  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2019 Paper 2 Offline 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 1  JEE Advanced 2017 Paper 1 Offline 1  JEE Advanced 2015 Paper 2 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0dt3q2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_004",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A light ray is incident on the surface of a sphere of refractive index $n$ at an angle of incidence $\\theta_0$. The ray partially refracts into the sphere with angle of refraction $\\phi_0$ and then partly reflects from the back surface. The reflected ray then emerges out of the sphere after a partial refraction. The total angle of deviation of the emergent ray with respect to the incident ray is $\\alpha$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
+    "solution": "Detailed step-by-step solution for A light ray is incident on the surface o... (JEE Advanced PYQ).",
+    "options": [
+      "List I contains four combinations of two lenses (1 and 2) whose focal lengths (in $\\mathrm{cm}$ ) are indicated in the figures. In all cases, the object is placed $20 \\mathrm{~cm}$ from the first lens on the left, and the distance between the two lenses is $5 \\mathrm{~cm}$. List II contains the positions of the final images.",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}",
+      "Which one of the following options is correct?",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vc28g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_005",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "List I contains four combinations of two lenses (1 and 2) whose focal lengths (in $\\mathrm{cm}$ ) are indicated in the figures. In all cases, the object is placed $20 \\mathrm{~cm}$ from the first lens on the left, and the distance between the two lenses is $5 \\mathrm{~cm}$. List II contains the positions of the final images.",
+    "solution": "Detailed step-by-step solution for List I contains four combinations of two... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}",
+      "Which one of the following options is correct?",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7elwg5k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_006",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "Which one of the following options is correct?",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7elwg5k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_007",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Geometrical Optics MCQ (S... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0njejky.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_008",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Four combinations of two thin lenses are given in List I. The radius of curvature of all curved surfaces is r and the refractive index of all the lenses is 1.5. Match lens combinations in List I with their focal length in List II and select the correct answer using the code given below the lists.",
+    "solution": "Detailed step-by-step solution for Four combinations of two thin lenses are... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0njejky.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_009",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Four combinations of two thin lenses are given in List I. The radius of curvature of all curved surfaces is r and the refractive index of all the lenses is 1.5. Match lens combinations in List I with their focal length in List II and select the correct answer using the code given below the lists.",
+    "solution": "Detailed step-by-step solution for Four combinations of two thin lenses are... (JEE Advanced PYQ).",
+    "options": [
+      "A right-angled prism of refractive index $$\\mu$$1 is placed in a rectangular block of refractive index $$\\mu$$2, which is surrounded by a medium of refractive index $$\\mu$$3, as shown in the figure. A ray of light e enters the rectangular block at normal incidence. Depending upon the relationships between $$\\mu$$1, $$\\mu$$2 and $$\\mu$$3, it takes one of the four possible paths 'ef', 'eg', 'eh' or 'ei'.",
+      "Match the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17oty2v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_010",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Four combinations of two thin lenses are given in List I. The radius of curvature of all curved surfaces is r and the refractive index of all the lenses is 1.5. Match lens combinations in List I with their focal length in List II and select the correct answer using the code given below the lists.",
+    "solution": "Detailed step-by-step solution for Four combinations of two thin lenses are... (JEE Advanced PYQ).",
+    "options": [
+      "A right-angled prism of refractive index $$\\mu$$1 is placed in a rectangular block of refractive index $$\\mu$$2, which is surrounded by a medium of refractive index $$\\mu$$3, as shown in the figure. A ray of light e enters the rectangular block at normal incidence. Depending upon the relationships between $$\\mu$$1, $$\\mu$$2 and $$\\mu$$3, it takes one of the four possible paths 'ef', 'eg', 'eh' or 'ei'.",
+      "Match the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17oty2v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_011",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A right-angled prism of refractive index $$\\mu$$1 is placed in a rectangular block of refractive index $$\\mu$$2, which is surrounded by a medium of refractive index $$\\mu$$3, as shown in the figure. A ray of light e enters the rectangular block at normal incidence. Depending upon the relationships between $$\\mu$$1, $$\\mu$$2 and $$\\mu$$3, it takes one of the four possible paths 'ef', 'eg', 'eh' or 'ei'.",
+    "solution": "Detailed step-by-step solution for A right-angled prism of refractive index... (JEE Advanced PYQ).",
+    "options": [
+      "Match the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}",
+      "A ray of light travelling in the direction $${1 \\over 2}\\left( {\\widehat i + \\sqrt 3 \\widehat j} \\right)$$ is incident on a plane mirror. After reflection, it travels along the direction $${1 \\over 2}\\left( {\\widehat i - \\sqrt 3 \\widehat j} \\right)$$. The angle of incidence is",
+      "Questions from Geometrical Optics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 2  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 2  IIT-JEE 2012 Paper 2 Offline 2  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 2  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 2  IIT-JEE 2007 Paper 1 Offline 3  IIT-JEE 2006 4  IIT-JEE 2005 Mains 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17quma4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_012",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Match the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:",
+    "solution": "Detailed step-by-step solution for Match the paths in List I with condition... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}",
+      "A ray of light travelling in the direction $${1 \\over 2}\\left( {\\widehat i + \\sqrt 3 \\widehat j} \\right)$$ is incident on a plane mirror. After reflection, it travels along the direction $${1 \\over 2}\\left( {\\widehat i - \\sqrt 3 \\widehat j} \\right)$$. The angle of incidence is",
+      "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qi3mcf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_013",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+    "solution": "Detailed step-by-step solution for Most materials have the refractive index... (JEE Advanced PYQ).",
+    "options": [
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.",
+      "For light incident from air on a meta-material, the appropriate ray diagram is",
+      "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l25486cx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_014",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+    "solution": "Detailed step-by-step solution for Most materials have the refractive index... (JEE Advanced PYQ).",
+    "options": [
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.",
+      "For light incident from air on a meta-material, the appropriate ray diagram is",
+      "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l25486cx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_015",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.",
+    "solution": "Detailed step-by-step solution for In normal materials, both $$\\varepsilon$... (JEE Advanced PYQ).",
+    "options": [
+      "For light incident from air on a meta-material, the appropriate ray diagram is",
+      "Most materials have the refractive index, n > 1. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation $$n = \\left( {{c \\over v}} \\right) =  \\pm \\,\\sqrt {{\\varepsilon _r}{\\mu _r}} $$, where c is the speed of electromagnetic waves in vacuum, v its speed in the medium, $$\\varepsilon $$r and $$\\mu$$r, are the relative permittivity and permeability of the medium, respectively.",
+      "In normal materials, both $$\\varepsilon$$r and $$\\mu$$r , are positive, implying positive n for the medium. When both $$\\varepsilon$$r and $$\\mu$$r are negative, one must choose the negative root of n. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behaviour, without violating and physical laws. Since n is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.",
+      "Choose the correct statement."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l25486cx.png",
+      "position": "bottom"
+    }
+  }
+]

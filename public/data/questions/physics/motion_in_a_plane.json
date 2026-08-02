@@ -1,0 +1,27 @@
+[
+  {
+    "id": "phy_motion_in_a_plane_001",
+    "subject": "Physics",
+    "chapter": "Motion In A Plane",
+    "topic": "Motion In A Plane",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If $\\theta = 45^\\circ$, then $v = \\frac{5\\sqrt{g}}{2}\\ \\text{ms}^{-1}$.",
+    "solution": "Detailed step-by-step solution for If $\\theta = 45^\\circ$, then $v = \\frac{... (JEE Advanced PYQ).",
+    "options": [
+      "If $\\theta = 45^\\circ$, the particle reaches its maximum height before it reaches P.",
+      "If $\\theta = 30^\\circ$, the particle reaches its maximum height after reaching P.",
+      "If $\\theta = \\tan^{-1}\\left(\\frac{1}{5}\\right)$, then $v = 125\\sqrt{g}\\ \\text{ms}^{-1}$.",
+      "Questions from Motion in a Plane MCQ (Multiple Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vj7dw.png",
+      "position": "bottom"
+    }
+  }
+]

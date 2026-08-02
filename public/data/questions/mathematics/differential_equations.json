@@ -1,0 +1,270 @@
+[
+  {
+    "id": "mat_differential_equations_001",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\\frac{dy}{dx} = \\frac{e^{5x} y^3 + y^3}{e^x + e^x y^4},$$",
+    "solution": "Detailed step-by-step solution for $$\\frac{dy}{dx} = \\frac{e^{5x} y^3 + y^3... (JEE Advanced PYQ).",
+    "options": [
+      "satisfying $y(0) = \\frac{1}{\\sqrt{2}}$. Then the value of $y(\\log_e 2)$ is",
+      "$\\sqrt{\\frac{5 + \\sqrt{35}}{2}}$",
+      "$\\sqrt{\\frac{7 + \\sqrt{53}}{2}}$",
+      "$\\frac{7 + \\sqrt{53}}{2}$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_002",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ x \\frac{dy}{dx} = y - x^3. $$",
+    "solution": "Detailed step-by-step solution for $$ x \\frac{dy}{dx} = y - x^3. $$... (JEE Advanced PYQ).",
+    "options": [
+      "Then which of the following statements is (are) TRUE?",
+      "The function $f$ has a local minimum at $x = \\frac{1}{\\sqrt{3}}$",
+      "The function $f$ has a local maximum at $x = \\frac{1}{\\sqrt{3}}$",
+      "The function $f$ is increasing in the interval $(1, 2)$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_003",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e} $$",
+    "solution": "Detailed step-by-step solution for $$ x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\qua... (JEE Advanced PYQ).",
+    "options": [
+      "satisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is ____________.",
+      "For all x > 0, let y\u2081(x), y\u2082(x), and y\u2083(x) be the functions satisfying",
+      "$ \\frac{dy_1}{dx} - (\\sin x)^2 y_1 = 0, \\quad y_1(1) = 5, $ $ \\frac{dy_2}{dx} - (\\cos x)^2 y_2 = 0, \\quad y_2(1) = \\frac{1}{3}, $ $ \\frac{dy_3}{dx} - \\frac{(2-x^3)}{x^3} y_3 = 0, \\quad y_3(1) = \\frac{3}{5e}, $",
+      "respectively. Then"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_004",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_005",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\lim\\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 $$",
+    "solution": "Detailed step-by-step solution for $$ \\lim\\limits_{t \\rightarrow x} \\frac{t... (JEE Advanced PYQ).",
+    "options": [
+      "for each $x>0$. Then, for all $x>0, f(x)$ is equal to :",
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_006",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_007",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    The number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n    (P)\n    1\n  \n  \n    (B)\n    Value(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line\n    (Q)\n    2\n  \n  \n    (C)\n    Value(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)\n    (R)\n    3\n  \n  \n    (D)\n    If $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$\n    (S)\n    4\n  \n  \n    \n    \n    (T)\n    5",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_008",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    The number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n    (P)\n    1\n  \n  \n    (B)\n    Value(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line\n    (Q)\n    2\n  \n  \n    (C)\n    Value(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)\n    (R)\n    3\n  \n  \n    (D)\n    If $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$\n    (S)\n    4\n  \n  \n    \n    \n    (T)\n    5",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "Match the statements/expressions in Column I with the open intervals in Column II :",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    Interval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$\n    (P)\n    $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$\n  \n  \n    (B)\n    Interval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$\n    (Q)\n    $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n  \n  \n    (C)\n    Interval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies\n    (R)\n    $$\\left( {{\\pi  \\over 8},{{5\\pi } \\over 4}} \\right)$$\n  \n  \n    (D)\n    Interval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing\n    (S)\n    $$\\left( {0,{\\pi  \\over 8}} \\right)$$\n  \n  \n    \n    \n    (T)\n    $$( - \\pi ,\\pi )$$",
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_009",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    The number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n    (P)\n    1\n  \n  \n    (B)\n    Value(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line\n    (Q)\n    2\n  \n  \n    (C)\n    Value(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)\n    (R)\n    3\n  \n  \n    (D)\n    If $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$\n    (S)\n    4\n  \n  \n    \n    \n    (T)\n    5",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "Match the statements/expressions in Column I with the open intervals in Column II :",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    Interval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$\n    (P)\n    $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$\n  \n  \n    (B)\n    Interval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$\n    (Q)\n    $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n  \n  \n    (C)\n    Interval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies\n    (R)\n    $$\\left( {{\\pi  \\over 8},{{5\\pi } \\over 4}} \\right)$$\n  \n  \n    (D)\n    Interval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing\n    (S)\n    $$\\left( {0,{\\pi  \\over 8}} \\right)$$\n  \n  \n    \n    \n    (T)\n    $$( - \\pi ,\\pi )$$",
+      "STATEMENT-1 : $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - {\\pi  \\over 6}} \\right)$$ and \nSTATEMENT-2 : $$y\\left( x \\right)$$ given by $${1 \\over y} = {{2\\sqrt 3 } \\over x} - \\sqrt {1 - {1 \\over {{x^2}}}} $$",
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_010",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    The number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n    (P)\n    1\n  \n  \n    (B)\n    Value(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line\n    (Q)\n    2\n  \n  \n    (C)\n    Value(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)\n    (R)\n    3\n  \n  \n    (D)\n    If $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$\n    (S)\n    4\n  \n  \n    \n    \n    (T)\n    5",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "Match the statements/expressions in Column I with the open intervals in Column II :",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    Interval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$\n    (P)\n    $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$\n  \n  \n    (B)\n    Interval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$\n    (Q)\n    $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n  \n  \n    (C)\n    Interval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies\n    (R)\n    $$\\left( {{\\pi  \\over 8},{{5\\pi } \\over 4}} \\right)$$\n  \n  \n    (D)\n    Interval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing\n    (S)\n    $$\\left( {0,{\\pi  \\over 8}} \\right)$$\n  \n  \n    \n    \n    (T)\n    $$( - \\pi ,\\pi )$$",
+      "STATEMENT-1 : $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - {\\pi  \\over 6}} \\right)$$ and \nSTATEMENT-2 : $$y\\left( x \\right)$$ given by $${1 \\over y} = {{2\\sqrt 3 } \\over x} - \\sqrt {1 - {1 \\over {{x^2}}}} $$",
+      "The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_011",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n  \n    \n    Column I\n    \n    Column II\n  \n\n\n  \n    (A)\n    Interval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$\n    (P)\n    $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$\n  \n  \n    (B)\n    Interval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$\n    (Q)\n    $$\\left( {0,{\\pi  \\over 2}} \\right)$$\n  \n  \n    (C)\n    Interval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies\n    (R)\n    $$\\left( {{\\pi  \\over 8},{{5\\pi } \\over 4}} \\right)$$\n  \n  \n    (D)\n    Interval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing\n    (S)\n    $$\\left( {0,{\\pi  \\over 8}} \\right)$$\n  \n  \n    \n    \n    (T)\n    $$( - \\pi ,\\pi )$$",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "STATEMENT-1 : $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - {\\pi  \\over 6}} \\right)$$ and \nSTATEMENT-2 : $$y\\left( x \\right)$$ given by $${1 \\over y} = {{2\\sqrt 3 } \\over x} - \\sqrt {1 - {1 \\over {{x^2}}}} $$",
+      "The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :",
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_012",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :",
+    "solution": "Detailed step-by-step solution for The differential equation $$\\frac{d y}{d... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_013",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Differential Equations MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2005 Screening 4  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 2000 Screening 1  IIT-JEE 1999 1  IIT-JEE 1998 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Differential Equations MC... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_014",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_differential_equations_015",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  }
+]

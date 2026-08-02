@@ -1,0 +1,281 @@
+[
+  {
+    "id": "mat_functions_001",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ A=\\{1,2,3,4,5\\} \\text { and } B=\\{1,2,3,4,5,6,7\\} . $$",
+    "solution": "Detailed step-by-step solution for $$ A=\\{1,2,3,4,5\\} \\text { and } B=\\{1,2... (JEE Advanced PYQ).",
+    "options": [
+      "Let $S$ be the set of all functions $f: A \\rightarrow B$ such that $f(2) \\neq 2$ and $f(4) \\neq 4$. Consider the set $T=\\left\\{f \\in S:\\right.$ there exists a function $g: B \\rightarrow \\mathbb{N}$ such that $g(f(x))=2^x$ for all $\\left.x \\in A\\right\\}$.",
+      "Then the number of elements in the set $T$ is $\\_\\_\\_\\_$ .",
+      "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow(0,4)$ be functions defined by",
+      "$$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\text { and } g(x)=\\frac{4}{1+e^{-2 x}} $$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_002",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ f(n) = \\begin{cases} \\frac{(n + 1)}{2} & \\text{if } n \\text{ is odd,} \\\\ \\frac{(4-n)}{2} & \\text{if } n \\text{ is even,} \\end{cases} $$",
+    "solution": "Detailed step-by-step solution for $$ f(n) = \\begin{cases} \\frac{(n + 1)}{2... (JEE Advanced PYQ).",
+    "options": [
+      "and",
+      "$$ g(n) = \\begin{cases} 3 + 2n & \\text{if } n \\ge 0 , \\\\ -2n & \\text{if } n < 0 . \\end{cases} $$",
+      "Define $$(g \\circ f)(n) = g(f(n))$$ for all $n \\in \\mathbb{N}$, and $$(f \\circ g)(n) = f(g(n))$$ for all $n \\in \\mathbb{Z}$.",
+      "Then which of the following statements is (are) TRUE?"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_003",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "f2(x) = x2 ;",
+    "solution": "Detailed step-by-step solution for f2(x) = x2 ;... (JEE Advanced PYQ).",
+    "options": [
+      "and",
+      "$${f_4}\\left( x \\right) = \\left\\{ {\\matrix{\n   {{f_2}\\left( {{f_1}\\left( x \\right)} \\right)} & {if\\,x < 0,}  \\cr \n   {{f_2}\\left( {{f_1}\\left( x \\right)} \\right) - 1} & {if\\,x \\ge 0;}  \\cr \n\n } } \\right.$$",
+      "Questions from Functions MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 2  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 3  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1aapt43.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "mat_functions_004",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\text { and } g(x)=\\frac{4}{1+e^{-2 x}} $$",
+    "solution": "Detailed step-by-step solution for $$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\... (JEE Advanced PYQ).",
+    "options": [
+      "Define the composite function $f \\circ g^{-1}$ by $\\left(f \\circ g^{-1}\\right)(x)=f\\left(g^{-1}(x)\\right)$, where $g^{-1}$ is the inverse of the function $g$.",
+      "Then the value of the derivative of the composite function $f \\circ g^{-1}$ at $x=2$ is ________________.",
+      "Let \u211d denote the set of all real numbers. Let f: \u211d \u2192 \u211d be a function such that f(x) > 0 for all x \u2208 \u211d, and f(x+y) = f(x)f(y) for all x, y \u2208 \u211d.",
+      "Let the real numbers a\u2081, a\u2082, ..., a\u2085\u2080 be in an arithmetic progression. If f(a\u2083\u2081) = 64f(a\u2082\u2085), and"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_005",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Let the real numbers a\u2081, a\u2082, ..., a\u2085\u2080 be in an arithmetic progression. If f(a\u2083\u2081) = 64f(a\u2082\u2085), and",
+    "solution": "Detailed step-by-step solution for Let the real numbers a\u2081, a\u2082, ..., a\u2085\u2080 be... (JEE Advanced PYQ).",
+    "options": [
+      "$ \\sum\\limits_{i=1}^{50} f(a_i) = 3(2^{25}+1), $",
+      "then the value of",
+      "$ \\sum\\limits_{i=6}^{30} f(a_i) $",
+      "is ________________."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_006",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)} . $$",
+    "solution": "Detailed step-by-step solution for $$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\... (JEE Advanced PYQ).",
+    "options": [
+      "Then the number of solutions of $f(x)=0$ in $\\mathbb{R}$ is _________.",
+      "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_007",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)} . $$",
+    "solution": "Detailed step-by-step solution for $$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\... (JEE Advanced PYQ).",
+    "options": [
+      "Then the number of solutions of $f(x)=0$ in $\\mathbb{R}$ is _________.",
+      "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_008",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_009",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_010",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Functions Numerical \u00b7 No.... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_011",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Functions Numerical \u00b7 No.... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_012",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Functions Numerical \u00b7 No.... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_013",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Functions Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Functions Numerical \u00b7 No.... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_014",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$",
+    "solution": "Detailed step-by-step solution for $$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\... (JEE Advanced PYQ).",
+    "options": [
+      "where",
+      "$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right| .\n$$",
+      "Let $$p(x)$$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $$g(\\theta)$$, and $$p(2)=2-\\sqrt{2}$$. Then, which of the following is/are TRUE ?",
+      "Let $$f(x) = \\sin \\left( {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right)$$ for all $$x \\in R$$ and g(x) = $${{\\pi  \\over 2}\\sin x}$$ for all x$$\\in$$R. Let $$(f \\circ g)(x)$$ denote f(g(x)) and $$(g \\circ f)(x)$$ denote g(f(x)). Then which of the following is/are true?"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_functions_015",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$",
+    "solution": "Detailed step-by-step solution for $$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\... (JEE Advanced PYQ).",
+    "options": [
+      "where",
+      "$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right| .\n$$",
+      "Let $$p(x)$$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $$g(\\theta)$$, and $$p(2)=2-\\sqrt{2}$$. Then, which of the following is/are TRUE ?",
+      "Let $$f(x) = \\sin \\left( {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right)$$ for all $$x \\in R$$ and g(x) = $${{\\pi  \\over 2}\\sin x}$$ for all x$$\\in$$R. Let $$(f \\circ g)(x)$$ denote f(g(x)) and $$(g \\circ f)(x)$$ denote g(f(x)). Then which of the following is/are true?"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  }
+]
