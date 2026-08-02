@@ -1,0 +1,33 @@
+[
+  {
+    "id": "chem_005",
+    "subject": "Chemistry",
+    "chapter": "Inorganic Chemistry",
+    "topic": "Coordination Compounds & Hybridization",
+    "type": "matrix_match",
+    "difficulty": "Hard",
+    "questionText": "Match the coordination complexes in Column I with their geometric hybridization and magnetic properties in Column II:",
+    "matrixMatch": {
+      "column1": [
+        "A. $[\\text{Fe}(\\text{CN})_6]^{3-}$",
+        "B. $[\\text{Ni}(\\text{CO})_4]$",
+        "C. $[\\text{Ni}(\\text{CN})_4]^{2-}$",
+        "D. $[\\text{MnCl}_4]^{2-}$"
+      ],
+      "column2": [
+        "P. $sp^3 d^2$ / Octahedral, Paramagnetic",
+        "Q. $d^2 sp^3$ / Octahedral, Paramagnetic (1 unpaired electron)",
+        "R. $sp^3$ / Tetrahedral, Diamagnetic",
+        "S. $dsp^2$ / Square planar, Diamagnetic",
+        "T. $sp^3$ / Tetrahedral, Paramagnetic (5 unpaired electrons)"
+      ]
+    },
+    "answerKey": {
+      "A": ["Q"],
+      "B": ["R"],
+      "C": ["S"],
+      "D": ["T"]
+    },
+    "solution": "A -> Q ($d^2sp^3$, low spin octahedral, $\\text{Fe}^{3+} (d^5)$ 1 unpaired e-).\nB -> R ($sp^3$, tetrahedral, $\\text{Ni}^0 (d^{10})$ diamagnetic).\nC -> S ($dsp^2$, square planar, $\\text{Ni}^{2+} (d^8)$ strong field ligand $\\text{CN}^-$ pairing).\nD -> T ($sp^3$, tetrahedral, $\\text{Mn}^{2+} (d^5)$ weak field $\\text{Cl}^-$ high spin)."
+  }
+]

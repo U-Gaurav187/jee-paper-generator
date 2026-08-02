@@ -1,0 +1,32 @@
+[
+  {
+    "id": "math_005",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Locus & De Moivre Theorem",
+    "type": "matrix_match",
+    "difficulty": "Hard",
+    "questionText": "Match the complex number locus equations in Column I with their corresponding geometric shapes in Column II:",
+    "matrixMatch": {
+      "column1": [
+        "A. $|z - 2| + |z + 2| = 6$",
+        "B. $|z - 2| - |z + 2| = 3$",
+        "C. $|z - i| = |z + i|$",
+        "D. $\\text{Re}\\left(\\frac{z-1}{z+1}\\right) = 0$"
+      ],
+      "column2": [
+        "P. Straight line (Real Axis / x-axis)",
+        "Q. Circle centered at origin with radius 1",
+        "R. Ellipse with foci at $(\\pm 2, 0)$",
+        "S. Hyperbola with foci at $(\\pm 2, 0)$"
+      ]
+    },
+    "answerKey": {
+      "A": ["R"],
+      "B": ["S"],
+      "C": ["P"],
+      "D": ["Q"]
+    },
+    "solution": "A -> R (Sum of distances from two fixed points is constant $6 > 4 \\implies$ Ellipse).\nB -> S (Difference of distances is constant $3 < 4 \\implies$ Hyperbola).\nC -> P (Equidistant from $i$ and $-i \\implies$ Perpendicular bisector, Real Axis $y=0$).\nD -> Q ($\\text{Re}((z-1)/(z+1)) = 0 \\implies z$ subtends $90^\\circ$ over diameter $[-1, 1] \\implies$ Circle $|z|=1$)."
+  }
+]

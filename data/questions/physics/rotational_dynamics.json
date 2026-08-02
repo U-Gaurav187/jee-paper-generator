@@ -1,0 +1,37 @@
+[
+  {
+    "id": "phy_004",
+    "subject": "Physics",
+    "chapter": "Rotational Dynamics",
+    "topic": "Moment of Inertia & Rolling",
+    "type": "paragraph",
+    "difficulty": "Advanced",
+    "paragraphText": "**Passage for Questions 4 and 5:**\nA uniform solid cylinder of mass $M$ and radius $R$ rolls without slipping down an inclined plane of inclination angle $\\theta = 30^\\circ$. The coefficient of static friction between the cylinder and the incline is $\\mu_s$. Take acceleration due to gravity as $g = 10\\text{ m/s}^2$.",
+    "subQuestions": [
+      {
+        "subId": "phy_004_1",
+        "questionText": "The linear acceleration $a$ of the center of mass of the rolling cylinder is:",
+        "options": [
+          "$\\frac{1}{3} g$",
+          "$\\frac{2}{3} g \\sin \\theta$",
+          "$\\frac{1}{2} g$",
+          "$\\frac{2}{3} g$"
+        ],
+        "answerKey": "B",
+        "solution": "For pure rolling of a solid cylinder ($I = \\frac{1}{2}MR^2$), acceleration $a = \\frac{g \\sin \\theta}{1 + k^2/R^2} = \\frac{g \\sin \\theta}{1 + 1/2} = \\frac{2}{3} g \\sin \\theta$."
+      },
+      {
+        "subId": "phy_004_2",
+        "questionText": "The minimum value of friction coefficient $\\mu_{s,\\text{min}}$ required to prevent slipping is:",
+        "options": [
+          "$\\frac{1}{3} \\tan \\theta$",
+          "$\\frac{1}{2} \\tan \\theta$",
+          "$\\frac{2}{3} \\tan \\theta$",
+          "$\\tan \\theta$"
+        ],
+        "answerKey": "A",
+        "solution": "Static friction force $f = \\frac{Mg \\sin \\theta}{1 + R^2/k^2} = \\frac{1}{3} Mg \\sin \\theta$. For no slipping, $f \\le \\mu_s N = \\mu_s Mg \\cos \\theta \\implies \\mu_s \\ge \\frac{1}{3} \\tan \\theta$."
+      }
+    ]
+  }
+]

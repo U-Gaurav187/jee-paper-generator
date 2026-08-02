@@ -1,0 +1,16 @@
+[
+  "chemistry/coordination_compounds.json",
+  "chemistry/organic_reactions.json",
+  "chemistry/physical_equilibrium.json",
+  "computer_science/algorithms.json",
+  "computer_science/data_structures.json",
+  "computer_science/digital_logic.json",
+  "mathematics/calculus.json",
+  "mathematics/complex_numbers.json",
+  "mathematics/probability.json",
+  "mathematics/vectors_3d.json",
+  "physics/current_electricity.json",
+  "physics/electrostatics.json",
+  "physics/modern_physics.json",
+  "physics/rotational_dynamics.json"
+]
