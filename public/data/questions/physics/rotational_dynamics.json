@@ -6,7 +6,7 @@
     "topic": "Moment of Inertia & Rolling",
     "type": "paragraph",
     "difficulty": "Advanced",
-    "paragraphText": "**Passage for Questions 4 and 5:**\nA uniform solid cylinder of mass $M$ and radius $R$ rolls without slipping down an inclined plane of inclination angle $\\theta = 30^\\circ$. The coefficient of static friction between the cylinder and the incline is $\\mu_s$. Take acceleration due to gravity as $g = 10\\text{ m/s}^2$.",
+    "paragraphText": "**Passage for Questions:**\nA uniform solid cylinder of mass $M$ and radius $R$ rolls without slipping down an inclined plane of inclination angle $\\theta = 30^\\circ$. The coefficient of static friction between the cylinder and the incline is $\\mu_s$. Take acceleration due to gravity as $g = 10\\text{ m/s}^2$.",
     "subQuestions": [
       {
         "subId": "phy_004_1",
