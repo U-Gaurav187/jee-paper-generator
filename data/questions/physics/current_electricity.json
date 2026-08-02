@@ -1,18 +1,371 @@
 [
   {
-    "id": "phy_003",
+    "id": "phy_current_electricity_001",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "topic": "Kirchhoff Laws & Circuit Networks",
-    "type": "numerical",
+    "topic": "Current Electricity",
+    "type": "mcq",
     "difficulty": "Hard",
-    "questionText": "In the circuit shown below, five identical resistors each of resistance $R = 10\\ \\Omega$ are connected in a bridge configuration. An ideal DC voltage source of $V = 20\\text{ V}$ is connected across the network. Calculate the equivalent resistance (in $\\Omega$) of the circuit network.",
+    "questionText": "[Take Avogadro\u2019s number as 6 \u00d7 1023 and charge of the electron as 1.6 \u00d7 10\u221219 C.]",
+    "solution": "Detailed step-by-step solution for [Take Avogadro\u2019s number as 6 \u00d7 1023 and ... (JEE Advanced PYQ).",
+    "options": [
+      "0.052",
+      "0.104",
+      "0.208",
+      "0.156"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
     "media": {
-      "type": "svg",
-      "content": "<svg viewBox='0 0 300 160' class='w-full max-w-xs mx-auto my-2'><rect x='40' y='30' width='220' height='100' fill='none' stroke='#000' stroke-width='2'/><polyline points='40,80 150,30 260,80 150,130 40,80' fill='none' stroke='#2563eb' stroke-width='2'/ stroke-dasharray='4,4'/><line x1='150' y1='30' x2='150' y2='130' stroke='#dc2626' stroke-width='2.5'/><circle cx='40' cy='80' r='4' fill='#000'/><circle cx='260' cy='80' r='4' fill='#000'/><text x='150' y='22' text-anchor='middle' font-size='12' fill='#1e293b'>Balanced Wheatstone Bridge</text></svg>",
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17mh9o3.png",
       "position": "bottom"
-    },
-    "answerKey": "10",
-    "solution": "The circuit forms a balanced Wheatstone bridge ($R_1/R_2 = R_3/R_4 = 1$). The central resistor carries zero current and can be removed. The network reduces to two parallel branches each of resistance $2R = 20\\ \\Omega$. Equivalent resistance $R_{eq} = \\frac{20 \\times 20}{20 + 20} = 10\\ \\Omega$."
+    }
+  },
+  {
+    "id": "phy_current_electricity_002",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Two resistances $R_{1}=X \\Omega$ and $R_{2}=1 \\Omega$ are connected to a wire $A B$ of uniform resistivity, as shown in the figure. The radius of the wire varies linearly along its axis from $0.2 \\mathrm{~mm}$ at $A$ to $1 \\mathrm{~mm}$ at $B$. A galvanometer $(\\mathrm{G})$ connected to the center of the wire, $50 \\mathrm{~cm}$ from each end along its axis, shows zero deflection when $A$ and $B$ are connected to a battery. The value of $X$ is ____________.",
+    "solution": "Detailed step-by-step solution for Two resistances $R_{1}=X \\Omega$ and $R_... (JEE Advanced PYQ).",
+    "options": [
+      "In the following circuit $C_{1}=12 \\mu F, C_{2}=C_{3}=4 \\mu F$ and $C_{4}=C_{5}=2 \\mu F$. The charge stored in $C_{3}$ is  ____________ $\\mu C$.",
+      "Questions from Current Electricity Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 2 Online 1  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2015 Paper 2 Offline 1  JEE Advanced 2014 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9x85gp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_003",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) correct?",
+    "solution": "Detailed step-by-step solution for Which of the following statement(s) is(a... (JEE Advanced PYQ).",
+    "options": [
+      "Which of the statement(s) is/are correct? A  The key S1 is kept closed for long time such that capacitors are fully charged. Now, key S2 is closed, at this time, the instantaneous current across 30$$\\Omega $$ resistor (between points P and Q) will be 0.2 A (round off to 1st decimal place). B  If key S1 is kept closed for long time such that capacitors are fully charged, the voltage across the capacitor C1 will be 4V. C  At time t = 0, the key S1 is closed, the instantaneous current in the closed circuit will be 25 mA. D  If key S1 is kept closed for long time such that the capacitors are fully charged, the voltage difference between points P and Q will be 10 V.   Check Answer     NEXT      Questions from Current Electricity MCQ (Multiple Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2019 Paper 1 Offline 2  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 1 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2006 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9wyvn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_004",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A thermal power plant produces electric power of 600 kW at 4000 V, which is to be transported to a place 20 km away from the power plant for consumers' usage. It can be transported either directly with a cable of large current carrying capacity or by using a combination of step-up and step-down transformers at the two ends. The drawback of the direct transmission is the large energy dissipation. In the method using transformers, the dissipation is much smaller. In this method, a step-up transformer is used at the plant side so that the current is reduced to a smaller value. At the consumers' end, a step-down transformer is used to supply power to the consumers at the specified lower voltage. It is reasonable to assume that the power cable is purely resistive and the transformers are ideal with power factor unity. All the currents and voltages mentioned are rms values.",
+    "solution": "Detailed step-by-step solution for A thermal power plant produces electric ... (JEE Advanced PYQ).",
+    "options": [
+      "If the direct transmission method with a cable of resistance 0.4 $$\\Omega$$ km$$-$$1 is used, the power dissipation (in %) during transmission is",
+      "A meter bridge is set up as shown, to determine an unknown resistance X using a standard 10 $$\\Omega$$ resistor. The galvanometer shows null point when tapping-key is at 52 cm mark. The end-corrections are 1 cm and 2 cm, respectively, for the ends A and B. The determined value of X is",
+      "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17mh9o3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_005",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A thermal power plant produces electric power of 600 kW at 4000 V, which is to be transported to a place 20 km away from the power plant for consumers' usage. It can be transported either directly with a cable of large current carrying capacity or by using a combination of step-up and step-down transformers at the two ends. The drawback of the direct transmission is the large energy dissipation. In the method using transformers, the dissipation is much smaller. In this method, a step-up transformer is used at the plant side so that the current is reduced to a smaller value. At the consumers' end, a step-down transformer is used to supply power to the consumers at the specified lower voltage. It is reasonable to assume that the power cable is purely resistive and the transformers are ideal with power factor unity. All the currents and voltages mentioned are rms values.",
+    "solution": "Detailed step-by-step solution for A thermal power plant produces electric ... (JEE Advanced PYQ).",
+    "options": [
+      "If the direct transmission method with a cable of resistance 0.4 $$\\Omega$$ km$$-$$1 is used, the power dissipation (in %) during transmission is",
+      "A meter bridge is set up as shown, to determine an unknown resistance X using a standard 10 $$\\Omega$$ resistor. The galvanometer shows null point when tapping-key is at 52 cm mark. The end-corrections are 1 cm and 2 cm, respectively, for the ends A and B. The determined value of X is",
+      "Incandescent bulbs are designed by keeping in mind that the resistance of their filament increases with the increase in temperature. If at room temperature, 100, 60 and 40 W bulbs have filament resistances R100, R60 and R40 respectively, the relation between these resistances is",
+      "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17mh9o3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_006",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If the direct transmission method with a cable of resistance 0.4 $$\\Omega$$ km$$-$$1 is used, the power dissipation (in %) during transmission is",
+    "solution": "Detailed step-by-step solution for If the direct transmission method with a... (JEE Advanced PYQ).",
+    "options": [
+      "A meter bridge is set up as shown, to determine an unknown resistance X using a standard 10 $$\\Omega$$ resistor. The galvanometer shows null point when tapping-key is at 52 cm mark. The end-corrections are 1 cm and 2 cm, respectively, for the ends A and B. The determined value of X is",
+      "Incandescent bulbs are designed by keeping in mind that the resistance of their filament increases with the increase in temperature. If at room temperature, 100, 60 and 40 W bulbs have filament resistances R100, R60 and R40 respectively, the relation between these resistances is",
+      "To verify Ohm's law, a student is provided with a test resitor RT, a high resistance R1, a small resistance R2, two identical galvanometers G1 and G2, and a variable voltage source V. The correct circuit to carry out the experiment is",
+      "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2lx84nc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_007",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Incandescent bulbs are designed by keeping in mind that the resistance of their filament increases with the increase in temperature. If at room temperature, 100, 60 and 40 W bulbs have filament resistances R100, R60 and R40 respectively, the relation between these resistances is",
+    "solution": "Detailed step-by-step solution for Incandescent bulbs are designed by keepi... (JEE Advanced PYQ).",
+    "options": [
+      "To verify Ohm's law, a student is provided with a test resitor RT, a high resistance R1, a small resistance R2, two identical galvanometers G1 and G2, and a variable voltage source V. The correct circuit to carry out the experiment is",
+      "Consider a thin square sheet of side L and thickness, made of a material of resistivity $$\\rho$$. The resistance between two opposite faces, shown by the shaded areas in the figure is",
+      "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2lx84nc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_008",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "To verify Ohm's law, a student is provided with a test resitor RT, a high resistance R1, a small resistance R2, two identical galvanometers G1 and G2, and a variable voltage source V. The correct circuit to carry out the experiment is",
+    "solution": "Detailed step-by-step solution for To verify Ohm's law, a student is provid... (JEE Advanced PYQ).",
+    "options": [
+      "Consider a thin square sheet of side L and thickness, made of a material of resistivity $$\\rho$$. The resistance between two opposite faces, shown by the shaded areas in the figure is",
+      "Figure shows three resistor configurations R1, R2 and R3 connected to 3 V battery. If the power dissipated by the configuration R1, R2 and R3 is P1, P2 and P3, respectively, then",
+      "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l31snx1e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_009",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Consider a thin square sheet of side L and thickness, made of a material of resistivity $$\\rho$$. The resistance between two opposite faces, shown by the shaded areas in the figure is",
+    "solution": "Detailed step-by-step solution for Consider a thin square sheet of side L a... (JEE Advanced PYQ).",
+    "options": [
+      "Figure shows three resistor configurations R1, R2 and R3 connected to 3 V battery. If the power dissipated by the configuration R1, R2 and R3 is P1, P2 and P3, respectively, then",
+      "STATEMENT - 1",
+      "In a Meter Bridge experiment, null point for an unknown resistance is measured. Now, the unknown resistance is put inside an enclosure maintained at a higher temperature. The null point can be obtained at the same point as before by decreasing the value of the standard resistance.",
+      "and"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l31snx1e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_010",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Figure shows three resistor configurations R1, R2 and R3 connected to 3 V battery. If the power dissipated by the configuration R1, R2 and R3 is P1, P2 and P3, respectively, then",
+    "solution": "Detailed step-by-step solution for Figure shows three resistor configuratio... (JEE Advanced PYQ).",
+    "options": [
+      "STATEMENT - 1",
+      "In a Meter Bridge experiment, null point for an unknown resistance is measured. Now, the unknown resistance is put inside an enclosure maintained at a higher temperature. The null point can be obtained at the same point as before by decreasing the value of the standard resistance.",
+      "and",
+      "STATEMENT - 2"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l31k3zt0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_011",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT - 1",
+    "solution": "Detailed step-by-step solution for STATEMENT - 1... (JEE Advanced PYQ).",
+    "options": [
+      "In a Meter Bridge experiment, null point for an unknown resistance is measured. Now, the unknown resistance is put inside an enclosure maintained at a higher temperature. The null point can be obtained at the same point as before by decreasing the value of the standard resistance.",
+      "and",
+      "STATEMENT - 2",
+      "Resistance of a metal increases with increase in temperature."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgkiqbsu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_012",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "In a Meter Bridge experiment, null point for an unknown resistance is measured. Now, the unknown resistance is put inside an enclosure maintained at a higher temperature. The null point can be obtained at the same point as before by decreasing the value of the standard resistance.",
+    "solution": "Detailed step-by-step solution for In a Meter Bridge experiment, null point... (JEE Advanced PYQ).",
+    "options": [
+      "and",
+      "STATEMENT - 2",
+      "Resistance of a metal increases with increase in temperature.",
+      "A resistance of 2 $$\\Omega$$ is connected across one gap of a metre-bridge (the length of the wire is 100 cm) and an unknown resistance, greater than 2 $$\\Omega$$, is connected across the other gap. When these resistance are interchanged, the balance point shifts by 20 cm. Neglecting any corrections, the unknown resistance is"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1grr8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_013",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Consider a cylindrical element as shown in the figure. The current that flows through the element is I and resistivity of material of the cylinder is $\\rho$. Choose the correct option out the following",
+    "solution": "Detailed step-by-step solution for Consider a cylindrical element as shown ... (JEE Advanced PYQ).",
+    "options": [
+      "Power loss in first half is four times the power loss in second half.",
+      "Voltage drop in first half is 4 times of voltage drop in second half.",
+      "Current density in both halves are equal.",
+      "Electric field in both halves is equal"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1grr8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_014",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Power loss in first half is four times the power loss in second half.",
+    "solution": "Detailed step-by-step solution for Power loss in first half is four times t... (JEE Advanced PYQ).",
+    "options": [
+      "Voltage drop in first half is 4 times of voltage drop in second half.",
+      "Current density in both halves are equal.",
+      "Electric field in both halves is equal",
+      "An unknown resistance X is to be \ndetermined using resistances R$$_1$$, R$$_2$$ or R$$_3$$. Their corresponding null points are A, B \nand C. Find which of the above will give the \nmost accurate reading and why ?"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1grr8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_current_electricity_015",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Current Electricity MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 2  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 1  IIT-JEE 2005 Mains 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Current Electricity MCQ (... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7eqfxg.png",
+      "position": "bottom"
+    }
   }
 ]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "mat_matrices_and_determinants_001",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{bmatrix}$$",
+    "solution": "Detailed step-by-step solution for $$\\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1... (JEE Advanced PYQ).",
+    "options": [
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 2 & 3 & 4 \\\\ 1 & 2 & 1 \\end{bmatrix}$$",
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 2 & 3 & 4 \\\\ 2 & 5 & 8 \\end{bmatrix}$$",
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ -1 & 1 & 2 \\\\ 0 & 2 & 3 \\end{bmatrix}$$",
+      "Consider the matrix"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_002",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ M = \\begin{bmatrix} 2 & -1 \\\\ 1 & 0 \\end{bmatrix}. $$",
+    "solution": "Detailed step-by-step solution for $$ M = \\begin{bmatrix} 2 & -1 \\\\ 1 & 0 \\... (JEE Advanced PYQ).",
+    "options": [
+      "Let $p, q, r, s, a, b, c$ and $d$ be integers such that",
+      "$$ M^{26} = \\begin{bmatrix} p & q \\\\ r & s \\end{bmatrix} \\quad \\text{and} \\quad \\sum\\limits_{k=1}^{26} M^k = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}. $$",
+      "Then which of the following statements is (are) TRUE?",
+      "There exists a $2 \\times 2$ invertible matrix $N$ with real entries such that"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_003",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Questions from Matrices and Determinants Numerical \u00b7 No. in brackets = question count  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2021 Paper 1 Online 2  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2019 Paper 2 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2017 Paper 1 Offline 1  JEE Advanced 2016 Paper 1 Offline 2  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+    "solution": "Detailed step-by-step solution for Questions from Matrices and Determinants... (JEE Advanced PYQ).",
+    "options": [
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_004",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_005",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$ P = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}. $$",
+    "solution": "Detailed step-by-step solution for $$ P = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & ... (JEE Advanced PYQ).",
+    "options": [
+      "Let the transpose of a matrix $X$ be denoted by $X^T$. Then the number of $3 \\times 3$ invertible matrices $Q$ with integer entries, such that",
+      "$$ Q^{-1} = Q^T \\quad \\text{and} \\quad PQ = QP, $$",
+      "is",
+      "32"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_006",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100 y+1000 z=0 \\\\\nq r x+p r y+p q z=0\n\\end{gathered}\n$$$",
+    "solution": "Detailed step-by-step solution for $$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) If $$\\frac{q}{r}=10$$, then the system of linear equations has\n    (P) $$x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$$ as a solution\n  \n  \n    (II) If $$\\frac{p}{r} \\neq 100$$, then the system of linear equations has\n    (Q) $$x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$$ as a solution\n  \n  \n    (III) If $$\\frac{p}{q} \\neq 10$$, then the system of linear equations has\n    (R) infinitely many solutions\n  \n  \n    (IV) If $$\\frac{p}{q}=10$$, then the system of linear equations has\n    (S) no solution\n  \n  \n    \n    (T) at least one solution",
+      "The correct option is:",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_007",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100 y+1000 z=0 \\\\\nq r x+p r y+p q z=0\n\\end{gathered}\n$$$",
+    "solution": "Detailed step-by-step solution for $$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) If $$\\frac{q}{r}=10$$, then the system of linear equations has\n    (P) $$x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$$ as a solution\n  \n  \n    (II) If $$\\frac{p}{r} \\neq 100$$, then the system of linear equations has\n    (Q) $$x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$$ as a solution\n  \n  \n    (III) If $$\\frac{p}{q} \\neq 10$$, then the system of linear equations has\n    (R) infinitely many solutions\n  \n  \n    (IV) If $$\\frac{p}{q}=10$$, then the system of linear equations has\n    (S) no solution\n  \n  \n    \n    (T) at least one solution",
+      "The correct option is:",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_008",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100 y+1000 z=0 \\\\\nq r x+p r y+p q z=0\n\\end{gathered}\n$$$",
+    "solution": "Detailed step-by-step solution for $$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) If $$\\frac{q}{r}=10$$, then the system of linear equations has\n    (P) $$x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$$ as a solution\n  \n  \n    (II) If $$\\frac{p}{r} \\neq 100$$, then the system of linear equations has\n    (Q) $$x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$$ as a solution\n  \n  \n    (III) If $$\\frac{p}{q} \\neq 10$$, then the system of linear equations has\n    (R) infinitely many solutions\n  \n  \n    (IV) If $$\\frac{p}{q}=10$$, then the system of linear equations has\n    (S) no solution\n  \n  \n    \n    (T) at least one solution",
+      "The correct option is:",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_009",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100 y+1000 z=0 \\\\\nq r x+p r y+p q z=0\n\\end{gathered}\n$$$",
+    "solution": "Detailed step-by-step solution for $$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100... (JEE Advanced PYQ).",
+    "options": [
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) If $$\\frac{q}{r}=10$$, then the system of linear equations has\n    (P) $$x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$$ as a solution\n  \n  \n    (II) If $$\\frac{p}{r} \\neq 100$$, then the system of linear equations has\n    (Q) $$x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$$ as a solution\n  \n  \n    (III) If $$\\frac{p}{q} \\neq 10$$, then the system of linear equations has\n    (R) infinitely many solutions\n  \n  \n    (IV) If $$\\frac{p}{q}=10$$, then the system of linear equations has\n    (S) no solution\n  \n  \n    \n    (T) at least one solution",
+      "The correct option is:",
+      "Let $$P = \\left[ {\\matrix{\n   1 & 0 & 0  \\cr \n   4 & 1 & 0  \\cr \n   {16} & 4 & 1  \\cr \n\n } } \\right]$$ and I be the identity matrix of order 3. If $$Q = [{q_{ij}}]$$ is a matrix such that $${P^{50}} - Q = I$$ and $${{{q_{31}} + {q_{32}}} \\over {{q_{21}}}}$$ equals",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_010",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If P is a 3 $$\\times$$ 3 matrix such that PT = 2P + I, where PT is the transpose of P and I is the 3 $$\\times$$ 3 identity matrix, then there exists a column matrix $$X = \\left[ {\\matrix{\n   x  \\cr \n   y  \\cr \n   z  \\cr \n\n } } \\right] \\ne \\left[ {\\matrix{\n   0  \\cr \n   0  \\cr \n   0  \\cr \n\n } } \\right]$$ such that",
+    "solution": "Detailed step-by-step solution for If P is a 3 $$\\times$$ 3 matrix such tha... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_011",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If P is a 3 $$\\times$$ 3 matrix such that PT = 2P + I, where PT is the transpose of P and I is the 3 $$\\times$$ 3 identity matrix, then there exists a column matrix $$X = \\left[ {\\matrix{\n   x  \\cr \n   y  \\cr \n   z  \\cr \n\n } } \\right] \\ne \\left[ {\\matrix{\n   0  \\cr \n   0  \\cr \n   0  \\cr \n\n } } \\right]$$ such that",
+    "solution": "Detailed step-by-step solution for If P is a 3 $$\\times$$ 3 matrix such tha... (JEE Advanced PYQ).",
+    "options": [
+      "Let $$P = [{a_{ij}}]$$ be a 3 $$\\times$$ 3 matrix and let $$Q = [{b_{ij}}]$$, where $${b_{ij}} = {2^{i + j}}{a_{ij}}$$ for $$1 \\le i,j \\le 3$$. If the determinant of P is 2, then the determinant of the matrix Q is",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_012",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If P is a 3 $$\\times$$ 3 matrix such that PT = 2P + I, where PT is the transpose of P and I is the 3 $$\\times$$ 3 identity matrix, then there exists a column matrix $$X = \\left[ {\\matrix{\n   x  \\cr \n   y  \\cr \n   z  \\cr \n\n } } \\right] \\ne \\left[ {\\matrix{\n   0  \\cr \n   0  \\cr \n   0  \\cr \n\n } } \\right]$$ such that",
+    "solution": "Detailed step-by-step solution for If P is a 3 $$\\times$$ 3 matrix such tha... (JEE Advanced PYQ).",
+    "options": [
+      "Let $$P = [{a_{ij}}]$$ be a 3 $$\\times$$ 3 matrix and let $$Q = [{b_{ij}}]$$, where $${b_{ij}} = {2^{i + j}}{a_{ij}}$$ for $$1 \\le i,j \\le 3$$. If the determinant of P is 2, then the determinant of the matrix Q is",
+      "Let $$\\omega$$ $$\\ne$$ 1 be a cube root of unity and S be the set of all non-singular matrices of the form $$\\left[ {\\matrix{\n   1 & a & b  \\cr \n   \\omega  & 1 & c  \\cr \n   {{\\omega ^2}} & \\omega  & 1  \\cr \n\n } } \\right]$$, where each of a, b, and c is either $$\\omega$$ or $$\\omega$$2. Then the number of distinct matrices in the set S is",
+      "Questions from Matrices and Determinants MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 1  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 3  IIT-JEE 2010 Paper 1 Offline 4  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2006 3    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_013",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = [{a_{ij}}]$$ be a 3 $$\\times$$ 3 matrix and let $$Q = [{b_{ij}}]$$, where $${b_{ij}} = {2^{i + j}}{a_{ij}}$$ for $$1 \\le i,j \\le 3$$. If the determinant of P is 2, then the determinant of the matrix Q is",
+    "solution": "Detailed step-by-step solution for Let $$P = [{a_{ij}}]$$ be a 3 $$\\times$$... (JEE Advanced PYQ).",
+    "options": [
+      "Let $$\\omega$$ $$\\ne$$ 1 be a cube root of unity and S be the set of all non-singular matrices of the form $$\\left[ {\\matrix{\n   1 & a & b  \\cr \n   \\omega  & 1 & c  \\cr \n   {{\\omega ^2}} & \\omega  & 1  \\cr \n\n } } \\right]$$, where each of a, b, and c is either $$\\omega$$ or $$\\omega$$2. Then the number of distinct matrices in the set S is",
+      "Let a, b and c be three real numbers satisfying",
+      "$$[\\matrix{\n   a & b & c  \\cr \n\n } ]\\left[ {\\matrix{\n   1 & 9 & 7  \\cr \n   8 & 2 & 7  \\cr \n   7 & 3 & 7  \\cr \n\n } } \\right] = [\\matrix{\n   0 & 0 & 0  \\cr \n\n } ]$$ .......(E)",
+      "If the point P(a, b, c), with reference to (E), lies on the plane 2x + y + z = 1, then the value of 7a + b + c is"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_014",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\omega$$ $$\\ne$$ 1 be a cube root of unity and S be the set of all non-singular matrices of the form $$\\left[ {\\matrix{\n   1 & a & b  \\cr \n   \\omega  & 1 & c  \\cr \n   {{\\omega ^2}} & \\omega  & 1  \\cr \n\n } } \\right]$$, where each of a, b, and c is either $$\\omega$$ or $$\\omega$$2. Then the number of distinct matrices in the set S is",
+    "solution": "Detailed step-by-step solution for Let $$\\omega$$ $$\\ne$$ 1 be a cube root ... (JEE Advanced PYQ).",
+    "options": [
+      "Let a, b and c be three real numbers satisfying",
+      "$$[\\matrix{\n   a & b & c  \\cr \n\n } ]\\left[ {\\matrix{\n   1 & 9 & 7  \\cr \n   8 & 2 & 7  \\cr \n   7 & 3 & 7  \\cr \n\n } } \\right] = [\\matrix{\n   0 & 0 & 0  \\cr \n\n } ]$$ .......(E)",
+      "If the point P(a, b, c), with reference to (E), lies on the plane 2x + y + z = 1, then the value of 7a + b + c is",
+      "Let a, b and c be three real numbers satisfying"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_matrices_and_determinants_015",
+    "subject": "Mathematics",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Let a, b and c be three real numbers satisfying",
+    "solution": "Detailed step-by-step solution for Let a, b and c be three real numbers sat... (JEE Advanced PYQ).",
+    "options": [
+      "$$[\\matrix{\n   a & b & c  \\cr \n\n } ]\\left[ {\\matrix{\n   1 & 9 & 7  \\cr \n   8 & 2 & 7  \\cr \n   7 & 3 & 7  \\cr \n\n } } \\right] = [\\matrix{\n   0 & 0 & 0  \\cr \n\n } ]$$ .......(E)",
+      "If the point P(a, b, c), with reference to (E), lies on the plane 2x + y + z = 1, then the value of 7a + b + c is",
+      "Let a, b and c be three real numbers satisfying",
+      "$$[\\matrix{\n   a & b & c  \\cr \n\n } ]\\left[ {\\matrix{\n   1 & 9 & 7  \\cr \n   8 & 2 & 7  \\cr \n   7 & 3 & 7  \\cr \n\n } } \\right] = [\\matrix{\n   0 & 0 & 0  \\cr \n\n } ]$$ ........(E)"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  }
+]

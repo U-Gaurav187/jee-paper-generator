@@ -1,0 +1,316 @@
+[
+  {
+    "id": "che_thermodynamics_001",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "207R",
+    "solution": "Detailed step-by-step solution for 207R... (JEE Advanced PYQ).",
+    "options": [
+      "600R",
+      "630R",
+      "900R",
+      "List-I contains various physical/chemical processes, and List-II contains combinations of changes in enthalpy ($\\Delta H$) and entropy ($\\Delta S$). Match each entry in List-I to the appropriate entry in List-II, and choose the correct option."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_002",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Use: Universal gas constant (R) = 8.3 J K\u22121 mol\u22121; Atomic mass (in amu): H = 1, O = 16",
+    "solution": "Detailed step-by-step solution for Use: Universal gas constant (R) = 8.3 J ... (JEE Advanced PYQ).",
+    "options": [
+      "Consider the following volume-temperature $(\\mathrm{V}-\\mathrm{T})$ diagram for the expansion of 5 moles of an ideal monoatomic gas.",
+      "Considering only $\\mathrm{P}-\\mathrm{V}$ work is involved, the total change in enthalpy (in Joule) for the transformation of state in the sequence $\\mathbf{X} \\rightarrow \\mathbf{Y} \\rightarrow \\mathbf{Z}$ is ____________.",
+      "[Use the given data: Molar heat capacity of the gas for the given temperature range, $\\mathrm{C}_{\\mathrm{V}, \\mathrm{m}}=12 \\mathrm{~J} \\mathrm{~K}^{-1}$ $\\mathrm{mol}^{-1}$ and gas constant, $\\left.\\mathrm{R}=8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}\\right]$",
+      "Questions from Thermodynamics Numerical \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 2  JEE Advanced 2023 Paper 1 Online 2  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 2 Online 1  JEE Advanced 2021 Paper 1 Online 2  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2006 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrbkk55.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_003",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx2vhp7c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_004",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "P \u2192 2; Q \u2192 3; R \u2192 5; S \u2192 4",
+    "solution": "Detailed step-by-step solution for P \u2192 2; Q \u2192 3; R \u2192 5; S \u2192 4... (JEE Advanced PYQ).",
+    "options": [
+      "P \u2192 4; Q \u2192 3; R \u2192 5; S \u2192 1",
+      "P \u2192 2; Q \u2192 5; R \u2192 1; S \u2192 4",
+      "P \u2192 2; Q \u2192 5; R \u2192 1; S \u2192 3",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_005",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_006",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The succeeding operations that enable this transformation of states are",
+    "solution": "Detailed step-by-step solution for The succeeding operations that enable th... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnpmuk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_007",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The succeeding operations that enable this transformation of states are",
+    "solution": "Detailed step-by-step solution for The succeeding operations that enable th... (JEE Advanced PYQ).",
+    "options": [
+      "A fixed mass m of a gas is subjected to transformation of states from K to L to M to N and back to K as shown in the figure.",
+      "The pair of isochoric processes among the transformation of states is",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnpmuk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_008",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The succeeding operations that enable this transformation of states are",
+    "solution": "Detailed step-by-step solution for The succeeding operations that enable th... (JEE Advanced PYQ).",
+    "options": [
+      "A fixed mass m of a gas is subjected to transformation of states from K to L to M to N and back to K as shown in the figure.",
+      "The pair of isochoric processes among the transformation of states is",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnpmuk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_009",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The succeeding operations that enable this transformation of states are",
+    "solution": "Detailed step-by-step solution for The succeeding operations that enable th... (JEE Advanced PYQ).",
+    "options": [
+      "A fixed mass m of a gas is subjected to transformation of states from K to L to M to N and back to K as shown in the figure.",
+      "The pair of isochoric processes among the transformation of states is",
+      "Using the data provided, calculate the multiple bond energy (kJ mol$$-$$1) of a C=C bond in C2H2. That energy is (take the bond energy of C-H bond as 350 kJ mol$$-$$1).",
+      "$$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\to {C_2}{H_2}} & \\hfill {\\Delta H = 225\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {2C(s) \\to 2C(g)} & \\hfill {\\Delta H = 1410\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {{H_2}(g) \\to 2H(g)} & \\hfill {\\Delta H = 330\\,kJ\\,mo{l^{ - 1}}} \\cr \n\n } $$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnpmuk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_010",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The pair of isochoric processes among the transformation of states is",
+    "solution": "Detailed step-by-step solution for The pair of isochoric processes among th... (JEE Advanced PYQ).",
+    "options": [
+      "Using the data provided, calculate the multiple bond energy (kJ mol$$-$$1) of a C=C bond in C2H2. That energy is (take the bond energy of C-H bond as 350 kJ mol$$-$$1).",
+      "$$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\to {C_2}{H_2}} & \\hfill {\\Delta H = 225\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {2C(s) \\to 2C(g)} & \\hfill {\\Delta H = 1410\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {{H_2}(g) \\to 2H(g)} & \\hfill {\\Delta H = 330\\,kJ\\,mo{l^{ - 1}}} \\cr \n\n } $$",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnpmuk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "che_thermodynamics_011",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\to {C_2}{H_2}} & \\hfill {\\Delta H = 225\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {2C(s) \\to 2C(g)} & \\hfill {\\Delta H = 1410\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {{H_2}(g) \\to 2H(g)} & \\hfill {\\Delta H = 330\\,kJ\\,mo{l^{ - 1}}} \\cr \n\n } $$",
+    "solution": "Detailed step-by-step solution for $$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_012",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\to {C_2}{H_2}} & \\hfill {\\Delta H = 225\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {2C(s) \\to 2C(g)} & \\hfill {\\Delta H = 1410\\,kJ\\,mo{l^{ - 1}}} \\cr \n   \\hfill {{H_2}(g) \\to 2H(g)} & \\hfill {\\Delta H = 330\\,kJ\\,mo{l^{ - 1}}} \\cr \n\n } $$",
+    "solution": "Detailed step-by-step solution for $$\\matrix{\n   \\hfill {2C(s) + {H_2}(g) \\... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_013",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Statement 2 : No process is possible in which the sole result is the absorption of heat from a reservoir and its complete conversion into work.",
+    "solution": "Detailed step-by-step solution for Statement 2 : No process is possible in ... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_014",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Statement 2 : No process is possible in which the sole result is the absorption of heat from a reservoir and its complete conversion into work.",
+    "solution": "Detailed step-by-step solution for Statement 2 : No process is possible in ... (JEE Advanced PYQ).",
+    "options": [
+      "For the process $$\\mathrm{H_2O}(l)$$ (1 bar, 373 K) $$\\to$$ $$\\mathrm{H_2O}(g)$$ (1 bar, 373 K), the correct set of thermodynamic parameters is:",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "che_thermodynamics_015",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Statement 2 : No process is possible in which the sole result is the absorption of heat from a reservoir and its complete conversion into work.",
+    "solution": "Detailed step-by-step solution for Statement 2 : No process is possible in ... (JEE Advanced PYQ).",
+    "options": [
+      "For the process $$\\mathrm{H_2O}(l)$$ (1 bar, 373 K) $$\\to$$ $$\\mathrm{H_2O}(g)$$ (1 bar, 373 K), the correct set of thermodynamic parameters is:",
+      "The value of log$$_{10}$$ K for a reaction $A \\rightleftharpoons B$ is",
+      "(Given : $${\\Delta _r}H{^\\circ _{298\\,K}} =  - 54.07$$ kJ mol$$^{-1}$$, $${\\Delta _r}S{^\\circ _{298\\,K}} = 10$$ J K$$^{-1}$$ mol$$^{-1}$$ and R = 8.314 J K$$^{-1}$$ mol$$^{-1}$$; 2.303 $$\\times$$ 8.314 $$\\times$$ 298 = 5705)",
+      "Questions from Thermodynamics MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 1 Online 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 2  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 1  IIT-JEE 2006 2    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  }
+]

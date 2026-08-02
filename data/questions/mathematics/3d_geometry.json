@@ -1,0 +1,237 @@
+[
+  {
+    "id": "mat_3d_geometry_001",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "$$\\,\\,\\,$$ Column $$I$$\n(A)$$\\,\\,a + b + c \\ne 0$$ and $${a^2} + {b^2} + {c^2} = ab + bc + ca$$\n(B)$$\\,\\,$$ $$a + b + c = 0$$ and $${a^2} + {b^2} + {c^2} \\ne ab + bc + ca$$ \n(C)$$\\,\\,a + b + c \\ne 0$$ and $${a^2} + {b^2} + {c^2} \\ne ab + bc + ca$$\n(D)$$\\,\\,$$ $$a + b + c = 0$$ and $${a^2} + {b^2} + {c^2} = ab + bc + ca$$",
+    "solution": "Detailed step-by-step solution for $$\\,\\,\\,$$ Column $$I$$\n(A)$$\\,\\,a + b +... (JEE Advanced PYQ).",
+    "options": [
+      "$$\\,\\,\\,$$ Column $$II$$\n(p)$$\\,\\,\\,$$ the equations represents planes meeting only at asingle point\n(q)$$\\,\\,\\,$$ the equations represents the line $$x=y=z.$$\n(r)$$\\,\\,\\,$$ the equations represent identical planes.\n(s) $$\\,\\,\\,$$ the equations represents the whole of the three dimensional space.",
+      "Questions from 3D Geometry Subjective \u00b7 No. in brackets = question count  IIT-JEE 2005 1  IIT-JEE 2004 3  IIT-JEE 2003 1  IIT-JEE 1996 1  IIT-JEE 1983 1  IIT-JEE 1978 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_002",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT-2: The vector $${14\\widehat i + 2\\widehat j + 15\\widehat k}$$ is parallel to the line of intersection of given planes.",
+    "solution": "Detailed step-by-step solution for STATEMENT-2: The vector $${14\\widehat i ... (JEE Advanced PYQ).",
+    "options": [
+      "Let $\\gamma \\in \\mathbb{R}$ be such that the lines $L_1: \\frac{x+11}{1}=\\frac{y+21}{2}=\\frac{z+29}{3}$ and $L_2: \\frac{x+16}{3}=\\frac{y+11}{2}=\\frac{z+4}{\\gamma}$ intersect. Let $R_1$ be the point of intersection of $L_1$ and $L_2$. Let $O=(0,0,0)$, and $\\hat{n}$ denote a unit normal vector to the plane containing both the lines $L_1$ and $L_2$.",
+      "Match each entry in List-I to the correct entry in List-II.",
+      "Questions from 3D Geometry MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2006 2  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 1994 2  IIT-JEE 1983 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_003",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Then which of the following statements is (are) TRUE?",
+    "solution": "Detailed step-by-step solution for Then which of the following statements i... (JEE Advanced PYQ).",
+    "options": [
+      "The orthocentre of the triangle PRT is $\\left(\\frac{23}{5}, -4, \\frac{31}{5}\\right)$",
+      "The orthocentre of the triangle PRT is (4, 3, 5)",
+      "The area of the triangle PRT is $6\\sqrt{5}$",
+      "The area of the triangle PRT is $18\\sqrt{5}$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_004",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_005",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_006",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_007",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_008",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_009",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_010",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_011",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_012",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_013",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_014",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Match each entry in List-I to the correct entry in List-II.",
+    "solution": "Detailed step-by-step solution for Match each entry in List-I to the correc... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from 3D Geometry MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2006 2  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 1994 2  IIT-JEE 1983 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_3d_geometry_015",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "List $$II$$\n(1.) $$13$$\n(2.) $$-3$$\n(3.) $$1$$\n(4.) $$-2$$",
+    "solution": "Detailed step-by-step solution for List $$II$$\n(1.) $$13$$\n(2.) $$-3$$\n(3.)... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from 3D Geometry MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 2  IIT-JEE 2009 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 1  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2006 2  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 1  IIT-JEE 1994 2  IIT-JEE 1983 2    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  }
+]

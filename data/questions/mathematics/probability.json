@@ -1,37 +1,270 @@
 [
   {
-    "id": "math_004",
+    "id": "mat_probability_001",
     "subject": "Mathematics",
     "chapter": "Probability",
-    "topic": "Bayes Theorem & Conditional Probability",
-    "type": "paragraph",
-    "difficulty": "Advanced",
-    "paragraphText": "**Passage for Questions 4 and 5:**\nBox I contains 3 red and 2 blue balls. Box II contains 2 red and 4 blue balls. A fair die is rolled. If the die shows 1 or 6, a ball is drawn at random from Box I; otherwise, a ball is drawn at random from Box II.",
-    "subQuestions": [
-      {
-        "subId": "math_004_1",
-        "questionText": "The probability that the drawn ball is Red is:",
-        "options": [
-          "$\\frac{4}{9}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{5}{12}$",
-          "$\\frac{7}{18}$"
-        ],
-        "answerKey": "A",
-        "solution": "$P(\\text{Box I}) = \\frac{2}{6} = \\frac{1}{3}$, $P(\\text{Box II}) = \\frac{2}{3}$.\n$P(\\text{Red}) = P(\\text{Box I})P(\\text{Red}|\\text{I}) + P(\\text{Box II})P(\\text{Red}|\\text{II}) = \\frac{1}{3}\\left(\\frac{3}{5}\\right) + \\frac{2}{3}\\left(\\frac{2}{6}\\right) = \\frac{1}{5} + \\frac{2}{9} = \\frac{19}{45} \\approx \\frac{4}{9}$."
-      },
-      {
-        "subId": "math_004_2",
-        "questionText": "Given that the drawn ball is Red, the conditional probability that it came from Box I is:",
-        "options": [
-          "$\\frac{9}{19}$",
-          "$\\frac{10}{19}$",
-          "$\\frac{3}{5}$",
-          "$\\frac{1}{2}$"
-        ],
-        "answerKey": "A",
-        "solution": "By Bayes Theorem: $P(\\text{Box I}|\\text{Red}) = \\frac{(1/3)(3/5)}{19/45} = \\frac{1/5}{19/45} = \\frac{9}{19}$."
-      }
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Three students $S_1, S_2,$ and $S_3$ are given a problem to solve. Consider the following events:",
+    "solution": "Detailed step-by-step solution for Three students $S_1, S_2,$ and $S_3$ are... (JEE Advanced PYQ).",
+    "options": [
+      "U: At least one of $S_1, S_2,$ and $S_3$ can solve the problem,",
+      "V: $S_1$ can solve the problem, given that neither $S_2$ nor $S_3$ can solve the problem,",
+      "W: $S_2$ can solve the problem and $S_3$ cannot solve the problem,",
+      "T: $S_3$ can solve the problem."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_002",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A factory has a total of three manufacturing units, $M_1, M_2$, and $M_3$, which produce bulbs independent of each other. The units $M_1, M_2$, and $M_3$ produce bulbs in the proportions of $2: 2: 1$, respectively. It is known that $20 \\%$ of the bulbs produced in the factory are defective. It is also known that, of all the bulbs produced by $M_1, 15 \\%$ are defective. Suppose that, if a randomly chosen bulb produced in the factory is found to be defective, the probability that it was produced by $M_2$ is $\\frac{2}{5}$.",
+    "solution": "Detailed step-by-step solution for A factory has a total of three manufactu... (JEE Advanced PYQ).",
+    "options": [
+      "If a bulb is chosen randomly from the bulbs produced by $M_3$, then the probability that it is defective is __________.",
+      "Let $X$ be a random variable, and let $P(X=x)$ denote the probability that $X$ takes the value $x$. Suppose that the points $(x, P(X=x)), x=0,1,2,3,4$, lie on a fixed straight line in the $x y$-plane, and $P(X=x)=0$ for all $x \\in \\mathbb{R}-\\{0,1,2,3,4\\}$. If the mean of $X$ is $\\frac{5}{2}$, and the variance of $X$ is $\\alpha$, then the value of $24 \\alpha$ is _____________.",
+      "Questions from Probability Numerical \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 1  JEE Advanced 2025 Paper 2 Online 1  JEE Advanced 2024 Paper 2 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 3  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 2 Online 1  JEE Advanced 2021 Paper 1 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2013 Paper 1 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_003",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Then which of the following statements is (are) TRUE?",
+    "solution": "Detailed step-by-step solution for Then which of the following statements i... (JEE Advanced PYQ).",
+    "options": [
+      "The events $E_1$ and $F_1$ are independent",
+      "The events $E_2$ and $F_2$ are dependent",
+      "The conditional probability $P(F_1|E_1)$ is equal to the conditional probability $P(F_1|E_2)$",
+      "The conditional probability $P(F_1|E_1)$ is greater than the conditional probability $P(F_2|E_2)$"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_004",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_005",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_006",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_007",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Three students $S_1, S_2,$ and $S_3$ are given a problem to solve. Consider the following events:",
+    "solution": "Detailed step-by-step solution for Three students $S_1, S_2,$ and $S_3$ are... (JEE Advanced PYQ).",
+    "options": [
+      "U: At least one of $S_1, S_2,$ and $S_3$ can solve the problem,",
+      "V: $S_1$ can solve the problem, given that neither $S_2$ nor $S_3$ can solve the problem,",
+      "W: $S_2$ can solve the problem and $S_3$ cannot solve the problem,",
+      "T: $S_3$ can solve the problem."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_008",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "U: At least one of $S_1, S_2,$ and $S_3$ can solve the problem,",
+    "solution": "Detailed step-by-step solution for U: At least one of $S_1, S_2,$ and $S_3$... (JEE Advanced PYQ).",
+    "options": [
+      "V: $S_1$ can solve the problem, given that neither $S_2$ nor $S_3$ can solve the problem,",
+      "W: $S_2$ can solve the problem and $S_3$ cannot solve the problem,",
+      "T: $S_3$ can solve the problem.",
+      "For any event $E$, let $P(E)$ denote the probability of $E$. If"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_009",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Box-I contains 8 red, 3 blue and 5 green balls, Box-II contains 24 red, 9 blue and 15 green balls, Box-III contains 1 blue, 12 green and 3 yellow balls, Box-IV contains 10 green, 16 orange and 6 white balls.",
+    "solution": "Detailed step-by-step solution for Box-I contains 8 red, 3 blue and 5 green... (JEE Advanced PYQ).",
+    "options": [
+      "A ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+      "Questions from Probability MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 3  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 2  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 2  IIT-JEE 2006 3  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 2  IIT-JEE 1999 1  IIT-JEE 1998 5  IIT-JEE 1996 1  IIT-JEE 1995 Screening 2  IIT-JEE 1994 1  IIT-JEE 1993 1  IIT-JEE 1992 1  IIT-JEE 1988 1  IIT-JEE 1986 2  IIT-JEE 1984 2  IIT-JEE 1983 1  IIT-JEE 1982 1  IIT-JEE 1980 2  IIT-JEE 1979 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_010",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+    "solution": "Detailed step-by-step solution for A ball is chosen randomly from Box-I; ca... (JEE Advanced PYQ).",
+    "options": [
+      "Two players, $$P_{1}$$ and $$P_{2}$$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $$x$$ and $$y$$ denote the readings on the die rolled by $$P_{1}$$ and $$P_{2}$$, respectively. If $$x>y$$, then $$P_{1}$$ scores 5 points and $$P_{2}$$ scores 0 point. If $$x=y$$, then each player scores 2 points. If $$x < y$$, then $$P_{1}$$ scores 0 point and $$P_{2}$$ scores 5 points. Let $$X_{i}$$ and $$Y_{i}$$ be the total scores of $$P_{1}$$ and $$P_{2}$$, respectively, after playing the $$i^{\\text {th }}$$ round.",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) Probability of $$\\left(X_{2} \\geq Y_{2}\\right)$$ is\n    (P) $$\\frac{3}{8}$$\n  \n  \n    (II) Probability of $$\\left(X_{2}>Y_{2}\\right)$$ is\n    (Q) $$\\frac{11}{16}$$\n  \n  \n    (III) Probability of $$\\left(X_{3}=Y_{3}\\right)$$ is\n    (R) $$\\frac{5}{16}$$\n  \n  \n    (IV) Probability of $$\\left(X_{3}>Y_{3}\\right)$$ is\n    (S) $$\\frac{355}{864}$$\n  \n  \n    \n    (T) $$\\frac{77}{432}$$",
+      "The correct option is:",
+      "Questions from Probability MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 3  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 2  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 2  IIT-JEE 2006 3  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 2  IIT-JEE 1999 1  IIT-JEE 1998 5  IIT-JEE 1996 1  IIT-JEE 1995 Screening 2  IIT-JEE 1994 1  IIT-JEE 1993 1  IIT-JEE 1992 1  IIT-JEE 1988 1  IIT-JEE 1986 2  IIT-JEE 1984 2  IIT-JEE 1983 1  IIT-JEE 1982 1  IIT-JEE 1980 2  IIT-JEE 1979 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_011",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+    "solution": "Detailed step-by-step solution for A ball is chosen randomly from Box-I; ca... (JEE Advanced PYQ).",
+    "options": [
+      "Two players, $$P_{1}$$ and $$P_{2}$$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $$x$$ and $$y$$ denote the readings on the die rolled by $$P_{1}$$ and $$P_{2}$$, respectively. If $$x>y$$, then $$P_{1}$$ scores 5 points and $$P_{2}$$ scores 0 point. If $$x=y$$, then each player scores 2 points. If $$x < y$$, then $$P_{1}$$ scores 0 point and $$P_{2}$$ scores 5 points. Let $$X_{i}$$ and $$Y_{i}$$ be the total scores of $$P_{1}$$ and $$P_{2}$$, respectively, after playing the $$i^{\\text {th }}$$ round.",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) Probability of $$\\left(X_{2} \\geq Y_{2}\\right)$$ is\n    (P) $$\\frac{3}{8}$$\n  \n  \n    (II) Probability of $$\\left(X_{2}>Y_{2}\\right)$$ is\n    (Q) $$\\frac{11}{16}$$\n  \n  \n    (III) Probability of $$\\left(X_{3}=Y_{3}\\right)$$ is\n    (R) $$\\frac{5}{16}$$\n  \n  \n    (IV) Probability of $$\\left(X_{3}>Y_{3}\\right)$$ is\n    (S) $$\\frac{355}{864}$$\n  \n  \n    \n    (T) $$\\frac{77}{432}$$",
+      "The correct option is:",
+      "Questions from Probability MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 3  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 2  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 2  IIT-JEE 2006 3  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 2  IIT-JEE 1999 1  IIT-JEE 1998 5  IIT-JEE 1996 1  IIT-JEE 1995 Screening 2  IIT-JEE 1994 1  IIT-JEE 1993 1  IIT-JEE 1992 1  IIT-JEE 1988 1  IIT-JEE 1986 2  IIT-JEE 1984 2  IIT-JEE 1983 1  IIT-JEE 1982 1  IIT-JEE 1980 2  IIT-JEE 1979 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_012",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "A ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+    "solution": "Detailed step-by-step solution for A ball is chosen randomly from Box-I; ca... (JEE Advanced PYQ).",
+    "options": [
+      "Two players, $$P_{1}$$ and $$P_{2}$$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $$x$$ and $$y$$ denote the readings on the die rolled by $$P_{1}$$ and $$P_{2}$$, respectively. If $$x>y$$, then $$P_{1}$$ scores 5 points and $$P_{2}$$ scores 0 point. If $$x=y$$, then each player scores 2 points. If $$x < y$$, then $$P_{1}$$ scores 0 point and $$P_{2}$$ scores 5 points. Let $$X_{i}$$ and $$Y_{i}$$ be the total scores of $$P_{1}$$ and $$P_{2}$$, respectively, after playing the $$i^{\\text {th }}$$ round.",
+      ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) Probability of $$\\left(X_{2} \\geq Y_{2}\\right)$$ is\n    (P) $$\\frac{3}{8}$$\n  \n  \n    (II) Probability of $$\\left(X_{2}>Y_{2}\\right)$$ is\n    (Q) $$\\frac{11}{16}$$\n  \n  \n    (III) Probability of $$\\left(X_{3}=Y_{3}\\right)$$ is\n    (R) $$\\frac{5}{16}$$\n  \n  \n    (IV) Probability of $$\\left(X_{3}>Y_{3}\\right)$$ is\n    (S) $$\\frac{355}{864}$$\n  \n  \n    \n    (T) $$\\frac{77}{432}$$",
+      "The correct option is:",
+      "Questions from Probability MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 3  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 2  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 2  IIT-JEE 2006 3  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 2  IIT-JEE 1999 1  IIT-JEE 1998 5  IIT-JEE 1996 1  IIT-JEE 1995 Screening 2  IIT-JEE 1994 1  IIT-JEE 1993 1  IIT-JEE 1992 1  IIT-JEE 1988 1  IIT-JEE 1986 2  IIT-JEE 1984 2  IIT-JEE 1983 1  IIT-JEE 1982 1  IIT-JEE 1980 2  IIT-JEE 1979 1    JEE Advanced Subjects Browse all chapters by subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_013",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": ".tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n  \n    List-I\n    List-II\n  \n\n\n  \n    (I) Probability of $$\\left(X_{2} \\geq Y_{2}\\right)$$ is\n    (P) $$\\frac{3}{8}$$\n  \n  \n    (II) Probability of $$\\left(X_{2}>Y_{2}\\right)$$ is\n    (Q) $$\\frac{11}{16}$$\n  \n  \n    (III) Probability of $$\\left(X_{3}=Y_{3}\\right)$$ is\n    (R) $$\\frac{5}{16}$$\n  \n  \n    (IV) Probability of $$\\left(X_{3}>Y_{3}\\right)$$ is\n    (S) $$\\frac{355}{864}$$\n  \n  \n    \n    (T) $$\\frac{77}{432}$$",
+    "solution": "Detailed step-by-step solution for .tg  {border-collapse:collapse;border-sp... (JEE Advanced PYQ).",
+    "options": [
+      "The correct option is:",
+      "Questions from Probability MCQ (Single Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2025 Paper 1 Online 1  JEE Advanced 2024 Paper 1 Online 1  JEE Advanced 2023 Paper 2 Online 1  JEE Advanced 2023 Paper 1 Online 1  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2021 Paper 1 Online 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2018 Paper 1 Offline 2  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2016 Paper 2 Offline 2  JEE Advanced 2016 Paper 1 Offline 1  JEE Advanced 2014 Paper 2 Offline 3  JEE Advanced 2013 Paper 2 Offline 2  JEE Advanced 2013 Paper 1 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 2  IIT-JEE 2010 Paper 2 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2009 Paper 1 Offline 3  IIT-JEE 2008 Paper 2 Offline 1  IIT-JEE 2008 Paper 1 Offline 1  IIT-JEE 2007 Paper 2 Offline 1  IIT-JEE 2007 Paper 1 Offline 2  IIT-JEE 2006 3  IIT-JEE 2005 Screening 1  IIT-JEE 2005 Mains 1  IIT-JEE 2004 Screening 1  IIT-JEE 2003 Screening 2  IIT-JEE 1999 1  IIT-JEE 1998 5  IIT-JEE 1996 1  IIT-JEE 1995 Screening 2  IIT-JEE 1994 1  IIT-JEE 1993 1  IIT-JEE 1992 1  IIT-JEE 1988 1  IIT-JEE 1986 2  IIT-JEE 1984 2  IIT-JEE 1983 1  IIT-JEE 1982 1  IIT-JEE 1980 2  IIT-JEE 1979 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_014",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "mat_probability_015",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
     ]
   }
 ]

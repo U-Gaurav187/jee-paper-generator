@@ -1,36 +1,333 @@
 [
   {
-    "id": "phy_001",
+    "id": "phy_electrostatics_001",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "topic": "Electric Field & Potential",
-    "type": "scq",
+    "topic": "Electrostatics",
+    "type": "mcq",
     "difficulty": "Hard",
-    "questionText": "A thin spherical shell of radius $R$ has a total charge $Q$ distributed uniformly over its surface. A point charge $q$ is placed at a distance $r = \\frac{R}{2}$ from the center of the shell. The total electrostatic force exerted by the shell on the point charge $q$ is:",
+    "questionText": "For $m = -1$, locus of these points is $ax + by = 0$.",
+    "solution": "Detailed step-by-step solution for For $m = -1$, locus of these points is $... (JEE Advanced PYQ).",
     "options": [
-      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{Qq}{R^2}$",
-      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{4Qq}{R^2}$",
-      "Zero",
-      "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{2Qq}{R^2}$"
+      "For $m = 2$, the locus of these points is a circle of radius $\\frac{2}{3}\\sqrt{a^2+b^2}$ centered at $\\left(\\frac{2}{3}a, \\frac{2}{3}b\\right)$",
+      "For $m = -2$, the locus of these points is a circle of radius $2\\sqrt{a^2+b^2}$ centered at $(2a, 2b)$",
+      "For $m = -3$, locus of these points is $3bx - 3ay = 0$.",
+      "Consider an electric dipole comprising two charges $+q$ and $-q$ each with mass $m$, separated by a fixed distance $d$ and initially at rest with its dipole moment pointing along $\\hat{\\imath}$. A uniform electric field $E \\hat{\\jmath}$ is turned on at time $t = 0$ and it is turned off at $t = t_f$, when the dipole moment makes an angle $\\theta_f$ with $\\hat{\\imath}$. Neglecting any sources of energy loss, correct option(s) is/are :"
     ],
-    "answerKey": "C",
-    "solution": "Inside a uniformly charged spherical shell, the electric field is zero everywhere by Gauss's Law ($E_{in} = 0$). Therefore, the electrostatic force exerted on charge $q$ inside the shell at $r = R/2$ is zero."
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawaadq1.png",
+      "position": "bottom"
+    }
   },
   {
-    "id": "phy_002",
+    "id": "phy_electrostatics_002",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "topic": "Capacitance & Dielectrics",
+    "topic": "Electrostatics",
     "type": "mcq",
-    "difficulty": "Advanced",
-    "questionText": "A parallel plate capacitor of capacitance $C$ is connected to a battery of EMF $V$. A dielectric slab of dielectric constant $K$ is slowly inserted between the plates to completely fill the space, while the battery remains connected. Which of the following statements is/are CORRECT?",
+    "difficulty": "Hard",
+    "questionText": "$\\frac{Q}{30\\epsilon_0}$",
+    "solution": "Detailed step-by-step solution for $\\frac{Q}{30\\epsilon_0}$... (JEE Advanced PYQ).",
     "options": [
-      "The final capacitance of the capacitor becomes $KC$.",
-      "The energy stored in the capacitor increases by a factor of $K$.",
-      "The charge supplied by the battery is $(K-1)CV$.",
-      "The work done by the battery is $K C V^2$."
+      "$\\frac{Q}{15\\epsilon_0}$",
+      "$\\frac{Q}{60\\epsilon_0}$",
+      "$\\frac{Q}{120\\epsilon_0}$",
+      "List-I shows four configurations, each consisting of a pair of ideal electric dipoles. Each dipole has a dipole moment of magnitude $p$, oriented as marked by arrows in the figures. In all the configurations the dipoles are fixed such that they are at a distance $2 r$ apart along the $x$ direction. The midpoint of the line joining the two dipoles is $X$. The possible resultant electric fields $\\vec{E}$ at $X$ are given in List-II."
     ],
-    "answerKey": ["A", "B", "C"],
-    "solution": "1. Capacitance with dielectric: $C' = KC$ (Option A is correct).\n2. Energy stored initially $U_i = \\frac{1}{2}CV^2$, final $U_f = \\frac{1}{2}KC V^2 = K U_i$ (Option B is correct).\n3. Extra charge supplied $\\Delta Q = Q_f - Q_i = (KC - C)V = (K-1)CV$ (Option C is correct)."
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maw4b9e4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_003",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "An infinitely long thin wire, having a uniform charge density per unit length of $5 \\mathrm{nC} / \\mathrm{m}$, is passing through a spherical shell of radius $1 \\mathrm{~m}$, as shown in the figure. A $10 \\mathrm{nC}$ charge is distributed uniformly over the spherical shell. If the configuration of the charges remains static, the magnitude of the potential difference between points $\\mathrm{P}$ and $\\mathrm{R}$, in Volt, is ________.",
+    "solution": "Detailed step-by-step solution for An infinitely long thin wire, having a u... (JEE Advanced PYQ).",
+    "options": [
+      "[Given: In SI units $\\frac{1}{4 \\pi \\epsilon_0}=9 \\times 10^9, \\ln 2=0.7$. Ignore the area pierced by the wire.]",
+      "A charge $q$ is surrounded by a closed surface consisting of an inverted cone of height $h$ and base radius $R$, and a hemisphere of radius $R$ as shown in the figure. The electric flux through the conical surface is $\\frac{n q}{6 \\epsilon_{0}}$ (in SI units). The value of $n$ is _______.",
+      "Questions from Electrostatics Numerical \u00b7 No. in brackets = question count  JEE Advanced 2024 Paper 2 Online 2  JEE Advanced 2022 Paper 2 Online 1  JEE Advanced 2021 Paper 1 Online 2  JEE Advanced 2020 Paper 2 Offline 2  JEE Advanced 2020 Paper 1 Offline 2  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2009 Paper 2 Offline 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpwz486.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_004",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "The center of mass of the dipole is deflected towards $\\hat{\\jmath}$ in the presence of the field.",
+    "solution": "Detailed step-by-step solution for The center of mass of the dipole is defl... (JEE Advanced PYQ).",
+    "options": [
+      "If the magnitude of the final angular velocity $\\omega_f = \\sqrt{\\frac{2qE}{md}}$, then $\\theta_f = \\frac{\\pi}{6}$.",
+      "If $\\theta_f = \\pi/3$, then the change in kinetic energy of the dipole is given by $2\\sqrt{3}\\ qEd$.",
+      "For $\\theta_f = \\pi/4$, the dipole rotates around its center of mass with a constant angular velocity after $t > t_f$.",
+      "A positive point charge of $10^{-8}$ C is kept at a distance of 20 cm from the center of a neutral conducting sphere of radius 10 cm. The sphere is then grounded and the charge on the sphere is measured. The grounding is then removed and subsequently the point charge is moved by a distance of 10 cm further away from the center of the sphere along the radial direction. Taking $\\frac{1}{4\\pi\\epsilon_0} = 9 \\times 10^9$ Nm$^2$/C$^2$ (where $\\epsilon_0$ is the permittivity of free space), which of the following statements is/are correct:"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawaadq1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_005",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Before the grounding, the electrostatic potential of the sphere is 450 V.",
+    "solution": "Detailed step-by-step solution for Before the grounding, the electrostatic ... (JEE Advanced PYQ).",
+    "options": [
+      "Charge flowing from the sphere to the ground because of grounding is $5 \\times 10^{-9}$ C.",
+      "After the grounding is removed, the charge on the sphere is $-5 \\times 10^{-9}$ C.",
+      "The final electrostatic potential of the sphere is 300 V.",
+      "(Take permittivity of free space $\\epsilon_0 = 9 \\times 10^{-12}$ F/m)"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawaadq1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_006",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "(Take permittivity of free space $\\epsilon_0 = 9 \\times 10^{-12}$ F/m)",
+    "solution": "Detailed step-by-step solution for (Take permittivity of free space $\\epsil... (JEE Advanced PYQ).",
+    "options": [
+      "In region 4 of the configuration I, the magnitude of the electric field is zero.",
+      "In region 3 of the configuration II, the magnitude of the electric field is $\\dfrac{\\sigma_0}{\\epsilon_0}$.",
+      "Potential difference between the first and the last sheets of the configuration I is 5 V.",
+      "Potential difference between the first and the last sheets of the configuration II is zero."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawaadq1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_007",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "If released from rest, then which of the following statement(s) is(are) correct?",
+    "solution": "Detailed step-by-step solution for If released from rest, then which of the... (JEE Advanced PYQ).",
+    "options": [
+      "[ $\\varepsilon_0$ is the permittivity of free space.]",
+      "In the figure, the inner (shaded) region $A$ represents a sphere of radius $r_{A}=1$, within which the electrostatic charge density varies with the radial distance $r$ from the center as $\\rho_{A}=k r$, where $k$ is positive. In the spherical shell $B$ of outer radius $r_{B}$, the electrostatic charge density varies as $\\rho_{B}=$ $\\frac{2 k}{r}$. Assume that dimensions are taken care of. All physical quantities are in their SI units.",
+      "Which of the following statement(s) is(are) correct?",
+      "Six charges are placed around a regular hexagon of side length $a$ as shown in the figure. Five of them have charge $q$, and the remaining one has charge $x$. The perpendicular from each charge to the nearest hexagon side passes through the center 0 of the hexagon and is bisected by the side."
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpwmows.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_008",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) correct?",
+    "solution": "Detailed step-by-step solution for Which of the following statement(s) is(a... (JEE Advanced PYQ).",
+    "options": [
+      "Six charges are placed around a regular hexagon of side length $a$ as shown in the figure. Five of them have charge $q$, and the remaining one has charge $x$. The perpendicular from each charge to the nearest hexagon side passes through the center 0 of the hexagon and is bisected by the side.",
+      "Which of the following statement(s) is(are) correct in SI units?",
+      "Questions from Electrostatics MCQ (Multiple Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 2  JEE Advanced 2025 Paper 2 Online 2  JEE Advanced 2024 Paper 2 Online 1  JEE Advanced 2022 Paper 2 Online 2  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2019 Paper 2 Offline 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2015 Paper 2 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 1 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2006 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9tmcu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_009",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) correct in SI units?",
+    "solution": "Detailed step-by-step solution for Which of the following statement(s) is(a... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Electrostatics MCQ (Multiple Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 2  JEE Advanced 2025 Paper 2 Online 2  JEE Advanced 2024 Paper 2 Online 1  JEE Advanced 2022 Paper 2 Online 2  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2019 Paper 2 Offline 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2015 Paper 2 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 1 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2006 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekyvoq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_010",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) correct in SI units?",
+    "solution": "Detailed step-by-step solution for Which of the following statement(s) is(a... (JEE Advanced PYQ).",
+    "options": [
+      "Questions from Electrostatics MCQ (Multiple Correct Answer) \u00b7 No. in brackets = question count  JEE Advanced 2026 Paper 2 Online 2  JEE Advanced 2025 Paper 2 Online 2  JEE Advanced 2024 Paper 2 Online 1  JEE Advanced 2022 Paper 2 Online 2  JEE Advanced 2022 Paper 1 Online 1  JEE Advanced 2020 Paper 2 Offline 1  JEE Advanced 2020 Paper 1 Offline 1  JEE Advanced 2019 Paper 2 Offline 1  JEE Advanced 2019 Paper 1 Offline 1  JEE Advanced 2018 Paper 2 Offline 1  JEE Advanced 2017 Paper 2 Offline 1  JEE Advanced 2015 Paper 2 Offline 1  JEE Advanced 2015 Paper 1 Offline 1  JEE Advanced 2014 Paper 1 Offline 1  JEE Advanced 2013 Paper 2 Offline 1  IIT-JEE 2012 Paper 2 Offline 1  IIT-JEE 2012 Paper 1 Offline 1  IIT-JEE 2011 Paper 2 Offline 1  IIT-JEE 2011 Paper 1 Offline 1  IIT-JEE 2010 Paper 1 Offline 1  IIT-JEE 2006 1    JEE Advanced Subjects Browse all chapters by subject",
+      "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject"
+    ],
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekyvoq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_011",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71eqn0p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_012",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71eqn0p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_013",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71eqn0p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_014",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_015",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "mcq",
+    "difficulty": "Hard",
+    "questionText": "Units & Measurements  Motion  Laws of Motion  Work Power & Energy  Impulse & Momentum  Rotational Motion  Properties of Matter  Heat and Thermodynamics  Simple Harmonic Motion  Waves  Gravitation  Motion in a Plane  Electricity  Electrostatics  Current Electricity  Capacitor  Magnetism  Electromagnetic Induction  Alternating Current  Electromagnetic Waves  Optics  Geometrical Optics  Wave Optics  Modern Physics  Practical Physics  Atoms and Nuclei  Dual Nature of Radiation    Chemistry Physical Chemistry  Some Basic Concepts of Chemistry  Structure of Atom  Redox Reactions  Gaseous State  Chemical Equilibrium  Ionic Equilibrium  Solutions  Thermodynamics  Chemical Kinetics and Nuclear Chemistry  Electrochemistry  Solid State  Surface Chemistry  Inorganic Chemistry  Periodic Table & Periodicity  Chemical Bonding & Molecular Structure  Isolation of Elements  Hydrogen  s-Block Elements  p-Block Elements  d and f Block Elements  Coordination Compounds  Salt Analysis  Organic Chemistry  Basics of Organic Chemistry  Hydrocarbons  Haloalkanes and Haloarenes  Alcohols, Phenols and Ethers  Aldehydes, Ketones and Carboxylic Acids  Compounds Containing Nitrogen  Polymers  Biomolecules  Chemistry in Everyday Life  Practical Organic Chemistry    Mathematics Algebra  Quadratic Equation and Inequalities  Sequences and Series  Mathematical Induction and Binomial Theorem  Matrices and Determinants  Permutations and Combinations  Probability  Vector Algebra  3D Geometry  Statistics  Complex Numbers  Trigonometry  Trigonometric Functions & Equations  Inverse Trigonometric Functions  Properties of Triangle  Coordinate Geometry  Straight Lines and Pair of Straight Lines  Circle  Parabola  Ellipse  Hyperbola  Calculus  Functions  Limits, Continuity and Differentiability  Differentiation  Application of Derivatives  Indefinite Integrals  Definite Integration  Application of Integration  Differential Equations        EXAM MAP Browse past year questions by exam & subject",
+    "solution": "Detailed step-by-step solution for Units & Measurements  Motion  Laws of Mo... (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ]
   }
 ]
