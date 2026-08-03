@@ -50,16 +50,41 @@ def download_image(img_url):
         return None
 
 def clean_text(raw_text):
+    """Convert HTML-laden text into clean LaTeX-ready text."""
     if not raw_text:
         return ""
+    # Decode unicode escapes
     txt = raw_text.replace('\\u003C', '<').replace('\\u003c', '<').replace('\\u003E', '>').replace('\\u003e', '>')
     txt = txt.replace('\\"', '"').replace("\\'", "'").replace('\\\\', '\\')
-    txt = re.sub(r'\\t\\text', r'\\text', txt)
-    txt = re.sub(r'\\times', r'\\times', txt)
-    txt = re.sub(r'\\theta', r'\\theta', txt)
-    txt = re.sub(r'\\tan', r'\\tan', txt)
     txt = html.unescape(txt)
-    txt = re.sub(r'^\s*<p>(.*?)</p>\s*$', r'\1', txt, flags=re.DOTALL)
+
+    # Convert literal \n to real newlines
+    txt = txt.replace('\\n', '\n')
+
+    # Convert HTML sub/sup to LaTeX
+    txt = re.sub(r'<sub>(.*?)</sub>', r'_{\1}', txt, flags=re.DOTALL)
+    txt = re.sub(r'<sup>(.*?)</sup>', r'^{\1}', txt, flags=re.DOTALL)
+
+    # Convert <b>X</b> to **X**
+    txt = re.sub(r'<b>(.*?)</b>', r'**\1**', txt, flags=re.DOTALL)
+
+    # Convert <br> to newline
+    txt = re.sub(r'<br\s*/?>', '\n', txt)
+
+    # Convert <img> to [Diagram] placeholder
+    txt = re.sub(r'<img[^>]+>', '\n[Diagram]\n', txt)
+
+    # Strip ALL remaining HTML tags
+    txt = re.sub(r'</?[a-zA-Z][^>]*>', '', txt)
+
+    # Clean up excessive whitespace
+    txt = re.sub(r'\n{3,}', '\n\n', txt)
+    txt = re.sub(r'[ \t]+', ' ', txt)
+
+    # Strip leading/trailing whitespace from each line
+    lines = [line.strip() for line in txt.split('\n')]
+    txt = '\n'.join(lines)
+
     return txt.strip()
 
 def parse_question_page(url, q_idx):
