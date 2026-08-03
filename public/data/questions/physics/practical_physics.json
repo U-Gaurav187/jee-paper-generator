@@ -1,0 +1,15 @@
+[
+  {
+    "id": "phy_practical_physics_001",
+    "subject": "Physics",
+    "chapter": "Practical Physics",
+    "topic": "Practical Physics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two thin wires, Wire-1 of diameter 0.650 mm and Wire-2 of unknown diameter *d* are given. To obtain the value of *d*, the diameters of the two wires are measured with a screw gauge. The screw gauge has a pitch of 0.5 mm and there are 100 divisions on the circular scale (CS). The smallest division on the linear scale (LS) is 0.5 mm. The table shows the readings of LS and CS for the measurements. The value of *d* (in µm) is :table {width: 100%; border-collapse: collapse; margin: 20px 0;}th {background-color: blue; color: white; border: 1px solid lightgrey; padding: 10px;}td {border: 1px solid lightgrey; padding: 10px; text-align: left;}LS (mm)CSWire-10.542Wire-21.595",
+    "solution": "A screw gauge measures small dimensions by converting rotational movement into linear along a main scale\n(linear scale).\nThe Least Count (LC) is the smallest distance that can be measured accurately with the instrument. It represents\nthe linear distance by the screw when the circular scale is rotated through exactly one division:\n$$\\text{Least Count (LC)} = \\frac{\\text{Pitch of the screw gauge}}{\\text{Total number of divisions on the circular scale}}$$\nWhen a screw gauge is clamped around an object, the total measured dimension (D) is combination of the\nvisible reading on the main linear scale with the fractional reading from the circular scale:\n$$D = \\text{Linear Scale Reading (LSR)} + (\\text{Circular Scale Reading (CSR)} \\times \\text{LC}) - \\text{Zero Error (ZE)}$$\nThe pitch of given screw gauge is $P = 0.5\\ \\text{mm}$ and the total circular scale divisions is 100.\nSo, the least count is $$\\text{LC} = \\frac{0.5\\ \\text{mm}}{100} = 0.005\\ \\text{mm}$$\nFor Wire-1:\nThe linear scale reading is $\\text{LSR}_1 = 0.5\\ \\text{mm}$\nThe circular scale reading is $\\text{CSR}_1 = 42$\nUsing the measurement formula:\n$$D_1 = \\text{LSR}_1 + (\\text{CSR}_1 \\times \\text{LC}) - \\text{ZE}0.650\\ \\text{mm} = 0.5\\ \\text{mm} + (42 \\times 0.005\\ \\text{mm}) - \\text{ZE}0.650 = 0.5 + 0.210 - \\text{ZE}0.650 = 0.710 - \\text{ZE}\\text{ZE} = 0.710 - 0.650 = 0.060\\ \\text{mm}$$\nA positive zero error of $0.060\\ \\text{mm}$ means the instrument reads high because its circular zero mark has already\nprogressed past the linear index line before an object is inserted.\nFor Wire-2 the linear scale reading is $\\text{LSR}_2 = 1.5\\ \\text{mm}$ and the circular scale reading is $\\text{CSR}_2 = 95$\nSo, the unknown diameter of second wire is\n$$d = \\text{LSR}_2 + (\\text{CSR}_2 \\times \\text{LC}) - \\text{ZE}d = 1.5\\ \\text{mm} + (95 \\times 0.005\\ \\text{mm}) - 0.060\\ \\text{mm} = 1.5 + 0.475 - 0.060d = 1.975 - 0.060 = 1.915\\ \\text{mm}$$\nAs $1\\ \\text{mm} = 1000\\ \\mu\\text{m}$\n$$d = 1.915 \\times 1000\\ \\mu\\text{m} = 1915\\ \\mu\\text{m}$$\nTherefore, the value of $d$ is 1915.",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

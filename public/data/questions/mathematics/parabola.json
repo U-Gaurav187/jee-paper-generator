@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "math_parabola_001",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**STATEMENT-1:** The curve $$y = {{ - {x^2}} \\over 2} + x + 1$$ is symmetric with respect to the line $$x=1$$. because\n**STATEMENT-2:** A parabola is symmetric about its axis.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True."
+    ]
+  },
+  {
+    "id": "math_parabola_002",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S$ denote the locus of the mid-points of those chords of the parabola $y^2=x$, such that the area of the region enclosed between the parabola and the chord is $\\frac{4}{3}$. Let $\\mathcal{R}$ denote the region lying in the first quadrant, enclosed by the parabola $y^2=x$, the curve $S$, and the lines $x=1$ and $x=4$.\nThen which of the following statements is (are) TRUE?",
+    "solution": "[Diagram]\n\n$$ y^2=x $$\nchord with given mid point\n$$ \\begin{aligned} & T=S_1 \\\\ & y k-\\frac{x+h}{2}=k^2-h \\\\ & 2 k y-x-h=2 k^2-2 h \\end{aligned} $$\nNow,\n$\\begin{aligned} & \\left.A=\\int_{y_1}^{y_2}\\left(2 k y-2 k^2+h\\right)-y^2\\right) d y=\\frac{4}{3} \\\\ & \\left(k y^2+\\left(h-2 k^2\\right) y-\\frac{y^3}{3}\\right)_{y_1}^{y_2}=\\frac{4}{3} \\\\ & k\\left(y_2^2-y_1^2\\right)+\\left(h-2 k^2\\right)\\left(y_2-y_1\\right)-\\frac{1}{3}\\left(y_2^3-y_1^3\\right)=\\frac{4}{3} \\\\ & \\left(y_2-y_1\\right)\\left[k-2 k+h-2 k^2-\\frac{1}{3}\\left(4 k^2-2 k^2+h\\right)\\right]=\\frac{4}{3} \\\\ & 2\\left(h-k^2\\right)^{1 / 2}\\left[2 h-2 k^2\\right]=4 \\\\ & \\left(h-k^2\\right)^{3 / 2}=1 \\\\ & x-y^2=1 \\Rightarrow y^2=x-1\\end{aligned}$\n$\\begin{aligned} & A=\\int_1^4(\\sqrt{x}-\\sqrt{x-1}) d x \\\\ & =\\frac{2}{3}\\left[x^{3 / 2}-(x-1)^{3 / 2}\\right]_1^4=\\frac{2}{3}[8-3 \\sqrt{3}-1] \\\\ & =\\frac{14}{3}-2 \\sqrt{3}\\end{aligned}$\n\n[Diagram]\n\nSolving chord and parabola\n$$ \\begin{aligned} & y k-\\frac{y+h}{2}=k^2-h \\\\ & 2 k y-y^2-h=2 k^2-2 h \\\\ & y^2-2 k y+2 k^2-h=0 \\\\ & y_1+y_2=2 k \\\\ & y_1 y_2=2 k^2-h \\\\ & y_2-y_1=\\sqrt{4 k^2-8 k^2+4 x} \\\\ & =2 \\sqrt{h-k^2} \\end{aligned} $$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$(4, \\sqrt{3}) \\in S$",
+      "$(5, \\sqrt{2}) \\in S$",
+      "Area of $\\mathcal{R}$ is $\\frac{14}{3} - 2\\sqrt{3}$",
+      "Area of $\\mathcal{R}$ is $\\frac{14}{3} - \\sqrt{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maz1t2ht.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_003",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A normal with slope $\\frac{1}{\\sqrt{6}}$ is drawn from the point $(0,-\\alpha)$ to the parabola $x^2=-4 a y$, where $a>0$. Let $L$ be the line passing through $(0,-\\alpha)$ and parallel to the directrix of the parabola. Suppose that $L$ intersects the parabola at two points $A$ and $B$. Let $r$ denote the length of the latus rectum and $s$ denote the square of the length of the line segment $A B$. If $r: s=1: 16$, then the value of $24 a$ is _______.",
+    "solution": "[Diagram]\n\n$$\\frac{d y}{d x}=\\left.\\frac{x}{-2 a} \\Rightarrow \\frac{d y}{d x}\\right|_N=-t$$\nSlope of normal $$=\\frac{1}{t}=\\frac{1}{\\sqrt{6}} \\Rightarrow t=\\sqrt{6}$$\nNow, $$\\frac{-\\mathrm{at}^2+\\alpha}{2 \\mathrm{at}}=\\frac{1}{\\mathrm{t}}\\Rightarrow-\\mathrm{at}^2+\\alpha=2 \\mathrm{a}\\Rightarrow-6 \\mathrm{a}+\\alpha=2 \\mathrm{a} \\Rightarrow \\alpha=8 \\mathrm{a}$$\nFor A and B\n$$\\begin{aligned}\n& x^2=-4 a(-8 a) \\\\\n& \\Rightarrow x^2=32 a^2 \\Rightarrow x= \\pm 4 \\sqrt{2} a \\\\\n& \\therefore A(-4 \\sqrt{2} a,-8 a), B(4 \\sqrt{2} a,-8 a) \\\\\n& \\therefore A B^2=(8 \\sqrt{2} a)^2=128 a^2=s \\\\\n& \\therefore \\text { Length of } L R=r=4 a \\\\\n& \\Rightarrow \\frac{r}{s}=\\frac{4 a}{128 a^2}=\\frac{1}{16} \\\\\n& \\therefore 32 a=16 \\Rightarrow a=\\frac{1}{2} \\\\\n& \\therefore 24 a=12 \\text { Ans. }\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lze9yuwa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_004",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangent is drawn to parabola $${y^2} - 2y - 4x + 5 = 0$$ at a point $$P$$ which cuts the directrix at the point $$Q$$. $$A$$ point $$R$$ is such that it divides $$QP$$ externally in the ratio $$1/2:1$$. Find the locus of point $$R$$",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_005",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The point of intersection of the tangents at the ends of the latus rectum of the parabola $${y^2} = 4x$$ is ...... .",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_006",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the circle $${x^2} + {y^2} = 9$$ and the parabola $${y^2} = 8x$$. They intersect at $$P$$ and $$Q$$ in the first and the fourth quadrants, respectively. Tangent to the circle at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$R$$ and tangents to the parabola at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$S$$.\nThe radius of the incircle of the triangle $$PQR$$ is",
+    "solution": "For the parabola\n$$ y^2 = 16x $$\nwe compare it with the standard form\n$$ y^2 = 4ax $$\nSo,\n$$ 4a = 16 \\implies a = 4 $$\nHence the focus is\n$$ (a,0) = (4,0) $$\nNow we find the tangent $T$ at the point $(64,32)$.\nSince the point lies on the parabola,\n$$ 32^2 = 16 \\cdot 64 $$\nso it is correct.\nFor the parabola $y^2 = 4ax$, the equation of tangent at point $(x_1,y_1)$ is\n$$ yy_1 = 2a(x+x_1) $$\nAt $(64,32)$, we get\n$$ y \\cdot 32 = 2\\cdot 4(x+64) 32y = 8x + 512 x - 4y + 64 = 0 $$\nNow slope of this tangent $T$ is\n$$ x - 4y + 64 = 0 \\implies y = \\frac{1}{4}x + 16 $$\nSo slope of $T$ is\n$$ m_T = \\frac14 $$\nSince $L$ is perpendicular to $T$, its slope must be\n$$ m_L = -4 $$\nNow let $(x_1,y_1)$ be another point on the parabola where tangent $L$ is drawn.\nFor parabola $y^2 = 4ax$, slope of tangent at point $(x_1,y_1)$ is\n$$ \\frac{2a}{y_1} $$\nbecause tangent equation is\n$$ yy_1 = 2a(x+x_1) $$\nand rewriting,\n$$ y = \\frac{2a}{y_1}x + \\frac{2ax_1}{y_1} $$\nSo here,\n$$ m_L = \\frac{2a}{y_1} = \\frac{8}{y_1} $$\nGiven that $m_L = -4$, we get\n$$ \\frac{8}{y_1} = -4 y_1 = -2 $$\nSince $(x_1,y_1)$ lies on the parabola,\n$$ y_1^2 = 16x_1 (-2)^2 = 16x_1 4 = 16x_1 x_1 = \\frac14 $$\nSo the point is\n$$ \\left(\\frac14,-2\\right) $$\nNow distance from this point to the focus $(4,0)$ is\n$$ \\sqrt{\\left(4-\\frac14\\right)^2 + (0+2)^2} = \\sqrt{\\left(\\frac{15}{4}\\right)^2 + 4} = \\sqrt{\\frac{225}{16} + \\frac{64}{16}} = \\sqrt{\\frac{289}{16}} = \\frac{17}{4} $$\nTherefore, the required distance is\n$$ \\boxed{\\frac{17}{4}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$4$$",
+      "$$3$$",
+      "$${8 \\over 3}$$",
+      "$$2$$"
+    ]
+  },
+  {
+    "id": "math_parabola_007",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the circle $${x^2} + {y^2} = 9$$ and the parabola $${y^2} = 8x$$. They intersect at $$P$$ and $$Q$$ in the first and the fourth quadrants, respectively. Tangent to the circle at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$R$$ and tangents to the parabola at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$S$$.\nThe radius of the circumcircle of the triangle $$PRS$$ is",
+    "solution": "For the parabola\n$$ y^2 = 16x $$\nwe compare it with the standard form\n$$ y^2 = 4ax $$\nSo,\n$$ 4a = 16 \\implies a = 4 $$\nHence the focus is\n$$ (a,0) = (4,0) $$\nNow we find the tangent $T$ at the point $(64,32)$.\nSince the point lies on the parabola,\n$$ 32^2 = 16 \\cdot 64 $$\nso it is correct.\nFor the parabola $y^2 = 4ax$, the equation of tangent at point $(x_1,y_1)$ is\n$$ yy_1 = 2a(x+x_1) $$\nAt $(64,32)$, we get\n$$ y \\cdot 32 = 2\\cdot 4(x+64) 32y = 8x + 512 x - 4y + 64 = 0 $$\nNow slope of this tangent $T$ is\n$$ x - 4y + 64 = 0 \\implies y = \\frac{1}{4}x + 16 $$\nSo slope of $T$ is\n$$ m_T = \\frac14 $$\nSince $L$ is perpendicular to $T$, its slope must be\n$$ m_L = -4 $$\nNow let $(x_1,y_1)$ be another point on the parabola where tangent $L$ is drawn.\nFor parabola $y^2 = 4ax$, slope of tangent at point $(x_1,y_1)$ is\n$$ \\frac{2a}{y_1} $$\nbecause tangent equation is\n$$ yy_1 = 2a(x+x_1) $$\nand rewriting,\n$$ y = \\frac{2a}{y_1}x + \\frac{2ax_1}{y_1} $$\nSo here,\n$$ m_L = \\frac{2a}{y_1} = \\frac{8}{y_1} $$\nGiven that $m_L = -4$, we get\n$$ \\frac{8}{y_1} = -4 y_1 = -2 $$\nSince $(x_1,y_1)$ lies on the parabola,\n$$ y_1^2 = 16x_1 (-2)^2 = 16x_1 4 = 16x_1 x_1 = \\frac14 $$\nSo the point is\n$$ \\left(\\frac14,-2\\right) $$\nNow distance from this point to the focus $(4,0)$ is\n$$ \\sqrt{\\left(4-\\frac14\\right)^2 + (0+2)^2} = \\sqrt{\\left(\\frac{15}{4}\\right)^2 + 4} = \\sqrt{\\frac{225}{16} + \\frac{64}{16}} = \\sqrt{\\frac{289}{16}} = \\frac{17}{4} $$\nTherefore, the required distance is\n$$ \\boxed{\\frac{17}{4}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$5$$",
+      "$$3\\sqrt 3 $$",
+      "$$3\\sqrt 2 $$",
+      "$$2\\sqrt 3 $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrzciykv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_008",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the circle $${x^2} + {y^2} = 9$$ and the parabola $${y^2} = 8x$$. They intersect at $$P$$ and $$Q$$ in the first and the fourth quadrants, respectively. Tangent to the circle at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$R$$ and tangents to the parabola at $$P$$ and $$Q$$ intersect the $$x$$-axis at $$S$$.\nThe ratio of the areas of the triangles $$PQS$$ and $$PQR$$ is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1:\\sqrt 2 $$",
+      "$$1:2$$",
+      "$$1:4$$",
+      "$$1:8$$"
+    ]
+  },
+  {
+    "id": "math_parabola_009",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let *T* be the tangent to the parabola $y^2 = 16x$ at the point $(64, 32)$. Let *L* be the tangent to the same parabola at another point $(x_1, y_1)$ on the parabola. If *L* and *T* are perpendicular to each other, then the distance between the point $(x_1, y_1)$ and the focus of the parabola, is :",
+    "solution": "For the parabola\n$$ y^2 = 16x $$\nwe compare it with the standard form\n$$ y^2 = 4ax $$\nSo,\n$$ 4a = 16 \\implies a = 4 $$\nHence the focus is\n$$ (a,0) = (4,0) $$\nNow we find the tangent $T$ at the point $(64,32)$.\nSince the point lies on the parabola,\n$$ 32^2 = 16 \\cdot 64 $$\nso it is correct.\nFor the parabola $y^2 = 4ax$, the equation of tangent at point $(x_1,y_1)$ is\n$$ yy_1 = 2a(x+x_1) $$\nAt $(64,32)$, we get\n$$ y \\cdot 32 = 2\\cdot 4(x+64) 32y = 8x + 512 x - 4y + 64 = 0 $$\nNow slope of this tangent $T$ is\n$$ x - 4y + 64 = 0 \\implies y = \\frac{1}{4}x + 16 $$\nSo slope of $T$ is\n$$ m_T = \\frac14 $$\nSince $L$ is perpendicular to $T$, its slope must be\n$$ m_L = -4 $$\nNow let $(x_1,y_1)$ be another point on the parabola where tangent $L$ is drawn.\nFor parabola $y^2 = 4ax$, slope of tangent at point $(x_1,y_1)$ is\n$$ \\frac{2a}{y_1} $$\nbecause tangent equation is\n$$ yy_1 = 2a(x+x_1) $$\nand rewriting,\n$$ y = \\frac{2a}{y_1}x + \\frac{2ax_1}{y_1} $$\nSo here,\n$$ m_L = \\frac{2a}{y_1} = \\frac{8}{y_1} $$\nGiven that $m_L = -4$, we get\n$$ \\frac{8}{y_1} = -4 y_1 = -2 $$\nSince $(x_1,y_1)$ lies on the parabola,\n$$ y_1^2 = 16x_1 (-2)^2 = 16x_1 4 = 16x_1 x_1 = \\frac14 $$\nSo the point is\n$$ \\left(\\frac14,-2\\right) $$\nNow distance from this point to the focus $(4,0)$ is\n$$ \\sqrt{\\left(4-\\frac14\\right)^2 + (0+2)^2} = \\sqrt{\\left(\\frac{15}{4}\\right)^2 + 4} = \\sqrt{\\frac{225}{16} + \\frac{64}{16}} = \\sqrt{\\frac{289}{16}} = \\frac{17}{4} $$\nTherefore, the required distance is\n$$ \\boxed{\\frac{17}{4}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$ \\frac{15}{4} $",
+      "4",
+      "$ \\frac{17}{4} $",
+      "5"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrzciykv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_010",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $P$ be a point on the parabola $y^2=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is",
+    "solution": "[Diagram]\n\n$$\ny^2=4 a x\n$$\n\nEquation of normal\n\n$$\ny=m x-2 a m-a m^3\n$$\n\nPoint of contact\n\n$$\nP\\left(a m^2,-2 a m\\right)\n$$\n\nand Point $Q\\left(2 a+a m^2, 0\\right)$\n\nArea of\n\n$\\begin{aligned} \\triangle P F Q & =\\frac{1}{2} \\times\\left|a+a m^2\\right||-2 a m| \\\\\\\\ 120 & =a^2\\left(1+m^2\\right) m \\\\\\\\ a & =2, m=3\\end{aligned}$\n\nSatisfies the equation $(1)$, hence $(2,3)$ will be the correct answer.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$(2,3)$",
+      "$(1,3)$",
+      "$(2,4)$",
+      "$(3,4)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrzciykv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_011",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a, b and $$\\lambda $$ be positive real numbers. Suppose P is an end point of the latus return of the\nparabola y$^{2}$ = 4$$\\lambda $$x, and suppose the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ passes through the point P. If the tangents to the parabola and the ellipse at the point P are perpendicular to each other, then the eccentricity of the ellipse is",
+    "solution": "Equation of given parabola is\n\ny$^{2}$ = 4$$\\lambda $$x ....(i)\n\nSo the end point of the latus rectum of the parabola (i), P($$\\lambda $$, 2$$\\lambda $$) and the given ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, passes through point P($$\\lambda $$, 2$$\\lambda $$).\n\nOn differentiating the equation of parabola, w.r.t. 'x', we get\n\n$${{dy} \\over {dx}} = {{2\\lambda } \\over y} \\therefore $$ Slope of tangent to the parabola at point P is m$_{1}$ = 1\n\nSimilarly, on differentiating the equation of given ellipse, $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, w.r.t.x, we get $${{2x} \\over {{a^2}}} + {{2y} \\over {{b^2}}}{{dy} \\over {dx}} = 0 \\Rightarrow {{dy} \\over {dx}} = - {{{b^2}x} \\over {{a^2}y}} \\therefore $$ Slope of tangent to the ellipse at point P is $${m_2} = - {{{b^2}} \\over {2{a^2}}} \\because $$ It is given that the tangents are perpendicular to each other. So, $${m_1}{m_2} = - 1 \\Rightarrow (1)\\left( { - {{{b^2}} \\over {2{a^2}}}} \\right) = - 1 \\Rightarrow {{{b^2}} \\over {{a^2}}} = 2 \\Rightarrow b = \\sqrt 2 a \\therefore $$ Eccentricity of ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ will be\n\n$$e = \\sqrt {1 - {{{a^2}} \\over {{b^2}}}} = \\sqrt {1 - {1 \\over 2}} = {1 \\over {\\sqrt 2 }}$$ {$$ \\because $$ b > a}",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over {\\sqrt 2 }}$$",
+      "$${{1 \\over 2}}$$",
+      "$${{1 \\over 3}}$$",
+      "$${{2 \\over 5}}$$"
+    ]
+  },
+  {
+    "id": "math_parabola_012",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the circles\n\nC$_{1}$ : x$^{2}$ + y$^{2}$ = 9 and C$_{2}$ : (x $$-$$ 3)$^{2}$ + (y $$-$$ 4)$^{2}$ = 16, intersect at the points X and Y. Suppose that another circle C$_{3}$ : (x $$-$$ h)$^{2}$ + (y $$-$$ k)$^{2}$ = r$^{2}$ satisfies the following conditions :\n\n(i) Centre of C$_{3}$ is collinear with the centres of C$_{1}$ and C$_{2}$.\n\n(ii) C$_{1}$ and C$_{2}$ both lie inside C$_{3}$ and\n\n(iii) C$_{3}$ touches C$_{1}$ at M and C$_{2}$ at N.\n\nLet the line through X and Y intersect C$_{3}$ at Z and W, and let a common tangent of C$_{1}$ and C$_{3}$ be a tangent to the parabola x$^{2}$ = 8$$\\alpha $$y.\n\nThere are some expression given in the List-I whose values are given in List-II below.\n\n[Diagram]\n\nWhich of the following is the only INCORRECT combination?",
+    "solution": "[Diagram]\n\nIt is given that, the centres of circles C$_{1}$, C$_{2}$ and C$_{3}$ are co-linear,\n\n$$ \\therefore \\left| {\\matrix{\n0 & 0 & 1 \\cr\n3 & 4 & 1 \\cr\nh & k & 1 \\cr\n\n} } \\right| = 0 \\Rightarrow 4h = 3k$$ ....(i)\n\nand MN is the length of diameter of circle C$_{3}$, so\n\nMN = $$3 + \\sqrt {{{(3 - 0)}^2} + {{(4 - 0)}^2}} + 4$$\n\n= $$3 + 5 + 4 = 12$$\n\nSo, radius of circle C$_{3}$, r = 6 ......(ii)\n\nSince, the circle C$_{3}$ touches C$_{1}$ at M and C$_{2}$ at N, so\n\n|C$_{1}$ C$_{3}$| = |r $$-$$ 3|\n\n$$ \\Rightarrow \\sqrt {{h^2} + {k^2}} = 3 \\Rightarrow $$ h$^{2}$ + k$^{2}$ = 9 .....(iii)\n\nFrom Eqs. (i) and (iii), we get\n\n$${h^2} + {{16{h^2}} \\over 9} = 9 \\Rightarrow 25{h^2} = 81 \\Rightarrow h = + {9 \\over 5}$$ and $$k = + {{12} \\over 5}$$\n\nSo, $$2h + k = {{18} \\over 5} + {{12} \\over 5} = 6$$\n\nNow, equation common chord XY of circles C$_{1}$ and C$_{2}$ is\n\nC$_{1}$ $$-$$ C$_{2}$ = 0\n\n$$ \\Rightarrow $$ 6x + 8y = 18\n\n$$ \\Rightarrow $$ 3x + 4y = 9 ....(iv)\n\nNow, PY$^{2}$ = GY$^{2}$ $$-$$ GP$^{2}$\n\n= $$9 - {{81} \\over {25}} = {{144} \\over {25}} \\Rightarrow $$ PY = $${{12} \\over 5} \\because XY = 2PY = 2 \\times {{12} \\over 5} = {{24} \\over 5}$$\n\nSimilarly, equation of ZW is 3x + 4y = 9.\n\nNow, So, length of perpendicular from C$_{3}$\nto\n\n$$ZW = {{\\left| {3\\left( {{9 \\over 5}} \\right) + 4\\left( {{{12} \\over 5}} \\right) - 9} \\right|} \\over 5} = {6 \\over 5}$$\n\nSo, $$P{W^2} = {C_3}{W^2} - {C_3}{P^2} = 36 - {{36} \\over {25}} = {{864} \\over {25}}$$\n\n{$$ \\because $$ C$_{3}$W = r = 6}\n\n$$ \\Rightarrow PW = {{12\\sqrt 6 } \\over 5} \\because ZW = 2PW = {{24\\sqrt 6 } \\over 5} \\therefore {{length\\,of\\,ZW} \\over {length\\,of\\,XY}} = \\sqrt 6 $$\n\nNow, area of\n\n$$\\Delta MZN = {1 \\over 2}(MN)(PZ) = {1 \\over 2} \\times (12)\\left( {{1 \\over 2}WZ} \\right)$$\n\n{$$ \\because $$ MN = 12}\n\n= $$3WZ = 3{{24\\sqrt 6 } \\over 5} = {{72\\sqrt 6 } \\over 5}$$\n\nand area of $$\\Delta $$ZMW = $${1 \\over 2}$$(ZW) (MP)\n\n= $${1 \\over 2}\\left( {{{24\\sqrt 6 } \\over 5}} \\right)(MG + GP) = {{12\\sqrt 6 } \\over 5}\\left( {3 + {9 \\over 5}} \\right)$$\n\n{$$ \\because $$ MG = 3 and GP = $${{9 \\over 5}}$$}\n\n$$ = {{12\\sqrt 6 } \\over 5}\\left( {{{24} \\over 5}} \\right)$$\n\n= $${{288\\sqrt 6 } \\over 5} \\therefore {{Area\\,of\\,\\Delta MZN} \\over {Area\\,of\\,\\Delta ZMW}} = {{{{72\\sqrt 6 } \\over 5}} \\over {{{288\\sqrt 6 } \\over 5}}} = {5 \\over 4} \\because $$ Common tangent of circles C$_{1}$ and C$_{3}$ is C$_{1}$ $$-$$ C$_{3}$ = 0\n\n$$ \\Rightarrow ({x^2} + {y^2} - 9) - \\left[ {{{\\left( {x - {9 \\over 5}} \\right)}^2} + {{\\left( {y - {{12} \\over 5}} \\right)}^2} - 36} \\right] = 0 \\Rightarrow {{18} \\over 5}x + {{24} \\over 5}y + 18 = 0 \\Rightarrow $$ 3x + 4y + 15 = 0 ......(v)\n\n$$ \\because $$ Tangent (v) is also touches the parabola x$^{2}$ = 8$$\\alpha $$y,\n\n$$ \\therefore - 2\\alpha {\\left( { - {3 \\over 4}} \\right)^2} = - {{15} \\over 4} \\Rightarrow \\alpha = {{10} \\over 3}$$\n\nSo combination (iv), (S) is only incorrect.\n\nHence, option (b) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(III), (R)",
+      "(IV), (S)",
+      "(I), (P)",
+      "(IV), (U)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwzg4bvf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_013",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the circle C$_{1}$ : x$^{2}$ + y$^{2}$ = 9 and C$_{2}$ : (x $$-$$ 3)$^{2}$ + (y $$-$$ 4)$^{2}$ = 16, intersect at the points X and Y. Suppose that another circle C$_{3}$ : (x $$-$$ h)$^{2}$ + (y $$-$$ k)$^{2}$ = r$^{2}$ satisfies the following conditions :\n\n(i) centre of C$_{3}$ is collinear with the centers of C$_{1}$ and C$_{2}$.\n\n(ii) C$_{1}$ and C$_{2}$ both lie inside C$_{3}$, and\n\n(iii) C$_{3}$ touches C$_{1}$ at M and C$_{2}$ at N.\n\nLet the line through X and Y intersect C$_{3}$ at Z and W, and let a common tangent of C$_{1}$ and C$_{3}$ be a tangent to the parabola x$^{2}$ = 8$$\\alpha $$y.\n\nThere are some expression given in the List-I whose values are given in List-II below.\n\n[Diagram]\n\nWhich of the following is the only CORRECT combination?",
+    "solution": "[Diagram]\n\nIt is given that, the centres of circles C$_{1}$, C$_{2}$ and C$_{3}$ are co-linear,\n\n$$ \\therefore \\left| {\\matrix{\n0 & 0 & 1 \\cr\n3 & 4 & 1 \\cr\nh & k & 1 \\cr\n\n} } \\right| = 0 \\Rightarrow 4h = 3k$$ ....(i)\n\nand MN is the length of diameter of circle C$_{3}$, so\n\nMN = $$3 + \\sqrt {{{(3 - 0)}^2} + {{(4 - 0)}^2}} + 4$$\n\n= $$3 + 5 + 4 = 12$$\n\nSo, radius of circle C$_{3}$, r = 6 ......(ii)\n\nSince, the circle C$_{3}$ touches C$_{1}$ at M and C$_{2}$ at N, so\n\n|C$_{1}$ C$_{3}$| = |r $$-$$ 3|\n\n$$ \\Rightarrow \\sqrt {{h^2} + {k^2}} = 3 \\Rightarrow $$ h$^{2}$ + k$^{2}$ = 9 .....(iii)\n\nFrom Eqs. (i) and (iii), we get\n\n$${h^2} + {{16{h^2}} \\over 9} = 9 \\Rightarrow 25{h^2} = 81 \\Rightarrow h = + {9 \\over 5}$$ and $$k = + {{12} \\over 5}$$\n\nSo, $$2h + k = {{18} \\over 5} + {{12} \\over 5} = 6$$\n\nNow, equation common chord XY of circles C$_{1}$ and C$_{2}$ is\n\nC$_{1}$ $$-$$ C$_{2}$ = 0\n\n$$ \\Rightarrow $$ 6x + 8y = 18\n\n$$ \\Rightarrow $$ 3x + 4y = 9 ....(iv)\n\nNow, PY$^{2}$ = GY$^{2}$ $$-$$ GP$^{2}$\n\n= $$9 - {{81} \\over {25}} = {{144} \\over {25}} \\Rightarrow $$ PY = $${{12} \\over 5} \\because XY = 2PY = 2 \\times {{12} \\over 5} = {{24} \\over 5}$$\n\nSimilarly, equation of ZW is 3x + 4y = 9.\n\nNow, So, length of perpendicular from C$_{3}$\nto\n\n$$ZW = {{\\left| {3\\left( {{9 \\over 5}} \\right) + 4\\left( {{{12} \\over 5}} \\right) - 9} \\right|} \\over 5} = {6 \\over 5}$$\n\nSo, $$P{W^2} = {C_3}{W^2} - {C_3}{P^2} = 36 - {{36} \\over {25}} = {{864} \\over {25}}$$\n\n{$$ \\because $$ C$_{3}$W = r = 6}\n\n$$ \\Rightarrow PW = {{12\\sqrt 6 } \\over 5} \\because ZW = 2PW = {{24\\sqrt 6 } \\over 5} \\therefore {{length\\,of\\,ZW} \\over {length\\,of\\,XY}} = \\sqrt 6 $$\n\nSo, combination (ii), Q is only correct.\n\nHence, option (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(II), (T)",
+      "(I), (S)",
+      "(II), (Q)",
+      "(I), (U)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwzg4bvf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_014",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a tangent to a suitable conic (Column 1) is found to be y = x + 8 and its point of contact is (8, 16), then which of the following options is the only CORRECT combination?",
+    "solution": "The tangent is y = x + 8.\nSatisfying (8, 16) in y$^{2}$ = 4ax, we have\n16$^{2}$ = 4a . 8. $$\\therefore$$ a = 8\nOn comparing y = mx + $${a \\over m}$$, we have m = 1\nThe point of contact is $$\\left( {{a \\over {{m^2}}},{{2a} \\over m}} \\right) = (8,16)$$\nSo its verified.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(III) (i) (P)",
+      "(I) (ii) (Q)",
+      "(II) (iv) (R)",
+      "(III) (ii) (Q)"
+    ]
+  },
+  {
+    "id": "math_parabola_015",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, r, s, t$$ be nonzero real numbers. Let $$P\\,\\,\\left( {a{t^2},2at} \\right),\\,\\,Q,\\,\\,\\,R\\,\\,\\left( {a{r^2},2ar} \\right)$$ and $$S\\,\\,\\left( {a{s^2},2as} \\right)$$ be distinct points on the parabola $${y^2} = 4ax$$. Suppose that $$PQ$$ is the focal chord and lines $$QR$$ and $$PK$$ are parallel, where $$K$$ is the point $$(2a,0)$$\nThe value of $$r$$ is",
+    "solution": "Given, four points $$\\mathrm{P}\\left(a t^2, 2 a t\\right), \\mathrm{Q}, \\mathrm{R}\\left(a r^2, 2 a r\\right)$$ and $$S\\left(a s^2, 2 a s\\right)$$ be distinct points on the parabola $$y^2=4 a x$$.\nAlso given PQ is the focal chord of parabola\n$$\\begin{aligned}\n& y^2=4 a x \\\\\n& \\therefore \\quad \\mathrm{Q}=\\left(\\frac{a}{t^2},-\\frac{2 a}{t}\\right)\n\\end{aligned}$$\n\n[Diagram]\n\nGiven, $$\\mathrm{K}=(2 a, 0)$$ and PK is parallel to QR\n$$\\therefore$$ Slope of line PK $$=$$ Slope of line QR\n$$\\begin{aligned}\n& \\frac{2 a t-0}{a t^2-2 a}=\\frac{2 a r+\\frac{2 a}{t}}{a r^2-\\frac{a}{t^2}} \\\\\n\\Rightarrow & \\frac{t}{t^2-2}=\\frac{r+\\frac{1}{t}}{r^2-\\frac{1}{t^2}} \\\\\n\\Rightarrow & \\frac{t}{t^2-2}=\\frac{r+\\frac{1}{t}}{\\left(r+\\frac{1}{t}\\right)\\left(r-\\frac{1}{t}\\right)} \\\\\n\\Rightarrow & \\frac{t}{t^2-2}=\\frac{1}{r-\\frac{1}{t}} \\\\\n\\Rightarrow & t r-1=t^2-2 \\\\\n\\Rightarrow & \\quad r=\\frac{t^2-1}{t}\n\\end{aligned}$$\nHint:\n(i) If PQ is a focal chord of parabola $$y^2=4 a x$$ and $$\\mathrm{P}=\\left(a t^2, 2 a t\\right)$$, then $$\\mathrm{Q}=\\left(\\frac{a}{t^2},-\\frac{2 a}{t}\\right)$$.\n(ii) If two lines are parallel, then their slopes are equal.\n(iii) The slope of line passing through two points $$\\left(x_1, y_1\\right)$$ and $$\\left(x_2, y_2\\right)$$ is $$\\frac{y_2-y_1}{x_2-x_1}$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ - {1 \\over t}$$",
+      "$${{{t^2} + 1} \\over t}$$",
+      "$$ {1 \\over t}$$",
+      "$${{{t^2} - 1} \\over t}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqmmfck.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_016",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, r, s, t$$ be nonzero real numbers. Let $$P\\,\\,\\left( {a{t^2},2at} \\right),\\,\\,Q,\\,\\,\\,R\\,\\,\\left( {a{r^2},2ar} \\right)$$ and $$S\\,\\,\\left( {a{s^2},2as} \\right)$$ be distinct points on the parabola $${y^2} = 4ax$$. Suppose that $$PQ$$ is the focal chord and lines $$QR$$ and $$PK$$ are parallel, where $$K$$ is the point $$(2a,0)$$\nIf $$st=1$$, then the tangent at $$P$$ and the normal at $$S$$ to the parabola meet at a point whose ordinate is",
+    "solution": "We know that on the parabola $$y^2=4 a x$$, the equation of tangent at $$p=\\left(a t^2, 2 a t\\right)$$ is $$t y=x+ a t^2$$ and Normal at $$\\mathrm{S}\\left(a s^2, 2 a s\\right)$$ is $$y+s x=2 a s+a s^3$$ Let tangent at P and Normal at Q intersect at $$\\left(x_0, y_0\\right)$$, then\n$$\\begin{aligned}\nt y_0 & =x_0+a t^2 \\quad \\text{.... (i)}\\\\\ny_0+s x_0 & =2 a s+a s^3 \\quad \\text{... (ii)}\n\\end{aligned}$$\n\n[Diagram]\n\nFrom equation (i) and (ii)\n$$\\begin{aligned}\n& x_0=t y_0-a t^2=\\frac{-y_0+2 a s+a s^3}{s} \\\\\n\\Rightarrow & \\text { st } y_0-\\text { at.t.s }=-y_0+2 a s+a s^3\n\\end{aligned}$$\nGiven, $$s t=1\\begin{aligned}\n& \\therefore \\quad y_0-a t=-y_0+\\frac{2 a}{t}+\\frac{a}{t^3} \\\\\n& \\Rightarrow \\quad 2 y_0=a t+\\frac{2 a}{t}+\\frac{a}{t^3} \\\\\n& \\Rightarrow \\quad y_0=\\frac{a\\left(t^4+2 t^2+1\\right)}{2 t^3} \\\\\n& \\Rightarrow \\quad y_0=\\frac{a\\left(t^2+1\\right)^2}{2 t^3}\n\\end{aligned}$$\nHint:\nOn the parabola $$y^2=4 a x$$\n(i) The equation of tangent at $$\\mathrm{P}\\left(a t^2, 2 a t\\right)$$ is $$ty=x+a t^2$$.\n(ii) The equation of normal at $$\\mathrm{S}\\left(a s^2, 2 a s\\right)$$ is $$y+s x=2 a s+a s^3$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{{{\\left( {{t^2} + 1} \\right)}^2}} \\over {2{t^3}}}$$",
+      "$${{a{{\\left( {{t^2} + 1} \\right)}^2}} \\over {2{t^3}}}$$",
+      "$${{a{{\\left( {{t^2} + 1} \\right)}^2}} \\over {{t^3}}}$$",
+      "$${{a{{\\left( {{t^2} + 2} \\right)}^2}} \\over {{t^3}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqn4gt6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_017",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$PQ$$ be a focal chord of the parabola $${y^2} = 4ax$$. The tangents to the parabola at $$P$$ and $$Q$$ meet at a point lying on the line $$y=2x+a$$, $$a>0$$.\nIf chord $$PQ$$ subtends an angle $$\\theta $$ at the vertex of $${y^2} = 4ax$$, then tan $$\\theta = $$",
+    "solution": "[Diagram]\n\nEquation of tangent at P is $$t y=x+a t^2\\quad \\text{.... (i)}$$\nEquation of tangent at Q is $$\\frac{-y}{t}=x+\\frac{a}{t^2}\\quad \\text{... (ii)}$$\nOn solving equations (i) and (ii)\n$$\\Rightarrow \\mathrm{R}=\\left(-a, a\\left(t-\\frac{1}{t}\\right)\\right)$$\nGiven, the tangents of parabola $$y^2=4 a x$$ at P and Q meet at a point lying on the line $$y=2 x+a\\begin{aligned}\n& \\Rightarrow \\quad a\\left(t-\\frac{1}{t}\\right)=-2 a+a \\\\\n& \\Rightarrow \\quad\\left(t-\\frac{1}{t}\\right)=-1 \\quad \\text{... (iii)}\n\\end{aligned}\\Rightarrow$$ Slope of line $$\\mathrm{OP}=\\frac{2}{t}$$ and Slope of line OQ $$=-2 t$$\nGiven, $$\\angle \\mathrm{POQ}=\\theta\\begin{aligned}\n& \\Rightarrow \\quad \\tan \\theta=\\frac{\\frac{2}{t}-(-2 t)}{1+\\frac{2}{t}(-2 t)} \\\\\n& \\Rightarrow \\quad \\tan \\theta=\\frac{-2}{3}\\left(t+\\frac{1}{t}\\right) \\\\\n& \\Rightarrow \\quad \\tan \\theta=\\frac{-2}{3} \\sqrt{\\left(t-\\frac{1}{t}\\right)^2+4} \\\\\n& \\Rightarrow \\quad \\tan \\theta=\\frac{-2 \\sqrt{5}}{3}\n\\end{aligned}$$\nHints:\n(i) If slope of two lines are $$m_1$$ and $$m_2$$, then the angle of intersection between them is equal to $$\\tan ^{-1}\\left(\\frac{m_1-m_2}{1+m_1 m_2}\\right)$$\n(ii) If PQ is a focal chord of parabola $$y^2=4 a x$$, then $$\\mathrm{P}=\\left(a t^2, 2 a t\\right)$$ and $$\\mathrm{Q}=\\left(\\frac{a}{t^2},-\\frac{2 a}{t}\\right)$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${2 \\over 3}\\sqrt 7 $$",
+      "$${-2 \\over 3}\\sqrt 7 $$",
+      "$${2 \\over 3}\\sqrt 5 $$",
+      "$${-2 \\over 3}\\sqrt 5 $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs2spoo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_018",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A line $$L:y=mx+3$$ meets $$y$$-axis at R$$(0, 3)$$ and the arc of the parabola $${y^2} = 16x,0 \\le y \\le 6$$ at the point $$F\\left( {{x_0},{y_0}} \\right)$$. The tangent to the parabola at $$F\\left( {{x_0},{y_0}} \\right)$$ intersects the $$y$$-axis at $$G\\left( {0,{y_1}} \\right)$$. The slope $$m$$ of the line $$L$$ is chosen such that the area of the triangle $$EFG$$ has a local maximum.\nMatch List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n**List $$I$$**\n\nP.$$\\,\\,\\,m = $$\n\nQ.$$\\,\\,\\,$$Maximum area of $$\\Delta EFG$$ is\n\nR.$$\\,\\,\\,{y_0} = $$\n\nS.$$\\,\\,\\,{y_1} = $$\n**List $$II$$**\n\n1.$$\\,\\,\\,{1 \\over 2}$$\n\n2.$$\\,\\,\\,4$$\n\n3.$$\\,\\,\\,2$$\n\n4.$$\\,\\,\\,1$$",
+    "solution": "Given, a parabola $$y^2=16 x$$\nLet $$\\mathrm{F}\\left(x_0, y_0\\right)=\\left(4 t^2, 8 t\\right)\\Rightarrow \\quad x_0=4 t^2, y_0=8 t$$\nEquation of tangent at F is $$t y=x+4 t^2$$\n\n[Diagram]\n\nG is the point of intersection of tangent $$t y=x +4 t^2$$ and $$Y$$-axis\n$$\\therefore \\mathrm{G}=(0,4 t)$$\nGiven, $$\\mathrm{G}=\\left(0, y_1\\right)\\therefore \\quad y_1=4 t$$\nLet $$\\Delta$$ be the area of $$\\Delta$$ EGF\n$$\\begin{aligned}\n& \\Rightarrow \\quad \\Delta=\\frac{1}{2} 4 t^2 \\cdot\\left(3-y_1\\right) \\\\\n& \\Rightarrow \\quad \\Delta=2 t^2(3-4 t) \\\\\n& \\Rightarrow \\quad \\frac{d \\Delta}{d t}=12 t-24 t^2=0 \\text { at } t=0, \\frac{1}{2} \\\\\n& \\Rightarrow \\frac{d^2 \\Delta}{d t^2}=12-48 t<0 \\text { at } t=\\frac{1}{2}\n\\end{aligned}$$\nHence, $$\\Delta$$ is maximum at $$t=\\frac{1}{2}\\therefore \\quad \\Delta_{\\max }=\\frac{1}{2}, y_0=8 t=4, y_1=4 t=2$$\nGiven, $$y=m x+3$$ intersect the parabola $$y^2=16 x$$ at $$\\mathrm{F}\\left(4 t^2, 8 t\\right)\\therefore 8 t=4 m t^2+3$$\nPut $$t=\\frac{1}{2}\\begin{aligned}\n& \\Rightarrow \\quad 4=m+3 \\\\\n& \\Rightarrow m=1\n\\end{aligned}$$\nHints :\n(i) $$\\frac{d y}{d x}=0$$ at $$x=\\alpha$$ and $$\\frac{d^2 y}{d x^2}<0$$ at $$x=\\alpha$$, then the function has point of local maxima at $$x=a$$.\n(ii) The parametric point of the parabola $$y^2= 4 a x$$ is $$\\left(a t^2, 2 a t\\right)$$\n(iii) The equation of tangent of parabola $$y^2=4 a x$$ at $$\\left(a t^2, 2 a t\\right)$$ is $$t y=x+a t^2$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$P = 4,Q = 1,R = 2,S = 3$$",
+      "$$P = 3,Q = 4,R = 1,S = 2$$",
+      "$$P = 1,Q = 3,R = 2,S = 4$$",
+      "$$P = 1,Q = 3,R = 4,S = 2$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs3bkug.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_019",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$PQ$$ be a focal chord of the parabola $${y^2} = 4ax$$. The tangents to the parabola at $$P$$ and $$Q$$ meet at a point lying on the line $$y=2x+a$$, $$a>0$$.\nLength of chord $$PQ$$ is",
+    "solution": "Given, PQ be a focal chord of the parabola $$y^2=4 a x$$\nLet $$\\mathrm{P}=\\left(a t^2, 2 a t\\right)$$ and $$\\mathrm{Q}\\left(\\frac{a}{t^2},-\\frac{2 a}{t}\\right)$$\n\n[Diagram]\n\nEquation of tangent at P is $$t y=x+a t^2\\quad \\text{... (i)}$$\nEquation of tangent at Q is $$-\\frac{y}{t}=x+\\frac{a}{t^2}\\quad \\text{... (ii)}$$\nLet $$R$$ is the point of intersection of tangents at $$P$$ and $$Q$$.\nOn solving Equation (i) and (ii)\n$$\\Rightarrow \\mathrm{R}=\\left(-a, a\\left(t-\\frac{1}{t}\\right)\\right)$$\nGiven, the tangents of parabola $$y^2=4 a x$$ at P and $$Q$$ meet at a point lying on the line $$y=2 x +a$$.\n$$\\therefore \\mathrm{R}$$ must be lies on the line $$y=2 x+a\\begin{aligned}\n& \\Rightarrow \\quad a\\left(t-\\frac{1}{t}\\right)=-2 a+a \\\\\n& \\Rightarrow \\quad t-\\frac{1}{t}=-1 \\quad \\text{... (iii)}\n\\end{aligned}$$\nLet the length of chord PQ is L\n$$\\begin{aligned}\n& \\Rightarrow \\mathrm{L}=\\sqrt{\\left(a t^2-\\frac{a}{t^2}\\right)^2+\\left(2 a t+\\frac{2 a}{t}\\right)^2} \\\\\n& \\Rightarrow \\mathrm{L}=a \\sqrt{\\left(t-\\frac{1}{t}\\right)^2\\left(t+\\frac{1}{t}\\right)^2+4\\left(t+\\frac{1}{t}\\right)^2} \\\\\n& \\Rightarrow \\mathrm{L}=a \\sqrt{\\left(t-\\frac{1}{t}\\right)^2\\left(\\left(t-\\frac{1}{t}\\right)^2+4\\right)+4\\left(\\left(t-\\frac{1}{t}\\right)^2+4\\right)} \\\\\n& \\Rightarrow \\mathrm{L}=a \\sqrt{1 \\cdot(1+4)+4 \\cdot(1+4)} \\\\\n& \\Rightarrow \\mathrm{L}=5 a\n\\end{aligned}$$\nHints:\nIf $$P Q$$ is a focal chord of parabola $$y^2=4 a x$$, then $$\\mathrm{P}=\\left(a t^2, 2 a t\\right)$$ and $$\\mathrm{Q}=\\left(\\frac{a}{t^2}, \\frac{-2 a}{t}\\right)$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$7a$$",
+      "$$5a$$",
+      "$$2a$$",
+      "$$3a$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs2gsly.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_020",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$(x, y)$$ be any point on the parabola $${y^2} = 4x$$. Let $$P$$ be the point that divides the line segment from $$(0, 0)$$ to $$(x, y)$$ in the ratio $$1 : 3$$. Then the locus of $$P$$ is",
+    "solution": "[Diagram]\n\nNow, $${y^2} = 4x$$ and Q will lie on it.\n$$ \\Rightarrow {(4k)^2} = 4 \\times 4h \\Rightarrow {k^2} = h \\Rightarrow {y^2} = x$$ (replacing h by x and k by y)",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${x^2} = y$$",
+      "$${y^2} = 2x$$",
+      "$${y^2} = x$$",
+      "$${x^2} = 2y$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6ay24ek.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_021",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of the orthocentre of the triangle formed by the lines\n\n$$(1 + p)x - py + p(1 + p) = 0,\n(1 + q)x - qy + q(1 + q) = 0$$\n\nand $$y = 0$$, where $$p\ne q$$, is :",
+    "solution": "The intersection point of $$y = 0$$ with first line is $$B( - p,0)$$.\nThe intersection point of $$y=0$$ with second line is $$A( - q,0)$$.\nThe intersection point of the two lines is $$C(pq,(p + 1)(q + 1))$$.\nThe altitude from C to AB is $$x = pq$$.\nThe altitude from B to AC is\n$$y = - {q \\over {1 + q}}(x + p)$$\nSolving these two equations, we get $$x = pq$$ and $$y = - pq$$.\nHence, the locus of orthocentre is $$x + y = 0$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "a hyperbola.",
+      "a parabola.",
+      "an ellipse.",
+      "a straight line."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggq8agu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_022",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**STATEMENT - 1 :** The curve $$y=\\frac{-x^{2}}{2}+x+1$$ is symmetric with respect to the line $$x=1$$.\n**STATEMENT - 2 :** A parabola is symmetric about its axis.",
+    "solution": "$$\\begin{aligned}\n& y=\\frac{-x^{2}}{2}+x+1 \\\\\n& 2 y=-x^{2}+2 x+2 \\\\\n& 2 y=-\\left(x^{2}-2 x+1\\right)+3\n\\end{aligned}(2 y-3)=-(x-1)^{2} \\Rightarrow$$ parabola is symmetric with respect to $$x=1$$\nAlso statement 1 is true statement 2 is correct explanation of statement 1.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement- 1 is True, Statement-2 is true; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is true; Statement- 2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggq8agu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_023",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The tangent to the curve $$y=e^x$$ drawn at the point ($$c,e^c$$) intersects the line joining the points ($$c-1,e^{c-1}$$) and ($$c+1,e^{c+1}$$)",
+    "solution": "The tangent to the curve $$y=e^x$$ drawn at the point ($$c,e^c$$) is given as:\n$$(y-e^c)=e^c(x-c)$$ ..... (i)\nThe equation of the line joining the points\n$$(c-1),(e^{c-1})$$ and $$(c+1,e^{c+1})y-e^{c-1}=\\frac{e^c(e-e^{-1})}{2}(x-c+1)$$ ..... (ii)\nOn subtracting (i) from (ii)\n$${e^c} - {e^{c - 1}} = {{{e^c}(e - {e^{ - 1}})} \\over 2}(x - c + 1) - {e^c}(x - c){e^c} - {e^{c - 1}} = (x - c){e^c}\\left( {{{e - {e^{ - 1}}} \\over 2} - 1} \\right) + {e^c}\\left( {{{e - {e^{ - 1}}} \\over 2}} \\right)x - c = {{{{(e - 1)}^2}} \\over {2 - {{(e - 1)}^2}}} < 0 \\Rightarrow x < c$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "on the left of $$x=c$$",
+      "on the right of $$x=c$$",
+      "at no point",
+      "at all points"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggq8agu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_024",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ratio of the areas of the triangles PQS and PQR is",
+    "solution": "We first obtain the coordinate of P & Q.\nTowards this end we solve\n$${x^2} + {y^2} = 9$$ ..... (i)\n$${y^2} = 8x$$ ...... (ii)\n\n[Diagram]\n\nfrom (i) and (ii), we get\n$${x^2} + 8x - 9 = 0(x + 9)(x - 1) = 0 \\Rightarrow x = 1$$ [$$\\thereforex + 9 > 0$$]\n$${y^2} = 8 \\Rightarrow y = \\, \\pm 2\\sqrt 2 $$\nThus, coordinates of P are $$(1,2\\sqrt 2 )$$ and Q are $$(1, - 2\\sqrt 2 )$$ equation of tangents to the circle at P and Q respectively.\n$$x + 2\\sqrt 2 y = 9x - 2\\sqrt 2 y = 9$$\nOn solving these we get coordinates of R as (9, 0)\nEquations of tangents to parabola at P and Q are\n$$2\\sqrt 2 y = 4(x + 1) - 2\\sqrt 2 y = 4(x + 1)$$\nThese lines intersect each other at S($$-1,0$$)\nLet $$\\Delta_1$$ = area of $$\\Delta$$PQS = $$\\frac{1}{2}$$ (PQ)(ST)\n$$=\\frac{1}{2}(2)(4\\sqrt2)=4\\sqrt2$$\nAnd $$\\Delta_2$$ = area of $$\\Delta$$PQR = $$\\frac{1}{2}$$(PQ)(TR)\n$$=\\frac{1}{2}(4\\sqrt2)8=16\\sqrt2\\Delta_1:\\Delta_2=4\\sqrt2:16\\sqrt2$$\n= 1 : 4",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1 : $$\\sqrt2$$",
+      "1 : 2",
+      "1 : 4",
+      "1 : 8"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggq8agu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_025",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of the circumcircle of the triangle PRS is",
+    "solution": "Equation of perpendicular bisector of SR is x = 4\nMidpoint of PR is (5, $$\\sqrt2$$) ..... (i)\nSlope of PR is $${{0 - 2\\sqrt 2 } \\over {9 - 1}} = {{ - \\sqrt 2 } \\over 4}\\therefore$$ Equation of perpendicular bisector of PR is\n$$y - \\sqrt 2 = {4 \\over {\\sqrt 2 }}(x - 5)$$ ...... (ii)\nSolving equation (i) and (ii) we get\n$$x = 4,y = - \\sqrt 2 $$\nCircumcentre is (4, $$-\\sqrt2$$)\nRadius of circumcircle is = 3$$\\sqrt3$$ units",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "5 units",
+      "3$$\\sqrt3$$ units",
+      "3$$\\sqrt2$$ units",
+      "2$$\\sqrt3$$ units"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mguiwxte.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_026",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of the incircle of the triangle PQR is",
+    "solution": "We have\nPR = RQ = 6$$\\sqrt2$$\nPQ = 4$$\\sqrt2\\Delta_2$$ = area of $$\\Delta$$PQR\n= 16$$\\sqrt2r = {{{\\Delta _2}} \\over s} = {{16\\sqrt 2 } \\over {{1 \\over 2}(6\\sqrt 2 + 6\\sqrt 2 + 4\\sqrt 2 )}} = 2$$ units\nRadius of incircle of $$\\Delta$$PQR = 2 units",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "4 units",
+      "3 units",
+      "$$\\frac{8}{3}$$ units",
+      "2 units"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mguiwxte.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_027",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The axis of a parabola is along the line $$y = x$$ and the distances of its vertex and focus from origin are $$\\sqrt 2 $$ and $$2\\sqrt 2 $$ respectively. If vertex and focus both lie in the first quadrant, then the equation of the parabola is",
+    "solution": "Axis of parabola along line $y=x$ distance of vertex from origin is $\\sqrt{2}$. It implies parabola lies in first Quadrant.\nEquation of directrix is line passing through the origin and perpendicular on $y=x$ i.e, $y=-x \\Rightarrow x+y=0$\n\n[Diagram]\nNow by definition of parabola. Parabola is a locus of a point which moves in such a way its distance from fixed point and from fixed line are equal where fixed point is called focus and fixed line is called directrix.\ni.e, if $\\mathrm{P}(x, y)$ be any point on parabola then Distance of P from directrix $=$ Distance of P from focus\n$$ \\begin{aligned} & \\Rightarrow & \\left(\\frac{x+y}{\\sqrt{1^2+1^2}}\\right)^2 & =(x-2)^2+(y-2)^2 \\\\ & \\Rightarrow & (x+y)^2 & =2\\left[x^2+y^2-4 x-4 y+8\\right] \\\\ & \\Rightarrow & x^2+y^2+2 x y & =2 x^2+2 y^2-8 x-8 y+16 \\\\ & \\Rightarrow & x^2+y^2-2 x y & =8(x+y-2) \\\\ & \\Rightarrow & (x-y)^2 & =8(x+y-2) \\end{aligned} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${\\left( {x + y} \\right)^2} = \\left( {x - y - 2} \\right)$$",
+      "$${\\left( {x - y} \\right)^2} = \\left( {x + y - 2} \\right)$$",
+      "$${\\left( {x - y} \\right)^2} = 4\\left( {x + y - 2} \\right)$$",
+      "$${\\left( {x - y} \\right)^2} = 8\\left( {x + y - 2} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mguiwxte.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_028",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\text { Normals are drawn at points } \\mathrm{P}, \\mathrm{Q} \\text { and } \\mathrm{R} \\text { lying on the parabola } y^2=4 x \\text { which intersect at }(3,0) \\text {. Then } $$\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\n(i)\nArea of $\\triangle \\mathrm{PQR}$\n(A)\n2\n\n\n\n(ii)\nRadius of circumcircle of $\\triangle \\mathrm{PQR}$\n(B)\n5/2\n\n\n(iii)\nCentroid of $\\triangle \\mathrm{PQR}$\n(C)\n(5/2,0)\n\n\n(iv)\nCircumcentre of $\\triangle \\mathrm{PQR}$\n(D)\n(2/3,0)",
+    "solution": "$$ y^2=4 x $$\nnormal on parabola\n$$ \\begin{aligned} 2 y \\frac{d y}{d x} & =4 \\\\ \\frac{d y}{d x} & =\\frac{2}{y} \\\\ \\frac{-d x}{d y} & =\\frac{-y}{2} \\end{aligned} $$\nEquation of normal\n$$ \\begin{aligned} y & =\\left(\\frac{-y}{2}\\right)(x-3) \\\\ \\Rightarrow 2 & =3-x \\\\ \\Rightarrow x & =1 \\text { or } y=0 \\end{aligned} $$\nPoints $(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R})$ are $(0,0)(1,2)$ and $(1,-2)$\nBase $\\mathrm{QR}=4$ and Height $=1$\n\n[Diagram]\n\n(i) area of $\\triangle \\mathrm{PQR}=0.5 \\times 4 \\times 1$\n(ii) circum radius $=\\frac{a b c}{4 a}=\\frac{20}{4 \\times 2}=\\frac{5}{2}$\n(iii) centroid of $\\triangle \\mathrm{PQR}$\n$$ =\\left(\\frac{x_1+x_2+x_3}{3}, \\frac{y_1+y_2+y_3}{3}\\right)\\left(\\frac{2}{3}, 0\\right) $$\n(iv) circum centre: since, the triangle is an isosceles triangle and circum centre lies $\\frac{5}{2}$ distance apart (radius)\nFrom origin.\nTherefore, circumcentre $\\left(\\frac{5}{2}, 0\\right)$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ \\begin{aligned} & \\text { (i)-(A); (ii)-(B); (iii)-(D); } \\text { (iv)-(C) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(B); (ii)-(A); (iii)-(D); } \\text { (iv)-(C) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(A); (ii)-(B); (iii)-(C); } \\text { (iv)-(D) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(A); (ii)-(D); (iii)-(B); } \\text { (iv)-(C) } \\end{aligned} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgumdzkt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_029",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangent to the curve $$y = {x^2} + 6$$ at a point $$(1, 7)$$ touches the circle $${x^2} + {y^2} + 16x + 12y + c = 0$$ at a point $$Q$$. Then the coordinates of $$Q$$ are",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$(-6, -11)$$",
+      "$$(-9, -13)$$",
+      "$$(-10, -15)$$",
+      "$$(-6, -7)$$"
+    ]
+  },
+  {
+    "id": "math_parabola_030",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The angle between the tangents drawn from the point $$(1, 4)$$ to the parabola $${y^2} = 4x$$ is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\pi /6$$",
+      "$$\\pi /4$$",
+      "$$\\pi /3$$",
+      "$$\\pi /2$$"
+    ]
+  },
+  {
+    "id": "math_parabola_031",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The focal chord to $${y^2} = 16x$$ is tangent to $${\\left( {x - 6} \\right)^2} + {y^2} = 2,$$ then the possible values of the slope of the chord, are",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left\\{ { - 1,\\,1} \\right\\}$$",
+      "$$\\left\\{ { - 2,\\,2} \\right\\}$$",
+      "$$\\left\\{ { - 2,\\,-1/2} \\right\\}$$",
+      "$$\\left\\{ { 2,\\,-1/2} \\right\\}$$"
+    ]
+  },
+  {
+    "id": "math_parabola_032",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of the mid-point of the line segment joining the focus to a moving point on the parabola $${y^2} = 4ax$$ is another parabola with directrix",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$x = -a$$",
+      "$$x = -a/2$$",
+      "$$x = 0$$",
+      "$$x = a/2$$"
+    ]
+  },
+  {
+    "id": "math_parabola_033",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the common tangent to the curves $${y^2} = 8x$$ and $$xy = - 1$$ is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$3y = 9x + 2$$",
+      "$$y = 2x + 1$$",
+      "$$2y = x + 8$$",
+      "$$y= x + 2$$"
+    ]
+  },
+  {
+    "id": "math_parabola_034",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the common tangent touching the circle $${\\left( {x - 3} \\right)^2} + {y^2} = 9$$ and the parabola $${y^2} = 4x$$ above the $$x$$-axis is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\sqrt {3y} = 3x + 1$$",
+      "$$\\sqrt {3y} = - \\left( {x + 3} \\right)$$",
+      "$$\\sqrt {3y} = x + 3$$",
+      "$$\\sqrt {3y} = - \\left( {3x + 1} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_parabola_035",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the directrix of the parabola $${y^2} + 4y + 4x + 2 = 0$$",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$x = - 1$$",
+      "$$x = 1$$",
+      "$$x = - 3/2$$",
+      "$$x = 3/2$$"
+    ]
+  },
+  {
+    "id": "math_parabola_036",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$x + y = k$$ is normal to $${y^2} = 12x,$$ then $$k$$ is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$3$$",
+      "$$9$$",
+      "$$-9$$",
+      "$$-3$$"
+    ]
+  },
+  {
+    "id": "math_parabola_037",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the line $$x - 1 = 0$$ is the directrix of the parabola $${y^2} - kx + 8 = 0,$$ then one of the values of $$k$$ is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1/8$$",
+      "$$8$$",
+      "$$4$$",
+      "$$1/4$$"
+    ]
+  },
+  {
+    "id": "math_parabola_038",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The curve described parametrically by $$x = {t^2} + t + 1,y = {t^2} - t + 1 $$ represents",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "a pair of straight lines",
+      "an ellipse",
+      "a parabola",
+      "a hyperbola"
+    ]
+  },
+  {
+    "id": "math_parabola_039",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a circle with its centre lying on the focus of the parabola $${y^2} = 2px$$ such that it touches the directrix of the parabola. Then a point of intersection of the circle and parabola is",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left( {{p \\over 2},p} \\right)$$ or $$\\left( {{p \\over 2},- p} \\right)$$",
+      "$$\\left( { {p \\over 2}, {p \\over 2}} \\right)$$",
+      "$$\\left( -{{p \\over 2},p} \\right)$$",
+      "$$\\left( { - {p \\over 2}, - {p \\over 2}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_parabola_040",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $A_1, B_1, C_1$ be three points in the $x y$-plane. Suppose that the lines $A_1 C_1$ and $B_1 C_1$ are tangents to the curve $y^2=8 x$ at $A_1$ and $B_1$, respectively. If $O=(0,0)$ and $C_1=(-4,0)$, then which of the following statements is (are) TRUE?",
+    "solution": "[Diagram]\n\nEquation of tangent at (2t$$^2$$, 4t) is\n$$\\mathrm{ty}=\\mathrm{x}+2 \\mathrm{t}^2\\because$$ It is passing through $$(-4,0)\\therefore 0=-4+2 \\mathrm{t}^2 \\Rightarrow \\mathrm{t}= \\pm \\sqrt{2}\\left.\\begin{array}{rl}\n\\therefore & \\mathrm{A}_1=(4,4 \\sqrt{2}) \\\\\n& \\mathrm{B}_1=(4,-4 \\sqrt{2})\n\\end{array}\\right\\} \\quad \\begin{aligned}\n& \\mathrm{OA}_1=\\sqrt{48}=4 \\sqrt{3} \\\\\n& \\mathrm{~A}_1 \\mathrm{~B}_1=8 \\sqrt{2}\n\\end{aligned}$$\nEquation of altitude of $$\\Delta A_1 B_1 C_1$$ drawn from $$A_1$$ is\n$$\\begin{aligned}\n& y-4 \\sqrt{2}=\\sqrt{2}(x-4) \\\\\n& \\Rightarrow \\sqrt{2} x-y=0 \\quad \\text{... (1)}\n\\end{aligned}$$\nEquation of altitude of $$\\Delta A_1 B_1 C_1$$ drawn from $$C_1$$ is\n$$\\mathrm{x}=0\\quad \\text{... (2)}$$\nSolving (1) and (2) $$\\Rightarrow$$ orthocentre is $$(0,0)\\therefore$$ correct options are (A), (C)",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The length of the line segment $O A_1$ is $4 \\sqrt{3}$",
+      "The length of the line segment $A_1 B_1$ is 16",
+      "The orthocenter of the triangle $A_1 B_1 C_1$ is $(0,0)$",
+      "The orthocenter of the triangle $A_1 B_1 C_1$ is $(1,0)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lze8ti08.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_041",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the parabola $$y^{2}=4 x$$. Let $$S$$ be the focus of the parabola. A pair of tangents drawn to the parabola from the point $$P=(-2,1)$$ meet the parabola at $$P_{1}$$ and $$P_{2}$$. Let $$Q_{1}$$ and $$Q_{2}$$ be points on the lines $$S P_{1}$$ and $$S P_{2}$$ respectively such that $$P Q_{1}$$ is perpendicular to $$S P_{1}$$ and $$P Q_{2}$$ is perpendicular to $$S P_{2}$$. Then, which of the following is/are TRUE?",
+    "solution": "Let $\\mathrm{P}_1\\left(t^2, 2 t\\right)$ then tangent at $\\mathrm{P}_1$ will be\n\n$$\nt y=x+t^2\n$$\n\n[Diagram]\n\nSince, it passes through $(-2,1)$\n\n$$\n\\begin{aligned}\n& \\Rightarrow t^2-t-2 =0 \\\\\\\\\n& \\Rightarrow t = 2,-1\n\\end{aligned}\n$$\n\nSo, we get point $\\mathrm{P}_1(4, 4)$ and $\\mathrm{P}_2(1, -2)$\n\nNow finding the equation of $\\mathrm{SP}_1: 4 x-3 y-4=0$\n\nAnd equation of $\\mathrm{SP}_2: x-1=0$\n\nNow finding the point by foot of point on line formula,\n\n$$\n\\mathrm{Q}_1: \\frac{x_1+2}{4}=\\frac{y_1-1}{-3}=\\frac{-(-8-3-4)}{25}=\\frac{3}{5}\n$$\n\nWe get $x_1=\\frac{2}{5}, y_1=\\frac{-4}{5}$ and $Q_2=(1,1)$\n\nNow using the distance formula we get,\n\n$$\n\\begin{aligned}\n& \\mathrm{SQ}_1 =\\sqrt{\\left(1-\\frac{2}{5}\\right)^2+\\left(\\frac{4}{5}\\right)^2}=1 \\\\\\\\\n& \\mathrm{Q}_1 \\mathrm{Q}_2 =\\sqrt{\\frac{9}{25}+\\frac{81}{25}}=\\frac{3 \\sqrt{10}}{5} \\\\\\\\\n& \\mathrm{PQ}_1 =\\sqrt{\\frac{144}{25}+\\frac{81}{25}}=3 \\\\\\\\\n& \\mathrm{SQ}_2 =1\n\\end{aligned}\n$$\n\nHence, option (B, C, D) are correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$S Q_{1}=2$$",
+      "$$Q_{1} Q_{2}=\\frac{3 \\sqrt{10}}{5}$$",
+      "$$P Q_{1}=3$$",
+      "$$S Q_{2}=1$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfqqvv7f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_042",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let E denote the parabola y$^{2}$ = 8x. Let P = ($$-$$2, 4), and let Q and Q' be two distinct points on E such that the lines PQ and PQ' are tangents to E. Let F be the focus of E. Then which of the following statements is(are) TRUE?",
+    "solution": "Given, E : y$^{2}$ = 8x .... (i)\n\nand P $$\\equiv$$ ($$-$$2, 4)\n\nNow, directrix of Eq. (i) is x = $$-$$2\n\n\n[Diagram]\n\nSo, point P($$-$$2, 4) lies on the directrix of parabola y$^{2}$ = 8x. Hence, $$\\angle QPQ' = {\\pi \\over 2}$$ (by the definition of director circle) and chord QQ' is a focal chord and segment PQ subtends a right angle at the focus.\n\nSlope of PF = $$-$$1 ($$\\because$$ PF $$\\bot$$ QQ')\n\nNow, slope of $$QQ' = {2 \\over {{t_1} + {t_2}}} = 1\\thereforePF = \\sqrt {{{(2 + 2)}^2} + {{(0 + 4)}^2}} = \\sqrt {32} = 4\\sqrt 2 $$",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The triangle PFQ is a right-angled triangle",
+      "The triangle QPQ' is a right-angled triangle",
+      "The distance between P and F is 5$$\\sqrt 2 $$",
+      "F lies on the line joining Q and Q'"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxu59gdq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_043",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a chord, which is not a tangent, of the parabola y$^{2}$ = 16x has the equation 2x + y = p, and mid-point (h, k), then which of the following is(are) possible value(s) of p, h and k?",
+    "solution": "Given : The equation of parabola is y$^{2}$ = 16x\nEquation chord is\n2x + y = p ..... (1)\nEquation of chord with middle point (h, k) is given as\n$$ky - 16\\left( {{{x + h} \\over 2}} \\right) = {k^2} - 16h \\Rightarrow ky - 8(x + h) = {k^2} - 16h \\Rightarrow ky - 8x - 8h = {k^2} - 16h \\Rightarrow ky - 8x - 8h - {k^2} + 16h = 0 \\Rightarrow - 8x + ky + 8h - {k^2} = 0 \\Rightarrow 8x - ky = 8h - {k^2}$$ ..... (2)\nComparing above equation with equation of chord, we get\n$$2x + y = p$$\nDividing Eq. (2) by 4, we get\n$${{8x} \\over 4} - {{ky} \\over 4} = {{8h} \\over 4} - {{{k^2}} \\over 4}2x - {{ky} \\over 4} = 2h - {{{k^2}} \\over 4}$$\nOn comparing, we get\n$$ \\Rightarrow {{ - k} \\over 4} = 1$$ and $$p = 2h - {{{k^2}} \\over 4} \\Rightarrow k = - 4$$ and $$p = 2h - {{{{( - 4)}^2}} \\over 4} = 2h - 4 \\Rightarrow p = 2h - 4 \\Rightarrow 2h - p = 4$$\nOnly p = 2 and h = 3 satisfies this equation. Therefore, p = 2, h = 3 and k = $$-$$4.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "p = $$-$$1, h = 1, k = $$-$$3",
+      "p = 2, h = 3, k = $$-$$4",
+      "p = $$-$$2, h = 2, k = $$-$$4",
+      "p = 5, h = 4, k = $$-$$3"
+    ]
+  },
+  {
+    "id": "math_parabola_044",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P$$ be the point on the parabola $${y^2} = 4x$$ which is at the shortest distance from the center $$S$$ of the circle $${x^2} + {y^2} - 4x - 16y + 64 = 0$$. Let $$Q$$ be the point on the circle dividing the line segment $$SP$$ internally. Then",
+    "solution": "Tangent to y$^{2}$ = 4x at (t$^{2}$, 2t) is\n\n[Diagram]\n\ny(2t) = 2(x + t$^{2}$)\n$$\\Rightarrow$$ yt = x + t$^{2}$ ...... (i)\nEquation of normal at P(t$^{2}$, 2t) is\ny + tx = 2t + t$^{3}$\nSince, normal at P passes through centre of circle S(2, 8).\n$$\\therefore$$ 8 + 2t = 2t + t$^{3}$ $$\\Rightarrow$$ t = 2, i.e., P(4, 4)\n$$\\thereforeSP = \\sqrt {{{(4 - 2)}^2} + {{(4 - 8)}^2}} = 2\\sqrt 5 \\therefore$$ Option (a) is correct.\nAlso, SQ = 2\n$$\\therefore$$ PQ = SP $$-$$ SQ = 2$$\\sqrt5-$$ 2\nThus, $${{SQ} \\over {QP}} = {1 \\over {\\sqrt 5 - 1}} = {{\\sqrt 5 + 1} \\over 4}\\therefore$$ Option (b) is incorrect.\nNow, x-intercept of normal is\nx = 2 + 2$^{2}$ = 6\n$$\\therefore$$ Option (c) is correct.\nSlope of tangent $$ = {1 \\over t} = {1 \\over 2}\\therefore$$ Option (d) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$SP = 2\\sqrt 5 $$",
+      "$$SQ:QP = \\left( {\\sqrt 5 + 1} \\right):2$$",
+      "the $$x$$-intercept of the normal to the parabola at $$P$$ is $$6$$",
+      "the slope of the tangent to the circle at $$Q$$ is $${1 \\over 2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0rhyenj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_045",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The circle $${C_1}:{x^2} + {y^2} = 3,$$ with centre at $$O$$, intersects the parabola $${x^2} = 2y$$ at the point $$P$$ in the first quadrant, Let the tangent to the circle $${C_1}$$, at $$P$$ touches other two circles $${C_2}$$ and $${C_3}$$ at $${R_2}$$ and $${R_3}$$, respectively. Suppose $${C_2}$$ and $${C_3}$$ have equal radil $${2\\sqrt 3 }$$ and centres $${Q_2}$$ and $${Q_3}$$, respectively. If $${Q_2}$$ and $${Q_3}$$ lie on the $$y$$-axis, then",
+    "solution": "In case of option (A)\nx$^{2}$ + y$^{2}$ = 3 and x$^{2}$ = 2y\nSolving we get $$P(\\sqrt 2 ,1)$$\nEquation of tangent at P on the circle\n$$x\\sqrt 2 + y = 3\\therefore\\tan \\alpha = - \\sqrt 2 $$\nAgain, $${{{Q_2}{R_2}} \\over {{Q_2}M}} = \\sin \\left( {\\alpha - {\\pi \\over 2}} \\right)$$\nor, $${{2\\sqrt 3 } \\over {{Q_2}M}} = - \\cos \\alpha = - {1 \\over {\\sqrt 3 }}$$ [$$\\because\\tan \\alpha = - \\sqrt 2 $$]\nor, $${Q_2}M = 6$$\nSimilarly, $${Q_3}M = 6\\therefore{Q_2}{Q_3} = 12$$\n\n[Diagram]\n\nIn case of option (B)\n$${{M{R_2}} \\over {{Q_2}{R_2}}} = \\tan \\left( {\\alpha - {\\pi \\over 2}} \\right)$$\nor, $${{M{R_2}} \\over {2\\sqrt 3 }} = - \\tan \\alpha = \\sqrt 2 $$\nor, $$M{R_2} = 2\\sqrt 6 $$\nSimilarly, $$M{R_3} = 2\\sqrt 6 \\therefore{R_2}{R_3} = 4\\sqrt 6 $$\nIn case of option (C)\nOP is the perpendicular drawn from O to R$_{2}$R$_{3}$\n$$\\therefore$$ area of $$\\Delta O{R_2}{R_3} = {1 \\over 2} \\times OP \\times {R_2}{R_3} = {1 \\over 2} \\times \\sqrt 3 \\times 4\\sqrt 6 =6\\sqrt 2 $$\nIn case of option (D)\nPT is perpendicular drawn from P to Q$_{2}$Q$_{3}$\n$$\\therefore$$ area of $$\\Delta P{Q_2}{Q_3} = {1 \\over 2} \\times PT \\times {Q_2}{Q_3} = {1 \\over 2} \\times \\sqrt 2 \\times 12 = 6\\sqrt 2 $$\nTherefore, (A), (B), (C) are correct options.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$${Q_2}{Q_3} = 12$$",
+      "$${R_2}{R_3} = 4\\sqrt 6 $$",
+      "area of the triangle $$O{R_2}{R_3}$$ is $$6\\sqrt 2 $$",
+      "area of the triangle $$P{Q_2}{Q_3}$$ is $$4\\sqrt 2 $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1di9n63.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_046",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P$$ and $$Q$$ be distinct points on the parabola $${y^2} = 2x$$ such that a circle with $$PQ$$ as diameter passes through the vertex $$O$$ of the parabola. If $$P$$ lies in the first quadrant and the area of the triangle $$\\Delta OPQ$$ is $${3\\sqrt 2 ,}$$ then which of the following is (are) the coordinates of $$P$$?",
+    "solution": "Let $$P\\left( {{{t_1^2} \\over 2},{t_1}} \\right)$$ and $$Q\\left( {{{t_2^2} \\over 2},{t_2}} \\right)$$ be two distinct points on the parabola $${y^2} = 2x$$.\nThe circle with PQ as diameter passes through the vertex O(0, 0) of the parabola.\n\n[Diagram]\n\nClearly, PO $$\\bot$$ OQ\nSo, slope of PO $$\\times$$ slope of OQ = $$-$$1\nor, $${{{t_1} - 0} \\over {{{t_1^2} \\over 2} - 0}} \\times {{{t_2} - 0} \\over {{{t_2^2} \\over 2} - 0}} = - 1$$\n\nor, $${2 \\over {{t_1}}} \\times {2 \\over {{t_2}}} = - 1$$\nor, $${t_1}{t_2} = - 4$$\nBy question, area of $$\\Delta OPQ = 3\\sqrt 2 $$\nor, $${1 \\over 2}\\left| {\\matrix{\n0 & 0 & 1 \\cr\n{{{t_1^2} \\over 2}} & {{t_1}} & 1 \\cr\n{{{t_2^2} \\over 2}} & {{t_2}} & 1 \\cr\n\n} } \\right| = 3\\sqrt 2 $$\n\nor, $${1 \\over 2}\\left| {{{t_1^2{t_2}} \\over 2} - {{{t_1}t_2^2} \\over 2}} \\right| = 3\\sqrt 2 $$\nor, $$\\left| {{t_1}{t_2}} \\right|\\left| {{t_1} - {t_2}} \\right| = 12\\sqrt 2 $$\nor, $$\\left| {{t_1} + {4 \\over {{t_1}}}} \\right| = 3\\sqrt 2 $$ [$$\\because{t_1}{t_2} = - 4$$]\nor, $${t_1} + {4 \\over {{t_1}}} = 3\\sqrt 2 $$ [$$\\because$$ P lies in first quadrant]\nor, $$t_1^2 - 3\\sqrt 2 {t_1} + 4 = 0$$\nor, $${t_1} = {{3\\sqrt 2 \\pm \\sqrt {18 - 4 \\times 1 \\times 4} } \\over 2} = {{3\\sqrt 2 \\pm \\sqrt 2 } \\over 2} = 2\\sqrt 2 ,\\sqrt 2 \\therefore$$ coordinates of $$P = (4,2\\sqrt 2 )$$ or $$(1,\\sqrt 2 )$$.\nTherefore, (A) and (D) are correct options.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$\\left( {4,2\\sqrt 2 } \\right)$$",
+      "$$\\left( {9,3\\sqrt 2 } \\right)$$",
+      "$$\\left( {{1 \\over 4},{1 \\over {\\sqrt 2 }}} \\right)$$",
+      "$$\\left( {1,\\sqrt 2 } \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1di679t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_047",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let L be a normal to the parabola y$^{2}$ = 4x. If L passes through the point (9, 6), then L is given by",
+    "solution": "The equation of normal is\ny = mx $$-$$ 2m $$-$$ m$^{3}$\nAs (9, 6) lies on it, 6 = 9m $$-$$ 2m $$-$$ m$^{33}$ $$-$$ 7m + 6 = 0\nThe roots are m = 1, 2, $$-$$3. So the normal are\ny = x $$-$$ 3, y = 2x $$-$$ 12, y = $$-$$3x + 33.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "y $$-$$ x + 3 = 0",
+      "y + 3x $$-$$ 33 = 0",
+      "y + x $$-$$ 15 = 0",
+      "7 $$-$$ 2x + 12 = 0"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l30xfggn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_048",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$A$$ and $$B$$ be two distinct points on the parabola $${y^2} = 4x$$. If the axis of the parabola touches a circle of radius $$r$$ having $$AB$$ as its diameter, then the slope of the line joining $$A$$ and $$B$$ can be",
+    "solution": "Let A $$\\equiv$$ (t$$_1^2$$, 2t$_{1}$) and B $$\\equiv$$ (t$$_2^2$$, 2t$_{2}$)\nThe centre of the circle = $$\\left( {{{t_1^2 + t_2^2} \\over 2},{t_1} + {t_2}} \\right)$$\nAs the circle touches the x-axis thus $${t_1} + {t_2} = \\pm \\,r$$\n\n[Diagram]\n\nSlope of $$AB = {2 \\over {{t_1} + {t_2}}} = \\pm \\,{2 \\over r}$$",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$ - {1 \\over r}$$",
+      "$$ {1 \\over r}$$",
+      "$$ {2 \\over r}$$",
+      "$$ - {2 \\over r}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l30xfggn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_049",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The tangent $$PT$$ and the normal $$PN$$ to the parabola $${y^2} = 4ax$$ at a point $$P$$ on it meet its axis at points $$T$$ and $$N$$, respectively. The locus of the centroid of the triangle $$PTN$$ is a parabola whose",
+    "solution": "We have $$G \\equiv (h,k)$$.\n$$ \\Rightarrow h = {{2a + a{t^2}} \\over 3},k = {{2at} \\over 3} \\Rightarrow \\left( {{{3h - 2a} \\over a}} \\right) = {{9{k^2}} \\over {4{a^2}}}$$\nTherefore, the required parabola is\n$${{9{y^2}} \\over {4{a^2}}} = {{(3x - 2a)} \\over a} = {3 \\over a}\\left( {x - {{2a} \\over 3}} \\right) \\Rightarrow {y^2} = {{4a} \\over 3}\\left( {x - {{2a} \\over 3}} \\right)$$\nHence, the vertex $$ \\equiv \\left( {{{2a} \\over 3},0} \\right)$$; focus $$ \\equiv (a,0)$$.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "vertex is $$\\left( {{{2a} \\over 3},0} \\right)$$",
+      "directrix is $$x=0$$",
+      "latus rectum is $${{{2a} \\over 3}}$$",
+      "focus is $$(a, 0)$$"
+    ]
+  },
+  {
+    "id": "math_parabola_050",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equations of the common tangents to the parabola $$y = {x^2}$$ and $$y = - {\\left( {x - 2} \\right)^2}$$ is/are",
+    "solution": "Let’s say the common tangent line has the equation $y = m x + c$.\nWe want this line to touch both parabolas: $y = x^2$ and $y = -(x-2)^2$.\n**1. Tangent to $y = x^2$:**\nFor the line to be a tangent, it must touch the curve at just one point. Set $y = x^2$ and $y = m x + c$ equal:\n$$x^2 = m x + c$$\nBring all terms to one side:\n$$x^2 - m x - c = 0$$\nThis quadratic has one solution (double root) if its discriminant is zero. The discriminant is $b^2 - 4ac$ in $ax^2 + bx + c = 0$.\nHere, $a = 1$, $b = -m$, $c = -c$.\nSet discriminant to zero:\n$$(-m)^2 - 4 \\times 1 \\times (-c) = 0m^2 + 4c = 0$$\nSo, $$c = -\\frac{m^2}{4}$$\nThat means the tangent equation is:\n$$y = m x - \\frac{m^2}{4}$$\n**2. Same line tangent to $y = -(x-2)^2$:**\nThe line must also touch the second parabola at one point. Set their equations equal:\n$$-(x-2)^2 = m x - \\frac{m^2}{4}$$\nExpand $-(x-2)^2$:\n$$-(x^2 - 4x + 4) = -x^2 + 4x - 4$$\nSo:\n$$-x^2 + 4x - 4 = m x - \\frac{m^2}{4}$$\nBring all terms to one side:\n$$x^2 + (m - 4)x + \\left(4 - \\frac{m^2}{4}\\right) = 0$$\nAgain, for a tangent, discriminant is zero:\n$$(m - 4)^2 - 4 \\left(4 - \\frac{m^2}{4}\\right) = 0$$\nCalculate this step-by-step:\n$(m - 4)^2 = m^2 - 8m + 16$\n$4 \\times 4 = 16$\n$4 \\times \\left(-\\frac{m^2}{4}\\right) = -m^2$\nSo:\n$(m - 4)^2 - 16 + m^2 = 0$\nSubstituting $(m - 4)^2$:\n$m^2 - 8m + 16 - 16 + m^2 = 0$\n$2m^2 - 8m = 0$\n$m(m - 4) = 0$\nThis gives two possible values: $m = 0$ and $m = 4$.\n**3. Find the equations of the tangents:**\nIf $m = 0$:\n$$y = 0$$\nIf $m = 4$:\n$$y = 4x - \\frac{(4)^2}{4} = 4x - 4$$\nSo the common tangents are $y = 0$ and $y = 4x - 4$. $y = 4x - 4$ can also be written as $y = 4(x - 1)$.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$y = 4\\left( {x - 1} \\right)$$",
+      "$$y=0$$",
+      "$$y = - 4\\left( {x - 1} \\right)$$",
+      "$$y = - 30x - 50$$"
+    ]
+  },
+  {
+    "id": "math_parabola_051",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose that the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 5} = 1$$ are $$\\left( {{f_1},0} \\right)$$ and $$\\left( {{f_2},0} \\right)$$ where $${{f_1} > 0}$$ and $${{f_2} < 0}$$. Let $${P_1}$$ and $${P_2}$$ be two parabolas with a common vertex at $$(0,0)$$ and with foci at $$\\left( {{f_1},0} \\right)$$ and $$\\left( 2{{f_2},0} \\right)$$, respectively. Let $${T_1}$$ be a tangent to $${P_1}$$ which passes through $$\\left( 2{{f_2},0} \\right)$$ and $${T_2}$$ be a tangent to $${P_2}$$ which passes through $$\\left( {{f_1},0} \\right)$$. If $${m_1}$$ is the slope of $${T_1}$$ and $${m_2}$$ is the slope of $${T_2}$$, then the value of $$\\left( {{1 \\over {m_1^2}} + m_2^2} \\right)$$ is",
+    "solution": "$${e^2} = 1 - {{{b^2}} \\over {{a^2}}} = 1 - {5 \\over 9} = {4 \\over 9}$$\nThe foci are ($$\\pm$$ ae, 0) i.e. (2, 0) and ($$-$$2, 0).\nThe parabola P$_{1}$ is $${y^2} = 8x$$ and P$_{2}$ is $${y^2} = - 16x$$\nAs tangent with slope m$_{1}$ to P$_{1}$ passes through ($$-$$4, 0), we have\n$$y = {m_1}x + {2 \\over {{m_1}}}$$ giving $$0 = - 4{m_1} + {2 \\over {{m_1}}}$$\ni.e. $$4m_1^2 = 2 \\Rightarrow m_1^2 = {1 \\over 2}$$\nAgain for tangent with slope m$_{2}$ to P$_{2}$ passing through (2, 0), we have\n$$y = {m_2}x - {4 \\over {{m_2}}} \\Rightarrow 0 = 2{m_2} - {4 \\over {{m_2}}} \\Rightarrow 2m_2^2 = 4\\thereforem_2^2 = 2$$\nThus, $${1 \\over {m_1^2}} + m_2^2 = 2 + 2 = 4$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1di2h1q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_052",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the normals of the parabola $${y^2} = 4x$$ drawn at the end points of its latus rectum are tangents to the circle $${\\left( {x - 3} \\right)^2} + {\\left( {y + 2} \\right)^2} = {r^2}$$, then the value of $${r^2}$$ is",
+    "solution": "Given: A parabola $$y^2=4 x$$\nComparing the given equation of parabola with the standard equation of parabola $$y^2=4 a x$$, we get $$a=1$$\nAlso, the end points of latus Rectum are $$(a, \\pm 2 a)\\Rightarrow$$ The end points of latus rectum are $$(1,2)$$ and $$(1,-2)$$\nAlso we know that the equation of normal to the parabola at point\n$$\\begin{aligned}\n& & \\left(a m^2,-2 a m\\right) \\text { is } y & =m x-2 a m-a m^3 \\\\\n\\Rightarrow & & \\left(a m^2,-2 a m\\right) & =(1,2) \\\\\n\\Rightarrow & & \\left(m^2,-2 m\\right) & =(1,2) \\\\\n\\Rightarrow & & m^2 & =1 \\text { and } m=-1 \\\\\n\\Rightarrow & & m & =-1\n\\end{aligned}$$\nSo, the equation of the normal at $$(1,2)$$ is,\n$$\\begin{aligned}\n& & y & =(-1) x-2(1)(-1)-(1)(-1)^3 \\\\\n\\Rightarrow & & y & =-x+3 \\\\\n\\Rightarrow & & x+y-3 & =0\n\\end{aligned}$$\nAs the normal is tangent to the circle $$(x-3)^2+ (y+2)^2=r^2\\Rightarrow$$ The perpendicular distance of the tangent from the centre of the circle is equal to the radius of the circle.\nNow, comparing the equation of the circle with the general form of the circle we get\nCoordinates of centre $$\\equiv(3,-2)\\Rightarrow$$ Perpendicular distance from $$(3,-2)$$ to $$x+y-3=r\\begin{array}{rrr}\n\\Rightarrow & \\left|\\frac{3+(-2)-3}{\\sqrt{1^2+1^2}}\\right| & =r \\\\\n\\Rightarrow & \\frac{2}{\\sqrt{2}}=r \\\\\n\\Rightarrow & r^2=2\n\\end{array}$$\nHint :\n(i) The equation of the normal to the parabola at point $$\\left(a m^2,-2 a m\\right)$$ is $$y=m x-2 a m-a m^3$$.\n(ii) The perpendicular distance of a point $$(h, k)$$ from the line $$a x+b y+c=o$$ is $$\\left|\\frac{a h+b k+c}{\\sqrt{a^2+b^2}}\\right|$$ units.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzv05iup.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_053",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the curve $$C$$ be the mirror image of the parabola $${y^2} = 4x$$ with respect to the line $$x+y+4=0$$. If $$A$$ and $$B$$ are the points of intersection of $$C$$ with the line $$y=-5$$, then the distance between $$A$$ and $$B$$ is",
+    "solution": "Let, P(t$^{2}$, 2t) be any point on the parabola y$^{2}$ = 4x. C be the mirror image of the parabola y$^{2}$ = 4x with respect to the line UV : x + y + 4 = 0.\n\n[Diagram]\n\nThe curve C cuts the line KL : y = $$-$$5 at A and B.\nLet, B($$\\alpha$$, $$\\beta$$) be the image of the point P(t$^{2}$, 2t).\nClearly, PB $$\\bot$$ UV and PQ = QB.\n$$\\therefore{{\\alpha - {t^2}} \\over {\\beta - 2t}} \\times ( - 1) = - 1$$\nor, $$\\alpha - {t^2} = \\beta - 2t$$ ...... (1)\nThe point of intersection of the lines UV and KL is R.\nLet us join P and R.\nFrom $$\\Delta$$PQR and $$\\Delta$$BQR,\n(i) BQ = PQ [$$\\because$$ B is the image of P]\n(ii) $$\\angle$$PQR = $$\\angle$$RQB = 90$$^\\circ$$ [$$\\because$$ PB $$\\bot$$ UV]\n(iii) QR common\n$$\\therefore\\Delta$$PQR $$ \\cong \\Delta$$BQR [by SAS congruence criterion]\n$$\\therefore\\angle$$QRP = $$\\angle$$BRQ [CPCT]\n$$\\because$$ slope of x + y + 4 = 0 is $$-$$1,\n$$\\therefore\\angle$$UTO = 135$$^\\circ\\therefore\\angle$$OTR = 45$$^\\circ$$\nAgain, X'X || KL and UV transversal.\n$$\\therefore\\angle$$OTR = $$\\angle$$TRB = 45$$^\\circ\\therefore\\angle$$BRQ = $$\\angle$$QRP = 45$$^\\circ\\therefore\\angle$$PRB = 90$$^\\circ\\therefore$$ PR $$\\bot$$ KL\n$$\\therefore$$ coordinates of R are (t$^{2}$, $$\\beta$$).\n$$\\because$$ the point R lies on KL,\n$$\\therefore\\beta$$ = $$-$$5\nAgain, the point R lies on the straight line x + y + 4 = 0.\n$$\\therefore$$ t$^{2}$ + $$\\beta$$ + 4 = 0\nor, t$^{2}$ $$-$$ 5 + 4 = 0 [$$\\because\\beta$$ = $$-$$5]\nor, t$^{2}$ = 1 or, t = $$\\pm$$ 1\nwhen t = 1, $$\\beta$$ = $$-$$5, then (1) $$\\Rightarrow\\alpha-$$ 1 = $$-$$ 5 $$-$$ 2 or $$\\alpha$$ = $$-$$6\nwhen, t = $$-$$1, $$\\beta$$ = $$-$$5, then (1) $$\\Rightarrow\\alpha-$$ 1 = $$-$$ 5 + 2 or, $$\\alpha$$ = $$-$$2\nSo, the coordinates of A and B are ($$-$$6, $$-$$5) and ($$-$$2, $$-$$5) respectively.\n$$\\therefore$$ AB = 4 units\nSo, the distance between A and B is 4 units.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1di2h1q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_054",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$S$$ be the focus of the parabola $${y^2} = 8x$$ and let $$PQ$$ be the common chord of the circle $${x^2} + {y^2} - 2x - 4y = 0$$ and the given parabola. The area of the triangle $$PQS$$ is",
+    "solution": "[Diagram]\n\nGiven, circle is $$x^2+y^2-2 x-4 y=0$$ and parabola $$y^2=8 x$$.\n$$\\because$$ Both the curves intersect each other at P.\n$$\\because \\quad x^2+8 x-2 x-4 \\cdot 2 \\sqrt{2 x}=0\\begin{array}{lr}\n\\Rightarrow & x^2+6 x-8 \\sqrt{2 x}=0 \\\\\n\\Rightarrow & \\sqrt{x}\\left[x^{\\frac{3}{2}}+6 x^{\\frac{1}{2}}-8 \\sqrt{2}\\right]=0 \\\\\n\\Rightarrow & \\text { Let } \\sqrt{x}=t \\\\\n\\therefore & t\\left[t^3+6 t-8 \\sqrt{2}\\right]=0 \\\\\n\\Rightarrow & t(t-\\sqrt{2})\\left(t^2-\\sqrt{2} t+4\\right)=0 \\\\\n\\Rightarrow & t=0 \\text { or } t=\\sqrt{2} \\text { or } t=\\frac{\\sqrt{2} \\pm \\sqrt{2-4(4)}}{2}\n\\end{array}$$\n(rejected because it is imaginary)\n$$\\begin{array}{ll}\n\\Rightarrow t=0 & \\text { or } t=\\sqrt{2} \\\\\n\\Rightarrow x=0 & \\text { or } x=2 \\\\\n\\Rightarrow y=0 & \\text { or } y=4\n\\end{array}$$\nHence, the required coordinates are $$\\mathrm{P}(2,4), Q(0,0)$$ and $$S(2,0)$$.\n$$\\therefore \\quad$$ Area of $$\\triangle \\mathrm{PQS}=\\frac{1}{2} \\times 2 \\times 4=4$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzv05iup.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_055",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the parabola $${y^2} = 8x$$. Let $${\\Delta _1}$$ be the area of the triangle formed by the end points of its latus rectum and the point $$P\\left( {{1 \\over 2},2} \\right)$$ on the parabola and $${\\Delta _2}$$ be the area of the triangle formed by drawing tangents at $$P$$ and at the end points of the latus rectum. Then $${{{\\Delta _1}} \\over {{\\Delta _2}}}$$ is",
+    "solution": "The area of triangle formed by the three points on the parabola is twice the area of the triangle formed by the respective tangents. That is,\n$$\\Delta LPM = 2 \\times $$ (Area of $$\\Delta ABC$$)\n$${y^2} = 8x = 4 \\times 2 \\times x{{\\Delta LPM} \\over {\\Delta ABC}} = 2{{{\\Delta _1}} \\over {{\\Delta _2}}} = 2$$\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6dtl75w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_parabola_056",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Normals are drawn from the point $$P$$ with slopes $${m_1}$$, $${m_2}$$, $${m_3}$$ to the parabola $${y^2} = 4x$$. If locus of $$P$$ with $${m_1}{m_2} = \\alpha $$ is a part of the parabola itself then find $$\\alpha $$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_057",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${C_1}$$ and $${C_2}$$ be respectively, the parabolas $${x^2} = y - 1$$ and $${y^2} = x - 1$$. Let $$P$$ be any point on $${C_1}$$ and $$Q$$ be any point on $${C_2}$$. Let $${P_1}$$ and $${Q_1}$$ be the reflections of $$P$$ and $$Q$$, respectively, with respect to the line $$y=x$$. Prove that $${P_1}$$ lies on $${C_2}$$, $${Q_1}$$ lies on $${C_1}$$ and $$PQ \\ge $$ min $$\\left\\{ {P{P_1},Q{Q_1}} \\right\\}$$. Hence or otherwise determine points $${P_0}$$ and $${Q_0}$$ on the parabolas $${C_1}$$ and $${C_2}$$ respectively such that $${P_0}{Q_0} \\le PQ$$ for all pairs of points $$(P,Q)$$ with $$P$$ on $${C_1}$$ and $$Q$$ on $${C_2}$$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_058",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "From a point $$A$$ common tangents are drawn to the circle $${x^2} + {y^2} = {a^2}/2$$ and parabola $${y^2} = 4ax$$. Find the area of the quadrilateral formed by the common tangents, the chord of contact of the circle and the chord of contact of the parabola.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_059",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Points $$A, B$$ and $$C$$ lie on the parabola $${y^2} = 4ax$$. The tangents to the parabola at $$A, B$$ and $$C$$, taken in pairs, intersect at points $$P, Q$$ and $$R$$. Determine the ratio of the areas of the triangles $$ABC$$ and $$PQR$$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_060",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that the locus of a point that divides a chord of slope $$2$$ of the parabola $${y^2} = 4x$$ internally in the ratio $$1:2$$ is a parabola. Find the vertex of this parabola.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_061",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Through the vertex $$O$$ of parabola $${y^2} = 4x$$, chords $$OP$$ and $$OQ$$ are drawn at right angles to one another . Show that for all positions of $$P$$, $$PQ$$ cuts the axis of the parabola at a fixed point. Also find the locus of the middle point of $$PQ$$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_062",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three normals are drawn from the point $$(c, 0)$$ to the curve $${y^2} = x.$$ Show that $$c$$ must be greater than $$1/2$$. One normal is always the $$x$$-axis. Find $$c$$ for which the other two normals are perpendicular to each other.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_063",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A$$ is point on the parabola $${y^2} = 4ax$$. The normal at $$A$$ cuts the parabola again at point $$B$$. If $$AB$$ subtends a right angle at the vertex of the parabola. Find the slope of $$AB$$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_parabola_064",
+    "subject": "Mathematics",
+    "chapter": "Parabola",
+    "topic": "Parabola",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose that the normals drawn at three different points on the parabola $${y^2} = 4x$$ pass through the point $$(h, k)$$. Show that $$h>2$$.",
+    "solution": "Solution for this Parabola question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "id": "math_indefinite_integrals_001",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$F(x)$$ be an indefinite integral of $$si{n^2}x.$$\n**STATEMENT-1:** The function $$F(x)$$ satisfies $$F\\left( {x + \\pi } \\right) = F\\left( x \\right)$$\n\nfor all real $$x$$. **because**\n**STATEMENT-2:** $${\\sin ^2}\\left( {x + \\pi } \\right) = {\\sin ^2}x$$ for all real $$x$$.",
+    "solution": "We have\n\n$$\nI=\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x\n$$\n\nLet $\\sec x+\\tan x=t $\n\n$\\Rightarrow \\sec x-\\tan x=1 / t$.\n\n$$ \\Rightarrow $$ $\\frac{1}{2}\\left(t+\\frac{1}{t}\\right)=\\sec x$\n\nNow, $\\left(\\sec x \\tan x+\\sec ^2 x\\right) d x=d t$\n\n$$ \\Rightarrow $$ $\\sec x(\\sec x+\\tan x) d x=d t$\n\n$$ \\Rightarrow $$ $\\sec x d x=\\frac{d t}{t} $\n\n$ I =\\frac{1}{2} \\int \\frac{\\left(t+\\frac{1}{t}\\right)}{t^{9 / 2}} \\frac{d t}{t}$\n\n$=\\frac{1}{2} \\int\\left(t^{-9 / 2}+t^{-13 / 2}\\right) d t $\n\n$ =\\frac{1}{2}\\left[\\frac{t^{-\\frac{9}{2}+1}}{-\\frac{9}{2}+1}+\\frac{t^{-\\frac{13}{2}+1}}{-\\frac{13}{2}+1}\\right] $\n\n$=\\frac{1}{2}\\left[\\frac{t^{-7 / 2}}{-\\frac{7}{2}}+\\frac{t^{-11 / 2}}{-\\frac{11}{2}}\\right]$\n\n$=-\\frac{1}{7} t^{-7 / 2}-\\frac{1}{11} t^{-11 / 2}$\n\n$=-\\frac{1}{7} \\frac{1}{t^{7 / 2}}-\\frac{1}{11} \\frac{1}{t^{11 / 2}}$\n\n$=-\\frac{1}{t^{11 / 2}}\\left(\\frac{1}{11}+\\frac{t^2}{7}\\right)$\n\n$=-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+      "Statement- 1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True."
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_002",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any natural number $$m$$, evaluate\n\n$$\\int {\\left( {{x^{3m}} + {x^{2m}} + {x^m}} \\right){{\\left( {2{x^{2m}} + 3{x^m} + 6} \\right)}^{l/m}}dx,x > 0.} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_003",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\int {{{4{e^x} + 6{e^{ - x}}} \\over {9{e^x} - 4{e^{ - x}}}}\\,dx = Ax + B\\,\\,\\log \\left( {9{e^{2x}} - 4} \\right) + C,} $$ then\n\n$$A = .....,B = .....$$ and $$C = .....$$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_004",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The integral $\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x$ equals (for some arbitrary constant $$K$$)",
+    "solution": "We have\n\n$$\nI=\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x\n$$\n\nLet $\\sec x+\\tan x=t $\n\n$\\Rightarrow \\sec x-\\tan x=1 / t$.\n\n$$ \\Rightarrow $$ $\\frac{1}{2}\\left(t+\\frac{1}{t}\\right)=\\sec x$\n\nNow, $\\left(\\sec x \\tan x+\\sec ^2 x\\right) d x=d t$\n\n$$ \\Rightarrow $$ $\\sec x(\\sec x+\\tan x) d x=d t$\n\n$$ \\Rightarrow $$ $\\sec x d x=\\frac{d t}{t} $\n\n$ I =\\frac{1}{2} \\int \\frac{\\left(t+\\frac{1}{t}\\right)}{t^{9 / 2}} \\frac{d t}{t}$\n\n$=\\frac{1}{2} \\int\\left(t^{-9 / 2}+t^{-13 / 2}\\right) d t $\n\n$ =\\frac{1}{2}\\left[\\frac{t^{-\\frac{9}{2}+1}}{-\\frac{9}{2}+1}+\\frac{t^{-\\frac{13}{2}+1}}{-\\frac{13}{2}+1}\\right] $\n\n$=\\frac{1}{2}\\left[\\frac{t^{-7 / 2}}{-\\frac{7}{2}}+\\frac{t^{-11 / 2}}{-\\frac{11}{2}}\\right]$\n\n$=-\\frac{1}{7} t^{-7 / 2}-\\frac{1}{11} t^{-11 / 2}$\n\n$=-\\frac{1}{7} \\frac{1}{t^{7 / 2}}-\\frac{1}{11} \\frac{1}{t^{11 / 2}}$\n\n$=-\\frac{1}{t^{11 / 2}}\\left(\\frac{1}{11}+\\frac{t^2}{7}\\right)$\n\n$=-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$",
+      "$\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$",
+      "$-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$",
+      "$\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_005",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$I = \\int {{{{e^x}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx,\\,\\,J = \\int {{{{e^{ - x}}} \\over {{e^{ - 4x}} + {e^{ - 2x}} + 1}}dx.} } $$ Then\n\nfor an arbitrary constant $$C$$, the value of $$J -I$$ equals :",
+    "solution": "Given,\n$$I = \\int {{{{e^x}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} J = \\int {{{{e^{ - x}}} \\over {{e^{ - 4x}} + {e^{ - 2x}} + 1}}dx = \\int {{{{e^{3x}}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} } \\thereforeJ - I = \\int {{{{e^x}({e^{2x}} - 1)} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} $$\nLet $${e^x} = t \\Rightarrow {e^x}dx = dt\\thereforeJ - I = \\int {{{{t^2} - 1} \\over {{t^4} + {t^2} + 1}}dt} = \\int {{{1 - {1 \\over {{t^2}}}} \\over {{t^2} + 1 + {1 \\over {{t^2}}}}}dt} $$\nLet, $$t + {1 \\over t} = u \\Rightarrow \\left( {1 - {1 \\over {{t^2}}}} \\right)dt = duJ - I = \\int {{{du} \\over {{u^2} - 1}} = {1 \\over 2}\\log \\left| {{{u - 1} \\over {u + 1}}} \\right| + C} = {1 \\over 2}\\log \\left| {{{{{{t^2} + 1} \\over t} - 1} \\over {{{{t^2} + 1} \\over t} + 1}}} \\right| + C = {1 \\over 2}\\log \\left| {{{{e^{2x}} - {e^x} + 1} \\over {{e^{2x}} + {e^x} + 1}}} \\right| + C$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 2}\\log \\left( {{{{e^{4x}} - {e^{2x}} + 1} \\over {{e^{4x}} + {e^{2x}} + 1}}} \\right) + C$$",
+      "$${1 \\over 2}\\log \\left( {{{{e^{2x}} + {e^x} + 1} \\over {{e^{2x}} - {e^x} + 1}}} \\right) + C$$",
+      "$${1 \\over 2}\\log \\left( {{{{e^{2x}} - {e^x} + 1} \\over {{e^{2x}} + {e^x} + 1}}} \\right) + C$$",
+      "$${1 \\over 2}\\log \\left( {{{{e^{4x}} + {e^{2x}} + 1} \\over {{e^{4x}} - {e^{2x}} + 1}}} \\right) + C$$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_006",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x)=\\frac{x}{\\left(1+x^{n}\\right)^{1 / n}}$$ for $$n \\geq 2$$ and $$g(x)=\\underbrace{(f o f o \\ldots . o f)}_{f \\text { occurs } n \\text { times }}(x)$$. Then $$\\int x^{n-2} g(x) d x$$ equals :",
+    "solution": "$$\\begin{aligned}\n& \\text { Given, } f(x)=\\frac{x}{\\left(1+x^{n}\\right)^{\\frac{1}{n}}} \\\\\n& \\therefore f(f(x))=\\frac{y}{\\left(1+y^{n}\\right)^{\\frac{1}{n}}} \\text {, where } y=\\frac{x}{\\left(1+x^{n}\\right)^{\\frac{1}{n}}} \\\\\n& =\\frac{x}{\\left(1+2 x^{n}\\right)^{\\frac{1}{n}}}\n~~......(\\mathrm{i})\\end{aligned}$$\nSimilarly, $$f(f(f(x)))=\\frac{x}{\\left(1+3 x^{n}\\right)^{\\frac{1}{n}}}$$ and\n$$\\begin{aligned}\n\\frac{(f \\circ f \\circ f \\circ \\ldots f)(x)}{n \\text { times }} & =g(x)=\\frac{x}{\\left(1+n x^{n}\\right)^{\\frac{1}{n}}}~~......(\\mathrm{ii}) \\\\\n\\int x^{n-2} g(x) d x & =\\int \\frac{x^{n-1}}{\\left(1+n x^{n}\\right)^{1 / n}} d x \\\\\n& =\\frac{1}{n^{2}} \\int n^{2}\\left[x^{n-1}\\left(1+n x^{n}\\right)^{\\frac{-1}{n}}\\right] d x \\\\\n& =\\frac{1}{n^{2}} \\cdot \\frac{\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}}{1-\\frac{1}{n}}+k \\\\\n& =\\frac{\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}}{n(n-1)}+k\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{1}{n(n-1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$",
+      "$$\\frac{1}{n(n+1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$",
+      "$$\\frac{1}{n(n-1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$",
+      "$$\\frac{1}{(n+1)}\\left(1+n x^{n}\\right)^{1+\\frac{1}{n}}+k$$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_007",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$\\int \\frac{x^2-1}{x^3 \\sqrt{2 x^4-2 x^2+1}} d x$ is equal to",
+    "solution": "$$ \\int \\frac{x^2-1}{x^3 \\sqrt{2 x^4-2 x^2+1}} $$\nTaking $x^2$ from the expression under root\n$$ \\begin{aligned} & =\\int \\frac{x^2-1}{x^5 \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\\\ & =\\int \\frac{\\frac{\\left(x^2-1\\right)}{x^5}}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\\\ & =\\int \\frac{\\left(\\frac{1}{x^3}-\\frac{1}{x^5}\\right)}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\end{aligned} $$\nSubstitute $2-\\frac{2}{x^2}+\\frac{1}{x^4}=u$\n$$ \\begin{aligned} &\\text { Differentiating both sides, we have }\\\\ &\\begin{array}{r} \\left(0+2 \\cdot \\frac{2}{x^3}-\\frac{4}{x^5}\\right) d x=d u \\\\ \\Rightarrow \\quad 4\\left(\\frac{1}{x^2}-\\frac{1}{x^5}\\right) d x=d u \\end{array} \\end{aligned} \\begin{aligned} &\\text { Now, above integral becomes after substitution. }\\\\ &\\begin{aligned} \\int \\frac{d u}{4 \\sqrt{u}} & =\\frac{1}{4}\\left(\\frac{u^{\\frac{-1}{2}+1}}{\\frac{-1}{2}+1}\\right)+\\mathrm{C} \\\\ & =\\frac{1}{2} \\sqrt{u}+\\mathrm{C} \\\\ & =\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+\\mathrm{C} \\\\ & =\\frac{1}{2} \\frac{\\sqrt{2 x^4-2 x^2+1}}{x^2}+\\mathrm{C} \\\\ & =\\frac{\\sqrt{2 x^4-2 x^2+1}}{2 x^2}+\\mathrm{C} \\end{aligned} \\end{aligned} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x^2}+\\mathrm{C}$",
+      "$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x^3}+\\mathrm{C}$",
+      "$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x}+\\mathrm{C}$",
+      "$\\frac{\\sqrt{2 x^4-2 x^2+1}}{2 x^2}+C$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_008",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\int\\limits_{\\sin x}^1 {{t^2}f\\left( t \\right)dt = 1 - \\sin x,} $$ then f$$\\left( {{1 \\over {\\sqrt 3 }}} \\right)$$ is",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 3}$$",
+      "$${{1 \\over {\\sqrt 3 }}}$$",
+      "$$3$$",
+      "$${\\sqrt 3 }$$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_009",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of the integral $$\\int {{{{{\\cos }^3}x + {{\\cos }^5}x} \\over {{{\\sin }^2}x + {{\\sin }^4}x}}} \\,dx\\,$$ is",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\sin x - 6{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$",
+      "$$\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} + c$$",
+      "$$\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} - 6{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$",
+      "$$\\,\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} + 5{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_010",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {{{\\sin }^{ - 1}}\\left( {{{2x + 2} \\over {\\sqrt {4{x^2} + 8x + 13} }}} \\right)} \\,dx.$$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_011",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Integrate $$\\int {{{{x^3} + 3x + 2} \\over {{{\\left( {{x^2} + 1} \\right)}^2}\\left( {x + 1} \\right)}}dx.} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_012",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {{{\\left( {x + 1} \\right)} \\over {x{{\\left( {1 + x{e^x}} \\right)}^2}}}dx} $$.",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_013",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the indefinite integral $$\\,\\int {\\cos 2\\theta {\\mkern 1mu} ln\\left( {{{\\cos \\theta + \\sin \\theta } \\over {\\cos \\theta - \\sin \\theta }}} \\right)} {\\mkern 1mu} d\\theta $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_014",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the indefinite integral $$\\int {\\left( {{1 \\over {\\root 3 \\of x + \\root 4 \\of 4 }} + {{In\\left( {1 + \\root 6 \\of x } \\right)} \\over {\\root 3 \\of x + \\root \\, \\of x }}} \\right)} dx$$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_015",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {\\left( {\\sqrt {\\tan x} + \\sqrt {\\cot x} } \\right)dx} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_016",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate :$$\\,\\,\\int {\\left[ {{{{{\\left( {\\cos 2x} \\right)}^{1/2}}} \\over {\\sin x}}} \\right]dx} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_017",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate the following $$\\int {\\sqrt {{{1 - \\sqrt x } \\over {1 + \\sqrt x }}dx} } $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_018",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate the following $$\\int {{{dx} \\over {{x^2}{{\\left( {{x^4} + 1} \\right)}^{3/4}}}}} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_019",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate : $$\\int {{{\\left( {x - 1} \\right){e^x}} \\over {{{\\left( {x + 1} \\right)}^3}}}dx} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_020",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {\\left( {{e^{\\log x}} + \\sin x} \\right)\\cos x\\,\\,dx.} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_021",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {{{{x^2}dx} \\over {{{\\left( {a + bx} \\right)}^2}}}} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_indefinite_integrals_022",
+    "subject": "Mathematics",
+    "chapter": "Indefinite Integrals",
+    "topic": "Indefinite Integrals",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Evaluate $$\\int {{{\\sin x} \\over {\\sin x - \\cos x}}dx} $$",
+    "solution": "Solution for this Indefinite Integrals question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

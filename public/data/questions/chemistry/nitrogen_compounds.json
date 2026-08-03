@@ -1,0 +1,897 @@
+[
+  {
+    "id": "chem_nitrogen_compounds_001",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, **P, Q, S and T** are the major products.\n[Diagram]\nThe correct statement(s) about **P, Q, S and T** is(are) :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\nThe compound $ \\mathrm{CH_3CHO} $ is an aliphatic aldehyde because it has the aldehyde group $(-CHO)$ attached to an aliphatic carbon chain (not to an aromatic ring).\nCompound S has a phenolic –OH group. Phenols give a positive phthalein dye test since the –OH group attached to the benzene ring reacts in this test to form a colored product.\nCompound P contains only one nitro group $(\\mathrm{NO_2})$. This means it is a mononitro derivative.\nCompound T is an azo compound, which has the general structure $ \\mathrm{R–N=N–R'} $. Azo compounds are usually highly colored due to extended conjugation in their structure.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "**Q** on treatment with ethanol generates an aromatic aldehyde.",
+      "**S** gives positive phthalein dye test.",
+      "**P** is a dinitro compound.",
+      "**T** is a coloured compound."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9yf1c7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_002",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major products obtained from the reactions in **List-II** are the reactants for the named reactions mentioned in **List-I**. Match each entry in **List-I** with the appropriate entry in **List-II** and choose the correct option.\n\nList–I\nList–II\n\n\n(P) Stephen reaction\n(1) $$\n\\text { Toluene } \\xrightarrow{\\begin{array}{l}\n\\text { (i) } \\mathrm{CrO}_2 \\mathrm{Cl}_2 / \\mathrm{CS}_2 \\\\\n\\text { (ii) } \\mathrm{H}_3 \\mathrm{O}^{+}\n\\end{array}}\n$$\n\n\n\n(Q) Sandmeyer reaction\n(2) $$\n\\text { Benzoic acid } \\xrightarrow{\\substack{\\text { (i) } \\mathrm{PCl}_5 \\\\ \\text { (ii) } \\mathrm{NH}_3 \\\\ \\text { (iii) } \\mathrm{P}_4 \\mathrm{O}_{10}, \\Delta}}\n$$\n\n\n\n(R) Hoffmann bromamide degradation reaction\n(3) $$\n\\text { Nitrobenzene } \\xrightarrow{\\begin{array}{l}\n\\text { (i) } \\mathrm{Fe}, \\mathrm{HCl} \\\\\n\\text { (ii) } \\mathrm{HCl}, \\mathrm{NaNO}_2 \\\\\n(273-278 \\mathrm{~K}), \\mathrm{H}_2 \\mathrm{O}\n\\end{array}}\n$$\n\n\n\n(S) Cannizzaro reaction\n(4) $$\n\n\\text { Toluene } \\xrightarrow{\\begin{array}{ll}\n\\text { (i) } \\mathrm{Cl}_2 / \\mathrm{h\nu}, \\mathrm{H}_2 \\mathrm{O} \\\\\n\\text { (ii) Tollen's reagent } \\\\\n\\text { (iii) } \\mathrm{SO}_2 \\mathrm{Cl}_2 \\\\ \\text { (iv) } \\mathrm{NH}_3 \\end{array}}\n\n$$\n\n\n\n\n(5) $$\n\\text { Aniline } \\xrightarrow{\\begin{array}{l}\n\\text { (i) }\\left(\\mathrm{CH}_3 \\mathrm{CO}\\right)_2 \\mathrm{O}, \\text { Pyridine } \\\\\n\\text { (ii) } \\mathrm{HNO}_3, \\mathrm{H}_2 \\mathrm{SO}_4, 288 \\mathrm{~K} \\\\\n\\text { (iii) aq. } \\mathrm{NaOH}\n\\end{array}}\n$$",
+    "solution": "First, determine the major products of the reactions given in list - II(1)\n\\text { Toluene } \\frac{1) \\mathrm{CrO}_2 \\mathrm{Cl}_2 / \\mathrm{Cs}_2}{2)_{\\mathrm{H}_3 \\mathrm{O}^{+}}} \\text {Benzaldehyde }\n$$\n[Diagram]\nThis reaction is known as Etard reaction $-\\mathrm{CH}_3$ group in toluene is oxidized by oxidizing agent chromylchloside $\\left(\\mathrm{CrO}_2 \\mathrm{Cl}_2\\right)$ in carbon disulfide $\\left(C S_2\\right)$ as solvent, to form a chromiumcomplex. This complex on arid hydrolysis gives the major product benzaldehyde.$$\n\\text { (2) }\n\n\\text { Benzoic acid } \\xrightarrow[\\substack{\\text { 2) } \\mathrm{NH}_3 \\\\ \\text { 3) } \\mathrm{P}_4 \\mathrm{O}_{10}, \\Delta}]{\\text { 1) } \\mathrm{Pcl}_5} \\text { Benzaldehyde }\n$$Benzoic acid reacts with $\\mathrm{PCl}_5$ to form benzoyl chloride. This step converts the - COOH group to. -COCl gorup.\n[Diagram]\nThen, benzoyl chloride reacts with ammonia. This reaction converts the avid chloride to an amide, -COCl to $-\\mathrm{CONH}_2$. It is the nucleophilic acyl substitution reaction where amonia acts as the nucleophile. So, this step gives benzamide.\n[Diagram]\nIn the next step, the amide is treated with $P_4 O_{10}$ and heat $P_4 O_{10}$ is a dehydrating agent, which removes water from the amide molecule, resulting in the formation of a nitrile. So, $-\\mathrm{CONH}_2$ convert to -CN group.\n[Diagram]\nThe overall reaction converts benzoic acid to benzonitrile$$\n\\text { (3) }\n\n\\text { Nitrobenzene } \\xrightarrow[\\substack{2) \\mathrm{Hcl}, \\mathrm{NaNO}_2 \\\\(273-278 \\mathrm{~K}), \\mathrm{H}_2 \\mathrm{O}}]{\\text { 1) } \\mathrm{Fe}, \\mathrm{Hcl}} \\text { Phenol }\n\n\\text { In the first step, nitrobenzene convert to aniline }\n$$\n[Diagram]\nIn the next step, aniline reacts with HCl and $\\mathrm{NaNO}_2$ gives benzenediazonium chloride. The reaction condition is low temperature $273-278 \\mathrm{~K}$ $\\left(\\mathrm{O}^{\\circ} \\mathrm{C}-5^{\\circ} \\mathrm{C}\\right)$. It is called diazotization. $\\mathrm{H}_2 \\mathrm{O}$ works as proton donoe\n[Diagram]\nDiazonium salt formation occurs at low temperature only.So, the temperature condition $273-278 k$ is the low temperature and it is the required temperature for the, diazotization reaction.For diazotization reaction, aniline (aromatic amine) is the reactant. $\\mathrm{HCl}+\\mathrm{NaNO}_2$ is the reagent. Or $\\mathrm{HNO}_2$ can also be used for the diazotization reaction The reaction involves the formation of nitrosonium ion ( $\\mathrm{NO}^{+}$) which attacks the aromatic ring, leading to the formation of diazonium salt.\nThe final product is diazonium salt$$\n\\text { (4) }\n$$\n[Diagram]\nFirst, toluene reacts with $\\mathrm{Cl}_2$ in the presence of light. Side chain chlorination occurs in toluene, results in benzol chloride. It is then hydrolysis$$\n\\text { (reaction with water) gives benzaldehyde. }\n$$\n\n[Diagram]\nIn the next step benzaldehyde reacts with Tollen",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P → 2; Q → 4; R → 1; S → 3",
+      "P → 2; Q → 3; R → 4; S → 1",
+      "P → 5; Q → 3; R → 4; S → 2",
+      "P → 5; Q → 4; R → 2; S → 1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mbui2iyk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_003",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of heteroatoms present in one molecule of $\\mathbf{R}$ is _________.\n\n[Use : Molar mass (in $\\left.\\mathrm{g} \\mathrm{mol}^{-1}\\right)$ : $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{Br}=80, \\mathrm{Cl}=35.5$\n\nAtoms other than $\\mathrm{C}$ and $\\mathrm{H}$ are considered as heteroatoms]",
+    "solution": "[Diagram]\n\n[Diagram]\n\nNumber of Heteroatoms in $R$ is 9 .",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lruy760v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_004",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction, X is optically active.\n$\\underset{\\mathbf{X}}{\\mathrm{C}_5 \\mathrm{H}_{13}} \\mathrm{~N} \\xrightarrow[\\mathrm{~N}_2]{\\mathrm{NaNO}_2 / \\mathrm{HCl}} \\mathbf{Y}($ Tertiary alcohol $)+$ Other products\nFind X and Y. Is y optically active? Write all the intermediate steps.",
+    "solution": "Given,\n$${C_5}{H_{13}}N\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{{N_2}}^{NaN{O_2}/HCl}} Y$$ (Tertiary alcohol) + Other products\nWhen primary amine reacts with NaNO$$_2$$ + HCl,\nthe amine undergoes diazotisation which then\nhydrolysed to an alcohol.\n$$R - N{H_2}\\buildrel {NaN{O_2} + HCl} \\over\n\\longrightarrow R - OH + {N_2}(g) \\uparrow $$\nIf nitrogen gas is evolved during the reaction,\nthe amine must be a primary amine. The\nalcohol Y is a tertiary alcohol. Thus, we can say\nthat X is a primary amine.\nThere are 2 possibilities for deducing the\nstructure of X.\n(1) The possible structure of C$$_5$$H$$_{13}$$N is shown below, in which 4 C substituents are arranged\non a single C atom. But, the compound is\noptically inactive.\n\n[Diagram]\n\nHence, this is not the structure of compound X.\n(2) In the given structure, the C atoms are arranged\nin chain form with 2 methyl substituents. The C atom directly attached to amine group is chiral\nC. Therefore, the compound is optically active.\n\n[Diagram]\n\nHence, this is the structure of compound X.\nThe formation of Y from X with its intermediate\nsteps is shown below.\n\n[Diagram]\n\nThe compound X when reacts with NaNO$$_2$$ +\nHCl, it undergoes diazotisation which on removal\nof N$$_2$$ gas, form a secondary carbocation. The\nsecondary carbocation undergoes hydride shift,\nproducing a more stable tertiary carbocation.\nThe tertiary carbocation on hydrolysis produces\na tertiary alcohol which is optically inactive.\nThe chemical reaction for formation of Y from\nX is\n\n[Diagram]\n\nFinal Answer :\n\n[Diagram]\n\nCompound Y is optically inactive.\nHints :\nThe evolution of nitrogen gas during the\nreaction confirms that X is a primary amine.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9lue4j.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_005",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the reaction sequence given below, the correct statement(s) is(are):\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n(A) Option (A) is correct.\n(B) $\\mathrm{RNH}_2 \\xrightarrow{\\mathrm{CHCl}_3 / \\mathrm{KOH}} \\mathrm{RNC}$\nOption (B) is correct.\n\n[Diagram]\n\nOption (C) is correct.\n(D) Option (D) is incorrect.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Both X and Y are oxygen containing compounds.",
+      "Y on heating with CHCl$_3$/KOH forms isocyanide.",
+      "Z reacts with Hinsberg’s reagent.",
+      "Z is an aromatic primary amine."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxez8l3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_006",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The option(s) with correct sequence of reagents for the conversion of $\\mathbf{P}$ to $\\mathbf{Q}$ is(are)\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "i) Lindlar's catalyst, $\\mathrm{H}_2$;\n\nii) $\\mathrm{SnCl}_2 / \\mathrm{HCl}$;\n\niii) $\\mathrm{NaBH}_4$;\n\niv) $\\mathrm{H}_3 \\mathrm{O}^{+}$",
+      "i) Lindlar's catalyst, $\\mathrm{H}_2$;\n\nii) $\\mathrm{H}_3 \\mathrm{O}^{+}$;\n\niii) $\\mathrm{SnCl}_2 / \\mathrm{HCl}$;\n\niv) $\\mathrm{NaBH}_4$",
+      "i) $\\mathrm{NaBH}_4$;\n\nii) $\\mathrm{SnCl}_2 / \\mathrm{HCl}$;\n\niii) $\\mathrm{H}_3 \\mathrm{O}^{+}$;\n\niv) Lindlar's catalyst, $\\mathrm{H}_2$",
+      "i) Lindlar's catalyst, $\\mathrm{H}_2$;\n\nii) $\\mathrm{NaBH}_4$;\n\niii) $\\mathrm{SnCl}_2 / \\mathrm{HCl}$;\n\niv) $\\mathrm{H}_3 \\mathrm{O}^{+}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpy6cx3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_007",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering the following reaction sequence,\n\n[Diagram]\n\nthe correct option(s) is(are)",
+    "solution": "[Diagram]\n\n$$\\to$$ P may be $$\\to$$ H$_{2}$/Pd, ethanol; Sn/HCl\n$$\\to$$ R may be $$\\to$$ NaNO$_{2}$/HCl; HNO$_{2}$\n$$\\to$$ U may be $$\\to$$ (i) H$_{3}$PO$_{2}$, (ii) KMnO$_{4}$ - KOH, $$\\Delta$$ or (i) CH$_{3}$ - CH$_{2}$ - OH, (ii) KMnO$_{4}$ - KOH, $$\\Delta$$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$\\mathbf{P}=\\mathrm{H}_{2} / \\mathrm{Pd}$, ethanol\n$\\mathbf{R}=\\mathrm{NaNO}_{2} / \\mathrm{HCl}$\n$\\mathbf{U}=1 . \\mathrm{H}_{3} \\mathrm{PO}_{2}$\n\n2. $\\mathrm{KMnO}_{4}-\\mathrm{KOH}$, heat",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7empgv0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_008",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction sequence(s) that would lead to o-xylene as the major product is(are)",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzmtjqu6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_009",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Correct option(s) for the following sequence of reactions is(are)\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n(a) If KNO$_{2}$ (Q)-on reacting with PhCH$_{2}$Br(P) gives PhCH$_{2}$ONO which on reduction with LiAlH$_{4}$ does not give PhCH$_{2}$NH$_{2}$.\n\n(b) If product R formed is benzylamine not benzene amine. KCN reacts with PhCH$_{2}$ Br to give PhCH$_{2}$CN which does not have foul smelling.\n\n(c) If AgNO$_{2}$ (Q) reacts with PhCH$_{2}$ Br to give PhCH$_{2}$NO$_{2}$ which on reduciton give PhCH$_{2}$NH$_{2}$$_{}$ (Phenyl methanamine or benzyl amine).\n\n(d) If amide reacts with LiAlH 4 (W) to give amine. PhCH$_{2}$ Br reacts with AgCN to give PhCH$_{2}$NO$_{2}$ .",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "Q = KNO$_{2}$, W = LiAlH$_{4}$",
+      "R = benzenamine, V = KCN",
+      "Q = AgNO$_{2}$, R = phenylmethanamine",
+      "W = LiAlH$_{4}$, V = AgCN"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzmu58mi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_010",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of Q with PhSNa yields an organic compound (major product) that gives positive Carius test on treatment with Na$_{2}$O$_{2}$ followed by addition of BaCl$_{2}$. The correct option(s) for Q is (are)",
+    "solution": "PhSNa replaces F from o- and p-dinitro- fluorobenzene\nvia nucleophilic aromatic substitution.\nPhSNa replaces Cl from compound D via nucleophilic\nbimolecular substitution reaction.\nIn case of compound B and C, nucleophilic substitution is not\npossible neither by S$_{N}$Ar or S$_{N}$2 . because, the electron\nwithdrawing group is present at meta-position and halogen is\nattached to sp$^{2}$-carbon.\n\n[Diagram]\n\n[Diagram]\n\nPositive Carius test is given by compound containing halogen,\nsulphur and phosphorus. So, only compound A and D reacts\nwith PhSNa to gives a positive Carius test on treatment with\nNa$_{2}$O$_{2}$ followed by addition of BaCl$_{2}$.\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx89n5wz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_011",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Aniline reacts with mixed acid (conc. $$HN{O_3}$$ and conc. $${H_2}S{O_4}$$) at $$288K$$ to give **P** $$\\left( {51\\% } \\right),$$ **Q** $$\\left( {47\\% } \\right)$$ and **R** $$\\left( {2\\% } \\right).$$ The major product(s) of the following reaction sequence is (are)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nThen P, Q and R will be\n\n[Diagram]\n\nGiven\n\n[Diagram]\n\n\n[Diagram]\n\nNow from S to major products its given.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5hacui.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_012",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product(s) of the following reaction sequence is (are)\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ihu1xm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_013",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions, the major product W is\n\n[Diagram]",
+    "solution": "The reaction is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wah7nd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_014",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the reaction is\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13v83u4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_015",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction shown below, the major product(s) formed is/are\n\n\n[Diagram]",
+    "solution": "Regioselectivity means which group will react selectively in the presence of two or more than two functional groups. Here, among two functional group $$-$$NH$_{2}$ and $$-$$CONH$_{2}$, NH$_{2}$ is more nucleophilic hence, NH$_{2}$ group will undergo reaction faster than CONH$_{2}$.\n\n[Diagram]\n\nHence, correct choice is (a).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1aogsyo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_016",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**List-I** contains various reaction sequences and **List-II** contains different phenolic compounds. Match each entry in **List-I** with the appropriate entry in **List-II** and choose the correct option.\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid lightgrey;\npadding: 10px;\n}\ntd {\nborder: 1px solid lightgrey;\npadding: 10px;\ntext-align: left;\nvertical-align: top;\n}\nimg {\nmax-width: 100px;\nheight: auto;\n}\n\n\nList-I\nList-II\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P-2, Q-3, R-4, S-5",
+      "P-2, Q-3, R-5, S-1",
+      "P-3, Q-5, R-4, S-1",
+      "P-3, Q-2, R-5, S-4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrf638g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_017",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the compounds in LIST-I with the observations in LIST-II, and choose the correct option.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) Aniline\n\n(P) Sodium fusion extract of the compound on boiling with $\\mathrm{FeSO}_{4}$, followed by acidification with conc. $\\mathrm{H}_{2} \\mathrm{SO}_{4}$, gives Prussian blue color.\n\n\n(II) $o$-Cresol\n(Q) Sodium fusion extract of the compound on treatment with sodium nitroprusside gives blood red color.\n\n\n(III) Cysteine\n\n(R) Addition of the compound to a saturated solution of $\\mathrm{NaHCO}_{3}$ results in effervescence.\n\n\n(IV) Caprolactam\n\n(S) The compound reacts with bromine water to give a white precipitate.\n\n\n\n(T) Treating the compound with neutral $\\mathrm{FeCl}_{3}$ solution produces violet color.",
+    "solution": "(I) Aniline has $\\mathrm{N}$ atoms hence gives prussian blue colour in Sodium fusion extract test. Aniline also gives white precipitate with Bromine water.\n\n(II) $\\mathbf{O}$-Cresol has phenolic group hence gives violet colour complex with netural $\\mathrm{FeCl}_3$.\n\n(III) Cysteine has 'S' atom, hence gives blood red color when odium S fusion extract of this compound is treated with sodium nitroprusside.\n\n(IV) Caprolactam has $\\mathrm{N}$ atom, hence sodium extract of this compound gives prussian blue color.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{I} \\rightarrow \\mathrm{P}, \\mathrm{Q}$; II $\\rightarrow \\mathrm{S} ; \\mathrm{III} \\rightarrow \\mathrm{Q}, \\mathrm{R}$; IV $\\rightarrow \\mathrm{P}$",
+      "$\\mathrm{I} \\rightarrow \\mathrm{P}$; II $\\rightarrow \\mathrm{R}$, $\\mathrm{S}$; III $\\rightarrow \\mathrm{R}$; $\\mathrm{IV} \\rightarrow \\mathrm{Q}, \\mathrm{S}$",
+      "$\\mathrm{I} \\rightarrow \\mathrm{Q}, \\mathrm{S}$; II $\\rightarrow \\mathrm{P}, \\mathrm{T}$; III $\\rightarrow \\mathrm{P}$; IV $\\rightarrow \\mathrm{S}$",
+      "$\\mathrm{I} \\rightarrow \\mathrm{P}$, S; II $\\rightarrow \\mathrm{T}$; III $\\rightarrow \\mathrm{Q}, \\mathrm{R}$; $\\mathrm{IV} \\rightarrow \\mathrm{P}$"
+    ]
+  },
+  {
+    "id": "chem_nitrogen_compounds_018",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The order of basicity among the following compounds is\n\n[Diagram]",
+    "solution": "(d) : Greater the electron density on nitrogen, more basic is the compound. Thus, order of basicity is :\nIV > I > II > III\nThe conjugate acid of IV is stabilized by resonance with lone pairs on both $$\\ddot N{H_2}$$ groups.\n\n[Diagram]\n\nThe conjugate acid of I is stabilized by resonance with lone pair on $$-\\ddot N{H_2}$$ group and by hyperconjugation of $$-$$CH$_{3}$ group.\n\n[Diagram]\n\nThe conjugate acid of II is stabilized by resonance with lone pair on\n\n[Diagram]\n\ngroup.\n\n[Diagram]\n\nIn compound III, the lone pair of nitrogen is involved in aromaticity. So, it is least basic.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\rm I}{\\rm I} > {\\rm I} > {\\rm I}V > {\\rm I}{\\rm I}{\\rm I}$$",
+      "$${\\rm I}V > {\\rm I}{\\rm I} > {\\rm I}{\\rm I}{\\rm I} > {\\rm I}$$",
+      "$${\\rm I}V > {\\rm I} > {\\rm I}{\\rm I} > {\\rm I}{\\rm I}{\\rm I}$$",
+      "$${\\rm I} > {\\rm I}V > {\\rm I}{\\rm I}{\\rm I} > {\\rm I}{\\rm I}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0b0wy5b.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_019",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction is\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l09kr1q0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_020",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound R is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0imfv4i.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_021",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound T is",
+    "solution": "[Diagram]\n\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Valine",
+      "Serine"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0imager.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_022",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the four starting materials (P, Q, R, S) given in List I with the corresponding reaction schemes (I, II, III, IV) provided in List II and select the correct answer using the code given below the lists.\n\n[Diagram]",
+    "solution": "The reactions involved are as follows:\n\n[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P-1, Q-4, R-2, S-3",
+      "P-3, Q-1, R-4, S-2",
+      "P-3, Q-4, R-2, S-1",
+      "P-4, Q-1, R-3, S-2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l196mh1p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_023",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Amongst the compounds given, the one that would from a brilliant coloured dye on treatment with NaNO$_{2}$ in dil. HCl followed by addition to an alkaline solution of $$\\beta$$-naphthlol is",
+    "solution": "Azo dye test is given by aromatic primary amines.\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m0du7vmq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_024",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction is\n\n[Diagram]",
+    "solution": "The reactant, phthalimide, undergoes an acid-base reaction with KOH. In this reaction, the proton from the nitrogen reacts with the OH$^{-}$ from the base to form water.\n\n[Diagram]\n\nThe resulting salt then undergoes a substitution reaction with p-bromobenzyl chloride to form the major product. This reaction proceeds via an S$_{N}$1 mechanism due to the stability of the p-bromobenzyl cation.\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03ul4vk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_025",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction,\n\n[Diagram]\n\nThe structure of the product **T** is :",
+    "solution": "The reaction taking place is Hoffmann bromamide degradation followed by benzoylation.\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4mezq0s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_026",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the reactions in **Column I** with\nappropriate options in **Column II**.\n\n\nColumn I\nColumn II\n\n\n(A)\n\n\n[Diagram]\n\n\n(P) Racemic mixture\n\n\n(B)\n\n\n[Diagram]\n\n\n(Q) Addition reaction\n\n\n(C)\n\n\n[Diagram]\n\n\n(R) Substitution reaction\n\n\n(D)\n\n\n[Diagram]\n\n\n(S) Coupling reaction",
+    "solution": "(i) It is an example of electrophilic substitution reaction which results in the formation of a coupled product. The nucleophilic nitrogen attacks at electron rich carbon of phenol at para position as follows:\n$$ A \\rightarrow R \\text { and } S $$\n(ii) The reaction represents Pinacole-pinacolone rearrangement. In this reaction, the intermediate is carbocation.\nThe reaction is represented as follows:\n$$ B \\rightarrow T $$\n\n[Diagram]\n\n(iii) It is an example of addition reaction to carbonyl group, where lithium aluminium hydride $\\left(\\mathrm{LiAlH}_4\\right)$ adds hydrogen across carbon and oxygen of carbonyl group thus reducing it to an alcohol. Both R and S enantiomers will be formed. Hence, racemic mixture will be obtained as carbonyl carbon becomes chiral.\n(C) $$ \\to $$ (P, Q)\n\n[Diagram]\n\n(iv) It is an example of nucleophilic substitution, where electron rich sulphur (due to lone pairs) displaces chlorine on the ring forming a bicyclic compound.\n$$ D \\rightarrow R $$\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(A)→(R);\n(B)→(T);\n(C)→ (P), (Q);\n(D)→(R)",
+      "(A)→(S);\n(B)→(T);\n(C)→ (P);\n(D)→(R)",
+      "(A)→(R), (S);\n(B)→(T);\n(C)→ (Q);\n(D)→(R)",
+      "(A)→(R), (S);\n(B)→(T);\n(C)→ (P), (Q);\n(D)→(R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wc9c8e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_027",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match each of the compounds in Column I with its characteristic reaction(s) in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$C{H_3}C{H_2}C{H_2}CN$$\n(P)\nReduction with $$Pd - C/{H_2}$$\n\n\n(B)\n$$C{H_3}C{H_2}OCOC{H_3}$$\n(Q)\nReduction with $$SnC{l_2}/HCl$$\n\n\n(C)\n$$C{H_3} - CH = CH - C{H_2}OH$$\n(R)\nDevelopment of foul smell on treatment with chloroform and alcoholic KOH\n\n\n(D)\n$$C{H_3}C{H_2}C{H_2}C{H_2}N{H_2}$$\n(S)\nReduction with diisobutylaluminium hydride (DIBAL-H)\n\n\n\n\n(T)\nAlkaline hydrolysis",
+    "solution": "(A)\n[Diagram]\n\n(B) Reaction with DIBAL-H and alkaline hydrolysis:\n\n[Diagram]\n\n(C) Reduction with Pd-C/H$$_2$$:\n$$C{H_3} - CH = CH - C{H_2}OH\\buildrel {Pd - C/C{H_2}} \\over\n\\longrightarrow C{H_3} - C{H_2} - C{H_2} - C{H_2}OH$$\n(D) Foul smell on treatment with $$CHC{l_3} + KOH$$:\n$$RN{H_2}\\buildrel {CHC{l_3} + KOH} \\over\n\\longrightarrow \\mathop {RNC}\\limits_{Foul\\,smell} + KCl + {H_2}O$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\mathrm{(A)\\to(P),(Q),(S),(T);(B)\\to(Q),(T);(C)\\to(P);(D)\\to(S)}$$",
+      "$$\\mathrm{(A)\\to(Q), (R), (S),(T);(B)\\to(S),(T);(C)\\to(P);(D)\\to(R)}$$",
+      "$$\\mathrm{(A)\\to(P),(R),(S),(T);(B)\\to(S),(T);(C)\\to(P);(D)\\to(R), (T)}$$",
+      "$$\\mathrm{(A)\\to(P),(Q),(S),(T);(B)\\to(S),(T);(C)\\to(P);(D)\\to(R)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrnk86k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_028",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Statement 1 : Aniline on reaction with NaNO$$_2$$/HCl at 0$$^\\circ$$C followed by coupling with $$\\beta$$-naphthol gives a dark blue coloured precipitate.\nStatement 2 : The colour of the compound formed in the reaction of aniline with NaNO$$_2$$/HCl at 0$$^\\circ$$C followed by coupling with $$\\beta$$-naphthol is due to the extended conjugation.",
+    "solution": "Let us discuss the given statements one by one.\nStatement 1 : Aniline reacts with NaNO$$_2$$/HCl at 273 K to form colourless diazonium salt.\n\n[Diagram]\n\nBenzene diazonium chloride is then coupled with $$\\beta$$-naphthol to yield a dark red or orange coloured dye as shown in the reaction below:\n\n[Diagram]\n\nThus, the statement 1 is false as the colour of the precipitate formed is orange red not blue. As we have already seen in the above mentioned reactions that the colour compound (dye) formed in the reaction of aniline with NaNO$$_2$$/HCl at 0$$^\\circ$$C was due to the successive coupling of diazonium salt with $$\\beta$$-naphthol. Hence, statement 2 is true.\nAs a result, Statement 1 is False and Statement 2 is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a CORRECT explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT CORRECT explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is False.",
+      "Statement 1 is False, Statement 2 is True."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgewhtoh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_029",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the compounds in Column I with their characteristic test(s)/reaction(s) given in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n\n[Diagram]\n\n(P)\nsodium fusion extract of the compound gives Prussian blue colour with FeSO$$_4$$.\n\n\n(B)\n\n[Diagram]\n\n(Q)\ngives positive FeCl$$_3$$ test.\n\n\n(C)\n\n[Diagram]\n\n(R)\ngives white precipitate with AgNO$$_3$$.\n\n\n(D)\n\n[Diagram]\n\n(S)\nreacts with aldehydes to form the corresponding hydrazone derivative.",
+    "solution": "A, B, C, D will give NaCN in their sodium fusion extract. Adding FeSO$$_4$$ will give Fe$$_4$$[Fe(CN)$$_6$$]$$_3$$ which is Prussian blue in colour.\nB and C have Phenol group which gave positive result to FeCl$$_3$$ test.\nA, B, C, D both give precipitate with AgNO$$_3$$ but only A and C will give pure white precipitate.\nA and D can only give hydrazone derivative in reaction with aldehyde.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "A $$\\to$$ (r, s); B $$\\to$$ (p); C $$\\to$$ (p, q); D $$\\to$$ (s)",
+      "A $$\\to$$ (r, s); B $$\\to$$ (p, q); C $$\\to$$ (p, q, r); D $$\\to$$ (p, s)",
+      "A $$\\to$$ (r); B $$\\to$$ (p, q); C $$\\to$$ (p, r); D $$\\to$$ (p, s)",
+      "A $$\\to$$ (r); B $$\\to$$ (p); C $$\\to$$ (p, q, r); D $$\\to$$ (s)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgeycku3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_030",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$\\mathrm{CH}_3 \\mathrm{NH}_2+\\mathrm{CHCl}_3+\\mathrm{KOH} \\rightarrow$ Nitrogen containing compound $+\\mathrm{KCl}+\\mathrm{H}_2 \\mathrm{O}$.\n\nNitrogen containing compound is :",
+    "solution": "When a primary amine is heated with chloroform and KOH , a nitrogen containing compound carbylamine or isocyanide is formed.\nThe complete chemical reaction is shown below:\n\n[Diagram]\n\nThe products obtained during reaction are methyl isocyanide, potassium chloride and water.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{CH}_3-\\mathrm{C} \\equiv \\mathrm{N}$",
+      "$\\mathrm{CH}_3-\\mathrm{NH}-\\mathrm{CH}_3$",
+      "$\\mathrm{CH}_3-\\overline{\\mathrm{N}} \\equiv \\stackrel{+}{\\mathrm{C}}$",
+      "$\\mathrm{CH}_3-\\stackrel{+}{\\mathrm{N}} \\equiv \\stackrel{-}{\\mathrm{C}}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgto80zi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_031",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How can the conversion of (i) to (ii) be brought about?",
+    "solution": "When compound (i), 4-chlorobenzamide is treated with KOH and $\\mathrm{Br}_2$, one hydrogen atom from $-\\mathrm{NH}_2$ group is replaced by bromine atom to produce compound (ii), which is N-bromo derivative.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "KBr",
+      "$\\mathrm{KBr}+\\mathrm{CH}_3 \\mathrm{ONa}$",
+      "$\\mathrm{KBr}+\\mathrm{KOH}$",
+      "$\\mathrm{Br}_2+\\mathrm{KOH}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgto80zi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_032",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which is the rate determining step in Hofmann bromamide degradation?",
+    "solution": "The steps involved in Hofmann Bromamide Degradation reaction are given below:\n\n[Diagram]\nThe compound (iii) will loose $\\mathrm{Br}^{-}$ion and lone pair of N atom will transfer to adjacent C atom forming a double bond. The compound (iv) is formed from compound (iii) through rearrangement which is slow and rate determining step of the reaction. The reacts with methanol.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Formation of (i)",
+      "Formation of (ii)",
+      "Formation of (iii)",
+      "Formation of (iv)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgto80zi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_033",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What are the constituent amines formed when the mixture of (i) and (ii) undergoes Hofmann bromamide degradation?\n[Diagram]",
+    "solution": "The Hoffmann bromamide degradation converts an amide to an amine containing one C atom less than that of amide. The lost carbon is a part of carbonyl group of amide.\nThe Hoffmann bromamide degradation mechanism consists of following steps:\nStep 1: Bromination of N atom of amide.\nStep 2: Elimination of proton followed by rearrangement of anion formed.\nStep 3: Hydrolysis\nThe rearrangement of compound (iii) produces compound(iv) which is an isocyanate, which on further hydrolysis gets converted to an amine. The rearrangement consists of 1,2 shift with its electron pair to electronegative nitrogen. The Hoffmann bromamide degradation is an intramolecular reaction as migrating group from the compound is not eliminated but remain attached to the substrate in any form, producing a transition state.\nThe compound (i) is deuterated benzamide with deuterium attached at $C_3$ of benzene ring. The compound (ii) has amide group containing C-15 isotope of nitrogen in amide group attached to benzene ring.\nThe overall chemical reaction is intramolecular; hence, the product formation will not be affected due to attachment of deuterium on benzene ring or presence of C-15 isotope of nitrogen in amide group.\nThe product formation is shown below:\nThe rearrangement of compound (iii) produces compound(iv) which is an isocyanate, which on further hydrolysis gets converted to an amine. The rearrangement consists of 1,2 shift with its electron pair to electronegative nitrogen. The Hoffmann bromamide degradation is an intramolecular reaction as migrating group from the compound is not eliminated but remain attached to the substrate in any form, producing a transition state.\nThe compound (i) is deuterated benzamide with deuterium attached at $C_3$ of benzene ring. The compound (ii) has amide group containing C-15 isotope of nitrogen in amide group attached to benzene ring.\nThe overall chemical reaction is intramolecular; hence, the product formation will not be affected due to attachment of deuterium on benzene ring or presence of C-15 isotope of nitrogen in amide group.\nThe product formation is shown below:\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtp09v3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_034",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of carbon atoms and heteroatoms present in one molecule of $\\mathbf{S}$ is _________.\n\n[Use : Molar mass (in $\\mathrm{g} \\mathrm{mol}^{-1}$ ): $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{Br}=80, \\mathrm{Cl}=35.5$\n\nAtoms other than $\\mathrm{C}$ and $\\mathrm{H}$ are considered as heteroatoms]",
+    "solution": "Compound S is\n\n[Diagram]\n\nNumber of Carbon atoms + Number of Heteroatoms $=51$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lruyb3jf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_035",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of $s p^2$ hybridised carbon atoms in the major product $\\mathbf{P}$ (a non-heterocyclic compound) of the following reaction is ______.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liir8yr4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_036",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reaction of x g of Sn with HCl quantitatively produced a salt. Entire amount of the salt reacted with y g of nitrobenzene in the presence of required amount of HCl to produce 1.29 g of an organic salt (quantitatively).\n\n(Use Molar masses (in g mol$^{$$-$$1}$) of H, C, N, O, Cl and Sn as 1, 12, 14, 16, 35 and 119, respectively).\n\nThe value of x is _________.",
+    "solution": "[Diagram]\n\nMass of organic salt produced (aniline) = 1.29 g\nMolar mass of organic salt (aniline)\n= 12 × 6 + 1 × 8 + 14 × 1 + 35 × 1\n= 72 + 8 + 14 + 35\n= 129 g/mol\n$$Moles\\ of\\ organic\\ salt=\\frac{Mass\\ of\\ organic\\ salt}{Molar\\ mass} =\\frac{1.29}{129} =0.01\\ mol $$\nFrom reaction 1 moles of salt is produced from 3 mole of Sn. So, 0.01 mole of organic salt is produced by 0.03 mole Sn. Atomic mass of Sn = 119 g mol$^{−1}$\nMass of Sn = x = mole of Sn × Molar mass\nx = 0.03 × 119 $$ \\Rightarrow $$ x = 3.57 g\nThe value of x is 3.57",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l08bjadf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_nitrogen_compounds_037",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reaction of x g of Sn with HCl quantitatively produced a salt. Entire amount of the salt reacted with y g of nitrobenzene in the presence of required amount of HCl to produce 1.29 g of an organic salt (quantitatively).\n\n(Use Molar masses (in g mol$^{$$-$$1}$) of H, C, N, O, Cl and Sn as 1, 12, 14, 16, 35 and 119, respectively).\n\nThe value of y is _________.",
+    "solution": "1 mole of organic salt is produced by 1 mole of nitrobenzene 0.01 mole of organic salt is produced by 0.01 mole nitrobenzene.\nMolar mass of nitrobenzene\n\n= 12 × 6 + 1 × 5 + 14 × 1 + 16 × 2\n\n= 72 + 5 + 14 + 32= 123 g mol$^{−1}$\nMass of nitrobenzene required,\n\ny = moles of nitrobenzene × molar mass\n=\n\n0.01\n\n×\n\n123 =\n\n1.23\n\ng",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_nitrogen_compounds_038",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the reaction sequence from P to Q shown below. The overall yield of the major product Q from P is 75%. What is the amount in grams of Q obtained from 9.3 mL of P? (Use density of P = 1.00 g mL$^{-1}$; Molar mass of C = 12.0, H = 1.0, O = 16.0 and N = 14.0 g mol$^{-1}$)\n\n\n[Diagram]",
+    "solution": "Aniline (P) is treated with NaNO$_{2}$ and HCl in cold condition to form benzene diazonium chloride. The process of conversion of primary aromatic amines into its diazonium salt is called diazotisation.\n\n\n[Diagram]\n\n\n$$\\beta $$-naphthol couples with phenyldiazonium electrophile to produce an intense orange-red dye (Q) as major product.\n\n\n[Diagram]\n\n\nGiven that, volume of aniline (P) = 9.3 mL (density of P = 1.00 g/mL)\n\nSo, mass of aniline = 9.3 g\n\nMolecular mass of aniline (C$_{6}$H$_{7}$N) = 93 g/mol\n\nTherefore, moles of aniline = 9.3 / 93 = 0.1 mol of P.\n\nMolecular mass of 2 napthol aniline orange dye (Q) = 248 g/mol\n\n$$ \\Rightarrow $$ 0.1 mol of aniline (P) will produce 0.1 mol of compound (Q).\n\nBut, according to the question the major product Q from P is 75%.\n\nTherefore, mass of 'Q' produced\n\n= (0.1 $$ \\times $$ 248 $$ \\times $$ 0.75)g = 18.60 g",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_nitrogen_compounds_039",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Schemes 1 and 2 describe the conversion of P to Q and R to S, respectively. Scheme 3 describes the synthesis of T from Q and S. The total number of Br atoms in a molecule of T is .................\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_nitrogen_compounds_040",
+    "subject": "Chemistry",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence :\n\n[Diagram]\n\nIdentify A, B, C and D. Also write chemical equations for cons version of A to B and A to C.",
+    "solution": "The given reaction of compound A are as\nfollows :\n\n[Diagram]\n\nCompound A on reaction with NaBr + MnO$$_2$$\ngives brown fumes with pungent smell with\nthe formation of compound B. Also, compound\nA reacts with conc. HNO$$_3$$ to produce an\nintermediate C which on reaction with toluene\nproducing compound D.\nThe reaction of compound A with NaBr +\nMnO$$_2$$ is an example of redox reaction. The\ncompound A is sulphuric acid, H$$_2$$SO$$_4$$. The\nproducts formed during the reaction are\nNa$$_2$$SO$$_4$$, MnSO$$_4$$, Br$$_2$$ and H$$_2$$O. The bromine gas\nis brown in colour and have pungent smell.\nThe chemical reaction for the same is shown\nbelow.\n\n[Diagram]\n\nThe compound A that is sulphuric acid on\nreaction with conc. HNO$$_3$$ yields nitronium ion\nas shown below. The compound C formed is an\nintermediate and is nitronium ion.\n$$\\mathrm{\\mathop {{H_2}S{O_4}}\\limits_{(A)} + HN{O_3} \\to HSO_4^ - + \\mathop {NO_2^ \\oplus }\\limits_{(C)} + {H_2}O}$$\nThe nitronium ion on reaction with toluene,\ncauses its nitration, producing compound\nD. The nitronium ion is an electrophile and\ncauses substitution of 3 H atoms at two ortho\nand one para position of benzene ring by nitro\ngroup. The compound D is formed which is\ntrinitrotoluene or TNT. The TNT is explosive in\nnature.\n\n[Diagram]\n\nThe complete reaction sequence is as shown\nbelow.\nFinal Answer :\nA: H$$_2$$SO$$_4$$\nB : Br$$_2$$\nC: NO$$_2^+$$\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9mj4pe.png",
+      "position": "bottom"
+    }
+  }
+]

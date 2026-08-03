@@ -1,0 +1,718 @@
+[
+  {
+    "id": "chem_alcohols_phenols_ethers_001",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct reaction/reaction sequence that would produce a dicarboxylic acid as the major product is :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawvk258.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_002",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the reaction sequence given below, the correct statement(s) is(are)\n[Diagram]",
+    "solution": "[Diagram]\n\n(A) P is optically inactive\n(B) $S$ is Alkene, and Alkene gives Bayer's test\n(C) Q has carboxylic acid and it gives effervescence with $\\mathrm{NaHCO}_3$\n(D) R is Not Alkyne",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "**P** is optically active.",
+      "**S** gives Bayer’s test",
+      "**Q** gives effervescence with aq. NaHCO$_{3}$.",
+      "**R** is an alkyne."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxf94au.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_003",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction sequence given below is carried out with 16 moles of X. The yield of the major product in each step is given below the product in parentheses. The amount (in grams) of **S** produced is ______.\n[Diagram]\n**Use:** Atomic mass (in amu): H = 1, C = 12, O = 16, Br = 80",
+    "solution": "Solution for this Alcohols Phenols & Ethers question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb1ntg6l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_004",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction\n\n[Diagram]\n\nIdentify X and Y.",
+    "solution": "When (1-methylcyclopentyl) methanol is\ntreated with H$$^+$$ at high temperature, it is\nconverted to 1-methyl-1-cyclohexene.\n\n[Diagram]\n\nTherefore, X is 1-methyl-1-cyclohexene.\nThe mechanism for the same is represented\nbelow.\n\n[Diagram]\n\nThe H$$^+$$ on heating with (1-methylcyclopentyl)\nmethanol get attached to O atom of hydroxy\ngroup, producing a positive charge on O atom.\nThe elimination of water molecule results\nin the formation of primary carbocation,\nwhich undergoes ring expansion followed by\nelimination of proton yields product X.\nThe 1-methyl-1-cyclohexene undergoes\nozonolysis followed by treatment with Zn/\nCH$$_3$$COOH, it gives 6-oxoheptanal.\n\n[Diagram]\n\nTherefore, compound Y is 6-oxoheptanal\n\n[Diagram]\n\nY on further undergoes aldol condensation\nreaction to form $$\\alpha$$, $$\\beta$$ unsaturated carbonyl compounds in presence of NaOH followed by\nheat.\nFinal Answer\n\n[Diagram]\n\nHints :\nOzonolysis of an unsaturated compound\nresults in replacing double bonds with\ncarbonyl group. The Zn in acetic acid is a\nreducing agent.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9kyrwt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_005",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the given reaction scheme, $\\mathbf{P}$ is a phenyl alkyl ether, $\\mathbf{Q}$ is an aromatic compound; $\\mathbf{R}$ and $\\mathbf{S}$ are the major products.\n\n[Diagram]\n\nThe correct statement about $\\mathbf{S}$ is :",
+    "solution": "$P$ is phenyl alkyl ether\n\nQ is aromatic compound\n\nR and S are the major product i.e.\n\n[Diagram]\n\nCorrect ans is (B)\nAspirin inhibits the synthesis of chemicals known as prostaglandin's.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "It primarily inhibits noradrenaline degrading enzymes.",
+      "It inhibits the synthesis of prostaglandin.",
+      "It is a narcotic drug.",
+      "It is ortho-acetylbenzoic acid."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqwk7u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_006",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**LIST-I **contains reactions and ** LIST-II **contains major products.\n\n[Diagram]\n\n\nMatch the reaction in **LIST-I** with one or more products in **LIST-II** and choose the correct option.",
+    "solution": "P. Reactant 1 , acts as a base and abstracts hydrogen from $\\beta$ carbon of tert butyl bromide halide (reactant 2 ) forming an alkene and an alcohol.\n\n[Diagram]\n\nElimination proceeds via $\\mathrm{E}_2$ mechanism.\nSubstitution of reactant 1 is not possible on reactant 2 due to steric crowding at 2.\n\nQ. Reactant 1 (tert butoxide) acts as a base and abstracts proton from acid $(\\mathrm{HBr})$ forming an alcohol and methyl bromide.\n\n[Diagram]\n\nR. Sodium methoxide ( $\\mathrm{NaOMe})$ is a strong base and abstracts proton from $\\beta$ carbon of tert Butyl with simultaneous less of bromide ion forming an alkene.\n\n[Diagram]\n\nS. Reactant 1 (tert-butoxide) acts as a nucleophile and attacks from the backside of methyl bromide, with subsequent removal of bromide ion. This is an $\\mathrm{S}_{\\mathrm{N}} 2$ mechanism.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$P - 1,5;Q - 2;R - 3;S - 4$$",
+      "$$P - 1,4;Q - 2;R - 4;S - 3$$",
+      "$$P - 1,4;Q - 1,2;R - 3,4;S - 4$$",
+      "$$P - 4,5;Q - 4;R - 4;S - 3,4$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhy9non4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_007",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the identification of $$\\beta$$-naphthol using dye test, it is necessary to use",
+    "solution": "The reaction involved is\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "dichloromethane solution of $$\\beta$$-naphthol.",
+      "acidic solution of $$\\beta$$-naphthol.",
+      "neutral solution of $$\\beta$$-naphthol.",
+      "alkaline solution of $$\\beta$$-naphthol."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17zisnm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_008",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The acidic hydrolysis of ether (X) shown below is fastest when\n\n[Diagram]",
+    "solution": "The acidic hydrolysis is fastest when two phenyl groups are replaced by two para-methoxyphenyl groups.\nThis is because $$-$$OCH$_{3}$ is an electron donating group which increases the stability of the carbocation.\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "one phenyl group is replaced by a methyl group.",
+      "one phenyl group is replaced by a para-methoxyphenyl group.",
+      "two phenyl groups are replaced by two para-methoxyphenyl groups.",
+      "no structural change is made to X."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l181b7e8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_009",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the chemical conversions in List I with the appropriate reagents in List II and select the correct answer using the code given below the lists :\n\n[Diagram]",
+    "solution": "The reactions involved are\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P-2, Q-3, R-1, S-4",
+      "P-3, Q-2, R-1, S-4",
+      "P-2, Q-3, R-4, S-1",
+      "P-3, Q-2, R-4, S-1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qo4kss.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_010",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound that does NOT liberate CO$_{2}$, on treatment with aqueous sodium bicarbonate solution, is",
+    "solution": "Comparatively phenol is a weaker acidic than carbonic acid (H$_{2}$CO$_{3}$), and hence does not liberate CO$_{2}$ on treatment with aqueous NaHCO$_{3}$ solution. The rest are more acidic than H$_{2}$CO$_{3}$, and so liberate CO$_{2}$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Benzoic acid",
+      "Benzenesulphonic acid",
+      "Salicylic acid",
+      "Carbolic acid (Phenol)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04n191c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_011",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the reactions in Column I with appropriate types of steps/reactive intermediate involved in these reactions as given in Column II :\n\n\n\n\n\nColumn I\n\n\n\nColumn II\n\n\n\n\n\n(A)\n\n\n[Diagram]\n\n(P)\n\nNucleophilic substitution\n\n\n\n\n\n(B)\n\n\n[Diagram]\n\n(Q)\n\nElectrophilic substitution\n\n\n\n\n\n(C)\n\n\n[Diagram]\n\n(R)\n\nDehydration\n\n\n\n\n\n(D)\n\n\n[Diagram]\n\n(S)\n\nNucleophilic\n\n\n\n\n\n\n\n\n\n(T)\n\nCarbanion",
+    "solution": "(A)\nThe compound undergoes an intramolecular aldol condensation reaction in the presence of aqueous NaOH.\nSteps Involved :\n\nAbstraction of Proton :\nThe proton attached to the alpha carbon is abstracted, generating a carbanion.\n\n[Diagram]\n\nNucleophilic Addition :\nThe carbanion attacks the electropositive carbonyl carbon, forming a cyclic intermediate.\n\n[Diagram]\n\nDehydration :\nThe cyclic intermediate undergoes dehydration to yield the final product.\n\n[Diagram]\n\nOption (A) in Column I matches with (R), (S), and (T) in Column II.\n(B)\n\nNucleophilic Addition :\nThe ketone reacts with methyl magnesium bromide, forming a secondary alcohol. This is a nucleophilic addition reaction.\n\n[Diagram]\n\nNucleophilic Substitution :\nThe highly nucleophilic oxygen attacks the C_1 carbon of the alkyl chain from the back, displacing chlorine to form the final product.\n\n[Diagram]\n\nOption (B) in Column I matches with (P) and (S) in Column II.\n(C)\n\nNucleophilic Addition :\nThe compound undergoes a nucleophilic addition reaction in the presence of $\\mathrm{H}_2 \\mathrm{SO}_4$.\n\n[Diagram]\n\n[Diagram]\n\nDehydration :\nThe molecule loses water, forming an alkene.\n\n[Diagram]\n\nOption (C) in Column I matches with (R) and (S) in Column II.\n(D)\nThe compound reacts with sulfuric acid to form a carbocation, which undergoes electrophilic substitution.\nReaction :\n\n[Diagram]\n\nOption (D) in Column I matches with (Q) and (R) in Column II.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A) $$\\to$$ (R), (S), (T); (B) $$\\to$$ (P); (C) $$\\to$$ (R), (S); (D) $$\\to$$ (Q)",
+      "(A) $$\\to$$ (R), (S), (T); (B) $$\\to$$ (P), (S); (C) $$\\to$$ (R), (S); (D) $$\\to$$ (Q), (R)",
+      "(A) $$\\to$$ (R), (S), (T); (B) $$\\to$$ (P), (S); (C) $$\\to$$ (R); (D) $$\\to$$ (Q), (R)",
+      "(A) $$\\to$$ (R), (S), (T); (B) $$\\to$$ (P), (S); (C) $$\\to$$ (R), (S); (D) $$\\to$$ (Q)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04n191c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_012",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction\n\n[Diagram]\n\nthe products are :",
+    "solution": "Alkyl aryl ethers are cleaved at the alkyl-oxygen bond\ndue to stronger aryl-oxygen bond. The reaction yields phenol\nand alkyl halide. Thus,\nThe reaction is\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexkn9w1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_013",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compounds $\\mathbf{P}, \\mathbf{Q}$ and $\\mathbf{S}$ were separately subjected to nitration using $\\mathrm{HNO}_3 / \\mathrm{H}_2 \\mathrm{SO}_4$ mixture. The major product formed in each case respectively, is :",
+    "solution": "$$ \\text { The products obtained on nitration of } \\mathbf{P}, \\mathbf{Q} \\text { and } \\mathbf{S} \\text { are } $$\n\n[Diagram]\n\nHere strongly activating and ortho-, para directing -OH group determines the site for electrophilic substitution.\n\n[Diagram]\n\nHere $-\\mathrm{OCH}_3$ is a stronger activator than $-\\mathrm{CH}_3$ and both are ortho-, para directing.\n\n[Diagram]\n\nHere, the substitution takes place on the activated ring (with substituent $\\mathrm{PhCOO}^-$ ) at the sterically unhindered para-position.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4mdo6t6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_014",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Compound H is formed by the reaction of",
+    "solution": "Compound H (a tertiary alcohol) is formed by the reaction of acetophenone PhCOCH$$_3$$ with benzyl magnesium bromide PhCH$$_2$$MgBr.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgewve3o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_015",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of compound I is :",
+    "solution": "The structure of compound I is -\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgewve3o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_016",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structures of compound J, K and L, respectively, are:",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "PhCOCH$$_3$$, PhCH$$_2$$COCH$$_3$$ and PHCH$$_2$$COO$$^-$$K$$^+$$.",
+      "PhCHO, PhCH$$_2$$CHO and PhCOO$$^-$$K$$^+$$",
+      "PhCOCH$$_3$$, PhCH$$_2$$CHO and CH$$_3$$COO$$^-$$K$$^+$$",
+      "PhCHO, PhCOCH$$_3$$ and PhCOO$$^-$$K$$^+$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgewve3o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_017",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following reagents is used in the above reaction?",
+    "solution": "The reagent used in the reaction is aq $$\\mathrm{NaOH}+ \\mathrm{CHCl}_{3}$$\nReaction is\n\n[Diagram]\n\nMechanism :\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "aq. $$\\mathrm{NaOH}+\\mathrm{CH}_{3} \\mathrm{Cl}$$",
+      "aq. $$\\mathrm{NaOH}+\\mathrm{CH}_{2} \\mathrm{Cl}_{2}$$",
+      "aq. $$\\mathrm{NaOH}+\\mathrm{CHCl}_{3}$$",
+      "aq. $$\\mathrm{NaOH}+\\mathrm{CCl}_{4}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu7po2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_018",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrophile in this reaction is :",
+    "solution": "In this reaction electrophile involved is dichloro\ncarbene ($$\\mathrm{CCl_2}$$) as it contains a vacant orbital.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$:\\mathrm{CHCl}$$",
+      "$${ }^{+} \\mathrm{CHCl}_{2}$$",
+      "$$:\\mathrm{CCl}_{2}$$",
+      "$$.\\mathrm{CCl}_{3}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu7po2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_019",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of the intermediate I is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu7po2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_020",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When benzene sulphonic acid and $p$-nitrophenol are treated with $\\mathrm{NaHCO}_3$, the gases released respectively are",
+    "solution": "The structure of benzene sulphonic acid and $p$-nitrophenol are given below.\n\n[Diagram]\nBoth benzene sulphonic acid and $p$-nitrophenol are strong acids whereas, $\\mathrm{NaHCO}_3$ is alkaline in nature.\nWhen both benzene sulphonic acid and $p$-nitrophenol reacts with base like $\\mathrm{NaHCO}_3$, neutralisation reaction occur. The chemical equations representing the chemical reaction are shown below:\n\n[Diagram]\nThe reaction between benzene sulphonic acid and $\\mathrm{NaHCO}_3$ yields sodium salt of benzene sulphonic acid along with water and carbon dioxide.\n\n[Diagram]\nThe products formed during the reaction between $p$-nitrophenol and $\\mathrm{NaHCO}_3$ are sodium salt of $p$-nitrophenol, water and carbon dioxide.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{SO}_2, \\mathrm{NO}_2$",
+      "$\\mathrm{SO}_2, \\mathrm{NO}$",
+      "$\\mathrm{SO}_2, \\mathrm{CO}_2$",
+      "$\\mathrm{CO}_2, \\mathrm{CO}_2$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtbin2o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_021",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(I) 1,2-Dihydroxybenzene\n(II) 1,3-Dihydroxybenzene\n(III) 1,4-Dihydroxybenzene\n(IV) Hydroxy benzene\nThe increasing order of boiling points of the above mentioned alcohols is",
+    "solution": "$$ \\text { The structure of all four alcohols is given below. } $$\n\n[Diagram]\nThe 1, 2-dihydroxybenzene has second OH group attached at ortho position. The 1, 2-dihydroxybenzene will participate in intramolecular hydrogen bonding as both OH groups are attached at adjacent position as shown below.\n\n[Diagram]\nWhereas 1, 3-dihydroxybenzene and 1, 4-dihydroxybenzene form intermolecular hydrogen bonding as shown below:\n\n[Diagram]\n$$ \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\,\\text { Intermolecular } \\mathrm{H} \\text { bonding in 1, 4-dihydroxybenzene } $$\n\n[Diagram]\nThe strength of intermolecular hydrogen bonding is higher in 1, 4-dihydroxybenzene as compared to that of 1,3-dihydroxybenzene and 1,2-dihydroxybenzene. Thestrengthofhydrogen bonding is higher in 1, 3-dihydroxybenzene than 1,2-dihydroxybenzene.\nThe monohydroxy benzene will not participate in hydrogen bonding; hence, will have least boiling point.\nAlso, the strength of intermolecular hydrogen bonding is higher than that of intramolecular hydrogen bonding. Hence, 1, 4-dihydroxybenzene has highest stability amongst four compounds. The correct order of these four compounds in terms of increasing boiling points is hydroxy benzene, 1, 2-dihydroxybenzene, 1, 3-dihydroxybenzene and 1,4-dihydroxybenzene.\nThe increasing order of boiling points of above mentioned alcohols is IV $<$ I $<$ II $<$ III.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "I $<$ II $<$ III $<$ IV",
+      "I $<$ II $<$ IV $<$ III",
+      "IV $<$ I $<$ II $<$ III",
+      "IV $<$ II $<$ I $<$ III"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtbxrj1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_022",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reaction of iso-propylbenzene with $\\mathrm{O}_2$ followed by the treatment with $\\mathrm{H}_3 \\mathrm{O}^{+}$forms phenol and a by-product $\\mathbf{P}$. Reaction of $\\mathbf{P}$ with 3 equivalents of $\\mathrm{Cl}_2$ gives compound $\\mathbf{Q}$. Treatment of $\\mathbf{Q}$ with $\\mathrm{Ca}(\\mathrm{OH})_2$ produces compound $\\mathbf{R}$ and calcium salt $\\mathbf{S}$.\n\nThe correct statement(s) regarding $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$ and $\\mathbf{S}$ is(are)",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "Reaction of $\\mathbf{P}$ with $\\mathbf{R}$ in the presence of $\\mathrm{KOH}$ followed by acidification gives\n\n[Diagram]",
+      "Reaction of $\\mathbf{R}$ with $\\mathrm{O}_2$ in the presence of light gives phosgene gas",
+      "$\\mathbf{Q}$ reacts with aqueous $\\mathrm{NaOH}$ to produce $\\mathrm{Cl}_3 \\mathrm{CCH}_2 \\mathrm{OH}$ and $\\mathrm{Cl}_3 \\mathrm{CCOONa}$",
+      "$\\mathbf{S}$ on heating gives $\\mathbf{P}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrbaavw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_023",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reaction scheme and choose the correct option(s) for the major products $\\mathbf{Q}$, $\\mathbf{R}$ and $\\mathbf{S}$.\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqmjcu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_024",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, the correct structure(s) of $$X$$ is (are)\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5dbgyx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_025",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reactivity of compound Z with different halogens under appropriate conditions is given below\n\n[Diagram]\n\nThe observed pattern of electrophilic substitution can be explained by",
+    "solution": "Steric effect of halogens are as follows Cl$_{2}$ < Br$_{2}$ < I$_{2}$\n\nElectronic effect of phenolic group directs the approaching electrophile towards ortho and para positions. Tertiary butyl group has large size so it causes steric effect around aromatic nucleus. On the basis of above factors the products of the given reactions are as follows\n\n[Diagram]\n\nHence, orientation in electrophilic substitution reaction is decided by\n\n(a) The steric effect of the halogen\n\n(b) The steric effect of the tert-butyl group\n\n(c) The electronic effect of the phenolic group\n\nSo, (a), (b) and (c) are correct choices.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "the steric effect on the halogen",
+      "the steric effect of the tert-butyl group",
+      "the electronic effect of the phenolic group",
+      "the electronic effect of the tert-butyl group"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1anz6zz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_026",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction, the product/products formed is/are\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "P (major)",
+      "Q (minor)",
+      "R (minor)",
+      "S (major)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qon7an.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_027",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product(s) of the following reaction is(are)\n\n[Diagram]",
+    "solution": "The reaction involved is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qkwcms.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_028",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction\n\n[Diagram]\n\nThe intermediate(s) is(are)",
+    "solution": "In presence of base, phenol forms phenoxide ion which is $$ortho$$-$$para$$ directing because in the resonating structures, the electron density increases at ortho and para positions. The phenoxide ion further undergoes electrophilic substitution with Br$$_2$$ at $$ortho$$ and $$para$$ positions.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexlu1ot.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_029",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An organic compound (C$_{8}$H$_{10}$O$_{2}$) rotates plane-porarised light. It produces pink color with neutral FeCl$_{3}$ solution. What is the total number of all the possible isomers for this compound?",
+    "solution": "Phenolic ($$-$$OH) group gives positive test with neutral FeCl$_{3}$ solution, means organic compound (C$_{8}$H$_{10}$O$_{2}$) also rotate plane porarised light means compound is an optically active and chiral carbon atom is present.\n\nSo, the possible structures which are optically active and have phenolic group are as followed :\n\n\n[Diagram]\n\n\nTherefore, total optically active isomers will be 6.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_030",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of hydroxyl group(s) in Q is ___________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nTherefore, the number of hydroxyl groups is 4.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0w6tsja.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_alcohols_phenols_ethers_031",
+    "subject": "Chemistry",
+    "chapter": "Alcohols Phenols & Ethers",
+    "topic": "Alcohols Phenols & Ethers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of resonance structure for N is _________.\n\n[Diagram]",
+    "solution": "The possible resonance structures for the given compound on loss of proton are as follows:\n\n[Diagram]\n\nHence, the number of possible resonance structures is nine.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13htfpg.png",
+      "position": "bottom"
+    }
+  }
+]

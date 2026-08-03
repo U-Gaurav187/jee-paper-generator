@@ -1,0 +1,741 @@
+[
+  {
+    "id": "chem_hydrocarbons_001",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Treatment of buta-1,3-diyne with NaNH$_{2}$ (2 equivalents), followed by reaction with excess of *trans*-CH$_{3}$-CH=CH-CH$_{2}$-Br gives X as the major product. The maximum number of carbon atoms that are collinear (in a straight line) in X is _____.",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpb7gcnf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_002",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the depicted hydrogen (**H**) in the hydrocarbons given below. The most acidic hydrogen (**H**) is",
+    "solution": "To determine the most acidic hydrogen, consider the resonance stability of the conjugate base. Greater the resonance delolalization, stronger the acidity. Acidic hydrogen is easily removed (as $\\mathrm{H}^{+}$) and get conjugate base. The more stable the conjugate base, the more acidic the hydrogen.\nIn option (B), the removal of the hydrogen leads to a carbanion which is resonance stabilized by conjugation with two adjacent double bonds. It is an allylic anion extended over a conjugated cyclic system.In options (A), (C) and (D), allylic positions are present. But the resonance stabilization is less extensive compared to (B). Also, (A) and (C) are sterically hindered or less effectively delocalized.In (B), removing the proton from the carbon adjacent to two double bonds. gives a conjugate base that can delocalize the negative charge over a five -carbon conjugated system (cyclopentadienyl-like system), which has aromatic stabilization when conjugated.\n\nMost acidic H is (B).\n\n[Diagram]\nB forms most stable conjugate base and hence $B$ is most acidic$$\n\\text { Answer: Option (B) }\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb1ngu3d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_003",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering the following reaction sequence, the correct statement(s) is(are)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nCompound (S) can not decolorizes bromine water.\n\n[Diagram]\n\nR$_{2}$Cd is a less reactive nucleophile so reaction stops at carbonyl group.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "Compounds $\\mathbf{P}$ and $\\mathbf{Q}$ are carboxylic acids.",
+      "Compound $\\mathbf{S}$ decolorizes bromine water.",
+      "Compounds $\\mathbf{P}$ and $\\mathbf{S}$ react with hydroxylamine to give the corresponding oximes.",
+      "Compound $\\mathbf{R}$ reacts with dialkylcadmium to give the corresponding tertiary alcohol."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hm3l3d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_004",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "n-Butane is produced by the monobromination of ethane followed by the Wurtz reaction. Calculate the volume of ethane at NTP required to produce 55 g n-Butane, if the bromination takes place with 90 percent yield and the Wurtz reaction with 85 percent yield.",
+    "solution": "[Diagram]\n\nNow, assume moles of $${C_2}{H_6} = x\\therefore$$ Moles of $${C_2}{H_5}Br = x$$ when 100% yield.\nGiven that 90% yield of $${C_2}{H_5}Br$$ happens.\n$$\\therefore$$ Moles of $${C_2}{H_5}Br = x \\times {{90} \\over {100}} = 0.9x$$\nNow, from 2 moles of $${C_2}{H_5}Br$$ 1 mole of $${C_4}{H_{10}}$$ produced.\n$$\\therefore$$ From 0.9x moles of $${C_2}{H_5}Br{1 \\over 2} \\times 0.9x$$ moles of $${C_4}{H_{10}}$$ produced when 100% yield happens. But given that 85% yield of $${C_4}{H_{10}}$$ happens.\n$$\\therefore$$ Moles of $${C_4}{H_{10}} = {1 \\over 2} \\times 0.9x \\times {{85} \\over {100}} = {{(0.9 \\times 0.85)x} \\over 2}$$\nAccording to question,\n$${{(0.9 \\times 0.85)x} \\over 2} = {{55} \\over {58}} \\Rightarrow x = {{55} \\over {29 \\times 0.9 \\times 0.85}} = 2.48\\therefore$$ Volume of $${C_2}{H_6} = 2.48 \\times 22.4$$ Litres\n$$ = 55.552$$ Litres",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9lfgejh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_005",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, the major product $\\mathbf{P}$ is formed.\n\n[Diagram]\n\nGlycerol reacts completely with excess $\\mathbf{P}$ in the presence of an acid catalyst to form $\\mathbf{Q}$. Reaction of $\\mathbf{Q}$ with excess $\\mathrm{NaOH}$ followed by the treatment with $\\mathrm{CaCl}_2$ yields Ca-soap $\\mathbf{R}$, quantitatively. Starting with one mole of $\\mathbf{Q}$, the amount of $\\mathbf{R}$ produced in gram is __________.\n\n[Given, atomic weight: $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{Na}=23, \\mathrm{Cl}=35, \\mathrm{Ca}=40$ ]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n$\\therefore 1$ mole $Q$ produce $\\frac{3}{2}$ moles $R$\n\n$\\therefore$ Mass of $R$ produce $=\\frac{3}{2} \\times 606=909 \\mathrm{~g}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrci9cd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_006",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of isomeric tetraenes (NOT containing $s p$-hybridized carbon atoms) that can be formed from the following reaction sequence is ___________.\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hlpuql.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_007",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of $-\\mathrm{CH}_{2}-$ (methylene) groups in the product formed from the following reaction sequence is _________.\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hlrkex.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_008",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of chiral molecules formed from one molecule of $\\mathbf{P}$ on complete ozonolysis $\\left(\\mathrm{O}_{3}, \\mathrm{Zn} / \\mathrm{H}_{2} \\mathrm{O}\\right)$ is _________.\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hlt3mr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_009",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the reaction sequence given below is carried out with 15 moles of acetylene, the amount of the product $\\mathbf{D}$ formed (in $\\mathrm{g}$ ) is ___________ .\n\n[Diagram]\n\nThe yields of $\\mathbf{A}, \\mathbf{B}, \\mathbf{C}$ and $\\mathbf{D}$ are given in parentheses.\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{O}=16, \\mathrm{Cl}=35$ ]",
+    "solution": "[Diagram]\n\nMolecular formula of D is C$_{8}$H$_{8}$O$_{2}$\nMolar mass of D is ($$12\\times8+8\\times1+16\\times2$$) = 136 g\n$$\\therefore$$ Mass of D is 136",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7emhk3u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_010",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following reaction scheme, percentage yields are given along the arrow:\n\n[Diagram]\n\n**x** g and **y** g are mass of R and U, respectively.\n\n(Use : Molar mass (in g mol$^{$$-$$1}$) of H, C and O as 1, 12 and 16, respectively)\n\nThe value of x is ________.",
+    "solution": "Mg$_{2}$C$_{3}$ reacts with water to give propyne.\n\n$$M{g_2}{C_3} + 4{H_2}O \\to 2Mg{(OH)_2} + C{H_3} - \\mathop {\\mathop C\\limits_{(P)} }\\limits_{{\\mathop{\\rm Propyne}\nolimits} } \\equiv CH$$\n\nSodium amide (NaNH$_{2}$) takes proton from alkyne to form acetylide ion which, attacks on Me$$-$$I to give an alkyne with one more carbon.\n\n\n[Diagram]\n\nMass of P formed = 4.0 g\n\nMolar mass of P formed = 40 g mol$^{$$-$$1}$\n\nNumber of moles of P = $${{Mass\\,of\\,P(W)} \\over {Molar\\,mass\\,of\\,P(M)}} = {4 \\over {40}} = 0.1$$ mol\n\n1 mole of P forms 75% i.e., 0.75 = 0.075 mole of Q\n\nPolymerisation of alkyne (Butyne) occurs in presence of red hot iron tube to form benzene derivative.\n\n\n[Diagram]\n\n3 moles of alkyne forms 40% i.e., 0.40 mole of benzene derivative, R.\n\n0.075 mole of Q forms $${{0.40} \\over 3} \\times 0.075 = 0.01$$ mole of R.\n\nMolar mass of R = 162 g/mol\n\nMass of R formed or value of x = Molar mass $$\\times$$ Number of moles = 162 $$\\times$$ 0.01 = 1.62 g",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4csdyiu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_011",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of y is ________.",
+    "solution": "[Diagram]\n\n$$\n60+32+8=100\n$$\n\nThe value of $\\mathrm{Y}=0.032 \\times 100=3.2$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgyl9ou9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_012",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Total number of hydroxyl groups present in a molecule of the major product P is ..............\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\nCompound (P) has total number of hydroxyl groups = 6",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtjc6ap.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_013",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum number of isomers (including stereoisomers) that are possible on mono-chlorination of the following compound, is ____________.\n\n[Diagram]",
+    "solution": "(i) The monochlorination products obtained depends upon the kinds of hydrogen present in the molecule.\n(ii) There are four different types of hydrogen in the molecule; $\\mathrm{H}_a, \\mathrm{H}_b, \\mathrm{H}_c$ and $\\mathrm{H}_d$.\n\n[Diagram]\n\n(iii) The monochlorination products obtained on replacement of these hydrogen are as follows :\n(a) Replacing $\\mathrm{H}_a$ with chlorine :\n\n[Diagram]\n\nSince, the carbon is a chiral; only one monochlorination isomer is possible when $\\mathrm{H}_a$ is replaced by chlorine.\n(b) Replacing $\\mathrm{H}_b$ with chlorine :\n\n[Diagram]\n\nSince all the carbons are a chiral; only one monochlorination product is possible by when $\\mathrm{H}_b$ replaced by Cl .\n(c) Replacing $\\mathrm{H}_c$ with chlorine\n\n[Diagram]\n\nThe carbon on which hydrogen is replaced by chlorine becomes chiral; hence R/S isomers exist.\nAlso, carbon adjacent to the carbon on which hydrogen $\\left(\\mathrm{H}_c\\right)$ is replaced, is also chiral; hence, it will also exist as a pair of enantiomer $R / S$ four monochlorination products (which are stereoisomers or optical isomers) are possible.\n\n(d) Replacing $\\mathrm{H}^d$ by chlorine :\n\n[Diagram]\n\nThe central carbon $\\left({ }^*\\right)$ becomes chiral when $\\mathrm{H}^d$ is replaced by chlorine; hence $R / S$ isomers exist. Two monochlorination products are possible (stereoisomers or optical isomers) are possible.\n\nTotal number of isomers possible are 8.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m0dheyxs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_014",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of alkenes possible by dehydrobromination of 3-bromo-3-cyclopentylhexane using alcoholic KOH is _______.",
+    "solution": "(1) The structure of 3-bromo-3-cyclopentylhexane -\n\n[Diagram]\n\n(2) Since, bromide (Br$^{–}$) is a good leaving group,\nelimination using strong base takes place using\nstrong base (KOH) take via E$_{2}$ mechanism.\nThis is also called $$\\beta $$ elimination.\n\n(3) There are 3 different types of protons :\n\n[Diagram]\n\n[Diagram]\n\n(iv) The strong base abstracts $$\\beta $$ hydrogen (H$_{1}$ or H$_{2}$\nor H$_{3}$) with simultaneous loss of bromide ion\nforming an alkene. This alkene can exist in 2\nconformations, E and Z.\n\n(a) Elimination of H$_{1}$ proton :\n\n[Diagram]\n\nThis product can exist in 2\nconformations, E and Z.\n\n[Diagram]\n\n(b) Elimination of H$_{2}$ proton :\n\n[Diagram]\n\nSince, the groups about sp$^{2}$\nhybridised carbon\nof cyclopentane is fixed no E and Z forms\nare possible. This molecule has only one\nconformation.\n\n(c) Elimination of H$_{3}$ proton :\n\n[Diagram]\n\nThis product can exist in 2\nconformations, E and Z.\n\n[Diagram]\n\nHence, a total of 5 products are possible.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lh4qs3bh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_015",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product formed in the following reaction of\n\n[Diagram]",
+    "solution": "It is a case of Birch reduction. Alkynes on reaction with alkali metal in liq. NH$_{3}$ gives trans-alkene. But terminal\nalkynes do not get reduced.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_hydrocarbons_016",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product X is",
+    "solution": "The reactions involved are\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyk7dlyk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_017",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement with respect to product Y is",
+    "solution": "The sequence of reactions for formation of Y are\n\n[Diagram]\n\nAs it has a CH$_{3}$CO$$-$$group, it gives positive iodoform test and it is a functional isomer of X as only the functional groups are different.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "It gives a positive Tollens test and is a functional isomer of X.",
+      "It gives a positive Tollens test and is a geometrical isomer of X.",
+      "It gives a positive iodoform test and is a functional isomer of X.",
+      "It gives a positive iodoform test and is a geometrical isomer of X."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1841etw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_018",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In allene (C$_{3}$H$_{4}$), the type(s) of hybridisation of the carbon atoms is (are):",
+    "solution": "The structure of allene is CH$_{2}$ = C = CH$_{2}$ . Here both the terminal carbons are sp$^{2}$ hybridised while the central carbon is sp hybridised.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "sp and sp$^{3}$",
+      "sp and sp$^{2}$",
+      "only sp$^{3}$",
+      "sp$^{2}$ and sp$^{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m3cozumm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_019",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction is\n\n[Diagram]",
+    "solution": "In presence of mineral acid $\\mathrm{H}^{+}$(with no water) positively charged centre is generated at second position on the ring.\n\n[Diagram]\n\nSince, oxygen is electronegative, it shifts pi electron towards itself generating a carbocation which attack one lone pair of electron on oxygen of alcohol.\n\n[Diagram]\n\nLoss of proton $\\left(\\mathrm{H}^{+}\\right)$from oxygen generates acetal.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "a hemiacetal",
+      "an acetal",
+      "an ether",
+      "an ester"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m3cozumm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_020",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The synthesis of 3-octyne is achieved by adding a bromoalkane into a mixture of sodium amide and and alkyne",
+    "solution": "To get appropriate bromoalkane an alkyne that were involved in the synthesis, we have to cleave the molecule and we know that sodium amide is involved, so the synthesis of 3-octyne using the alkyne and bromoalkane was $\\mathrm{S}_{\\mathrm{N}}2$ reaction. And as the sodium amide is involved, the alkyne involved must be terminal then only it could abstract the acidic hydrogen 3-octyne is a molecule that will have eight carbon atoms in their parent chain since the prefix-oct represents 8 and as in the name it is given that 3 octyne, ' 3 ' represents the position of triple bond. Thus suffix-one represents triple bond.\n\nSo, in the molecule triple bond will be at the third carbon. Structure of 3-octyne :\n\n[Diagram]\n\nNow, cleave the molecule between $\\mathrm{C}_2-\\mathrm{C}_3$ or $\\mathrm{C}_4$ - $C_5$.\n\n[Diagram]\n\nNow, see the products formed if cleavage takes place between C$_{2}$-C$_{3}$, the reactants will be\n\n[Diagram]\n\nIf cleavage takes place between C$_{4}$-C$_{5}$, the reactants will be :\n\n[Diagram]\n\n**Then correct option is D.**\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "BrCH$_{2}$CH$_{2}$CH$_{2}$CH$_{2}$CH$_{3}$ and CH$_{2}$CH$_{2}$C $$\\equiv$$ CH",
+      "BrCH$_{2}$CH$_{2}$CH$_{3}$ and CH$_{3}$CH$_{2}$CH$_{2}$C $$\\equiv$$ CH",
+      "BrCH$_{2}$CH$_{2}$CH$_{2}$CH$_{2}$CH$_{3}$ and CH$_{3}$C $$\\equiv$$ CH",
+      "BrCH$_{2}$CH$_{2}$CH$_{2}$CH$_{3}$ and CH$_{3}$CH$_{2}$C $$\\equiv$$ CH"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyjxhfcr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_021",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction,\n\n[Diagram]\n\nThe structure of the major 'X' is",
+    "solution": "Concentrated HNO$$_3$$ and concentrated H$$_2$$SO$$_4$$ will cause nitration of the ring to introduce $$-$$NO$$_2$$ in one of the rings.\nThe ring which is adjacent to N atom is more electron rich than the other. This is due to +R effect of NH group.\nFurther, it will attack on more activated ortho or para positions. Since, ortho attack is not possible due to bulky ring present adjacent to it, there will be an attack on para position.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggmaon0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_022",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reagent(s) for the following conversion,\n\n[Diagram]",
+    "solution": "Alcoholic KOH helps in beta elimination in 1, 2-dibromoethane to form ethene.\n\n[Diagram]\n\nThe proton of ethene cannot be abstracted by a second molecule of ethene; hence, a much stronger base such as sodium amide is used to carry out another elimination to form ethyne.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "alcoholic KOH",
+      "alcoholic KOH followed by NaNH$$_2$$",
+      "aqueous KOH followed by NaNH$$_2$$",
+      "Zn/CH$$_3$$OH"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggmsydk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_023",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\begin{aligned} &\\mathrm{CH}_3-\\mathrm{CH}=\\mathrm{CH}_2+\\mathrm{NOCl} \\rightarrow \\mathrm{P}\\\\ &\\text { Identify the adduct. } \\end{aligned} $$",
+    "solution": "The propene on reaction with nitrosyl chloride, NOCl produces an adduct as shown below.\n\n[Diagram]\n\nThe propylene undergoes an electrophilic addition reaction, following the Markownikoff's rule.\nStep 1:\nDecomposition of nitrosyl chloride\n$$ \\mathrm{NOCl} \\rightleftharpoons \\mathrm{NO}^{+}+\\mathrm{Cl}^{-} $$\nStep 2:\nAddition of positive part of nitrosyl chloride on carbon atom of double bond containing highest number (2 degree carbocation) of hydrogen atoms. A stable intermediate is produced, during this slow step.\n\n[Diagram]\nStep 3:\nAddition of chloride ion on carbon atom of double bond containing least number of hydrogen atoms. The adduct is obtained during a very fast reaction.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtd2i1o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_024",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name of $\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COCl}$ is",
+    "solution": "$$ \\text { The structure of } \\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COCl} \\text { is shown below: } $$\n\n[Diagram]\nThe IUPAC name of the compound is benzene carbonyl chloride.\nThe compound is derived from benzoic acid, $\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COOH}$ by replacing - OH group by Cl group.\nThe $\\mathrm{C}_6 \\mathrm{H}_5$ group stands for benzene, CO group stands for carbonyl and Cl stands for chloride group. The functional group in the compound is carbonyl.\nThe complete name of the compound $\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COCl}$ is benzene carbonyl chloride.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Benzoyl chloride",
+      "Benzene chloroketone",
+      "Benzene carbonyl chloride",
+      "Chlorophenyl ketone"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtd84ih.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_025",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following transformations of a compound P.\n\n\n[Diagram]\n\n\nChoose the correct option(s).",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "P is\n\n\n[Diagram]",
+      "X is Pd-C/quinoline/H$_{2}$",
+      "P is\n\n\n[Diagram]",
+      "R is\n\n\n[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_hydrocarbons_026",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct option(s) that give(s) an aromatic compound as the major product.",
+    "solution": "[Diagram]\n\n\n(b) Benzene react with Cl$_{2}$ (excess) in presence of UV light and 500 K of temperature to form benzene hexachloride (non-aromatic).\n\n\n[Diagram]\n\n(c)\n[Diagram]\n\n(d)\n[Diagram]\n\n\nThus, (c) and (d) options are correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_hydrocarbons_027",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following reactions produce(s) propane as a major product?",
+    "solution": "The given reactions takes place as follows :\n\n\n[Diagram]\n\nThus, option (a, c) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtgtbwb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_028",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct option(s) for the following set of reactions.\n\n\n[Diagram]",
+    "solution": "The given road map problem is\n\n\n[Diagram]\n\n\nHence, options (c, d) are correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ltxrkcj4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_029",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following reaction(s), which gives(give) tert-butyl benzene as the major product is(are)",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ikw0gt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_030",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions, the product S is\n\n[Diagram]",
+    "solution": "The product S is\n\n[Diagram]\n\nIn this reaction, NH$_{3}$ chooses to attack at aliphatic aldehyde group than a less reactive aromatic aldehyde group. Now,\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wa0rhc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_031",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product U in the following reactions is\n\n[Diagram]",
+    "solution": "The reaction is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wg86h0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_032",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction, the major product is\n\n[Diagram]",
+    "solution": "1, 4-addition is the major product as it is the result of the formation of a stable allylic carbocation.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l14dxewb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_033",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among P, Q, R and S, the aromatic compound(s) is(are)\n\n[Diagram]",
+    "solution": "The reactions involved are\n(A)\n[Diagram]\n\n(B)\n[Diagram]\n\n(C) $${(N{H_4})_2}C{O_3}\\buildrel \\Delta \\over\n\\longrightarrow 2N{H_3} + C{O_2} + {H_2}O$$\n\n[Diagram]\n\n(D)\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1tvyz57.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_hydrocarbons_034",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "topic": "Hydrocarbons",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "[Diagram]\n$$ \\text { The major products } \\mathbf{P} \\text { and } \\mathbf{Q} \\text { are } $$",
+    "solution": "$$ \\text { The chemical reaction is given below. } $$\n\n[Diagram]\n$$ \\text { It is a two step reaction: } $$\nStep 1: Friedel Craft Alkylation\nThe product is P is formed by reaction between benzene and 1-chloropropane in presence of anhydrous $\\mathrm{AlCl}_3$.\n\n[Diagram]\nHence, product $P$ is cumene.\nStep 2: Cumene Hydroperoxide Rearrangement\nThe second step is oxidation of cumene to form Cumene hydroperoxide.\n\n[Diagram]\nThe cumene hydroperoxide on acidic hydrolysis produces phenol and acetone.\n[Diagram]\n\nOn hydrolysis cumene hydroperoxide rearranges to give phenol and acetone as final products.\nHence, the product $P$ is isopropyl benzene and Q is acetone with chemical formula $\\mathrm{CH}_3 \\mathrm{COCH}_3$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtn7vnm.png",
+      "position": "bottom"
+    }
+  }
+]

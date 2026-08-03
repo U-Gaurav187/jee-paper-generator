@@ -1,0 +1,772 @@
+[
+  {
+    "id": "phy_laws_of_motion_001",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A projectile of mass 200 g is launched in a viscous medium at an angle $60^{\\circ}$ with the horizontal, with an initial velocity of $270 \\mathrm{~m} / \\mathrm{s}$. It experiences a viscous drag force $\\vec{F}=-c \\vec{v}$ where the drag coefficient $c=0.1 \\mathrm{~kg} / \\mathrm{s}$ and $\\vec{v}$ is the instantaneous velocity of the projectile. The projectile hits a vertical wall after 2 s . Taking $e=2.7$, the horizontal distance of the wall from the point of projection (in m ) is ___________.",
+    "solution": "[Diagram]\n\n$$ \\vec{F}_{n e t}=m \\frac{d \\vec{v}}{d t} \\mathrm{m} \\overrightarrow{\\mathrm{~g}}+\\overrightarrow{\\mathrm{F}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} \\mathrm{m} \\overrightarrow{\\mathrm{~g}}-\\mathrm{C} \\overrightarrow{\\mathrm{v}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} $$\nHorizontal direction\n$$ -\\mathrm{Cv}_{\\mathrm{x}}=\\frac{\\mathrm{mdv}_{\\mathrm{x}}}{\\mathrm{dt}} $$\n$\\begin{aligned} & -\\frac{C}{m} \\int_0^t d t=\\int_{v_{0 x}}^{v_x} \\frac{d v_x}{v_x} \\\\ & -\\frac{t}{2}=\\ln \\frac{v_x}{v_{0 x}} \\\\ & \\frac{d x}{d t}=v_x=v_{0 x} e^{-t / 2} \\\\ & \\int_0^{s_x} d x=v_{0 x} \\int_0^t e^{-t / 2} d t \\\\ & S_x=2 v_{0 x}\\left(1-e^{-t / 2}\\right)\\end{aligned}$\nAt t = 2 sec\n$\\begin{aligned} & S_x=2 \\times 270 \\times \\cos 60^{\\circ}\\left[1-\\frac{1}{\\mathrm{e}}\\right] \\\\\\\\ & S_x=270\\left(1-\\frac{1}{2.7}\\right) \\\\\\\\ & =\\frac{270}{2.7} \\times(1.7) \\\\\\\\ & =170 \\mathrm{~m} \\\\\\\\ & S_x=170 \\mathrm{~m}\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mayym9b5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_002",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass $m$ is moving in the $x y$-plane such that its velocity at a point $(x, y)$ is given as $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$, where $\\alpha$ is a non-zero constant. What is the force $\\vec{F}$ acting on the particle?",
+    "solution": "Given :\n\n$ \\vec{v} = \\alpha(y \\hat{x} + 2x \\hat{y}) $\nFor the x-component, $ v_x = \\alpha y $ :\n\n$ \\frac{dv_x}{dt} = \\alpha \\frac{dy}{dt} = \\alpha v_y $\n\nGiven $ v_y = 2\\alpha x $ :\n\n$ \\frac{dv_x}{dt} = \\alpha (2\\alpha x) = 2\\alpha^2 x $\nFor the y-component, $ v_y = 2\\alpha x $ :\n\n$ \\frac{dv_y}{dt} = 2\\alpha \\frac{dx}{dt} = 2\\alpha v_x $\n\nGiven $ v_x = \\alpha y $ :\n\n$ \\frac{dv_y}{dt} = 2\\alpha (\\alpha y) = 2\\alpha^2 y $\nThus, combining the components :\n\n$ \\vec{a} = 2\\alpha^2 x \\hat{x} + 2\\alpha^2 y \\hat{y} $\nNow, the force acting on the particle is given by :\n\n$ \\vec{F} = m\\vec{a} $\n\n$ \\vec{F} = m\\alpha(2 \\alpha x \\hat{x} + 2 \\alpha y \\hat{y}) $\n\n$ \\vec{F} = m\\alpha^2(2x \\hat{x} + 2y \\hat{y}) $\nThis is equivalent to :\n\n$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $\nThe correct answer is Option A :\n\n$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\vec{F}=2 m \\alpha^2(x \\hat{x}+y \\hat{y})$",
+      "$\\vec{F}=m \\alpha^2(y \\hat{x}+2 x \\hat{y})$",
+      "$\\vec{F}=2 m \\alpha^2(y \\hat{x}+x \\hat{y})$",
+      "$\\vec{F}=m \\alpha^2(x \\hat{x}+2 y \\hat{y})$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_003",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 2M is attached to a massless spring with spring-constant k.This block is connected to two other blocks of masses M and 2M using two massless pulleys and strings. The accelerations of the blocks are a$_{1}$, a$_{2}$ and a$_{3}$ as shown in the figure. The system is released from rest with the spring in its unstretched state. The maximum extension of the spring is x$_{0}$. Which of the following option(s) is/are correct? [g is the acceleration due to gravity. Neglect friction]\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\nIn the frame of pulley B,\n\nthe hanging masses have accelerations :\n\n$$M \\to ({a_2} - {a_1})2M \\to ({a_3} - {a_1})$$ : downward.\n\n$$ \\therefore ({a_2} - {a_1})$$ = $$( - {a_3} - {a_1})$$ [constant]\n\nAssuming that the extension of the spring is x\n\nWe consider the FBD of A :\n\n$$2M.{{{d^2}x} \\over {d{t^2}}} = 2T - kx$$\n\n\n[Diagram]\n\n\nwhere, $${a_1} \\equiv {{{d^2}x} \\over {d{t^2}}}$$ ....(i)\n\nand the FBD of the rest of the system in the frame of pulley B :\n\n\n[Diagram]\n\n\nUpward acceleration of block M w.r.t. the pulley B = Downward acceleration of block 2M w.r.t. the pulley.\n\n$${{T - M(g - {a_1})} \\over M} = {{2M(g - {a_1}) - T} \\over {2M}} \\Rightarrow T = {{4M} \\over 3}(g - {a_1})$$ .....(ii)\n\nSubstituting in Eq. (i), we get\n\n$$2M.{a_1} = {{8M} \\over 3}(g - {a_1}) - kx$$\n\nor $${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - kx$$ ....(iii)\n\nThis is equation of SHM\n\nMaximum extension = 2 $$ \\times $$ amplitude\n\ni.e., $${x_0} = 2 \\times {{8Mg} \\over {3k}}$$\n\nAmplitude = $${{{x_0}} \\over 2} = {{3Mg} \\over {3k}}$$ and $$\\omega = \\sqrt {{{3k} \\over {14M}}} $$\n\nAt $${{{x_0}} \\over 4}$$, acceleration is easily found from Eq. (iii),\n\n$${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - {{4Mg} \\over 3}{a_1} = {{2g} \\over 7}$$\n\nAt $${{{x_0}} \\over 2}$$, speed of the block\n\n$$(2M) = \\omega \\times \\,amplitude$$\n\n= $$\\sqrt {{{3k} \\over {14M}}} \\times {{8Mg} \\over {3k}} \\therefore $$ option (a) is correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${a_2} - {a_1} = {a_1} - {a_3}$$",
+      "At an extension of $${{{x_0}} \\over 4}$$ of the spring, the magnitude of acceleration of the block connected to the spring is $${{3g} \\over {10}}$$.",
+      "$${x_0} = {{4Mg} \\over k}$$",
+      "When spring achieves an extension of $${{{x_0}} \\over 2}$$ for the first time, the speed of the block connected to the spring is $$3g\\sqrt {{M \\over {5k}}} $$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_004",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform rod of length L and density $$\\rho $$ is being pulled along a smooth floor with a horizontal acceleration $$\\alpha $$ (see Fig.). The magnitude of the stress at the transverse cross-secion through the mid-point of the rod is _________.\n\n[Diagram]",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9flavqy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_005",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A simple pendulum with a bob of mass m swings with an angular amplitude of $$40^\\circ $$. When its angular displacement is $$20^\\circ $$, the tension in the string is greater than mg cos$$20^\\circ $$.",
+    "solution": "When a simple pendulum swings, the tension in the string is not just balancing the component of the gravitational force but also provides the necessary centripetal force for the circular motion of the bob.\nForces Acting on the Pendulum Bob:\nAt any angular displacement $ \\theta $:\n\nGravitational Force ($ mg $): Acts downward.\nTension in the String ($ T $): Acts along the string towards the pivot.\nRadial Component of Gravitational Force: $ mg \\cos \\theta $\nTangential Component of Gravitational Force: $ mg \\sin \\theta $\n\nNet Radial Force:\nThe net radial force provides the centripetal acceleration required for circular motion:\n$ T - mg \\cos \\theta = m \\frac{v^2}{L} $\nWhere:\n\n$ T $ is the tension in the string,\n$ v $ is the speed of the bob at angle $ \\theta $,\n$ L $ is the length of the pendulum.\n\nCalculating the Speed $ v $ at $ \\theta = 20^\\circ $:\nUsing conservation of mechanical energy between the highest point ($ \\theta_{\\text{max}} = 40^\\circ $) and the point at $ \\theta = 20^\\circ $:\n\nPotential Energy at $ \\theta_{\\text{max}} $:\n$ U_{\\text{max}} = mgL (1 - \\cos 40^\\circ) $\nPotential Energy at $ \\theta = 20^\\circ $:\n$ U = mgL (1 - \\cos 20^\\circ) $\nKinetic Energy at $ \\theta = 20^\\circ $:\n$ K = \\frac{1}{2} m v^2 = U_{\\text{max}} - U $\n\nCompute the difference in potential energy:\n$ \\Delta U = mgL (\\cos 20^\\circ - \\cos 40^\\circ) $\nUsing known values:\n\n$ \\cos 20^\\circ \\approx 0.9397 $\n$ \\cos 40^\\circ \\approx 0.7660 $\n\nCalculate $ \\Delta U $:\n$ \\Delta U = mgL (0.9397 - 0.7660) = mgL (0.1737) $\nSet $ \\Delta U = \\frac{1}{2} m v^2 $ and solve for $ v^2 $:\n$ \\frac{1}{2} m v^2 = mgL (0.1737) \\implies v^2 = 2gL (0.1737) $\nCalculating the Centripetal Acceleration:\n$ a_{\\text{centripetal}} = \\frac{v^2}{L} = \\frac{2gL (0.1737)}{L} = 2g (0.1737) = 0.3474g $\nCalculating the Tension $ T $:\n$ T = mg \\cos \\theta + m a_{\\text{centripetal}} = mg \\cos 20^\\circ + m (0.3474g) $\nPlugging in $ \\cos 20^\\circ $:\n$ T = mg (0.9397) + m (0.3474g) = mg (0.9397 + 0.3474) = mg (1.2871) $\nConclusion:\n\nThe tension $ T $ is greater than $ mg \\cos 20^\\circ $ because it includes the additional centripetal force component.\nTherefore, at an angular displacement of $ 20^\\circ $, the tension in the string is indeed greater than $ mg \\cos 20^\\circ $.\n\nTherefore, the statement is TRUE.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_006",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A horizontal uniform rope of length L, resting on a frictionless horizontal surface, is pulled at one end by force F. What is the tension in the rope at a distance $$l$$ from the end where the force is applied?",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_007",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, 0.5 s after the splitting. The other part, t seconds after splitting, falls to the ground at a distance x meters from the point O. The acceleration due to gravity g = 10 m/s$^{2}$.\n\nThe value of t is _____________.",
+    "solution": "[Diagram]\n\nRange, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m\n\nTime of flight, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s\n\n[Diagram]\n\n[Diagram]\n\nBoth particle have no vertical velocity after splitting so both will take same time to reach the ground.\n\n$$\\because$$ Time of motion of one part falling vertically downwards is 0.5 s\n\n$$\\Rightarrow$$ Time of motion of another part, $$t = 0.5$$ s",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx2rqqvy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_008",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, 0.5 s after the splitting. The other part, t seconds after splitting, falls to the ground at a distance x meters from the point O. The acceleration due to gravity g = 10 m/s$^{2}$.\n\nThe value of x is _______________.",
+    "solution": "[Diagram]\n\nRange, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m\n\nTime of flight, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s\n\n[Diagram]\n\n[Diagram]\n\nBoth particle have no vertical velocity after splitting so both will take same time to reach the ground.\n\n$$\\because$$ Time of motion of one part falling vertically downwards is 0.5 s\n\n$$\\Rightarrow$$ Time of motion of another part, $$t = 0.5$$ s\n\nFrom momentum conservation, p$_{i}$ = p$_{f}$\n\n2m $$\\times$$ 5 = m $$\\times$$ v\n\nv = 10 m/s\n\nDisplacement of other part in 0.5 s in horizontal direction,\n\n$$ = v\\left( {{T \\over 2}} \\right) = 10 \\times 0.5 = 5$$ m = R\n\n$$\\therefore$$ Total distance of second part from point O is $$x = {{3R} \\over 2} = 3 \\times {5 \\over 2} \\Rightarrow $$ x = 7.5 m",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx2rqqvy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_009",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Put a uniform meter scale horizontally on your extended index fingers with the left one at 0.00 cm\nand the right one at 90.00 cm. When you attempt to move both the fingers slowly towards the center,\ninitially only the left finger slips with respect to the scale and the right finger does not. After some\ndistance, the left finger stops and the right one starts slipping. Then the right finger stops at a distance\nx$_{R}$ from the center (50.00 cm) of the scale and the left one starts slipping again. This happens\nbecause of the difference in the frictional forces on the two fingers. If the coefficients of static and\ndynamic friction between the fingers and the scale are 0.40 and 0.32, respectively, the value of x$_{R}$ (in\ncm) is ______.",
+    "solution": "[Diagram]\n\n\nHere, $$\\mu $$$_{s}$ = 0.40, $$\\mu $$$_{k}$ = 0.32\n\n$$ \\because \\mu $$$_{k}$N$_{3}$ = $$\\mu $$$_{s}$N$_{4}$\n\nand x$_{1}$N$_{3}$ = 40 $$ \\times $$ N$_{4}$\n\nSo, $${{{\\mu _k}} \\over {{x_1}}} = {{{\\mu _s}} \\over {40}} \\Rightarrow {{0.32} \\over {{x_1}}} = {{0.4} \\over {40}} \\Rightarrow {{0.32} \\over {{x_1}}} = {1 \\over {100}} \\Rightarrow {x_1} = 32$$ cm\n\n\n[Diagram]\n\n\n$${{{\\mu _s}{N_5}} \\over {{x_1}{N_5}}} = {{{\\mu _s}{N_6}} \\over {{x_g}{N_6}}} \\Rightarrow {{0.40} \\over {10 \\times 32}} \\times {{0.32} \\over {{x_g}}} \\Rightarrow {x_g} = 25.6$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_010",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid horizontal surface is covered with a thin layer of oil. A rectangular block of mass $$m=0.4kg$$ is at rest on this surface. An impulse of $$1.0Ns$$ is applied to the block at time $$t=0$$ so that it starts moving along the $$x$$-axis with a velocity $$v\\left( t \\right) = {v_0}{e^{ - t/\\tau }},$$ where $${v_0}$$ is a constant and $$\\tau = 4s.$$ The displacement of the block, in *metres,* at $$t = \\tau $$ is ______________ Take $${e^{ - 1}} = 0.37.$$",
+    "solution": "The block was initially at rest and its velocity just after the application of impulse is $$v(0) = {v_0}{e^{ - 0/\\tau }} = {v_0}$$. The applied impulse is equal to the change in linear momentum of the block i.e., J = mv$_{0}$, which gives\nv$_{0}$ = J/m = 1/0.4 = 2.5 m/s.\n\n[Diagram]\n\nThe velocity of the particle is given as\n$$v(t) = {v_0}{e^{ - t/\\tau }}$$.\nIntegrate to get the displacement\n$$x(t) = \\int_0^t {{v_0}{e^{ - t/\\tau }}dt = {v_0}\\tau (} 1 - {e^{ - t/\\tau }})$$.\nSubstitute t = $$\\tau$$ = 4 s and v$_{0}$ = 2.5 m/s to get x($$\\tau$$) = (2.5) (4) (1 $$-$$ e$^{$$-$$1}$) = 6.3 m.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzwlzd8v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_011",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block is moving on an inclined plane making an angle $$45^\\circ $$ with the horizontal and the coefficient of friction is $$\\mu $$. The force required to just push it up the inclined plane is 3 times the force required to just\nprevent it from sliding down. If we define N = 10 $$\\mu $$, then N is",
+    "solution": "[Diagram]\n\nThe pushing force $${F_1} = mg\\sin \\theta + f\\therefore{F_1} = mg\\sin \\theta + \\mu mg\\cos \\theta = mg(\\sin \\theta + \\mu \\cos \\theta )$$\nThe force required to just prevent it from sliding down\n$${F_2} = mg\\sin \\theta - \\mu N = mg(\\sin \\theta - \\mu \\cos \\theta )$$\nGiven, $${F_1} = 3{F_2}\\therefore\\sin \\theta + \\mu \\cos \\theta = 3(\\sin \\theta - \\mu \\cos \\theta )\\therefore1 + \\mu = 3(1 - \\mu )$$ [$$\\because\\sin \\theta = \\mu \\cos \\theta $$]\n$$\\therefore4\\mu = 2\\therefore\\mu = 0.5\\thereforeN = 10\\mu = 5$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4i9qhdx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_012",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circular disc with a groove along its diameter is placed horizontally. A block of mass 1 kg is placed as shown. The coefficient of friction between the block and all surfaces of groove in contact is $\\mu=\\frac{2}{5}$. The disc has an acceleration of $25 \\mathrm{~m} / \\mathrm{s}^2$. Find the acceleration of the block with respect to disc.\n\n[Diagram]",
+    "solution": "Horizontal disc has a normal reaction $N_1=m g$. The normal reaction $\\mathrm{N}_2=m g \\sin \\theta$. acceleration of the man with respect to the disc is $a^{\\prime}$.\n$$ \\begin{aligned} a^{\\prime} & =\\frac{\\mathrm{R}}{m}=a \\cos \\theta-\\mu_k \\mathrm{~g}-\\mu_k a \\sin \\theta \\\\ a^{\\prime} & =25\\left(\\frac{4}{5}\\right)-\\left(\\frac{2}{5}\\right)(10)-\\left(\\frac{2}{5}\\right)(25)\\left(\\frac{3}{5}\\right) \\\\ a^{\\prime} & =20-4-6 \\\\ a^{\\prime} & =10 \\mathrm{~m} / \\mathrm{s}^2 \\end{aligned} $$\nOR\nMethod (II)\nNormal reaction in vertical direction $\\mathrm{N}_1=m g$\n$\\Rightarrow$ Normal reaction from side to the groove\n$$ \\mathrm{N}_2=\\mathrm{ma} \\sin 37^{\\circ} $$\nTherefore, acceleration of block with respect to disc.\n$$ \\begin{aligned} a r & =\\frac{m a \\cos 37^{\\circ}-\\mu \\mathrm{N}_1-\\mu \\mathrm{N}_2}{m} \\\\ & =\\frac{m a \\cos 37^{\\circ}-\\mu m g-\\mu m a \\sin 37^{\\circ}}{m} \\\\ a r & =\\frac{1 \\times 25 \\times \\frac{4}{5}-\\frac{2}{5} \\times 1 \\times 10-\\frac{2}{5} \\times \\frac{3}{5} \\times 1 \\times 25}{1} \\\\ a r & =20-4-6 \\\\ a r & =10 \\mathrm{~m} / \\mathrm{s}^2 . \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt4nt43.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_013",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A football of radius R is kept on a hole of radius r (r < R) made on a plank kept horizontally. One\nend of the plank is now lifted so that it gets tilted making an angle $$\\theta $$ from the horizontal as shown in\nthe figure below. The maximum value of $$\\theta $$ so that the football does not start rolling down the plank\nsatisfies (figure is schematic and not drawn to scale)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nFor $$\\theta $$$_{max}$, the football is about to roll, then N$_{2}$ = 0 and all the forces (mg and N$_{1}$) must pass through contact point.\n\n$$ \\therefore \\cos (90^\\circ - {\\theta _{\\max }}) = {r \\over R} \\Rightarrow \\sin {\\theta _{\\max }} = {r \\over R}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "sin $$\\theta $$ = $${r \\over R}$$",
+      "tan $$\\theta $$ = $${r \\over R}$$",
+      "sin $$\\theta $$ = $${r \\over {2R}}$$",
+      "cos $$\\theta $$ = $${r \\over {2R}}$$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_014",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wire, which passes through the hole in a small bead, is bent in the form of quarter of a circle. The wire is fixed vertically on ground as shown in the below figure. The bead is released from near the top of the wire and it slides along the wire without friction. As the bead moves from A to B, the force it applies on the wire is\n\n[Diagram]",
+    "solution": "Let v be speed of the bead when it makes an angle $$\\theta$$ with the vertical direction.\n\n[Diagram]\n\nThe forces acting on the bead are its weight mg and normal reaction N. Since all the forces acting on the bead are conservative, the mechanical energy of the bead is conserved i.e.,\n$$mgr(1 - \\cos \\theta ) = {1 \\over 2}m{v^2}$$ ..... (1)\nThe radially inward components of force provide centripetal acceleration to the bead i.e.,\n$$mg\\cos \\theta - N = m{v^2}/r$$ ...... (2)\nEliminate v$^{2}$ from equations (1) and (2) to get\n$$N = mg(3\\cos \\theta - 2)$$ ...... (3)\nWhen 3cos$$\\theta$$ > 2, direction of N will be same as shown in figure, i.e., radially outward.\nWhen 3cos$$\\theta$$ < 2, direction of N will be radially inward. Now, normal on the bead is opposite to the force applied on the wire by the bead, following Newton's third law. Therefore, the force applied on the bead by the wire is radially inwards initially and radially outwards later, as it moves from A to B.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "always radially outwards.",
+      "always radially inwards.",
+      "radially outwards initially and radially inwards later.",
+      "radially inwards initially and radially outwards later."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17p7vc6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_015",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass m$_{1}$ = 1 kg another mass m$_{2}$ = 2 kg, are placed together (see figure) on an inclined plane with angle of inclination $$\\theta$$. Various values of $$\\theta$$ are given in List I. The coefficient of friction between the block m$_{1}$ and the plane is always zero. The coefficient of static and dynamic friction between the block m$_{2}$ and the plane are equal to $$\\mu$$ = 0.3. In List II expressions for the friction on the block m$_{2}$ are given. Match the correct expression of the friction in List II with the angles given in List I, and choose the correct option. The acceleration due to gravity is denoted by g.\n[Useful information : tan (5.5$$^\\circ$$) $$\\approx$$ 0.1; tan (11.5$$^\\circ$$) $$\\approx$$ 0.2; tan (16.5$$^\\circ$$) $$\\approx$$ 0.3]\n\n[Diagram]\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList I\n\nList II\n\n\n\n\nP.\n$$\\theta = 5^\\circ $$\n\n1.\n$${m_2}g\\sin \\theta $$\n\n\n\nQ.\n$$\\theta = 10^\\circ $$\n\n2.\n$$({m_1} + {m_2})g\\sin \\theta $$\n\n\n\nR.\n$$\\theta = 15^\\circ $$\n\n3.\n$$\\mu {m_2}g\\cos \\theta $$\n\n\n\nS.\n$$\\theta = 20^\\circ $$\n\n4.\n$$\\mu ({m_1} + {m_2})g\\cos \\theta $$",
+    "solution": "The forces on the block of mass m$_{1}$ are its weight m$_{1}$g, normal reaction from the inclined plane N$_{1}$, and the reaction from the second block R.\n\n[Diagram]\n\nSimilarly, forces on the block of mass m$_{2}$ are m$_{2}$g, N$_{2}$, R, and the frictional force f. If $$\\theta$$ is slowly increased, f starts increasing and attains its maximum value f = $$\\mu$$N$_{2}$ at $$\\theta$$ = $$\\theta$$$_{r}$ (angle of repose). The blocks are stationary if $$\\theta\\le\\theta$$$_{r}$ otherwise they are moving. Consider the limiting case, $$\\theta$$ = $$\\theta$$$_{r}$, when the blocks are at rest and\n$$f = \\mu {N_2}$$ ...... (1)\nApply Newton's second law to m$_{1}$,\n$$R = {m_1}g\\sin \\theta $$ ....... (2)\n$${N_1} = R = {m_2}g\\cos \\theta $$ ....... (3)\nand to m$_{2}$,\n$$f = R + {m_2}g\\sin \\theta $$ ...... (4)\n$${N_2} = {m_1}g\\cos \\theta $$ ...... (5)\nEliminate R, N$_{2}$ and f from equations (1)-(5) to get\n$${\\theta _r} = {\\tan ^{ - 1}}\\left( {{{\\mu {m_2}} \\over {{m_1} + {m_2}}}} \\right) = {\\tan ^{ - 1}}\\left( {{{0.3 \\times 2} \\over {1 + 2}}} \\right) = {\\tan ^{ - 1}}(0.2) = 11.5^\\circ $$\nThus, for $$\\theta$$ = 5$$^\\circ$$ and $$\\theta$$ = 10$$^\\circ$$, blocks are at rest with frictional force\n$$f = R + {m_2}g\\sin \\theta = ({m_1} + {m_2})g\\sin \\theta $$\nFor $$\\theta$$ = 15$$^\\circ$$ and $$\\theta$$ = 20$$^\\circ$$, blocks are moving with frictional force\n$$f = \\mu {N_2} = \\mu {m_2}g\\cos \\theta $$, (limiting value).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P-1, Q-1, R-1, S-3",
+      "P-2, Q-2, R-2, S-3",
+      "P-2, Q-2, R-2, S-4",
+      "P-2, Q-2, R-3, S-3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17q9err.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_016",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ball of mass (m) 0.5 kg is attached to the end of a string having length (L) 0.5 m. The ball is rotated on a horizontal circular path about vertical axis. The maximum tension that the string can bear is 324 N. The\nmaximum possible value of angular velocity of ball (in radian/s) is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nResolve T along the horizontal and the vertical directions. As the particle moves in a horizontal plane, net vertical fore on it is zero. Net horizontal force on it provides the necessary centripetal acceleration for circular motion. Apply Netwon's second law in the horizontal direction to get\n$$T\\sin \\theta = m{\\omega ^2}r = m{\\omega ^2}(l\\sin \\theta )T = m{\\omega ^2}l\\omega = \\sqrt {{T \\over {ml}}} $$\nSubstituting the given values, we get\n$$\\omega = \\sqrt {{{324} \\over {0.5 \\times 0.5}}} = 36$$ rad/s",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "9",
+      "18",
+      "27",
+      "36"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2jfavhk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_017",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass m is on an inclined plane of angle θ. The coefficient of\nfriction between the block and the plane is μ and tan θ > μ. The block is held\nstationary by applying a force P parallel to the plane. The direction of force\npointing up the plane is taken to be positive. As P is varied from P$_{1}$ =\nmg(sinθ − μ cosθ) to P$_{2}$ = mg(sinθ + μ cosθ), the frictional force f versus P\ngraph will look like\n\n[Diagram]",
+    "solution": "The forces acting on the block are its weight mg, normal reaction N, applied force P and frictional force f.\n\n[Diagram]\n\nResolve mg along and normal to the inclined plane and apply Newton's second law to get\n$$0 = P + f - mg\\sin \\theta $$,\nwhich gives\n$$f = - P + mg\\sin \\theta $$. ...... (1)\nThis is a straight line with slope $$-$$1. Substitute the values of P$_{1}$ and P$_{2}$ in equation (1) to get the frictional force at those points i.e.,\n$${f_1} = \\mu mg\\cos \\theta $$ and $${f_2} = - \\mu mg\\cos \\theta $$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2y4pny4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_018",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A piece of wire is bent in the shape of a parabola y = kx$^{2}$ (y-axis vertical) with a bead of mass m on it. The bead can slide on the wire without friction. It stays at the lowest point of the parabola when the wire is at rest. The wire is now accelerated parallel to the x-axis with a constant acceleration $$a$$. The distance of the\nnew equilibrium position of the bead, where the bead can stays at rest with respect to the wire, from the y-axis is",
+    "solution": "While the parabola is moving right side, the bead experiences a force with a magnitude $$ma$$ to the left. That is, at equilibrium,\n$$N\\cos \\theta = mgN\\sin \\theta = ma$$\nNow, $$\\tan \\theta = {a \\over g}$$\nAlso, $$\\tan \\theta = {{dy} \\over {dx}} = 2kx \\Rightarrow x = {a \\over {2gk}}$$\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${a \\over {gk}}$$",
+      "$${a \\over {2gk}}$$",
+      "$${{2a} \\over {gk}}$$",
+      "$${a \\over {4gk}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft3r5as.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_019",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of base 10 cm × 10 cm and height 15 cm is kept on an inclined plane. The coefficient of friction\nbetween them is $$\\sqrt 3 $$. The inclination θ of this inclined plane from the horizontal plane is gradually\nincreased from $$0^\\circ $$. Then",
+    "solution": "The block slides on the incline when\n$$mg\\sin \\theta \\ge \\mu mg\\cos \\theta \\Rightarrow \\tan \\theta \\ge \\mu \\Rightarrow \\tan \\theta \\ge \\sqrt 3 = 1.732$$\n\n[Diagram]\n\nFor the block to topple, we have\n$$f\\left( {{{15} \\over 2}} \\right) \\ge N(5)$$ (about centre of mass)\n$$ \\Rightarrow \\mu N\\left( {{{15} \\over 2}} \\right) \\ge N(5) \\Rightarrow \\mu \\ge {2 \\over 3} = 0.67$$\nor $$\\tan \\theta \\ge 0.67$$\nThat is, the block neither slides nor topples till $$\\theta \\le {\\tan ^{ - 1}}(0.67)$$ (i.e. it remains at rest) and on exceeding this, it topples first before sliding.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "at θ = $$60^\\circ $$, the block will start sliding down the plane",
+      "the block will remain at rest on the plane up to certain θ and then it will topple",
+      "at θ = $$60^\\circ $$, the block will start sliding down the plane and continue to do so at higher angles",
+      "at θ = $$60^\\circ $$, the block will start sliding down the plane and on further increasing θ, it will topple at certain θ"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrltdzj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_020",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT 1 : It is easier to pull a heavy object than to push it on a level ground.\nand\nSTATEMENT 2 : The magnitude of frictional force depends on the nature of the two surfaces in contact.",
+    "solution": "**Case I : Free body diagram.**\n\n[Diagram]\n\nFrictional force ($$fr$$) = $$\\mu$$N\nNormal force (N) = N$$_1$$ + $$mg$$\nFrictional force ($$fr$$)$$_\\mathrm{I}$$ = $$\\mu$$(N$$_1$$ + $$mg$$) ..... (i)\nWhere N = Normal force\n$$\\mu$$ = Coefficient of friction\n$$m$$ = mass of object\n$$g$$ = acc. due to gravity\nN$$_1$$ = Normal force i.e., vertical component of force due to push.\nN$$_2$$ = Parallel component of force due to push.\n**Case II : Free body diagram (Pull)**\n\n[Diagram]\n\nFor balancing the force,\nN = N$$_1-mg$$\nFrictional force $$(fr)_\\mathrm{II}$$ = $$\\mu$$N ..... (ii)\nFrom eq. (i) and (ii)\n$$(fr)_\\mathrm{I}$$ > $$(fr)_\\mathrm{II}$$\nIn case of pull, it is easy to move object.\nStatement 1 is true. Statement 2 is true.\n\n[Diagram]\n\nForce of friction depends on roughness of two surfaces in contact. If roughness will increase, the force of friction will also increase.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmqiidb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_021",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The speed of the block at point B immediately after it strikes the second incline is",
+    "solution": "Velocity along the plane just before collision,\n$${v^2} - {u^2} = 2gs \\Rightarrow v = \\sqrt {2g \\times 3} = \\sqrt {60} \\,m/s$$\nVelocity along the plane just after collision\n$${v_B} - v\\cos 30 = \\sqrt {45} \\,m{s^{ - 1}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\sqrt{60}$$ m/s",
+      "$$\\sqrt{45}$$ m/s",
+      "$$\\sqrt{30}$$ m/s",
+      "$$\\sqrt{75}$$ m/s"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgl79uib.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_022",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The speed of the block at point C, immediately before it leaves the second incline is",
+    "solution": "$$v_C^2 - v_B^2 = 2asv_C^2 - 45 = 2 \\times 10 \\times 3{v_c} = \\sqrt {60 + 45} = \\sqrt {105} \\,m{s^{ - 1}}$$ is the velocity of block just before leaving incline.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\sqrt{120}$$ m/s",
+      "$$\\sqrt{105}$$ m/s",
+      "$$\\sqrt{90}$$ m/s",
+      "$$\\sqrt{75}$$ m/s"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgl79uib.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_023",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle moves in the X - Y plane under the influence of a force such that its linear momentum is $$\\overrightarrow p \\left( t \\right) = A\\left[ {\\widehat i\\cos (kt) - \\widehat j\\sin (kt)} \\right]$$, where A and k are constants. The angle between the force and the momentum is",
+    "solution": "Given that,\n$$\\overrightarrow{\\mathrm{P}}(t)=\\mathrm{A}[\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t)]$$\nwhere, $$\\mathrm{A}$$ and $$k=$$ constant\n$$\\begin{aligned}\\text { Force }\\overrightarrow{\\mathrm{F}}) & =\\frac{d \\overrightarrow{\\mathrm{P}}}{d t}\\left(\\text { from Newton's } 2^{\\text {nd }}\\right. \\text { law) } \\\\\\\\\n\\Rightarrow \\quad \\overrightarrow{\\mathrm{F}} & =\\frac{d}{d t}[\\mathrm{~A}(\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t))] \\\\\\\\& =\\mathrm{A} k[\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t)]\\end{aligned}$$\nBy applying dot product between $$\\vec{F} \\& \\vec{P}$$ we have\n$$\\begin{aligned}& \\overrightarrow{\\mathrm{F}} \\cdot \\overrightarrow{\\mathrm{P}}=0 \\\\\\\\\n& \\Rightarrow|\\vec{F}||\\vec{P}| \\cos \\theta=0 \\\\\\\\\n& \\Rightarrow \\quad \\cos \\theta=0 \\\\\\\\\n& \\text {Hence,} \\theta=90^{\\circ}\\end{aligned}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$0^\\circ $$",
+      "$$30^\\circ $$",
+      "$$45^\\circ $$",
+      "$$90^\\circ $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcb829.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_024",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT 1\nA cloth covers a table. Some dishes are kept on it. The cloth can be pulled out without dislodging the dishes from the table.\nSTATEMENT 2\nFor every action there is an equal and opposite reaction.",
+    "solution": "Statement 1 : Cloth can be pulled out without dislodging the dishes from the table because of inertia. Therefore, statement 1 true.\nStatement 2 : This is Newton's third law and hence true. But statement 2 is not a correct explanation of statement 1 .",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1s.",
+      "Statement-1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcb829.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_025",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two particles of mass m each are tied at the ends of a light string of length 2a. The whole system is kept on a frictionless horizontal surface with the string held tight so that each mass is at a distance 'a' form the centre P (as shown in the figure). Now, the mid-point of the string is pulled vertically upwards with a small but constant force F. As a result, the particles move towards each other on the surface. The magnitude of acceleration, with the separation between them becomes 2x, is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nThe acceleration of mass 'm' is due to the force $$T\\cos \\theta $$, from 2$^{nd}$ law of motion we have,\n$$T\\cos \\theta = ma \\Rightarrow a = {{T\\cos \\theta } \\over m}$$ ..... (i)\nand also, $$F = 2T\\sin \\theta \\Rightarrow T = {F \\over {2\\sin \\theta }}$$ ..... (ii)\nFrom (i) & (ii), we have,\n$$a = \\left( {{F \\over {2\\sin \\theta }}} \\right)\\,.\\,{{\\cos \\theta } \\over m}a = {F \\over {2m\\tan \\theta }}$$\n\n[Diagram]\n\n$$\\thereforea = {F \\over {2m{{\\sqrt {{a^2} - {x^2}} } \\over x}}}\\thereforea = {F \\over {2m}}\\,.\\,{x \\over {\\sqrt {{a^2} - {x^2}} }}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${F \\over {2m}}{a \\over {\\sqrt {{a^2} - {x^2}} }}$$",
+      "$${F \\over {2m}}{x \\over {\\sqrt {{a^2} - {x^2}} }}$$",
+      "$${F \\over {2m}}{x \\over a}$$",
+      "$${F \\over {2m}}{{\\sqrt {{a^2} - {x^2}} } \\over x}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcb829.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_026",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two blocks A and B of masses $2 m$ and $m$, respectively, are connected by a massless and inextensible string. The whole system is suspended by a massless spring as shown in the figure. The magnitudes of acceleration of A and B, immediately after the string is cut, are respectively,\n[Diagram]",
+    "solution": "Two blocks A and B of mass 2 m and m respectively are connected by a massless and in extensible string.\n[Diagram]\n\nThe equilibrium condition FBD of 2 m\n$$ k x=\\mathrm{T}+2 m g=m g+2 m g=3 m g $$\nAfter the string is cut.\n$$ \\mathrm{T}=0 $$\nFBD of $2 m, a_2=\\frac{3 m g-2 m g}{2 m}=\\frac{m g}{2 m}=\\frac{g}{2}$\nFBD of $m, m a_1=m g=\\mathrm{T}$\n$$ \\therefore a_1=g $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$g, g / 2$",
+      "$g / 2, g$",
+      "$g, g$",
+      "$\\frac{g}{2}, \\frac{g}{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt0t0og.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_027",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain in equilibrium, the angle $$\\theta $$ should be\n\n[Diagram]",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$0^\\circ $$",
+      "$$30^\\circ $$",
+      "$$45^\\circ $$",
+      "$$60^\\circ $$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_028",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 0.1 is held against a wall applying a horizontal force of 5 N on the block. If the coefficient of friction between the block and the wall is 0.5, the magnitude of the frictional force acting on the block is:",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2.5 N",
+      "0.98 N",
+      "4.9 N",
+      "0.49 N"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_029",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 2 kg rests on a rough inclined plane making an angle of $$30^\\circ $$ with the horizontal. The coefficient of static friction between the block and the plane is 0.7. The frictional force on the block is",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "9.8 N",
+      "0.7$$ \\times $$9.8$$ \\times \\sqrt 3 $$ N",
+      "9.8$$ \\times \\sqrt 3 $$ N",
+      "0.7$$ \\times $$9.8"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_030",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ship of mass 3 $$ \\times $$ 10$^{7}$ kg initially at rest, is pulled by a force of 5 $$ \\times $$ 10$^{4}$ N through a distance of 3 m. Assuming that the resistance due to water is negligible, the speed of the ship is",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1.5 m/s",
+      "60 m/s",
+      "0.1 m/s",
+      "5 m/s"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_031",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the figure, a ladder of mass m is shown leaning against a wall. It is in static equilibrium making an angle $$\\theta$$ with the horizontal floor. The coefficient of friction between the wall and the ladder is $$\\mu$$$_{1}$ and that between the floor and the ladder is $$\\mu$$$_{2}$. The normal reaction of the wall on the ladder is N$_{1}$ and that of the floor is N$_{2}$. If the ladder is about to slip, then\n\n\n[Diagram]",
+    "solution": "As the rod is about to slip, wall and floor exert limiting friction on the ladder.\n\n[Diagram]\n\nCase 1 : If $$\\mu$$$_{1}$ = 0, $$\\sum {{{\\overrightarrow \\tau }_A} = \\overrightarrow 0 } mg\\left( {{l \\over 2}\\cos \\theta } \\right) = {N_1}(l\\sin \\theta ){N_1} = {{mg\\cot \\theta } \\over 2}$$\n\nor $${N_1}\\tan \\theta = {{mg} \\over 2}$$\n\nand $${N_2} = mg$$\n\nCase 2 : If $$\\mu$$$_{2}$ = 0, N$_{1}$ remain unbalanced and rod can never be in equilibrium.\n\nCase 3 : If $$\\mu$$$_{1}$ $$\ne$$ 0, $$\\mu$$$_{2}$ $$\ne$$ 0\n\n$${N_1} = {f_2} = {\\mu _2}{N_2}{N_2} + {f_1} = mg$$\n\nor $${N_2} + {\\mu _1}{N_1} = mg$$\n\nor $${N_2} + {\\mu _1}({\\mu _2}{N_2}) = mg$$\n\nor $${N_2} = {{mg} \\over {1 + {\\mu _1}{\\mu _2}}}$$",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\mu$$$_{1}$ = 0, $$\\mu$$$_{2}$ $$\ne$$ 0 and $${N_2}\\tan \\theta = {{mg} \\over 2}$$",
+      "$$\\mu$$$_{1}$ $$\ne$$ 0, $$\\mu$$$_{2}$ = 0 and $${N_1}\\tan \\theta = {{mg} \\over 2}$$",
+      "$$\\mu$$$_{1}$ $$\ne$$ 0, $$\\mu$$$_{2}$ $$\ne$$ 0 and $${N_2} = {{mg} \\over {1 + {\\mu _1}{\\mu _2}}}$$",
+      "$$\\mu$$$_{1}$ = 0, $$\\mu$$$_{2}$ $$\ne$$ 0 and $${N_1}\\tan \\theta = {{mg} \\over 2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4k4daf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_032",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small block of mass 0.1 kg lies on a fixed inclined plane PQ which makes an angle $$\\theta$$ with the horizontal. A horizontal force of 1 N acts on the block through its centre of mass as shown in the figure. The block remains stationary if (take g = 10 m/s$^{2}$)\n\n[Diagram]",
+    "solution": "The forces acting on the block are F = 1 N towards the left, weight mg = 0.1 $$\\times$$ 10 = 1 N downwards, normal force N, and the frictional force f. Resolve F and mg along and perpendicular to the inclined plane.\n\n[Diagram]\n\nWhen $$\\theta$$ = 45$$^\\circ$$, the net force that brings the block down is\n$${F_d} = mg\\sin \\theta - F\\cos \\theta = {1 \\over {\\sqrt 2 }} - {1 \\over {\\sqrt 2 }} = 0$$.\nThus, the block is stationary if $$\\theta = 45^\\circ $$. When $$\\theta > 45^\\circ $$, the force $${F_d} > 0$$, and hence the block has a tendency to move down. Thus, the frictional force f acts on the block upwards i.e., towards Q.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\theta$$ = 45$$^\\circ$$",
+      "$$\\theta$$ > 45$$^\\circ$$ and a frictional force ats on the block towards P.",
+      "$$\\theta$$ > 45$$^\\circ$$ and a frictional force ats on the block towards Q.",
+      "$$\\theta$$ < 45$$^\\circ$$ and a frictional force ats on the block towards Q."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kzzlz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_laws_of_motion_033",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A reference frame attached to the earth",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "is an inertial frame by definition",
+      "cannot be an inertial frame because the earth is revolving around the sun",
+      "is an inertial frame because Newton's laws are applicable in this frame",
+      "cannot be an inertial frame because the earth rotating about its own axis"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_034",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A simple pendulum of length L and mass (bob) M is oscillating in a plane about a vertical line between angular limit $$ - \\phi $$ and $$ + \\phi $$. For an angular displacement $$\\theta \\left( {\\left| \\theta \\right| < \\phi } \\right)$$, the tension in the string and the velocity of the bob are T and V respectively. The following relations hold good under the above conditions:",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$T\\cos \\theta = Mg$$",
+      "$$T - Mg\\cos \\theta = {{M{V^2}} \\over L}$$",
+      "The magnitude of the tangential acceleration of the bob $$\\left| {{a_T}} \\right| = g\\sin \\theta $$",
+      "$$T = Mg\\cos \\theta $$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_035",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the arrangement shown in Fig. the ends P and Q of an unstretchable string move downwards with uniform speed U. Pulleys A and B are fixed.\n\nMass M moves upwards with a speed\n\n[Diagram]",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$2U\\cos \\theta $$",
+      "$${U \\over {\\cos \\theta }}$$",
+      "$${{2U} \\over {\\cos \\theta }}$$",
+      "$$U\\cos \\theta $$"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_036",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 1 kg lies on a horizontal surface in a truck. The coefficient of static friction between the block and the surface is 0.6. If the acceleration of the truck is 5 m/s$^{2}$, the frictional force acting on the block is _________ newtons.",
+    "solution": "Solution for this Laws of Motion question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_037",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When a person walks on a rough surface, the frictional force exerted by the surface on the person is opposite to the direction of his motion.",
+    "solution": "Explanation :\nA rocket's propulsion in space (and even in the atmosphere) does not depend on pushing against the surrounding air. Instead, it relies on Newton's third law of motion: every action has an equal and opposite reaction. By expelling hot gases (the exhaust) at high speed out of its nozzle, the rocket produces a forward thrust. This mechanism works in the vacuum of space just as well as in an atmosphere, proving that it does not depend on air.\nCorrect Option :\nB) FALSE",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "phy_laws_of_motion_038",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Laws of Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rocket moves forward by pushing the surrounding air backwards.",
+    "solution": "Explanation :\nA rocket's propulsion in space (and even in the atmosphere) does not depend on pushing against the surrounding air. Instead, it relies on Newton's third law of motion: every action has an equal and opposite reaction. By expelling hot gases (the exhaust) at high speed out of its nozzle, the rocket produces a forward thrust. This mechanism works in the vacuum of space just as well as in an atmosphere, proving that it does not depend on air.\nCorrect Option :\nB) FALSE",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

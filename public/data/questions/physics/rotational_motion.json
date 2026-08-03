@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "phy_rotational_motion_001",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform circular disk of radius 0.2 m and mass 1 kg is pivoted at its top point $C$ such that it can rotate freely around $C$ in the $X Y$ plane, as shown in the figure. Initially, when the disk is at rest, a particle of mass 20 g , travelling along negative $x$ direction in the $X Y$ plane with speed $100 \\mathrm{~ms}^{-1}$, hits the circumference of the disk at a point $P$. After collision the particle moves along negative $y$ direction at a speed of $90 \\mathrm{~ms}^{-1}$.\n[Given : the acceleration due to gravity $(\\mathrm{g})=-10 \\hat{\\jmath} \\mathrm{~ms}^{-2}$ ]\n\n[Diagram]\n\nAfter the collision the disk starts to rotate around point $C$ in the $X Y$ plane. The maximum change in the height (in m ) of its center $O$ is :",
+    "solution": "Relative to a coordinate system centered at the disk's center $O(0,0)$ when it hangs vertically at rest.\nThe disk has radius $R = 0.2\\ \\mathrm{m}$ and mass $M = 1\\ \\mathrm{kg}$.\nIt is pivoted at its top point $C$. In this orientation, $C$ is at coordinates $(0,R) = (0,0.2\\ \\mathrm{m})$.\nThe impact point $P$ lies on the circumference such that the radius $OP$ makes an angle of $45^{\\circ}$ with vertical.\nThe position vector of the collision point $P$ relative to the pivot $C$:\n$$\\vec{r}_{P/C} = \\vec{r}_P - \\vec{r}_C$$\nThe position of the center $O$ relative to pivot $C$ is:\n$$\\vec{r}_{O/C} = -R\\hat{\\jmath} = -0.2\\hat{\\jmath}$$\nPoint $P$ is located in the $4^{\\mathrm{th}}$ quadrant at an angle of $45^{\\circ}$ relative to the $\\hat{\\imath}$ axis:\n$$\\vec{r}_{P/O} = R\\cos(45^{\\circ})\\hat{\\imath} - R\\sin(45^{\\circ})\\hat{\\jmath} = 0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\imath} - 0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\jmath}$$\nThus, the vector from the pivot $C$ to the impact point $P$ is:\n$$\\vec{r}_{P/C} = \\vec{r}_{P/O} - \\vec{r}_{C/O} = \\left(0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\imath} - 0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\jmath}\\right) - (0.2\\hat{\\jmath}) = 0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\imath} - \\left(0.2 + 0.2 \\times \\frac{1}{\\sqrt{2}}\\right)\\hat{\\jmath}$$\nDuring the instantaneous collision, gravity is a non-impulsive force, and the reaction forces at the pivot $C$ exert zero torque about $C$. Therefore, the total angular momentum $\\vec{L}_C$ of the system about the pivot point $C$ is strictly conserved.\n$$\\vec{L}_{C,\\mathrm{initial}} = \\vec{L}_{C,\\mathrm{final}}$$\nThe colliding particle of mass $m = 20\\ \\mathrm{g} = 0.02\\ \\mathrm{kg}$:\nBefore impact the particle travels along the negative x-direction with speed $v_1 = 100\\ \\mathrm{m\\ s^{-1}}$.\n$$\\vec{V}_1 = -100\\hat{\\imath}$$\nAfter impact the particle travels along the negative y-direction with speed $v_2 = 90\\text{ m s}^{-1}$\n$$\\vec{v}_2 = -90\\hat{\\jmath}$$\nThe disk is initially stationary, so only the particle contributes to angular momentum:\n$$\\vec{L}_{C,\\text{initial}} = \\vec{r}_{P/C} \\times (m\\vec{v}_1)\\vec{L}_{C,\\text{initial}} = \\left[0.2 \\times \\frac{1}{\\sqrt{2}}\\hat{\\imath} - \\left(0.2 + 0.2 \\times \\frac{1}{\\sqrt{2}}\\right)\\hat{\\jmath}\\right] \\times \\left[0.02(-100\\hat{\\imath})\\right]\\vec{L}_{C,\\text{initial}} = \\left[\\frac{0.2}{\\sqrt{2}}\\hat{\\imath} - \\left(0.2 + \\frac{0.2}{\\sqrt{2}}\\right)\\hat{\\jmath}\\right] \\times \\left[-2\\hat{\\imath}\\right]$$\nSince $\\hat{\\imath} \\times \\hat{\\imath} = 0$ and $\\hat{\\jmath} \\times \\hat{\\imath} = -\\hat{k}$:\n$$\\vec{L}_{C,\\text{initial}} = -\\left(0.2 + \\frac{0.2}{\\sqrt{2}}\\right)(-2)(-\\hat{k}) = -2\\left(0.2 + \\frac{0.2}{\\sqrt{2}}\\right)\\hat{k} = -\\left(0.4 + \\frac{0.4}{\\sqrt{2}}\\right)\\hat{k}$$\nRight after the collision, the particle has velocity $\\vec{v}_2$ and the disk rotates around $C$ with an angular velocity $\\omega$:\n$$\\vec{L}_{C,\\text{final}} = \\left[\\vec{r}_{P/C} \\times (m\\vec{v}_2)\\right] + I_C\\,\\omega\\hat{k}\\vec{r}_{P/C} \\times (m\\vec{v}_2) = \\left[\\frac{0.2}{\\sqrt{2}}\\hat{\\imath} - \\left(0.2 + \\frac{0.2}{\\sqrt{2}}\\right)\\hat{\\jmath}\\right] \\times \\left[0.02(-90\\hat{\\jmath})\\right]\\vec{r}_{P/C} \\times (m\\vec{v}_2) = \\left[\\frac{0.2}{\\sqrt{2}}\\hat{\\imath} - \\left(0.2 + \\frac{0.2}{\\sqrt{2}}\\right)\\hat{\\jmath}\\right] \\times \\left[-1.8\\hat{\\jmath}\\right]$$\nSince $\\hat{\\imath} \\times \\hat{\\jmath} = \\hat{k}$ and $\\hat{\\jmath} \\times \\hat{\\jmath} = 0$:\n$$\\vec{r}_{P/C} \\times (m\\vec{v}_2) = \\left(\\frac{0.2}{\\sqrt{2}}\\right)(-1.8)\\hat{k} = -\\frac{0.36}{\\sqrt{2}}\\hat{k}$$\nBy the Parallel Axis Theorem, the moment of inertia $I_C$ of the uniform disk about its rim pivot point $C$ is:\n$$I_C = I_{\\text{cm}} + MR^2 = \\frac{1}{2}MR^2 + MR^2 = \\frac{3}{2}MR^2I_C = \\frac{3}{2}(1)(0.2)^2 = \\frac{3}{2} \\times 0.04 = 0.06\\text{ kg m}^2$$\nEquating the initial and final angular momentum expressions:\n$$\\left(0.4 + \\frac{0.4}{\\sqrt{2}}\\right)\\hat{k} = \\frac{0.36}{\\sqrt{2}}\\hat{k} + 0.06\\omega\\hat{k}0.4 + \\frac{0.4}{\\sqrt{2}} - \\frac{0.36}{\\sqrt{2}} = 0.06\\omega0.4 + \\frac{0.04}{\\sqrt{2}} = 0.06\\omega0.4 + \\frac{0.04}{1.414} \\approx 0.4 + 0.0283 = 0.4283 \\omega=\\frac{0.4283}{0.06} \\approx 7.138 \\mathrm{rad} \\mathrm{~s}^{-1} $$\nImmediately after the collision, the newly acquired kinetic energy of the spinning disk is purely rotational about the fixed pivot C :\n$$ \\begin{gathered} \\mathrm{K}_{\\text {disk }}=\\frac{1}{2} \\mathrm{I}_{\\mathrm{C}} \\omega^2 \\\\ \\mathrm{~K}_{\\text {disk }}=\\frac{1}{2}(0.06)(7.138)^2=0.03 \\times 50.95=1.5285 \\mathrm{~J} \\end{gathered} $$\nAs the disk swings upwards around the pivot point C , its kinetic energy is gradually converted entirely into gravitational potential energy. The disk reaches its maximum displacement height when it momentarily comes to a complete rest $(K=0)$.\n\n[Diagram]\n\nLet $\\Delta h$ be the maximum vertical upward displacement of the disk's center of mass O:\n$$\\Delta K + \\Delta U = 0 \\rightarrow K_{\\text{disk}} = Mg\\,\\Delta h$$\nSubstitute the known values $M = 1\\ \\text{kg}$ and $g = 10\\ \\text{m s}^{-2}$\n$$1.5285 = (1) \\times (10) \\times \\Delta h\\Delta h = \\frac{1.5285}{10} = 0.15285\\ \\text{m} \\approx 0.15\\ \\text{m}$$\nTherefore, the correct answer is $0.15$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xm8c5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_002",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a large disk of radius *R* and two smaller disks, each of radius *r = R / 50*, lying on its circumference, as shown in the figure. The smaller disks are initially in contact with each other, with an angular separation **Δθ** between their centers. They are made to roll without slipping in opposite directions, with constant angular velocities **ω** and **2ω** while the large disk is held stationary. The time **τ** at which the smaller disks are again in contact is:\n[Use **sin(Δθ)=Δθ** and ignore gravity.]\n\n[Diagram]",
+    "solution": "Let the large stationary disk have its centre at the origin 0 . The two smaller disks Disk 1 and Disk 2 each have a radius $\\mathrm{r}=\\frac{\\mathrm{R}}{50}$.\nWhen the two smaller disks are in contact with each other while resting on the circumference of the large disk, the distance between the centre of the large disk and the centre of either smaller disk is :\n$$ \\mathrm{R}_{\\mathrm{c}}=\\mathrm{R}+\\mathrm{r} $$\nSince the two smaller disks are in contact, the distance between their centres is exactly 2 r .\nLet $\\Delta \\theta$ be the angular separation between their centres at centre of the large disk $O$.\nUsing the properties of an isosceles triangle formed by O and the two small disk centres :\n\n[Diagram]\n\n$$ \\sin \\alpha=\\frac{r}{R+r} $$\nHere, $\\alpha=\\frac{\\Delta \\theta}{4} \\Rightarrow \\sin \\left(\\frac{\\Delta \\theta}{4}\\right)=\\frac{\\mathrm{r}}{\\mathrm{R}+\\mathrm{r}}$\nGiven the small-angle approximation $\\sin (\\Delta \\theta) \\approx \\Delta \\theta$, we can also approximate\n$$ \\sin \\left(\\frac{\\Delta \\theta}{4}\\right) \\approx \\frac{\\Delta \\theta}{4} $$\nTherefore $\\frac{\\Delta \\theta}{4}=\\frac{\\mathrm{r}}{\\mathrm{R}+\\mathrm{r}}$\n$$ \\Delta \\theta=\\frac{4 r}{R+r} $$\nSubstituting $\\mathrm{R}=50 \\mathrm{r}$ into this equation:\n$$ \\Delta \\theta=\\frac{4 \\mathrm{r}}{50 \\mathrm{r}+\\mathrm{r}}=\\frac{4}{51} \\text { radians } $$\nLet the small disk rotate about its own centre with an angular velocity $\\omega^{\\prime}$. The point of contact with the stationary large disk must have a linear velocity of zero to satisfy the no-slip condition.\nFrom rotation about its own centre relative to the contact point $\\mathrm{v}_{\\mathrm{cm}}=\\omega^{\\prime} \\cdot \\mathrm{r}$\nFrom orbital path around the large disk's centre $\\mathrm{v}_{\\mathrm{cm}}=\\Omega \\cdot(\\mathrm{R}+\\mathrm{r})$\n\n[Diagram]\n\n$$\\Omega (R + r) = \\omega' \\cdot r\\Rightarrow \\Omega = \\omega' \\left(\\frac{r}{R + r}\\right)$$\nSubstituting $R = 50r$:\n$$\\Omega = \\omega' \\left(\\frac{r}{51r}\\right) = \\frac{\\omega'}{51}$$\nIt is given that the two smaller disks spin with constant angular velocities $\\omega$ and $2\\omega$ in opposite directions along the circumference.\nFor Disk 1 ($\\omega'_1 = \\omega$):\n$$\\Omega_1 = \\frac{\\omega}{51}$$\nFor Disk 2 ($\\omega'_2 = 2\\omega$):\n$$\\Omega_2 = \\frac{2\\omega}{51}$$\nSince they travel in opposite directions around the large disk, their relative orbital angular velocity\n$$\\Omega_{\\mathrm{rel}} = \\Omega_1 + \\Omega_2 = \\frac{\\omega}{51} + \\frac{2\\omega}{51} = \\frac{3\\omega}{51}$$\nInitially, the two disks are in contact with an angular separation between their centres equal to\n$$\\Delta \\theta = \\frac{2}{51}$$\nFor them to come into contact again, the total angular path covered by the two centres relative to each other must equal to $\\Phi = 2\\pi - \\Delta \\theta$\nSince each disk has a radius $r$, when they meet again, their centres will once again be separated by $\\Delta \\theta$. Thus, the net angular displacement between the two centres around the large disk is :\n$$\\theta_{\\mathrm{rel}} = 2\\pi - 2\\Delta \\theta$$\nSubstituting the value of $\\Delta \\theta = \\frac{2}{51}$:\n$$\\theta_{\\mathrm{rel}} = 2\\pi - \\frac{4}{51}$$\nThe time $\\tau$ taken to cover this relative angular displacement at a relative angular speed $\\Omega_{\\mathrm{rel}}$ is :\n$$\\tau = \\frac{\\theta_{\\mathrm{rel}}}{\\Omega_{\\mathrm{rel}}}\\tau = \\frac{2\\pi - \\frac{4}{51}}{\\frac{3\\omega}{51}}\\tau = 51 \\times \\left(2\\pi - \\frac{4}{51}\\right) / 3\\omega$$\nTherefore, the correct option is (C).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\tau = 51 \\times \\left( 2\\pi - \\frac{4}{51} \\right)/\\omega$",
+      "$\\tau = 51 \\times \\left( 2\\pi - \\frac{2}{51} \\right)/3\\omega$",
+      "$\\tau = 51 \\times \\left( 2\\pi - \\frac{4}{51} \\right)/3\\omega$",
+      "$\\tau = 51 \\times \\left( 2\\pi - \\frac{2}{51} \\right)/\\omega$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9v2hp6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_003",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An annular disk of mass $M$, inner radius $a$ and outer radius $b$ is placed on a horizontal surface with coefficient of friction $\\mu$, as shown in the figure. At some time, an impulse $J_0 \\hat{x}$ is applied at a height $h$ above the center of the disk. If $h=h_m$ then the disk rolls without slipping along the $x$-axis. Which of the following statement(s) is(are) correct?\n\n[Diagram]",
+    "solution": "The moment of inertia $ I_{\\text{cm}} $ of an annular disc, with an inner radius $ a $, an outer radius $ b $, and a mass $ m $, about an axis perpendicular to the disc and passing through its center $ C $, is given by :\n\n$ I_{\\text{cm}} = \\frac{1}{2} m \\left( a^2 + b^2 \\right) $,\n\nwhere $ a^2 $ and $ b^2 $ are the squares of the inner and outer radii, respectively.\n\n[Diagram]\n\nThe linear impulse $ J_0 $ alters the linear momentum of the disc. Right after the impulse is applied, the linear momentum can be represented as :\n\n$ m v_{\\text{cm}} = J_0 $,\n\nwhere $ m $ is the mass of the disc and $ v_{\\text{cm}} $ is the velocity of the center of mass resulting from the impulse.\n\nThe angular impulse about the center of mass $ C $ of the disc is applied in a clockwise direction, with its magnitude being $ J_{0, \\text{ang}} = h J_0 $. This impulse changes the angular momentum of the disc about point $ C $, expressed as :\n\n$ I_{\\text{cm}} \\omega = J_{0, \\text{ang}} = h J_0 $,\n\nwhere $ I_{\\text{cm}} $ is the moment of inertia of the disc about its center of mass, $ \\omega $ is the angular velocity resulting from the angular impulse, $ J_0 $ is the linear impulse, and $ h $ is a factor relating the angular impulse to the linear impulse.\n\nFor the disc to roll without slipping, given that the friction coefficient $ \\mu $ is non-zero, the condition is $ v_{\\text{cm}} = \\omega b $. By substituting the expressions for $ v_{\\text{cm}} $ and $ \\omega $ and solving, we obtain the following relationship for the minimum value of $ h $ (denoted as $ h_m $) :\n\n$ h_m = \\frac{I_{\\text{cm}}}{mb} = \\frac{a^2 + b^2}{2b} $,\n\nwhere $ I_{\\text{cm}} $ is the moment of inertia of the disc about its center of mass, $ m $ is the mass of the disc, $ a $ is the inner radius, and $ b $ is the outer radius of the disc.\n\nBy substituting $ a = 0 $ into the formula, we find that $ h_m = \\frac{b}{2} $. This implies that a solid disc will roll without slipping if the impulse is applied midway along the upper half of the disc.\n\nSimilarly, substituting $ a = b $ yields $ h_m = b $. This indicates that a ring (an annular disc with equal inner and outer radii) will roll without slipping when the horizontal impulse is applied at the very top of the ring.\n\nFor the condition where $ h = h_m $, the initial angular velocity $ \\omega $ is given by :\n\n$ \\omega = \\frac{h_m J_0}{I_{\\text{cm}}} = \\frac{J_0}{mb} $.\n\nThis expression for the angular velocity is independent of the inner radius $ a $ of the disc.\n\nWhen a wheel is placed on a smooth surface with no friction ($\\mu = 0$) and an impulse is applied directly at its center ($h = 0$), there is no torque generated to initiate rotation. Consequently, under these conditions, if an impulse is delivered to the center of a wheel on a frictionless surface, the wheel will invariably slide and not roll.",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "For $\\mu\neq 0$ and $a \\rightarrow 0, h_m=b / 2$.",
+      "For $\\mu\neq 0$ and $a \\rightarrow b, h_m=b$.",
+      "For $h=h_m$, the initial angular velocity does not depend on the inner radius $a$.",
+      "For $\\mu=0$ and $h=0$, the wheel always slides without rolling."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liipg0ys.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_004",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform circular disk of radius 0.2 m and mass 1 kg is pivoted at its top point $C$ such that it can rotate freely around $C$ in the $X Y$ plane, as shown in the figure. Initially, when the disk is at rest, a particle of mass 20 g , travelling along negative $x$ direction in the $X Y$ plane with speed $100 \\mathrm{~ms}^{-1}$, hits the circumference of the disk at a point $P$. After collision the particle moves along negative $y$ direction at a speed of $90 \\mathrm{~ms}^{-1}$.\n[Given : the acceleration due to gravity $(\\mathrm{g})=-10 \\hat{\\jmath} \\mathrm{~ms}^{-2}$ ]\n\n[Diagram]\n\nAmount of energy loss (in J ) in the collision is :",
+    "solution": "Before the collision, the disk is entirely at rest. Therefore, the total initial kinetic energy of the system is carried only by the translation of the incoming particle.\nThe kinetic energy of a moving particle of mass $m$ with speed $v$ is $K = \\frac{1}{2} m v^2$\nGiven values for the particle before impact the mass is $m = 20\\ \\mathrm{g} = 0.02\\ \\mathrm{kg}$ and its initial velocity, $v_1 = 100\\ \\mathrm{m\\ s^{-1}}$\nSubstituting these values into the kinetic energy equation:\n$$K_{\\mathrm{initial}} = \\frac{1}{2} \\times 0.02\\ \\mathrm{kg} \\times (100\\ \\mathrm{m\\ s^{-1}})^2K_{\\mathrm{initial}} = 0.01 \\times 10000 = 100\\ \\mathrm{J}$$\nImmediately after the collision, the total kinetic energy of the system is the sum of the translational kinetic energy of the scattering particle and the rotational kinetic energy of the spinning disk about its fixed pivot C.\n$$K_{\\mathrm{final}} = K_{\\mathrm{particle,final}} + K_{\\mathrm{disk,final}}$$\nFor the particle after collision, final velocity is $v_2 = 90\\ \\mathrm{m\\ s^{-1}}$\n\n$$K_{\\text{particle,final}} = \\frac{1}{2} \\times 0.02\\ \\mathrm{kg} \\times \\left(90\\ \\mathrm{m\\ s^{-1}}\\right)^2K_{\\text{particle,final}} = 0.01 \\times 8100 = 81\\ \\mathrm{J}$$\nThe disk rotates around point C with an angular velocity of $\\omega \\approx 7.138\\ \\mathrm{rad\\ s^{-1}}$.\nUsing the moment of inertia about the rim pivot C ($I_C = 0.06\\ \\mathrm{kg\\ m^2}$), the rotational kinetic energy component is:\n$$K_{\\text{disk,final}} = \\frac{1}{2} I_C\\,\\omega^2K_{\\text{disk,final}} = \\frac{1}{2} \\times 0.06 \\times (7.138)^2 \\approx 1.53\\ \\mathrm{J}$$\nSo, the final kinetic energy of system is,\n$$K_{\\text{final}} = 81\\ \\mathrm{J} + 1.53\\ \\mathrm{J} = 82.53\\ \\mathrm{J}$$\nEnergy Loss = $K_{\\text{initial}} - K_{\\text{final}}$\nEnergy Loss = $100\\ \\mathrm{J} - 82.53\\ \\mathrm{J} = 17.47\\ \\mathrm{J}$\nTherefore, the correct answer is 17.47.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xm8c5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_005",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A disc of mass $M$ and radius $R$ is free to rotate about its vertical axis as shown in the figure. A battery operated motor of negligible mass is fixed to this disc at a point on its circumference. Another disc of the same mass $M$ and radius $R / 2$ is fixed to the motor's thin shaft. Initially, both the discs are at rest. The motor is switched on so that the smaller disc rotates at a uniform angular speed $\\omega$. If the angular speed at which the large disc rotates is $\\omega / n$, then the value of $n$ is ___________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nOn applying conservation of angular momentum about axis of larger disc.\n$$\\begin{aligned}\n& \\frac{1}{2} \\cdot M\\left(\\frac{R}{2}\\right)^2 \\cdot \\omega-M\\left(\\omega^{\\prime} R\\right) \\cdot R-\\frac{M R^2}{2} \\cdot \\omega^{\\prime}=0 \\\\\n& \\Rightarrow \\frac{\\omega}{8}=\\frac{3 \\omega^{\\prime}}{2} \\\\\n& \\Rightarrow \\omega^{\\prime}=\\frac{\\omega}{12} \\quad \\text { Hence, } \\mathrm{n}=12\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpvanw8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_006",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin uniform rod of length $L$ and certain mass is kept on a frictionless horizontal table with a massless string of length $L$ fixed to one end (top view is shown in the figure). The other end of the string is pivoted to a point $\\mathrm{O}$. If a horizontal impulse $P$ is imparted to the rod at a distance $x={L \\over n}$ from the mid-point of the rod (see figure), then the rod and string revolve together around the point $\\mathrm{O}$, with the rod remaining aligned with the string. In such a case, the value of $n$ is ___________.\n\n[Diagram]",
+    "solution": "Linear impulse $$\\int \\mathrm{Fdt}=\\Delta$$ momentum\n$$\\begin{aligned}\n& =\\mathrm{m}\\left(\\mathrm{V}_{\\mathrm{cm}}-0\\right) \\\\\n& \\mathrm{P}=\\mathrm{m}\\left(\\omega \\mathrm{r}_{\\mathrm{cm}}\\right) \\\\\n& =\\mathrm{m} \\omega\\left(\\mathrm{L}+\\frac{\\mathrm{L}}{2}\\right) \\\\\n& \\mathrm{P}=\\mathrm{m} \\omega\\left(\\frac{3 \\mathrm{~L}}{2}\\right) \\quad \\text{... (i)}\n\\end{aligned}$$\nAngular impulse $$\\int \\tau \\mathrm{dt}=\\Delta$$ angular momentum\n$$\\int \\mathrm{r} \\times \\mathrm{Fdt}=\\Delta \\mathrm{L}\\mathrm{r} \\times \\int \\mathrm{Fdt}=\\mathrm{I}(\\omega-0)$$, and I is moment of inertia about axis of rotation.\n$$\\begin{aligned}\n\\left(\\mathrm{L}+\\frac{\\mathrm{L}}{2}\\right. & +\\mathrm{x}) \\times \\mathrm{P}=\\left(\\mathrm{I}_{\\mathrm{cm}}+\\mathrm{md}^2\\right) \\omega \\\\\n& =\\left(\\frac{\\mathrm{mL}^2}{12}+\\mathrm{m}\\left(\\mathrm{L}+\\frac{\\mathrm{L}}{2}\\right)^2\\right) \\omega\n\\end{aligned}\\begin{aligned}\n\\left(\\frac{3 L}{2}+x\\right) P & =m L^2\\left(\\frac{1}{12}+\\left(\\frac{3}{2}\\right)^2\\right) \\omega \\\\\n\\left(\\frac{3 L}{2}+x\\right) P & =m L^2\\left(\\frac{7}{3}\\right) \\omega \\quad \\text{... (ii)}\n\\end{aligned}$$\nDivide eq.-(i) & (ii)\n$$\\begin{aligned}\n& \\left(\\frac{3 L}{2}+x\\right)=\\frac{L\\left(\\frac{7}{3}\\right)}{\\left(\\frac{3}{2}\\right)} \\\\\n& \\frac{3 L}{2}+x=L\\left(\\frac{14}{9}\\right) \\\\\n& x=\\frac{L}{18}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpw4iwh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_007",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin circular coin of mass $5 \\mathrm{gm}$ and radius $4 / 3 \\mathrm{~cm}$ is initially in a horizontal $x y$-plane. The coin is tossed vertically up ( $+z$ direction) by applying an impulse of $\\sqrt{\\frac{\\pi}{2}} \\times 10^{-2} \\mathrm{~N}$-s at a distance $2 / 3 \\mathrm{~cm}$ from its center. The coin spins about its diameter and moves along the $+z$ direction. By the time the coin reaches back to its initial position, it completes $n$ rotations. The value of $n$ is ________.\n\n[Given: The acceleration due to gravity $g=10 \\mathrm{~m} \\mathrm{~s}^{-2}$ ]\n\n[Diagram]",
+    "solution": "A coin with a radius of $ r = \\frac{4}{3} \\times 10^{-2} \\, \\text{m} $ and a mass of $ m = 5 \\times 10^{-3} \\, \\text{kg} $ is thrown upwards. An impulse of $ J_{\\text{lin}} = \\sqrt{\\frac{\\pi}{2}} \\times 10^{-2} \\, \\text{N s} $ is applied perpendicularly to the plane of the coin. This impulse is delivered at a distance of $ d = \\frac{r}{2} $ from the center of the coin.\n\nInitially at rest, the coin experiences a change in linear momentum due to the applied linear impulse, leading to the equation :\n\n$ m v_{\\text{cm}} = J_{\\text{lin}} $.\n\nwhere $ m $ is the mass of the coin, $ v_{\\text{cm}} $ is its center of mass velocity after the impulse, and $ J_{\\text{lin}} $ is the magnitude of the linear impulse.\n\nAfter the impulse, the center of mass of the coin ascends with an initial velocity $ v_{\\text{cm}} $. Under the influence of gravity, the coin returns to its original position in a time duration expressed by :\n\n$ t = \\frac{2 v_{\\text{cm}}}{g} = \\frac{2 J_{\\text{lin}}}{mg} $,\n\nwhere $ g $ is the acceleration due to gravity, $ J_{\\text{lin}} $ is the linear impulse applied, and $ m $ is the mass of the coin.\n\nThe coin undergoes rotation about its axis, and the angular impulse exerted on it around its center is described by the equation :\n\n$ J_{\\text{ang}} = d J_{\\text{lin}} = \\left( \\frac{r}{2} \\right) J_{\\text{lin}} $,\n\nwhere $ J_{\\text{ang}} $ is the angular impulse, $ d $ is the distance from the center at which the linear impulse $ J_{\\text{lin}} $ is applied, and $ r $ is the radius of the coin.\n\nThe angular impulse leads to a change in the angular momentum of the coin about a horizontal axis passing through its center. This relationship is given by :\n\n$ I_{\\text{cm}} \\omega = L_{\\text{ang}} = \\left( \\frac{r}{2} \\right) J_{\\text{lin}} $,\n\nwhere $ I_{\\text{cm}} $ is the moment of inertia of the coin about its center of mass, $ \\omega $ is the angular velocity after the impulse, and $ L_{\\text{ang}} $ is the angular momentum resulting from the angular impulse $ J_{\\text{ang}} $.\n\nThe angular speed of the coin, denoted as $ \\omega $, is determined by the equation :\n\n$ \\omega = \\frac{(r / 2) J_{\\text{lin}}}{I_{\\text{cm}}} = \\frac{(r / 2) J_{\\text{lin}}}{(1 / 4) m r^2} = \\frac{2 J_{\\text{lin}}}{m r} $,\n\nwhere $ r $ is the radius of the coin, $ J_{\\text{lin}} $ is the linear impulse applied, $ m $ is the mass of the coin, and $ I_{\\text{cm}} $ is its moment of inertia about the center of mass.\n\nAfter tossing, the angular speed of the coin remains constant because there is no external torque. The number of rotations \\( n \\) completed by the coin during the time \\( t \\) is calculated as :\n\n$ n = \\frac{\\theta}{2\\pi} = \\frac{\\omega t}{2\\pi} = \\frac{2 J_{\\text{lin}}^2}{\\pi m^2 g r} $\n\nSubstituting the given values, it becomes :\n\n$ n = \\frac{2 \\left( \\frac{\\pi}{2} \\times 10^{-4} \\right)}{\\pi \\left( 5 \\times 10^{-3} \\right)^2 \\times 10 \\times \\left( \\frac{4}{3} \\times 10^{-2} \\right)} = 30 $.\n\nwhere $ \\theta $ is the total angular displacement, $ \\omega $ is the angular speed of the coin, $ J_{\\text{lin}} $ is the linear impulse, $ m $ is the mass of the coin, $ g $ is the acceleration due to gravity, and $ r $ is the radius of the coin.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liipp0e4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_008",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two point-like objects of masses $20 ~\\mathrm{gm}$ and $30 ~\\mathrm{gm}$ are fixed at the two ends of a rigid massless rod of length $10 \\mathrm{~cm}$. This system is suspended vertically from a rigid ceiling using a thin wire attached to its center of mass, as shown in the figure. The resulting torsional pendulum undergoes small oscillations. The torsional constant of the wire is $1.2 \\times 10^{-8} \\mathrm{~N} \\mathrm{~m} ~\\mathrm{rad}^{-1}$. The angular frequency of the oscillations in $n \\times 10^{-3} ~\\mathrm{rad} ~\\mathrm{s}^{-1}$. The value of $n$ is _________ .\n\n[Diagram]",
+    "solution": "$\\begin{aligned} & m_1=30 \\mathrm{gm} \\\\\\\\ & m_2=20 \\mathrm{gm}\\end{aligned}$\n\n[Diagram]\n\nMoment of inertia about the axis of rotation is\n\n$$\nI=m_1 r_1^2+m_2 r_2^2\n$$\n\nClearly $r_1=4 \\mathrm{~cm}$\n\nAnd $r_2=6 \\mathrm{~cm}$\n\n$$\n\\begin{aligned}\n& \\therefore I=\\left(30 \\times 10^{-3} \\times 16 \\times 10^{-4}\\right)+\\left(20 \\times 10^{-3} \\times 36 \\times 10^{-4}\\right) \\\\\\\\\n& \\Rightarrow I=1200 \\times 10^{-7} \\mathrm{~kg} \\mathrm{~m}^2\n\\end{aligned}\n$$\n\nIf the system is rotated by small angle ' $\\theta$ ', the restoring torque is $\\tau_{(R)}=-k \\theta$\n\nAnd $\\frac{d^2 \\theta}{d t^2}=\\frac{-k}{l} \\cdot \\theta=-\\omega^2 \\theta=\\frac{-1.2 \\times 10^{-8}}{1200 \\times 10^{-7}} \\cdot \\theta$\n\n$$\n\\therefore \\omega^2=10^{-4}\n$$\n\n$\\begin{aligned} & \\text { So, } \\omega=\\frac{1}{100} \\mathrm{rad} / \\mathrm{s} \\\\\\\\ & \\Rightarrow \\omega=10 \\times 10^{-3} \\mathrm{rad} / \\mathrm{s}\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liipqvur.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_009",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At time $t=0$, a disk of radius $1 \\mathrm{~m}$ starts to roll without slipping on a horizontal plane with an angular acceleration of $\\alpha=\\frac{2}{3} \\mathrm{rad} \\,\\mathrm{s}^{-2}$. A small stone is stuck to the disk. At $t=0$, it is at the contact point of the disk and the plane. Later, at time $t=\\sqrt{\\pi} \\,s$, the stone detaches itself and flies off tangentially from the disk. The maximum height (in $m$ ) reached by the stone measured from the plane is $\\frac{1}{2}+\\frac{x}{10}$. The value of $x$ is ____________ , [Take $g=10 \\mathrm{~m} \\mathrm{~s}^{-2}$.]",
+    "solution": "The angle rotated by disc in $t=\\sqrt{\\pi} \\mathrm{s}$ is\n\n$$\n\\begin{aligned}\n& \\theta=\\omega_0 t+\\frac{1}{2} \\alpha t^2 \\\\\\\\\n& \\Rightarrow \\theta=\\frac{1}{2} \\times \\frac{2}{3}(\\sqrt{\\pi})^2 \\\\\\\\\n&=\\frac{\\pi}{3} \\mathrm{rad}\n\\end{aligned}\n$$\n\nand the angular velocity of disc is\n\n$$\n\\begin{aligned}\n\\omega & =\\omega_0+\\alpha t \\\\\\\\\n= & \\frac{2 \\sqrt{\\pi}}{3} \\mathrm{rad} / \\mathrm{s} \\\\\\\\\n\\text { and } v_{\\mathrm{cm}} & =\\omega R=\\frac{2 \\sqrt{\\pi}}{3} \\times 1 \\\\\\\\\n& =\\frac{2 \\sqrt{\\pi}}{3} \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$\n\nSo, at the moment it detaches the situation is\n\n[Diagram]\n\n$v=\\sqrt{(\\omega R)^2+v_{\\mathrm{cm}}^2+2(\\omega R) v_{\\mathrm{cm}} \\cos 120^{\\circ}}$\n\n$=v_{\\mathrm{cm}}=\\frac{2 \\sqrt{\\pi}}{3} \\mathrm{~m} / \\mathrm{s}$\n\nand $\\tan \\theta=\\frac{\\omega R \\sin 120^{\\circ}}{v_{\\mathrm{cm}}+\\omega R \\cos 120^{\\circ}}$\n\n$\\Rightarrow \\tan \\theta=\\sqrt{3}$\n\n$\\Rightarrow \\theta=\\frac{\\pi}{3} \\mathrm{rad}$\n\nSo, $H_{\\max }=\\frac{u^2 \\sin ^2 \\theta}{2 g}$\n\n$=\\frac{\\left(\\frac{2 \\sqrt{\\pi}}{3}\\right)^2 \\times \\sin ^2 60^{\\circ}}{2 \\times 10}$\n\n$$\n\\begin{aligned}\n& =\\frac{4 \\pi \\times 3}{9 \\times 2 \\times 10 \\times 4} \\\\\\\\\n& =\\frac{\\pi}{60} \\mathrm{~m}\n\\end{aligned}\n$$\n\nSo, height from ground will be\n\n$$\n\n= R\\left(1-\\cos 60^{\\circ}\\right)+\\frac{\\pi}{60}=\\frac{1}{2}+\\frac{x}{10}\n\\Rightarrow x=\\frac{\\pi}{6}=0.52\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ld2aro2z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_010",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid sphere of mass $1 \\mathrm{~kg}$ and radius $1 \\mathrm{~m}$ rolls without slipping on a fixed inclined plane with an angle of inclination $\\theta=30^{\\circ}$ from the horizontal. Two forces of magnitude $1 \\mathrm{~N}$ each, parallel to the incline, act on the sphere, both at distance $r=0.5 \\mathrm{~m}$ from the center of the sphere, as shown in the figure. The acceleration of the sphere down the plane is _________ $m \\,s^{-2} .\\left(\\right.$ Take $g=10\\, m s^{-2}$)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nTaking torque about contact point.\n\n$\\vec{\\tau}=m g R \\sin 30^{\\otimes}+1 \\times 1^{\\odot}$\n\ntaking $\\otimes$ is positive\n\n$$\n\\begin{aligned}\n& 5-1=\\frac{7}{5} m R^2 \\alpha \\\\\\\\\n& \\Rightarrow \\quad \\alpha=\\frac{20}{7} \\mathrm{rad} / \\mathrm{s}^2\n\\end{aligned}\n$$\n\nSo, $a_{\\mathrm{cm}}=\\alpha R=\\frac{20}{7} \\mathrm{~m} / \\mathrm{s}^2$\n\n$$\na_{\\mathrm{cm}}=2.86 \\mathrm{~m} / \\mathrm{s}^2\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekh3xc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_011",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin rod of mass M and length a is free to rotate in horizontal plane about a fixed vertical axis passing through point O. A thin circular disc of mass M and of radius a/4 is pivoted on this rod with its center at a distance a/4 from the free end so that it can rotate freely about its vertical axis, as shown in the figure. Assume that both the rod and the disc have uniform density and they remain horizontal during the motion. An outside stationary observer finds the rod rotating with an angular velocity $$\\Omega$$ and the disc rotating about its vertical axis with angular velocity 4$$\\Omega$$. The total angular momentum of the system about the point O is $$\\left( {{{M{a^2}\\Omega } \\over {48}}} \\right)n$$. The value of n is ___________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAngular momentum of disc about O is\n\n$${L_{DO}} = M\\left( {{{3a} \\over 4}} \\right)\\left( {{{3a} \\over 4}} \\right)\\Omega + {M \\over 2}{\\left( {{a \\over 4}} \\right)^2}(4\\Omega )$$\n\nAngular momentum of rod about O is\n\n$${L_{RO}} = {{M{a^2}} \\over 3}\\Omega $$\n\nSo, $${L_O} = {L_{DO}} + {L_{RO}} = {{49} \\over {48}}(M{a^2}\\Omega )$$\n\nSo, n = 49",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4cpjaps.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_012",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two vectors $$\\overrightarrow A $$ and $$\\overrightarrow B $$ are defined as $$\\overrightarrow A =a\\widehat i$$ and $$\\overrightarrow B = a\\left( {\\cos \\,\\omega T\\widehat i + \\sin \\,\\omega t\\,\\widehat j} \\right),$$ where $$a$$ is a constant and $$\\omega = \\pi /6\\,\\,rad{s^{ - 1}}.$$ If $$\\left| {\\overrightarrow A + \\overrightarrow B } \\right| = \\sqrt 3 \\left| {\\overrightarrow A - \\overrightarrow B } \\right|$$ at time $$t = \\tau $$ for the first time, the value of $$\\tau ,$$ in *second,* is ______________.",
+    "solution": "The vector $$\\overrightarrow A = \\alpha \\widehat i$$ has a magnitude a and its direction is fixed. The vector $$\\overrightarrow B = a(\\cos \\omega t\\widehat i + \\sin \\omega t\\widehat j)$$ rotates with an angular speed $$\\omega$$ = $$\\pi$$ / 6 rad/s in a circle of radius a. The magnitude of the sum and the difference of these vectors are given by\n$$\\left| {\\overrightarrow A + \\overrightarrow B } \\right| = \\left| {(a + a\\cos \\omega t)\\widehat i + a\\sin \\omega t\\widehat j} \\right| = a\\sqrt {{{(1 + \\cos \\omega t)}^2} + {{\\sin }^2}\\omega t} = 2a\\cos (\\omega t/2)$$.\n$$\\left| {\\overrightarrow A - \\overrightarrow B } \\right| = \\left| {(a - a\\cos \\omega t)\\widehat i - a\\sin \\omega t\\widehat j} \\right| = 2a\\sin (\\omega t/2)$$\n\n[Diagram]\n\nHence,\n$${{\\left| {\\overrightarrow A - \\overrightarrow B } \\right|} \\over {\\left| {\\overrightarrow A + \\overrightarrow B } \\right|}} = \\tan {{\\omega t} \\over 2} = {1 \\over {\\sqrt 3 }}$$,\nwhich gives $$t = \\tau = (2/\\omega )(\\pi /6) = 2$$ s.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyg0stfo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_013",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ring and disc are initially at rest, side by side, at the top of an inclined plane which makes an angle $${60^ \\circ }$$ with the horizontal. They start to roll without slipping at the same instant of time along the shortest path. If the time difference between their reaching the ground is $$\\left( {2 - \\sqrt 3 } \\right)/\\sqrt {10} \\,\\,s,$$ then the height of the top of the inclined plane, in metres is ______________ . Take $$g = 10\\,\\,m{s^{ - 2}}.$$",
+    "solution": "[Diagram]\n\nGiven, h = height of the top of inclined plane = ?, $$\\theta$$ = 60$$^\\circ$$, g = 10 m s$^{$$-$$2}$ and time difference between ring and disc reaching ground = $${{2 - \\sqrt 3 } \\over {\\sqrt {10} }}$$ s\nWe know that, $$a = {{g\\sin \\theta } \\over {1 + {I \\over {M{R^2}}}}}$$\nFor ring, $$I = M{R^2}$$ and for disc $$I = {3 \\over 2}M{R^2}$$.\nSo, $${a_{ring}} = {{g\\sin \\theta } \\over 2}$$ and $${a_{disk}} = {{2g\\sin \\theta } \\over 3}$$\nNow using $$s = {1 \\over 2}a{t^2}{s_{ring}} = {1 \\over 2}\\left( {{{g\\sin \\theta } \\over 2}} \\right)t_1^2 \\Rightarrow {h \\over {\\sin \\theta }} = {1 \\over 2}\\left( {{{g\\sin \\theta } \\over 2}} \\right)t_1^2$$ ...... (1)\n$${s_{disk}} = {1 \\over 2}\\left( {{{2g\\sin \\theta } \\over 3}} \\right)t_2^2 \\Rightarrow {h \\over {\\sin \\theta }} = {1 \\over 2}\\left( {{{2g\\sin \\theta } \\over 3}} \\right)t_2^2$$ ...... (2)\nGiven, $${t_1} - {t_2} = {{2 - \\sqrt 3 } \\over {\\sqrt {10} }}$$\nFrom Eq. (1), we have $${t_1} = \\sqrt {{{4h} \\over {g{{\\sin }^2}\\theta }}} $$\nand from Eq. (2), we have $${t_2} = \\sqrt {{{3h} \\over {g{{\\sin }^2}\\theta }}} $$\nSo, $$\\sqrt {{{4h} \\over {g{{\\sin }^2}\\theta }}} - \\sqrt {{{3h} \\over {g{{\\sin }^2}\\theta }}} = {{2 - \\sqrt 3 } \\over {\\sqrt {10} }} \\Rightarrow \\sqrt {{{4h} \\over {10{{\\sin }^2}60^\\circ }}} - \\sqrt {{{3h} \\over {10{{\\sin }^2}60^\\circ }}} = {{2 - \\sqrt 3 } \\over {\\sqrt {10} }} \\Rightarrow \\sqrt {{{16h} \\over {3 \\times 10}}} - \\sqrt {{{4h} \\over {10}}} = {{2 - \\sqrt 3 } \\over {\\sqrt {10} }} \\Rightarrow {{4\\sqrt h } \\over {\\sqrt 3 }} - 2\\sqrt h = 2 - \\sqrt 3 \\Rightarrow \\sqrt h \\left( {{4 \\over {\\sqrt 3 }} - 2} \\right) = (2 - \\sqrt 3 ) \\Rightarrow \\sqrt h {{(4 - 2\\sqrt 3 )} \\over {\\sqrt 3 }} = (2 - \\sqrt 3 ) \\Rightarrow \\sqrt h \\times {2 \\over {\\sqrt 3 }}(2 - \\sqrt 3 ) = (2 - \\sqrt 3 ) \\Rightarrow \\sqrt h = {{\\sqrt 3 } \\over 2} \\Rightarrow h = {3 \\over 4} = 0.75$$ m",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyg1g58l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_014",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The densities of two solid spheres A and B of the same radii R vary with radial distance r as $${\\rho _A}(r) = k\\left( {{r \\over R}} \\right)$$ and $${\\rho _B}(r) = k{\\left( {{r \\over R}} \\right)^5}$$, , respectively, where k is a constant. The moments of inertia of the individual spheres about axes passing through their centres are $${I_A}$$ and $${I_B}$$, respectively. If, $${{{I_B}} \\over {{I_A}}} = {n \\over {10}}$$, the value of n is",
+    "solution": "Consider a spherical shell of radius r and small thickness dr.\n\n[Diagram]\n\nThe volume of the shell is $$dV = 4\\pi {r^2}dr$$ and its mass is\n$$dm = \\rho dV = 4\\pi \\rho {r^2}dr$$.\nThe moment of inertia of the spherical shell of mass dm and radius r about an axis passing through its centre O is given by $$dI = {2 \\over 3}dm\\,{r^2}$$. Substitute the expressions for dm and $$\\rho$$ and then integrate to get the moment of inertia of the two spheres.\n$${I_A} = \\int_0^R {{2 \\over 3}(4\\pi {\\rho _A}{r^4})dr = {{8\\pi k} \\over {3R}}\\int_0^R {{r^5}dr = {{8\\pi k{R^5}} \\over {18}}} } $$,\n$${I_B} = \\int_0^R {{2 \\over 3}(4\\pi {\\rho _B}{r^4})dr = {{8\\pi k} \\over {3{R^5}}}\\int_0^R {{r^9}dr = {{8\\pi k{R^5}} \\over {30}}} } $$.\nDivide to get $${I_B}/{I_A} = 6/10$$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ylxclb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_015",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical uniform discs roll without slipping on two different surfaces AB and CD (see figure) starting at A and C with linear speeds v$_{1}$ and v$_{2}$, respectively, and always remain in contact with the surfaces. If they reach B and D with the same linear speed and v$_{1}$ = 3 m/s, then v$_{2}$ in m/s is (g = 10 m/s$^{2}$)\n\n[Diagram]",
+    "solution": "Suppose mass and radius of each disc are m and R respectively. Also potential energy at points B and D is zero i.e., they are on reference line.\nGiven final kinetic energy for each disc is same, say it is K.\nApplying energy conservation principle,\nFor surface AB,\n$${1 \\over 2}{I_2}\\omega _1^2 + mg \\times 30 = K$$ ..... (i)\nFor surface CD,\n$${1 \\over 2}{I_2}\\omega _2^2 + mg \\times 27 = K$$ ..... (ii)\nFrom eqns. (i) and (ii), we get\n$${1 \\over 2}{I_2}\\omega _1^2 + mg \\times 30 = {1 \\over 2}{I_2}\\omega _2^2 + mg \\times 27$$ ...... (iii)\nHere, $${\\omega _1} = {{{v_1}} \\over R}$$, $${\\omega _2} = {{{v_2}} \\over R}$$, v$_{1}$ = 3 m s$^{$$-$$1}$, v$_{2}$ = ?\nI$_{1}$ = I$_{2}$ = Moment of inertia of disc about the point of contact $$ = {1 \\over 2}m{R^2} + m{R^2} = {3 \\over 2}m{R^2}$$\nFrom eqn. (iii), $${1 \\over 2}\\left( {{3 \\over 2}m{R^2}} \\right) \\times {\\left( {{3 \\over R}} \\right)^2} + m \\times 10 \\times 30 = {1 \\over 2}\\left( {{3 \\over 2}m{R^2}} \\right) \\times {\\left( {{{{v_2}} \\over R}} \\right)^2} + m \\times 10 \\times 27{{27} \\over 4} + 300 = {3 \\over 4}v_2^2 + 270{3 \\over 4}v_2^2 = {{27} \\over 4} + 30 \\Rightarrow 3v_2^2 = 147v_2^2 = 49\\therefore$$ v$_{2}$ = 7 m s$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11ya9pg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_016",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform circular disc of mass 1.5 kg and radius 0.5 m is initially at rest on a horizontal frictionless surface. Three forces of equal magnitude F = 0.5 N are applied simultaneously along the three sides of an equilateral triangle XYZ with its vertices on the perimeter of the disc (see figure). One second after applying the forces, the angular speed of the disc in rad s$^{-1}$ is\n\n\n[Diagram]",
+    "solution": "In triangle OZP, the distances OZ = R and OP = R sin30$$^\\circ$$ = R/2.\n\n\n[Diagram]\n\nThe total torque by the three forces about the centre of mass O is\n\n$$\\tau$$ = 3F| OP | = 3F R/2.\n\nThe monent of inertia of the disc about the axis of rotation is $$I = {1 \\over 2}M{R^2}$$. Using $$\\tau$$ = I$$\\alpha$$, we get\n\n$$\\alpha = {\\tau \\over I} = {{3F} \\over {MR}} = {{3 \\times 0.5} \\over {1.5 \\times 0.5}} = 2$$ rad/s$^{2}$.\n\nThe angular velocity after t = 1 is given by\n\n$$\\omega = {\\omega _0} + \\alpha t = 0 + 2 \\times 1 = 2$$ rad/s.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4no491.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_017",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "[Diagram]\n\nA horizontal circular platform of radius 0.5 m and mass 0.45 kg is free to rotate about its axis. Two massless spring toy-guns, each carrying a steel ball of mass 0.05 kg are attached to the platform at a distance 0.25 m from the centre on its either sides along its diameter (see figure). Each gun simultaneously fires the balls horizontally and perpendicular to the diameter in opposite directions. After leaving the platform, the balls have horizontal speed of 9 ms$^{-1}$ with respect to the ground. The rotational speed of the platform in rad s$^{-1}$ after the balls leave the platform is",
+    "solution": "Consider the balls and the platform together as a system. There is no external torque on the system about its centre. Hence, angular momentum of the system about its centre is conserved. Initial and final angular momentum of the system are\n\n$${L_i} = 0$$,\n\n$${L_f} = mvr + mvr + I\\omega = 2mvr + {1 \\over 2}M{R^2}\\omega $$.\n\nThe conservation of angular momentum, L$_{i}$ = L$_{f}$, gives\n\n$$\\omega = - {{4mvr} \\over {M{R^2}}} = - {{4(0.05)(9)(0.25)} \\over {0.45{{(0.5)}^2}}} = - 4$$ rad/s.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4oo1zm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_018",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform circular disc of mass 50 kg and radius 0.4 m is rotating with an angular velocity of 10 rad s$^{-1}$\nabout its own axis, which is vertical. Two uniform circular rings, each of mass 6.25 kg and radius 0.2 m,\nare gently placed symmetrically on the disc in such a manner that they are touching each other along the\naxis of the disc and are horizontal. Assume that the friction is large enough such that the rings are at rest\nrelative to the disc and the system rotates about the original axis. The new angular velocity (in rad s$^{-1}$\n) of the system is",
+    "solution": "Consider the disc and the rings together as a system. Since the external torque $\\vec{\\Gamma}_{\\text {ext }}$ is zero, the angular momentum of the system about the vertical axis through $O$ is conserved, which can be expressed as:\n\n$$ I_i \\omega_i = I_f \\omega_f $$\n\n[Diagram]\n\nInitially, the moment of inertia is due to the disc alone, and its value is:\n\n$$ I_i = \\frac{1}{2} M R^2 = \\frac{1}{2} \\times 50 \\times 0.4^2 = 4 \\mathrm{~kg \\cdot m}^2 $$\n\nThe moment of inertia of a ring with mass $m$ and radius $r$ about an axis perpendicular to its center is $m r^2$. Using the theorem of parallel axes, the ring's moment of inertia about the axis of rotation is given by:\n\n$$ I_{\\text{ring}} = m r^2 + m d^2 = 2 m r^2 $$\n\nwhere $d = r$ is the distance between the parallel axes. Thus, the moment of inertia of the complete system in the final configuration is:\n\n$$ \\begin{aligned} I_f &= \\frac{1}{2} M R^2 + 2 m r^2 + 2 m r^2 \\\\ &= \\frac{1}{2} (50)(0.4)^2 + 2 \\left(2(6.25)(0.2)^2\\right) = 5 \\mathrm{~kg \\cdot m}^2 \\end{aligned} $$\n\nWith no external torque acting on the system, the angular momentum is conserved:\n\n$$ \\begin{aligned} I_i \\omega_i &= I_f \\omega_f \\\\ 4 \\times 10 &= 5 \\omega_f \\\\ \\omega_f &= 8 \\mathrm{~rad/s} \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzxiq7nf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_019",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A lamina is made by removing a small disc of diameter 2R from a bigger disc of uniform mass density and radius 2R, as shown in the figure. The moment of inertia of this lamina about axes passing through O and P is I$_{O}$ and I$_{P}$ respectively. Both these axes are perpendicular to the plane of the lamina. The ratio I$_{P}$/I$_{O}$ to the nearest integer is ____________.\n\n[Diagram]",
+    "solution": "T = Total portion\nR = Remaining portion and\nC = Cavity and\nLet $$\\sigma$$ = mass per unit area.\nThen, $${m_T} = \\pi {(2R)^2}\\sigma = 4\\pi {R^2}\\sigma {m_C} = \\pi {(R)^2}\\sigma = \\pi {R^2}\\sigma $$\nFor I$_{P}$\n\n[Diagram]\n\n$${I_R} = {I_T} - {I_C} = {3 \\over 2}{m_T}{(2R)^2} - \\left[ {{1 \\over 2}{m_C}{R^2} + {m_C}{r^2}} \\right] = {3 \\over 2}(4\\pi {R^2}\\sigma )(4{R^2}) - \\left[ {{1 \\over 2}(\\pi {R^2}\\sigma ) + (\\pi {R^2}\\sigma )(5{R^2})} \\right] = (18.5\\pi {R^4}\\sigma )$$\nFor I$_{O}$\n$${I_R} = {I_T} - {I_C} = {1 \\over 2}{m_T}{(2R)^2} - {3 \\over 2}{m_C}{R^2} = {1 \\over 2}(4\\pi {R^2}\\sigma )(4{R^2}) - {3 \\over 2}(\\pi {R^2}\\sigma )({R^2}) = 6.5\\pi {R^4}\\sigma \\therefore{{{I_P}} \\over {{I_O}}} = {{18.5\\pi {R^4}\\sigma } \\over {6.5\\pi {R^4}\\sigma }} = 2.846$$\nTherefore, the nearest integer is 3.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24l9i8n.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_020",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four solid spheres each of diameter $$\\sqrt 5 $$ cm and mass 0.5 kg are placed with their centers at the corners of\na square of side 4 cm. The moment of inertia of the system about the diagonal of the square is N $$ \\times $$ 10$^{−4}$\nkg-m$^{2}$, then N is\n\n[Diagram]",
+    "solution": "The moment of inertia of each sphere about an axis passing through its centre is $${2 \\over 5}m{r^2}$$.\n\n[Diagram]\n\nThe moment of inertia of sphere B and sphere D about X $$-$$ X' is\n$${I_B} = {I_D} = {2 \\over 5}m{r^2}$$.\nUsing parallel axes theorem, the moment of inertia of sphere A and sphere C about X $$-$$ X' is\n$${I_A} = {I_C} = {2 \\over 5}m{r^2} + m{d^2}$$\nThe moment of inertia of the system about the diagonal is\n$$I = {I_A} + {I_B} + {I_C} + {I_D} = {8 \\over 5}m{r^2} + 2m{d^2}m = 0.5$$ kg\n$$d = {a \\over {\\sqrt 2 }} = {4 \\over {\\sqrt 2 }}$$ cm\n$$r = {{\\sqrt 5 } \\over 2}$$ cm\n$$\\thereforeI = {8 \\over 5} \\times 0.5 \\times {\\left( {{{\\sqrt 5 } \\over 2} \\times {{10}^{ - 2}}} \\right)^2} + 2 \\times 0.5 \\times {\\left( {{4 \\over {\\sqrt 2 }} \\times {{10}^{ - 2}}} \\right)^2} = 9 \\times {10^{ - 4}}$$ kg m$^{2}$\nHence, $$N = 9$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2jmnfoh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_021",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A boy is pushing a ring of mass 2 kg and radius 0.5 m with a stick as shown in the figure. The stick applies a force of 2 N on the ring and rolls it without slipping with an acceleration of 0.2 m/s$^{2}$. The coefficient of friction between the ground and the ring is large enough that rolling always occurs and the coefficient of friction between the stick and the ring is (P/10). The value of P is _________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nf = $$\\mu$$mg\nThe net torque about point P is\nF $$\\times$$ R $$-$$ fR = I$_{p}$$$\\alpha$$\nWhere, I$_{p}$ = mR$^{2}$ + mR$^{2}$ = 2mR$^{2}$ (parallel axes theorem)\nand, a = R$$\\alpha$$\nAlso, f = $$\\mu$$mg\n$$\\thereforeF \\times R - \\mu mgR = (2\\,m{R^2}) \\times \\left( {{a \\over R}} \\right) = 2maR \\Rightarrow F - \\mu mg = 2\\,ma \\Rightarrow 2 - \\mu \\times 2 \\times 10 = 2 \\times 2 \\times 0.3$$\nwhich gives $$\\mu = {{0.8} \\over {2 \\times 10}} = {{0.4} \\over {10}}$$. Hence, P = 4",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2lywlh5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_022",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid cylinder of radius *R* rolls without slipping with a center of mass speed *v*$_{0}$ = $\\sqrt{\\frac{gR}{3}}$ on a horizontal surface with a vertical edge, as shown in the figure. Here, *g* is the acceleration due to gravity. At the moment when the cylinder loses contact with the surface due to rotation around the corner, the speed of its center of mass is:\n\n[Diagram]",
+    "solution": "When the uniform solid cylinder rolls along the horizontal table and strikes the sharp corner edge, its smooth rolling motion changes. The corner point P acts as a temporary pivot.\n\n[Diagram]\n\nThe cylinder begins to pivot or rotate purely about this fixed corner point P . As long as it stays in contact with this corner, the centre of mass ( $C$ ) executes circular motion of radius $R$ around $P$.\nThe moment of inertia of a uniform solid cylinder of mass M and radius R about its central longitudinal axis is :\n$$ \\mathrm{I}_{\\mathrm{cm}}=\\frac{1}{2} \\mathrm{MR}^2 $$\nAccording to the parallel axis theorem, the moment of inertia about an axis at a distance $\\mathrm{d}=\\mathrm{R}$ from the centre is :\n$$ \\mathrm{I}_{\\mathrm{p}}=\\mathrm{I}_{\\mathrm{cm}}+\\mathrm{Md}^2=\\frac{1}{2} \\mathrm{MR}^2+\\mathrm{MR}^2=\\frac{3}{2} \\mathrm{MR}^2 $$\nThe centre of mass immediately after the cylinder pivots onto the corner gravity is a non-impulsive force, so its effect over the infinitesimally short duration is negligible.\nThe reaction forces at the corner P are impulsive, but they pass directly through P . Therefore, the net torque about the pivot P during the collision is zero, which means angular momentum about P is conserved.\nThe cylinder is rolling without slipping with a centre of mass velocity $\\mathrm{v}_0$ and angular velocity $\\omega_0=\\mathrm{v}_0 \\mathrm{R}$.\nThe total angular momentum about the level of the corner P which is at a height R below the centre of mass path is:\n$$L_{\\text{initial}} = Mv_0R + I_{\\text{cm}}\\omega_0L_{\\text{initial}} = Mv_0R + \\left(\\frac{1}{2}MR^2\\right)\\left(\\frac{v_0}{R}\\right) = \\frac{3}{2}Mv_0R$$\nAfter impact the cylinder is rotating about the pivot P with a new angular velocity $\\omega_1$. Its angular momentum about P is:\n$$L_{\\text{final}} = I_p\\,\\omega_1 = \\frac{3}{2}MR^2\\omega_1$$\nUsing conservation of angular momentum\n$$L_{\\text{initial}} = L_{\\text{final}}\\frac{3}{2}Mv_0R = \\frac{3}{2}MR^2\\omega_1 \\rightarrow \\omega_1 = \\frac{v_0}{R}$$\nAs the cylinder tilts forward around the corner, the angle $\\theta$ with the vertical increases from $0$. The centre of mass descends vertically. When the line PC has tilted by an angle $\\theta$.\nInitial height of centre of mass relative to pivot $= R$\nHeight of centre of mass at angle $\\theta$ $= R\\cos\\theta$\nLoss in potential energy\n$$= Mg(R - R\\cos\\theta) = MgR(1 - \\cos\\theta)$$\nBy conservation of total mechanical energy between the initial vertical position of PC ($\\theta = 0$, angular speed $\\omega_1$) and a tilted position $\\theta$ (angular speed $\\omega$):\n$$\\Delta K = -\\Delta U\\frac{1}{2}I_p\\omega^2 - \\frac{1}{2}I_p\\omega_1^2 = MgR(1 - \\cos\\theta)$$\nSubstituting $I_p = \\frac{3}{2}MR^2$ and $\\omega_1 = \\frac{v_0}{R}$:\n$$\\frac{1}{2}\\left(\\frac{3}{2}MR^2\\right)\\omega^2 - \\frac{1}{2}\\left(\\frac{3}{2}MR^2\\right)\\left(\\frac{v_0}{R}\\right)^2 = MgR(1 - \\cos\\theta)\\frac{3}{4}MR^2\\omega^2 - \\frac{3}{4}Mv_0^2 = MgR(1 - \\cos\\theta)$$\nSince the linear velocity of the centre of mass at any instant during this circular path is $v = \\omega R$,\nSo, $R^2\\omega^2 = v^2$:\n$$\\frac{3}{4}Mv^2 = \\frac{3}{4}Mv_0^2 + MgR(1 - \\cos\\theta)v^2=v_0^2+\\frac{4}{3} \\operatorname{gR}(1-\\cos \\theta) \\ldots (i)$$\nThe centre of mass travels along a circular arc of radius R around the pivot P .\nFor motion along the radial direction pointing toward the centre of rotation P .\nThe component of gravity pulling toward the pivot is $\\mathrm{Mg} \\cos \\theta$\nThe normal contact force exerted by the corner pulling outward away from the pivot is N\nThe net inward centripetal force is $Mg\\\\cos\\theta - N = \\frac{Mv^2}{R}$\nThe cylinder loses contact with the corner when the normal contact force drops to zero $N = 0$:\n$$Mg\\cos\\theta = \\frac{Mv^2}{R} \\rightarrow v^2 = gR\\cos\\theta \\ldots \\text{(ii)}$$\nSo, from energy conservation $v^2 = v_0^2 + \\frac{4}{3}gR - \\frac{4}{3}gR\\cos\\theta \\ldots \\text{(i)}$\nFrom the radial force equilibrium $\\cos\\theta = \\frac{v^2}{gR} \\rightarrow \\frac{4}{3}gR\\cos\\theta = \\frac{4}{3}v^2 \\ldots \\text{(i)}$\n$$v^2 = v_0^2 + \\frac{4}{3}gR - \\frac{4}{3}v^2v^2 + \\frac{4}{3}v^2 = v_0^2 + \\frac{4}{3}gR\\frac{7}{3}v^2 = v_0^2 + \\frac{4}{3}gR$$\nThe initial velocity is $v_0 = \\sqrt{\\frac{gR}{3}}$, $\\rightarrow v_0^2 = \\frac{gR}{3}$.\n$$\\frac{7}{3}v^2 = \\frac{gR}{3} + \\frac{4}{3}gR\\frac{7}{3}v^2 = \\frac{5}{3}gR7v^2 = 5gRv^2 = \\frac{5gR}{7}v = \\sqrt{\\frac{5gR}{7}}$$\nTherefore, the correct option is (B).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0",
+      "$\\sqrt{\\frac{5gR}{7}}$",
+      "$\\sqrt{\\frac{gR}{15}}$",
+      "$\\sqrt{\\frac{3gR}{7}}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9v7qkl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_023",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List-I shows four planar structures made of uniform solid rods each of mass $m$ and length $l$. In the List-II the possible moment of inertia of these structures about an axis $OCO'$, which lies in the plane of the structures, are given.\nChoose the option that describes the correct match between the entries in List-I to those in List-II.\n\n\n\nList-I\nList-II\n\n\n\n\n\n\n\n(P)\n\n\n[Diagram]\n\n\n\n\n(1)\n$$\\frac{5}{4}ml^2$$\n\n\n\n\n\n(Q)\n\n\n[Diagram]\n\n\n\n\n(2)\n$$\\frac{1}{6}ml^2$$\n\n\n\n\n\n(R)\n\n\n[Diagram]\n\n\n\n\n(3)\n$$\\frac{1}{12}ml^2$$\n\n\n\n\n\n(S)\n\n\n[Diagram]\n\n\n\n\n(4)\n$$\\frac{2}{3}ml^2$$\n\n\n\n\n\n\n\n\n\n\n\n(5)\n$$\\frac{1}{3}ml^2$$",
+    "solution": "The moment of inertia of single rod about the axis passing through its center and making angle $\\theta$ along the length of rod is :\n\n[Diagram]\n\n$$ \\mathrm{I}_{\\text {center }}=\\frac{1}{12} \\mathrm{ml}^2 \\sin ^2 \\theta $$\nIf the axis instead passes through one end of the rod at an angle $\\theta$,\n$$ \\mathrm{I}_{\\mathrm{end}}=\\frac{1}{3} \\mathrm{ml}^2 \\sin ^2 \\theta $$\n\n[Diagram]\n\nStructure (P) consists of two uniform rods, each of mass m and length l, joined at a right angle ($90^\\circ$) at point C.\nThe axis OCO' passes through the junction C and bisects the angle, making an angle $\\theta = 45^\\circ$ with both rods.\nSince the axis passes through the end of both rods,\n$$I_1 = \\frac{1}{3}ml^2\\sin^2(45^\\circ) = \\frac{1}{3}ml^2\\left(\\frac{1}{\\sqrt{2}}\\right)^2 = \\frac{1}{6}ml^2I_2 = \\frac{1}{3}ml^2\\sin^2(45^\\circ) = \\frac{1}{3}ml^2\\left(\\frac{1}{\\sqrt{2}}\\right)^2 = \\frac{1}{6}ml^2$$\nThe total moment of inertia of structure (P) is the sum of the two parts:\n$$I_P = I_1 + I_2 = \\frac{1}{6}ml^2 + \\frac{1}{6}ml^2 = \\frac{1}{3}ml^2P \\rightarrow 5$$\n\n[Diagram]\n\nRods CA and CB have one end attached at vertex C, which lies directly on the axis of rotation. Each rod is inclined at an angle $\\theta = 60^\\circ$ to the axis.\n$$I_{CA} = \\frac{1}{3} m l^2 \\sin^2(60^\\circ) = \\frac{1}{3} m l^2 \\left(\\frac{\\sqrt{3}}{2}\\right)^2 = \\frac{1}{3} m l^2 \\left(\\frac{3}{4}\\right) = \\frac{1}{4} m l^2I_{CB} = \\frac{1}{3} m l^2 \\sin^2(60^\\circ) = \\frac{1}{3} m l^2 \\left(\\frac{\\sqrt{3}}{2}\\right)^2 = \\frac{1}{3} m l^2 \\left(\\frac{3}{4}\\right) = \\frac{1}{4} m l^2$$\nBase rod AB is horizontal and completely parallel to the axis OCO",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P → 5, Q → 1, R → 4, S → 2",
+      "P → 1, Q → 3, R → 4, S → 2",
+      "P → 5, Q → 3, R → 2, S → 1",
+      "P → 5, Q → 4, R → 2, S → 1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xe5f6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_024",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The center of a disk of radius $r$ and mass $m$ is attached to a spring of spring constant $k$, inside a ring of radius $R>r$ as shown in the figure. The other end of the spring is attached on the periphery of the ring. Both the ring and the disk are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following the Hooke's law. In equilibrium, the disk is at the bottom of the ring. Assuming small displacement of the disc, the time period of oscillation of center of mass of the disk is written as $T=\\frac{2 \\pi}{\\omega}$. The correct expression for $\\omega$ is ( $g$ is the acceleration due to gravity):\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\nLet's disc rolls to $\\phi$ angular displacement about its centre:\nAs the disc rolls without slipping. we can write,\n$ x=r \\phi=(R-r) \\theta \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$\nNow, Let's apply $\\tau=I \\alpha$ about contact\n$ \\begin{aligned} & \\text { point } \\\\ & \\tau=m g \\sin \\theta \\cdot r+k x r=\\left(\\frac{m r^2}{2}+m r^2\\right) \\alpha^{\\prime} \\\\ & \\Rightarrow m g \\theta \\cdot r+k(R-r) \\theta r=\\frac{3 m r^2}{2} \\alpha^{\\prime} \\\\ & \\Rightarrow[m g+k(R-r)] \\theta r=\\frac{3}{2} m r^{\\prime} \\alpha^{\\prime} \\\\ & \\Rightarrow[m g+k(R-r)] \\theta=\\frac{3}{2} m r \\alpha^{\\prime}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii) \\end{aligned} $\nhere, $\\alpha^{\\prime}=\\frac{d^2 \\phi}{d t^2}$\nfrom (1), $\\phi=\\left(\\frac{R-r}{r}\\right) 0$\n$ \\begin{aligned} & \\Rightarrow \\quad \\alpha^{\\prime}=\\frac{d^2 \\phi}{d t^2}=\\left(\\frac{R-r}{r}\\right) \\frac{d^2 \\theta}{d t^2} \\\\ & \\Rightarrow \\quad \\alpha^{\\prime \\prime}=\\left(\\frac{R-r}{r}\\right) \\alpha\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii) \\end{aligned} $\nNow, from (2) and (3),\n$ \\begin{aligned} & {[m g+k(R-r)] \\theta=\\frac{3}{2} m r\\left(\\frac{R-r}{r}\\right) \\alpha} \\\\ & \\Rightarrow[m g+k(R-r)] \\theta=\\frac{3}{2} m(R-r) \\alpha \\end{aligned} $\nNow, we know, for SHM,\n$$ \\begin{gathered} \\alpha=\\omega^2 \\theta \\\\ \\Rightarrow \\quad\\left[\\frac{m g+k(R-r)}{\\frac{3}{2} m(R-r)}\\right] \\phi=\\omega^2 \\phi \\\\ \\Rightarrow \\frac{2}{3} \\frac{g}{(R-r)}+\\frac{2}{3} \\frac{k}{m}=\\omega^2 \\\\ \\Rightarrow \\omega=\\sqrt{\\frac{2}{3}\\left[\\frac{g}{(R-r)}+\\frac{k}{m}\\right]} \\end{gathered} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$ \\sqrt{\\frac{2}{3} \\left( \\frac{g}{R - r} + \\frac{k}{m} \\right)} $",
+      "$ \\sqrt{\\frac{2g}{3(R - r)} + \\frac{k}{m}} $",
+      "$ \\sqrt{\\frac{1}{6} \\left( \\frac{g}{R - r} + \\frac{k}{m} \\right)} $",
+      "$ \\sqrt{\\frac{1}{4} \\left( \\frac{g}{R - r} + \\frac{k}{m} \\right)} $"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0cr8wh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_025",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A bar of mass $M=1.00 \\mathrm{~kg}$ and length $L=0.20 \\mathrm{~m}$ is lying on a horizontal frictionless surface. One end of the bar is pivoted at a point about which it is free to rotate. A small mass $m=0.10 \\mathrm{~kg}$ is moving on the same horizontal surface with $5.00 \\mathrm{~m} \\mathrm{~s}^{-1}$ speed on a path perpendicular to the bar. It hits the bar at a distance $L / 2$ from the pivoted end and returns back on the same path with speed v. After this elastic collision, the bar rotates with an angular velocity $\\omega$.\n\nWhich of the following statement is correct?",
+    "solution": "A bar, having a mass of $ M = 1 $ kg and a length of $ L = 0.2 $ m, is hinged at a point P. A particle with a mass of $ m = 0.1 $ kg moves in a direction perpendicular to the bar at a velocity of $ u = 5 $ m/s. This particle collides elastically with the bar at a point that is $ \\frac{L}{2} $ (0.1 m) away from the pivot point P. As a result of this collision, the bar begins to rotate with an angular velocity $ \\omega $, and the particle recoils with a new velocity $ v $.\n\n[Diagram]\n\nWe can analyze the bar and the particle as a combined system. Initially, before the impact occurs, the system's angular momentum around the pivot point P is in a clockwise direction. The magnitude of this initial angular momentum can be expressed as\n\n$ L_i = m u \\left( \\frac{L}{2} \\right) $\n\nFollowing the collision, the angular momentum of the system about the pivot point P changes. This final angular momentum can be represented as\n\n$ L_f = I_{\\text{bar}} \\omega - m v \\left( \\frac{L}{2} \\right) $\n\nHere, $ I_{\\text{bar}} $, the moment of inertia of the bar, is given by $ \\frac{1}{3} M L^2 $, and the term $ -\\frac{1}{2} m v L $ accounts for the particle's contribution post-collision.\n\nDuring the collision, the angular momentum of the system around the pivot point P is conserved. This means $ L_i = L_f $. Applying this principle, we derive the following relationship :\n\n$ 2 M L \\omega = 3 m (u + v) $ ..........(i)\n\nThis equation represents the conservation of angular momentum in the system, correlating the initial and final states of the bar and the particle.\n\nThe kinetic energy of the system is conserved in an elastic collision. The kinetic energy of the system before the collision is\n\n$$\nK_i=\\frac{1}{2} m u^2 .\n$$\n\nIn an elastic collision, the total kinetic energy of the system is preserved. Prior to the collision, the kinetic energy of the system can be quantified as\n\n$ K_i = \\frac{1}{2} m u^2 $\n\nThis equation denotes the initial kinetic energy, primarily attributed to the particle's motion.\n\nAfter the collision takes place, the kinetic energy of the system can be expressed as :\n\n$ K_f = \\frac{1}{2} m v^2 + \\frac{1}{2} I_{\\text{rot}} \\omega^2 = \\frac{1}{2} m v^2 + \\frac{1}{2} \\times \\frac{1}{3} M L^2 \\omega^2 $\n\nHere, the first term represents the kinetic energy due to the particle's velocity post-collision, and the second term represents the rotational kinetic energy of the bar.\n\nBy applying the principle of conservation of kinetic energy, which states $ K_i = K_f $, we obtain the following relation :\n\n$ M L^2 \\omega^2 = 3 m(u^2 - v^2) $ ............(ii)\n\nThis equation links the initial and final kinetic energies of the system, comprising the particle and the rotating bar.\n\nBy resolving equations (i) and (ii), we determine that the velocity $ v $ of the particle post-collision is $ 4.3 $ m/s and the angular velocity $ \\omega $ of the bar is $ 6.98 $ rad/s.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\omega=6.98 ~\\mathrm{rad}~ \\mathrm{s}^{-1}$ and $\\mathrm{v}=4.30 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+      "$\\omega=3.75 ~\\mathrm{rad} ~\\mathrm{s}^{-1}$ and $\\mathrm{v}=4.30 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+      "$\\omega=3.75 ~\\mathrm{rad}~ \\mathrm{s}^{-1}$ and $\\mathrm{v}=10.0 \\mathrm{~m} \\mathrm{~s}^{-1}$",
+      "$\\omega=6.80 ~\\mathrm{rad} ~\\mathrm{s}^{-1}$ and $\\mathrm{v}=4.10 \\mathrm{~m} \\mathrm{~s}^{-1}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lq3g7hsc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_026",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A flat surface of a thin uniform disk $A$ of radius $R$ is glued to a horizontal table. Another thin uniform disk $B$ of mass $M$ and with the same radius $R$ rolls without slipping on the circumference of $A$, as shown in the figure. A flat surface of $B$ also lies on the plane of the table. The center of mass of $B$ has fixed angular speed $\\omega$ about the vertical axis passing through the center of $A$. The angular momentum of $B$ is $n M \\omega R^{2}$ with respect to the center of $A$. Which of the following is the value of $n$ ?\n\n[Diagram]",
+    "solution": "Angular momentum of $B$ with respect to center of $A$\n\n$$\n\\begin{aligned}\n\\vec{L} & =\\vec{L}_{C M}+\\vec{L}_{\\text {Body about CM }} \\\\\\\\\n& =M(2 R)^2 \\omega \\hat{k}+\\frac{M R^2}{2}\\left(\\omega_{\\text {body }}\\right) \\hat{k} \\\\\\\\\n& =M(2 R)^2 \\omega \\hat{k}+\\frac{M R^2}{2}(2 \\omega) \\hat{k} \\\\\\\\\n& =5 M R^2 \\omega \\hat{k}\n\\end{aligned}\n$$\n\nComparing the magnitude with $n M \\omega R^2$\n\n$$\nn=5\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2",
+      "5",
+      "$\\frac{7}{2}$",
+      "$\\frac{9}{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7gaaxyk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_027",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List I describes four systems, each with two particles $A$ and $B$ in relative motion as shown in figures. List II gives possible magnitudes of their relative velocities (in $m s^{-1}$ ) at time $t=\\frac{\\pi}{3} s$.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) $A$ and $B$ are moving on a horizontal circle of radius $1 \\mathrm{~m}$ with uniform angular speed $\\omega=1 \\mathrm{rad} \\mathrm{s}^{-1}$. The initial angular positions of $A$ and $B$ at time $t=0$ are $\\theta=0$ and $\\theta=\\frac{\\pi}{2}$, respectively.\n\n[Diagram]\n\n(P) $\\frac{\\sqrt{3}+1}{2}$\n\n\n(II) Projectiles $A$ and $B$ are fired (in the same vertical plane) at $t=0$ and $t=0.1 \\mathrm{~s}$ respectively, with the same speed $v=\\frac{5 \\pi}{\\sqrt{2}} \\mathrm{~m} \\mathrm{~s}^{-1}$ and at $45^{\\circ}$ from the horizontal plane. The initial separation between $A$ and $B$ is large enough so that they do not collide. $\\left(g=10 \\mathrm{~ms}^{-2}\\right)$.\n\n[Diagram]\n\n(Q) $\\frac{\\sqrt{3}-1}{\\sqrt{2}}$\n\n\n(III) Two harmonic oscillators $A$ and $B$ moving in the $x$ direction according to $x_{A}=x_{0} \\sin \\frac{t}{t_{0}}$ and $x_{B}=x_{0} \\sin \\left(\\frac{t}{t_{0}}+\\frac{\\pi}{2}\\right)$ respectively, starting from $t=0$. Take $x_{0}=1 \\mathrm{~m}, t_{0}=1 \\mathrm{~s}$.\n\n[Diagram]\n\n(R) $\\sqrt{10}$\n\n\n(IV) Particle $A$ is rotating in a horizontal circular path of radius $1 \\mathrm{~m}$ on the $x y$ plane, with constant angular speed $\\omega=1 \\mathrm{rad} \\mathrm{s}^{-1}$. Particle $B$ is moving up at a constant speed $3 \\mathrm{~m} \\mathrm{~s}^{-1}$ in the vertical direction as shown in the figure. (Ignore gravity.)\n\n[Diagram]\n\n(S) $\\sqrt{2}$\n\n\n\n(T) $\\sqrt{25\\pi^{2}+1}$\n\n\nWhich one of the following options is correct?",
+    "solution": "(I)\n[Diagram]\n\n$${v_{net}} = \\sqrt 2 \\omega R = \\sqrt 2 $$\nI $$\\to$$ S\n(II) $${v_A}(t = 0.13) = {{5\\pi } \\over {\\sqrt 2 }}\\cos 45\\widehat i + \\left[ {{{5\\pi } \\over {\\sqrt 2 }} \\times {1 \\over {\\sqrt 2 }} - g \\times 0.1} \\right]\\widehat j = {{5\\pi } \\over 2}\\widehat i + \\left( {{{5\\pi } \\over 2} - 1} \\right)\\widehat j{v_B}(t = 0.1\\,\\sec ) = {{ - 5\\pi } \\over 2}\\widehat i + \\left( {{{5\\pi } \\over 2}} \\right)\\widehat j$$\nAfter $$t = 0.1$$, relative velocities should not change.\n$${v_{rel}}(t = 0.1\\,\\sec ) = \\left| {5\\pi \\widehat i - \\widehat j} \\right| = \\sqrt {25{\\pi ^2} + 1} $$\nII $$\\to$$ T\n(III) $$x = {x_A} - {x_B} = {x_0}\\sin t - {x_0}\\sin \\left( {t + {\\pi \\over 2}} \\right) = \\sqrt 2 {x_0}\\sin \\left( {t - {\\pi \\over 4}} \\right){v_{rel}} = {{dx} \\over {dt}} = \\sqrt 2 {x_0}\\cos \\left( {t - {\\pi \\over 4}} \\right) = \\sqrt 2 \\cos \\left( {{\\pi \\over 3} - {\\pi \\over 4}} \\right) = \\sqrt 2 \\times {{\\sqrt 3 + 1} \\over {2\\sqrt 2 }} = {{\\sqrt 3 + 1} \\over 2}$$\nIII $$\\to$$ P\n(IV) $${v_{rel}} = \\sqrt {{3^2} + {1^2}} = \\sqrt {10} $$\nIV $$\\to$$ R",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "I $\\rightarrow$ R, II $\\rightarrow$ T, III $\\rightarrow$ P, IV $\\rightarrow$ S",
+      "I $\\rightarrow$ S, II $\\rightarrow$ P, III $\\rightarrow$ Q, IV $\\rightarrow$ R",
+      "I $\\rightarrow$ S, II $\\rightarrow$ T, III $\\rightarrow$ P, IV $\\rightarrow$ R",
+      "I $\\rightarrow$ T, II $\\rightarrow$ P, III $\\rightarrow$ R, IV $\\rightarrow$ S"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7eldmyu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_028",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small roller of diameter 20 cm has an axle of diameter 10 cm (see figure below on the left). It is\non a horizontal floor and a meter scale is positioned horizontally on its axle with one edge of the scale\non top of the axle (see figure on the right). The scale is now pushed slowly on the axle so that it\nmoves without slipping on the axle, and the roller starts rolling without slipping. After the roller has\nmoved 50 cm, the position of the scale will look like (figures are schematic and not drawn to scale)\n\n[Diagram]",
+    "solution": "For no slipping at ground,\n\nv$_{c}$ = $$\\omega $$R\n\n(where, r is the radius of roller)\n\n$$ \\therefore $$ Velocity of scale = (v$_{c}$ + $$\\omega $$r) (where, r is the radius of axle)\n\nGiven, v$_{c}$ . t = 50 cm\n\n$$ \\therefore $$ Distance moved by scale = (v$_{c}$ + $$\\omega $$r)t = $$\\left( {{v_c} + {{{v_c}r} \\over r}} \\right)t = {{3{v_c}} \\over 2}.t = 75cm$$\n\nTherefore, relative displacement (with respect to centre of roller) is (75 $$-$$ 50) cm = 25 cm.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_029",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider regular polygons with number of sides $$n=3,4,5....$$ as shown in the figure. The center of mass of all the polygons is at height $$h$$ from the ground. They roll on a horizontal surface about the leading vertex without slipping and sliding as depicted. The maximum increase in height of the locus of the center of mass for each polygon is $$\\Delta $$. Then $$\\Delta $$ depends on $$n$$ and $$h$$ as\n\n[Diagram]",
+    "solution": "Let n be the number of sides of a regular polygon. By symmetry, its centre of mass O will be equidistant from each vertex i.e., it lies at the centre of the circumscribed circle. Let r be the radius of circumscribed circle and h be the perpendicular distance of O from any side (see figure). The angle subtended by any side on the centre O is 2$$\\pi$$/n and $$\\angle$$PON = $$\\pi$$/n.\n\n[Diagram]\n\nWhen polygon rolls about the vertex P (without slipping or sliding), the point O moves in a circle of radius r centred at P. The point O reaches the maximum height (point O' in the figure) when PO' is perpendicular to PQ. Thus, the maximum increase in height of the locus of the centre of mass O is given by\n$$\\Delta = r - h = {h \\over {\\cos (\\pi /n)}} - h = h\\left( {{1 \\over {\\cos (\\pi /n)}} - 1} \\right)$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\Delta = h{\\sin ^2}\\left( {{\\pi \\over n}} \\right)$$",
+      "$$\\Delta = h\\left( {{1 \\over {\\cos \\left( {{\\pi \\over n}} \\right)}} - 1} \\right)$$",
+      "$$\\Delta = h\\sin \\left( {{{2\\pi } \\over n}} \\right)$$",
+      "$$\\Delta = h\\,{\\tan ^2}\\left( {{\\pi \\over {2n}}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0b0psmw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_030",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total kinetic energy of the ring is",
+    "solution": "Let P be the contact point of the finger and the ring. The point P revolves with an angular velocity $$\\omega$$$_{0}$ in a circle of radius r centred at the point O (see figure). The contact point P, the centre O and the centre of the ring C are in a straight line because P is common to both the circles (i.e., circular trajectory and circular ring). Thus, the line CP will have same angular velocity as the line OP i.e., angular velocity of the line CP (or the ring) is $$\\omega$$$_{0}$.\n\n\n[Diagram]\n\nThe velocity of the finger at the point P is $$\\omega$$$_{0}$r tangential to the circle in which it revolves. The ring rolls without slipping. Thus, velocity of the ring at the point P is also $$\\omega$$$_{0}$r tangential to the circle in which the finger revolves. Let velocity of C be v$_{cm}$. Since P and C lie on the ring (a rigid body), the velocities of C and P are related by $${\\overrightarrow v _C} = {\\overrightarrow v _P} + \\overrightarrow \\omega \\times \\overrightarrow {PC} $$ which gives\n\nv$_{cm}$ = $$\\omega$$$_{0}$(R $$-$$ r).\n\nThe ring rotates with an angular velocity $$\\omega$$ = $$\\omega$$$_{0}$ and its centre of mass translates with a velocity v$_{cm}$ = $$\\omega$$$_{0}$(R $$-$$ r). Thus, kinetic energy of the ring is given by\n\n$$K = {1 \\over 2}Mv_{cm}^2 + {1 \\over 2}{I_{cm}}{\\omega ^2} = {1 \\over 2}M\\omega _0^2{(R - r)^2} + {1 \\over 2}M{R^2}\\omega _0^2 = {1 \\over 2}M\\omega _0^2[{(R - r)^2} + {R^2}]$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$M\\omega _0^2{(R - r)^2}$$",
+      "$${1 \\over 2}M\\omega _0^2{(R - r)^2}$$",
+      "$$M\\omega _0^2{R^2}$$",
+      "$${1 \\over 2}M\\omega _0^2[{(R - r)^2} + {R^2}]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz1dugm9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_031",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum value of $$\\omega$$$_{0}$ below which the ring will drop down is",
+    "solution": "Let the ring makes an angle $$\\alpha$$ with the horizontal and the finger makes an angle $$\\beta$$ with the vertical (see figure). The forces acting on the ring are its weight mg at the centre C, normal reaction N and the frictional force f at the contact point P. Resolve the forces in the horizontal and the vertical directions. The centre of mass C rotates with an angular velocity $$\\omega$$$_{0}$ in a horizontal circle of radius (R $$-$$ r) cos$$\\alpha$$ centred at O. Apply Newton's second law in the horizontal and the vertical directions to get\n\n$$f\\cos \\beta - N\\sin \\beta - Mg = 0$$ ..... (1)\n\n$$N\\cos \\beta + f\\sin \\beta = M\\omega _0^2(R - r)\\cos \\alpha $$ .... (2)\n\n\n[Diagram]\n\nThe minimum value of $$\\omega$$$_{0}$ occurs when the frictional force attains its limiting value i.e.,\n\n$$f = \\mu N$$....... (3)\n\nEliminate f and N from equations (1) - (3) to get\n\n$${\\omega _{0,\\,\\min }} = {\\left[ {{{(\\cos \\beta + \\mu \\sin \\beta )g} \\over {(\\mu \\cos \\beta - \\sin \\beta )(R - r)\\cos \\alpha }}} \\right]^{1/2}} \\approx {\\left[ {{g \\over {\\mu (R - r)}}} \\right]^{1/2}}$$ ($$\\because\\alpha$$ = 0 and $$\\beta$$ = 0).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\sqrt {{g \\over {2\\mu (R - r)}}} $$",
+      "$$\\sqrt {{{3g} \\over {2\\mu (R - r)}}} $$",
+      "$$\\sqrt {{g \\over {\\mu (R - r)}}} $$",
+      "$$\\sqrt {{{2g} \\over {\\mu (R - r)}}} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz1dyfbk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_032",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A frame of the reference that is accelerated with respect to an inertial frame of reference is called a non-inertial frame of reference. A coordinate system fixed on a circular disc rotating about a fixed axis with a constant angular velocity $$\\omega$$ is an example of a non-inertial frame of reference. The relationship between the force $$\\overrightarrow F $$$_{rot}$ experienced by a particle of mass m moving on the rotating disc and the force $$\\overrightarrow F $$$_{in}$ experienced by the particle in an inertial frame of reference is,\n\n$$\\overrightarrow F $$$_{rot}$ = $$\\overrightarrow F $$$_{in}$ + 2m ($$\\overrightarrow v $$$_{rot}$ $$\\times\\overrightarrow \\omega $$) + m ($$\\overrightarrow \\omega \\times\\overrightarrow r $$) $$\\times\\overrightarrow \\omega $$,\n\nwhere, v$_{rot}$ is the velocity of the particle in the rotating frame of reference and r is the position vector of the particle with respect to the centre of the disc.\n\n\n[Diagram]\n\nNow, consider a smooth slot along a diameter of a disc of radius R rotating counter-clockwise with a constant angular speed $$\\omega$$ about its vertical axis through its centre. We assign a coordinate system with the origin at the centre of the disc, the X-axis along the slot, the Y-axis perpendicular to the slot and the Z-axis along the rotation axis ($$\\omega$$ = $$\\omega\\widehat k$$). A small block of mass m is gently placed in the slot at r = (R/2)$$\\widehat i$$ at t = 0 and is constrained to move only along the slot.\n\nThe distance r of the block at time t is",
+    "solution": "The given particle of mass m experiences a centrifugal force:\nF = ma = mr$$\\omega$$$^{2}$\n$$\\Rightarrow$$ a = r$$\\omega$$$^{2}$\n$$\\Rightarrow{{dv} \\over {dt}} = r{\\omega ^2}$$\nor, $$\\left( {{{dv} \\over {dr}}} \\right)\\left( {{{dr} \\over {dt}}} \\right) = r{\\omega ^2}$$ ($$\\because{{{dr} \\over {dt}}}=v$$)\n$$ \\Rightarrow vdv = r{\\omega ^2}dr\\int\\limits_0^v {vdv = {\\omega ^2}\\int\\limits_{R/2}^r {rdr} } $$ ($$\\because$$ at t = 0, $$r = {R \\over 2}$$)\n$$ \\Rightarrow {{{v^2}} \\over 2} = {\\omega ^2}\\left( {{{{r^2}} \\over 2}} \\right)_{R/2}^r \\Rightarrow v = \\omega \\sqrt {{r^2} - {{{R^2}} \\over 4}} $$\n\n[Diagram]\n\nNow, $$v = {{dr} \\over {dt}}$$\nTherefore, $${{dr} \\over {dt}} = \\omega \\sqrt {{r^2} - {{{R^2}} \\over 4}} $$\nor, $$\\int\\limits_{R/2}^r {{{dr} \\over {\\sqrt {{r^2} - {{{R^2}} \\over 4}} }} = \\omega \\int\\limits_0^t {dt} } $$ ...... (1)\nTo solve this integral, we substitute $$r = {R \\over 2}\\sec \\theta $$; therefore,\n$$dr = {R \\over 2}\\sec \\theta \\tan \\theta d\\theta \\Rightarrow \\int\\limits_{{\\pi \\over 2}}^{{{\\sec }^{ - 1}}(2r/R)} {{{(r/2)\\sec \\theta \\tan \\theta d\\theta } \\over {\\sqrt {{{{R^2}} \\over 4}{{\\tan }^2}\\theta } }} = \\omega t} \\Rightarrow \\omega t = \\int\\limits_{\\pi /2}^{{{\\sec }^{ - 1}}(2r/R)} {\\sec \\theta d\\theta } = {\\left[ {\\ln \\left| {\\sec \\theta + \\tan \\theta } \\right|} \\right]^{{{\\sec }^{ - 1}}(2r/R)}} = \\left[ {\\ln \\left| {\\sec \\theta + \\sqrt {{{\\sec }^2}\\theta - 1} } \\right|} \\right]_{\\pi /2}^{{{\\sec }^{ - 1}}(2r/R)} \\Rightarrow \\omega t = \\ln \\left[ {{{2r} \\over R} + {{\\sqrt {4{r^2} - {R^2}} } \\over R}} \\right]$$\nLet $${{2r} \\over R} = x$$. Therefore,\n$${e^\\omega } = x + \\sqrt {{x^2} - 1} \\Rightarrow ({e^{\\omega t}} - x)^2 = {x^2} - 1 \\Rightarrow {e^{2\\omega t}} - 2x{e^{\\omega t}} + x^2 = x^2 - 1 \\Rightarrow {e^{2\\omega t}} - 2x{e^{\\omega t}} + 1 = 0 \\Rightarrow x = {{{e^{2\\omega t}} + 1} \\over {2{e^{\\omega t}}}} = {{{e^{\\omega t}} + {e^{ - \\omega t}}} \\over 2}$$\nOn replacing x by $${{2r} \\over R}$$, we get\n$${{2r} \\over R} = {{{e^{\\omega t}} + {e^{ - \\omega t}}} \\over 2}$$\nor, $$r = {R \\over 4}[{e^{\\omega t}} + {e^{ - \\omega t}}]$$\nHence, option (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${R \\over 2}\\cos 2\\omega t$$",
+      "$${R \\over 2}\\cos \\omega t$$",
+      "$${R \\over 4}({e^{\\omega t}} + {e^{ - \\omega t}})$$",
+      "$${R \\over 2}({e^{2\\omega t}} + {e^{ - 2\\omega t}})$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0or8v0w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_033",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A frame of the reference that is accelerated with respect to an inertial frame of reference is called a non-inertial frame of reference. A coordinate system fixed on a circular disc rotating about a fixed axis with a constant angular velocity $$\\omega$$ is an example of a non-inertial frame of reference. The relationship between the force $$\\overrightarrow F $$$_{rot}$ experienced by a particle of mass m moving on the rotating disc and the force $$\\overrightarrow F $$$_{in}$ experienced by the particle in an inertial frame of reference is,\n\n$$\\overrightarrow F $$$_{rot}$ = $$\\overrightarrow F $$$_{in}$ + 2m ($$\\overrightarrow v $$$_{rot}$ $$\\times\\overrightarrow \\omega $$) + m ($$\\overrightarrow \\omega \\times\\overrightarrow r $$) $$\\times\\overrightarrow \\omega $$,\n\nwhere, v$_{rot}$ is the velocity of the particle in the rotating frame of reference and r is the position vector of the particle with respect to the centre of the disc.\n\n\n[Diagram]\n\nNow, consider a smooth slot along a diameter of a disc of radius R rotating counter-clockwise with a constant angular speed $$\\omega$$ about its vertical axis through its centre. We assign a coordinate system with the origin at the centre of the disc, the X-axis along the slot, the Y-axis perpendicular to the slot and the Z-axis along the rotation axis ($$\\omega$$ = $$\\omega\\widehat k$$). A small block of mass m is gently placed in the slot at r = (R/2)$$\\widehat i$$ at t = 0 and is constrained to move only along the slot.\n\nThe net reaction of the disc on the block is",
+    "solution": "The rotational quantity of velocity given by\n$${v_{rot}} = {{dr} \\over {dt}} = {R \\over 4}[\\omega {e^{\\omega t}} - \\omega {e^{ - \\omega t}}]{v_{rot}} = {{\\omega R} \\over 4}[{e^{\\omega t}} - {e^{ - \\omega t}}]$$ ...... (1)\nThe force experienced by the block in the inertial frame is\n$${\\overrightarrow F _{in}} = - m{\\omega ^2}r\\widehat i - mg\\widehat k$$ ..... (2)\nTherefore, the force experienced by the block in the rotating frame is\n$${\\overrightarrow F _{rot}} = {\\overrightarrow F _{in}} + 2m({\\overrightarrow v _{rot}} \\times \\omega \\widehat k) + m(\\omega \\widehat k \\times r\\widehat i) \\times \\omega \\widehat k{\\overrightarrow F _{rot}} = ( - m{\\omega ^2}r\\widehat i - mg\\widehat k) + 2m{{\\omega R} \\over r}[{e^{\\omega t}} - {e^{ - \\omega t}}]\\widehat i \\times \\omega \\widehat k + m{\\omega ^2}r\\widehat i = - {{m{\\omega ^2}R} \\over 2}[{e^{\\omega t}} - {e^{ - \\omega t}}]\\widehat j - mg\\widehat k$$\nTherefore, the net reaction of the disc on the block is\n$${\\overrightarrow F _{reaction}} - {\\overrightarrow F _{rot}} = {{m{\\omega ^2}R} \\over 2}[{e^{\\omega t}} - {e^{\\omega t}}]\\widehat j + mg\\widehat k$$\nHence, option (B) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$m{\\omega ^2}R\\sin \\omega t\\widehat j - mg\\widehat k$$",
+      "$${1 \\over 2}m{\\omega ^2}R({e^{\\omega t}} - {e^{ - \\omega t}})\\widehat j + mg\\widehat k$$",
+      "$${1 \\over 2}m{\\omega ^2}R({e^{2\\omega t}} - {e^{ - 2\\omega t}})\\widehat j + mg\\widehat k$$",
+      "$$ - m{\\omega ^2}R\\cos \\omega r\\widehat j - mg\\widehat k$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0or8v0w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_034",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform wooden stick of mass 1.6 kg and length $$l$$ rests in an inclined manner on a smooth, vertical wall\nof height h ( < $$l$$ ) such that a small portion of the stick extends beyond the wall. The reaction force of the\nwall on the stick is perpendicular to the stick. The stick makes an angle of $$30^\\circ $$ with the wall and the bottom of the stick is on a rough floor. The reaction of the wall on the stick is equal in magnitude to the reaction of the floor on the stick. The ratio $${h \\over l}$$ and the frictional force f at the bottom of the stick are ( g =10 ms$^{-2}$ )",
+    "solution": "[Diagram]\n\n\n$$\\sum {{F_x} = 0} $$, $${N_1}\\cos 30^\\circ - f = 0$$ .... (i)\n\n$$\\sum {{F_y} = 0} $$, $${N_1}\\sin 30^\\circ + {N_2} - mg = 0$$ .... (ii)\n\n$$\\sum {{\\tau _0} = 0} mg{1 \\over 2}\\cos 60^\\circ - {N_1}{h \\over {\\cos 30^\\circ }} = 0$$ .... (iii)\n\nAlso, given $${N_1} = {N_2}$$ .... (iv)\n\nSolving Eqs. (i), (ii), (iii) and (iv) we have\n\n$${h \\over l} = {{3\\sqrt 3 } \\over {16}}$$ and $$f = {{16\\sqrt 3 } \\over 3}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${h \\over l} = {{\\sqrt 3 } \\over {16}},f = {{16\\sqrt 3 } \\over 3}N$$",
+      "$${h \\over l} = {3 \\over {16}},f = {{16\\sqrt 3 } \\over 3}N$$",
+      "$${h \\over l} = {{3\\sqrt 3 } \\over {16}},f = {{8\\sqrt 3 } \\over 3}N$$",
+      "$${h \\over l} = {{3\\sqrt 3 } \\over {16}},f = {{16\\sqrt 3 } \\over 3}N$$"
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_035",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical discs of same radius R are rotating about their axes in\nopposite directions with the same constant angular speed $$\\omega $$. The\ndiscs are in the same horizontal plane. At time t = 0, the points P\nand Q are facing each other as shown in the figure. The relative\nspeed between the two points P and Q is v$_{r}$. In one time period (T)\nof rotation of the discs, v$_{r}$ as a function of time is best represented\nby\n\n[Diagram]",
+    "solution": "The relative velocity of the point $P$ w.r.t. the point $Q$ is given by\n$$ \\vec{v}_r=\\vec{v}_P-\\vec{v}_Q $$ .........(1)\n\n[Diagram]\n\nIt is easy to see that $\\left|\\vec{v}_P\\right|=\\left|\\vec{v}_Q\\right|=\\omega R$ and angle traversed in time $t$ is $\\omega t$. Thus, velocities of $P$ and $Q$ are\n$$ \\begin{aligned} & \\vec{v}_P=\\omega R(-\\sin \\omega t \\hat{\\imath}-\\cos \\omega t \\hat{\\jmath}) \\\\ & \\vec{v}_Q=\\omega R(\\sin \\omega t \\hat{\\imath}-\\cos \\omega t \\hat{\\jmath}) \\end{aligned} $$\nSubstitute $\\vec{v}_P$ and $\\vec{v}_Q$ in equation (1) to get $\\vec{v}_r=$ $-2 \\omega R \\sin \\omega t \\hat{\\imath}$ and thus $v_r=2 \\omega R|\\sin \\omega t|$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l253pwrg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_036",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a disc rotating in the horizontal plane with a constant angular speed $$\\omega $$ about its centre\nO. The disc has a shaded region on one side of the diameter and an unshaded region on the\nother side as shown in the figure. When the disc is in the orientation as shown, two pebbles P\nand Q are simultaneously projected at an angle towards R. The velocity of projection is in the y - z\nplane and is same for both pebbles with respect to the disc. Assume that (i) they land back on\nthe disc before the disc has completed $${1 \\over 8}$$ rotation, (ii) their range is less than half the disc radius,\nand (iii) $$\\omega $$ remains constant throughout. Then\n\n[Diagram]",
+    "solution": "$\\left(\\frac{1}{8}\\right)^{\\mathrm{th}}$ rotation of the disc with a constant $\\Omega$ implies that the disc has turned through\n$$ \\frac{1}{8} \\times 360^{\\circ}=45^{\\circ} $$\n\n[Diagram]\n\nThe orientation of the disc now is\n\n[Diagram]\n\nFor the particle thrown from $Q$ towards $R$, will have only the velocity given to it with respect to disc i.e., it possess a velocity only in the Y-Z plane and covers a range along OR. Hence, it can be seen to land on the disc in the unshaded region. Actually point $O$ of the disc has zero velocity and $Q$ being very close to $O$, will have only the velocity given to it w.r.t disc.\nFor the particle thrown from P , will have an additional velocity $=R \\Omega$ along +X direction i.e., it will cover a range $=\\frac{R}{2}$ along PO as well as a distance $=(R \\omega) \\frac{T}{8}=\\frac{R}{8} \\times 2 \\pi=\\frac{\\pi R}{4}$ along $+X$ direction\nThe resultant displacement of particle P is thus obtained as\n\n[Diagram]\n\n$\\begin{aligned} \\Rightarrow \\quad d & =\\frac{R}{2} \\sqrt{1+\\frac{\\pi^2}{4}} \\\\ \\Rightarrow \\quad \\pi^2 & =10 \\\\ d & =\\frac{\\mathrm{R}}{4} \\sqrt{14} \\\\ \\tan \\theta & =\\frac{\\pi \\mathrm{R} / 4}{\\mathrm{R} / 2}=\\frac{\\pi}{2}\\end{aligned}$\n\n[Diagram]\n\nIn the diagram shown,\n\n[Diagram]\n\n$$ \\begin{aligned} P S & =R \\cos \\theta \\\\ & =R \\times \\frac{2}{\\sqrt{14}} \\\\ & =\\frac{2 R}{\\sqrt{14}} \\end{aligned} $$\nSince, $d>$ PS $\\quad$ PS $=\\frac{R}{7} \\sqrt{14}$\nHence, the particle from P also lands in the unshaded region.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P lands in the shaded region and Q in the unshaded region.",
+      "P lands in the unshaded region and Q in the shaded region.",
+      "Both P and Q land in the unshaded region.",
+      "Both P and Q land in the shaded region."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l25415rx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_037",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statements about the instantaneous axis (passing through the centre of mass) is correct?",
+    "solution": "As depicted in the figure shown here, when the system, as a whole, turns by 180$$^\\circ$$, the disc also turns by 180$$^\\circ$$ about its vertical axis. Hence, the instantaneous axis that passes through the centre of mass is vertical in both cases (a) and (b).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "It is vertical for both Cases (a) and (b).",
+      "It is vertical for Case (a); and is at 45$$^\\circ$$ to the xz-plane and lies in the plane of the disc for Case (b).",
+      "It is horizontal for Case (a); and is 45$$^\\circ$$ to the xz-plane and is normal to the plane of the disc for Case (b).",
+      "It is vertical for Case (a); and is 45$$^\\circ$$ to the xz-plane and is normal to the plane of the disc for Case (b)."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2542zej.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_038",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statements regarding the angular speed about the instantaneous axis (passing through the centre of mass) is correct?",
+    "solution": "As depicted in the figure shown here, when the system, as a whole, turns by 180$$^\\circ$$, the disc also turns by 180$$^\\circ$$ about vertical axis. Hence, for both cases (a) and (b), the angular speed about the instantaneous axis that passes through the centre of mass is $$\\omega$$.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "It is $$\\sqrt2\\omega$$ for both cases.",
+      "It is $$\\omega$$ for case (a); and $$\\omega$$ / $$\\sqrt2$$ for case (b).",
+      "It is $$\\omega$$ for case (a); and $$\\sqrt2\\omega$$ for case (b).",
+      "It is $$\\omega$$ for both cases."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l26h9qvf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_039",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small mass m is attached to a massless string whose other end is fixed at P as shown in the figure. The mass is undergoing circular motion in the xy-plane with centre at O and constant angular speed $$\\omega$$. If the angular momentum of the system, calculated about O and P are denoted by $${\\overrightarrow L _O}$$ and $${\\overrightarrow L _P}$$, respectively, then\n\n[Diagram]",
+    "solution": "Angular momentum of a particle about a point is given by:\nL = r $$\\times$$ p = m (r $$\\times$$ v)\nFor L$_{O}$\n\n[Diagram]\n\n$$\\left| L \\right| = (mvr\\sin \\theta ) = m(R\\omega )(R)\\sin 90^\\circ = m{R^2}\\omega $$ = constant\nDirection of L$_{O}$ is always upwards. Therefore, complete L$_{O}$ is constant, both in magnitude as well as direction.\nFor L$_{P}$\n\n[Diagram]\n\n$$\\left| {{L_P}} \\right| = (mvr\\sin \\theta ) = m(R\\omega )(l)\\sin 90^\\circ = (mRl\\omega )$$\nMagnitude of L$_{P}$ will remain constant but direction of L$_{P}$ keeps on changing.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\overrightarrow L _O}$$ and $${\\overrightarrow L _P}$$ do not vary with time.",
+      "$${\\overrightarrow L _O}$$ varies with time while $${\\overrightarrow L _P}$$ remains constant.",
+      "$${\\overrightarrow L _O}$$ remains constant while $${\\overrightarrow L _P}$$ varies with time.",
+      "$${\\overrightarrow L _O}$$ and $${\\overrightarrow L _P}$$ both vary with time."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kk3qe.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_040",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin uniform rod, pivoted at O, is rotating in the horizontal plane with constant angular speed $$\\omega$$, as shown in the figure. At time t = 0, a small insect starts from O and moves with constant speed v, with respect to the rod towards the other end. It reaches the end of the rod at t = T and stops. The angular speed of the system remains $$\\omega$$ throughout. The magnitude of the torque (|$$\\tau$$|) about O, as a function of time is best represented by which plot ?\n\n[Diagram]",
+    "solution": "[Diagram]\n\nLet M and l be the mass and length of the rod respectively and m be the mass of the insect. Let the insect be at a distance x from O at any instant of time t.\n$$\\therefore$$ x = vt ....... (i)\nAngular momentum of the system about O,\n$$L = \\left[ {{{M{l^2}} \\over {12}} + m{x^2}} \\right]\\omega = \\left[ {{{M{l^2}} \\over {12}} + m{{(vt)}^2}} \\right]\\omega $$ (Using (i))\n$$ = \\left[ {{{M{l^2}} \\over {12}} + m{v^2}{t^2}} \\right]\\omega $$\nAs, $$\\left| {\\overrightarrow \\tau } \\right| = {{dL} \\over {dt}} = {d \\over {dt}}\\left[ {{{M{l^2}} \\over {12}} + m{v^2}{t^2}} \\right]\\omega $$\nAs $$\\omega$$ and v remain constant\n$$\\therefore\\left| {\\overrightarrow \\tau } \\right| = 2m\\omega {v^2}t\\left| {\\overrightarrow \\tau } \\right| \\propto t$$\nHence, the graph and t is a straight line passing through the (0, 0). Option (b) represents correct plot.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kne3y.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_041",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The net external force acting on the disk when its centre of mass is at displacement x with respect to its equilibrium position is :",
+    "solution": "When the disc is at a distance x from the mean position (equilibrium position), the force acting on the disc are give below.\n\n[Diagram]\n\n$$\\therefore -2kx+f=-M_{ac}$$ ..... (i)\nWhere $$a_c$$ = acceleration of centre of mass.\nThe torque acting on the disc about its centre of mass C is\n$$\\tau = f \\times R = I \\times {a_c}\\thereforef = {{I\\alpha } \\over R} = {{{1 \\over 2}M{R^2}} \\over R} \\times {{{a_c}} \\over R}$$\n[$$\\thereforeI = {1 \\over 2}M{R^2},{a_c} = R{a_c}$$ for rolling without slipping]\n$$\\thereforef = {1 \\over 2}M{a_c}$$ ...... (ii)\nFrom eq. (i) and (ii),\n$$ - 2kx + {1 \\over 2}M{a_c} = - M{a_c} \\Rightarrow {3 \\over 2}M{a_c} = 2kx \\Rightarrow M{a_c} = {{4kx} \\over 3}\\Rightarrow$$ Net external force acting on the disc when its centre of mass is at displacement x with respect to the equilibrium position $$ = {{ - 4kx} \\over 3}$$ directed towards the equilibrium.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ - kx$$",
+      "$$ - 2kx$$",
+      "$$ - {{2kx} \\over 3}$$",
+      "$$ - {{4kx} \\over 3}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmru37e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_042",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The centre of mass of the disk undergoes simple harmonic motion with angular frequency $$\\omega$$ equal to:",
+    "solution": "When the disc is at a distance x from the mean position (equilibrium position), the force acting on the disc are give below.\n\n[Diagram]\n\n$$\\therefore -2kx+f=-M_{ac}$$ ..... (i)\nWhere $$a_c$$ = acceleration of centre of mass.\nThe torque acting on the disc about its centre of mass C is\n$$\\tau = f \\times R = I \\times {a_c}\\thereforef = {{I\\alpha } \\over R} = {{{1 \\over 2}M{R^2}} \\over R} \\times {{{a_c}} \\over R}$$\n[$$\\thereforeI = {1 \\over 2}M{R^2},{a_c} = R{a_c}$$ for rolling without slipping]\n$$\\thereforef = {1 \\over 2}M{a_c}$$ ...... (ii)\nFrom eq. (i) and (ii),\n$$ - 2kx + {1 \\over 2}M{a_c} = - M{a_c} \\Rightarrow {3 \\over 2}M{a_c} = 2kx \\Rightarrow M{a_c} = {{4kx} \\over 3}\\Rightarrow$$ Net external force acting on the disc when its centre of mass is at displacement x with respect to the equilibrium position $$ = {{ - 4kx} \\over 3}$$ directed towards the equilibrium.\n$$ \\therefore |{F_{net}}| = {{4k} \\over 3}x$$\nFor S.H.M $$|{F_{net}}| = M{\\omega ^2}x\\thereforeM{\\omega ^2} = {{4k} \\over 3} \\Rightarrow \\omega = \\sqrt {{{4k} \\over {3M}}} $$ .... (iii)",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\sqrt {{k \\over M}} $$",
+      "$$\\sqrt {{{2k} \\over M}} $$",
+      "$$\\sqrt {{{2k} \\over {3M}}} $$",
+      "$$\\sqrt {{{4k} \\over {3M}}} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmru37e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_043",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum value of V$$_0$$ for which the disk will roll without slipping is:",
+    "solution": "When the disc is at a distance x from the mean position (equilibrium position), the force acting on the disc are give below.\n\n[Diagram]\n\n$$\\therefore -2kx+f=-M_{ac}$$ ..... (i)\nWhere $$a_c$$ = acceleration of centre of mass.\nThe torque acting on the disc about its centre of mass C is\n$$\\tau = f \\times R = I \\times {a_c}\\thereforef = {{I\\alpha } \\over R} = {{{1 \\over 2}M{R^2}} \\over R} \\times {{{a_c}} \\over R}$$\n[$$\\thereforeI = {1 \\over 2}M{R^2},{a_c} = R{a_c}$$ for rolling without slipping]\n$$\\thereforef = {1 \\over 2}M{a_c}$$ ...... (ii)\nFrom eq. (i) and (ii),\n$$ \\Rightarrow - 2kx + f = - 2f \\Rightarrow f = {{2k} \\over 3} \\times x$$\nFrictional force depends on x. As x increase friction increase. Frictional force (f) is maximum at $$x = A$$.\nWhere A = amplitude of S.H.M\nMaximum frictional force,\n$${f_{\\max }} = {{2k} \\over 3} \\times A$$\nThe force should be almost equal to the limiting friction ($$\\mu mg$$) for rolling without slipping.\n$$\\therefore\\mu mg = {{2k} \\over 3} \\times A$$ ..... (iv)\nFor S.H.M\nVelocity amplitude $$ = A\\omega \\therefore{V_0} = A\\omega \\therefore{V_0} = {{3m\\,mg} \\over {2k}}w$$ (from (iv))\n$$\\therefore{V_0} = {{3\\mu mg} \\over {2k}} \\times \\sqrt {{{4k} \\over {3M}}} $$ (As $$ \\omega = \\sqrt {{{4k} \\over {3M}}} $$)\n$$\\therefore{V_0} = mg\\sqrt {{{3M} \\over k}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\mu g\\sqrt {{M \\over k}} $$",
+      "$$\\mu g\\sqrt {{M \\over {2k}}} $$",
+      "$$\\mu g\\sqrt {{{3M} \\over k}} $$",
+      "$$\\mu g\\sqrt {{{5M} \\over {2k}}} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmru37e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_044",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**STATEMENT - 1 :**\nTwo cylinders, one hollow (metal) and the other solid (wood) with the same mass and identical dimensions are simultaneously allowed to roll without slipping down an inclined plane from the same height. The hollow cylinder will reach the bottom of the inclined plane first.\nand\n**STATEMENT - 2 :**\nBy the principle of conservation of energy, the total kinetic energies of both the cylinders are identical when they reach the bottom of the incline.",
+    "solution": "The acceleration of a body rolling down an inclined plane in given by\n$$a = {{g\\sin \\theta } \\over {1 + {I \\over {M{R^2}}}}}$$\nFor hollow cylinder,\n$${I \\over {M{R^2}}} = {{M{R^2}} \\over {M{R^2}}} = 1$$\nFor solid cylinder,\n$${1 \\over {M{R^2}}} = {{{1 \\over 2}M{R^2}} \\over {M{R^2}}} = {1 \\over 2}\\therefore$$ Acceleration of the solid cylinder is more than that of hollow cylinder and therefore solid cylinder will reach the bottom of the inclined plane first.\n$$\\therefore$$ Statement - 1 is False.\nStatement - 2 : In case of rolling, there will be no heat losses. Therefore, total mechanical energy remains conserved. The potential energy, therefore gets converted into kinetic energy. In both the cases, since the initial potential energy is same, the final kinetic energy will also be same. Therefore, statement - 2 is correct.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is NOT a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is False",
+      "Statement - 1 is False, Statement - 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgudz2ta.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_045",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small object of uniform density rolls up a curved surface with an initial velocity $$v$$. It reaches up to a maximum height of $$\\frac{3 v^{2}}{4 g}$$ with respect to the initial position. The object is\n\n[Diagram]",
+    "solution": "By applying conservation of Energy, we have,\n$$\\frac{1}{2} m v^{2}+\\frac{1}{2} \\mathrm{I} \\omega^{2}=m g h_{\\max }$$ ..... (i)\nFor pure rolling,\n$$v=R\\omega\\Rightarrow \\quad \\omega=v / \\mathrm{R}$$ ..... (ii)\nPutting eq. (ii) in eq. (i), we get\n$$\\Rightarrow \\frac{1}{2} m v^{2}+\\frac{1}{2} \\mathrm{I}\\left(\\frac{v^{2}}{R^{2}}\\right)=m g \\times \\frac{3 v^{2}}{4 g}\\left(\\because h_{\\max } \\times \\frac{3 v^{2}}{4 g}\\right)\\Rightarrow \\quad \\mathrm{I}=\\frac{1}{2} \\mathrm{MR}^{2}$$\nHence, this is a required formula of moment of Inertia of Disc. Therefore, the object a disc.\n$$2^{\\text {nd }}$$ Method : For pure rolling, the velocity of point of contact is zero i.e., $$v=0$$, So, $$\\Delta x$$ (displacement) is zero. Then work done by the frictional force should be\n$$W=f_{0} \\Delta x=0$$\nIf work is done by dissipative force, work done should be zero. It means that work done of system is zero. So energy should be conserved. Initially, the object has both translation as well as rotational motion. If it attains '$$h_{\\max }$$' kinetic energy changes into potential energy.\n\n[Diagram]\n\nFrom energy conservation principle,\n$$\\mathrm{K} . \\mathrm{E}_{\\text {translational }}+\\mathrm{K} . \\mathrm{E}_{\\text {rotational }}=$$ Potential Energy\n$$\\Rightarrow \\quad \\frac{1}{2} m v^{2}+\\frac{1}{2} \\mathrm{I} \\omega^{2}=m g \\times \\frac{3 v^{2}}{4 g}\\Rightarrow \\quad m v^{2}+\\mathrm{I} \\omega_{2}=\\frac{3 v^{2}}{2} m\\Rightarrow \\quad \\mathrm{I} \\omega^{2}=\\frac{1}{2} m v^{2}\\Rightarrow \\quad \\mathrm{I}=\\frac{1}{2} \\frac{m v^{2}}{\\omega^{2}}$$ ..... (i)\nFor No slipping,\n$$\\Rightarrow\\begin{aligned} & v=\\omega R \\\\\n& \\omega=\\frac{v}{R}\\end{aligned}$$ ..... (ii)\nPut eq (ii) in eq (i)\nHence, $$\\quad \\mathrm{I}=\\frac{1}{2} \\mathrm{MR}^{2}\\mathrm{I}=\\frac{1}{2} \\mathrm{M} \\frac{v^{2}}{v^{2}} \\times \\mathrm{R}^{2}$$\nthis is moment of inertia of disc.\nSo, object is a Disc.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "ring",
+      "solid sphere",
+      "hollow sphere",
+      "disc"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgudz2ta.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_046",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT 1\nIf there is no external torque on a body about its center of mass, then the velocity of the center of mass remains constant.\nBecause\nSTATEMENT 2\nThe linear momentum of an isolated system remains constant.",
+    "solution": "Statement 1 : For velocity of centre of mass remains constant, net force acting on body must be zero. Therefore the statement 1 is false.\nStatement 2 : The linear momentum of an isolated system remains constant. The statement is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdjp7o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_047",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ratio $${{{x_1}} \\over {{x_2}}}$$ is",
+    "solution": "For disc A,\n$${1 \\over 2}kx_1^2 = {1 \\over 2}I{(2\\omega )^2} \\Rightarrow kx_1^2 = 2I{\\omega ^2}$$ ..... (i)\n\n[Diagram]\n\nFor disc B,\n$${1 \\over 2}kx_2^2 = {1 \\over 2}2I{\\omega ^2} \\Rightarrow kx_2^2 = I{\\omega ^2}$$ ..... (ii)\nOn dividing eq. (i) by (ii)\n$${{kx_1^2} \\over {kx_2^2}} = {{2I{\\omega ^2}} \\over {I{\\omega ^2}}}{{{x_1}} \\over {{x_2}}} = \\sqrt 2 $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2",
+      "$$\\frac{1}{2}$$",
+      "$$\\sqrt2$$",
+      "$$\\frac{1}{\\sqrt2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdjp7o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_048",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When disc B is brought in contact with disc A, they acquire a common angular velocity in time t. The average frictional torque on one disc by the other during this period is",
+    "solution": "When disc B is brought in contact with disc A. Let w' be the final angular velocity of both the disc rotating together.\nApplying conservation of angular momentum for the two disc system.\n$$ \\Rightarrow I(2\\omega ) + 2I(\\omega ) = (I + 2I)\\omega ' \\Rightarrow \\omega ' = {4 \\over 3}\\omega $$\nTorque on disc A,\n$${T_A} = {{\\Delta {L_A}} \\over t} = {{{L_f} - {L_i}} \\over t} = {{I \\times {4 \\over 3}\\omega - I \\times 2\\omega } \\over t} = {{ - 2I\\omega } \\over {3t}}$$\nNote : The negative sign represents that the torque creates angular retardation.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{2I\\omega}{3t}$$",
+      "$$\\frac{9I\\omega}{2t}$$",
+      "$$\\frac{9I\\omega}{3t}$$",
+      "$$\\frac{3I\\omega}{2t}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lydpz81h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_049",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The loss of kinetic energy during the above process is :",
+    "solution": "Loss in kinetic energy\n= (K.E.)$$_{initial}-$$ (K.E.)$$_{final} = \\left[ {{1 \\over 2}I{{(2\\omega )}^2} + {1 \\over 2}(2I){\\omega ^2}} \\right] - \\left[ {{1 \\over 2}(I + 2I){{\\left( {{4 \\over 3}\\omega } \\right)}^2}} \\right] = [2I{\\omega ^2} + I{\\omega ^2}] - \\left[ {{3 \\over 2}I \\times {4 \\over 3} \\times {4 \\over 3}{\\omega ^2}} \\right] = 3I{\\omega ^2} - {8 \\over 3}I{\\omega ^2} = {{I{\\omega ^2}} \\over 3}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\frac{I\\omega^2}{2}$$",
+      "$$\\frac{I\\omega^2}{3}$$",
+      "$$\\frac{I\\omega^2}{4}$$",
+      "$$\\frac{I\\omega^2}{6}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lydpz81h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_050",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid sphere of radius $R$ has moment of inertia $I$ about its geometrical axis. If it is melted into a disc of radius $r$ and thickness $t$. If its moment of inertia about the tangential axis (which is perpendicular to plane of the disc), is also equal to $I$, then the value of $r$ is equal to\n\n[Diagram]",
+    "solution": "To solve this problem, we need to compare the moments of inertia of the sphere and the disc. For a solid sphere of radius $R$, the moment of inertia about its geometrical axis is given by:\n\n$$I_{\\text{sphere}} = \\frac{2}{5} M R^2$$\n\nwhere $M$ is the mass of the sphere.\n\nWhen the sphere is melted into a disc of radius $r$ and thickness $t$, the volume (and hence mass) remains the same. So, the volume of the sphere is:\n\n$$\\frac{4}{3} \\pi R^3$$\n\nAnd the volume of the disc is:\n\n$$\\pi r^2 t$$\n\nEquating the volumes, we get:\n\n$$\\frac{4}{3} \\pi R^3 = \\pi r^2 t$$\n\nThis simplifies to:\n\n$$t = \\frac{4 R^3}{3 r^2}$$\n\nNext, we need to find the moment of inertia of the disc about the tangential axis (which is perpendicular to the plane of the disc). The moment of inertia of a disc of mass $M$ and radius $r$ about an axis through its center and perpendicular to the plane of the disc is:\n\n$$I_{\\text{disc, center}} = \\frac{1}{2} M r^2$$\n\nUsing the parallel axis theorem, the moment of inertia about a tangential axis is:\n\n$$I_{\\text{disc, tangential}} = I_{\\text{disc, center}} + M r^2 = \\frac{1}{2} M r^2 + M r^2 = \\frac{3}{2} M r^2$$\n\nSince we are given that the moment of inertia of the sphere and the disc about their respective axes are equal, we set:\n\n$$\\frac{2}{5} M R^2 = \\frac{3}{2} M r^2$$\n\nCanceling the mass $M$ from both sides and solving for $r$, we get:\n\n$$\\frac{2}{5} R^2 = \\frac{3}{2} r^2$$\n\nSolving for $r$, we have:\n\n$$r^2 = \\frac{4}{15} R^2$$\n\nTaking the square root of both sides:\n\n$$r = \\frac{2}{\\sqrt{15}} R$$\n\nSo, the correct answer is:\n\nOption A: $$\\frac{2}{\\sqrt{15}} R$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\frac{2}{\\sqrt{15}} R$",
+      "$\\frac{2}{\\sqrt{5}} R$",
+      "$\\frac{3}{\\sqrt{15}} R$",
+      "$\\frac{\\sqrt{3}}{\\sqrt{15}} R$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lydpz81h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_051",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wooden log of mass M and length L is\nhinged by a frictionless nail at O; a bullet\nof mass m strikes with velocity $$v$$ and sticks\nto it. Find angular velocity of the system\nimmediately after the collision about O.\n\n[Diagram]",
+    "solution": "A bullet of mass $$m$$ strikes the wooden log of\nmass M and length L and sticks to it.\nAngular momentum of the system, about\npoint O, remains conserved. Initial angular\nmomentum = Final angular momentum.\n$$\\thereforemv \\times L = {I_0}\\omega $$ ..... (i)\n$${I_0} = {I_{\\log }} + {I_b}{I_0} = {{M{L^2}} \\over 3} + m{L^2}{I_0} = {L^2}\\left( {{M \\over 3} + m} \\right) = {L^2}\\left( {{{M + 3m} \\over 3}} \\right)\\thereforemvL = {L^2}\\left( {{{M + 3m} \\over 3}} \\right)\\omega \\omega = {{3mv} \\over {L(M + 3m)}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left[\\frac{4 m v}{(\\mathbf{M}+3 m) \\mathrm{L}}\\right]$$",
+      "$$\\left[\\frac{3 m v}{(\\mathbf{M}+3 m) \\mathrm{L}}\\right]$$",
+      "$$\\left[\\frac{5m v}{(\\mathbf{M}+3 m) \\mathrm{L}}\\right]$$",
+      "$$\\left[\\frac{3 m v}{(3\\mathbf{M}+m) \\mathrm{L}}\\right]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7ehng8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_052",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A cylinder of mass m and radius R rolls\ndown on an inclined plane of inclination $$\\theta$$.\nCalculate the linear acceleration of axis of\ncylinder.",
+    "solution": "Acceleration of a body rolling down the inclined plane\n$$a = {{g\\sin \\theta } \\over {1 + {I \\over {m{R^2}}}}}$$\nFor cylinder, $$\\quad \\mathrm{I}=\\frac{1}{2} m \\mathrm{R}^{2}a = {{g\\sin \\theta } \\over {1 + {{{1 \\over 2}m{R^2}} \\over {m{R^2}}}}} = {{g\\sin \\theta } \\over {1 + {1 \\over 2}}}a = {{g\\sin \\theta } \\over {{3 \\over 2}}}a = {2 \\over 2}g\\sin \\theta $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$a=\\frac{2}{3} g \\sin \\theta$$",
+      "$$a= g \\sin \\theta$$",
+      "$$a=\\frac{5}{3} g \\sin \\theta$$",
+      "$$a=\\frac{7}{3} g \\sin \\theta$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7fndan.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_053",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical ladders, each of mass M and\nlength L are resting on the rough horizontal\nsurface as shown in the figure. A block of\nmass $$m$$ hangs from P. If the system is in\nequilibrium, find the magnitude and the\ndirection of frictional force at A and B.\n\n[Diagram]",
+    "solution": "Let the block of mass $m$ hangs from the point $P$ by a string attached to the hinges of the two ladders.\n\n[Diagram]\n\nNewton's second law gives the tension $T$ in the string as $T=m g$. By symmetry, string tension pulls down each ladder by a force\n$$ T / 2=m g / 2 . $$\nBy Newton's third law, the reaction forces acting on the two ladders at the hinge point $P$ are equal and opposite. These are shown by $R_1$ and $R_2$ in the figure. By symmetry, the normal reaction $N$ at $A$ and $B$ are equal, the friction forces $f$ at $A$ and $B$ are equal in magnitude but opposite in direction. Another force acting on both the ladders is their weight $M g$ which pass through their centre of mass. In equilibrium, the resultant forces on the two ladders are zero i.e.,\n$$ \\begin{aligned} & N+R_2-M g-m g / 2=0, ........(1)\\\\ & f=R_1, .........(2)\\\\ & N-R_2-M g-m g / 2=0 .........(3) \\end{aligned} $$\nThe equations (1) and (3) give $R_2=0$ (as expected!) and $N=(M+m / 2) g$. In equilibrium, the net torque about any point is zero. Thus, the torque about the point $P$ for the left ladder is\n$$ M g(L / 2) \\cos \\theta+f L \\sin \\theta-N L \\cos \\theta=0 $$ ..........(4)\nSubstitute $N=(M+m / 2) g$ in equation (4) and simplify to get\n$$ f=\\left(\\frac{M+m}{2}\\right) g \\cot \\theta . $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$f=\\left[\\frac{\\mathbf{M}+m}{2}\\right] g \\cot \\theta$$",
+      "$$f=\\left[\\frac{\\mathbf{M}+m}{3}\\right] g \\cot \\theta$$",
+      "$$f=\\left[\\frac{\\mathbf{M}+m}{2}\\right] 5g \\cot \\theta$$",
+      "$$f=\\left[\\frac{\\mathbf{M}+m}{4}\\right] g \\cot \\theta$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7fndan.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_054",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One quarter section is cut from a uniform circular disc of radius $R$. This section has a mass $M$. It is made to rotate about a line perpendicular to its plane and passing through the centre of the original disc. Its moment of inertia about the axis of rotation is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nTo determine the moment of inertia of a quarter section of a uniform circular disc of radius $R$ and mass $M$ about an axis perpendicular to its plane and passing through the center of the original disc, we start with the moment of inertia of the full disc.\n\nThe moment of inertia of a full uniform circular disc about an axis perpendicular to its plane and passing through its center is given by:\n\n$$ I_{\\text{full}} = \\frac{1}{2} M_{\\text{full}} R^2 $$\n\nSince the original disc is uniformly distributed, the mass of the full disc $M_{\\text{full}}$ can be split evenly into four equal parts, and mass $M$ corresponds to the quarter section. Hence, we have:\n\n$$ M = \\frac{M_{\\text{full}}}{4} $$\n\nWe also know that the moment of inertia of a quarter section of the disc about the same axis would be one-fourth of that of the entire disc because the mass and area are uniformly distributed. Therefore, the moment of inertia of the quarter section $I_{\\text{quarter}}$ is:\n\n$$ I_{\\text{quarter}} = \\frac{1}{4} I_{\\text{full}} $$\n\nSubstituting $$ I_{\\text{full}} $$ from above:\n\n$$ I_{\\text{quarter}} = \\frac{1}{4} \\left( \\frac{1}{2} M_{\\text{full}} R^2 \\right) $$\n\nNow, replacing $$ M_{\\text{full}} $$ with $$ 4M $$ (since $$ M = \\frac{M_{\\text{full}}}{4} $$), we get:\n\n$$ I_{\\text{quarter}} = \\frac{1}{4} \\left( \\frac{1}{2} (4M) R^2 \\right) $$\n\nThis simplifies to:\n\n$$ I_{\\text{quarter}} = \\frac{1}{4} \\left( 2 M R^2 \\right) I_{\\text{quarter}} = \\frac{1}{2} M R^2 $$\n\nTherefore, the moment of inertia of the quarter section of the disc about the given axis is:\n\n$$ \\boxed{ \\frac{1}{2} MR^2 } $$\n\nSo, the correct answer is Option A: $$ \\frac{1}{2} MR^2 $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\dfrac{1}{2} MR^2$",
+      "$\\dfrac{1}{4} MR^2$",
+      "$\\dfrac{1}{8} MR^2$",
+      "$\\sqrt{2} MR^2$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lycch26c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_055",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin wire of length $L$ and uniform linear mass density $\\rho$ is bent into a circular loop with centre at $O$ as shown. The moment of inertia of the loop about the axis $XX'$ is:\n\n[Diagram]",
+    "solution": "Mass of the ring $M=\\rho L$. Let $R$ be the radius of the ring, then\n\n$$ L=2 \\pi R \\quad \\text { or } \\quad R=\\frac{L}{2 \\pi} $$\n\nThe moment of inertia about an axis passing through the centre $O$ and perpendicular to plane of the loop is $I_z=m R^2$. Using symmetry and perpendicular axis theorem, $I_x+I_y=I_z$, we get\n\n$$ I_x=I_y=\\frac{1}{2} I_z=\\frac{1}{2} m R^2, $$\n\nwhere $I_x$ is the moment of inertia about an axis passing through $O$ and lying in the plane of the loop. The centre of mass $O$ of the loop lies at a perpendicular distance $d=R$ from the axis $\\mathrm{XX}^{\\prime}$. The parallel axis theorem gives\n\n$$ I_{X X^{\\prime}}=\\frac{1}{2} M R^2+M R^2=\\frac{3}{2} M R^2 $$\n\nSubstituting values of $M$ and $R$\n\n$$ I_{X X^{\\prime}}=\\frac{3}{2}(\\rho L)\\left(\\frac{L^2}{4 \\pi^2}\\right)=\\frac{3 \\rho L^3}{8 \\pi^2} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\frac{\\rho L^3}{8\\pi^2}$",
+      "$\\frac{\\rho L^3}{16\\pi^2}$",
+      "$\\frac{5\\rho L^3}{16\\pi^2}$",
+      "$\\frac{3\\rho L^3}{8\\pi^2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lycbxqwe.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_056",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A horizontal force F is applied at the center of mass of a cylindrical object of mass m and radius R, perpendicular to its axis as shown in the figure. The coefficient of friction between the object and the ground is $$\\mu$$. The center of mass of the object has an acceleration a. The acceleration due to gravity is g. Given that the object rolls without slipping, which of the following statement(s) is(are) correct?\n\n[Diagram]",
+    "solution": "[Diagram]\n\nF $$-$$ f = ma$_{c}$\n\nfR = I$_{C}$$$\\alpha$$\n\na$_{C}$ $$-\\alpha$$R = 0\n\n$$F - {I_C}{\\alpha \\over R} = m{a_c}{a_C} = {F \\over {{{{I_C}} \\over {{R^2}}} + m}}f = {{{I_C}\\alpha } \\over R} = {{{I_C}} \\over {{R^2}}},{a_C} = {{{I_C}} \\over {{R^2}}}{F \\over {\\left[ {{{{I_C}} \\over {{R^2}}} + m} \\right]}}f = {F \\over {\\left( {m + {{{I_C}} \\over {{R^2}}}} \\right)}}$$\n\nThin walled hollow cylinder,\n\nI$_{C}$ = mR$^{2}$\n\n$${a_C} = {F \\over {2m}}fR = {I_C}\\alpha = {{{I_C}{a_C}} \\over R}f = {{{I_C}{a_C}} \\over {{R^2}}} \\le \\mu mg{a_C} \\le {{\\mu mg{R^2}} \\over {{I_C}}}$$\n\nFor solid cylinder, $${I_C} = {{m{R^2}} \\over 2}{a_C} \\le 2\\mu g{({a_C})_{\\max }} = 2\\mu g$$",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "For the same F, the value of a does not depend on whether the cylinder is solid or hollow",
+      "For a solid cylinder, the maximum possible value of a is 2$$\\mu$$g",
+      "The magnitude of the frictional force on the object due to the ground is always $$\\mu$$mg",
+      "For a thin-walled hollow cylinder, $$a = {F \\over {2m}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4la578i.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_057",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rod of mass m and length L, pivoted at one of its ends, is hanging vertically. A bullet of the same mass moving at speed v strikes the rod horizontally at a distance x from its pivoted end and gets embedded in it. The combined system now rotates with angular speed $$\\omega$$ about the pivot. The maximum angular speed $$\\omega$$$_{M}$ is achieved for x = x$_{M}$. Then\n\n\n[Diagram]",
+    "solution": "According to conservation of angular momentum about suspension point,\n\n$$mvx = \\left( {{{m{L^2}} \\over 3} + m{x^2}} \\right)\\omega vx = \\left( {{{{L^2}} \\over 3} + {x^2}} \\right)\\omega \\Rightarrow \\omega = {{3vx} \\over {{L^2} + 3{x^2}}}$$\n\nFor maximum,\n\n$${{d\\omega } \\over {dx}} = 0 \\Rightarrow x = {L \\over {\\sqrt 3 }} \\Rightarrow \\omega = {{\\sqrt 3 v} \\over {2L}}$$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\omega = {{3vx} \\over {{L^2} + 3{x^2}}}$$",
+      "$$\\omega = {{12vx} \\over {{L^2} + 12{x^2}}}$$",
+      "$${x_M} = {L \\over {\\sqrt 3 }}$$",
+      "$${\\omega _M} = {v \\over {2L}}\\sqrt 3 $$"
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_058",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin and uniform rod of mass M and length L is held vertical on a floor with large friction. The rod is released from rest so that it falls by rotating about its contact-point with the floor without slipping. Which of the following statement(s) is/are correct, when the rod makes an angle 60$$^\\circ $$ with vertical? [g is the acceleration due to gravity]",
+    "solution": "[Diagram]\n\n\n$$\\Delta $$K + $$\\Delta $$U = 0\n\n$${1 \\over 2}{I_0}{\\omega ^2} = - \\Delta U{1 \\over 2}{{m{l^2}} \\over 3}{\\omega ^2} = - \\left( { - mg{l \\over 4}} \\right)\\omega = \\sqrt {{{3g} \\over {2l}}} \\Rightarrow {a_{radial}} = {\\omega ^2}{l \\over 2} = {{3g} \\over {2l}}{l \\over 2} = {{3g} \\over 4} \\Rightarrow \\tau = {I_0}\\alpha \\alpha = {{mg{l \\over 2}\\sin 60^\\circ } \\over {mg{{{l^2}} \\over 3}}} = {{3\\sqrt 3 g} \\over {4l}} \\Rightarrow {a_v} = \\left( {\\alpha {l \\over 2}} \\right)\\sin 60^\\circ + {\\omega ^2}{l \\over 2}\\cos 60^\\circ {a_v} = {{3\\sqrt 3 g} \\over 8}{{\\sqrt 3 } \\over 2} + {{3g} \\over 8} \\Rightarrow {a_v} = {{9g} \\over {16}} + {{6g} \\over {16}}mg - N = m{a_v} \\Rightarrow N = {{mg} \\over {16}}$$",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The angular acceleration of the rod will be $${{2g} \\over L}$$.",
+      "The normal reaction force from the floor on the rod will be $${{Mg} \\over 16}$$.",
+      "The radial acceleration of the rod's center of mass will be $${{3g} \\over 4}$$.",
+      "The angular speed of the rod will be $$\\sqrt {{{3g} \\over {2L}}} $$."
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_059",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a body of mass $$1.0kg$$ at rest at the origin at time $$t=0.$$ A force $$\\overrightarrow F = \\left( {\\alpha t \\widehat i + \\beta \\widehat j} \\right)$$ is applied on the body, where $$\\alpha = 1.0N{s^{ - 1}}$$ and $$\\beta = 1.0\\,N.$$ The torque acting on the body about the origin at time $$t=1.0s$$ is $$\\overrightarrow \\tau .$$ Which of the following statements is (are) true?",
+    "solution": "Given, force applied on body\n$$\\overrightarrow F = (\\alpha t\\widehat i + \\beta \\widehat j)$$\nHere, $$\\alpha$$ = 1.0 N s$^{$$-$$1}$ and $$\\beta$$ = 1.0 N. Therefore,\n$$\\overrightarrow F = t\\widehat i + \\widehat j$$\nBy Newton's second law of motion, F = ma. Given m = 1.0 kg. Therefore,\n$$\\overrightarrow F = \\overrightarrow a \\Rightarrow \\overrightarrow a = (t\\widehat i + \\widehat j)$$\nWe know $$\\overrightarrow a = {{d\\overrightarrow v } \\over {dt}} \\Rightarrow \\overrightarrow v = \\int {\\overrightarrow a dt} \\Rightarrow \\overrightarrow v = \\int {(t\\widehat i + \\widehat j)dt = {{{t^2}} \\over 2}\\widehat i + t\\widehat j} $$ ..... (1)\nAlso, $$\\overrightarrow v = {{\\overrightarrow {dr} } \\over {dt}} \\Rightarrow \\overrightarrow r = \\int {\\overrightarrow v dt} \\Rightarrow \\overrightarrow r = \\int {\\left( {{{{t^2}} \\over 2}\\widehat i + t\\widehat j} \\right)dt = {{{t^3}} \\over 6}\\widehat i + {{{t^2}} \\over 2}\\widehat j} $$ ..... (2)\nNow, $$\\overrightarrow \\tau = \\overrightarrow r \\times \\overrightarrow F = \\left| {\\matrix{\n{\\widehat i} & {\\widehat j} & {\\widehat k} \\cr\n{{t^3}/6} & {{t^2}/2} & 0 \\cr\nt & 1 & 0 \\cr\n\n} } \\right|\\overrightarrow \\tau = \\widehat i(0) - \\widehat j(0) + \\widehat k\\left( {{{{t^3}} \\over 6} - {{{t^3}} \\over 2}} \\right) = {{ - 1} \\over 3}{t^3}\\widehat k$$ N m\nAt t = 1.0 s, $$\\overrightarrow \\tau = {{ - 1} \\over 3}\\widehat k$$ N m\nHence, option (A) is correct.\nNow, from Eq. (1), $$\\overrightarrow v = {{{t^2}} \\over 2}\\widehat i + t\\widehat j$$\nAt t = 1.0 s, $$\\overrightarrow v = \\left( {{1 \\over 2}\\widehat i + \\widehat j} \\right)$$ m s$^{$$-$$1}$ = $$ = {1 \\over 2}(\\widehat i + 2\\widehat j)$$ m s$^{$$-$$1}$\nHence, option (C) is correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\left| {\\overrightarrow \\tau } \\right| = {1 \\over 3}\\,Nm$$",
+      "The torque $$\\overrightarrow \\tau $$ is in the direction of the unit vector $$ + \\,\\widehat k$$",
+      "The velocity of the body at $$t = 1s$$ is $$\\overrightarrow v = {1 \\over 2}\\left( {\\widehat i + 2\\widehat j} \\right)m{s^{ - 1}}$$",
+      "The magnitude of displacement of the body at $$t = 1s$$ is $${1 \\over 6}m$$"
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_060",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The potential energy of a particle of mass $$m$$ at a distance $$r$$ from a fixed point $$O$$ is given by $$V\\left( r \\right) = k{r^2}/2,$$ where $$k$$ is a positive constant of appropriate dimensions. This particle is moving in a circular orbit of radius $$R$$ about the point $$O$$. If $$v$$ is the speed of the particle and $$L$$ is the magnitude of its angular momentum about $$O,$$ which of the following statements is (are) true?",
+    "solution": "$$V = {{k{r^2}} \\over 2}$$ ; where k is positive constant, r is\nradius of circular orbit, V(r) is potential, v is speed of\nparticle, L is angular momentum.\n\n$$F = - {{dV} \\over {dr}} = - kr$$ (towards centre)\n\n[Diagram]\n\n$$kr = {{m{v^2}} \\over R}$$ (Centripetal force)\n\nAt r = R, $$kR = {{m{v^2}} \\over R}v = \\sqrt {{{k{R^2}} \\over m}} = \\sqrt {{k \\over m}} R$$\n\nHence, option (B) is correct.\n\nAlso, we know L = mvR\n\nSubstitute the value of v, we get\n\n$$ L = mvR = \\sqrt {mk} {R^2}$$\n\nHence, option (C) is correct",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$v = \\sqrt {{k \\over {2m}}} R$$",
+      "$$v = \\sqrt {{k \\over m}} R$$",
+      "$$L = \\sqrt {mk} {R^2}$$",
+      "$$L = \\sqrt {{{mk} \\over 2}} {R^2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwzhvkfm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_061",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wheel of radius R and mass M is placed at the bottom of a fixed step of height R as shown in the figure. A constant force is continuously applied on the surface of the wheel so that it just climbs the step without slipping. Consider the torque $$\\tau$$ about an axis normal to the plane of the paper passing through the point Q. Which of the following options is/are correct?\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n(a) If force is applied normal to surface at P, then line of action of force will pass from Q and thus $$\\tau$$ = 0.\n\n(b) Wheel can climb.\n\n(c) $$\\tau$$ = F(2Rcos$$\\theta$$) $$-$$ mgRcos$$\\theta \\Rightarrow \\tau\\propto$$ cos$$\\theta$$\n\n\n[Diagram]\n\nHence, as $$\\theta$$ increases, $$\\tau$$ decreases. So its correct.\n\n(d)\n[Diagram]\n\n$$\\tau$$ = Fr$_{$$ \\bot $$}$ $$-$$ mgcos$$\\theta$$ ; $$\\tau$$ increases with $$\\theta$$.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "If the force is applied normal to the circumference at point P, then $$\\tau$$ is zero",
+      "If the force is applied tangentially at point S, then $$\\tau\ne$$ 0 but the wheel never climbs the step",
+      "If the force is applied at point P tangentially, then $$\\tau$$ decreases continuously as the wheel climbs",
+      "If the force is applied normal to the circumference at point X, then $$\\tau$$ is constant"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz1fa6xs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_062",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rigid uniform bar AB of length L is slipping from its vertical position on a frictionless floor (as shown in the figure). At some instant of time, the angle made by the bar with the vertical is $$\\theta$$. Which of the following statements about its motion is/are correct?\n\n\n[Diagram]",
+    "solution": "We discuss the options as follows:\n\n\n[Diagram]\n\n$$\\bullet$$ For option (A) : When the bar makes an angle $$\\theta$$ with the floor, the height of the midpoint is $${L \\over 2}\\cos \\theta $$. this is height of centre of mass.\n\nA force mg acts vertically downward. Thus, the midpoint of bar falls vertically downward. Hence, option (A) is correct.\n\n$$\\bullet$$ For option (B) : Here, we have $$x = {L \\over 2}\\sin \\theta $$ and $$y = L\\cos \\theta $$; therefore,\n\n$$\\sin \\theta = {x \\over {L/2}}$$ and $$\\cos \\theta = {y \\over L}$$\n\nUsing the condition $${\\sin ^2}\\theta + {\\cos ^2}\\theta = 1$$, we get\n\n$${{{x^2}} \\over {{{(L/2)}^2}}} + {{{y^2}} \\over {{L^2}}} = 1$$ (equation of ellipse)\n\nThus, trajectory of point A is not parabola. Hence, option (B) is incorrect.\n\n$$\\bullet$$ For option (C) : The torque acting about the point of contact with floor, that is, at point B is\n\n$$\\tau = \\overrightarrow F \\times \\overrightarrow r = mg{L \\over 2}\\sin \\theta $$\n\nThus, the torque is proportional to sin$$\\theta$$. Hence, option (C) is correct.\n\n$$\\bullet$$ For option (D) : The displacement of midpoint is\n\n$${L \\over 2} - {L \\over 2}\\cos \\theta = {L \\over 2}(1 - \\cos \\theta )$$\n\nThat is,\n\nDisplacement $$\\propto$$ (1 $$-$$ cos$$\\theta$$)\n\nHence, option (D) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "Instantaneous torque about the point in contact with the floor is proportional to sin$$\\theta$$",
+      "The trajectory of the point A is parabola",
+      "The mid-point of the bar will fall vertically downward",
+      "When the bar makes an angle $$\\theta$$ with the vertical, the displacement of its mid-point from the initial position is proportional to (1 $$-$$ cos$$\\theta$$)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz1e3vx6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_063",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass $$M$$ has a circular cut with a frictionless surface as shown. The block resets on the horizontal frictionless surface of a fixed table. Initially the right edge of the block is at $$x=0,$$ in a co-ordinate system fixed to the table. A point mass $$m$$ is released from rest at the topmost point of the path as shown and it slides down.\n\nWhen the mass loses contact with the block, its position is $$x$$ and the velocity is $$v.$$ At that instant, which of the following options is/are correct?\n\n[Diagram]",
+    "solution": "We discuss the options as follows:\n$$\\bullet$$ For option (B) : From law of conservation of momentum, we have\nmv = MV ...... (1)\nwhere v is the velocity of point mass m and V is velocity of block of mass M.\n\n[Diagram]\n\nNow, by using law of conservation of energy, after the point mass is released, we have the following:\nLoss in P.E. of mass m = Gain in K.E. of both mass M and the mass m.\n$$ \\Rightarrow mgh = {1 \\over 2}m{v^2} + {1 \\over 2}M{V^2}$$\nSubstituting $$V = {{mu} \\over M}$$ [from Eq. (1)], we get\n$$mgh = {1 \\over 2}m{v^2} + {1 \\over 2}M{\\left( {{{mv} \\over M}} \\right)^2}mgh = {1 \\over 2}m{v^2} + {1 \\over 2}M{{{m^2}{v^2}} \\over {{M^2}}}mgR = {1 \\over 2}m{v^2} + {1 \\over 2}{{{m^2}{v^2}} \\over M}mgR = {1 \\over 2}m{v^2}\\left( {1 + {m \\over M}} \\right)gR = {1 \\over 2}{v^2}\\left( {1 + {m \\over M}} \\right)$$\nRearranging this equation, we get\n$$2gR = {v^2}\\left( {1 + {m \\over M}} \\right){v^2} = {{2gR} \\over {\\left( {1 + {m \\over M}} \\right)}} \\Rightarrow v = \\sqrt {{{2gR} \\over {\\left( {1 + {m \\over M}} \\right)}}} $$\nHence, option (B) is correct.\n$$\\bullet$$ For option (C) : Now, from Eq. (1), we have\n$$V = {m \\over M}v = {m \\over M}\\sqrt {{{2gR} \\over {\\left( {1 + {m \\over M}} \\right)}}} V = \\sqrt {{{{m^2}2gR} \\over {{M^2}\\left( {1 + {m \\over M}} \\right)}}} = \\sqrt {{{{m^2}2gR} \\over {{M^2}\\left( {{{M + m} \\over M}} \\right)}}} V = \\sqrt {{{{m^2}2gR} \\over {M(m + M)}}} \\Rightarrow V = m\\sqrt {{{2gR} \\over {M(m + M)}}} $$\nSince, there is no external force acting on the system, the centre of mass does not change.\nNow, if the change in position of mass m is $$\\Delta$$x and the change in position of mass M is $$\\Delta$$X, then\nm$$\\Delta$$x + M$$\\Delta$$x = 0 (since centre of mass will not change)\nNow, we know that the change in position of point mass m is\n$$\\Delta$$x = R $$-$$ x\nand the change in position of block of mass M is\n$$\\Delta$$X = $$-$$x\nTherefore,\nm(R $$-$$ x) $$-$$ Mx = 0\nm(R $$-$$ x) = Mx\nmR $$-$$ mx = Mx\nmR = Mx + mx\nmR = (M + m)x\n$$\\Rightarrow$$ x = $${{mR} \\over {M + m}}$$\nThe change in position of block of mass M is\n$$\\Delta$$x = $$-$$x = $${{ - mR} \\over {M + m}}$$\nThus, x-component of the displacement of the centre of mass of the block is\n$$M = {{ - mR} \\over {M + m}}$$\nHence, option (C) is also correct.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The position of the point mass $$m$$ is :\n\n$$x = - \\sqrt 2 {{mR} \\over {M + m}}$$",
+      "The velocity of the point mass $$m$$ is :\n\n$$v = \\sqrt {{{2gR} \\over {1 + {m \\over M}}}} $$",
+      "The $$x$$ component of displacement of the center\n\nof mass of the block $$M$$ is: $$ - {{mR} \\over {M + m}}$$",
+      "The velocity of the block $$M$$ is:\n\n$$V = - {m \\over M}\\sqrt {2gR} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0kkrglb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_064",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two thin circular discs of mass m and 4m, having radii of a and 2a, respectively, are rigidly fixed by a\nmassless, rigid rod of length $$l = \\sqrt {24} a$$ through their centers. This assembly is laid on a firm and flat\nsurface, and set rolling without slipping on the surface so that the angular speed about the axis of the rod is $$\\omega $$. The angular momentum of the entire assembly about the point ‘O’ is $$\\overrightarrow L $$ (see the figure). Which of the following statement(s) is(are) true?\n\n[Diagram]",
+    "solution": "The following figure depicts the rolling condition of a circular disc:\n\n\n[Diagram]\n\n\nFor the smaller disc, we have the velocity expressed as\n\nv = a$$\\omega$$\n\nFor the bigger disc, we have the velocity expressed as\n\nv = (2a)$$\\omega$$ = 2a$$\\omega$$\n\nNow, let us consider that both discs roll and also rotate about point O.\n\n\n[Diagram]\n\n\n$$\\bullet$$ The angular momentum of a rotating body is given by\n\n$$\\overrightarrow L = \\overrightarrow r \\times \\overrightarrow p $$\n\nAbout point O, the combined angular momentum of the discs is given by\n\nL = *l*ma$$\\omega$$ + 2*l*(4m)(2a$$\\omega$$)\n\nwhere lma$$\\omega$$ is due to the smaller disc and 2*l*(4m) (2a$$\\omega$$) is due to the bigger disc.\n\nNow, substituting the values in Eq. (1), we get\n\n$$L = m{a^2}\\omega [\\sqrt {24} + 16\\sqrt {24} ] = m{a^2}\\omega (34\\sqrt 6 ) \\approx 83m{a^2}\\omega $$\n\nHence, option (B) is incorrect.\n\n$$\\bullet$$ Now, let us consider that z-component of $$\\overrightarrow L $$ :\n\n$$\\overrightarrow L = L\\cos \\theta = 34\\sqrt 6 m{a^2}\\omega \\left[ {{1 \\over {\\sqrt {{l^2} + {a^2}} }}} \\right] = 34\\sqrt 6 m{a^2}\\omega \\left( {{{\\sqrt {24} } \\over 6}} \\right)$$\n\n= 81 ma$^{2}$$$\\omega$$\n\nHence, option (D) is incorrect.\n\n$$\\bullet$$ The centre of mass of the assembly about its centre of mass [i.e. the axis lavelled as (I) in the figure shown here] is\n\n$${L_{(I)}} = {{m{a^2}} \\over 2}\\omega + {{4m{{(2a)}^2}} \\over 2}\\omega = {{17m{a^2}} \\over 2}\\omega $$\n\nHence, option (C) is correct.\n\n\n[Diagram]\n\n$$\\bullet$$ About z-axis, the centre of mass of the assembly rotates with an angular speed\n\n$${\\omega _z} = \\omega \\sin \\theta = \\omega \\left[ {{a \\over {\\sqrt {{l^2} + {a^2}} }}} \\right] = {\\omega \\over 5}$$\n\nHence, option (A) is correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The center of mass of the assembly rotates about the z-axis with an angular speed of $${\\omega \\over 5}$$",
+      "The magnitude of angular momentum of center of mass of the assembly about the point O is $$81\\,m{a^2}\\omega $$",
+      "The magnitude of angular momentum of the assembly about its center of mass is $${{17m{a^2}\\omega } \\over 2}$$",
+      "The magnitude of the z-component of $$\\overrightarrow L $$\nis $$55m{a^2}\\omega $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l08qsexj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_065",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The position vector $$\\overrightarrow r $$ of a particle of mass m is given by the following equation\n$$$\\overrightarrow r \\left( t \\right) = \\alpha {t^3}\\widehat i + \\beta {t^2}\\widehat j,$$$where $$\\alpha = {{10} \\over 3}m{s^{ - 3}}$$, $$\\beta = 5\\,m{s^{ - 2}}$$ and m = 0.1 kg. At t = 1 s, which of the following\nstatement(s) is(are) true about the particle?",
+    "solution": "$$r = \\alpha {t^3}\\widehat i + \\beta {t^2}\\widehat jv = {{dr} \\over {dt}} = 3\\alpha {t^2}\\widehat i + 2\\beta {t^2}\\widehat ja = {{{d^2}r} \\over {d{t^2}}} = 6\\alpha {t^2}\\widehat i + 2\\beta {t^2}\\widehat j$$\n\nAt t = 1 s,\n\n(a) $$v = 3 \\times {{10} \\over 3} \\times 1\\widehat i + 2 \\times 5 \\times 1\\widehat j = (10\\widehat i + 10\\widehat j)$$ m/s\n\n(b) $$\\widehat L = \\widehat r \\times \\widehat p = \\left( {{{10} \\over 3} \\times 1\\widehat i + 5 \\times 1\\widehat j} \\right) \\times 0.1(10\\widehat i + 10\\widehat j) = \\left( { - {5 \\over 3}\\widehat k} \\right)$$ N-ms\n\n(c) $$F = ma = m \\times \\left( {6 \\times {{10} \\over 3} \\times 1\\widehat i + 2 \\times 5\\widehat j} \\right) = (2\\widehat i + \\widehat j)N$$\n\n(d) $$\\tau = r \\times F = \\left( {{{10} \\over 3}\\widehat i + 5\\widehat j} \\right) \\times (2\\widehat i + \\widehat j) = + {{10} \\over 3}\\widehat k + 10( - \\widehat k) = \\left( { - {{20} \\over 3}\\widehat k} \\right)$$ N-m",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The velocity $$\\overrightarrow v $$ is given by $$\\overrightarrow v = \\left( {10\\widehat i + 10\\widehat j} \\right)$$ ms$^{-1}$",
+      "The angular momentum $$\\overrightarrow L $$\nwith respect to the origin is given by $$\\overrightarrow L = - \\left( {{5 \\over 3}} \\right)\\widehat k\\,N\\,m\\,s$$",
+      "The force $$\\overrightarrow F $$\nis given by $$\\overrightarrow F = \\left( {\\widehat i + 2\\widehat j} \\right)N$$",
+      "The torque $$\\overrightarrow \\tau $$ with respect to the origin is given by $$\\overrightarrow \\tau = - \\left( {{{20} \\over 3}} \\right)\\widehat k\\,N\\,m$$"
+    ]
+  },
+  {
+    "id": "phy_rotational_motion_066",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ring of mass M and radius R is rotating with angular speed $$\\omega$$ about a fixed vertical axis passing through its centre O with two point masses each of mass $${M \\over 8}$$ at rest at O. These masses can move radially outwards along two massless rods fixed on the ring as shown in the figure. At some instant, the angular speed of the system is $${8 \\over 9}\\omega$$ and one of the masses is at a distance of $${3 \\over 5}$$R from O. At this instant, the distance of the other mass from O is\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\nRing has mass M and radius R. Initial angular speed of ring = $$\\omega$$. Two point masses, each of mass are at rest at O. Initial angular momentum of ring and point masses system,\n$${L_i} = {I_R}\\omega + {I_m}\\omega + {I_m}\\omega = M{R^2}\\omega + 0 + 0 = M{R^2}\\omega $$\nAfter some time, situation is changed as shown in the figure.\nAngular speed of the system, $$\\omega ' = {8 \\over 9}\\omega $$; $$OA = {{3R} \\over 5}$$; OB = r = ?\nMoment of inertia about O of point mass at A,\n$${I_A} = {M \\over 8} \\times {{9{R^2}} \\over {25}}$$\nMoment of inertia about O of point mass at B, $${I_B} = {M \\over 8}{r^2}$$\nFina angular momentum of the system\n$${L_f} = M{R^2}\\omega ' + {I_A}\\omega ' + {I_B}\\omega ' = M{R^2} \\times {{8\\omega } \\over 9} + {M \\over 8} \\times {{9{R^2}} \\over {25}} \\times {{8\\omega } \\over 9} + {M \\over 8}{r^2} \\times {{8\\omega } \\over 9}$$\nAs there is no external torque acting on the system so its angular momentum will be conserved, L$_{i}$ = L$_{f}$\n$$M{R^2}\\omega = M{R^2} \\times {{8\\omega } \\over 9} + {M \\over 8} \\times {{9{R^2}} \\over {25}} \\times {{8\\omega } \\over 9} + {M \\over 8}{r^2} \\times {{8\\omega } \\over 9}{R^2} = {{8{R^2}} \\over 9} + {{{R^2}} \\over {25}} + {{{r^2}} \\over 9} \\Rightarrow {{{r^2}} \\over 9} = {{16} \\over {225}}{R^2}\\thereforer = {4 \\over 5}R$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${2 \\over 3}$$R",
+      "$${1 \\over 3}$$R",
+      "$${3 \\over 5}$$R",
+      "$${4 \\over 5}$$R"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l135jm1b.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_067",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The figure shows a system consisting of (i) a ring of outer radius 3R rolling clockwise without\nslipping on a horizontal surface with angular speed $$\\omega $$ and (ii) an inner disc of radius 2R rotating\nanti-clockwise with angular speed $${\\omega \\over 2}$$. The ring and disc are separated by frictionless ball\nbearings. The point P on the inner disc is at a distance R from the origin, where OP makes an\nangle of $$30^\\circ $$ with the horizontal. Then with respect to the horizontal surface,\n\n[Diagram]",
+    "solution": "The outer ring rolls without slipping, meaning the point on the ring in contact with the ground (denoted as point C) is stationary, i.e., $ \\vec{v}_{\\mathrm{C}} = \\overrightarrow{0} $. Therefore, the velocity of point O is :\n\n$$ \\vec{v}_{\\mathrm{O}} = \\vec{v}_{\\mathrm{C}} + \\vec{\\omega}_{\\mathrm{o}} \\times \\vec{r}_{\\mathrm{CO}} = \\overrightarrow{0} + \\omega \\hat{\\jmath} \\times 3R \\hat{k} = 3R\\omega \\hat{\\imath} $$\n\nPoint P is located on the inner disc, which has an angular velocity $ \\vec{\\omega}_{\\mathrm{i}} = -\\omega / 2 \\hat{\\jmath} $. The position vector from O to P is given by :\n\n$$ \\vec{r}_{\\mathrm{OP}} = R \\cos 30^{\\circ} \\hat{\\imath} + R \\sin 30^{\\circ} \\hat{k} = \\frac{\\sqrt{3} R}{2} \\hat{\\imath} + \\frac{R}{2} \\hat{k} $$\n\nThus, the velocity of point P is calculated as follows :\n\n$$ \\begin{aligned} \\vec{v}_{\\mathrm{P}} & = \\vec{v}_{\\mathrm{O}} + \\vec{\\omega}_{\\mathrm{i}} \\times \\vec{r}_{\\mathrm{OP}} \\\\ & = 3R\\omega \\hat{\\imath} + \\left(-\\frac{\\omega}{2} \\hat{\\jmath}\\right) \\times \\left(\\frac{\\sqrt{3} R}{2} \\hat{\\imath} + \\frac{R}{2} \\hat{k}\\right) \\\\ & = \\frac{11\\omega R}{4} \\hat{\\imath} + \\frac{\\sqrt{3} \\omega R}{4} \\hat{k} . \\end{aligned} $$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "the point O has linear velocity $$3R\\omega \\widehat i$$",
+      "the point P has linear velocity $${{11} \\over 4}R\\omega \\widehat i + {{\\sqrt 3 } \\over 4}R\\omega \\widehat k$$",
+      "the point P has linear velocity $${{13} \\over 4}R\\omega \\widehat i - {{\\sqrt 3 } \\over 4}R\\omega \\widehat k$$",
+      "the point P has linear velocity $$\\left( {3 - {{\\sqrt 3 } \\over 4}} \\right)R\\omega \\widehat i + {1 \\over 4}R\\omega \\widehat k$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzw1awze.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_068",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two solid cylinders P and Q of same mass and same radius start rolling down a fixed inclined\nplane from the same height at the same time. Cylinder P has most of its mass concentrated near\nits surface, while Q has most of its mass concentrated near the axis. Which statement(s) is(are)\ncorrect?",
+    "solution": "Since Cylinder P has most of its mass concentrated near its surface, its moment of inertia (about the cylinder axis) is greater than that of Cylinder Q, i.e., $ I_P > I_Q $. The forces acting on the cylinder include its weight $ mg $, the normal reaction $ N $, and the frictional force $ f $.\n\n[Diagram]\n\nIn the case of rolling without slipping, we have :\n$ v = \\omega r $\n$ a = \\alpha r $\nThe torque about the center of mass is related to $\\alpha$ by :\n$ \\tau = rf = I\\alpha \\quad (1) $\nThe force along the plane is related to $a$ by :\n$ mg \\sin \\theta - f = ma \\quad (2) $\nBy solving equations (1) and (2), we get :\n$ a = \\frac{g \\sin \\theta}{1 + \\frac{I}{mr^2}} \\quad (3) $\nFrom equation (3), it follows that $ a_P < a_Q $ (since $ I_P > I_Q $). Therefore, Cylinder P reaches the ground later, has a lower velocity, lower angular velocity ($\\omega = \\frac{v}{r}$), and lower translational kinetic energy.\nFor verification, the conservation of energy can be used :\n$ mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2 $\nThis yields :\n$ \\frac{1}{2}mv_P^2 < \\frac{1}{2}mv_Q^2 $\nThus :\n$ v_P < v_Q, \\ \\omega_P < \\omega_Q, \\ a_P < a_Q $\nAnd the time relationships :\n$ t_P > t_Q $",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Both cylinders P and Q reach the ground at the same time.",
+      "Cylinders P has larger linear acceleration than cylinder Q.",
+      "Both cylinders reach the ground with same translational kinetic energy.",
+      "Cylinder Q reaches the ground with larger angular speed."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03fx86a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_069",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A metal rod of length L and mass m is pivoted at one end. A thin disk of mass M and radius R ( < L) is attached at its centre to the free end of the rod. Consider two ways the disc is attached : (case A). The disc is not free to rotate about its centre and (case B) the disc is free to rotate about its centre. The rod-disc system performs SHM in vertical plane after being released from the same displaced position. Which of the following statement(s) is(are) true?\n\n[Diagram]",
+    "solution": "We have\nRestoring torque = Force of gravity on disc and rod which is same in both cases.\n$$\\bullet$$ Case A : The moment of inertia is\n$${I_A} = {{M{R^2}} \\over 2} + M{L^2} + {{m{l^3}} \\over 3}$$\nTherefore,\n$${\\tau _A} = - {I_A}\\omega _A^2\\theta = - \\left( {{{M{R^2}} \\over 2} + M{L^2} + {{m{l^3}} \\over 3}} \\right)\\omega _A^2\\theta \\bullet$$ Case B : The moment of inertia is\n$${I_B} = {{m{l^3}} \\over 3} + M{L^2}$$\nTherefore,\n$${\\tau _B} = - {I_B}\\omega _B^2\\theta = - \\left( {{{m{l^3}} \\over 3} + M{L^2}} \\right)\\omega _B^2\\theta $$\nsince $${\\tau _A} = {\\tau _B} \\Rightarrow {\\omega _A} < {\\omega _B}$$.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "Restoring torque in case A = Restoring torque in case B.",
+      "Restoring torque in case A < Restoring torque in case B.",
+      "Angular frequency for case A > Angular frequency for case B.",
+      "Angular frequency for case A < Angular frequency for case B."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2lyk7d0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_070",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A sphere is rolling without slipping on a fixed horizontal plane surface. In the figure below, A is the point of contact, B is the centre of the sphere and C is its topmost point. Then,\n\n[Diagram]",
+    "solution": "We have\n$$\\overrightarrow {{V_C}} = \\overrightarrow {{V_{CM}}} + \\overrightarrow {r\\omega } = 2\\overrightarrow {{V_{CM}}} \\overrightarrow {{V_B}} = \\overrightarrow {{V_{CM}}} \\overrightarrow {{V_A}} = 0$$\nTherefore,\n$$\\overrightarrow {{V_C}} - \\overrightarrow {{V_B}} = \\overrightarrow {r\\omega } = \\overrightarrow {{V_{CM}}} \\overrightarrow {{V_B}} - \\overrightarrow {{V_A}} = \\overrightarrow {{V_{CM}}} \\overrightarrow {{V_C}} - \\overrightarrow {{V_A}} = \\overrightarrow {{V_{CM}}} + \\overrightarrow {r\\omega } = 2\\overrightarrow {{V_{CM}}} \\overrightarrow {{V_B}} - \\overrightarrow {{V_C}} = - \\overrightarrow {r\\omega } $$\nFor pure rolling, we have\n$$|\\overrightarrow {{V_{CM}}} | = |\\overrightarrow {r\\omega } |$$\nTherefore,\n$$|\\overrightarrow {{V_C}} - \\overrightarrow {{V_A}} | = 2{V_{CM}} \\Rightarrow 2|\\overrightarrow {{V_B}} - \\overrightarrow {{V_C}} | = 2r\\omega = 2{V_{CM}}$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$${\\overrightarrow V _C} - {\\overrightarrow V _A} = 2({\\overrightarrow V _B} - {\\overrightarrow V _C})$$",
+      "$${\\overrightarrow V _C} - {\\overrightarrow V _B} = {\\overrightarrow V _B} - {\\overrightarrow V _A}$$",
+      "$$|{\\overrightarrow V _C} - {\\overrightarrow V _A}| = 2|{\\overrightarrow V _B} - {\\overrightarrow V _C}|$$",
+      "$$|{\\overrightarrow V _C} - {\\overrightarrow V _A}| = 4|{\\overrightarrow V _B}|$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4abjs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_071",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the resultant of all the external forces acting on a system of particles is zero, then from an inertial frame, one can surely say that",
+    "solution": "According to Newton's second law, we have\n$$\\sum {{{\\overrightarrow f }_{ext}} = {{d\\overrightarrow p } \\over {dt}}} $$\nIf $$\\sum {{{\\overrightarrow f }_{ext}} = 0} $$, we find that the linear momentum $$\\overrightarrow p $$ as constant.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Linear momentum of the system does not change in time.",
+      "Kinetic energy of the system does not change in time.",
+      "Angular momentum of the system does not change in time.",
+      "Potential energy of the system does not change in time."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1rw21.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_rotational_motion_072",
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "topic": "Rotational Motion",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid cylinder of mass m and radius $r$ is rolling on rough inclined plane of inclination $\\theta$. The coefficient of friction between the cylinder and incline is $\\mu$. then",
+    "solution": "$$ \\text { From the diagram, } $$\n\n[Diagram]\nWe observe $f$ opposes translational motion and (option d) supports rotational motion.\n$$ \\begin{aligned} m g \\sin \\theta-f & =m a \\\\ f \\mathrm{R} & =\\mathrm{I} \\alpha=\\frac{1}{2} \\mathrm{MR}^2\\left(\\frac{a}{\\mathrm{R}}\\right)=\\frac{1}{2} m a \\mathrm{R} \\end{aligned} \\begin{array}{rlrl} m g \\sin \\theta-f & =2 f & (m a & =2 f) \\\\ m g \\sin \\theta & =3 f & {[a} & =r \\alpha \\\\ \\alpha & \\left.=\\frac{a}{r}\\right] & \\end{array} \\begin{aligned} &\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, f=\\frac{1}{3} m g \\sin \\theta \\\\ &\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, f \\propto \\sin \\theta \\end{aligned} $$\nThus, if we reduce $\\theta, f$ will be decreased Option (c) is correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "frictional force is always $\\mu \\mathrm{mg} \\cos \\theta$.",
+      "friction is a dissipative force.",
+      "by decreasing $\\theta$, frictional force decreases.",
+      "friction opposes translation and supports rotation."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1rw21.png",
+      "position": "bottom"
+    }
+  }
+]

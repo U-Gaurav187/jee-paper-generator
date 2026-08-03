@@ -1,0 +1,995 @@
+[
+  {
+    "id": "chem_chemical_kinetics_001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a first-order reaction $\\mathbf{R} \\rightarrow \\mathbf{P}$ at a given temperature, $k$ is the rate constant. For this reaction, at the given temperature, the concentrations of $\\mathbf{R}$ and $\\mathbf{P}$ at a time $t$ are $[\\mathbf{R}]$ and $[\\mathbf{P}]$, respectively. The correct graphical representation(s) for this reaction is(are) :",
+    "solution": "(A) For a first-order reaction, the concentration of product at time $ t $ is given by:\n$$ [\\mathrm{P}]_t = [\\mathrm{R}]_0 (1 - e^{-kt}) $$\nThis equation shows that as time increases, the concentration of the product $ [\\mathrm{P}]_t $ gradually increases and finally becomes equal to the initial concentration of the reactant $ [\\mathrm{R}]_0 $. The curve starts from zero and rises exponentially to a maximum value.\n\n[Diagram]\n\n(B) For a first-order reaction, the rate law is:\n$$ \\text{Rate} = -\\frac{d[\\mathrm{R}]}{dt} = k[\\mathrm{R}] $$\nRearranging, we get:\n$$ \\frac{d[\\mathrm{R}]}{dt} = -k[\\mathrm{R}] $$\nTaking logarithms, we can express it as a straight-line equation similar to $ y = -mx $. Hence, a graph of $\\ln [\\mathrm{R}]$ (or $\\log [\\mathrm{R}]$) versus time $ t $ gives a straight line with a slope equal to $-k$.\n\n[Diagram]\n\n(C) The rate of formation of the product is equal to the rate of disappearance of the reactant:\n$$ \\frac{d[\\mathrm{P}]}{dt} = -\\frac{d[\\mathrm{R}]}{dt} = k[\\mathrm{R}] $$\nSubstitute $[\\mathrm{R}] = [\\mathrm{R}]_0 e^{-kt}$:\n$$ \\frac{d[\\mathrm{P}]}{dt} = k[\\mathrm{R}]_0 e^{-kt} $$\nThis means the rate of product formation decreases exponentially with time.\n\n[Diagram]\n\n(D) For a given temperature, the rate constant $ k $ remains constant. It does not change with concentration or time.\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9y9ifc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_002",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a reversible reaction $R \\rightleftharpoons P$, at constant temperature, both the forward and the backward reactions are first order elementary reactions with rate constants $k_{{f}}$ and $k_{{b}}$, respectively. At time zero, the concentration of $R$ is $[R]_0$ and the concentration of $P$ is zero. At any given time, $[R]$ and $[P]$ are the concentrations of $R$ and $P$, respectively. If $k_{{b}} = 4k_{{f}}$, the correct graphical representation of the reaction is",
+    "solution": "[Diagram]\n\nFor the reversible reaction $ R \\rightleftharpoons P $, the equilibrium constant is given by:\n$$K_{eq} = \\frac{[P]}{[R]} = \\frac{x}{[R]_0 - x} = \\frac{k_f}{k_b} = \\frac{1}{4}$$\nHere, $x$ is the amount of $R$ that gets converted to $P$ at equilibrium. Using the above relation:\n$$\\frac{x}{[R]_0 - x} = \\frac{1}{4}$$\nMultiplying both sides by $( [R]_0 - x )$:\n$$4x = [R]_0 - x\\Rightarrow x = \\frac{[R]_0}{5}$$\nThis means that, out of the initial concentration $[R]_0$, one-fifth has been converted to $P$ at equilibrium.\nThe equilibrium fraction of $P$ is:\n$$\\frac{[P]}{[R]_0} = \\frac{x}{[R]_0} = \\frac{[R]_0/5}{[R]_0} = \\frac{1}{5} = 0.2$$\nThe equilibrium fraction of $R$ is:\n$$\\frac{[R]}{[R]_0} = \\frac{[R]_0 - x}{[R]_0} = \\frac{[R]_0 - [R]_0/5}{[R]_0} = \\frac{4}{5} = 0.8$$\n\n[Diagram]\n\nAt the start of the reaction (time = 0):\n$$ \\begin{aligned} &\\frac{[R]}{[R]_0} = \\frac{[R]_0}{[R]_0} = 1 \\\\ &\\frac{[P]}{[R]_0} = \\frac{0}{[R]_0} = 0 \\end{aligned} $$\nAs the reaction proceeds, the value of $[R]/[R]_0$ decreases from 1 to 0.8, while $[P]/[R]_0$ increases from 0 to 0.2. The graph representing these changes corresponds to the correct option shown above.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xsvw1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_003",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a reaction $A+R \\rightarrow$ Product. The rate of this reaction is measured to be $k[A][R]$. At the start of the reaction, the concentration of $R,[R]_0$, is 10-times the concentration of $A,[A]_0$. The reaction can be considered to be a pseudo first order reaction with assumption that $k[R]=k^{\\prime}$ is constant. Due to this assumption, the relative error (in %) in the rate when this reaction is $40 \\%$ complete, is ___________.\n[ $k$ and $k^{\\prime}$ represent corresponding rate constants]",
+    "solution": "[Diagram]\n\n$\\begin{aligned} & \\text { Rate }=k[\\mathrm{~A}][\\mathrm{R}] \\\\\\\\ & \\operatorname{Rate}_1=k\\left(0.6 \\mathrm{~A}_0\\right) \\times 9.6 \\mathrm{~A}_0\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} & \\text { Rate }=\\mathrm{k}^{\\prime}[\\mathrm{A}], \\mathrm{k}^{\\prime}=\\mathrm{k}[\\mathrm{R}] \\end{aligned}$\nThe relative error between the actual rate and the pseudo-first order rate is computed by:\n$ \\text{Relative Error (%)} = \\frac{\\text{Rate}_2 - \\text{Rate}_1}{\\text{Rate}_1} \\times 100 $\nPlugging the calculations:\n$ \\text{Relative Error (%)} = \\frac{(0.6 \\times 10 - 0.6 \\times 9.6)}{0.6 \\times 9.6} \\times 100 = 4.1666\\% $",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxn2jbk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_004",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At constant temperature and volume, X decomposes as 2X(g) $$\\to$$ 3Y(g) + 2Z(g); P$_{x}$ is the partial pressure of X.\n\n.tg {border-collapse:collapse;border-spacing:0;margin: 0 auto}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-s6z2{text-align:center}\n\n\nObservation No.\nTime (in minute)\nP$_{x}$ (in mm of Hg)\n\n\n1\n0\n800\n\n\n2\n100\n400\n\n\n3\n200\n200\n\n\n\n(i) What is the order of the reaction to X?\n\n(ii) Find the rate constant\n\n(iii) Find the time for 75% completion of the reaction.\n\n(iv) Find the total pressure when pressure of X is 700 mm of Hg",
+    "solution": "The given reaction is : 2X(g) $$\\to$$ 3Y(g) + 2Z(g)\n(1) Partial pressure (of X) trend :\n800 mm Hg $$\\buildrel {100\\,\\min } \\over\n\\longrightarrow $$ 400 mm Hg $$\\buildrel {100\\,\\min } \\over\n\\longrightarrow $$ 200 mm Hg Half-life is constant, hence, it is a first order reaction.\n(2) For a first order reaction, rate constant $$k = {{0.693} \\over {half - life}}$$\nor, $$k = {{0.693} \\over {100}} = 6.93 \\times {10^{ - 3}}$$ min$^{$$-$$1}$\n(3) Time required for the completion of 75% of the reaction is equal to 2 half lives. Hence, Time taken = (2 $$\\times$$ 100) = 200 min\n(4)\n[Diagram]\n\n$$\\therefore$$ Total pressure = (700 + 150 + 100) mm Hg = 950 mm Hg",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kztzyd73.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_005",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following reaction,\n\n$$2X + Y\\buildrel k \\over\n\\longrightarrow P$$ the rate of reaction is $${{d[P]} \\over {dt}} = k[X]$$. Two moles of X are mixed with one mole of Y to make 1.0 L of solution. At 50 s, 0.5 mole of Y is left in the reaction mixture. The correct statement(s) about the reaction is(are)\n\n(Use : ln 2 = 0.693)",
+    "solution": "[Diagram]\n\nAs the concentration of reactant becomes half at t = 50 s. So, half-time of reaction is 50 s.\n\nGiven,\n\n$${{dP} \\over {dt}} = k{[X]^1} \\Rightarrow - {1 \\over 2}{{dX} \\over {dt}} = {{dP} \\over {dt}} = k{[X]^1} - {{dX} \\over {dt}} = 2k{[X]^1}{{ - dX} \\over {[X]}} = 2k\\,dt - \\int_{{X_0}}^X {{{dX} \\over X} = 2k\\,\\int_0^t {dt} } - [\\ln X]_{{X_0}}^X = 2k[t]_0^t - \\ln X + \\ln {X_0} = 2kt\\ln {{{X_0}} \\over X} = 2kt$$\n\nAt t$_{1/2}$, $$X = {{{X_0}} \\over 2}\\ln {{2{X_0}} \\over {{X_0}}} = 2k{t_{1/2}}k = {{\\ln 2} \\over {2{t_{1/2}}}} = {{0.693} \\over {100}} = 6.93 \\times {10^{ - 3}}{s^{ - 1}}$$\n\nAt t = 50 s, $$ - {{dx} \\over {dt}} = 2k{[X]^1};[X] = 1$$ mol\n\nSo, $${{ - dX} \\over {dt}} = 2 \\times 6.93 \\times {10^{ - 3}} \\times 1 = 13.86 \\times {10^{ - 3}}$$ mol L$^{-1}$ s$^{-1}$\n\nAt t = 100 s, $$ - {1 \\over 2}{{dX} \\over {dt}} = {{ - dY} \\over {dt}} \\Rightarrow {{ - dY} \\over {dt}} = k{[Y]^1};[Y] = {1 \\over 2} - {{dY} \\over {dt}} = 6.93 \\times {10^{ - 3}} \\times {1 \\over 2} = 3.46 \\times {10^{ - 3}}$$ mol L$^{-1}$ s$^{-1}$\n\nSo, options (b), (c) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The rate constant, k, of the reaction is 13.86 $$\\times$$ 10$^{$$-$$4}$ s$^{$$-$$1}$",
+      "Half-life of X is 50 s.",
+      "At 50 s, $$-{{d[X]} \\over {dt}}$$ = 13.86 $$\\times$$ 10$^{$$-$$3}$ mol L$^{$$-$$1}$ s$^{$$-$$1}$.",
+      "At 100 s, $$-{{d[Y]} \\over {dt}}$$ = 3.46 $$\\times$$ 10$^{$$-$$3}$ mol L$^{$$-$$1}$ s$^{$$-$$1}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzsho99d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_006",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following plots is(are) correct for the given reaction?\n\n([P]$_{0}$ is the initial concentration of P)\n\n[Diagram]",
+    "solution": "$${(C{H_3})_3}C - Br + NaOH\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{(First\\,order\\,reaction)}^{{S_{{N^1}}}}} {(C{H_3})_3}C - OH + NaBr$$\n\nThis is first order reaction and for first order reaction $${t_{1/2}} = {{0.693} \\over k}$$\n\nSo, half-life is independent of initial concentration.\n\nTherefore, the plot (a) correct.\n\nFor first order reaction,\n\n$$(r) = k[{(C{H_3})_3}C - Br]$$ ;\n\n$$\\ln \\left( {{{{P_0}} \\over P}} \\right) = k\\,t$$\n\nor $$\\ln \\left( {{P \\over {{P_0}}}} \\right) = - k\\,t$$\n\nHence, plot (b) and (d) are incorrect. For first order reaction,\n\nQ = [P$_{0}$](1 $$-$$ e$^{kt}$)\n\nOr $${{[Q]} \\over {[{P_0}]}} = (1 - {e^{kt}})$$\n\nHence, plot (c) is incorrect.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_007",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the decay sequence.\n\n\n[Diagram]\n\nx$_{1}$, x$_{2}$, x$_{3}$ and x$_{4}$ are particles/radiation emitted by the respective isotopes. The correct option(s) is(are)",
+    "solution": "In decay sequence,\n\n\n[Diagram]\n\n\nX$_{1}$ particle will deflect towards negatively charged plate due to presence of positive charge on $$\\alpha $$- particles.\n\nHence, options (a, b, c) are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Z is an isotope of uranium",
+      "x$_{2}$ is $$\\beta $$$^{-}$",
+      "x$_{1}$ will deflect towards negatively charged plate",
+      "x$_{3}$ is $$\\gamma $$-ray"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_008",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a first order reaction $$A\\left( g \\right) \\to 2B\\left( g \\right) + C\\left( g \\right)$$ at constant volume and $$300K,$$ the total pressure at the beginning $$(t=0)$$ and at time $$t$$ are $${P_0}$$ and $${P_1},$$ respectively. Initially, only $$A$$ is present with concentration $${\\left[ A \\right]_0},$$ and $${t_{1/3}}$$ is the time required for the partial pressure of $$A$$ to reach $$1/{3^{rd}}$$ of its initial value. The correct option(s) is (are) (Assume that all these gases behave as ideal gases)",
+    "solution": "Total pressure of gaseous mixture at beginning $(T=0)=\\mathrm{P}_0$\n\nTotal pressure of gaseous mixture after time $t$ $(\\mathrm{T}=t)=\\mathrm{P}_t$\n\nInitial concentration of $A=[A]_0$\n\nTemperature of the reaction mixture (T) $=300 \\mathrm{~K}$\n\nFor the first order reaction,\n\n[Diagram]\n\nTotal pressure after time $(\\mathrm{T}=t)=\\mathrm{P}_0-\\mathrm{P}+2 \\mathrm{P} +\\mathrm{P}$\n\n$$\n\\begin{aligned}\n\\mathrm{P}_t=\\mathrm{P}_0+2 \\mathrm{P} \\\\\\\\\n\\mathrm{P} =\\frac{\\mathrm{P}_t-\\mathrm{P}_0}{2}\n\\end{aligned}\n$$\n\nAccording to integrated rate law for the first order reaction:\n\n$$\n\\begin{aligned}\n&t =\\frac{2.303}{k} \\log \\frac{\\mathrm{P}_0}{\\mathrm{P}_t} ~~~~...(i)\\\\\\\\\n&t =\\frac{2.303}{k} \\log \\frac{\\mathrm{P}_0}{\\mathrm{P}_0-\\mathrm{P}} \\\\\\\\\n&t =\\frac{2.303}{k} \\log \\frac{\\mathrm{P}_0}{\\mathrm{P}_0-\\frac{\\left(\\mathrm{P}_t-\\mathrm{P}_0\\right)}{2}} \\\\\\\\\n&t =\\frac{2.303}{k} \\log \\frac{2 \\mathrm{P}_0}{2 \\mathrm{P}_0-\\mathrm{P}_t+\\mathrm{P}_0} \\\\\\\\\n&t =\\frac{2.303}{k} \\log \\frac{2 \\mathrm{P}_0}{3 \\mathrm{P}_0-\\mathrm{P}_t} \\\\\\\\\n&t =\\frac{1}{k} \\ln \\frac{2 \\mathrm{P}_0}{3 \\mathrm{P}_0-\\mathrm{P}_t} \\\\\\\\\n&\\ln \\left(3 \\mathrm{P}_0-\\mathrm{P}_t\\right) =\\ln \\left(2 \\mathrm{P}_0-\\mathrm{P}_t\\right)-k t ~~~~...(ii)\n\\end{aligned}\n$$\n\nComparing equation (ii) with equation of straight option line\n\n$$\n\\begin{aligned}\n& \\ln \\left(3 \\mathrm{P}_0-\\mathrm{P}_t\\right) =\\ln 2 \\mathrm{P}_0-k t \\\\\\\\\n&y =c+m x\n\\end{aligned}\n$$\n\nPlot of $\\ln \\left(3 \\mathrm{P}_0-\\mathrm{P}_t\\right)$ verses time $(t)$ is represented as:\n\n[Diagram]\n\nOption (A) is correct.\n\n(ii) For the first order reaction,\n\n[Diagram]\n\n$$\n\\mathrm{P}_t=\\frac{\\mathrm{P}_0}{3}+\\frac{4 \\mathrm{P}_0}{3}+\\frac{2 \\mathrm{P}_0}{3}=\\frac{7 \\mathrm{P}_0}{3}\n$$\n\nSubstituting the value of $P_t$ in $e q$ (i)\n\n$$\n\\begin{aligned}\nt_{1 / 3} & =\\frac{2.303}{k} \\log \\frac{\\mathrm{P}_0}{\\frac{7 \\mathrm{P}_0}{3}} \\\\\\\\\nt_{1 / 3} & =\\frac{2.303}{k} \\log \\frac{3}{7}\n\\end{aligned}\n$$\n\n$\\mathrm{P}_{t_3}$ is independent of concentration of (A).\n\nOption (B) is not correct.\n\n(iii) At any time $t$, rate constant $(k)$ is independent of concentration of [A].\n\nFor example:\n\nAt $t_{y_3}$ :\n\n$$\nk=\\frac{2.303}{t_{1 / 3}} \\times \\log \\frac{3}{7}\n$$\n\nHence, Option (D) is correct.\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhvgh4zy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_009",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a bimolecular reaction, the steric factor $$P$$ was experimentally determined to be $$4.5.$$ The correct option(s) among the following is (are)",
+    "solution": "Arrhenius equation is\n$$k = A{e^{ - {E_a}/RT}}$$\nwhere, A = Frequency factor\nTaking into account orientation factor,\n$$k = P{Z_{AB}}{e^{ - {E_a}/RT}}$$\nwhere, P = steric factor, Z$_{AB}$ = collision frequency\nThe value of steric factor lies between 0 and 1 predicted by Arrhenius equation. Thus, the experimentally determined value of frequency factor is higher than that predicted by Arrhenius equation.\nThe activation energy of the reaction does not depend upon the value of the steric factor.\nIf P is very small, then catalyst is required to carry out the reaction at measurable rate.",
+    "answerKey": [
+      "B",
+      "A"
+    ],
+    "options": [
+      "The activation energy of the reaction is unaffected by the value of the steric factor",
+      "Experimentally determined value of frequency factor is higher than that predicted by arrhenius equation",
+      "Since $$P = 4.5,$$ the reaction will not proceed unless an effective catalyst is used",
+      "The value of frequency factor predicted by Arrhenius equation is higher than that determined experimentally"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_010",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to the Arrhenius equation,",
+    "solution": "The Arrhenius equation is a mathematical model of the temperature dependence of reaction rates. It is expressed as follows:\n\n$$\nk=\\mathrm{Ae}^{-\\mathrm{E}_a / \\mathrm{RT}}\n$$\n\nwhere :\n\n- k is the rate constant\n\n- A is the pre-exponential factor (also known as the frequency factor)\n\n- E$_{a}$ is the activation energy\n\n- R is the universal gas constant\n\n- T is the temperature (in Kelvin)\n\n- e is Euler's number, a mathematical constant approximately equal to 2.71828\n\nThe options provided correlate to the Arrhenius equation as follows:\n\nOption A : Incorrect. A high activation energy usually implies a slower reaction, not a fast one. The activation energy is the energy barrier that needs to be overcome for a reaction to occur. The higher the activation energy, the fewer the number of molecules that have enough energy to surpass this barrier and react, resulting in a slower reaction rate.\n\n[Diagram]\n\nOption B : Correct. Temperature $\\mathrm{T}_2$ is greater than $\\mathrm{T}_1$; hence, the fraction of molecules (shaded in green) having energy greater than activation energy increases with increase in temperature result, rate of reaction increases.\n\nHigher temperature, more number of collisions (between extents) having energy greater than activation energy happen increases speed of reaction.\n\n[Diagram]\n\nOption C : Correct. A reaction at higher activation energy makes the reaction rate slow. An increase in temperature causes reactant molecules to cross the high energy barrier; i.e., $E_a$ and form activated complex.\n\nOption D : Correct. The pre-exponential factor (A) takes into account the probability of proper orientation of reactant molecules to form the product and the frequency at which reactant molecules collide to form the product.\n\n$$\n\\mathrm{A}=\\mathrm{Z}_{\\mathrm{AB}} \\times \\mathrm{P}\n$$\n\n$Z_{A B}$ : Collision frequency or frequency with which A collides with B.\n\nP : Probability of reactant molecules oriented in right orientation with respect to each other to form the product.\n\nOption (D), where pre-exponential factor affects the rate reaction irrespective of the energy they possess.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "a high activation energy usually implies a fast reaction",
+      "rate constant increases with increase in temperature. This is due to a greater number of collisions whose energy exceeds the activation energy",
+      "higher the magnitude of activation energy, stronger is the temperature dependence of the rate constant.",
+      "the pre-exponential factor is a measure of the rate at which collisions occur, irrespective of their\nenergy."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li7eo95v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_011",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A plot of the number of neutrons (N) against the number of protons (P) of stable nuclei exhibits upward\ndeviation from linearity for atomic number, Z > 20. For an unstable nucleus having N/P ratio less than 1,\nthe possible mode(s) of decay is(are)",
+    "solution": "Plot of Z (number of protons) verses N (number\nof neutrons) is represented as :\n\n[Diagram]\n\n(a) For a stable nucleus $\\mathrm{N} / \\mathrm{Z}\\left(\\frac{\\text { no. of neutrons }}{\\text { no. of protons }}\\right)$ should be equal to 1.\n\nThis happens for elements till atomic number $(Z=20)$. For such nucleus number of proton are equal to number of neutrons.\n\n(b) For heavier nucleides with atomic number $(\\mathrm{Z})$ greater than $20(Z>20)$, the number of neutron are more than proton as seen by curved (green) appearance in the plot.\n\n(c) For nucleids with $\\mathrm{N} / \\mathrm{Z}<1$, the number of neutrons are less than the protons making the nucleus unstable. This is due to increase in coulombic repulsions between positively charged protons.\n\nSuch nuclei become stable by K-electron capture and positron emission.\n\n**K-electron capture :**\n\n$$\n{ }_1^1 p+{ }_{-1}^0 e \\rightarrow{ }_0^1 n\n$$\n\nThe K-electron capture, proton is converted to the neutron as increases the $\\mathrm{N} / \\mathrm{Z}$ ratio.\n\n**$\\beta^{ \\pm}$decay (positron emission) :**\n\n$$\n{ }_1^1 p \\rightarrow{ }\\underset{neutron}{_0^1 n}+\\underset{positron}{e^{+}}+\\underset{electron \\,nutrino}{v_e}\n$$\n\n\nProton decays to a neutron, positron and electron nutrino. This decreases the number of protons and increases the number of neutrons, thereby increasing $\\mathrm{N} / \\mathrm{Z}$ ratio.\n\nOptions (B) and (D) are correct.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$\\beta ^-$$-decay ( $$\\beta$$ emission)",
+      "orbital or K-electron capture",
+      "neutron emission",
+      "$$\\beta ^+$$-decay (positron emission)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li7c1y9s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_012",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The % yield of ammonia as a function of time in the reaction\nN$_{2}$(g) + 3H$_{2}$(g) $$\\rightleftharpoons$$ 2NH$_{3}$(g), $$\\Delta$$H < 0 at (P, T$_{1}$) is given below:\n\n[Diagram]\n\nIf this reactions is conducted at (P, T$_{2}$), with T$_{2}$ > T$_{1}$, the % yield of ammonia as a function of time is represented by",
+    "solution": "The equilibrium yield of ammonia gets lowered with the increase of temperature. However, at higher temperature the initial rate of forward reaction would be greater than at lower temperature that is why the percentage yield of NH$_{3}$ would be more initially.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13lh7vg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_013",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the nuclear transmutation\n\n$^{9}$Be$_{4}$ + X $$\\to$$ $^{8}$Be$_{4}$ + Y\n\n(X, Y) is (are) :",
+    "solution": "The nuclear transmutation of beryllium (Be) is given as:\n\n$$ _4^9 \\mathrm{Be} + X \\to _4^8 \\mathrm{Be} + Y $$\n\nWe examine the possible reactions to determine the values of X and Y:\n\n(A) If $ X = _0^0\\gamma $ and $ Y = _0^1n $\n\nThe reaction is:\n\n$$ _4^9 \\mathrm{Be} + _0^0\\gamma \\longrightarrow _4^8 \\mathrm{Be} + _0^1n $$\n\nUsing the conditions of:\n\n(i) Mass balance:\n\nMass of reactants $ = 9 + 0 = 9 $\n\nMass of products $ = 8 + 1 = 9 $\n\n(ii) Charge balance:\n\nCharge of reactants $ = 4 + 0 = 4 $\n\nCharge of products $ = 4 + 0 = 4 $\n\nBoth mass and charge are balanced. Therefore, Option (A) is correct.\n\n(B) If $ X = p = _1^1H $ and $ Y = D = _1^2H $\n\nThe reaction is:\n\n$$ _4^9 \\mathrm{Be} + _1^1H \\longrightarrow _4^8 \\mathrm{Be} + _1^2H $$\n\nUsing the conditions of:\n\n(i) Mass balance:\n\nMass of reactants: $ 9 + 1 = 10 $\n\nMass of products $ = 8 + 2 = 10 $\n\n(ii) Charge balance:\n\nCharge of reactants $ = 4 + 1 = 5 $\n\nCharge on products $ = 4 + 1 = 5 $\n\nBoth mass and charge are balanced. Therefore, Option (B) is correct.\n\n(C) If $ X = _0^1n $ and $ Y = D = _1^2H $\n\nThe reaction is:\n\n$$ _4^9 \\mathrm{Be} + _0^1n \\longrightarrow _4^8 \\mathrm{Be} + _1^2H $$\n\nUsing the conditions of:\n\n(i) Mass balance:\n\nMass of reactants $ = 9 + 1 = 10 $\n\nMass of products $ = 8 + 2 = 10 $\n\n(ii) Charge balance:\n\nCharge on reactants $ = 4 + 0 = 4 $\n\nCharge on products $ = 4 + 1 = 5 $\n\nCharge on reactants $\neq $ Charge on products. Since, charge is not balanced, Option (C) is incorrect.\n\n(D) If $ X = _0^0\\gamma $ and $ Y = p = _1^1H $\n\nThe reaction is:\n\n$$ _4^9 \\mathrm{Be} + _0^0\\gamma \\longrightarrow _4^8 \\mathrm{Be} + _1^1H $$\n\nUsing the conditions of:\n\n(i) Mass balance:\n\nMass of reactants: $ 9 + 0 = 9 $\n\nMass of products: $ 8 + 1 = 9 $\n\n(ii) Charge balance:\n\nCharge on products: $ 4 + 1 = 5 $\n\nCharge on reactants: $ 4 + 0 = 4 $\n\nCharge on reactants $\neq $ Charge on products. Since the charge is not balanced, Option (D) is incorrect.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$(\\gamma ,n)$$",
+      "(p, D)",
+      "(n, D)",
+      "$$(\\gamma ,p)$$"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_014",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the first order reaction\n\n2N$_{2}$O$_{5}$ (g) $$\\to$$ 4NO$_{2}$ (g) + O$_{2}$ (g)",
+    "solution": "The given chemical equation represents a first-order reaction:\n\n$$2N_2O_5 (g) \\to 4NO_2 (g) + O_2 (g)$$\n\nIn first-order reactions, the rate of reaction is directly proportional to the concentration of the reactant. The rate law can be expressed as:\n\n$$Rate = k[N_2O_5]$$\n\nwhere *k* is the rate constant.\n\nThe integrated rate equation for a first-order reaction is:\n\n$$\\ln [N_2O_5] = -kt + \\ln [N_2O_5]_0$$\n\nwhere *[N_2O_5]_0* is the initial concentration and *[N_2O_5]* is the concentration at time *t*.\n\nRearranging gives:\n\n$$[N_2O_5] = [N_2O_5]_0 e^{-kt}$$\n\nNow, let's analyze each option:\n\n**Option A:** \"the concentration of the reactant decreases exponentially with time\".\n\nThis matches the expression $$[N_2O_5] = [N_2O_5]_0 e^{-kt}$$ which shows an exponential decline in the concentration of the reactant. Therefore, option A is **correct**.\n\n**Option B:** \"the half-life of the reaction decreases with increasing temperature\".\n\nIn first-order reactions, the half-life is determined by the equation $$t_{1/2} = \\frac{0.693}{k}.$$ Increases in temperature typically increase the rate constant *k*, thus decreasing the half-life. However, it is not directly related to the half-life itself but rather to the rate constant via the Arrhenius equation. Nonetheless, the essence of the statement is **correct** as increasing temperature generally decreases the half-life.\n\n**Option C:** \"the half-life of the reaction depends on the initial concentration of the reactant\".\n\nThe half-life for a first-order reaction given by $$t_{1/2} = \\frac{0.693}{k}$$ is independent of the initial concentration [N_2O_5]_0. Therefore, option C is **incorrect**.\n\n**Option D:** \"the reaction proceeds to 99.6% completion in eight half-life durations\".\n\nCompletion to a certain level can be found using the formula for decay over multiple half-lives, given as $$[N_2O_5] = [N_2O_5]_0 \\times \\left(\\frac{1}{2}\\right)^n$$ where *n* is the number of half-lives. For eight half-lives, we have:\n\n$$Final\\, Concentration = [N_2O_5]_0 \\times \\left(\\frac{1}{2}\\right)^8 = [N_2O_5]_0 \\times \\frac{1}{256}$$\n\nThe reaction proceeds to $$\\frac{255}{256} \\approx 99.6\\%$$ completion. Thus, option D is **correct**.\n\nIn summary, options A, B, and D are correct, while option C is incorrect.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "the concentration of the reactant decreases exponentially with time",
+      "the half-life of the reaction decreases with increasing temperature",
+      "the half-life of the reaction depends on the initial concentration of the reactant",
+      "the reaction proceeds to 99.6% completion in eight half-life duration"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_015",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the rate expressions in LIST-I for the decomposition of $X$ with the corresponding profiles provided in LIST-II. $X_{\\mathrm{s}}$ and $\\mathrm{k}$ are constants having appropriate units.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) rate $=\\frac{\\mathrm{k}[\\mathrm{X}]}{\\mathrm{X}_{\\mathrm{s}}+[\\mathrm{X}]}$\n\nunder all possible initial concentrations of $\\mathrm{X}$\n(P)\n[Diagram]\n\n\n\n(II) rate $=\\frac{k[X]}{X_{s}+[X]}$\n\nwhere initial concentrations of $X$ are much less than $X_{s}$\n(Q)\n[Diagram]\n\n\n\n(III) rate $=\\frac{k[X]}{X_{s}+[X]}$\n\nwhere initial concentrations of $\\mathrm{X}$ are much higher than $X_{s}$\n(R)\n[Diagram]\n\n\n\n(IV) rate $=\\frac{k[X]^{2}}{X_{s}+[X]}$\n\nwhere initial concentration of $X$ is\n\nmuch higher than $\\mathrm{X}_{\\mathrm{s}}$\n(S)\n[Diagram]\n\n\n\n\n(T)\n[Diagram]",
+    "solution": "rate = $$\\frac{k[x]}{X_s+[X]}$$\nCase-1 : $$[X] > > {X_s};[X] + {X_s} \\approx [X]$$\nrate $$ = {{k[X]} \\over {[X]}} = k$$ (Zero order w.r.t. X)\nI $$\\to$$ P, S\nCase 2 : $$[X] < < {X_s};[X] + {X_s} \\approx {X_s}\\therefore$$ rate $$ = {{k[X]} \\over {{X_s}}} = k'[X]$$ (1$^{st}$ order w.r.t. X)\n$$\\therefore$$ I $$\\to$$ Q, T\nCase-3 : $$[X] \\approx {X_s}$$\nrate $$ = {{k[X]} \\over {{X_s} + [X]}}$$\nIn this case curve-R given in List-II will match.\n$$\\therefore$$ I $$\\to$$ P, Q, R, S, T (The graph of half-life should start from origin)\n(II) rate $$ = {{k[X]} \\over {{X_s} + [X]}}\\because[X] < < {X_s}\\therefore{X_s} + [X] \\approx {X_s}\\therefore$$ Rate $$ = {{k[X]} \\over {{X_s}}} = k'[X]$$ (1$^{st}$ order w.r.t. X)\n$$\\therefore$$ II $$\\to$$ Q, T\n(III) rate $$ = {{k[X]} \\over {{X_s} + [X]}}\\because[X] > > {X_s}\\therefore{X_s} + [X] \\approx [X]\\therefore$$ rate $$ = {{k[X]} \\over {[X]}} = k$$ (Zero order w.r.t. X)\n$$\\therefore$$ III $$\\to$$ P, S\n(IV) rate $$ = {{k{{[X]}^2}} \\over {{X_s} + [X]}}\\because[X] > > {X_s}\\therefore{X_s} + [X] \\approx [X]\\therefore$$ rate $$ = {{k{{[X]}^2}} \\over {[X]}} = k[X]$$ (1$^{st}$ order w.r.t. X)\n$$\\therefore$$ IV $$\\to$$ Q, T",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\mathrm{I} \\rightarrow \\mathrm{P}$; II $\\rightarrow$ Q; III $\\rightarrow \\mathrm{S}$; IV $\\rightarrow \\mathrm{T}$",
+      "$\\mathrm{I} \\rightarrow \\mathrm{R}$; II $\\rightarrow \\mathrm{S}$; III $\\rightarrow \\mathrm{S}$; IV $\\rightarrow \\mathrm{T}$",
+      "$\\mathrm{I} \\rightarrow \\mathrm{P}$; II $\\rightarrow$ Q; III $\\rightarrow$ Q; IV $\\rightarrow$ R",
+      "$\\mathrm{I} \\rightarrow \\mathrm{R}$; II $\\rightarrow \\mathrm{S}$; III $\\rightarrow$ Q; IV $\\rightarrow \\mathrm{R}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7en3sq6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_016",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the elementary reaction **M** $$\\to$$ **N**, the rate of disappearance of **M** increases by a factor of 8 upon\ndoubling the concentration of **M**. The order of the reaction with respect to **M** is",
+    "solution": "The rate law for an elementary reaction where the concentration of reactant **M** impacts the rate of the reaction is expressed as:\n\n$$\\text{Rate} = k[M]^n$$\n\nwhere *k* is the rate constant, *M* is the concentration of the reactant, and *n* is the order of the reaction with respect to **M**.\n\nIn the scenario described, when the concentration of **M** is doubled, the rate of disappearance of **M** increases by a factor of 8. Let’s denote the initial concentration of **M** by *[M]* and the doubled concentration by *2[M]*. According to the rate law, the initial rate would be:\n\n$$\\text{Rate}_1 = k[M]^n$$\n\nUpon doubling **M**:\n\n$$\\text{Rate}_2 = k(2[M])^n = k2^n[M]^n$$\n\nIt is given that this rate is 8 times the initial rate:\n\n$$ \\text{Rate}_2 = 8 \\times \\text{Rate}_1 k2^n[M]^n = 8k[M]^n $$\n\nCancelling out the common terms and simplifying the equation, we have:\n\n$$ 2^n = 8 $$\n\nTo find *n*, solve for *n* in:\n\n$$ 2^n = 2^3 $$\n\nHence, *n* = 3, indicating that the order of the reaction with respect to **M** is 3. The correct option is therefore:\n\nOption B: 3",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l187uyfs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_017",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of d in cm (shown in the figure), as estimated from Graham's law, is",
+    "solution": "Using Graham's law of diffusion, we have that for identical conditions, rate of diffusion varies inversely with square root of mass of the gases. So,\n$${x \\over {24 - x}} = {\\left( {{{40} \\over {10}}} \\right)^{1/2}} \\Rightarrow x = 16$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l187uyfs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_018",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The experimental value of d is found to be smaller than the estimate obtained using Graham's law. This is due to",
+    "solution": "Collision frequency of X is greater than Y.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "larger mean free path for X as compared to that of Y.",
+      "larger mean free path for Y as compared to that of X.",
+      "increased collision frequency of Y with the inert gas as compared to that of X with the inert gas.",
+      "increased collision frequency of X with the inert gas as compared to that of Y with the inert gas."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l187uyfs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_019",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction, P + Q $$\\to$$ R + S, the time taken for 75% reaction of P is twice the time taken for 50% reaction of P. The concentration of Q varies with reaction time as shown in the figure. The overall order of the reaction is\n\n[Diagram]",
+    "solution": "This is a first-order reaction because t$_{75%}$ = 2 $$\\times$$ t$_{50%}$. The graph shows that the order with respect to Q is 0, so we can write the rate expression as\nRate = k[P]$^{1}$[Q]$^{0}$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1sa0mpd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_020",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Bombardment of aluminium by $$\\alpha$$-particle leads to its artificial disintegration in two ways : (i) and (ii) as shown. Products X, Y and Z, respectively, are\n\n[Diagram]",
+    "solution": "Bombardment of aluminum by an $$\\alpha$$-particle leads to its artificial disintegration in two ways, as shown in the reactions below. The resultant products X, Y, and Z are identified as follows :\nReaction (i)\nDisintegration of aluminum into silicon :\n$$^{4}_{2} \\text{He} + ^{27}_{13} \\text{Al} \\rightarrow ^{30}_{14} \\text{Si} + ^{A}_{Z} X$$\nConservation conditions :\n(a) Charge balance :\n$ 2 + 13 = 14 + Z \\implies Z = 1 $\n(b) Mass balance :\n$ 4 + 27 = 30 + A \\implies A = 1 $\nThe particle $A_Z X$ is $^1_1 \\text{H}$, a proton (an isotope of hydrogen).\nReaction (ii)\nDisintegration of aluminum into phosphorus :\n$$^{4}_{2} \\text{He} + ^{27}_{13} \\text{Al} \\rightarrow ^{30}_{15} \\text{P} + ^{A}_{Z}Y$$\nConservation conditions :\n(a) Charge balance :\n$ 2 + 13 = 15 + Z \\implies Z = 0 $\n(b) Mass balance :\n$ 4 + 27 = 30 + A \\implies A = 1 $\nThe particle $Y$ has one unit mass and no charge, which is a neutron $^1_0 n$.\nReaction (iii)\nDisintegration of phosphorus into silicon :\n$$^{30}_{15}\\text{P} \\longrightarrow \\, ^{30}_{14}\\text{Si} + ^{A}_{Z}\\text{Z} $$\nConservation conditions :\n(a) Mass balance :\n$ 30 = 30 + A \\implies A = 0 $\n(b) Charge balance :\n$ 15 = 14 + Z \\implies Z = 1 $\nThe particle has zero mass but one unit of positive charge. Hence, the particle is a positron $\\left(^{0}_{+1}\\beta\\right)$.\nSummary\nThe particles are :\n\nX = $^1_1 \\text{H}$ (proton)\nY = $^1_0 n$ (neutron)\nZ = $^{0}_{+1}\\beta$ (positron)",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "proton, neutron, positron.",
+      "neutron, positron, proton.",
+      "proton, positron, neutron.",
+      "positron, proton, neutron, neutron."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03txpdv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_021",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Plots showing the variation of the rate constant ($$k$$) with temperature ($$T$$) are given below. The point that follows Arrhenius equation is",
+    "solution": "According to the Arrhenius equation\n$$k = A{e^{ - {E_a}/RT}}$$\nwhere, k = rate constant, E$_{a}$ = activation energy and\nT = temperature\nFrom the expression, we have that as temperature increases, the rate constant ($$k$$) increases exponentially.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexku33n.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_022",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a first-order reaction A $$\\to$$ P, the temperature (T) dependent rate constant (k) was found to follow the equation $$\\log k = - (2000){1 \\over T} + 6.0$$. The pre-exponential factor A and activation energy $$E_a$$, respectively, are",
+    "solution": "Given that $$\\log k = 6 - {{2000} \\over T}$$\nAccording to Arrhenius equation\n$$k = A{e^{ - {E_a}/RT}}\\log K = \\log A - {E \\over {2.303RT}}$$\nComparing with the given equation and solving, we get\n$$A = 1.0 \\times {10^6}\\,{s^{ - 1}}{E_a} = 38.3$$ kJ/mol",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$1.0\\times10^6~\\mathrm{s^{-1}}$$ and 9.2 kJ mol$$^{-1}$$",
+      "$$6.0~\\mathrm{s^{-1}}$$ and 16.6 kJ mol$$^{-1}$$",
+      "$$1.0\\times10^6~\\mathrm{s^{-1}}$$ and 16.6 kJ mol$$^{-1}$$",
+      "$$1.0\\times10^6~\\mathrm{s^{-1}}$$ and 38.3 kJ mol$$^{-1}$$"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_023",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Under the same reaction conditions, initial concentration of 1.386 mol dm$$^{-3}$$ of a substance becomes half in 40 seconds and 20 seconds through first order and zero order kinetics, respectively. Ratio $$\\left( {{{{k_1}} \\over {{k_0}}}} \\right)$$ of the rate constants for first order ($$k_1$$) and zero order ($$k_0$$) of the reactions is:",
+    "solution": "Rate constant for first order kinetics:\n$${k_1} = {{0.693} \\over {{t_{1/2}}}} = {{0.693} \\over {40\\,{s^{ - 1}}}}$$ ..... (i)\nRate constant for zero order kinetics:\n$${k_0} = {{{A_0}} \\over {2{t_{1/2}}}} = {{1.386} \\over {2 \\times 20}}$$ mol dm$$^{-3}$$ s$$^{-1}$$ ..... (ii)\nDivide (i) by (ii)\n$${{{k_1}} \\over {{k_0}}} = {{0.693} \\over {40}} \\times {{40} \\over {1.386}} = {{0.693} \\over {1.386}}$$ mol$$^{-1}$$ dm$$^{-3}$$ = 0.5 mol$$^{-1}$$ dm$$^{3}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0.5 mol$$^{-1}$$ dm$$^3$$",
+      "1.0 mol dm$$^{-3}$$",
+      "1.5 mol dm$$^{-3}$$",
+      "2.0 mol$$^{-1}$$ dm$$^3$$"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_024",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a reaction aG + bH $$\\to$$ Products. When concentration of both the reactants G and H is doubled, the rate\nincreases by eight times. However, when concentration of G is doubled keeping the concentration of H fixed, the rate is\ndoubled. The overall order of the reaction is",
+    "solution": "The rate law expression is\n$$\\mathrm{R}=k[\\mathrm{G}]^{a}[\\mathrm{H}]^{b}\n$$ ...... (i)\nThe rate of reaction increases by a factor of 2 on doubling the concentration of '$$\\mathrm{G}$$'.\nThe rate law expression becomes\n$$\\mathrm{R}^{\\prime}=2 \\mathrm{R}=k 2^{a}[\\mathrm{G}]^{a}[\\mathrm{H}]^{b}$$ ..... (ii)\nDivided equation (ii) with eqn. (i)\n$$\\begin{aligned}\\frac{\\mathrm{R}^{\\prime}}{\\mathrm{R}} & =\\frac{2 \\mathrm{R}}{\\mathrm{R}}=\\frac{k 2^{a}[\\mathrm{G}]^{a}[\\mathrm{H}]^{b}}{k 2[\\mathrm{G}]^{a}[\\mathrm{H}]^{b}} \\\\2 & =2^{a} \\\\a & =1\\end{aligned}$$\nThe rate of reaction increases by a factor of 8 on doubling the concentration of $$\\mathrm{G}$$ and '$$\\mathrm{H}$$'.\nThe rate law expression becomes\nRate $$=\\mathrm{R}^{\\prime \\prime} k 2^{a}[\\mathrm{G}]^{a} 2^{b}[\\mathrm{H}]^{b}$$ ..... (iii)\nDivide equation (iii) with equation (i)\n$$\\begin{aligned}\\frac{8 \\mathrm{R}}{\\mathrm{R}} & =\\frac{k 2^{a}[\\mathrm{G}]^{a} 2^{b}[\\mathrm{H}]^{b}}{k[\\mathrm{G}]^{a}[\\mathrm{H}]^{b}}\\end{aligned}8=2^a2^b$$\nor $$b=2$$\nThe overall order of reaction is\n$$a+b=1+2=3$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_025",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following option is correct?",
+    "solution": "The option A states that due to higher rate of circulation of ${ }^{14} \\mathrm{C}$ from atmosphere in the form of carbon dioxide, the carbon content remain constant in living organism. The living organisms absorb ${ }^{14} \\mathrm{C}$ from atmosphere during photosynthesis and the content remain constant till the organism is alive. After the death of living organism, the absorption decreases as carbon\ndioxide absorption decreases. But, carbon content refers to the content of any isotope of carbon. Hence, the option A is incorrect.\nThe option B states that the method of carbon dating is used for calculating age of earth crust and rocks. The carbon dating method involves use of ${ }^{14} \\mathrm{C}$ to determine the age of organic material present in any substance. Rocks and earth crust contain organic material in the form of remains of dead plants and animals, but also contains inorganic material such as minerals. The age of remains of dead organism is an organic material and the age of this organic material can be calculated using carbon dating. But, carbon dating is not useful for determining the age of minerals present in the rocks and Earth crust. Hence, option B is incorrect.\nThe option C states radioactive absorption due to cosmic radiation is equal to the rate of radioactive decay, hence the carbon content remains constant in living organism. The cosmic rays are ionizing radiation released from radioactive material. The rate of absorption of ${ }^{14} \\mathrm{C}$ equals rate of disintegration of ${ }^{14} \\mathrm{C}$. The ratio of ${ }^{14} \\mathrm{C}$ to ${ }^{12} \\mathrm{C}$ in living matter is $1: 10^{12}$ which is constant. Hence, option C is correct.\nThe option D states that carbon dating cannot be used to determine concentration of ${ }^{14} \\mathrm{C}$ in dead beings. This is not true as carbon dating technique is used for determining age of organic material in fossils, rocks and dead organisms. Hence, option D is incorrect.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "In living organisms, circulation of ${ }^{14} \\mathrm{C}$ from atmosphere is high, so the carbon content is constant in organism.",
+      "Carbon dating can be used to find out the age of earth crust and rocks.",
+      "Radioactive absorption due to cosmic radiation is equal to the rate of radioactive decay; hence, the carbon content remains constant in living organism.",
+      "Carbon dating cannot be used to determine concentration of ${ }^{14} \\mathrm{C}$ in dead beings."
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_026",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What should be the age of fossil for meaningful determination of its age?",
+    "solution": "The carbon dating technique is used for determining the age of organic material including fossils. The carbon dating used ${ }^{14} \\mathrm{C}$ isotope of carbon, based on the capturing of neutron in the upper atmosphere.\nThe half-life period for ${ }^{14} \\mathrm{C}$ is 5770 years. The 6 years is not a meaningful time period for determination of age of fossil as there is vast difference between 5,770 years and 6 years. Hence, option A is incorrect.\nThe option B is correct as half-life period of ${ }^{14} \\mathrm{C}$ is 5,770 years which is closer to 6,000 years. Hence, option B is correct.\nThe accuracy of carbon dating decreases if the fossils are more than 30,000 years older, Hence, the accuracy will be negligible in case the age of fossil is 60,000 years. Hence, option C is incorrect.\nThe option D is incorrect as carbon dating is effective in determining age of fossils aged below 30,000 years.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "6 years",
+      "6000 years",
+      "60,000 years",
+      "It can be used to calculate any age"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_027",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A nuclear explosion has taken place leading to increase in concentration of ${ }^{14} \\mathrm{C}$ in nearby areas. ${ }^{14} \\mathrm{C}$ concentration is $\\mathrm{C}_1$ in nearby areas and $C_2$ in areas far away. If the age of the fossil is determined to be $T_1$ and $T_2$ at the places respectively then,",
+    "solution": "As stated in question, a nuclear explosion increases the concentration of $\\mathrm{C}^{14}$ in nearby areas. Therefore, there is no increase in concentration of $\\mathrm{C}^{14}$ in faraway areas.\nThe concentration of $C^{14}$ is $C_1$ in nearby areas whereas, $C_2$ in faraway areas. The $T_1$ denotes the age of the fossil at nearby areas and $\\mathrm{T}_2$ becomes the age of the fossil in far away area.\nThe radioactive decay is first order reaction.\nThe decay constant, $\\lambda$ can be given for first order reaction as follows:\n$$ \\lambda=\\frac{1}{\\mathrm{~T}_1-\\mathrm{T}_2} \\ln \\frac{\\mathrm{C}_1}{\\mathrm{C}_2} $$\nThe age of fossil will be lesser in nearby areas as compared to that of faraway areas because the rate of absorption of $\\mathrm{C}^{14}$ is higher in nearby areas as compared to that of far away areas. Thus, the amount of $\\mathrm{C}^{14}$ increases in nearby area as compared to that of faraway areas and the time required for decay of $\\mathrm{C}^{14}$ in nearby areas will be higher than that of faraway areas.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "The age of the fossil will increase at the place where explosion has taken place and $\\mathrm{T}_1-\\mathrm{T}_2=\\frac{1}{\\lambda} \\ln \\frac{\\mathrm{C}_1}{\\mathrm{C}_2}$.",
+      "The age of the fossil will decrease at the place where explosion has taken place and $\\mathrm{T}_1-\\mathrm{T}_2=\\frac{1}{\\lambda} \\ln \\frac{\\mathrm{C}_1}{\\mathrm{C}_2}$.",
+      "The age of fossil will be determined to be the same.",
+      "$\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}=\\frac{\\mathrm{C}_1}{\\mathrm{C}_2}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtqu1aj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_028",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\text { Match Column I with Column II : } $$\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\nColumn I\nColumn II\n\n\n\n(A)\n$\\mathrm{CH}_3-\\mathrm{CHBr}-\\mathrm{CD}_3$ on treatment with alc. KOH gives $\\mathrm{CH}_2=\\mathrm{CH}-\\mathrm{CD}_3$ as a major product.\n(P)\nE1 reaction\n\n\n(B)\n$$\n\\begin{aligned}\n&\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CH}_3\\\\\n&\\text { reacts faster than }\\\\\n&\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CD}_3 .\n\\end{aligned}\n$$\n(Q)\nE2 reaction\n\n\n(C)\n$$\n\\mathrm{Ph}-\\mathrm{CH}_2-\\mathrm{CH}_2 \\mathrm{Br}\n$$\n\non treatment with\n\n$$\n\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OD} / \\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{O}^{-}\n$$\n\ngives $\\mathrm{Ph}-\\mathrm{CD}=\\mathrm{CH}_2$\nas the major product.\n(R)\nE1 cb reaction\n\n\n(D)\n$\\mathrm{PhCH}_2, \\mathrm{CH}_2 \\mathrm{Br}$ and $\\mathrm{PhCD}_2 \\mathrm{CH}_2 \\mathrm{Br}$ react with same rate.\n(S)\nFirst order reaction",
+    "solution": "The chemical reaction between\n$\\mathrm{CH}_3-\\mathrm{CHBr}-\\mathrm{CD}_3$ and alc. KOH is given below.\n\n[Diagram]\n\n[Diagram]\nNote: The bond between C and deuterium is much strong than that of C and H , hence, elimination takes place from $\\mathrm{C}-\\mathrm{H}$ bonds only. This chemical reaction undergoes E2 mechanism as two substituents, H and Br atoms are removed simultaneously from the compound to form alkene.\nHence, option A in column I matches with option Q from column II.\n(B) The strength of C-D bonds is greater than that of $\\mathrm{C}-\\mathrm{H}$ bonds. Thus, breaking of $\\mathrm{C}-\\mathrm{D}$ will require more energy than that of $\\mathrm{C}-\\mathrm{H}$ bonds. More the amount of energy required to break the bonds, higher is the stability of the compound. Higher is the stability of the compound, lower is the reactivity and vice-versa.\nHence, $\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CH}_3$ will have higher reactivity than that of $\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CD}_3$. Hence, $\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CH}_3$ will react faster than that of $\\mathrm{Ph}-\\mathrm{CHBr}-\\mathrm{CD}_3$ through E 2 mechanism. The mechanism is E2 as two substituents are eliminated in a single step from the compound.\nHence, option B in column I matches with option Q in column II.\n(C) The chemical reaction between $\\mathrm{Ph}-\\mathrm{CH}_2-\\mathrm{CH}_2 \\mathrm{Br}$ and $\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OD} / \\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{O}^{-}$is a two-step process as shown below.\n\n[Diagram]\n\n[Diagram]\n\nThe step (i) is a fast step in which elimination of proton leads to the formation of a carbanion. The step (i) is reversible and $\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OD}$ along with\nethanol is used as a solvent. This is first order reaction as reactant will incorporate deuterium (D). The step (ii) is a slow step in which final product is formed by elimination of bromide ion. The reaction is unimolecular elimination reaction and the reactant for the reaction is a carbanion produced during the first step. The carbanion is a conjugate base of the reactant. Hence, it is E1 cb reaction mechanism.\nHence, option C in column I matches with options R and S in column II.\n(D) The chemical reactions for both\n$\\mathrm{PhCH}_2-\\mathrm{CH}_2-\\mathrm{Br}$ and $\\mathrm{PhCD}_2-\\mathrm{CH}_2-\\mathrm{Br}$ are shown below:\nE1 elimination in $\\mathrm{PhCH}_2-\\mathrm{CH}_2-\\mathrm{Br}$, to form an alkene\nStep 1:\n$$ \\mathrm{PhCH}_2-\\mathrm{CH}_2-\\mathrm{Br} \\xrightarrow{\\text { Slow }} \\mathrm{PhCH}_2-\\stackrel{+}{\\mathrm{C}} \\mathrm{H}_2+\\mathrm{Br}^{-} $$\nStep 2:\n$$ \\mathrm{PhCH}_2-\\stackrel{+}{\\mathrm{C}} \\mathrm{H}_2+\\mathrm{Br}^{-} \\xrightarrow{\\text { Fast }} \\mathrm{PhCH}=\\mathrm{CH}_2+\\mathrm{H}^{+}$$\nE1 elimination in $\\mathrm{PhCD}_2-\\mathrm{CH}_2-\\mathrm{Br}$, to form an alkene\nStep 1:\n$$ \\mathrm{PhCD}_2-\\mathrm{CH}_2-\\mathrm{Br} \\xrightarrow{\\text { Slow }} \\mathrm{PhCD}_2-\\stackrel{+}{\\mathrm{C}} \\mathrm{H}_2+\\mathrm{Br}^{-} \\begin{aligned} &\\text { Step 2: }\\\\ &\\mathrm{PhCD}_2-\\stackrel{+}{\\mathrm{C}} \\mathrm{H}_2+\\mathrm{Br}^{-} \\xrightarrow{\\text { Fast }}\\mathrm{PhCD}=\\mathrm{CHD}+\\mathrm{H}^{+}\\end{aligned} $$\nFor both chemical reactions, the first step is slow step and hence, rate determining step.\nFor $\\mathrm{PhCH}_2-\\mathrm{CH}_2-\\mathrm{Br}$ reaction,\nRate of reaction $\\propto \\mathrm{PhCH}_2-\\mathrm{CH}_2-\\mathrm{Br}$\nFor $\\mathrm{PhCD}_2-\\mathrm{CH}_2-\\mathrm{Br}$ reaction,\nRate of reaction $\\propto \\mathrm{PhCD}_2-\\mathrm{CH}_2-\\mathrm{Br}$\nBoth chemical reactions are of first order. Both chemical reactions involve elimination of bromide ion and a proton and hence, it undergoes E1 mechanism\nHence, option D in column I matches with options P and S in column II.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{Q}) ; \\mathrm{C} \\rightarrow( \\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{P}, \\mathrm{~S})] .$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{Q}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}, \\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{P})] .$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{Q}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}, \\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{P}, \\mathrm{~S})] .$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}, P) ; \\mathrm{B} \\rightarrow(\\mathrm{Q}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}, \\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{P}, \\mathrm{~S})] .$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtqu1aj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_029",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A sample initially contains only U-238 isotope of uranium. With time, some of the U-238 radioactively decays into $\\mathrm{Pb}-206$ while the rest of it remains undisintegrated.\n\nWhen the age of the sample is $\\mathbf{P} \\times 10^8$ years, the ratio of mass of $\\mathrm{Pb}-206$ to that of $\\mathrm{U}-238$ in the sample is found to be 7. The value of $\\mathbf{P}$ is _______.\n\n[Given: Half-life of $\\mathrm{U}-238$ is $4.5 \\times 10^9$ years; $\\log _e 2=0.693$ ]",
+    "solution": "Given Data:\n\nRatio of mass of $ \\mathrm{Pb}^{206} $ to $ \\mathrm{U}^{238} $ = $ \\frac{7}{1} $\n\nMass of $ \\mathrm{Pb}^{206} $ = 7 g\n\nMass of $ \\mathrm{U}^{238} $ = 1 g\n\nHalf-life of $ \\mathrm{U}^{238} $ = $ 4.5 \\times 10^9 $ years\n\n$ \\log_e 2 = 0.693 $\n\nCalculate Moles:\n\nMoles of $ \\mathrm{Pb}^{206} $:\n\n$ \\text{Moles of } \\mathrm{Pb}^{206} = \\frac{7}{206} = 34 \\times 10^{-3} \\text{ moles} $\n\nMoles of $ \\mathrm{U}^{238} $:\n\n$ \\text{Moles of } \\mathrm{U}^{238} = \\frac{1}{238} = 4.2 \\times 10^{-3} \\text{ moles} $\n\nInitial Moles of $ \\mathrm{U}^{238} $ ( $ N_0 $ ):\n\n$ N_0 = \\text{Moles of } \\mathrm{U}^{238} \\text{ initially} = \\text{Moles of } \\mathrm{Pb}^{206} + \\text{Moles of remaining } \\mathrm{U}^{238} $\n\n$ N_0 = 34 \\times 10^{-3} + 4.2 \\times 10^{-3} = 38.2 \\times 10^{-3} \\text{ moles} $\n\nCalculate the Time:\n\nUsing the decay formula:\n\n$ \\lambda t = \\ln \\frac{N_0}{N_t} $\n\nWhere $ \\lambda $ (decay constant):\n\n$ \\lambda = \\frac{\\ln 2}{t_{1/2}} = \\frac{0.693}{4.5 \\times 10^9 \\text{ years}} $\n\nCalculate $ \\ln \\frac{N_0}{N_t} $:\n\n$ \\ln \\frac{N_0}{N_t} = \\ln \\frac{38.2}{4.2} = \\ln 9.09 $\n\nSimplify $ \\ln 9.09 $:\n\n$ \\ln 9.09 \\approx 2.21 $\n\nPlug in the Values:\n\n$ t = \\frac{4.5 \\times 10^9 \\text{ years}}{0.693} \\times \\ln 9.09 $\n\n$ t = 4.5 \\times 10^9 \\text{ years} \\times \\frac{2.21}{0.693} $\n\n$ t \\approx 4.5 \\times 10^9 \\times 3.184 \\approx 14.33 \\times 10^9 \\text{ years} $\n\nConvert to $ P \\times 10^8 $:\n\n$ t = P \\times 10^8 \\text{ years} $\n\n$ P \\times 10^8 = 14.33 \\times 10^9 $\n\n$ P = 143.28 $\n\nThus, the value of $ P $ is $ \\boxed{143.28} $.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_030",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reaction,\n\n$$ 2 \\mathrm{H}_2(\\mathrm{~g})+2 \\mathrm{NO}(\\mathrm{g}) \\rightarrow \\mathrm{N}_2(\\mathrm{~g})+2 \\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) $$\n\nwhich follows the mechanism given below :\n\n$$ \\begin{array}{ll} 2 \\mathrm{NO}(\\mathrm{g}) \\stackrel{k_1}{\\underset{k_{-1}}{\\rightleftharpoons}} \\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g}) & \\text { (fast equlibrium) } \\\\\\\\ \\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g})+\\mathrm{H}_2(\\mathrm{~g}) \\xrightarrow{k_2} \\mathrm{~N}_2 \\mathrm{O}(\\mathrm{g})+\\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) & \\text { (slow reaction) } \\\\\\\\ \\mathrm{N}_2 \\mathrm{O}(\\mathrm{g})+\\mathrm{H}_2(\\mathrm{~g}) \\xrightarrow{k_3} \\mathrm{~N}_2(\\mathrm{~g})+\\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) & \\text { (fast reaction) } \\end{array} $$\n\nThe order of the reaction is __________.",
+    "solution": "The given reaction is:\n\n$$2 \\mathrm{H}_2(\\mathrm{~g}) + 2 \\mathrm{NO}(\\mathrm{g}) \\rightarrow \\mathrm{N}_2(\\mathrm{~g}) + 2 \\mathrm{H}_2 \\mathrm{O}(\\mathrm{g})$$\n\nAnd it follows the mechanism below:\n\n$$ \\begin{array}{ll}\n2 \\mathrm{NO}(\\mathrm{g}) \\stackrel{k_1}{\\underset{k_{-1}}{\\rightleftharpoons}} \\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g}) & \\text { (fast equilibrum) } \\\\\\\\\n\\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g}) + \\mathrm{H}_2(\\mathrm{~g}) \\xrightarrow{k_2} \\mathrm{~N}_2 \\mathrm{O}(\\mathrm{g}) + \\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) & \\text { (slow reaction) } \\\\\\\\\n\\mathrm{N}_2 \\mathrm{O}(\\mathrm{g}) + \\mathrm{H}_2(\\mathrm{~g}) \\xrightarrow{k_3} \\mathrm{~N}_2(\\mathrm{~g}) + \\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) & \\text { (fast reaction) }\n\\end{array} $$\n\nTo determine the order of the reaction, we need to focus on the slow step, as it is the rate-determining step. The slow step is:\n\n$$ \\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g}) + \\mathrm{H}_2(\\mathrm{~g}) \\xrightarrow{k_2} \\mathrm{~N}_2 \\mathrm{O}(\\mathrm{g}) + \\mathrm{H}_2 \\mathrm{O}(\\mathrm{g}) $$\n\nThe rate law for this step can be written as:\n\n$$ \\text{Rate} = k_2 [\\mathrm{N}_2\\mathrm{O}_2][\\mathrm{H}_2] $$\n\nHowever, $$[\\mathrm{N}_2 \\mathrm{O}_2]$$ is an intermediate and its concentration can be expressed in terms of the reactants. From the fast equilibrium step:\n\n$$ 2 \\mathrm{NO}(\\mathrm{g}) \\stackrel{k_1}{\\underset{k_{-1}}{\\rightleftharpoons}} \\mathrm{N}_2 \\mathrm{O}_2(\\mathrm{~g}) $$\n\nThe equilibrium constant for this step can be written as:\n\n$\\frac{\\mathrm{k}_1}{\\mathrm{k}_{-1}}$ = $$ K = \\frac{[\\mathrm{N}_2 \\mathrm{O}_2]}{[\\mathrm{NO}]^2} $$\n\nHence, the concentration of the intermediate $$\\mathrm{N}_2 \\mathrm{O}_2$$ can be expressed as:\n\n$$ [\\mathrm{N}_2 \\mathrm{O}_2] = K[\\mathrm{NO}]^2 $$\n\nSubstituting this into the rate law for the slow step gives:\n\n$$ \\text{Rate} = k_2 K [\\mathrm{NO}]^2[\\mathrm{H}_2] $$\n\nLet's combine $$k_2$$ and $$K$$ into a single constant, say $$k'$$:\n\n$$ \\text{Rate} = k' [\\mathrm{NO}]^2[\\mathrm{H}_2] $$\n\nThis implies that the reaction is second-order in $$\\mathrm{NO}$$ and first-order in $$\\mathrm{H}_2$$. Therefore, the overall order of the reaction is:\n\n$$ 2 + 1 = 3 $$\n\nThus, the order of the reaction is 3.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_031",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$_{92}^{238}U$$ is known to undergo radioactive decay to form $$_{82}^{206}Pb$$ by emitting alpha and beta particles. A rock initially contained 68 $$ \\times $$ 10$^{$$-$$6}$ g of $$_{92}^{238}U$$. If the number of alpha particles that it would emit during its radioactive decay of $$_{92}^{238}U$$ to $$_{82}^{206}Pb$$ in three half-lives is Z $$ \\times $$ 10$^{18}$, then what is the value of Z?",
+    "solution": "$$_{92}^{238}U\\buildrel {} \\over\n\\longrightarrow _{82}^{206}Pb + 8_2^4He + 6_{ - 1}^0\\beta $$\n\nNumber of moles of $$_{92}^{238}U$$ present initially\n\n= $${{68 \\times {{10}^{ - 6}}} \\over {238}}$$\n\nAfter three half-lifes, moles of $$_{92}^{238}U$$ decayed\n\n$$ = {{68 \\times {{10}^{ - 6}}} \\over {238}} \\times \\left( {1 - {1 \\over {{2^3}}}} \\right) = {{68 \\times {{10}^{ - 6}}} \\over {238}} \\times {7 \\over 8}$$\n\nTherefore, number of $$\\alpha $$-particles emitted\n\n$$ = {{68 \\times {{10}^{ - 6}}} \\over {238}} \\times {7 \\over 8} \\times 8 \\times 6.023 \\times {10^{23}} = 1.204 \\times {10^{18}} \\approx 1.2 \\times {10^{18}}$$\n\nThus, the correct answer is 1.2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_032",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The decomposition reaction\n\n$$2{N_2}{O_5}(g)\\buildrel \\Delta \\over\n\\longrightarrow 2{N_2}{O_4}(g) + {O_2}(g)$$\n\nis started in a closed cylinder under isothermal isochoric condition at an initial pressure of 1 atm. After Y $$ \\times $$ 10$^{3}$ s, the pressure inside the cylinder is found to be 1.45 atm. If the rate constant of the reaction is 5 $$ \\times $$ 10$^{-4}$s$^{-1}$, assuming ideal gas behaviour, the value of Y is ...............",
+    "solution": "At constant V, T\n\nAt initial t = 0 and final t = y $$ \\times $$ 10$^{3}$ sec\n\n$$\\matrix{\n{2{N_2}{O_5}(g)\\buildrel \\Delta \\over\n\\longrightarrow } & {2{N_2}{O_4}(g) + } & {{O_2}(g)} \\cr\n1 & 0 & 0 \\cr\n{1 - 2p} & {2p} & p \\cr\n\n} $$\n\np$_{Total}$ = 1 $$-$$ 2p + 2p + p\n\n1.4 = 1 + p\n\np = 0.45 atm\n\nAccording to first order reaction,\n\n$$k = {{2.303} \\over t}\\log {{{p_i}} \\over {{p_i} - 2p}}$$\n\np$_{i}$ = 1 atm (given)\n\n2p = 2 $$ \\times $$ 0.45 = 0.9 atm\n\nOn substituting the values in above equation,\n\n$$2k.t = 2.303\\log {1 \\over {1 - 0.9}}2 \\times 5 \\times {10^{ - 4}} \\times y \\times {10^3} = 2.303\\log {1 \\over {0.1}}y = 2.303 = 2.3$$\n\n**Note :** Unit of rate constant (k), i.e. s$^{$$-$$1}$ represents that it is a first order reaction.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_033",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the kinetic data given in the following table for the reaction A + B + C $$ \\to $$ Product.\n\n\n[Diagram]\n\nThe rate of the reaction for [A] = 0.15 mol dm$^{-3}$, [B] = 0.25 mol dm$^{-3}$ and [C] = 0.15 mol dm$^{-3}$ is found to be Y $$ \\times $$ 10$^{-5}$ mol dm$^{-3}$s$^{-1}$. The value of Y is .................",
+    "solution": "Rate = $$k{[A]^x}{[B]^y}{[C]^z}{{{{(Rate)}_1}} \\over {{{(Rate)}_2}}} = {{{{[0.2]}^x}{{[0.1]}^y}{{[0.1]}^z}} \\over {{{[0.2]}^x}{{[0.2]}^y}{{[0.1]}^z}}} = {{6 \\times {{10}^{ - 5}}} \\over {6 \\times {{10}^{ - 5}}}} \\Rightarrow $$ y = 0\n\n$${{{{(Rate)}_1}} \\over {{{(Rate)}_3}}} = {{{{[0.2]}^x}{{[0.1]}^y}{{[0.1]}^z}} \\over {{{[0.2]}^x}{{[0.1]}^y}{{[0.2]}^z}}} = {{6 \\times {{10}^{ - 5}}} \\over {1.2 \\times {{10}^{ - 4}}}} \\Rightarrow $$ z = 1\n\n$${{{{(Rate)}_1}} \\over {{{(Rate)}_4}}} = {{{{[0.2]}^x}{{[0.1]}^y}{{[0.1]}^z}} \\over {{{[0.3]}^x}{{[0.1]}^y}{{[0.1]}^z}}} = {{6 \\times {{10}^{ - 5}}} \\over {9 \\times {{10}^{ - 5}}}} \\Rightarrow $$ x = 1\n\nSo, rate = k[A]$^{1}$[C]$^{1}$\n\nFrom exp-Ist,\n\nRate = $$6.0 \\times {10^{ - 5}}$$ mol dm$^{$$ - $$3}$ s$^{$$ - $$1}$\n\n6.0 $$ \\times $$ 10$^{$$ - $$5}$ = k[0.2]$^{1}$[0.1]$^{1}$\n\nk = 3 $$ \\times $$ 10$^{$$ - $$3}$\n\nGiven, [A] = 0.15 mol dm$^{$$ - $$3}$\n\n[B] = 0.25 mol dm$^{$$ - $$3}$\n\n[C] = 0.15 mol dm$^{$$ - $$3}$\n\n$$ \\therefore $$ Rate = (3 $$ \\times $$ 10$^{$$ - $$3}$) $$ \\times $$ [0.15]$^{1}$[0.25]$^{0}$[0.15]$^{1}$\n\n= 3 $$ \\times $$ 10$^{$$ - $$3}$ $$ \\times $$ 0.15 $$ \\times $$ 0.15\n\nRate = 6.75 $$ \\times $$ 10$^{$$ - $$5}$ mol dm$^{$$ - $$3}$ s$^{$$ - $$1}$\n\nThus, Y = 6.75",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1le4745yj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_034",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reversible reaction, $$A\\left( g \\right) + B\\left( g \\right) \\to AB\\left( g \\right).$$\n\nThe activation energy of the backward reaction exceeds that of the forward reaction by $$2RT$$ (in $$J\\,mo{l^{ - 1}}$$). If the pre-exponential factor of the forward reaction is $$4$$ times that of the reverse reaction, the absolute value of $$\\Delta {G^ \\circ }$$ (in $$J\\,mo{l^{ - 1}}$$ ) for the reaction at $$300K$$ is ____________.\n\n(Given; $$\\ln \\left( 2 \\right) = 0.7,RT = 2500J\\,mo{l^{ - 1}}$$ at $$300K$$ and $$G$$ is the Gibbs energy)",
+    "solution": "At $300 \\mathrm{~K}$,\n\nFor the reversible reaction,\n\n$$\n\\mathrm{A}(g)+\\mathrm{B}(g) \\rightleftharpoons \\mathrm{AB}(g)\n$$\n\n(i) Pre-exponential factor for forward reaction $\\left(A_f\\right)=4 \\times$ pre-exponential factor for backward reverse reaction $\\left(A_b\\right)$\n\n$$\nA_f=4 \\times A_b\n$$\n\n(ii) Activation energy for backward reaction $\\left(E_b\\right)_f-$ Activation energy $=2 \\mathrm{RT}$ for forward reaction $\\left(\\mathrm{E}_a\\right)_{f^{-}}$\n\n$$\n\\mathrm{A}_b-\\mathrm{A}_f=2 \\mathrm{RT}\n\n\\begin{aligned}\n& \\text {(iii) Equilibrium constant }\\left(\\mathrm{K}_{e q}\\right)=\\frac{\\mathrm{K}_f}{\\mathrm{~K}_b} \\\\\\\\\n& \\mathrm{~K}_{e q}=\\frac{\\mathrm{A}_f \\times e^{-\\left(\\mathrm{E}_a\\right)_f} / \\mathrm{RT}}{\\mathrm{A}_b \\times e^{-\\left(\\mathrm{E}_a\\right)_b} / \\mathrm{RT}}\n\\end{aligned}\n\n\\begin{aligned}\n\\mathrm{K}_{e q} & =\\frac{\\mathrm{A}_f}{\\mathrm{~A}_b} \\times e^{\\left[-\\left(\\mathrm{E}_a\\right)_f-\\left(\\mathrm{E}_a\\right)_b\\right]} / \\mathrm{RT} \\\\\\\\\n\\mathrm{K}_{e q} & =\\frac{4 \\mathrm{~A}_b}{\\mathrm{~A}_b} \\times e^{-[2 \\mathrm{RT} / \\mathrm{RT}]} \\\\\\\\\n\\mathrm{K}_{e q} & =4 \\times e^{-2} \\\\\\\\\n\\ln \\mathrm{K}_{e q} & =\\ln 4+2 \\ln \\\\\\\\\n\\ln \\mathrm{K}_{e q} & =2 \\ln 2+2=2 \\times 0.7+2 \\\\\\\\\n& =(1.4+2)=3.4\n\\end{aligned}\n$$\n\nThe expression for the change in Gibbs free energy of reaction $(\\Delta \\mathrm{G})$ is given as:\n\n$$\n\\Delta \\mathrm{G}=\\Delta \\mathrm{G}^{\\circ}+\\mathrm{RT} \\ln k\n$$\n\nAt equilibrium, $\\Delta \\mathrm{G}=0$\n\n$$\n\\Delta \\mathrm{G}^{\\circ}=-\\mathrm{RT} \\ln \\mathrm{K}_{e q}\n$$\n\nSubstituting the value of RT and $\\ln \\mathrm{K}_{e q}$\n\n$$\n\\begin{aligned}\n\\Delta \\mathrm{G}^{\\circ} & =-2500 \\mathrm{~J} \\mathrm{~mol}^{-1} \\times 3.4 \\\\\\\\\n\\Delta \\mathrm{G}^{\\circ} & =-8500 \\mathrm{~J} \\mathrm{~mol}^{-1}\n\\end{aligned}\n$$\n\nThe absolute value of Gibbs free energy $\\left(\\Delta \\mathrm{G}^{\\circ}\\right)$ for the reaction at $300 \\mathrm{~K}$ is $8500 \\mathrm{~J} \\mathrm{~mol}^{-1}$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_035",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A closed vessel with rigid walls contains 1 mol of $${}_{92}^{238}U$$ and 1 mol of air at 298 K. Considering complete decay of $${}_{92}^{238}U$$ to $${}_{82}^{206}Pb$$, the ratio of the final pressure to the initial pressure of the system at 298 K is",
+    "solution": "$${}_{92}{U^{238}} \\to {}_{82}P{b^{206}} + 8\\,{}_2H{e^4}(g) + 6{}_{ - 1}{\\beta ^0}$$\nTo calculate pressure, only gaseous products need to be considered.\nInitially, only 1 mol of air is present and finally, after complete decay, 8 moles of $$_2^4He$$ gas are produced and 1 mol of air will also remain in the mixture.\nRatio of the final pressure to the initial pressure $$ = {{8 + 1} \\over 1} = 9$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_036",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In dilute aqueous H$_{2}$SO$_{4}$, the complex diaquodioxalatoferrate(II) is oxidized by $$MnO_4^-$$. For this reaction,\nthe ratio of the rate of change of [H$^{+}$] to the rate of change of $$[MnO_4^-]$$ is",
+    "solution": "In complex, $$\\mathop {{{[Fe{{({C_2}{O_4})}_2}{{({H_2}O)}_2}]}^{2 - }}}\\limits_{Diaquodioxalatoferrate\\,(II)} $$,\nFe is in +2 oxidation state.\nIn acidic medium, $$KMn{O_4}$$ oxidises $$F{e^{2 + }}$$ to $$F{e^{3 + }}$$,\n$$2MnO_4^ - + 16{H^ + } + 10F{e^{2 + }} \\to 2M{n^{2 + }} + 8{H_2}O + 10F{e^{3 + }}$$\nor $$MnO_4^ - + 8{H^ + } + 5F{e^{2 + }} \\to M{n^{2 + }} + 4{H_2}O + 5F{e^{3 + }}{{Rate\\,of\\,change\\,of\\,[{H^ + }]} \\over {Rate\\,of\\,change\\,of\\,[MnO_4^ - ]}} = {8 \\over 1} = 8$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_037",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An organic compound undergoes first-order decomposition. The time taken for its decomposition to 1/8 and 1/10 of its initial concentration are t$_{1/8}$ and t$_{1/10}$ respectively. What is the value of $$\\left[ {{{{t_{1/8}}} \\over {{t_{1/10}}}}} \\right] \\times 10$$? ($${\\log _{10}}2 = 0.3$$)",
+    "solution": "The expression for first-order reaction is\n\n$$\nt=\\frac{2.303}{k} \\log \\frac{\\left[\\mathrm{A}_0\\right]}{[\\mathrm{A}]}\n$$\n\nWhen the compound is decomposed to $1 / 8$ th of its initial value then the time taken is\n\n$$\nt_{1 / 8}=\\left(\\frac{2.303}{k}\\right) \\log \\frac{1}{(1 / 8)}=\\left(\\frac{2.303}{k}\\right) \\log 8\n$$ .........(1)\n\nWhen the compound is decomposed to $1 / 10$ th of its initial value then the time taken is\n\n$$\nt_{1 / 10}=\\left(\\frac{2.303}{k}\\right) \\log \\frac{1}{(1 / 10)}=\\left(\\frac{2.303}{k}\\right) \\log 10\n$$ ........(2)\n\nDividing Eq. (1) by Eq. (2), we get\n\n$$\n\\frac{t_{1 / 8}}{t_{1 / 10}}=\\frac{\\log 8}{\\log 10}=\\log \\left(2^3\\right)=3 \\times 0.3=0.9\n$$\n\nSo, the value of\n\n$$\n\\frac{\\left[t_{1 / 8}\\right]}{\\left[t_{1 / 10}\\right]} \\times 10=9\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_038",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The periodic table consists of 18 groups. An isotope of copper, on bombardment with protons undergoes a nuclear reaction yielding element X as shown below. To which group, element X belongs in the periodic table?\n\n$${}_{29}^{63}Cu$$ + $${}_1^1H\\to6{}_0^1n$$ + $${}_2^4\\alpha $$ + 2$${}_1^1H$$ + X",
+    "solution": "Considering the reaction (replace $\\alpha$-particle by ${ }_2^4 \\mathrm{He}$ )\n\n$$\n{ }_{29}^{63} \\mathrm{Cu}+{ }_1^1 \\mathrm{H} \\rightarrow 6{ }_0^1 n+{ }_2^4 \\mathrm{He}+2{ }_1^1 \\mathrm{H}+\\mathrm{X}\n$$\n\nEquating mass numbers on both the sides, we get\n\n$$\n63+1=1 \\times 6+4 \\times 1+1 \\times 2 + X \\Rightarrow X=64-12=52\n$$\n\nEquating atomic numbers on both the sides, we get\n\n$$\n29+1=6 \\times 0+2+2 \\times 1+\\mathrm{Y} \\Rightarrow \\mathrm{Y}=30-4=26\n$$\n\nSo, the element is ${ }_{26}^{52} \\mathrm{Fe}$ and iron is a $d$-block element, which belongs to Group 8 of the periodic table.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lftpmxxn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_039",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of neutrons emitted when $${}_{92}^{235}U$$ undergoes controlled nuclear fission to $${}_{54}^{142}Xe$$ and $${}_{38}^{90}Sr$$ is",
+    "solution": "To determine the number of neutrons emitted during the nuclear fission of $${}_{92}^{235}U$$ resulting in the products $${}_{54}^{142}Xe$$ and $${}_{38}^{90}Sr$$, we need to ensure the conservation of mass number and atomic number.\n\nThe mass number (A) and atomic number (Z) have to be conserved. This means that the sum of the mass numbers and atomic numbers of the products (including any neutrons emitted) must equal those of the uranium nucleus undergoing fission.\n\nLet's start by writing down the conservation of mass number and atomic number:\n\nConservation of Mass Number:\n\n$${235 = 142 + 90 + n \\times 1}$$\n\nHere, $$n$$ represents the number of neutrons released. We can now calculate $$n$$:\n\n$$ n = 235 - (142 + 90) = 235 - 232 = 3 $$\n\nConservation of Atomic Number:\n\n$${92 = 54 + 38 + 0 \\times n}$$\n\nNeutrons do not contribute to the atomic number as they have no charge.\n\nThis calculation shows that three neutrons are needed to satisfy the conservation of mass number. The atomic number conservation also coincides, as neutrons do not alter it. Therefore, the number of neutrons emitted during this fission process is $$3$$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lftpmxxn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_040",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The concentration of R in the reaction R $$\\to$$ P was measured as a function of time and the following data is obtained\n\n.tg {border-collapse:collapse;border-spacing:0;margin: 0 auto}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-s6z2{text-align:center}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-hgcj{font-weight:bold;text-align:center}\n\n\n[R] molar\n1.0\n0.75\n0.40\n0.10\n\n\nt (min.)\n0.0\n0.05\n0.12\n0.18\n\n\nThe order of reaction is",
+    "solution": "The equation for the nuclear fission reaction is:\n\n$$\n{ }_{92}^{238} \\mathrm{U} \\longrightarrow{ }_{82}^{214} \\mathrm{~Pb}\n$$\n\nIt is also written as\n\n[Diagram]\n\nSo, to find the alpha particle you can solve it by atomic mass of $\\mathrm{Pb}$\n\n$$\n=\\text { Atomic mass of } \\mathrm{U}-4 a\n$$\n\nAtomic mass of $U=238$\n\nAtomic mass of $\\mathrm{Pb}=214$\n\nSo, by putting the values in equation (i), you will get\n\n$$\n206=238-4 a\n\n\\begin{aligned}\n\\therefore \\alpha & =\\frac{238-214}{4} =6\n\\end{aligned}\n$$\n\nNow, find the beta particle by using formula\n\nAtomic number of $\\mathrm{U}=$ Atomic number of $\\mathrm{Pb}+2 \\alpha+\\beta$.\n\nWhere, atomic no. of $U$ is 92 and atomic no. of $\\mathrm{Pb}$ is 82 and the value of $\\alpha$ that we have find is 6. By putting the values you will get.\n\n$$\n92=82+2 \\times 6=\\beta\n$$\n\nTherefore, $ \\beta=92-94=2$\n\nThus, the number of alpha and beta particles is 6 and 2.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lftpmxxn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_041",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of $$\\alpha$$ and $$\\beta$$ particles emitted in the nuclear reaction $$_{92}^{238}U \\to _{82}^{214}Pb$$ is _________.",
+    "solution": "The equation for the nuclear fission reaction is:\n\n$$\n{ }_{92}^{238} \\mathrm{U} \\longrightarrow{ }_{82}^{214} \\mathrm{~Pb}\n$$\n\nIt is also written as\n\n[Diagram]\n\nSo, to find the alpha particle you can solve it by atomic mass of $\\mathrm{Pb}$\n\n$$\n=\\text { Atomic mass of } \\mathrm{U}-4 a\n$$\n\nAtomic mass of $U=238$\n\nAtomic mass of $\\mathrm{Pb}=214$\n\nSo, by putting the values in equation (i), you will get\n\n$$\n206=238-4 a\n\n\\begin{aligned}\n\\therefore \\alpha & =\\frac{238-214}{4} =6\n\\end{aligned}\n$$\n\nNow, find the beta particle by using formula\n\nAtomic number of $\\mathrm{U}=$ Atomic number of $\\mathrm{Pb}+2 \\alpha+\\beta$.\n\nWhere, atomic no. of $U$ is 92 and atomic no. of $\\mathrm{Pb}$ is 82 and the value of $\\alpha$ that we have find is 6. By putting the values you will get.\n\n$$\n92=82+2 \\times 6=\\beta\n$$\n\nTherefore, $ \\beta=92-94=2$\n\nThus, the number of alpha and beta particles is 6 and 2.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lftpmxxn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_042",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Fill in the blanks:\n(A) $$_{92}^{235}$$U + $$_{0}^{1}$$n $$\\to_{52}^{137}$$A + $$_{40}^{97}$$B + ____________.\n(B) $$_{34}^{82}$$Se $$\\to$$ 2 $${}_{ - 1}{e^0}$$ + __________.",
+    "solution": "Subjective Answer\n(A) Assume that, the element or component that\nshould be present at the blank space in the\ngiven reaction is X:\n$$_{92}^{235}U + _0^1n \\to _{52}^{137}A + _{40}^{97}B + \\underline X $$\nThe atomic number of uranium is 92 and\natomic mass number is 235. The atomic number\nof element A and B is 52 and 40 respectively.\nThe atomic mass number of elements A and B\nare 137 and 97 respectively.\nThe element with atomic number 52 and atomic\nmass number 137 is tellurium, Te. Therefore,\nelement A is tellurium.\nThe element with atomic number 40 and atomic\nmass number 97 is zirconium, Zr. Therefore,\nelement B is zirconium.\nTo find out X, we need to balance the atomic\nmass number and atomic number on both\nsides.\nOn the left side of the reaction, the sum of\natomic number is 92 + 0 = 92 and that of atomic\nmass number is 235 + 1 = 236.\nOn the right side of the reaction, the sum of\natomic number is 52+40 =92 and that of atomic\nmass number is 137+ 97 = 234.\nThe calculation shows that, the missing\ncomponent at the blank space will have\natomic number 0 and atomic mass number 2.\nThe component with 0 atomic number will be\nneutron which will have atomic mass number\n1. Thus, X equals to 2 neutrons.\nTherefore, the complete equation with filled\nblank space can be written as,\n$$_{92}^{235}U + _0^1n \\to _{52}^{137}A + _{40}^{97}B + \\underline {2\\,_0^1n} $$\n(B) Assume that, the element or component that\nshould be present at the blank space in the\ngiven reaction is Y.\n$$_{34}^{82}Se \\to 2_{ - 1}^0e + \\underline Y $$\nThe atomic number of selenium is 34 and\natomic mass number is 82. The selenium is\ngiven 2 electrons and component Y.\nTo find out Y, we need to balance the atomic\nmass number and atomic number on both\nsides.\nOn the left side of the reaction, atomic number\nis 34 and that of atomic mass number is 92 as\nshown.\nOn the right side of the reaction, the electrons\nhave atomic number as $$–$$1. There are two\nelectrons, therefore, 2x ($$–$$1) = $$–$$2.\nThe atomic mass number of component Y must\nbe 82.\nThe atomic number of component Y must be\n36, as 36 + ($$–$$2) = 34 to balance both sides.\nThe element with atomic number 36 and atomic\nmass number 82 is Krypton and is denotes as Kr.\nTherefore, the complete equation with filled\nblank space can be written as,\n$$_{34}^{82}Se \\to 2_{ - 1}^0e + _{36}^{82}\\underline {Kr} $$\nFinal Answer\n(A) $$_{92}^{235}U + _0^1n \\to _{52}^{137}A + _{40}^{97}B + \\underline {2\\,_0^1n} $$\n(B) $$_{34}^{82}Se \\to 2_{ - 1}^0e + _{36}^{82}\\underline {Kr} $$\nHints:\nThe atomic number at the right side of\nequation should be equal to the sum of atomic\nnumber at the left side for both equations.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_043",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following reaction\n2X(g) $$\\to$$ 3Y(g) + 2Z(g)\nassuming ideal gas conditions, the data for change of partial pressure with time is as follows:\n$$\n\\begin{array}{llll}\n\\hline \\text { Time (in min) } & 0 & 100 & 200 \\\\\n\\hline \\begin{array}{l}\n\\text { Partial pressure of X } \\\\\n\\text { (in mm of Hg) }\n\\end{array} & 800 & 400 & 200\n\\end{array}\n$$\nCalculate\n(A) Order of reaction.\n(B) Rate constant.\n(C) Time taken for 75% completion of reaction.\n(D) Total pressure of the reaction mixture when $$p_x=700$$ mm.",
+    "solution": "The given chemical reaction is,\n2X(g) $$\\to$$ 3Y(g) + 2Z(g)\nThe data given for the above chemical reaction\nis,\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nTime (in min)\n0\n100\n200\n\n\n\nPartial pressure of X (in mm of Hg)\n800\n400\n200\n\n\n(A) From the given data, the duration of decreasing\npartial pressure of X from 800 to 400 and from\n400 to 200, is 100 minutes for both. Therefore,\nthe time required for decreasing of partial\npressure is constant for decrement of pressure\nfrom 800 to 400 and 400 to 200.\nThus, the above chemical reaction is first order\nreaction.\n(B) For first order reaction, rate constant can be\ncalculated as follows:\n$$k = {{0.693} \\over {{t_{1/2}}}}$$ ..... (i)\nHere, k is the rate constant and t$$_{1/2}$$ is the half life time.\nAs given, $$t_{1/2}=100$$ min\nSubstitute the respective value in equation (i),\nwe get\n$$k = {{0.693} \\over {100}}\\therefore~k=6.93\\times10^{-3}$$ min$$^{-1}$$\nThe rate constant for the reaction is $$6.93\\times10^{-3}$$ min$$^{-1}$$.\n(C) The time taken for completion of 75% reaction\nis 2$$t_{1/2}$$.\n(D) For the given chemical reaction,\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nAt $$t=0$$\n800\n0\n0\n\n\n\nAfter sometime\n800-2x\n3x\n2x\n\n\nThe partial pressure at t = 0 and after some\ntime is given below.\nP$$_{total}$$ = 800 $$-$$ 2x + 3x + 2x\n= 800 + 3x\nGiven, 800 $$-$$ 2x = 700\nx = 50 mm\nP$$_{total}$$ = 800 + 3 $$\\times$$ 50 = 950 mm\nThe total pressure of the reaction mixture when $$p_x=700$$ mm.\nFinal Answer:\n(A) First order reaction\n(B) Rate constant = 6.93 $$\\times$$ 10$$^{–3} min$$^–1}$$\n(C) Time taken for completion of 75% reaction is\n2$$t_{1/2}$$\n(D) Total pressure when $$p_x = 700$$ mm is 950 mm.\nShortcut Method:\nAlternatively, the rate constant for the first\norder reaction can be calculated as follows:\nHence, for first order $$k = {{2.303} \\over t}{\\log _{10}}{{{p_0}} \\over {{p_1}}}$$\nAt t = 100 min $${k_{100}} = {{2.303} \\over {100}}{\\log _{10}}{{800} \\over {400}} = {{2.303} \\over {100}}{\\log _{10}}2 = {{2.303 \\times 0.3010} \\over {100}}$$ min$$^{-1} = 6.93 \\times {10^{ - 3}}$$ min$$^{-1}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_044",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the given reactions, A + B $$\\to$$ Products, following data were obtained\n\n.tg {border-collapse:collapse;border-spacing:0;margin: 0 auto}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-s6z2{text-align:center}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-s268{text-align:left}\n\n\n\n[A$_{o}$]\n[B$_{o}$]\nR$_{o}$ (mol L$^{-1}$ s$^{-1}$)\n\n\n1\n0.1\n0.1\n0.05\n\n\n2\n0.2\n0.1\n0.10\n\n\n3\n0.1\n0.2\n0.05\n\n\n(a) Write the rate law expression\n\n(b) Find the rate constant",
+    "solution": "According to the given data, we see that when the concentration of A alone is doubled (0.1 $$\\to$$ 0.2 mol L$^{$$-$$1}$), the rate of the reaction gets doubled (0.05 $$\\to$$ 0.1 mol L$^{$$-$$1}$ s$^{$$-$$1}$). Therefore, the order with respect to A is 1.\nWhen the concentration of B alone is doubled (0.1 $$\\to$$ 0.2 mol L$^{$$-$$1}$), the rate of the reaction remains unaltered. Therefore, the order with respect to B is 0.\n(1) The rate equation is, Rate = $$k[A]{[B]^0} = k[A]$$\n(2) Rate $$ = k[A]$$ or, $$k = {{rate} \\over {[A]}}$$ or, $$k = {{0.05} \\over {0.1}}\\therefore$$ k = 0.5 s$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_045",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The rate of a first order reaction is 0.04 mol litre$^{-1}$ s$^{-1}$ at 10 minutes and 0.03 mol litre$^{-1}$ s$^{-1}$ at 20 minutes after initiation. Find the half-life of the reaction.",
+    "solution": "For a first order reaction, rate = $$k[A]$$ . If A$_{1}$ and A$_{2}$ be the initial and final concentrations of the reactant respectively then,\n$${r_1} = k[{A_1}]$$ or, $$0.04 = k[{A_1}]$$ .............. [1]\nand $${r_2} = k[{A_2}]$$ or, $$0.03 = k[{A_2}]$$ ....... [2]\n$$\\therefore{{[{A_1}]} \\over {[{A_2}]}} = {{0.04} \\over {0.03}} = {4 \\over 3}$$ (Dividing equation [1] by equation [2])\nAt 10 min, $$10 = {{2.303} \\over k}\\log {{[{A_0}]} \\over {[{A_1}]}}$$, at 20 min, $$20 = {{2.303} \\over k}\\log {{[{A_0}]} \\over {[{A_2}]}}\\therefore20 - 10 = 10 = {{2.303} \\over k}\\log {{[{A_1}]} \\over {[{A_2}]}}$$\nor, $$k = {{2.303} \\over {10}}\\log \\left( {{4 \\over 3}} \\right)$$ or, $$k = 2.855 \\times {10^{ - 2}}$$ min$^{$$-$$1}$\n$$\\therefore$$ The half-life for the first order reaction,\n$$ = {{0.693} \\over k} = {{0.693} \\over {2.855 \\times {{10}^{ - 2}}}} = 24.27$$ min",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_046",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The vapour pressure of the two miscible liquids (A) and (B) are 300 and 500 mm of Hg respectively. In a flask 10 moles of (A) is mixed with 12 moles of (B). However, as soon as (B) is added, (A) starts polymerizing into a completely insoluble solid. The polymerization follows first-order kinetics. After 100 minutes, 0.525 mole of a solute is dissolved which arrests the polymerization completely. The final vapour pressure of the solution is 400 mm of Hg. Estimate the rate of constant of the polymerization reaction. Assume negligible volume change on mixing and polymerization and ideal behaviour for the final solution.",
+    "solution": "Given, initial moles of A = 10; initial moles of B = 12. Let, the number of moles of A = n, when polymerization is arrested. Moles of solute added = 0.525.\n$$\\therefore$$ Total number of moles = (n + 12 + 0.525) = (n + 12.525)\n$$\\therefore$$ Mole fraction of $$A({x_A}) = {n \\over {n + 12.525}}$$ and\nMole fraction of $$B({x_B}) = {{12} \\over {n + 12.525}}$$\nThe total vapour pressure of the solution = $$P_A^0{X_A} + P_B^0{X_B}$$\nor, $$400 = 300 \\times {n \\over {n + 12.525}} + 500 \\times {{12} \\over {n + 12.525}}$$ or, n = 9.9\nFor a first order reaction, $$k = {{2.303} \\over t}\\log {{{{[A]}_0}} \\over {[A]}}$$\nor, $$k = {{2.303} \\over {100}}\\log {a \\over {a - x}} = {{2.303} \\over {100}}\\log {{10} \\over {9.9}}$$ [$$\\because$$ a $$-$$ x = n = 9.9]\nor, $$k = 1.004 \\times {10^{ - 4}}$$ min$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_047",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A hydrogenation reaction is carried out at 500 K. If the same reaction is carried out in the presence of a catalyst at the same rate, the temperature required is 400 K. Calculate the activation energy of the reaction if the catalyst lowers the activation barrier by 20 kJ mol$^{-1}$.",
+    "solution": "From Arrhenius equation, $$\\log k = \\log A - {{{E_a}} \\over {2.303RT}}\\therefore\\log {k_{500}} = \\log A - {{{E_{{a_1}}}} \\over {2.303R{T_1}}}$$, $$\\log {k_{400}} = \\log A - {{{E_{{a_2}}}} \\over {2.303R{T_2}}}$$\nGiven, $${k_{500}} = {k_{400}}\\therefore\\log {k_{500}} = \\log {k_{400}}$$\nor, $${{{E_{{a_1}}}} \\over {{T_1}}} = {{{E_{{a_2}}}} \\over {{T_2}}}$$ or, $${{{E_{{a_1}}}} \\over {500}} = {{{E_{{a_2}}}} \\over {400}}$$ or, $${{{E_{{a_1}}}} \\over {{E_{{a_2}}}}} = {{500} \\over {400}} = {5 \\over 4}$$ ...... [1]\nAccording to given data, $${E_{{a_1}}} - {E_{{a_2}}} = 20\\therefore$$ Substituting in equation [1], we get $${{{E_{{a_1}}}} \\over {{E_{{a_1}}} - 20}} = {5 \\over 4}$$\nor, $$4{E_{{a_1}}} - 5{E_{{a_1}}} - 100$$ or, $${E_{{a_1}}} = 100$$ kJ mol$^{$$-$$1}$\n$$\\therefore{E_{{a_2}}} = 100 - 20 = 80$$ kJ mol$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_048",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The rate constant for an isomerisation reaction, A $$\\to$$ B is 4.5 $$\\times$$ 10$^{-3}$ min$^{-1}$. If the initial concentration of A is 1 M, calculate the rate of the reaction after 1 h.",
+    "solution": "The unit of rate constant = min$^{$$-$$1}$ implies that the reaction is of first order.\nFor a first order reaction, $$k = {{2.303} \\over t}\\log {a \\over {a - x}}$$\nor, $$k = {{2.303} \\over t}\\log {{{{[A]}_0}} \\over {[A]}}$$ or, $$4.5 \\times {10^{ - 3}} = {{2.303} \\over {60}}\\log {1 \\over {[A]}}$$\nHence, after 1 hour concentration of A, [ A ] = 0.764 (M)\n$$\\therefore$$ Reaction-rate after 1 hour = $$k[A] = 4.5 \\times {10^{ - 3}} \\times 0.746$$\n= 3.438 $$\\times$$ 10$^{$$-$$3}$ mol L$^{$$-$$1}$min$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_049",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The rate constant of a reaction is 1.5 $$\\times$$ 10$^{7}$ s$^{-1}$ at 50$^{o}$C and 4.5 $$\\times$$ 10$^{7}$ s$^{-1}$ at 100$^{o}$C. Evaluate the Arrhenius parameters A and E$_{a}$.",
+    "solution": "According to Arrhenius equation, $$k = A{e^{ - {E_a}/RT}}\\therefore\\log k = \\log A - {{{E_a}} \\over {2.303RT}}$$ or, $$\\log \\left( {{{{k_2}} \\over {{k_1}}}} \\right) = {{{E_a}} \\over {2.303R}}\\left[ {{1 \\over {{T_1}}} - {1 \\over {{T_2}}}} \\right]$$\nGiven : $$\\log \\left( {{{4.5 \\times {{10}^7}} \\over {1.5 \\times {{10}^7}}}} \\right) = {{{E_a}} \\over {2.303 \\times 8.314}}\\left[ {{1 \\over {323}} - {1 \\over {373}}} \\right]$$\nor, $${E_a} = 2.2 \\times {10^4}$$ J mol$^{$$-$$1}$\nFrom Arrhenius equation, $$k = A{e^{ - {E_a}/RT}}$$\nor, $$\\log k = \\log A - {{{E_a}} \\over {2.303RT}}$$\nor, $$\\log (4.5 \\times {10^7}) = \\log A - {{2.2 \\times {{10}^4}} \\over {2.303 \\times 8.314 \\times 373}}$$\nor, $$A = 5.42 \\times {10^{10}}$$ s$^{$$-$$1}$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_kinetics_050",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ionisation constant of $$NH_4^+$$ in water is 5.6 $$\\times$$ 10$^{-10}$ at 25$^{o}$C. The rate constant for the reaction of $$NH_4^+$$ and $$OH^-$$ to form NH$_{3}$ and H$_{2}$O at 25$^{o}$C is 3.4 $$\\times$$ 10$^{10}$ L mol$^{-1}$s$^{-1}$. Calculate the rate constant for proton transfer from water to NH$_{3}$.",
+    "solution": "Given, NH$$_4^ + $$ + H$_{2}$O $$\\rightleftharpoons$$ NH$_{3}$ + H$_{3}$O$^{+}$\n$${K_a} = {{[N{H_3}][{H_3}{O^ + }]} \\over {[NH_4^ + ][{H_2}O]}}$$ (K$_{a}$ = 5.6 $$\\times$$ 10$^{$$-$$10}$) ..... [1]\n$$NH_4^ + + \\mathop O\\limits^ - H\\mathrel{\\mathop{\\kern0pt\\rightleftharpoons}\n\\limits_{{k_b}}^{{k_f}}} N{H_3} + {H_2}O$$ (k$_{f}$ = 3.4 $$\\times$$ 10$^{10}$ Lmol$^{$$-$$1}$ s$^{$$-$$1}$) ...... [2]\n$${K_{eq}} = {{{k_f}} \\over {{k_b}}} = {{[N{H_3}][{H_3}O]} \\over {[NH_4^ + ][O{H^ - }]}} = {{[N{H_3}][{H_3}{O^ + }]} \\over {[NH_4^ + ][{H_2}O]}} \\times {{{{[{H_2}O]}^2}} \\over {[{H_3}{O^ + }][O{H^ - }]}} = {{{K_a}} \\over {{K_w}}}\\therefore{k_b} = {{{K_w}} \\over {{K_a}}} \\times {k_f} = {{1.0 \\times {{10}^{ - 4}}} \\over {5.6 \\times {{10}^{ - 10}}}} \\times 3.4 \\times {10^{10}} = 6.07 \\times {10^5}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzu007ni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_051",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 380$^{o}$C$^{}$, the half-life period for the first order decomposition of H$_{2}$O$_{2}$ is 360 min. Calculate the time required for 75% decomposition at 450$^{o}$C.",
+    "solution": "For the first order reaction half-life = $${{0.693} \\over k}$$\nor, $$360 = {{0.693} \\over k}\\therefore{k_{380^\\circ C}} = {{0.693} \\over {360}}$$\nWe know, $$\\log {{{k_2}} \\over {{k_1}}} = {{{E_a}} \\over {2.303R}}\\left[ {{1 \\over {{T_1}}} - {1 \\over {{T_2}}}} \\right]\\therefore\\log {{{k_{450^\\circ C}}} \\over {{{0.693} \\over {360}}}} = {{200 \\times 1000} \\over {2.303 \\times 8.314}}\\left[ {{1 \\over {653}} - {1 \\over {723}}} \\right]$$\nor, $${k_{450^\\circ C}} = 6.18 \\times {10^{ - 2}}$$ min$^{$$-$$1}$\nFor 75% decomposition at 723K (450$$^\\circ$$C),\n$${k_{450^\\circ C}} = {{2.303} \\over t}\\log {a \\over {a - x}}$$\nor, $$6.81 \\times {10^{ - 2}} = {{2.303} \\over t}\\log {{100} \\over {(100 - 75)}}$$ or, t = 20.358 min",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzu007ni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_052",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A first order reaction A $$\\to$$ B, requires activation energy of 70 kJ mol$^{-1}$. When 20% solution of A was kept at 25$^{o}$C for 20 minutes, 25% decomposition tooks place. What will be the percentage decomposition in the same time in a 30% solution maintained at 40$^{o}$C? Assume that activation energy remains constant in this range of temperature.",
+    "solution": "From Arrhenius equation, $$\\log k = \\log A - {{{E_a}} \\over {2.303RT}}$$\nor, $$\\log {{{k_2}} \\over {{k_1}}} = {{{E_a}} \\over {2.303}}\\left[ {{1 \\over {{T_1}}} - {1 \\over {{T_2}}}} \\right]\\therefore\\log {{{k_2}} \\over {{k_1}}} = {{70} \\over {2.303 \\times 8.314}}\\left[ {{1 \\over {298}} - {1 \\over {313}}} \\right]$$ or, $${{{k_2}} \\over {{k_1}}} = 3.872$$ ...... [1]\nFor a first order reaction, $$k = {{2.303} \\over t}\\log {a \\over {a - x}}$$\nGiven x = 0.25 a,\n$$\\therefore$$ a $$-$$ x = (a $$-$$ 0.25 a) = 0.75 a at t = 20 min\n$$\\therefore{k_1} = {{2.303} \\over {20}}\\log {a \\over {0.75\\,a}} = 0.014386$$ min$^{$$-$$1}$ ...... [2]\nSubstituting for k$_{1}$ in equation 1, we have\n$${k_2} = 3.872 \\times 0.014386 = 0.05571$$ min$^{$$-$$1}$\nFor a first order reaction, $${k_2} = {{2.303} \\over t}\\log {a \\over {a - x}}$$\nor, $$0.05571 = {{2.303} \\over {20}}\\log {a \\over {a - x}}$$ [x = decrease in concentration of reactant]\nor, $$\\log {a \\over {a - x}} = {{0.05571 \\times 20} \\over {2.303}}$$\nor, $$\\log {a \\over {a - x}} = 0.48381$$\nor, x = 0.6717 a\nHence, percentage decomposition $$ = {{0.6717\\,a} \\over a} \\times 100 = 67.17\\% $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzu007ni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_kinetics_053",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics & Nuclear Chemistry",
+    "topic": "Chemical Kinetics & Nuclear Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The decomposition of N$_{2}$O$_{5}$ according to the equation:\n\n2N$_{2}$O$_{5}$ (g) $$\\to$$ 4NO$_{2}$(g) + O$_{2}$(g)\n\nis a first order reaction. After 30 min. from the start of the decomposition in a closed vessel, the total pressure developed is found to be 284.5 mm of Hg and on complete decomposition, the total pressure is 584.5 mm of Hg. Calculate the rate constant of the reaction.",
+    "solution": "Given reaction : 2N$_{2}$O$_{5}$(g) $$\\to$$ 4NO$_{2}$(g) + O$_{2}$(g)\n\n[Diagram]\n\n$$\\therefore$$ Total no. of moles at time, $$t = a - x + 2x + {x \\over 2} = a + {3 \\over 2}x$$\nTotal no. of moles after complete decomposition\n$$ = 2a + {a \\over 2} = {5 \\over 2}a$$\nAt a given volume and temperature, P $$\\propto$$ n [Assuming ideal behaviour of gas mixture]\nAccording to the given data, $${5 \\over 2}$a $$\\propto$$ 584.5 mm Hg ...... [1]\nand $$a + {3 \\over 2}x \\propto 284.5$$ mm Hg ............... [2]\n$$\\therefore$$ a $$\\propto$$ 233.8 mm Hg and $${3 \\over 2}x \\propto 284.5-a$$\nor, $${3 \\over 2}x \\propto 284.5 - 233.8 \\propto 50.7$$ mm Hg\n$$\\therefore$$ x $$\\propto$$ 33.8 mm Hg\nTherefore, (a $$-$$ x) $$\\propto$$ (233.8 $$-$$ 33.8) mm Hg\ni.e., (a $$-$$ x) $$\\propto$$ 200 mm Hg\n$$\\thereforek = {{2.303} \\over t}\\log {a \\over {a - x}} = {{2.303} \\over {30}}\\log {{233.8} \\over {200}}$$\nor, k = 5.21 $$\\times$$ 10$^{$$-$$3}$ min$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzu007ni.png",
+      "position": "bottom"
+    }
+  }
+]

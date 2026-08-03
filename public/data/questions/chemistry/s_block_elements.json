@@ -1,0 +1,716 @@
+[
+  {
+    "id": "chem_s_block_elements_001",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The question contains STATEMENT - 1 (Assertion) and STATEMENT - 2 (Reason) and has 4 choices (a), (b), (c) and (d) out of which ONLY ONE is correct.\n\n**STATEMENT - 1** Alkali metals dissolve in liquid ammonia to give blue solutions. because\n\n**STATEMENT - 2** Alkali metals is liquid ammonia give solvated species of the type [M(NH$_{3}$)$_{n}$]$^{+}$ (M = alkali metals)",
+    "solution": "The product formed the reaction is used for chlorination of water bodies. The compound Na$$_2$$S$$_2$$O$$_3$$ gets oxidised by chlorine to form NaHSO$$_3$$. The balanced chemical reaction is,\nNa$$_2$$S$$_2$$O$$_3$$ + 4Cl$$_2$$ + 5H$$_2$$O $$\\to$$ 2NaHSO$$_4$$ + 8HCl",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement - 1 is true and Statement - 2 is true; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is true and Statement - 2 is true; Statement - 2 is not a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is False",
+      "Statement - 1 is False, Statement - 2 is True"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_002",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reaction of Br$_{2}$ with Na$_{2}$CO$_{3}$ in aqueous solution gives sodium bromide and sodium bromate with evolution of CO$_{2}$ gas. The number of sodium bromide molecules involved in the balanced chemical equation is ________.",
+    "solution": "The balanced chemical equation is\n3Na$_{2}$CO$_{3}$ + 3Br$_{2}$ $$\\to$$ 5NaBr + NaBrO$_{3}$ + 3CO$_{2}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_003",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound(s) formed upon combustion of sodium metal in excess air is (are)",
+    "solution": "The compound(s) formed upon the combustion\nof sodium metal in the excess air is sodium\nperoxide (Na$_{2}$O$_{2}$) and sodium\noxide (Na$_{2}$O).\n$$\n\\begin{aligned}\n& 4 \\mathrm{Na}+\\mathrm{O}_2 \\rightarrow 2 \\mathrm{Na}_2 \\mathrm{O} \\\\\\\\\n& 2 \\mathrm{Na}+\\mathrm{O}_2 \\rightarrow \\mathrm{Na}_2 \\mathrm{O}_2\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "Na$_{2}$O$_{2}$",
+      "Na$_{2}$O",
+      "NaO$_{2}$",
+      "NaOH"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_004",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following:\n\nBeCl$_{2}$ can be easily hydrolysed.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_005",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ca$^{2+}$ has a small ionic radius than K$^{+}$ because it has ______.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_006",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sodium when burnt in excess of oxygen gives sodium oxide.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_007",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Aqueous solutions of Na$$_2$$S$$_2$$O$$_3$$ on reaction with Cl$$_2$$ gives:",
+    "solution": "The product formed the reaction is used for chlorination of water bodies. The compound Na$$_2$$S$$_2$$O$$_3$$ gets oxidised by chlorine to form NaHSO$$_3$$. The balanced chemical reaction is,\nNa$$_2$$S$$_2$$O$$_3$$ + 4Cl$$_2$$ + 5H$$_2$$O $$\\to$$ 2NaHSO$$_4$$ + 8HCl",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Na$$_2$$S$$_4$$O$$_6$$",
+      "NaHSO$$_4$$",
+      "NaCl",
+      "NaOH"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_008",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement-1 :** Alkali metals dissolves in liquid ammonia to give blue solutions\n**Statement-2 :** Alkali metals in liquid ammonia give solvated species of the type $$\\left[\\mathrm{M}\\left(\\mathrm{NH}_{3}\\right)_{n}\\right]^{+} (\\mathrm{M}=$$ alkali metals).",
+    "solution": "Statement-1 :\n\nAlkali metals dissolve in liquid ammonia to give blue solutions.\n\n✅ True\nExplanation: When alkali metals (Li, Na, K, etc.) are dissolved in liquid ammonia, they form deep blue conducting solutions at low concentrations.\nReaction:\n$ \\mathrm{M (s) \\xrightarrow{liq.\\,NH_3} M^+_{(solv)} + e^-_{(solv)}} $\nThe blue color arises from solvated electrons ($ e^-_{(NH_3)} $), which absorb visible light.\n\nStatement-2 :\n\nAlkali metals in liquid ammonia give solvated species of the type $\\left[\\mathrm{M}\\left(\\mathrm{NH}_{3}\\right)_n\\right]^+ (\\mathrm{M} = \\text{alkali metals})$.\n\n✅ True\nDuring dissolution, the metal forms metal cations solvated by ammonia molecules, i.e., $\\mathrm{M^+}$ surrounded by several $\\mathrm{NH_3}$ molecules.\n$ \\mathrm{M^+ + e^- \\rightarrow [M(NH_3)_n]^+ + e^-_{(solv)}} $\n\nBut:\nThe blue color (Statement-1) is not due to $[\\mathrm{M(NH_3)_n}]^+$, but due to the solvated electrons ($e^-_{(NH_3)}$).\nTherefore, although both statements are true, Statement-2 does not explain the blue color.\n\n✅ Final Answer :\nOption B — Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_009",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A sodium salt on treatment with MgCl$_{3}$ gives white precipitate only on heating. The anion of the sodium salt is",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$HCO_3^-$$",
+      "$$CO_3^{2-}$$",
+      "$$NO_3^{-}$$",
+      "$$SO_4^{2-}$$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_010",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The set representing the correct order of first ionization potential is",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "K > Na > Li",
+      "Be > Mg > Ca",
+      "B > C > N",
+      "Ge > Si > C"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_011",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The following compounds have been arranged in order of their increasing thermal stabilities. Identify the correct order\n\nK$_{2}$CO$_{3}$ (A), MgCO$_{3}$ (B), CaCO$_{3}$ (C), BeCO$_{3}$ (D)",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "A < B < C < D",
+      "D < B < C < A",
+      "D < B < A < C",
+      "B < D < C < A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_012",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement (S)** The alkali metals can form ionic hydrides which contain the hydride ion H$^{-}$.\n\n**Explanation (E)** The alkali metals have low electronegativity; their hydrides conduct electricity when fused and liberate hydrogen at the anode.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Both S and E are true and E is the correct explanation of S",
+      "Both S and E are true but E is not the correct explanation of S",
+      "S is true but E is false",
+      "S is false but E is true"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_013",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The metallic lustre exhibited by sodium is explained by",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "diffusion of sodium ions",
+      "oscillation of loose electrons",
+      "excitation of free protons",
+      "existence of body centered cubic lattice"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_014",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pair of compound which cannot exist together in solution is:",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "NaHCO$_{3}$ and NaOH",
+      "Na$_{2}$CO$_{3}$ and NaHCO$_{3}$",
+      "Na$_{2}$CO$_{3}$ and NaOH",
+      "NaHCO$_{3}$ and NaCl"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_015",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The oxide that gives hydrogen peroxide on treatment with a dilute acid is",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "PbO$_{2}$",
+      "Na$_{2}$O$_{2}$",
+      "MnO$_{2}$",
+      "TiO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_016",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Molecular formula of Glauber's salt is:",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "MgSO$_{4}$.7H$_{2}$O",
+      "CuSO$_{4}$.5H$_{2}$O",
+      "FeSO$_{4}$.7H$_{2}$O",
+      "Na$_{2}$SO$_{4}$.10H$_{2}$O"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_017",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hydration energy of Mg$^{++}$ is larger than that of:",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Al$^{3+}$",
+      "Na$^{+}$",
+      "Be$^{++}$",
+      "Mg$^{3+}$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_018",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution of sodium metal in liquid ammonia is strongly reducing due to the presence of",
+    "solution": "The correct answer to the question is Option B: CaO.\n\nLet's break down the reasoning:\n\nCaO (Calcium oxide), also known as quicklime, vigorously reacts with water to form calcium hydroxide (Ca(OH)$_{2}$) and releases a significant amount of heat. This reaction is known as slaking of lime and can be represented as:\n\n$$ \\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 $$\n\nAdditionally, calcium oxide has a strong affinity for carbon dioxide (CO$_{2}$). It absorbs CO$_{2}$ from the air to form calcium carbonate (CaCO$_{3}$) through the following reaction:\n\n$$ \\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3 $$\n\nThus, CaO fulfills both conditions: it absorbs CO$_{2}$ and reacts violently with water. The other substances listed do not meet these criteria:\n\nCaCO$_{3}$: Calcium carbonate reacts with acids but does not react violently with water and does not absorb CO$_{2}$.\n\nH$_{2}$SO$_{4}$: Sulfuric acid is a liquid that reacts vigorously with water (specifically, dilution of concentrated sulfuric acid is exothermic), but it does not absorb CO$_{2}$.\n\nZnO: Zinc oxide is an amphoteric oxide that does not react violently with water and does not absorb CO$_{2}$.\n\nTherefore, the most appropriate answer is:\n\nOption B: CaO",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "sodium atoms",
+      "sodium hydride",
+      "sodium amide",
+      "solvated electrons"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_019",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "HCL is added to the following oxides. Which one would give H$_{2}$O$_{2}$?",
+    "solution": "The correct answer to the question is Option B: CaO.\n\nLet's break down the reasoning:\n\nCaO (Calcium oxide), also known as quicklime, vigorously reacts with water to form calcium hydroxide (Ca(OH)$_{2}$) and releases a significant amount of heat. This reaction is known as slaking of lime and can be represented as:\n\n$$ \\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 $$\n\nAdditionally, calcium oxide has a strong affinity for carbon dioxide (CO$_{2}$). It absorbs CO$_{2}$ from the air to form calcium carbonate (CaCO$_{3}$) through the following reaction:\n\n$$ \\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3 $$\n\nThus, CaO fulfills both conditions: it absorbs CO$_{2}$ and reacts violently with water. The other substances listed do not meet these criteria:\n\nCaCO$_{3}$: Calcium carbonate reacts with acids but does not react violently with water and does not absorb CO$_{2}$.\n\nH$_{2}$SO$_{4}$: Sulfuric acid is a liquid that reacts vigorously with water (specifically, dilution of concentrated sulfuric acid is exothermic), but it does not absorb CO$_{2}$.\n\nZnO: Zinc oxide is an amphoteric oxide that does not react violently with water and does not absorb CO$_{2}$.\n\nTherefore, the most appropriate answer is:\n\nOption B: CaO",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "MnO$_{2}$",
+      "PbO$_{2}$",
+      "BaO$_{2}$.8H$_{2}$O",
+      "NO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_020",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calcium is obtained by",
+    "solution": "The correct answer to the question is Option B: CaO.\n\nLet's break down the reasoning:\n\nCaO (Calcium oxide), also known as quicklime, vigorously reacts with water to form calcium hydroxide (Ca(OH)$_{2}$) and releases a significant amount of heat. This reaction is known as slaking of lime and can be represented as:\n\n$$ \\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 $$\n\nAdditionally, calcium oxide has a strong affinity for carbon dioxide (CO$_{2}$). It absorbs CO$_{2}$ from the air to form calcium carbonate (CaCO$_{3}$) through the following reaction:\n\n$$ \\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3 $$\n\nThus, CaO fulfills both conditions: it absorbs CO$_{2}$ and reacts violently with water. The other substances listed do not meet these criteria:\n\nCaCO$_{3}$: Calcium carbonate reacts with acids but does not react violently with water and does not absorb CO$_{2}$.\n\nH$_{2}$SO$_{4}$: Sulfuric acid is a liquid that reacts vigorously with water (specifically, dilution of concentrated sulfuric acid is exothermic), but it does not absorb CO$_{2}$.\n\nZnO: Zinc oxide is an amphoteric oxide that does not react violently with water and does not absorb CO$_{2}$.\n\nTherefore, the most appropriate answer is:\n\nOption B: CaO",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "electrolysis of molten CaCl$_{2}$",
+      "electrolysis of solution CaCl$_{2}$ in water",
+      "Reduction of CaCl$_{2}$ with carbon",
+      "roasting of limestone"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_021",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The substance absorbs CO$_{2}$ and violently reacts with water. The substance is",
+    "solution": "The correct answer to the question is Option B: CaO.\n\nLet's break down the reasoning:\n\nCaO (Calcium oxide), also known as quicklime, vigorously reacts with water to form calcium hydroxide (Ca(OH)$_{2}$) and releases a significant amount of heat. This reaction is known as slaking of lime and can be represented as:\n\n$$ \\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 $$\n\nAdditionally, calcium oxide has a strong affinity for carbon dioxide (CO$_{2}$). It absorbs CO$_{2}$ from the air to form calcium carbonate (CaCO$_{3}$) through the following reaction:\n\n$$ \\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3 $$\n\nThus, CaO fulfills both conditions: it absorbs CO$_{2}$ and reacts violently with water. The other substances listed do not meet these criteria:\n\nCaCO$_{3}$: Calcium carbonate reacts with acids but does not react violently with water and does not absorb CO$_{2}$.\n\nH$_{2}$SO$_{4}$: Sulfuric acid is a liquid that reacts vigorously with water (specifically, dilution of concentrated sulfuric acid is exothermic), but it does not absorb CO$_{2}$.\n\nZnO: Zinc oxide is an amphoteric oxide that does not react violently with water and does not absorb CO$_{2}$.\n\nTherefore, the most appropriate answer is:\n\nOption B: CaO",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "CaCO$_{3}$",
+      "CaO",
+      "H$_{2}$SO$_{4}$",
+      "ZnO"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_022",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "MgSO$_{4}$ on reaction with NH$_{4}$OH and Na$_{2}$HPO$_{4}$ forms a white crystalline precipitate. What is its formula?",
+    "solution": "The chemical reaction between $\\mathrm{MgSO}_4$, $\\mathrm{NH}_4 \\mathrm{OH}$ and $\\mathrm{Na}_2 \\mathrm{HPO}_4$ is given below.\n$\\underset{\\substack{\\text { Magnesium } \\\\ \\text { sulfate }}}{\\mathrm{MgSO}_4}+\\underset{\\substack{\\text { Ammonium } \\\\ \\text { hydroxide }}}{\\mathrm{NH}_4 \\mathrm{OH}}+\\underset{\\substack{\\text { Sodium hydrogen } \\\\ \\text { phosphate }}}{\\mathrm{Na}_2 \\mathrm{HPO}_4} \\rightarrow$$\\underset{\\substack{\\text { Magnesium ammonium } \\\\ \\text { white precipitate }}}{\\mathrm{Mg}\\left(\\mathrm{NH}_4\\right) \\mathrm{PO}_4 \\downarrow}+\\underset{\\text { Sodium sulfate }}{\\mathrm{Na}_2 \\mathrm{SO}_4}+\\mathrm{H}_2 \\mathrm{O}$\nThe magnesium ammonium phosphate hexahydrate $\\left[\\mathrm{Mg}\\left(\\mathrm{NH}_4\\right) \\mathrm{PO}_4 \\cdot 6 \\mathrm{H}_2 \\mathrm{O}\\right]$ formed has white coloured precipitate.\nThe other products formed during the chemical reaction include sodium sulfate and water.\nAmmonium chloride is used to prevent magnesium hydroxide and ammonia solutions from precipitating.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Mg(NH$_{4}$)PO$_{4}$",
+      "Mg$_{3}$(PO$_{4}$)$_{2}$",
+      "MgCl$_{2}$.MgSO$_{4}$",
+      "MgSO$_{4}$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_023",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Highly pure dilute solution of sodium in liquid ammonia",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "shows blue color",
+      "exhibits electrical conductivity",
+      "produces sodium amide",
+      "produces hydrogen gas"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_024",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species that do not contain peroxide ions are",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "PbO$_{2}$",
+      "H$_{2}$O$_{2}$",
+      "SrO$_{2}$",
+      "BaO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_025",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When zeolite, which is hydrated sodium aluminium silicate is treated with hard water the sodium ions are exchanged with",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "H$^{+}$ ions",
+      "Ca$^{++}$ ions",
+      "$$SO_4^{--}$$ ions",
+      "Mg$^{++}$ ions"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_026",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Work out the following using chemical equation :\n\nChlorination of calcium hydroxide produces bleaching powder.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_027",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following:\n\nThe crystalline salts of alkaline earth metals contain more water of crystallisation than the corresponding alkali metal salts.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_028",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Element A burns in nitrogen to give an ionic compound B. Compound B reacts with water to give C and D. A solution of C becomes 'milky' on bubbling carbon dioxide. Identify A, B, C and D.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_029",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Arrange the following sulphates of Alkaline earth metals in order of decreasing thermal stability : BeSO$_{4}$, MgSO$_{4}$, CaSO$_{4}$, SrSO$_{4}$",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_030",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Explain the difference in the nature of bonding in LiF and LiI.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_031",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following reactions:\n\nCa$_{5}$(PO$_{4}$)$_{3}$F + H$_{2}$SO$_{4}$ + H$_{2}$O $$\\buildrel {Heat} \\over\n\\longrightarrow $$ ........ + 5CaSO$_{4}$.2H$_{2}$O + ........",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_032",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the balanced equation for the reaction when:\n\nCarbon dioxide is passed through a suspension of lime stone in water.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_033",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the balanced equation for the reaction when:\n\nPotassium ferricyanide reacts with hydrogen peroxide in basic solution",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_034",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the balanced equation for the reaction when:\n\nCarbon dioxide is passed through a concentrated aqueous solution of sodium chloride saturated with ammonia.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_035",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following :\n\nMagnesium oxide is used for the lining of steel making furnace.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_036",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the balanced equations for the reaction when:\n\nCalcium phosphate is heated with a mixture of sand and carbon;",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_037",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How will you prepare bleaching powder from slaked lime.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_038",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the balanced equations for the reaction when:\n\nAn alkaline solution of potassium ferricyanide is reacted with hydrogen peroxide.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_039",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following:\n\nSodium carbonate is made by Solvay process but the same process is not extended to the manufacture of potassium carbonate.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_040",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrolysis of molten sodium hydride liberates ____ gas at the _____",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_041",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sodium dissolved in liquid ammonia conducts electricity because ________.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_042",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Anhydrous MgCl$_{2}$ is obtained by hydrated salt with ______.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_043",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The softness of group I-A metals increases down the group with increasing atomic number.",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_s_block_elements_044",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "topic": "s-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "MgCl$_{2}$.6H$_{2}$O on heating give anhydrous MgCl$_{2}$",
+    "solution": "Solution for this s-Block Elements question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

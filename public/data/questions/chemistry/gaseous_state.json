@@ -1,0 +1,730 @@
+[
+  {
+    "id": "chem_gaseous_state_001",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two cylinders, both fitted with frictionless pistons, are filled with mixtures of He and Ar gases. In the first cylinder, the masses of He and Ar are $m_1$ and $m_2$, respectively. In the second cylinder, the masses of He and Ar are $m_2$ and $m_1$, respectively. The molar mass of Ar is 10 times the molar mass of He. The external pressure applied by the piston on the first cylinder needs to be 5 times that on the second cylinder so that the volume of the gas mixtures in both the cylinders are equal at the same temperature. Assuming He and Ar behave like ideal gases, the value of $(m_1/m_2)$ is _______.",
+    "solution": "Let the molar mass of He be $M$.\nThen, according to the question, the molar mass of Ar is\n$$ 10M $$\nSince both gases behave ideally, for a mixture we can use\n$$ PV = nRT $$\nwhere $n$ is the total number of moles in the cylinder.\nAt the same temperature, if the volumes of the two cylinders are equal, then from\n$$ PV = nRT $$\nwe get\n$$ P \\propto n $$\nbecause $V$ and $T$ are same.\nNow, it is given that the pressure on the first cylinder is 5 times that on the second:\n$$ P_1 = 5P_2 $$\nHence,\n$$ n_1 = 5n_2 $$\nNow calculate total moles in each cylinder.\nFor the first cylinder:\n\nmass of He $= m_1$, so moles of He $= \\dfrac{m_1}{M}$\nmass of Ar $= m_2$, so moles of Ar $= \\dfrac{m_2}{10M}$\n\nThus,\n$$ n_1 = \\frac{m_1}{M} + \\frac{m_2}{10M} $$\nFor the second cylinder:\n\nmass of He $= m_2$, so moles of He $= \\dfrac{m_2}{M}$\nmass of Ar $= m_1$, so moles of Ar $= \\dfrac{m_1}{10M}$\n\nThus,\n$$ n_2 = \\frac{m_2}{M} + \\frac{m_1}{10M} $$\nUsing $n_1 = 5n_2$:\n$$ \\frac{m_1}{M} + \\frac{m_2}{10M} = 5\\left(\\frac{m_2}{M} + \\frac{m_1}{10M}\\right) $$\nMultiply throughout by $10M$:\n$$ 10m_1 + m_2 = 50m_2 + 5m_1 10m_1 - 5m_1 = 50m_2 - m_2 5m_1 = 49m_2 $$\nTherefore,\n$$ \\frac{m_1}{m_2} = \\frac{49}{5} $$\nSo, the required value is\n$$ \\boxed{\\frac{49}{5}} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_002",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A closed vessel contains $10 \\mathrm{~g}$ of an ideal gas $\\mathbf{X}$ at $300 \\mathrm{~K}$, which exerts $2 \\mathrm{~atm}$ pressure. At the same temperature, $80 \\mathrm{~g}$ of another ideal gas $\\mathbf{Y}$ is added to it and the pressure becomes $6 \\mathrm{~atm}$. The ratio of root mean square velocities of $\\mathbf{X}$ and $\\mathbf{Y}$ at $300 \\mathrm{~K}$ is",
+    "solution": "To solve this problem, we'll start by using the ideal gas law and the formula for the root mean square (rms) velocity of a gas.\n\nThe ideal gas law is given by:\n\n$$ PV = nRT $$\n\nwhere $ P $ is the pressure, $ V $ is the volume, $ n $ is the number of moles, $ R $ is the universal gas constant, and $ T $ is the temperature. The rms velocity ($ v_{rms} $) of a gas is given by:\n\n$$ v_{rms} = \\sqrt{\\frac{3RT}{M}} $$\n\nwhere $ M $ is the molar mass of the gas. We need the rms velocities of gases $ X $ and $ Y $.\n\nFirst, let's find the number of moles of each gas. For gas $ X $, let’s denote the molar mass as $ M_X $. The number of moles is:\n\n$$ n_X = \\frac{10 \\, \\text{g}}{M_X} $$\n\nFor the initial gas $ X $ at $ 300 \\, \\text{K} $ and $ 2 \\, \\text{atm} $, we can write:\n\n$$ P_X V = n_X RT $$\n\nWhen gas $ Y $ is added, the total pressure becomes $ 6 \\, \\text{atm} $. Let the molar mass of $ Y $ be $ M_Y $. The number of moles of gas $ Y $ added is:\n\n$$ n_Y = \\frac{80 \\, \\text{g}}{M_Y} $$\n\nNow, the total number of moles in the vessel is $ n_X + n_Y $, and this total exerts a pressure of $ 6 \\, \\text{atm} $ at the same volume and temperature:\n\n$$ P_{total} V = (n_X + n_Y) RT $$\n\nGiven the total pressure is $ 6 \\, \\text{atm} $, solving for the volume$ V $ and equating, we get two equations:\n\n$$ 2V = \\frac{10}{M_X} RT \\quad ......\\text{(i)} 6V = \\left( \\frac{10}{M_X} + \\frac{80}{M_Y} \\right) RT \\quad ......\\text{(ii)} $$\n\nDividing (ii) by (i) and solving for $ \\frac{80}{M_Y} $, we get:\n\n$$ \\frac{80}{M_Y} = 2 \\frac{10}{M_X} \\frac{80}{M_Y} = \\frac{20}{M_X} M_Y = 4 M_X $$\n\nNow, applying the formula for the rms velocity, the ratio of rms velocities of $ X $ and $ Y $ is:\n\n$$ \\frac{v_{rms, X}}{v_{rms, Y}} = \\sqrt{\\frac{M_Y}{M_X}} = \\sqrt{\\frac{4 M_X}{M_X}} = 2 $$\n\nSo, the ratio of root mean square velocities of $ X $ and $ Y $ is $ 2:1 $.\n\nThus, the correct answer is Option D: $ 2:1 $.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$2 \\sqrt{2}: \\sqrt{3}$",
+      "$2 \\sqrt{2}: 1$",
+      "$1: 2$",
+      "$2: 1$"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_003",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monoatomic real gas satisfies the equation p(V $$-$$ b) = RT where b is a constant. The relationship of interatomic potential V(r) and interatomic distance r for the gas is given by",
+    "solution": "The given equation is $\\mathrm{P}(\\mathrm{V}-b)=\\mathrm{RT}$,\n\nOn comparing with van Der Waal's equation\n\n$$\n\\left[\\mathrm{P}+\\frac{a}{\\mathrm{~V}^2}\\right][\\mathrm{V}-b]=\\mathrm{RT} \\text { we get } a=0\n$$\n\nHence, only repulsive forces are present which are contributive only at very close distance.\n\nThus, the potential energy will increase abruptly, so graph (c) is correct. The dominance of repulsive force can be shown by using the compressibility factor.\n\n$$\n\\begin{aligned}\n\\mathrm{P}(\\mathrm{V}-b) & =\\mathrm{RT} \\\\\\\\\n\\mathrm{PV} & =\\mathrm{Pb}+\\mathrm{RT} \\\\\\\\\n\\frac{\\mathrm{PV}}{\\mathrm{RT}} & =\\frac{\\mathrm{Pb}}{\\mathrm{RT}}+1\n\\end{aligned}\n\nZ=\\frac{P b}{\\mathrm{RT}}+1 \\text {, i.e., } \\mathrm{Z}>1 \\text { (Repulsive forces) }\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0w7yfxc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_004",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of nitrogen gas at 0.8 atm takes 38 s to diffuse through a pinhole. whereas one mole of an unknown compound of xenon with flourine at 1.6 atm takes 57 s to diffuse through the same hole. Calculate the molecular formula of the compound.",
+    "solution": "The rate of diffusion depends on the following factors.\nr $$\\propto$$ P and r $$\\propto\\sqrt {1/M} $$\nTaking these together, we get\n$${{{r_2}} \\over {{r_1}}} = {{{P_2}} \\over {{P_1}}}{\\left( {{{{M_1}} \\over {{M_2}}}} \\right)^{1/2}}$$\nor $${{{n_1}} \\over {{t_1}}} \\times {{{t_2}} \\over {{n_2}}} = {{{P_1}} \\over {{P_2}}} \\times \\sqrt {{{{M_2}} \\over {{M_1}}}} $$\nor $${1 \\over {38}} \\times {{57} \\over 1} = {{0.8} \\over {1.6}} \\times \\sqrt {{{{M_2}} \\over {28}}} $$\nor $${M_2} = {{57 \\times 57} \\over {38 \\times 38}} \\times {{1.6 \\times 1.6} \\over {0.8 \\times 0.8}} \\times 28 = 252$$\nLet the molecular formula of the unknown compound be XeF$_{n}$. We will have\n$${M_{xe}} + n{M_f} = 252$$ g mol$^{$$-$$1}$ i.e. $$[131 + n(19)]$$ g mol$^{$$-$$1}$ = 252 g mol$^{$$-$$1}$\n$$n = {{252 - 131} \\over {19}} = 6.36 \\simeq 6$$\nHence, the molecular formula of the gas is $$Xe{F_6}$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_005",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A mixture of ideal gas is cooled upto liquid helium temperature (4.22K) to form an ideal solution",
+    "solution": "The assertion that a mixture of ideal gases forms an \"ideal solution\" when cooled down to liquid helium temperature (4.22K) requires clarification on several aspects. First, we need to understand the behavior of gases at extremely low temperatures, particularly as they approach liquefaction, and how this correlates to the concept of an \"ideal solution.\"\n\nAn ideal gas, by definition, is a hypothetical gas composed of many randomly moving point particles that interact only through elastic collisions and do not exert any other forces on each other. At significantly low temperatures, particularly around 4.22 K (the boiling point of helium), many gases would condense into liquids or solids, depending on their respective boiling and freezing points.\n\nThe concept of an \"ideal solution\" generally applies to the solution phase and is defined as a solution that obeys Raoult's Law at all concentrations for both the solvent and the solute. Raoult's Law states that the partial vapor pressure of each component in a solution is proportional to its mole fraction in the solution. This law is strictly applicable under the assumption of no volume change on mixing and similar intermolecular forces among the components, which is often not precisely true when different substances are involved.\n\nWhen ideal gases are cooled to low temperatures, such as 4.22 K, and liquefy, the behavior of the resultant liquid may not necessarily align with the principles of an ideal solution. The intermolecular forces in a liquid, particularly at such low temperatures, are significantly stronger and different in nature compared to those in a gaseous state. Moreover, the assumption of similar intermolecular forces and no volume change upon mixing is quite often violated when different gases are involved.\n\nTherefore, it is generally FALSE to claim that cooling a mixture of ideal gases to a temperature as low as 4.22 K to form a liquid would result in an ideal solution. While the gases might mix uniformly, the resulting liquid mixture can exhibit deviations from ideal solution behavior due to changes in intermolecular forces and interactions that are not accounted for by ideal gas or ideal solution theories.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_006",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Eight gram each of oxygen and hydrogen at 27$^{o}$C will have the total kinetic energy in the ratio of _______.",
+    "solution": "To find the total kinetic energy ratio for oxygen and hydrogen at a given temperature, we first note that kinetic energy (average) of a molecule can be represented using the formula for translational kinetic energy of an ideal gas, which is given by:\n\n$ KE_{avg} = \\frac{3}{2} k_B T $\n\nwhere $ k_B $ is the Boltzmann constant and $ T $ is the temperature in Kelvin.\n\nFor a given number of molecules $ N $, the total kinetic energy $ KE_{total} $ can be expressed as:\n\n$ KE_{total} = N KE_{avg} $\n\nHowever, in order to find $ N $, which is the number of molecules, we need the number of moles, since $ N = nN_A $ where $ n $ is the number of moles and $ N_A $ is Avogadro’s number. We calculate $ n $ by dividing the mass of the gas $ m $ by its molar mass $ M $. This gives:\n\n$ n = \\frac{m}{M} $\n\nFor hydrogen (H$_{2}$), the molar mass $ M_{H_2} = 2 $ g/mol and for oxygen (O$_{2}$), the molar mass $ M_{O_2} = 32 $ g/mol. Given that both gases have a mass of 8 grams each, we can calculate the moles for each:\n\n$ n_{H_2} = \\frac{8 \\text{ g}}{2 \\text{ g/mol}} = 4 \\text{ moles} $\n\n$ n_{O_2} = \\frac{8 \\text{ g}}{32 \\text{ g/mol}} = 0.25 \\text{ moles} $\n\nThe number of molecules $ N $ for each gas becomes:\n\n$ N_{H_2} = n_{H_2} N_A = 4 N_A $\n\n$ N_{O_2} = n_{O_2} N_A = 0.25 N_A $\n\nEven though the mass of each gas is the same, the number of moles (and therefore the number of molecules) is different. However, the total kinetic energy for any ideal gas sample is still dependant on the temperature and the total number of molecules. Therefore, for each gas, substituting from the kinetic energy formula, we get:\n\n$ KE_{total, H_2} = N_{H_2} KE_{avg} = 4 N_A \\times \\frac{3}{2}k_B T $\n\n$ KE_{total, O_2} = N_{O_2} KE_{avg} = 0.25 N_A \\times \\frac{3}{2}k_B T $\n\nThe ratio of total kinetic energies $(H_2/O_2)$ thus becomes:\n\n$ \\frac{KE_{total, H_2}}{KE_{total, O_2}} = \\frac{4 N_A \\times \\frac{3}{2}k_B T}{0.25 N_A \\times \\frac{3}{2}k_B T} = \\frac{4 N_A}{0.25 N_A} = 16 $\n\nEven though both samples are at the same temperature and have the same mass, hydrogen has more molecules contributing to its kinetic energy due to its significantly lower molecular weight compared to oxygen. Hence, under these conditions, the ratio of the total kinetic energy of hydrogen to oxygen is $ 16:1 $.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_007",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Molar volume (V$_{m}$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with V$_{m}$ as the variable. The ratio (in mol dm$^{−3}$) of the coefficient of V$_{m}$$^{2}$ to the coefficient of V$_{m}$ for a gas having van der Waals constants a = 6.0 dm$^{6}$ atm mol$^{−2}$ and b = 0.060 dm$^{3}$ mol$^{−1}$ at 300 K and 300 atm is ______.**Use:** Universal gas constant (R) = 0.082 dm$^{3}$ atm mol$^{−1}$ K$^{−1}$",
+    "solution": "Molar volume $\\rightarrow V_m$ (volume occupied by I mole of the gas at the given temperature and pressure). $a=6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}$\n\n$$\nb=0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}\n$$\n\nTemperature, $T=300 \\mathrm{~K}$\nPressure, $P=300 \\mathrm{~atm}$\n\n$$\nR=0.082 \\mathrm{~d} \\mathrm{~m}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}\n\n\\frac{V_m^2(\\text { coefficient })}{V_m(\\text { coefficient })}=?\\left(\\mathrm{~mol} \\mathrm{dm}^{-3}\\right)\n$$\n\nVan der Walls equation is\n\n$$\n\\begin{aligned}\n& \\left(P+\\frac{a n^2}{V^2}\\right)(V-n b)=n k T \\\\\n& n=1 \\mathrm{~mol} \\quad, V=V_m\n\\end{aligned}\n$$\n\nSo, $\\left(P+\\frac{a}{V_m^2}\\right)\\left(V_m-b\\right)=R T$The equation can be expanded as\n\n$$\n\\begin{aligned}\n& P V_m-P b+\\frac{a}{V_m^2} \\times V_m-\\frac{a}{V_m^2}=R T \\\\\n& P V_{1 m}-P b+\\frac{a}{V_m}+\\frac{a b}{V_m^2}=R T\n\\end{aligned}\n$$\n\nMultiply by $\\mathrm{Vm}^2$$$\n\\begin{aligned}\n& P V_m \\times V_m^2-P b \\times V_m^2+\\frac{a}{V_m} \\times V_m^2-\\frac{a b}{V_m^2} \\times V_m^2=R T \\times V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b=R T V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b-R T V_m^2=0 \\\\\n& P V_m^3-(P b+R T) V_m^2+a V_m-a b=0\n\\end{aligned}\n$$Coefficient of $V_m^2 \\rightarrow-(P b+R T)$ coefficient of $v_m \\longrightarrow a$\n\nThe ratio,\n\n$$\n\\begin{aligned}\n& \\frac{\\text { Coefficient of } V_m^2}{\\text { coefficient of } V_m} \\\\\n& =\\frac{-(P b+R T)}{a}\n\\end{aligned}\n\n\\text { Substitute the values as }\n\n\\frac{\\text { Coefficient of } \\mathrm{Vm}^2}{\\text { Coefficient of } \\mathrm{Vm}_{\\mathrm{m}}}\\begin{aligned}\n& -\\left(300 \\mathrm{~atm} \\times 0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+\\right. \\\\\n= & \\frac{0.082 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol} \\mathrm{k}^{-1} \\times 300K )\\mathrm{}}{6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}{ }^{-2}}\n\\end{aligned}\n\n\\frac{\\text { Coesficient of } V_m^2}{\\text { coefficient of } V_m}=\\frac{-18 \\mathrm{~atm} \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+24.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1}}{6.0 \\mathrm{dm} \\mathrm{dmol}^6 \\mathrm{~atm} \\mathrm{~mol}^2}\n\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=-\\frac{42.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}}{-6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}}\n\n\\begin{aligned}\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,& =-7.1 \\mathrm{dm}^3 \\mathrm{~mol}^{-1} \\mathrm{dm}^{-6} \\mathrm{~mol}^2 \\\\\n& =-7.1 \\mathrm{dm}^{3-6} \\mathrm{~mol}^{-1+2} \\\\\n& =-7.1 \\mathrm{dm}^{-3} \\mathrm{~mol}^1 \\\\\n& =-7.1 \\mathrm{~mol} \\mathrm{dm}^{-3}\n\\end{aligned}\n$$The ratio is -7.1\n\nAnswer: $\\quad-7.1$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_008",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A gas has a compressibility factor of 0.5 and a molar volume of $0.4 ~\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ at a temperature of $800 \\mathrm{~K}$ and pressure $\\mathbf{x}$ atm. If it shows ideal gas behaviour at the same temperature and pressure, the molar volume will be $\\mathbf{y} ~\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$. The value of $\\mathbf{x} / \\mathbf{y}$ is __________.\n\n[Use: Gas constant, $\\mathrm{R}=8 \\times 10^{-2} \\mathrm{~L}$ atm $\\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$ ]",
+    "solution": "For gas : $\\mathrm{Z}=0.5, \\mathrm{~V}_{\\mathrm{m}}=0.4 \\mathrm{~L} / \\mathrm{mol}$\n\n$$\n\\begin{aligned}\n& \\mathrm{T}=800 \\mathrm{~K}, \\mathrm{P}=\\mathrm{X} \\text { atm. } \\\\\\\\\n\\Rightarrow & \\mathrm{Z}=\\frac{\\mathrm{PV}_{\\mathrm{m}}}{\\mathrm{RT}} \\\\\\\\\n\\Rightarrow & \\frac{\\mathrm{X}(0.4)}{0.08 \\times 800}=0.5 \\\\\\\\\n\\Rightarrow & \\mathrm{X}=80\n\\end{aligned}\n$$\n\nFor ideal gas, $\\mathrm{PV}_{\\mathrm{m}}=\\mathrm{RT}$\n\n$$\n\\Rightarrow \\mathrm{V}_{\\mathrm{m}}=\\frac{\\mathrm{RT}}{\\mathrm{P}}=\\frac{0.08 \\times 800}{80}=0.8 \\mathrm{~L} \\mathrm{~mol}^{-1}=\\mathrm{y}\n$$\n\nThen, $\\frac{x}{y}=\\frac{80}{0.8}=100$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_009",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Aluminium reacts with sulphuric acid to form aluminium sulphate and hydrogen. What is the volume of hydrogen gas in litre (L) produced at 300 K and 1.0 atm pressure, when 5.4 g of aluminium and 50.0 mL of 5.0 M sulphuric acid are combined for the reaction?\n\n(Use molar mass of aluminium as 27.0 g mol$^{$$-$$1}$, R = 0.082 atm L mol$^{$$-$$1}$ K$^{$$-$$1}$)",
+    "solution": "Aluminium reacts with sulphuric acid to form aluminium sulphate and hydrogen.\n\n$$\\mathop {2Al}\\limits_{\\left( {{{5.4} \\over {27}} = 0.2\\,mol} \\right)} + \\mathop {3{H_2}S{O_4}}\\limits_{\\left( {{{50 \\times 5} \\over {1000}} = 0.25\\,mol} \\right)} \\buildrel {} \\over\n\\longrightarrow A{l_2}{(S{O_4})_3} + 3{H_2}$$\n\nH$_{2}$SO$_{4}$ is limiting reagent and moles of H$_{2}$(g) produced = 0.25 mol\n\nUsing ideal gas equation,\n\npV = nRT\n\n$$ \\Rightarrow V = {{0.25 \\times 0.082 \\times 300} \\over {1\\,atm}} = 6.15\\,L$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_010",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The diffusion coefficient of an ideal gas is proportional to its mean free path and mean speed. The absolute\ntemperature of an ideal gas is increased 4 times and its pressure is increased 2 times. As a result, the\ndiffusion coefficient of this gas increases x times. The value of x is ___________:",
+    "solution": "The diffusion coefficient (D) is proportional to the mean free path (λ) and the mean speed (U$_{mean}$), so we can write\n\n$$D ∝ λU_{\\text{mean}}$$\n\nThe mean free path (λ) is given by\n\n$$λ = \\frac{RT}{\\sqrt{2} N_0 σP}$$\n\nhence\n\n$$λ ∝ \\frac{T}{P}$$\n\nThe mean speed (U$_{mean}$) is given by\n\n$$U_{\\text{mean}} = \\sqrt{\\frac{8RT}{πM}}$$\n\nhence\n\n$$U_{\\text{mean}} ∝ \\sqrt{T}$$\n\nTherefore,\n\n$$D ∝ \\frac{T^{3/2}}{P}$$\n\nThe change in the diffusion coefficient would then be given by :\n\n$$\\frac{(DC)_2}{(DC)_1} = \\frac{P_1}{P_2} \\cdot \\left(\\frac{T_2}{T_1}\\right)^{3/2}$$\n\nSubstituting $P_2 = 2P_1$ and $T_2 = 4T_1$ into the equation, we get :\n\n$$\\frac{(D)_2}{(D)_1} = \\frac{1}{2} \\cdot (4)^{3/2} = 4$$\n\nSo, the diffusion coefficient of the gas increases 4 times. Hence, x = 4.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_011",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "To an evacuated vessel with movable piston under external pressure of 1 atm, 0.1 mol of He and 1.0 mol of an unknown compound (vapour pressure 0.68 atm, at 0$^{o}$C) are introduced. Considering the ideal gas behaviour, the total volume (in litre) of the gases at 0$^{o}$C is close to",
+    "solution": "Given: External pressure $\\left(\\mathrm{P}_{\\mathrm{ext}}\\right)=1 \\mathrm{~atm}$\n\nNumber of mole of helium $\\left(n_{\\mathrm{He}}\\right)=0.1 \\mathrm{~mol}$\n\nNo. of mole of unknown compound\n\n$\\left(n_{\\text {unknown compound }}\\right)=1.0 \\mathrm{~mol}$\n\nVapour pressure of unknown compound\n\n$\\left(p_{\\text {unknown }}^0\\right)=0.68 \\mathrm{~atm}$\n\nTemperature of the mixture $0^{\\circ} \\mathrm{C}=273 \\mathrm{~K}$\n\nTo Find: The volume of gas (in litre) $=v_{\\text {gas }}$\n\nFormula: (i) Vapour pressure of helium $\\left(\\mathrm{P}_{\\mathrm{He}}\\right)=$\n\n$P_{\\text {ext }}-P_{\\text {unknown compound }}$\n\n(ii) $\\mathrm{V}_{\\mathrm{He}}=\\frac{n_{\\mathrm{He}} \\times \\mathrm{R} \\times \\mathrm{T}}{\\mathrm{P}_{\\mathrm{He}}}$\n\nSince, the evacuated vessel (with fitted) piston in equilibrium with its surroundings. Hence, external pressure (or pressure outside the vessel) is equal to pressure inside the vessel.\n$$\n\\begin{aligned}\n& \\mathrm{P}_{\\text {ext }}=\\mathrm{P}_{\\text {internal }}=\\mathrm{P}_{\\mathrm{T}} \\\\\\\\\n& \\mathrm{P}_{\\text {ext }}=\\mathrm{P}_{\\mathrm{He}}+\\mathrm{P}_{\\text {unknwon compound }} \\\\\\\\\n& 1 \\mathrm{~atm}=\\mathrm{P}_{\\mathrm{He}}+0.68 \\mathrm{~atm} \\\\\\\\\n& \\mathrm{P}_{\\mathrm{He}}=0.32 \\mathrm{~atm} \\\\\\\\\n\n\\end{aligned}\n$$\n\n$\\left[\\mathrm{P}_{\\mathrm{He}} \\mathrm{P}_{\\text {unknown compound }}\\right.$ are partial pressures of helium and unknown gas respectively]\n\nAccording to ideal gas equation:\n\n$$\n\\begin{aligned}\n\\mathrm{P}_{\\mathrm{He}} \\times \\mathrm{V}_{\\mathrm{He}} & =n_{\\mathrm{He}} \\times \\mathrm{R} \\times \\mathrm{T} \\\\\\\\\n\\mathrm{V}_{\\mathrm{He}} & =\\frac{0.1 \\times 0.0821 \\times 273}{0.32} \\\\\\\\\n\\mathrm{~V}_{\\mathrm{He}} & =7.004 \\mathrm{~L}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_012",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 400 K, the root mean square (rms) speed of a gas X (molecular weight = 40) is equal to the most probable speed of gas Y at 60 K. The molecular weight of the gas Y is ___________.",
+    "solution": "Let's start by writing down the equations for the root mean square (rms) speed and the most probable speed. The root mean square speed $$ v_{rms} $$ of a gas with molecular weight $$ M $$ at a temperature $$ T $$ in Kelvin is given by the formula:\n\n$$ v_{rms} = \\sqrt{\\frac{3kT}{M}} $$\n\nwhere $$ k $$ is the Boltzmann constant.\n\nThe most probable speed $$ v_{mp} $$ of a gas is given by:\n\n$$ v_{mp} = \\sqrt{\\frac{2kT}{M}} $$\n\nAccording to the problem statement, at 400 K, the $$ v_{rms} $$ speed of gas X (with molecular weight $$ M_X = 40 $$ g/mol) is equal to the $$ v_{mp} $$ of gas Y at 60 K. We set the equations equal to each other:\n\n$$ \\sqrt{\\frac{3k \\times 400}{40}} = \\sqrt{\\frac{2k \\times 60}{M_Y}} $$\n\nWe simplify this equation. First, we can cancel $$ k $$ from both sides:\n\n$$ \\sqrt{\\frac{3 \\times 400}{40}} = \\sqrt{\\frac{2 \\times 60}{M_Y}} $$\n\nSimplify further:\n\n$$ \\sqrt{\\frac{1200}{40}} = \\sqrt{\\frac{120}{M_Y}} \\sqrt{30} = \\sqrt{\\frac{120}{M_Y}} $$\n\nSquaring both sides gives:\n\n$$ 30 = \\frac{120}{M_Y} $$\n\nRearrange to solve for $$ M_Y $$:\n\n$$ M_Y = \\frac{120}{30} = 4 $$\n\nSo, the molecular weight of gas Y is 4 g/mol.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_013",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 27$^{o}$C, hydrogen is leaked through a tiny hole into a vessel for 20 minutes. Another unknown gas at the same temperature and pressure as that of H$_{2}$ is leaked through the same hole for 20 minutes After the effusion of the gases the mixture exerts a pressure of 6 atmosphere. The hydrogen content of the mixture is 0.7 mole. If the volume of ther container is 3 litres, what is the molecular weight of the unknown gas?",
+    "solution": "$${p_{{H_2}}} + {p_g} = 6.0$$ atm\nwhere p$_{g}$ is the pressure exerted by the unknown gas.\n$${p_{{H_2}}} = {{nRT} \\over V} = {{0.7 \\times 0.0821 \\times 300} \\over 3} = 5.747$$ atm.\n$$\\therefore{p_g} = 6.0 - 5.747 = 0.253$$ atm.\nNumber of moles of unknown gas\n$$ = {{{p_g}\\,.\\,V} \\over {RT}} = {{0.253 \\times 3} \\over {0.0821 \\times 300}} = 0.0308$$\nRate of effusion of\n$${H_2} = {{0.7} \\over {20}} = 0.035$$ mol min$^{$$-$$1}$\nRate of effusion of unknown gas\n$$ = {{0.0308} \\over {20}} = 0.00154$$ mol min$^{$$-$$1}$\nAccording to Graham's Law of effusion\n$${{{M_g}} \\over {{M_{{H_2}}}}} = {{{{({r_{{H_2}}})}^2}} \\over {{{({r_g})}^2}}} = {{{{(0.035)}^2}} \\over {{{(0.00154)}^2}}} = 516.5\\therefore{M_g} = 516.5 \\times 2 = 1033$$ g mol$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_014",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of PV for 5.6 litres of an ideal gas is ________ RT, at NTP.",
+    "solution": "The problem posed involves determining the value of PV (pressure-volume product) for a given amount of an ideal gas, specifically 5.6 liters at Normal Temperature and Pressure (NTP). To solve this, we will make use of the ideal gas law, the definition of NTP conditions, and the concept of moles in chemistry.\n\nThe ideal gas law is given by:\n\n$$ PV = nRT $$\n\nwhere:\n\n**P** is the pressure of the gas,\n\n**V** is the volume of the gas,\n\n**n** is the number of moles of the gas,\n\n**R** is the ideal gas constant,\n\n**T** is the temperature of the gas.\n\nNormal Temperature and Pressure (NTP) are defined as a temperature of 0°C (273.15 K) and a pressure of 1 atm. According to the conditions set for NTP, the volume of 1 mole of an ideal gas is 22.4 liters.\n\nTo find out how many moles are present in 5.6 liters of gas at NTP, we use the relation between the volume of one mole of gas and the provided volume:\n\n$$ n = \\frac{V}{22.4 \\text{ liters/mole}} n = \\frac{5.6 \\text{ liters}}{22.4 \\text{ liters/mole}} = 0.25 \\text{ moles} $$\n\nSubstituting this back into the ideal gas equation:\n\n$$ PV = (0.25 \\text{ moles}) \\cdot R \\cdot T $$\n\nAt NTP, since the temperature (T) is taken as 273.15 K, and the pressure is 1 atm, the specific value of R can usually be ignored in this context because we are asked for the expression of PV in terms of RT. Therefore:\n\n$$ PV = 0.25 RT $$\n\nThus, the value of PV for 5.6 liters of an ideal gas at NTP is **0.25 RT**.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_015",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spherical balloon of 21 cm diameter is to be filled up with hydrogen at N.T.P from a cylinder containing the gas at 20 atmospheres at 27$^{o}$C. If the cylinder can hold 2.82 litres of water, calculate the number of balloons that can be filled up.",
+    "solution": "Let V$_{1}$ be the volume of H$_{2}$ in the cylinder at NTP. According to gas equation,\n$${{{P_1}{V_1}} \\over {{T_1}}} = {{{P_2}{V_2}} \\over {{T_2}}}\\therefore{{1 \\times {V_1}} \\over {273}} = {{20 \\times 2.82} \\over {300}}$$\nor $${V_1} = {{20 \\times 2.82 \\times 273} \\over {300}}$$\n= 51.324 L = 51324 mL\nVolume of H$_{2}$ left in the cylinder = Volume of cylinder = 2820 mL\nActual volume transferred to balloons\n= 51324 $$-$$ 2820 = 48504 mL\nRadius of balloon (r) = 21/2 = 10.5 cm\nVolume of each balloon = $${4 \\over 3}\\pi {r^3} = {4 \\over 3} \\times 3.142 \\times {(10.5)^3} = 4849.67 = 4850$$ mL\nNumber of balloons which can be filled up\n$$ = {{48504} \\over {4850}} = 10$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_016",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total energy of one mole of an ideal monatomic gas at 27$^{o}$ is _______ calories.",
+    "solution": "To find the total energy of one mole of an ideal monatomic gas, we need to use the formula related to the internal energy of the gas. For an ideal monatomic gas, the internal energy ($U$) is given by the expression:\n\n$$ U = \\frac{3}{2} nRT $$\n\nwhere:\n\n$n$ is the number of moles of the gas,\n\n$R$ is the ideal gas constant, and\n\n$T$ is the temperature in Kelvin.\n\nGiven that $n = 1$ mole and the temperature is $27^\\circ C$, we first need to convert this temperature to Kelvin. The conversion from Celsius to Kelvin is done by adding 273:\n\n$$ T = 27 + 273 = 300 \\, \\text{K} $$\n\nThe ideal gas constant $R$ can be used in various units, but since we want the energy in calories, we will use the value of $R = 2 \\, \\text{cal/mol}\\cdot\\text{K}$. Plugging these values into the formula, we get:\n\n$$ U = \\frac{3}{2} \\times 1 \\times 2 \\times 300 \\, \\text{cal} U = \\frac{3}{2} \\times 600 \\, \\text{cal} U = 900 \\, \\text{cal} $$\n\nThus, rounding to an appropriate number of significant figures, the total energy of one mole of an ideal monatomic gas at 27°C is approximately 900 calories.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_017",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the distribution of molecular speeds of a gas is as per the figure shown below, then the ratio of the most probable, the average, and the root mean square speeds, respectively, is\n\n[Diagram]",
+    "solution": "Fraction of molecules vs velocity graph is Maxwell distribution curve.\n\nThis curve is slightly unsymmetrical as shown below.\n\n\n[Diagram]\nThe ratio of most probable, the average and the root mean square speeds for this graph is 1 : 1.128 : 1.224But the graph in question is completely symmetrical. Therefore, the most probable and the average speed will be same here but root mean square speed will be greater than average speed. So, the correct ratio is 1 : 1 : 1.224.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1 : 1 : 1",
+      "1 : 1 : 1.224",
+      "1 : 1.128 : 1.224",
+      "1 : 1.128 : 1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx9ukawr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_018",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For one mole of a van der Waals gas when b = 0 and T = 300 K, the PV vs. 1/V plot is shown below. The value of the van der Waals constant a (atm L$^{2}$ mol$^{$$-$$2}$) is\n\n[Diagram]",
+    "solution": "The van der Waals equation is\n$$\\left( {p + {a \\over {{V^2}}}} \\right)(V - b) = RT$$\nbut it is given that b = 0. So, the equation reduces to\n$$\\left( {p + {a \\over {{V^2}}}} \\right)V = RT \\Rightarrow pV = - {a \\over V} + RT$$\nComparing it with a straight line equation we get slope as $$-$$a. Calculating the slope, we get\n$${{24.6 - 20.1} \\over {3.0 - 0}} = 1.5 \\Rightarrow a = 1.5$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1.0",
+      "4.5",
+      "1.5",
+      "3.0"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lf9pq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_019",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The term that corrects for the attractive forces present in a real gas in the van der Waals equation is",
+    "solution": "The van der Waals equation is a modified version of the ideal gas law which accounts for the non-ideal behavior of real gases. This adjustment is done through two correction terms, each addressing a specific factor where real gases deviate from ideal behavior:\n\nIntermolecular attraction\n\nVolume occupied by the gas particles themselves\n\nThe van der Waals equation is given by:\n\n$$\\left(P + \\frac{{a n^2}}{{V^2}}\\right) \\left(V - nb\\right) = nRT$$\n\nLet's break down the components:\n\n$$\\left(P + \\frac{{a n^2}}{{V^2}}\\right)$$: This term adds a correction to the pressure (P) of the gas. The parameter $$a$$ provides a correction for the intermolecular forces. As these forces are attractive, they effectively reduce the pressure exerted by the gas. Thus, $$\\frac{{a n^2}}{{V^2}}$$ is added to the actual pressure to account for this decrease due to attraction.\n\n$$\\left(V - nb\\right)$$: The corrected volume term where $$b$$ accounts for the volume occupied by the gas particles themselves, which is otherwise not considered in the ideal gas law. The subtraction by $$nb$$ (where $$n$$ is the number of moles of the gas and $$b$$ is a constant related to the volume occupied by one mole of gas particles) corrects for the volume unavailable to the gas particles for movement.\n\nFrom the options provided:\n\nOption A ($$nb$$) and Option D ($$-nb$$) relate to the volume correction for the space that the gas molecules occupy.\n\nOption B ($$\\frac{{a n^2}}{{V^2}}$$) and Option C ($$- \\frac{{a n^2}}{{V^2}}$$) relate to the intermolecular forces.\n\nThe enhancement factor $$\\frac{{a n^2}}{{V^2}}$$ is added to the pressure to counteract the lowering effect of the attractions on the measured pressure, thus the term correcting for the attractive forces and increasing the effective pressure would be positively stated, not negatively. Therefore:\n\nOption B ($$\\frac{{a n^2}}{{V^2}}$$) is the correct answer, as it accounts for the attractive forces in the modification of the ideal gas law in the van der Waals equation.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$nb$$",
+      "$${{a{n^2}} \\over {{V^2}}}$$",
+      "$$ - {{a{n^2}} \\over {{V^2}}}$$",
+      "$$ - nb$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggotwgc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_020",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match gases under specified conditions listed in Column I with their properties/laws in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nhydrogen gas (P = 200 atm, T = 273 K)\n(P)\nCompressibility factor $$\ne$$ 1\n\n\n(B)\nhydrogen gas (P $$\\sim$$ 0, T = 273 K)\n(Q)\nattractive forces are dominant\n\n\n(C)\nCO$$_2$$ (P = 1 atm, T = 273 K)\n(R)\nPV = nRT\n\n\n(D)\nreal gas with very large molar volume\n(S)\n$$P(V-nb)=nRT$$",
+    "solution": "[Diagram]\n\n(A) $$Z = P{V_m}/RT$$ at high pressure and low temperature. The value of Z tends towards infinity at very high pressure such as 200 bar.\nEquation $$(P + a{n^2}/{V^2})(V - nb) = nRT$$ reduces to $$P(V - nb) = nRT$$.\n(B) For hydrogen gas value of Z = 1 at P = 0 and it increase continuously on increasing pressure. At such low pressure the gas behaves ideally, the van der Waals equation is reduced to :\n$$PV = nRT$$\n(C) As can be seen from the plot of compressibility factor (Z) versus pressure (in bar), the compressibility factor for carbon dioxide gas is less than 0 at 1 atm (or 1.013 bar). This is because CO$$_2$$ molecules have larger attractive forces, under normal conditions.\n(D) $$Z = P{V_m}/RT$$, at very large molar volume Z $$\ne$$ 1.\nThe van Der Waals equation for real gas:\n$$\\left( {P + {{a{n^2}} \\over {{V^2}}}} \\right)(v - nb) = nRT$$\nAll very large molar volume, $${{a{n^2}} \\over {{V^2}}}$$ almost neglibible, hence, equation is reduced to\n$$P(v - nb) = nRT$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "A - (s); B - (r); C - (q); D - (p, s)",
+      "A - (p, s); B - (r, q); C - (p, q); D - (s)",
+      "A - (p); B - (r); C - (p, q); D - (s)",
+      "A - (p, s); B - (r); C - (p, q); D - (p, s)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggotwgc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_021",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The average velocity of an ideal gas molecule at 27$^{o}$C is 0.3m/sec. The average velocity at 927$^{o}$C will be",
+    "solution": "The average velocity of a molecule in an ideal gas is related to the temperature, which can be determined using the formula for the root mean square speed (v$_{rms}$), derived from the Maxwell-Boltzmann distribution. The formula for v$_{rms}$ is:\n\n$$ v_{\\text{rms}} = \\sqrt{\\frac{3kT}{m}} $$\n\nwhere:\n\nk is the Boltzmann constant,\n\nT is the absolute temperature in Kelvin,\n\nm is the mass of a molecule of the gas.\n\nTo find the average velocity at two different temperatures, it is important to note that while the average velocity and the root mean square speed are not exactly the same, they are proportional to the square root of the temperature. Therefore, for the purpose of comparing speeds at two temperatures, we can use the formula:\n\n$$ \\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} $$\n\nWhere:\n\nv$_{1}$ and v$_{2}$ are the speeds at temperatures T$_{1}$ and T$_{2}$ respectively.\n\nHere, temperatures must be converted to Kelvin:\n\nT$_{1}$ = 27$^{o}$ C = 27 + 273.15 = 300.15 K\n\nT$_{2}$ = 927$^{o}$ C = 927 + 273.15 = 1200.15 K\n\nPlugging these values into the proportion formula gives:\n\n$$ \\frac{v_2}{0.3} = \\sqrt{\\frac{1200.15}{300.15}} $$\n\nCalculating the square root:\n\n$$ \\sqrt{\\frac{1200.15}{300.15}} \\approx \\sqrt{4} = 2 $$\n\nTherefore:\n\n$$ v_2 = 0.3 \\times 2 = 0.6 \\, \\text{m/sec} $$\n\nThus, the average velocity of the gas molecules at 927ºC is 0.6 m/sec.\n\nTherefore, the correct answer is: Option A (0.6 m/sec).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0.6 m/sec",
+      "0.3 m/sec",
+      "0.9 m/sec",
+      "3.0 m/sec"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_022",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Rate of diffusion of a gas is",
+    "solution": "Diffusion of a gas is described by Graham's Law, which states that the rate of diffusion (or effusion) of a gas is inversely proportional to the square root of its molecular mass. This law is mathematically represented as:\n\n$$ \\text{Rate of diffusion} \\propto \\frac{1}{\\sqrt{\\text{Molecular Mass}}} $$\n\nGiven this information, let's analyze the options:\n\nOption A: Directly proportional to its density - This is incorrect because density and molecular mass are related, but the rate of diffusion is inversely related to the square root of molecular mass, not directly proportional to density.\n\nOption B: Directly proportional to the square root of its molecular weight - This is incorrect. The relationship is inverse; the rate decreases as the molecular weight increases.\n\nOption C: Inversely proportional to the square root of its molecular weight - This is the correct option. As molecular mass increases, the rate of diffusion decreases in proportion to the inverse of the square root of the molecular mass.\n\nOption D: Directly proportional to its molecular weight - This is incorrect as it contradicts the principle of Graham's Law.\n\nThus, the correct answer is Option C: inversely proportional to the square root of its molecular weight.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "directly proportional to its density",
+      "directly proportional to the square root of its molecular weight",
+      "inversely proportional to the square root of its molecular weight.",
+      "directly proportional to its molecular weight"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_023",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Equal weights of methane and hydrogen are mixed in an empty container at 25$^{o}$C. The fraction of the total pressure exerted by hydrogen is",
+    "solution": "To find the fraction of the total pressure exerted by hydrogen, we need to use Dalton's Law of Partial Pressures, which states that the total pressure of a gas mixture is the sum of the partial pressures of each component gas in the mixture. The partial pressure exerted by each gas is directly proportional to its mole fraction in the mixture.\n\nFirst, let's determine the number of moles of methane (CH$_{4}$) and hydrogen (H$_{2}$) given that equal weights of each are mixed.\n\nThe molar mass of CH$_{4}$ is approximately 16 g/mol, and the molar mass of H$_{2}$ is approximately 2 g/mol. Let the common weight of each gas be $ w $ grams. Then, the number of moles of methane is given by:\n\n$$ n_{CH_4} = \\frac{w}{16} \\text{ moles} $$\n\nThe number of moles of hydrogen is:\n\n$$ n_{H_2} = \\frac{w}{2} \\text{ moles} $$\n\nNext, we calculate the total number of moles $ n_{total} $ in the mixture:\n\n$$ n_{total} = n_{CH_4} + n_{H_2} = \\frac{w}{16} + \\frac{w}{2} n_{total} = \\frac{w}{16} + \\frac{8w}{16} = \\frac{9w}{16} \\text{ moles} $$\n\nTo find the fraction of the total pressure exerted by hydrogen, we calculate the mole fraction of hydrogen, which is the ratio of the number of moles of hydrogen to the total number of moles:\n\n$$ \\text{Mole fraction of } H_2 = \\frac{n_{H_2}}{n_{total}} = \\frac{\\frac{w}{2}}{\\frac{9w}{16}} = \\frac{16}{18} = \\frac{8}{9} $$\n\nDalton's Law implies that the fraction of total pressure exerted by hydrogen is equal to the mole fraction of hydrogen. Therefore, the pressure fraction exerted by hydrogen is:\n\n$$ \\frac{8}{9} $$\n\nThus, the correct answer is Option B: 8/9.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1/2",
+      "8/9",
+      "1/9",
+      "16/17"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_024",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Helium atom is two times heavier than a hydrogen molecule. At 298 K, the average kinetic energy of a helium atom is",
+    "solution": "The average kinetic energy of a gas molecule or atom at a given temperature is described by the kinetic theory of gases. The formula used to calculate the average kinetic energy (KE) of each particle in a gas is given by the equation:\n\n$$ KE = \\frac{3}{2} kT $$\n\nwhere:\n\n$ k $ is the Boltzmann constant, and\n\n$ T $ is the absolute temperature in Kelvin.\n\nThis equation reveals that the average kinetic energy of any ideal gas particle depends only on the temperature, and not on the mass of the particles. Hence, at any given temperature, all ideal gas particles have the same average kinetic energy.\n\nGiven that both helium (He) and hydrogen molecule (H₂) are treated as ideal gases, at the same temperature of 298 K, the average kinetic energy of a helium atom would therefore be:\n\n$$ KE_{\\text{He}} = \\frac{3}{2} k (298) $$\n\nSimilarly, for the hydrogen molecule:\n\n$$ KE_{\\text{H}_2} = \\frac{3}{2} k (298) $$\n\nIt is evident that both expressions are identical, indicating that at 298 K, the average kinetic energy of a helium atom is the same as that of a hydrogen molecule. Despite the difference in mass between helium and hydrogen, conditions of temperature govern the kinetic energy within the framework of kinetic theory for ideal gases.\n\nThe correct answer is:\n\nOption C: same as that of a hydrogen molecule",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "two times that of a hydrogen molecule",
+      "four times that of a hydrogen molecule",
+      "same as that of a hydrogen molecule",
+      "half that of a hydrogen molecule"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_025",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ratio of root mean square velocity to average velocity of a gas molecule at a particular temperature is",
+    "solution": "The question deals with the calculation of the ratio of the root mean square velocity to the average velocity of gas molecules. To solve it, we need equations for both these velocities.\n\nThe root mean square velocity, $$v_{rms}$$, is given by the formula:\n\n$$ v_{rms} = \\sqrt{\\frac{3RT}{M}} $$\n\nwhere:\n\n$$R$$ is the universal gas constant,\n\n$$T$$ is the temperature,\n\n$$M$$ is the molar mass of the gas.\n\nThe average velocity, $$v_{avg}$$, can be calculated using the formula:\n\n$$ v_{avg} = \\sqrt{\\frac{8RT}{\\pi M}} $$\n\nTo find the ratio of the root mean square velocity to the average velocity, we take the ratio of these two expressions:\n\n$$ \\frac{v_{rms}}{v_{avg}} = \\frac{\\sqrt{\\frac{3RT}{M}}}{\\sqrt{\\frac{8RT}{\\pi M}}} $$\n\nSimplifying this, we can cancel out $$RT/M$$ from the numerator and denominator since they are present in both terms:\n\n$$ \\frac{v_{rms}}{v_{avg}} = \\frac{\\sqrt{3}}{\\sqrt{\\frac{8}{\\pi}}} = \\sqrt{\\frac{3\\pi}{8}} $$\n\nTo solve $$ \\sqrt{\\frac{3\\pi}{8}} $$ numerically, we know that $$\\pi \\approx 3.14159$$. Plugging in the values, we get:\n\n$$ \\sqrt{\\frac{3 \\times 3.14159}{8}} \\approx \\sqrt{1.178} \\approx 1.085 $$\n\nSo, the ratio of $$v_{rms}$$ to $$v_{avg}$$ is approximately 1.085, which is nearest to Option A, 1.086:1.\n\nTherefore, the correct answer is Option A, 1.086:1.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1.086:1",
+      "1:1.086",
+      "2:1.086",
+      "1.086:2"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_026",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The temperature at which a real gas obeys the ideal gas aws over a wide range of pressure is",
+    "solution": "The behavior of real gases is often analyzed to see how closely they follow the ideal gas laws, particularly as these laws are approached under varying conditions of temperature and pressure. The correct answer in context to the temperature at which a real gas behaves most like an ideal gas over a wide range of pressures is not the critical temperature, inversion temperature, or reduced temperature. Instead, it is the Boyle temperature.\n\nTo elaborate, let's look at each option:\n\nCritical temperature is the temperature above which a gas cannot be liquefied by pressure alone. At this temperature, the properties of the gas change significantly, which does not necessarily imply ideal gas behavior.\n\nBoyle temperature is the specific temperature at which a real gas adheres to Boyle's Law (PV = constant) over a wide range of pressures. At this temperature, the attractive and repulsive forces between molecules balance out in such a way that the gas's P-V behavior (pressure-volume) mimics that of an ideal gas.\n\nInversion temperature is related to the Joule-Thomson effect, which describes how the temperature of a real gas changes when it expands or compresses without the exchange of heat with its surroundings. This is different from behaving like an ideal gas over a range of pressures.\n\nReduced temperature is a term used in corresponding states theory to correlate the properties of substance under various conditions. It is dimensionless and given by $$ T_r = \\frac{T}{T_c} $$ where $ T $ is the absolute temperature and $ T_c $ is the critical temperature.\n\nSince the question specifically asks about the temperature at which the behavior of a real gas is similar to that of an ideal gas across a broad range of pressures, the answer is Option B: Boyle temperature. This is the temperature where deviations from ideal gas law due to intermolecular forces are minimized in the behavior of real gases, thus aligning more closely to the predictions by the ideal gas law (PV=nRT).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Critical temperature",
+      "Boyle temperature",
+      "Inversion temperature",
+      "Reduced temperature"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_027",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Equal weights of methane and oxygen are mixed in an empty container at 25$^{o}$C. The fraction of the total pressure exerted by oxygen is",
+    "solution": "To find the fraction of the total pressure exerted by oxygen, we need to consider the mole fractions of methane (CH$_{4}$) and oxygen (O$_{2}$) in the mixture. Here are the steps to solve this problem:\n\n1. Let us assume equal weights, say 'W' grams, of methane and oxygen are mixed.\n\n2. The molecular weights of methane and oxygen are 16 g/mol and 32 g/mol, respectively. The moles of methane (n$_{CH4}$) and moles of oxygen (n$_{O2}$) in the mixture are then calculated as follows:\n\n$$ n_{CH_4} = \\frac{\\text{Mass of CH}_4}{\\text{Molar mass of CH}_4} = \\frac{W}{16} \\text{ moles} n_{O_2} = \\frac{\\text{Mass of O}_2}{\\text{Molar mass of O}_2} = \\frac{W}{32} \\text{ moles} $$\n\n3. For W grams of each gas, ratio of moles becomes:\n\n$$ \\text{The mole ratio of CH}_4 \\text{ to O}_2 = \\frac{W/16}{W/32} = \\frac{32}{16} = 2 \\text{ to } 1 $$\n\n4. With 2 moles of CH$_{4}$ for every 1 mole of O$_{2}$, the total moles in the mixture are 3 moles (2 moles CH$_{4}$ + 1 mole O$_{2}$).\n\n5. According to Dalton's law of partial pressures, the total pressure P in the container is the sum of the partial pressures of the components. Each component's partial pressure is proportional to its mole fraction:\n\nMole fraction of O$_{2}$, $$ X_{O_2} = \\frac{n_{O_2}}{n_{total}} = \\frac{1}{3} $$\n\n6. Hence, the fraction of the total pressure exerted by oxygen would be:\n\n$$ \\text{Fraction exerted by O}_2 = X_{O_2} = \\frac{1}{3} $$\n\nTherefore, the correct answer is: Option A - 1/3.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "$${1 \\over 3} \\times {{273} \\over {298}}$$"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_028",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "[Diagram]\n\nAn ideal gas in thermally insulated vessel at internal pressure = p$_{1}$, volume = V$_{1}$ and absolute temperature = T$_{1}$ expands irreversibly against zero external pressure, as shown in the diagram.\n\nThe final internal pressure, volume and absolute temperature of the gas are p$_{2}$, V$_{2}$ and T$_{2}$, respectively. For this expansion",
+    "solution": "As the vessel is thermally insulated (so, q = 0). Therefore,\n\n$$\\Delta$$U = 0, $$\\Delta$$T = 0 $$\\Rightarrow$$ T$_{1}$ = T$_{2}$\n\nAccording to combined gas law equation,\n\n$${{{P_2}{V_2}} \\over {{T_2}}} = {{{P_1}{V_1}} \\over {{T_1}}} \\Rightarrow {P_2}{V_2} = {P_1}{V_1}$$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "q = 0",
+      "T$_{2}$ = T$_{1}$",
+      "p$_{2}$V$_{2}$ = p$_{1}$V$_{1}$",
+      "p$_{2}$V$$_2^\\gamma $$ = p$_{1}$$$_1^\\gamma $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1awkhhs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_029",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to kinetic theory of gases",
+    "solution": "(A) When gas molecules collide with each other, high energy molecule transfers some of its energy to less energetic molecule, but the total energy remains conserved. This type of collision between gas molecules is called elastic collision. According to kinetic theory of gas, no loss of energy is observed on collisions and kinetic energy is proportional to absolute temperature of gas.\nOption (A) is correct.\n(B) Momentum of any particle for example, gas molecules depends upon the mass as well as the velocity of the gas. But when there is huge increase in the mass of the gas, its velocity decreases considerably. Hence, heavier gas molecules collides the walls of container with less impact. The transfer of momentum to the walls is very less.\nOption (B) is incorrect.\n(C) Maximum number (no.) of gas molecules have speed distributed around the most probable speed ( $v_{\\mathrm{mps}}$ ). This speed corresponds to the maximum peak of Maxwell-Boltzmann distribution curve.\n\n[Diagram]\n\nThere are few molecules which have very high speed (the shaded area under the curve).\n\nOption $(\\mathrm{C})$ is correct.\n\n(D) Molecules are assumed to be moving in straight line with constant velocities.\n\nOption (D) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "collisions are always elastic",
+      "heavier molecules transfer more momentum to the wall of the container",
+      "only a small number molecules have very high velocity",
+      "between collisions, the molecules move in straight line with constant velocity"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03wblku.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_030",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A gas described by van Der Waals equation",
+    "solution": "Van der Waals equation is $$\\left( {P + {{a{n^2}} \\over {{V^2}}}} \\right)(V - nb) = nRT$$, where a is a constant whose value depends on the attraction between the gas molecules and b is the volume that is occupied by one mole of gas.\nIn option (A), it behaves similar to an ideal gas in the limit of large molar volumes. When the volume is very large then the attraction between the gas molecules can be neglected, so a $$\\approx$$ 0 and the volume occupied by one mole of gas compared to large volume of container will also be neglected. So, b $$\\approx$$ 0. Now, we can neglect a and b and the gas behaves ideally. Thus, option A is correct.\nIn option (B), it behaves similar to an ideal gas in limit of low pressure and high temperatures. Now, the pressure is very low. So, the attraction between the particles is negligible.\nVan der Waals coefficients that are dependent on the identity of the gas but are independent of the temperature. Van der Waals coefficient depends on the attraction between the gas molecules (each of which is characteristic of a gas) and b is the volume that is occupied by one mole of the molecules. So, this option is correct. Since, molecules of Van der Waals gas exert force of attraction on each other; hence, the force which they exert on the walls of the container is less than the force exerted by it if the gas would have been ideal.\nThus, option (D) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "behaves similar to an ideal gas in the limit of large molar volumes.",
+      "behaves similar to an ideal gas in the limit of large pressures.",
+      "is characterized by van der Waals coefficients that are dependent on the identity of the gas but are independent of the temperature.",
+      "has the pressure that is lower than the pressure exerted by the same gas behaving ideally."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtnj54t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_031",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The given graph represents the variation of Z (compressibility factor $=\\mathrm{PV} / n \\mathrm{RT}$ ) versus P , for three real gases $\\mathrm{A}, \\mathrm{B}$ and C . Identify the only incorrect statement.\n[Diagram]",
+    "solution": "From the given graph, it is clear that, the value of $Z$ decreases as pressure increases.\n\n[Diagram]\nThe expression for Z is given below in equation (i),\n$$ \\mathrm{Z}=\\frac{\\mathrm{PV}}{n \\mathrm{RT}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$$\nThe given equation is for van der waals equation, the modification of an ideal gas equation.\n$$ \\left(\\mathrm{P}+\\frac{a n^2}{\\mathrm{~V}^2}\\right)(\\mathrm{V}-b)=n \\mathrm{RT}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii) $$\nHere, P is the pressure, V denotes volume, R is the universal gas constant, $n$ is moles of gas and T is absolute temperature. The constants a and $b$ represents magnitude of intermolecular attraction and excluded volume respectively.\nAt higher pressure, the value of P will be large and that of V will be smaller. But, the value of $b$ cannot be ignored as compared to that of V . As V is very small, the term $\\left(\\frac{a n^2}{\\mathrm{~V}^2}\\right)$ will have negligible value and it can be ignored with respect to value of $P$ in van der waals equation. Hence, van der waals equation that is equation (ii) can be written as:\n$$ \\mathrm{P}(\\mathrm{~V}-b)=n \\mathrm{RT} $$\nAssume $n=1$ for reference. The above expression can be written as:\n$$ \\mathrm{P}(\\mathrm{~V}-b)=\\mathrm{RT} $$\nOn solving above expression,\n$$ \\mathrm{PV}-\\mathrm{P} b=\\mathrm{RT} $$\nOn rearranging the above equation,\n$$ \\mathrm{PV}=\\mathrm{RT}+\\mathrm{Pb} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii) \\begin{aligned} &\\text { Divide equation (iii) by RT, }\\\\ &\\frac{\\mathrm{PV}}{\\mathrm{RT}}=1+\\frac{\\mathrm{Pb}}{\\mathrm{RT}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iv)\\end{aligned} $$\nAssume $n=1$ for reference and $Z$ can be given as:\n$$ Z=1+\\frac{P b}{R T} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(v)$$\nThe equation (v) depicts that, the value of $Z$ will increases with pressure linearly if $Z>1$.\nAccording to graph, gas A is showing positive deviation and gas $B$ shows negative deviation.\nTherefore, statement A is correct. In case of gas B, the negative deviation shows that the value of $Z$ decreases with increase in $P$. Hence, statement B is incorrect.\nFor statement C , the graph shows that the gas $C$ behaves like a real gas and the value of $a$ or $b$ will not be equal to zero. Hence, statement $C$ is correct.\nFor statement D, consider equation (v). The slope can be calculated using equation,\n$$ y=m x+c \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(vi)$$\nOn comparing equation (v) and (vi), $y=\\mathrm{Z}$, $x=\\mathrm{P}$ and $c=1$.\nTherefore, $\\quad m=\\frac{b}{\\mathrm{RT}}$\nAs $b, \\mathrm{R}$ and T are positive, $\\frac{b}{\\mathrm{RT}}>0$.\nHence, slope will be positive and greater than 0 . Therefore, option D is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "For the gas A, $a=0$ and its dependence on P is linear at all pressure.",
+      "For the gas $\\mathrm{B}, b=0$ and its dependence on P is linear at all pressure.",
+      "For the gas C , which is typical real gas for which neither $a=0$ nor $b=0$. By knowing the minima and the point of intersection, with $Z=1, a$ and $b$ can be calculated.",
+      "At high pressure, the slope is positive for all real gases."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtnj54t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_gaseous_state_032",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A 4 : 1 molar mixture of He and CH$_{4}$ is contained in a vessel at 20 bar pressure. Due to a hole in the vessel the gas mixture leaks out. What is the composition of the mixture effusing out initially?",
+    "solution": "Partial pressure of a gas in a mixture = Mole fraction of gas $$\\times$$ Total pressure\n$$\\therefore{P_{He}} = {X_{He}} \\times P = {4 \\over 5} \\times 20 = 16$$ bar\n$${P_{C{H_4}}} = {X_{C{H_4}}} \\times P = {1 \\over 5} \\times 20 = 4$$ bar\n$${r_{He}} = {{k\\,.\\,{P_{He}}} \\over {\\sqrt {{M_{He}}} }} = {{k\\,.\\,16} \\over {\\sqrt 4 }} = 8k{r_{C{H_4}}} = {{k\\,.\\,{P_{C{H_4}}}} \\over {\\sqrt {{M_{C{H_4}}}} }} = {{k \\times 4} \\over {\\sqrt {16} }} = k\\therefore$$ Composition of the mixture (He : CH$_{4}$) effusion out = 8k : k = 8 : 1.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_033",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An LPG (liquefied petroleum gas) cylinder weighs 14.8 kg when empty. When full, it weighs 29.0 kg and shows a pressure of 2.5 atm. In the course of use at 27$^{o}$ C, the weight of the full cylinder reduces to 23.2 kg. Find out the volume of the gas in cubic meters used up at the normal usage conditions find the final pressure inside the cylinder. Assume LPG to be n-butane with normal boiling point of 0$^{o}$ C.",
+    "solution": "Weight of butane gas in filled cylinder = 29 $$-$$ 14.8 kg = 14.2 kg\n$$\\Rightarrow$$ During the course of use, weight of cylinder reduces to 23.2 kg\n$$\\Rightarrow$$ Weight of butane gas remaining now = 23.2 $$-$$ 14.8 = 8.4 kg\nAlso, during use, V (cylinder) and T remains same.\nTherefore, $${{{p_1}} \\over {{p_2}}} = {{{n_1}} \\over {{n_2}}} \\Rightarrow {p_2} = \\left( {{{{n_2}} \\over {{n_1}}}} \\right){p_1} = \\left( {{{8.4} \\over {14.2}}} \\right) \\times 2.5$$ [Here, $${{{n_2}} \\over {{n_1}}} = {{{w_2}} \\over {{w_1}}}$$]\n= 1.48 atm\nAlso, pressure of gas outside the cylinder is 1.0 atm.\n$$ \\Rightarrow pV = nRT \\Rightarrow V = {{nRT} \\over p} = {{(14.2 - 8.4) \\times {{10}^3}} \\over {58}} \\times {{0.082 \\times 30} \\over 1}L$$\n= 2460 L = 2.46 m$^{3}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_034",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A gas bulb of 1 litre capacity contains 2.0 $$\\times$$ 10$^{21}$ molecules of nitrogen exerting a pressure of 7.57 $$\\times$$ 10$^{3}$ Nm$^{-2}$. Calculate the root mean square (r.m.s) speed and the temparature of the gas molecules. If the ratio of the most probable speed to the root mean square speed is 0.82, calculate the most probable speed for these molecules at this temparature.",
+    "solution": "According to gas equation,\n$$PV = nRT$$ ; $$n = {{2 \\times {{10}^{21}}} \\over {6.02 \\times {{10}^{23}}}}T = {{PV} \\over {nR}} = {{7.57 \\times {{10}^3}\\,N{m^{ - 2}} \\times 1 \\times {{10}^{ - 3}}\\,{m^3}} \\over {{{2 \\times {{10}^{21}}} \\over {6.02 \\times {{10}^{23}}}}\\,mol \\times 8.314\\,J\\,(Nm)\\,mo{l^{ - 1}}\\,{K^{ - 1}}}} = 274.2$$ K\nRMS velocity,\n$$u = \\sqrt {{{3RT} \\over M}} = \\sqrt {{{3 \\times 8.314 \\times 274.2} \\over {28 \\times {{10}^{ - 3}}}}} = 494.2$$ ms$^{$$-$$1}$\nMost probable velocity = 0.82 $$\\times$$ u\n= 494.2 $$\\times$$ 0.82 ms$^{$$-$$1}$ = 405.2 ms$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_035",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At room temperature the following reacton is procedd nearly to completion:\n\n2NO + O$_{2}$ $$\\to$$ 2NO$_{2}$ $$\\to$$ N$_{2}$O$_{4}$\n\nThe dimer, N$_{2}$O$_{4}$, solidifies at 262 K. A 250 ml flask and a 100 ml flask are separated by a stop-cock. At 300 K, the nitric oxide in the larger flask exerts a pressure of 1.053 atm. and the smaller one contains oxygen at 0.789 atm. The gases are mixed by the opening stopcock and after the end of raction the flasks are cooled at 220K. Neglecting the vapour pressure of the dimer, find out the pressure and composition of the gas remaining at 220 K. (Assume the gases to behave ideally)",
+    "solution": "2NO + O$_{2}$ $$\\to$$ 2NO$_{2}$ $$\\to$$ N$_{2}$O$_{4}$\nNumber of moles of NO = $${{PV} \\over {RT}} = {{1.053 \\times 250} \\over {0.0821 \\times 300 \\times 1000}} = 0.0107$$\nNumber of moles of\n$${O_2} = {{0.789 \\times 100} \\over {0.0821 \\times 300 \\times 1000}} = 0.0032$$\nNow 2 moles of NO need 1 mole of O$_{2}$ for conversation into NO$_{2}$.\n$$\\therefore$$ 0.0032 moles of O$_{2}$ react with NO\n= 0.0064 moles\nNO left unreacted\n= 0.0107 $$-$$ 0.0064 = 0.0043 mol\nTotal volume of the vessels\n= 250 + 100 = 350 ml\nOxygen will be completely converted into NO$_{2}$ and NO$_{2}$ will then be completely converted into N$_{2}$O$_{4}$ (dimer) which becomes solid at 262 K; hence at 220 K, N$_{2}$O$_{4}$ is in solid state and only NO is present in gaseous state. Thus the whole volume (250 + 100 = 350 ml) of 350 ml is occupied by NO that has been left unreacted.\nTherefore the pressure, P of NO gas = $${{nRT} \\over V} = {{0.0043 \\times 0.082 \\times 220} \\over {0.350}} = 0.221$$ atm",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_036",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the volume occupied by 5.0 g of acetylene gas at 50$^{o}$C and 740 mm pressure.",
+    "solution": "Mol. mass of acetylene (C$_{2}$H$_{2}$) = 26 ; T = 50 + 273 = 323 K\n$$\\therefore$$ 5 g acetylene $$ = {5 \\over {26}}$$ moles. Let V be the volume occupied by 5 g of C$_{2}$H$_{2}$\nApplying PV = nRT, we get\n$${{740} \\over {760}} \\times V = {5 \\over {26}} \\times 0.082 \\times 323$$\nor $$V = {{5 \\times 0.082 \\times 323 \\times 760} \\over {26 \\times 740}}L = 5.23\\,L$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_037",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the root mean square velocity of ozone kept in a closes vessel at 20$^{o}$C and 82 cm mercury pressure.",
+    "solution": "$${U_{rms}} = \\sqrt {{{3RT} \\over M}} = \\sqrt {{{3 \\times 8.314 \\times {{10}^7} \\times 293} \\over {48}}} = 3.9 \\times {10^4}$$ cm sec$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_038",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At room temparature, ammonia gas at 1 atm pressure and hydrogen chloride gas at P atm pressure are allowed to effuse through identical pin holes from opposite ends of a glass tube of one metre length and of uniform cross-section. Ammonium chloride is first formed at a distance of 60 cm from the end through which HCL gas is sent in. What is the value of P?",
+    "solution": "If t is the time taken for the formation of ammonium chloride by the combination of NH$_{3}$ and HCl, then\n$${r_{HCl}} = {{60} \\over t}$$ ; $${r_{N{H_3}}} = {{40} \\over t}$$\nThe rate of diffusion, r is proportional to the root mean square velocity (u) which is equal to $$\\sqrt {{{3P} \\over d}} $$.\n$$r \\propto u \\propto {{{3P} \\over d}} \\therefore{{{r_{HCl}}} \\over {{r_{N{H_3}}}}} = {{60/t} \\over {40/t}} = {{\\sqrt {{{3{P_{HCl}}} \\over {{d_{HCl}}}}} } \\over {\\sqrt {{{3{P_{N{H_3}}}} \\over {{d_{N{H_3}}}}}} }}$$\nor $${{60} \\over {40}} = {{\\sqrt {{{3{P_{HCl}}} \\over {18.25}}} } \\over {\\sqrt {{{3 \\times 1\\,atm} \\over {8.5}}} }}$$\nor $${\\left( {{{60} \\over {40}}} \\right)^2} = {{3{P_{HCl}}} \\over {18.25}} \\times {{8.5} \\over {3\\,atm}}$$\nor $${P_{HCl}} = {{60 \\times 60} \\over {40 \\times 40}} \\times {{18.25} \\over {8.5}}$$ atm = 4.83 atm",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_039",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the van der Waal's equation (P + $${{{n^2}a} \\over {{V^2}}}$$)(V - nb) = nRT the constant 'a' reflects the actual volume of the gas molecules.",
+    "solution": "The statement in the question is FALSE, which corresponds to Option B. In the van der Waal's equation, $$ (P + \\frac{n^2 a}{V^2})(V - nb) = nRT $$, the constants 'a' and 'b' have specific roles, but they do not represent the actual volume of the gas molecules directly.\n\nThe constant 'a' in the van der Waals equation accounts for the intermolecular forces of attraction between the gas molecules. A higher value of 'a' indicates stronger attraction between the molecules, which affects how closely they can be packed together. The term $$ \\frac{n^2 a}{V^2} $$ adds to the pressure 'P' to compensate for the lowering of pressure due to these attractive forces.\n\nOn the other hand, the constant 'b' represents the volume occupied by the gas molecules themselves, known as the excluded volume. It corrects the volume term 'V' in the ideal gas equation $$ PV = nRT $$, modifying it to $$ (V - nb) $$ to account for the volume that cannot be occupied by other molecules because it is already taken up by the gas molecules themselves.\n\nTherefore, it is 'b', not 'a', that reflects the actual volume of the gas molecules in the van der Waal's equation.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_040",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Kinetic Energy of a Molecule is zero at 0$^{o}$C.",
+    "solution": "The statement that the kinetic energy of a molecule is zero at 0°C is FALSE (Option B).\n\nKinetic energy is directly related to the temperature of an object, but it does not reach zero unless the temperature is at absolute zero, which is -273.15°C or 0 Kelvin. At 0°C (273.15 Kelvin), molecules in any substance still possess kinetic energy. This kinetic energy is due to the motion of the molecules, which continue to vibrate, rotate, or translate depending on their state (solid, liquid, or gas).\n\nThe kinetic energy (KE) of an individual molecule can be quantified using the equation:\n\n$$ KE = \\frac{1}{2} m v^2 $$\n\nWhere:\n\nm = mass of the molecule\n\nv = velocity of the molecule\n\nAt any temperature above absolute zero, the velocity v is not zero, so the kinetic energy is also not zero. As long as there is thermal energy (any temperature above absolute zero), molecules will have kinetic energy due to their motion.\n\nTherefore, at 0°C, molecules still have kinetic energy derived from their thermal energy, proving the statement to be false.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_041",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A gas in a closed container will exert much higher pressure due to gravity at the bottom than at the top.",
+    "solution": "In typical scenarios, especially when discussing gases in everyday sized containers, the effect of gravity on the distribution of pressure within the gas is negligible. This is because gases have low density and high molecular motion which causes the gas molecules to distribute themselves relatively evenly in the available volume. Thus, any influence of gravity is generally not apparent, making the pressure essentially uniform throughout the gas in the container. The main factor influencing the pressure exerted by a gas is described by the ideal gas law, $$PV = nRT$$, where P is the pressure, V is the volume, n is the number of moles of gas, R is the universal gas constant, and T is the temperature in Kelvin.\n\nThis law implies that the pressure is dependent on the temperature, volume, and number of gas molecules but does not include gravity as a factor. Only in very tall containers, or in cases dealing with significantly dense gases under strong gravitational fields (such as on massive planets), does the effect of gravity on the distribution of a gas in a container become significant enough to create a gradient in pressure from top to bottom. For most practical purposes and common situations, gravity's effect on gas pressure in a container can be ignored.\n\nTherefore, the statement is **FALSE** under typical conditions involving everyday applications and container sizes.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_042",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The rate of diffusion of gas is _______ proportional to both ________ and square root of molecular mass.",
+    "solution": "The rate of diffusion of a gas is inversely proportional to both the pressure of the gas and the square root of its molecular mass. This relationship is quantitatively expressed in Graham’s Law of Effusion. According to this law, the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molecular mass, mathematically expressed as:\n\n$$ R \\propto \\frac{1}{\\sqrt{M}} $$\n\nWhere **R** is the rate of diffusion or effusion and **M** is the molecular mass of the gas.\n\nThe rate of diffusion is also influenced by the pressure of the gas. At higher pressures, the rate of diffusion decreases. However, the relationship between gas pressure and the rate of diffusion is not as straightforward as the relationship with molecular mass, and it isn't as commonly discussed in simple terms as is Graham’s Law. Typically, the effect of pressure on the rate of diffusion is more significant in specific contexts, such as under varying atmospheric conditions.\n\nIn fundamental terms, a higher pressure implies more gas molecules are present, leading to increased collision frequency among them, which can slow down the overall rate at which individual molecules spread out or move through a medium.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_gaseous_state_043",
+    "subject": "Chemistry",
+    "chapter": "Gaseous State",
+    "topic": "Gaseous State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "C$_{p}$ - C$_{v}$ for an ideal gas is _______",
+    "solution": "The difference between the molar heat capacities at constant pressure ($C_p$) and constant volume ($C_v$) for an ideal gas is a constant value given by the gas constant $R$. This relationship is expressed mathematically as:\n\n$$ C_p - C_v = R $$\n\nHere, $R$ is the universal gas constant, with a value of approximately 8.314 J/(mol·K).\n\nThe reason behind this relationship lies in the energy needed to perform work against the external pressure when the gas is heated at constant pressure, which does not happen in the case of heating at constant volume. When an ideal gas is heated at constant pressure, not only does the internal energy of the gas increase (which is also the case at constant volume) but some of the energy is also used to do work on the surroundings by expanding, which contributes to the larger value of $C_p$ compared to $C_v$. This difference is equal to the amount of work done per unit increase in temperature, which is quantitatively equivalent to the gas constant $R$.\n\nTherefore, the expression indicates that the difference in heat capacity (which essentially is the difference in the ability to store thermal energy under different conditions) is fundamentally linked to the work done by the gas during expansion at constant pressure. The equation $C_p - C_v = R$ holds true for an ideal gas because it assumes no interactions between the molecules and that all processes are reversible.",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

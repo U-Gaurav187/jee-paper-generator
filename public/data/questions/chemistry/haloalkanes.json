@@ -1,0 +1,190 @@
+[
+  {
+    "id": "chem_haloalkanes_001",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the reaction sequence given below, the correct statement(s) is(are)\n[Diagram]\n(In the options, X is any atom other than carbon and hydrogen, and it is different in **P, Q and R**)",
+    "solution": "[Diagram]\nAtoms H and Br are added across the double bond.\n\n[Diagram]\n\n[Diagram]\nFinkelstein the action is 1 an SN2 (Substitution Nucleophilic Bimolecular) relation mechanism that involves the exchange of one halogen atom for another. Here, $\\mathrm{Br}^{-}$is replaced by I.In this reaction, I attacks the carbon atom attached to the halogen Br.\nGeneral reaction:$$\n\\begin{aligned}\n& R-X+N a I \\rightarrow R-I+N a X \\\\\n& X: C l / b r\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{NaCl}, \\mathrm{NaBr})\n\\end{aligned}\n$$\n[Diagram]\n\n[Diagram]\nSwart reaction is the reaction used to synthesize alkyl fluorides from alkyl chlorides or bromides. It involves heating the alkyl halide (chloride or bromide) with a metal fluoride (AgF) to replace, the halogen $(\\mathrm{Cl}$ or Br$)$ with a fluorine atom.$$\n\\text { Hero, } \\mathrm{Br}^{-} \\text {is replaced by } \\mathrm{F}^{-}\n\n\\text { General reaction: }\n\n\\begin{aligned}\n& R-X \\quad + \\quad \\text { AgF } \\quad \\rightarrow R \\rightarrow F \\quad +\\operatorname{Ag} X \\\\\n& (X =Cl, B r)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{AgCl}, \\mathrm{AgBr})\n\\end{aligned}\n$$\n\n[Diagram]\n\n[Diagram]\nA) $C-X$ bond length in $P, Q$ and $R$ follows the order $Q > R > P $.\nBond length order $C-F < C - B r < C-I$\nBond length increases with the size of the halogen atom. Iodine is/ larger than bromine, which is longer than fluorine. Therefore the C-I bond (Q) is longer than $C-B r$ bond $(P)$, which is longer than the C-F bond (R). The correct order is $Q>P>R$. So, the statement is not correct.B) $C-X$, bond enthalpy in $P, Q$ and $R$ flows the order $R>P>Q$\nBond enthalpy is the energy required to break a bond stronger, bonds are shorter in length and require more energy to break the bond. The C-F bond (R) is the strongest and shortest bond, followed by $C -B r$ bond $(P)$, and the $C-I$ bond $(Q)$ is the weakest and longest loons. So, C-F Fond (R) requires higher energy to bond breaking. Its bond enthalpy is higher. C - I bond (Q) is the weakest bond and its bond enthalpy is lower. The bond enthalpy of $C-B r(P)$ is intermediate between $R_1$ and $Q$.$$\n\\text { So, the statement is correct. }\n$$c) Relative reactivity toward $S_{N 2}$ reaction in $P, Q$ and $\\ R$ follows the order $P>R>Q$ Reactivity towards. $S_{N^2}$, order is $C-I>C-B r>C-F$\n$Q>P>R$$S_N 2$ reactions are favoured by less steric hindrance. The order of reactivity is $I>B r>C l>F$, because larger halogens are better leaving groups. So, the correct order is $Q>P>R$. The statement is not correct.D) PK value of the conjugate acids of the leaving groups In $P, Q$ and $R$ follows the order $\\quad R>Q>P$.\n$$\n\\text { Leaving group } \\Rightarrow \\text { P }\\,\\,\\,\\,\\,\\,Q \\,\\,\\,\\,\\,\\,\\,R\n$$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\mathrm{Br}^{-} \\,\\,\\, \\mathrm{I}^{-}\\quad \\mathrm{F}^{-}$$$\n\\text { Conjugate acids } \\Rightarrow \\mathrm{HBr}\\,\\,\\, HI\\,\\,\\,\\,\\,HF\n\n\\text { pka order conjugate acids } \\Rightarrow \\mathrm{HI}<\\mathrm{HBr}<\\mathrm{HF}\n$$The acidity of the acids HBr, HI and HF, increases in the order HF < HBr < HI. So, the Orrder of pka is HI< HBr < HF orThe acidity of the acids HBr, HI and HF, increases in the order HF < HBr < HI. So, the Orrder of pka is HI< HBr < HF or$Q < P < R$ or $R > P > Q$ :\nSo, the given statement is not correct.\nCorrect statement is (B).\n\nAnswer: Option (B)",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "C–X bond length in **P, Q** and **R** follows the order **Q > R > P**.",
+      "C–X bond enthalpy in **P, Q** and **R** follows the order **R > P > Q**.",
+      "Relative reactivity toward S$_{N}$2 reaction in **P, Q** and **R** follows the order **P > R > Q**.",
+      "pK$_{a}$ value of the conjugate acids of the leaving groups in **P, Q** and **R** follows the order **R > Q > P**."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb1nmpd6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_002",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions, $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ are the major products.\n\n[Diagram]\n\n[Diagram]\n\nThe correct statement about $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\mathbf{P}$ is a primary alcohol with four carbons.",
+      "$\\mathbf{Q}$ undergoes Kolbe's electrolysis to give an eight-carbon product.",
+      "$\\mathbf{R}$ has six carbons and it undergoes Cannizzaro reaction.",
+      "$\\mathbf{S}$ is a primary amine with six carbons."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiquyky.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_003",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons :\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "solution": "(A) (i) When (2-bromopropan-2-yl)benzene on\nreaction with aqueous ethanol, an ether is\nformed by replacement of bromide ion by\nethoxy ion. The products formed are an ether\nand an acid, hydrogen bromide.\nThe presence of HBr makes the solution\nacidic.\n\n[Diagram]\n\n(ii) The 1-bromo-4-(propan-2-yl)benzene does\nnot react with aqueous ethanol. Thus, solution\nis neutral in nature.\n\n[Diagram]\n\n(B) (i) The reaction between given compound with\naqueous NaOH is an example of bimolecular\nreaction. The fluoride group at ortho position\nis replaced with hydroxy group. The fluoride\nion is liberated during the reaction. The rate\nof reaction is enhanced by the presence of\nelectron withdrawing groups at ortho and para\npositions.\n\n[Diagram]\n\n(ii) In this case, a bimolecular reaction does not\noccur. Thus, fluoride ion does not get eliminated\nfrom the compound.\n\n[Diagram]\n\n(C) (i) The nitrosobenzene on reaction with\nmixture of conc. HNO$$_3$$ and conc. H$$_2$$SO$$_4$$\nundergoes nitration. The nitrogen atom has a\nlone pair of electrons on it. Also, nitro so group\nis both ortho and para directing. Therefore, H\natoms at ortho and para will be replaced by\nnitro group producing mixture of ortho and\npara products.\n\n[Diagram]\n\n(ii) The nitrobenzene on further nitration using\nthe mixture of conc. HNO$$_3$$ and conc. H$$_2$$SO$$_4$$,\nproduces dinitrobenzene, by substituting H\natom at meta position by nitro group.\nThe nitro group is electron withdrawing group\nand is meta directing in nature.\n\n[Diagram]\n\n(D) The reaction of compound with hydrogen gas\nin presence of Pd/C as a catalyst, the compound\nundergoes reduction producing following\nproduct.\n\n[Diagram]\n\nIn the given compound, there is a central\nbenzene ring attached to three four membered\nrings which further attached to terminal\nbenzene rings. The three 4 membered rings\nare antiaromatic in nature. During a chemical\nreaction, the rings will be undergoing reaction\nsuch that most stable product will be formed.\nWhen a central benzene ring will undergo\nreduction, the stability of three antiaromatic\nrings will be achieved. Thus, compound\nobtained is quite stable.\nIf the reduction of one of the terminal benzene\nrings occurs, only one four membered\nantiaromatic ring will attain stability. Thus,\nthe compound produced will be less stable as\ncompared to that of first compound.\nFinal Answer :\n(A) (i) Due to formation of acid, HBr\n(ii) No reaction\n(B) (i) Bimolecular reaction occurs.\n(ii) No bimolecular reaction.\n(C) (i) Nitro group is both ortho and para directing\nin this case and N atom of NO group has a lone\npair of electrons on it.\n(ii) In this case, nitro group is meta directing.\n(D) The reduction of central benzene ring will give\nstability to 3 four membered antiaromatic rings,\nproducing a stable compound.\nHints :\nThe reaction between (2-bromopropan-2-yl)\nbenzene with aqueous ethanol, produces an\nether with HBr which is an acid. Hence, the\nsolution becomes acidic in nature.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9m3gc1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_004",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Compound(s) that on hydrogenation produce(s) optically inactive compound(s) is(are)",
+    "solution": "[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13i6nb4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_005",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) about the compound given below is(are):\n\n[Diagram]",
+    "solution": "We know that following are the cases when a compound is optically inactive:\n1. When it does not have a chiral carbon atom e.g., Methyl bromide\n2. When it has a plane or axis of symmetry e.g., Tartaric acid (these compounds are called as Meso compounds)\n3. When it forms a racemic mixture e.g.: Equimolar mixture of d-Lactic acid and l-Lactic acid.\nThe given compound possesses an axis of symmetry\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "The compound is optically active.",
+      "The compound possesses centre of symmetry.",
+      "The compound possesses plane of symmetry.",
+      "The compound possesses axis of symmetry."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg94ninq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_006",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "KI in acetone, undergoes S$_{N}$2 reaction with each of P, Q, R and S. The rates of the reaction vary as\n\n[Diagram]",
+    "solution": "The bulky groups cause steric hindrance in the formation of transition state. Therefore, higher homologues (Q) are less reactive than lower homologues (P). In compound (S), the transition state is highly stabilized by Ph-(C=O)- group, so it has highest rate of reaction towards S$_{N}$2.\nThe relative reactivities towards S$_{N}$2 reaction S > P > R > Q.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P > Q > R > S",
+      "S > P > R > Q",
+      "P > R > Q > S",
+      "R > P > S > Q"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1sah9lo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_007",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction is:\n\n[Diagram]",
+    "solution": "Alkyl halides undergo nucleophilic substitution more readily than aryl halides due to partial double bond character between aryl carbon and halogen. Hence, substitution occurs more readily in the side chain rather than in the ring. PhS$$^-$$ is a strong nucleophile and dimethylformamide (DMF) is a highly polar aprotic solvent. Hence, nucleophilic substitution (S$$_\\mathrm{N}2$$) takes place at 2$$^\\circ$$ benzylic carbon. Stereochemically, it involves inversion of configuration at benzylic carbon atom.\n\n[Diagram]\n\nAlkyl group exhibit neighbouring group participation or anchimeric assistance from aryl group but deactivation by $$-$$NO$$_2$$ and $$-$$F makes S$$_\\mathrm{N}1$$ difficult and retention of configuration at chiral carbon does not takes place.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg870gig.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_haloalkanes_008",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes",
+    "topic": "Haloalkanes & Haloarenes",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Statement 1 : Bromobenzene upon reaction with Br$$_2$$/Fe gives 1, 4-dibromobenzene as the major product.\nand\nStatement 2: In bromobenzene, the inductive effect of the bromo group is more dominant than the mesomeric effect in directing the incoming electrophile.",
+    "solution": "[Diagram]\n\nBromine orientation is controlled by its mesomeric effect. Its stabilisation of arenium ion by +M activity.\n\n[Diagram]\n\nIn bromobenzene, the inductive effect of the bromo group is more dominant than the mesomeric effect in directing the incoming electrophile at para position. As a result, only mono substitution of bromobenzene takes place.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a correct explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT correct explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is False.",
+      "Statement 1 is False, Statement 2 is True."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6ow6bg.png",
+      "position": "bottom"
+    }
+  }
+]

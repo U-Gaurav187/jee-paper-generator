@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "math_quadratic_equations_001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha ,\\,\\beta $$ be the roots of the equation $${x^2} - px + r = 0$$ and $${\\alpha \\over 2},\\,2\\beta $$ be the roots of the equation $${x^2} - qx + r = 0$$. Then the value of $$r$$",
+    "solution": "To solve for the coefficient of $ x^3 $ in the function $ h(x) = f(x + 1) - g(x + 2) $, we start by expanding both $ f(x + 1) $ and $ g(x + 2) $.\nFirst, expand $ f(x + 1) $:\n$ f(x+1) = a_1 + 10(x+1) + a_2 (x+1)^2 + a_3 (x+1)^3 + (x+1)^4 $\nFrom this expansion, the coefficient of $ x^3 $ in $ f(x+1) $ is $ a_3 + 4 $.\nNext, expand $ g(x + 2) $:\n$ g(x+2) = b_1 + 3(x+2) + b_2 (x+2)^2 + b_3 (x+2)^3 + (x+2)^4 $\nHere, the coefficient of $ x^3 $ in $ g(x+2) $ is $ b_3 + 8 $.\nNow, calculate the coefficient of $ x^3 $ in $ h(x) = f(x+1) - g(x+2) $:\n$ \\text{Coefficient of } x^3 \\text{ in } h(x) = (a_3 + 4) - (b_3 + 8) = a_3 - b_3 - 4 $\nGiven that $ f(x)\neq g(x) $ for every $ x \\in \\mathbb{R} $, it follows that $ f(x) - g(x)\neq 0 $ for any $ x $. This means the equation:\n$ (a_1 - b_1) + 7x + (a_2 - b_2)x^2 + (a_3 - b_3)x^3 = 0 $\ncannot have any real roots. For this polynomial to have no real roots, the degree of the polynomial must be less than or equal to zero, implying that the coefficients of the highest degree terms must equate to zero. Thus, $ a_3 - b_3 = 0 $.\nSubstituting $ a_3 - b_3 = 0 $ into our earlier expression for the coefficient of $ x^3 $ in $ h(x) $ gives:\n$ a_3 - b_3 - 4 = -4 $\nThus, the coefficient of $ x^3 $ in $ h(x) $ is $-4$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${2 \\over 9}\\left( {p - q} \\right)\\left( {2q - p} \\right)$$",
+      "$${2 \\over 9}\\left( {q - p} \\right)\\left( {2p - q} \\right)$$",
+      "$${2 \\over 9}\\left( {q - 2p} \\right)\\left( {2q - p} \\right)$$",
+      "$${2 \\over 9}\\left( {2p - q} \\right)\\left( {2q - p} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let *a, b, c* be positive integers in arithmetic progression such that the equation**$$ax^2 + bx + c = 0$$**has only integer solutions.Then which of the following statements is (are) TRUE?",
+    "solution": "Let the roots of the quadratic equation be $ \\alpha $ and $ \\beta $.\nFrom the relation between coefficients and roots, we know that:\n$$ \\alpha + \\beta = \\frac{-b}{a} = k_1 \\quad \\Rightarrow \\quad b = -a k_1 \\, \\text{where} \\, k_1 \\in \\mathbb{Z} $$\nAlso,\n$$ \\alpha \\beta = \\frac{c}{a} = k_2 \\quad \\Rightarrow \\quad c = a k_2 \\, \\text{where} \\, k_2 \\in \\mathbb{Z} $$\nSince $ a, b, c $ are in arithmetic progression, we have:\n$$ c - b = b - a $$\nSubstituting the values of $ b $ and $ c $ from above:\n$$ a k_2 + a k_1 = 2a k_1 + a \\Rightarrow k_2 = -2k_1 - 1 $$\nNow, the quadratic equation becomes:\n$$ x^2 - k_1 x + k_2 = 0 $$\nSubstituting the value of $ k_2 $:\n$$ x^2 - k_1 x - 2k_1 - 1 = 0 $$\nSince $ \\alpha \\beta = k_2 $ is odd, both roots $ \\alpha $ and $ \\beta $ must be odd integers.\nLet us test some possible integer values. For example, if $ c = 15 $, the pairs of integer roots could be $ (-1, -15) $ or $ (-3, -5) $.\nIf the roots are $ -1 $ and $ -15 $, then:\n\nSum of roots $ = -16 \\Rightarrow b = 16, \\; a = 17 $\n\nThe quadratic becomes $ 17x^2 + 16x + 15 = 0 $.\nThis does not satisfy the condition because its roots are not the expected $ -1 $ and $ -15 $.\nNow, if the roots are $ -3 $ and $ -5 $, then:\n\nSum of roots $ = -8, \\; \\text{Product} = 15 $\n\nHence, the quadratic is $ x^2 + 8x + 15 = 0 $.\nThis equation fits our condition with integer roots.\nFor the equation $ x^2 - k_1 x - 2k_1 - 1 = 0 $, substitute $ x = 3 $:\n$$ 9 - 3k_1 - 2k_1 - 1 = 0 \\Rightarrow 8 - 5k_1 = 0 \\Rightarrow k_1 = \\frac{5}{8} $$\nSince $ k_1 $ must be an integer, this is not possible. Hence, 3 cannot be a root of the quadratic equation.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "*c - b* is an integer multiple of *a*",
+      "Both the roots of the equation $ax^2 + bx + c = 0$ are odd integers",
+      "If $c = 15$, then $ab = 8$",
+      "If $b = 8$, then $x = 3$ is a root of the equation $ax^2 + bx + c = 0$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $a=3 \\sqrt{2}$ and $b=\\frac{1}{5^{1 / 6} \\sqrt{6}}$. If $x, y \\in \\mathbb{R}$ are such that\n\n$$ \\begin{aligned} & 3 x+2 y=\\log _a(18)^{\\frac{5}{4}} \\quad \\text { and } \\\\ & 2 x-y=\\log _b(\\sqrt{1080}), \\end{aligned} $$\n\nthen $4 x+5 y$ is equal to __________.",
+    "solution": "Given:\n\n$ a = 3\\sqrt{2} \\Rightarrow a^2 = 18 $\n\n**Simplification of $\\log_a(18)^{\\frac{5}{4}}$**\n\nSince $a^2 = 18$, we have:\n\n$ \\log_a(18) = \\log_a(a^2) = 2 $\n\nTherefore:\n\n$ \\log_a(18)^{\\frac{5}{4}} = \\frac{5}{4} \\log_a(18) = \\frac{5}{4} \\cdot 2 = \\frac{5}{2} $\n\nSo the equation becomes:\n\n$ 3x + 2y = \\frac{5}{2} $\n\n**Simplification of $\\log_b(\\sqrt{1080})$**\n\nGiven:\n\n$ 1080 = 2^3 \\cdot 3^3 \\cdot 5 = 6^3 \\cdot 5 $\n\n$ b = \\frac{1}{5^{1/6} \\sqrt{6}} $\n\n$ \\Rightarrow \\frac{1}{b} = 5^{1/6} \\sqrt{6} $\n\n$ \\Rightarrow 1080^{1/6} = 5^{1/6} \\cdot 6^{1/2} = \\frac{1}{b} $\n\nTaking the square root of both sides:\n\n$ \\sqrt{1080} = \\frac{1}{b^3} $\n\nThus:\n\n$ \\log_b(\\sqrt{1080}) = \\log_b\\left(\\frac{1}{b^3}\\right) = \\log_b(b^{-3}) = -3 $\n\nSo the second equation becomes:\n\n$ 2x - y = -3 $\n\n**Solving the System of Equations**\n\nNow we have:\n\n$ 3x + 2y = \\frac{5}{2} $\n\n$ 2x - y = -3 $\n\nMultiply the second equation by 2:\n\n$ 4x - 2y = -6 $\n\nAdd this to the first equation:\n\n$ 3x + 2y + 4x - 2y = \\frac{5}{2} - 6 $\n\n$ 7x = \\frac{5}{2} - 6 $\n\n$ 7x = \\frac{5}{2} - \\frac{12}{2} $\n\n$ 7x = \\frac{5 - 12}{2} $\n\n$ 7x = -\\frac{7}{2} $\n\n$ x = -\\frac{1}{2} $\n\nSubstitute $x$ back into $2x - y = -3$:\n\n$ 2\\left(-\\frac{1}{2}\\right) - y = -3 $\n\n$ -1 - y = -3 $\n\n$ -y = -2 $\n\n$ y = 2 $\n\nFinding $4x + 5y$\n\n$ 4x + 5y = 4 \\left(-\\frac{1}{2}\\right) + 5 \\cdot 2 $\n\n$ = -2 + 10 $\n\n$ = 8 $\n\nThus, the value of $4x + 5y$ is $\\boxed{8}$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_004",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a,\\,b,c$$ are positive real numbers. Then prove that\n$$${\\left( {a + 1} \\right)^7}{\\left( {b + 1} \\right)^7}{\\left( {c + 1} \\right)^7} > {7^7}\\,{a^4}{b^4}{c^4}$$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_005",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The sum of all the real roots of the equation $${\\left| {x - 2} \\right|^2} + \\left| {x - 2} \\right| - 2 = 0$$ is ............................",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_006",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If x and y are positive real numbers and m, n are any positive integers, then $${{{x^n}\\,{y^m}} \\over {(1 + {x^{2n}})\\,(1 + {y^{2m}})}} > {1 \\over 4}$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_007",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $a_i, b_i \\in \\mathbb{R}$ for $i \\in \\{1, 2, 3\\}$.\nDefine the functions $f: \\mathbb{R} \\to \\mathbb{R}$, $g: \\mathbb{R} \\to \\mathbb{R}$, and $h: \\mathbb{R} \\to \\mathbb{R}$ by\n$f(x) = a_1 + 10x + a_2 x^2 + a_3 x^3 + x^4$\n$g(x) = b_1 + 3x + b_2 x^2 + b_3 x^3 + x^4$\n$h(x) = f(x + 1) - g(x + 2)$\nIf $f(x)\neq g(x)$ for every $x \\in \\mathbb{R}$, then the coefficient of $x^3$ in $h(x)$ is",
+    "solution": "To solve for the coefficient of $ x^3 $ in the function $ h(x) = f(x + 1) - g(x + 2) $, we start by expanding both $ f(x + 1) $ and $ g(x + 2) $.\nFirst, expand $ f(x + 1) $:\n$ f(x+1) = a_1 + 10(x+1) + a_2 (x+1)^2 + a_3 (x+1)^3 + (x+1)^4 $\nFrom this expansion, the coefficient of $ x^3 $ in $ f(x+1) $ is $ a_3 + 4 $.\nNext, expand $ g(x + 2) $:\n$ g(x+2) = b_1 + 3(x+2) + b_2 (x+2)^2 + b_3 (x+2)^3 + (x+2)^4 $\nHere, the coefficient of $ x^3 $ in $ g(x+2) $ is $ b_3 + 8 $.\nNow, calculate the coefficient of $ x^3 $ in $ h(x) = f(x+1) - g(x+2) $:\n$ \\text{Coefficient of } x^3 \\text{ in } h(x) = (a_3 + 4) - (b_3 + 8) = a_3 - b_3 - 4 $\nGiven that $ f(x)\neq g(x) $ for every $ x \\in \\mathbb{R} $, it follows that $ f(x) - g(x)\neq 0 $ for any $ x $. This means the equation:\n$ (a_1 - b_1) + 7x + (a_2 - b_2)x^2 + (a_3 - b_3)x^3 = 0 $\ncannot have any real roots. For this polynomial to have no real roots, the degree of the polynomial must be less than or equal to zero, implying that the coefficients of the highest degree terms must equate to zero. Thus, $ a_3 - b_3 = 0 $.\nSubstituting $ a_3 - b_3 = 0 $ into our earlier expression for the coefficient of $ x^3 $ in $ h(x) $ gives:\n$ a_3 - b_3 - 4 = -4 $\nThus, the coefficient of $ x^3 $ in $ h(x) $ is $-4$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "8",
+      "2",
+      "-4",
+      "-6"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_008",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose a, b denote the distinct real roots of the quadratic polynomial x$^{2}$ + 20x $$-$$ 2020 and suppose c, d denote the distinct complex roots of the quadratic polynomial x$^{2}$ $$-$$ 20x + 2020. Then the value of\n\nac(a $$-$$ c) + ad(a $$-$$ d) + bc(b $$-$$ c) + bd(b $$-$$ d) is",
+    "solution": "Given quadratic polynomials, x$^{2}$ + 20x $$-$$ 2020 and x$^{2}$ $$-$$ 20x + 2020 having a, b distinct real and c, d distinct complex roots respectively.\n\nSo, a + b = $$-$$20, ab = $$-$$2020\n\nand c + d = 20, cd = 2020\n\nNow, ac(a $$-$$c) + ad(a $$-$$ d) + bc(b $$-$$c) + bd(b $$-$$ d)\n\n= a$^{2}$(c + d) $$-$$ a(c$^{2}$ + d$^{2}$) + b$^{2}$(c + d) $$-$$ b(c$^{2}$ + d$^{2}$)\n\n= (c + d) (a$^{2}$ + b$^{2}$) $$-$$ (c$^{2}$ + d$^{2}$) (a + b)\n\n= (c + d)[(a + b)$^{2}$ $$-$$ 2ab] $$-$$ (a + b)[(c + d)$^{2}$ $$-$$ 2cd]\n\n= 20[(20)$^{2}$ + 4040] + 20[(20)$^{2}$ $$-$$ 4040]\n\n= 2 $$ \\times $$ 20 $$ \\times $$ (20)$^{2}$ = 40 $$ \\times $$ 400 = 16000",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0",
+      "8000",
+      "8080",
+      "16000"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_009",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "a$_{12}$ = ?",
+    "solution": "$$\\alpha $$$^{2}$ = $$\\alpha $$ + 1\n\n$$\\beta $$$^{2}$ = $$\\beta $$ + 1\n\na$_{n}$ = p$$\\alpha $$$^{n}$ + q$$\\beta $$$^{n}$\n\n= p($$\\alpha $$$^{n$$-$$1}$ + $$\\alpha $$$^{n$$-$$2}$) + q($$\\beta $$$^{n$$-$$1}$ + $$\\beta $$$^{n$$-$$2}$)\n\n= a$_{n$$-$$1}$ + a$_{n$$-$$2}$\n\n$$ \\therefore $$ a$_{12}$ = a$_{11}$ + a$_{10}$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "a$_{11}$ + 2a$_{10}$",
+      "2a$_{11}$ + a$_{10}$",
+      "a$_{11}$ $$-$$ a$_{10}$",
+      "a$_{11}$ + a$_{10}$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_010",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a$_{4}$ = 28, then p + 2q =",
+    "solution": "$$\\alpha = {{1 + \\sqrt 5 } \\over 2}$$,\n\n$$\\beta = {{1 - \\sqrt 5 } \\over 2}{a_4} = {a_3} + {a_2} = 2{a_2} + {a_1} = 3{a_1} + 2{a_0}28 = p(3\\alpha + 2) + q(3\\beta + 2)28 = (p + q)\\left( {{3 \\over 2} + 2} \\right) + (p - q)\\left( {{{3\\sqrt 5 } \\over 2}} \\right) \\therefore $$ p $$-$$ q = 0\n\nand $$(p + q) \\times {7 \\over 2} = 28 \\Rightarrow $$ p + q = 8\n\n$$ \\Rightarrow $$ p = q = 4\n\n$$ \\therefore $$ p + 2q = 12",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "14",
+      "7",
+      "21",
+      "12"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_011",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$ - {\\pi \\over 6} < \\theta < - {\\pi \\over {12}}.$$ Suppose $${\\alpha _1}$$ and $${\\beta_1}$$ are the roots of the equation $${x^2} - 2x\\sec \\theta + 1 = 0$$ and $${\\alpha _2}$$ and $${\\beta _2}$$ are the roots of the equation $${x^2} + 2x\\,\\tan \\theta - 1 = 0.If\\,{\\alpha _1} > {\\beta _1}$$ and $${\\alpha _2} > {\\beta _2},$$ then $${\\alpha _1} + {\\beta _2}$$ equals",
+    "solution": "Given, first equation $x^2-2 x \\sec \\theta+1=0$\n\nUsing quadratic equation formula we get,\n\n$$\n\\begin{aligned}\nx & =\\frac{-(-2 \\sec \\theta) \\pm \\sqrt{(-2 \\sec \\theta)^2-4}}{2} \\\\\\\\\n\\Rightarrow & x=\\frac{2 \\sec \\theta \\pm \\sqrt{4 \\sec ^2 \\theta-4}}{2} \\\\\\\\\n\\Rightarrow & x=\\frac{2 \\sec \\theta \\pm 2 \\tan \\theta}{2} \\\\\\\\\n\\Rightarrow & x=\\sec \\theta \\pm \\tan \\theta \\text { as } \\theta \\in\\left(\\frac{-\\pi}{6}, \\frac{-\\pi}{2}\\right) \\\\\\\\\n\\Rightarrow & \\alpha_1=\\sec \\theta-\\tan \\theta \\text { and } \\beta_1=\\sec \\theta+\\tan \\theta\n\\end{aligned}\n$$\n\nNow, for the equation $x^2+2 x \\tan \\theta-1=0$\n\n$$\n\\begin{aligned}\n& x=\\frac{-2 \\tan \\theta \\pm \\sqrt{4 \\tan ^2 \\theta+4}}{2} \\\\\\\\\n\\Rightarrow & x=\\frac{-2 \\tan \\theta \\pm 2 \\sec \\theta}{2} \\\\\\\\\n\\Rightarrow & x=-\\tan \\theta \\pm \\sec \\theta \\\\\\\\\n\\Rightarrow & x=(\\sec \\theta-\\tan \\theta),-(\\sec \\theta+\\tan \\theta)\n\\end{aligned}\n$$\n\nGiven, that $\\alpha_2$ and $\\beta_2$ are the roots of equation and $\\alpha_2>\\beta_2$\n\n$$\n\\begin{aligned}\n&\\Rightarrow \\alpha_2 =\\sec \\theta-\\tan \\theta, \\beta_2=-(\\sec \\theta+\\tan \\theta) \\\\\\\\\n&\\Rightarrow \\alpha_1+\\beta_2 =(\\sec \\theta-\\tan \\theta)-(\\sec \\theta+\\tan \\theta) \\\\\\\\\n& =\\sec \\theta-\\tan \\theta-\\sec \\theta-\\tan \\theta \\\\\\\\\n&\\Rightarrow \\alpha_1+\\beta_2 =-2 \\tan \\theta\n\\end{aligned}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$2\\left( {\\sec \\theta - \\tan \\theta } \\right)$$",
+      "$$2\\,\\sec \\,\\theta $$",
+      "$$ - 2\\tan \\theta $$",
+      "$$0$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_012",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The quadratic equation $$p(x) = 0$$ with real coefficients has purely imaginary roots. Then the equation $$p(p(x))=0$$ has",
+    "solution": "Given, a quadratic equation $$p(x)=0$$ with real coefficients has purely imaginary roots.\nLet $$i \\lambda$$ and $$-i \\lambda$$ are the roots of $$p(x)=0$$ where $$i=\\sqrt{-1}$$ and $$\\lambda$$ is a real number except zero.\n$$\\begin{aligned}\n& \\therefore p(x)=a(x-i \\lambda)(x+i \\lambda) \\\\\n& \\Rightarrow p(x)=a\\left(x^2+\\lambda^2\\right)\n\\end{aligned}$$\nNow, $$\\quad p(p(x))=0\\Rightarrow \\quad a\\left((p(x))^2+\\lambda^2\\right)=0\\Rightarrow a\\left[a^2\\left(x^2+\\lambda^2\\right)^2+\\lambda^2\\right]=0\\Rightarrow a^2\\left(x^2+\\lambda^2\\right)^2+\\lambda^2=0\\Rightarrow \\quad\\left(x^2+\\lambda^2\\right)^2=-\\frac{\\lambda^2}{a^2}\\Rightarrow \\quad x^2+\\lambda^2= \\pm i \\frac{\\lambda}{a}\\Rightarrow \\quad x^2= \\pm i \\frac{\\lambda}{a}-\\lambda^2\\Rightarrow \\quad x= \\pm \\sqrt{ \\pm i \\frac{\\lambda}{a}-\\lambda^2}$$\nHence, $$p(p(x))=0$$ has four roots but all the roots are neither purely real nor purely imaginary.\nHint:\n(i) In a quadratic equation imaginary roots are always in conjugate pair i.e, if one root is $$p+i q$$, then other root must be $$p-i q$$\n(ii) A quadratic equation with real coefficients has purely imaginary roots, then consider $$\\pm i \\lambda$$ are the roots of the given quadratic, where $$\\lambda \\in \\mathrm{R}-\\{0\\}$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "one purely imaginary root",
+      "all real roots",
+      "two real and two purely imaginary roots",
+      "neither real nor purely imaginary roots"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_013",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha$$(a) and $$\\beta$$(a) be the roots of the equation $$(\\root 3 \\of {1 + a} - 1){x^2} + (\\sqrt {1 + a} - 1)x + (\\root 6 \\of {1 + a} - 1) = 0$$ where $$a > - 1$$. Then $$\\mathop {\\lim }\\limits_{a \\to {0^ + }} \\alpha (a)$$ and $$\\mathop {\\lim }\\limits_{a \\to {0^ + }} \\beta (a)$$ are",
+    "solution": "Let a + 1 = t$^{6}$. Thus, when a $$\\to$$ 0, t $$\\to$$ 1.\n$$\\therefore({t^2} - 1){x^2} + ({t^3} - 1)x + (t - 1) = 0 \\Rightarrow (t - 1)\\{ (t + 1){x^2} + ({t^2} + t + 1)x + 1\\} = 0$$,\nas t $$\\to$$ 1\n$$2{x^2} + 3x + 1 = 0 \\Rightarrow 2{x^2} + 2x + x + 1 = 0 \\Rightarrow (2x + 1)(x + 1) = 0$$\nThus, x = $$-$$1, $$-$$1/2\nor, $$\\mathop {\\lim }\\limits_{a \\to {0^ + }} \\alpha (a) = - {1 \\over 2}$$\nand $$\\mathop {\\lim }\\limits_{a \\to {0^ + }} \\beta (a) = - 1$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$ - {5 \\over 2}$$",
+      "$$ - {1 \\over 2}$$",
+      "$$ - {7 \\over 2}$$",
+      "$$ - {9 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_014",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A value of $$b$$ for which the equations\n$$$\\matrix{\n{{x^2} + bx - 1 = 0} \\cr\n{{x^2} + x + b = 0} \\cr\n\n} $$$\nhave one root in common is",
+    "solution": "The given equations are\n$${x^2} + bx - 1 = 0{x^2} + x + b = 0$$ ....... (1)\nCommon root is $$(b - 1)x - 1 - b = 0$$.\n$$ \\Rightarrow x = {{b + 1} \\over {b - 1}}$$\nThis value of x satisfies Eq. (1), we get\n$${{{{(b + 1)}^2}} \\over {{{(b - 1)}^2}}} + {{b + 1} \\over {b - 1}} + b = 0 \\Rightarrow b = i\\sqrt 3 ,\\, - i\\sqrt 3 ,\\,0$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$ - \\sqrt 2 $$",
+      "$$ - i\\sqrt 3$$",
+      "$$i\\sqrt 5 $$",
+      "$$\\sqrt 2 $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_015",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\left( {{x_0},{y_0}} \\right)$$ be the solution of the following equations\n\n$$\\matrix{\n{{{\\left( {2x} \\right)}^{\\ell n2}}\\, = {{\\left( {3y} \\right)}^{\\ell n3}}} \\cr\n{{3^{\\ell nx}}\\, = {2^{\\ell ny}}} \\cr\n\n} $$\n\nThen $${x_0}$$ is",
+    "solution": "We have,\n$${(2x)^{\\ln 2}} = {(3y)^{\\ln 3}}$$ ...... (1)\n$${3^{\\ln x}} = {2^{\\ln y}}$$ ....... (2)\n$$ \\Rightarrow (\\log x)(\\log 3) = (\\log y)\\log 2 \\Rightarrow \\log y = {{(\\log x)(\\log 3)} \\over {\\log 2}}$$ ........ (3)\nTaking log both sides of Eq. (1), we get\n$$(\\log 2)\\{ \\log 2 + \\log x\\} = \\log 3\\{ \\log 3 + \\log y\\} {(\\log 2)^2} + (\\log 2)(\\log x) = {(\\log 3)^2} + {{{{(\\log 3)}^2}(\\log x)} \\over {\\log 2}}$$ from Eq. (3)\n$$ \\Rightarrow {(\\log 2)^2} - {(\\log 3)^2} = {{{{(\\log 3)}^2} - {{(\\log 2)}^2}} \\over {\\log 2}}(\\log x) \\Rightarrow - \\log 2 = \\log x \\Rightarrow x = {1 \\over 2} \\Rightarrow {x_0} = {1 \\over 2}$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 6}$$",
+      "$${1 \\over 3}$$",
+      "$${1 \\over 2}$$",
+      "$$6$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_016",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha $$ and $$\\beta $$ be the roots of $${x^2} - 6x - 2 = 0,$$ with $$\\alpha > \\beta .$$ If $${a_n} = {\\alpha ^n} - {\\beta ^n}$$ for $$\\,n \\ge 1$$ then the value of $${{{a_{10}} - 2{a_8}} \\over {2{a_9}}}$$ is",
+    "solution": "We have, $${a_n} = {\\alpha ^n} - {\\beta ^n}{\\alpha ^2} - 6\\alpha - 2 = 0$$\nMultiplying with $$\\alpha$$$^{8}$ on both sides, we get\n$${\\alpha ^{10}} - 6{\\alpha ^9} - 2{\\alpha ^8} = 0$$ ..... (1)\nSimilarly, $${\\beta ^{10}} - 6{\\beta ^9} - 2{\\beta ^8} = 0$$ ..... (2)\nFrom Eqs. (1) and (2), we get\n$${\\alpha ^{10}} - {\\beta ^{10}} - 6({\\alpha ^9} - {\\beta ^9}) = 2({\\alpha ^8} - {\\beta ^8}) \\Rightarrow {a_{10}} - 6{a_9} = 2{a_8} \\Rightarrow {{{a_{10}} - 2{a_8}} \\over {2{a_9}}} = 3$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_017",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$p$$ and $$q$$ be real numbers such that $$p\ne 0,\\,{p^3}\ne q$$ and $${p^3}\ne - q.$$ If $${p^3}\ne - q.$$ and $$\\,\\beta $$ are nonzero complex numbers satisfying $$\\alpha \\, + \\beta = - p\\,$$ and $${\\alpha ^3} + {\\beta ^3} = q,$$ then a quadratic equation having $${\\alpha \\over \\beta }$$ and $${\\beta \\over \\alpha }$$ as its roots is",
+    "solution": "Sum of roots = $${{{\\alpha ^2} + {\\beta ^2}} \\over {\\alpha \\beta }}$$ and product = 1\nGiven, $$\\alpha$$ + $$\\beta$$ = $$-$$ p and $$\\alpha$$$^{3}$ + $$\\beta$$$^{3}$ = q\n$$ \\Rightarrow (\\alpha + \\beta )({\\alpha ^2} - \\alpha \\beta + {\\beta ^2}) = q\\therefore{\\alpha ^2} + {\\beta ^2} - \\alpha \\beta = {{ - q} \\over p}$$ ..... (i)\nand $${(\\alpha + \\beta )^2} = {p^2} \\Rightarrow {\\alpha ^2} + {\\beta ^2} + 2\\alpha \\beta = {p^2}$$ ..... (ii)\nFrom Eq. (i) and (ii), we get\n$${\\alpha ^2} + {\\beta ^2} = {{{p^3} - 2q} \\over {3p}}$$\nand $$\\alpha \\beta = {{{p^3} + q} \\over {3p}}\\therefore$$ Required equation is\n$${x^2} - {{({p^2} - 2q)x} \\over {({p^3} + q)}} + 1 = 0 \\Rightarrow ({p^3} + q){x^2} - ({p^3} - 2q)x + ({p^3} + q) = 0$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( {{p^3} + q} \\right){x^2} - \\left( {{p^3} + 2q} \\right)x + \\left( {{p^3} + q} \\right) = 0$$",
+      "$$\\left( {{p^3} + q} \\right){x^2} - \\left( {{p^3} - 2q} \\right)x + \\left( {{p^3} + q} \\right) = 0$$",
+      "$$\\left( {{p^3} - q} \\right){x^2} - \\left( {5{p^3} - 2q} \\right)x + \\left( {{p^3} - q} \\right) = 0$$",
+      "$$\\left( {{p^3} - q} \\right){x^2} - \\left( {5{p^3} + 2q} \\right)x + \\left( {{p^3} - q} \\right) = 0$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_018",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a,\\,b,c$$, $$p,q$$ be real numbers. Suppose $$\\alpha ,\\,\\beta $$ are the roots of the equation $${x^2} + 2px + q = 0$$ and $$\\alpha ,{1 \\over \\beta }$$ are the roots of the equation $$a{x^2} + 2bx + c = 0,$$ where $${\\beta ^2} \\in \\left\\{ { - 1,\\,0,\\,1} \\right\\}$$\n**STATEMENT - 1 :** $$\\left( {{p^2} - q} \\right)\\left( {{b^2} - ac} \\right) \\ge 0$$\n\nand\n**STATEMENT - 2 :** $$b\ne pa$$ or $$c\ne qa$$",
+    "solution": "As a, b, c, p, q $$\\in$$ R and the two given equations have exactly one common root.\n$$\\Rightarrow$$ Either both equations have real roots.\nOr both equations have imaginary roots.\n$$\\Rightarrow$$ Either $$\\Delta_1\\ge0$$ and $$\\Delta_2 > 0$$ or\n$$\\Delta_1 < 0$$ and $$\\Delta_2 < 0\\Rightarrow~p^2-q\\ge0$$ and $$b^2-ac\\ge0$$\nor $$p^2-q\\le0$$ and $$b^2-ac\\le0\\Rightarrow~(p^2-q)(b^2-ac)\\ge0\\therefore$$ Statement 1 is true.\nAlso, we have $$\\alpha\\beta=q$$ and $${\\alpha \\over \\beta } = {c \\over a}\\therefore{{\\alpha \\beta } \\over {{\\alpha \\over \\beta }}} = {q \\over c} \\times a \\Rightarrow {\\beta ^2} = {{qa} \\over c}$$\nAs $$\\beta\ne 1$$ or $$-1 \\Rightarrow {\\beta ^2}\ne 1 \\Rightarrow {{qa} \\over c}\ne 1$$ or $$c\ne qa$$\nAgain as exactly one root $$\\alpha$$ is common and $$\\beta\ne1\\therefore\\alpha + \\beta\ne \\alpha + {1 \\over \\beta } \\Rightarrow {{ - 2b} \\over a}\ne - 2P \\Rightarrow b\ne ap\\therefore$$ Statement 2 is correct.\nBut Statement 2 is not correct explanation of Statement 1.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "STATEMENT - 1 is True, STATEMENT - 2 is True;\n\nSTATEMENT - 2 is a correct explanation for\n\nSTATEMENT - 1",
+      "STATEMENT - 1 is True, STATEMENT - 2 is True;\n\nSTATEMENT - 2 is **NOT** a correct explanation for\n\nSTATEMENT - 1",
+      "STATEMENT - 1 is True, STATEMENT - 2 is False",
+      "STATEMENT - 1 is False, STATEMENT - 2 is True"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_019",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha,\\beta$$ be the roots of the equation $$x^2-px+r=0$$ and $$\\frac{\\alpha}{2},2\\beta$$ be the roots of the equation $$x^2-qx+r=0$$. Then the value of r is",
+    "solution": "Since $$\\alpha,\\beta$$ are the roots of\n$${x^2} - px + r = 0\\therefore\\alpha + \\beta = p$$ and $$\\alpha \\beta = r$$\nWe know that\n$${\\alpha \\over 2}$$ and 2$$\\beta$$ are the roots of the equation $${x^2} - qx + r = 0\\therefore{\\alpha \\over 2} + 2\\beta = q$$ and $${\\alpha \\over 2} \\times 2\\beta = r$$\nSolving $$\\alpha + \\beta = p$$ and $${\\alpha \\over 2} + 2\\beta = q$$\nWe get $$\\alpha = {2 \\over 3}(2p - q)$$ and $$\\beta = {1 \\over 3}(2q - p)\\alpha \\beta = rr = {2 \\over 9}(2p - q)(2q - p)$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\frac{2}{9}(p-q)(2q-p)$$",
+      "$$\\frac{2}{9}(q-p)(2p-q)$$",
+      "$$\\frac{2}{9}(q-2p)(2q-p)$$",
+      "$$\\frac{2}{9}(2p-q)(2q-p)$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_020",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, b, c$$ be the sides of a triangle. No two of them are equal and $$\\lambda \\in R$$. If the roots of the equation $$x^{2}+2(a+b+c) x+3 \\lambda(a b+b c+c a)=0$$ are real, then,",
+    "solution": "$$x^{2}+2(a+b+c) x+3 \\lambda(a b+b c+c a)=0$$\nFor the given quadratic equation has real roots, we must have\n$$\\{2(a+b+c)\\}^{2}-4 \\times 3 \\lambda(a b+b c+c a) \\geq 0$$\ni.e, Discriminant $$\\geq 0\\Rightarrow 4(a+b+c)^{2} \\geq 12 \\lambda(a b+b c+a c)\\Rightarrow \\lambda \\leq \\frac{4}{12} \\frac{(a+b+c)^{2}}{(a b+b c+a c)}\\Rightarrow \\lambda \\leq \\frac{(a+b+c)^{2}}{3(a b+b c+a c)}=\\frac{\\left(a^{2}+b^{2}+c^{2}\\right)}{3(a b+b c+a c)}+\\frac{2}{3}$$ ...... (i)\n$$\\left(\\because(a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 a c\\right)$$\nIn $$\\triangle \\mathrm{ABC}|a-b| < c\\Rightarrow \\quad(a-b)^{2} < c^{2}\\Rightarrow \\quad a^{2}+b^{2}-2 a b < c^{2}$$ .... (ii)\nSimilarly $$b^{2}+c^{2}-2 b c < a^{2}$$ ..... (iii)\n$$a^{2}+c^{2}-2 a c < b^{2}$$ ..... (iv)\nAdding (ii), (iii) and (iv)\n$$2\\left(a^{2}+b^{2}+c^{2}\\right)-2(a b+b c+a c) < \\left(a^{2}+b^{2}+c^{2}\\right)\\Rightarrow a^{2}+b^{2}+c^{2} < 2(a b+b c+a c)\\Rightarrow \\frac{a^{2}+b^{2}+c^{2}}{a b+b c+a c} < 2$$\nFrom (i), we have\n$$\\lambda \\leq \\frac{a^{2}+b^{2}+c^{2}}{3(a b+b c+a c)}+\\frac{2}{3}\\begin{array}{ll}\n\\Rightarrow \\lambda < \\frac{2}{3}+\\frac{2}{3} \\quad \\because \\frac{a^{2}+b^{2}+c^{2}}{a b+b c+c a} < 2 \\\\\n\\Rightarrow \\lambda < \\frac{4}{3}\n\\end{array}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\lambda<\\frac{4}{3}$$",
+      "$$\\lambda>\\frac{5}{3}$$",
+      "$$\\lambda \\in\\left(\\frac{1}{3}, \\frac{5}{3}\\right)$$",
+      "$$\\lambda \\in\\left(\\frac{4}{3}, \\frac{5}{3}\\right)$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_021",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If one root is square of the other root of the equation $${x^2} + px + q = 0$$, then the realation between $$p$$ and $$q$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${p^3} - q\\left( {3p - 1} \\right) + {q^2} = 0$$",
+      "$${p^3} - q\\left( {3p + 1} \\right) + {q^2} = 0$$",
+      "$${p^3} + q\\left( {3p - 1} \\right) + {q^2} = 0$$",
+      "$${p^3} + q\\left( {3p + 1} \\right) + {q^2} = 0$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_022",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For all $$'x',{x^2} + 2ax + 10 - 3a > 0,$$ then the interval in which '$$a$$' lies is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$a < - 5$$",
+      "$$ - 5 < a < 2$$",
+      "$$a > 5$$",
+      "$$2 < a < 5$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_023",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\,\\alpha \\in \\left( {0,{\\pi \\over 2}} \\right)\\,\\,then\\,\\,\\sqrt {{x^2} + x} + {{{{\\tan }^2}\\alpha } \\over {\\sqrt {{x^2} + x} }}$$ is always greater than or equal to",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$2\\,\\tan \\alpha \\,$$",
+      "1",
+      "2",
+      "$${\\sec ^2}\\,\\alpha $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_024",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The set of all real numbers x for which $${x^2} - \\left| {x + 2} \\right| + x > 0$$, is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$( - \\infty ,\\, - 2) \\cup (2,\\infty )$$",
+      "$$( - \\infty ,\\, - \\sqrt 2 ) \\cup (\\sqrt 2 ,\\infty )$$",
+      "$$( - \\infty ,\\, - 1) \\cup (1,\\infty )$$",
+      "$$(\\sqrt 2 ,\\infty )$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_025",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${a_1},{a_2}.......,{a_n}$$ are positive real numbers whose product is a fixed number c, then the minimum value of $${a_1} + {a_2} + ..... + {a_{n - 1}} + 2{a_n}$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$n{(2c)^{1/n}}$$",
+      "$$(n + 1){c^{1/n}}$$",
+      "$$2n{c^{1/n}}$$",
+      "$$(n + 1)\\,{(2c)^{1/n}}$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_026",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the equation $$3{x^2} + px + 3 = 0$$. p > 0, if one of the root is square of the other, then p is equal to",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1/3",
+      "1",
+      "3",
+      "2/3"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_027",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha \\,\\text{and}\\,\\beta (\\alpha \\, < \\,\\beta )$$ are the roots of the equation $${x^2} + bx + c = 0\\,$$, where $$c < 0 < b$$, then",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$0 < \\alpha \\, < \\,\\beta \\,$$",
+      "$$\\alpha \\, < \\,0 < \\beta \\,<\\left| \\alpha \\right|$$",
+      "$$\\alpha \\, < \\beta \\, < 0\\,$$",
+      "$$\\alpha \\, < \\,0 < \\left| \\alpha \\right| < \\beta $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_028",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a, b, c, d are positive real numbers such that a + b + c + d = 2, then M = (a + b) (c + d) satisfies the relation",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$0 \\le M \\le 1$$",
+      "$$1 \\le M \\le 2$$",
+      "$$2 \\le M \\le 3$$",
+      "$$3 \\le M \\le 4$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_029",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If b > a, then the equation (x - a) (x - b) - 1 = 0 has",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "both roots in (a, b)",
+      "both roots in (- $$\\infty $$, a)",
+      "both roots in (b, + $$\\infty $$)",
+      "one root in (- $$\\infty $$, a) and the other in (b, + $$\\infty $$)"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_030",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the roots of the equation $${x^2} - 2ax + {a^2} + a - 3 = 0$$ are real and less than 3, then",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$a < 2$$",
+      "$$2 \\le a \\le 3$$",
+      "$$3 < a \\le 4$$",
+      "$$a > 4$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_031",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Number of divisor of the form 4$$n + 2\\left( {n \\ge 0} \\right)$$ of the integer 240 is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "4",
+      "8",
+      "10",
+      "3"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_032",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of points of intersection of two curves y = 2 sin x and y $$ = 5{x^2} + 2x + 3$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "$$\\infty $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_033",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$p,q \\in \\left\\{ {1,2,3,4} \\right\\}\\,$$. The number of equations of the form $$p{x^2} + qx + 1 = 0$$ having real roots is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "15",
+      "9",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_034",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If p, q, r are + ve and are on A.P., the roots of quadratic equation $$p{x^2} + qx + r = 0$$ are all real for",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left| {{r \\over p} - 7} \\right| \\ge 4\\sqrt 3 $$",
+      "$$\\left| {{p \\over r} - 7} \\right| \\ge 4\\sqrt 3 $$",
+      "all p and r",
+      "no p and r"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_035",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha \\,,\\,\\beta $$ be the roots of the equation (x - a) (x - b) = c, $$c\ne 0$$. Then the roots of the equation $$(x - \\alpha \\,)\\,(x - \\beta ) + c = 0$$ are",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "a, c",
+      "b, c",
+      "a, b",
+      "a + c, b + c"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_036",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product of $$n$$ positive numbers is unity. Then their sum is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "a positive integer",
+      "divisible by $$n$$",
+      "equal to $$n + {1 \\over n}$$",
+      "never less than $$n$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_037",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of solutions of the equation sin$${(e)^x} = {5^x} + {5^{ - x}}$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Infinitely many"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_038",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a,\\,b,\\,c,\\,d$$ and p are distinct real numbers such that\n$$$\\left( {{a^2} + {b^2} + {c^2}} \\right){p^2} - 2\\left( {ab + bc + cd} \\right)p + \\left( {{b^2} + {c^2} + {d^2}} \\right) \\le 0$$$\n\nthen $$a,\\,b,\\,c,\\,d$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "are in A. P.",
+      "are in G P.",
+      "are in H. P.",
+      "satisfy $$ab = cd$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_039",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a,\\,b$$ and $$c$$ are distinct positive numbers, then the expression\n\n$$\\left( {b + c - a} \\right)\\left( {c + a - b} \\right)\\left( {a + b - c} \\right) - abc$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "positive",
+      "negative",
+      "non-positive",
+      "non-negative"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_040",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${\\log _{0.3}}\\,(x\\, - \\,1) < {\\log _{0.09}}(x - 1)$$, then x lies in the interval-",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$(2,\\infty )$$",
+      "(1, 2)",
+      "(- 2, - 1)",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_041",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $$x - {2 \\over {x - 1}} = 1 - {2 \\over {x - 1}}$$ has",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "no root",
+      "one root",
+      "two equal root",
+      "infinitely many roots"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_042",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\,{a^2} + {b^2} + {c^2} = 1$$, then ab + bc + ca lies in the interval",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$[{1 \\over 2},2]\\,\\,$$",
+      "$$[ - 1,2]$$",
+      "$$\\,[ - {1 \\over 2},1]\\,$$",
+      "$$\\,[ - 1,{1 \\over 2}]\\,\\,$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_043",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The largest interval for which $${x^{12}} - {x^9} + {x^4} - x + 1 > 0$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ - 4 < x \\le 0$$",
+      "$$\\,0 < x < 1$$",
+      "$$ - 100 < x < 100$$",
+      "$$ - \\infty < x < \\infty $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_044",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of real solutions of the equation $${\\left| x \\right|^2} - 3\\left| x \\right| + 2 = 0$$ is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_045",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If p, q, r are any real numbers, then",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "max (p, q) < max (p, q, r )",
+      "min (p, q) = $${1 \\over 2}\\left( {p + q - \\left| {p - q} \\right|} \\right)$$",
+      "max (p, q) < min (p, q, r)",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_046",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two towns A and B are 60 km apart. A school is to be built to serve 150 students in town A and 50 students in town B. If the total distance to be travelled by all 200 students is to be as small as possible, then the school should be built at",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "town B",
+      "45 km from town A",
+      "town A",
+      "45 km from town B"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_047",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Both the roots of the equation (x - b) (x - c) + (x - a) (x - c) + (x - a) (x - b) = 0 are always",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "positive",
+      "real",
+      "negative",
+      "none of these."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_048",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\,({x^2} + px + 1)\\,$$ is a factor of $$(a{x^3} + bx + c)$$, then",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${a^2} + {c^2} = - ab\\,$$",
+      "$${a^2} - {c^2} = - ab$$",
+      "$${a^2} - {c^2} = ab$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_049",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The least value of the expression $$2\\,\\,{\\log _{10}}\\,x\\, - \\,{\\log _x}(0.01)$$ for x > 1, is",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "10",
+      "2",
+      "- 0.01",
+      "none of these."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_050",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\ell $$, m, n are real, $$\\ell\ne m$$, then the roots by the equation :\n\n$$(\\ell - m)\\,{x^2} - 5\\,(\\ell + m)\\,x - 2\\,(\\ell - m) = 0$$ are",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Real and equal",
+      "Complex",
+      "Real and unequal",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_051",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a > 0, b > 0 and c > 0. Then the roots of the equation $$a{x^2} + bx + c = 0$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "are real and negative",
+      "have negative real parts",
+      "both (a) and (b)",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_052",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If x, y and z are real and different and $$\\,u = {x^2} + 4{y^2} + 9{z^2} - 6yz - 3zx - 2xy$$, then u is always.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "non negative",
+      "zero",
+      "non positive",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_053",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation x + 2y + 2z = 1 and 2x + 4y + 4z = 9 have",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "only one solution",
+      "only two solution",
+      "Infinite number of solutions",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_054",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha $$ and $$\\beta $$ be the roots of$${x^2} - x - 1 = 0$$, with $$\\alpha $$ > $$\\beta $$. For all positive integers n, define\n\n$${a_n} = {{{\\alpha ^n} - {\\beta ^n}} \\over {\\alpha - \\beta }},\\,n \\ge 1{b_1} = 1\\,and\\,{b_n} = {a_{n - 1}} + {a_{n + 1}},\\,n \\ge 2$$\n\nThen which of the following options is/are correct?",
+    "solution": "Given quadratic equation\n\n$${x^2} - x - 1 = 0$$ having roots $$\\alpha $$ and $$\\beta $$, ($$\\alpha $$ > $$\\beta $$)\n\nSo, $$\\alpha = {{1 + \\sqrt 5 } \\over 2}$$ and $$\\beta = {{1 - \\sqrt 5 } \\over 2}$$\n\nand $$\\alpha + \\beta = 1$$, $$\\alpha \\beta $$ = $$ - 1 \\because {a_n} = {{{\\alpha ^n} - {\\beta ^n}} \\over {\\alpha - \\beta }},\\,n \\ge 1$$\n\nSo, $${a_{n + 1}} = {{{\\alpha ^{n + 1}} - {\\beta ^{n + 1}}} \\over {\\alpha - \\beta }}{\\alpha ^n} + {\\alpha ^{n - 1}}\\beta + {\\alpha ^{n - 2}}{\\beta ^2} + ... + \\alpha {\\beta ^{n - 1}} + {\\beta ^n}{\\alpha ^n} - {\\alpha ^{n - 2}} - {\\alpha ^{n - 3}}\\beta - ... - {\\beta ^{n - 2}} + {\\beta ^n}$$\n\n[as $$\\alpha \\beta $$ = $$ - $$1]\n\n= $${\\alpha ^n} + {\\beta ^n} - ({\\alpha ^{n - 2}} + {\\alpha ^{n - 3}}\\beta + ... + {\\beta ^{n - 2}})$$\n\n= $${\\alpha ^n} + {\\beta ^n} - {a_{n - 1}}\\left[ {as\\,{a_{n - 1}} = {{{\\alpha ^{n - 1}} - {\\beta ^{n - 1}}} \\over {\\alpha - \\beta }} = {\\alpha ^{n - 2}} + {\\alpha ^{n - 3}}\\beta + ... + {\\beta ^{n - 2}}} \\right] \\Rightarrow {a_{n + 1}} + {a_{n - 1}} = {\\alpha ^n} + {\\beta ^n} = {b_n},\\,\\forall n \\ge 1$$\n\nSo, option (b) is correct.\n\nNow, $$\\sum\\limits_{n = 1}^\\infty {{{{b_n}} \\over {{{10}^n}}}} = \\sum\\limits_{n = 1}^\\infty {{{{\\alpha ^n} + {\\beta ^n}} \\over {{{10}^n}}}} $$\n\n[as, b$_{n}$ = $$\\alpha $$$^{n}$ + $$\\beta $$$^{n}$]\n\n= $$\\sum\\limits_{n = 1}^\\infty {{{\\left( {{\\alpha \\over {10}}} \\right)}^n}} + \\sum\\limits_{n = 1}^\\infty {{{\\left( {{\\beta \\over {10}}} \\right)}^n}} \\because \\left[ {\\left| {{\\alpha \\over {10}}} \\right| < 1\\,and\\,\\left| {{\\beta \\over {10}}} \\right| < 1} \\right] = {{{\\alpha \\over {10}}} \\over {1 - {\\alpha \\over {10}}}} + {{{\\beta \\over {10}}} \\over {1 - {\\beta \\over {10}}}} = {\\alpha \\over {10 - \\alpha }} + {\\beta \\over {10 - \\beta }} = {{10\\alpha - \\alpha \\beta + 10\\beta - \\alpha \\beta } \\over {(10 - \\alpha )(10 - \\beta )}} = {{10(\\alpha + \\beta ) - 2\\alpha \\beta } \\over {100 - 10(\\alpha + \\beta ) + \\alpha \\beta }} = {{10(1) - 2( - 1)} \\over {100 - 10(1) - 1}}$$\n\n[as $$\\alpha $$ + $$\\beta $$ = 1 and $$\\alpha \\beta $$ = $$ - $$1]\n\n$$ = {{12} \\over {89}}$$\n\nSo, option (a) is not correct.\n\n$$ \\because {\\alpha ^2} = \\alpha + 1$$ and $${\\beta ^2} = \\beta + 1 \\Rightarrow {\\alpha ^{n + 2}} = {\\alpha ^{n + 1}} + {\\alpha ^n}$$ and $${\\beta ^{n + 2}} = {\\beta ^{n + 1}} + {\\beta ^n} \\Rightarrow ({\\alpha ^{n + 2}} + {\\beta ^{n + 2}}) = ({\\alpha ^{n + 1}} + {\\beta ^{n + 1}}) + ({\\alpha ^n} + {\\beta ^n}) \\Rightarrow {a_{n + 2}} = {a_{n + 1}} + {a_n}$$\n\nSimilarly, $${a_{n + 1}} = {a_n} + {a_{n - 1}}{a_n} = {a_{n - 1}} + {a_{n - 2}}$$\n\n..............\n\n............\n\n$${a_3} = {a_2} + {a_1}$$\n\nOn adding, we get\n\n$${a_{n + 2}} = ({a_n} + {a_{n - 1}} + {a_{n - 2}} + ... + {a_2} + {a_1}) + {a_2} \\because \\left[ {{a_2} = {{{\\alpha ^2} - {\\beta ^2}} \\over {\\alpha - \\beta }} = \\alpha + \\beta = 1} \\right]$$\n\nSo, $${a_{n + 2}} - 1 = {a_1} + {a_2} + {a_3} + ...... + {a_n}$$\n\nSo, option (c) is also correct.\n\nAnd, now $$\\sum\\limits_{n = 1}^\\infty {{{{a_n}} \\over {{{10}^n}}}} = \\sum\\limits_{n = 1}^\\infty {{{{\\alpha ^n} - {\\beta ^n}} \\over {(\\alpha - \\beta ){{10}^n}}}} = {1 \\over {\\alpha - \\beta }}\\left[ {\\sum\\limits_{n = 1}^\\infty {{{\\left( {{a \\over {10}}} \\right)}^n}} - \\sum\\limits_{n = 1}^\\infty {{{\\left( {{\\beta \\over {10}}} \\right)}^n}} } \\right] = {1 \\over {\\alpha - \\beta }}\\left[ {{{{\\alpha \\over {10}}} \\over {1 - {\\alpha \\over {10}}}} - {{{\\beta \\over {10}}} \\over {1 - {\\beta \\over {10}}}}} \\right]$$,\n\n$$\\left[ {as\\left| {{\\alpha \\over {10}}} \\right| < 1\\,and\\,\\left| {{\\beta \\over {10}}} \\right| < 1} \\right] = {{10(\\alpha - \\beta )} \\over {(\\alpha - \\beta )[100 - 10(\\alpha + \\beta ) + \\alpha \\beta ]}} = {{10} \\over {100 - 10 - 1}} = {{10} \\over {89}}$$\n\nHence, options (b), (c) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\sum\\limits_{n = 1}^\\infty {{{{b_n}} \\over {{{10}^n}}}} = {8 \\over {89}}$$",
+      "b$_{n}$ = $$\\alpha $$$^{n}$ + $$\\beta $$$^{n}$ for all n $$ \\ge $$ 1",
+      "a$_{1}$ + a$_{2}$ + a$_{3}$ + ... + a$_{n}$ = a$_{n+2}$ $$ - $$ 1 for all n $$ \\ge $$ 1",
+      "$$\\sum\\limits_{n = 1}^\\infty {{{{a_n}} \\over {{{10}^n}}}} = {10 \\over {89}}$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_055",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$S$$ be the set of all non-zero real numbers $$\\alpha $$ such that the quadratic equation $$\\alpha {x^2} - x + \\alpha = 0$$ has two distinct real roots $${x_1}$$ and $${x_2}$$ satisfying the inequality $$\\left| {{x_1} - {x_2}} \\right| < 1.$$ Which of the following intervals is (are) $$a$$ subset(s) os $$S$$?",
+    "solution": "Given, x$_{1}$ and x$_{2}$ are roots of\n$$\\alpha {x^2} - x + \\alpha = 0\\therefore{x_1} + {x_2} = {1 \\over \\alpha }$$ and $${x_1}{x_2} = 1$$\nAlso, $$\\left| {{x_1} - {x_2}} \\right| < 1 \\Rightarrow {\\left| {{x_1} - {x_2}} \\right|^2} < 1 \\Rightarrow {({x_1} - {x_2})^2} < 1$$\nor, $${({x_1} + {x_2})^2} - 4{x_1}{x_2} < 1 \\Rightarrow {1 \\over {{\\alpha ^2}}} - 4 < 1$$ or $${1 \\over {{\\alpha ^2}}} < 5 \\Rightarrow 5{\\alpha ^2} - 1 > 0$$\nor, $$(\\sqrt 5 \\alpha - 1)(\\sqrt 5 \\alpha + 1) > 0\\therefore\\alpha \\in \\left( { - \\infty , - {1 \\over {\\sqrt 5 }}} \\right) \\cup \\left( {{1 \\over {\\sqrt 5 }},\\infty } \\right)$$ .....(i)\nAlso, $$D > 0 \\Rightarrow 1 - 4{\\alpha ^2} > 0$$ or $$\\alpha \\in \\left( { - {1 \\over 2},{1 \\over 2}} \\right)$$ ...... (ii)\n$$\\alpha \\in \\left( { - {1 \\over 2},{{ - 1} \\over {\\sqrt 5 }}} \\right) \\cup \\left( {{1 \\over {\\sqrt 5 }},{1 \\over 2}} \\right)$$",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$\\left( { - {1 \\over 2} - {1 \\over {\\sqrt 5 }}} \\right)$$",
+      "$$\\left( { - {1 \\over {\\sqrt 5 }},0} \\right)$$",
+      "$$\\left( {0,{1 \\over {\\sqrt 5 }}} \\right)$$",
+      "$$\\left( {{1 \\over {\\sqrt 5 }},{1 \\over 2}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_056",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${3^x}\\, = \\,{4^{x - 1}},$$ then $$x\\, = $$",
+    "solution": "Given, $$3^x=4^{x-1}$$\nTaking $$\\log$$ on both side with base 3\n$$\\begin{aligned}\n& \\Rightarrow \\log _3 3^x=\\log _3\\left(4^{x-1}\\right) \\\\\n& \\Rightarrow x \\log _3 3=(x-1) \\log _3 4 \\\\\n& \\Rightarrow \\quad x .1=(x-1) \\log _3 4 \\\\\n& \\Rightarrow \\quad x=\\frac{\\log _3 4}{\\log _3 4-1} \\\\\n& \\Rightarrow \\quad x=\\frac{1}{1-\\frac{1}{\\log _3 4}} \\\\\n\\end{aligned}\\text { According to base changing rule } \\frac{1}{\\log _3 4}=\\log _4 3\\begin{array}{ll}\n\\therefore & x=\\frac{1}{1-\\log _4 3} \\quad \\text{... (i)}\\\\\n\\Rightarrow & x=\\frac{1}{1-\\log _{2^2} 3} \\\\\n\\Rightarrow & x=\\frac{1}{1-\\frac{1}{2} \\log _2 3} \\quad\\left[\\log _{a^m} x=\\frac{1}{m} \\log _a x\\right] \\\\\n\\Rightarrow & x=\\frac{2}{2-\\log _2 3} \\quad \\text{... (ii)}\n\\end{array}\\begin{aligned}\n& \\Rightarrow \\quad x=\\frac{2}{2-\\frac{1}{\\log _3 2}} \\\\\n& \\Rightarrow \\quad x=\\frac{2 \\log _3 2}{2 \\log _3 2-1} \\quad \\text{... (iii)}\n\\end{aligned}$$\nFrom equation (i), (ii) and (iii), it is clear that option (A), (B) and (C) are correct.\nHints:\n(i) Base changing Rule $$\\log _b^a=\\frac{1}{\\log _a^b}$$\n(ii) $$\\log _a x^n=n \\log _a x$$\n(iii) $$\\log _{a^m} x=\\frac{1}{m} \\log _a x$$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$${{2{{\\log }_3}\\,2} \\over {2{{\\log }_3}\\,2 - 1}}$$",
+      "$${2 \\over {2 - {{\\log }_2}\\,3}}$$",
+      "$${1 \\over {1 - {{\\log }_4}\\,3}}$$",
+      "$${{2{{\\log }_2}\\,3} \\over {2{{\\log }_2}\\,3 - 1}}$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_057",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $${x^{3/4{{\\left( {{{\\log }_2}\\,\\,x} \\right)}^2} + {{\\log }_2}\\,\\,x - 5/4}} = \\sqrt 2 $$ has",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "at least one real solution",
+      "exactly three solutions",
+      "exactly one irrational solution",
+      "complex roots."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_058",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a, b, c be real numbers, $$a\ne 0$$. If $$\\alpha \\,$$ is a root of $${a^2}{x^2} + bx + c = 0$$. $$\\beta \\,$$ is the root of $${a^2}{x^2} - bx - c = 0$$ and $$0 < \\alpha \\, < \\,\\beta $$, then the equation $${a^2}{x^2} + 2bx + 2c = 0$$ has a root $$\\gamma $$ that always satisfies",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\gamma = {{\\alpha + \\beta } \\over 2}$$",
+      "$$\\gamma = \\alpha + {\\beta \\over 2}$$",
+      "$$\\gamma = \\alpha $$",
+      "$$\\alpha < \\gamma < \\beta $$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_059",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha $$ and $$\\beta $$ are the roots of $${x^2}$$+ px + q = 0 and $${\\alpha ^4},{\\beta ^4}$$ are the roots of $$\\,{x^2} - rx + s = 0$$, then the equation $${x^2} - 4qx + 2{q^2} - r = 0$$ has always",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "two real roots",
+      "two positive roots",
+      "two negative roots",
+      "one positive and one negative root."
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_060",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$S$$ is the set of all real $$x$$ such that $${{2x - 1} \\over {2{x^3} + 3{x^2} + x}}$$ is positive, then $$S$$ contains",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$\\left( { - \\infty ,\\, - {\\textstyle{3 \\over 2}}} \\right)$$",
+      "$$\\left( { - {3 \\over 2},\\, - {1 \\over 4}} \\right)$$",
+      "$$\\left( { - {1 \\over 4},\\,{1 \\over 2}} \\right)$$",
+      "$$\\left( {{1 \\over 2},\\,3} \\right)\\,\\,\\,\\,$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_061",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For real $$x$$, the function $$\\,{{\\left( {x - a} \\right)\\left( {x - b} \\right)} \\over {x - c}}$$ will assume all real values provided",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$a > b > c$$",
+      "$$a < b < c$$",
+      "$$a > c > b$$",
+      "$$a < c < b$$"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_062",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product of all positive real values of $x$ satisfying the equation\n\n$$\nx^{\\left(16\\left(\\log _{5} x\\right)^{3}-68 \\log _{5} x\\right)}=5^{-16}\n$$\n\nis __________.",
+    "solution": "Taking log to the base 5 on both sides\n\n$\\left(16\\left(\\log _{5} x\\right)^{3}-68\\left(\\log _{5} x\\right)\\right)\\left(\\log _{5} x\\right)=-16$\n\nLet $\\left(\\log _{5} x\\right)=t$\n\n$16 t^{4}-68 t^{2}+16=0$\n\n$$ \\Rightarrow $$ $4 t^{4}-16 t^{2}-t^{2}+4=0$\n\n$$ \\Rightarrow $$ $\\left(4 t^{2}-1\\right)\\left(t^{2}-4\\right)=0$\n\n$$ \\Rightarrow $$ $t=\\pm \\frac{1}{2}, \\pm 2$\n\nSo $\\log _{5} x=\\pm \\frac{1}{2}$ or $\\pm 2$\n\n$\\Rightarrow x=5^{\\frac{1}{2}}, 5^{\\frac{-1}{2}}, 5^{2}, 5^{-2}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_063",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For x $$\\in$$ R, the number of real roots of the equation $$3{x^2} - 4\\left| {{x^2} - 1} \\right| + x - 1 = 0$$ is ________.",
+    "solution": "Given,\n\n$$3{x^2} - 4\\left| {{x^2} - 1} \\right| + x - 1 = 0$$ .... (i)\n\n\n[Diagram]\n\nFor $$-$$1 $$\\le$$ x $$\\le$$ 1 i.e., x$$\\in$$[$$-$$1, 1]\n\nFrom Eq. (i), we get\n\n$$3{x^2} - 4( - {x^2} + 1) + x - 1 = 0 \\Rightarrow 3{x^2} + 4{x^2} - 4 + x - 1 = 0 \\Rightarrow 7{x^2} + x - 5 = 0 \\Rightarrow x = {{ - 1 \\pm \\sqrt {1 + 140} } \\over {(2 \\times 7)}}$$\n\nHere, both values of x are acceptable.\n\nFor | x | > | i.e. x $$\\in$$($$-\\infty$$, $$-$$1) $$\\cup$$ (1, $$\\infty$$)\n\nFrom Eq. (i), we get\n\n$$3{x^2} - 4({x^2} - 1) + x - 1 = 0 \\Rightarrow {x^2} - x - 3 = 0 \\Rightarrow x = {{1 \\pm \\sqrt {1 + 12} } \\over 2}$$\n\nAgain here, both values of x are acceptable.\n\nHence, total number of solutions is 4.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxxgupyo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_quadratic_equations_064",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a, b, c three non-zero real numbers such that the equation $$\\sqrt 3 a\\cos x + 2b\\sin x = c,x \\in \\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right]$$, has two distinct real roots $$\\alpha $$ and $$\\beta $$ with $$\\alpha + \\beta = {\\pi \\over 3}$$. Then, the value of $${b \\over a}$$ is ............",
+    "solution": "We have, $$\\alpha $$, $$\\beta $$ are the roots of\n\n$$\\sqrt 3 a\\cos x + 2b\\sin x = c \\therefore \\sqrt 3 a\\cos \\alpha + 2b\\sin \\alpha = c$$ ... (i)\n\nand $$\\sqrt 3 a\\cos \\beta + 2b\\sin \\beta = c$$ ... (ii)\n\nOn subtracting Eq. (ii) from Eq. (i), we get\n\n$$\\sqrt 3 a(\\cos \\alpha - \\cos \\beta ) + 2b(\\sin \\alpha - \\sin \\beta ) = 0 \\Rightarrow \\sqrt 3 a\\left( { - 2\\sin \\left( {{{\\alpha + \\beta } \\over 2}} \\right)} \\right)\\sin \\left( {{{\\alpha - \\beta } \\over 2}} \\right) + 2b\\left( {2\\cos \\left( {{{\\alpha + \\beta } \\over 2}} \\right)} \\right)\\sin \\left( {{{\\alpha - \\beta } \\over 2}} \\right) = 0 \\Rightarrow \\sqrt 3 a\\sin \\left( {{{\\alpha + \\beta } \\over 2}} \\right) = 2b\\cos \\left( {{{\\alpha + \\beta } \\over 2}} \\right) \\Rightarrow \\tan \\left( {{{\\alpha + \\beta } \\over 2}} \\right) = {{2b} \\over {\\sqrt 3 a}} \\Rightarrow \\tan \\left( {{\\pi \\over 6}} \\right) = {{2b} \\over {\\sqrt 3 a}}$$ [$$ \\because \\alpha $$ + $$\\beta $$ = $${\\pi \\over 3}$$, given]\n\n$$ \\Rightarrow {1 \\over {\\sqrt 3 }} = {{2b} \\over {\\sqrt 3 a}} \\Rightarrow {b \\over a} = {1 \\over 2} \\Rightarrow {b \\over a} = 0.5$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_065",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$6 + {\\log _{3/2}}\\left( {{1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}...} } } } \\right)$$ is __________.",
+    "solution": "$$6 + {\\log _{{3 \\over 2}}}\\left( {{1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}...} } } } \\right)$$\nLet $$\\sqrt {4 - {1 \\over {3\\sqrt 2 }}\\sqrt {4 - {1 \\over {3\\sqrt 2 }}} \\sqrt {...} } = y\\thereforey = \\sqrt {4 - {1 \\over {3\\sqrt 2 }}y} \\Rightarrow {y^2} + {1 \\over {3\\sqrt 2 }}y - 4 = 0 \\Rightarrow 3\\sqrt 2 {y^2} + y - 12\\sqrt 2 = 0$$<?p>\n$$\\thereforey = {{ - 1 \\pm 17} \\over {6\\sqrt 2 }}$$ or $$y = {8 \\over {3\\sqrt 2 }}$$\nNow,\n$$6 + {\\log _{{3 \\over 2}}}\\left( {{1 \\over {3\\sqrt 2 }}.y} \\right) = 6 + {\\log _{{3 \\over 2}}}\\left( {{1 \\over {3\\sqrt 2 }}.{8 \\over {3\\sqrt 2 }}} \\right) = 6 + {\\log _{{3 \\over 2}}}\\left( {{4 \\over 9}} \\right) = 6 + {\\log _{{3 \\over 2}}}{\\left( {{3 \\over 2}} \\right)^{ - 2}} = 6 - 2.{\\log _{{3 \\over 2}}}\\left( {{3 \\over 2}} \\right) = 4$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_066",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of distinct real roots of $${x^4} - 4{x^3} + 12{x^2} + x - 1 = 0$$",
+    "solution": "Let $$f(x) = {x^4} - 4{x^3} + 12{x^2} + x - 1 = 0f'(x) = 4{x^3} - 12{x^2} + 24x + 1 = 4({x^3} - 3{x^2} + 6x) + 1f''(x) = 12{x^2} - 24x + 24 = 12({x^2} - 2x + 2)$$\nf''(x) has 0 real roots.\nf(x) has maximum two distinct real roots as f(0) = $$-$$1.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_067",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum value of the sum of real numbers $${a^{ - 5}},\\,{a^{ - 4}},\\,3{a^{ - 3}},\\,1,\\,{a^8}$$ and $${a^{10}}$$ where $$a > 0$$ is",
+    "solution": "We have $${{{a^{ - 5}} + {a^{ - 4}} + {a^{ - 3}} + {a^{ - 3}} + {a^{ - 3}} + {a^8} + {a^{10}} + 1} \\over 8} \\ge 1$$\nTherefore, the minimum value is 8.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_068",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The smallest value of $$k$$, for which both the roots of the equation\n$$${x^2} - 8kx + 16\\left( {{k^2} - k + 1} \\right) = 0$$$\nare real, distinct and have values at least 4, is",
+    "solution": "We have $${x^2} - 8kx + 16({k^2} - k + 1) = 0D > 0 \\Rightarrow k > 1$$ ..... (1)\n$${{ - b} \\over {2a}} > 4 \\Rightarrow {{8k} \\over 2} > 4 \\Rightarrow k > 1$$ ..... (2)\nNow, $$f(4) \\ge 0 \\Rightarrow 16 - 32k + 16({k^2} - k + 1) \\ge 0{k^2} - 3k + 2 \\ge 0k \\le 1 \\cup k \\ge 2$$ ..... (3)\nUsing Eqs. (1), (2) and (3), we get $${k_{\\min }} = 2$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_069",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If roots of the equation $x^2-10 c x-11 d=0$ are $a, b$ and those of $x^2-10 a x-11 b=0$ are $c, d$, then the value of $a+b+c+d$ is $(a, b, c$ and $d$ are distinct numbers)",
+    "solution": "( $a, b$ ) roots of $x^2-10 c x-11 d=0$\n( $c, \\mathrm{~d}$ ) roots of $x^2-10 a x-11 b=0$\nWe know sum of roots\n$$ \\quad \\begin{aligned} a+b=10 c \\text { and } c+d & =10 a \\\\ \\Rightarrow \\quad a+b+c+d & =10(c+a) \\end{aligned} \\Rightarrow \\quad(b+d)=9(a+c) $$\nNow, we calculate $(c+a)$\nHere product of root\n$$ \\begin{aligned} & & a b=-11 d \\text { and } c d & =-11 b \\\\ \\Rightarrow & & a b c d & =121 b d \\\\ \\Rightarrow & & a c & =121 \\end{aligned} \\begin{aligned} & \\text { Also } \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\quad a^2-10 c a-11 d=0 \\\\ &\\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, c^2-10 a c-11 b=0 \\\\ & \\Rightarrow \\quad \\,\\,\\,\\,\\,\\,\\,\\,\\, \\,\\,\\,\\,\\,\\,\\,\\,\\, c^2+a^2-20 a c-11(b+\\mathrm{d})=0 \\\\ & \\Rightarrow\\,\\,\\, c^2+a^2+2 a c-22 a c-11 \\times 9(a+c)=0 \\\\ & \\Rightarrow \\quad(a+c)^2-22 \\times 121-11 \\times 9(a+c)=0 \\\\ & \\Rightarrow\\,\\,\\,\\,\\,\\,\\,\\,\\, \\quad(a+c)^2-99(a+c)-22 \\times 121=0 \\end{aligned} \\begin{aligned} a+c & =\\frac{99 \\pm \\sqrt{9801+88 \\times 121}}{2} \\\\ & =\\frac{99 \\pm \\sqrt{9801+10648}}{2} \\\\ & =\\frac{99 \\pm \\sqrt{20449}}{2}=\\frac{99 \\pm 143}{2} \\\\ & =\\frac{242}{2}, \\frac{-44}{2}=121,-22 \\end{aligned} $$\nDiscard the value of $a+c=-22$\n\n$$ \\begin{aligned}Hence,\\,\\, a+b+c+d & =121 \\times 10 \\\\ & =1210 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_070",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${x^2} + \\left( {a - b} \\right)x + \\left( {1 - a - b} \\right) = 0$$ where $$a,\\,b\\, \\in \\,R$$ then find the values of a for which equation has unequal real roots for all values of $$b$$.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_071",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a,\\,b,\\,c$$ be real numbers with $$a\ne 0$$ and let $$\\alpha ,\\,\\beta $$ be the roots of the equation $$a{x^2} + bx + c = 0$$. Express the roots of $${a^3}{x^2} + abcx + {c^3} = 0$$ in terms of $$\\alpha ,\\,\\beta \\,$$.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_072",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha ,\\,\\beta $$ are the roots of $$a{x^2} + bx + c = 0$$, $$\\,\\left( {a\ne 0} \\right)$$ and $$\\alpha + \\delta ,\\,\\,\\beta + \\delta $$ are the roots of $$A{x^2} + Bx + c = 0,\\left( {A\ne 0\\,} \\right)\\,$$ for some contant $$\\delta $$, then prove that $${{{b^2} - 4ac} \\over {{a^2}}} = {{{B^2} - 4Ac} \\over {{A^2}}}$$.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_073",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$S$$ be a square of unit area. Consider any quadrilateral which has one vertex on each side of $$S$$. If $$a,\\,b,\\,c$$ and $$d$$ denote the lengths of the sides of the quadrilateral, prove that $$2 \\le {a^2} + {b^2} + {c^2} + {d^2} \\le 4.$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_074",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a,\\,b,\\,c$$ be real. If $$a{x^2} + bx + c = 0$$ has two real roots $$\\alpha $$ and $$\\beta ,$$ where $$\\alpha < - 1$$ and $$\\beta > 1,$$ then show that $$1 + {c \\over a} + \\left| {{b \\over a}} \\right| < 0.$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_075",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solve $$\\left| {{x^2} + 4x + 3} \\right| + 2x + 5 = 0$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_076",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the set of all $$x$$ for which $${{2x} \\over {\\left( {2{x^2} + 5x + 2} \\right)}}\\, > \\,{1 \\over {\\left( {x + 1} \\right)}}$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_077",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$a \\le 0,$$ determine all real roots of the equation $$${x^2} - 2a\\left| {x - a} \\right| - 3{a^2} = 0$$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_078",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solve for $$x$$ ; $${\\left( {5 + 2\\sqrt 6 } \\right)^{{x^2} - 3}} + {\\left( {5 - 2\\sqrt 6 } \\right)^{{x^2} - 3}} = 10$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_079",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If one root of the quadratic equation $$a{x^2} + bx + c = 0$$ is equal to the $$n$$-th power of the other, then show that\n$$${\\left( {a{c^n}} \\right)^{{1 \\over {n + 1}}}} + {\\left( {{a^n}c} \\right)^{{1 \\over {n + 1}}}} + b = 0$$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_080",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all real values of $$x$$ which satisfy $${x^2} - 3x + 2 > 0$$ and $${x^2} - 2x - 4 \\le 0$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_081",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$mn$$ squares of equal size are arranged to from a rectangle of dimension $$m$$ by $$n$$, where $$m$$ and $$n$$ are natural numbers. Two squares will be called ' neighbours ' if they have exactly one common side. A natural number is written in each square such that the number written in any square is the arithmetic mean of the numbers written in its neighbouring squares.Show that this is possible only if all the numbers used are equal.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_082",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that the equation $${e^{\\sin x}} - {e^{ - \\sin x}} - 4 = 0$$ has no real solution.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_083",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$y = \\sqrt {{{\\left( {x + 1} \\right)\\left( {x - 3} \\right)} \\over {\\left( {x - 2} \\right)}}} $$\nFind all the real values of $$x,$$ for which $$y$$ takes real values.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_084",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given $${n^4} < {10^n}$$ for a fixed positive integer $$n \\ge 2,$$ prove that $${\\left( {n + 1} \\right)^4} < {10^{n + 1}}.$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_085",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For what values of $$m,$$ does the system of equations\n$$$\\matrix{\n{3x + my = m} \\cr\n{2x - 5y = 20} \\cr\n\n} $$$\nhas solution satisfying the conditions $$x > 0,\\,y > 0.$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_086",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the solution set of the system\n$$$\\matrix{\n{x + 2y + z = 1;} \\cr\n{2x - 3y - w = 2;} \\cr\n{x \\ge 0;\\,y \\ge 0;\\,z \\ge 0;\\,w \\ge 0.} \\cr\n\n} $$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_087",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha ,\\,\\beta $$ are the roots of $${x^2} + px + q = 0$$ and $$\\gamma ,\\,\\delta $$ are the roots of $${x^2} + rx + s = 0,$$ evaluate $$\\left( {\\alpha - \\gamma } \\right)\\left( {\\alpha - \\delta } \\right)\\left( {\\beta - \\gamma } \\right)\\left( {\\beta - \\delta } \\right)$$ in terms of $$p,\\,q,\\,r$$ and $$s$$.\ndeduce the condition that the equations have a common root.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_088",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sketch the solution set of the following system of inequalities:\n$$${x^2} + {y^2} - 2x \\ge 0;\\,\\,3x - y - 12 \\le 0;\\,\\,y - x \\le 0;\\,\\,y \\ge 0.$$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_089",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\left( {m\\,,\\,n} \\right) = {{\\left( {1 - {x^m}} \\right)\\left( {1 - {x^{m - 1}}} \\right).......\\left( {1 - {x^{m - n + 1}}} \\right)} \\over {\\left( {1 - x} \\right)\\left( {1 - {x^2}} \\right).........\\left( {1 - {x^n}} \\right)}}$$\nwhere $$m$$ and $$n$$ are positive integers $$\\left( {n \\le m} \\right),$$ show that\n\n$$\\left( {m,n + 1} \\right) = \\left( {m - 1,\\,n + 1} \\right) + {x^{m - n - 1}}\\left( {m - 1,n} \\right).$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_090",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all integers $$x$$ for which $$\\left( {5x - 1} \\right) < {\\left( {x + 1} \\right)^2} < \\left( {7x - 3} \\right).$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_091",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solve for $$x:{4^x} - {3^{^{x - {1 \\over 2}}}}\\, = {3^{^{x + {1 \\over 2}}}}\\, - {2^{2x - 1}}$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_092",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that the square of $$\\,{{\\sqrt {26 - 15\\sqrt 3 } } \\over {5\\sqrt 2 - \\sqrt {38 + 5\\sqrt 3 } }}$$ is a rational number.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_093",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solve for $$x:\\,\\sqrt {x + 1} - \\sqrt {x - 1} = 1.$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_094",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solve the following equation for $$x:\\,\\,2\\,{\\log _x}a + {\\log _{ax}}a + 3\\,\\,{\\log _{{a^2}x}}\\,a = 0,a > 0$$",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_095",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let n and k be positive such that $$n \\ge {{k(k + 1)} \\over 2}$$ . The number of solutions $$\\,({x_1},\\,{x_2},\\,.....{x_k}),\\,{x_1}\\,\\, \\ge \\,1,\\,{x_2}\\, \\ge \\,2,.......,{x_k} \\ge k$$, all integers, satisfying $${x_1} + {x_2} + \\,..... + {x_k} = n,\\,$$ is......................................",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_096",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\,x < 0,\\,\\,y < 0,\\,\\,x + y + {x \\over y} = {1 \\over 2}$$ and $$(x + y)\\,{x \\over y} = - {1 \\over 2}$$, then x =..........and y =.........",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_097",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the quadratic equations $${x^2} + ax + b = 0$$ and $${x^2} + bx + a = 0(a\ne b)$$ have a common root, then the numerical value of a + b is..........................",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_098",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The solution of equation $${\\log _7}\\,{\\log _5}\\,\\left( {\\sqrt {x + 5} + \\sqrt x } \\right) = 0$$ is ........................",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_099",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the product of the roots of the equation $$\\,{x^2} - 3\\,k\\,x + 2\\,{e^{2lnk}} - 1 = 0\\,\\,\\,\\,is\\,7$$, then the roots are real for k = .................................",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_100",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$2 + i\\sqrt 3 $$ is root of the equation $${x^2} + px + q = 0$$, where p and q are real, then (p, q) = (..........,....................).",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_101",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The coeffcient of $${x^{99}}$$ in the polynomial (x -1) (x - 2)...(x - 100) is ..............",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_102",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${n_1}$$, $${n_2}$$,.......$${n_p}$$ are p positive integers, whose sum is an even number, then the number of odd integers among them is odd.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_103",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$P(x) = a{x^2} + bx + c\\,\\,and\\,\\,Q(x) = - a{x^2} + dx + c$$, where $$ac\ne \\,0$$, then P(x) Q(x) = 0 has at least two real roots.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_104",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a < b < c < d, then the roots of the equation (x - a) (x - c) + 2 ( x - b) (x - d) = 0 are real and distinct.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_105",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $$2{x^2} + 3x + 1 = 0$$ has an irrational root.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_quadratic_equations_106",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations & Inequalities",
+    "topic": "Quadratic Equations & Inequalities",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For every integer n > 1, the inequality $${(n!)^{1/n}} < {{n + 1} \\over 2}$$ holds.",
+    "solution": "Solution for this Quadratic Equations & Inequalities question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "id": "chem_redox_reactions_001",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reaction of PtF$_{6}$ with oxygen (O$_{2}$) gas results in the formation of an ionic compound, X$^{+}$Y$^{-}$.\nCorrect statement(s) is(are)",
+    "solution": "The reaction of oxygen gas with platinum hexafluoride can be written as:\n$$\\mathrm{O_2 + PtF_6 \\rightarrow X^{+}Y^{-}}$$\nThe product formed is:\n$$\\mathrm{O_2^{+}[PtF_6]^{-}}$$\nHence, we identify the ions as:\n$$\\mathrm{X^{+} \\rightarrow O_2^{+}}\\mathrm{Y^{-} \\rightarrow [PtF_6]^{-}}$$\n**(A) For $\\mathrm{O_2^{+}}$, Bond Order (BO) = 2.5**\nThe molecular orbital electronic configuration of $\\mathrm{O_2^{+}}$ is:\n$$\\sigma 1s^2\\\\ \\sigma^{*}1s^2\\\\ \\sigma 2s^2\\\\ \\sigma^{*}2s^2\\\\ \\sigma 2p_z^2\\\\ \\pi 2p_x^2 = \\pi 2p_y^2\\\\ \\pi^{*}2p_x^1 = \\pi^{*}2p_y^0$$\nFrom this configuration, the bond order is calculated as:\n$$\\text{BO} = 2.5$$\nTherefore, statement A is incorrect as given.\n**(B) In $\\mathrm{O_2^{+}[PtF_6]^{-}}$, oxidation state of Pt = +5**\nWe have $\\mathrm{Pt^{+5}}$ with the electronic configuration $5d^5$. The atomic configuration of Pt is $5d^9 6s^1$. Hence, the oxidation state of +5 is correct.\nSo, statement B is correct.\n**(C) $\\mathrm{PtF_6}$ acts as an oxidising agent**\nAs $\\mathrm{O_2}$ is oxidised to $\\mathrm{O_2^{+}}$, $\\mathrm{PtF_6}$ works as the oxidant that accepts electrons.\nHence, statement C is correct.\n**(D) No fluorine atom transfer occurs from $\\mathrm{PtF_6}$**\nSince there is no fluorine transfer during the reaction, this statement is incorrect in this context.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The bond order of X$^{+}$ is 1.5.",
+      "Valence *d*-orbitals of the metal ion in X$^{+}$Y$^{-}$ has 5 electrons.",
+      "PtF$_{6}$ acts as an oxidant in this reaction.",
+      "PtF$_{6}$ acts as a fluorinating agent in this reaction."
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_002",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is",
+    "solution": "Reaction of permanganate ion with iodide ion in neutral aqueous medium\n\nIn neutral medium, $\\mathrm{MnO}_4^{-}$is reduced to $\\mathrm{MnO}_2$ and io did ion oxidizes to $\\mathrm{IO}_3^{-}$.\n\nIn the reaction of $\\mathrm{MnO}_4^{-}$and $I^{-}, \\mathrm{MnO}_4^{-}$is the oxidizing agent (it gets reduced) and $I^{-}$acts as the reducing agent (it get oxidized).\nThe products of the redux reaction between $\\mathrm{MnO}_4^{-1}$ and $I^{-}$is determined by the reaction medium.\nIn acidic medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{Mn}^{2+}$\nIn basic medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_4^{2-}$\nIn neutral medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2$\nHere, the reaction medium given is neutral and hence $\\mathrm{MnO}_4^{-}$is reduced to $\\mathrm{MnO}_2$.\nAlso, the $\\mathrm{I}^{-}$ion is oxidized to $\\mathrm{IO}_3^{-}$in the neutral medium.\n\n$$\n\\begin{aligned}\n& \\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2 \\\\\n& \\mathrm{I}^{-} \\rightarrow \\mathrm{IO}_3^{-}\n\\end{aligned}\n$$\nThe balanced chemical equation can be written as\n\n$$\n\\mathrm{2MnO}_4^{-}+\\mathrm{I}^{-}+\\mathrm{H}_2 \\mathrm{O} \\longrightarrow \\mathrm{IMnO}_2+\\mathrm{IO}_3^{-}+2 \\mathrm{OH}^{-}\n$$\n\nAnswer: Option (B) $\\mathrm{IO}_3^{-}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "I$_{2}$",
+      "IO$_{3}$$^{−}$",
+      "IO$_{4}$$^{−}$",
+      "IO$_{2}$$^{−}$"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_003",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO$_{4}$ solution to reach the end point. Number of moles of Fe$^{2+}$ present in 250 mL solution is x $$\\times$$ 10$^{$$-$$2}$ (consider complete dissolution of FeCl$_{2}$). The amount of iron present in the sample is y% by weight.\n\n(Assume : KMnO$_{4}$ reacts only with Fe$^{2+}$ in the solution\n\nUse : Molar mass of iron as 56 g mol$^{$$-$$1}$)\n\nThe value of x is ______.",
+    "solution": "$$\\mathop {Fe}\\limits_{(x \\times {{10}^{ - 2}}mol)} + 2HCl \\to \\mathop {FeC{l_2}}\\limits_{(x \\times {{10}^{ - 2}}mol)} + {H_2}$$\n\nConcentration of Fe$^{2+}$, $${M_1} = {{x \\times {{10}^{ - 2}}} \\over {250}} \\times 1000 = {{10x} \\over {250}}M = {x \\over {25}}M$$\n\nVolume of Fe$^{2+}$ solution titrated, V$_{1}$ = 25.0 mL\n\nConcentration of $$MnO_4^ - $$, M$_{2}$ = 0.03 M\n\nVolume of $$MnO_4^ - $$ used, V$_{2}$ = 12.5 mL\n\n$$5F{e^{2 + }} + MnO_4^ - \\to M{n^{2 + }} + 5F{e^{3 + }}$$\n\nUsing relation,\n\n$${{{M_1}{V_1}} \\over {{n_1}}} = {{{M_2}{V_2}} \\over {{n_2}}}$$\n\nn$_{2}$M$_{1}$V$_{1}$ = n$_{1}$M$_{2}$V$_{2}$ [n$_{1}$ and n$_{2}$ are number of moles of Fe$^{2+}$ and MnO$$_4^ - $$ reacting]\n\n$$1 \\times {x \\over {25}} \\times 25 = 5 \\times 0.03 \\times 12.5 \\Rightarrow x = 1.88$$\n\nThe volume of x is 1.88.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_004",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "To a 25ml H$_{2}$O$_{2}$ solution, excess of acidified solution of potassium iodide was added. The iodine liberated required 20 ml of 0.3 N sodium thiosulphate solution. Calculate the volume strength of H$_{2}$O$_{2}$ solution.",
+    "solution": "To complete and balance the given equation, it's important to first understand that this is a redox reaction where chlorate ion ($$ClO_3^-$$) is reduced to chloride ion ($$Cl^-$$), and iodide ion ($$\\text{I}^-$$) is oxidized to iodine ($$I_2$$). The presence of sulfuric acid ($$\\text{H}_2\\text{SO}_4$$) suggests it mainly acts as a source of protons (H$^{+}$) and the bisulfate ion ($$HSO_4^-$$) is a byproduct of the reaction.\n\nFirst, let's write down all the half-reactions and balance them:\n\n**Oxidation half-reaction (Iodide to Iodine):**\n\n$\\text{I}^- \\to \\text{I}_2$\n\nTo balance the iodine atoms, we need 2 I$^{-}$ on the left:\n\n$2\\text{I}^- \\to \\text{I}_2$\n\n**Reduction half-reaction (Chlorate to Chloride):**\n\n$\\text{ClO}_3^- + 6\\text{H}^+ + 6\\text{e}^- \\to \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nThe iodine half-reaction needs to be balanced in terms of electrons to conclude the overall redox reaction:\n\n$2\\text{I}^- \\to \\text{I}_2 + 2\\text{e}^-$\n\nNow, to combine these half-reactions keeping the electron count balanced, we notice that the reduction half-reaction involves 6 electrons, whereas the oxidation half-reaction involves only 2 electrons. Therefore, to balance electrons, we need to multiply the oxidation half-reaction by 3:\n\n$6\\text{I}^- \\to 3\\text{I}_2 + 6\\text{e}^-$\n\nNow, adding the balanced half-reactions:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 6\\text{H}^+ \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nSince the reaction occurs in acidic medium (indicated by the presence of sulfuric acid), the $6\\text{H}^+$ comes from $3\\text{H}_2\\text{SO}_4$, but because sulfate ions ($SO_4^{2-}$) are not changed in the reduction process, for every $\\text{H}_2\\text{SO}_4$ that donates two $H^+$, one $HSO_4^-$ is formed:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3HSO_4^-$\n\nHowever, we need to ensure the sulfate ions are properly accounted for. Since each $\\text{H}_2\\text{SO}_4$ provides two hydrogens and we use 3 $\\text{H}_2\\text{SO}_4$, it's correct as shown. Thus, the complete and balanced equation in acidic solution is:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3\\text{HSO}_4^-$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_005",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct statement(s) among the following :",
+    "solution": "Sn$^{2+}$ of stannous chloride dihydrate (SnCl$_{2}$ . 2H$_{2}$O) tends to convert into Sn$^{4+}$.\n\nHence, statement (a) is correct.\n\n(b) SnO$_{2}$ reacts with KOH and gives K$_{2}$SnO$_{3}$ . 3H$_{2}$O or K$_{2}$[Sn(OH)$_{6}$] because it is amphoteric in nature.\n\n$$Sn{O_2} + KOH\\buildrel {} \\over\n\\longrightarrow {K_2}Sn{O_3} + {H_2}O$$\n\nor $${K_2}[Sn{(OH)_6}]$$\n\nHence, statement (b) is correct.\n\n(c) In conc. HCl, PbCl$_{2}$ exists as chloroplumbous acid, H$_{2}$[PbCl$_{4}$]\n\n$$\\mathop {PbC{l_2}}\\limits^{II} + 2HCl\\buildrel {} \\over\n\\longrightarrow \\mathop {{H_2}[PbC{l_4}]}\\limits^{II} $$\n\nHence, statement (c) is incorrect.\n\n(d) Pb$_{3}$O$_{4}$ is a mixture of $$(2\\mathop {PbO}\\limits^{ + 2} + {\\mathop {PbO}\\limits^{ + 4} _2})P{b_3}{O_4} + 4HN{O_3}\\buildrel {} \\over\n\\longrightarrow \\mathop {2Pb{{(N{O_3})}_2}}\\limits^{ + 2} + \\mathop {Pb{O_2}}\\limits^{ + 4} + 2{H_2}O$$\n\nIt is not a redox reaction. Thus, the statement (d) is incorrect.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "SnCl$_{2}$ . 2H$_{2}$O is a reducing agent.",
+      "SnO$_{2}$ reacts with KOH to form K$_{2}$[Sn(OH)$_{6}$].",
+      "A solution of PbCl$_{2}$ in HCl contains Pb$^{2+}$ and Cl$^{$$-$$}$ ions.",
+      "The reaction of Pb$_{3}$O$_{4}$ with hot dilute nitric acid to give PbO$_{2}$ is a redox reaction."
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_006",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Fe$^{3+}$ is reduced to Fe$^{2+}$ by using",
+    "solution": "Fe$^{3+}$ is reduced to Fe$^{2+}$ by H$_{2}$O$_{2}$/NaOH and Na$_{2}$O$_{2}$/H$_{2}$O.\n$$2F{e^{3 + }} + {H_2}{O_2} + O{H^ - } \\to 2F{e^{2 + }} + 2{H_2}O + {O_2}N{a_2}{O_2} + {H_2}O \\to {H_2}{O_2} + NaOH$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "H$_{2}$O$_{2}$ in presence of NaOH.",
+      "Na$_{2}$O$_{2}$ in water.",
+      "H$_{2}$O$_{2}$ in presence of H$_{2}$SO$_{4}$.",
+      "Na$_{2}$O$_{2}$ in presence of H$_{2}$SO$_{4}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1awcl0o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_redox_reactions_007",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the reaction,\n\n$${I^ - } + ClO_3^ - + {H_2}S{O_4} \\to C{l^ - } + HSO_4^ - + {I_2}$$\n\nthe correct statement(s) in the balanced equation is/are",
+    "solution": "Oxidation half-reaction,\n\n$$2{I^ - } \\to {I_2} + 2{e^ - }$$ .... (i)\n\nHere, I$^{$$-$$}$ is converted into I$_{2}$. Oxidation number of I is increasing from $$-$$1 to 0 hence, this is a type of oxidation reaction.\n\nReduction half-reaction\n\n$$6{H^ + } + ClO_3^ - + 6{e^ - } \\to C{l^ - } + 3{H_2}O$$ ..... (ii)\n\nHere, H$_{2}$O releases as a product. Hence, option (d) is correct.\n\nMultiplying equation (i) by 3 and adding in equation (ii)\n\n\n[Diagram]\n\nStoichiometric coefficient of $$HSO_4^ - $$ is 6.\n\nHence, option (a), (b) and (d) are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "stoichiometric coefficient of HSO$$_4^ - $$ is 6",
+      "iodide is oxidised",
+      "sulphur is reduced",
+      "H$_{2}$O is one of the products"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1awcl0o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_redox_reactions_008",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reduction of the metal centre in aqueous permanganate ion involves",
+    "solution": "In an aqueous solution, the reduction of the metal center in permanganate ions ($MnO_4^-$) varies depending on the medium :\n\nAcidic Medium : Permanganate acts as a strong oxidizing agent. The reaction can be represented as :\n$$8H^+ + 5e^- + MnO_4^- \\to Mn^{2+} + 4H_2O$$\nThis indicates that 5 electrons are involved in the reduction process in an acidic medium.\nNeutral Medium : Permanganate acts as a moderate oxidizing agent. The reaction in a neutral medium is :\n$$2H_2O + 3e^- + MnO_4^- \\to MnO_2 + 4OH^-$$\nHere, 3 electrons are involved in the reduction process in a neutral medium.\nAlkaline Medium : In alkaline conditions, the reaction is similar to that in a neutral medium :\n$$2H_2O + 3e^- + MnO_4^- \\to MnO_2 + 4OH^-$$\nAgain, 3 electrons are involved in the reduction process in an alkaline medium.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "3 electrons in neutral medium.",
+      "5 electrons in neutral medium.",
+      "3 electrons in alkaline medium.",
+      "5 electrons in acidic medium."
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_009",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The order of the oxidation state of the phosphorous atom in\n\n$${H_3}P{O_2},{H_3}P{O_4},{H_3}P{O_3}$$ and $${H_4}{P_2}{O_6}$$ is",
+    "solution": "Let oxidation states of phosphorus in H$_{3}$PO$_{2}$, H$_{3}$PO$_{4}$, H$_{3}$PO$_{3}$ and H$_{4}$P$_{2}$O$_{6}$ be p, q, r and s respectively.\nOxidation state of hydrogen = + 1\nOxidation state of oxygen = $$-$$2\nThus, in H$_{3}$PO$_{2}$ :\n3 $$\\times$$ (+1) + p + 2 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ p = +1\nIn H$_{3}$PO$_{4}$ :\n3 $$\\times$$ (+1) + q + 4 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ q = +5\nIn H$_{3}$PO$_{3}$ :\n3 $$\\times$$ (+1) + r + 3 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ r = + 3\nIn H$_{4}$P$_{2}$O$_{6}$ :\n4 $$\\times$$ (+1) + 2s + 6 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ s = +4\nThus, the order of oxidation state is :\nH$_{3}$PO$_{4}$ > H$_{4}$P$_{2}$O$_{6}$ > H$_{3}$PO$_{3}$ > H$_{3}$PO$_{2}$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${H_3}P{O_3} > {H_3}P{O_2} > {H_3}P{O_4} > {H_4}{P_2}{O_6}$$",
+      "$${H_3}P{O_4} > {H_3}P{O_2} > {H_3}P{O_3} > {H_4}{P_2}{O_6}$$",
+      "$${H_3}P{O_4} > {H_4}{P_2}{O_6} > {H_3}P{O_3} > {H_3}P{O_2}$$",
+      "$${H_3}P{O_2} > {H_3}P{O_3} > {H_4}{P_2}{O_6} > {H_3}P{O_4}$$"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_010",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the reactions in Column I with nature of the reactions/type of the products in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$\\mathrm{O_2^ - \\to {O_2} + O_2^{2 - }}$$\n(P)\nredox reaction\n\n\n(B)\n$$\\mathrm{CrO_4^{2 - } + {H^ + }}$$\n(Q)\none of the products has trigonal planar structure\n\n\n(C)\n$$\\mathrm{MnO_4^ - + NO_2^ - + {H^ + } \\to}$$\n(R)\ndimeric bridged tetrahedral metal ion\n\n\n(D)\n$$\\mathrm{NO_3^ - + {H_2}S{O_4} + F{e^{2 + }} \\to }$$\n(S)\ndisproportionation",
+    "solution": "When the same molecule is oxidised or reduced,\nthen the reaction is called disproportionation\nreaction.\nThe reaction in which oxidation and reduction\ntakes place simultaneously are called redox\nreactions. Thus,\n(A)\n[Diagram]\n\n(B)\n[Diagram]\n\n(C)\n[Diagram]\n\n(D)\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\mathrm{A-(p,s);B-(r);C-(p,q);D-(p)}$$",
+      "$$\\mathrm{A-(p);B-(r);C-(p);D-(p)}$$",
+      "$$\\mathrm{A-(p,s);B-(r);C-(p);D-(p, q)}$$",
+      "$$\\mathrm{A-(p);B-(r, s);C-(p,q);D-(p)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghuxp02.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_redox_reactions_011",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction, $$3Cl{O^ - }(aq) \\to ClO_3^ - (aq) + 2C{l^ - }(aq)$$ is an example of :",
+    "solution": "The given reaction is:\n\n$$3ClO^- (aq) \\to ClO_3^- (aq) + 2Cl^- (aq)$$\n\nThis reaction is an example of a Disproportionation Reaction. Disproportionation reactions are a type of redox reaction in which the same element is simultaneously oxidized and reduced. In this given reaction, chlorine undergoes both oxidation and reduction.\n\nTo understand why it is a disproportionation reaction, let's assign oxidation states to chlorine in different species:\n\nIn $ClO^-$, chlorine has an oxidation state of +1.\n\nIn $ClO_3^-$, chlorine has an oxidation state of +5.\n\nIn $Cl^-$, chlorine has an oxidation state of -1.\n\nIn going from $ClO^-$ to $ClO_3^-$, the oxidation state of chlorine increases from +1 to +5, indicating oxidation. Simultaneously, in going from $ClO^-$ to $Cl^-$, the oxidation state of chlorine decreases from +1 to -1, indicating reduction. Since one species of chlorine is getting oxidized while another is getting reduced, and both processes involve the same element (chlorine in this case), it classifies as a disproportionation reaction.\n\nTherefore, the correct answer is:\n\nOption C: Disproportionate reaction",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Oxidation reaction",
+      "Reduction reaction",
+      "Disproportionate reaction",
+      "Decomposition reaction"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_012",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Amongst the following identify the species with an atom in +6 oxidation state",
+    "solution": "To identify the species with an atom in +6 oxidation state, let's analyze each option given:\n\nOption A: $MnO_4^-$\n\nTo determine the oxidation state of Mn in $MnO_4^-$, recall that the oxidation state of oxygen is typically -2. In the permanganate ion, there are four oxygens, contributing a total of $4 \\times (-2) = -8$ to the charge. The overall charge of the $MnO_4^-$ ion is -1, which means the oxidation state of Mn must balance the charge contributed by oxygen to achieve the overall -1 charge. Thus, if we let the oxidation state of Mn be x, we have:\n\n$$x + 4(-2) = -1$$\n\nSolving for x gives:\n\n$$x - 8 = -1 \\Rightarrow x = +7$$\n\nOption B: $Cr(CN)_6^{3-}$\n\nFor the $Cr(CN)_6^{3-}$ ion, cyanide $(CN)^-$ is a ligand with a -1 charge. With six cyanide ions, the total charge contributed by the ligands is $6 \\times (-1) = -6$. The overall charge of the complex is -3, which means the oxidation state of Cr must offset the ligands' charge to achieve the overall -3 charge. Letting the oxidation state of Cr be x, we can set up the equation:\n\n$$x + 6(-1) = -3$$\n\nSolving for x gives:\n\n$$x - 6 = -3 \\Rightarrow x = +3$$\n\nOption C: $NiF_6^{2-}$\n\nIn $NiF_6^{2-}$, the fluoride ion $(F^-)$ has an oxidation state of -1. With six fluoride ions, the total charge from the fluoride ions is $6 \\times (-1) = -6$. For the complex to have an overall charge of -2, the oxidation state of Ni (let's call it x) needs to satisfy the following equation:\n\n$$x + 6(-1) = -2$$\n\nSolving for x gives:\n\n$$x - 6 = -2 \\Rightarrow x = +4$$\n\nOption D: $CrO_2Cl_2$\n\nIn chromium dioxide dichloride, we have two oxygen atoms and two chlorine atoms bonded to chromium. Oxygen has a typical oxidation state of -2, and chlorine has a typical oxidation state of -1. However, being in a molecule (not an ion), the total must sum to zero. Let the oxidation state of Cr be x; we can set up the equation as follows:\n\n$$x + 2(-2) + 2(-1) = 0$$\n\nThis simplifies to:\n\n$$x - 4 - 2 = 0 \\Rightarrow x = +6$$\n\nConclusion: From the analysis above, the species with a chromium atom in the +6 oxidation state is found in Option D: $CrO_2Cl_2$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$MnO_4^ - $$",
+      "$$Cr(CN)_6^{3 - }$$",
+      "$$NiF_6^{2 - }$$",
+      "$$Cr{O_2}C{l_2}$$"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_013",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The normality of 0.3 M phosphorus acid (H$_{3}$PO$_{3}$) is",
+    "solution": "Normality (N) is a measure of concentration equivalent to the gram equivalent weight per liter of solution. For acids, it's determined by the amount of H$^{+}$ ions that one molecule of acid can furnish in its reaction. Phosphorous acid, $H_3PO_3$, is a diprotic acid, meaning each molecule can furnish two H$^{+}$ ions for reactions, despite having three hydrogen atoms, because only two of the hydrogen atoms are bonded in such a way that they can be ionized and participate in a reaction as protons ($H^+$).\n\nTo calculate the normality of a solution, you use the formula:\n\n$N = M \\times n$\n\nwhere:\n\n$N$ is the normality,\n\n$M$ is the molarity of the solution, and\n\n$n$ is the number of moles of replaceable ions furnished by one mole of solute (in this case, the $H^+$ ions from phosphorus acid).\n\nGiven that the molarity ($M$) of phosphorus acid is 0.3 M, and it can furnish 2 $H^+$ ions per molecule, we use $n = 2$:\n\n$N = 0.3 \\,M \\times 2 = 0.6\\,N$\n\nTherefore, the normality of the 0.3 M phosphorus acid ($H_3PO_3$) solution is 0.6 N. So, the correct option is:\n\nOption D: 0.6",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0.1",
+      "0.9",
+      "0.3",
+      "0.6"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_014",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the redox reaction:\n\n$$MnO_4^ - + {C_2}O_4^{ - 2} + {H^ + } \\to M{n^{2 + }} + C{O_2} + {H_2}O$$\n\nThe correct coefficients of the reactants for the balanced\nreaction are",
+    "solution": "To determine which option corresponds to the scenario where the equivalent weight of $MnSO_4$ is half its molecular weight upon conversion, we need to analyze each oxidation process and find out the change in oxidation state of manganese (Mn) in each case. The equivalent weight of a compound in a given reaction depends on the change in oxidation number per atom of the element in question. It is calculated as the molecular weight divided by the number of electrons lost or gained in the reaction.\n\nThe molecular weight of $MnSO_4$ (Manganese(II) sulfate) is primarily irrelevant for the specifics of calculating equivalent weight in this manner; what's crucial is the stoichiometry of the electron transfer involved in its reaction.\n\nLet's consider the oxidation state of Mn in $MnSO_4$, which is +2.\n\nOption A: $Mn_2O_3$\n\nMn's oxidation state in $Mn_2O_3$ is +3. Thus, going from +2 in $MnSO_4$ to +3 in $Mn_2O_3$ involves a loss (or gain) of 1 electron per manganese atom. Given that there are two Mn atoms in $Mn_2O_3$, this would not match the stated requirement directly without considering the specifics of the individual reaction stoichiometry.\n\nOption B: $MnO_2$\n\nThe oxidation state of Mn in $MnO_2$ is +4. The change from +2 to +4 implies a gain or loss of 2 electrons.\n\nOption C: $MnO_4^-$ (Permanganate)\n\nIn $MnO_4^-$, the oxidation state of Mn is +7. The change from +2 in $MnSO_4$ to +7 in $MnO_4^-$ involves a change of 5 electrons.\n\nOption D: $MnO_4^{2-}$\n\nThis oxidation state is not typically encountered for manganese and may represent a mistaken formulation, as Mn typically shows +7 oxidation state in permanganate $(MnO_4^-)$, not a doubly charged anion.\n\nGiven these considerations, the question's conditions mention that the equivalent weight of $MnSO_4$ becomes half of its molecular weight when it converts to one of these products. This would imply a situation where the number of electrons transferred per formula unit of $MnSO_4$ is equivalent to 2 (since the molecular weight divided by 2 equals the equivalent weight when each mole of $MnSO_4$ involves the transfer of 2 moles of electrons).\n\nThus, the correct answer is:\n\nOption B: $MnO_2$, because the conversion from $Mn^{+2}$ to $Mn^{+4}$ involves a transfer of 2 electrons per manganese atom, which fits the condition that the equivalent weight is half the molecular weight in this context.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$MnO_4^ - \\,\\, \\to \\,\\,2,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,5,\\,{H^ + } \\to \\,\\,16$$",
+      "$$MnO_4^ - \\,\\, \\to \\,\\,16,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,5,\\,{H^ + } \\to \\,\\,2$$",
+      "$$MnO_4^ - \\,\\, \\to \\,\\,5,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,16,\\,{H^ + } \\to \\,\\,2$$",
+      "$$MnO_4^ - \\,\\, \\to \\,\\,2,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,16,\\,{H^ + } \\to \\,\\,5$$"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_015",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The volume strength of 1.5 N H$_{2}$O$_{2}$ solution is",
+    "solution": "To determine which option corresponds to the scenario where the equivalent weight of $MnSO_4$ is half its molecular weight upon conversion, we need to analyze each oxidation process and find out the change in oxidation state of manganese (Mn) in each case. The equivalent weight of a compound in a given reaction depends on the change in oxidation number per atom of the element in question. It is calculated as the molecular weight divided by the number of electrons lost or gained in the reaction.\n\nThe molecular weight of $MnSO_4$ (Manganese(II) sulfate) is primarily irrelevant for the specifics of calculating equivalent weight in this manner; what's crucial is the stoichiometry of the electron transfer involved in its reaction.\n\nLet's consider the oxidation state of Mn in $MnSO_4$, which is +2.\n\nOption A: $Mn_2O_3$\n\nMn's oxidation state in $Mn_2O_3$ is +3. Thus, going from +2 in $MnSO_4$ to +3 in $Mn_2O_3$ involves a loss (or gain) of 1 electron per manganese atom. Given that there are two Mn atoms in $Mn_2O_3$, this would not match the stated requirement directly without considering the specifics of the individual reaction stoichiometry.\n\nOption B: $MnO_2$\n\nThe oxidation state of Mn in $MnO_2$ is +4. The change from +2 to +4 implies a gain or loss of 2 electrons.\n\nOption C: $MnO_4^-$ (Permanganate)\n\nIn $MnO_4^-$, the oxidation state of Mn is +7. The change from +2 in $MnSO_4$ to +7 in $MnO_4^-$ involves a change of 5 electrons.\n\nOption D: $MnO_4^{2-}$\n\nThis oxidation state is not typically encountered for manganese and may represent a mistaken formulation, as Mn typically shows +7 oxidation state in permanganate $(MnO_4^-)$, not a doubly charged anion.\n\nGiven these considerations, the question's conditions mention that the equivalent weight of $MnSO_4$ becomes half of its molecular weight when it converts to one of these products. This would imply a situation where the number of electrons transferred per formula unit of $MnSO_4$ is equivalent to 2 (since the molecular weight divided by 2 equals the equivalent weight when each mole of $MnSO_4$ involves the transfer of 2 moles of electrons).\n\nThus, the correct answer is:\n\nOption B: $MnO_2$, because the conversion from $Mn^{+2}$ to $Mn^{+4}$ involves a transfer of 2 electrons per manganese atom, which fits the condition that the equivalent weight is half the molecular weight in this context.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "4.8",
+      "8.4",
+      "3.0",
+      "8.0"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_016",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The oxidation number of phosphorus in Ba(H$_{2}$PO$_{2}$) is :",
+    "solution": "To determine which option corresponds to the scenario where the equivalent weight of $MnSO_4$ is half its molecular weight upon conversion, we need to analyze each oxidation process and find out the change in oxidation state of manganese (Mn) in each case. The equivalent weight of a compound in a given reaction depends on the change in oxidation number per atom of the element in question. It is calculated as the molecular weight divided by the number of electrons lost or gained in the reaction.\n\nThe molecular weight of $MnSO_4$ (Manganese(II) sulfate) is primarily irrelevant for the specifics of calculating equivalent weight in this manner; what's crucial is the stoichiometry of the electron transfer involved in its reaction.\n\nLet's consider the oxidation state of Mn in $MnSO_4$, which is +2.\n\nOption A: $Mn_2O_3$\n\nMn's oxidation state in $Mn_2O_3$ is +3. Thus, going from +2 in $MnSO_4$ to +3 in $Mn_2O_3$ involves a loss (or gain) of 1 electron per manganese atom. Given that there are two Mn atoms in $Mn_2O_3$, this would not match the stated requirement directly without considering the specifics of the individual reaction stoichiometry.\n\nOption B: $MnO_2$\n\nThe oxidation state of Mn in $MnO_2$ is +4. The change from +2 to +4 implies a gain or loss of 2 electrons.\n\nOption C: $MnO_4^-$ (Permanganate)\n\nIn $MnO_4^-$, the oxidation state of Mn is +7. The change from +2 in $MnSO_4$ to +7 in $MnO_4^-$ involves a change of 5 electrons.\n\nOption D: $MnO_4^{2-}$\n\nThis oxidation state is not typically encountered for manganese and may represent a mistaken formulation, as Mn typically shows +7 oxidation state in permanganate $(MnO_4^-)$, not a doubly charged anion.\n\nGiven these considerations, the question's conditions mention that the equivalent weight of $MnSO_4$ becomes half of its molecular weight when it converts to one of these products. This would imply a situation where the number of electrons transferred per formula unit of $MnSO_4$ is equivalent to 2 (since the molecular weight divided by 2 equals the equivalent weight when each mole of $MnSO_4$ involves the transfer of 2 moles of electrons).\n\nThus, the correct answer is:\n\nOption B: $MnO_2$, because the conversion from $Mn^{+2}$ to $Mn^{+4}$ involves a transfer of 2 electrons per manganese atom, which fits the condition that the equivalent weight is half the molecular weight in this context.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "+3",
+      "+2",
+      "+1",
+      "-1"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_017",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equivalent weight of MnSO$_{4}$ is half of its molecular weight, when it converts to",
+    "solution": "To determine which option corresponds to the scenario where the equivalent weight of $MnSO_4$ is half its molecular weight upon conversion, we need to analyze each oxidation process and find out the change in oxidation state of manganese (Mn) in each case. The equivalent weight of a compound in a given reaction depends on the change in oxidation number per atom of the element in question. It is calculated as the molecular weight divided by the number of electrons lost or gained in the reaction.\n\nThe molecular weight of $MnSO_4$ (Manganese(II) sulfate) is primarily irrelevant for the specifics of calculating equivalent weight in this manner; what's crucial is the stoichiometry of the electron transfer involved in its reaction.\n\nLet's consider the oxidation state of Mn in $MnSO_4$, which is +2.\n\nOption A: $Mn_2O_3$\n\nMn's oxidation state in $Mn_2O_3$ is +3. Thus, going from +2 in $MnSO_4$ to +3 in $Mn_2O_3$ involves a loss (or gain) of 1 electron per manganese atom. Given that there are two Mn atoms in $Mn_2O_3$, this would not match the stated requirement directly without considering the specifics of the individual reaction stoichiometry.\n\nOption B: $MnO_2$\n\nThe oxidation state of Mn in $MnO_2$ is +4. The change from +2 to +4 implies a gain or loss of 2 electrons.\n\nOption C: $MnO_4^-$ (Permanganate)\n\nIn $MnO_4^-$, the oxidation state of Mn is +7. The change from +2 in $MnSO_4$ to +7 in $MnO_4^-$ involves a change of 5 electrons.\n\nOption D: $MnO_4^{2-}$\n\nThis oxidation state is not typically encountered for manganese and may represent a mistaken formulation, as Mn typically shows +7 oxidation state in permanganate $(MnO_4^-)$, not a doubly charged anion.\n\nGiven these considerations, the question's conditions mention that the equivalent weight of $MnSO_4$ becomes half of its molecular weight when it converts to one of these products. This would imply a situation where the number of electrons transferred per formula unit of $MnSO_4$ is equivalent to 2 (since the molecular weight divided by 2 equals the equivalent weight when each mole of $MnSO_4$ involves the transfer of 2 moles of electrons).\n\nThus, the correct answer is:\n\nOption B: $MnO_2$, because the conversion from $Mn^{+2}$ to $Mn^{+4}$ involves a transfer of 2 electrons per manganese atom, which fits the condition that the equivalent weight is half the molecular weight in this context.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Mn$_{2}$O$_{3}$",
+      "MnO$_{2}$",
+      "$$MnO_4^ - $$",
+      "$$MnO_4^{2 - }$$"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_018",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The oxidation number of carbon in CH$_{2}$O is",
+    "solution": "First, let's understand the given information. We have hydrazine (N$_{2}$H$_{4}$) losing 10 moles of electrons to form a new compound (Y). In this context, the oxidation state of hydrogen remains unchanged, which is +1.\n\nTo solve this problem, we should follow these steps:\n\n1. Determine the initial oxidation state of nitrogen in N$_{2}$H$_{4}$.\n\nIn N$_{2}$H$_{4}$, hydrogen is in the +1 oxidation state. Since the molecule is neutral, the sum of oxidation states must equal 0. We can express this relationship as:\n\n2x + 4(+1) = 0\n\nWhere x is the oxidation state of one nitrogen atom. This can be rearranged to find x:\n\n2x = -4\n\nx = -2\n\nSo, the initial oxidation state of nitrogen in N$_{2}$H$_{4}$ is -2.\n\n2. Determine the change in oxidation state of nitrogen.\n\nWhen 1 mole of N$_{2}$H$_{4}$ loses 10 moles of electrons, the nitrogen atoms undergo oxidation, meaning their oxidation state increases. The loss of 10 electrons per mole of N$_{2}$H$_{4}$ means that there's an increase of 5 oxidation states per nitrogen atom, because there are 2 nitrogen atoms in each molecule of N$_{2}$H$_{4}$.\n\n3. Calculate the final oxidation state of nitrogen.\n\nThe initial oxidation state of nitrogen is -2. With the loss of electrons, the oxidation state increases by 5 for each nitrogen atom:\n\nFinal oxidation state = Initial oxidation state + Increase in oxidation state\n\nFinal oxidation state of nitrogen = -2 + 5 = +3\n\nTherefore, the oxidation state of nitrogen in the new compound Y is +3.\n\nThe correct answer is Option C: +3.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "-2",
+      "+2",
+      "0",
+      "+4"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_019",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "1 mole of N$_{2}$H$_{4}$ loses 10 moles of electrons to form a new compound Y. assuming that all nitrogen appears in the new compound , what is the oxidation state of nitrogen in Y ? (there is no change in the oxidation state of hydrogen)",
+    "solution": "First, let's understand the given information. We have hydrazine (N$_{2}$H$_{4}$) losing 10 moles of electrons to form a new compound (Y). In this context, the oxidation state of hydrogen remains unchanged, which is +1.\n\nTo solve this problem, we should follow these steps:\n\n1. Determine the initial oxidation state of nitrogen in N$_{2}$H$_{4}$.\n\nIn N$_{2}$H$_{4}$, hydrogen is in the +1 oxidation state. Since the molecule is neutral, the sum of oxidation states must equal 0. We can express this relationship as:\n\n2x + 4(+1) = 0\n\nWhere x is the oxidation state of one nitrogen atom. This can be rearranged to find x:\n\n2x = -4\n\nx = -2\n\nSo, the initial oxidation state of nitrogen in N$_{2}$H$_{4}$ is -2.\n\n2. Determine the change in oxidation state of nitrogen.\n\nWhen 1 mole of N$_{2}$H$_{4}$ loses 10 moles of electrons, the nitrogen atoms undergo oxidation, meaning their oxidation state increases. The loss of 10 electrons per mole of N$_{2}$H$_{4}$ means that there's an increase of 5 oxidation states per nitrogen atom, because there are 2 nitrogen atoms in each molecule of N$_{2}$H$_{4}$.\n\n3. Calculate the final oxidation state of nitrogen.\n\nThe initial oxidation state of nitrogen is -2. With the loss of electrons, the oxidation state increases by 5 for each nitrogen atom:\n\nFinal oxidation state = Initial oxidation state + Increase in oxidation state\n\nFinal oxidation state of nitrogen = -2 + 5 = +3\n\nTherefore, the oxidation state of nitrogen in the new compound Y is +3.\n\nThe correct answer is Option C: +3.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "-1",
+      "-3",
+      "+3",
+      "+5"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_020",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "M is molecular weight of KMnO$_{4}$. The equivalent wight of KMnO$_{4}$ when it is converted into K$_{2}$MnO$_{4}$ is",
+    "solution": "The equivalent weight of a substance is given by the formula:\n\n$$\\text{Equivalent weight} = \\frac{\\text{Molecular weight}}{\\text{n}}$$\n\nwhere **n** is the change in oxidation number per molecule of the reactant (the valence change).\n\nTo find the equivalent weight of $ KMnO_4 $ when it is converted to $ K_2MnO_4 $, we first need to establish the oxidation states of manganese (Mn) in both compounds.\n\nIn $ KMnO_4 $, Mn has an oxidation state of +7.\n\nIn $ K_2MnO_4 $, Mn has an oxidation state of +6.\n\nThe change in oxidation state per $ KMnO_4 $ molecule is from +7 to +6, which is a decrease of 1. Therefore, $ n = 1 $ in this case.\n\nSubstituting this value into the formula gives us:\n\n$$\\text{Equivalent weight} = \\frac{\\text{Molecular weight (M)}}{1} = M$$\n\nThus, the correct option is **Option A: M**.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "M",
+      "M/3",
+      "M/5",
+      "M/7"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_021",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO$_{4}$ solution to reach the end point. Number of moles of Fe$^{2+}$ present in 250 mL solution is x $$\\times$$ 10$^{$$-$$2}$ (consider complete dissolution of FeCl$_{2}$). The amount of iron present in the sample is y% by weight.\n\n(Assume : KMnO$_{4}$ reacts only with Fe$^{2+}$ in the solution\n\nUse : Molar mass of iron as 56 g mol$^{$$-$$1}$)\n\nThe value of y is ______.",
+    "solution": "Mass of sample = 5.6 g\n\nNumber of moles of Fe = 1.88 $$\\times$$ 10$^{$$-$$2}$ mol\n\nMolar mass of Fe = 56 g/mol\n\nMass of Fe = Moles of Fe $$\\times$$ Molar mass\n\n= 1.88 $$\\times$$ 10$^{$$-$$2}$ $$\\times$$ 56 = 1.05 g\n\n% Fe = $${{Mass\\,of\\,Fe} \\over {Mass\\,of\\,sample}} \\times 100 = {{1.05} \\over {5.6}} \\times 100\\Rightarrow$$ y = 18.75%\n\nThe value of y is 18.75.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_022",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ozonolysis of ClO$_{2}$ produces an oxide of chlorine. The average oxidation state of chlorine in this oxide is __________.",
+    "solution": "$$\\mathop {2Cl{O_2}}\\limits_{Chlorine\\,dioxide} + 2{O_3}\\buildrel {} \\over\n\\longrightarrow \\mathop {C{l_2}{O_6}}\\limits_{Chloral\\,perchlorate} + 2{O_2}$$\nOxidation state of Cl in Cl$_{2}$O$_{6}$ = 2x + 6($$-$$2) = 0\n2x $$-$$ 12 = 0\n2x = 12 $$\\Rightarrow$$ x = + 6\nAverage oxidation state of Cl in Cl$_{2}$O$_{6}$ is 6.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_023",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In neutral or faintly alkaline solution, 8 moles of permanganate anion quantitative oxidise thiosulphate anions to produce X moles of a sulphur containing product. The magnitude of X is....",
+    "solution": "In neutral or faintly alkaline solution, thiosulphate is\noxidized to sulphate by permanganate,\n8MnO$_{4}$$^{–}$ + 3S$_{2}$O$_{3}$$^{2–}$ + H$_{2}$O $$ \\to $$ 8MnO$_{2}$ + 6SO$_{4}$$^{2–}$ + 2OH$^{–}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_024",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following list of reagents, acidified K$_{2}$Cr$_{2}$O$_{7}$, alkaline KMnO$_{4}$, CuSO$_{4}$, H$_{2}$O$_{2}$, Cl$_{2}$, O$_{3}$, FeCl$_{3}$, HNO$_{3}$ and Na$_{2}$S$_{2}$O$_{3}$. The total number of reagents that can oxidise aqueous iodide to iodine is",
+    "solution": "Acidified K$_{2}$Cr$_{2}$O$_{7}$, CuSO$_{4}$, H$_{2}$O$_{2}$, Cl$_{2}$, O$_{3}$, FeCl$_{3}$ and HNO$_{3}$ oxidise aq. iodide to iodine. Alkaline KMnO$_{4}$ oxidise aq. iodide to IO$$_3^ - $$.\n\nNa$_{2}$S$_{2}$O$_{3}$ is a strong reducing agent which on reaction with I$_{2}$ produces I$^{$$-$$}$.\n\nNa$_{2}$S$_{2}$O$_{3}$ + I$_{2}$ $$\\to$$ 2I$^{$$-$$}$ + Na$_{2}$S$_{4}$O$_{6}$\n\nTherefore, no reaction takes place between Na$_{2}$S$_{2}$O$_{3}$ and iodide ion. Hence, correct integer is (7).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04mqqmh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_redox_reactions_025",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The difference in the oxidation numbers of the two types of sulphur atoms in Na$_{2}$S$_{4}$O$_{6}$ is",
+    "solution": "(i) The structure of compound containing sulphur in $\\mathrm{Na}_2 \\mathrm{~S}_4 \\mathrm{O}_6$ is :\n\n[Diagram]\n\nLet the oxidation state of sulpher be $x$ :\n$$ \\begin{gathered} 4 \\times x+2 \\times(+1)+6 \\times(-2)=0 \\\\ 4 x=12-2=0 \\\\ 4 x=10 \\\\ x=\\frac{5}{2}=2.5 \\end{gathered} $$\n(ii) Each of the corner sulphurs utilises five valence electrons to form bond with oxygen atoms.\nTheir oxidation state is +5.\n(iii) Oxidation state of central sulphur atom is zero (0).\nDifference between two types of sulphur = 5 – 0 = 5.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04mqqmh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_redox_reactions_026",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A 5.0 cm$^{3}$ solution of H$_{2}$O$_{2}$ liberates 0.508 g of iodine from an acidified KI solution. Calculate the strength of H$_{2}$O$_{2}$ solution in terms of volume strength at STP.",
+    "solution": "To complete and balance the given equation, it's important to first understand that this is a redox reaction where chlorate ion ($$ClO_3^-$$) is reduced to chloride ion ($$Cl^-$$), and iodide ion ($$\\text{I}^-$$) is oxidized to iodine ($$I_2$$). The presence of sulfuric acid ($$\\text{H}_2\\text{SO}_4$$) suggests it mainly acts as a source of protons (H$^{+}$) and the bisulfate ion ($$HSO_4^-$$) is a byproduct of the reaction.\n\nFirst, let's write down all the half-reactions and balance them:\n\n**Oxidation half-reaction (Iodide to Iodine):**\n\n$\\text{I}^- \\to \\text{I}_2$\n\nTo balance the iodine atoms, we need 2 I$^{-}$ on the left:\n\n$2\\text{I}^- \\to \\text{I}_2$\n\n**Reduction half-reaction (Chlorate to Chloride):**\n\n$\\text{ClO}_3^- + 6\\text{H}^+ + 6\\text{e}^- \\to \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nThe iodine half-reaction needs to be balanced in terms of electrons to conclude the overall redox reaction:\n\n$2\\text{I}^- \\to \\text{I}_2 + 2\\text{e}^-$\n\nNow, to combine these half-reactions keeping the electron count balanced, we notice that the reduction half-reaction involves 6 electrons, whereas the oxidation half-reaction involves only 2 electrons. Therefore, to balance electrons, we need to multiply the oxidation half-reaction by 3:\n\n$6\\text{I}^- \\to 3\\text{I}_2 + 6\\text{e}^-$\n\nNow, adding the balanced half-reactions:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 6\\text{H}^+ \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nSince the reaction occurs in acidic medium (indicated by the presence of sulfuric acid), the $6\\text{H}^+$ comes from $3\\text{H}_2\\text{SO}_4$, but because sulfate ions ($SO_4^{2-}$) are not changed in the reduction process, for every $\\text{H}_2\\text{SO}_4$ that donates two $H^+$, one $HSO_4^-$ is formed:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3HSO_4^-$\n\nHowever, we need to ensure the sulfate ions are properly accounted for. Since each $\\text{H}_2\\text{SO}_4$ provides two hydrogens and we use 3 $\\text{H}_2\\text{SO}_4$, it's correct as shown. Thus, the complete and balanced equation in acidic solution is:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3\\text{HSO}_4^-$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_027",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nAg$^{+}$ + AsH$_{3}$ $$\\to$$ H$_{3}$AsO$_{3}$ + H$^{+}$",
+    "solution": "When arranging the species I$_{2}$, HI, HIO$_{4}$, and ICl by the oxidation number of iodine (I) in increasing order, we need to identify the oxidation number of iodine in each compound or molecule.\n\nIn molecular iodine, I$_{2}$, iodine is in its elemental form, so its oxidation number is 0.\n\nIn hydrogen iodide, HI, hydrogen usually has an oxidation number of +1 (except in metal hydrides, which is not the case here), and since the compound is neutral, iodine must have an oxidation number of -1 to balance the +1 from hydrogen.\n\nIn iodine monochloride, ICl, chlorine usually has an oxidation state of -1 (except in compounds with oxygen or fluorine). Given that the compound is neutral, iodine must have an oxidation number of +1 to balance the -1 from chlorine.\n\nIn periodic acid, HIO$_{4}$, oxygen has a typical oxidation state of -2 (except in peroxides, superoxides, or when bonded to fluorine). Considering there are 4 oxygen atoms, this gives a total oxidation state of -8 from oxygen. Hydrogen, as usual, is +1. To make the compound neutral, the oxidation state of iodine must be such that when added to the +1 from hydrogen and -8 from oxygen, the total is 0. Therefore,\n\n$+1 + (\\text{Oxidation state of I}) - 8 = 0$\n\nSolving for the oxidation state of iodine:\n\n$ \\text{Oxidation state of I} = 7$\n\nSo, the oxidation numbers of iodine in the given species are:\n\nI$_{2}$: 0\n\nHI: -1\n\nICl: +1\n\nHIO$_{4}$: +7\n\nArranging them in increasing order of the oxidation number of iodine, we get:\n\nHI (-1) < I$_{2}$ (0) < ICl (+1) < HIO$_{4}$ (+7)",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_028",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Arrange the following in increasing oxidation number of iodine.\n\nI$_{2}$, HI, HIO$_{4}$, ICl",
+    "solution": "When arranging the species I$_{2}$, HI, HIO$_{4}$, and ICl by the oxidation number of iodine (I) in increasing order, we need to identify the oxidation number of iodine in each compound or molecule.\n\nIn molecular iodine, I$_{2}$, iodine is in its elemental form, so its oxidation number is 0.\n\nIn hydrogen iodide, HI, hydrogen usually has an oxidation number of +1 (except in metal hydrides, which is not the case here), and since the compound is neutral, iodine must have an oxidation number of -1 to balance the +1 from hydrogen.\n\nIn iodine monochloride, ICl, chlorine usually has an oxidation state of -1 (except in compounds with oxygen or fluorine). Given that the compound is neutral, iodine must have an oxidation number of +1 to balance the -1 from chlorine.\n\nIn periodic acid, HIO$_{4}$, oxygen has a typical oxidation state of -2 (except in peroxides, superoxides, or when bonded to fluorine). Considering there are 4 oxygen atoms, this gives a total oxidation state of -8 from oxygen. Hydrogen, as usual, is +1. To make the compound neutral, the oxidation state of iodine must be such that when added to the +1 from hydrogen and -8 from oxygen, the total is 0. Therefore,\n\n$+1 + (\\text{Oxidation state of I}) - 8 = 0$\n\nSolving for the oxidation state of iodine:\n\n$ \\text{Oxidation state of I} = 7$\n\nSo, the oxidation numbers of iodine in the given species are:\n\nI$_{2}$: 0\n\nHI: -1\n\nICl: +1\n\nHIO$_{4}$: +7\n\nArranging them in increasing order of the oxidation number of iodine, we get:\n\nHI (-1) < I$_{2}$ (0) < ICl (+1) < HIO$_{4}$ (+7)",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_029",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nS + OH$^{-}$ $$\\to$$ S$^{2-}$ + $$S_2O_3^-$$",
+    "solution": "To complete and balance the reaction between $$Mn^{2+}$$ and $$PbO_2$$ that results in $$MnO_4^-$$ and $$H_2O$$, we need to take into account both the redox aspect of this reaction and the need for balancing atoms and charges. This reaction occurs in acidic solution, so we'll be using $$H^+$$ ions to balance hydrogen atoms and electrons to balance the charges.\n\nThe half-reactions are as follows:\n\nOxidation half-reaction: The manganese goes from a +2 oxidation state in $$Mn^{2+}$$ to a +7 oxidation state in $$MnO_4^-$$.\n\n$$Mn^{2+} \\to MnO_4^-$$\n\nWe add 4 $$H_2O$$ on the right side to balance the oxygen, giving 8 $$H^+$$ on the left side to balance the hydrogen. Then, we add electrons to balance the charge:\n\n$$Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-$$\n\nReduction half-reaction: The lead goes from a +4 oxidation state in $$PbO_2$$ to a +2 oxidation state in the product not mentioned explicitly (since $$PbO_2$$ is being reduced, we can assume it becomes $$Pb^{2+}$$ in acidic solution).\n\n$$PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O$$\n\nNow, to balance the electrons in both half-reactions, we need to equalize the number of electrons. Since the oxidation half-reaction produces 5 electrons and the reduction half-reaction consumes 2 electrons, we multiply the reduction half-reaction by 5 and the oxidation half-reaction by 2 to get 10 electrons in both:\n\n$$2(Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-)5(PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O)$$\n\nBy multiplying, we have:\n\n$$2Mn^{2+} + 16H^+ + 8H_2O \\to 2MnO_4^- + 10e^-5PbO_2 + 20H^+ + 10e^- \\to 5Pb^{2+} + 10H_2O$$\n\nCombining and simplifying these equations, while also canceling out electrons and what's common on both sides, we find:\n\n$$2Mn^{2+} + 5PbO_2 + 16H^+ \\to 2MnO_4^- + 5Pb^{2+} + 8H_2O$$\n\nIn this balanced equation, both the charges and the atoms are balanced, giving a clear representation of the chemical reaction that occurs.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_030",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\n$$ClO_3^-$$ + I$^{-}$ + H$_{2}$SO$_{4}$ $$\\to$$ Cl$^{-}$ + $$HSO_4^-$$",
+    "solution": "To complete and balance the given equation, it's important to first understand that this is a redox reaction where chlorate ion ($$ClO_3^-$$) is reduced to chloride ion ($$Cl^-$$), and iodide ion ($$\\text{I}^-$$) is oxidized to iodine ($$I_2$$). The presence of sulfuric acid ($$\\text{H}_2\\text{SO}_4$$) suggests it mainly acts as a source of protons (H$^{+}$) and the bisulfate ion ($$HSO_4^-$$) is a byproduct of the reaction.\n\nFirst, let's write down all the half-reactions and balance them:\n\n**Oxidation half-reaction (Iodide to Iodine):**\n\n$\\text{I}^- \\to \\text{I}_2$\n\nTo balance the iodine atoms, we need 2 I$^{-}$ on the left:\n\n$2\\text{I}^- \\to \\text{I}_2$\n\n**Reduction half-reaction (Chlorate to Chloride):**\n\n$\\text{ClO}_3^- + 6\\text{H}^+ + 6\\text{e}^- \\to \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nThe iodine half-reaction needs to be balanced in terms of electrons to conclude the overall redox reaction:\n\n$2\\text{I}^- \\to \\text{I}_2 + 2\\text{e}^-$\n\nNow, to combine these half-reactions keeping the electron count balanced, we notice that the reduction half-reaction involves 6 electrons, whereas the oxidation half-reaction involves only 2 electrons. Therefore, to balance electrons, we need to multiply the oxidation half-reaction by 3:\n\n$6\\text{I}^- \\to 3\\text{I}_2 + 6\\text{e}^-$\n\nNow, adding the balanced half-reactions:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 6\\text{H}^+ \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O}$\n\nSince the reaction occurs in acidic medium (indicated by the presence of sulfuric acid), the $6\\text{H}^+$ comes from $3\\text{H}_2\\text{SO}_4$, but because sulfate ions ($SO_4^{2-}$) are not changed in the reduction process, for every $\\text{H}_2\\text{SO}_4$ that donates two $H^+$, one $HSO_4^-$ is formed:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3HSO_4^-$\n\nHowever, we need to ensure the sulfate ions are properly accounted for. Since each $\\text{H}_2\\text{SO}_4$ provides two hydrogens and we use 3 $\\text{H}_2\\text{SO}_4$, it's correct as shown. Thus, the complete and balanced equation in acidic solution is:\n\n$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3\\text{HSO}_4^-$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_031",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nMn$^{2+}$ + PbO$_{2}$ $$\\toMnO_4^-$$ + H$_{2}$O",
+    "solution": "To complete and balance the reaction between $$Mn^{2+}$$ and $$PbO_2$$ that results in $$MnO_4^-$$ and $$H_2O$$, we need to take into account both the redox aspect of this reaction and the need for balancing atoms and charges. This reaction occurs in acidic solution, so we'll be using $$H^+$$ ions to balance hydrogen atoms and electrons to balance the charges.\n\nThe half-reactions are as follows:\n\nOxidation half-reaction: The manganese goes from a +2 oxidation state in $$Mn^{2+}$$ to a +7 oxidation state in $$MnO_4^-$$.\n\n$$Mn^{2+} \\to MnO_4^-$$\n\nWe add 4 $$H_2O$$ on the right side to balance the oxygen, giving 8 $$H^+$$ on the left side to balance the hydrogen. Then, we add electrons to balance the charge:\n\n$$Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-$$\n\nReduction half-reaction: The lead goes from a +4 oxidation state in $$PbO_2$$ to a +2 oxidation state in the product not mentioned explicitly (since $$PbO_2$$ is being reduced, we can assume it becomes $$Pb^{2+}$$ in acidic solution).\n\n$$PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O$$\n\nNow, to balance the electrons in both half-reactions, we need to equalize the number of electrons. Since the oxidation half-reaction produces 5 electrons and the reduction half-reaction consumes 2 electrons, we multiply the reduction half-reaction by 5 and the oxidation half-reaction by 2 to get 10 electrons in both:\n\n$$2(Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-)5(PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O)$$\n\nBy multiplying, we have:\n\n$$2Mn^{2+} + 16H^+ + 8H_2O \\to 2MnO_4^- + 10e^-5PbO_2 + 20H^+ + 10e^- \\to 5Pb^{2+} + 10H_2O$$\n\nCombining and simplifying these equations, while also canceling out electrons and what's common on both sides, we find:\n\n$$2Mn^{2+} + 5PbO_2 + 16H^+ \\to 2MnO_4^- + 5Pb^{2+} + 8H_2O$$\n\nIn this balanced equation, both the charges and the atoms are balanced, giving a clear representation of the chemical reaction that occurs.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_032",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equations:\n\nCl$_{2}$ + OH$^{-}$ $$\\to$$ Cl$^{-}$ + ClO$^{-}$",
+    "solution": "To complete and balance the reaction between chlorine gas (Cl$_{2}$) and hydroxide ions (OH$^{-}$) to produce chloride ions (Cl$^{-}$) and hypochlorite ions (ClO$^{-}$), we need to take into account both the conservation of mass and the conservation of charge. This reaction occurs in aqueous solution, and it depends on the conditions such as temperature and the concentration of the hydroxide ions. There are actually two possible reactions. In a basic solution, we can have a balanced equation that reflects the production of both chloride and hypochlorite ions:\n\n$$\\text{Cl}_2 + 2\\text{OH}^- \\to \\text{Cl}^- + \\text{ClO}^- + \\text{H}_2\\text{O}$$\n\nExplanation:\n\n- The chlorine gas (Cl$_{2}$) reacts with hydroxide ions (OH$^{-}$) present in the aqueous solution.\n\n- Two hydroxide ions are required to balance the equation, ensuring that the chlorine from Cl$_{2}$ is distributed between the produced chloride ions (Cl$^{-}$) and hypochlorite ions (ClO$^{-}$).\n\n- The equation is balanced as written because there are two chlorine atoms on each side, the charges are balanced (2 negative charges on the reactant side from the hydroxide ions and 2 negative charges on the product side from Cl$^{-}$ and ClO$^{-}$ ions), and the additional product is water (H$_{2}$O), formed by the combination of the hydrogen from the hydroxide ions and an oxygen atom from one of the hydroxide ions.\n\nThis equation highlights how the presence of OH$^{-}$ drives the disproportionation of Cl$_{2}$, splitting it into two different oxidation states in the products (Cl$^{-}$ at -1 and ClO$^{-}$ at +1). This is a common type of reaction for halogens in the presence of base.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_033",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\n$$Cr_2O_7^{2-}$$ + C$_{2}$H$_{4}$O $$\\to$$ C$_{2}$H$_{4}$O$_{2}$ + Cr$^{3+}$",
+    "solution": "To complete and balance the given equation, which involves the dichromate ion ($$Cr_2O_7^{2-}$$) reacting with ethylene glycol (C$_{2}$H$_{4}$O) to form acetic acid (C$_{2}$H$_{4}$O$_{2}$) and chromium (III) ion (Cr$^{3+}$), we need to follow a systematic approach. First, let's write down the unbalanced equation:\n\n$Cr_2O_7^{2-} + C_2H_4O \\to C_2H_4O_2 + Cr^{3+}$\n\nNext, we balance the equation in acidic solution using the half-reaction method, which involves balancing the reduction and oxidation half-reactions separately and then combining them.\n\nStep 1: Split into half-reactions.\n\nOxidation (Ethylene glycol to acetic acid):\n\n$C_2H_4O \\to C_2H_4O_2$\n\nReduction (Dichromate to Chromium (III)):\n\n$Cr_2O_7^{2-} \\to Cr^{3+}$\n\nStep 2: Balance the atoms other than O and H.\n\nOxidation doesn’t need balancing in this respect. For the reduction:\n\n$Cr_2O_7^{2-} \\to 2Cr^{3+}$\n\nStep 3: Balance oxygen by adding water molecules.\n\nFor the reduction half:\n\n$Cr_2O_7^{2-} \\to 2Cr^{3+} + 7H_2O$\n\nStep 4: Balance hydrogen by adding H^+ ions.\n\nFor the reduction half:\n\n$Cr_2O_7^{2-} + 14H^+ \\to 2Cr^{3+} + 7H_2O$\n\nThe oxidation half does not involve oxygen or hydrogen atoms changing, so we skip balancing them directly here.\n\nStep 5: Balance the charges by adding electrons.\n\nOxidation half (2 electrons are needed to balance the change from +2 to +3 oxidation state for 2 Carbon atoms):\n\n$C_2H_4O \\to C_2H_4O_2 + 2e^-$\n\nReduction half (to balance it, we need to add 6 electrons):\n\n$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$\n\nStep 6: Make the number of electrons equal in both half-reactions and combine.\n\nTo balance electrons, multiply the oxidation half-reaction by 3 and the reduction half-reaction by 1 (since 6 electrons are transferred in the reduction and 2 in the oxidation; the least common multiple is 6).\n\n$3(C_2H_4O \\to C_2H_4O_2 + 2e^-)$\n\n$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$\n\nCombine and simplify:\n\n$Cr_2O_7^{2-} + 14H^+ + 3C_2H_4O \\to 3C_2H_4O_2 + 2Cr^{3+} + 7H_2O$\n\nBalanced equation:\n\n$Cr_2O_7^{2-} + 14H^+ + 3C_2H_4O \\to 3C_2H_4O_2 + 2Cr^{3+} + 7H_2O$\n\nThis represents the balanced chemical equation for the reaction between $$Cr_2O_7^{2-}$$ and ethylene glycol in an acidic medium, producing acetic acid and chromium (III) ions alongside water.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_034",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nZn + $$NO_3^- \\to$$ Zn$^{2+}$ + $$NH_4^+$$",
+    "solution": "To complete and balance the given chemical equation:\n$$Zn + NO_3^- \\to Zn^{2+} + NH_4^+$$\nWe start by looking at the oxidation and reduction processes separately. In this reaction:\n\nZinc (Zn) is oxidized to zinc ions ($$Zn^{2+}$$).\nThe nitrate ion ($$NO_3^-$$) is reduced to ammonium ions ($$NH_4^+$$).\n\nTo balance this equation, we should keep in mind that both mass and charge must be conserved. Therefore, we have to balance not only the atoms but also the charges throughout the equation.\nFirst, let's write the half-reactions:\n\nOxidation (loss of electrons): $$Zn \\to Zn^{2+} + 2e^-$$\nReduction (gain of electrons): Since nitrate ($$NO_3^-$$) is reducing to ammonia ($$NH_4^+$$), let's assume a general reduction half-reaction that will be balanced later: $$NO_3^- + xH^+ + ye^- \\to NH_4^+ + zH_2O$$\n\nNow, balancing the reduction half-reaction involves getting the nitrogen from a +5 oxidation state in $$NO_3^-$$ to a -3 state in $$NH_4^+$$. This process consumes 8 electrons (e-) to reduce each nitrogen atom, also hydrogen ions ($$H^+$$) are required to form $$NH_4^+$$, and water ($$H_2O$$) is a product due to the oxygen from the nitrate.\nThe correct balanced reduction half-reaction, considering water as the source of $$H^+$$ and the formation of $$H_2O$$, is:\n$$NO_3^- + 10H^+ + 8e^- \\to NH_4^+ + 3H_2O$$\nThus, combining our half-reactions and ensuring the electrons are balanced:\n\nFor the zinc oxidation: $$Zn \\to Zn^{2+} + 2e^-$$\nFor the reduction of nitrate: $$NO_3^- + 10H^+ + 8e^- \\to NH_4^+ + 3H_2O$$\n\nSince the reduction half-reaction consumes 8 electrons and the oxidation produces only 2, we need to multiply the oxidation half-reaction by 4 to balance the electrons:\n$$4Zn \\to 4Zn^{2+} + 8e^-$$\nThe full reaction, adding the two half-reactions together and balancing mass and charge, now looks like this:\n$$4Zn + 10H^+ + NO_3^- \\to 4Zn^{2+} + NH_4^+ + 3H_2O$$\nIt is important to note that this equation assumes acidic conditions due to the presence of $$H^+$$ ions. However, the original equation did not specify the reaction environment, so this balanced equation is based on typical conditions that allow for $$NO_3^-$$ reduction to $$NH_4^+$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_035",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nCe$^{3+}$ + $$S_2O_8^{-2} \\to SO_4^{-2}$$ + Ce$^{4+}$",
+    "solution": "To complete and balance the given redox reaction between cerium(III) ions ($$Ce^{3+}$$) and peroxodisulfate ions ($$S_2O_8^{2-}$$) to form sulfate ions ($$SO_4^{2-}$$) and cerium(IV) ions ($$Ce^{4+}$$), we need to follow a step-by-step approach. This involves balancing the atoms and charges through oxidation and reduction half-reactions.\n\nFirst, we separate the reaction into half-reactions:\n\nOxidation half-reaction (cerium is oxidized):\n\n$$Ce^{3+} \\to Ce^{4+} + e^-$$\n\nReduction half-reaction (peroxodisulfate is reduced):\n\n$$S_2O_8^{2-} + 2e^- \\to 2SO_4^{2-}$$\n\nNext, we balance the electrons between the two half-reactions. The oxidation half-reaction releases 1 electron, while the reduction half-reaction consumes 2 electrons. To balance the electrons, we multiply the oxidation half-reaction by 2:\n\nOxidation half-reaction balanced with electrons:\n\n$$2Ce^{3+} \\to 2Ce^{4+} + 2e^-$$\n\nNow, the electrons in both half-reactions are balanced, and we can combine them:\n\n$$2Ce^{3+} + S_2O_8^{2-} \\to 2Ce^{4+} + 2SO_4^{2-}$$\n\nFinally, we have a balanced redox reaction. Both the number of atoms and the charges are balanced:\n\n$$2Ce^{3+} + S_2O_8^{2-} \\to 2Ce^{4+} + 2SO_4^{2-}$$\n\nThis reaction shows that two cerium(III) ions are oxidized to cerium(IV) ions, while a peroxodisulfate ion is reduced to two sulfate ions, with the transfer of two electrons to maintain charge balance.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_036",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete and balance the following equation:\n\nHNO$_{3}$ + HCl $$\\to$$ NO + Cl$_{2}$",
+    "solution": "To complete and balance the given chemical equation, we must ensure that the number of atoms for each element on the reactant side is the same as on the product side. The given chemical reaction involves nitric acid (HNO$_{3}$) reacting with hydrochloric acid (HCl) to produce nitric oxide (NO) and chlorine gas (Cl$_{2}$). This reaction is part of the aqua regia process, which is used to dissolve noble metals, and involves redox reactions where the nitrate ion acts as an oxidizing agent.\n\nThe initial unbalanced equation is:\n\n$ \\text{HNO}_3 + \\text{HCl} \\rightarrow \\text{NO} + \\text{Cl}_2 $\n\nTo balance the equation, follow these steps:\n\nBalance the atoms of elements that appear in only one reactant and one product first. In this reaction, balancing chlorine (Cl) is a good starting point. Notice that there are 2 chlorine atoms on the product side because of Cl$_{2}$, so we need 2 HCl molecules on the reactant side to balance the chlorine atoms.\n\nBalance the number of nitrogen atoms next. There is 1 nitrogen atom on each side of the equation, so the nitric acid and nitric oxide are already balanced for nitrogen.\n\nBalance the oxygen atoms. There is 1 oxygen atom in HNO$_{3}$ and none in the products. We must account for this discrepancy. Here, realizing that water (H$_{2}$O) is often a product in reactions involving acids can help. Adding water to the products will allow us to balance oxygen.\n\nAdjust hydrogen atoms last. After adding water to the products for oxygen balance, we will add hydrogen atoms accordingly to both sides to maintain balance.\n\nConsidering the points above, let's add water to the products and then balance the hydrogen atoms:\n\n$ 3\\text{HNO}_3 + 6\\text{HCl} \\rightarrow \\text{NO} + 3\\text{Cl}_2 + 2\\text{H}_2\\text{O} $\n\nThis equation is now balanced with respect to all atoms:\n\nNitrogen: There are 3 nitrogen atoms on the reactant side and 1 nitrogen atom on the product side.\n\nOxygen: There are 3 oxygen atoms from HNO$_{3}$ on the reactant side and 2 from water (H$_{2}$O) on the product side.\n\nChlorine: There are 6 chlorine atoms from HCl on the reactant side and 3$\\times$2=6 chlorine atoms in Cl$_{2}$ on the product side.\n\nHydrogen: There are 6 hydrogen atoms from HCl on the reactant side and 2$\\times$2=4 hydrogen atoms in 2 molecules of water (H$_{2}$O).\n\nThis reflects the complete balanced chemical equation for the reaction involving nitric acid and hydrochloric acid to produce nitric oxide, chlorine gas, and water:\n\n$ 3\\text{HNO}_3 + 6\\text{HCl} \\rightarrow \\text{NO} + 3\\text{Cl}_2 + 2\\text{H}_2\\text{O} $",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_redox_reactions_037",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "topic": "Redox Reactions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Balance the following Equations:\n\n**(i)** Cu$_{2}$O + H$^{+}$ + $$NO_3^ - \\to $$ Cu$^{2+}$ + NO + H$_{2}$O\n\n**(ii)** K$_{4}$[Fe(CN)$_{6}$] + H$_{2}$SO$_{4}$ + H$_{2}$O $$\\to$$ K$_{2}$SO$_{4}$ + FeSO$_{4}$ + (NH$_{4}$)$_{2}$SO$_{4}$ + CO\n\n\n**(iii)** C2H5OH + I$_{2}$ + OH$^{-}$ $$\\to$$ CHI$_{3}$ + $$HCO_3^-$$ + I$^{-}$ + 4H$_{2}$O",
+    "solution": "Solution for this Redox Reactions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

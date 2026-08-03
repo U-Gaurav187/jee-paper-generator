@@ -1,0 +1,522 @@
+[
+  {
+    "id": "math_inverse_trigonometry_001",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$(x, y)$$ be such that $${\\sin ^{ - 1}}\\left( {ax} \\right) + {\\cos ^{ - 1}}\\left( y \\right) + {\\cos ^{ - 1}}\\left( {bxy} \\right) = {\\pi \\over 2}$$.\n**Column $$I$$**\n\n(A) If $$a=1$$ and $$b=0,$$ then $$(x, y)$$\n\n(B) If $$a=1$$ and $$b=1,$$ then $$(x, y)$$\n\n(C) If $$a=1$$ and $$b=2,$$ then $$(x, y)$$\n\n(D) If $$a=2$$ and $$b=2,$$ then $$(x, y)$$\n**Column $$II$$**\n\n(p) lies on the circle $${x^2} + {y^2} = 1$$\n\n(q) lies on $$\\left( {{x^2} - 1} \\right)\\left( {{y^2} - 1} \\right) = 0$$\n\n(r) lies on $$y=x$$\n\n(s) lies on $$\\left( {4{x^2} - 1} \\right)\\left( {{y^2} - 1} \\right) = 0$$",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_002",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Considering only the principal values of the inverse trigonometric functions, the value of** $$\\cot^{-1}(\\cot(-11)) + 10 \\sin\\left(2 \\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2 \\tan^{-1}(2))$$is",
+    "solution": "We need to find the value of\n$$\\cot^{-1}(\\cot(-11)) + 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2\\tan^{-1}(2))$$\n**Simplify** $ \\cot^{-1}(\\cot(-11)) $\nThe principal value of $ \\cot^{-1}x $ lies in the interval $ (0, \\pi) $.\n\nWe need to find an angle in this range that has the same cotangent as $ -11 $.\nNow, $ -11 $ radians is less than $ 0 $. If we add multiples of $ \\pi $ till it falls in $ (0, \\pi) $, we get $ 4\\pi - 11 $, which lies in $ (0, \\pi) $.\nHence, $ \\cot^{-1}(\\cot(-11)) = 4\\pi - 11 $.\nSimplify $ 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) $\nLet $ \\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) = \\alpha $. Then, $ \\cos \\alpha = \\frac{1}{\\sqrt{2}} $.\n\nThis gives $ \\alpha = \\frac{\\pi}{4} $.\nNow, $ 2\\alpha = \\frac{\\pi}{2} $.\n\n$\\sin\\left(2\\alpha\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) = 1.$\nTherefore, this term becomes $ 10 \\times 1 = 10.$\nSimplify $ 10\\sin(2\\tan^{-1}2) $\nLet $ \\tan^{-1}2 = \\theta $, so $ \\tan\\theta = 2 $. Here, $ \\theta \\in \\left(0, \\frac{\\pi}{2}\\right) $.\nWe use the double angle formula:\n\n$\\sin(2\\theta) = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\frac{2\\times 2}{1 + 2^2} = \\frac{4}{5}.$\nHence, $ 10\\sin(2\\tan^{-1}2) = 10 \\times \\frac{4}{5} = 8.$\n** Combine all terms**\n$$\\cot^{-1}(\\cot(-11)) + 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2\\tan^{-1}(2))= (4\\pi - 11) + 10 + 8= 4\\pi + 7$$\n**Final Answer:** $ 4\\pi + 7 $",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$3\\pi + 7$",
+      "$7$",
+      "$4\\pi + 7$",
+      "$3\\pi - 5$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_003",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, for $x \\in \\mathbb{R}$. Then the number of real solutions of the equation $\\sqrt{1+\\cos (2 x)}=\\sqrt{2} \\tan ^{-1}(\\tan x)$ in the set $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}\\right) \\cup\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ is equal to :",
+    "solution": "$\\sqrt{1+\\cos 2 x}=\\sqrt{2} \\tan ^{-1}(\\tan x)$\n\n$\\begin{aligned} & \\Rightarrow \\sqrt{2 \\cos ^2 x}=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ & \\Rightarrow \\sqrt{2}|\\cos x|=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ & \\Rightarrow |\\cos x|=\\tan ^{-1} \\tan x\\end{aligned}$\n\n[Diagram]\n\nNumber of solution $=3$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ls7zio9t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_inverse_trigonometry_004",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any positive integer n, define\n\n$${f_n}:(0,\\infty ) \\to R$$ as\n\n$${f_n} = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$\n\nfor all x$$ \\in $$(0, $$\\infty $$). (Here, the inverse trigonometric function tan$^{$$-$$1}$ x assumes values in $$\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$). Then, which of the following statement(s) is (are) TRUE?",
+    "solution": "We have,\n\n$${f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right) \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{{(x + j) - (x + j - 1)} \\over {1 + (x + j)(x + j - 1)}}} \\right) \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {[{{\\tan }^{ - 1}}} (x + j) - {\\tan ^{ - 1}}(x + j - 1)]$$\n\nfor all $$x \\in (0,\\infty ) \\Rightarrow {f_n}(x) = ({\\tan ^{ - 1}}(x + 1) - {\\tan ^{ - 1}}x) + (ta{n^{ - 1}}(x + 2) - {\\tan ^{ - 1}}(x + 1)) + ({\\tan ^{ - 1}}(x + 3) - {\\tan ^{ - 1}}(x + 2)) + ... + ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}(x + n - 1)) \\Rightarrow {f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x$$\n\nThis statement is false as $$x\ne 0$$. i.e., $$x \\in (0,\\infty )$$\n\n(b) This statement is also false as 0$$\notin $$(0, $$\\infty $$)\n\n(c) $${f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x) \\Rightarrow \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan \\left( {{{\\tan }^{ - 1}}{n \\over {1 + nx + {x^2}}}} \\right) = \\mathop {\\lim }\\limits_{x \\to \\infty } {n \\over {1 + nx + {x^2}}} = 0 \\therefore $$ (c) statement is false.\n\n(d) $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } (1 + {\\tan ^2}{f_n}(x)) = 1 + \\mathop {\\lim }\\limits_{x \\to \\infty } {\\tan ^2}({f_n}(x)) = 1 + 0 = 1 \\therefore $$ (d) statement is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\sum\\limits_{j = 1}^5 {{{\\tan }^2}({f_j}(0)) = 55} $$",
+      "$$\\sum\\limits_{j = 1}^{10} {(1 + f{'_j}(0)){{\\sec }^2}({f_j}(0)) = 10} $$",
+      "For any fixed positive integer n, $$\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = {1 \\over n}$$",
+      "For any fixed positive integer n, $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = 1$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_005",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The greater of the two angles $$A = 2{\\tan ^{ - 1}}\\left( {2\\sqrt 2 - 1} \\right)$$ and $$B = 3{\\sin ^{ - 1}}\\left( {1/3} \\right) + {\\sin ^{ - 1}}\\left( {3/5} \\right)$$ is ________ .",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_006",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove that $$\\cos \\,ta{n^{ - 1}}\\sin \\,{\\cot ^{ - 1}}x = \\sqrt {{{{x^2} + 1} \\over {{x^2} + 2}}} $$.",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_007",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all the solution of $$4{\\cos ^2}x\\sin x - 2{\\sin ^2}x = 3\\sin x$$",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_008",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the value of : $$\\cos \\left( {2{{\\cos }^{ - 1}}x + {{\\sin }^{ - 1}}x} \\right)$$ at $$x = {1 \\over 5}$$, where\n\n$$0 \\le {\\cos ^{ - 1}}x \\le \\pi $$ and $$ - \\pi /2 \\le {\\sin ^{ - 1}}x \\le \\pi /2$$.",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_009",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of real solutions of the equation\n$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\frac{1}{2} \\sin^{-1}\\left(\\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta}\\right) $\nis\n(Here, the inverse trigonometric functions $\\sin^{-1} x$ and $\\tan^{-1} x$ assume values in $[ -\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ and $( -\\frac{\\pi}{2}, \\frac{\\pi}{2})$, respectively.)",
+    "solution": "To find the total number of real solutions for the given equation, let's break down the problem step by step:\nDefine $\\alpha$ as:\n$ \\alpha = \\frac{1}{2} \\sin^{-1} \\left( \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} \\right) $\nWe need to solve:\n$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\alpha $\nThis can be rearranged as:\n$ \\theta + \\alpha = \\tan^{-1}(2 \\tan \\theta) $\nTaking the tangent of both sides, we have:\n$ \\tan(\\theta + \\alpha) = 2 \\tan \\theta $\nThe tangent addition formula gives:\n$ \\frac{\\tan \\theta + \\tan \\alpha}{1 - \\tan \\alpha \\tan \\theta} = 2 \\tan \\theta \\quad \\ldots (1) $\nNext, consider:\n$ \\sin 2\\alpha = \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} = \\frac{2 \\tan \\alpha}{1 + \\tan^2 \\alpha} $\nThis leads to the equation:\n$ 3 \\tan \\theta + 3 \\tan \\theta \\tan^2 \\alpha = 9 \\tan \\alpha + \\tan \\alpha \\tan^2\\theta $\nSimplifying:\n$ 3(\\tan \\theta - 3 \\tan \\alpha) = \\tan \\alpha \\tan \\theta (\\tan \\theta - 3 \\tan \\alpha) $\nThis implies:\n$ \\tan \\theta = \\frac{3}{\\tan \\alpha} \\quad \\text{or} \\quad \\tan \\theta = 3 \\tan \\alpha $\nCase I: $\\tan \\theta = 3 \\tan \\alpha$\nFrom equation (1):\n$ \\frac{\\tan \\theta + \\frac{\\tan \\theta}{3}}{1 - \\frac{\\tan^2 \\theta}{3}} = 2 \\tan \\theta $\nThis gives:\n$ \\tan \\theta = 0, \\quad \\frac{2}{3} = 1 - \\frac{\\tan^2 \\theta}{3} \\Rightarrow \\tan \\theta = 1, -1 $\nThus, we have:\n$ \\tan \\theta = 0, -1, 1 \\Rightarrow \\theta = \\frac{\\pi}{4}, -\\frac{\\pi}{4}, 0 $\nCase II: $\\tan \\theta = \\frac{3}{\\tan \\alpha}$\nFrom equation (1):\n$ \\frac{\\tan \\theta + \\frac{3}{\\tan \\theta}}{-2} = 2 \\tan \\theta $\nSimplifying this results in:\n$ \\tan \\theta + \\frac{3}{\\tan \\theta} = -4 \\tan \\theta $\nThis leads to no viable solutions (as denoted by \"No Solution\").\nSo, the real solutions for $\\theta$ are $\\frac{\\pi}{4}$, $-\\frac{\\pi}{4}$, and $0$, resulting in a total of 3 real solutions.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_010",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering only the principal values of the inverse trigonometric functions, the value of\n\n$$ \\tan \\left(\\sin ^{-1}\\left(\\frac{3}{5}\\right)-2 \\cos ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) $$\n\nis",
+    "solution": "$$\\begin{aligned}\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-2 \\tan ^{-1}\\left(\\frac{1}{2}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{2 \\times \\frac{1}{2}}{1-\\frac{1}{4}}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{4}{3}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}-\\frac{4}{3}\\right)\\right) \\\\\n& \\frac{9-16}{24}=\\frac{-7}{24}\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{7}{24}$",
+      "$\\frac{-7}{24}$",
+      "$\\frac{-5}{24}$",
+      "$\\frac{5}{24}$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_011",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any $y \\in \\mathbb{R}$, let $\\cot ^{-1}(y) \\in(0, \\pi)$ and $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then the sum of all the solutions of the equation\n\n$\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\cot ^{-1}\\left(\\frac{9-y^2}{6 y}\\right)=\\frac{2 \\pi}{3}$ for $0<|y|<3$, is equal to :",
+    "solution": "**Concept :**\n\n$$\n\\cot ^{-1} x=\\left\\{\\begin{aligned}\n\\pi+\\tan ^{-1} \\frac{1}{x}; & x<0 \\\\\n\\tan ^{-1} \\frac{1}{x} & ; x>0\n\\end{aligned}\\right.\n$$\n\n**Solution :** Given, $0 < |y| < 3$\n\n$$ \\Rightarrow\ny \\in(-3,3)-\n$$ {0}\n\n$$9 - {y^2}$$ is always positive when $$\ny \\in(-3,3)-\n$$ {0}\n\nAnd $6y$ is positive when $$\ny \\in(0,3)\n$$\n\nAnd $6y$ is negative when $$\ny \\in(-3,0)\n\\therefore $$ In overall, $$\n\\frac{6 y}{9-y^2} > 0\n$$ when $$\ny \\in(0,3)\n$$\n\nAnd $$\n\\frac{6 y}{9-y^2} < 0\n$$ when $$\ny \\in(-3,0)\n$$\n\n**Case - 1 :**\n\nWhen $-3 < y < 0$\n\n$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\pi+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{-\\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\frac{-1}{\\sqrt{3}} \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0 \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow y=\\frac{6 \\sqrt{3} \\pm \\sqrt{108+36}}{2}=\\frac{6 \\sqrt{3} \\pm 12}{2}=3 \\sqrt{3} \\pm 6 \\\\\\\\\n& \\text { as } y \\in(-3.0) \\therefore y=3 \\sqrt{3}-6\n\\end{aligned}\n$$\n\n**Case-2 :** When $0 < y < 3$\n\n$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\sqrt{3}\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow 6 y=9 \\sqrt{3}-\\sqrt{3} y^2 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+6 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+9 y-3 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y(y+3 \\sqrt{3})-3(y+3 \\sqrt{3})=0 \\\\\\\\\n& \\Rightarrow(y+3 \\sqrt{3})-(\\sqrt{3} y-3)=0\n\\end{aligned}\n\ny\neq-3 \\sqrt{3} \\quad \\therefore y=\\sqrt{3} \\text { as } y \\in(0,3)\n\n\\therefore \\text { Sum of solutions }=\\sqrt{3}+(3 \\sqrt{3}-6)=4 \\sqrt{3}-6\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$2 \\sqrt{3}-3$",
+      "$3-2 \\sqrt{3}$",
+      "$4 \\sqrt{3}-6$",
+      "$6-4 \\sqrt{3}$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_012",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$ **List-$$I$$**\n\n**(P.)**$$\\,\\,\\,\\,$$ Let $$y\\left( x \\right) = \\cos \\left( {3{{\\cos }^{ - 1}}x} \\right),x \\in \\left[ { - 1,1} \\right],x\ne \\pm {{\\sqrt 3 } \\over 2}.$$ Then $${1 \\over {y\\left( x \\right)}}\\left\\{ {\\left( {{x^2} - 1} \\right){{{d^2}y\\left( x \\right)} \\over {d{x^2}}} + x{{dy\\left( x \\right)} \\over {dx}}} \\right\\}$$ equals\n\n**(Q.)**$$\\,\\,\\,\\,$$ Let $${A_1},{A_2},....,{A_n}\\left( {n > 2} \\right)$$ be the vertices of a regular polygon of $$n$$ sides with its centre at the origin. Let $${\\overrightarrow {{a_k}} }$$ be the position vector of the point $${A_k},k = 1,2,......,n.$f\\left| {\\sum\nolimits_{k = 1}^{n - 1} {\\left( {\\overrightarrow {{a_k}} \\times \\overrightarrow {{a_{k + 1}}} } \\right)} } \\right| = \\left| {\\sum\\limits_{k = 1}^{n - 1} {\\left( {\\overrightarrow {{a_k}} .\\,\\overrightarrow {{a_{k + 1}}} } \\right)} } \\right|,$$$\nthen the minimum value of $$n$$ is\n\n**(R.)**$$\\,\\,\\,\\,$$ If the normal from the point $$P(h, 1)$$ on the ellipse $${{{x^2}} \\over 6} + {{{y^2}} \\over 3} = 1$$ is perpendicular to the line $$x+y=8,$$ then the value of $$h$$ is\n\n**(S.)**$$\\,\\,\\,\\,$$ Number of positive solutions satisfying the equation $${\\tan ^{ - 1}}\\left( {{1 \\over {2x + 1}}} \\right) + {\\tan ^{ - 1}}\\left( {{1 \\over {4x + 1}}} \\right) = {\\tan ^{ - 1}}\\left( {{2 \\over {{x^2}}}} \\right)$$ is\n$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$**List-$$II$$**\n\n**(1.)**$$\\,\\,\\,\\,1$$\n\n**(2.)**$$\\,\\,\\,\\,2$$\n\n**(3.)**$$\\,\\,\\,\\,8$$\n\n**(4.)**$$\\,\\,\\,\\,9$$",
+    "solution": "$$\\begin{aligned}\n& \\text { (P) Given } y(x)=\\cos \\left(3 \\cos ^{-1} x\\right), x \\in[-1,1] \\\\\n& \\Rightarrow \\quad y(x)=4 \\cos ^3\\left(\\cos ^{-1} x\\right)-3 \\cos \\left(\\cos ^{-1} x\\right) \\\\\n& \\Rightarrow \\quad y(x)=4 x^3-3 x \\quad \\text{... (i)}\\\\\n& \\Rightarrow \\quad \\frac{d y(x)}{d x}=12 x^2-3 \\quad \\text{... (ii)}\\\\\n& \\Rightarrow \\quad \\frac{d^2 y(x)}{d x^2}=24 x \\quad \\text{... (iii)}\\\\\n\\end{aligned}$$\nFrom equation (i), (ii) and (iii)\n$$\\begin{aligned}\n\\Rightarrow & \\frac{1}{y(x)}\\left[\\left(x^2-1\\right) \\frac{d^2 y(x)}{d x^2}+x \\frac{d y(x)}{d x}\\right] \\\\\n& =\\frac{1}{4 x^3-3 x}\\left[\\left(x^2-1\\right) \\cdot 24 x+x \\cdot\\left(12 x^2-3\\right)\\right] \\\\\n& =\\frac{1}{4 x^3-3 x}\\left[24 x^3-24 x+12 x^3-3 x\\right] \\\\\n& =\\frac{1}{4 x^3-3 x}\\left[36 x^3-27 x\\right]\n\\end{aligned}\\begin{aligned}\n& =\\frac{9\\left(4 x^3-3 x\\right)}{4 x^3-3 x} \\\\\n& =9\n\\end{aligned}$$\nHence P match with 4\n(Q) Given $$\\mathrm{A}_1, \\mathrm{~A}_2, \\mathrm{~A}_3, \\ldots . \\mathrm{A}_n(n>2)$$ be the vertices of a regular polygon of $$n$$ sides with centre at origin and $$\\vec{a}_k$$ be the position vector of the point $$A_k$$\n\n[Diagram]\n\n$$\\begin{aligned}\n& \\text { Here, } \\begin{aligned}\n&\\left|\\vec{a}_1\\right|=\\left|\\vec{a}_2\\right|=\\left|\\vec{a}_3\\right|=\\ldots=\\left|\\vec{a}_k\\right| \\\\\n&=\\left|\\vec{a}_{k+1}\\right|=\\cdots=\\left|\\vec{a}_n\\right|=\\lambda \\text { (let) } \\\\\n& \\text { And } \\angle \\mathrm{A}_1 \\mathrm{OA}_2=\\angle \\mathrm{A}_2 \\mathrm{OA}_3=\\cdots=\\angle \\mathrm{A}_k \\mathrm{OA}_{k+1} \\\\\n&=\\cdots=\\angle \\mathrm{A}_n \\mathrm{OA}_1=\\frac{2 \\pi}{n} \\\\\n& \\Rightarrow \\vec{a}_k \\times \\vec{a}_{k+1}=\\lambda \\cdot \\lambda \\cdot \\sin \\frac{2 \\pi}{n} \\cdot \\hat{p} \\text { and } \\\\\n& \\vec{a}_k \\cdot \\vec{a}_{k+1}=\\lambda \\cdot \\lambda \\cdot \\cos \\frac{2 \\pi}{n}\n\\end{aligned}\n\\end{aligned}$$\nApply $$\\left|\\sum_\\limits{k=1}^{n-1} \\vec{a}_k \\times \\vec{a}_{k+1}\\right|=\\left|\\sum_\\limits{k=1}^{n-1} \\vec{a}_k \\cdot \\vec{a}_{k+1}\\right|\\begin{aligned}\n& \\left|\\sum_{k=1}^{n-1} \\lambda^2 \\sin \\frac{2 \\pi}{n} \\hat{p}\\right|=\\left|\\sum_{k=1}^{n-1} \\lambda^2 \\cos \\frac{2 \\pi}{n}\\right| \\\\\n& \\Rightarrow(n-1) \\lambda^2\\left|\\sin \\frac{2 \\pi}{n}\\right|=(n-1) \\lambda^2\\left|\\cos \\frac{2 \\pi}{n}\\right| \\\\\n& \\Rightarrow\\left|\\tan \\frac{2 \\pi}{n}\\right|=1 \\\\\n& \\Rightarrow n_{\\text {min }}=8 \\\\\n\\end{aligned}$$\nHence $$Q$$ match with 3 .\n(R) We know the equation of normal of ellipse $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$ at $$\\left(x_1, y_1\\right)$$ is $$\\frac{a^2 x}{x_1}-\\frac{b^2 y}{y_1}=a^2-b^2$$.\n$$\\therefore$$ Equation of Normal of ellipse $$\\frac{x^2}{6}+\\frac{y^2}{3}=1$$ at $$p(h, 1)$$ is $$\\frac{6 x}{h}-\\frac{3 y}{1}=1$$\nGiven, the normal at $$p(h, 1)$$ is perpendicular to the line $$x+y=3\\Rightarrow \\quad \\frac{{\\frac{6}{h}}}{3} \\times(-1)=-1\\Rightarrow \\quad \\frac{2}{h}=1\\Rightarrow \\quad h=2$$\nHence, R match with 2.\n$$\\begin{aligned}\n& \\text { (S) } \\tan ^{-1}\\left(\\frac{1}{2 x+1}\\right)+\\tan ^{-1}\\left(\\frac{1}{4 x+1}\\right)=\\tan ^{-1} \\frac{2}{x^2} \\\\\n& \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{\\frac{1}{2 x+1}+\\frac{1}{4 x+1}}{1-\\frac{1}{2 x+1} \\times \\frac{1}{4 x+1}}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right) \\\\\n& \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{6 x+2}{8 x^2+6 x+1-1}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right) \\\\\n& \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{3 x+1}{4 x^2+3 x}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right)\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow & 3 x^3+x^2 & =8 x^2+6 x \\\\\n& \\Rightarrow & x\\left[3 x^2-7 x-6\\right] & =0 \\\\\n& \\Rightarrow & x\\left[3 x^2-9 x+2 x-6\\right] & =0 \\\\\n& \\Rightarrow & x(3 x+2)(x-3) & =0 \\\\\n& \\Rightarrow & x & =0, \\frac{-2}{3}, 3\n\\end{aligned}$$\nSo, $$x=3$$ is the only positive solution of given equation.\nHence, S match with 1.\nHint:\n(i) Recall $$\\cos \\left(\\cos ^{-1} x\\right)=x \\forall x \\in[-1,1]$$ and $$\\cos 3 \\theta=4 \\cos ^3 \\theta-3 \\cos \\theta$$\n(ii) If angle between $$\\vec{a}$$ and $$\\vec{b}$$ is $$\\theta$$, then $$\\vec{a} \\cdot \\vec{b}=|\\vec{a}||\\vec{b}| \\cos \\theta$$ and $$\\vec{a} \\times \\vec{b}=|\\vec{a}||\\vec{b}| \\sin \\theta \\hat{n}$$\n(iii) The equation of normal of ellipse $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$ at $$\\left(x_1, y_1\\right)$$ is $$\\frac{a^2 x}{x_1}-\\frac{b^2 y}{y_1}=a^2-b^2$$.\n(iv) Recall $$\\tan ^{-1} \\mathrm{~A}+\\tan ^{-1} \\mathrm{~B}=\\tan ^{-1}\\left(\\frac{\\mathrm{A}+\\mathrm{B}}{1-\\mathrm{AB}}\\right)$$ only when A.B < 1",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$P = 4,Q = 3,R = 2,S = 1$$",
+      "$$P = 2,Q = 4,R = 3,S = 1$$",
+      "$$P = 4,Q = 3,R = 1,S = 2$$",
+      "$$P = 2,Q = 4,R = 1,S = 3$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqp0qc0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_inverse_trigonometry_013",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n**List $$I$$**\n\n$$P.\\,\\,\\,\\,\\,{\\left( {{1 \\over {{y^2}}}{{\\left( {{{\\cos \\left( {{{\\tan }^{ - 1}}y} \\right) + y\\sin \\left( {{{\\tan }^{ - 1}}y} \\right)} \\over {\\cot \\left( {{{\\sin }^{ - 1}}y} \\right) + \\tan \\left( {{{\\sin }^{ - 1}}y} \\right)}}} \\right)}^2} + {y^4}} \\right)^{1/2}}$$ takes value\n$$Q.\\,\\,\\,\\,$$ If $$\\cos x + \\cos y + \\cos z = 0 = \\sin x + \\sin y + \\sin z$$ then\n\npossible value of $$\\cos {{x - y} \\over 2}$$ is\n$$R.\\,\\,\\,\\,\\,$$ If $$\\cos \\left( {{\\pi \\over 4} - x} \\right)\\cos 2x + \\sin x\\sin 2\\sec x = \\cos x\\sin 2x\\sec x + \\cos \\left( {{\\pi \\over 4} + x} \\right)\\cos 2x$$ then possible value of $$\\sec x$$ is\n$$S.\\,\\,\\,\\,\\,$$ If $$\\cot \\left( {{{\\sin }^{ - 1}}\\sqrt {1 - {x^2}} } \\right) = \\sin \\left( {{{\\tan }^{ - 1}}\\left( {x\\sqrt 6 } \\right)} \\right),\\,\\,x\ne 0,$$\n\nThen possible value of $$x$$ is\n**List $$II$$**\n\n$$1.\\,\\,\\,\\,\\,{1 \\over 2}\\sqrt {{5 \\over 3}} 2.\\,\\,\\,\\,\\,\\sqrt 2 3.\\,\\,\\,\\,\\,{1 \\over 2}1.\\,\\,\\,\\,1$$",
+    "solution": "For P\n$$\\text { Let } t=\\sqrt{\\frac{1}{y^2}\\left(\\frac{\\cos \\left(\\tan ^{-1} y\\right)+y \\cdot \\sin \\left(\\tan ^{-1} y\\right)}{\\cot \\left(\\sin ^{-1} y\\right)+\\tan \\left(\\sin ^{-1} y\\right)}\\right)^2+y^4}$$\nWe know that\n$$\\begin{gathered}\n\\tan ^{-1} y=\\cos ^{-1}\\left(\\frac{1}{\\sqrt{1+y^2}}\\right)=\\sin ^{-1}\\left(\\frac{y}{\\sqrt{1+y^2}}\\right) \\\\\n\\text { and } \\sin ^{-1} y=\\cot ^{-1}\\left(\\frac{\\sqrt{1-y^2}}{y}\\right)=\\tan ^{-1}\\left(\\frac{y}{\\sqrt{1-y^2}}\\right)\n\\end{gathered}\\therefore \\quad t = \\sqrt {{1 \\over {{y^2}}}{{\\left[ {{{\\cos \\left( {{{\\cos }^{ - 1}}{1 \\over {\\sqrt {1 + {y^2}} }}} \\right) + y\\,.\\,\\sin \\left( {{{\\sin }^{ - 1}}{y \\over {\\sqrt {1 + {y^2}} }}} \\right)} \\over {\\cot \\left( {{{\\cot }^{ - 1}}{{\\sqrt {1 - {y^2}} } \\over y}} \\right) + \\tan \\left( {{{\\tan }^{ - 1}}{y \\over {\\sqrt {1 - {y^2}} }}} \\right)}}} \\right]}^2} + {y^4}} \\begin{aligned}\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times\\left[\\frac{\\frac{1}{\\sqrt{1+y^2}}+\\frac{y^2}{\\sqrt{1+y^2}}}{\\frac{\\sqrt{1-y^2}}{y}+\\frac{y}{\\sqrt{1-y^2}}}\\right]^2+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times\\left[\\frac{\\sqrt{1+y^2}}{\\frac{1-y^2+y^2}{y \\sqrt{1-y^2}}}\\right]^2+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times y^2\\left(1+y^2\\right)\\left(1-y^2\\right)+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\left(1-y^4\\right)+y^4}=1 \\\\\n\\end{aligned}$$\nHence, P match with 4.\nFor Q.\nGiven $$\\cos x+\\cos y+\\cos z=0\\Rightarrow \\cos x+\\cos y=-\\cos z$$\nOn squaring both side\n$$\\Rightarrow \\cos ^2 x+\\cos ^2 y+2 \\cos x \\cdot \\cos y=\\cos ^2 z\\quad \\text{... (i)}$$\nAlso given $$\\sin x+\\sin y+\\sin z=0\\Rightarrow \\sin x+\\sin y=-\\sin z$$\nOn squaring both side\n$$\\Rightarrow \\sin ^2 x+\\sin ^2 y+2 \\sin x \\cdot \\sin y=\\sin ^2 z \\quad \\text{... (ii)}$$\nAdd equation (i) and (ii)\n$$\\begin{gathered}\n\\Rightarrow\\left(\\cos ^2 x+\\sin ^2 x\\right)+\\left(\\cos ^2 y+\\sin ^2 y\\right) \\\\\n+2[\\cos x \\cdot \\cos y+\\sin x \\cdot \\sin y] \\\\\n=\\cos ^2 z+\\sin ^2 z\n\\end{gathered}\\begin{array}{lr}\n\\Rightarrow & 1+1+2 \\cos (x-y)=1 \\\\\n\\Rightarrow & \\cos (x-y)=\\frac{-1}{2} \\\\\n\\Rightarrow & 2 \\cos ^2\\left(\\frac{x-y}{2}\\right)-1=\\frac{-1}{2}\n\\end{array}\\begin{array}{ll}\n\\Rightarrow & \\cos ^2\\left(\\frac{x-y}{2}\\right)=\\frac{1}{4} \\\\\n\\Rightarrow & \\cos \\left(\\frac{x-y}{2}\\right)= \\pm \\frac{1}{2}\n\\end{array}$$\nHence, Q match with 3.\nFor R\nGiven,\n$$\\begin{aligned}\n& \\cos \\left(\\frac{\\pi}{4}-x\\right) \\cos 2 x+\\sin x \\cdot \\sin 2 x \\cdot \\sec x \\\\\n& =\\cos x \\cdot \\sin 2 x \\cdot \\sec x+\\cos \\left(\\frac{\\pi}{4}+x\\right) \\cos 2 x\n\\end{aligned}\\begin{aligned}\n\\Rightarrow & {\\left[\\cos \\left(\\frac{\\pi}{4}-x\\right)-\\cos \\left(\\frac{\\pi}{4}+x\\right)\\right] } \\\\\n& \\cos 2 x+(\\sin x-\\cos x) \\sin 2 x \\cdot \\sec x=0\n\\end{aligned}\\begin{aligned}\n\\Rightarrow & 2 \\cdot \\sin \\frac{\\pi}{4} \\cdot \\sin x \\cdot \\cos 2 x+(\\sin x-\\cos x) \\\\\n& \\frac{2 \\sin x \\cdot \\cos x}{\\cos x}=0\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow \\quad \\sqrt{2} \\cos 2 x=2(\\cos x-\\sin x) \\\\\n& \\Rightarrow \\quad\\left(\\cos ^2 x-\\sin ^2 x\\right)=\\sqrt{2} (\\cos x-\\sin x) \\\\\n\\end{aligned}\\begin{array}{rlrl}\n\\Rightarrow & \\cos x+\\sin x =\\sqrt{2} \\\\\n\\Rightarrow & (\\cos x+\\sin x)^2 =(\\sqrt{2})^2 \\\\\n\\Rightarrow & \\cos ^2 x+\\sin ^2 x+2 \\sin x \\cdot \\cos x =2 \\\\\n\\Rightarrow & 1+\\sin 2 x =2 \\\\\n\\Rightarrow & \\sin 2 x =1 \\\\\n\\Rightarrow & 2 x =\\frac{\\pi}{2} \\\\\n\\Rightarrow & x =\\frac{\\pi}{4} \\\\\n\\Rightarrow & \\sec x =\\sec \\frac{\\pi}{4}=\\sqrt{2}\n\\end{array}$$\nHence, R match with 2\nFor S\nGiven,\n$$\\begin{aligned}\n\\cot \\left(\\sin ^{-1} \\sqrt{1-x^2}\\right) & =\\sin \\left(\\tan ^{-1}(x \\sqrt{6})\\right), x\neq 0 \\\\\n\\Rightarrow \\cot \\left(\\cot ^{-1} \\frac{x}{\\sqrt{1-x^2}}\\right) & =\\sin \\left(\\sin ^{-1} \\frac{x \\sqrt{6}}{\\sqrt{1+6 x^2}}\\right) \\\\\n\\Rightarrow \\quad \\frac{x}{\\sqrt{1-x^2}} & =\\frac{x \\sqrt{6}}{\\sqrt{1+6 x^2}}\n\\end{aligned}\n\\begin{array}{rlrl}\n\\Rightarrow & \\frac{1}{\\sqrt{1-x^2}} & =\\frac{\\sqrt{6}}{\\sqrt{1+6 x^2}} \\\\\n\\Rightarrow & \\text { on squaring both sides } \\\\\n\\Rightarrow & \\frac{1}{1-x^2} =\\frac{6}{1+6 x^2} \\\\\n\\Rightarrow & 1+6 x^2=6-6 x^2 \\\\\n\\Rightarrow & x^2 =\\frac{5}{12} \\\\\n\\Rightarrow & x= \\pm \\sqrt{\\frac{5}{12}}= \\pm \\frac{1}{2} \\sqrt{\\frac{5}{3}}\n\\end{array}$$\nHence, S match with 1.\nHints :\n(i) Recall the method of conversion of one inverse trigonometric function into other inverse trigonometric function as\n$$\\sin ^{-1} x=\\cos ^{-1} \\sqrt{1-x^2}=\\tan ^{-1} \\frac{x}{\\sqrt{1-x^2}}$$\n(ii) Recall $$\\cos \\left(\\cos ^{-1} x\\right)=x, \\sin \\left(\\sin ^{-1} x\\right)=x\\tan \\left(\\tan ^{-1} x\\right)=x \\text { etc }$$\n(iii) Recall the following trigonometric identities\n(A) $$\\sin ^2 x+\\cos ^2 x=1$$\n(B) $$\\sin 2 x=2 \\sin x \\cdot \\cos x$$\n(C) $$\\cos 2 x=\\cos ^2 x-\\sin ^2 x=2 \\cos ^2 x-1= 1-2 \\sin ^2 x$$\n(D) $$\\cos (A-B)-\\cos (A+B)=2 \\sin A \\cdot \\sin B$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$P = 4,Q = 3,R = 1,S = 2$$",
+      "$$P = 4,Q = 3,R = 2,S = 1$$",
+      "$$P = 3,Q = 4,R = 2,S = 1$$",
+      "$$P = 3,Q = 4,R = 1,S = 2$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_014",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$\\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}} \\left( {1 + \\sum\\limits_{k = 1}^n {2k} } \\right)} \\right)$$ is",
+    "solution": "$$\\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {1 + \\sum\\limits_{k = 1}^n {2k} } \\right)} } \\right) = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {1 + 2 \\times {{n(n + 1)} \\over 2}} \\right)} } \\right) = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}(1 + n(n + 1))} } \\right) = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {{{n(n + 1) + 1} \\over {(n + 1) - n}}} \\right)} } \\right) = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}n - {{\\cot }^{ - 1}}(n + 1)} } \\right) = \\cot (({\\cot ^{ - 1}}1 + {\\cot ^{ - 1}}2 + {\\cot ^{ - 1}}3 + .... + {\\cot ^{ - 1}}23) - ({\\cot ^{ - 1}}2 + {\\cot ^{ - 1}}3 + .... + {\\cot ^{ - 1}}23 + {\\cot ^{ - 1}}24)) = \\cot ({\\cot ^{ - 1}}1 - {\\cot ^{ - 1}}24) = \\cot \\left( {{{\\cot }^{ - 1}}{{24 \\times 1 + 1} \\over {24 - 1}}} \\right) = {{25} \\over {23}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{23} \\over {25}}$$",
+      "$${{25} \\over {23}}$$",
+      "$${{23} \\over {24}}$$",
+      "$${{24} \\over {23}}$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_015",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$0 < x < 1$$, then\n\n$$\\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\cos \\left( {{{\\cot }^{ - 1}}x} \\right) + \\sin \\left( {{{\\cot }^{ - 1}}x} \\right)} \\right\\}}^2} - 1} \\right]^{1/2}} = $$",
+    "solution": "Given that,\n$$0 < x < 1$$,\n$$\\sqrt {1 + {x^2}} {[{\\{ x\\cos ({\\cot ^{ - 1}}x) + \\sin ({\\cot ^{ - 1}}x)\\} ^2} - 1]^{{1 \\over 2}}}$$\nFind : value of this expression\nHere, $$0 < x < 1$$,\n$${\\cot ^{ - 1}}x = {\\sin ^{ - 1}}\\left( {{1 \\over {\\sqrt {1 + {x^2}} }}} \\right) = {\\cos ^{ - 1}}\\left( {{x \\over {\\sqrt {1 + {x^2}} }}} \\right)$$\nNow, $$\\sqrt {1 + {x^2}} {[{\\{ x\\cos ({\\cot ^{ - 1}}x) + \\sin ({\\cot ^{ - 1}}x)\\} ^2} - 1]^{{1 \\over 2}}}\\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\cos \\left( {{{\\cos }^{ - 1}}\\left( {{x \\over {1 + {x^2}}}} \\right)} \\right) + \\sin \\left( {{{\\sin }^{ - 1}}{1 \\over {\\sqrt {1 + {x^2}} }}} \\right)} \\right\\}}^2}} \\right]^{{1 \\over 2}}} = \\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\,.\\,{x \\over {\\sqrt {1 + {x^2}} }} + {1 \\over {\\sqrt {1 + {x^2}} }}} \\right\\}}^2} - 1} \\right]^{{1 \\over 2}}} = \\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {{{{x^2} + 1} \\over {\\sqrt {1 + {x^2}} }}} \\right\\}}^2} - 1} \\right]^{{1 \\over 2}}} = \\sqrt {1 + {x^2}} {[{x^2} + 1 - 1]^{{1 \\over 2}}} = x\\sqrt {1 + {x^2}} $$\nwhich is the value of the expression.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${x \\over {\\sqrt {1 + {x^2}} }}$$",
+      "$$x$$",
+      "$$x\\sqrt {1 + {x^2}} $$",
+      "$$\\sqrt {1 + {x^2}} $$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_016",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$(x,y)$$ be such that $${\\sin ^{ - 1}}(ax) + {\\cos ^{ - 1}}(y) + {\\cos ^{ - 1}}(bxy) = {\\pi \\over 2}$$.\nMatch the statements in Column I with the statements in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nIf $$a=1$$ and $$b=0$$, then $$(x,y)$$\n(P)\nlies on the circle $$x^2+y^2=1$$\n\n\n(B)\nIf $$a=1$$ and $$b=1$$, then $$(x,y)$$\n(Q)\nlies on $$(x^2-1)(y^2-1)=0$$\n\n\n(C)\nIf $$a=1$$ and $$b=2$$, then $$(x,y)$$\n(R)\nlies on $$y=x$$\n\n\n(D)\nIf $$a=2$$ and $$b=2$$, then $$(x,y)$$\n(S)\nlies on $$(4x^2-1)(y^2-1)=0$$",
+    "solution": "(A) If $$a=1$$ and $$b=0$$ then\n$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\frac{\\pi}{2}=\\frac{\\pi}{2} \\\\\n& \\sin ^{-1} x=-\\cos ^{-1} y \\\\\n& \\sin ^{-1} x=-\\sin ^{-1} \\sqrt{1-y^{2}} \\\\\n&-x=\\sqrt{1-y^{2}} \\\\\n& x^{2}+y^{2}=1 \\\\\n& \\text { (A) } \\rightarrow(p)\n\\end{aligned}$$\n(B) If $$a=1$$ and $$b=1$$ then\n$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\cos ^{-1} x y=\\frac{\\pi}{2} \\\\\n& \\cos ^{-1} x-\\cos ^{-1} y=\\cos ^{-1} x y \\\\\n& x y+\\sqrt{1-y^{2}} \\sqrt{1-x^{2}}=x y \\\\\n& =\\left(x^{2}-1\\right)\\left(y^{2}-1\\right)=0 \\\\\n& (\\mathrm{~B}) \\rightarrow(q)\n\\end{aligned}$$\n(C) If $$a=1$$ and $$b=2$$ then\n$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\cos ^{-1}(2 x y) \\\\\n& =-\\cos ^{-1} x-\\cos ^{-1} y=\\cos ^{-1}(2 x y) \\\\\n& \\quad x y+\\sqrt{1-x^{2}} \\sqrt{1-y^{2}}=2 x y\n\\end{aligned}\\begin{gathered}\n\\sqrt{1-x^{2}} \\sqrt{1-y^{2}}=x y \\\\\n1-x^{2}-y^{2}+x^{2} y^{2}=x^{2} y^{2} \\\\\nx^{2}+y^{2}=1 \\\\\n(\\mathrm{C}) \\rightarrow(p)\n\\end{gathered}$$\n(D) If $$a=2$$ and $$b=2$$, we get\n$$\\begin{gathered}\n\\sin ^{-1} 2 x+\\cos ^{-1}(2 x y)+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\\n\\cos ^{-1}(2 x)-\\cos ^{-1} y=\\cos ^{-1}(2 x y) \\\\\n2 x y+\\sqrt{4 x^{2}-1} \\sqrt{1-y^{2}}=2 x y \\\\\n\\left(4 x^{2}-1\\right)\\left(y^{2}-1\\right)=0 \\\\\n\\text { (D) } \\rightarrow(\\mathrm{s})\n\\end{gathered}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\mathrm{A-(p),B-(q),C-(s),D-(p)}$$",
+      "$$\\mathrm{A-(q),B-(p),C-(p),D-(s)}$$",
+      "$$\\mathrm{A-(p),B-(q),C-(p),D-(s)}$$",
+      "$$\\mathrm{A-(p),B-(r),C-(p),D-(s)}$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_017",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let F(x) be an indefinite integral of $$\\sin^2x$$.\n**Statement 1 :** The function F(x) satisfies F($$x+\\pi$$) = F($$x$$) for all real x.\n**Statement 2 :** $${\\sin ^2}(x + \\pi ) = {\\sin ^2}x$$ for all real x.",
+    "solution": "$$f(x) = \\int {{{\\sin }^2}xdx = {1 \\over 2}\\int {(1 - \\cos 2x)dx} } = {1 \\over 4}(2x - \\sin 2x) + c$$\nNow,\n$$f(x + \\pi ) = {1 \\over 4}(2x + 2\\pi - \\sin (2x + 2\\pi )) + c = {1 \\over 4}[2x + 2\\pi - \\sin 2x] + c\ne f(x)\\therefore$$ Statement 1 is false.\nAlso $${\\sin ^2}(x + \\pi ) = {\\sin ^2}x,\\forall x \\in R\\therefore$$ Statement 2 is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_018",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$x$$ for which $$sin\\left( {{{\\cot }^{ - 1}}\\left( {1 + x} \\right)} \\right) = \\cos \\left( {{{\\tan }^{ - 1}}\\,x} \\right)$$ is",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$1$$",
+      "$$0$$",
+      "$$-1/2$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_019",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${\\sin ^{ - 1}}\\left( {x - {{{x^2}} \\over 2} + {{{x^3}} \\over 4} - ....} \\right)$ + {\\cos ^{ - 1}}\\left( {{x^2} - {{{x^4}} \\over 2} + {{{x^6}} \\over 4} - ....} \\right) = {\\pi \\over 2}$$$\n\nfor $$0 < \\left| x \\right| < \\sqrt 2 ,$$ then $$x$$ equals",
+    "solution": "To determine the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$, we need to understand the properties of the inverse sine function, also known as the arcsine function.\n\nThe sine function, $$\\sin(x)$$, is periodic with period $$2\\pi$$, meaning that for any integer $$k$$, we have:\n\n$$\\sin(x) = \\sin(x + 2k\\pi)$$.\n\nThe inverse sine function, $$\\sin^{-1}(x)$$, has a restricted domain, typically taken as:\n\n$$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$,\n\nwhere $$y = \\sin^{-1}(x)$$.\n\nGiven the expression inside the inverse sine function:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right)$$,\n\nwe know:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$$.\n\nNow, we want to find the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$.\n\nLet:\n\n$$x = \\frac{2\\pi}{3}$$,\n\nso:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin(x) = \\frac{\\sqrt{3}}{2}$$.\n\nTo find the principal value, we need to find an angle $$y$$ within the range $$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$ such that $$\\sin(y) = \\frac{\\sqrt{3}}{2}$$.\n\nThe principal value that satisfies this condition is:\n\n$$y = \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)$$.\n\nGiven the range of the inverse sine function, the corresponding angle is:\n\n$$y = \\frac{\\pi}{3}$$.\n\nNow, we need to match this value with one of the given options. Since there is no option for $$\\frac{\\pi}{3}$$ directly, but recalling the properties of the sine function and the range, and knowing that $$\\frac{2\\pi}{3}$$ is not within the range of the principal values, we need to reconsider equivalent values.\n\nNone of the given options match exactly the principal value we calculated, which is $$\\frac{\\pi}{3}$$. Therefore, the correct answer is:\n\nOption D: none",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$1$$",
+      "$$-1/2$$",
+      "$$-1$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_020",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of real solutions of\n\n$${\\tan ^{ - 1}}\\,\\,\\sqrt {x\\left( {x + 1} \\right)} + {\\sin ^{ - 1}}\\,\\,\\sqrt {{x^2} + x + 1} = \\pi /2$$ is",
+    "solution": "To determine the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$, we need to understand the properties of the inverse sine function, also known as the arcsine function.\n\nThe sine function, $$\\sin(x)$$, is periodic with period $$2\\pi$$, meaning that for any integer $$k$$, we have:\n\n$$\\sin(x) = \\sin(x + 2k\\pi)$$.\n\nThe inverse sine function, $$\\sin^{-1}(x)$$, has a restricted domain, typically taken as:\n\n$$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$,\n\nwhere $$y = \\sin^{-1}(x)$$.\n\nGiven the expression inside the inverse sine function:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right)$$,\n\nwe know:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$$.\n\nNow, we want to find the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$.\n\nLet:\n\n$$x = \\frac{2\\pi}{3}$$,\n\nso:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin(x) = \\frac{\\sqrt{3}}{2}$$.\n\nTo find the principal value, we need to find an angle $$y$$ within the range $$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$ such that $$\\sin(y) = \\frac{\\sqrt{3}}{2}$$.\n\nThe principal value that satisfies this condition is:\n\n$$y = \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)$$.\n\nGiven the range of the inverse sine function, the corresponding angle is:\n\n$$y = \\frac{\\pi}{3}$$.\n\nNow, we need to match this value with one of the given options. Since there is no option for $$\\frac{\\pi}{3}$$ directly, but recalling the properties of the sine function and the range, and knowing that $$\\frac{2\\pi}{3}$$ is not within the range of the principal values, we need to reconsider equivalent values.\n\nNone of the given options match exactly the principal value we calculated, which is $$\\frac{\\pi}{3}$$. Therefore, the correct answer is:\n\nOption D: none",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "infinite"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_021",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If we consider only the principle values of the inverse trigonometric functions then the value of\n\n$$\\tan \\left( {{{\\cos }^{ - 1}}{1 \\over {5\\sqrt 2 }} - {{\\sin }^{ - 1}}{4 \\over {\\sqrt {17} }}} \\right)$$ is",
+    "solution": "To determine the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$, we need to understand the properties of the inverse sine function, also known as the arcsine function.\n\nThe sine function, $$\\sin(x)$$, is periodic with period $$2\\pi$$, meaning that for any integer $$k$$, we have:\n\n$$\\sin(x) = \\sin(x + 2k\\pi)$$.\n\nThe inverse sine function, $$\\sin^{-1}(x)$$, has a restricted domain, typically taken as:\n\n$$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$,\n\nwhere $$y = \\sin^{-1}(x)$$.\n\nGiven the expression inside the inverse sine function:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right)$$,\n\nwe know:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$$.\n\nNow, we want to find the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$.\n\nLet:\n\n$$x = \\frac{2\\pi}{3}$$,\n\nso:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin(x) = \\frac{\\sqrt{3}}{2}$$.\n\nTo find the principal value, we need to find an angle $$y$$ within the range $$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$ such that $$\\sin(y) = \\frac{\\sqrt{3}}{2}$$.\n\nThe principal value that satisfies this condition is:\n\n$$y = \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)$$.\n\nGiven the range of the inverse sine function, the corresponding angle is:\n\n$$y = \\frac{\\pi}{3}$$.\n\nNow, we need to match this value with one of the given options. Since there is no option for $$\\frac{\\pi}{3}$$ directly, but recalling the properties of the sine function and the range, and knowing that $$\\frac{2\\pi}{3}$$ is not within the range of the principal values, we need to reconsider equivalent values.\n\nNone of the given options match exactly the principal value we calculated, which is $$\\frac{\\pi}{3}$$. Therefore, the correct answer is:\n\nOption D: none",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{\\sqrt {29} } \\over 3}$$",
+      "$${{29} \\over 3}$$",
+      "$${{\\sqrt 3 } \\over {29}}$$",
+      "$${3 \\over {29}}$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_022",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The principal value of $${\\sin ^{ - 1}}\\left( {\\sin {{2\\pi } \\over 3}} \\right)$$ is",
+    "solution": "To determine the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$, we need to understand the properties of the inverse sine function, also known as the arcsine function.\n\nThe sine function, $$\\sin(x)$$, is periodic with period $$2\\pi$$, meaning that for any integer $$k$$, we have:\n\n$$\\sin(x) = \\sin(x + 2k\\pi)$$.\n\nThe inverse sine function, $$\\sin^{-1}(x)$$, has a restricted domain, typically taken as:\n\n$$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$,\n\nwhere $$y = \\sin^{-1}(x)$$.\n\nGiven the expression inside the inverse sine function:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right)$$,\n\nwe know:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$$.\n\nNow, we want to find the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$.\n\nLet:\n\n$$x = \\frac{2\\pi}{3}$$,\n\nso:\n\n$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin(x) = \\frac{\\sqrt{3}}{2}$$.\n\nTo find the principal value, we need to find an angle $$y$$ within the range $$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$ such that $$\\sin(y) = \\frac{\\sqrt{3}}{2}$$.\n\nThe principal value that satisfies this condition is:\n\n$$y = \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)$$.\n\nGiven the range of the inverse sine function, the corresponding angle is:\n\n$$y = \\frac{\\pi}{3}$$.\n\nNow, we need to match this value with one of the given options. Since there is no option for $$\\frac{\\pi}{3}$$ directly, but recalling the properties of the sine function and the range, and knowing that $$\\frac{2\\pi}{3}$$ is not within the range of the principal values, we need to reconsider equivalent values.\n\nNone of the given options match exactly the principal value we calculated, which is $$\\frac{\\pi}{3}$$. Therefore, the correct answer is:\n\nOption D: none",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${ - {{2\\pi } \\over 3}}$$",
+      "$${{{2\\pi } \\over 3}}$$",
+      "$${{{4\\pi } \\over 3}}$$",
+      "none"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_023",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$\\tan \\left[ {{{\\cos }^{ - 1}}\\left( {{4 \\over 5}} \\right) + {{\\tan }^{ - 1}}\\left( {{2 \\over 3}} \\right)} \\right]$$ is",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{6 \\over 17}}$$",
+      "$${{7 \\over 16}}$$",
+      "$${{16 \\over 7}}$$",
+      "none"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_024",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering only the principal values of the inverse trigonometric functions, the value of\n\n$$\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n$$\n\nis",
+    "solution": "Given, $${3 \\over 2}{\\cos ^{ - 1}}\\sqrt {{2 \\over {2 + {\\pi ^2}}}} + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$\nLet, $${\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = \\alpha \\Rightarrow {{\\sqrt 2 } \\over \\pi } = \\tan \\alpha $$\n\n[Diagram]\n\nWe know, $$\\sin 2\\alpha = {{2\\tan \\alpha } \\over {1 + {{\\tan }^2}\\alpha }} = {{2\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\over {1 + {2 \\over {{\\pi ^2}}}}} = {{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}} \\Rightarrow 2\\alpha = {\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) = 2{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$\nNow, let, $${\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = \\beta \\Rightarrow \\sqrt {{2 \\over {2 + {\\pi ^2}}}} = \\cos \\beta $$\n\n[Diagram]\n\n$$\\therefore\\cot \\beta = {{\\sqrt 2 } \\over \\pi } \\Rightarrow \\beta = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)\\therefore{\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)\\therefore{3 \\over 2}{\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 4}\\left( {2 + \\tan \\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {3 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = {3 \\over 2}\\left( {{{\\tan }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {{\\cot }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right) = {3 \\over 2} \\times {\\pi \\over 2} = {{3\\pi } \\over 4} = 2.36$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7upqge8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_inverse_trigonometry_025",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of\n\n$${\\sec ^{ - 1}}\\left( \\matrix{\n{1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)}\n\\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) \\hfill \\cr} \\right)$$\n\nin the interval $$\\left[ { - {\\pi \\over 4},\\,{{3\\pi } \\over 4}} \\right]$$ equals ..........",
+    "solution": "$$\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)$$\n\n= $$\\sum\\limits_{k = 0}^{10} {{1 \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} $$\n\n= $$\\sum\\limits_{k = 0}^{10} {{{\\sin \\left[ {\\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} \\because \\left[ {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2} - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) = {\\pi \\over 2}\\,and\\,sin{\\pi \\over 2} = 1} \\right]\\sum\\limits_{k = 0}^{10} {{\\matrix{\n\\sin \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) \\hfill \\cr\n- \\sin \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right) \\hfill \\cr} \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)}}} $$\n\n= $$\\sum\\limits_{k = 0}^{10} {\\left[ {\\tan \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} $$\n\n= $$\\tan \\left( {{{7\\pi } \\over {12}} + {\\pi \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}}} \\right) + \\tan \\left( {{{7\\pi } \\over {12}} + {{2\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {\\pi \\over 2}} \\right)$$ ....$$ + \\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{10\\pi } \\over 2}} \\right)$$\n\n= $$\\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan {{7\\pi } \\over {12}} = \\tan {{7\\pi } \\over {12}} + \\cot {\\pi \\over {12}}$$\n\n= $${1 \\over {\\sin {\\pi \\over {12}}\\cos {\\pi \\over {12}}}} = {2 \\over {\\sin {\\pi \\over 6}}} = 4$$\n\nSo, $${\\sec ^{ - 1}}\\left( {{1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)} } \\right)$$\n\n= $${\\sec ^{ - 1}}$$ (1) = 0",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_026",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of real solutions of the equation $$\\eqalign{\n& {\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right) \\cr\n& = {\\pi \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty {} {{\\left( { - x} \\right)}^i}} \\right) \\cr} $$ lying in the interval $$\\left( { - {1 \\over 2},{1 \\over 2}} \\right)$$ is ........... .\n\n(Here, the inverse trigonometric functions sin$^{$$-$$1}$ x and cos$^{$$-$$1}$ x assume values in $${\\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right]}$$ and $${\\left[ {0,\\pi } \\right]}$$, respectively.)",
+    "solution": "We have,\n\n$${\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right) = {\\pi \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty {} {{\\left( { - x} \\right)}^i}} \\right) \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{x.{x \\over 2}} \\over {1 - {x \\over 2}}}} \\right] = {\\pi \\over 2} - {\\cos ^{ - 1}}\\left[ {{{{{ - x} \\over 2}} \\over {1 + {x \\over 2}}} - {{( - x)} \\over {1 + x}}} \\right] \\because \\left[ {\\sum\\limits_{i = 1}^\\infty {} {x^{i + 1}} = {x^2} + {x^3} + {x^4} + .... = {{{x^2}} \\over {1 - x}}} \\right]$$ using sum of infinite terms of GP\n\n$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\pi \\over 2} - {\\cos ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right] \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\sin ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right] \\because \\left[ {{{\\sin }^{ - 1}}x = {\\pi \\over 2} - {{\\cos }^{ - 1}}x} \\right] \\Rightarrow {{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}} = {x \\over {1 + x}} - {x \\over {2 + x}} \\Rightarrow {x^2}\\left( {{{2 - x - 1 + x} \\over {(1 - x)(2 - x)}}} \\right) = x{{(2 + x - 1 - x)} \\over {(1 + x)(2 + x)}} \\Rightarrow {x \\over {2 - 3x + {x^2}}} = {1 \\over {2 + 3x + {x^2}}}$$ or x = 0\n\n$$ \\Rightarrow {x^3} + 3{x^2} + 2x = {x^2} - 3x + 2 \\Rightarrow {x^3} + 2{x^2} + 5x - 2 = 0$$ or x = 0\n\nLet $$f(x) = {x^3} + 2{x^2} + 5x - 2f'(x) = 3{x^2} + 4x + 5f'(x) > 0,\\,\\forall x \\in R \\therefore {x^3} + 2{x^2} + 5x - 2$$ has only one real roots\n\nTherefore, total number of real solution is 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_027",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : [0, 4$$\\pi$$] $$\\to$$ [0, $$\\pi$$] be defined by f(x) = cos$^{$$-$$1}$ (cos x). The number of points x $$\\in$$ [0, 4$$\\pi$$] satisfying the equation $$f(x) = {{10 - x} \\over {10}}$$ is",
+    "solution": "Concept :\n\nThe number of solutions of equations involving trigonometric functions and algebraic functions are found using graphs of the curves.\n\nWe know, $${\\cos ^{ - 1}}(\\cos x) = \\left\\{ \\matrix{\nx,\\,if\\,x \\in [0,\\pi ] \\hfill \\cr\n2\\pi - x,\\,if\\,x \\in [\\pi ,2\\pi ] \\hfill \\cr\n- 2\\pi + x,\\,if\\,x \\in [2\\pi ,3\\pi ] \\hfill \\cr\n4\\pi - x,\\,if\\,x \\in [3\\pi ,4\\pi ] \\hfill \\cr} \\right.$$\n\n\n[Diagram]\n\n$$y = {{10 - x} \\over {10}} = 1 - {x \\over {10}}$$\n\nFrom above figure, it is clear that $$y = {{10 - x} \\over {10}}$$ and $$y = {\\cos ^{ - 1}}(\\cos x)$$ intersect at three distinct points, so number of solutions is 3.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1azmrq0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_inverse_trigonometry_028",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right)$$ and $$\\beta = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right),$$ where the inverse trigonimetric functions take only the principal values, then the correct options(s) is (are)",
+    "solution": "Here, $$\\alpha = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right)$$\nand $$\\beta = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right)$$ as $${6 \\over {11}} > {1 \\over 2} \\Rightarrow {\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right) > {\\sin ^{ - 1}}\\left( {{1 \\over 2}} \\right) = {\\pi \\over 6}\\therefore\\alpha = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right) > {\\pi \\over 2} \\Rightarrow \\cos \\alpha < 0$$\nNow, $$\\beta = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right)$$\nAs $${4 \\over 9} < {1 \\over 2} \\Rightarrow {\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right) > {\\cos ^{ - 1}}\\left( {{1 \\over 2}} \\right) = {\\pi \\over 3}\\therefore\\beta = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right) > \\pi \\therefore\\cos \\beta < 0$$ and $$\\sin \\beta < 0$$\nNow, $$\\alpha + \\beta $$ is slightly greater than $${{3\\pi } \\over 2}$$.\n$$\\therefore\\cos (\\alpha + \\beta ) > 0$$",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$cos\\beta > 0$$",
+      "$$\\sin \\beta < 0$$",
+      "$$\\cos \\left( {\\alpha + \\beta } \\right) > 0$$",
+      "$$\\cos \\alpha < 0$$"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_029",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The numerical value of $$\\tan \\left\\{ {2{{\\tan }^{ - 1}}\\left( {{1 \\over 5}} \\right) - {\\pi \\over 4}} \\right\\}$$ is equal to __________",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_inverse_trigonometry_030",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Inverse Trigonometric Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, b, c$$ be positive real numbers Let\n\n$$\\theta = {\\tan ^{ - 1}}\\sqrt {{{a\\left( {a + b + c} \\right)} \\over {bc}}} + {\\tan ^{ - 1}}\\sqrt {{{b\\left( {a + b + c} \\right)} \\over {ca}}} + {\\,\\,\\tan ^{ - 1}}\\sqrt {{{c\\left( {a + b + c} \\right)} \\over {ab}}} $$\nThen $$\\tan \\theta = $$ ____________",
+    "solution": "Solution for this Inverse Trigonometric Functions question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

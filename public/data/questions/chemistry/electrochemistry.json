@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "chem_electrochemistry_001",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 300 K , the molar conductivities of the aqueous solutions of three salts at two different concentrations are given below :\n\n\nSalt\nConcentration (M)\nMolar conductivity (S cm$^{2}$ mol$^{−1}$)\n\n\nNaNO$_{3}$\n0.01\n111\n\n\n0.04\n101\n\n\nNaCl\n0.01\n117\n\n\n0.04\n107\n\n\nAgNO$_{3}$\n0.01\n125\n\n\n0.04\n116\n\n\nThe conductivity of a saturated aqueous solution of AgCl is $1.40 \\times 10^{-6} \\mathrm{~S} \\mathrm{~cm}^{-1}$ at 300 K . If the solubility of AgCl in water at 300 K is $\\boldsymbol{X} \\mathrm{mol} \\mathrm{L}^{-1}$, then $\\log _{10}\\left(\\boldsymbol{X}^{-1}\\right)$ is\n(Assume that AgCl dissolved in water ionizes completely and that the molar conductivity of saturated AgCl solution is equal to its limiting molar conductivity.)",
+    "solution": "The relation between molar conductivity and concentration for strong electrolytes is given by\n$$\\Lambda_M = \\Lambda_M^0 - b\\sqrt{c}$$\nFor two concentrations $ c_1 $ and $ c_2 $, the equation becomes:\n$$\\Lambda_{M,1} - \\Lambda_{M,2} = b(\\sqrt{c_2} - \\sqrt{c_1})$$\nTherefore,\n$$b = \\frac{\\Lambda_{M,1} - \\Lambda_{M,2}}{\\sqrt{c_2} - \\sqrt{c_1}} = \\frac{\\Lambda_{M,1} - \\Lambda_{M,2}}{0.1}$$\n**For NaNO$_{3}$:**\n$$b = \\frac{111 - 101}{0.1} = 100$$\nSo the limiting molar conductivity is:\n$$[\\Lambda_M^0]_{\\mathrm{NaNO_3}} = \\Lambda_M + b\\sqrt{c} = 111 + 100(0.1) = 121\\, \\mathrm{S\\,cm^2/mol}$$\n**For NaCl:**\n$$b = \\frac{117 - 107}{0.1} = 100[\\Lambda_M^0]_{\\mathrm{NaCl}} = 117 + 100(0.1) = 127\\, \\mathrm{S\\,cm^2/mol}$$\n**For AgNO$_{3}$:**\n$$b = \\frac{125 - 116}{0.1} = 90[\\Lambda_M^0]_{\\mathrm{AgNO_3}} = 125 + 90(0.1) = 134\\, \\mathrm{S\\,cm^2/mol}$$\n**Finding limiting molar conductivity of AgCl:**\nUsing Kohlrausch’s law of independent migration of ions:\n$$[\\Lambda_M^0]_{\\mathrm{AgCl}} = [\\Lambda_M^0]_{\\mathrm{AgNO_3}} + [\\Lambda_M^0]_{\\mathrm{NaCl}} - [\\Lambda_M^0]_{\\mathrm{NaNO_3}}= 134 + 127 - 121 = 140\\, \\mathrm{S\\,cm^2/mol}$$\n**Now, to find solubility (X):**\nThe conductivity of the saturated solution is $ k = 1.40 \\times 10^{-6}\\, \\mathrm{S\\,cm^{-1}} $.\nSince the electrolytic solution is very dilute,\n$$\\Lambda_M = \\Lambda_M^0 = \\frac{k \\times 1000}{c}$$\nSo,\n$$c = \\frac{k \\times 1000}{\\Lambda_M^0} = \\frac{1.4\\times10^{-6}\\times10^3}{140} = 10^{-5}\\, \\mathrm{M}$$\nThus, solubility $ X = 10^{-5} \\, \\mathrm{mol\\,L^{-1}} $.\n**Finally,**\n$$\\log(X^{-1}) = \\log(10^{-5})^{-1} = 5$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrd3fnp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_002",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An electrochemical cell is fueled by the combustion of butane at 1 bar and 298 K . Its cell potential is $\\frac{\\boldsymbol{X}}{F} \\times 10^3$ volts, where $F$ is the Faraday constant. The value of $\\boldsymbol{X}$ is _____________.\n**Use:** Standard Gibbs energies of formation at 298 K are: $\\Delta_f G_{\\mathrm{CO}_2}^o=-394 \\mathrm{~kJ} \\mathrm{~mol}^{-1} ; \\Delta_f G_{\\text {water }}^o=$ $-237 \\mathrm{~kJ} \\mathrm{~mol}^{-1} ; \\Delta_f G_{\\text {butane }}^o=-18 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$",
+    "solution": "Balanced combustion of butane (liquid water):\n$$\\mathrm{C_4H_{10}} + \\tfrac{13}{2}\\,\\mathrm{O_2}\\;\\longrightarrow\\;4\\,\\mathrm{CO_2} + 5\\,\\mathrm{H_2O}$$\nStandard Gibbs energy change:\n$$\\Delta G^\\circ =\\bigl[4\\,\\Delta_fG^\\circ(\\mathrm{CO_2})+5\\,\\Delta_fG^\\circ(\\mathrm{H_2O})\\bigr]\\,-\\bigl[\\Delta_fG^\\circ(\\mathrm{C_4H_{10}})+\\tfrac{13}{2}\\,\\Delta_fG^\\circ(\\mathrm{O_2})\\bigr]= \\bigl[4(-394)+5(-237)\\bigr]\\,-[-18+0]\\;\\mathrm{kJ/mol} = -1576 -1185 +18 = -2743\\;\\mathrm{kJ/mol}$$\nElectrons transferred, $n$:\nEach C goes from –2.5 to +4 ⇒ loses 6.5 e–, so total $n=4\\times6.5=26$.\nCell potential:\n$\\begin{aligned} & \\Delta_{\\mathrm{r}} \\mathrm{G}^{\\circ}=-\\mathrm{nFE}^{\\circ} \\\\ & -2743 \\times 1000=-26 \\times \\mathrm{FE}^{\\circ} \\\\ & \\mathrm{E}^{\\circ}=\\frac{105.5}{\\mathrm{~F}} \\times 10^3=105.50\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_003",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An aqueous solution of hydrazine $\\left(\\mathrm{N}_2 \\mathrm{H}_4\\right)$ is electrochemically oxidized by $\\mathrm{O}_2$, thereby releasing chemical energy in the form of electrical energy. One of the products generated from the electrochemical reaction is $\\mathrm{N}_2(\\mathrm{~g})$.\n\nChoose the correct statement(s) about the above process",
+    "solution": "To determine the correct statement(s) regarding the electrochemical oxidation of hydrazine ($$\\mathrm{N}_2 \\mathrm{H}_4$$) by $$\\mathrm{O}_2$$, let's analyze each option in detail.\n\nOption A:\n$$\\mathrm{OH}^{-}$$ ions react with $$\\mathrm{N}_2 \\mathrm{H}_4$$ at the anode to form $$\\mathrm{N}_2(\\mathrm{~g})$$ and water, releasing 4 electrons to the anode.\nThis statement is accurate because in an electrochemical cell, the anode is where oxidation occurs. Hydrazine can be oxidized in the presence of $$\\mathrm{OH}^{-}$$ ions to yield nitrogen gas and water, releasing electrons as a part of this redox reaction:\n\n$$\n\\mathrm{N}_2 \\mathrm{H}_4 + 4 \\mathrm{OH}^{-} \\rightarrow \\mathrm{N}_2 + 4 \\mathrm{H}_2 \\mathrm{O} + 4e^{-}\n$$\n\nOption B:\nAt the cathode, $$\\mathrm{N}_2 \\mathrm{H}_4$$ breaks to $$\\mathrm{N}_2(\\mathrm{~g})$$ and nascent hydrogen released at the electrode reacts with oxygen to form water.\nThis statement is incorrect because, usually, the cathode is where reduction occurs, not a breaking down of hydrazine. Instead, reduction reactions involve the gain of electrons. Additionally, at the cathode, it's more common for oxygen to be reduced rather than hydrazine itself breaking down.\n\nOption C:\nAt the cathode, molecular oxygen gets converted to $$\\mathrm{OH}^{-}$$.\nThis statement is correct. At the cathode in an alkaline medium, oxygen undergoes reduction to form hydroxide ions $$\\mathrm{OH}^{-}$$, as depicted by the half-reaction:\n\n$$\n\\mathrm{O}_2 + 2H_2O + 4e^{-} \\rightarrow 4 \\mathrm{OH}^{-}\n$$\n\nOption D:\nOxides of nitrogen are major by-products of the electrochemical process.\nThis statement is incorrect because the primary product from the electrochemical reaction of hydrazine is nitrogen gas ($$\\mathrm{N}_2$$), and not oxides of nitrogen. The formation of oxides of nitrogen would be notable only under different specific conditions not mentioned in this context.\n\nTherefore, the correct statements regarding the electrochemical oxidation of hydrazine by $$\\mathrm{O}_2$$ are:\n\nOption A and Option C.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$\\mathrm{OH}^{-}$ions react with $\\mathrm{N}_2 \\mathrm{H}_4$ at the anode to form $\\mathrm{N}_2(\\mathrm{~g})$ and water, releasing 4 electrons to the anode.",
+      "At the cathode, $\\mathrm{N}_2 \\mathrm{H}_4$ breaks to $\\mathrm{N}_2(\\mathrm{~g})$ and nascent hydrogen released at the electrode reacts with oxygen to form water.",
+      "At the cathode, molecular oxygen gets converted to $\\mathrm{OH}^{-}$.",
+      "Oxides of nitrogen are major by-products of the electrochemical process."
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_004",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(a). For the reaction\n\nAg$^{+ }$ (aq) + Cl$^{-}$ (aq) $$\\leftrightharpoons$$ AgCl (s)\n\nGiven:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-s6z2{text-align:center}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nSpecies\n$$\\Delta G_f^o$$ (kJ/mol)\n\n\nAg$^{+}$ (aq)\n+77\n\n\nCl$^{-}$ (aq)\n-129\n\n\nAgCl (s)\n-109\n\n\n\nWrite the cell representation of above reaction and calculate $$E_{cell}^o$$ at 298 K. Also find the solubility product if AgCl.\n\n(b) If 6.539 $$\\times$$ 10$^{-2}$ g of metallic zinc is added to 100 ml saturated solution of AgCl. Find the value of $${\\log _{10}}{{\\left[ {Z{n^{2 + }}} \\right]} \\over {{{\\left[ {A{g^ + }} \\right]}^2}}}$$. How many moles of Ag will be precipitated in the above reaction. Given that\n\nAg$^{+}$ + e$^{-}$ $$\\to$$ Ag; E$^{o}$ = 0.80 V;\n\nZn$^{2+}$ + 2e$^{-}$ $$\\to$$ Zn; E$^{o}$ = -0.76 V;\n\n(It was given that atomic mass of Zn = 65.39)",
+    "solution": "Half-cell reactions are -\n$$A{g^ + }(aq) + e \\to Ag(s)Ag(s) + C{l^ - }(aq) \\to AgCl(s) + e$$\nCell reaction : $$A{g^ + }(aq) + C{l^ - }(aq) \\to AgCl(s)$$\n(1) The cell is : $$Ag|AgCl(s)|C{l^ - }(aq)||A{g^ + }(aq)|AgA{g^ + }(aq) + C{l^ - }(aq) \\to AgCl(s)\\therefore\\Delta {G^0} = \\Delta G_r^0(AgCl) - \\Delta G_r^0(A{g^ + }) - \\Delta G_r^0(C{l^ - })$$\nor, $$\\Delta {G^0} = [ - 109 - 77 - ( - 129)]$$ kJ mol$^{$$-$$1}$\nor, $$\\Delta {G^0} = - 57$$ kJ mol$^{$$-$$1}$\nBut, $$\\Delta {G^0} = - nF{E^0}$$ or, $$ - 57000 = - 1 \\times 96500 \\times {E^0}$$\nor, $${E^0} = {{57000} \\over {96500}}$$ or, $${E^0} = 0.59V$$\nThe solubility equilibrium for AgCl is\n$$AgCl(s)\\rightleftharpoonsA{g^ + }(aq) + C{l^ - }(aq)$$\nFor this reaction $$E_{cell}^0 = - 0.59V\\therefore{\\log _{10}}{K_{sp}} = {{nF{E^0}} \\over {RT}} = - {{0.59} \\over {0.059}} = - 10$$\n(2) Amount of zinc added $$ = {{6.539 \\times {{10}^{ - 2}}} \\over {65.39}} = {10^{ - 3}}$$ mol\nTherefore, the following reactions will occur :\n$$2A{g^ + }(aq) + 2e \\to 2Ag(s)$$ ;\n$$Zn(s) \\to Z{n^{2 + }}(aq) + 2e$$ ;\n$$2A{g^ + }(aq) + Zn(s) \\to Z{n^{2 + }}(aq) + 2Ag(s)$$ ;\nBy Nernst equation, $${E_{cell}} = E_{cell}^0 - {{0.059} \\over 2}\\log {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}$$\nAt equilibrium, $${E_{cell}} = 0$$, $$\\therefore1.58 = {{0.059} \\over 2}\\log {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}$$\nor, $$\\log {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}} = {{1.58 \\times 2} \\over {0.059}} = 53.47\\therefore$$ Equilibrium constant, $$K = {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}\\therefore\\log K = 53.47$$ or, $$K = {10^{53.47}}$$\nVery high value of K indicates that the reaction goes to almost completion. Solubility of $$AgCl = \\sqrt {{K_{sp}}} = \\sqrt {{{10}^{ - 10}}} = {10^{ - 5}}$$ M\n$$\\therefore[A{g^ + }] = {10^{ - 5}}M$$. Hence, number of mole of Ag$^{+}$ ions in 100 mL solution = 10$^{$$-$$6}$. Since, the reaction goes to almost completion, the amount of Ag formed = 10$^{$$-$$6}$ mol.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_005",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a conductometric titration, small volume of titrant of higher concentration is added stepwise to a larger volume of titrate of much lower concentration, and the conductance is measured after each addition.\n\nThe limiting ionic conductivity $\\left(\\Lambda_0\\right)$ values (in $\\mathrm{mS} \\mathrm{m}{ }^2 \\mathrm{~mol}^{-1}$ ) for different ions in aqueous solutions are given below:\n\n$$ \\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text { Ions } & \\mathrm{Ag}^{+} & \\mathrm{K}^{+} & \\mathrm{Na}^{+} & \\mathrm{H}^{+} & \\mathrm{NO}_3^{-} & \\mathrm{Cl}^{-} & \\mathrm{SO}_4^{2-} & \\mathrm{OH}^{-} & \\mathrm{CH}_3 \\mathrm{COO}^{-} \\\\ \\hline \\Lambda_0 & 6.2 & 7.4 & 5.0 & 35.0 & 7.2 & 7.6 & 16.0 & 19.9 & 4.1 \\\\ \\hline \\end{array} $$\n\nFor different combinations of titrates and titrants given in **List-I**, the graphs of 'conductance' versus 'volume of titrant' are given in **List-II**.\n\nMatch each entry in **List-I** with the appropriate entry in **List-II** and choose the correct option.\n\n\ntable {\nwidth: 80%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid lightgrey;\npadding: 10px;\n}\ntd {\nborder: 1px solid lightgrey;\npadding: 10px;\ntext-align: left;\n}\n\n\n\nLIST-I\nLIST-II\n\n\n(P) Titrate: KCl\nTitrant: AgNO$_3$\n\n\n[Diagram]\n\n\n\n\n(Q) Titrate: AgNO$_3$\nTitrant: KCl\n\n\n[Diagram]\n\n\n\n\n(R) Titrate: NaOH\nTitrant: HCl\n\n\n[Diagram]\n\n\n\n\n(S) Titrate: NaOH\nTitrant: CH$_3$COOH\n\n\n[Diagram]\n\n\n\n\n\n\n\n[Diagram]",
+    "solution": "**Option (P) :**\n\nOn adding $\\mathrm{AgNO}_3$ solution to $\\mathrm{KCl}$ solution precipitation of $\\mathrm{AgCl}$ will occur due to which $\\mathrm{Cl}^{-}$already present will be replaced by $\\mathrm{NO}_3^{-}$ions. So conductance of solution will decrease till equivalence point. After complete precipitation of $\\mathrm{AgCl}$, further added $\\mathrm{AgNO}_3$ will increase the number of ions in resulting solution so conductance will increase.\n\n**Option (Q) :**\n\nOn adding $\\mathrm{KCl}$ solution to $\\mathrm{AgNO}_3$ solution precipitation of $\\mathrm{AgCl}$ will occur due to which already present $\\mathrm{Ag}^{+}$ions will be replaced by $\\mathrm{K}^{+}$ions in solution. So conductance of solution will increase. After complete precipitation of $\\mathrm{AgCl}$ further added $\\mathrm{KCl}$ will increase the number of ions in resulting solution so conductance will increase further.\n\n**Option (R) :**\n\nOn adding $\\mathrm{HCl}$ solution to $\\mathrm{NaOH}$ solution, $\\mathrm{OH}^{-}$will be replaced by $\\mathrm{Cl}^{-}$ions so conductance of solution decreases. After complete neutralisation further added $\\mathrm{HCl}$ will increase number of ions in the solution. So conductance will increase futher.\n\n**Option (S) :**\n\nOn adding $\\mathrm{CH}_3 \\mathrm{COOH}$ solution to $\\mathrm{NaOH}$ solution $\\mathrm{OH}^{-}$will be replaced by $\\mathrm{CH}_3 \\mathrm{COO}^{-}$ions, so conductance of solution decreases. After complete neutralisation further added $\\mathrm{CH}_3 \\mathrm{COOH}$ will remain undissociated because it is a weak acid and there is also common ion effect on acetate ions. So number of ions in solution will remain almost constant therefore conductance of solution will remain constant.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P-4, Q-3, R-2, S-5",
+      "P-2, Q-4, R-3, S-1",
+      "P-3, Q-4, R-2, S-5",
+      "P-4, Q-3, R-2, S-1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrd3fnp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_006",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Plotting $1 / \\Lambda_{\\mathrm{m}}$ against $\\mathrm{c} \\Lambda_{\\mathrm{m}}$ for aqueous solutions of a monobasic weak acid $(\\mathrm{HX})$ resulted in a straight line with $\\mathrm{y}$-axis intercept of $\\mathrm{P}$ and slope of $\\mathrm{S}$. The ratio $\\mathrm{P} / \\mathrm{S}$ is\n\n$$\n\\begin{aligned}\n& {\\left[\\Lambda_{\\mathrm{m}}=\\right.\\text { molar conductivity }} \\\\\\\\\n& \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}=\\text { limiting molar conductivity } \\\\\\\\\n& \\mathrm{c}=\\text { molar concentration } \\\\\\\\\n& \\left.\\mathrm{K}_{\\mathrm{a}}=\\text { dissociation constant of } \\mathrm{HX}\\right]\n\\end{aligned}\n$$",
+    "solution": "For weak acid, $\\alpha=\\frac{\\Lambda_{\\mathrm{m}}}{\\Lambda_0}$\n\n$$\n\\begin{aligned}\n& \\mathrm{K}_{\\mathrm{a}}=\\frac{\\mathrm{C} \\alpha^2}{1-\\alpha} \\Rightarrow \\mathrm{K}_{\\mathrm{a}}(1-\\alpha)=\\mathrm{C} \\alpha^2 \\\\\\\\\n& \\Rightarrow \\mathrm{K}_{\\mathrm{a}}\\left(1-\\frac{\\Lambda_{\\mathrm{m}}}{\\Lambda_0}\\right)=\\mathrm{C}\\left(\\frac{\\Lambda_{\\mathrm{m}}}{\\Lambda_0}\\right)^2 \\\\\\\\\n& \\Rightarrow \\mathrm{K}_{\\mathrm{a}}-\\frac{\\Lambda_{\\mathrm{m}} \\mathrm{K}_{\\mathrm{a}}}{\\Lambda_0}=\\frac{\\mathrm{C} \\Lambda_{\\mathrm{m}}^2}{\\left(\\Lambda_0\\right)^2}\n\\end{aligned}\n$$\n\nDivide by ' $\\Lambda_{\\mathrm{m}}$ '\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{\\mathrm{K}_{\\mathrm{a}}}{\\Lambda_{\\mathrm{m}}}=\\frac{\\mathrm{C} \\Lambda_{\\mathrm{m}}}{\\left(\\Lambda_0\\right)^2}+\\frac{\\mathrm{K}_{\\mathrm{a}}}{\\Lambda_0} \\\\\\\\\n& \\Rightarrow \\frac{1}{\\Lambda_{\\mathrm{m}}}=\\frac{\\mathrm{C} \\Lambda_{\\mathrm{m}}}{\\mathrm{K}_{\\mathrm{a}}\\left(\\Lambda_0\\right)^2}+\\frac{1}{\\Lambda_0}\n\\end{aligned}\n$$\n\nPlot $\\frac{1}{\\Lambda_{\\mathrm{m}}}$ vs $\\mathrm{C} \\Lambda_{\\mathrm{m}}$ has\n\nSlope $=\\frac{1}{\\mathrm{~K}_{\\mathrm{a}}\\left(\\Lambda_0\\right)^2}=\\mathrm{S}$\n\n$\\mathrm{y}$-intercept $=\\frac{1}{\\Lambda_0}=\\mathrm{P}$\n\nThen, $\\frac{\\mathrm{P}}{\\mathrm{S}}=\\frac{\\frac{1}{\\Lambda_0}}{\\frac{1}{\\mathrm{~K}_{\\mathrm{a}}\\left(\\Lambda_0\\right)^2}}=\\mathrm{K}_{\\mathrm{a}} \\Lambda_0$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$",
+      "$\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}} / 2$",
+      "$2 \\mathrm{~K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$",
+      "$1 /\\left(\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}\\right)$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_007",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Molar conductivity ($$\\Lambda $$$_{m}$) of aqueous solution of sodium stearate, which behaves as a strong electrolyte, is recorded at varying concentrations (C) of sodium stearate. Which one of the following plots provides the correct representation of micelle formation in the solution?\n\n(critical micelle concentration (CMC) is marked with an arrow in the figures)",
+    "solution": "At normal or low concentration, sodium stearate (CH$_{3}$(CH$_{2}$)$_{16}$COO$^{-}$Na$^{+}$] behaves as strong electrolyte and for strong electrolyte, molar conductance ($$\\Lambda $$$_{m}$) decreases with increase in concentration. Above particular concentration, sodium stearate forms aggregates known as micelles. The concentration is called as CMC. Since, number of ions decreases and hence $$\\Lambda $$$_{m}$ also decreases.\n\nHence, option (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_008",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following cell,\n\n$$Zn\\left( s \\right)\\left| {ZnS{O_4}\\left( {aq} \\right)} \\right|\\left| {CuS{O_4}\\left( {aq} \\right)} \\right|Cu\\left( s \\right)$$\n\nwhen the concentration of $$Z{n^{2 + }}$$ is $$10$$ times the concentration of $$C{u^{2 + }},$$ the expression for $$\\Delta G$$ (in $$J\\,mo{l^{ - 1}}$$) is [$$F$$ is Faraday constant; $$R$$ is gas constant; $$T$$ is temperature; $${E^0}$$ (cell)$$=1.1V$$]",
+    "solution": "The reaction involved is\n$$Zn(s) + C{u^{2 + }}(aq)\\rightleftharpoonsZ{n^{2 + }}(aq) + Cu(s)\\Delta G = \\Delta G^\\circ + 2.303RT\\log {{[Z{n^{2 + }}]} \\over {[C{u^{2 + }}]}}\\Delta G = - nFE^\\circ + 2.303RT\\log {{[Z{n^{2 + }}]} \\over {[C{u^{2 + }}]}}$$ ........ (1)\nSubstituting n = 2, E$$^\\circ$$ = 1.1 and $$[Z{n^{2 + }}] = 10$$ and $$[C{u^{2 + }}] = 1$$ in Eq. (1), we get\n$$\\Delta G = ( - 2 \\times F \\times 1.1) + 2.303RT\\log {{10} \\over 1}$$\n= 2.303 RT $$-$$ 2.2 F",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1.1F$$",
+      "$$2.303RT-2.2F$$",
+      "$$2.303RT+1.1F$$",
+      "$$-2.2F$$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_009",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following electrochemical cell at 298 K\n\nPt(s) | H$_{2}$ (g, 1 bar) | H$^{+}$ (aq, 1 M) || M$^{4+}$ (aq), M$^{2+}$ (aq) | Pt (s)\n\nE$_{cell}$ = 0.092 V when $${{\\left[ {{M^{2 + }}(aq)} \\right]} \\over {\\left[ {{M^{4 + }}(aq)} \\right]}}$$ = 10$^{x}$\n\nGive, $$E_{{M^{4+}}/{M^{2 + }}}^o$$ = 0.151 V; 2.303 RT/F = 0.059 V\nThe value of x is",
+    "solution": "For the given electrochemical cell, the half-cell reactions are\n$$\\bullet$$ At anode : H$_{2}$(g) $$\\rightleftharpoons$$ 2H$^{+}$(aq) + 2e$^{$$-$$}$\n$$\\bullet$$ At cathode : M$^{4+}$(aq) + 2e$^{$$-$$}$ $$\\rightleftharpoons$$ M$^{2+}$(aq).\nThe overall cell reaction is\nM$^{4+}$(aq) + H$_{2}$(g) $$\\to$$ M$^{2+}$(aq) + 2H$^{+}$(aq)\nFrom Nernst equation, we have\n$${E_{cell}} = E_{cell}^o - {{2.303RT} \\over {nF}}\\log {{[{M^{2 + }}]{{[{H^ + }]}^2}} \\over {[{M^{4 + }}]{p_{{H_2}}}}}$$\nSubstituting the given values, we get\n$${E_{cell}} = (E_{{M^{4 + }}/{M^{2 + }}}^o - E_{{H^ + }/{H_2}}^o){{0.059} \\over 2}\\log {{[{M^{2 + }}]{{[{H^ + }]}^2}} \\over {[{M^{4 + }}]{p_{{H_2}}}}}0.092 = (0.151 - 0) - {{0.059} \\over 2}\\log {10^x}0.092 = 0.151 - 0.0245\\log {10^x} - 0.059 = - 0.0245x \\Rightarrow x = 2$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "-2",
+      "-1",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_010",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An aqueous solution of X is added slowly to an aqueous solution of Y as shown in List – I. The variation in\nconductivity of these reactions in List – II. Match List – I with List – II and select the correct answer using\nthe code given below the lists:\n\n**List - I**\n\nP. $$\\mathop {(C{}_2{H_5}){}_3N}\\limits_X $$ + $$\\mathop {C{H_3}COOH}\\limits_Y $$\n\nQ. $$\\mathop {KI(0.1M)}\\limits_X $$ + $$\\mathop {AgN{O_3}(0.01M)}\\limits_Y $$\n\nR. $$\\mathop {C{H_3}COOH}\\limits_X $$ + $$\\mathop {KOH}\\limits_Y $$\n\nS. $$\\mathop {NaOH}\\limits_X $$ + $$\\mathop {HI}\\limits_Y $$\n\n**List - II**\n\n1. Conductivity decreases then increases\n\n2. Conductivity decreases then does not change much\n\n3. Conductivity increases then does not change much\n\n4. Conductivity does not change much then increases",
+    "solution": "```html\n\n(P) The weak acid (Y) is partially dissociated as follows:\n\n$$ \\mathrm{CH}_3 \\mathrm{COOH}(aq) \\rightleftharpoons \\mathrm{CH}_3 \\mathrm{COO}^{-}(aq) + \\mathrm{H}^{+}(aq) $$\n\n(a) Adding the base triethylamine will result in its protonation by $\\mathrm{H}^{+}$. As more $\\mathrm{H}^{+}$ ions are consumed, the reaction shifts forward, producing $\\mathrm{CH}_3 \\mathrm{COO}^{-}$ ions and protonated amine, increasing the solution's conductivity.\n\n$$ (\\mathrm{C}_2 \\mathrm{H}_5)_3 \\ddot{\\mathrm{N}} + \\mathrm{H}^{+} \\rightarrow (\\mathrm{C}_2 \\mathrm{H}_5)_3 \\mathrm{NH}^{+} $$\n\nNet equation:\n\n$$ \\mathrm{CH}_3 \\mathrm{COOH}(aq) + (\\mathrm{C}_2 \\mathrm{H}_5)_3 \\ddot{\\mathrm{N}} \\rightarrow (\\mathrm{C}_2 \\mathrm{H}_5)_3 \\stackrel{+}{\\mathrm{N}}\\mathrm{H} + \\mathrm{CH}_3 \\mathrm{COO}^{-} $$\n\n(b) Once all the acid is neutralized, adding more $(\\mathrm{C}_2 \\mathrm{H}_5)_3 \\mathrm{N}$ will not further affect the solution's conductivity.\n\nHence, initially conductivity increases and then remains constant.\n\nOption (P) in List-I matches with option 3 in List-II.\n\n[Diagram]\n\n(Q) The reaction between potassium iodide (KI) and silver nitrate $(\\mathrm{AgNO}_3)$ occurs as follows:\n\n$$ \\mathrm{KI}(0.1 \\, \\mathrm{M}) + \\mathrm{AgNO}_3(0.01 \\, \\mathrm{M}) \\rightarrow \\mathrm{KNO}_3 + \\mathrm{AgI}_{(\\mathrm{ppt})} $$\n\n(a) As KI is added to $\\mathrm{AgNO}_3$, silver iodide precipitates, and conductivity due to $\\mathrm{AgNO}_3$ decreases, but potassium nitrate formation increases the solution's conductivity. These effects balance out, so conductivity does not change much initially.\n\n(b) After all $\\mathrm{AgNO}_3$ is consumed, adding more KI, a strong electrolyte, will increase the solution's conductivity.\n\nHence, initially conductivity does not change much and then increases.\n\n[Diagram]\n\n(R) The weak acid $\\mathrm{CH}_3 \\mathrm{COOH}$ dissociates as follows:\n\n$$ \\mathrm{CH}_3 \\mathrm{COOH}(aq) \\rightleftharpoons \\mathrm{CH}_3 \\mathrm{COO}^{-}(aq) + \\mathrm{H}^{+}(aq) $$\n\nWhen it is added to potassium hydroxide (KOH), a strong electrolyte, the following reaction takes place:\n\n$$ \\mathrm{CH}_3 \\mathrm{COOH} + \\mathrm{KOH} \\rightarrow \\mathrm{CH}_3 \\mathrm{COO}^{-} \\mathrm{K}^{+} + \\mathrm{H}_2 \\mathrm{O} $$\n\nThe potassium ion (K$^+$) from KOH, which has a higher migration velocity, is replaced by the hydrogen and acetate ion $\\mathrm{CH}_3 \\mathrm{COO}^{-}$, which has lower migration velocity. Consequently, conductivity decreases. After all KOH is neutralized by the weak acetic acid $\\mathrm{CH}_3 \\mathrm{COOH}$, adding more acid will increase conductivity only slightly due to its lower degree of dissociation. Hence, initially the conductivity decreases but then changes very little.\n\n[Diagram]\n\n(S) Hydrogen iodide (HI) is a strong acid and completely dissociates into hydrogen and iodide ions. Addition of sodium hydroxide (NaOH) forms sodium iodide and water. The hydrogen ions, which have high migration velocity, are replaced by slower-moving sodium ions, causing a decrease in conductivity. After all the HI is neutralized, conductivity increases with further addition of NaOH due to the increased concentration of $\\mathrm{OH}^{-}$ ions.\n\n[Diagram]\n\nP - 3; Q - 4; R - 2; S - 1\n\ntable {\n\nwidth: 100%;\n\nborder-collapse: collapse;\n\nmargin: 20px 0;\n\n}\n\nth {\n\nbackground-color: blue;\n\ncolor: white;\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\n}\n\ntd {\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\ntext-align: left;\n\n}\n\n```",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P - 3; Q - 4; R - 2; S - 1",
+      "P - 4; Q - 3; R - 2; S - 1",
+      "P - 2; Q - 3; R - 4; S - 1",
+      "P - 1; Q - 4; R - 3; S - 2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzox4lz6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_011",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The standard reduction potential data at 25$^{o}$C is given below:\n\nE$^{o}$ (Fe$^{3+}$ , Fe$^{2+}$) = +0.77V;\n\nE$^{o}$ (Fe$^{2+}$ , Fe) = -0.44V;\n\nE$^{o}$ (Cu$^{2+}$ , Cu) = +0.34V;\n\nE$^{o}$ (Cu$^{+}$ , Cu) = +0.52V;\n\nE$^{o}$ [O$_{2}$(g) + 4H$^{+}$ + 4e$^{-}$ $$\\to$$ 2H$_{2}$O] = +1.23V;\n\nE$^{o}$ [O$_{2}$(g) + 2H$_{2}$O + 4e$^{-}$ $$\\to$$ 4OH$^{-}$] = +0.40 V\n\nE$^{o}$ (Cr$^{3+}$ , Cr) = -0.74V;\n\nE$^{o}$ (Cr$^{2+}$ , Cr) = -0.91V;\n\nMatch E$^{o}$ of the redox pair in List – I with the values given in List – II and select the correct answer using\nthe code given below the lists:\n\n**List - I**\n\nP. E$^{o}$ (Fe$^{3+}$ , Fe)\n\nQ. E$^{o}$ (4H$_{2}$O $$\\leftrightharpoons$$ 4H$^{+}$ + 4OH$^{-}$)\n\nR. E$^{o}$ (Cu$^{2+}$ + Cu $$\\to$$ 2Cu$^{+}$)\n\nS. E$^{o}$ (Cr$^{3+}$, Cr$^{2+}$)\n\n**List - II**\n\n1. -0.18 V\n\n2. -0.4 V\n\n3. -0.04 V\n\n4. -0.83 V",
+    "solution": "First, we will calculate the potential values needed for each of the queries in List – I based on the equations and the given standard reduction potential data:\n\n**For P. $$E^o (\\text{Fe}^{3+}, \\text{Fe})$$:** This reaction involves a combination of two reactions:\n\n$$ \\text{Fe}^{3+} + e^- \\to \\text{Fe}^{2+} \\quad \\text{(E}^o = +0.77 \\text{ V)} \\text{Fe}^{2+} + 2e^- \\to \\text{Fe} \\quad \\text{(E}^o = -0.44 \\text{ V)} $$\n\nUsing the formula to combine potentials for reactions in series, we get:\n\n$$ E^o_{\\text{combined}} = E^o (\\text{Fe}^{3+} \\to \\text{Fe}^{2+}) + E^o (\\text{Fe}^{2+} \\to \\text{Fe}) = 0.77 \\text{ V} - 0.44 \\text{ V} = 0.33 \\text{ V} $$\n\n**For Q. $$E^o (4\\text{H}_2\\text{O} \\leftrightharpoons 4\\text{H}^+ + 4\\text{OH}^-)$$:**\n\nBy adding the two given reactions involving O$_{2}$ and water, we can calculate this potential:\n\n$$ 2 \\text{H}_2\\text{O} + 2 e^- \\to \\text{H}_2 + 2 \\text{OH}^- \\quad (2 \\times +0.40 \\text{ V}) \\text{O}_2 + 2 \\text{H}_2\\text{O} + 4 e^- \\to 4 \\text{OH}^- \\quad \\text{(E}^o = +0.40 \\text{ V)} $$\n\nGiven that this is essentially the decomposition of water into its ions, the neuronal and overall reaction becomes:\n\n$$ 4 \\text{H}_2\\text{O} \\leftrightharpoons 4 \\text{H}^+ + 4 \\text{OH}^- $$\n\nThe E$^{o}$ for this is effectively zero as it is a net reaction of water decomposing and reforming. Hence, the standard value of this is approximately -0.83 V (taking into account the sum of the reactions).\n\n**For R. $$E^o (\\text{Cu}^{2+} + \\text{Cu} \\to 2\\text{Cu}^+)$$:**\n\nRecall that:\n\n$$ \\text{Cu}^{2+} + e^- \\to \\text{Cu}^+ \\quad \\text{(E}^o = +0.16 \\text{ V)} \\text{Cu}^+ + e^- \\to \\text{Cu} \\quad \\text{(E}^o = +0.52 \\text{ V)} $$\n\nTo find $$E^o (\\text{Cu}^{2+} + \\text{Cu} \\to 2\\text{Cu}^+),$$ we have to reverse the second reaction and combine it with the first:\n\n$$ E^o = 0.16 \\text{ V} - 0.52 \\text{ V} = -0.36 \\text{ V} $$\n\n**For S. $$E^o (\\text{Cr}^{3+}, \\text{Cr}^{2+})$$:**\n\nDirectly taken from the data:\n\n$$ \\text{Cr}^{3+} + e^- \\to \\text{Cr}^{2+} \\quad \\text{(E}^o = -0.74 \\text{ V)} $$\n\nNow we match these with the correct values:\n\nP. 0.33 V (No exact match, but since this value should be positive and closest to zero among the choices, associate with least negative value)\n\nQ. -0.83 V\n\nR. -0.36 V\n\nS. -0.74 V\n\nFinally, comparing these calculated values to the options, we find:\n\nOption D (P - 3; Q - 4; R - 1; S - 2) matches the calculated results.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P - 4; Q - 1; R - 2; S - 3",
+      "P - 2; Q - 3; R - 4; S - 1",
+      "P - 1; Q - 2; R - 3; S - 4",
+      "P - 3; Q - 4; R - 1; S - 2"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_012",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrochemical cell shown below is a concentration cell. M | M$^{2+}$ (saturated solution of a sparingly soluble salt, MX$_{2}$) || M$^{2+}$ (0.001 mol dm$^{–3}$) | M The emf of the cell depends on the difference in concentrations of M$^{2+}$ ions at the two electrodes. The emf of the cell at 298 K is 0.059 V.\n\nThe solubility product (K$_{sp}$; mol$^{3}$ dm$^{–9}$) of MX$_{2}$ at 298 K based on the information available for the given concentration cell is (take 2.303 $$\\times$$ R $$\\times$$ 298/F = 0.059 V)",
+    "solution": "To find the solubility product (K$_{sp}$) for the sparingly soluble salt, MX$_{2}$, in a concentration cell setup, we first analyze how the emf is related to the concentration differences across the cell. The reaction at each electrode involves the metal ion M$^{2+}$ and the metal M, whereas the net cell reaction has no change in number of moles on both sides of the equation due to the symmetry of the cell. Thus, the notation for the cell reaction is:\n\n$$ M(s) \\longleftrightarrow M^{2+}(aq) + 2e^{-} $$\n\nGiven that it's a concentration cell, the emf generated is due to the concentration difference of the M$^{2+}$ ions at the two electrodes. The emf of the cell can be calculated by the Nernst equation:\n\n$$ E = E^{\\circ} - \\frac{RT}{nF} \\ln\\left(\\frac{[M^{2+}]_{\\text{cathode}}}{[M^{2+}]_{\\text{anode}}}\\right) $$\n\nSince it's a concentration cell, $ E^\\circ = 0 $. At 298 K, substituting from the provided conversion (2.303 $ \\times $ R $ \\times $ 298/F = 0.059 V) and given n = 2 (because two electrons are transferred per metal ion):\n\n$$ E = - \\frac{(0.059)}{2} \\log\\left(\\frac{[M^{2+}]_{saturated}}{[M^{2+}]_{0.001 \\text{ M}}}\\right) $$\n\nGiven $ E = 0.059 $ V, we can solve for the concentration of $ M^{2+} $ in the saturated solution:\n\n$$ 0.059 = -0.0295 \\log\\left(\\frac{[M^{2+}]_{saturated}}{0.001}\\right) \\log\\left(\\frac{[M^{2+}]_{saturated}}{0.001}\\right) = -2 [M^{2+}]_{saturated} = 0.001 \\times 10^{-2} [M^{2+}]_{saturated} = 0.00001 \\text{ M} $$\n\nThe solubility product, K$_{sp}$, of MX$_{2}$ can now be computed. Let s be the solubility of MX$_{2}$ in mol/L. The dissolution of MX$_{2}$ is given by:\n\n$$ MX_2 \\rightleftharpoons M^{2+} + 2 X^- \\quad s \\quad\\quad\\quad s \\quad \\quad \\, 2s $$\n\nThe solubility product expression is:\n\n$$ K_{sp} = [M^{2+}][X^-]^2 = (s)(2s)^2 K_{sp} = 4s^3 $$\n\nSince $ s = [M^{2+}]_{saturated} = 0.00001 $ M,\n\n$$ K_{sp} = 4(0.00001)^3 K_{sp} = 4 \\times 10^{-15} $$\n\nThus, the solubility product of MX$_{2}$ at 298 K is $ 4 \\times 10^{-15} $ mol$^{3}$ dm$^{-9}$, which corresponds to Option B.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1 $$\\times$$ 10$^{–15}$",
+      "4 $$\\times$$ 10$^{–15}$",
+      "1 $$\\times$$ 10$^{–12}$",
+      "4 $$\\times$$ 10$^{–12}$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_013",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrochemical cell shown below is a concentration cell. M | M$^{2+}$ (saturated solution of a sparingly soluble salt, MX$_{2}$) || M$^{2+}$ (0.001 mol dm$^{–3}$) | M The emf of the cell depends on the difference in concentrations of M$^{2+}$ ions at the two electrodes. The emf of the cell at 298 K is 0.059 V.\n\nThe value of ∆G (kJ mol$^{–1}$) for the given cell is (take 1F = 96500 C mol$^{–1}$)",
+    "solution": "The given electrochemical cell is a concentration cell where both the electrodes are of the same metal but immersed in solutions of different concentrations of the same metal ion. The emf (E) generated by this cell can be calculated using the Nernst equation, which for this cell at 298 K (25°C) is given by:\n\n$ E = E^\\circ - \\frac{0.059}{n} \\log \\frac{[C_1]}{[C_2]} $\n\nWhere:\n\n$E^\\circ$ is the standard electrode potential which is zero in a concentration cell because both electrodes are same.\n\n$n$ is the number of moles of electrons transferred in the redox reaction (2 in this case, as it involves $M^{2+}$ ions).\n\n$[C_1]$ and $[C_2]$ are the concentrations of $M^{2+}$ at the two electrodes.\n\n$E$ is given to be 0.059 V.\n\nAssuming the more concentrated solution is at the left hand electrode and the less concentrated solution (0.001 M) is at the right hand electrode, the Nernst equation simplifies to:\n\n$ E = - \\frac{0.059}{2} \\log \\frac{0.001}{[C_1]} $\n\nTo find $[C_1]$, we solve for the argument of log such that the calculated emf matches the given emf (0.059 V):\n\n$ 0.059 = - \\frac{0.059}{2} \\log \\frac{0.001}{[C_1]} $\n\n$ -2 = \\log \\frac{0.001}{[C_1]} $\n\n$ 10^{-2} = \\frac{0.001}{[C_1]} $\n\n$ [C_1] = 0.1 \\text{ M} $\n\nThis $[C_1]$ value supports the direction of the redox reactions assumed. Now, to find the change in Gibbs free energy $\\Delta G$ for this cell, we use the relationship:\n\n$ \\Delta G = -nFE $\n\nBut $E$ should be positive for the spontaneous reaction, hence:\n\n$ \\Delta G = -2 \\times 96500 \\times 0.059 \\, \\text{V} = -11381 \\, \\text{J/mol} = -11.381 \\, \\text{kJ/mol} $\n\nTherefore, $\\Delta G$ for the cell is approximately -11.4 kJ/mol. The correct answer is Option D: -11.4.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "–5.7",
+      "5.7",
+      "11.4",
+      "-11.4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03tmk83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_014",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following cell reaction:\n\n2Fe(s) + O$_{2}$(g) + 4H$^{+}$(aq) $$\\to$$ 2Fe$^{2+}$ (aq) + 2H$_{2}$O (l); E$^{o}$ = 1.67 V\n\nAt [Fe$^{2+}$] = 10$^{-3}$ M, P(O$_{2}$) = 0.1 atm and pH = 3, the cell potential at 25$^{o}$C is",
+    "solution": "To find the cell potential under non-standard conditions, we can use the Nernst equation, which is given as:\n\n$$ E = E^o - \\frac{RT}{nF} \\ln(Q) $$\n\nWhere:\n\n$$E^o$$ is the standard cell potential (1.67 V).\n\n$$R$$ is the gas constant (8.314 J/mol·K).\n\n$$T$$ is the temperature in Kelvin (298 K for 25°C).\n\n$$n$$ is the number of moles of electrons transferred per mole of reaction (4 in this case).\n\n$$F$$ is the Faraday constant (96485 C/mol).\n\n$$Q$$ is the reaction quotient.\n\nThe reaction quotient, $$Q$$, can be calculated based on the given conditions and the reaction:\n\n$$ Q = \\frac{[\\text{Fe}^{2+}]^2}{[\\text{H}^+]^4 \\cdot P(O_2)} $$\n\nSubstituting the given values:\n\n$$[\\text{Fe}^{2+}] = 10^{-3} \\text{ M}[\\text{H}^+] = 10^{-\\text{pH}} = 10^{-3} \\text{ M}P(O_2) = 0.1 \\text{ atm} Q = \\frac{(10^{-3})^2}{(10^{-3})^4 \\cdot 0.1} Q = \\frac{10^{-6}}{10^{-12} \\cdot 0.1} Q = \\frac{10^{-6}}{10^{-13}} Q = 10^{7} $$\n\nNow, substituting the values into the Nernst equation:\n\n$$ E = 1.67 \\text{ V} - \\frac{8.314 \\times 298}{4 \\times 96485} \\ln(10^{7})$$\n\nCalculating the term $$\\frac{RT}{nF}$$;\n\n$$ \\frac{RT}{nF} = \\frac{8.314 \\times 298}{4 \\times 96485} \\approx \\frac{2476}{385940} \\approx 0.0064 \\text{ V} $$\n\nThe natural logarithm of $$10^{7}$$ is about 16.1 (since $$\\ln(10) \\approx 2.303$$, so $$\\ln(10^{7}) = 7 \\times \\ln(10) \\approx 16.1$$).\n\nThus,\n\n$$ E = 1.67 \\text{ V} - 0.0064 \\times 16.1 E = 1.67 \\text{ V} - 0.103 \\text{ V} E = 1.567 \\text{ V} $$\n\nTherefore, the cell potential under the given conditions is approximately 1.57 V, so option D (1.57 V) is the correct answer.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "1.47 V",
+      "1.77 V",
+      "1.87 V",
+      "1.57 V"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03tmk83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_015",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "AgNO$_{3}$(aq.) was added to an aqueous KCl solution gradually and the conductivity of the solution was measured. The plot of conductance ($$\\Lambda $$) versus the volume of AgNO$_{3}$ is\n\n[Diagram]",
+    "solution": "The plot obtained from adding AgNO$_{3}$(aq.) to a solution of KCl is as follows :\n\n[Diagram]\n\nThe reaction occurring is :\n$$ Ag^ + + NO_3^- + K^ + + Cl^- \\to AgCl + K^ + + NO_3^- $$\nOr more succinctly :\n$$ AgNO_3(aq.) + K^+Cl^-(aq.) \\to AgCl(s) + KNO_3 $$\nUpon the gradual addition of aqueous AgNO$_{3}$, precipitation does not begin immediately. The precipitation of AgCl starts only when the ionic product of AgCl exceeds its solubility product. During this initial phase, AgNO$_{3}$ precipitates as AgCl, simultaneously adding NO$_{3}$$^{-}$ ions to the solution. Since the total number of ions remains constant, the conductance does not change, represented by the flat segment AB in the figure. Once precipitation is complete, any further addition of AgNO$_{3}$ increases the ion concentration in the solution, thus increasing the conductance, shown by the rising segment BC.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(P)",
+      "(Q)",
+      "(R)",
+      "(S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03tmk83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_016",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The concentration of potassium ions inside a biological cell is at least twenty times higher than the outside. The resulting potential difference across the cell is important in several processes such as transmission of\nnerve impulses and maintaining the ion balance. A simple model for such a concentration cell involving a\nmetal M is :\n\nM(s) | M$^{+}$ (aq ; 0.05 molar) || M$^{+}$ (aq ; 1 molar) | M(s)\n\nFor the above electrolytic cell the magnitude of the cell potential | E$_{cell}$ | = 70 mV.\n\nIf the 0.05 molar solution of M$^{+}$ is replaced by a 0.0025 molar M$^{+}$ solution, then the magnitude of the cell potential would be :",
+    "solution": "To understand how the concentration of ions affects the cell potential, we will first use the Nernst equation. The Nernst equation gives us a way to calculate the potential of a cell under non-standard conditions and is represented as follows:\n\n$$ E = E^0 - \\frac{RT}{nF} \\ln \\frac{a_{\\text{Red}}}{a_{\\text{Ox}}} $$\n\nIn our case, we're analyzing a concentration cell where the metal M is the same in both the anode and the cathode but with different concentrations of M$^{+}$. Here, the standard potential $ E^0 $ is zero because the same substance is used as both the anode and cathode.\n\nThe cell reaction becomes:\n\n$$ \\text{M}(s) | \\text{M}^{+}(0.05 \\text{ M at anode}) \\Longrightarrow \\text{M}(s) | \\text{M}^{+}(1 \\text{ M at cathode}) $$\n\nSince $ E^0 = 0 $, the Nernst equation simplifies to:\n\n$$ E = - \\frac{RT}{nF} \\ln \\frac{[\\text{M}^{+} \\text{ (cathode)}]}{[\\text{M}^{+} \\text{ (anode)}]} $$\n\nWhich turns into:\n\n$$ E = - \\frac{RT}{nF} \\ln \\frac{1}{0.05} , $$\n\nand we can further simplify using $ \\ln(\\frac{1}{0.05}) = -\\ln(0.05) $. Assume the reaction involves the transfer of 1 mole of electrons (n=1), the value of F (Faraday constant) is approximately 96485 C/mol, and the temperature T is 298K (room temperature). The gas constant R is 8.314 J/(mol·K). Plugging in these values:\n\n$$ E \\approx - \\frac{(8.314 \\, \\text{J/mol·K})(298 \\, \\text{K})}{(1)(96485 \\, \\text{C/mol})} \\ln(0.05) $$\n\nThis equation can be used to find the potential in volts when the concentration at anode was 0.05 M and was resulting in 70 mV.\n\nNow, switching the anode concentration to 0.0025 M, we reapply the Nernst equation:\n\n$$ E = - \\frac{RT}{nF} \\ln \\frac{1}{0.0025} $$\n\nWe can see the ratio of concentrations has changed, moving from 1/0.05 to 1/0.0025. Thus, the concentration difference across the membrane has increased, which should increase the voltage according to the Nernst equation. Specifically, the ratio changed by a factor of 0.05/0.0025 = 20 times.\n\nGiven that $\\ln(\\frac{1}{x})$ is proportional to the voltage, when the ratio of concentration changes by twenty-fold, and because $\\ln(0.0025) = -\\ln(400)$ which is twice the $\\ln(20)$, the potential will double. Since the initial 70 mV doubles, the new cell potential will be:\n\n$$ E \\approx 2 \\times 70 \\, \\text{mV} = 140 \\, \\text{mV}. $$\n\nTherefore, the correct answer is:\n\nOption C: 140 mV",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "35 mV",
+      "70 mV",
+      "140 mV",
+      "700 mV"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu2ae2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_017",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The concentration of potassium ions inside a biological cell is at least twenty times higher than the outside. The resulting potential difference across the cell is important in several processes such as transmission of\nnerve impulses and maintaining the ion balance. A simple model for such a concentration cell involving a\nmetal M is :\n\nM(s) | M$^{+}$ (aq ; 0.05 molar) || M$^{+}$ (aq ; 1 molar) | M(s)\n\nFor the above electrolytic cell the magnitude of the cell potential | E$_{cell}$ | = 70 mV.\n\nFor the above cell :",
+    "solution": "To determine the right option for the given concentration cell, we must first understand the concepts of cell potential, Gibbs free energy, and the relationship between these quantities.\n\nThe cell potential, $$ E_{cell} $$, for a concentration cell like the one described is directly related to the concentrations of the ions on both sides of the cell. It’s calculated using the Nernst equation:\n\n$$ E_{cell} = E^o - \\frac{RT}{nF} \\ln \\frac{[M^+](\\text{low concentration})}{[M^+](\\text{high concentration})} $$\n\nSince the given cell involves the same metal on both sides in its standard state, the standard cell potential, $$ E^o $$, is zero. Therefore, the equation simplifies to:\n\n$$ E_{cell} = - \\frac{RT}{nF} \\ln \\frac{0.05}{1} $$\n\nGiven that $$ R $$ (the ideal gas constant) is approximately 8.314 J/mol·K, $$ F $$ (the Faraday constant) is about 96485 C/mol, $$ T $$ is the temperature in Kelvin (assuming standard temperature of 298 K), and $$ n $$ (the number of moles of electrons transferred per mole of reaction) is 1, the equation further simplifies to:\n\n$$ E_{cell} = - \\frac{8.314 \\times 298}{96485} \\ln \\left(\\frac{0.05}{1}\\right) $$\n\nCalculate the ln term:\n\n$$ \\ln \\left(\\frac{0.05}{1}\\right) = \\ln(0.05) \\approx -2.9957 $$\n\nThen the equation is:\n\n$$ E_{cell} = - \\frac{2476.422}{96485} \\times -2.9957 \\approx 0.077 \\text{ volts} = 77 \\text{ mV} $$\n\nHere, the calculated $$ E_{cell} > 0 $$, which matches the given cell potential of 70 mV. It differs slightly due to rounding and exact values used in constants. This cell potential being positive indicates spontaneous reaction (tendency to go from high to low concentration).\n\nWe now apply this to the relationship between the cell potential and Gibbs free energy, which is given by:\n\n$$ \\Delta G = -nFE_{cell} $$\n\nSince $$ E_{cell} > 0 $$, $$ \\Delta G < 0 $$ which indicates that the process is thermodynamically favorable (spontaneous).\n\nLooking at the provided options:\n\nOption A: E$_{cell}$ < 0 ; $$\\Delta G > 0$$ (Incorrect; as $$ E_{cell} $$ is positive and $$ \\Delta G $$ is negative)\n\nOption B: E$_{cell}$ > 0 ; $$\\Delta G < 0$$ (Correct; matches our calculation)\n\nOption C: E$_{cell}$ < 0 ; $$\\Delta G^o > 0$$ (Incorrect)\n\nOption D: E$_{cell}$ > 0 ; $$\\Delta G^o > 0$$ (Incorrect, $$ \\Delta G^o $$ not directly relevant here, but centralized on the standard conditions which were zero)\n\nThus, the correct answer is Option B.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "E$_{cell}$ < 0 ; $$\\Delta G > 0$$",
+      "E$_{cell}$ > 0 ; $$\\Delta G < 0$$",
+      "E$_{cell}$ < 0 ; $$\\Delta G^o > 0$$",
+      "E$_{cell}$ > 0 ; $$\\Delta G^o > 0$$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_018",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Electrolysis of dilute aqueous NaCl solution was carried out by passing 10 milli ampere current. The time required to liberate 0.01 mol of H$$_2$$ gas at the cathode is (1 Faraday = 96500 C mol$$^{-1}$$].",
+    "solution": "Given,\nCurrent passed a 10 mA.\nMoles of Hydrogen released are 0.01 moles.\nIn the electrolysis of aqueous solution sodium chloride, as the reduction potential of sodium ion is less than the hydrogen ion, the reaction that takes place at the cathode could be given as,\n2H$$^+$$ + 2e$$^-\\to$$ H$$_2$$\n0.01 moles of hydrogen would require 2 $$\\times$$ 0.01 = 0.02 moles of electrons (or) 0.02 Faradays.\nWe know the formula to calculate the amount of Faradays passed.\nAmount of Faraday's passed = $$\\frac{I(A)\\times t(s)}{96500~\\mathrm{C~mol^{-1}}}$$\nOn rearranging the equation to calculate the time taken we get,\nt = Amount of Faraday's passed $$\\times$$ 96500 $$\\times$$ I\n$$0.02 = {{{{10\\,mA} \\over {1000\\,mA/A}} \\times t(s)} \\over {96500\\,C\\,mo{l^{ - 1}}}}\\Rightarrow~t = 0.02\\times96500\\times0.01$$\nOn multiplying we get,\n$$\\Rightarrow~t=19.3\\times10^4$$ s\nThe time required to liberate 0.01 moles of H$$_2$$ gas at the cathode is 19.3 $$\\times$$ 10$$^4$$ s.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "9.65 $$\\times$$ 10$$^4$$ sec",
+      "19.3 $$\\times$$ 10$$^4$$ sec",
+      "28.95 $$\\times$$ 10$$^4$$ sec",
+      "38.6 $$\\times$$ 10$$^4$$ sec"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu2ae2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_019",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, identify the correct statement.",
+    "solution": "The $$\\mathrm{E}^{\\mathrm{o}}$$ value for $$\\mathrm{I}_{2} / \\mathrm{I}^{-}$$ half cell is much lower than that for $$\\mathrm{Cl}_{2} / \\mathrm{Cl}^{-}$$ half cell. Therefore, $$\\mathrm{Cl}_{2}$$ has a higher tendency to get reduced.\nIt can therefore oxidise $$\\mathrm{I}^{-}$$ ion to $$\\mathrm{I}_{2}$$.\n\n[Diagram]\n\nThe cell emf corresponding to this reaction's\n$$\\begin{aligned}\n\\mathrm{E}_{\\text {cell }}^{\\mathrm{o}} & =\\mathrm{E}_{\\text {cathode }}^{\\mathrm{o}}-\\mathrm{E}_{\\text {anode }}^{\\mathrm{o}}=1.36 \\mathrm{~V}-0.54 \\mathrm{~V} \\\\\n& =0.82 \\mathrm{~V}\n\\end{aligned}$$\nPositive value of $$\\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}$$ shows that this reaction is spontaneous in the direction as written.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Chloride ion is oxidised by $$\\mathrm{O}_{2}$$",
+      "$$\\mathrm{Fe}^{2+}$$ is oxidised by iodine",
+      "Iodide ion is oxidised by chlorine",
+      "$$\\mathrm{Mn}^{2+}$$ is oxidised by chlorine"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghu2ae2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_020",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "While $$\\mathrm{Fe}^{3+}$$ is stable, $$\\mathrm{Mn}^{3+}$$ is not stable in acid solution because",
+    "solution": "**Stability of $$\\mathrm{Fe}^{3+}$$ and $$\\mathrm{Mn}^{3+}$$ in Acidic Solution**\n$$\\mathrm{Fe}^{3+}$$ is stable in acid, but $$\\mathrm{Mn}^{3+}$$ is not. Let's see why.\n**Standard Electrode Potentials**\nThe standard electrode potential, $$\\mathrm{E}^{\\mathrm{o}}$$, is a measure of how easily an ion can be reduced. For $$\\mathrm{Mn}^{3+} \\to \\mathrm{Mn}^{2+}$$, $$\\mathrm{E}^{\\mathrm{o}}$$ is a high positive value. This means $$\\mathrm{Mn}^{3+}$$ is eager to gain electrons and become $$\\mathrm{Mn}^{2+}$$.\n**Comparing Potentials**\nThe half-cell for $$\\mathrm{O}_2, \\mathrm{H}^+/ \\mathrm{H}_2 \\mathrm{O}$$ has a lower $$\\mathrm{E}^{\\mathrm{o}}$$ value than for $$\\mathrm{Mn}^{3+}$$. So, $$\\mathrm{Mn}^{3+}$$ can take electrons from water, causing water to split into $$\\mathrm{O}_2$$ and $$\\mathrm{H}^+$$.\n**The Reaction and Its Cell Potential**\nHere is the reaction:\n\n$$ \\begin{aligned} 4 \\mathrm{Mn}^{3+} +2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 4 \\mathrm{Mn}^{2+}+4 \\mathrm{H}^{+}+\\mathrm{O}_{2} \\\\ \\mathrm{E}_{\\text {cell}}^{\\mathrm{o}} =\\mathrm{E}_{\\mathrm{Mn}^{3+} / \\mathrm{Mn}}^{\\mathrm{o}}-\\mathrm{E}_{\\mathrm{H}_{2} \\mathrm{O}, \\mathrm{H}^{+} / \\mathrm{O}_{2}}^{\\mathrm{o}} \\\\ =1.50 ~\\mathrm{V} - 1.23 ~\\mathrm{V} \\\\ =0.27 ~\\mathrm{V} \\end{aligned} $$\n\nThe $$\\mathrm{E}_{\\text{cell}}^{\\mathrm{o}}$$ is positive (0.27 V), which means the reaction happens easily (is spontaneous).\n**Conclusion**\nSince $$\\mathrm{Mn}^{3+}$$ reacts with water and changes into $$\\mathrm{Mn}^{2+}$$, it is not stable in acid. In contrast, $$\\mathrm{Fe}^{3+}$$ does not do this and is stable.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\mathrm{O}_{2}$$ oxidises $$\\mathrm{Mn}^{2+}$$ to $$\\mathrm{Mn}^{3+}$$",
+      "$$\\mathrm{O}_{2}$$ oxidises both $$\\mathrm{Mn}^{2+}$$ and $$\\mathrm{Fe}^{2+}$$ to $$\\mathrm{Fe}^{3+}$$",
+      "$$\\mathrm{Fe}^{3+}$$ oxidises $$\\mathrm{H}_{2} \\mathrm{O}$$ to $$\\mathrm{O}_{2}$$",
+      "$$\\mathrm{Mn}^{3+}$$ oxidises $$\\mathrm{H}_{2} \\mathrm{O}$$ to $$\\mathrm{O}_{2}$$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_021",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sodium fusion extract, obtained from aniline, on treatment with iron (II) sulphate and $$\\mathrm{H}_{2} \\mathrm{SO}_{4}$$ in presence of air gives a Prussian blue precipitate. The blue colour is due to the formation of",
+    "solution": "Aniline contains nitrogen in addition to carbon\nand hydrogen. During fusion with Na metal,\nthe following reaction takes place\n$$\\mathrm{C}+\\mathrm{N}+\\mathrm{Na} \\stackrel{\\text { Fuse }}{\\longrightarrow} \\mathrm{NaCN}$$\nDuring the test, following reactions take place.\n$$6 \\mathrm{NaCN}+\\mathrm{FeSO}_{4} \\rightarrow \\mathrm{Na}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]+\\mathrm{Na}_{2} \\mathrm{SO}_{4} \\mathrm{Na}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]+2 \\mathrm{Fe}_{2}\\left(\\mathrm{SO}_{4}\\right)_{3} \\rightarrow \\mathrm{\\mathop {F{e_4}{{[Fe{{(CN)}_6}]}_3}}\\limits_{\\Pr ussian\\,Blue}}+~6 \\mathrm{Na}_{2} \\mathrm{SO}_{4}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\mathrm{Fe}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{3}$$",
+      "$$\\mathrm{Fe}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{2}$$",
+      "$$\\mathrm{Fe}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{2}$$",
+      "$$\\mathrm{Fe}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{3}$$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_022",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of moles of chlorine gas evolved is :",
+    "solution": "Moles of NaCl = 4 $$\\times$$ 0.5 = 2 moles (Since 500 ml = 0.5 L)\n2 moles of NaCl = 2 moles of Cl$$^-$$\n2Cl$$^-\\to$$ Cl$$_2$$ + 2e$$^-$$\nThis equation clears that 2 moles of Cl$$^-$$ yields 1 mole of Cl$$_2$$ gas\nTherefore, 1 mole of Cl$$_2$$ gas is evolved.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0.5",
+      "1.0",
+      "2.0",
+      "3.0"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_023",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the cathode is a Hg electrode, the maximum weight (g) of amalgam formed from this solution is:",
+    "solution": "Number of moles of Na$$^+$$ = 2\n2NaCl = 2Na\n2Na + 2Hg $$\\to$$ 2Na(Hg)\nBy electrolysis we get 2 moles of sodium which can combine with exactly 2 moles of mercury to give 2 moles of amalgam.\n$$\\therefore$$ Maximum weight of Na amalgam (assuming equimolar Na and Hg) = 46 + 400 = 446 g",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "200",
+      "225",
+      "400",
+      "446"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_024",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total charge (coulombs) required for complete electrolysis is:",
+    "solution": "Na$$^+$$ + e$$^-\\to$$ Na\nMoles of Na discharged at cathode = 2\n$$\\therefore$$ The number of electron required for this purpose = 2 moles\n$$\\therefore$$ Total charge required = 2 faraday = 2 $$\\times$$ 96500 = 193000 coulombs.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "24125",
+      "48250",
+      "96500",
+      "193000"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_025",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\begin{array}{r} 2 \\mathrm{Ag}^{+}+\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_6+\\mathrm{H}_2 \\mathrm{O} \\rightarrow 2 \\mathrm{Ag}(\\mathrm{~s})+\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_7 +2 \\mathrm{H}^{+} \\end{array} $$\nFind $\\ln \\mathrm{K}$ of this reaction.",
+    "solution": "The value of $\\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}$ can also be calculated using following formula.\n$$ \\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}=\\mathrm{E}_{\\text {anode }}^{\\mathrm{o}}-\\mathrm{E}_{\\text {cathode }}^{\\mathrm{o}} $$\nThe half-reaction at anode is:\n$$ \\begin{aligned} \\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_6+\\mathrm{H}_2 \\mathrm{O} & \\rightarrow \\text { Gluconic acid }\\left(\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_7\\right) \\\\ & +2 \\mathrm{H}^{+}+2 e^{-} ; \\mathrm{E}_{\\mathrm{oxd}}^{\\mathrm{o}}=-0.05 \\mathrm{~V} \\\\ \\mathrm{E}_{\\text {Red }}^{\\mathrm{o}}=\\mathrm{E}_{\\text {anode }}^{\\mathrm{o}} & =0.05 \\mathrm{~V} \\end{aligned} $$\nThe half-reaction at cathode is:\n$$ \\begin{aligned} & \\mathrm{Ag}^{+}+e^{-} \\rightarrow \\mathrm{Ag} ; \\mathrm{E}_{\\mathrm{red}}^{\\mathrm{o}}=0.8 \\mathrm{~V} \\\\ & \\mathrm{E}_{\\text {cathode }}^{\\mathrm{o}}=+0.8 \\mathrm{~V} \\end{aligned} $$\nFrom the above half-reactions,\n$$ \\begin{aligned} \\mathrm{E}_{\\text {anode }}^{\\mathrm{o}} & =+0.05 \\mathrm{~V} \\\\ \\mathrm{E}_{\\text {cathode }}^{\\mathrm{o}} & =0.8 \\mathrm{~V} \\end{aligned} $$\nSubstitute the values in above equation for $\\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}$\n$$ \\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}=(-0.8)-(-0.05) \\mathrm{V}=0.75 \\mathrm{~V} $$\nThe value of $\\ln K$ can be calculated alternatively as follows:\n$$ \\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}=\\frac{\\mathrm{RT}}{n \\mathrm{~F}} \\ln \\mathrm{~K} $$\nAs given, $\\frac{\\mathrm{F}}{\\mathrm{RT}}=38.92, n=2$ and $\\mathrm{E}_{\\text {cell }}^{\\mathrm{o}}=0.75 \\mathrm{~V}$\nSubstitute the values in above equation,\n$$ \\begin{aligned} & 0.75=\\frac{1}{2 \\times 38.92} \\ln K \\\\ & 0.75=\\frac{1}{77.84} \\ln K \\end{aligned} $$\nOn rearranging above expression,\n$$ \\ln K=0.75 \\times 77.84=58.38 $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "66.13",
+      "58.38",
+      "28.30",
+      "46.29"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_026",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When ammonia is added to the solution, pH is raised to 11 . Which half-cell reaction is affected by pH and by how much?",
+    "solution": "When concentration of $\\mathrm{NH}_3$ increases, the concentration of $\\mathrm{H}^{+}$decreases.\nAs per Nernst equation,\n$$ \\mathrm{E}_{\\text {red }}=\\mathrm{E}_{\\text {red }}^{\\mathrm{o}}-\\frac{0.0592}{n} \\log _{10}\\left[\\mathrm{H}^{+}\\right]^2 \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$$\nThe $\\mathrm{E}_{\\text {red }}$ is the single electrode reduction potential and $E_{\\text {red }}^o$ is the standard electrode reduction potential. Here $n$ refers to the number of moles of electrons used in the chemical reaction.\nGiven, $\\mathrm{pH}=11$\nFrom pH , the concentration of $\\mathrm{H}^{+}$ions can be calculated.\n$$ \\begin{array}{rlrl} \\mathrm{pH} & =-\\log _{10}\\left[\\mathrm{H}^{+}\\right] \\text {and }\\left[\\mathrm{H}^{+}\\right]=10^{-\\mathrm{pH}} \\\\ \\therefore \\quad & {\\left[\\mathrm{H}^{+}\\right]} =10^{-11} \\mathrm{M} \\end{array} $$\nFor hydrogen ions, $\\mathrm{E}_{\\text {oxd }}^{\\mathrm{o}}=0$\nSubstitute the values in equation (i),\n$$ \\begin{array}{ll} & \\mathrm{E}_{\\text {oxd }}=0-\\frac{0.0592}{2} 2 \\log _{10} 10^{-11} \\\\ \\therefore & \\mathrm{E}_{\\text {oxd }}=0.0592 \\times 11 \\\\ \\therefore & \\mathrm{E}_{\\text {oxd }}=0.65 \\end{array} $$\nOn increasing the concentration of ammonia, oxidation potential of half cell reaction increases by a factor of +0.65 V .\nThis shows that, $\\mathrm{E}_{\\text {red }}$ increase by the factor of 0.65 from $\\mathrm{E}_{\\text {oxd }}$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\mathrm{E}_{\\text {oxd }}$ will increase by a factor of 0.65 from $\\mathrm{E}_{\\text {oxd }}^{\\mathrm{o}}$",
+      "$\\mathrm{E}_{\\text {oxd }}$ will decrease by a factor of 0.65 from $\\mathrm{E}_{\\text {oxd }}^{\\mathrm{o}}$",
+      "$\\mathrm{E}_{\\text {red }}$ will increase by a factor of 0.65 from $\\mathrm{E}_{\\text {red }}^{\\mathrm{o}}$",
+      "$\\mathrm{E}_{\\text {red }}$ will decrease by a factor of 0.65 from $\\mathrm{E}_{\\text {red }}^{\\mathrm{o}}$"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_027",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ammonia is always added in this reaction. Which of the following must be incorrect?",
+    "solution": "$$ \\text { The overall chemical equation is: } \\begin{array}{r} 2 \\mathrm{Ag}+\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_6+\\mathrm{H}_2 \\mathrm{O} \\rightarrow 2 \\mathrm{Ag}(s)+\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_7+2 \\mathrm{H}^{+} \\end{array} $$\nDuring the above chemical reaction, ammonia is added.\nWhen ammonia reacts with $\\mathrm{Ag}^{+}$ions, it produces $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$complex. Hence, the information given in option A is correct.\nAlso, $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$is a stronger oxidising reagent as compared to that of $\\mathrm{Ag}^{+}$ions. This is because in absence of ammonia (alkaline medium) most of the silver ion precipitates as silver oxide which is not a good oxidizing agent. Hence, option B is correct.\nDuring the above chemical reaction, the glucose is oxidised to gluconic acid as shown below.\n$$ \\begin{array}{r} \\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_6+\\mathrm{H}_2 \\mathrm{O} \\rightarrow \\text { Gluconic acid }\\left(\\mathrm{C}_6 \\mathrm{H}_{12} \\mathrm{O}_7\\right) +2 \\mathrm{H}^{+}+2 e^{-} \\end{array} $$\nIf ammonia is not added during this chemical reaction, the silver ions will react with gluconic acid producing the silver salt of gluconic acid. Hence, option C is correct.\nThe ammonia added during this reaction does not affect standard reduction potential of glucose or gluconic acid electrode.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{NH}_3$ combines with $\\mathrm{Ag}^{+}$to form a complex.",
+      "$\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2$ is a stronger oxidising reagent than $\\mathrm{Ag}^{+}$.",
+      "In absence of $\\mathrm{NH}_3$, silver salt of gluconic acid is formed.",
+      "$\\mathrm{NH}_3$ has affected the standard reduction potential of glucose/gluconic acid electrode."
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_028",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In an electrochemical cell, dichromate ions in aqueous acidic medium are reduced to Cr$^{3+}$. The current (in amperes) that flows through the cell for 48.25 minutes to produce 1 mole of Cr$^{3+}$ is ______.**Use:** 1 Faraday = 96500 C mol$^{−1}$",
+    "solution": "dichromate ion $\\xrightarrow[\\text { medium }]{\\text { aqueous acidic }} \\mathrm{Cr}^{3+}$ ion (reduction)\ntime required, $t=48.25 \\mathrm{~min}$\nmoles of $\\mathrm{Cr}^{3+}=1 \\mathrm{~mol}$\n1 Faraday $=96500 \\mathrm{C} \\mathrm{mol}^{-1}$\nFaraday's laws of electrolysis is used hare.\nThe reduction of dichromate ion $\\mathrm{Cr}_2 \\mathrm{O}_7{ }^{2-}$ to $\\mathrm{Cr}^{8+}$ In acidic medium can be written as chemical equation:\n\n$$\n\\mathrm{Cr}_2 \\mathrm{O}_7^{2-}+14 \\mathrm{H}^{+} 1+6 \\mathrm{e}^{-} \\longrightarrow 2 \\mathrm{Cr}^{3+}+7 \\mathrm{H}_2 \\mathrm{O}\n$$\n\nFrom this equation, 6 moles of electrons are required to produce 2 moles of $\\mathrm{Cr}^{3+}$. So, for 1 mole of $\\mathrm{Cr}^3, 3$ moles ot electrons are required.\n$$\n\\left\\{\\begin{array}{l}\n2 mol \\, c r^3+ \\rightarrow 6 e^{-} \\\\\n1 mol\\, c r^{3+} \\rightarrow \\frac{6}{2} e^{-}=3 e^{-}\n\\end{array}\\right.\n$$Total charge can be calculated as\n\n$$\nQ=n \\times F\n$$\n\n$n \\rightarrow$ moles of electrons\n$F \\rightarrow$ Faraday's constant\n\n$$\n\\begin{aligned}\nQ & =3 \\mathrm{~mol} \\times 96500 \\mathrm{cmol}^{-1} \\\\\n& =289500 \\mathrm{C}\n\\end{aligned}\n$$\n\nTime given in minutes convert to seconds as\n\n$$\n\\begin{aligned}\nt & =48.25 \\min \\times \\frac{60 \\mathrm{~s}}{1 \\mathrm{~min}} \\\\\n& =2895 \\mathrm{~s}\n\\end{aligned}\n$$\n\nCurrent is calculated using the formula (law of dectrolysis, Faraday's)\n\n$$\n\\begin{array}{rlr}\nI & =\\frac{Q}{t} \\quad(Q=I x t) \\\\\n& =\\frac{289500 \\mathrm{C}}{2895 \\mathrm{~s}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,C s^{-1}=A \\text { (Ampere) }\\\\\n& =100 \\mathrm{Cs}^{-1} \\\\\n& =100 \\mathrm{~A}\n\\end{array}\n$$\n\nAnswer: 100 Ampere",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_029",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the strong electrolytes $Z_{m} X_{n}, U_{m} Y_{p}$ and $V_{m} X_{n}$. Limiting molar conductivity ( $\\Lambda^{0}$ ) of $\\mathrm{U}_{\\mathrm{m}} \\mathrm{Y}_{\\mathrm{p}}$ and $\\mathrm{V}_{\\mathrm{m}} \\mathrm{X}_{\\mathrm{n}}$ are 250 and $440 \\mathrm{~S} \\mathrm{~cm}^{2} \\mathrm{~mol}^{-1}$, respectively. The value of $(\\mathrm{m}+\\mathrm{n}+\\mathrm{p})$ is\n\nGiven:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nIon\n$\\mathrm{Z}^{\\mathrm{n}+}$\n$\\mathrm{U}^{\\mathrm{p}+}$\n$\\mathrm{V}^{\\mathrm{n}+}$\n$\\mathrm{X}^{\\mathrm{m}-}$\n$\\mathrm{Y}^{\\mathrm{m}-}$\n\n\n\n$\\lambda^{0}\\left(\\mathrm{~S} \\mathrm{~cm}^{2} \\mathrm{~mol}^{-1}\\right)$\n$50.0$\n$25.0$\n$100.0$\n$80.0$\n$100.0$\n\n\n$\\lambda^{0}$ is the limiting molar conductivity of ions\n\nThe plot of molar conductivity ( $\\Lambda$ ) of $\\mathrm{Z}_{\\mathrm{m}} \\mathrm{X}_{\\mathrm{n}} v s\\, \\mathrm{c}^{1 / 2}$ is given below.\n\n[Diagram]",
+    "solution": "Given,\n\n$\\Lambda_{\\mathrm{V}_{\\mathrm{m}} \\mathrm{Y}_{\\mathrm{p}}}^{\\circ}=250 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1}$\n\n$\\Lambda_{\\mathrm{V}_m \\mathrm{x}_n}=440 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1}$\n\nIt is also given that\n\n$$\n\\begin{aligned}\n& \\lambda^{\\circ} \\mathrm{Z}^{n+}=50 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n& \\lambda_{\\mathrm{V} p+}^0=25.0 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n& \\lambda_{\\mathrm{V}^{n+}}^{\\circ}=100.0 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n& \\lambda_{\\mathrm{X}^{m-}}^{\\circ}=80.0 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n& \\lambda_{\\mathrm{Y}^{m-}}^{\\circ}=100.0 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n\\end{aligned}\n$$\n\nNow, $ \\Lambda_{\\mathrm{V}_m \\mathrm{Y}_p}=m \\lambda_{\\mathrm{V}^{+}}^{\\circ}+p \\lambda^{\\circ}{ }_{\\mathrm{Y}}$\n\n$$\n250=25 m+100 p\n\n10=m+4p\n$$ ..........(1)\n\nAlso, $ \\Lambda_{\\mathrm{V}_m \\mathrm{x}_n}=m \\lambda_{\\mathrm{v}^{+}}^{\\circ}+n \\lambda^{\\circ} \\mathrm{X}^{-}$\n\n$440=100 m+80 n$\n\n$22=5 m+4 n$ ........(2)\n\nIn the question, a graph of $(\\Lambda)$ of $Z_m X_n$ Vs $C^{1 / 2}$ is given,\n\nWe know, $$\n\\lambda_m=\\lambda_m^0-A \\sqrt{C}\n$$\n\nFor electrolyte $Z_m X_n$ and from given curve\n\n$$\n\\begin{aligned}\n& \\lambda_m\\left(Z_m X_n\\right)=\\lambda_m^0\\left(Z_m X_n\\right)-A \\sqrt{C} \\\\\\\\\n& -A=\\frac{336-339}{0.04-0.01}=-\\frac{3}{0.03} \\\\\\\\\n& \\Rightarrow A=100 \\\\\\\\\n& \\therefore \\text { For } \\lambda_m=336 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} \\\\\\\\\n& \\Rightarrow 336=\\lambda_m^{\\circ}\\left(Z_m X_n\\right)-100 \\times 0.04 \\\\\\\\\n& \\lambda_m^{\\circ}=336+4=340 \\mathrm{~S} \\mathrm{~cm}{ }^2 \\mathrm{~mol}^{-1}\n\\end{aligned}\n$$\n\nSo,\n\n$$\n\\begin{aligned}\n\\Lambda_{Z_m x_n} & =m \\lambda_{\\mathrm{Z}^{+}}+n \\lambda_{\\mathrm{X}^{-}} \\\\\\\\\n340 & =50 m+80 n \\\\\\\\\n34 & =5 m+8 n ........(3)\n\\end{aligned}\n$$\n\nSolving eqn (2) and eqn (3),\n\n$n=\\frac{12}{4}=3 $\n\n$$ \\Rightarrow $$ $n=3$\n\nSubstituting the value of $n$ in eqn (2), we get,\n\n$$\n\\begin{aligned}\n22 & =5 m+4(3) \\\\\\\\\n\\Rightarrow 22 & =5 m+12 \\\\\\\\\n\\Rightarrow 5 m & =22-12=10 \\\\\\\\\n\\Rightarrow m & =\\frac{10}{5}=2 \\\\\\\\\n\\Rightarrow m & =2\n\\end{aligned}\n$$\n\nNow, substituting the value of $m$ is eqn $(1)$, we get\n\n$$\n\\begin{aligned}\n10 & =m+4 p \\\\\\\\\n\\Rightarrow 10 & =2+4 p \\\\\\\\\n\\Rightarrow 8 & =4 p \\\\\\\\\n\\Rightarrow p & =\\frac{8}{4}=2 \\\\\\\\\n\\Rightarrow p & =22\n\\end{aligned}\n$$\n\nSo, $m+n+p=2+3+2$\n\n$$\\Rightarrow\nm+n+p=7\n$$\n\nHence, the required value of $m+n+p$ is 7 .",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hlkiy6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_030",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reduction potential $\\left(E^{0}\\right.$, in $\\left.\\mathrm{V}\\right)$ of $\\mathrm{MnO}_{4}^{-}(\\mathrm{aq}) / \\mathrm{Mn}(\\mathrm{s})$ is __________.\n\n[Given: $E_{\\left(\\mathrm{MnO}_{4}^{-}(\\mathrm{aq}) / \\mathrm{MnO}_{2}(\\mathrm{~s})\\right)}^{0}=1.68 \\mathrm{~V} ; E_{\\left(\\mathrm{MnO}_{2}(\\mathrm{~s}) / \\mathrm{Mn}^{2+}(\\mathrm{aq})\\right)}^{0}=1.21 \\mathrm{~V} ; E_{\\left(\\mathrm{Mn}^{2+}(\\mathrm{aq}) / \\mathrm{Mn}(\\mathrm{s})\\right)}^{0}=-1.03 \\mathrm{~V}$ ]",
+    "solution": "(1) $$MnO_4^ - (aq) + 4{H^ + } + 3e\\buildrel {} \\over\n\\longrightarrow Mn{O_2}(s) + 2{H_2}O;\\,E^\\circ = 1.68\\,V\\Delta G{^\\circ _1} = - 3F(1.68) = - 5.04F$$\n(2) $$MnO_2^{}(s) + 4{H^ + } + 2e\\buildrel {} \\over\n\\longrightarrow M{n^{2 + }} + 2{H_2}O;\\,E^\\circ = 1.21\\,V\\Delta G{^\\circ _2} = - 2F(1.21) = - 2.42F$$\n(3) $$Mn_{}^{2 + }(aq) + 2e\\buildrel {} \\over\n\\longrightarrow Mn(s);\\,E^\\circ = - 1.03\\,V\\Delta G{^\\circ _3} = - 2F( - 1.0.3) = + 2.06F$$\nAdding (1), (2) and (3),\n$$MnO_4^ - (aq) + 8{H^ + } + 7e\\buildrel {} \\over\n\\longrightarrow Mn(s) + 4{H_2}O\\Delta G = \\Delta G{^\\circ _1} + \\Delta G{^\\circ _2} + \\Delta G{^\\circ _3} = ( - 5.04 - 2.42 + 2.06)F - 7F\\,E^\\circ = - 5.4FE^\\circ$$ = $$0.77 \\,V$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_031",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 298 K, the limiting molar conductivity of a weak monobasic acid is 4 $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$. At 298 K, for an aqueous solution of the acid the degree of dissociation is $$\\alpha$$ and the molar conductivity is y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$. At 298 K, upon 20 times dilution with water, the molar conductivity of the solution becomes 3y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$.\n\nThe value of $$\\alpha$$ is __________.",
+    "solution": "Degree of dissociation = $$\\alpha$$\n\nLimiting molar conductivity, $$\\Lambda _m^o$$ = 4 $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nMolar conductivity, $$\\Lambda _m$$ = y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nMolar conductivity of dilution, $$\\Lambda _m^o$$ = 3y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nConcentration before dilution = C\n\nConcentration after dilution = $${C \\over {20}}$$\n\nUsing relation, $$\\alpha = {{\\Lambda _m^{}} \\over {\\Lambda _m^o}}$$ .... (i)\n\nDissociation constant, $${K_a} = {{C{\\alpha ^2}} \\over {(1 - \\alpha )}}$$\n\nPutting Eq. (i),\n\n$${K_a} = {{C\\Lambda _m^2} \\over {\\Lambda _m^{o2}\\left( {1 - {{\\Lambda _m^{}} \\over {\\Lambda _m^o}}} \\right)}} = {{C\\Lambda _m^2} \\over {\\Lambda _m^o(\\Lambda _m^o - \\Lambda _m^{})}}$$\n\nDissociation constant before dillution,\n\n$${K_a} = {{C{{(y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - y \\times {{10}^2})}}$$ ..... (ii)\n\nDissociation constant after dilution,\n\n$${K_a} = {{{C \\over {20}}{{(3y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - 3y \\times {{10}^2})}}$$ ..... (iii)\n\nComparing Eqs. (ii) and (iii),\n\n$${{C{{(y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - y \\times {{10}^2})}} = {{C{{(3y \\times {{10}^2})}^2}} \\over {20(4 \\times {{10}^2})(4 \\times {{10}^2} - 3y \\times {{10}^2})}}{{{y^2} \\times {{10}^4}} \\over {{{10}^2}(4 - y)}} = {{9{y^2} \\times {{10}^4}} \\over {{{10}^2} \\times 20(4 - 3y)}}{1 \\over {(4 - y)}} = {9 \\over {20(4 - 3y)}}80 - 60y = 36 - 9y80 - 36 = 60y - 9y44 = 51y \\Rightarrow y = {{44} \\over {51}}$$ .... (iv)\n\nPutting in Eq. (i),\n\n$$\\alpha = {{\\Lambda _m^{}} \\over {\\Lambda _m^o}} = {{y \\times {{10}^2}} \\over {4 \\times {{10}^2}}}\\alpha = {{44} \\over {51 \\times 4}} = {{11} \\over {51}}\\alpha = 0.22$$\n\nThe value of $$\\alpha$$ is 0.22.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_032",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 298 K, the limiting molar conductivity of a weak monobasic acid is 4 $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$. At 298 K, for an aqueous solution of the acid the degree of dissociation is $$\\alpha$$ and the molar conductivity is y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$. At 298 K, upon 20 times dilution with water, the molar conductivity of the solution becomes 3y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$.\n\nThe value of y is __________.",
+    "solution": "Degree of dissociation = $$\\alpha$$\n\nLimiting molar conductivity, $$\\Lambda _m^o$$ = 4 $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nMolar conductivity, $$\\Lambda _m$$ = y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nMolar conductivity of dilution, $$\\Lambda _m^o$$ = 3y $$\\times$$ 10$^{2}$ S cm$^{2}$ mol$^{$$-$$1}$\n\nConcentration before dilution = C\n\nConcentration after dilution = $${C \\over {20}}$$\n\nUsing relation, $$\\alpha = {{\\Lambda _m^{}} \\over {\\Lambda _m^o}}$$ .... (i)\n\nDissociation constant, $${K_a} = {{C{\\alpha ^2}} \\over {(1 - \\alpha )}}$$\n\nPutting Eq. (i),\n\n$${K_a} = {{C\\Lambda _m^2} \\over {\\Lambda _m^{o2}\\left( {1 - {{\\Lambda _m^{}} \\over {\\Lambda _m^o}}} \\right)}} = {{C\\Lambda _m^2} \\over {\\Lambda _m^o(\\Lambda _m^o - \\Lambda _m^{})}}$$\n\nDissociation constant before dillution,\n\n$${K_a} = {{C{{(y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - y \\times {{10}^2})}}$$ ..... (ii)\n\nDissociation constant after dilution,\n\n$${K_a} = {{{C \\over {20}}{{(3y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - 3y \\times {{10}^2})}}$$ ..... (iii)\n\nComparing Eqs. (ii) and (iii),\n\n$${{C{{(y \\times {{10}^2})}^2}} \\over {(4 \\times {{10}^2})(4 \\times {{10}^2} - y \\times {{10}^2})}} = {{C{{(3y \\times {{10}^2})}^2}} \\over {20(4 \\times {{10}^2})(4 \\times {{10}^2} - 3y \\times {{10}^2})}}{{{y^2} \\times {{10}^4}} \\over {{{10}^2}(4 - y)}} = {{9{y^2} \\times {{10}^4}} \\over {{{10}^2} \\times 20(4 - 3y)}}{1 \\over {(4 - y)}} = {9 \\over {20(4 - 3y)}}80 - 60y = 36 - 9y80 - 36 = 60y - 9y44 = 51y \\Rightarrow y = {{44} \\over {51}}$$ = 0.86",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_033",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a 70% efficient hydrogen-oxygen fuel cell working under standard conditions at 1 bar and 298 K. Its cell reaction is\n\n$${H_2}(g) + {1 \\over 2}{O_2}(g)\\buildrel {} \\over\n\\longrightarrow {H_2}O(l)$$\n\nThe work derived from the cell on the consumption of 1.0 $$ \\times $$ 10$^{$$-$$3}$ mole of H$_{2}$(g) is used to compress 1.00 mole of a monoatomic ideal gas in a thermally insulated container. What is the change in the temperature (in K) of the ideal gas?\n\nThe standard reduction potentials for the two half-cells are given below :\n\n$${O_2}(g) + 4{H^ + }(aq) + 4{e^ - }\\buildrel {} \\over\n\\longrightarrow 2{H_2}O(l),{E^o} = 1.23V2{H^ + }(aq) + 2{e^ - }\\buildrel {} \\over\n\\longrightarrow {H_2}(g),{E^o} = 0.00\\,V$$\n\nUse, $$F = 96500\\,C\\,mo{l^{ - 1}}$$, $$R = 8.314\\,J\\,mo{l^{ - 1}}\\,{K^{ - 1}}$$.",
+    "solution": "Vessel is insulated, thus q = 0\n\nFor the given reaction : $$\\eqalign{\n& {H_2}(g) + 1/2{O_2}(g)\\buildrel {} \\over\n\\longrightarrow {H_2}O(l); \\cr\n& {E^o} = 1.23 - 0.00 = 1.23V \\cr} \\Delta $$G$^{o}$ = $$-$$nFE$^{o}$\n\n= $$-$$2 $$ \\times $$ 96500 $$ \\times $$ 1.23 J/mol\n\nTherefore, work derived from this fuel cell using 70% efficiency and on consumption of 1.0 $$ \\times $$ 10$^{$$-$$3}$ mol of H$_{2}$(g)\n\n= 2 $$ \\times $$ 96500 $$ \\times $$ 1.23 $$ \\times $$ 0.7 $$ \\times $$ 1 $$ \\times $$ 10$^{$$-$$3}$\n\n= 166.17 J\n\nThis work done = change in internal energy (for monoatomic gas,\n\n$${C_{V'm}} = 3R/2$$),\n\n$$166.17 = n{C_V}{,_m}\\Delta T \\Rightarrow \\Delta T = {{166.17 \\times 2} \\over {1 \\times 3 \\times 8.314}} \\Rightarrow 13.32\\,K$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_034",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an electrochemical cell :\n\n$$A\\left( s \\right)\\left| {{A^{n + }}\\left( {aq,2M} \\right)} \\right|{B^{2n + }}\\left( {aq,1M} \\right)\\left| {B\\left( s \\right).} \\right.$$\n\nThe value of $$\\Delta {H^ \\circ }$$ for the cell reaction is twice that of $$\\Delta {G^ \\circ }$$ at $$300K.$$ If the $$emf$$ of the cell is zero, the $$\\Delta {S^ \\circ }$$ (in $$J\\,{K^{ - 1}}mo{l^{ - 1}}$$) of the cell reaction per mole of $$B$$ formed at $$300K$$ is ___________.\n\n(Given: $$\\ln \\left( 2 \\right) = 0.7,R$$ (universal gas constant) $$ = 8.3J\\,{K^{ - 1}}\\,mo{l^{ - 1}}.H,S$$ and $$G$$ are enthalpy, entropy and Gibbs energy, respectively.)",
+    "solution": "At $300 \\mathrm{~K}$, following electrochemical cell operates:\n\n$$\n\\mathrm{A}(s)\\left|\\mathrm{A}^{n+}(a q, 2 \\mathrm{M})\\right| \\mid \\mathrm{B}^{2 n+}(a q,(\\mathrm{M}) \\mid \\mathrm{B}(s)\n$$\n\nThe reactions at :\n\n(i) Anode :\n\n$$\n\\begin{gathered}\n\\mathrm{A}_{(s)} \\longrightarrow \\mathrm{A}^{n+}(a q)+\\mathrm{n} e^{-} \\\\\n2 \\mathrm{M}\n\\end{gathered}\n$$ ...........(i)\n\n(ii) Cathode :\n\n$$\n\\begin{aligned}\n& \\mathrm{B}^{2 n+}(a q)+2 n e^{-} \\longrightarrow \\mathrm{B}(s) \\\\\n& 1 \\mathrm{M}\n\\end{aligned}\n$$\n\nMultiplying equation (i) by 2,\n\n$$\n2 \\mathrm{~A}(s) \\longrightarrow 2 \\mathrm{~A}^{n+}(a q)+2 n e^{-}\n$$\n\nThe net electrochemical cell is written as\n\n$$\n2 \\mathrm{~A}(s)+\\mathrm{B}^{2 n+}(a q) \\longrightarrow \\mathrm{B}(s)+2 \\mathrm{~A}^{n+}(a q)\n$$\n\nGiven :\n\nEnthalpy change $\\left(\\Delta \\mathrm{H}^{\\circ}\\right)$ for cell reaction $=2 \\times$ Gibbs free energy than for cell reaction\n\n$\\Delta \\mathrm{H}^{\\circ}=2 \\times \\Delta \\mathrm{G}^{\\circ}$\n\nAccording to the Nernst equation :\n\n$$\n\\mathrm{E}_{\\text {cell }}=\\mathrm{E}_{\\text {cell }}^{\\circ}-\\frac{2.303 \\mathrm{RT}}{n \\mathrm{~F}} \\log \\frac{[\\text { Product }]^x}{[\\text { Reactant }]^y}\n\n\\begin{aligned}\n\\mathrm{E}_{\\text {cell }} & =0 ; \\text { hence, } \\\\\\\\\n\\mathrm{E}_{\\text {cell }}^{\\circ} & =\\frac{2.303 \\mathrm{RT}}{n \\mathrm{~F}} \\log \\frac{[\\text { Product }]^x}{[\\text { Reactant }]^y} \\\\\\\\\n\\mathrm{E}_{\\text {cell }}^{\\circ} & =\\frac{8.3 \\mathrm{JK}^{-1} \\times 300 \\mathrm{~K}}{2 n \\mathrm{~F}} \\ln \\frac{\\left[\\mathrm{A}^n\\right]}{\\left[\\mathrm{B}^{2 n}\\right]} \\\\\\\\\n\\mathrm{E}_{\\text {cell }}^{\\circ} & =\\frac{8.3 \\times 300 \\mathrm{~J}}{2 n \\mathrm{~F}} \\ln \\frac{(2)^2}{1} \\\\\\\\\n\\mathrm{E}_{\\text {cell }}^{\\circ} & =\\frac{8.3 \\times 300}{2 n \\mathrm{~F}} \\ln 4\n\\end{aligned}\n$$\n\nFor a spontaneous reaction,\n\n$$\n\\begin{aligned}\n\\Delta \\mathrm{G}^{\\circ} & =\\Delta \\mathrm{H}^{\\circ}-\\mathrm{T} \\Delta \\mathrm{S}^{\\circ} \\\\\\\\\n\\Delta \\mathrm{S}^{\\circ} & =\\frac{\\Delta \\mathrm{G}^{\\circ}}{\\mathrm{T}}=\\frac{-2 n \\mathrm{FE}_{\\text {cell }}^{\\mathrm{o}}}{\\mathrm{T}} \\\\\\\\\n& =\\frac{-2 n \\mathrm{~F} \\times 8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1} \\times 300 \\mathrm{~K}}{2 \\times n \\mathrm{~F}} \\times \\frac{0.7}{300 \\mathrm{~K}} \\\\\\\\\n& =-8.3-0.7 \\times 2 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1} \\\\\\\\\n& =-11.62 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}\n\\end{aligned}\n$$\n\nThe change in entropy $\\left(\\Delta S^{\\circ}\\right)$ per mol of $B$ is $-11.62 \\mathrm{~J} \\mathrm{~K} \\mathrm{~mol}^{-1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_035",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the electrochemical cell,\n\n$$\\left. {Mg\\left( s \\right)} \\right|M{g^{2 + }}\\left( {aq,1\\,M} \\right)\\left\\| {C{u^{2 + }}} \\right.\\left( {aq,1M} \\right)\\left| {Cu\\left( s \\right)} \\right.$$\n\nthe standard $$emf$$ of the cell is $$2.70V$$ at $$300K.$$ When the concentration of $$M{g^{2 + }}$$ is changed to $$xM,$$ the cell potential changes to $$2.67V$$ at $$300K.$$ The value of $$x$$ is ___________.\n\n(given, $${F \\over R} = 11500\\,K{V^{ - 1}},$$ where $$F$$ is the Faraday constant and $$R$$ is the gas constant, In $$(10=2.30)$$",
+    "solution": "Equation of cell reaction according to the cell notation given, is\n\n[Diagram]\n\nGiven, E$$_{cell}^o$$ = 2.70 V, T = 300 K with [Mg$^{2+}$(aq)] = 1 M and [Cu$^{2+}$(aq)] = 1 M and n = 2\nFurther, E$_{cell}$ = 2.67 V with [Cu$^{2+}$(aq)] = 1 M and [Mg$^{2+}$(aq)] = xM and $${F \\over R}$$ = 11500 KV$^{$$-$$1}$ where F = Faraday constant, R = gas constant\nFrom the formula,\nE$_{cell}$ = E$$_{cell}^o-{{RT} \\over {nF}}\\ln {{[M{g^{2 + }}(aq)]} \\over {[C{u^{2 + }}(aq)]}}$$\nAfter putting the given values\n$$2.67 = 2.70 - {{RT} \\over {2F}}\\ln {x \\over 1}$$\nor $$2.67 = 2.70 - {{R \\times 300} \\over {2F}} \\times \\ln x - 0.03 = {{ - R \\times 300} \\over {2F}} \\times \\ln x$$\nor $$\\ln x = {{0.03 \\times 2} \\over {300}} \\times {F \\over R} = {{0.03 \\times 2 \\times 11500} \\over {300}} = 2.30$$\nSo, $$\\ln x = 2.30$$\nor x = 10 (as given $$\\ln (10) = 2.30$$)",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywon3nq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_036",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The conductance of a $$0.0015M$$ aqueous solution of a weak monobasic acid was determined by using a conductivity cell consisting of platinized $$Pt$$ electrodes. The distance between the electrodes is $$120cm$$ with an area of cross section of $$1c{m^2}.$$ The conductance of this solution was found to be $$5 \\times {10^{ - 7}}S.$$ The $$pH$$ of the solution is $$4.$$ The value of limiting molar conductivity $$\\left( {\\Lambda _m^o} \\right)$$ of this weak monobasic acid in aqueous solution is $$Z \\times {10^2}Sc{m^2}mo{l^{ - 1}}.$$ The value of $$Z$$ is",
+    "solution": "**Given**:\n\n(i) Concentration of weak monobasic $\\operatorname{acid}(\\mathrm{C})=0.0015 \\mathrm{M}$\n\n(ii) Distance between the electrodes (d) $=120 \\mathrm{~cm}$\n\n(iv) Conductance of solution of monobasic acid\n$(G)=5 \\times 10^{-7} \\mathrm{~S}$\n\n(v) $\\mathrm{pH}$ of the solution $=4$\n\n**To Find**: The value of $\\mathrm{Z}$ in the limiting molar conductivity $\\left(\\Lambda .{ }^{\\circ} \\mathrm{m}\\right) \\mathrm{Z} \\times 10^2 \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1}$ Formula used:\n\n(i) $$\n\\mathrm{K}=\\frac{\\mathrm{G} \\times l}{\\mathrm{~A}}\n$$\n\n(ii)\n$$\n\\left[\\mathrm{H}_3 \\mathrm{O}^{+}\\right]^{\\mathrm{A}}=10^{-\\mathrm{pH}}\n$$\n\n(iii)\n$$\n\\alpha=\\frac{\\Lambda_m^{\\mathrm{C}}}{\\Lambda_m^0}\n$$\n\nCalculations: The conductivity of the aqueous solution of weak monobasic acid is represented as:\n\n$$\n\\begin{aligned}\n& \\mathrm{K}=\\frac{\\mathrm{G} \\times l}{\\mathrm{~A}}=\\frac{5 \\times 10^{-7} \\mathrm{~S} \\times 120 \\mathrm{~cm}}{1 \\mathrm{~cm}^2} \\\\\\\\\n& \\mathrm{~K}=6 \\times 10^{-5} \\mathrm{~S} \\mathrm{~cm}^{-1}\n\\end{aligned}\n$$\n\nThe molar conductivity at concentration $(\\mathrm{C}=0.0015 \\mathrm{M})$ of weak monobasic acid is:\n\n$$\n\\begin{gathered}\n\\Lambda_m^c=\\frac{\\mathrm{K} \\times 1000}{\\mathrm{C}}=\\frac{6 \\times 10^{-7} \\mathrm{~S} \\mathrm{~cm}^{-1} \\times 1000}{0.0015 \\mathrm{M}} \\\\\\\\\n\\Lambda_m^c=40 \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1} ~~~~....(i)\n\\end{gathered}\n$$\n\nWeak monobasic acid dissociated to give monobasic anion and hydronium ion as follows:\n\n$$\n\\mathrm{HA}(a q) \\rightarrow \\mathrm{H}_3^{+} \\mathrm{O}(a q)+\\mathrm{A}^{-}(a q)\n$$\n\n$\\alpha=$ degree of hydrolysis of weak monobasic acid\n\n$$\n\\begin{aligned}\n\\mathrm{C} \\alpha & =\\left[\\mathrm{H}_3 \\mathrm{O}^{+}\\right]=10^{-\\mathrm{pH}} \\\\\\\\\n& =10^{-\\mathrm{H}} \\mathrm{M} \\\\\\\\\n\\alpha & =\\frac{10^{-4}}{0.0015 \\mathrm{M}} ~~~~....(ii)\n\\end{aligned}\n$$\n\nWe know, degree of hydrolysis is the ratio of molar conductance at concentration $\\mathrm{C}$ to molar conductance at infinite dilution.\n\n$$\n\\mathrm{\\alpha}=\\frac{\\Lambda_m^{\\mathrm{C}}}{\\Lambda_m^0}\n$$\n\nSubstituting the value of and from equation (i) and (ii) respectively.\n\n$$\n\\begin{aligned}\n& \\frac{10^{-4}}{0.0015} =\\frac{40}{\\Lambda_m^0} \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1} \\\\\\\\\n&\\Lambda_m^0 =\\frac{40 \\times 0.0015}{10^{-4}} \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1} \\\\\\\\\n& =6 \\times 10^2 \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1}\n\\end{aligned}\n$$\n\nThe value of limiting molar conductivity is $6 \\times 10^2 \\mathrm{~S} \\mathrm{~cm}^{-1} \\mathrm{~mol}^{-1}$, where the value of $Z=6$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_037",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molar conductivity of a solution of a weak acid HX (0.01 M) is 10 times smaller than the molar conductivity of a solution of a weak acid HY (0.10 M). If $$\\lambda _{{x^ - }}^0 \\approx \\lambda _{{y^ - }}^0$$ the difference in their pK$_{a}$ values,\npK$_{a}$(HX) - pK$_{a}$(HY), is (consider degree of ionization of both acids to be << 1)",
+    "solution": "Given :\n$$\\Lambda _{m(HX)}^c = {{\\Lambda _{m(HY)}^c} \\over {10}}\\Lambda _{m(HX)}^o = \\Lambda _{m(HY)}^o$$ ($$\\because\\lambda _{X - }^o \\approx \\lambda _{Y - }^o$$)\n$${K_{a(HX)}} = {\\left( {{{C{\\alpha ^2}} \\over {1 - \\alpha }}} \\right)_{HX}}{K_{a(HX)}} = 0.01{({\\alpha _{HX}})^2}$$ ($$\\because\\alpha < < < 1$$) ....... (i)\nSimilarly, $${K_{a(HY)}} = 0.01{({\\alpha _{HY}})^2}$$ ....... (ii)\nOn dividing equation (i) by (ii), we get\n$${{{K_{a(HX)}}} \\over {{K_{a(HY)}}}} = {{0.01} \\over {0.10}}{\\left( {{{{\\alpha _{HX}}} \\over {{\\alpha _{HY}}}}} \\right)^2}$$ ....... (iii)\n$$\\alpha = {{\\Lambda _m^c} \\over {\\Lambda _m^o}}{{{\\alpha _{HX}}} \\over {{\\alpha _{HY}}}} = {{{{\\left( {\\Lambda _m^c/\\Lambda _m^o} \\right)}_{HX}}} \\over {{{\\left( {\\Lambda _m^c/\\Lambda _m^o} \\right)}_{HY}}}} = \\left( {{1 \\over {10}}\\Lambda _{m(HY)}^c} \\right) \\times {1 \\over {\\Lambda _{m(HY)}^c}} = {1 \\over {10}}$$\nSubstituting above value in equation (iii),\n$${{{K_{a(HX)}}} \\over {{K_{a(HY)}}}} = {{0.01} \\over {0.10}}{\\left( {{1 \\over {10}}} \\right)^2} = 1 \\times {10^{ - 3}}\\log {K_{a(HX)}} - \\log {K_{a(HY)}} = \\log (1 \\times {10^{ - 3}}) - \\log {K_{a(HX)}} - ( - \\log {K_{a(HY)}}) = - \\log (1 \\times {10^{ - 3}})p{K_{a(HX)}} - p{K_{a(HY)}} = 3$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_038",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "All the energy released from the reaction\n$$X \\to Y, \\Delta _tG^o $$ = -193 kJ mol$^{-1}$ is used for oxidizing M$^{+}$ as M$^{+}$ $$\\to$$ M$^{3+}$ + 2e$^{-}$, E$^{o}$ = -0.25 V\n\nUnder standard conditions, the number of moles of M$^{+}$ oxidized when one mole of X is converted to Y is\n[F = 96500 C mol$^{–1}$]",
+    "solution": "Given :\nX $$\\to$$ Y; $$\\Delta$$$_{r}$G$$^\\circ$$ = $$-$$ 193 kJ mol$^{$$-$$1}$\nM$^{+}$ $$\\to$$ M$^{3+}$ + 2e$^{$$-$$}$; E$$^\\circ$$ = $$-$$0.25 V\nF = 96500 C mol$^{$$-$$1}$\nLet 193 kJ is used for oxidising x moles of M$^{+}$.\nFor 1 mole of M$^{+}$,\n$$\\Delta$$G$$^\\circ$$ = $$-$$nFE$$^\\circ$$\n= $$-$$2 $$\\times$$ 96500 $$\\times$$ ($$-$$0.25)\n= 48250 J mol$^{$$-$$1}$ = 48.25 kJ mol$^{$$-$$1}$\nThus, no. of moles of M$^{+}$ oxidized when one mole of X is converted to Y = $${{193} \\over {48.25}} = 4$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_039",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "We have taken a saturated solution of AgBr. K$_{sp}$ of AgBr is 12 $$\\times$$ 10$^{-14}$. If 10$^{-7}$ mole of AgNO$_{3}$ are added to 1 litre of this solution find conductivity (specific conductance) of this solution in terms of 10$^{-7}$ S m$^{-1}$ units. Given, molar conductance of Ag$^{+}$, Br$^{-}$ and $$NO_3^-$$ are 6 $$\\times$$ 10$^{-3}$ Sm$^{2}$ mol$^{-1}$, 8 $$\\times$$ 10$^{-3}$ Sm$^{2}$ mol$^{-1}$ and 7 $$\\times$$ 10$^{-3}$ Sm$^{2}$ mol$^{-1}$",
+    "solution": "$$AgBr(s)\\rightleftharpoonsA{g^ + }(aq) + B{r^ - }(aq)$$ ..... [1]\n$$AgN{O_3}(aq) \\to A{g^ + }(aq) + NO_3^ - (aq)$$ ...... [2]\nSuppose the solubility of AgBr in 10$^{$$-$$7}$ M AgNO$_{3}$ is s mol L$^{$$-$$1}$. Substituting in equation (1) and (2), we get,\n$$\\therefore$$ Total $$[A{g^ + }] = (s + {10^{ - 7}})M$$, $${K_{sp}}(AgBr) = [A{g^ + }][B{r^ - }]$$\nor, $$12 \\times {10^{ - 14}} = (s + {10^{ - 7}})s$$ or, $${s^2} + {10^{ - 7}}s = 12 \\times {10^{ - 14}}$$\nor, $${s^2} + {10^{ - 7}}s - 12 \\times {10^{ - 14}} = 0$$ or, $$s = 3 \\times {10^{ - 7}}M\\therefore[B{r^ - }] = 3 \\times {10^{ - 7}}M = 3 \\times {10^{ - 7}} \\times {10^3}{m^3} = 3 \\times {10^{ - 4}}{m^3}[A{g^ + }] = 3 \\times {10^{ - 7}} + {10^{ - 7}} = 4 \\times {10^{ - 7}}M = 4 \\times {10^{ - 7}} \\times {10^3}{m^3} = 4 \\times {10^{ - 4}}{m^3}[NO_3^ - ] = {10^{ - 7}}M = {10^{ - 7}} \\times {10^3}{m^3} = 1 \\times {10^{ - 4}}{m^3}$$\nWe know, $$\\lambda = {\\kappa \\over C}$$ or, $$\\kappa = \\lambda \\times C$$.\n$$\\therefore{\\kappa _{B{r^ - }}} = 3 \\times {10^{ - 4}} \\times 8 \\times {10^{ - 3}}S\\,.\\,{m^{ - 1}} = 24 \\times {10^{ - 7}}S\\,{m^{ - 1}}\\therefore{\\kappa _{A{g^ + }}} = 4 \\times {10^{ - 4}} \\times 6 \\times {10^{ - 3}}S\\,.\\,{m^{ - 1}} = 24 \\times {10^{ - 7}}S\\,{m^{ - 1}}\\therefore\\kappa _{NO_3^ - }^{} = 1 \\times {10^{ - 4}} \\times 7 \\times {10^{ - 3}}S\\,.\\,{m^{ - 1}} = 7 \\times {10^{ - 7}}S\\,{m^{ - 1}}\\therefore{\\kappa _{total}} = {\\kappa _{B{r^ - }}} + {\\kappa _{A{g^ + }}} + \\kappa _{NO_3^ - }^{} = 24 \\times {10^{ - 7}} \\times 24 \\times {10^{ - 7}} + 7 \\times {10^{ - 7}} = 55 \\times {10^{ - 7}}S\\,{m^{ - 1}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_040",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Some standard electrode potentials at 298 K are given below :\n\nPb$^{2+}$ /Pb = $$- $$0.13 V\n\nNi$^{2+}$ /Ni = $$-$$ 0.24 V\n\nCd$^{2+}$ /Cd = $$-$$ 0.40 V\n\nFe$^{2+}$ /Fe = $$-$$ 0.44 V\n\nTo a solution containing 0.001 M of X$^{2+}$ and 0.1 M of Y$^{2+}$, the metal rods X and Y are inserted (at 298 K) and connected by a conducting wire. This resulted in dissolution of X. The correct combination(s) of X and Y, respectively, is(are)\n\n(Given : Gas constant, R = 8.314 J K$^{$$-$$}$ mol$^{$$-$$1}$, Faraday constant, F = 96500 C mol$^{$$-$$1}$)",
+    "solution": "Given,\n\nAt anode : $$X(s) \\to \\mathop {{X^{2 + }}(aq)}\\limits_{(0.001\\,M)} + 2{e^ - }$$\n\nAt cathode : $$\\mathop {{Y^{2 + }}(aq)}\\limits_{(0.1\\,M)} + 2{e^ - } \\to Y(s)$$\n\nOverall reaction $$X(s) + {Y^{2 + }}(aq) \\to {X^{2 + }}(aq) + Y(s)$$\n\nNernst equation,\n\n$${E_{cell}} = E_{cell}^o - {{0.06} \\over 2}\\log {{[{X^{2 + }}]} \\over {[{Y^{2 + }}]}}{E_{cell}} = E_{cell}^o - 0.03\\log {{0.001} \\over {0.1}}{E_{cell}} = E_{cell}^o + 0.06$$\n\nE$_{cell}$ should be positive for a reaction to be spontaneous.\n\n(a) $$E_{C{d^{2 + }}/Cd}^o = - 0.40V,E_{N{i^{2 + }}/Ni}^o = - 0.24VE_{cell}^o = E_{cathode}^o - E_{anode}^o = - 0.24 - ( - 0.40)E_{cell}^o = 0.16E_{cell}^{} = E_{cell}^o + 0.06 = 0.16 + 0.06 = 0.22V$$\n\nReaction is spontaneous.\n\n(b) $$E_{C{d^{2 + }}Cd}^o = - 0.40VE_{F{e^{2 + }}/Fe}^o = - 0.44VE_{cell}^o = - 0.44 + 0.40 = - 0.04VE_{cell}^{} = - 0.04 + 0.06 = 0.02V$$\n\nReaction is spontaneous.\n\n(c) $$E_{N{i^{2 + }}/Ni}^o = - 0.24VE_{P{b^{2 + }}/Pb}^o = - 0.13VE_{cell}^o = - 0.13 + 0.24 = 0.11VE_{cell}^{} = 0.11 + 0.06 = 0.17V$$\n\nReaction is spontaneous.\n\n(d) $$E_{N{i^{2 + }}/Ni}^o = - 0.24VE_{F{e^{2 + }}/Fe}^o = - 0.44VE_{cell}^o = - 0.44 + 0.24 = - 0.20VE_{cell}^o = - 0.20 + 0.06 = - 0.14V$$\n\nReaction is non-spontaneous.\n\nTherefore, the correct combinations of X and Y are (a), (b) and (c).",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Cd and Ni",
+      "Cd and Fe",
+      "Ni and Pb",
+      "Ni and Fe"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_041",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a galvanic cell, the salt bridge",
+    "solution": "In a galvanic cell, also known as a voltaic cell, a salt bridge plays a crucial role in maintaining electrical neutrality within the internal circuit, which is critical for the ongoing electrochemical reaction and thus the production of electrical energy. Here, we will analyze each of the given options in the context of the function of a salt bridge in a galvanic cell:\n\n**Option A: does not participate chemically in the cell reaction.**\nThis statement is correct. The salt bridge in a galvanic cell does not directly participate in the chemical reactions occurring at the electrodes. Its primary function is to complete the electrical circuit between the cathode and anode by allowing the transfer of ions. The salt bridge contains a salt solution (usually KNO$_{3}$, KCl, or NH$_{4}$NO$_{3}$), where the ions migrate to oppose and balance the charge buildup due to the migration of electrons through the external circuit.\n\n**Option B: stops the diffusion of ions from one electrode to another.**\nThis option can be misleading. The salt bridge does not stop the diffusion of ions from diffusing from one electrode to another but rather provides a pathway for ions to flow back and forth, which is essential to maintain the charge balance. Hence, this statement is not the best descriptor of the salt bridge's function.\n\n**Option C: is necessary for the occurrence of the cell reaction.**\nThis option is correct. A salt bridge is necessary for the occurrence of the cell reaction because it maintains electrical neutrality in the electrochemical cell. Without the salt bridge, the flow of electrons through the external circuit would soon cease as the solutions in the anode and cathode compartments become respectively positively and negatively charged, which would stop the electrochemical reaction.\n\n**Option D: ensures mixing of the two electrolytic solutions.**\nThis statement is incorrect. The purpose of the salt bridge is not to mix the two electrolytic solutions; in fact, it prevents them from mixing, which could otherwise result in a direct neutralization reaction that could interfere with the proper functioning of the cell. The ions in the salt bridge only migrate enough to balance the charges in the separate solutions.\n\nIn summary, the correct answers are Option A (\"does not participate chemically in the cell reaction\") and Option C (\"is necessary for the occurrence of the cell reaction\").",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "does not participate chemically in the cell reaction.",
+      "stops the diffusion of ions from one electrode to another.",
+      "is necessary for the occurrence of the cell reaction.",
+      "ensures mixing of the two electrolytic solutions."
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_042",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the reduction of NO$$_3^ - $$ ion in an aqueous solution, E$$^0$$ is + 0.96 V. Values of E$$^0$$ for some metal ions are given below:\n$$\\matrix{\n{{V^{2 + }}(aq.) + 2{e^ - } \\to V} & {{E^0} = - 1.19\\,V} \\cr\n{F{e^{3 + }}(aq.) + 3{e^ - } \\to Fe} & {{E^0} = - 0.04\\,V} \\cr\n{A{u^{3 + }}(aq) + 3{e^ - } \\to Au} & {{E^0} = + 1.40\\,V} \\cr\n{H{g^{2 + }}(aq) + 2{e^ - } \\to Hg} & {{E^0} = + 0.86\\,V} \\cr\n\n} $$\nThe pair(s) of metals that is (are) oxidized by NO$$_3^ - $$ in aqueous solution is(are)",
+    "solution": "The general criterion for a spontaneous redox reaction is that the reduction potential of the reducing agent (which gets oxidized) must be lower than the reduction potential of the oxidizing agent (which gets reduced). Here, the reduction of NO$_{3}$$^{-}$ has an E$^{0}$ of +0.96 V. For a metal ion to be oxidized by NO$_{3}$$^{-}$, the E$^{0}$ of the metal ion’s reduction must be less than +0.96 V.\n\nLet's check each given ion to see if it can be oxidized:\n\nV$^{2+}$ (E$^{0}$ = -1.19 V): This potential is significantly lower than +0.96 V, thus vanadium can be oxidized by nitrate, as it is much easier to reduce NO$_{3}$$^{-}$ than to reduce V$^{2+}$ to V.\n\nFe$^{3+}$ (E$^{0}$ = -0.04 V): This potential is also lower than +0.96 V, so iron can be oxidized by nitrate.\n\nAu$^{3+}$ (E$^{0}$ = +1.40 V): Since the potential for Au$^{3+}$ is higher than the potential for nitrate reduction, gold cannot be oxidized by nitrate. It means nitrate cannot provide sufficient potential to reduce Au$^{3+}$.\n\nHg$^{2+}$ (E$^{0}$ = +0.86 V): This potential is close but still lower than +0.96 V, therefore mercury can theoretically be oxidized by nitrate, though it is only slightly easier to reduce NO$_{3}$$^{-}$ than to reduce Hg$^{2+}$.\n\nGiven this analysis:\n\nOption A (V and Hg): Correct, as both V and Hg have lower reduction potentials than the nitrate ion.\n\nOption B (Hg and Fe): Correct, as analyzed above, both can indeed be oxidized by nitrate.\n\nOption C (Fe and Au): Incorrect because Au$^{3+}$ has a higher potential and thus cannot be oxidized by nitrate.\n\nOption D (Fe and V): Correct, given that both V and Fe have lower potentials than nitrate reduction.\n\nThe correct answer includes Option A, Option B, and Option D.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "V and Hg",
+      "Hg and Fe",
+      "Fe and Au",
+      "Fe and V"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_043",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(A) Calculate $$\\Delta_r G^\\circ$$ of the following reaction\n$$A{g^ + }(aq.) + C{l^ - }(aq.) \\to AgCl(s)$$\nGiven :\n$$\\mathrm{\\Delta_r G^\\circ(AgCl)\\quad-109~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Cl^-)\\quad-129~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Ag^+)\\quad-77~kJ/mole}$$\n(i) Represent the above reaction in form of a cell.\n(ii) Calculate E$$^\\circ$$ of the cell.\n(iii) Find $${\\log _{10}}{K_{sp}}$$ of AgCl.\n(B) If $$6.539\\times10^{-2}$$ g of metallic Zn (amu = 65.39) was added to 100 mL of saturated solution of AgCl, then calculate $${\\log _{10}} = {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}$$. Also find how many moles of Ag will be formed.\nGiven that :\n$$\\mathrm{Ag^++e^-\\to Ag\\quad E^\\circ=0.80~V}\\mathrm{Zn^{2+}+2e^-\\to Zn\\quad E^\\circ=-0.76~V}$$",
+    "solution": "$$\\bullet$$ The standard free energy for a given chemical reaction is equal to the difference between\nstandard free energy of product and standard\nfree energy of reactant.\n$$\\bullet$$ The solubility product of AgCl can be calculated using its equilibrium constant, K.\n$$K_{sp} =\\frac{1}{K}$$\n(A) The chemical reaction is,\n$$A{g^ + }(aq.) + C{l^ - }(aq.) \\to AgCl(s)\\mathrm{\\Delta_r G^\\circ(AgCl)\\quad-109~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Cl^-)\\quad-129~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Ag^+)\\quad-77~kJ/mole}$$\n(i) To represent the above chemical reaction, we\nneed to write the half-cell reactions first.\n$$Ag + {1 \\over 2}C{l_2} \\to AgCl$$ .... (i)\n$$Ag \\to A{g^ + } + {e^ - }$$ ..... (ii)\n$${1 \\over 2}C{l_2} + {e^ - } \\to C{l^ - }$$ ..... (iii)\n$$A{g^ + } + C{l^ - } \\to AgCl$$ ..... (i-ii-iii)\nThe cell can be represented as follows based on\nthe above cell reaction.\n$$Ag|A{g^ + }||AgCl||C{l^ - }||C{l_2}|Pt$$\n(ii) To calculate E$$^\\circ$$ for the cell, the formula that can be used is,\n$$\\Delta G^\\circ=-nFE^\\circ$$ ..... (i)\nHere, $$\\Delta G^\\circ$$ denotes the standard free energy and\nn denotes the number of electrons transferred.\nThe F is Faraday’s constant and E$$^\\circ$$ represents\nthe standard cell potential.\nGiven,\n$$\\mathrm{\\Delta_r G^\\circ(AgCl)\\quad-109~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Cl^-)\\quad-129~kJ/mole}\\mathrm{\\Delta_r G^\\circ(Ag^+)\\quad-77~kJ/mole}$$\nFor a given chemical reaction, the standard\nGibbs free energy is the difference between the\nsum of Gibbs free energy of products and the\nsum of Gibbs free energy of reactants.\n$$\\Delta G^\\circ$$ = [$$\\Delta G^\\circ$$ of AgCl - ($$\\Delta G^\\circ$$ of Ag$$^+$$ + $$\\Delta G^\\circ$$ of Cl$$^-$$)] ..... (ii)\nPutting the respective values in equation (ii),\n$$\\therefore\\Delta G^\\circ=-109-(-129+77)=-57$$ kJ/mole\nFor given chemical reaction, $$n=1$$, F = 96500C and $$\\Delta G^\\circ=-57$$ kJ/mole\nSubstituting the respective values in equation (i), we get\n$$-57=-1\\times96500\\times E^\\circ\\Rightarrow E^\\circ=\\frac{57000}{96500}=0.59$$ V\nTherefore, the value of standard cell potential\nfor the given reaction is 0.59 V\n(iii) The K$$_{sp}$$ represents the solubility product\nconstant for a substance, in this case AgCl.\nTo determine the K$$_{sp}$$, the formula that can be\nused is,\n$$K_{sp}=\\frac{1}{K}$$ ..... (iii)\nHere, K is the equilibrium constant for the\ngiven chemical reaction.\nThe equilibrium constant can be determined by\nusing the value of $$\\Delta G^\\circ$$.\n$$\\Delta G^\\circ = - 2.303\\,RT\\,\\log K$$ .... (iv)\n$$\\Delta G^\\circ = - {{57\\,kJ} \\over {mole}} = - 57000$$ J/mole\nR = 8.314 JK$$^{-1}$$ mol$$^{-1}$$\nT = 298 K\nSubstitute the respective values in equation\n(iv), we get\n$$-57000=-2.303\\times8.314\\times298\\times \\log K\\therefore \\log K=\\frac{57000}{2.303\\times8.314\\times298}=9.98 \\approx 10\\therefore$$ K = 10$$^{10}$$\nSubstitute the value of K in equation (iii) to\ncalculate the value of K$$_{sp}$$ of AgCl.\n$${K_{sp}} = {1 \\over {{{10}^{10}}}} = {10^{ - 10}}\\therefore{\\log _{10}}{K_{sp}} = - 10$$\nTherefore, the solubility product, K$$_{sp}$$ of AgCl is 10$$^{-10}$$.\n(B) Given,\n$$\\mathrm{Ag^++e^-\\to Ag\\quad E^\\circ=0.80~V}\\mathrm{Zn^{2+}+2e^-\\to Zn\\quad E^\\circ=-0.76~V}$$\nMass of Zn = 6.539 $$\\times$$ 10$$^{-2}$$ g\nAtomic mass unit of Zn = 65.39\nVolume of AgCl = 100 ml\nTo find the moles of Zn added, divide the mass\nof metallic Zn by atomic mass unit of Zn.\nMoles of Zinc added $$=\\frac{6.539\\times10^{-2}}{65.39}=10^{-3}$$ moles\nFrom the given half reaction, overall reaction\ncan be represented and value of E$$^\\circ$$ can be\ncalculated.\n\n[Diagram]\n\nThe moles of metallic Zn added is 10–3 moles\nand from the given reaction, the number of\nmoles of Ag added will be twice the number of\nmoles of Zn added.\nTherefore, the number of moles of Ag$$^+$$ added\nis 10$$^{–6}$$ moles.\nThe value of $${{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}$$ can be calculated using Nernst equation.\n$${E_{cell}} = E_{cell}^o - {{0.0591} \\over n}{\\log _{10}}{{[Z{n^{ + 2}}]} \\over {{{[A{g^ + }]}^2}}}$$ ..... (v)\nAt equilibrium, $${E_{cell}} = 0$$\nFor the given reaction, $$n = 2$$ and $$E^\\circ = 1.56$$ V\nSubstituting the respective values in equation (v),\n$$0 = 1.56 - {{0.0591} \\over 2}{\\log _{10}}{{[Z{n^{ + 2}}]} \\over {{{[A{g^ + }]}^2}}}{\\log _{10}}{{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}} = {{1.56 \\times 2} \\over {0.0591}}\\therefore{\\log _{10}}{{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}} = 52.8$$\nHence, the value of $${{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}$$ is 52.8.\nThe equilibrium constant K can be calculated as follows :\nAs $$K = {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}}\\thereforeK = {10^{52.8}}$$\nSince the value of equilibrium constant is very\nhigh, the reaction almost goes to completion.\nTherefore, almost 100% Ag precipitate out.\nThus, moles of Ag formed during the reaction\nwill be 10$$^{–5}$$ moles.\n[$$\\because{K_{sp}}[AgCl] = {10^{ - 10}}$$]\nFinal Answer :\n(A) (i) $$Ag|A{g^ + }||AgCl||C{l^ - }||C{l_2}|Pt$$\n(ii) $${E^0} = 0.59$$ V\n(iii) $${\\log _{10}}{K_{sp}} = -10$$\n(B) $${\\log _{10}} = {{[Z{n^{2 + }}]} \\over {{{[A{g^ + }]}^2}}} = 52.8$$\nMoles of Ag formed $$ = {10^{ - 6}}$$ moles.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9n9wt1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_electrochemistry_044",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equilibrium constant for the reaction,\n\nIn$^{2+}$ + Cu$^{2+}$ $$\\to$$ In$^{3+}$ + Cu$^{+}$ at 298 K\ngiven\n\n$$E_{C{u^{2 + }}/C{u^ + }}^o$$ = 0.15 V; $$E_{l{n^{2 + }}/l{n^ + }}^o$$ = -0.40 V; $$E_{l{n^{3 + }}/l{n^ + }}^o$$ = -0.42 V;",
+    "solution": "We know, $$\\Delta {G^0} = - nF{E^0}$$\n(1) $$C{u^{2 + }} + e \\to C{u^ + }$$ ; $$\\Delta G_1^0 = - 0.15F$$\n(2) $$I{n^{2 + }} + e \\to I{n^ + }$$ ; $$\\Delta G_2^0 = + 0.4F$$\n(3) $$I{n^{3 + }} + 2e \\to I{n^ + }$$ ; $$\\Delta G_3^0 = + 0.84F$$\nAdding equation (1) and (2) and subtracting equation (3) we get, $$C{u^{2 + }} + I{n^{2 + }} \\to C{u^ + } + I{n^{3 + }}\\Delta G_{}^0 = \\Delta G_1^0 + \\Delta G_2^0 - \\Delta G_3^0 = - 0.59F\\Delta G_{}^0 = - 2.303RT\\log {K_{eq}}\\therefore - 0.59F = - 2.303RT\\log {K_{eq}}$$\nor, $$\\log {K_{eq}} = {{0.59 \\times 96500} \\over {2.303 \\times 8.314 \\times 298}} \\approx 10\\therefore{K_{eq}} = {10^{10}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_045",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two students use the same stock solution of ZnSO$_{4}$ and solution of CuSO$_{4}$. The emf of one cell is 0.03 V higher than other. The conc. of CuSO$_{4}$ in the cell with higher emf value is 0.5 M. Find out the conc. of CuSO$_{4}$ in the other cell (2.203 RT/F = 0.06)",
+    "solution": "The two given cells are represented as :\n$$Zn(s)|Z{n^{2 + }}({C_1})||C{u^{2 + }}(aq)(C = ?)|Cu(s)$$, $${E_{cell}} = {E_1}Zn(s)|Z{n^{2 + }}({C_2})||C{u^{2 + }}(aq)(C = 0.5\\,M)|Cu(s)$$, $${E_{cell}} = {E_2}$$\nGiven, E$_{2}$ > E$_{1}$ , E$_{2}$ $$-$$ E$_{1}$ = 0.03 and C$_{1}$ = C$_{2}$ [concentration of Zn$^{2+}$ is the same in both the solutions]\n$$\\therefore$$ Cell reaction : $$Zn(s) + C{u^{2 + }}(aq)\\rightleftharpoonsZ{n^{2 + }}(aq) + Cu(s)\\therefore{E_{cell}} = E_{cell}^0 - {{2.303RT} \\over {2F}}\\log {{[Z{n^{2 + }}]} \\over {[C{u^{2 + }}]}}$$\nFor cell 1, $${E_1} = E_{cell}^0 - {{0.06} \\over 2}\\log {{{C_1}} \\over C}$$ [Given : $${{2.303RT} \\over F} = 0.06$$]\nFor cell 2, $${E_2} = E_{cell}^0 - {{2.303RT} \\over {nF}}\\log {{{C_2}} \\over {0.05}}$$\nor, $${E_2} = E_{cell}^0 - {{0.06} \\over 2}\\log {{{C_2}} \\over {0.05}}\\therefore{E_2} - {E_1} = \\left( {E_{cell}^0 - {{0.06} \\over 2}\\log {{{C_2}} \\over {0.05}}} \\right) - \\left( {E_{cell}^0 - {{0.06} \\over 2}\\log {{{C_1}} \\over C}} \\right)$$\nor, $$0.03 = {{0.06} \\over 2}\\left( {\\log {{{C_2}} \\over C} \\times {{0.5} \\over {{C_1}}}} \\right) = {{0.06} \\over 2}\\log {{0.5} \\over C}$$ [$$\\because$$ C$_{1}$ = C$_{2}$]\nor, $$\\log {{0.5} \\over C} = {{0.03 \\times 2} \\over {0.06}}$$ or, $${{0.5} \\over C} = 10\\therefore$$ C = 0.05 M",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_046",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The standard potential of the following cell is 0.23V at 15$^{o}$C and 0.21 V at 35$^{o}$C.\n\nPt | H$_{2}$ (g) | HCl (aq) | AgCl (s) | Ag (s)\n\n(i) Write the cell reaction.\n\n(ii) Calculate $$\\Delta H^o$$ and $$\\Delta S^o$$m for the cell reaction by assuming that these quantities remain unchanged in the range 15$^{o}$C to 35$^{o}$C.\n\n(iii) Calculate the solubility of AgCl in water at 25$^{o}$C\n\n**Given : ** The standard reduction potential of the Ag$^{+}$ (aq) / Ag (s) couple is 0.80 V at 25$^{o}$C",
+    "solution": "Given cell : $$Pt|{H_2}(g)|HCl(aq)|AgCl(s)|Ag(s)$$\n(1) The half-cell reactions are as follows:\nAt anode : $${1 \\over 2}{H_2}(g) \\to {H^ + }(aq) + e$$\nAt cathode : $$AgCl(s) + e \\to Ag(s) + C{l^ - }(aq)$$\nCell reaction : $${1 \\over 2}{H_2}(g) + AgCl(s) \\to {H^ + }(aq) + Ag(s) + C{l^ - }(aq)$$\n(2) $$\\Delta {S^0} = nF\\left( {{{d{E^0}} \\over {dT}}} \\right)$$, where n = Number of electrons involved in the cell reaction, F = Faraday = 96500 C, dE$^{0}$ = Difference of standard electrode potential at two different temperatures = (0.21 $$-$$ 0.23) = $$-$$ 0.02 V and dT = difference of two temperatures = (308 $$-$$ 288) K = 20 K\n$$\\therefore\\Delta {S^0} = 1 \\times 96500 \\times \\left( {{{ - 0.02} \\over {20}}} \\right) = - 96.5$$ J K$^{$$-$$1}$ mol$^{$$-$$1}$\nWe know, $$\\Delta {G^0} = - nF{E^0}\\therefore\\Delta G_{15^\\circ \\,C}^0 = - 1 \\times 96500 \\times 0.23$$ [$$\\because\\Delta E_{15^\\circ \\,C}^0 = 0.23\\,V$$]\n= $$-$$ 22195 J . mol$^{$$-$$1}$\n$$\\therefore\\Delta H_{}^0 = \\Delta G_{}^0 - T\\Delta S_{}^0 = - 22195 - 288 \\times ( - 96.5) = - 49987$$ J mol$^{$$-$$1}$\n(3) Given $$\\Delta E_{(15^\\circ \\,C)}^0 = 0.23\\,V$$ and $$\\Delta E_{(35^\\circ \\,C)}^0 = 0.21\\,V\\therefore{{\\Delta {E^0}} \\over {\\Delta T}} = {{(0.21 - 0.23)} \\over {20}} = - 0.01\\therefore\\Delta$$E$^{0}$ for 10$$^\\circ$$C = $$-$$0.01 $$\\times$$ 10 = $$-$$0.1\n$$\\therefore\\Delta E_{(25^\\circ \\,C)}^0 = \\Delta E_{(15^\\circ \\,C)}^0 + ( - 0.1) = 0.23 - 0.1 = 0.22\\,VE_{cell}^0 = E_{cathode}^0 - E_{anode}^00.22\\,V = E_{C{l^ - }|AgCl|Ag}^0 - E_{2{H^ + }|{H_2}}^0 = E_{C{l^ - }|AgCl|Ag}^0 - 0\\thereforeE_{C{l^ - }|AgCl|Ag}^0$$ = 0.22 V and $$E_{A{g^ + }|Ag}^0$$ = 0.80 V (given)\n$$E_{C{l^ - }|AgCl|Ag}^0 = E_{A{g^ + }|Ag}^0 - {{0.059} \\over 1} \\times \\log {K_{sp}}(AgCl)$$\nor, $$0.22\\,V = 0.80\\,V - {{0.059} \\over 1}\\log {K_{sp}}(AgCl)\\therefore{K_{sp}}(AgCl) = 1.47 \\times {10^{ - 10}}$$\nand $${K_{sp}}(AgCl) = [A{g^ + }] \\times [C{l^ - }]\\therefore{[A{g^ + }]^2} = 1.47 \\times {10^{ - 10}}$$\nor, $$[A{g^ + }] = \\sqrt {1.47 \\times {{10}^{ - 10}}} = 1.21 \\times {10^{ - 5}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_047",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Copper sulphate solution (250 mL) was electrolysed using platinum anode and a copper cathode. A constant current of 2mA was passed for 16 minutes. It was found that after electrolysis the absorbance of the solution was reduced to 50% of its original value. Calculate the concentration of copper sulphate in the solution to begin with.",
+    "solution": "Quantity of charge passed = 2 $$\\times$$ 10$^{$$-$$3}$ $$\\times$$ 16 $$\\times$$ 60 = 1.92 C\n1.92 C charge $$ \\equiv {1 \\over {96500}} \\times 1.92 \\equiv 1.99 \\times {10^{ - 5}}$$ mol of electrons\nIn the reaction, $$C{u^{2 + }}(aq) + 2e \\to Cu(s)$$\n2 mol of electrons = 1 mol of Cu$^{2+}$ ions discharged\n$$\\therefore$$ 1.99 $$\\times$$ 10$^{$$-$$5}$ mol of electrons = 9.95 $$\\times$$ 10$^{$$-$$6}$ of Cu$^{2+}$ ions discharged.\nAbsorbance of a solution is directly proportional to the concentration of the solution. 50% decrease of absorbance of the solution means 50% of the concentration of the solution is reduced. Hence, initial number of mol of Cu$^{2+}$ ions = 2 $$\\times$$ 9.95 $$\\times$$ 10$^{$$-$$6}$ = 1.99 $$\\times$$ 10$^{$$-$$5}$ mol.\n$$\\therefore$$ Initial concentration of Cu$^{2+}$\ni.e., $$CuS{O_4} = {{1.99 \\times {{10}^{ - 5}}} \\over {250}} \\times 1000\\,M = 7.96 \\times {10^{ - 5}}\\,M$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_048",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The following electrochemical cell has been set up.\n\nPt(1) | Fe$^{3+}$, Fe$^{2+}$ (a = 1) | Ce$^{4+}$, Ce$^{3+}$ (a=1) | Pt(2)\n\nE$^{o}$ (Fe$^{3+}$, Fe$^{2+}$) = 0.77 V; E$^{o}$ (Ce$^{4+}$, Ce$^{3+}$) = 1.61 V\n\nIf an ammeter is connected between the two platinum electrodes, predict the direction of flow of current. Will the current increase or decrease with time?",
+    "solution": "For electrochemical cell,\n$$Pt(1)|F{e^{3 + }}$$ , $$Fe(a = 1)||C{e^{4 + }}$$ , $$C{e^{3 + }}(a = 1)|Pt(2)E_{F{e^{3 + }}|F{e^{2 + }}}^0 = 0.77\\,V$$, $$E_{C{e^{4 + }}|C{e^{3 + }}}^0 = 1.61\\,V\\thereforeE_{cell}^0 = E_{cathode}^0 - E_{anode}^0 = 1.61 - 0.77 = 0.84\\,V$$\nSince, $$E_{cell}^0$$ is +ve, the cell reaction will occur spontaneously.\nHence, the flow of current will be from cathode to anode (right to left), and the current will decrease with time.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_049",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A cell, Ag | Ag$^{+}$ || Cu$^{2+}$ | Cu, initially contains 1 M Ag$^{+}$ and 1 M Cu$^{2+}$ ions. Calculate the change in the cell potential after the passage of 9.65 A current for 1 h.",
+    "solution": "Due to the passage of current, the cell reaction is :\n$$Ag(s) + {1 \\over 2}C{u^{2 + }}(aq) \\to A{g^ + }(aq) + {1 \\over 2}Cu(s)$$ ...... [1]\nFrom Faraday's first law, $$W = Z \\times I \\times t$$\nor, $$W = {{equivalent\\,weight\\,(E)} \\over {96500}} \\times I \\times t\\therefore{W \\over E}$$ (gram equivalent) of $$C{u^{2 + }} = {1 \\over {96500}} \\times I \\times t = {1 \\over {96500}} \\times 9.65 \\times 1 \\times 60 \\times 60 = 0.36\\therefore$$ Decrease in concentration of $$C{u^{2 + }} = {{0.36} \\over 2}(M) = 0.18\\,(M)\\therefore$$ Remaining concentration of copper = 1 $$-$$ 0.18 = 0.82 (M)\n$$\\therefore$$ Increase in the concentration of silver ion = 0.36 (M)\n$$\\therefore$$ Concentration of silver ion = (1 + 0.36) = 1.36 (M)\nFor the reaction (1), $${E_{cell}} = E_{cell}^0 - {{0.059} \\over 1}\\log {{[A{g^ + }]} \\over {{{[C{u^{2 + }}]}^{1/2}}}}$$\nBefore passing current, $${E_{cell}} = E_{cell}^0 - {{0.059} \\over 4}\\log {1 \\over {{1^2}}} = E_{cell}^0\\,V$$\nWhen passage of current is stopped,\n$$E{'_{cell}} = E_{cell}^0 - {{0.059} \\over n}\\log {{[A{g^ + }]} \\over {{{[C{u^{2 + }}]}^{1/2}}}}$$\nor, $$E{'_{cell}} = E_{cell}^0 - {{0.059} \\over 1}\\log {{1.36} \\over {{{(0.81)}^{1/2}}}} = (E_{cell}^0 - 0.010)\\,V\\therefore\\Delta$$E = change in cell potential $$ = E{'_{cell}} - {E_{cell}} = - 0.010\\,V$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_050",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the solubility product of a saturated solution of Ag$_{2}$CrO$_{4}$ in water at 298 K if the emf of the cell Ag|Ag$^{+}$ (satd. Ag$_{2}$CrO$_{4}$ soln.) || Ag$^{+}$ (0.1 M) | Ag is 0.164 V at 298 K.",
+    "solution": "Given cell : $$Ag|A{g^ + }(sat\\,A{g_2}Cr{O_4}\\,sol)||Ag(0.1\\,M)|Ag$$ and $${E_{cell}} = 0.164\\,V$$ at 298 K.\nAt anode : $$Ag(s) \\to A{g^ + }(sat\\,A{g_2}Cr{O_4}) + e$$\nAt cathode : $$A{g^ + }(aq) + e \\to Ag(s)$$\nCell reaction : $$A{g^ + }(aq) \\to A{g^ + }(sat\\,A{g_2}Cr{O_4})$$\nLet molar concentration of Ag$^{+}$ ions in sat Ag$_{2}$CrO$_{4}$ be C$_{1}$M\n$$\\therefore{E_{cell}} = E_{cell}^0 - {{0.059} \\over 1}\\log {{{C_1}} \\over {[A{g^ + }]}}E_{cell}^0 = 0$$ as both the electrodes are the same\n$$\\therefore0.164 = {{0.059} \\over 1}\\log {{0.1} \\over {{C_1}}}$$ or, $$\\log {{0.1} \\over {{C_1}}} = {{0.164} \\over {0.059}} = 2.774$$\nor, $${C_1} = {[A{g^ + }]_{A{g_2}Cr{O_4}}} = 1.66 \\times {10^{ - 4}}(M)$$\nIn, $$A{g_2}Cr{O_4}(s)\\rightleftharpoons2A{g^ + }(aq) + CrO_4^{2 - }(aq)[CrO_4^{2 - }] = {{[A{g^ + }]} \\over 2} = {{1.66 \\times {{10}^{ - 4}}} \\over 2}(M) = 0.83 \\times {10^{ - 4}}(M)\\therefore$$ K$_{sp}$ of $$A{g_2}Cr{O_4} = {[A{g^ + }]^2}[CrO_4^{2 - }] = (1.66 \\times {10^{ - 4}}) \\times 0.83 \\times {10^{ - 4}} = 2.287 \\times {10^{ - 12}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_051",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the equilibrium constant for the reaction:\n\n2Fe$^{3+}$ + 3I$^{-}$ $$\\leftrightharpoons$$ 2Fe$^{2+}$ + $$I_3^-$$. The standard reduction potentials in acidic conditions are 0.78 V and 0.54 V respectively for Fe$^{3+}$ | Fe$^{2+}$ and $$I_3^-$$ | I$^{-}$ couples.",
+    "solution": "Given, $$E_{F{e^{3 + }}|F{e^{2 + }}}^0 = 0.78V$$ and $$E_{I_3^ - |{I^ - }}^0 = 0.54V$$\nThe half-cell reactions are as follows:\nAt anode : $$3{I^ - } \\to I_3^ - + 2e$$, $${E^0} = 0.54$$\nAt cathode : $$2F{e^{3 + }} + 2e \\to 2F{e^{2 + }}$$, $${E^0} = + 0.78V$$\nCell reaction : $$2F{e^{3 + }} + 3{I^ - }\\rightleftharpoons2F{e^{2 + }} + I_3^ - \\thereforeE_{cell}^0 = (0.78 - 0.54) = 0.24V$$\nWe know, $$E_{cell}^0 = {{0.059} \\over 2}\\log {K_{eq}}$$ or, $$0.24 = 0.029\\log {K_{eq}}$$\nor, $$\\log {K_{eq}} = {{0.24} \\over {0.029}} = 8.27 \\simeq 8.00\\therefore{K_{eq}} = {10^8}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_052",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How many grams of silver could be plated out on a serving tray by electrolysis of a solution containing silver in +1 oxidation state for a period of 8.0 hours at a current of 8.46 amperes? What is the area of the tray if the thickness of the silver plating is 0.00254 cm? Density of silver is 10.5 g/cm$^{3}$",
+    "solution": "Charges passed through the cell = 8.46 $$\\times$$ 3 $$\\times$$ 3600 = 243648 coulombs\nElectrode reaction : $$A{g^ + }(aq) + e \\to Ag(s)$$ ..... [1]\n243648 coulombs $$ \\equiv {{243648} \\over {96500}} \\equiv 2.524$$ mol of electrons\nAccording to equation (1) 2.524 mol of electrons = 180 $$\\times$$ 2.524 = 272.6 g of Ag\n$$\\therefore$$ Volume of Ag plated out $$ = {W \\over {density}} = {{272.68} \\over {10.5}} = 25.969$$ cm$^{3}$\nGiven, thickness of the Ag plating = 0.0254 cm\n$$\\therefore$$ Area of tray plated $$ = {{25.969} \\over {0.0254}} = 1022.4 = 1.02 \\times {10^3}$$ cm$^{2}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_053",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the equilibrium constant for the reaction\n\nFe$^{2+}$ + Ce$^{4+}$ $$\\leftrightharpoons$$ Fe$^{3+}$ + Ce$^{3+}$\n\n(given $$E_{C{e^{4 + }}/C{e^{3 + }}}^o$$ = 1.44 V; $$E_{F{e^{3 + }}/F{e^{2 + }}}^o$$ = 0.68 V)",
+    "solution": "The half-cell reactions are as follows:\nAt anode : $$F{e^{2 + }}(aq) \\to F{e^{3 + }}(aq) + e$$ ; $${E^0} = - 0.68\\,V$$\nAt cathode : $$C{e^{4 + }}(aq) + e \\to C{e^{3 + }}(aq)$$ ; $${E^0} = 1.44\\,V$$\nCell reaction : $$F{e^{2 + }}(aq) + C{e^{4 + }}(aq)\\rightleftharpoonsF{e^{3 + }}(aq) + C{e^{3 + }}(aq)$$ ; $$E_{cell}^0 = + 0.76\\,V$$\nWe know, $$E_{cell}^0 = {{0.059} \\over n}\\log {K_{eq}}$$ or, $$ + 0.76 = {{0.059} \\over 1}\\log {K_{eq}}$$\nor, $$\\log {K_{eq}} = {{0.76} \\over {0.059}} = 12.859\\therefore{K_{eq}} = 7.227 \\times {10^{12}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_054",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The standard reduction potential for Cu$^{2+}$|Cu is +0.34 V. Calculate the reduction potential at pH = 14 for the above couple. K$_{sp}$ of Cu(OH)$_{2}$ is 1.0 $$\\times$$ 10$^{-19}$",
+    "solution": "Given, $$E_{C{u^{2 + }}|Cu}^0(aq) = + 0.34VCu{(OH)_2}(s) \\to C{u^{2 + }}(aq) + 2O{H^ - }(aq)$$, $${K_{sp}} = [C{u^{2 + }}]{[O{H^ - }]^2}$$\nGiven, pH = 14, [H$^{+}$] = 10$^{$$-$$14}$ M, [OH$^{$$-$$}$] = 1 M\nK$_{sp}$ of $$Cu{(OH)_2} = 1.0 \\times {10^{ - 19}}\\therefore1.0 \\times {10^{ - 19}} = [C{u^{2 + }}]{[O{H^ - }]^2}$$\nor, $$[C{u^{2 + }}]{[1]^2} = 1.0 \\times {10^{ - 19}}$$ [$$\\becauseC{u^{2 + }} + 2e \\to Cu$$]\n$$\\therefore[C{u^{2 + }}] = {10^{ - 19}}M\\therefore{E_{C{u^{2 + }}|Cu}} = E_{C{u^{2 + }}|Cu}^0 - {{0.059} \\over 2}\\log {1 \\over {[C{u^{2 + }}]}}\\therefore{E_{C{u^{2 + }}|Cu}} = 0.34 - {{0.059} \\over 2}\\log {1 \\over {({{10}^{ - 19}})}} = - 0.22V$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_055",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An excess of liquid mercury is added to an acidified solution of 1.0 $$\\times$$ 10$^{-3}$ M Fe$^{3+}$. It is found that 5% of Fe$^{3+}$ remains at equilibrium at 25$^{o}$C. Calculate $$E_{Hg_2^{2 + }|\\,Hg}^o$$, assuming that only reaction that occurs is\n\n2Hg + 2Fe$^{3+}$ $$\\toHg_2^{2+}$$ + 2Fe$^{2+}$\n\n(Given $$E_{F{e^{3 + }}|\\,F{e^{2 + }}}^o$$ = 0.77 V)",
+    "solution": "Given : $$2Hg(l) + 2F{e^{3 + }}(aq) \\to Hg_2^{2 + }(aq) + 2F{e^{2 + }}(aq)[F{e^{3 + }}] = 1.0 \\times {10^{ - 3}}(M)\\therefore$$ [Fe$^{3+}$] at equilibrium = 5% of 1.0 $$\\times$$ 10$^{$$-$$3}$ (M)\n$$ = {5 \\over {100}} \\times 1.0 \\times {10^{ - 3}}(M) = 5 \\times {10^{ - 5}}(M)\\therefore[F{e^{2 + }}] = (1.0 \\times {10^{ - 3}}) - (5 \\times {10^{ - 5}}) = 0.95 \\times {10^{ - 3}}\\therefore[Hg_2^{2 + }]$$ at equilibrium $$ = {{0.95 \\times {{10}^{ - 3}}} \\over 2}M\\therefore{E_{cell}} = E_{cell}^0 - {{0.059} \\over 2}\\log {{[Hg_2^{2 + }]{{[F{e^{2 + }}]}^2}} \\over {{{[F{e^{3 + }}]}^2}}}$$\nAt equilibrium, $${E_{cell}} = 0\\thereforeE_{cell}^0 = {{0.059} \\over 2}\\log {{\\left[ {{{0.95 \\times {{10}^{ - 3}}} \\over 2}} \\right]{{[0.95 \\times {{10}^{ - 3}}]}^2}} \\over {{{[5 \\times {{10}^{ - 5}}]}^2}}}$$\nor, $$E_{cell}^0 = {{0.0591} \\over 2}\\log {{{{[95]}^3} \\times {{10}^{ - 5}}} \\over {50}} = - 0.0276$$\nAlso, $$E_{cell}^0 = E_{F{e^{3 + }}|F{e^{2 + }}}^0 - E_{Hg_2^{2 + }|Hg}^0$$\nor, $$ - 0.0276 = 0.77 - E_{Hg_2^{2 + }|Hg}^0$$\nor, $$E_{Hg_2^{2 + }|Hg}^0 = 0.77 + 0.0276 = 0.7976\\,V$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_056",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The Edison storage cells is represented as\n\nFe(s) | FeO(s) | KOH (aq) | Ni$_{2}$O$_{3}$(s) | Ni(s)\n\nThe half-cell reactions are:\n\nNi$_{2}$O$_{3}$ + H$_{2}$O (l) + 2e$^{-}$ $$\\leftrightharpoons$$ 2NiO(s) + 2OH$^{-}$; E$^{o}$ = +0.40V\n\nFeO(s) + H$_{2}$O(l) + 2e$^{-}$ $$\\leftrightharpoons$$ Fe(s) + 2OH$^{-}$; E$^{o}$ = -0.87V\n\n(i) What is the cell reaction?\n\n(ii) What is the cell e.m.f? How does it depend on the concentration of KOH?\n\n(iii) What is the maximum amount of electrical energy that can be obtained from one mole of Ni$_{2}$O$_{3}$?",
+    "solution": "Given, $$E_{FeO|Fe}^0 = - 0.87\\,V$$, $$E_{N{i_2}{O_3}|NiO}^0 = + 0.40\\,V$$\nAt anode : $$Fe(s) + 2O{H^ - }(l) \\to FeO(s) + {H_2}O(l) + 2e$$\nAt cathode : $$N{i_2}{O_3}(s) + {H_2}O(l) + 2e \\to 2NiO(s) + 2O{H^ - }(aq)$$\n(1) Cell reaction : $$Fe(s) + N{i_2}{O_3}(s) \\to FeO(s) + 2NiO(s)$$\n(2) $$E_{cell}^0 = E_{cathode}^0 - E_{anode}^0 = 0.40 - ( - 0.87) = + 1.27\\,V{E_{cell}} = E_{cell}^0 - {{0.059} \\over 2}\\log {{[FeO]{{[NiO]}^2}} \\over {[Fe][N{i_2}{O_3}]}} = {E^0} - {{0.059} \\over 2}\\log {{1 \\times {1^2}} \\over {1 \\times 1}} = {E^0}$$ [$$\\because$$ Molar concentration of pure solid = 1]\nThe expression for E$_{cell}$ does not contain concentration term of OH$^{$$-$$}$, so E$_{cell}$ is independent of OH$^{$$-$$}$ concentration.\n(3) Electrical energy obtained from 1 mole of\n$$N{i_2}{O_3} = n \\times E_{cell}^0 \\times F = 2 \\times 1.27 \\times 96500\\,J$$ = 245110 J = 245.11 kJ.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_057",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The standard reduction potential of the Ag$^{+}$/Ag electrode at 298 K is 0.799V. Given that for AgI, K$_{sp}$ = 8.7 $$\\times$$ 10$^{-17}$, evaluate the potential of the Ag$^{+}$/Ag electrode in a saturated solution of AgI. Also calculate the standard reduction potential of the I$^{-}$/ AgI/Ag electrode.",
+    "solution": "Given, $$E_{A{g^ + }|Ag}^0 = 0.799$$ (at 298 K) and K$_{sp}$ of $$AgI = 8.7 \\times {10^{ - 17}}$$\nIn a saturated solution of AgI, [Ag$^{+}$] = [I$^{$$-$$}$]\n$$\\therefore[A{g^ + }] = \\sqrt {{K_{sp}}} = \\sqrt {8.7 \\times {{10}^{ - 17}}} = 9.33 \\times {10^{ - 9}}$$\nAccording to Nernst equation of $$A{g^ + } + e \\to Ag(s)\\thereforeE_{A{g^ + }|Ag}^{} = E_{A{g^ + }|Ag}^0 - {{0.059} \\over n}\\log {1 \\over {[A{g^ + }]}}$$\nor, $$E_{A{g^ + }|Ag}^{} = 0.799 - {{0.059} \\over 1}\\log {1 \\over {[A{g^ + }]}}$$\nor, $$E_{A{g^ + }|Ag}^{} = 0.799 - 0.059\\log {1 \\over {9.33 \\times {{10}^{ - 9}}}}\\thereforeE_{A{g^ + }|Ag}^{} = 0.325$$ V\nThe relation between $$E_{{I^ - }|AgI|Ag}^0$$ and $$E_{A{g^ + }|Ag}^0$$ is\n$$E_{{I^ - }|AgI|Ag}^0 = E_{A{g^ + }|Ag}^0 + 0.059\\log {K_{sp}}\\thereforeE_{{I^ - }|AgI|Ag}^0 = 0.799 + 0.059\\log (8.7 \\times {10^{ - 17}}) = - 0.148$$ V",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_058",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The standard reduction potential for the half-cell\n\n$$NO_3^-$$ + 2H$^{+}$ (aq) + e $$\\to$$ NO$_{2}$ (g) + H$_{2}$O is 0.78 V\n\n(i) Calculate the reduction potential in 8 M H$^{+}$\n\n(ii) What will be the reduction potential of the half-cell in a neutral solution? Assume all the other species to be at unit concentration.",
+    "solution": "Reaction :\n$$NO_3^ - (aq) + 2{H^ + }(aq) + e \\to N{O_2}(g) + {H_2}O(l)$$\n(1) $${E_{cell}} = E_{cell}^0 - {{0.059} \\over n}\\log {{[N{O_2}][{H_2}O]} \\over {[NO_3^ - ]{{[{H^ + }]}^2}}} = 0.78 - {{0.059} \\over 1}\\log {{1 \\times 1} \\over {1 \\times {{(8)}^2}}} = 0.887$$ V\n(2) In neutral solution, [H$^{+}$] = 10$^{$$-$$7}$ M\n$$\\thereforeE = 0.78 - {{0.059} \\over 1}\\log {{1 \\times 1} \\over {1 \\times {{({{10}^{ - 7}})}^2}}} = - 0.046$$ V",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_059",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Chromium metal can be plated out from an acidic solution containing CrO$_{3}$ according to the following equation\n\nCrO$_{3}$ (aq) + 6H$^{+}$ (aq) + 6e$^{-}$ $$\\to$$ Cr(s) + 3H$_{2}$O\n\nCalculate (i) how many grams of chromium will be plated out by 24,000 coulombs and (ii) how long will it take to plate out 1.5 g of chromium by using 12.5 amp current.",
+    "solution": "$$Cr{O_3}(aq) + 6{H^ + }(aq) + 6e \\to Cr(s) + 3{H_2}O$$\n52g of Cr is deposited by 6 $$\\times$$ 96500 C of electric current. [$$\\because$$ atomic mass of Cr = 52 g mol$^{$$-$$1}$]\n(1) Given, 24000 C current is passed.\n$$\\therefore$$ Amount of Cr plated out = $${{52 \\times 24000} \\over {6 \\times 96500}}$$ = 2.155 g\n(2) According to Faraday's 1st law, W = Z $$\\times$$ I $$\\times$$ t\n$$\\therefore$$ 1.5 = Z $$\\times$$ 12.5 $$\\times$$ t\nor, $$1.5 = {{52} \\over {6 \\times 96500}} \\times 12.5 \\times t$$\nor, $$t = {{1.5 \\times 6 \\times 96500} \\over {52 \\times 12.5}} = 1336.15$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_060",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the galvanic cell\n\nAg | AgCl(s), KCl (0.2M) || KBr (0.001M), AgBr(s) | Ag\n\nCalculate the EMF generated and assign correct polarity to each electrode for a spontaneous process after taking into account the cell reaction at 25$^{o}$C.\n\n[K$_{sp}$(AgCl) = 2.8 $$times$$ 10$^{-10}$; K$_{sp}$(AgBr) = 3.3 $$times$$ 10$^{-13}$]",
+    "solution": "For the galvanic cell,\n$$Ag|AgCl(s)$$, $$KCl(0.2M)||KBr(0.001\\,M)$$, $$AgBr(s)|Ag{E_{cell}} = {{0.591} \\over n}\\log {{[A{g^ + }]AgBr} \\over {[A{g^ + }]AgCl}}$$ ...... (1)\nGiven, $${K_{sp}}(AgCl) = 2.8 \\times {10^{ - 10}}$$. Now, [Cl$^{$$-$$}$] = 0.2 (M)\n$$\\therefore2.8 \\times {10^{ - 10}} = {[A{g^ + }]_{AgCl}} \\times 0.2$$\nor, $${[A{g^ + }]_{AgCl}} = {{2.8 \\times {{10}^{ - 10}}} \\over {0.2}} = 14 \\times {10^{ - 10}}(M)$$\nGiven, $${K_{sp}}(AgBr) = 3.3 \\times {10^{ - 13}}$$. Here, [Br$^{$$-$$}$] = 0.001 M\n$$\\therefore3.3 \\times {10^{ - 13}} = {[A{g^ + }]_{AgBr}} \\times 0.001$$\nor, $${[A{g^ + }]_{AgBr}} = {{3.3 \\times {{10}^{ - 13}}} \\over {0.001}} = 3.3 \\times {10^{ - 10}}$$ (M)\nSubstituting in equation (1), $${E_{cell}} = {{0.059} \\over 1}\\log {{3.3 \\times {{10}^{ - 10}}} \\over {14 \\times {{10}^{ - 10}}}}$$\n= 0.059 $$\\times$$ ($$-$$ 0.6274) = $$-$$ 0.037 V\nThe negative value of E$_{cell}$ indicates that the cell reaction $$[AgBr(s) + C{l^ - }(aq) \\to AgCl(s) + B{r^ - }(aq)]$$ is not spontaneous but the reverse reaction is spontaneous as in this case E$_{cell}$ = +0.037 V. To carry out the reverse reaction, the polarity of the given cell should be reversed i.e., the anode should be made cathode, and vice-versa.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_061",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An aqueous solution of NaCl on electrolysis gives H$_{2}$(g), Cl$_{2}$(g) and NaOH according to the reaction:\n\n2Cl$^{-}$ (aq) + 2H$_{2}$O = 2OH$^{-}$ (aq) + H$_{2}$ (g) + Cl$_{2}$ (g)\n\nA direct current of 25 amperes with a current efficiency of 62 % is passed through 20 litres of NaCl solution (20% by weight). Write down the reactions taking place at the anode and cathode. How long will it take to produce 1kg of Cl$_{2}$? What will be the molarity of the solution with respect to hydroxide ion? (Assume no loss due to evaporation)",
+    "solution": "(1) $$2C{l^ - }(aq) + 2{H_2}O \\to 2O{H^ - }(aq) + {H_2}(g) + C{l_2}(g)$$\nCathode reaction : $$2{H_2}O + 2e \\to 2O{H^ - } + {H_2}$$\nAnode reaction : $$2C{l^ - } \\to C{l_2} + 2e$$\n(2) According to Faraday's first law, $$W = Z \\times It$$ ...... (1)\nCurrent efficiency = 62% = 0.62\nEffective electric current (I) = 25 $$\\times$$ 0.62 A\nMass of $$C{l_2} = {10^3}g\\therefore$$ Z for $$C{l_2} = {{eq.\\,weight} \\over {96500}} = {{35.5} \\over {96500}}$$\nSubstituting in equation (1), $${10^3} = {{35.5} \\over {96500}} \\times 25 \\times 0.62 \\times t$$\nor, $$t = {{{{10}^3} \\times 96500} \\over {35.5 \\times 25 \\times 0.62}} = 175374.83$$ sec = 48.71 hrs\n(3) No. of equivalents of OH$^{$$-$$}$ = no. of equivalents of Cl$_{2}$ = $${{{{10}^3}} \\over {35.5}} = 28.17$$ (equivalent weight of Cl$_{2}$ = 35.5)\nEquivalent weight and formula mass of OH$^{$$-$$}$ are equal.\n$$\\therefore$$ Number of moles of OH$^{$$-$$}$ = 28.17\n$$\\therefore[O{H^ - }] = {{number\\,of\\,moles} \\over {volume\\,(in\\,L)}} = {{28.17} \\over {20}} = 1.408\\,M$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_062",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Zinc granules are added in excess to a 500 ml. of 1.0 M nickel nitrate solution at 25$^{o}$C until the equilibrium is reached. If the standard reduction potential of Zn$^{2+}$ | Zn and Ni$^{2+}$ | Ni are -0.75 V and -0.24 V respectively, find out the concentration of Ni$^{2+}$ in solution at equilibrium.",
+    "solution": "Since $$E_{Z{n^{2 + }}|Zn}^0 < E_{N{i^{2 + }}|Ni}^0$$, Zn will undergo oxidation and Ni$^{2+}$ reduction.\nThe reaction that occurs due to addition of Zn-granules to the solution of nickel nitrate is :\n$$Zn(s) + N{i^{2 + }}(aq) \\to Z{n^{2 + }}(aq) + Ni(s)$$ ....... (1)\nSuppose, the concentration of Zn$^{2+}$ ions at equilibrium = xM. Hence, at equilibrium concentration of Ni$^{2+}$ = (1 $$-$$ x) M [$$\\because$$ initial concentration of Ni$^{2+}$ = 1 M and 1 mol of Zn reacts with 1 mol of Ni$^{2+}$]\n$$\\therefore$$ [Zn$^{2+}$] = x M and [Ni$^{2+}$] = (1 $$-$$ x) M\nNernst equation for the reaction (1) is :\n$${E_{cell}} = E_{cell}^0 - {{0.059} \\over 2}\\log {{[Z{n^{2 + }}]} \\over {[N{i^{2 + }}]}}E_{cell}^0 = E_{cathode}^0 - E_{anode}^0 = [ - 0.24 - ( - 0.75)]V = 0.51V$$\nAt equilibrium, E$_{cell}$ = 0 $$\\therefore0 = 0.51 - {{0.059} \\over 2}\\log {x \\over {1 - x}}$$\nor, $$\\log {x \\over {1 - x}} = 17.28$$ or, $${x \\over {1 - x}} = 1.9 \\times {10^{17}}$$\nor, $${1 \\over {1 - x}} - 1 = 1.9 \\times {10^{17}}\\therefore(1 - x) = 5.26 \\times {10^{ - 18}}\\therefore$$ Concentration of Ni$^{2+}$ at equilibrium = 5.26 $$\\times$$ 10$^{$$-$$18}$ M",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_063",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The current of 1.70 A is passed through 300.0 ml of 0.160 M solution of a ZnSO$_{4}$ for 230 sec. with a current efficiency of 90%. Find out the molarity of Zn$^{2+}$ after the deposition of Zn. Assume the volume of the solution to remain constant during electrolysis.",
+    "solution": "To solve this problem, we need to calculate the amount of Zn$^{2+}$ ions that get deposited during the electrolysis and then use this information to find the final molarity of Zn$^{2+}$ ions in the solution.\n\nFirst, let's calculate the total charge passed through the cell:\n\n$$ Q = I \\times t Q = 1.70 \\, \\text{A} \\times 230 \\, \\text{s} Q = 391 \\, \\text{C} $$\n\nNext, we consider the current efficiency, which is 90%. Therefore, the effective charge used for the deposition of zinc is:\n\n$$ Q_{\\text{effective}} = 0.90 \\times 391 \\, \\text{C} Q_{\\text{effective}} = 351.9 \\, \\text{C} $$\n\nNow, we use Faraday's laws of electrolysis to find the amount of zinc deposited. The molar mass of zinc (Zn) is 65.38 g/mol, and the charge per mole of Zn$^{2+}$ (as it releases two electrons per ion) is:\n\n$$ n_{\\text{electrons}} = 2 \\times F n_{\\text{electrons}} = 2 \\times 96485 \\, \\text{C/mol} n_{\\text{electrons}} = 192970 \\, \\text{C/mol} $$\n\nUsing the effective charge, the moles of Zn deposited can be calculated as:\n\n$$ \\text{moles of Zn} = \\frac{Q_{\\text{effective}}}{n_{\\text{electrons}}} \\text{moles of Zn} = \\frac{351.9 \\, \\text{C}}{192970 \\, \\text{C/mol}} \\text{moles of Zn} = 0.001824 \\, \\text{mol} $$\n\nThe initial moles of Zn$^{2+}$ in the solution can be calculated from its initial concentration and volume:\n\n$$ \\text{moles of Zn}\\,^{2+}_{\\text{initial}} = M \\times V \\text{moles of Zn}\\,^{2+}_{\\text{initial}} = 0.160 \\, \\text{M} \\times 0.300 \\, \\text{L} \\text{moles of Zn}\\,^{2+}_{\\text{initial}} = 0.048 \\, \\text{mol} $$\n\nAfter deposition, the moles of Zn$^{2+}$ decreases by the moles of Zn deposited:\n\n$$ \\text{moles of Zn}\\,^{2+}_{\\text{final}} = \\text{moles of Zn}\\,^{2+}_{\\text{initial}} - \\text{moles of Zn} \\text{moles of Zn}\\,^{2+}_{\\text{final}} = 0.048 \\, \\text{mol} - 0.001824 \\, \\text{mol} \\text{moles of Zn}\\,^{2+}_{\\text{final}} = 0.046176 \\, \\text{mol} $$\n\nFinally, the final concentration of Zn$^{2+}$ ions can be calculated maintaining the same volume:\n\n$$ C_{\\text{final}} = \\frac{\\text{moles of Zn}\\,^{2+}_{\\text{final}}}{V} C_{\\text{final}} = \\frac{0.046176 \\, \\text{mol}}{0.300 \\, \\text{L}} C_{\\text{final}} = 0.1539 \\, \\text{M} $$\n\nThus, the final molarity of Zn$^{2+}$ in the solution after 230 seconds of electrolysis with a current of 1.70 A and a current efficiency of 90% is approximately **0.154 M**.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_electrochemistry_064",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**(i)** What is the weight of sodium bromate and molarity pf solution necessary to prepare 85.5 ml of 0.672 B solution when the half-cell reaction is\n\n$$BrO_3^- + 6H^+ + 6e^- \\to Br^- + 3H_2O$$\n\n**(ii)** What would be the weight as well as molarity if the half-cell reaction is:\n\n$$2BrO_3^- + 12H^+ + 10e^- \\toBr_2 \\,+ 6H_2O$$",
+    "solution": "To answer these questions, we first need to understand two key concepts:\n\nNormality (N), which differs from molarity and relates to the number of equivalents per liter of solution.\nThe equivalent weight of the compound, which in this case involves understanding how many electrons are transferred in the half-cell reaction.\n\n**Part (i)**: Let's calculate based on the half-cell reaction:\n**$$BrO_3^- + 6H^+ + 6e^- \\rightarrow Br^- + 3H_2O$$**\nThis reaction shows each mole of $$BrO_3^-$$ consumes 6 equivalents (6 moles of electrons). The molar mass of sodium bromate ($$NaBrO_3$$) is $$22.99 + 79.904 + 48.00 = 150.894\\, g/mol$$.\nTo find the weight of sodium bromate needed:\n1. The equivalent weight of $$NaBrO_3$$ = $$\\frac{Molar\\, mass}{6} = \\frac{150.894}{6} = 25.149\\, g/equiv$$.\n2. To make a 0.672 N solution in 85.5 mL, first convert mL to L: $$85.5\\, mL = 0.0855\\, L$$.\n3. Calculate the total equivalents needed: $$0.672\\, eq/L \\times 0.0855\\, L = 0.05748\\, equivalents$$.\n4. Calculate the mass of $$NaBrO_3$$ required: $$0.05748\\, equivalents \\times 25.149\\, g/equiv = 1.446\\, g$$.\nTo find the molarity (M) of the solution:\nThe molarity would be the number of moles of $$NaBrO_3$$ in the given volume of solution:\n1. Number of moles = $$\\frac{1.446\\, g}{150.894\\, g/mol} = 0.00958\\, moles$$.\n2. Molarity = $$\\frac{0.00958\\, moles}{0.0855\\, L} = 0.112\\, M$$.\n**Part (ii)**: Consider the revised half-cell reaction:\n**$$2BrO_3^- + 12H^+ + 10e^- \\rightarrow Br_2 + 6H_2O$$**\nHere, 2 moles of $$BrO_3^-$$ are reduced by 10 electrons. Each mole of $$BrO_3^-$$ consumes 5 equivalents (5 electrons):\n1. The equivalent weight of $$NaBrO_3$$ in this case = $$\\frac{Molar\\, mass}{5} = \\frac{150.894}{5} = 30.179\\, g/equiv$$.\nCalculating the mass required to produce a 0.672 N solution:\n1. Total equivalents required: $$0.672\\, eq/L \\times 0.0855\\, L = 0.05748\\, equivalents$$\n2. Mass of $$NaBrO_3$$ required: $$0.05748\\, equivalents \\times 30.179\\, g/equiv = 1.734\\, g$$.\nCalculating the molarity based on these equivalents:\n1. Number of moles = $$\\frac{1.734\\, g}{150.894\\, g/mol} = 0.0115\\, moles$$.\n2. Molarity = $$\\frac{0.0115\\, moles}{0.0855\\, L} = 0.134\\, M$$.\nIn summary, the weight and molarity needed under each half-cell reaction are calculated by considering the number of electrons transferred per mole of reactant and adjusting the equivalent weight accordingly.",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

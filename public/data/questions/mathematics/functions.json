@@ -1,0 +1,650 @@
+[
+  {
+    "id": "math_functions_001",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{N}$ denote the set of all positive integers. Consider the sets\n$$ A=\\{1,2,3,4,5\\} \\text { and } B=\\{1,2,3,4,5,6,7\\} . $$\nLet $S$ be the set of all functions $f: A \\rightarrow B$ such that $f(2)\neq 2$ and $f(4)\neq 4$. Consider the set $T=\\left\\{f \\in S:\\right.$ there exists a function $g: B \\rightarrow \\mathbb{N}$ such that $g(f(x))=2^x$ for all $\\left.x \\in A\\right\\}$.\nThen the number of elements in the set $T$ is $\\_\\_\\_\\_$ .",
+    "solution": "From the condition $ g(f(x)) = 2^x $ for all $ x \\in A $, we can see that if two different values of $ x $ had the same $ f(x) $, then $ g $ would have to assign the same value to two different powers of 2. This is not possible because each $ 2^x $ is unique.\nTherefore, $ f $ must be a **one-one (injective)** function from $ A $ to $ B $.\nTo find the total number of one-one functions from a set of 5 elements ($ A $) to a set of 7 elements ($ B $), we first choose any 5 elements from 7 and then arrange them. Hence,\n$$ \\text{Total one-one functions} = {}^7C_5 \\times 5! = 21 \\times 120 = 2520 $$\nNow we subtract the functions that do not satisfy the given conditions: $ f(2)\neq 2 $ and $ f(4)\neq 4 $.\nFunctions where $ f(2)=2 $: choose images for remaining 4 elements of $ A $ from the remaining 6 elements of $ B $, and arrange them.\n$$ {}^6C_4 \\times 4! = 15 \\times 24 = 360 $$\nSimilarly, functions where $ f(4)=4 $ are also $ 360 $ in number.\nFunctions where both $ f(2)=2 $ and $ f(4)=4 $: we choose images for the remaining 3 elements from the remaining 5 elements of $ B $, and arrange them.\n$$ {}^5C_3 \\times 3! = 10 \\times 6 = 60 $$\nBy the principle of inclusion and exclusion:\n$$ \\text{Required number of functions} = 2520 - (360 + 360) + 60 = 1860 $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_002",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let **ℕ** denote the set of all natural numbers, and **ℤ** denote the set of all integers. Consider the functions *f: ℕ → ℤ* and *g: ℤ → ℕ* defined by$$ f(n) = \\begin{cases} \\frac{(n + 1)}{2} & \\text{if } n \\text{ is odd,} \\\\ \\frac{(4-n)}{2} & \\text{if } n \\text{ is even,} \\end{cases} $$and$$ g(n) = \\begin{cases} 3 + 2n & \\text{if } n \\ge 0 , \\\\ -2n & \\text{if } n < 0 . \\end{cases} $$ Define $$(g \\circ f)(n) = g(f(n))$$ for all $n \\in \\mathbb{N}$, and $$(f \\circ g)(n) = f(g(n))$$ for all $n \\in \\mathbb{Z}$.Then which of the following statements is (are) TRUE?",
+    "solution": "$$\nS=(0,1) \\cup(1,2) \\cup(3,4) \\text { and } T=\\{0,1,2,3\\} \\text {. }\n$$\n\nLet domain and co-domain of a function $y=f(x)$ are $S$ and $T$ respectively.\n\n(A) There are infinitely many elements in domain and four elements in co-domain.\n\n$\\Rightarrow$ There are infinitely many functions from $S$ to $T$.\n\n$\\Rightarrow$ Option $(A)$ is correct\n\n(B) If number of elements in domain is greater than number of elements in co-domain, then number of strictly increasing function is zero.\n\n$\\Rightarrow$ Option (B) is incorrect\n\n(C) Maximum number of continuous functions = $4 \\times 4 \\times 4=64$\n\n(Every subset $(0,1),(1,2),(3,4)$ has four choices)\n\n$\\because 64 < 120 \\Rightarrow$ option (C) is correct.\n\n(D) For every point at which $f(x)$ is continuous, $f(x)=0$\n\n$\\Rightarrow$ Every continuous function from $S$ to $T$ is differentiable.\n\nOption (D) is correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "**g $\\circ $ f** is NOT one-one and **g $\\circ $ f** is NOT onto",
+      "**f $\\circ $ g** is NOT one-one but **f $\\circ $ g** is onto",
+      "**g** is one-one and **g** is onto",
+      "**f** is NOT one-one but **f** is onto"
+    ]
+  },
+  {
+    "id": "math_functions_003",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the function f : R $$ \\to $$ R is defined by f(x) = |x| (x $$-$$ sin x), then which of the following statements is TRUE?",
+    "solution": "The given function f : R $$ \\to $$ R is\n\n$$f(x) = |x|(x - \\sin x)$$ .....(i)\n\n$$ \\because $$ The function 'f' is a odd and continuous function and as $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) = \\infty $$ and $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) = - \\infty $$, so range is R, therefore, 'f' is a onto function.\n\n$$ \\because f(x) = \\left[ \\matrix{\nx(x - \\sin x),\\,x \\ge \\,0 \\hfill \\cr\n- x(x - \\sin x),\\,x\\, < \\,0 \\hfill \\cr} \\right. \\therefore f'(x) = \\left[ \\matrix{\n2x - \\sin x - x\\cos x,\\,x > \\,0 \\hfill \\cr\n- 2x + \\sin x + x\\cos x,\\,x\\, < \\,0 \\hfill \\cr} \\right.\\left[ \\matrix{\n(x - \\sin x) + x(1 - \\cos x),\\,x > \\,0 \\hfill \\cr\n( - x + \\sin x) - x(1 - \\cos x),\\,x\\, < \\,0 \\hfill \\cr} \\right. \\because $$ for x > 0, x $$-$$ sin x > 0 and x(1 $$-$$ cos x) > 0\n\n$$ \\therefore f'(x) > 0\\forall x \\in (0,\\infty ) \\Rightarrow $$ f is strictly increasing function. $$\\forall x \\in (0,\\infty )$$.\n\nSimilarly, for x < 0, $$-$$x + sin x > 0 and ($$-$$ x) (1 $$-$$ cos x) > 0, therefore, $$f'(x) > 0\\forall x \\in ( - \\infty ,0) \\Rightarrow $$ f is strictly increasing function, $$\\forall x \\in $$(0, $$\\infty $$)\n\nTherefore 'f' is a strictly increasing function for x$$ \\in $$R and it implies that f is one-one function.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "f is one-one, but NOT onto",
+      "f is onto, but NOT one-one",
+      "f is BOTH one-one and onto",
+      "f is NEITHER one-one NOR onto"
+    ]
+  },
+  {
+    "id": "math_functions_004",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow(0,4)$ be functions defined by\n$$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\text { and } g(x)=\\frac{4}{1+e^{-2 x}} $$\nDefine the composite function $f \\circ g^{-1}$ by $\\left(f \\circ g^{-1}\\right)(x)=f\\left(g^{-1}(x)\\right)$, where $g^{-1}$ is the inverse of the function $g$.\nThen the value of the derivative of the composite function $f \\circ g^{-1}$ at $x=2$ is ________________.",
+    "solution": "Function $ f $:\n$ f(x) = \\log_e\\left(x^2 + 2x + 4\\right) = \\log_e\\left[(x+1)^2 + 3\\right] $\nFunction $ g $:\n$ g(x) = \\frac{4}{1 + e^{-2x}} $\n\nTo find the inverse of $ g $, $ g^{-1} $, we solve for $ x $:\n\nStart with $ y = \\frac{4}{1 + e^{-2x}} $.\nRearranging gives $ 1 + e^{-2x} = \\frac{4}{y} $.\nSolving for $ e^{-2x} $, we have $ e^{-2x} = \\frac{4}{y} - 1 $.\nTaking the natural logarithm, we find $ -2x = \\ln\\left(\\frac{4}{y} - 1\\right) $.\nThus, we solve for $ x $:\n$ x = -\\frac{1}{2} \\ln\\left(\\frac{4-y}{y}\\right) = \\frac{1}{2} \\ln\\left(\\frac{y}{4-y}\\right) $\n\nSo, the inverse function:\n$ g^{-1}(x) = \\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right) $\nNow, let's evaluate $ g^{-1}(2) $:\n$ g^{-1}(2) = \\frac{1}{2} \\ln\\left(\\frac{2}{4-2}\\right) = \\frac{1}{2} \\ln(1) = 0 $\nThus, $ f(g^{-1}(x)) = f\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) $.\nNext, we differentiate $ f \\circ g^{-1} $:\n$ \\frac{d}{dx}\\left(f(g^{-1}(x))\\right) = \\frac{d}{dx}\\left[\\log_e\\left(\\left(g^{-1}(x) + 1\\right)^2 + 3\\right)\\right] $\nUsing the chain rule, the derivative is:\n$ \\frac{1}{\\left[\\left(g^{-1}(x) + 1\\right)^2 + 3\\right]} \\cdot 2 \\left(g^{-1}(x) + 1\\right) \\cdot \\frac{d}{dx}\\left(g^{-1}(x)\\right) $\nCalculate the derivative of $ g^{-1}(x) $:\n$ \\frac{d}{dx}\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) = \\frac{1}{2} \\cdot \\frac{1}{\\frac{x}{4-x}} \\cdot \\left(\\frac{(4-x)x' + x(4-x)'}{(4-x)^2}\\right) $\nEvaluate at $ x = 2 $:\n\n$ g^{-1}(2) = 0 $ means $ \\left(g^{-1}(2) + 1\\right)^2 + 3 = 4 $.\n\nAt $ x = 2 $:\n$ \\frac{d}{dx} f(g^{-1}(x))\\big|_{x=2} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\frac{1}{4} = 0.25 $\nTherefore, the value of the derivative of the composite function $ f \\circ g^{-1} $ at $ x = 2 $ is $ 0.25 $.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_005",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let **ℝ** denote the set of all real numbers. Let **f: ℝ → ℝ** be a function such that **f(x) > 0** for all **x ∈ ℝ**, and **f(x+y) = f(x)f(y)** for all **x, y ∈ ℝ**.\nLet the real numbers **a₁, a₂, ..., a₅₀** be in an arithmetic progression. If **f(a₃₁) = 64f(a₂₅)**, and\n$ \\sum\\limits_{i=1}^{50} f(a_i) = 3(2^{25}+1), $\nthen the value of\n$ \\sum\\limits_{i=6}^{30} f(a_i) $\nis ________________.",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x}+\\mathrm{y})=\\mathrm{f}(\\mathrm{x})+\\mathrm{f}(\\mathrm{y}) \\quad \\text{... (1)}\\\\\n& \\Rightarrow \\quad \\mathrm{f}(\\mathrm{nx})=\\operatorname{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{N} \\quad \\text{... (2)}\n\\end{aligned}\n\\begin{array}{ll}\n\\text { Now } & \\text { put } \\mathrm{y}=-\\mathrm{x} \\text { in eq.(1) } \\\\\n& \\mathrm{f}(\\mathrm{x})+\\mathrm{f}(-\\mathrm{x})=\\mathrm{f}(0) \\quad\\{\\mathrm{f}(0)=0\\} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f} \\text { is odd function } \\\\\n& \\text { from eq. (2) } \\\\\n& \\mathrm{f}(-\\mathrm{nx})=\\mathrm{nf}(-\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{nx})=-\\mathrm{nf}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{mx})=\\operatorname{mf}(\\mathrm{x}) \\forall \\mathrm{m} \\in \\mathrm{Z}^{-} \\quad \\text{... (3)}\\\\\n& \\text {from eq. (2) and eq. (3) } \\\\\n& \\mathrm{f}(\\mathrm{nx})=\\mathrm{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{Z} \\quad \\text{... (4)}\n\\end{array}\\begin{aligned}\n\\text { Now } & \\text { put } x=\\frac{p}{q} \\text { where } p, q \\in Z, q\neq 0 \\\\\nf\\left(\\frac{n p}{q}\\right) & =n f\\left(\\frac{p}{q}\\right) \\forall n \\in Z \\\\\n\\text { put } n & =q \\\\\n& f(p)=q f\\left(\\frac{p}{q}\\right)\n\\end{aligned}\\Rightarrow \\quad \\mathrm{pf}(1)=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\quad \\{\\text{from eq.(4)}\\}$$\nLet $$f(1)=a\\begin{array}{ll}\n\\text { then } \\quad & \\mathrm{pa}=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)=\\frac{\\mathrm{ap}}{\\mathrm{q}} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{x})=\\mathrm{ax} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{array}$$\nNow, $$f\\left(\\frac{-3}{5}\\right)=a\\left(\\frac{-3}{5}\\right)=12 \\Rightarrow a=-20\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=-20 \\mathrm{x} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (5)}$$\nFrom the given functional equation it is not possible to find a unique function for irrational values of '$$x$$', there are infinitely many such functions satisfying given functional equation for irrational values of $$x$$, but in this problem we finally need the function at rational values of '$$x$$' only. So, for rational values of $$x$$ we are getting a unique function mentioned in (5).\nNow, $$g(x+y)=g(x) \\cdot g(y)\\begin{array}{ll}\n\\Rightarrow & \\ln (\\mathrm{g}(\\mathrm{x}+\\mathrm{y})=\\ln (\\mathrm{g}(\\mathrm{x}))+\\ln (\\mathrm{g}(\\mathrm{y})) \\\\\n\\text { Let } & \\ln (\\mathrm{g}(\\mathrm{x}))=\\mathrm{h}(\\mathrm{x}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x}+\\mathrm{y})=\\mathrm{h}(\\mathrm{x})+\\mathrm{h}(\\mathrm{y}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x})=\\mathrm{kx} \\forall \\mathrm{x} \\in \\mathbb{Q} \\\\\n\\Rightarrow & \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\mathrm{kx}} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (6)}\n\\end{array}\\begin{aligned}\n& \\text { and } \\quad \\mathrm{g}\\left(\\frac{-1}{3}\\right)=\\mathrm{e}^{-\\frac{\\mathrm{K}}{3}}=2 \\quad \\Rightarrow \\quad \\mathrm{K}=-3 \\ln 2 \\\\\n& \\Rightarrow \\quad \\mathrm{K}=\\ln \\left(\\frac{1}{8}\\right) \\\\\n& \\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\ln \\left(\\frac{1}{8}\\right) \\cdot \\mathrm{x}}=\\left(\\frac{1}{8}\\right)^x=2^{-3 \\mathrm{x}} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{aligned}$$\nNow, $$f\\left(\\frac{1}{4}\\right)=-5, g(-2)=2^6=64\\mathrm{g}(0)=1\\begin{aligned}\n\\text{So} \\quad & \\left(\\mathrm{f}\\left(\\frac{1}{4}\\right)+\\mathrm{g}(-2)-(8) \\mathrm{g}(0)\\right) \\\\\n& =(-5+64-8)(1)=51\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_006",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x+y)=f(x)+f(y)$ for all $x, y \\in \\mathbb{R}$, and $g: \\mathbb{R} \\rightarrow(0, \\infty)$ be a function such that $g(x+y)=g(x) g(y)$ for all $x, y \\in \\mathbb{R}$. If $f\\left(\\frac{-3}{5}\\right)=12$ and $g\\left(\\frac{-1}{3}\\right)=2$, then the value of $\\left(f\\left(\\frac{1}{4}\\right)+g(-2)-8\\right) g(0)$ is _________.",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x}+\\mathrm{y})=\\mathrm{f}(\\mathrm{x})+\\mathrm{f}(\\mathrm{y}) \\quad \\text{... (1)}\\\\\n& \\Rightarrow \\quad \\mathrm{f}(\\mathrm{nx})=\\operatorname{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{N} \\quad \\text{... (2)}\n\\end{aligned}\n\\begin{array}{ll}\n\\text { Now } & \\text { put } \\mathrm{y}=-\\mathrm{x} \\text { in eq.(1) } \\\\\n& \\mathrm{f}(\\mathrm{x})+\\mathrm{f}(-\\mathrm{x})=\\mathrm{f}(0) \\quad\\{\\mathrm{f}(0)=0\\} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f} \\text { is odd function } \\\\\n& \\text { from eq. (2) } \\\\\n& \\mathrm{f}(-\\mathrm{nx})=\\mathrm{nf}(-\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{nx})=-\\mathrm{nf}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{mx})=\\operatorname{mf}(\\mathrm{x}) \\forall \\mathrm{m} \\in \\mathrm{Z}^{-} \\quad \\text{... (3)}\\\\\n& \\text {from eq. (2) and eq. (3) } \\\\\n& \\mathrm{f}(\\mathrm{nx})=\\mathrm{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{Z} \\quad \\text{... (4)}\n\\end{array}\\begin{aligned}\n\\text { Now } & \\text { put } x=\\frac{p}{q} \\text { where } p, q \\in Z, q\neq 0 \\\\\nf\\left(\\frac{n p}{q}\\right) & =n f\\left(\\frac{p}{q}\\right) \\forall n \\in Z \\\\\n\\text { put } n & =q \\\\\n& f(p)=q f\\left(\\frac{p}{q}\\right)\n\\end{aligned}\\Rightarrow \\quad \\mathrm{pf}(1)=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\quad \\{\\text{from eq.(4)}\\}$$\nLet $$f(1)=a\\begin{array}{ll}\n\\text { then } \\quad & \\mathrm{pa}=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)=\\frac{\\mathrm{ap}}{\\mathrm{q}} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{x})=\\mathrm{ax} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{array}$$\nNow, $$f\\left(\\frac{-3}{5}\\right)=a\\left(\\frac{-3}{5}\\right)=12 \\Rightarrow a=-20\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=-20 \\mathrm{x} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (5)}$$\nFrom the given functional equation it is not possible to find a unique function for irrational values of '$$x$$', there are infinitely many such functions satisfying given functional equation for irrational values of $$x$$, but in this problem we finally need the function at rational values of '$$x$$' only. So, for rational values of $$x$$ we are getting a unique function mentioned in (5).\nNow, $$g(x+y)=g(x) \\cdot g(y)\\begin{array}{ll}\n\\Rightarrow & \\ln (\\mathrm{g}(\\mathrm{x}+\\mathrm{y})=\\ln (\\mathrm{g}(\\mathrm{x}))+\\ln (\\mathrm{g}(\\mathrm{y})) \\\\\n\\text { Let } & \\ln (\\mathrm{g}(\\mathrm{x}))=\\mathrm{h}(\\mathrm{x}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x}+\\mathrm{y})=\\mathrm{h}(\\mathrm{x})+\\mathrm{h}(\\mathrm{y}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x})=\\mathrm{kx} \\forall \\mathrm{x} \\in \\mathbb{Q} \\\\\n\\Rightarrow & \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\mathrm{kx}} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (6)}\n\\end{array}\\begin{aligned}\n& \\text { and } \\quad \\mathrm{g}\\left(\\frac{-1}{3}\\right)=\\mathrm{e}^{-\\frac{\\mathrm{K}}{3}}=2 \\quad \\Rightarrow \\quad \\mathrm{K}=-3 \\ln 2 \\\\\n& \\Rightarrow \\quad \\mathrm{K}=\\ln \\left(\\frac{1}{8}\\right) \\\\\n& \\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\ln \\left(\\frac{1}{8}\\right) \\cdot \\mathrm{x}}=\\left(\\frac{1}{8}\\right)^x=2^{-3 \\mathrm{x}} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{aligned}$$\nNow, $$f\\left(\\frac{1}{4}\\right)=-5, g(-2)=2^6=64\\mathrm{g}(0)=1\\begin{aligned}\n\\text{So} \\quad & \\left(\\mathrm{f}\\left(\\frac{1}{4}\\right)+\\mathrm{g}(-2)-(8) \\mathrm{g}(0)\\right) \\\\\n& =(-5+64-8)(1)=51\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_007",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by\n\n$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)} . $$\n\nThen the number of solutions of $f(x)=0$ in $\\mathbb{R}$ is _________.",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\frac{\\left(\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025\\right)}{\\mathrm{e}^{\\pi \\mathrm{x}}\\left(\\mathrm{x}^2-\\mathrm{x}+3\\right)}(\\sin \\mathrm{x}+2) \\\\\n& \\because(\\sin \\mathrm{x}+2) \\text { is never zero } \\\\\n& \\therefore \\text { for } \\mathrm{x}^{2223}+2024 \\mathrm{x}+2025=0 \\\\\n& \\text { let } \\phi(\\mathrm{x})=\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025 \\\\\n& \\phi^{\\prime}(\\mathrm{x})=2023 \\mathrm{x}^{2022}+2024>0 \\forall \\mathrm{x} \\in \\mathrm{R} \\\\\n& \\therefore \\phi(\\mathrm{x}) \\text { is an Strictly Increasing function } \\\\\n& \\therefore \\phi(\\mathrm{x})=0 \\text { for exactly one value of } \\mathrm{x} \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x})=0 \\text { has one solution }\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_008",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the function f : [0, 1] $$ \\to $$ R be defined by\n\n$$f(x) = {{{4^x}} \\over {{4^x} + 2}}$$\n\nThen the value of $$f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)$$ is ..........",
+    "solution": "The given function f : [0, 1] $$ \\to $$ R be define by\n\n$$f(x) = {{{4^x}} \\over {{4^x} + 2}} \\because f(1 - x) = {{{4^{1 - x}}} \\over {{4^{1 - x}} + 2}} = {2 \\over {2 + {4^x}}} \\therefore f(x) + f(1 - x) = {{{4^x}} \\over {{4^x} + 2}} + {2 \\over {2 + {4^x}}} = {{{4^x} + 2} \\over {{4^x} + 2}}$$\n\nSo, f(x) + f(1 $$-$$ x) = 1 .....(i)\n\n$$ \\therefore f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right) = \\left[ {f\\left( {{1 \\over {40}}} \\right) + f\\left( {{{39} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{2 \\over {40}}} \\right) + f\\left( {{{38} \\over {40}}} \\right)} \\right] + ... + \\left[ {f\\left( {{{18} \\over {40}}} \\right) + f\\left( {{{22} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{19} \\over {40}}} \\right) + f\\left( {{{21} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{20} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)} \\right] = \\{ 1 + 1 + ... + 1 + 1\\} + f\\left( {{1 \\over 2}} \\right) - f\\left( {{1 \\over 2}} \\right) = \\{ 1 + 1 + ... + 1 + 1\\}$$(19 times)\n{from Eq. (i)}\n\n= 19.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_009",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the function $$f:(0,\\pi ) \\to R$$ be defined by $$f(\\theta ) = {(\\sin \\theta + \\cos \\theta )^2} + {(\\sin \\theta - \\cos \\theta )^4}$$\n\nSuppose the function f has a local minimum at $$\\theta $$ precisely when $$\\theta \\in \\{ {\\lambda _1}\\pi ,....,{\\lambda _r}\\pi \\} $$, where $$0 < {\\lambda _1} < ...{\\lambda _r} < 1$$. Then the value of $${\\lambda _1} + ... + {\\lambda _r}$$ is .............",
+    "solution": "The given function f : R $$ \\to $$ R be defined by\n\n$$f(\\theta ) = {(\\sin \\theta + \\cos \\theta )^2} + {(\\sin \\theta - \\cos \\theta )^4} = 1 + \\sin 2\\theta + {(1 - \\sin 2\\theta )^2} = 1 + \\sin 2\\theta + 1 + {\\sin ^2}2\\theta - 2\\sin 2\\theta = {\\sin ^2}2\\theta - \\sin 2\\theta + 2 = {\\left( {\\sin 2\\theta - {1 \\over 2}} \\right)^2} + {7 \\over 4}$$\n\nThe local minimum of function 'f' occurs when\n\n$$\\sin 2\\theta = {1 \\over 2} \\Rightarrow 2\\theta = {\\pi \\over 6},\\,{{5\\pi } \\over 6},\\,{{13\\pi } \\over 6},\\,... \\Rightarrow \\theta = {\\pi \\over {12}},\\,{{5\\pi } \\over {12}},\\,{{13\\pi } \\over {12}},\\,...$$\n\nbut $$\\theta \\in \\{ {\\lambda _1}\\pi ,\\,{\\lambda _2}\\pi ,\\,...,\\,{\\lambda _r}\\pi \\} $$,\n\nwhere $$0 < {\\lambda _1} < .... < {\\lambda _r} < 1$$.\n\n$$ \\therefore \\theta = {\\pi \\over {12}},\\,{{5\\pi } \\over {12}}$$\n\nSo, $${\\lambda _1} + ... + {\\lambda _r} = {1 \\over {12}} + {5 \\over {12}} = 0.50$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_010",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : [0, 2] $$ \\to $$ R be the function defined by\n\n$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi \\over 4}} \\right)$$\n\nIf $$\\alpha ,\\,\\beta \\in [0,2]$$ are such that $$\\{ x \\in [0,2]:f(x) \\ge 0\\} = [\\alpha ,\\beta ]$$, then the value of $$\\beta - \\alpha $$ is ..........",
+    "solution": "The given function f : [0, 2] $$ \\to $$ R defined by\n\n$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi \\over 4}} \\right) = (3 - \\sin (2\\pi x))\\left[ {{{\\sin \\pi x} \\over {\\sqrt 2 }} - {{\\cos \\pi x} \\over {\\sqrt 2 }}} \\right] - \\left\\{ {{{\\sin 3\\pi x} \\over {\\sqrt 2 }} + {{\\cos (3\\pi x)} \\over {\\sqrt 2 }}} \\right\\} = (3 - \\sin (2\\pi x)){{[\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }} - {1 \\over {\\sqrt 2 }}[3\\sin (\\pi x) - 4{\\sin ^3}(\\pi x) + 4{\\cos ^3}(\\pi x) - 3\\cos (\\pi x)] = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[3 - \\sin (2\\pi x) - 3 + 4\\{ {\\sin ^2}(\\pi x) + {\\cos ^2}(\\pi x) + \\sin (\\pi x)\\cos (\\pi x)\\} ] = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[4 + \\sin (2\\pi x)]$$\n\nAs, $$f(x) \\ge 0\\forall \\in [\\alpha ,\\beta ]$$, where $$\\alpha ,\\beta \\in [0,2]$$, so\n\n$$\\sin (\\pi x) - \\cos (\\pi x) \\ge 0$$\n\nas $$4 + \\sin (2\\pi x) > 0\\,\\forall x \\in R$$.\n\n$$ \\Rightarrow \\pi x \\in \\left[ {{\\pi \\over 4},{{5\\pi } \\over 4}} \\right] \\Rightarrow x \\in \\left[ {{1 \\over 4},{5 \\over 4}} \\right] \\therefore \\alpha = {1 \\over 4}$$ and $$\\beta = {5 \\over 4}$$\n\nTherefore the value of $$(\\beta - \\alpha ) = 1$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_011",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a polynomial g(x) with real coefficients, let m$_{g}$ denote the number of distinct real roots of g(x). Suppose S is the set of polynomials with real coefficients defined by\n\n$$S = \\{ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):{a_0},{a_1},{a_2},{a_3} \\in R\\} $$;\n\nFor a polynomial f, let f' and f'' denote its first and second order derivatives, respectively. Then the minimum possible value of (m$_{f'}$ + m$_{f''}$), where f $$ \\in $$ S, is ..............",
+    "solution": "Given set S of polynomials with real coefficients\n\n$$S = \\{ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):{a_0},{a_1},{a_2},{a_3} \\in R\\} $$\n\nand for a polynomial $$f \\in S$$, Let\n\n$$f(x) = {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3})$$\n\nit have $$-$$1 and 1 as repeated roots twice, so graph of f(x) touches the X-axis at x = $$-$$1 and x = 1, so f'(x) having at least three roots x = $$-$$1, 1 and $$\\alpha $$. Where $$\\alpha \\in $$($$-$$1, 1) and f''(x) having at least two roots in interval ($$-$$1, 1)\n\nSo, m$_{f'}$ = 3 and m$_{f''}$ = 2\n\n$$ \\therefore $$ Minimum possible value of (m$_{f'}$ + m$_{f''}$) = 5",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_012",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let X be a set with exactly 5 elements and Y be a set with exactly 7 elements. If $$\\alpha $$ is the number of one-one functions from X to Y and $$\\beta $$ is the number of onto functions from Y to X, then the value of $${1 \\over {5!}}(\\beta - \\alpha )$$ is ..................",
+    "solution": "Given, X has exactly 5 elements and Y has exactly 7 elements.\n\n$$ \\therefore $$ n(X) = 5\n\nand n(Y) = 7\n\nNow, number of one-one functions from X to Y is\n\n$$\\alpha = {}^7{P_5} = {}^7{C_5} \\times 5!$$\n\nNumber of onto functions from Y to X is $$\\beta $$\n\n[Diagram]\n\n1, 1, 1, 1, 3 or 1, 1, 1, 2, 2\n\n$$ \\therefore \\beta = {{7!} \\over {3!4!}} \\times 5! + {{7!} \\over {{{(2!)}^3}3!}} \\times 5! = ({}^7{C_3} + 3{}^7{C_3})5! = 4 \\times {}^7{C_3} \\times 5! \\therefore {{\\beta - \\alpha } \\over {5!}} = {{(4 \\times {}^7{C_3} - {}^7{C_5})5!} \\over {5!}} = 4 \\times 35 - 21 = 140 - 21 = 119$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx12yug0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_013",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the function $$f(x) = {x^3} + {e^{x/2}}$$ and $$g(x) = {f^{ - 1}}(x)$$, then the value of $$g'(1)$$ is _________.",
+    "solution": "We have $$f(0) = 1,f'(x) = 3{x^2} + {1 \\over 2}{e^{x/2}} \\Rightarrow f'(g(x))g'(x) = 1$$\nSubstituting $$x = 0 \\Rightarrow g'(1) = {1 \\over {f'(0)}} = 2$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_functions_014",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?",
+    "solution": "$$\nS=(0,1) \\cup(1,2) \\cup(3,4) \\text { and } T=\\{0,1,2,3\\} \\text {. }\n$$\n\nLet domain and co-domain of a function $y=f(x)$ are $S$ and $T$ respectively.\n\n(A) There are infinitely many elements in domain and four elements in co-domain.\n\n$\\Rightarrow$ There are infinitely many functions from $S$ to $T$.\n\n$\\Rightarrow$ Option $(A)$ is correct\n\n(B) If number of elements in domain is greater than number of elements in co-domain, then number of strictly increasing function is zero.\n\n$\\Rightarrow$ Option (B) is incorrect\n\n(C) Maximum number of continuous functions = $4 \\times 4 \\times 4=64$\n\n(Every subset $(0,1),(1,2),(3,4)$ has four choices)\n\n$\\because 64 < 120 \\Rightarrow$ option (C) is correct.\n\n(D) For every point at which $f(x)$ is continuous, $f(x)=0$\n\n$\\Rightarrow$ Every continuous function from $S$ to $T$ is differentiable.\n\nOption (D) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "There are infinitely many functions from $S$ to $T$",
+      "There are infinitely many strictly increasing functions from $S$ to $T$",
+      "The number of continuous functions from $S$ to $T$ is at most 120",
+      "Every continuous function from $S$ to $T$ is differentiable"
+    ]
+  },
+  {
+    "id": "math_functions_015",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f:[0,1] \\rightarrow[0,1]$ be the function defined by $f(x)=\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36}$. Consider the square region $S=[0,1] \\times[0,1]$. Let $G=\\{(x, y) \\in S: y>f(x)\\}$ be called the green region and $R=\\{(x, y) \\in S: y < f(x)\\}$ be called the red region. Let $L_h=\\{(x, h) \\in S: x \\in[0,1]\\}$ be the horizontal line drawn at a height $h \\in[0,1]$. Then which of the following statements is(are) true?",
+    "solution": "$\\begin{aligned} \\text { Given } f:[0,1] & \\rightarrow[0,1] \\\\\\\\ f(x) & =\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36} \\\\\\\\ f^{\\prime}(x) & =\\frac{3 x^2}{3}-2 x+\\frac{5}{9}\\end{aligned}$\n\n$\\begin{aligned} & \\quad f^{\\prime}(x)=0 \\\\\\\\ & 9 x^2-18 x+5=0 \\\\\\\\ & \\Rightarrow 9 x^2-15 x-3 x+5=0 \\\\\\\\ & \\Rightarrow 3 x(3 x-5)-1(3 x-5)=0 \\\\\\\\ & \\Rightarrow(3 x-5)(3 x-1)=0 \\\\\\\\ & \\Rightarrow x=\\frac{1}{3} \\text { or } \\frac{5}{3} \\\\\\\\ & f^{\\prime \\prime}(x)=2 x-2 \\\\\\\\ & f^{\\prime \\prime}\\left(\\frac{1}{3}\\right)=\\frac{2}{3}-2<0 \\text { point of maxima }\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} \\text { Area }_{\\text {red }} & =\\int_0^1 f(x) d x \\\\\\\\ & =\\left[\\frac{x^4}{12}-\\frac{x^3}{3}+\\frac{5 x^2}{18}+\\frac{17 x}{36}\\right]_0^1 \\\\\\\\ & =\\frac{1}{12}-\\frac{1}{3}+\\frac{5}{18}+\\frac{17}{36} \\\\\\\\ & =\\frac{3-12+10+17}{36} \\\\\\\\ & =\\frac{18}{36}=\\frac{1}{2}=0.5 \\\\\\\\ \\therefore (\\text { Area })_{\\text {green }} & =1-\\frac{1}{2}=0.5\\end{aligned}$\n\n(A) $1-h=h-\\frac{1}{2} \\Rightarrow h=\\frac{3}{4}, \\frac{3}{4}>\\frac{2}{3}$ option (A) is incorrect\n\n(B) $h=\\frac{1}{2}-h \\Rightarrow h=\\frac{1}{4} \\Rightarrow$ option (B) is correct.\n\n(C) $\\int\\limits_0^1 f(x) d x=\\frac{1}{2}, \\int\\limits_0^1 \\frac{1}{2} d x=\\frac{1}{2} \\Rightarrow \\int\\limits_0^1\\left(f(x)-\\frac{1}{2}\\right) d x=0$\n\n$\\Rightarrow h=\\frac{1}{2} \\Rightarrow$ option (C) is correct.\n\n(D) $\\because$ Option (C) is correct $\\Rightarrow$ option (D) is also correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the green region below the line $L_h$",
+      "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the red region below the line $L_h$",
+      "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the red region below the line $L_h$",
+      "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the green region below the line $L_k$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrv25etz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_016",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$|M|$$ denote the determinant of a square matrix $$M$$. Let $$g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$$ be the function defined by\n$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$\nwhere\n$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right| .\n$$\nLet $$p(x)$$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $$g(\\theta)$$, and $$p(2)=2-\\sqrt{2}$$. Then, which of the following is/are TRUE ?",
+    "solution": "Given,\n$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right|\n$$\nHere $\\cos \\left(\\theta+\\frac{\\pi}{4}\\right)=-\\sin \\left(\\theta-\\frac{\\pi}{4}\\right)$\n\nand $\\tan \\left(\\theta-\\frac{\\pi}{4}\\right)=-\\cot \\left(\\theta+\\frac{\\pi}{4}\\right)$\n\nand $\\log _e\\left(\\frac{4}{\\pi}\\right)=-\\log _e\\left(\\frac{\\pi}{4}\\right)$\n\nAlso $\\sin \\pi=-\\cos \\frac{\\pi}{2}=\\tan \\pi=0$\n$$ \\Rightarrow\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n2 & \\sin \\theta & 1 \\\\\n0 & 1 & \\sin \\theta \\\\\n0 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n0 & -\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & 0 & \\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) \\\\\n-\\tan \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) & 0\n\\end{array}\\right|\n\n\\begin{aligned}\n& f(\\theta)=\\left(1+\\sin ^2 \\theta\\right)+0 \\text { (skew symmetric) } \\\\\\\\\n& g(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1} \\\\\\\\\n& =|\\sin \\theta|+|\\cos \\theta| \\quad \\\\\\\\\n& g(\\theta) \\in[1, \\sqrt{2}] \\text { for } \\theta \\in\\left[0, \\frac{\\pi}{2}\\right]\n\\end{aligned}\n$$\nAgain let $\\mathrm{P}(\\mathrm{x})=\\mathrm{k}(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)$\n\n$$\n\\begin{aligned}\n& 2-\\sqrt{2}=\\mathrm{k}(2-\\sqrt{2})(2-1) \\\\\\\\\n& \\Rightarrow \\mathrm{k}=1 \\quad(\\mathrm{P}(2)=2-\\sqrt{2} \\text { given }) \\\\\\\\\n& \\therefore \\mathrm{P}(\\mathrm{x})=(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)\n\\end{aligned}\n$$\nFor option (A) $P\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$ Correct.\n\nFor option (B) $P\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)<0$ Incorrect.\n\nFor option (C) $P\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$ Correct.\n\nFor option (D) $P\\left(\\frac{5-\\sqrt{2}}{4}\\right)>0$ Incorrect.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$$",
+      "$$p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$$",
+      "$$p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$$",
+      "$$p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$$"
+    ]
+  },
+  {
+    "id": "math_functions_017",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x) = \\sin \\left( {{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)} \\right)$$ for all $$x \\in R$$ and g(x) = $${{\\pi \\over 2}\\sin x}$$ for all x$$\\in$$R. Let $$(f \\circ g)(x)$$ denote f(g(x)) and $$(g \\circ f)(x)$$ denote g(f(x)). Then which of the following is/are true?",
+    "solution": "(a) $$f(x) = \\sin \\left[ {{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)} \\right],\\,x \\in R = \\sin \\left( {{\\pi \\over 6}\\sin \\theta } \\right),\\,\\theta \\in \\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right]$$,\nwhere, $$\\theta = {\\pi \\over 2}\\sin x = \\sin \\alpha ,\\alpha \\in \\left[ { - {\\pi \\over 6},{\\pi \\over 6}} \\right]$$,\nwhere, $$\\alpha = {\\pi \\over 6}\\sin \\theta \\thereforef(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$\nHence, range of $$f(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$\nSo, option (a) is correct.\n(b) $$f\\{ g(x)\\} = f(t),t \\in \\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right] \\Rightarrow f(t) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]\\therefore$$ Option (b) is correct.\n(c) $$\\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over {g(x)}} = \\mathop {\\lim }\\limits_{x \\to 0} {{\\sin \\left[ {{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)} \\right]} \\over {{\\pi \\over 2}(\\sin x)}} = \\mathop {\\lim }\\limits_{x \\to 0} {{\\sin \\left[ {{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)} \\right]} \\over {{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)}}\\,.\\,{{{\\pi \\over 6}\\sin \\left( {{\\pi \\over 2}\\sin x} \\right)} \\over {\\left( {{\\pi \\over 2}\\sin x} \\right)}} = 1 \\times {\\pi \\over 6} \\times 1 = {\\pi \\over 6}\\therefore$$ Option (c) is correct.\n(d) $$g\\{ f(x)\\} = 1 \\Rightarrow {\\pi \\over 2}\\sin \\{ f(x)\\} = 1 \\Rightarrow \\sin \\{ f(x)\\} = {2 \\over \\pi }$$ ..... (i)\nBut, $$f(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right] \\subset \\left[ { - {\\pi \\over 6},{\\pi \\over 6}} \\right]\\therefore\\sin \\{ f(x)\\} \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$ ..... (ii)\n$$ \\Rightarrow \\sin \\{ f(x)\\}\ne {2 \\over \\pi }$$, [from Eqs. (i) and (ii)]\ni.e. No solution.\n$$\\therefore$$ Option (d) is not correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Range of f is $$\\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$.",
+      "Range of f $$\\circ$$ g is $$\\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$.",
+      "$$\\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over {g(x)}} = {\\pi \\over 6}$$.",
+      "There is an x$$\\in$$R such that (g $$\\circ$$ f)(x) = 1."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyamujkh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_018",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For every pair of continuous function f, g : [0, 1] $$\\to$$ R such that max {f(x) : x $$\\in$$ [0, 1]} = max {g(x) : x $$\\in$$ [0, 1]}. The correct statement(s) is (are)",
+    "solution": "Suppose f(x) is maximum at c$_{1}$ and g(x) is maximum at c$_{2}$. When f(x) is maximum g(x) may or may not be maximum.\n\n\n[Diagram]\n\nTherefore, in the function h(x) = f(x) $$-$$ g(x), we get\n\n$$h({c_1}) = f({c_1}) - g({c_1}) \\ge 0$$ and $$h({c_2}) = f({c_2}) - g({c_2}) \\ge 0$$.\n\nTherefore, h(x) = 0 for some c $$\\in$$ [0, 1].\n\n\n[Diagram]\n\nTherefore, $$h(c) = 0 \\Rightarrow f(c) - g(c) = 0$$.\n\nTherefore, $$f(c) = g(c)$$.\n\nOption (a) $$ \\Rightarrow {f^2}(c) - {g^2}(c) + 3[f(c) - g(c)] = 0$$ which is true from Eq. (i).\n\nOption (d) $$ \\Rightarrow {f^2}(c) - {g^2}(c) = 0$$ which is true from Eq. (i)\n\nNow, if we take\n\nf(x) = 1 and g(x) = 1, $$\\forall$$x $$\\in$$[0, 1]\n\nOption (b) and (c) does not hold. Hence, option (a) and (d) are correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "[f(c)]$^{2}$ + 3f(c) = [g(c)]$^{2}$ + 3g(c) for some c $$\\in$$ [0, 1]",
+      "[f(c)]$^{2}$ + f(c) = [g(c)]$^{2}$ + 3g(c) for some c $$\\in$$ [0, 1]",
+      "[f(c)]$^{2}$ + 3f(c) = [g(c)]$^{2}$ + g(c) for some c $$\\in$$ [0, 1]",
+      "[f(c)]$^{2}$ = [g(c)]$^{2}$ for some c $$\\in$$ [0, 1]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyamujkh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_019",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right) \\to R$$ be given by $$f(x) = {[\\log (\\sec x + \\tan x)]^3}$$. Then,",
+    "solution": "$$f:\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right) \\to Rf(x) = {[\\log (\\sec x + \\tan x)]^3}f( - x) = {[\\log (\\sec x - \\tan x)]^3} = {\\left[ {\\log \\left( {{{(\\sec x - \\tan x)(\\sec x + \\tan x)} \\over {\\sec x + \\tan x}}} \\right)} \\right]^3} = {\\left[ {\\log \\left( {{1 \\over {\\sec x + \\tan x}}} \\right)} \\right]^3} = {[ - \\log (\\sec x + \\tan x)]^3} = - {[\\log (\\sec x + \\tan x)]^3} = - f(x)\\therefore$$ f is an odd function. (a) is correct and (d) is not correct.\n\nAlso,\n\n$$f'(x) = 3{[\\log (\\sec x + \\tan x)]^2}\\,.\\,{{\\sec x\\tan x + {{\\sec }^2}x} \\over {\\sec x + \\tan x}} = 3\\sec x{[\\log (\\sec x + \\tan x)]^2} > 0\\,\\forall x \\in \\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)\\therefore$$ f is increasing on $$\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$\n\nWe know that strictly increasing function is one one.\n\n$$\\therefore$$ f is one one\n\n$$\\therefore$$ (b) is correct.\n\n$$(\\sec x + \\tan x) = \\tan \\left( {{\\pi \\over 4} + {\\pi \\over 2}} \\right)$$\n\nas $$x \\in \\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$, then\n\n$$0 < \\tan \\left( {{\\pi \\over 4} + {\\pi \\over 2}} \\right) < \\infty 0 < \\sec x + \\tan x < \\infty \\Rightarrow - \\infty < \\ln (\\sec x + \\tan x) < \\infty - \\infty < {[\\ln (\\sec x + \\tan x)]^3} < \\infty \\Rightarrow - \\infty < f(x) < \\infty $$\n\nRange of f(x) is R and thus f(x) is an onto function.\n\n$$\\therefore$$ (c) is correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "f(x) is an odd function",
+      "f(x) is a one-one function",
+      "f(x) is an onto function",
+      "f(x) is an even function"
+    ]
+  },
+  {
+    "id": "math_functions_020",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:( - 1,1) \\to R$$ be such that $$f(\\cos 4\\theta ) = {2 \\over {2 - {{\\sec }^2}\\theta }}$$ for $$\\theta \\in \\left( {0,{\\pi \\over 4}} \\right) \\cup \\left( {{\\pi \\over 4},{\\pi \\over 2}} \\right)$$. Then the value(s) of $$f\\left( {{1 \\over 3}} \\right)$$ is(are)",
+    "solution": "$$f(\\cos 4\\theta ) = {2 \\over {2 - {{\\sec }^2}\\theta }}$$\nLet $$\\cos 4\\theta = t \\Rightarrow 2{\\cos ^2}2\\theta - 1 = t \\Rightarrow {\\cos ^2}2\\theta = {2 \\over 3}$$\nFor $$t = {1 \\over 3}$$ we have $${\\cos ^2}2\\theta = {2 \\over 3}\\cos 2\\theta = \\sqrt {{2 \\over 3}} $$ or $$\\cos 2\\theta = - \\sqrt {{2 \\over 3}} f(\\cos 4\\theta ) = {2 \\over {2 - {1 \\over {{{\\cos }^2}\\theta }}}} = {{2{{\\cos }^2}\\theta } \\over {2{{\\cos }^2}\\theta - 1}} = {{1 + \\cos 2\\theta } \\over {\\cos 2\\theta }} = 1 + {1 \\over {\\cos 2\\theta }}$$\nHence, $$f\\left( {{1 \\over 3}} \\right) = 1 + \\sqrt {{3 \\over 2}} $$ or $$1 - \\sqrt {{3 \\over 2}} $$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$1 - \\sqrt {{3 \\over 2}} $$",
+      "$$1 + \\sqrt {{3 \\over 2}} $$",
+      "$$1 - \\sqrt {{2 \\over 3}} $$",
+      "$$1 + \\sqrt {{2 \\over 3}} $$"
+    ]
+  },
+  {
+    "id": "math_functions_021",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:(0,1) \\to R$$ be defined by $$f(x) = {{b - x} \\over {1 - bx}}$$, where b is a constant such that $$0 < b < 1$$. Then",
+    "solution": "Here, $$f(x) = {{b - x} \\over {1 - bx}}$$\nwhere, 0 < b < 1, 0 < x < 1\nFor function to be invertible it should be one-one onto.\n$$\\therefore$$ Check range :\nLet $$f(x) = y \\Rightarrow y = {{b - x} \\over {1 - bx}} \\Rightarrow y - bxy = b - x \\Rightarrow x(1 - by) = b - y \\Rightarrow x = {{b - y} \\over {1 - by}}$$\nwhere, 0 < x < 1\n$$\\therefore0 < {{b - y} \\over {1 - by}} < 1{{b - y} \\over {1 - by}} > 0$$ and $${{b - y} \\over {1 - by}} < 1 \\Rightarrow y < b$$ or $$y > {1 \\over b}$$ .... (i)\n$${{(b - 1)(y + 1)} \\over {1 - by}} < - 1 < y < {1 \\over b}$$ ..... (ii)\nFrom Eqs. (i) and (ii), we get\n$$y \\in \\left( { - 1,{1 \\over b}} \\right) \\subset $$ Codomain\nThus, f(x) is not invertible.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "f is not invertible on (0, 1).",
+      "f $$\ne$$ f$^{$$-$$1}$ on (0, 1) and $$f'(b) = {1 \\over {f'(0)}}$$.",
+      "f = f$^{$$-$$1}$ on (0, 1) and $$f'(b) = {1 \\over {f'(0)}}$$.",
+      "f$^{$$-$$1}$ is differentiable on (0, 1)."
+    ]
+  },
+  {
+    "id": "math_functions_022",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${E_1} = \\left\\{ {x \\in R:x\ne 1\\,and\\,{x \\over {x - 1}} > 0} \\right\\}$$ and\n\n$${E_2} = \\left\\{ \\matrix{\nx \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr\nis\\,a\\,real\\,number \\hfill \\cr} \\right\\}$$\n\n(Here, the inverse trigonometric function $${\\sin ^{ - 1}}$$ x assumes values in $$\\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right]$$.).\n\nLet f : E$_{1}$ $$ \\to $$ R be the function defined by f(x) = $${{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)}$$ and g : E$_{2}$ $$ \\to $$ R be the function defined by g(x) = $${\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right)$$.\n\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid black;\npadding: 10px;\n}\ntd {\nborder: 1px solid black;\npadding: 10px;\ntext-align: left;\n}\n\n\n\nLIST-I\nLIST-II\n\n\nP. The range of $f$ is\n1. $\\left( -\\infty, \\frac{1}{1-e} \\right] \\cup \\left[ \\frac{e}{e-1}, \\infty \\right)$\n\n\nQ. The range of $g$ contains\n2. $(0, 1)$\n\n\nR. The domain of $f$ contains\n3. $\\left[ -\\frac{1}{2}, \\frac{1}{2} \\right]$\n\n\nS. The domain of $g$ is\n4. $(-\\infty, 0) \\cup (0, \\infty)$\n\n\n\n5. $\\left( -\\infty, \\frac{e}{e-1} \\right)$\n\n\n\n6. $(-\\infty, 0) \\cup \\left( \\frac{1}{2}, \\frac{e}{e-1} \\right]$\n\nThe correct option is :",
+    "solution": "We have,\n\n$${E_1} = \\left\\{ {x \\in R:x\ne 1\\,and\\,{x \\over {x - 1}} > 0} \\right\\} \\therefore {E_1} = {x \\over {x - 1}} > 0$$\n\n[Diagram]\n\n$${E_1} = x \\in ( - \\infty ,0) \\cup (1,\\infty )$$\n\nand $${E_2} = \\left\\{ \\matrix{\nx \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr\nis\\,a\\,real\\,number \\hfill \\cr} \\right\\}{E_2} = - 1 \\le {\\log _e}{x \\over {x - 1}} \\le 1 \\Rightarrow {e^{ - 1}} \\le {x \\over {x - 1}} \\le e$$\n\nNow, $${x \\over {x - 1}} \\ge {e^{ - 1}} \\Rightarrow {x \\over {x - 1}} - {1 \\over e} \\ge 0 \\Rightarrow {{ex - x + 1} \\over {e(x - 1)}} \\ge 0 \\Rightarrow {{x(e - 1) + 1} \\over {(x - 1)e}} \\ge 0$$\n\n[Diagram]\n\n$$ \\Rightarrow x \\in \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right) \\cup (1,\\infty )$$\n\nAlso, $${x \\over {x - 1}} \\le e \\Rightarrow {{(e - 1)x - e} \\over {x - 1}} \\ge 0$$\n\n[Diagram]\n\n$$ \\Rightarrow x \\in ( - \\infty ,\\,1) \\cup \\left[ {{e \\over {e - 1}},\\infty } \\right)$$\n\nSo, $${E_2} = \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right) \\therefore $$ The domain of f and g are\n\n$$\\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right)$$\n\nand Range of $${x \\over {x - 1}}$$ is R$^{+}$ $$-$$ {1}\n\n$$ \\Rightarrow $$ Range of f is R $$-$$ {0} or ($$-\\infty $$, 0) $$ \\cup $$ (0, $$\\infty $$)\n\nRange of g is $$\\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right] - \\{ 0\\} $$ or $$\\left[ { - {\\pi \\over 2},0} \\right) \\cup \\left( {0,{\\pi \\over 2}} \\right]$$\n\nNow, P $$ \\to $$ 4, Q $$ \\to $$ 2, R $$ \\to $$ 1, S $$ \\to $$ 1\n\nHence, option (a) is correct answer.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 1",
+      "P $$ \\to $$ 3; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5",
+      "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 6",
+      "P $$ \\to $$ 4; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx13g6z6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_023",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let S = {1, 2, 3, .........., 9}. For k = 1, 2, .........., 5, let N$_{k}$ be the number of subsets of S, each containing five elements out of which exactly k are odd. Then N$_{1}$ + N$_{2}$ + N$_{3}$ + N$_{4}$ + N$_{5}$ =",
+    "solution": "$${N_i} = {}^5{C_k} \\times {}^4{C_{5 - k}}\\eqalign{\n& {N_1} = 5 \\times 1 \\cr\n& {N_2} = 10 \\times 4 \\cr\n& {N_3} = 10 \\times 6 \\cr\n& {N_4} = 5 \\times 4 \\cr\n& {N_5} = 1 \\cr\n& {N_1} + {N_2} + {N_3} + {N_4} + {N_5} = 126 \\cr} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "210",
+      "252",
+      "126",
+      "125"
+    ]
+  },
+  {
+    "id": "math_functions_024",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f$_{1}$ : R $$ \\to $$ R, f$_{2}$ : [0, $$\\infty $$) $$ \\to $$ R, f$_{3}$ : R $$ \\to $$ R, and f$_{4}$ : R $$ \\to $$ [0, $$\\infty $$) be defined by\n$${f_1}\\left( x \\right) = \\left\\{ {\\matrix{\n{\\left| x \\right|} & {if\\,x < 0,} \\cr\n{{e^x}} & {if\\,x \\ge 0;} \\cr\n\n} } \\right.$$\nf$_{2}$(x) = x$^{2}$ ;\n$${f_3}\\left( x \\right) = \\left\\{ {\\matrix{\n{\\sin x} & {if\\,x < 0,} \\cr\nx & {if\\,x \\ge 0;} \\cr\n\n} } \\right.$$\nand\n$${f_4}\\left( x \\right) = \\left\\{ {\\matrix{\n{{f_2}\\left( {{f_1}\\left( x \\right)} \\right)} & {if\\,x < 0,} \\cr\n{{f_2}\\left( {{f_1}\\left( x \\right)} \\right) - 1} & {if\\,x \\ge 0;} \\cr\n\n} } \\right.$$\n\n[Diagram]",
+    "solution": "$$\\text { Given } f_2(x)=x^2 \\text { for } x \\in[0, \\infty) \\text { and co-domain } \\mathrm{R} \\text {. }$$\n\n[Diagram]\n\nIt is clear that $$f_2(x)$$ is continuous, differential and one-one but not onto because range of $$f_2(x)$$ is $$[0, \\infty)$$ and given co-domain is R.\nHence $$S$$ match with 4.\nGiven, $$f_3(x)=\\left\\{\\begin{array}{cc}\\sin x, & \\text { if } x<0 \\\\ x, & \\text { if } x \\geq 0\\end{array}\\right.$$. Domain of $$f_2(x)$$ is $$R$$ and co-domain $$R$$.\nDraw the graph of $$f_3(x)$$\n\n[Diagram]\n\nRange of $$f_3(x) \\in(-\\infty, 1]\neq$$ co-domain of $$f_3(x)$$\nSo, $$f_3(x)$$ is not onto.\n$$\\because \\sin x$$ is not one-one function for $$x \\geq 0\\therefore f_3(x)$$ is not one-one function.\nWe know $$y=\\sin x$$ and $$y=x$$ both are continuous in the given domain.\nAt $$\\quad x=0\\begin{aligned}\n\\lim _{x \\rightarrow 0^{+}} f_3(x) & =\\lim _{x \\rightarrow 0^{+}} \\sin x=0 \\\\\n\\lim _{x \\rightarrow 0^{-}} f_3(x) & =\\lim _{x \\rightarrow 0^{-}} x=0 \\\\\nf_3(0) & =\\sin 0=0 \\\\\n\\Rightarrow \\lim _{x \\rightarrow 0^{+}} f_3(x) & =\\lim _{x \\rightarrow 0^{-}} f_3(x)=f_3(0)\n\\end{aligned}\\therefore f_3(x)$$ is continuous for all $$x \\in \\mathrm{R}$$.\nWe know that $$y=\\sin x$$ and $$y=x$$ both are differentiable in the given domain R.H.D at $$x=0$$ is\n$$\\lim _\\limits{h \\rightarrow 0} \\frac{f_3(0+h)-f_3(0)}{h}=\\lim _\\limits{h \\rightarrow 0} \\frac{\\sin h-0}{h}=1$$\nL.H.D at $$x=0$$ is\n$$\\lim _\\limits{h \\rightarrow 0} \\frac{f_3(0-h)-f_3(0)}{-h}=\\lim _\\limits{h \\rightarrow 0} \\frac{-h-0}{-h}=1\\Rightarrow$$ R.H.D $$=$$ L.H.D at $$x=0\\therefore f_3(x)$$ is differentiable for all $$x \\in R$$.\nHence, Q match with 3.\nNow, $$f_2{ }^{\\circ} f_1(x)= \\begin{cases}x^2, & x<0 \\\\ e^{2 x}, & x \\geq 0\\end{cases}$$\nDraw the graph of $$y=f_2{ }^{\\circ} f_1(x)$$\n\n[Diagram]\nIt is clear that $$f_2{ }^{\\circ} f_1(x)$$ is neither continuous nor one-one.\nHence, R match with 2.\nGiven, $$f_4: \\mathrm{R} \\rightarrow[0, \\infty)$$ and\n$$f_4(x)=\\left\\{\\begin{array}{l}\nf_2\\left(f_1(x)\\right), \\text { if } x<0 \\\\\nf_2\\left(f_1(x)\\right)-1, \\text { if } x \\geq 0\n\\end{array}\\right.$$\nDraw the graph of $$y=f_4(x)$$\n\n[Diagram]\n\nRange of $$f_4(x)=$$ co-domain of $$f_4(x)=[0, \\infty)\\therefore \\quad f_4(x)$$ is an onto function\n$$f_4(x)$$ is continuous, on to but not one-one.\nHence, P match with 1.\nHint:\n(i) If $$f(x)$$ is continuous at $$x=a$$, if and only if $$\\lim _\\limits{x \\rightarrow a^{+}} f(x)=\\lim _\\limits{x \\rightarrow a^{-}} f(x)=f(a)$$.\n(ii) If $$f(x)$$ is differentiable at $$x=a$$ if and only if $$\\lim _\\limits{h \\rightarrow 0} \\frac{f(a+h)-f(a)}{h}=\\lim _\\limits{h \\rightarrow 0} \\frac{f(a-h)-f(a)}{-h}$$.\n(iii) If Range of $$f(x)=\\operatorname{co-domain}$$ of $$f(x)$$, then $$f(x)$$ is called an onto function.\n(iv) If $$f\\left(x_1\\right)=f\\left(x_2\\right)$$ is possible only for $$x_1=x_2$$, then $$f(x)$$ is called an one-one function.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P - 3, Q - 1, R - 4, S - 2",
+      "P - 1, Q - 3, R - 4, S - 2",
+      "P - 3, Q - 1, R - 2, S - 4",
+      "P - 1, Q - 3, R - 2, S - 4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1aapt43.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_025",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The function $$f:[0,3] \\to [1,29]$$, defined by $$f(x) = 2{x^3} - 15{x^2} + 36x + 1$$, is",
+    "solution": "The function $$f:[0,3] \\to [1,29]$$, defined by $$f(x) = 2x^3 - 15x^2 + 36x + 1$$, is :\n\nFirst, calculate the derivative of $ f $ :\n\n$$ f'(x) = 6x^2 - 30x + 36 $$\n\nWhich simplifies to :\n\n$$ f'(x) = 6(x^2 - 5x + 6) = 6(x - 2)(x - 3) $$\n\n[Diagram]\n\nFor the given domain $[0, 3]$, the function $ f(x) $ is both increasing and decreasing. Therefore, $ f(x) $ is many-to-one.\n\nSetting $ f'(x) = 0 $ gives the critical points :\n\n$$ x = 2, 3 $$\n\nWe now evaluate the function at these points within the domain to determine the range :\n\n$$ f(0) = 1 f(2) = 29 f(3) = 28 $$\n\nThus, the range of $ f $ is $[1, 29]$, indicating that the function is onto.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "one-one and onto.",
+      "onto but not one-one.",
+      "one-one but not onto.",
+      "neither one-one nor onto."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2535w42.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_026",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f(x) = x$^{2}$ and g(x) = sin x for all x $$\\in$$ R. Then the set of all x satisfying $$(f \\circ g \\circ g \\circ f)(x) = (g \\circ g \\circ f)(x)$$, where $$(f \\circ g)(x) = f(g(x))$$, is",
+    "solution": "$$f(x) = {x^2}$$, $$g(x) = \\sin x(g \\circ f)(x) = \\sin {x^2}g \\circ (g \\circ f)(x) = \\sin (\\sin {x^2})(f \\circ g \\circ g \\circ f)(x) = {(\\sin (\\sin {x^2}))^2}$$ ..... (i)\nAgain, $$(g \\circ f)(x) = \\sin {x^2}(g \\circ g \\circ f)(x) = \\sin (\\sin {x^2})$$ ..... (ii)\nGiven, $$(f \\circ g \\circ g \\circ f)(x) = (g \\circ g \\circ f)(x) \\Rightarrow {(\\sin (\\sin {x^2}))^2} = \\sin (\\sin {x^2}) \\Rightarrow \\sin (\\sin {x^2})\\{ \\sin (\\sin {x^2}) - 1\\} = 0 \\Rightarrow \\sin (\\sin {x^2}) = 0$$ or $$\\sin (\\sin {x^2}) = 1 \\Rightarrow \\sin {x^2} = 0$$ or $$\\sin {x^2} = {\\pi \\over 2}\\therefore{x^2} = n\\pi $$ (i.e. not possible as $$ - 1 \\le \\sin \\theta \\le 1$$)\n$$x = \\pm \\sqrt {n\\pi } $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ \\pm \\sqrt {n\\pi } ,\\,n \\in \\{ 0,1,2,....\\} $$",
+      "$$ \\pm \\sqrt {n\\pi } ,\\,n \\in \\{ 1,2,....\\} $$",
+      "$${\\pi \\over 2} + 2n\\pi ,\\,n \\in \\{ ....., - 2, - 1,0,1,2,....\\} $$",
+      "$$2n\\pi ,n \\in \\{ ....., - 2, - 1,0,1,2,....\\} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2wrw244.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_027",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements given in Column I with the intervals/union of intervals given in Column II :\n\n[Diagram]",
+    "solution": "(A) $$z = {{2i(x + iy)} \\over {1 - {{(x + iy)}^2}}} = {{2i(x + iy)} \\over {1 - ({x^2} - {y^2} + 2ixy)}}$$\nUsing $$1 - {x^2} = {y^2}$$, we get\n$$Z = {{2ix - 2y} \\over {2{y^2} - 2ixy}} = - {1 \\over y}$$\nSince $$ - 1 \\le y \\le 1 \\Rightarrow - {1 \\over y} \\le - 1$$ or $$ - {1 \\over y} \\ge 1$$.\n(B) For domain :\n$$ - 1 \\le {{8({3^{x - 2}})} \\over {1 - {3^{2(x - 1)}}}} \\le 1 \\Rightarrow - 1 \\le {{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x - 2}}}} \\le 1$$\nCase 1 : $${{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x - 2}}}} - 1 \\le 0$$.\n$$ \\Rightarrow {{({3^x} - 1)({3^{x - 2}} - 1)} \\over {({3^{2x - 2}} - 1)}} \\ge 0 \\Rightarrow x \\in ( - \\infty ,0] \\cup (1,\\infty )$$\nCase 2 : $${{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x}} - 2}} + 1 \\ge 0 \\Rightarrow {{({x^{x - 2}} - 1)({3^x} + 1)} \\over {({3^x}\\,.\\,{3^{x - 2}} - 1)}} \\ge 0 \\Rightarrow x \\in ( - \\infty ,1) \\cup [2,\\infty )$$\nSo, $$x \\in ( - \\infty ,0] \\cup [2,\\infty )$$.\n(C) R$_{1}$ $$\\to$$ R$_{1}$ + R$_{3}$ :\n$$f(\\theta ) = \\left| {\\matrix{\n0 & 0 & 2 \\cr\n{ - \\tan \\theta } & 1 & {\\tan \\theta } \\cr\n{ - 1} & { - \\tan \\theta } & 1 \\cr\n\n} } \\right| = 2({\\tan ^2}\\theta + 1) = 2{\\sec ^2}\\theta $$\n(D) $$f'(x) = {3 \\over 2}{(x)^{1/2}}(3x - 10) + {(x)^{3/2}} \\times 3 = {{15} \\over 2}{(x)^{1/2}}(x - 2)$$\nIncreasing, when $$x \\ge 2$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (P), (D) $$\\to$$ (Q)",
+      "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (R), (D) $$\\to$$ (P)",
+      "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (R), (D) $$\\to$$ (R)",
+      "(A) $$\\to$$ (P), (B) $$\\to$$ (Q), (C) $$\\to$$ (R), (D) $$\\to$$ (R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2wrw244.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_028",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f, g$ and $h$ be real valued functions defined on the interval $[0,1]$ by\n\n$f(x)=e^{x^2}+e^{-x^2}$,\n\n$g(x)=x e^{x^2}+e^{-x^2}$\n\nand $h(x)=x^2 e^{x^2}+e^{-x^2}$.\n\nIf $a, b$ and $c$ denote, respectively, the absolute maximum of $f, g$ and $h$ on $[0,1]$, then :",
+    "solution": "$$ \\begin{aligned} & f(x)=e^{x^2}+e^{-x^2} \\\\\\\\ & \\begin{aligned} f^{\\prime}(x) & =e^{x^2} \\frac{d}{d x}\\left(x^2\\right)+e^{-x^2} \\frac{d}{d x}\\left(-x^2\\right) \\\\\\\\ & =e^{x^2}(2 x)+e^{-x^2}(-2 x) \\\\\\\\ & =2 x\\left(e^{x^2}-e^{-x^2}\\right) \\geq 0 \\forall x \\in[0,1] \\\\\\\\ g(x) & =x e^{x^2}+e^{-x^2} \\\\\\\\ h(x) & =x^2 e^{x^2}+e^{-x^2} \\end{aligned} \\end{aligned} $$\nClearly for $0 \\leq x \\leq 1 \\quad f(x) \\geq g(x) \\geq h(x)$\n$\\because f(1)=g(1)=h(1)=e+\\frac{1}{e}$ and $f(1)$ is greatest\n$$ \\because a=b=c=e+\\frac{1}{e} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$a=b$ and $c\neq b$",
+      "$a=c$ and $a\neq b$",
+      "$a\neq b$ and $c\neq b$",
+      "$a=b=c$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdqv0f1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_029",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S=\\{1,2,3,4\\}$. The total number of unordered pairs of disjoint subsets of $S$ is equal to :",
+    "solution": "To solve this problem, we need to determine the total number of unordered pairs of disjoint subsets of the set $ S = \\{1, 2, 3, 4\\} $.\nUnderstanding the Problem:\n\nDisjoint Subsets: Two subsets $ A $ and $ B $ are disjoint if they have no elements in common, i.e., $ A \\cap B = \\emptyset $.\nUnordered Pairs: Pairs where $ \\{A, B\\} $ is considered the same as $ \\{B, A\\} $.\n\nApproach:\n\nCounting Ordered Pairs of Disjoint Subsets:\n\nFor each element in $ S $, it can be in:\n\nSubset $ A $ only,\nSubset $ B $ only,\nNeither $ A $ nor $ B $.\nNote: An element cannot be in both $ A $ and $ B $ because $ A $ and $ B $ are disjoint.\nTherefore, each element has 3 choices.\nTotal number of ordered pairs $ (A, B) $ is $ 3^4 = 81 $.\n\nIdentifying Ordered Pairs where $ A = B $:\n\nSince $ A $ and $ B $ are disjoint and $ A = B $, the only possibility is when both are the empty set.\nSo, there's 1 ordered pair where $ A = B = \\emptyset $.\n\nCalculating Unordered Pairs:\n\nOrdered Pairs with $ A\ne B $: $ 81 - 1 = 80 $.\nUnordered Pairs from Ordered Pairs with $ A\ne B $: Each unordered pair corresponds to 2 ordered pairs (since $ (A, B) $ and $ (B, A) $ are different but represent the same unordered pair).\nNumber of unordered pairs from $ A\ne B $ is $ \\frac{80}{2} = 40 $.\nInclude the pair where $ A = B = \\emptyset $: Add $ 1 $.\nTotal Unordered Pairs: $ 40 + 1 = 41 $.\n\nConclusion:\n\nThe total number of unordered pairs of disjoint subsets of $ S $ is 41.\n\nAnswer: Option D",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "25",
+      "34",
+      "42",
+      "41"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6aoj36u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_030",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the polynomial\n\n$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\n\nLet $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$\nThe real numbers lies in the interval",
+    "solution": "Given, $$f(x) = 4{x^3} + 3{x^2} + 2x + 1f'(x) = 2(6{x^2} + 3x + 1)D = 9 - 24 < 0$$\nHence, f(x) = 0 has only one real root.\n$$f\\left( { - {1 \\over 2}} \\right) = 1 - 1 + {3 \\over 4} - {4 \\over 8} > 0f\\left( { - {3 \\over 4}} \\right) = 1 - {6 \\over 4} + {{27} \\over {16}} - {{108} \\over {64}} = {{64 - 96 + 108 - 108} \\over {64}} < 0$$\nf(x) changes its sign in $$\\left( { - {3 \\over 4},{{ - 1} \\over 2}} \\right)$$,\nhence f(x) = 0 has a root in $$\\left( { - {3 \\over 4},{{ - 1} \\over 2}} \\right)$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( { - {1 \\over 4},0} \\right)$$",
+      "$$\\left( { - 11, - {3 \\over 4}} \\right)$$",
+      "$$\\left( { - {3 \\over 4}, - {1 \\over 2}} \\right)$$",
+      "$$\\left( {0,{1 \\over 4}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6aoj36u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_031",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the polynomial\n\n$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\n\nLet $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$\nThe function$$f'(x)$$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "increasing in $$\\left( { - t, - {1 \\over 4}} \\right)$$ and decreasing in $$\\left( { - {1 \\over 4},t} \\right)$$",
+      "decreasing in $$\\left( { - t, - {1 \\over 4}} \\right)$$ and increasing in $$\\left( { - {1 \\over 4},t} \\right)$$",
+      "increasing in $$(-t, t)$$",
+      "decreasing in $$(-t, t)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6aoj36u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_032",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f''(x)=-f(x)$$ and $$g(x)=f'(x)$$ and $$\\mathrm{F}(x)=\\left(f\\left(\\frac{x}{2}\\right)\\right)^{2}+\\left(g\\left(\\frac{x}{2}\\right)\\right)^{2}$$ and given that $$\\mathrm{F}(5)=5$$, then $$\\mathrm{F}(10)$$ is equal to :",
+    "solution": "If $$f''(x)=-f(x)\nf'(x)=g(x)\nf''(x) f'(x)=-f(x) \\cdot g(x)\nf''(x) f'(x)+f(x) \\cdot g(x)=0f''(x) f'(x)+f(x) \\cdot f'(x)=0 \\quad \\because f'(x)=g(x)\\frac{d}{d x}\\left[\\left(f^{\\prime}(x)\\right)^{2}+(f(x))^{2}\\right]=c\\Rightarrow \\quad\\left[f^{\\prime}(x)\\right]^{2}+[f(x)]^{2}=c\\Rightarrow \\quad[f(x)]^{2}+[g(x)]^{2}=$$ Constant\n$$\\Rightarrow \\quad f(x)=$$ Constant\n$$\\because \\quad f(5)=5$$\nTherefore $$ f(10)=5$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "5",
+      "10",
+      "0",
+      "15"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdqv0f1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_functions_033",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Functions",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the range of value of $$t$$ for which\n$$2 \\sin t=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}, t \\in\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$$",
+    "solution": "Range of $$t:\\left[-\\frac{\\pi}{2}, \\frac{-\\pi}{10}\\right] \\cup\\left[\\frac{3 \\pi}{10}, \\frac{\\pi}{2}\\right]$$.\n$$2 \\sin t=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}, t \\in\\left[\\frac{-\\pi}{2}, \\frac{\\pi}{2}\\right]$$\nLet, $$y=2 \\sin t$$\nthen, $$y=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}\\Rightarrow y\\left(3 x^{2}-2 x-1\\right)=1-2 x+5 x^{2}\\Rightarrow x^{2}(5-3 y)-2 x(1-y)+(1+y)=0$$\nHere, the roots of above quadratic must be real then Discriminant $$\\geq 0[-2(1-y)]^{2}-4(5-3 y)(1+y) \\geq 0\\Rightarrow 1+y^{2}-2 y-\\left(5-3 y^{2}+2 y\\right) \\geq 0\\Rightarrow 4 y^{2}-4 y-4 \\geq 0\\Rightarrow y^{2}-y-1 \\geq 0\\Rightarrow y \\geq \\frac{1 \\pm \\sqrt{5}}{2}\\Rightarrow\\left[y-\\left(\\frac{1+\\sqrt{5}}{2}\\right)\\right]\\left[y-\\left(\\frac{1-\\sqrt{5}}{2}\\right)\\right] \\geq 0\\Rightarrow y \\leq\\left(\\frac{1-\\sqrt{5}}{2}\\right) \\text { and } y \\geq\\left(\\frac{\\sqrt{5}+1}{2}\\right)\\Rightarrow 2 \\sin t \\leq\\left(\\frac{1-\\sqrt{5}}{2}\\right) \\text { and } 2 \\sin t \\geq\\left(\\frac{\\sqrt{5}+1}{2}\\right)\\Rightarrow \\sin t \\leq\\left(\\frac{1-\\sqrt{5}}{4}\\right) \\text { and } \\sin t \\geq\\left(\\frac{\\sqrt{5}+1}{4}\\right)\\Rightarrow t \\leq-\\sin 18^{\\circ}$$ and $$t \\geq \\sin 54^{\\circ}$$\nor $$t \\leq-\\sin \\frac{\\pi}{10}$$ and $$t \\geq \\sin \\left(\\frac{3 \\pi}{10}\\right)$$\nSo, after plotting the point on graph\nRange of $$t:\\left[-\\frac{\\pi}{2}, \\frac{-\\pi}{10}\\right] \\cup\\left[\\frac{3 \\pi}{10}, \\frac{\\pi}{2}\\right]$$\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left[ { - {\\pi \\over 3},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{\\pi } \\over {10}},{\\pi \\over 2}} \\right]$$",
+      "$$\\left[ { - {\\pi \\over 2},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{3\\pi } \\over {10}},{\\pi \\over 2}} \\right]$$",
+      "$$\\left[ { - {\\pi \\over 2},{{ - \\pi } \\over {6}}} \\right] \\cup \\left[ {{{3\\pi } \\over {10}},{\\pi \\over 3}} \\right]$$",
+      "$$\\left[ { {\\pi \\over 2},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{\\pi } \\over {10}},{\\pi \\over 2}} \\right]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdqv0f1.png",
+      "position": "bottom"
+    }
+  }
+]

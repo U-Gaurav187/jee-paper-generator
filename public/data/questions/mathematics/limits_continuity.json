@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "math_limits_continuity_001",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a real number $\\alpha$, let $[\\alpha]$ denote the greatest integer less than or equal to $\\alpha$. For a finite set $S$, let $|S|$ denote the number of elements in the set $S$.\nConsider the functions $f:(-3,3) \\rightarrow(-\\infty, \\infty)$ and $g:(-3,3) \\rightarrow(-\\infty, \\infty)$ defined by\n$$ f(x)=\\left[x^3\\right] \\log _e\\left(1+\\sin ^2(\\pi(x-[x]))\\right) $$\nand\n$$ g(x)=x^3 \\sin ^2\\left(\\pi \\log _e(1+x-[x])\\right) . $$\nLet\n$$ A=\\{x \\in(-3,3): f \\text { is discontinuous at } x\\} $$\nand\n$$ B=\\{x \\in(-3,3): g \\text { is discontinuous at } x\\} . $$\nThen the value of $|A|+2|B|-|A \\cap B|$ is $\\_\\_\\_\\_$ .",
+    "solution": "We are given:\n$$ f(x) = [x^3] \\log \\left(1 + \\sin^2(\\pi(x - [x]))\\right) $$\nand\n$$ g(x) = x^3 \\sin^2\\left(\\pi \\log_e(1 + x - [x])\\right) ,$$\nfor $x \\in (-3,3)$.\n**Simplify the expressions**\nSince $(x - [x])$ represents the fractional part of $x$, we can replace it by $\\{x\\}$. Then, because $\\sin(\\pi(x - [x])) = \\sin(\\pi x)$, we have\n$$ f(x) = [x^3] \\log(1 + \\sin^2 \\pi x). $$\nHere, $[x^3]$ is the greatest integer less than or equal to $x^3$, and the fraction part repeats every integer shift in $x$. So $f(x)$ behaves differently in each interval between consecutive integers.\n**Determine where $f(x)$ is discontinuous**\nThe expression $\\log(1 + \\sin^2 \\pi x)$ is always continuous and periodic. The only chance of discontinuity comes from $[x^3]$ because it jumps whenever $x^3$ crosses an integer.\nSince $x \\in (-3,3)$, $x^3$ takes values from $-27$ to $27$. The integers in this range are from $-26$ to $26$, a total of $53$ integers. Whenever $x^3$ equals one of these integers, $[x^3]$ changes value.\nAt points where $x^3$ is an integer, $f(x)$ is likely discontinuous, except possibly where $\\log(1 + \\sin^2 \\pi x) = 0$. That happens when $\\sin \\pi x = 0$, i.e., when $x$ is an integer.\nTherefore, $f(x)$ is continuous at $x = -2, -1, 0, 1, 2$ but discontinuous where $x^3$ is an integer and $x$ is not an integer. So, out of 53 points, 5 are continuous, giving:\n$$ |A| = 53 - 5 = 48. $$\n**Determine where $g(x)$ is discontinuous**\nWe have\n$$ g(x) = x^3 \\sin^2\\left(\\pi \\log(1 + \\{x\\})\\right). $$\nHere $\\{x\\} = x - [x]$, which is continuous everywhere except at integers. The function $\\log(1 + \\{x\\})$ is defined for $\\{x\\} \\in [0,1)$, so it is continuous within all open intervals between integers.\nAt integer values of $x$, $\\{x\\}$ jumps from $1^-$ to $0$, leading to discontinuities. So $g(x)$ is discontinuous only at integer points within $(-3,3)$, i.e., $x = -2, -1, 0, 1, 2$.\nHowever, checking $x=0$, we find $g(0) = 0$, and the limit from both sides is also $0$, making it continuous at $x=0$. Hence, discontinuities are at $x = \\pm 1, \\pm 2$.\nThus, $|B| = 4$.\n**Intersection of discontinuities**\nSince $f(x)$ is continuous at $x = \\pm 1, \\pm 2$, none of these belong to both $A$ and $B$.\nHence, $|A \\cap B| = 0.$\n**Final computation**\n$$ |A| + 2|B| - |A \\cap B| = 48 + 8 - 0 = 56. $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_002",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f : \\mathbb{R} \\to \\mathbb{R}$ be an arbitrary function and let $g : \\mathbb{R} \\to \\mathbb{R}$ be the function defined by$$g(x) = x f(x), \\quad \\text{for all } x \\in \\mathbb{R}.$$Then which of the following statements is (are) TRUE?",
+    "solution": "**(A)**\nLet\n$$f(x)=\\begin{cases} \\dfrac{1}{x}\\sin\\left(\\dfrac{1}{x}\\right), & x\neq 0\\\\\\\\ 0, & x=0 \\end{cases}$$\nNow,\n$$g(x)=x f(x)=\\begin{cases} \\sin\\left(\\dfrac{1}{x}\\right), & x\neq 0\\\\\\\\ 0, & x=0 \\end{cases}$$\nWhen $x\neq 0$, the function $g(x)$ is $\\sin\\left(\\dfrac{1}{x}\\right)$, which keeps oscillating between $-1$ and $1$ as $x \\to 0$. So, $\\lim\\limits_{x \\to 0} g(x)$ does not exist. Therefore, $g(x)$ is **not continuous** at $x=0$.\n**(B)**\nAssume that $f(x)$ is continuous at $x=0$. This means $f(0^-) = f(0^+) = f(0)$.\nNow consider the derivative of $g(x)$ at $x=0$:\n$$g'(0)=\\lim\\limits_{h\\to 0}\\dfrac{g(h)-g(0)}{h}$$\nSince $g(0)=0$, this becomes\n$$g'(0)=\\lim\\limits_{h\\to 0}\\dfrac{g(h)}{h}=\\lim\\limits_{h\\to 0}\\dfrac{h f(h)}{h}g'(0)=\\lim\\limits_{h\\to 0} f(h)=f(0)$$\nThis limit exists and is finite because $f(x)$ is continuous at $x=0$. Hence, $g(x)$ is **differentiable** at $x=0$.\n**(C)**\nFrom the above, if $g(x)$ is differentiable at $x=0$, then\n$$g'(0)=\\lim\\limits_{h\\to 0} f(h)$$\nThis shows that the limit of $f(h)$ as $h \\to 0$ exists. However, we cannot say anything about the value of $f(0)$. So, even if $g(x)$ is differentiable at $x=0$, we cannot conclude that $f(x)$ is continuous at $x=0$.\n**(D)**\nThis statement is correct and follows from the reasoning in option (C).",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "The function $g$ is always continuous at $x = 0$",
+      "If $f$ is continuous at $x = 0$, then $g$ is differentiable at $x = 0$",
+      "If $g$ is differentiable at $x = 0$, then $f$ is continuous at $x = 0$",
+      "If $g$ is differentiable at $x = 0$, then $\\lim_\\limits{x \\to 0} f(x)$ exists"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_003",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $x_0$ be the real number such that $e^{x_0} + x_0 = 0$. For a given real number $\\alpha$, define $$g(x) = \\frac{3x e^x + 3x - \\alpha e^x - \\alpha x}{3(e^x + 1)}$$ for all real numbers $x$. Then which one of the following statements is TRUE?",
+    "solution": "$$ \\mathrm{e}^{\\mathrm{x}_0}+\\mathrm{x}_0=0 \\begin{aligned} & g(x)=\\frac{3 x e^x+3 x-\\alpha e^x-\\alpha x}{3\\left(e^x+1\\right)} \\\\ & g(x)=x-\\frac{\\alpha\\left(e^x+x\\right)}{3\\left(e^x+1\\right)}, g(x)+e^{x_0}=x+e^{x_0}-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) \\end{aligned} g(x)+e^{x_0}=\\left(x-x_0\\right)-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) $$\n$\\Rightarrow$ As very clear $\\mathrm{g}\\left(\\mathrm{x}_0\\right)+\\mathrm{x}_0 \\Rightarrow 0$\n$$ \\lim \\limits_{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right| \\frac{0 \\uparrow}{0 \\uparrow}=\\lim \\limits_{x \\rightarrow x_0}\\left|\\frac{g^{\\prime}(x)}{1}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right| \\mathrm{g}^{\\prime}(\\mathrm{x})=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(\\mathrm{e}^{\\mathrm{x}}+1\\right)\\left(\\mathrm{e}^{\\mathrm{x}}+1\\right)-\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{x}\\right) \\mathrm{e}^{\\mathrm{x}}}{\\left(\\mathrm{e}^{\\mathrm{x}}+1\\right)^2}\\right) \\mathrm{g}^{\\prime}\\left(\\mathrm{x}_0\\right)=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(\\mathrm{e}^{\\mathrm{x}_0}+1\\right)^2}{\\left(\\mathrm{e}^{\\mathrm{x}_0}+1\\right)^2}\\right)=1-\\frac{\\alpha}{3} \\Rightarrow \\lim \\limits_{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right|=\\left|1-\\frac{\\alpha}{3}\\right| $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "For $\\alpha = 2$, $\\displaystyle \\lim_{x \\to x_0} \\left| \\frac{g(x) + e^{x_0}}{x - x_0} \\right| = 0$",
+      "For $\\alpha = 2$, $\\displaystyle \\lim_{x \\to x_0} \\left| \\frac{g(x) + e^{x_0}}{x - x_0} \\right| = 1$",
+      "For $\\alpha = 3$, $\\displaystyle \\lim_{x \\to x_0} \\left| \\frac{g(x) + e^{x_0}}{x - x_0} \\right| = 0$",
+      "For $\\alpha = 3$, $\\displaystyle \\lim_{x \\to x_0} \\left| \\frac{g(x) + e^{x_0}}{x - x_0} \\right| = \\frac{2}{3}$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_004",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the function $f:\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right) \\to (-\\infty, \\infty)$ defined by$$f(x) = (|x| + |x-1|) \\sin x + \\left[ x \\sin x \\right],$$where $\\left[ x \\sin x \\right]$ is the greatest integer less than or equal to $x \\sin x$.Let $\\alpha$ be the total number of points in the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ at which $f$ is **NOT** continuous, and let $\\beta$ be the total number of points in the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ at which $f$ is **NOT** differentiable.Then the value of $\\alpha + \\beta$ is ____________.",
+    "solution": "Let us write the function as $ f(x) = g(x) + h(x) $, where\n$ g(x) = (|x| + |x - 1|)\\sin x $ and $ h(x) = [x \\sin x] $.\n**Check continuity of $ g(x) $**\nThe expression $ |x| + |x - 1| $ is made up of absolute value functions. Absolute value functions are always continuous, and sine is also continuous. Therefore, $ g(x) $ is continuous for all $ x $ in $ \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $.\n**Check continuity of $ h(x) = [x \\sin x] $**\nThe greatest integer function $ [x \\sin x] $ is discontinuous whenever $ x \\sin x $ takes an integer value, because the value jumps at those points. So we must find where $ x \\sin x $ equals an integer.\n**Case (i):** $ x \\sin x = 0 \\Rightarrow x = 0 $\nAt $ x = 0 $, the function $ h(x) = [x \\sin x] $ does not actually jump, so it is continuous at $ x = 0 $. Hence, $ f(x) $ is continuous there.\n**Case (ii):** $ x \\sin x = 1 \\Rightarrow x = x_1 $ and because $ x \\sin x $ is even, we also have another point $ x = -x_1 $.\nJust before $ x_1 $, $ [x \\sin x] = 0 $; just after $ x_1 $, $ [x \\sin x] = 1 $. So there is a jump at $ x = x_1 $ and at $ x = -x_1 $.\nTherefore, $ f(x) $ is **not continuous** at $ x = x_1 $ and $ x = -x_1 $.\nHence, $ \\alpha = 2 $.\n**Check differentiability**\nWe already know $ f(x) $ is not continuous at $ x = x_1, -x_1 $, so it cannot be differentiable there either.\nWe must also test $ x = 0 $ and $ x = 1 $, since $ g(x) $ involves absolute values and these points can cause problems with slope.\nAt $ x = 0 $:\n$ f'(0^-) = f'(0^+) = 1 $, hence $ f(x) $ is differentiable at $ x = 0 $.\nAt $ x = 1 $:\n$ f'(1^-) = \\cos 1 $ and $ f'(1^+) = \\cos 1 + 2\\sin 1 $\nSince these two are not equal, $ f(x) $ is **not differentiable** at $ x = 1 $.\nTherefore, the points of non-differentiability are $ x = x_1, -x_1 $, and $ 1 $.\nHence, $ \\beta = 3 $.\n**Final Answer:**\n$$ \\alpha + \\beta = 5 $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_005",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let **α** and **β** be the real numbers such that\n$ \\lim\\limits_{x \\to 0} \\frac{1}{x^3} \\left( \\frac{\\alpha}{2} \\int\\limits_0^x \\frac{1}{1-t^2} \\, dt + \\beta x \\cos x \\right) = 2. $\nThen the value of **α + β** is ___________.",
+    "solution": "Given,\n$$\\beta = \\mathop {\\lim }\\limits_{x \\to 0} {{{e^{{x^3}}} - {{(1 - {x^3})}^{{1 \\over 3}}} + ({{(1 - {x^2})}^{{1 \\over 2}}} - 1)\\sin x} \\over {x{{\\sin }^2}x}} = \\mathop {\\lim }\\limits_{x \\to 0} {{(1 + {x^3}\\, + \\,...) - \\left( {1 - {{{x^3}} \\over 3}\\, + \\,...} \\right) + \\left( {\\left( {1 - {1 \\over 2}{x^2}\\, + \\,...} \\right) - 1} \\right)x} \\over {x\\,.\\,{{{{\\sin }^2}x} \\over {{x^2}}}\\,.\\,{x^2}}} = \\mathop {\\lim }\\limits_{x \\to 0} {{\\left( {{x^3} + {{{x^3}} \\over 3} - {{{x^3}} \\over 2}} \\right) + {x^4}(......)} \\over {{x^3}}} = \\mathop {\\lim }\\limits_{x \\to 0} {{{x^3}\\left( {1 + {1 \\over 3} - {1 \\over 2}} \\right)} \\over {{x^3}}}$$ [Neglecting higher power of x]\n$$ = 1 + {1 \\over 3} - {1 \\over 2} = {5 \\over 6}\\therefore6\\beta = 6 \\times {5 \\over 6} = 5$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_006",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If\n\n$$\n\\beta=\\lim \\limits_{x \\to 0} \\frac{e^{x^{3}}-\\left(1-x^{3}\\right)^{\\frac{1}{3}}+\\left(\\left(1-x^{2}\\right)^{\\frac{1}{2}}-1\\right) \\sin x}{x \\sin ^{2} x},\n$$\n\nthen the value of $6 \\beta$ is ___________.",
+    "solution": "Given,\n$$\\beta = \\mathop {\\lim }\\limits_{x \\to 0} {{{e^{{x^3}}} - {{(1 - {x^3})}^{{1 \\over 3}}} + ({{(1 - {x^2})}^{{1 \\over 2}}} - 1)\\sin x} \\over {x{{\\sin }^2}x}} = \\mathop {\\lim }\\limits_{x \\to 0} {{(1 + {x^3}\\, + \\,...) - \\left( {1 - {{{x^3}} \\over 3}\\, + \\,...} \\right) + \\left( {\\left( {1 - {1 \\over 2}{x^2}\\, + \\,...} \\right) - 1} \\right)x} \\over {x\\,.\\,{{{{\\sin }^2}x} \\over {{x^2}}}\\,.\\,{x^2}}} = \\mathop {\\lim }\\limits_{x \\to 0} {{\\left( {{x^3} + {{{x^3}} \\over 3} - {{{x^3}} \\over 2}} \\right) + {x^4}(......)} \\over {{x^3}}} = \\mathop {\\lim }\\limits_{x \\to 0} {{{x^3}\\left( {1 + {1 \\over 3} - {1 \\over 2}} \\right)} \\over {{x^3}}}$$ [Neglecting higher power of x]\n$$ = 1 + {1 \\over 3} - {1 \\over 2} = {5 \\over 6}\\therefore6\\beta = 6 \\times {5 \\over 6} = 5$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_007",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha$$ be a positive real number. Let $$f: \\mathbb{R} \\rightarrow \\mathbb{R}$$ and $$g:(\\alpha, \\infty) \\rightarrow \\mathbb{R}$$ be the functions defined by\n\n$$\nf(x)=\\sin \\left(\\frac{\\pi x}{12}\\right) \\quad \\text { and } \\quad g(x)=\\frac{2 \\log _{\\mathrm{e}}(\\sqrt{x}-\\sqrt{\\alpha})}{\\log _{\\mathrm{e}}\\left(e^{\\sqrt{x}}-e^{\\sqrt{\\alpha}}\\right)} .\n$$\n\nThen the value of $$\\lim \\limits_{x \\rightarrow \\alpha^{+}} f(g(x))$$ is",
+    "solution": "$$\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} f(g(x)) = f\\left( {\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} g(x)} \\right)$$ [As $$f(x)$$ is continuous function so we can write this]\nNow,\n$$\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} g(x) = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {{{\\log }_e}\\left( {{e^{\\sqrt x }} - {e^{\\sqrt \\alpha }}} \\right)}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {{{\\log }_e}\\left( {{e^{\\sqrt \\alpha }}\\left( {{{{e^{\\sqrt x }}} \\over {{e^{\\sqrt \\alpha }}}} - 1} \\right)} \\right)}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {{{\\log }_e}\\left[ {{e^{\\sqrt \\alpha }}({e^{\\sqrt x - \\sqrt \\alpha }} - 1)} \\right]}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {{{\\log }_e}{e^{\\sqrt \\alpha }} + {{\\log }_e}({e^{\\sqrt x - \\sqrt \\alpha }} - 1)}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {\\sqrt \\alpha + {{\\log }_e}\\left[ {{{{e^{\\sqrt x - \\sqrt \\alpha }} - 1} \\over {(\\sqrt x - \\sqrt \\alpha )}} \\times (\\sqrt x - \\sqrt \\alpha )} \\right]}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {\\sqrt \\alpha + {{\\log }_e}\\left[ {\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} \\left( {{{{e^{\\sqrt x - \\sqrt \\alpha }} - 1} \\over {(\\sqrt x - \\sqrt \\alpha )}} \\times (\\sqrt x - \\sqrt \\alpha )} \\right)} \\right]}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {\\sqrt \\alpha + {{\\log }_e}(1 \\times \\sqrt x - \\sqrt \\alpha )}}$$ [using $$\\mathop {\\lim }\\limits_{x \\to 0} {{{e^2} - 1} \\over x} = 1$$]\n$$ = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {{2{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )} \\over {\\sqrt \\alpha + {{\\log }_e}(\\sqrt x - \\sqrt \\alpha )}} = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {2 \\over {{{\\sqrt \\alpha } \\over {{{\\log }_e}(\\sqrt x - \\sqrt \\alpha )}} + 1}}$$\n\n[Diagram]\n\nFrom graph you can see $$\\log _e^{{0^ + }} \\to \\, - \\alpha \\therefore\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {\\log _e}(\\sqrt x - \\sqrt \\alpha ) = \\log _e^{{0^ + }} = - \\alpha = \\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} {2 \\over {{{\\sqrt \\alpha } \\over { - \\alpha }} + 1}} = {2 \\over {0 + 1}} = 2\\thereforef\\left( {\\mathop {\\lim }\\limits_{x \\to {\\alpha ^ + }} g(x)} \\right) = f(2) = \\sin \\left( {{{\\pi \\times 2} \\over {12}}} \\right) = \\sin {\\pi \\over 6} = {1 \\over 2}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7upwekn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_008",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the functions $$f:( - 1,1) \\to R$$ and $$g:( - 1,1) \\to ( - 1,1)$$ be defined by $$f(x) = |2x - 1| + |2x + 1|$$ and $$g(x) = x - [x]$$, where [x] denotes the greatest integer less than or equal to x. Let $$f\\,o\\,g:( - 1,1) \\to R$$ be the composite function defined by $$(f\\,o\\,g)(x) = f(g(x))$$. Suppose c is the number of points in the interval ($$-$$1, 1) at which $$f\\,o\\,g$$ is NOT continuous, and suppose d is the number of points in the interval ($$-$$1, 1) at which $$f\\,o\\,g$$ is NOT differentiable. Then the value of c + d is ............",
+    "solution": "The given functions $$f:( - 1,1) \\to R$$ and $$g:( - 1,1) \\to ( - 1,1)$$ be defined by $$f(x) = |2x - 1| + |2x + 1|$$ and $$g(x) = x - [x]$$.\n\nAs, we know the composite function (fog) (x) is discontinuous at the points, where g(x) is discontinuous for given domain. And, since g(x) is discontinuous at x = 0 lies in interval ($$-$$1, 1), so value of c = 1.\n\nAnd, since (fog) (x) is not differentiable at the point where g(x) is not differentiable as well as at those points also where g(x) attains the values so that f(g(x)) is non-differentiable.\n\nSince g(x) is not continuous at x = 0$$ \\in $$ ($$-$$1, 1) so fog(x) is not differentiable and as $$f(x) = |2x - 1| + |2x + 1|$$ is not differentiable at x = $$-$$1/2 and 1/2, so (fog) (x) is not differentiable for those x, for which g(x) = $$-$$1/2 or 1/2.\n\nBut g(x) $$ \\ge $$ 0, so g(x) can be 1/2 only and for x = $$-$$1/2 and 1/2, g(x) = $${1 \\over 2}$$.\n\nSo, (fog) (x) is not differentiable at x = $$-$$1/2, 0, 1/2, therefore value of d = 3\n\n$$ \\therefore $$ c + d = 1 + 3 = 4.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_009",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of the limit\n\n$$\\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 (\\sin 3x + \\sin x)} \\over {\\left( {2\\sin 2x\\sin {{3x} \\over 2} + \\cos {{5x} \\over 2}} \\right) - \\left( {\\sqrt 2 + \\sqrt 2 \\cos 2x + \\cos {{3x} \\over 2}} \\right)}}$$\n\nis ...........",
+    "solution": "The limit\n\n$$\\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 (\\sin 3x + \\sin x)} \\over {\\left( {2\\sin 2x\\sin {{3x} \\over 2} + \\cos {{5x} \\over 2}} \\right) - \\left( {\\sqrt 2 + \\sqrt 2 \\cos 2x + \\cos {{3x} \\over 2}} \\right)}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 (2\\sin 2x\\cos x)} \\over {2\\sin 2x\\sin {{3x} \\over 2} + \\left( {\\cos {{5x} \\over 2} - \\cos {{3x} \\over 2}} \\right) - \\sqrt 2 (1 + cos2x)}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{8\\sqrt 2 \\sin 2x\\cos x} \\over {2\\sin 2x\\sin {{3x} \\over 2} - 2\\sin 2x\\sin {x \\over 2} - \\sqrt 2 (2{{\\cos }^2}x)}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 \\sin 2x\\cos x} \\over {\\sin 2x\\left( {\\sin {{3x} \\over 2} - \\sin {x \\over 2}} \\right) - \\sqrt 2 {{\\cos }^2}x}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 \\sin 2x\\cos x} \\over {2\\sin 2x\\cos x\\sin {x \\over 2} - \\sqrt 2 {{\\cos }^2}x}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{4\\sqrt 2 \\sin 2x} \\over {2\\sin 2x\\sin {x \\over 2} - \\sqrt 2 \\cos x}} = \\mathop {\\lim }\\limits_{x \\to {\\pi \\over 2}} {{8\\sqrt 2 \\sin x} \\over {4\\sin x\\sin {x \\over 2} - \\sqrt 2 }} = {{8\\sqrt 2 } \\over {{4 \\over {\\sqrt 2 }} - \\sqrt 2 }} = {{16} \\over {4 - 2}} = 8$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_010",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "let e denote the base of the natural logarithm. The value of the real number a for which the right hand limit\n\n$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{{(1 - x)}^{1/x}} - {e^{ - 1}}} \\over {{x^a}}}$$\n\nis equal to a non-zero real number, is .............",
+    "solution": "The right hand limit\n\n$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{{(1 - x)}^{1/x}} - {e^{ - 1}}} \\over {{x^a}}} = \\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{e^{\\left\\{ {{1 \\over x}{{\\log }_e}(1 - x)} \\right\\}}} - {e^{ - 1}}} \\over {{x^a}}} = \\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{e^{{1 \\over x}\\left( { - x - {{{x^2}} \\over 2} - {{{x^3}} \\over 3} - ...} \\right)}} - {e^{ - 1}}} \\over {{x^a}}} = \\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{e^{ - 1}}.{e^{\\left( { - {x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ....} \\right)}} - {e^{ - 1}}} \\over {{x^a}}} = {e^{ - 1}}\\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{e^{ \\left( {-{x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ....} \\right)}} - 1} \\over {{x^a}}} = {e^{ - 1}}\\mathop {\\lim }\\limits_{x \\to {0^ + }} {{{e^{\\left( { - {x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ...} \\right)}} - 1} \\over {^{\\left( { - {x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ...} \\right)}}} \\times {{\\left( { - {x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ...} \\right)} \\over {{x^a}}} = {e^{ - 1}}\\mathop {\\lim }\\limits_{x \\to {0^ + }} {{\\left( { - {x \\over 2} - {{{x^2}} \\over 3} - {{{x^3}} \\over 4} - ...} \\right)} \\over {{x^a}}} = {e^{ - 1}}\\mathop {\\lim }\\limits_{x \\to {0^ + }} \\left( { - {1 \\over 2}{x^{1 - a}} - {1 \\over 3}{x^{2 - a}} - ...} \\right)$$\n\nThe above limit will be non-zero, if a = 1. And at a = 1, the value of the limit is\n\n$$ = {e^{ - 1}}\\left( { - {1 \\over 2}} \\right) = - {1 \\over {2e}}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_011",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $${({({\\log _2}9)^2})^{{1 \\over {{{\\log }_2}({{\\log }_2}9)}}}} \\times {(\\sqrt 7 )^{{1 \\over {{{\\log }_4}7}}}}$$ is ....................",
+    "solution": "$${({({\\log _2}9)^2})^{{1 \\over {{{\\log }_2}({{\\log }_2}9)}}}} \\times {(\\sqrt 7 )^{{1 \\over {{{\\log }_4}7}}}} = {({\\log _2}9)^{{{2.{{\\log }_2}} \\over {{{\\log }_2}9}}}} \\times {7^{{1 \\over 2}.{{\\log }_7}4}} = {({\\log _2}9)^{{{\\log }_{\\log {2^{{9^{{2^2}}}}}}}}} \\times {7^{{{\\log }_7}2}} = {2^2} \\times 2 = 8$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_012",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R be a differentiable function such that f(0) = 0, $$f\\left( {{\\pi \\over 2}} \\right) = 3$$ and f'(0) = 1.\n\nIf $$g(x) = \\int\\limits_x^{\\pi /2} {[f'(t)\\text{cosec}\\,t - \\cot t\\,\\text{cosec}\\,t\\,f(t)]dt} $$\n\nfor $$x \\in \\left( {0,\\,{\\pi \\over 2}} \\right]$$, then $$\\mathop {\\lim }\\limits_{x \\to 0} g(x)$$ =",
+    "solution": "Let $$g(x) = \\int\\limits_x^{\\pi /2} {[f'(t)\\text{cosec}\\,t - \\cot t\\,\\text{cosec}\\,t\\,f(t)]dt} = \\int\\limits_x^{\\pi /2} {{d \\over {dt}}(f(t)\\cos ect))} $$\nSo, $$g(x) = f(\\pi /2)\\cos ec{\\pi \\over 2} - f(x)\\cos ecx = 3 - f(x)\\cos ecx\\thereforeg(x) = 3 - {{f(x)} \\over {\\sin x}}\\mathop {\\lim }\\limits_{x \\to 0} g(x) = 3 - \\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over {\\sin x}}$$\nAs the above is a 0/0 form, use L'Hospital's rule to get\n$$\\mathop {\\lim }\\limits_{x \\to 0} g(x) = 3 - \\mathop {\\lim }\\limits_{x \\to 0} {{f'(x)} \\over {\\cos x}} = 3 - f'(0) = 3 - 1 = 2$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_013",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha$$, $$\\beta\\in$$ R be such that $$\\mathop {\\lim }\\limits_{x \\to 0} {{{x^2}\\sin (\\beta x)} \\over {\\alpha x - \\sin x}} = 1$$. Then 6($$\\alpha$$ + $$\\beta$$) equals _________.",
+    "solution": "Here, $$\\mathop {\\lim }\\limits_{x \\to 0} {{{x^2}\\sin (\\beta x)} \\over {\\alpha x - \\sin x}} = 1\\mathop {\\lim }\\limits_{x \\to 0} {{{x^2}\\left( {\\beta x - {{{{(\\beta x)}^3}} \\over {3!}} + {{{{(\\beta x)}^5}} \\over {5!}} - ....} \\right)} \\over {\\alpha x - \\left( {x - {{{x^3}} \\over {3!}} + {{{x^5}} \\over {5!}} - ....} \\right)}} = 1 \\Rightarrow \\mathop {\\lim }\\limits_{x \\to 0} {{{x^3}\\left( {\\beta - {{{\\beta ^3}{x^2}} \\over {3!}} + {{{\\beta ^5}{x^4}} \\over {5!}} - ....} \\right)} \\over {(\\alpha - 1)x + {{{x^3}} \\over {3!}} + {{{x^5}} \\over {5!}} - ...}} = 1$$\nLimit exists only, when $$\\alpha-$$ 1 = 0\n$$\\Rightarrow\\alpha$$ = 1 ...... (i)\n$$\\therefore \\Rightarrow \\mathop {\\lim }\\limits_{x \\to 0} {{{x^3}\\left( {\\beta - {{{\\beta ^3}{x^2}} \\over {3!}} + {{{\\beta ^5}{x^4}} \\over {5!}} - ....} \\right)} \\over {{x^3}\\left( {{1 \\over {3!}} - {{{x^2}} \\over {5!}} - ...} \\right)}} = 1\\Rightarrow$$ 6$$\\beta$$ = 1 ....... (ii)\nFrom Eqs. (i) and (ii), we get\n6($$\\alpha$$ + $$\\beta$$) = 6$$\\alpha$$ + 6$$\\beta$$\n= 6 + 1\n= 7",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_014",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let m and n be two positive integers greater than 1. If\n$$$\\mathop {\\lim }\\limits_{\\alpha \\to 0} \\left( {{{{e^{\\cos \\left( {{\\alpha ^n}} \\right)}} - e} \\over {{\\alpha ^m}}}} \\right) = - \\left( {{e \\over 2}} \\right)$$$\nthen the value of $${m \\over n}$$ is _________.",
+    "solution": "Given, $$\\mathop {\\lim }\\limits_{\\alpha \\to 0} \\left[ {{{{e^{\\cos ({\\alpha ^n})}} - e} \\over {{\\alpha ^m}}}} \\right] = - {e \\over 2} \\Rightarrow \\mathop {\\lim }\\limits_{\\alpha \\to 0} {{e\\{ {e^{\\cos ({\\alpha ^n}) - 1}} - 1\\} } \\over {\\cos ({\\alpha ^n}) - 1}}.{{\\cos ({\\alpha ^n}) - 1} \\over {{\\alpha ^m}}} = {{ - e} \\over 2} \\Rightarrow \\mathop {\\lim }\\limits_{\\alpha \\to 0} e\\left\\{ {{{{e^{\\cos ({\\alpha ^n}) - 1}} - 1} \\over {\\cos ({\\alpha ^n}) - 1}}} \\right\\}.\\mathop {\\lim }\\limits_{\\alpha \\to 0} {{ - 2{{\\sin }^2}{{{\\alpha ^n}} \\over 2}} \\over {{\\alpha ^m}}} = - e/2 \\Rightarrow e \\times 1 \\times ( - 2)\\mathop {\\lim }\\limits_{\\alpha \\to 0} {{{{\\sin }^2}\\left( {{{{\\alpha ^n}} \\over 2}} \\right)} \\over {{{{\\alpha ^{2n}}} \\over 4}}}.{{{\\alpha ^{2n}}} \\over {4{\\alpha ^m}}} = {{ - e} \\over 2} \\Rightarrow e \\times 1 \\times - 2 \\times 1 \\times \\mathop {\\lim }\\limits_{\\alpha \\to 0} {{{\\alpha ^{2n - m}}} \\over 4} = {{ - e} \\over 2}$$\nFor this to be exists,\n$$2n - m = 0 \\Rightarrow {m \\over n} = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1b05vsd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_015",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The largest value of the non-negative integer a for which $$\\mathop {\\lim }\\limits_{x \\to 1} {\\left\\{ {{{ - ax + \\sin (x - 1) + a} \\over {x + \\sin (x - 1) - 1}}} \\right\\}^{{{1 - x} \\over {1 - \\sqrt x }}}} = {1 \\over 4}$$ is",
+    "solution": "Given, $$\\mathop {\\lim }\\limits_{x \\to 1} {\\left\\{ {{{\\sin (x - 1) + a(1 - x)} \\over {(x - 1) + \\sin (x - 1)}}} \\right\\}^{{{(1 - \\sqrt x )(1 - \\sqrt x )} \\over {1 - \\sqrt x }}}} = {1 \\over 4} \\Rightarrow \\mathop {\\lim }\\limits_{x \\to 1} {\\left\\{ {{{{{\\sin (x - 1)} \\over {(x - 1)}} - a} \\over {1 + {{\\sin (x - 1)} \\over {(x - 1)}}}}} \\right\\}^{1 + \\sqrt x }} = {1 \\over 4} \\Rightarrow {\\left( {{{1 - a} \\over 2}} \\right)^2} = {1 \\over 4} \\Rightarrow {(a - 1)^2} = 1\\Rightarrow$$ a = 2 or 0\n\nBut for a = 2, base of above limit approaches $$-$$1/2 and exponent approaches to 2 and since base cannot be negative, hence limit does not exist.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1b05vsd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_016",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$\\to$$ R and g : R $$\\to$$ R be respectively given by f(x) = | x | + 1 and g(x) = x$^{2}$ + 1. Define h : R $$\\to$$ R by $$h(x) = \\left\\{ {\\matrix{\n{\\max \\{ f(x),g(x)\\} ,} & {if\\,x \\le 0.} \\cr\n{\\min \\{ f(x),g(x)\\} ,} & {if\\,x > 0.} \\cr\n\n} } \\right.$$\n\nThe number of points at which h(x) is not differentiable is",
+    "solution": "Concept :\n\nThe points at which the curve taken a sharp turn, are the points of non-differentiability.\n\nCurve of f(x) and g(x) are\n\n\n[Diagram]\n\nh(x) is not differentiable at x = $$\\pm$$1 and 0.\n\nAs h(x) take sharp turns at x = $$\\pm$$ 1 and 0.\n\nHence, number of points of non-differentiability of h(x) is 3.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1b05vsd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_017",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S$ be the set of all $(\\alpha, \\beta) \\in \\mathbb{R} \\times \\mathbb{R}$ such that\n\n$$ \\lim\\limits_{x \\rightarrow \\infty} \\frac{\\sin \\left(x^2\\right)\\left(\\log _e x\\right)^\\alpha \\sin \\left(\\frac{1}{x^2}\\right)}{x^{\\alpha \\beta}\\left(\\log _e(1+x)\\right)^\\beta}=0 . $$\n\nThen which of the following is (are) correct?",
+    "solution": "$$\\begin{aligned}\n& \\lim _{x \\rightarrow \\infty} \\frac{\\sin x^2 \\cdot\\left(\\log _e x\\right)^\\alpha \\cdot \\sin \\frac{1}{x^2}}{x^{\\alpha \\beta} \\cdot\\left(\\log _c(1+x)\\right)^\\beta}=0 \\\\\n& \\lim _{x \\rightarrow \\infty} \\frac{\\left(\\log _e x\\right)^\\alpha}{\\left(\\log _e(x+1)\\right)^\\beta \\cdot x^{\\alpha \\beta+2}}=0\n\\end{aligned}\\begin{aligned}\n& \\lim _{x \\rightarrow \\infty}\\left(\\frac{\\log _c x}{\\log _e(x+1)}\\right)^\\beta \\cdot \\frac{\\left(\\log _e x\\right)^{\\alpha-\\beta}}{x^{\\alpha \\beta+2}}=0 \\\\\n& \\lim _{x \\rightarrow \\infty} \\frac{\\left(\\log _e x\\right)^{\\alpha-\\beta}}{x^{\\alpha \\beta+2}}=0 \\quad \\text { Put } \\log _e x=t \\\\\n& \\lim _{t \\rightarrow \\infty} \\frac{t^{\\alpha-\\beta}}{\\left(e^t\\right)^{\\alpha \\beta+2}}=0\n\\end{aligned}$$\nAs we know $$\\lim _\\limits{x \\rightarrow \\infty} \\frac{x}{e^x}=0\\alpha \\beta+2>0 \\Rightarrow \\alpha \\beta>-2$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$(-1,3) \\in S$",
+      "$(-1,1) \\in S$",
+      "$(1,-1) \\in S$",
+      "$(1,-2) \\in S$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_018",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=[4 x]\\left(x-\\frac{1}{4}\\right)^2\\left(x-\\frac{1}{2}\\right)$, where $[x]$ denotes the greatest integer less than or equal to $x$. Then which of the following statements is(are) true?",
+    "solution": "$$\nf(x)=\\left\\{\\begin{array}{cc}\n0 & ; 0 < x <\\frac{1}{4} \\\\\\\\\n\\left(x-\\frac{1}{4}\\right)^2\\left(x-\\frac{1}{2}\\right) ; & \\frac{1}{4} \\leq x<\\frac{1}{2} \\\\\\\\\n2\\left(x-\\frac{1}{4}\\right)^2\\left(x-\\frac{1}{2}\\right) ; & \\frac{1}{2} \\leq x<\\frac{3}{4} \\\\\\\\\n3\\left(x-\\frac{1}{4}\\right)^2\\left(x-\\frac{1}{2}\\right) ; & \\frac{3}{4} \\leq x<1\n\\end{array}\\right.\n\nf(x) \\text { is discontinuous at } x=\\frac{3}{4} \\text { only }\n\nf^{\\prime}(x)=\\left\\{\\begin{array}{cc}\n0 & ; 0 < x <\\frac{1}{4} \\\\\\\\\n2\\left(x-\\frac{1}{4}\\right)\\left(x-\\frac{1}{2}\\right)+\\left(x-\\frac{1}{4}\\right)^2 & ; \\quad \\frac{1}{4}< x <\\frac{1}{2} \\\\\\\\\n4\\left(x-\\frac{1}{4}\\right)\\left(x-\\frac{1}{2}\\right)+2\\left(x-\\frac{1}{4}\\right)^2 & ; \\frac{1}{2} < x <\\frac{3}{4} \\\\\\\\\n6\\left(x-\\frac{1}{4}\\right)\\left(x-\\frac{1}{2}\\right)+3\\left(x-\\frac{1}{4}\\right)^2 & ; \\frac{3}{4} < x < 1\n\\end{array}\\right.\n$$\n\n$f(x)$ is non-differentiable at $x=\\frac{1}{2}$ and $\\frac{3}{4}$\n\nMinimum values of $f(x)$ occur at $x=\\frac{5}{12}$ whose value is $-\\frac{1}{432}$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The function $f$ is discontinuous exactly at one point in $(0,1)$",
+      "There is exactly one point in $(0,1)$ at which the function $f$ is continuous but NOT differentiable",
+      "The function $f$ is NOT differentiable at more than three points in $(0,1)$",
+      "The minimum value of the function $f$ is $-\\frac{1}{512}$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_019",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$\\to$$ R be defined by $$f(x) = {{{x^2} - 3x - 6} \\over {{x^2} + 2x + 4}}$$\n\nThen which of the following statements is (are) TRUE?",
+    "solution": "Given,\n\n$$f(x) = {{{x^2} - 3x - 6} \\over {{x^2} + 2x + 4}}$$ .... (i)\n\n$$ \\Rightarrow f'(x) = {{({x^2} + 2x + 4)(2x - 3) - ({x^2} - 3x - 6)(2x + 2)} \\over {{{({x^2} + 2x + 4)}^2}}} \\Rightarrow f'(x) = {{5x(x + 4)} \\over {{{({x^2} + 2x + 4)}^2}}}$$\n\n\n[Diagram]\n\nSign scheme for f'(x)\n\nHere, f is decreasing in the interval ($$-$$2, $$-$$1) and f is increasing in the interval (1, 2).\n\nNow, $$f( - 4) = {{11} \\over 6},f(0) = {{ - 3} \\over 2}$$ [from Eq. (i)]\n\nand $$\\mathop {\\lim }\\limits_{x \\to \\pm \\,\\infty } f(x) = 1\\therefore$$ Range $$ = \\left[ {{{ - 3} \\over 2},{{11} \\over 6}} \\right]$$\n\nHence, f(x) is into.\n\n\n[Diagram]\n\nf(x) has local maxima at x = $$-$$4\n\nand local minima at x = 0.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "f is decreasing in the interval ($$-$$2, $$-$$1)",
+      "f is increasing in the interval (1, 2)",
+      "f is onto",
+      "Range of f is $$\\left[ { - {3 \\over 2},2} \\right]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxvq4odt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_020",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R and g : R $$ \\to $$ R be functions\nsatisfying f(x + y) = f(x) + f(y) + f(x)f(y)\nand f(x) = xg(x) for all x, y$$ \\in $$R.\nIf $$\\mathop {\\lim }\\limits_{x \\to 0} g(x) = 1$$, then which of the following statements is/are TRUE?",
+    "solution": "The given function f : R $$ \\to $$ R is satisfying as\n\n$$f(x + y) = f(x) + f(y) + f(x)f(y)$$\n\nSo, $$f'(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{f(x + h) - f(x)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(x) + f(h) + f(x)f(h) - f(x)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(h)} \\over h}(1 + f(x)) \\because f(x) = xg(x) \\Rightarrow g(x) = {{f(x)} \\over x} \\therefore \\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over x} = \\mathop {\\lim }\\limits_{x \\to 0} g(x) = 1$$ (given)\n\n$$ \\therefore f'(x) = 1 + f(x)) \\Rightarrow {{f'(x)} \\over {1 + f(x)}} = 1 \\Rightarrow {\\log _e}(1 + f(x)) = x + c \\Rightarrow 1 + f(x) = {e^{x + c}} \\Rightarrow f(x) = {e^{x + c}} - 1 \\because f(0) = 0 \\Rightarrow c = 0$$\n\nTherefore, $$f(x) = {e^x} - 1$$ is differentiable at every $$x \\in R$$.\n\nAnd $$f'(x) = {e^x} \\Rightarrow f'(0) = 1$$\n\nNow, $$g(x) = f{{(x)} \\over x} = {{{e^x} - 1} \\over x}$$ and if g(0) = 1\n\nLHD (at x = 0) of\n\n$$g(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{g(0 - h) - g(0)} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{{e^{ - h}} - 1} \\over { - h}} - 1} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{{e^{ - h}} - 1 + h} \\over {{h^2}}} = {1 \\over 2}$$\n\nand, RHD (at x = 0) of\n\n$$g(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{g(0 + h) - g(0)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{e^h} - 1 - h} \\over {{h^2}}} = {1 \\over 2}$$\n\nSo, if g(0) = 1, then g is differentiable at every x$$ \\in $$R.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "f is differentiable at every x$$ \\in $$R",
+      "If g(0) = 1, then g is differentiable at every x$$ \\in $$R",
+      "The derivative f'(1) is equal to 1",
+      "The derivative f'(0) is equal to 1"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_021",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the function f : R $$ \\to $$ R be defined by f(x) = x$^{3}$ $$-$$ x$^{2}$ + (x $$-$$ 1)sin x and let g : R $$ \\to $$ R be an arbitrary function. Let fg : R $$ \\to $$ R be the product function defined by (fg)(x) = f(x)g(x). Then which of the following statements is/are TRUE?",
+    "solution": "Given functions f : R $$ \\to $$ R be defined\n\nby f(x) = x$^{3}$ $$-$$ x$^{2}$ + (x + 1) sin x and g : R $$ \\to $$ R be an arbitrary function.\n\nNow, let g is continuous at x = 1, then\n\n$$\\mathop {\\lim }\\limits_{x \\to {1^ - }} {{(fg)(x) - (fg)(1)} \\over {x - 1}} = \\mathop {\\lim }\\limits_{h \\to 0} {{(fg)(1 - h) - (fg)(1)} \\over {1 - h - 1}} \\because (fg)(x) = f(x)\\,.\\,g(x)$$ (given)\n\n$$ = \\mathop {\\lim }\\limits_{h \\to 0} {{f(1 - h)\\,.\\,g(1 - h) - f(1)\\,.\\,g(1)} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(1 - h)\\,.\\,g(1)} \\over { - h}}$$\n\n{$$ \\because $$ f(1) = 0 and g is continuous at x = 1, so g(1 $$-$$ h) = g(1)}\n\n$$ = g(1)\\mathop {\\lim }\\limits_{h \\to 0} {{{{(1 - h)}^2}( - h) + ( - h)\\sin (1 - h)} \\over { - h}} = (1 + \\sin 1)g(1)$$\n\nSimilarly, $$\\mathop {\\lim }\\limits_{x \\to {1^ + }} {{(fg)(x) - (fg)(1)} \\over {x - 1}} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(1 - h)\\,.\\,g(1)} \\over h} = g(1)\\mathop {\\lim }\\limits_{h \\to 0} {{{{(1 + h)}^2}(h) + h\\sin (1 + h)} \\over h} = (1 + \\sin 1)g(1) \\because $$ RHD and LHD of function fg at x = 1 is finitely exists and equal, so fg is differentiable at x = 1\n\nNow, let (fg)(x) is differentiable at x = 1, so\n\n$$\\mathop {\\lim }\\limits_{x \\to {1^ - }} {{(fg)(x) - (fg)(1)} \\over {x - 1}} = \\mathop {\\lim }\\limits_{x \\to {1^ + }} {{(fg)(x) - (fg)(1)} \\over {x - 1}} \\Rightarrow \\mathop {\\lim }\\limits_{x \\to {1^ - }} {{f(x)g(x) - f(1)g(1)} \\over {x - 1}} = \\mathop {\\lim }\\limits_{x \\to {1^ + }} {{f(x)g(x) - f(1)g(1)} \\over {x - 1}} \\Rightarrow \\mathop {\\lim }\\limits_{x \\to {1^ - }} {{f(x)g(x)} \\over {x - 1}} = \\mathop {\\lim }\\limits_{x \\to {1^ + }} {{f(x)g(x)} \\over {x - 1}}$$ {$$ \\because $$ f(1) = 0}\n\n$$ \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{f(1 - h)\\,g(1 - h)} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(1 + h)\\,g(1 + h)} \\over h} \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{[{{(1 - h)}^2}( - h) + ( - h)\\sin (1 + h)]g(1 + h)} \\over { - h}}$$\n\n= $$\\mathop {\\lim }\\limits_{h \\to 0} {{[{{(1 + h)}^2}(h) + (h)\\sin (1 + h)]g(1 + h)} \\over h}\\mathop {\\lim }\\limits_{h \\to 0} \\,[{(1 - h)^2} + \\sin (1 - h)]g(1 - h) = \\mathop {\\lim }\\limits_{h \\to 0} \\,[{(1 + h)^2} + \\sin (1 + h)]g(1 + h)$$\n\nIt does not mean that g(x) is continuous or differentiable at x = 1.\n\nBut if g is differentiable at x = 1, then it must be continuous at x = 1 and so fg is differentiable at x = 1.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "If g is continuous at x = 1, then fg is differentiable at x = 1",
+      "If f g is differentiable at x = 1, then g is continuous at x = 1",
+      "If g is differentiable at x = 1, then fg is differentiable at x = 1",
+      "If f g is differentiable at x = 1, then g is differentiable at x = 1"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_022",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$a \\in R,\\,|a|\\, > 1$$, let\n\n$$\\mathop {\\lim }\\limits_{n \\to \\infty } \\left( {{{1 + \\root 3 \\of 2 + ...\\root 3 \\of n } \\over {{n^{7/3}}\\left( {{1 \\over {{{(an + 1)}^2}}} + {1 \\over {{{(an + 2)}^2}}} + ... + {1 \\over {{{(an + n)}^2}}}} \\right)}}} \\right) = 54$$",
+    "solution": "$$\\mathop {\\lim }\\limits_{n \\to \\infty } \\left[ {{{1 + \\root 3 \\of 2 + \\root 3 \\of 3 + ...\\root 3 \\of n } \\over {{n^{7/3}}\\left( {{1 \\over {{{(an + 1)}^2}}} + {1 \\over {{{(an + 2)}^2}}} + ... + {1 \\over {{{(an + n)}^2}}}} \\right)}}} \\right]$$, $$a \\in R,\\,|a|\\, > 1 = \\mathop {\\lim }\\limits_{n \\to \\infty } {{\\sum\\limits_{r = 1}^n {({r^{1/3}})} } \\over {{n^{7/3}}\\sum\\limits_{r = 1}^n {{1 \\over {{{(an + r)}^2}}}} }} = \\mathop {\\lim }\\limits_{n \\to \\infty } {{\\sum\\limits_{r = 1}^n {{{\\left( {{r \\over n}} \\right)}^{1/3}}{1 \\over n}} } \\over {\\sum\\limits_{r = 1}^n {{1 \\over {{{(a + {r \\over n})}^2}}}{1 \\over n}} }} = {{\\int\\limits_0^1 {{x^{1/3}}dx} } \\over {\\int\\limits_0^1 {{{dx} \\over {{{(a + x)}^2}}}} }} = 54$$, (given)\n\n$$ \\Rightarrow {{{3 \\over 4}[{x^{4/3}}]_0^1} \\over {\\left[ { - {1 \\over {x + a}}} \\right]_0^1}} = 54 \\Rightarrow {{{3 \\over 4}} \\over { - {1 \\over {a + 1}} + {1 \\over a}}} = 54 \\Rightarrow {3 \\over {4 \\times 54}} = {1 \\over {a(a + 1)}} \\Rightarrow {a^2} + a = 72 \\Rightarrow {a^2} + 9a - 8a - 72 = 0 \\Rightarrow a(a + 9) - 8(a + 9) = 0 \\Rightarrow (a - 8)(a + 9) = 0 \\Rightarrow a = 8$$ or $$ - 9$$\n\nHence, options (c) and (d) are correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$-$$6",
+      "$$-$$7",
+      "8",
+      "$$-$$9"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_023",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R be a function. We say that f has\n\nPROPERTY 1 if $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over {\\sqrt {|h|} }}$$ exists and is finite, and\n\nPROPERTY 2 if $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over {{h^2}}}$$ exists and is finite. Then which of the following options is/are correct?",
+    "solution": "It is given, that f : R $$ \\to $$ R and\n\nProperty 1 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over {\\sqrt {|h|} }}$$ exists and finite, and\n\nProperty 2 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over {{h^2}}}$$ exists and finite.\n\nOption A,\n\nP2 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{\\sin h - \\sin 0} \\over {{h^2}}} = \\mathop {\\lim }\\limits_{h \\to 0} {1 \\over h}\\left( {{{\\sin \\,h} \\over h}} \\right)$$ = doesn't exist.\n\nOption B,\n\nP1 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{{h^{2/3}} - 0} \\over {\\sqrt {|h|} }} = \\mathop {\\lim }\\limits_{h \\to 0} {h^{2/3 - 1/2}} = \\mathop {\\lim }\\limits_{h \\to 0} {h^{1/6}} = 0$$ exists and finite.\n\nOption C,\n\nP1 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{|h| - 0} \\over {\\sqrt {|h|} }} = \\mathop {\\lim }\\limits_{h \\to 0} \\sqrt {|h|} = 0$$, exists and finite.\n\nOption D,\n\nP2 : $$\\mathop {\\lim }\\limits_{h \\to 0} {{h|h| - 0} \\over {{h^2}}} = \\mathop {\\lim }\\limits_{h \\to 0} {{|h|} \\over h} = \\left\\{ {\\matrix{\n1 & {if\\,h \\to {0^ + }} \\cr\n{ - 1} & {if\\,h \\to {0^ - }} \\cr\n\n} } \\right.$$\n\nSo, $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over {{h^2}}}$$ does not exist.\n\nHence, options (b) and (c) are correct.",
+    "answerKey": [
+      "C",
+      "B"
+    ],
+    "options": [
+      "f(x) = sin x has PROPERTY 2",
+      "f(x) = x$^{2/3}$ has PROPERTY 1",
+      "f(x) = |x| has PROPERTY 1",
+      "f(x) = x|x| has PROPERTY 2"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_024",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R be given by\n\n$$f(x) = \\left\\{ {\\matrix{\n{{x^5} + 5{x^4} + 10{x^3} + 10{x^2} + 3x + 1,} & {x < 0;} \\cr\n{{x^2} - x + 1,} & {0 \\le x < 1;} \\cr\n{{2 \\over 3}{x^3} - 4{x^2} + 7x - {8 \\over 3},} & {1 \\le x < 3;} \\cr\n{(x - 2){{\\log }_e}(x - 2) - x + {{10} \\over 3},} & {x \\ge 3;} \\cr\n\n} } \\right\\}$$\n\nThen which of the following options is/are correct?",
+    "solution": "Given function f : R $$ \\to $$ R is\n\n$$f(x) = \\left\\{ {\\matrix{\n{{x^5} + 5{x^4} + 10{x^3} + 10{x^2} + 3x + 1,} & {x < 0;} \\cr\n{{x^2} - x + 1,} & {0 \\le x < 1;} \\cr\n{{2 \\over 3}{x^3} - 4{x^2} + 7x - {8 \\over 3},} & {1 \\le x < 3;} \\cr\n{(x - 2){{\\log }_e}(x - 2) - x + {{10} \\over 3},} & {x \\ge 3;} \\cr\n\n} } \\right\\}$$\n\nSo,\n\n$$f'(x) = \\left\\{ {\\matrix{\n{{5x^4} + 20{x^3} + 30{x^2} + 20x + 3,} & {x < 0;} \\cr\n{2x - 1,} & {0 \\le x < 1;} \\cr\n{2{x^2} + 8x + 7,} & {1 \\le x < 3;} \\cr\n{{{\\log }_e}(x - 2),} & {x \\ge 3;} \\cr\n\n} } \\right\\}$$\n\nAt x = 1, f\"(1$^{-}$) = 2 > 0 and f\"(1$^{+}$) = 4$$ - $$8 = $$ - $$4 < 0\n\n$$ \\therefore $$ f'(x) is not differentiable at x = 1 and f'(x) has a local maximum at x = 1.\n\nFor x $$ \\in $$ ($$ - \\infty $$, 0)\n\nf'(x) = 5x$^{4}$ + 20x$^{3}$ + 30x$^{2}$ + 20x + 3\n\nand since\n\nf'($$ - $$1) = 5$$ - $$20 + 20 + 30 $$ - $$ 20 + 3 = $$ - $$2 < 0\n\nSo, f(x) is not increasing on x $$ \\in $$($$ - \\infty $$, 0).\n\nNow, as the range of function f(x) is R, so f is onto function.\n\nHence, options (b), (c) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "f is increasing on ($$ - \\infty $$, 0)",
+      "f' is not differentiable at x = 1",
+      "f is onto",
+      "f' has a local maximum at x = 1"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_025",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : (0, $$\\pi $$) $$ \\to $$ R be a twice differentiable function such that $$\\mathop {\\lim }\\limits_{t \\to x} {{f(x)\\sin t - f(t)\\sin x} \\over {t - x}} = {\\sin ^2}x$$ for all x$$ \\in $$ (0, $$\\pi $$).\n\nIf $$f\\left( {{\\pi \\over 6}} \\right) = - {\\pi \\over {12}}$$, then which of the following statement(s) is (are) TRUE?",
+    "solution": "Given,\n\n$$\\mathop {\\lim }\\limits_{t \\to x} {{f(x)\\sin t - f(t)\\sin x} \\over {t - x}} = {\\sin ^2}x$$\n\nUsing L' Hospital rules\n\n$$\\mathop {\\lim }\\limits_{t \\to x} {{f(x)\\cos t - f'(t)\\sin x} \\over 1} = {\\sin ^2}x \\Rightarrow f(x)\\cos x - f'(x)\\sin x = {\\sin ^2}x \\Rightarrow f'(x)\\sin x - f(x)\\cos x = - {\\sin ^2}x \\Rightarrow {{f'(x)\\sin x - f(x)\\cos x} \\over {{{\\sin }^2}x}} = - 1 \\Rightarrow d\\left( {{{f(x)} \\over {\\sin x}}} \\right) = - 1$$\n\nOn integrating, we get\n\n$${{f(x)} \\over {\\sin x}} = - x + C \\Rightarrow f(x) = - x\\sin x + C\\sin x$$\n\nIt is given that $$x = {\\pi \\over 6},\\,f\\left( {{\\pi \\over 6}} \\right) = - {\\pi \\over {12}} \\therefore f\\left( {{\\pi \\over 6}} \\right) = - {\\pi \\over 6}\\sin {\\pi \\over 6} + C\\sin {\\pi \\over 6} = - {\\pi \\over {12}} = - {\\pi \\over {12}} + {1 \\over 2}C \\Rightarrow C = 0 \\therefore f(x) = - x\\sin x$$\n\n(a) $$f(x) = - x\\sin xf\\left( {{\\pi \\over 4}} \\right) = - {\\pi \\over 4}\\sin {\\pi \\over 4} = - {\\pi \\over {4\\sqrt 2 }}$$ false\n\n(b) f(x) = $$-$$ x sin x\n\n$$\\sin x > x - {{{x^3}} \\over 6},\\,\\forall x \\in (0,\\pi ) \\Rightarrow - x\\sin x < - {x^2} + {{{x^4}} \\over 6} \\Rightarrow f(x) < {{{x^4}} \\over 6} - {x^2},\\,\\forall x \\in (0,\\,\\pi )$$\n\nIt is true.\n\n(c) f(x) = $$-$$x sin x\n\nf'(x) = $$-$$ sin x $$-$$ x cos x\n\nf'(x) = 0\n\n$$ \\Rightarrow -$$ sin x $$-$$ x cos x = 0\n\ntan x = $$-$$ x\n\n\n[Diagram]\n\n\n$$ \\Rightarrow $$ Their exists $$\\alpha \\in $$(0, $$\\pi $$) for which f'($$\\alpha $$) = 0\n\nIt is true.\n\n(d) $$f(x) = - x\\sin xf'(x) = - \\sin x - x\\cos xf''(x) = - 2\\cos x + x\\sin xf''\\left( {{\\pi \\over 2}} \\right) = {\\pi \\over 2},\\,f\\left( {{\\pi \\over 2}} \\right) = - {\\pi \\over 2} \\therefore f''\\left( {{\\pi \\over 2}} \\right) + f\\left( {{\\pi \\over 2}} \\right) = 0$$\n\nIt is true.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$f\\left( {{\\pi \\over 4}} \\right) = {\\pi \\over {4\\sqrt 2 }}$$",
+      "$$f(x) < {{{x^4}} \\over 6} - {x^2}$$ for all x$$ \\in $$(0, $$\\pi $$)",
+      "There exists $$\\alpha \\in $$(0, $$\\pi $$) such that f'($$\\alpha $$) = 0",
+      "$$f''\\left( {{\\pi \\over 2}} \\right) + f\\left( {{\\pi \\over 2}} \\right) = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywx179f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_026",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For every twice differentiable function $$f:R \\to [ - 2,2]$$ with $${(f(0))^2} + {(f'(0))^2} = 85$$, which of the following statement(s) is(are) TRUE?",
+    "solution": "We have,\n\n$${(f(0))^2} + {(f'(0))^2} = 85$$\n\nand $$f:R \\to [ - 2,2]$$\n\n(a) Since, f is twice differentiable function, so f is continuous function.\n\n$$ \\therefore $$ This is true for every continuous function.\n\nHence, we can always find x $$ \\in $$ (r, s), where f(x) is one-one.\n\n$$ \\therefore $$ This statement is true.\n\n(b) By L.M.V.T.\n\n$$f'(c) = {{f(b) - f(a)} \\over {b - a}} \\Rightarrow |f'(c)| = \\left| {{{f(b) - f(a)} \\over {b - a}}} \\right| \\Rightarrow |f'({x_0})| = \\left| {{{f(0) - f( - 4)} \\over {0 + 4}}} \\right| = \\left| {{{f(0) - f( - 4)} \\over 4}} \\right|$$\n\nRange of f is [$$-$$2, 2]\n\n$$ \\therefore - 4 \\le f(0) - f( - 4) \\le 4 \\Rightarrow 0 \\le \\left| {{{f(0) - f( - 4)} \\over 4}} \\right| \\le 1$$\n\nHence, |f'(x$_{0}$)| = 1.\n\nHence, statement is true.\n\n(c) As no function is given, then we assume\n\n$$f(x) = 2\\sin \\left( {{{\\sqrt {85} x} \\over 2}} \\right) \\therefore f'(x) = \\sqrt {85} \\cos \\left( {{{\\sqrt {85} x} \\over 2}} \\right)$$\n\nNow, $${(f(0))^2} + {(f'(0))^2} = {(2\\sin 0)^2} + {(\\sqrt {85} \\cos 0)^2}{(f(0))^2} + {(f'(0))^2} = 85$$\n\nand $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x)$$ does not exists.\n\nHence, statement is false.\n\n(d) From option b, $$|f'({x_0})|\\, \\le 1{x_0} \\in ( - 4,0) \\therefore {(f'({x_0}))^2}\\, \\le 1$$\n\nHence, $$g({x_0}) = {(f({x_0}))^2} + {(f'({x_0}))^2}\\, \\le 4 + 1$$\n\n[$$ \\because $$ f(x$_{0}$) $$ \\in $$ [$$-$$2, 2]\n\n$$ \\Rightarrow g({x_0})\\, \\le 5$$\n\nNow, let p $$ \\in $$ ($$-$$4, 0) for which g(p) = 5\n\nSimilarly, let q be smallest positive number q $$ \\in $$ (0, 4)\n\nsuch that g(q) = 5\n\nHence, by Rolle's theorem is (p, q)\n\ng'(c) = 0 for $$\\alpha \\in $$ ($$-$$4, 4) and since g(x) is greater than 5 as we move from x = p to x = q\n\nand f(x))$^{2}$ $$ \\le $$ 4\n\n$$ \\Rightarrow $$ (f'(x))$^{2}$ $$ \\ge $$ 1 in (p, q)\n\nThus, g'(c) = 0\n\n$$ \\Rightarrow $$ f'f + f'f\" = 0\n\nSo, f($$\\alpha $$) + f\"($$\\alpha $$) = 0 and f'($$\\alpha $$) $$\ne $$ 0\n\nHence, statement is true.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "There exist r, s $$ \\in $$ R, where r < s, such that f is one-one on the open interval (r, s)",
+      "There exists x$_{0}$ $$ \\in $$ ($$-$$4, 0) such that |f'(x$_{0}$)| $$ \\le $$ 1",
+      "$$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) = 1$$",
+      "There exists $$\\alpha \\in $$($$-$$4, 4) such that f($$\\alpha $$) + f\"($$\\alpha $$) = 0 and f'($$\\alpha $$) $$\ne $$ 0"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_027",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R and g : R $$ \\to $$ R be two non-constant differentiable functions. If f'(x) = (e$^{(f(x) $$-$$ g(x))}$) g'(x) for all x $$ \\in $$ R and f(1) = g(2) = 1, then which of the following statement(s) is (are) TRUE?",
+    "solution": "We have,\n\n$$f'(x) = {e^{(f(x) - g(x))}}g'(x)\\forall x \\in R \\Rightarrow f'(x) = {{{e^{f(x)}}} \\over {{e^{g(x)}}}}g'(x) \\Rightarrow {{f'(x)} \\over {{e^{f(x)}}}} = {{g'(x)} \\over {{e^{g(x)}}}} \\Rightarrow {e^{ - f(x)}}f'(x) = {e^{ - g(x)}}g'(x)$$\n\nOn integrating both side, we get\n\n$${e^{ - f(x)}}$$ = $${e^{ - g(x)}}$$ + C\n\nAt x = 1\n\n$${e^{ - f(1)}}$$ = $${e^{ - g(1)}}$$ + C\n\n$${e^{ - 1}} = {e^{ - g(1)}} + C$$ [$$ \\because $$ f(1) = 1] ...(i)\n\nAt x = 2\n\n$${e^{ - f(2)}}$$ = $${e^{ - g(2)}}$$ + C\n\n$$ \\Rightarrow {e^{ - f(2)}}$$ = $${e^{ - 1}}$$ + C [$$ \\because $$ g(2) = 1] .... (ii)\n\nFrom Eqs. (i) and (ii)\n\n$${e^{ - f(2)}}$$ = $$2{e^{ - 1}}-{{e^{ - g(1)}}}$$ ...(iii)\n\n$$ \\Rightarrow {e^{ - f(2)}}$$ > $$2{e^{ - 1}}$$\n\nWe know that, e$^{$$-$$x}$ is decreasing\n\n$$ \\therefore -$$f(2) < log$_{e}$ 2$$-$$1\n\nf(2) > 1 $$-$$ log$_{e}$ 2\n\n$$ \\Rightarrow {{e^{ - g(1)}}}$$ + $${e^{ - f(2)}}$$ = $$2{e^{ - 1}}$$ [from Eq. (iii)]\n\n$$ \\Rightarrow {{e^{ - g(1)}}}$$ < $$2{e^{ - 1}}-$$g(1) < log$_{e}$ 2 $$-$$1\n\n$$ \\Rightarrow $$ g(1) >$$-$$log$_{e}$ 2",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "f(2) < 1 $$-$$ log$_{e}$ 2",
+      "f(2) > 1 $$-$$ log$_{e}$ 2",
+      "g(1) > 1 $$-$$ log$_{e}$ 2",
+      "g(1) < 1 $$-$$ log$_{e}$ 2"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_028",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x) = {{1 - x(1 + |1 - x|)} \\over {|1 - x|}}\\cos \\left( {{1 \\over {1 - x}}} \\right)$$\n\nfor x $$\ne $$ 1. Then",
+    "solution": "$$f(x) = {{1 - x(1 + |1 - x|)} \\over {|1 - x|}}\\cos \\left( {{1 \\over {1 - x}}} \\right)$$\n\nNow, $$\\mathop {\\lim }\\limits_{x \\to {1^ - }} f(x) = \\mathop {\\lim }\\limits_{x \\to {1^ - }} {{1 - x(1 + 1 - x)} \\over {1 - x}}\\cos \\left( {{1 \\over {1 - x}}} \\right) = \\mathop {\\lim }\\limits_{x \\to {1^ - }} (1 - x)\\cos \\left( {{1 \\over {1 - x}}} \\right) = 0$$\n\nand $$\\mathop {\\lim }\\limits_{x \\to {1^ + }} f(x) = \\mathop {\\lim }\\limits_{x \\to {1^ + }} {{1 - x(1 + 1 - x)} \\over {x - 1}}\\cos \\left( {{1 \\over {1 - x}}} \\right) = \\mathop {\\lim }\\limits_{x \\to {1^ + }} - (x + 1).cos\\left( {{1 \\over {x + 1}}} \\right)$$, which does not exist.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\mathop {\\lim }\\limits_{x \\to {1^ + }} f(x)$$ = 0",
+      "$$\\mathop {\\lim }\\limits_{x \\to {1^ - }} f(x)$$ does not exist",
+      "$$\\mathop {\\lim }\\limits_{x \\to {1^ - }} f(x)$$ = 0",
+      "$$\\mathop {\\lim }\\limits_{x \\to {1^ + }} f(x)$$ does not exist"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_029",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ (0, 1) be a continuous function. Then, which of the following function(s) has (have) the value zero at some point in the interval (0, 1) ?",
+    "solution": "(a) $$ \\because {e^x} \\in (1,e)$$ in (0, 1) and $$\\int_0^x {f(t)\\sin t\\,dt \\in } $$ (0, 1) in (0, 1)\n\n$$ \\therefore {e^x} - \\int_0^x {f(t)\\sin t\\,dt} $$ cannot be zero.\n\nSo, option (a) is incorrect.\n\n(b) $$f(x) + \\int_0^{{\\pi \\over 2}} {f(t)\\sin t\\,dt} $$ always positive\n\n$$ \\therefore $$ Option (b) is incorrect.\n\n(c) Let $$h(x) = x - \\int_0^{{\\pi \\over 2} - x} {f(t)\\cos t\\,dt} $$,\n\n$$h(0) = - \\int_0^{{\\pi \\over 2}} {f(t)\\cos t\\,dt} < 0h(1) = 1 - \\int_0^{{\\pi \\over 2} - 1} {f(t)\\cos t\\,dt} > 0 \\therefore $$ Option (c) is correct.\n\n(d) Let $$g(x) = {x^9} - f(x)g(0) = - f(0) < 0$$, $$g(1) = 1 - f(1) > 0 \\therefore $$ Option (d) is correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${e^x} - \\int_0^x {f(t)\\sin t\\,dt} $$",
+      "$$f(x) + \\int_0^{{\\pi \\over 2}} {f(t)\\sin t\\,dt} $$",
+      "$$f(x) - \\int_0^{{\\pi \\over 2} - x} {f(t)\\cos t\\,dt} $$",
+      "x$^{9}$ $$-$$ f(x)"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_030",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let [x] be the greatest integer less than or equals to x. Then, at which of the following point(s) the function $$f(x) = x\\cos (\\pi (x + [x]))$$ is discontinuous?",
+    "solution": "$$f(x) = x\\cos (\\pi (x + [x]))$$\n\nAt x = 0\n\n$$\\mathop {\\lim }\\limits_{x \\to 0} f(x) = \\mathop {\\lim }\\limits_{x \\to 0} x\\cos (\\pi (x + [x]) = 0$$\n\nand f(x) = 0\n\n$$ \\therefore $$ It is continuous at x = 0 and clearly discontinuous at other integer points.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "x = $$-$$ 1",
+      "x = 1",
+      "x = 0",
+      "x = 2"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_031",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a, b $$\\in$$ R and f : R $$\\to$$ R be defined by $$f(x) = a\\cos (|{x^3} - x|) + b|x|\\sin (|{x^3} + x|)$$. Then f is",
+    "solution": "$$f(x) = a\\cos (|{x^3} - x|) + b|x|\\sin (|{x^3} + x|)$$\nIf $${x^3} - x \\ge 0 \\Rightarrow \\cos \\left| {{x^3} - x} \\right| = \\cos ({x^3} - x)$$\nand if $${x^3} - x \\le 0 \\Rightarrow \\cos |{x^3} - x| = \\cos ({x^3} - x)\\therefore\\cos (|{x^3} - x|) = \\cos ({x^3} - x),\\,\\forall x \\in R$$ ..... (i)\nAgain, if $${x^3} + x \\ge 0 \\Rightarrow |x|\\sin (|{x^3} + x|) = x\\sin ({x^3} + x)$$\nand if $${x^3} + x \\le 0 \\Rightarrow |x|\\sin (|{x^3} + x|) = - x\\sin \\{ - ({x^3} + x)\\} \\therefore|x|\\sin (|{x^3} + x|) = x\\sin ({x^3} + x),\\,\\forall x \\in R$$ ...... (ii)\n$$ \\Rightarrow f(x) = a\\cos (|{x^3} - x|) + b|x|\\sin (|{x^3} + x|)\\thereforef(x) = a\\cos ({x^3} - x) + bx\\sin ({x^3} + x)$$ ..... (iii)\nFor a function to be differentiable at x = 0, the function must be continuous.\n$$f(0) = a\\cos (0 - 0) + b(0)\\sin (0) = a$$\nTherefore,\n$$f({0^ + }) = \\mathop {\\lim }\\limits_{h \\to \\infty } [a\\cos ({h^3} - h) + bh\\sin ({h^3} + h)] = 0f({0^ - }) = \\mathop {\\lim }\\limits_{h \\to \\infty } [a(\\cos ( - {h^3} + h) + b( - h)\\sin ( - {h^3} - h)] = \\mathop {\\lim }\\limits_{h \\to \\infty } [a\\cos ({h^3} - h) + bh\\sin ({h^3} + h)] = 0$$\nwhich is continuous at x = 0; hence, f(x) is differentiable for all values of a and b.\nTherefore,\n$$f(1) = a\\cos (1 - 1) + 1\\sin (1 + 1) = a + b\\sin 2f({1^ + }) = \\mathop {\\lim }\\limits_{h \\to 0} a\\cos {(1 + h)^3} - (1 + h) + b(1 + h)\\sin {(1 + h)^3} + (1 + h) = f(1)f({1^ - }) = \\mathop {\\lim }\\limits_{h \\to 0} a\\cos {(1 - h)^3} - (1 - h) + b(1 - h)\\sin {(1 - h)^3} + (1 - h) = f(1)$$\nThus, f(x) is continuous and we can also see that f is differentiable at x = 0 and x = 1.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "differentiable at x = 0 if a = 0 and b = 1.",
+      "differentiable at x = 1 if a = 1 and b = 0.",
+      "NOT differentiable at x = 0 if a = 1 and b = 0.",
+      "NOT differentiable at x = 1 if a = 1 and b = 1."
+    ]
+  },
+  {
+    "id": "math_limits_continuity_032",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:\\left[ { - {1 \\over 2},2} \\right] \\to R$$ and $$g:\\left[ { - {1 \\over 2},2} \\right] \\to R$$ be function defined by $$f(x) = [{x^2} - 3]$$ and $$g(x) = |x|f(x) + |4x - 7|f(x)$$, where [y] denotes the greatest integer less than or equal to y for $$y \\in R$$. Then",
+    "solution": "$$f(x) = [{x^2} - 3] = [{x^2}] - 3 = \\left\\{ {\\matrix{\n{ - 3,} & { - 1/2 \\le x < 1} \\cr\n{ - 2,} & {1 \\le x < \\sqrt 2 } \\cr\n{ - 1,} & {\\sqrt 2 \\le x < \\sqrt 3 } \\cr\n{0,} & {\\sqrt 3 \\le x < 2} \\cr\n{1,} & {x = 2} \\cr\n\n} } \\right.$$\nand $$g(x) = |x|f(x) + |4x - 7|f(x) = (|x| + |4x - 7|)f(x) = (|x| + |4x - 7|)[{x^2} - 3] = \\left\\{ {\\matrix{\n{( - x - 4x - 7)( - 3),} & { - 1/2 \\le x < 0} \\cr\n{(x - 4x + 7)( - 3),} & {0 \\le x < 1} \\cr\n{(x - 4x + 7)( - 2),} & {1 \\le x < \\sqrt 2 } \\cr\n{(x - 4x + 7)( - 1),} & {\\sqrt 2 \\le x < \\sqrt 3 } \\cr\n{(x - 4x + 7)(0),} & {\\sqrt 3 \\le x < 7/4} \\cr\n{(x + 4x - 7)(0),} & {7/4 \\le x < 2} \\cr\n{(x + 4x - 7)(1),} & {x = 2} \\cr\n\n} } \\right.\\thereforeg(x) = \\left\\{ {\\matrix{\n{15x + 21,} & { - 1/2 \\le x < 0} \\cr\n{9x - 21,} & {0 \\le x < 1} \\cr\n{6x - 14,} & {1 \\le x < \\sqrt 2 } \\cr\n{3x - 7,} & {\\sqrt 2 \\le x\\sqrt 3 } \\cr\n{0,} & {\\sqrt 3 \\le x < 2} \\cr\n{5x - 7,} & {x = 2} \\cr\n\n} } \\right.$$\nNow, the graphs of f(x) and g(x) are shown below.\n\n[Diagram]\n\nGraph for f(x)\nClearly, f(x) is discontinuous at 4 points.\n$$\\therefore$$ Option (b) is correct.\nGraph for g(x)\n\n[Diagram]\n\nClearly, g(x) is not differentiable at 4 points, when\nx $$\\in$$ ($$-$$1 / 2, 2).\n$$\\therefore$$ Option (c) is correct.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "f is discontinuous exactly at three points in $$\\left[ { - {1 \\over 2},2} \\right]$$.",
+      "f is discontinuous exactly at four points in $$\\left[ { - {1 \\over 2},2} \\right]$$.",
+      "g is NOT differentiable exactly at four points in $$\\left( { - {1 \\over 2},2} \\right)$$.",
+      "g is NOT differentiable exactly at five points in $$\\left( { - {1 \\over 2},2} \\right)$$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0rx29b6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_033",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$g:R \\to R$$ be a differentiable function with $$g(0) = 0$$, $$g'(0) = 0$$ and $$g'(1)\ne 0$$. Let\n$$f(x) = \\left\\{ {\\matrix{\n{{x \\over {|x|}}g(x),} & {x\ne 0} \\cr\n{0,} & {x = 0} \\cr\n\n} } \\right.$$\nand $$h(x) = {e^{|x|}}$$ for all $$x \\in R$$. Let $$(f\\, \\circ \\,h)(x)$$ denote $$f(h(x))$$ and $$(h\\, \\circ \\,f)(x)$$ denote $$f(f(x))$$. Then which of the following is (are) true?",
+    "solution": "Rewrite f as\n$$f(x) = \\left\\{ {\\matrix{\n{g(x),} & {x > 0} \\cr\n0 & {x = 0} \\cr\n{ - g(x),} & {x < 0} \\cr\n\n} } \\right.$$\nWe have, $$f'(x) = \\left\\{ {\\matrix{\n{g'(x),} & {x > 0} \\cr\n{ - g'(x),} & {x < 0} \\cr\n\n} } \\right.$$\nAt x = 0\n$$f'(0) = \\mathop {\\lim }\\limits_{h \\to 0} {{f(0 + h) - f(0)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{g(h) - 0} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{g(h) - g(0)} \\over h} = g'(0)f'(x) = \\left\\{ {\\matrix{\n{g'(x),} & {x \\ge 0} \\cr\n{ - g'(x),} & {x < 0} \\cr\n\n} } \\right.$$\nf is differentiable at x = 0.\n$$\\therefore$$ Option (a) is correct.\n(b) $$h(x) = {e^{|x|}} = \\left\\{ {\\matrix{\n{{e^x},} & {x \\ge 0} \\cr\n{{e^{ - x}},} & {x < 0} \\cr\n\n} } \\right. \\Rightarrow h'(x) = \\left\\{ {\\matrix{\n{{e^x},} & {x \\ge 0} \\cr\n{ - {e^{ - x}},} & {x < 0} \\cr\n\n} } \\right. \\Rightarrow h'({0^ + }) = 1$$\nand $$h'({0^ - }) = - 1$$\nSo, h(x) is not differentiable at x = 0.\n$$\\therefore$$ Option (b) is not correct.\n(c) $$(foh)(x) = f\\{ h(x)\\} $$, as $$h(x) > 0 = \\left\\{ {\\matrix{\n{g({e^x}),} & {x \\ge 0} \\cr\n{g({e^{ - x}}),} & {x < 0} \\cr\n\n} } \\right. \\Rightarrow (foh)'(x) = \\left\\{ {\\matrix{\n{{e^x}g'({e^x}),} & {x \\ge 0} \\cr\n{ - {e^x}g'({e^{ - x}}),} & {x < 0} \\cr\n\n} } \\right. \\Rightarrow (foh)'({0^ + }) = g'(1),(foh)'({0^ - }) = - g'(1)$$\nSo, $$(hof)(x)$$ is not differentiable at\n$$x = 0$$.\n$$\\therefore$$ Option (c) is not correct.\n(d) $$(hof)(x) = {e^{\\left| {f(x)} \\right|}} = \\left\\{ {\\matrix{\n{{e^{\\left| {g(x)} \\right|}},} & {x\ne 0} \\cr\n{{e^0} = 1,} & {x = 0} \\cr\n\n} } \\right.$$\nNow, $$(hof)'(0) = \\mathop {\\lim }\\limits_{h \\to 0} {{{e^{\\left| {g(x)} \\right|}} - 1} \\over x} = \\mathop {\\lim }\\limits_{h \\to 0} {{{e^{\\left| {g(x)} \\right|}} - 1} \\over {|g(x)|}}\\,.\\,{{|g(x)|} \\over x} = \\mathop {\\lim }\\limits_{h \\to 0} {{{e^{\\left| {g(x)} \\right|}} - 1} \\over {|g(x)|}}\\,.\\,\\mathop {\\lim }\\limits_{h \\to 0} {{\\left| {g(x)| - 0} \\right|} \\over {|x|}}\\,.\\mathop {\\lim }\\limits_{h \\to 0} {{|x|} \\over x} = 1\\,.\\,g'(0)\\,.\\,\\mathop {\\lim }\\limits_{h \\to 0} {{|x|} \\over x}$$\n= 0, as g'(0) = 0\n$$\\therefore$$ Option (d) is correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "f is differentiable at x = 0.",
+      "h is differentiable at x = 0.",
+      "$$f\\, \\circ \\,h$$ is differentiable at x = 0.",
+      "$$h\\, \\circ \\,f$$ is differentiable at x = 0."
+    ]
+  },
+  {
+    "id": "math_limits_continuity_034",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:(a,b) \\to [1,\\infty )$$ be a continuous function and g : R $$\\to$$ R be defined as $$g(x) = \\left\\{ {\\matrix{\n0 & , & {x < a} \\cr\n{\\int_a^x {f(t)dt} } & , & {a \\le x \\le b} \\cr\n{\\int_a^b {f(t)dt} } & , & {x > b} \\cr\n\n} } \\right.$$ Then,",
+    "solution": "Given that $$f:(a,b) \\to [1,\\infty )$$\n\nand $$g(x) = \\left\\{ {\\matrix{\n0 & , & {x < a} \\cr\n{\\int_a^x {f(t)dt} } & , & {a \\le x \\le b} \\cr\n{\\int_a^b {f(t)dt} } & , & {x > b} \\cr\n\n} } \\right.$$\n\nNow, $$g({a^ - }) = 0 = g({a^ + }) = g(a)$$\n\n[as $$g({a^ + }) = \\mathop {\\lim }\\limits_{x \\to {a^ + }} \\int_a^x {f(t)dt = 0} $$ and $$g(a) = \\int_a^a {f(t)dt = 0} $$]\n\n$$g({b^ - }) = g({b^ + }) = g(b) = \\int_a^b {f(t)dt} \\Rightarrow$$ g is continuous, $$\\forall$$x$$\\in$$R.\n\nNow, $$g'(x) = \\left\\{ {\\matrix{\n0 & , & {x < a} \\cr\n{f(x)} & , & {a < x < b} \\cr\n0 & , & {x > b} \\cr\n\n} } \\right.$$\n\ng'(a$^{$$-$$}$) = 0 but g'(a$^{+}$) = f(a) $$\\ge$$ 1\n\n[$$\\because$$ Range of f(x) is [1, $$\\infty$$), $$\\forall$$ x $$\\in$$[a, b]]\n\n$$\\Rightarrow$$ g is non-differentiable at x = a\n\nand g'(b$^{+}$) = 0\n\nbut g'(b$^{$$-$$}$) = f(b) $$\\ge$$ 1\n\n$$\\Rightarrow$$ g is not differentiable at x = b.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "g(x) is continuous but not differentiable at a",
+      "g(x) is differentiable on R",
+      "g(x) is continuous but not differentiable at b",
+      "g(x) is continuous and differentiable at either a or b but not both"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_035",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$a \\in R$$ (the set of all real numbers), a $$\ne-$$1,\n\n$$\\mathop {\\lim }\\limits_{n \\to \\infty } {{({1^a} + {2^a} + ... + {n^a})} \\over {{{(n + 1)}^{a - 1}}[(na + 1) + (na + 2) + ... + (na + n)]}} = {1 \\over {60}}$$, Then a = ?",
+    "solution": "$$\\mathop {\\lim }\\limits_{n \\to \\infty } {{({1^a} + {2^a} + ... + {n^a})} \\over {{{(n + 1)}^{a - 1}}[(na + 1) + (na + 2) + ... + (na + n)]}} = \\mathop {\\lim }\\limits_{n \\to \\infty } {{\\sum\\limits_{r = 1}^n {{r^a}} } \\over {{{(n + 1)}^{a - 1}}\\left\\{ {{n^2}a + {{n(n + 1)} \\over 2}} \\right\\}}} = \\mathop {\\lim }\\limits_{n \\to \\infty } {{{1 \\over n}\\sum\\limits_{r = 1}^n {{{\\left( {{r \\over n}} \\right)}^a}} } \\over {{{\\left( {1 + {1 \\over n}} \\right)}^{a - 1}}\\left\\{ {a + {1 \\over 2} + {1 \\over {2n}}} \\right\\}}} = {{\\int\\limits_a^1 {{x^a}dx} } \\over {a + {1 \\over 2}}} = {1 \\over {(a + 1)\\left( {a + {1 \\over 2}} \\right)}} = {1 \\over {60}}$$ given.\n$$ \\Rightarrow (2a + 1)(a + 1) = 120 \\Rightarrow 2{a^2} + 3a - 119 = 0 \\Rightarrow 2{a^2} - 14a + 17a - 119 = 0 \\Rightarrow 2a(a - 7) + 17(a - 7) = 0 \\Rightarrow (2a + 17)(a - 7) = 0$$.\n$$\\thereforea = 7,\\, - {{17} \\over 2}$$\nBut $$a = - {{17} \\over 2}$$ has to be discarded because integral $$\\int\\limits_a^1 {{x^a}dx} $$ converges if a > $$-$$1",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "5",
+      "7",
+      "$${{ - 15} \\over 2}$$",
+      "$${{ - 17} \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_036",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For every integer n, let a$_{n}$ and b$_{n}$ be real numbers. Let function f : R $$\\to$$ R be given by\n$$f(x) = \\left\\{ {\\matrix{\n{{a_n} + \\sin \\pi x,} & {for\\,x \\in [2n,2n + 1]} \\cr\n{{b_n} + \\cos \\pi x,} & {for\\,x \\in (2n - 1,2n)} \\cr\n\n} } \\right.$$, for all integers n. If f is continuous, then which of the following hold(s) for all n ?",
+    "solution": "We have at the points x = 2n\nf(2n) = a$_{n}$ + sin2n$$\\pi$$ = a$_{n}$\nAlso for the L.H.L., we have\nL.H.L. = $$\\mathop {\\lim }\\limits_{h \\to 0} ({b_n} + \\cos \\pi (2n - h)) = {b_{n + 1}}$$\nR.H.L. = $$\\mathop {\\lim }\\limits_{h \\to 0} ({a_n} + \\sin \\pi (2n + h)) = {a_n}$$\nFor continuity $${b_{n + 1}} = {a_n}$$\nAgain at $$x = 2n + 1$$\nL.H.L. = $$\\mathop {\\lim }\\limits_{h \\to 0} ({a_n} + \\sin (\\pi (2n + 1 - h))) = {a_n}$$\nR.H.L. = $$\\mathop {\\lim }\\limits_{h \\to 0} ({b_{n + 1}} + \\cos (\\pi (2n + 1) - h)) = {b_{n + 1}} - 1$$\nAlso, $$f(2n + 1) = {a_n}$$\nFor continuity we require $${b_n} + 1 = {a_n}\\therefore{a_n} - {b_n} = 1$$\nAlso, $${a_n} = {b_{n + 1}} - 1\\therefore{a_{n - 1}} - {b_n} = - 1$$",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "a$_{n $$-$$ 1}$ $$-$$ b$_{n $$-$$ 1}$ = 0",
+      "a$_{n}$ $$-$$ b$_{n}$ = 1",
+      "a$_{n}$ $$-$$ b$_{n $$+$$ 1}$ = 1",
+      "a$_{n $$-$$ 1}$ $$-$$ b$_{n}$ = $$-$$1"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_037",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f(x) = \\left\\{ {\\matrix{\n{ - x - {\\pi \\over 2},} & {x \\le - {\\pi \\over 2}} \\cr\n{ - \\cos x} & { - {\\pi \\over 2} < x \\le 0} \\cr\n{x - 1} & {0 < x \\le 1} \\cr\n{\\ln x} & {x > 1} \\cr\n\n} } \\right.$$, then",
+    "solution": "$$\\mathop {\\lim }\\limits_{x \\to {{{\\pi ^ - }} \\over 2}} f(x) = 0 = f( - \\pi /2)\\mathop {\\lim }\\limits_{x \\to {{{\\pi ^ + }} \\over 2}} f(x) = \\cos \\left( { - {\\pi \\over 2}} \\right) = 0f'(x) = \\left\\{ {\\matrix{\n{ - 1,} & {x \\le - \\pi /2} \\cr\n{\\sin x,} & { - \\pi /2 < x \\le 0} \\cr\n{1,} & {0 < x \\le 1} \\cr\n{1/x,} & {x > 1} \\cr\n\n} } \\right.$$\nClearly, f(x) is not differentiable at x = 0 as f'(0$^{$$-$$}$) = 0 and f'(0$^{+}$) = 1.\nf(x) is differentiable at x = 1 as $$f'({1^{ - 1}}) = f'({1^ + }) = 1$$.",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "f(x) is continuous at x = $$-\\pi$$/2.",
+      "f(x) is not differentiable at x = 0.",
+      "f(x) is differentiable at x = 1.",
+      "f(x) is differentiable at x = $$-$$3/2."
+    ]
+  },
+  {
+    "id": "math_limits_continuity_038",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$\\to$$ R be a function such that $$f(x + y) = f(x) + f(y),\\,\\forall x,y \\in R$$. If f(x) is differentiable at x = 0, then",
+    "solution": "Set x = 0 in the functional equation to obtain\n$$f(0) = f(0) + f(0)\\thereforef(0) = 0f'(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{f(x + h) - f(x)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(x + h) - f(x + 0)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(x) + f(h) - f(x) - f(0)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(h) - f(0)} \\over h} = f'(0)$$\nThus, $$f'(x) = \\lambda $$ (say). Also $$f(x) = \\lambda x + \\mu $$\nAs $$f(x) = 0$$ we have $$\\mu = 0\\thereforef(x) = \\lambda x$$.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "f(x) is differentiable only in a finite interval containing zero.",
+      "f(x) is continuous $$\\forall x \\in R$$.",
+      "f'(x) is constant $$\\forall x \\in R$$.",
+      "f(x) is differentiable except at finitely many points."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgujaie0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_039",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$L = \\mathop {\\lim }\\limits_{x \\to 0} {{a - \\sqrt {{a^2} - {x^2}} - {{{x^2}} \\over 4}} \\over {{x^4}}},a > 0$$. If L is finite, then",
+    "solution": "The given limit is\n$$L = \\mathop {\\lim }\\limits_{x \\to 0} {{a - \\sqrt {{a^2} - {x^2}} - {{{x^2}} \\over 4}} \\over {{x^4}}} = \\mathop {\\lim }\\limits_{x \\to 0} {1 \\over {{x^2}(a + \\sqrt {{a^2} - {x^2}} )}} - {1 \\over {4{x^2}}} = \\mathop {\\lim }\\limits_{x \\to 0} {{(4 - a) - \\sqrt {{a^2} - {x^2}} } \\over {4{x^2}(a + \\sqrt {{a^2} - {x^2}} )}}$$\nThe numerator $$\\to$$ 0 if $$a = 2$$; therefore, $$L = {1 \\over {64}}$$.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$a = 2$$",
+      "$$a = 1$$",
+      "$$L = {1 \\over {64}}$$",
+      "$$L = {1 \\over {32}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgujaie0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_040",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x)$$ be a non-constant twice differentiable function defined on $$\\left( { - \\infty ,\\infty } \\right)$$\n\nsuch that $$f\\left( x \\right) = f\\left( {1 - x} \\right)$$ and $$f'\\left( {{1 \\over 4}} \\right) = 0.$$ Then,",
+    "solution": "$$f(x)$$ is a non constant twice differential function such that\n\n$$f(x) = f(1 - x) \\Rightarrow f'(x) = - f'(1 - x)$$ .... (i)\nFor $$x = {1 \\over 2}$$\nWe get $$f'\\left( {{1 \\over 2}} \\right) = - f'\\left( {1 - {1 \\over 2}} \\right) = f'\\left( {{1 \\over 2}} \\right) + f'\\left( {{1 \\over 2}} \\right) = 0 \\Rightarrow f'\\left( {{1 \\over 2}} \\right) = 0$$\nFor $$x = {1 \\over 4}$$, we get $$f'\\left( {{1 \\over 4}} \\right) = - f'\\left( {{3 \\over 4}} \\right)$$\nBut given that $$f'\\left( {{1 \\over 4}} \\right) = 0:f'\\left( {{1 \\over 4}} \\right) = f'\\left( {{3 \\over 4}} \\right) = 0$$\nHence $$f'(x)$$ satisfies all conditions of roller's theorem for $$x \\in \\left[ {{1 \\over 4},{1 \\over 2}} \\right]$$ and $$\\left[ {{1 \\over 2},{3 \\over 4}} \\right]$$, so there exist at least one point $${C_1} \\in \\left( {{1 \\over 4},{1 \\over 2}} \\right)$$ and at least one point $${C_2} \\in \\left( {{1 \\over 2},{3 \\over 4}} \\right)$$ such that\n$$f''(G) = 0$$ and $$f''{(C)_2} = 0\\thereforef''(x)$$ vanishes at least twice on [0, 1]\nAlso using $$f(x) = f(1 - x)f\\left( {x + {1 \\over 2}} \\right) = f\\left( {1 - x - {1 \\over 2}} \\right) = f\\left( { - x + {1 \\over 2}} \\right)f'\\left( {x + {1 \\over 2}} \\right)$$ is an odd function\n$$ \\Rightarrow \\sin x\\,f\\left( {x + {1 \\over x}} \\right)$$ is an even function\n$$\\int\\limits_{{{ - 1} \\over 2}}^{{1 \\over 2}} {f\\left( {x + {1 \\over x}} \\right)\\sin x\\,dx = 0} $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$f''\\left( x \\right)$$ vanishes at least twice on $$\\left[ {0,1} \\right]$$",
+      "$$f'\\left( {{1 \\over 2}} \\right) = 0$$",
+      "$$\\int\\limits_{ - 1/2}^{1/2} {f\\left( {x + {1 \\over 2}} \\right)\\sin x\\,dx} = 0$$",
+      "$$\\int\\limits_0^{1/2} {f\\left( t \\right){e^{\\sin \\,\\pi t}}dt = } \\int\\limits_{1/2}^1 {f\\left( {1 - t} \\right){e^{\\sin \\,\\pi t}}dt} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgujaie0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_041",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $f(x)=\\min \\left\\{1, x^2, x^3\\right\\}$, then",
+    "solution": "In this graph we can observe\n\n$$ f(x)=1 $$(minimum of the given curve as $x>1$ ) $f(x)=x^3$ (minimum of the curve as $x<1$ )\ni.e, $f(x)=\\left\\{\\begin{array}{rr}x^3 & x \\leq 1 \\\\ 1 & x>1\\end{array}\\right.$\n\n[Diagram]\nFrom graph it is clear that\n$\\Rightarrow f(x)$ is continuous $\\forall x \\in \\mathbf{R}$\n$\\Rightarrow$ Since, the obtained $f(x)$ has sharp corner in graph at $x=1$ like $f(x)=|x|$ at $x=0$\n$\\therefore f(x)$ is non - differentiable at $x=1$\n\n[Diagram]\nConcept: Function is non differentiable if it has sharp corner because it indicates that function change its definition abruptly results multiple tangent at that pointed part of curve.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$f(x)$ is continuous $\\forall \\mathrm{x} \\in \\mathrm{R}$",
+      "$f(x)>0, \\forall x>1$",
+      "$f(x)$ is not differentiable but continuous $\\forall x \\in \\mathrm{R}$",
+      "$f(x)$ is not differentiable for two values of $x$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgujaie0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_042",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. Define the function $f : \\mathbb{R} \\to \\mathbb{R}$ by$f(x)=\\left\\{\\begin{array}{cc}2-2 x^2-x^2 \\sin \\frac{1}{x} & \\text { if } x\neq 0, \\\\ 2 & \\text { if } x=0 .\\end{array}\\right.$Then which one of the following statements is TRUE?",
+    "solution": "The function $ f : \\mathbb{R} \\to \\mathbb{R} $ is defined by:\n$ f(x) = \\begin{cases} 2 - 2x^2 - x^2 \\sin \\frac{1}{x}, & \\text{if } x\neq 0, \\\\ 2, & \\text{if } x = 0. \\end{cases} $\nExplanation:\n(A) To determine differentiability at $ x = 0 $, consider the right-hand derivative (RHD):\n$ \\lim\\limits_{h \\rightarrow 0} \\frac{(2 - 2h^2 - h^2 \\sin \\frac{1}{h}) - 2}{h} = 0 $\nSimilarly, for the left-hand derivative (LHD) at $ x = 0 $, we also find it equals 0. Therefore, $ f $ is differentiable at $ x = 0 $.\n(B) For $ x \\in (0, \\delta) $, the derivative of $ f $ is:\n$ f^{\\prime}(x) = -\\left(4x + 2x \\sin \\frac{1}{x}\\right) + \\cos \\frac{1}{x} $\nThus:\n$ f^{\\prime}(x) = -\\left(2x\\left(4 - \\sin \\frac{1}{x}\\right)\\right) + \\cos \\frac{1}{x} $\nSince $\\cos \\frac{1}{x}$ oscillates, we cannot assert that $ f(x) $ is strictly decreasing on $ (0, \\delta) $.\n(C) For $ x \\in (-\\delta, 0) $ and any $ \\delta > 0 $, $ f(x) $ is not increasing since $\\cos \\frac{1}{x}$ oscillates between -1 and 1.\n(D) Evaluating at $ x = 0 $:\n$ f(0) = 2 $\nFor small $ h $:\n$ f(0 + h) < 2 \\quad \\text{and} \\quad f(0 - h) < 2 $\nTherefore, $ x = 0 $ is a local maximum, not a local minimum.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "The function $f$ is **NOT** differentiable at $x = 0$",
+      "There is a positive real number $\\delta$, such that $f$ is a decreasing function on the interval $(0, \\delta)$",
+      "For any positive real number $\\delta$, the function $f$ is **NOT** an increasing function on the interval $(-\\delta, 0)$",
+      "$x = 0$ is a point of local minima of $f$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_043",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. For a real number $x$, let [ x ] denote the greatest integer less than or equal to $x$. Let $n$ denote a natural number.\nMatch each entry in List-I to the correct entry in List-II and choose the correct option.\n\n\n\nList–I\n\nList–II\n\n\n\n\n\n(P) The minimum value of $n$ for which the function\n\n$$\nf(x)=\\left[\\frac{10 x^3-45 x^2+60 x+35}{n}\\right]\n$$\n\nis continuous on the interval $[1,2]$, is\n\n(1) 8\n\n\n\n\n\n(Q) The minimum value of $n$ for which $g(x)=\\left(2 n^2-13 n-15\\right)\\left(x^3+3 x\\right)$, $x \\in \\mathbb{R}$, is an increasing function on $\\mathbb{R}$, is\n\n(2) 9\n\n\n\n\n\n(R) The smallest natural number $n$ which is greater than 5 , such that $x=3$ is a point of local minima of\n\n$$\nh(x)=\\left(x^2-9\\right)^n\\left(x^2+2 x+3\\right)\n$$\nis\n\n(3) 5\n\n\n\n\n\n(S) Number of $x_0 \\in \\mathbb{R}$ such that\n\n$$\nl(x)=\\sum\\limits_{k=0}^4\\left(\\sin |x-k|+\\cos \\left|x-k+\\frac{1}{2}\\right|\\right)\n$$\n\n$x \\in \\mathbb{R}$, is NOT differentiable at $x_0$, is\n\n(4) 6\n\n\n\n\n\n\n\n(5) 10",
+    "solution": "$\\begin{aligned} & \\text { (P) Let } g(x)=10 x^3-45 x^2+60 x+35 \\\\\\\\ & g^{\\prime}(x)=30\\left(x^2-3 x+2\\right)=30(x-1)(x-2)\\end{aligned}$\n\n[Diagram]\n\n$\\Rightarrow g(x)$ is decreasing in $[1,2]$\nNow, $f(1)=\\left[\\frac{g(1)}{n}\\right]=\\left[\\frac{60}{n}\\right], f(2)=\\left[\\frac{55}{n}\\right]$\nFor $f(x)$ to be continuous in $[1,2]$ its integral value should remain same in whole interval for $n=9, f(1)=6, f(2)=6$\n$(P) \\rightarrow(2)$\n(Q)\n$$ \\begin{aligned} & g^{\\prime}(x)=\\left(2 n^2-13 n-15\\right)\\left(3 x^2+3\\right) \\\\ & =(2 n-15)(n+1)\\left(3 x^2+3\\right)>0 \\end{aligned} $$\n\n[Diagram]\n\nfor $g(x)$ to be increasing $\\min n=8$\n$\\Rightarrow Q \\rightarrow 1$ matching\n(R) $h(x)=\\left(x^2-9\\right)^n\\left(x^2+2 x+3\\right)$\n$h(3)=0$ for $n>5$\nat $n=6 \\Rightarrow n(3+\\delta)>h(3)$\n$$ n(3-\\delta)>n(3) $$\n$\\Rightarrow h(x)$ has local minima at $x=3$ for $n=6$\n$R \\rightarrow 4$ matching\n(S) $\\quad I(x)=\\sin |x|+\\cos \\left|x+\\frac{1}{2}\\right|+\\sin |x-1|+\\cos \\left|x-\\frac{1}{2}\\right|$ $+\\ldots \\ldots+\\sin |x-4|+\\cos \\left|x-\\frac{7}{2}\\right|$\n\nas $\\sin |x-a|$ is non differentiable at $x=a$\n\nbut $\\cos |x-a|$ remains differentiable at $x=a$\n\n$\\Rightarrow$ given $I(x)$ is non-differentiable at\n\n$\\begin{aligned} & x_0=0,1,2,3,4(5 \\text { points }) \\\\\\\\ & (S) \\rightarrow(3) \\text { matching } \\\\\\\\ & (P) \\rightarrow(2)(Q) \\rightarrow(1)(R) \\rightarrow(4)(S) \\rightarrow(3)\\end{aligned}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(P) → (1)   (Q) → (3)   (R) → (2)   (S) → (5)",
+      "(P) → (2)   (Q) → (1)   (R) → (4)   (S) → (3)",
+      "(P) → (5)   (Q) → (1)   (R) → (4)   (S) → (3)",
+      "(P) → (2)   (Q) → (3)   (R) → (1)   (S) → (5)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mbdk4k03.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_044",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $k \\in \\mathbb{R}$. If $\\lim \\limits_{x \\rightarrow 0+}(\\sin (\\sin k x)+\\cos x+x)^{\\frac{2}{x}}=e^6$, then the value of $k$ is",
+    "solution": "$$\\begin{aligned}\n& \\lim _{x \\rightarrow 0} \\frac{2}{x}(\\sin (\\sin k x)+\\cos x+x-1)=6 \\\\\n& \\lim _{x \\rightarrow 0} \\frac{\\sin (\\sin k x) \\cdot \\sin k x}{(\\sin k x) k x} \\cdot k+1-\\lim _{x \\rightarrow 0} \\frac{1-\\cos x}{x^2} \\cdot x=3 \\\\\n& k+1=3 \\Rightarrow k=2\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_045",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by\n\n$$ f(x)=\\left\\{\\begin{array}{cc} x^2 \\sin \\left(\\frac{\\pi}{x^2}\\right), & \\text { if } x\neq 0, \\\\ 0, & \\text { if } x=0 . \\end{array}\\right. $$\n\nThen which of the following statements is TRUE?",
+    "solution": "Option-A : $$\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^2 \\sin \\frac{\\pi}{\\mathrm{x}^2}\\mathrm{f}(\\mathrm{x})=0 \\Rightarrow \\sin \\frac{\\pi}{\\mathrm{x}^2}=0 \\Rightarrow \\frac{\\pi}{\\mathrm{x}^2}=\\mathrm{n} \\pi, \\mathrm{n} \\in \\mathrm{N}\\mathrm{x}^2=\\frac{1}{\\mathrm{n}} \\Rightarrow \\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}\\frac{1}{\\sqrt{\\mathrm{n}}} \\geq \\frac{1}{10^{10}} \\Rightarrow 10^{10} \\geq \\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n} \\leq 10^{20}$$, finite number of solutions\nOption-B : $$\\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}} \\Rightarrow \\frac{1}{\\sqrt{\\mathrm{n}}}>\\frac{1}{\\pi} \\Rightarrow \\pi>\\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n}<\\pi^2$$, Number of solutions is 9\nOption-C : $$\\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}, \\frac{1}{\\sqrt{\\mathrm{n}}}<\\frac{1}{10^{10}} \\Rightarrow \\sqrt{\\mathrm{n}}>10^{10} \\Rightarrow \\mathrm{n}>10^{20}$$, Infinite number of solutions\nOption-D : $$\\frac{1}{\\pi^2}<\\frac{1}{\\sqrt{\\mathrm{n}}}<\\frac{1}{\\pi} \\Rightarrow \\sqrt{\\mathrm{n}} \\in\\left(\\pi, \\pi^2\\right) \\Rightarrow \\mathrm{n} \\in\\left(\\pi^2, \\pi^4\\right)$$, Definitely more than 25 solutions",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$f(x)=0$ has infinitely many solutions in the interval $\\left[\\frac{1}{10^{10}}, \\infty\\right)$.",
+      "$f(x)=0$ has no solutions in the interval $\\left[\\frac{1}{\\pi}, \\infty\\right)$.",
+      "The set of solutions of $f(x)=0$ in the interval $\\left(0, \\frac{1}{10^{10}}\\right)$ is finite.",
+      "$f(x)=0$ has more than 25 solutions in the interval $\\left(\\frac{1}{\\pi^2}, \\frac{1}{\\pi}\\right)$."
+    ]
+  },
+  {
+    "id": "math_limits_continuity_046",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be functions defined by\n\n$$ f(x)=\\left\\{\\begin{array}{ll} x|x| \\sin \\left(\\frac{1}{x}\\right), & x\neq 0, \\\\ 0, & x=0, \\end{array} \\quad \\text { and } g(x)= \\begin{cases}1-2 x, & 0 \\leq x \\leq \\frac{1}{2}, \\\\ 0, & \\text { otherwise } .\\end{cases}\\right. $$\n\nLet $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ by\n\n$$ h(x)=a f(x)+b\\left(g(x)+g\\left(\\frac{1}{2}-x\\right)\\right)+c(x-g(x))+d g(x), x \\in \\mathbb{R} . $$\n\nMatch each entry in **List-I** to the correct entry in **List-II**.\n\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\n}\nth {\nbackground-color: #1E90FF;\ncolor: white;\n}\nth, td {\nborder: 1px solid lightgrey;\npadding: 8px;\ntext-align: left;\n}\nbody[data-theme='dark'] th, body[data-theme='dark'] td {\nborder: 1px solid white;\n}\n\n\n\n\nList-I\nList-II\n\n\n\n\n(P) If $a = 0$, $b = 1$, $c = 0$, and $d = 0$, then\n(1) $h$ is one-one.\n\n\n(Q) If $a = 1$, $b = 0$, $c = 0$, and $d = 0$, then\n(2) $h$ is onto.\n\n\n(R) If $a = 0$, $b = 0$, $c = 1$, and $d = 0$, then\n(3) $h$ is differentiable on $\\mathbb{R}$.\n\n\n(S) If $a = 0$, $b = 0$, $c = 0$, and $d = 1$, then\n(4) the range of $h$ is $[0, 1]$.\n\n\n\n(5) the range of $h$ is $\\{0, 1\\}$.\n\n\n\nThe correct option is",
+    "solution": "$$f(x)=\\left\\{\\begin{array}{cc}\nx|x| \\sin \\frac{1}{x} & ; x\neq 0 \\\\\n0 & ; \\quad x=0\n\\end{array} \\quad g(x)=\\left\\{\\begin{array}{cc}\n1-2 x & 0 \\leq x \\leq \\frac{1}{2} \\\\\n0 ; & \\text { otherwise }\n\\end{array}\\right.\\right.g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{cc}\n2 x & ; \\quad 0 \\leq \\frac{1}{2}-x \\leq \\frac{1}{2} \\\\\n0 ; & \\text { otherwise }\n\\end{array}=\\left\\{\\begin{array}{cc}\n2 x ; & 0 \\leq x \\leq \\frac{1}{2} \\\\\n0 ; & \\text { otherwise }\n\\end{array}\\right\\}\\right.g(x)+g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{ll}\n1 ; & 0 \\leq x \\leq \\frac{1}{2} \\\\\n0 & ; \\text { otherwise }\n\\end{array}\\right\\}$$\n(P) $$\\quad$$ Now $$a=0, b=1, c=0, d=0\\because h(x)=g(x)+g\\left(\\frac{1}{2}-x\\right)= \\begin{cases}1 ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 ; & \\text { otherwise }\\end{cases}$$\n\n[Diagram]\n\nHence Range of h(x) is {0, 1}\n(Q) $$\\mathrm{a}=1, \\mathrm{~b}=0, \\mathrm{c}=0, \\mathrm{~d}=0h(x)=f(x)=\\left\\{\\begin{array}{cc}\nx|x| \\sin \\frac{1}{x} & ; x\neq 0 \\\\\n0 & ; x=0\n\\end{array}\\right.\\begin{aligned}\n& R H D=\\lim _{x \\rightarrow 0} \\frac{x^2 \\sin \\frac{1}{x}-0}{x}=0 \\\\\n& \\text { LHD }=\\lim _{x \\rightarrow 0} \\frac{-x^2 \\sin \\frac{1}{x}-0}{x}=0\n\\end{aligned}$$\nHence $$h(x)$$ is differentiable on $$R$$\n(R) $$\\mathrm{a}=0, \\mathrm{~b}=0, \\mathrm{c}=1, \\mathrm{~d}=0h(x)=x-g(x)=\\left\\{\\begin{array}{cl}\n3 x-1 & ; 0 \\leq x \\leq \\frac{1}{2} \\\\\n0 ; & \\text { otherwise }\n\\end{array}\\right.$$\n\n[Diagram]\n\n$$\\therefore \\mathrm{h}(\\mathrm{x}) \\text { is ONTO }$$\n(S) $$a=0, b=0, c=0, d=1h(x)=g(x)=\\left\\{\\begin{array}{cl}\n1-2 x & ; 0 \\leq x \\leq \\frac{1}{2} \\\\\n0 ; & \\text { otherwise }\n\\end{array}\\right.$$\n\n[Diagram]\n\nRange of h(x) is [0, 1]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$(\\mathrm{P}) \\rightarrow(4)$\n$(\\mathrm{Q}) \\rightarrow(3)$\n$(\\mathrm{R}) \\rightarrow(1)$\n(S) $\\rightarrow$ (2)",
+      "$(\\mathrm{P}) \\rightarrow(5)$\n$(\\mathrm{Q}) \\rightarrow(2)$\n$(\\mathrm{R}) \\rightarrow(4)$\n(S) $\\rightarrow(3)$",
+      "$(\\mathrm{P}) \\rightarrow(5)$\n$(\\mathrm{Q}) \\rightarrow(3)$\n$(\\mathrm{R}) \\rightarrow(2)$\n$(\\mathrm{S}) \\rightarrow(4)$",
+      "$(\\mathrm{P}) \\rightarrow(4)$\n$(\\mathrm{Q}) \\rightarrow(2)$\n$(\\mathrm{R}) \\rightarrow(1)$\n$(\\mathrm{S}) \\rightarrow(3)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lze621rd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_047",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For positive integer $n$, define\n\n$$\nf(n)=n+\\frac{16+5 n-3 n^{2}}{4 n+3 n^{2}}+\\frac{32+n-3 n^{2}}{8 n+3 n^{2}}+\\frac{48-3 n-3 n^{2}}{12 n+3 n^{2}}+\\cdots+\\frac{25 n-7 n^{2}}{7 n^{2}} .\n$$\n\nThen, the value of $$\\mathop {\\lim }\\limits_{n \\to \\infty } f\\left( n \\right)$$ is equal to :",
+    "solution": "$$\n\\begin{aligned}\n& f(n)=n+\\frac{16+5 n-3 n^{2}}{4 n+3 n^{2}}+\\frac{32+n-3 n^{2}}{8 n+3 n^{2}}+\\ldots .+\\frac{25 n-7 n^{2}}{7 n^{2}} \\\\\\\\\n& =\\left(\\frac{16+5 n-3 n^{2}}{4 n+3 n^{2}}+1\\right)+\\left(\\frac{32+n-3 n^{2}}{8 n+3 n^{2}}+1\\right)+\\ldots \\ldots+\\left(\\frac{25 n-7 n^{2}}{7 n^{2}}+1\\right) \\\\\\\\\n& f(n)=\\frac{9 n+16}{4 n+3 n^{2}}+\\frac{9 n+32}{8 n+3 n^{2}}+\\ldots . .+\\frac{25 n}{7 n^{2}} \\\\\\\\\n& =\\sum_{r=1}^{n} \\frac{9 n+16 r}{4 r n+3 n^{2}}=\\frac{1}{n} \\sum_{r=1}^{n} \\frac{9+16\\left(\\frac{r}{n}\\right)}{4\\left(\\frac{r}{n}\\right)+3} \\\\\\\\\n& \\lim _{n \\rightarrow \\infty} f(n)=\\int_{0}^{1} \\frac{9+16 x}{4 x+3} d x \\\\\\\\\n& =\\int_{0}^{1} \\frac{(16 x+12)-3}{4 x+3} d x \\\\\\\\\n& =\\left.\\left(4 x-\\frac{3}{4} \\ln |4 x+3|\\right)\\right|_{0} ^{1} \\\\\\\\\n& =4-\\frac{3}{4} \\ln \\frac{7}{3}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$3+\\frac{4}{3} \\log _{e} 7$",
+      "$4-\\frac{3}{4} \\log _{e}\\left(\\frac{7}{3}\\right)$",
+      "$4-\\frac{4}{3} \\log _{e}\\left(\\frac{7}{3}\\right)$",
+      "$3+\\frac{3}{4} \\log _{e} 7$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_048",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${f_1}:R \\to R,\\,{f_2}:\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right) \\to R,\\,{f_3}:( - 1,{e^{\\pi /2}} - 2) \\to R$$ and $${f_4}:R \\to R$$ be functions defined by\n\n(i) $${f_1}(x) = \\sin (\\sqrt {1 - {e^{ - {x^2}}}} )$$,\n\n(ii) $${f_2}(x) = \\left\\{ \\matrix{\n{{|\\sin x|} \\over {\\tan { - ^1}x}}if\\,x\ne 0,\\,where \\hfill \\cr\n1\\,if\\,x = 0 \\hfill \\cr} \\right.$$\n\nthe inverse trigonometric function tan$^{$$-$$1}$x assumes values in $$\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$,\n\n(iii) $${f_3}(x) = [\\sin ({\\log _e}(x + 2))]$$, where for $$t \\in R,\\,[t]$$ denotes the greatest integer less than or equal to t,\n\n(iv) $${f_4}(x) = \\left\\{ \\matrix{\n{x^2}\\sin \\left( {{1 \\over x}} \\right)\\,if\\,x\ne 0 \\hfill \\cr\n0\\,if\\,x = 0 \\hfill \\cr} \\right.$$\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid black;\npadding: 10px;\n}\ntd {\nborder: 1px solid black;\npadding: 10px;\ntext-align: left;\n}\n\n\n\nLIST-I\nLIST-II\n\n\nP. The function $$ f_1 $$ is\n1. NOT continuous at $$ x = 0 $$\n\n\nQ. The function $$ f_2 $$ is\n2. continuous at $$ x = 0 $$ and NOT differentiable at $$ x = 0 $$\n\n\nR. The function $$ f_3 $$ is\n3. differentiable at $$ x = 0 $$ and its derivative is NOT continuous at $$ x = 0 $$\n\n\nS. The function $$ f_4 $$ is\n4. differentiable at $$ x = 0 $$ and its derivative is continuous at $$ x = 0 $$",
+    "solution": "(i) Given,\n\nf$_{1}$ : R $$ \\to $$ R and f$_{1}$(x) = sin$$(\\sqrt {1 - {e^{ - {x^2}}}} ) \\therefore $$ f$_{1}$(x) is continuous at x = 0\n\nNow,\n\n$${f_1}'(x) = \\cos \\sqrt {1 - {e^{ - {x^2}}}} .{1 \\over {2\\sqrt {1 - {e^{ - {x^2}}}} }}(2x{e^{ - {x^2}}})$$\n\nAt x = 0\n\nf$_{1}$'(x) does not exists.\n\n$$ \\therefore $$ f$_{1}$(x) is not differential at x = 0\n\nHence, option (2) for P.\n\n(ii) Given, $${f_2}(x) = \\left\\{ \\matrix{\n{{|\\sin x|} \\over {{{\\tan }^{ - 1}}x'}}\\,if\\,x\ne 0 \\hfill \\cr\n1,\\,if\\,x = 0 \\hfill \\cr} \\right\\} \\Rightarrow {f_2}(x) = \\left\\{ \\matrix{\n{{ - \\sin x} \\over {{{\\tan }^{ - 1}}x}}x < 0 \\hfill \\cr\n{{\\sin x} \\over {{{\\tan }^{ - 1}}x}}x > 0 \\hfill \\cr\n1\\,x = 0 \\hfill \\cr} \\right.$$\n\nClearly, f$_{2}$(x) is not continuous at x = 0.\n\n$$ \\therefore $$ Option (1) for Q.\n\n(iii) Given, f$_{3}$(x) = [sin(log$_{e}$(x + 2))], where [ ] is G.I.F.\n\nand f$_{3}$ : ($$-$$1, e$^{$$\\pi $$/2}$ $$-$$ 2) $$ \\to $$ R\n\nIt is given,\n\n$$ - 1 < x < {e^{\\pi /2}} - 2 \\Rightarrow - 1 + 2 < x + 2 < {e^{\\pi /2}} - 2 + 2 \\Rightarrow 1 < x + 2 < {e^{\\pi /2}} \\Rightarrow {\\log _e}1 < {\\log _e}(x + 2) < {\\log _e}{e^{\\pi /2}} \\Rightarrow 0 < {\\log _e}(x + 2) < {\\pi \\over 2} \\Rightarrow \\sin 0 < \\sin {\\log _e}(x + 2) < \\sin {\\pi \\over 2} \\Rightarrow 0 < \\sin {\\log _e}(x + 2) < 1 \\therefore [\\sin {\\log _e}(x + 2)] = 0 \\therefore {f_3}(x) = 0,\\,f{'_3}(x) = {f_3}''(x) = 0$$\n\nIt is differentiable and continuous at x = 0.\n\n$$ \\therefore $$ Option (4) for R\n\n(iv) Given, $${f_4}(x) = \\left\\{ \\matrix{\n{x^2}\\sin \\left( {{1 \\over x}} \\right),\\,if\\,x\ne 0 \\hfill \\cr\n0,\\,if\\,x = 0 \\hfill \\cr} \\right.$$\n\nNow, $$\\mathop {\\lim }\\limits_{x \\to 0} {f_4}(x) = \\mathop {\\lim }\\limits_{x \\to 0} {x^2}\\sin \\left( {{1 \\over x}} \\right) = 0{f_4}'(x) = 2x\\sin \\left( {{1 \\over x}} \\right) - \\cos \\left( {{1 \\over x}} \\right)$$\n\nFor $$x = 0,\\,{f_4}'(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{f(0 + h) - f(0)} \\over h} \\Rightarrow {f_4}'(x) = \\mathop {\\lim }\\limits_{h \\to 0} {{{h^2}\\sin \\left( {{1 \\over h}} \\right) - 0} \\over h} \\Rightarrow {f_4}'(x) = \\mathop {\\lim }\\limits_{h \\to 0} h\\sin \\left( {{1 \\over h}} \\right) = 0$$\n\nThus,\n\n$${f_4}'(x) = \\left\\{ \\matrix{\n2x\\sin \\left( {{1 \\over x}} \\right) - \\cos \\left( {{1 \\over x}} \\right),\\,x\ne 0 \\hfill \\cr\n0,\\,x = 0 \\hfill \\cr} \\right.$$\n\nAgain, $$\\mathop {\\lim }\\limits_{x \\to 0} f'(x) = \\mathop {\\lim }\\limits_{x \\to 0} \\left( {2x\\sin \\left( {{1 \\over x}} \\right) - \\cos \\left( {{1 \\over x}} \\right)} \\right)$$\n\ndoes not exists.\n\nSince, $$\\mathop {\\lim }\\limits_{x \\to 0} $$ cos$${\\left( {{1 \\over x}} \\right)}$$ does not exists.\n\nHence, f'(x) is not continuous at x = 0.\n\n$$ \\therefore $$ Option (3) for S.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P $$ \\to $$ 2 ; Q $$ \\to $$ 3 ; R $$ \\to $$ 1 ; S $$ \\to $$ 4",
+      "P $$ \\to $$ 4 ; Q $$ \\to $$ 1 ; R $$ \\to $$ 2 ; S $$ \\to $$ 3",
+      "P $$ \\to $$ 4 ; Q $$ \\to $$ 2 ; R $$ \\to $$ 1 ; S $$ \\to $$ 3",
+      "P $$ \\to $$ 2 ; Q $$ \\to $$ 1 ; R $$ \\to $$ 4 ; S $$ \\to $$ 3"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_049",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If f : R $$ \\to $$ R is a twice differentiable function such that f\"(x) > 0 for all x$$ \\in $$R, and $$f\\left( {{1 \\over 2}} \\right) = {1 \\over 2}$$, f(1) = 1, then",
+    "solution": "f'(x) is increasing\n\nFor some x in $$\\left( {{1 \\over 2},\\,1} \\right)$$\n\nf'(x) = 1 [LMVT]\n\n$$ \\therefore $$ f'(1) > 1",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "f'(1) $$ \\le $$ 0",
+      "f'(1) > 1",
+      "0 < f'(1) $$ \\le {1 \\over 2}$$",
+      "$${1 \\over 2}$$ < f'(1) $$ \\le $$ 1"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_050",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\mathop {\\lim }\\limits_{x \\to \\infty } \\left( {{{{x^2} + x + 1} \\over {x + 1}} - ax - b} \\right) = 4$$, then",
+    "solution": "$$\\mathop {\\lim }\\limits_{x \\to \\infty } \\left( {{{{x^2} + x + 1} \\over {x + 1}} - ax - b} \\right) = 4 \\Rightarrow \\mathop {\\lim }\\limits_{x \\to \\infty } {{{x^2} + x + 1 - a{x^2} - ax - bx - b} \\over {x + 1}} = 4 \\Rightarrow \\mathop {\\lim }\\limits_{x \\to \\infty } {{{x^2}(1 - a) + x(1 - a - b) + (1 - b)} \\over {x + 1}} = 4$$\nHere, we make degree of N$^{r}$ = degree of D$^{r}$\n$$\\therefore1 - a = 0$$\nand $$\\mathop {\\lim }\\limits_{x \\to \\infty } {{x(1 - a - b) + (1 - b)} \\over {x + 1}} = 4 \\Rightarrow 1 - a - b = 4 \\Rightarrow b = - 4$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "a = 1, b = 4",
+      "a = 1, b = $$-$$4",
+      "a = 2, b = $$-$$3",
+      "a = 2, b = 3"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_051",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x) = \\left\\{ {\\matrix{\n{{x^2}\\left| {\\cos {\\pi \\over x}} \\right|,} & {x\ne 0} \\cr\n{0,} & {x = 0} \\cr\n\n} } \\right.$$\nx$$\\in$$R, then f is",
+    "solution": "To check differentiable at x = 0\n$$R\\{ f'(0)\\} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(0 + h) - f(0)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{h^2}\\left| {\\cos {\\pi \\over h}} \\right| - 0} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} h.\\,\\left| {\\cos {\\pi \\over h}} \\right| = 0L\\{ f'(0)\\} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(0 - h) - f(0)} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{{h^2}\\left| {\\cos \\left( { - {\\pi \\over h}} \\right)} \\right| - 0} \\over { - h}}$$<?p>\n$$ = 0$$\nSo, f(x) is differentiable at x = 0\nTo check differentiability at x = 2\n$$R\\{ f'(2)\\} = \\mathop {\\lim }\\limits_{h \\to 0} {{f(2 + h) - f(2)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 + h)}^2}\\left| {\\cos \\left( {{\\pi \\over {2 + h}}} \\right)} \\right| - 0} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 + h)}^2}.\\cos \\left( {{\\pi \\over {2 + h}}} \\right)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 + h)}^2}.\\sin \\left( {{\\pi \\over 2} - {\\pi \\over {2 + h}}} \\right)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 + h)}^2}.\\sin \\left( {{{\\pi h} \\over {2(2 + h)}}} \\right)} \\over {h.{\\pi \\over {2(2 + h)}}.{\\pi \\over {2(2 + h)}}}} \\Rightarrow R\\left( {f'(2)} \\right) = \\pi L\\left( {f'(2)} \\right) = \\mathop {\\lim }\\limits_{h \\to 0} {{f(2 - h) - f(2)} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 - h)}^2}.\\left| {\\cos {\\pi \\over {2 - h}}} \\right| - {2^2}.\\left| {\\cos {\\pi \\over 2}} \\right|} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 - h)}^2} - \\left( { - \\cos {\\pi \\over {2 - h}}} \\right) - 0} \\over { - h}} = \\mathop {\\lim }\\limits_{h \\to 0} {{ - {{(2 - h)}^2}.\\sin \\left( {{\\pi \\over 2} - {\\pi \\over {2 - h}}} \\right)} \\over h} = \\mathop {\\lim }\\limits_{h \\to 0} {{{{(2 - h)}^2}.\\sin \\left( { - {{\\pi h} \\over {2(2 - h)}}} \\right)} \\over {h \\times {{ - \\pi } \\over {2(2 - h)}} \\times {{ - \\pi } \\over {2(2 - h)}}}}$$<?p>\n$$ \\Rightarrow L(f'(2)) = - \\pi $$\nThus, f(x) is differentiable at x = 0 but not at x = 2.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "differentiable both at x = 0 and at x = 2.",
+      "differentiable at x = 0 but not differentiable at x = 2.",
+      "not differentiable at x = 0 but differentiable at x = 2.",
+      "differentiable neither at x = 0 nor at x = 2."
+    ]
+  },
+  {
+    "id": "math_limits_continuity_052",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\mathop {\\lim }\\limits_{x \\to 0} {[1 + x\\ln (1 + {b^2})]^{1/x}} = 2b{\\sin ^2}\\theta $$, $$b > 0$$ and $$\\theta \\in ( - \\pi ,\\pi ]$$, then the value of $$\\theta$$ is",
+    "solution": "Here, $$\\mathop {\\lim }\\limits_{x \\to 0} {\\{ 1 + x\\log (1 + {b^2})\\} ^{1/x}}$$ [1$^{$$\\infty$$}$ from]\n$$ \\Rightarrow {e^{\\mathop {\\lim }\\limits_{x \\to 0} \\{ x\\log (1 + {b^2})\\} \\,.\\,{1 \\over x}}} \\Rightarrow {e^{\\log (1 + {b^2})}} = {(1 + b)^2}$$ ..... (i)\nGiven,\n$$\\mathop {\\lim }\\limits_{x \\to 0} {\\{ 1 + x\\log (1 + {b^2})\\} ^{1/x}} = 2b{\\sin ^2}\\theta \\Rightarrow (1 + {b^2}) = 2b{\\sin ^2}\\theta \\therefore{\\sin ^2}\\theta = {{1 + {b^2}} \\over {2{b^2}}}$$ ..... (ii)\nBy $$AM \\ge GM{{b + {1 \\over b}} \\over 2} \\ge {\\left( {b\\,.\\,{1 \\over b}} \\right)^{1/2}} \\Rightarrow {{{b^2} + 1} \\over {2b}} \\ge 1$$ ...... (iii)\nFrom Eqs. (ii) and (iii), we get $${\\sin ^2}\\theta = 1 \\Rightarrow \\theta = \\pm {\\pi \\over 2}$$ as $$\\theta \\in ( - \\pi ,\\pi ]$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ \\pm {\\pi \\over 4}$$",
+      "$$ \\pm {\\pi \\over 3}$$",
+      "$$ \\pm {\\pi \\over 6}$$",
+      "$$ \\pm {\\pi \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_053",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the function $$g:\\left( { - \\infty ,\\infty } \\right) \\to \\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$ be given by\n\n$$g\\left( u \\right) = 2{\\tan ^{ - 1}}\\left( {{e^u}} \\right) - {\\pi \\over 2}.$$ Then, $$g$$ is",
+    "solution": "Given that,\n$$g(u) = 2{\\tan ^{ - 1}}({e^u}) - {\\pi \\over 2}$$ for $$u \\in ( - \\infty ,\\infty )g( - u) = 2{\\tan ^{ - 1}}{e^{ - u}} - {\\pi \\over 2} = 2{\\cot ^{ - 1}}({e^u}) - {\\pi \\over 2} = 2\\left( {{\\pi \\over 2} - {{\\tan }^{ - 1}}({e^u}) - {\\pi \\over 2}} \\right) = - 2{\\tan ^{ - 1}}({e^u}) + {\\pi \\over 2} = - g(u)\\thereforeg(u) = - g(u) \\Rightarrow g(u)$$ is an odd function\nWe have, $$g(u) = 2{\\tan ^{ - 1}}({e^u}) - {\\pi \\over 2}g'(u) = {{2{e^u}} \\over {1 + 2{e^{2u}}}}g'(u) > 0,\\forall u \\in R$$ [$$\\because{e^u} > 0$$]<?p>\nSo, $$g'(u)$$ is increasing function.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "even and is strictly increasing in $$\\left( {0,\\infty } \\right)$$",
+      "odd and is strictly decreasing in $$\\left( { - \\infty ,\\infty } \\right)$$",
+      "odd and is strictly increasing in $$\\left( { - \\infty ,\\infty } \\right)$$",
+      "neither even nor odd, but is strictly increasing in $$\\left( { - \\infty ,\\infty } \\right)$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_054",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is true?",
+    "solution": "As when $$x \\in ( - 1,1),f'(x) < 0$$\nSo, f(x) is decreasing on ($$-1,1$$) at x = 1\n$$f''(1) = {{4a} \\over {{{(a + 2)}^2}}} > 0$$\nSo, local minima at x = 1",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$f(x)$$ is decreasing on $$(-1,1)$$ and has a local minimum at $$x=1$$",
+      "$$f(x)$$ is increasing on $$(-1,1)$$ and has a local minimum at $$x=1$$",
+      "$$f(x)$$ is increasing on $$(-1,1)$$ but has neither a local maximum nor a local minimum at $$x=1$$",
+      "$$f(x)$$ is decreasing on $$(-1,1)$$ but has neither a local maximum nor a local minimum at $$x=1$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_055",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$g(x) = {{{{(x - 1)}^n}} \\over {\\log {{\\cos }^m}(x - 1)}};0 < x < 2,m$$ and $$n$$ are integers, $$m\ne 0,n > 0$$, and let $$p$$ be the left hand derivative of $$|x - 1|$$ at $$x = 1$$. If $$\\mathop {\\lim }\\limits_{x \\to {1^ + }} g(x) = p$$, then",
+    "solution": "Given, $$g(x) = {{{{(x - 1)}^n}} \\over {\\log {{\\cos }^m}(x - 1)}},0 < x < 2,m\ne 0,n > 0,m,n$$ are integer.\nLeft hand derivative (L.H.D.) of $$|x - 1|$$ at $$x = 1$$ is P.\nAs $$|x - 1| = \\left\\{ {\\matrix{\n{x - 1,} & {x \\ge 1} \\cr\n{ - (1 - x),} & {x < 1} \\cr\n\n} } \\right.\\therefore$$ L.H.D. at $$x = 1$$ will be $$-1$$.\n[$$\\therefore$$ L.H.D. at $$x = 1$$ is $$\\mathop {\\lim }\\limits_{h \\to 0} {{f(1 - h) - f(1)} \\over { - h}}$$]\n$$p = - 1$$\nAlso, $$\\mathop {\\lim }\\limits_{x \\to {1^ + }} g(x) = p = - 1 \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{{{(1 + h - 1)}^n}} \\over {\\log {{\\cos }^m}(1 + h - 1)}} = - 1 \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{{h^n}} \\over {\\log {{\\cos }^m}h}} = - 1 \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{{h^n}} \\over {m\\log \\cos \\,h}} = - 1 \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} {{n\\,.\\,{h^{n - 1}}} \\over {m\\log \\cos \\,h}} = - 1$$ [using L. Hospital rule]\n$$ \\Rightarrow \\mathop {\\lim }\\limits_{h \\to 0} \\left( {{{ - n} \\over m}} \\right)\\,.\\,{{{h^{n - 2}}} \\over {\\left( {{{\\tan \\,h} \\over h}} \\right)}} = - 1 \\Rightarrow \\left( {{n \\over m}} \\right)\\mathop {\\lim }\\limits_{h \\to 0} {{{h^{n - 2}}} \\over {\\left( {{{\\tan \\,h} \\over h}} \\right)}} = 1n - 2 = 0$$ and $${n \\over m} = 1 \\Rightarrow m = n = 2$$\nor\n$$[f(x) = |x - 1| = - x + 1,x < 1f'(x) = - 1$$\nSo, L.H.D. at $$x = - 1$$ is $$-1\\thereforeP = - 1$$\nNow, $$\\mathop {\\lim }\\limits_{x \\to {1^ + }} {{{{(x - 1)}^n}} \\over {\\log {{\\cos }^m}(x - 1)}} = p$$ .... (i)\nLet $$x - 1 = t$$ in L.H.S. of eq. (i)\n$$\\mathop {\\lim }\\limits_{t \\to } {{{t^n}} \\over {m\\log \\cos \\,t}},\\left( {{0 \\over 0}\\,\\mathrm{form}} \\right)$$ [using L' Hospital rule]\nWe get, $$\\mathop {\\lim }\\limits_{t \\to 0} {{n{t^{n - 1}}} \\over {m\\tan \\,t}} = {{ - n} \\over m}\\mathop {\\lim }\\limits_{t \\to 0} {{{t^{n - 1}}} \\over {\\tan \\,t}}\\left( {{0 \\over 0}\\,\\mathrm{form}} \\right)$$\nAgain using L' Hospital rule,\n$${{ - n} \\over m}\\mathop {\\lim }\\limits_{t \\to 0} {{(n - 1){t^{n - 2}}} \\over {{{\\sec }^2}t}} = P \\Rightarrow {{ + n} \\over m}\\mathop {\\lim }\\limits_{t \\to 0} {{(n - 1){t^{n - 2}}} \\over {{{\\sec }^2}t}} = - 1$$\nFor non-zero answer\n$$n - 2 = 0 \\Rightarrow n = 2$$ Also $$m = n = 2$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$n = 1,m = 1$$",
+      "$$n = 1,m = - 1$$",
+      "$$n = 2,m = 2$$",
+      "$$n > 2,m = n$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_056",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x)=2+\\cos x$$ for all real $$x$$.\n**STATEMENT - 1 :** For each real $$t$$, there exists a point $$c$$ in $$[t, t+\\pi]$$ such that $$f^{\\prime}(C)=0$$.\n**STATEMENT - 2 :** $$f(t)=f(t+2 \\pi)$$ for each real $$t$$.",
+    "solution": "$$f(x)=2+\\cos x$$ is differentiable everywhere and $$f'(x)=-\\sin x\\therefore f'(c)=0 \\Rightarrow c=0, \\pm \\pi, \\pm 2 \\pi, \\pm 3 \\pi \\ldots \\ldots$$.\n$$\\therefore$$ for each real $$t,[t, t+\\pi]$$ contains a value from $$(0, \\pm \\pi, \\pm 2 \\pi, \\pm 3 \\pi \\ldots)\\therefore$$ Statement 1 is true.\n$$f(t+2 \\pi)=2+\\cos (t+2 \\pi)=2+\\cos t=f(t)$$\nSo, statement 2 is true.\nTherefore, $$f(x)$$ is a periodic function of period $$2 \\pi$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_057",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The line $$y=x$$ meets $$y=k e^{\\mathrm{x}}$$ for $$k \\leq 0$$ at",
+    "solution": "$$f'(x)=k e^{x}-1 < 0$$ if $$k \\leq 0\\therefore f(x)$$ is decreasing for all $$x$$.\nNow, $$\\lim_\\limits{x \\rightarrow+\\infty} f(x)=\\lim_\\limits{x \\rightarrow+\\infty} k e^{x}-x=-\\infty$$\nAlso, $$f(k)=k\\left(e^{k}-1\\right) \\geq 0\\left[\\therefore k \\leq 0 \\Rightarrow e^{k}-1 \\leq 0\\right]\\therefore f(x)=0$$ has exactly one root in $$[k, \\infty)$$.\n$$\\therefore \\quad y=x$$ meets $$y=k e^{x}$$ for $$k \\leq 0$$ at one point.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "no point",
+      "one point",
+      "two points",
+      "more than two points"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_058",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The positive value of $$k$$ for which $$k e^{x}-x=0$$ has only one root is",
+    "solution": "Let’s call the function $ f(x) = k e^{x} - x $.\nTo find when it has only one root, check where its graph just touches the x-axis. This happens when $ f(x) = 0 $ and the slope is zero at the same point.\nFind the derivative: $ f'(x) = k e^{x} - 1 $.\nSet $ f'(x) = 0 $ to find the minimum or maximum point: $ k e^{x} - 1 = 0 $. This gives $ x = -\\log k $.\nNow check the second derivative: $ f''(x) = k e^{x} $.\nPlugging in $ x = -\\log k $, we get $ f''(-\\log k) = k e^{-\\log k} $.\nThe value of $ f''(-\\ln k) = 1 $, which is greater than 0, so this is a minimum point.\nThe function will only touch the x-axis once if the minimum value is zero. So set $ f(-\\ln k) = 0 $:\n$ f(-\\ln k) = k e^{-\\ln k} - (-\\ln k) = 1 + \\ln k $.\nSet $ 1 + \\log k = 0 $ to get the value of $ k $:\n$ k = \\frac{1}{e}$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{1}{e}$$",
+      "1",
+      "$$e$$",
+      "$$\\log _{\\mathrm{e}} 2$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_059",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$k > 0$$, the set of all values of $$k$$ for which $$k e^{x}-x=0$$ has two distinct roots is",
+    "solution": "We want the equation $ k e^{x} - x = 0 $ to have two different (distinct) solutions for $ x $.\nLet’s call the function $ f(x) = k e^{x} - x $. For this equation to have two different solutions, the graph of $ f(x) $ must cross the x-axis at two points.\nThis will happen if the lowest point (minimum) of $ f(x) $ is below zero, or $ f(x)_{\\min} < 0 $.\nTo find the minimum, take the derivative: $ f'(x) = k e^{x} - 1 $. Set this to zero: $ k e^{x} - 1 = 0 \\implies e^{x} = \\frac{1}{k} \\implies x = -\\log k $.\nNow, plug $ x = -\\log k $ back into $ f(x) $:\n$ f(-\\log k) = k e^{-\\log k} - (-\\log k) = k \\cdot \\frac{1}{k} + \\log k = 1 + \\log k $.\nFor two distinct roots, this minimum must be less than zero:\n$ 1 + \\log k < 0 $\nThis means $ \\log k < -1 $, or $ k < \\frac{1}{e} $. We also need $ k > 0 $.\nSo the possible values for $ k $ are $ 0 < k < \\frac{1}{e} $.\nTherefore, $ k \\in \\left(0, \\frac{1}{e}\\right) $.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left(0, \\frac{1}{e}\\right)$$",
+      "$$\\left(\\frac{1}{e}, 1\\right)$$",
+      "$$\\left(\\frac{1}{e}, \\infty\\right)$$",
+      "$$(0,1)$$"
+    ]
+  },
+  {
+    "id": "math_limits_continuity_060",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x) = {{{x^2} - 6x + 5} \\over {{x^2} - 5x + 6}}$$.\nMatch the conditions/expressions in Column I with statements in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nIf $$ - 1 < x < 1$$, then $$f(x)$$ satisfies\n(P)\n$$0 < f(x) < 1$$\n\n\n(B)\nIf $$1 < x < 2$$, then $$f(x)$$ satisfies\n(Q)\n$$f(x) < 0$$\n\n\n(C)\nIf $$3 < x < 5$$, then $$f(x)$$ satisfies\n(R)\n$$f(x) > 0$$\n\n\n(D)\nIf $$x > 5$$, then $$f(x)$$ satisfies\n(S)\n$$f(x) < 1$$",
+    "solution": "First, factor the numerator and denominator of $$f(x)$$:\n$$f(x)=\\frac{x^{2}-6x+5}{x^{2}-5x+6} = \\frac{(x-5)(x-1)}{(x-2)(x-3)}$$\n**(A) When $$-1 < x < 1$$:**\nLet's check the sign of each factor in this interval:\n\nFor $$x$$ between $$-1$$ and $$1$$:\n\n$$x-5 < 0$$ (negative)\n\n$$x-1 < 0$$ (negative)\n\n$$x-2 < 0$$ (negative)\n\n$$x-3 < 0$$ (negative)\n\nSo, multiplying two negatives in the numerator and two negatives in the denominator:\n\n$$f(x) = \\frac{(negative) \\times (negative)}{(negative) \\times (negative)} = \\frac{positive}{positive} > 0$$\nNow check if $$f(x) < 1$$.\n\nLet's look at $$f(x) - 1$$:\n\n$$f(x)-1 = \\frac{-(x+1)}{(x-2)(x-3)}$$\nFor $$-1 < x < 1$$, $$(x+1) > 0$$ and $$(x-2), (x-3) < 0$$.\n\nSo numerator is negative, denominator is positive (since two negatives). Therefore, $$f(x)-1 < 0 \\implies f(x) < 1$$.\nSo, for $$-1 < x < 1$$: $$0 < f(x) < 1$$. This matches option (P).\n**(B) When $$1 < x < 2$$:**\n\n$$x-5 < 0$$ (negative)\n\n$$x-1 > 0$$ (positive)\n\n$$x-2 < 0$$ (negative)\n\n$$x-3 < 0$$ (negative)\n\nSo, numerator: $$negative \\times positive = negative$$. Denominator: negative $$\\times$$ negative = positive.\nSo $$f(x) = \\frac{negative}{positive} = negative$$, i.e., $$f(x) < 0$$. This matches (Q).\n**(C) When $$3 < x < 5$$:**\n\n$$x-5 < 0$$ (negative)\n\n$$x-1 > 0$$ (positive)\n\n$$x-2 > 0$$ (positive)\n\n$$x-3 > 0$$ (positive)\n\nNumerator: $$negative \\times positive = negative$$.\n\nDenominator: $$positive \\times positive = positive$$.\nSo $$f(x) = \\frac{negative}{positive} = negative$$, so $$f(x) < 0$$. This matches (Q).\n**(D) When $$x > 5$$:**\n\n$$x-5 > 0$$ (positive)\n\n$$x-1 > 0$$ (positive)\n\n$$x-2 > 0$$ (positive)\n\n$$x-3 > 0$$ (positive)\n\nNumerator: $$positive \\times positive = positive$$.\n\nDenominator: $$positive \\times positive = positive$$.\nSo $$f(x) = \\frac{positive}{positive} = positive$$, i.e., $$f(x) > 0$$.\nAlso, let's check $$f(x) < 1$$ again. Use previous result:\n\n$$f(x) - 1 = \\frac{-(x+1)}{(x-2)(x-3)}$$\n\nFor $$x > 5$$, numerator is negative, denominator is positive, so $$f(x)-1 < 0$$, so $$f(x) < 1$$.\nTherefore, for $$x > 5$$, $$0 < f(x) < 1$$, which matches (P).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\mathrm{A-(p), (s);B-(q),(s);C-(q),(s);D-(p),(r)}$$",
+      "$$\\mathrm{A-(p), (q), (s);B-(q),(s);C-(q),(s);D-(p),(r),(s)}$$",
+      "$$\\mathrm{A-(s);B-(q),(s);C-(q),(s);D-(s)}$$",
+      "$$\\mathrm{A-(p), (q), (s);B-(q),(s);C-(s);D-(r),(s)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggqijuq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_061",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following [x] denotes the greatest integer less than or equal to x.\nMatch the functions in Column I with the properties Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$x|x|$$\n(P)\ncontinuous in ($$-1,1$$).\n\n\n(B)\n$$\\sqrt{|x|}$$\n(Q)\ndifferentiable in ($$-1,1$$)\n\n\n(C)\n$$x+[x]$$\n(R)\nstrictly increasing in ($$-1,1$$)\n\n\n(D)\n$$|x-1|+|x+1|$$\n(S)\nnot differentiable at least at one point in ($$-1,1$$)",
+    "solution": "(A) $$y = x|x| = \\left\\{ {\\matrix{\n{ - {x^2}} & {if\\,x < 0} \\cr\n{{x^2}} & {if\\,x \\ge 0} \\cr\n\n} } \\right.$$\n\n[Diagram]\n\nFrom graph $$y=x|x|$$ is (continuous in ($$-1,1$$) (p) differentiable in ($$-1,1$$) (q) Strictly increasing in ($$-1,1$$) (r)\n(B) $$y = \\sqrt {|x|} = \\left\\{ {\\matrix{\n{\\sqrt { - x} } & {if\\,x < 0} \\cr\n{\\sqrt x } & {if\\,x \\ge 0} \\cr\n\n} } \\right.{y^2} = - x,x < 0$$ {where y can take only +ve values}\nand $${y^2} = x,x \\ge 0\\therefore$$ Graph is as follows:\n\n[Diagram]\n\nFrom graph $$y = \\sqrt {|x|} $$ is continuous in ($$-1,1$$) (P) not differentiable at x = 0 (s)\n(C) Note this step\n$$y = x + [x] = \\left\\{ {\\matrix{\n{x - 1,} & { - 1 \\le x < 0} \\cr\n{x,} & {0 \\le x < 1} \\cr\n{x + 1,} & {x + 1} \\cr\n\n} } \\right.\\therefore$$ Graph of $$y = x + [x]$$ is\n\n[Diagram]\n\nFrom graph, $$y = x + [x]$$ is neither continuous, nor differentiable at x = 0 and hence in ($$-1,1$$) (s).\n(D) $$ = |x - 1| + |x + 1| = \\left\\{ {\\matrix{\n{ - 2x} & {x < - 1} \\cr\n2 & { - 1 \\le x < 1} \\cr\n{2x} & {x \\ge 1} \\cr\n\n} } \\right.$$\nGraph is as follows:\n\n[Diagram]\n\nFrom graph, $$y=f(x)$$ is continuous (p) differentiable (q) in ($$-1,1$$) but not strictly increasing in ($$-1,1$$).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "A - (p), (q), (r), B - (p), (s), C - (r), (s), D - (p), (q)",
+      "A - (p), (q), B - (p), (s), C - (r), (s), D - (p)",
+      "A - (p), (q), (r), B - (p), C - (r), D - (p), (q)",
+      "A - (p), (r), B - (p), (s), C - (r), D - (p), (q)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggqijuq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_062",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $x>0, \\mathop {\\lim }\\limits_{x \\to 0}\\left((\\sin x)^{1 / x}+(1 / x)^{\\sin x}\\right)$ is :",
+    "solution": "$$ \\begin{aligned} & \\lim _{x \\rightarrow 0}\\left[(\\sin x)^{\\frac{1}{x}}+\\left(\\frac{1}{x}\\right)^{\\sin x}\\right] \\\\ = & \\lim _{x \\rightarrow 0}(\\sin x)^{\\frac{1}{x}}+\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right)^{\\sin x} \\end{aligned} $$\n\n[Diagram]\n\nEvaluate the given indeterminate form i.e, $\\quad$ let $y=\\lim\\limits_{x \\rightarrow 0}\\left(\\frac{1}{x}\\right) \\sin x$\nTaking $\\ln$ on both sides\n$$ \\begin{aligned} \\ln y & =\\lim _{x \\rightarrow 0} \\sin x \\log \\left(\\frac{1}{x}\\right) \\\\ & =\\lim _{x \\rightarrow 0} \\sin x(-\\log x) \\\\ & =\\lim _{x \\rightarrow 0}\\left(\\frac{-\\log x}{\\operatorname{cosec} x}\\right) \\end{aligned} $$\nApplying L-Hopital's rule.\n$$ \\begin{aligned} \\ln y & =\\lim _{x \\rightarrow 0} \\frac{\\frac{-1}{x}}{-\\operatorname{cosec} x \\cot x} \\\\ \\Rightarrow \\quad \\ln y & =\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x} \\cdot \\tan x \\end{aligned} \\begin{aligned} & =1 \\times 0 & \\therefore & \\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}=1 \\\\ & =0 . & & \\lim _{x \\rightarrow 0} \\tan x=0 \\\\ \\Rightarrow \\quad y & =e^0=1 & & \\end{aligned} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mguhvroj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_limits_continuity_063",
+    "subject": "Mathematics",
+    "chapter": "Limits Continuity & Differentiability",
+    "topic": "Limits Continuity & Differentiability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f(x-y)=f(x) \\circ g(y)-f(y) \\circ g(x)$$ And $$g(x-y) =g(x) \\circ g(y)+f(x) \\circ f(y)$$ for all $$x, y \\in \\mathrm{R}$$. If right-hand derivative at $$x=0$$ exists for $$f(x)$$, find the derivative of $$g(x)$$ at $$x=0$$",
+    "solution": "Here, $$\\quad f(x-y)=f(x) \\cdot g(y)-f(y) \\cdot g(x)$$\nPut, $$\\quad x=y$$ then\n$$f(0)=f(x) \\cdot g(x)-f(x) \\cdot g(x)=0$$ ..... (i)\nAlso, $$\\quad g(x-y)=g(x) \\cdot g(y)+f(x) \\cdot f(y)$$\nNow put $$\\quad y=0$$ in above, we have\n$$g(x)=g(x) \\cdot g(0)+f(x) \\cdot f(0)=g(x) \\cdot g(0)+0 \\text { using }(\\mathrm{i})g(x)=g(x) g(0) \\quad \\therefore g(0)=1$$\nAgain put $$\\quad x=y$$ in $$g(x-y)$$, we have\n$$g(0)=g^{2}(y)+f^{2}(x)\\Rightarrow \\quad g^{2}(y)+f^{2}(x)=1$$ ...... (ii)\nSince, RHD is exists then\n$$\\begin{aligned}\n\\text { RHD }=f^{\\prime}(0 \\text { th }) & =\\lim _{h \\rightarrow 0} \\frac{f(0+h)-f(0)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{f(0) \\cdot g(h)-f(-h) \\cdot g(0)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{-f(-h)}{h} \\\\\n& =\\frac{f(0)-f(-h)}{-h}=\\text { L.H.D }\n\\end{aligned}$$\nHence, $$f$$ is differentiable at $$x=0f^{2}(x)+g^{2}(x)=1\\Rightarrow 2 f^{\\prime}(x) \\cdot f(x)+2 g^{\\prime}(x) \\cdot g(x)=0\\Rightarrow \\quad 2 f(0) \\cdot f^{\\prime}(0)+2 g^{\\prime}(0) \\cdot g(0)=0\\Rightarrow \\quad 0+2 g^{\\prime}(0) \\cdot 1=0 \\quad \\because f(0)=0$$ and $$g(0)=1\\Rightarrow \\quad g^{\\prime}(0)=0$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  }
+]

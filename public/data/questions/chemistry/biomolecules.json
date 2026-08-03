@@ -1,0 +1,509 @@
+[
+  {
+    "id": "chem_biomolecules_001",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A known artificial sweetener $\\mathbf{X}$ is composed of 4-chloro-4-deoxy- $\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy- $\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below :\n\n[Diagram]\n\nThe correct structure of $\\mathbf{X}$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9y1lmj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_002",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) regarding sugars is(are) :",
+    "solution": "**Option (A)**\n\n[Diagram]\n\nGlucose, when oxidized at the aldehyde group (–CHO), forms **gluconic acid**. When it is oxidized more strongly at both ends (–CHO and –CH$_{2}$OH), it forms **saccharic acid**.\n**Option (B)**\n\n[Diagram]\n\nIn a basic medium, fructose changes (tautomerises) into its isomers, **D-glucose** and **D-mannose**.\nSince glucose and mannose are reducing sugars, this explains why fructose also gives a positive test with Fehling’s solution. This solution contains a weak base (dilute NaOH), which allows the reaction to occur.\n**Option (C)**\nWhen sucrose is hydrolysed using an acid, it breaks down into **D-glucose** and **D-fructose** in equal amounts (1:1). This mixture is called **invert sugar**.\n**Option (D)**\nThe **specific rotation** of these sugars is as follows:\nFor D-fructose: $-92.5^{\\circ}$\nFor D-glucose: $+52.5^{\\circ}$\nTherefore, the specific rotation of the invert sugar mixture is the average of the two:\n$$\\text{Specific rotation of invert sugar} = -\\frac{40}{2} = -20^{\\circ}$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "On treatment with HNO$_{3}$, gluconic acid is oxidized to saccharic acid, whereas glucose is not oxidized to saccharic acid.",
+      "Fructose gives a positive Fehling’s test because it isomerises to glucose and another aldohexose in the presence of Fehling’s reagent.",
+      "Invert sugar is an equimolar mixture of D-glucose and D-fructose formed after hydrolysis of the corresponding disaccharide.",
+      "Specific rotation of invert sugar is −40°."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpbdrq85.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_003",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A linear octasaccharide (molar mass $=1024 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) on complete hydrolysis produces three monosaccharides: ribose, 2-deoxyribose and glucose. The amount of 2-deoxyribose formed is $58.26 \\%(\\mathrm{w} / \\mathrm{w})$ of the total amount of the monosaccharides produced in the hydrolyzed products. The number of ribose unit(s) present in one molecule of octasaccharide is $\\qquad$ .\n**Use:** Molar mass $\\left(\\right.$ in g $\\left.\\mathrm{mol}^{-1}\\right)$ : ribose $=150,2$-deoxyribose $=134$, glucose $=180$;\nAtomic mass (in amu): $\\mathrm{H}=1, \\mathrm{O}=16$",
+    "solution": "The problem involves determining the composition of an octasaccharide that, upon complete hydrolysis, yields three types of monosaccharides: ribose, 2-deoxyribose, and glucose.\nFirst, consider the balanced chemical equation for the hydrolysis of the octasaccharide:\n$ \\text{Octasaccharide} + 7 \\text{H}_2\\text{O} \\rightarrow \\text{Ribose} + \\text{2-deoxyribose} + \\text{Glucose} $\nThe initial molar mass of the octasaccharide is $1024 \\, \\text{g/mol}$, and it requires 7 water molecules (each with a molar mass of $18 \\, \\text{g/mol}$, thus totaling $126 \\, \\text{g/mol}$) to undergo hydrolysis. Therefore, the total mass on the reactant side is:\n$ 1024 + 126 = 1150 \\, \\text{g} $\nAccording to the given data, the 2-deoxyribose formed constitutes $58.26\\%$ of the total mass of the monosaccharides. To find the mass of 2-deoxyribose, calculate:\n$ 1150 \\times \\frac{58.26}{100} = 669.99 \\, \\text{g} \\approx 670 \\, \\text{g} $\nThe molar mass of 2-deoxyribose is $134 \\, \\text{g/mol}$, so the number of units produced is:\n$ \\frac{670}{134} = 5 \\, \\text{units} $\nAssuming there is one unit of glucose (molar mass $180 \\, \\text{g/mol}$), the remaining units in the octasaccharide must be ribose. Given five units of 2-deoxyribose and one unit of glucose, the potential number of ribose units can be calculated as the difference to reach a total of eight saccharide units, ensuring:\n$ 5 \\text{ (2-deoxyribose)} + 1 \\text{ (glucose)} + x \\text{ (ribose)} = 8 $\nSolving this gives:\n$ x = 8 - 5 - 1 = 2 $\nTo verify the setup, the total mass of the hydrolysis products equals the mass at the reactant side:\n$ 670 \\, \\text{(2-deoxyribose)} + 180 \\, \\text{(glucose)} + (2 \\times 150 \\, \\text{(ribose)}) = 1150 \\, \\text{g} $\nThus, the octasaccharide contains 2 ribose units. Therefore, the number of ribose units present in one molecule of the octasaccharide is 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_biomolecules_004",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following disaccharide will not reduce Tollen's reagent?\n\n[Diagram]",
+    "solution": "(A) The structure of disaccharide is shown below.\n\n[Diagram]\n\nThe given disaccharide consists of two rings,\nfirst ring is acetal whereas second is hemiacetal.\nDue to presence of hemiacetal ring, the\nTollen’s reagent will be able to react with this\ndisaccharide. This is a reducing sugar.\n(B) The structure of disaccharide is shown below.\n\n[Diagram]\n\nThe given disaccharide is made up of two rings,\nboth are acetal rings. Thus, this disaccharide is\nunable to react with Tollen’s reagent. This is a\nnon-reducing sugar.\nFinal Answer :\n(A) The disaccharide will reduce Tollen’s reagent.\n(B) The disaccharide will not reduce Tollen’s\nreagent.\nHints :\nThe Tollen’s reagent is silver ammoniacal\nsolution and is basic in nature. The Tollen’s\nreagent is used for distinguishing reducing\nand non-reducing sugars. The hemiacetal\nreacts with Tollen’s reagent, but acetal does\nnot react with Tollen’s reagent.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9l7iwm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_005",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A disaccharide $\\mathbf{X}$ cannot be oxidised by bromine water. The acid hydrolysis of $\\mathbf{X}$ leads to a laevorotatory solution. The disaccharide $\\mathbf{X}$ is :",
+    "solution": "A and D cannot be oxidised by bromine water as they do not have hemiacetal linkage.\n\nThe acid hydrolysis of A leads to a laevorotatory solution.\n\nA is sucrose which is dextrorotatory, on acid hydrolysis gives mixture of α-D-glucose and β-D-fructose, the\nmixture is laevorotatory",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liir3ynm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_006",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Treatment of D-glucose with aqueous $\\mathrm{NaOH}$ results in a mixture of monosaccharides, which are",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7hmcd9j.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_007",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The following carbohydrate is\n\n[Diagram]",
+    "solution": "(i) The cyclic structure of pyranose ring\n\n[Diagram]\n\nThis is 3D structure of glucose formed as a result of cyclisation of an aldohexose.\n(ii) There are 2 types of groups in cyclic structure; groups that lie perpendicular to the plane of pyranose ring are axial and other are axial groups.\n\n[Diagram]\n\nThe fischer form of pyranose ring has groups above the ring on left and groups below the ring on right.\n\n[Diagram]\n\nThe cyclic form of pyranose ring is obtained as a result of reaction of hydroxyl group (–OH) at fifth carbon to the electropositive carbon of aldehydic group. The reaction happens as follows :\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "a ketohexose",
+      "an aldohexose",
+      "an $$\\alpha$$-furanose",
+      "an $$\\alpha$$-pyransose"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m3col738.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_008",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement about the following disaccharide is :\n\n[Diagram]",
+    "solution": "Pyranonse structure is a six-membered heterocyclic ring containing five carbon atoms and one oxygen atom. A glycosidic bond is formed between the hemiacetal group of a saccharide and the hydroxyl group of some organic compound such as an alcohol. C-1 of ring (a) has an\n$$\\alpha $$-glycosidic linkage.\nRing (b) has\n5-members and hence is a furanose.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Ring (a) is pyranonse with $$\\alpha$$-glycosidic link.",
+      "Ring (a) is furanonse with $$\\alpha$$-glycosidic link.",
+      "Ring (b) is furanonse with $$\\alpha$$-glycosidic link.",
+      "Ring (b) is pyranonse with $$\\alpha$$-glycosidic link."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexk29hm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_009",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Cellulose upon acetylation with excess acetic anhydride/H$$_2$$SO$$_4$$ (catalytic) gives cellulose triacetate whose structure is :",
+    "solution": "Cellulose is linear chains of $$\\beta$$-D-glucose molecules linked together by $$\\beta$$-1, 4 glycosidic bonds. Cellulose has $$\\beta$$-1, 4 linkage between $$\\beta$$-D-glucose units. The cellulose is linear molecule.\n\n[Diagram]\n\nA general reaction of alcohol with acetic anhydride is :\n\n[Diagram]\n\nAcetic anhydride reacts with the alcoholic function group and converts the alcoholic function group into ester functional group. The $$-$$OH is known as an alcoholic functional group. The $$-$$OC(O)$$-$$ is known as an ester functional group.\nDuring the conversion hydrogen of alcoholic group is replaced by CH$$_3$$CO$$-$$ group of acetic anhydride. The above reaction is known as acetylation because acetyl group CH$$_3$$CO$$-$$ is attaching with the reactant alcohol.\nSo, upon acetylation of cellulose with excess acetic anhydride/H$$_2$$SO$$_4$$ (catalytic) all the $$-$$OH group will convert into acetyl group.\nAs the cellulose contains a large number of glucose units but our product is triacetate. It means the alcohol group of three glucose units of cellulose is converted into acetyl group. As the acetic anhydride is in excess, all alcoholic groups of three glucose units of cellulose will convert into acetyl groups.\nSo, the structure of the product is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgdwc86m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_010",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement-1 :** Glucose gives a reddish-brown precipitate with Fehling's solution.\n**Statement-2 :** Reaction of glucose with Fehling's solution gives $$\\mathrm{CuO}$$ and gluconic acid.",
+    "solution": "Fehling's solution contains copper (II) ions complexed with tartrate ions in sodium hydroxide solution. Complexing the copper (II) ions with tartrate ions prevents precipitation of copper (II) hydroxide.\nThe reducing group of glucose $$(-\\mathrm{CHO})$$ is oxidised by the $$\\mathrm{Cu}^{2+}$$ ions in Fehling's to $$\\mathrm{Cu}^{+}$$ (red copper oxide).\n\n[Diagram]\n\nRed solution is produced due to formation of cuprous oxide. $$\\mathrm{Cu}_{2} \\mathrm{O}$$ is produced instead of $$\\mathrm{CuO}$$.\nHence, statement- 1 is true but statement- 2 is incorrect.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghtx2si.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_011",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given :\n\n[Diagram]\n\nThe compound(s), which on reaction with HNO$_{3}$ will give the product having degree of rotation, [$$\\alpha$$]$_{D}$ = $$-$$52.7$$^\\circ$$ is (are)",
+    "solution": "Monosaccharide oxidises on reacting with HNO$_{3}$\nto\nform carboxylic acids. Primary alcohols also oxidise to\ncarboxylic acid alongwith aldehyde.\nComplete reaction is as follows :\n\n[Diagram]\n\nThe enantiomer of product (P) has rotation −52.7$^{o}$ . The two\nenantiomers (c and d) with their reactions are as follows :\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx8agrig.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_012",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) true?",
+    "solution": "The explanation of given statements are as follows :\n\n(a) Two six membered cyclic hemiacetal form of D-(+)- glucose are called anomers.\n\n\n[Diagram]\n\n\nBoth are anomers.\n\n(b) Oxidation of glucose in presence of Br$_{2}$ water gives gluconic acid.\n\n\n[Diagram]\n\n\n(c) Monosaccharides can not be hydrolysed into polyhydroxy aldehydes and ketones.\n\n(d) Hydrolysis of sucrose gives D-glucose and L-fructose.\n\n\n[Diagram]\n\n\nHence, options (a, c, d) are correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The two six-membered cyclic hemiacetal forms of D-(+)- glucose are called anomers.",
+      "Oxidation of glucose with bromine water gives glutamic acid",
+      "Monosaccharides cannot be hydrolysed to given polyhydroxy aldehydes and ketones",
+      "Hydrolysis of sucrose gives dextrorotatory glucose and laevorotatory fructose"
+    ]
+  },
+  {
+    "id": "chem_biomolecules_013",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The Fischer presentation of $$D$$-glucose is given below.\n\n[Diagram]\n\n\nThe correct structure(s) of $$\\beta $$-$$L$$-glucopyranose is (are) :",
+    "solution": "When we move from $\\beta$-(D)-glucopyranose (obtained from D-glucose) groups it axial position becomes equatorial and at equatorial becomes axial.\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhyeik06.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_014",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For \"invert sugar\", the correct statement(s) is(are)\n(Given : specific rotations of (+)-sucrose, (+)-maltose, L-($$-$$)-glucose and L-(+)-fructose in aqueous solution are +66$$^\\circ$$, +140$$^\\circ$$, $$-$$52$$^\\circ$$ and +92$$^\\circ$$, respectively.)",
+    "solution": "Invert sugar is prepared by acid catalyzed hydrolysis of sucrose.\n$${C_{12}}{H_{22}}{O_{11}} + {H_2}O\\buildrel {HCl} \\over\n\\longrightarrow \\underbrace {\\mathop {{C_6}{H_{12}}{O_6}}\\limits_{D - ( + ) - Glu\\cos e} + \\mathop {{C_6}{H_{12}}{O_6}}\\limits_{D - ( - ) - Fructose} }_{Invert\\,sugar}$$\nSpecific rotation of invert sugar is\n[$$\\alpha$$]$_{mix}$ = 0.5 $$\\times$$ (+52) + 0.5 $$\\times$$ ($$-$$92) = + 26 $$-$$ 46 = $$-$$20$$^\\circ$$\nOn reaction with Br$_{2}$ water, invert sugar forms gluconic acid as one of the products. Br$_{2}$ water oxidises glucose into gluconic acid and fructose is not oxidised by it.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "\"invert sugar\" is prepared by acid catalyzed hydrolysis of maltose.",
+      "\"invert sugar\" is an equimolar mixture of D-(+)-glucose and D-($$-$$)-fructose.",
+      "specific rotation of \"invert sugar\" is $$-$$20$$^\\circ$$.",
+      "on reaction with Br$_{2}$ water, \"invert sugar\" forms saccharic acid as one of the products."
+    ]
+  },
+  {
+    "id": "chem_biomolecules_015",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of D-(+)-glucose is\n\n[Diagram]\n\nThe structure of L-($$-$$)-glucose is",
+    "solution": "In D-(+)-glucose the OH group attached to the last stereocentre is on the right hand side while in L-($$-$$)-glucose it is on left hand side. The structure of L-($$-$$)-glucose is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13ihj98.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_016",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) about the following sugar X and Y is(are)\n\n[Diagram]\n\n[Diagram]",
+    "solution": "Reducing sugars contain cyclic hemiacetal or hemiketal groups in equilibrium with the open chain from having a free $$-$$CHO or $$-$$C = O group. Non-reducing sugars contain stable acetal or ketal structures their cyclic structures cannot be opened into an open chain form having a free carbonyl group. In X the glyco-sidic linkage is in between two anomeric carbon atoms while in Y it is only with one anomeric carbon, the other one is free. So, X is non-reducing while Y is reducing.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "X is a reducing sugar and Y is a non-reducing sugar.",
+      "X is a non-reducing sugar and Y is a reducing sugar.",
+      "The glucosidic linkages in X and Y are $$\\alpha$$ and $$\\beta$$, respectively.",
+      "The glucosidic linkages in X and Y are $$\\beta$$ and $$\\alpha$$, respectively."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4zi0h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_017",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a double strand DNA, one strand is given below:\n\n[Diagram]\n\nThe amount of energy required to split the double strand DNA into two single strands is _______ kcal $\\operatorname{mol}^{-1}$.\n\n[Given: Average energy per H-bond for A-T base pair $=1.0 ~\\mathrm{kcal}~ \\mathrm{mol}^{-1}$, G-C base pair $=1.5 ~\\mathrm{kcal}$ $\\mathrm{mol}^{-1}$, and A-U base pair $=1.25 ~\\mathrm{kcal} ~\\mathrm{mol}^{-1}$. Ignore electrostatic repulsion between the phosphate groups.]",
+    "solution": "[Diagram]\n\n$\\mathrm{A}=\\mathrm{T} \\quad \\Rightarrow 2 \\mathrm{H}$-bond\n\n$\\mathrm{G} \\equiv \\mathrm{C} \\quad \\Rightarrow 3 \\mathrm{H}$-bond\n\nNumber of $\\mathrm{A}=\\mathrm{T}$ pair $=7$\n\nNumber of $\\mathrm{G} \\equiv \\mathrm{C}$ pair $=6$\n\nNumber of $\\mathrm{H}$-bond involve in $\\mathrm{A}=\\mathrm{T}=7 \\times 2=14$\n\nNumber of $\\mathrm{H}$-bond involve in $\\mathrm{G} \\equiv \\mathrm{C}=6 \\times 3=18$\n\nEnergy required for $\\mathrm{A}=\\mathrm{T}=14 \\times 1=14$\n\nEnergy required for $\\mathrm{G} \\equiv \\mathrm{C}=18 \\times 1.5=27$\n\nTotal energy required $14+27=41$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpydf2x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_018",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of a peptide is given below.\n\n\n[Diagram]\n\nIf the absolute values of the net charge of the peptide at $\\mathrm{pH}$ $=2$, $\\mathrm{pH}=6$, and $\\mathrm{pH}=11$ are $\\left|Z_1\\right|,\\left|Z_2\\right|$, and $\\left|Z_3\\right|$, respectively, then what is $\\left|Z_1\\right|+\\left|Z_2\\right|+\\left|Z_3\\right|$?",
+    "solution": "At pH = 2,\n\nThere are two $$-$$NH$_{2}$ group, and + 1 charge on each group because all amino groups exist in the form of $$-$$NH$$_3^ \\oplus $$.\n\nTherefore, |Z$_{1}$| = 2.\n\nAt pH = 6,\n\nNH$_{2}$ of lysine (+ 1) (pH = 9.47) and COOH ($$-$$1) of glutamic (pH = 3.08) acid, so because of dipolar ion exists, therefore |Z$_{2}$| = 0.\n\nAt pH = 11,\n\nCOOH of glutamic acid has ($$-$$1), COOH of lysine ($$-$$1) and OH of phenol ($$-$$1).\n\nTherefore, |Z$_{3}$| = |$$-$$3| = 3 (All COOH and OH exist in the form of $$-$$COO$^{$$-$$}$ and $$-$$O$^{$$-$$}$).\n\n$$ \\therefore $$ |Z$_{1}$| + |Z$_{2}$| + |Z$_{3}$| = 2 + 0 + 3 = 5",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1letdf3m8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_019",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of distinct naturally occurring amino acids obtained by complete acidic hydrolysis of the peptide shown below is\n\n[Diagram]",
+    "solution": "Chemical reaction and product formed after hydrolysis of given peptide can be represented as\n\n\n[Diagram]\n\n(A) is glycine which is only naturally occurring amino acid. While (B), (C) and (D) are not the naturally occurring amino acids. Hence, correct integer is (1).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ax4sof.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_020",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of lone-pairs of electrons in melamine is",
+    "solution": "The structure of melamine is :\n\n[Diagram]\n\nEach nitrogen has one lone pair of electrons. Number (no.) of nitrogen in a molecule $=6$\n\nTotal no. of lone pairs in melamine\n\n$$ \\begin{aligned} & =\\text { No. of nitrogen } \\times \\text { lone pair } \\\\\\\\ & =6 \\times 1=6 \\end{aligned} $$\n\nHence, total number of lone pair on nitrogen is 6.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyinxqg6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_021",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tetrapeptide has $$-$$COOH group on alanine. This produces glycine (Gly), valine (Val), phenyl alanine (Phe) and alanine (Ala), on complete hydrolysis. For this tetrapeptide, the number of possible sequences (primary structures) with $$-$$NH$_{2}$ group attached to a chiral center is _______.",
+    "solution": "The possible combinations with C-terminal as alanine and N-terminal with chiral carbon (i.e. excluding glycine) are four.\nVal$$-$$Phe$$-$$Gly$$-$$Ala\nVal$$-$$Gly$$-$$Phe$$-$$Ala\nPhe$$-$$Val$$-$$Gly$$-$$Ala\nPhe$$-$$Gly$$-$$Val$$-$$Ala",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lqe59.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_022",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The substituents R$_{1}$ and R$_{2}$ for nine peptides are listed in the table given below. How many of these peptides are positively charged at pH = 7.0 ?\n\n[Diagram]\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nPeptide\n$${R_1}{R_2}$$\n\n\n\nI\nH\nH\n\n\nII\nH\n$$C{H_3}$$\n\n\n\nIII\n$$C{H_2}COOH$$\nH\n\n\nIV\n$$C{H_2}CON{H_2}{(C{H_2})_4}N{H_2}$$\n\n\nV\n$$C{H_2}CON{H_2}C{H_2}CON{H_2}$$\n\n\nVI\n$${(C{H_2})_4}N{H_2}{(C{H_2})_4}N{H_2}$$\n\n\nVII\n$$C{H_2}COOHC{H_2}CON{H_2}$$\n\n\nVIII\n$$C{H_2}OH{(C{H_2})_4}N{H_2}$$\n\n\nIX\n$${(C{H_2})_4}N{H_2}C{H_3}$$",
+    "solution": "For basic amino acids with pH > 7, peptides will exist as cations. For example, when the substituents are basic, that is R$_{1}$ = CH$_{2}$CONH$_{2}$ and R$_{2}$ = (CH$_{2}$)$_{4}$NH$_{2}$ or when R$_{1}$ = (CH$_{2}$)$_{4}$NH$_{2}$ and R$_{2}$ = (CH$_{2}$)$_{4}$NH$_{2}$ or when R$_{1}$ = CH$_{2}$OH and R$_{2}$ = (CH$_{2}$)$_{4}$NH$_{2}$ or when R$_{1}$ = (CH$_{2}$)$_{4}$NH$_{2}$ and R$_{2}$ = CH$_{3}$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lqe59.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_023",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A decapeptide (mol. wt. 796) on complete hydrolysis gives glycine (mol. wt. 75), alanine and phenylalanine. Glycine contributes 47.0% to the total weight of the hydrolysed products. The number of glycine units present in the decapeptide is _________.",
+    "solution": "(i) A decapeptide has nine peptide bonds which hydrolyzes to give ten amino acids. Each peptide bond hydrolyses, to form one molecule of water. Hence, nine molecules of water are required to hydrolysis nine peptide bonds.\n$$\\text{Decapeptide} \\xrightarrow{\\text{hydrolyse} +9\\, \\text{H}_2\\text{O}} \\text{Amino acids}$$\n\n[Diagram]\n\n(ii) On hydrolysis a molecule of water (equivalent to 18 g) is added across each amino acid.\nMass of hydrolysed decapeptide = Mass of decapeptide + 9 \\times \\text{mass of each water molecule}\n$= 796 \\, \\text{g mol}^{-1} + 9 \\times 18 \\, \\text{g mol}^{-1} $\n$= (796 + 162) \\, \\text{g mol}^{-1} $\n$= 958 \\, \\text{g mol}^{-1} $\nMass of glycine in hydrolysed decapeptide\n$= \\frac{47}{100} \\times 958 \\, \\text{g mol}^{-1} $\n$= 450.26 \\, \\text{g mol}^{-1} $\nMass of each glycine = 75 $\\, \\text{g mol}^{-1}$\nNumber of glycine units\n$= \\frac{\\text{Mass of hydrolysed decapeptide}}{\\text{Mass of each glycine}} $\n$n = \\frac{450.26 \\, \\text{g mol}^{-1}}{75 \\, \\text{g mol}^{-1}} $\n$n = 6.00$\nHence, there are six molecules of water in decapeptide.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03i29tc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_biomolecules_024",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "topic": "Biomolecules",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of basic groups in the following form of lysine is\n\n[Diagram]",
+    "solution": "There are two basic groups in lysine\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexm8qfd.png",
+      "position": "bottom"
+    }
+  }
+]

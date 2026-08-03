@@ -1,0 +1,1560 @@
+[
+  {
+    "id": "phy_geometrical_optics_001",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A beam of polychromatic light passes through a thin prism of prism angle $6^{\\circ}$. The refractive index of the material of the prism varies with wavelength $(\\lambda)$ as $n(\\lambda) = \\alpha \\lambda + \\frac{\\beta}{\\lambda^2}$, where $\\alpha = 3\\ \\mu m^{-1}$ and $\\beta = 0.096\\ \\mu m^2$. If $\\lambda_{min}$ is the wavelength at which the angle of minimum deviation $D_m$ is smallest, then the correct value of $D_m$ at $\\lambda_{min}$ is :",
+    "solution": "For a light ray passing through a prism with a small prism angle $A$, the angles of incidence and emergence are also small.\nBy Snell's law at the first interface:\n$$\\sin i_1 = n \\sin r_1$$\nUsing the small-angle approximation $\\sin \\theta \\approx \\theta$ in radians):\n$$i_1 \\approx n r_1$$\nSimilarly, at the second interface:\n$$\\sin e = n \\sin r_2 \\rightarrow e \\approx n r_2$$\nThe total angle of deviation $D$ produced by a prism is given by the sum of deviations at both faces:\n$$D = (i_1 - r_1) + (e - r_2) = (i_1 + e) - (r_1 + r_2)$$\nFrom the geometry of a prism, the interior angles relate to the prism angle $A$ via:\n$$r_1 + r_2 = A$$\nSubstituting this and the small-angle approximations into the total deviation formula:\n$$D \\approx (n r_1 + n r_2) - A = n(r_1 + r_2) - AD = nA - A = (n - 1)A$$\nFor a thin prism, the deviation angle remains nearly uniform across varying small angles of incidence, meaning the angle of minimum deviation $D_m$ depends on the refractive index of the prism at particular wavelength of light.\n$$D_m(\\lambda) = (n(\\lambda) - 1)A$$\nTo find the wavelength where $D_m$ reaches its lowest value, we find the minimum of the function $D_m(\\lambda)$ with respect to $\\lambda$.\nThe given function for the refractive index is:\n$$n(\\lambda) = \\alpha \\lambda + \\frac{\\beta}{\\lambda^2} = \\alpha \\lambda + \\beta \\lambda^{-2}$$\nDifferentiating $n$ with respect to $\\lambda$:\n$$\\frac{dn}{d\\lambda} = \\frac{d}{d\\lambda}(\\alpha \\lambda + \\beta \\lambda^{-2}) = \\alpha - 2\\beta \\lambda^{-3} = \\alpha - \\frac{2\\beta}{\\lambda^3}$$\nTo find the critical point where the function reaches its minimum,\n$$\\frac{dn}{d\\lambda} = 0\\alpha - \\frac{2\\beta}{\\lambda_{\\min}^3} = 0\\frac{2\\beta}{\\lambda_{\\min}^{3}} = \\alpha\\lambda_{\\min}^{3} = \\frac{2\\beta}{\\alpha}\\lambda_{\\min} = \\left(\\frac{2\\beta}{\\alpha}\\right)^{1/3}$$\nTo verify that this critical point represents a true minimum, we find the second derivative:\n$$\\frac{\\mathrm{d}^{2} n}{\\mathrm{d}\\lambda^{2}} = \\frac{\\mathrm{d}}{\\mathrm{d}\\lambda}\\left(\\alpha - 2\\beta\\lambda^{-3}\\right) = 6\\beta\\lambda^{-4} = \\frac{6\\beta}{\\lambda^{4}}$$\nSince constants $\\beta$ and $\\lambda$ are positive, $\\frac{\\mathrm{d}^{2} n}{\\mathrm{d}\\lambda^{2}} > 0$, $\\lambda_{\\min}$ gives the absolute minimum value for the refractive index and subsequently the smallest deviation.\nSubstituting the given numerical constants into the expression for $\\lambda_{\\min}^{3}$:\n$\\alpha = 3\\mu\\ \\mathrm{m}^{-1}$, $\\beta = 0.096\\mu\\ \\mathrm{m}^{2}$\nSo,\n$$\\lambda_{\\min}^{3} = \\frac{2 \\times 0.096}{3} = \\frac{0.192}{3} = 0.064\\mu\\ \\mathrm{m}^{3}\\lambda_{\\min} = (0.064)^{1/3} = 0.4\\mu\\ \\mathrm{m}$$\nThe value of the refractive index $n$ at this specific wavelength $\\lambda_{\\min} = 0.4\\mu\\ \\mathrm{m}$:\n$$n(\\lambda_{\\min}) = \\alpha\\lambda_{\\min} + \\frac{\\beta}{\\lambda_{\\min}^{2}}n(\\lambda_{\\min}) = 3 \\times 0.4 + \\frac{0.096}{(0.4)^{2}}n(\\lambda_{\\min}) = 1.2 + \\frac{0.096}{0.16}n(\\lambda_{\\min}) = 1.2 + 0.6 = 1.8$$\nUsing the thin prism deviation equation\n$$D_{m} = (n - 1)AD_{m} = (1.8 - 1) \\times 6^{\\circ}D_{m} = 0.8 \\times 6^{\\circ} = 4.8^{\\circ}$$\nTherefore, the correct option is (B).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "6.4°",
+      "4.8°",
+      "3.2°",
+      "2.4°"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vc28g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_002",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider two isosceles prisms 1 and 2 with prism angles $A_1$ and $A_2$ and refractive indices $n_1$ and $n_2$, respectively, as shown in the figure. The faces $a_1 b_1$ and $a_2 b_2$ are parallel to each other and perpendicular to the mirror $M$. If a ray of light is incident on the face $a_1 c_1$ and emerges from the face $a_2 c_2$, then the correct statement(s) is/are :\n\n[Diagram]",
+    "solution": "The prism angle be A and the refractive index be n .\n\n[Diagram]\n\nThe sum of the interior refraction angles at the first and second surfaces ( $r_1$ and $r_2$ ) is equal to the prism angle\n$$ \\mathrm{r}_1+\\mathrm{r}_2=\\mathrm{A} $$\nAt the condition of minimum deviation $\\left(\\delta=\\delta_{\\mathrm{m}}\\right)$, the path of the light ray through the prism becomes completely symmetric with respect to the two refracting faces. Therefore, the angle of incidence equals the angle of emergence ( $\\mathrm{i}=\\mathrm{e}$ ),\nSo, $\\mathrm{r}_1=\\mathrm{r}_2=\\mathrm{r}$\n$$ \\Rightarrow r+r=A \\Rightarrow r=\\frac{A}{2} $$\nApplying Snell's law at the first refracting surface:\n$$ \\sin \\mathrm{i}=\\mathrm{n} \\sin \\mathrm{r}_1=\\mathrm{n} \\sin \\left(\\frac{\\mathrm{~A}}{2}\\right) . \\tag{i} $$\nThe light ray as it exits Prism 1, reflects off the horizontal mirror M , and enters Prism 2.\nThe vertical faces $a_1 b_1$ and $a_2 b_2$ are given as parallel to each other and perpendicular to the horizontal mirror M.\n\n[Diagram]\n\nSince the faces $a_1 b_1$ and $a_2 b_2$ are perpendicular to the mirror, any line perpendicular to these vertical faces is exactly parallel to the mirror M .\nLet the ray emerge from the face $a_1 b_1$ at an angle of emergence $e_1$ relative to the normal of face $a_1 b_1$. Because the face normal is horizontal (parallel to M ), the angle that the emerging ray makes with the horizontal line is exactly $\\mathrm{e}_1$.\nThis ray travels downward and strikes the horizontal mirror M . By the law of reflection, the angle of incidence equals the angle of reflection relative to the normal of the mirror.\nIn terms of the angle made with the horizontal mirror surface:\nAngle of incidence with horizontal $=\\mathrm{e}_1$\nAngle of reflection with horizontal $=\\mathrm{e}_1$\nThe reflected ray travels upward toward the vertical face $a_2 b_2$ of Prism 2 .\nSince face $a_2 b_2$ is parallel to face $a_1 b_1$, its surface normal is also horizontal. Therefore, the ray approaching face $a_2 b_2$ makes an angle $e_1$ with the horizontal line. This means the angle of incidence $i_2$ at the face $a_2 b_2$ must be equal to $\\mathrm{e}_1$ :\n$$ \\mathrm{i}_2=\\mathrm{e}_1 $$\nIf prism 1 is operating at its minimum deviation condition, then its angle of incidence ( $\\mathrm{i}_1$ ) equals its angle of emergence ( $\\mathrm{e}_1$ ).\nUsing equation (i).\n$$ \\sin \\mathrm{e}_1=\\mathrm{n}_1 \\sin \\left(\\frac{\\mathrm{~A}_1}{2}\\right) $$\nSince $\\mathrm{i}_2=\\mathrm{e}_1$\n$$ \\sin \\mathrm{i}_2=\\mathrm{n}_1 \\sin \\left(\\frac{\\mathrm{~A}_1}{2}\\right) $$\nSo, according to the geometry of the parallel faces and the mirror, making it always true. Thus, Option (D) is correct.\nIf prism 2 is operating at its minimum deviation condition, then its angle of incidence ( $\\mathrm{i}_2$ ) equals its angle of emergence ( $\\mathrm{e}_2$ ).\n$$ \\sin \\mathrm{i}_2=\\mathrm{n}_2 \\sin \\left(\\frac{\\mathrm{~A}_2}{2}\\right) $$\nSince $\\mathrm{i}_2=\\mathrm{e}_1$,\n$\\sin \\mathrm{e}_1=\\mathrm{n}_2 \\sin \\left(\\frac{\\mathrm{~A}_2}{2}\\right)$.\nIf only prism 2 is at minimum deviation, the relationship between $\\mathrm{e}_1$ and $\\mathrm{i}_1$ depends only on the specific properties of prism 1 (prism angle $A_1$ and refractive index $n_1$ ). Thus, $\\sin i_1=n_2 \\sin \\left(\\frac{A_2}{2}\\right)$ is not always true. Thus, option (B) is incorrect.\nIf both prisms are simultaneously operating at minimum deviation, then:\nFrom prism 1: $\\sin \\mathrm{e}_1=\\mathrm{n}_1 \\sin \\left(\\frac{\\mathrm{~A}_1}{2}\\right)$\nFrom prism 2: $\\sin i_2=n_2 \\sin \\left(\\frac{A_2}{2}\\right)$\nSince $\\mathrm{i}_2=\\mathrm{e}_1$, their sines must be identical $\\sin \\mathrm{i}_2=\\sin \\mathrm{e}_1$ :\n$$ n_1 \\sin \\left(\\frac{A_1}{2}\\right)=n_2 \\sin \\left(\\frac{A_2}{2}\\right) \\frac{\\mathrm{n}_2}{\\mathrm{n}_1}=\\frac{\\sin \\left(\\frac{\\mathrm{A}_1}{2}\\right)}{\\sin \\left(\\frac{\\mathrm{A}_2}{2}\\right)} $$\nThus, option (A) is correct.\nFor thin prisms ( $\\mathrm{A} \\ll 1$ radian) under small angles of incidence, the minimum deviation expression using the small-angle approximation $\\sin \\theta \\approx \\theta$ :\n$$ \\delta_{\\mathrm{m} 1}=\\left(\\mathrm{n}_1-1\\right) \\mathrm{A}_1 \\Rightarrow \\mathrm{~A}_1=\\frac{\\delta_{\\mathrm{m} 1}}{\\mathrm{n}_1-1} \\delta_{\\mathrm{m} 2}=\\left(\\mathrm{n}_2-1\\right) \\mathrm{A}_2 \\Rightarrow \\mathrm{~A}_2=\\frac{\\delta_{\\mathrm{m} 2}}{\\mathrm{n}_2-1} $$\nThe base face $a_1 b_1$ makes an angle of $\\frac{A_1}{2}$ with the face $a_1 c_1$ since the prisms are isosceles.\nSimilarly, face $a_2 b_2$ makes an angle of $\\frac{A_2}{2}$ with face $a_2 c_2$.\nBecause the vertical lines $a_1 b_1$ and $a_2 b_2$ are parallel, the total angle between the outer faces $a_1 c_1$ and $a_2 c_2$ when extended to meet at the top is simply the sum of their individual inclinations relative to the vertical line:\n\n[Diagram]\n\n$$\\theta = \\frac{A_1}{2} + \\frac{A_2}{2}$$\nSubstituting the expressions for $A_1$ and $A_2$ from the thin-prism approximation\n$$\\theta = \\frac{1}{2}\\left(\\frac{\\delta_{m1}}{n_1 - 1}\\right) + \\frac{1}{2}\\left(\\frac{\\delta_{m2}}{n_2 - 1}\\right)\\theta = \\frac{\\delta_{m1}}{2(n_1 - 1)} + \\frac{\\delta_{m2}}{2(n_2 - 1)}$$\nThus, option (C) is correct.\nTherefore, the correct options are (A), (C), and (D).",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "If both the prisms are at minimum deviation condition, then $\\dfrac{n_2}{n_1} = \\dfrac{\\sin\\left(\\dfrac{A_1}{2}\\right)}{\\sin\\left(\\dfrac{A_2}{2}\\right)}$.",
+      "If prism 2 is at minimum deviation condition, then $\\sin i_1 = n_2 \\sin \\left(\\dfrac{A_2}{2}\\right)$ is always true.",
+      "If both the prisms 1 and 2 are thin and are at minimum deviation condition with angles of deviation $\\delta_{m1}$ and $\\delta_{m2}$, respectively, then $\\theta = \\dfrac{\\delta_{m1}}{2(n_1 - 1)} + \\dfrac{\\delta_{m2}}{2(n_2 - 1)}$.",
+      "If prism 1 is at minimum deviation condition, then $\\sin i_2 = n_1 \\sin \\left(\\dfrac{A_1}{2}\\right)$ is always true."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9wgrhg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_003",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid glass sphere of refractive index $n=\\sqrt{3}$ and radius $R$ contains a spherical air cavity of radius $\\frac{R}{2}$, as shown in the figure. A very thin glass layer is present at the point 0 so that the air cavity (refractive index $n=1$ ) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source $S$ emits a light ray from a point inside the glass sphere towards the periphery of the glass sphere. If the light is reflected from the point 0 and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is $\\theta$. The value of $\\sin \\theta$ is ________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nThe reflected light at O is \"fully polarized,\" which means the incident angle at 0 is the Brewster angle. Brewster's angle occurs when the reflected and refracted rays are at $90^{\\circ}$ to each other.\nso Brewster angle is defined by\n$$ \\tan \\theta_B=\\frac{n_2}{n_1} $$\nSo $\\tan \\beta=\\frac{\\sqrt{3}}{1}$ (as at the point 0, light travels from air to glass so\n\n$$ \\begin{aligned} & \\text { light, travels } \\left.n_2=\\sqrt{3}, n_1=1\\right) \\\\ & \\Rightarrow \\beta=60^{\\circ} \\end{aligned} \\text { So } \\angle D N O=60^{\\circ}\\left(\\begin{array}{c} \\text { As in } \\triangle D N O, DO = DN=\\frac{R}{2} \\\\ \\text { so } \\angle D O N=\\angle D N O) \\end{array}\\right. $$\nNow, using snell's law at point $N$,\n$$ \\begin{aligned} & n_1 \\sin \\theta_1=n_2 \\sin \\theta_2 \\\\ \\Rightarrow & \\sqrt{3} \\sin \\alpha=1 \\times \\sin 60^{\\circ} \\\\ \\Rightarrow & \\sqrt{3} \\sin \\alpha=\\frac{\\sqrt{3}}{2} \\\\ \\Rightarrow & \\sin \\alpha=\\frac{1}{2} \\Rightarrow \\alpha=30^{\\circ} \\end{aligned} $$\nIn $\\triangle D O N, \\angle D\\ O N+\\angle O N D+\\angle N D O=180^{\\circ}$\n$$ \\begin{aligned} & 60^{\\circ}+60^{\\circ}+\\angle N D O=180^{\\circ} \\\\ & \\Rightarrow \\angle N D O=60^{\\circ} \\end{aligned} $$\nSo $\\angle C D N_{}=180^{\\circ}-60^{\\circ}=120^{\\circ}$\n\n[Diagram]\n\n$$ C N=2 C P $$\nwe can find $C P$ using $\\triangle D P C$,\n$$ \\begin{aligned} \\quad \\cos 30^{\\circ} & =\\frac{C P}{C D} \\\\ \\Rightarrow \\quad \\frac{\\sqrt{3}}{2} & =\\frac{C P}{R / 2} \\\\ \\Rightarrow \\quad C P & =\\frac{\\sqrt{3} R}{4} \\\\ \\text { So } \\quad C N & =2\\left(\\frac{\\sqrt{3} R}{4}\\right)=\\frac{\\sqrt{3} R}{2} \\end{aligned} $$\nNow, using sine rule in $\\triangle C N M$,\n$$ \\begin{aligned} & \\frac{\\sin \\theta}{C N}=\\frac{\\sin 120^{\\circ}}{R} \\\\ \\Rightarrow \\quad & \\sin \\theta=\\frac{\\sqrt{3}}{2} B\\left(\\frac{\\sqrt{3}, R}{2}\\right) \\\\ \\Rightarrow \\quad & \\sin \\theta=\\frac{3}{4}=0.75 \\quad \\text { Ans. } \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0dt3q2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_004",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A double convex lens made of glass of refractive index **1.5** and radii of curvature of the curved surfaces **20 cm** each is immersed in a liquid of refractive index *n$_{L}$*. The correct plot showing the variation of the power, in the units of diopter *(D)*, as a function of *n$_{L}$* is :",
+    "solution": "For a single spherical surface of radius $R$ separating two media of refractive indices $n_1$ and $n_2$, the relation between object distance $u$, image distance $v$, and radius of curvature $R$ is given by:\n$$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$$\nA thin lens consists of two such spherical surfaces placed very close to each other.\nLet $n_L$ be the refractive index of the surrounding liquid medium.\n$n_g$ be the refractive index of the glass material of the lens $n_g = 1.5$.\n$R_1$ and $R_2$ be the radii of curvature of the first and second surfaces, respectively.\nUsing Lens Maker's formula, the focal length of the lens is,\n$$\\frac{1}{f} = \\left(\\frac{n_g}{n_L} - 1\\right)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$$\nSubstituting $R_1 = +R$ and $R_2 = -R$:\n$$\\frac{1}{f} = \\left(\\frac{n_g}{n_L} - 1\\right)\\left(\\frac{1}{R} - \\left(-\\frac{1}{R}\\right)\\right)\\frac{1}{f} = \\left(\\frac{n_g}{n_L} - 1\\right)\\frac{2}{R}$$\nThe optical power $P$ of a lens in diopters (D) is defined as the reciprocal of its focal length when measured in meters.\n$$P = \\frac{1}{f_{\\text{meters}}} = \\left(\\frac{n_g}{n_L} - 1\\right)\\frac{2}{R_{\\text{cm}}/100} = \\left(\\frac{n_g}{n_L} - 1\\right)\\frac{200}{R_{\\text{cm}}}$$\nThe refractive index of glass is $n_g = 1.5$\nRadius of curvature, $R_{\\text{cm}} = 20\\ \\text{cm}$\n$$P(n_L) = \\left(\\frac{1.5}{n_L} - 1\\right)\\frac{200}{20}P(n_L) = 10\\left(\\frac{1.5}{n_L} - 1\\right)P(n_L)=\\frac{15}{n_L}-10$$\nCase 1: when the setup is immersed in air $n_L=1.0$\n$$P(1.0)=\\frac{15}{1.0}-10=15-10=+5\\ \\mathrm{D}$$\nThus, the graph must pass through the coordinate point $(1.0,5)$.\nCase 2: when the setup is immersed in a matching medium $n_L=1.5$\n$$P(1.5)=\\frac{15}{1.5}-10=10-10=0\\ \\mathrm{D}$$\nSo, the graph crosses the horizontal axis at $(1.5,0)$.\nCase 3: when the setup is immersed in a higher index liquid $n_L=2.0)$\n$$P(2.0)=\\frac{15}{2.0}-10=7.5-10=-2.5\\ \\mathrm{D}$$\nWhen $n_L>n_g$, the lens changes its nature, turning from a converging lens to a diverging lens, so the power becomes negative.\nThe mathematical relation is of power of lens and the refractive index of medium is,\n$$P=\\frac{15}{n_L}-10 \\rightarrow P+10=\\frac{15}{n_L} \\rightarrow (P+10)n_L=15$$\nThis equation is of the form $(y-y_0)x=c$, which represents a rectangular hyperbola shifted vertically downward by 10 units.\nAs $n_L\\geq 1.0$, $P\\leq +5\\mathrm{D}$\nAs $n_L\\rightarrow \\infty$, $P\\rightarrow -10$.\n\n[Diagram]\n\nTherefore, the correct option is (A).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vc28g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_005",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A light ray is incident on the surface of a sphere of refractive index $n$ at an angle of incidence $\\theta_0$. The ray partially refracts into the sphere with angle of refraction $\\phi_0$ and then partly reflects from the back surface. The reflected ray then emerges out of the sphere after a partial refraction. The total angle of deviation of the emergent ray with respect to the incident ray is $\\alpha$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\n}\nth {\nbackground-color: #1E90FF;\ncolor: white;\n}\nth, td {\nborder: 1px solid lightgrey;\npadding: 8px;\ntext-align: left;\n}\nbody[data-theme='dark'] th, body[data-theme='dark'] td {\nborder: 1px solid white;\n}\n\n\n\nList-I\nList-II\n\n\n\n\n(P) If $n = 2$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be\n(1) $30^\\circ$ and $0^\\circ$\n\n\n(Q) If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be\n(2) $60^\\circ$ and $0^\\circ$\n\n\n(R) If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\phi_0$ will be\n(3) $45^\\circ$ and $0^\\circ$\n\n\n(S) If $n = \\sqrt{2}$ and $\\theta_0 = 45^\\circ$, then all the possible values of $\\alpha$ will be\n(4) $150^\\circ$\n\n\n\n(5) $0^\\circ$",
+    "solution": "[Diagram]\n\n$$\\begin{aligned}\n&\\begin{aligned}\n& \\alpha=\\left(\\theta_0-\\phi_0\\right)+\\left(180-2 \\phi_0\\right)+\\left(\\theta_0-2 \\phi_0\\right) \\\\\n& \\alpha=180+2 \\theta_0-4 \\phi_0\n\\end{aligned}\\\\\n&\\begin{aligned}\n& \\text { (P) } \\alpha=180+2 \\theta_0-4 \\phi_0 \\\\\n& 180=180+2 \\theta_0-4 \\phi_0 \\Rightarrow \\theta_0=2 \\phi_0 \\quad \\text{... (i}\\\\\n& \\sin \\theta_0=2 \\sin \\phi_0 \\quad \\text{... (ii}\n\\end{aligned}\n\\end{aligned}$$\nFrom (i) & (ii)\n$$\\begin{aligned}\n& \\sin \\theta_0=2 \\sin \\left(\\theta_0 / 2\\right) \\Rightarrow \\cos \\left(\\frac{\\theta_0}{2}\\right)=1 \\\\\n& \\frac{\\theta_0}{2}=0 \\\\\n& \\Rightarrow \\theta_0=0\n\\end{aligned}\\begin{aligned}\n& \\text { (Q) } \\theta_0=2 \\phi_0 \\quad \\text{... (i)}\\\\\n& \\sin \\theta_0=\\sqrt{3} \\sin \\phi_0 \\quad \\text{... (ii)}\n\\end{aligned}$$\nFrom (i) & (ii)\n$$\\begin{aligned}\n& \\sin \\theta_0=\\sqrt{3} \\sin \\left(\\frac{\\theta_0}{2}\\right) \\\\\n& \\Rightarrow \\cos \\left(\\frac{\\theta_0}{2}\\right)=\\frac{\\sqrt{3}}{2} \\\\\n& \\frac{\\theta_0}{2}=30,150 \\\\\n& \\theta_0=60,300 \\text { (Rejected) } \\\\\n& \\theta_0=60 \\& 0\n\\end{aligned}\\begin{aligned}\n& \\text { (R) } \\theta_0=2 \\phi_0 \\\\\n& \\sin \\theta_0=\\sqrt{3} \\sin \\phi_0 \\\\\n& \\sin 2 \\theta_0=\\sqrt{3} \\sin \\phi_0 \\\\\n& \\cos \\phi_0=\\frac{\\sqrt{3}}{2} \\\\\n& \\phi_0=30,150 \\text { (Rejected) }\n\\end{aligned}\\begin{aligned}\n& \\phi_0=30 \\& 0 \\quad \\text{... (i)}\\\\\n& (S) \\sin 45=\\sqrt{2} \\cos \\phi_0 \\\\\n& \\cos \\phi_0=1 / 2 \\\\\n& \\phi_0=60 \\\\\n& \\alpha=180+2 \\theta_0-4 \\phi_0\n\\end{aligned}\\begin{aligned}\n& \\alpha=180+90-120 \\quad \\text{... (iv)}\\\\\n& =180-30 ; \\alpha=150^{\\circ}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 1 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 1 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 5$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzfs66ys.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_006",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List I contains four combinations of two lenses (1 and 2) whose focal lengths (in $\\mathrm{cm}$ ) are indicated in the figures. In all cases, the object is placed $20 \\mathrm{~cm}$ from the first lens on the left, and the distance between the two lenses is $5 \\mathrm{~cm}$. List II contains the positions of the final images.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I)\n[Diagram]\n\n(P) Final image is formed at $7.5 \\mathrm{~cm}$ on the right side of lens 2 .\n\n\n(II)\n[Diagram]\n\n(Q) Final image is formed at $60.0 \\mathrm{~cm}$ on the right side of lens 2 .\n\n\n(III)\n[Diagram]\n\n(R) Final image is formed at $30.0 \\mathrm{~cm}$ on the left side of lens $2 .$\n\n\n(IV)\n[Diagram]\n\n(S) Final image is formed at $6.0 \\mathrm{~cm}$ on the right side of lens 2 .\n\n\n\n(T) Final image is formed at $30.0 \\mathrm{~cm}$ on the right side of lens 2 .\n\n\nWhich one of the following options is correct?",
+    "solution": "(I) $$u = - 20$$ cm\n$$f = + 10$$ cm\n$${1 \\over v} + {1 \\over {20}} = {1 \\over {10}}{1 \\over v} = {1 \\over {10}} - {1 \\over {20}}{1 \\over v} = {1 \\over {20}}v = 20$$ cm\n$$u = + 15$$ cm\n$$f = + 15$$ cm\n$${1 \\over v} - {1 \\over u} = {1 \\over f} \\Rightarrow {1 \\over v} - {1 \\over {15}} = {1 \\over {15}}{1 \\over v} = {2 \\over {15}}v = 7.5$$ cm (from lens 2)\nI $$\\to$$ P\n(II) $$u = - 20$$ cm, $$f = + 10$$ cm\n$${1 \\over v} + {1 \\over {20}} = {1 \\over {10}}{1 \\over v} = {1 \\over {10}} - {1 \\over {20}} \\Rightarrow v = 20$$ cm\n$$u = + 15$$ cm\n$$f = - 10$$ cm\n$${1 \\over v} - {1 \\over u} = {1 \\over f} \\Rightarrow {1 \\over v} - {1 \\over {15}} = {{ - 1} \\over {10}}{1 \\over v} = {{ - 1} \\over {10}} + {1 \\over {15}} = {{ - 3 + 2} \\over {30}}{1 \\over v} = - {1 \\over {30}}v = - 30$$ cm\nII $$\\to$$ R\n(III) $$u = - 20$$ cm\n$$f = + 10$$ cm\n$${1 \\over v} + {1 \\over {20}} = {1 \\over {10}}\\frac{1}{v}=\\frac{1}{10}-\\frac{1}{20}=\\frac{1}{20}v = 20$$ cm\n$$ \\Rightarrow u = 15$$ cm\n$$f = - 20$$ cm\n$${1 \\over v} - {1 \\over {15}} = {{ - 1} \\over {20}}{1 \\over v} = - {1 \\over {20}} + {1 \\over {15}} = {{ - 3 + 4} \\over {60}} = {1 \\over {60}}v = 60$$ cm\nIII $$\\to$$ Q\n(IV) $$u = - 20$$ cm\n$$f = - 20$$ cm\n$$ \\Rightarrow {1 \\over v} - {1 \\over u} = {1 \\over f} \\Rightarrow {1 \\over v} + {1 \\over {20}} = {{ - 1} \\over {20}}v = - 10$$ cm\n$$u = - 15$$ cm\n$$f = 10$$ cm\n$${1 \\over v} - {1 \\over u} = {1 \\over f}{1 \\over v} + {1 \\over {15}} = {1 \\over {10}} \\Rightarrow {1 \\over v} = {1 \\over {10}} - {1 \\over {15}} = {{3 - 2} \\over {30}} = {1 \\over {30}}v = 30$$ cm\nIV $$\\to$$ T",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(I) $\\rightarrow$ P; (II) $\\rightarrow$ R; (III) $\\rightarrow$ Q; (IV) $\\rightarrow$ T",
+      "(I) $\\rightarrow$ Q; (II) $\\rightarrow$ P; (III) $\\rightarrow$ T; (IV) $\\rightarrow$ S",
+      "(I) $\\rightarrow \\mathrm{P}$; (II) $\\rightarrow \\mathrm{T}$; (III) $\\rightarrow \\mathrm{R}$; (IV) $\\rightarrow \\mathrm{Q}$",
+      "(I) $\\rightarrow$ T; (II) $\\rightarrow$ S; (III) $\\rightarrow$ Q; (IV) $\\rightarrow$ R"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7elwg5k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_007",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An extended object is placed at point O, 10 cm in front of a convex lens L$_{1}$ and a concave lens L$_{2}$ is placed 10 cm behind it, as shown in the figure. The radii of curvature of all the curved surfaces in both the lenses ae 20 cm. The refractive index of both the lenses is 1.5. The total magnification of this lens system is\n\n[Diagram]",
+    "solution": "Focal length of convex lens f$_{1}$,\n\nTherefore $${1 \\over {{f_1}}} = (\\mu - 1)\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right] = (1.5 - 1)\\left[ {{1 \\over {20}} - \\left( {{1 \\over { - 20}}} \\right)} \\right]\\Rightarrow$$ f$_{1}$ = + 20 cm\n\nFocal length of concave lens f$_{2}$,\n\n$$\\therefore{1 \\over {{f_2}}} = (\\mu - 1)\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right]{1 \\over {{f_2}}} = (1.5 - 1)\\left[ { - {1 \\over {20}} - {1 \\over {20}}} \\right] = {1 \\over { - 20}}\\Rightarrow$$ f$_{2}$ = $$-$$ 20 cm\n\n**For lens 1**\n\n[Diagram]\n\n$${1 \\over v} - {1 \\over u} = {1 \\over f}\\Rightarrow$$ v = $$-$$ 20 cm\n\n$${m_1} = {v \\over u} = {{ - 20} \\over { - 10}} = 2$$\n\nFor lens 2\n\nu = $$-$$ 30n cm, f = $$-$$ 20 cm,\n\n$${1 \\over v} - {1 \\over u} = {1 \\over f}$$\n\nv = $$-$$ 12 cm\n\n$${m_2} = {v \\over u} = {{ - 12} \\over { - 30}} = {2 \\over 5}$$\n\nNet magnification,\n\n$$m = {m_1}{m_2} = 2 \\times {2 \\over 5} = {4 \\over 5} = 0.8$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0.4",
+      "0.8",
+      "1.3",
+      "1.6"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx2r3d62.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_008",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small object is placed 50 cm to the left of a thin convex lens of focal length 30 cm. A convex spherical mirror of radius of curvature 100 cm is placed to the right of the lens at a distance of 50 cm. The mirror is tilted such that the axis of the mirror is at an angle $$\\theta$$ = 30$$^\\circ$$ to the axis of the lens, as shown in the figure.\n\n[Diagram]\n\nIf the origin of the coordinate system is taken to be at the centre of the lens, the coordinates (in cm) of the point (x, y) at which the image is formed are",
+    "solution": "For convex lens, u = $$-$$50 cm, f = 30 cm\n$$\\therefore{1 \\over v} = {1 \\over f} + {1 \\over u} = {1 \\over {30}} - {1 \\over {50}} = {{5 - 3} \\over {150}} = {2 \\over {150}}$$ or v = 75 cm\n\n[Diagram]\n\nImage formed by convex lens acts as a virtual object for mirror.\nIf we consider that the mirror is not tilted, then for mirror,\n$${u_1} = 75 - 50 = 25$$ cm, $${f_1} = {R \\over 2} = {{100\\,cm} \\over 2} = 50$$ cm\n$$\\therefore{1 \\over {{v_1}}} = {1 \\over {{f_1}}} - {1 \\over {{u_1}}} = {1 \\over {50}} - {1 \\over {25}} = {{ - 1} \\over {50}}$$ or $${v_1} = 50$$ cm\nSo, the co-ordinates of final image formed (I$_{2}$) if the mirror is not tilted are (0 cm, 0 cm)\n\n[Diagram]\n\nIf mirror is not tilted then this ray starts from the object, refracts through the lens without deviation, incident normally on the mirror and finally comes to the image I$_{2}$ after reflection from the mirror. If the mirror is tilted by an angle $$\\theta$$ then this ray is incident on the mirror at an angle of reflection $$\\theta$$ and finally forms a new image at I'$_{2}$ (see figure). Thus, the axis on which image lies makes an angle 2$$\\theta$$ = 60$$^\\circ$$ with the principal axis of the lens. Also, the image distance will remain same upto the first order of approximation (image distance will remain exactly same in case of plane mirror). Thus, (x, y) coordinates of the image are\n$$x = 50 - 50\\cos 60^\\circ = 25$$ cm,\n$$y = 50\\sin 60^\\circ = 25\\sqrt 3 $$ cm.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(125/3, 25/$$\\sqrt 3 $$)",
+      "(50$$-$$25$$\\sqrt 3 $$, 25)",
+      "(0, 0)",
+      "(25, 25$$\\sqrt 3 $$)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0njejky.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_009",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A parallel beam of light is incident from air at an anglea on the side PQ of a right angled triangular prism of refractive index n = $$\\sqrt 2 $$. Light undergoes total internal reflection in the prism at the face PR when a has a minimum value of 45°. The angle q of the prism is :\n\n[Diagram]",
+    "solution": "[Diagram]\n\nApplying Snell's law at M,\n\n$$n = {{\\sin \\alpha } \\over {\\sin {r_1}}} \\Rightarrow \\sqrt 2 = {{\\sin 45^\\circ } \\over {\\sin {r_1}}} \\Rightarrow \\sin {r_1} = {{\\sin 45^\\circ } \\over {\\sqrt 2 }} = {{1/\\sqrt 2 } \\over {\\sqrt 2 }} = {1 \\over 2}{r_1} = 30^\\circ \\sin {\\theta _c} = {1 \\over n} = {1 \\over {\\sqrt 2 }} \\Rightarrow {\\theta _c} = 45^\\circ $$\n\nLet us take $${r_2} = {\\theta _c} = 45^\\circ $$ for just satisfying the condition of TIR.\n\nIn $$\\Delta PNM$$,\n\n$$\\theta + 90 + {r_1} + 90 - {r_2} = 180^\\circ $$\n\nor $$\\theta = {r_2} - {r_1} = 45^\\circ - 30^\\circ = 15^\\circ $$\n\nNote If $$\\alpha$$ = 45$$^\\circ $$ (the given value). Then, r$_{1}$ > 30$$^\\circ $$ (the obtained value)\n\n$${r_2} > {\\theta _c}$$ (as r$_{2}$ $$-$$ r$_{1}$ = $$\\theta$$ or r$_{2}$ = $$\\theta$$ + r$_{1}$)\n\nor TIR will take place. So, for taking TIR under all conditions $$\\alpha$$ should be greater than 45$$^\\circ$$ or this is the minimum value of $$\\alpha$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "15$^{o}$",
+      "22.5$^{o}$",
+      "30$^{o}$",
+      "45$^{o}$"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_010",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A point source S is placed at the bottom of a transparent block of height 10 mm and refractive index 2.72. It is immersed in a lower refractive index liquid as shown in the below figure. It is found that the light emerging from the block to the liquid forms a circular bright spot of diameter 11.54 mm on the top of the block. The refractive index of the liquid is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nIn $$\\Delta$$SAB\n$$\\tan \\theta = {{AB} \\over {AS}} = {{11.54/2} \\over {10}}$$\ntan$$\\theta$$ = 0.577\n$$\\theta$$ = 30$$^\\circ$$\nUsing $${{\\sin {\\theta _l}} \\over {\\sin 90}} = {{{n_l}} \\over {{n_B}}}$$, we get\n$$\\sin {\\theta _l} = {{{n_l}} \\over {{n_B}}}$$ or $${n_l} = {n_B} \\times \\sin 30 = 2.72 \\times {1 \\over 2} = 1.36$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1.21",
+      "1.30",
+      "1.36",
+      "1.42"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17oty2v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_011",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four combinations of two thin lenses are given in List I. The radius of curvature of all curved surfaces is r and the refractive index of all the lenses is 1.5. Match lens combinations in List I with their focal length in List II and select the correct answer using the code given below the lists.\n\n[Diagram]",
+    "solution": "The lens maker's formula gives focal length of the bi-convex lens as\n$${1 \\over {{f_1}}} = (\\mu - 1)\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right] = (1.5 - 1)\\left[ {{1 \\over r} - {1 \\over { - r}}} \\right] = {1 \\over r}$$ ..... (1)\nThe focal length of a plano-convex (also convex-plane) lens is given by\n$${1 \\over {{f_2}}} = (1.5 - 1)\\left[ {{1 \\over \\infty } - {1 \\over { - r}}} \\right] = {1 \\over {2r}}$$ ...... (2)\nand that of a plano-concave (also concave-plano) lens is given by\n$${1 \\over {{f_3}}} = (1.5 - 1)\\left[ {{1 \\over \\infty } - {1 \\over r}} \\right] = - {1 \\over {2r}}$$ ..... (3)\nCase P:\nTherefore, $${1 \\over {{f_{eff}}}} = {1 \\over r} + {1 \\over r}{f_{eff}} = {r \\over 2}$$\n(P) $$\\to$$ (2)\nCase Q :\n$${1 \\over {{f_{eff}}}} = {1 \\over {2r}} + {1 \\over {2r}}{f_{eff}} = r$$\n(Q) $$\\to$$ (4)\nCase R :\n$${1 \\over {{f_{eff}}}} = - {1 \\over {2r}} - {1 \\over {2r}}{f_{eff}} = - r$$\n(R) $$\\to$$ (3)\nCase S : $${1 \\over {{f_{eff}}}} = {1 \\over r} - {1 \\over {2r}} = {1 \\over {2r}}{f_{eff}} = 2r$$\n(S) $$\\to$$ (1)",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P - 1, Q - 2, R - 3, S - 4",
+      "P - 2, Q - 4, R - 3, S - 1",
+      "P - 4, Q - 1, R - 2, S - 3",
+      "P - 2, Q - 1, R - 3, S - 4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17quma4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_012",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A right-angled prism of refractive index $$\\mu$$$_{1}$ is placed in a rectangular block of refractive index $$\\mu$$$_{2}$, which is surrounded by a medium of refractive index $$\\mu$$$_{3}$, as shown in the figure. A ray of light e enters the rectangular block at normal incidence. Depending upon the relationships between $$\\mu$$$_{1}$, $$\\mu$$$_{2}$ and $$\\mu$$$_{3}$, it takes one of the four possible paths 'ef', 'eg', 'eh' or 'ei'.\n\n[Diagram]\n\nMatch the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nList I\n\nList II\n\n\n\nP.\n$$e \\to f$$\n\n1.\n$${\\mu _1} > \\sqrt 2 {\\mu _2}$$\n\n\n\nQ.\n$$e \\to g$$\n\n2.\n$${\\mu _2} > {\\mu _1}$$ and $${\\mu _2} > {\\mu _3}$$\n\n\nR.\n$$e \\to h$$\n\n3.\n$${\\mu _1} = {\\mu _2}$$\n\n\n\nS.\n$$e \\to i$$\n\n4.\n$${\\mu _2} < {\\mu _1} < \\sqrt 2 {\\mu _2}$$ and $${\\mu _2} > {\\mu _3}$$",
+    "solution": "[Diagram]\n\nFor e $$\\to$$ f\n$$\\mu$$$_{2}$ > $$\\mu$$$_{1}$, as ray bends towards the normal.\n$$\\mu$$$_{2}$ > $$\\mu$$$_{3}$, as ray bends away from the normal.\nP $$\\to$$ 2\nFor e $$\\to$$ g\n$$\\mu$$$_{1}$ = $$\\mu$$$_{2}$ as there is no deviation.\nQ $$\\to$$ 3\nFor e $$\\to$$ h\n$$\\mu$$$_{2}$ < $$\\mu$$$_{1}$, as ray bends away from the normal.\n$$\\mu$$$_{2}$ > $$\\mu$$$_{3}$, as ray bends away from the normal.\nAlso, $$\\mu$$$_{1}$ < $$\\sqrt2\\mu$$$_{2}$ (No total internal reflection)\nR $$\\to$$ 4\nFor e $$\\to$$ i\nTotal internal reflection takes place\n$$\\therefore$$ sin45$$^\\circ$$ > sinC\nBut $$\\sin C = {{{\\mu _2}} \\over {{\\mu _1}}}\\therefore{1 \\over {\\sqrt 2 }} > {{{\\mu _2}} \\over {{\\mu _1}}} \\Rightarrow {\\mu _1} > \\sqrt 2 {\\mu _2}S \\to 1$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P-2, Q-3, R-1, S-4",
+      "P-1, Q-2, R-4, S-3",
+      "P-4, Q-1, R-2, S-3",
+      "P-2, Q-3, R-4, S-1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qi3mcf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_013",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The image of an object, formed by a plano-convex lens at a distance of 8 m behind the lens, is real and is\none-third the size of the object. The wavelength of light inside the lens is $${2 \\over 3}$$ times the wavelength in free space. The radius of the curved surface of the lens is",
+    "solution": "The speed of light in a medium is given by the equation :\n\n$$ \\frac{C}{V}=\\frac{\\lambda_0}{\\lambda}=\\mu $$\n\nWhere :\n\nV is the velocity of light in the medium\n\nλ is the wavelength of light in the medium\n\nλ$_{0}$ is the wavelength in free space\n\nμ is the refractive index of the medium\n\nGiven :\n\n$$ \\lambda=\\frac{2}{3} \\lambda_0 $$\n\n[Diagram]\n\nUsing the given data :\n\n$$\\begin{aligned} u & = -24 \\text{ m},\\\\\\\\ h_i & = \\frac{1}{3}h_0\\end{aligned}$$\n\nTo find the magnification (m) :\n\n$$ m = \\frac{h_i}{h_0} = \\frac{1}{3} = \\frac{v}{u} $$\n\nHence,\n\n$$ v = \\frac{u}{3} $$\n\nGiven :\n\n$$ v = 8 \\text{ m},\\ u = -24 \\text{ m} $$\n\nApplying the lens formula :\n\n$$ \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} = (\\mu - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) $$\n\nSince the plane surface has an infinite radius :\n\n$$ \\frac{1}{\\infty} = 0 $$\n\nTherefore :\n\n$$\\frac{1}{8} - \\frac{1}{-24} = (1.5 - 1)\\left(\\frac{1}{R} - 0\\right)\\Rightarrow \\frac{1}{6} = \\frac{0.5}{R}$$\n\nSolving for R :\n\n$$ \\Rightarrow R = 3 \\text{ m} $$\n\ntable {\n\nwidth: 100%;\n\nborder-collapse: collapse;\n\nmargin: 20px 0;\n\n}\n\nth {\n\nbackground-color: blue;\n\ncolor: white;\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\n}\n\ntd {\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\ntext-align: left;\n\n}",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "6 m"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzxk0dwf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_014",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ray of light travelling in the direction $${1 \\over 2}\\left( {\\widehat i + \\sqrt 3 \\widehat j} \\right)$$ is incident on a plane mirror. After reflection, it travels along the direction $${1 \\over 2}\\left( {\\widehat i - \\sqrt 3 \\widehat j} \\right)$$. The angle of incidence is",
+    "solution": "Let $${\\widehat v_i} = {1 \\over 2}\\left( {\\widehat i + \\sqrt 3 \\widehat j} \\right)$$ and $${\\widehat v_r} = {1 \\over 2}\\left( {\\widehat i - \\sqrt 3 \\widehat j} \\right)$$ be the unit vectors along the incident and the reflected rays. From Snell's law, angle of incidence (say $$\\theta$$) is equal to the angle of reflection. Thus, angle between $$ - {\\widehat v_i}$$ and $${\\widehat v_r}$$ is 2$$\\theta$$.\n\n[Diagram]\n\nUsing, dot products of vectors, we get\n$$\\cos (2\\theta ) = - {\\widehat v_i}\\,.\\,{\\widehat v_r} = 1/2$$.\nHence, $$\\theta = 30^\\circ $$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "30$$^\\circ$$",
+      "45$$^\\circ$$",
+      "60$$^\\circ$$",
+      "75$$^\\circ$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qr3ah1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_015",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For light incident from air on a meta-material, the appropriate ray diagram is",
+    "solution": "For meta-material, the refractive index is negative. Let n$_{1}$ is refractive index of air and n$_{2}$ is refractive index of meta-material.\n$$\\therefore$$ From Snell's law, $${{\\sin {\\theta _1}} \\over {\\sin {\\theta _2}}} = {{{n_2}} \\over {{n_1}}}$$\nSince, n$_{2}$ is negative, therefore $$\\theta$$$_{2}$ is also negative. Hence, appropriate diagram (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l25486cx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_016",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct statement.",
+    "solution": "Refractive index for a medium\n$$n = \\left( {{c \\over v}} \\right)$$\nFor meta-material, $$n = \\,|n|\\thereforev = {c \\over {|n|}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "The speed of light in the meta-material is v = c|n|.",
+      "The speed of light in the meta-material is $$v = {c \\over {|n|}}$$.",
+      "The speed of light in the meta-material is v = c.",
+      "The wavelength of the light in the meta-material ($$\\lambda$$$_{m}$) is given by $${\\lambda _m} = {\\lambda _{air}}|n|$$, where $${\\lambda _{air}}$$ is wavelength of the light in air."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kme2s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_017",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A biconvex lens is formed with two planoconvex lenses as shown in the figure. Refractive index n of the first lens is 1.5 and that of the second lens is 1.2. Both curved surface are of the same radius of curvature R = 14 cm. For this biconvex lens, for an object distance of 40 cm, the image distance will be\n\n[Diagram]",
+    "solution": "According to lens maker's formula\n$${1 \\over f} = (n - 1)\\left( {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right)$$\nFor the first lens\nn = 1.5, R$_{1}$ = + 14 cm, R$_{2}$ = $$\\infty\\therefore{1 \\over {{f_1}}} = (1.5 - 1)\\left( {{1 \\over {14}} - {1 \\over \\infty }} \\right) = {{0.5} \\over {14}}$$\nFor the second lens,\nn = 1.2, R$_{1}$ = $$\\infty$$, R$_{2}$ = $$-$$14 cm\n$$\\therefore{1 \\over {{f_2}}} = (1.2 - 1)\\left( {{1 \\over \\infty } - {1 \\over { - 14}}} \\right) = {{0.2} \\over {14}}$$\nThe focal length of the bi-convex lens is\n$${1 \\over f} = {1 \\over {{f_1}}} + {1 \\over {{f_2}}} = {{0.5} \\over {14}} + {{0.2} \\over {14}} = {{0.7} \\over {14}} = {1 \\over {20}}$$\nAccording to thin lens formula\n$${1 \\over v} - {1 \\over u} = {1 \\over f}$$\nHere, u = $$-$$40 cm\n$$\\therefore{1 \\over v} - {1 \\over { - 40}} = {1 \\over {20}}$$ or $${1 \\over v} = {1 \\over {20}} - {1 \\over {40}}$$ or v = 40 cm",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$-$$280.0 cm",
+      "40.0 cm",
+      "21.5 cm",
+      "13.3 cm"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kme2s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_018",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A biconvex lens of focal length 15 cm is in front of a plane mirror. The distance between the lens and the mirror is 10 cm. A small object is kept at a distance of 30 cm from the lens. The final image is",
+    "solution": "First refraction through lens\nHere, u = $$-$$30 cm, f = +15 cm\nUsing $${1 \\over v} - {1 \\over u} = {1 \\over f}{1 \\over v} - {1 \\over { - 30}} = {1 \\over { + 15}}$$ or $${1 \\over v} = {1 \\over {15}} - {1 \\over {30}}$$\n\n[Diagram]\n\nv = +30 cm\n$$\\therefore$$ Image I$_{1}$ is real and formed at a distance of 30 cm on the right side of the lens.\nDistance of image I$_{1}$ from the mirror is\n30 cm $$-$$ 10 cm = 20 cm\nThe image I$_{1}$ acts as an virtual object for the mirror. The mirror forms an image I$_{2}$ at a distance of 20 cm in front of it.\nThe image I$_{2}$ acts as an object for the lens.\nSecond refraction through lens\nHere, u = +10 cm, f = +15 cm\n$${1 \\over v} - {1 \\over { + 10}} = {1 \\over { + 15}}$$ or $${1 \\over v} = {1 \\over {15}} + {1 \\over {10}}\\Rightarrow$$ v = +6 cm\nThe final image I$_{3}$ is real and at a distance of 16 cm from the mirror.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "virtual and at a distance of 16 cm from the mirror.",
+      "real and at a distance of 16 cm from the mirror.",
+      "virtual and at a distance of 20 cm from the mirror.",
+      "real and at a distance of 20 cm from the mirror."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkoud3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_019",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two transparent media of refractive indices $\\mu_1$ and $\\mu_3$ have a solid lens shaped transparent material of refractive index $\\mu_2$ between them as shown in figures in Column II. A ray traversing these media is also shown in the figures. In Column I different relationships between $\\mu_1, \\mu_2$ and $\\mu_3$ are given. Match them to the ray diagram shown in Column II :\n\n[Diagram]\n\n[Diagram]",
+    "solution": "If $\\mu_1<\\mu_2$ then the ray bends towards the normal after refraction at $\\mu_1-\\mu_2$ interface. Incident rays parallel to the optic axis bend towards the optic axis by the convex lens and away from the optic axis by the concave lens. If $\\mu_1>\\mu_2$ then the ray bends away from the normal. If $\\mu_2=\\mu_3$ then the ray goes straight without bending at the $\\mu_2-\\mu_3$ interface. If $\\mu_2>\\mu_3$ then the ray bends away from the normal.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)→(P), (R); (B)→(Q), (S), (T); (C)→(P), (R), (T); (D)→(Q), (S)",
+      "(A)→(R); (B)→(Q), (S); (C)→(P), (R), (T); (D)→(Q), (S)",
+      "(A)→(P), (R); (B)→(S), (T); (C)→(P), (R); (D)→(Q), (S)",
+      "(A)→(P); (B)→(Q), (S), (T); (C)→(P), (T); (D)→(Q)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4mbmk42.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_020",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ball is dropped from a height of 20 m above the surface of water in a lake. The refractive index of water is 4/3. A fish inside the lake, in the line of fall of the ball, is looking at the ball. At an instant, when the ball is 12.8 m above the water surface, the fish sees the speed of ball as (Take g = 10 m/s$$^2$$)",
+    "solution": "The velocity of the ball when it has fallen through 7.2 m is\n$$V = \\sqrt {2g(7.2)} = 12$$ m/s\n\n[Diagram]\n\nFor a general height $$h$$ above the water surface, we have\n$${{h'} \\over h} = {4 \\over 3} \\Rightarrow h' = {4 \\over 3}h$$\nTherefore, $$V' = {4 \\over 3}V = {4 \\over 3} \\times 12 = 16$$ m/s\nwhere $$V'$$ is the velocity of ball with respect to the fish.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "9 m/s",
+      "12 m/s",
+      "16 m/s",
+      "21.33 m/s"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrlug6k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_021",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A light beam is travelling from Region I to Region IV\n(Refer figure). The refractive index in Regions I, II, III and IV are $${n_0},{{{n_0}} \\over 2},{{{n_0}} \\over 6}$$ and $${{{n_0}} \\over 8}$$, respectively. The angle of incidence $$\\theta$$ for which the beam just misses entering Region IV is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nFrom Snell's laws\n$${\\mu _1}\\sin \\theta = {\\mu _2}\\sin {\\theta _2}$$\nCase I : Region I\n$${n_0}\\sin \\theta = {{{n_0}} \\over 2}\\sin \\alpha $$ ...... (i)\nCase II : Region II\n$${{{n_0}} \\over 2}\\sin \\alpha = {{{n_0}} \\over 6}\\sin {\\theta _c}$$ ..... (ii) ($$\\therefore\\beta = {\\theta _c}$$)\nCase II : Region III\n$${{{n_0}} \\over 6}\\sin {\\theta _c} = {{{n_0}} \\over 8}\\sin 90^\\circ \\Rightarrow {{{n_0}} \\over 6}\\sin {\\theta _c} = {{{n_0}} \\over 8}$$ ..... (iii)\nFrom equation (i), (ii) and (iii), we have,\n$${n_0}\\sin \\theta = {{{n_0}} \\over 8} \\Rightarrow \\sin \\theta = {1 \\over 8} \\Rightarrow \\theta = {\\sin ^{ - 1}}\\left( {{1 \\over 8}} \\right)$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${\\sin ^{ - 1}}\\left( {{3 \\over 4}} \\right)$$",
+      "$${\\sin ^{ - 1}}\\left( {{1 \\over 8}} \\right)$$",
+      "$${\\sin ^{ - 1}}\\left( {{1 \\over 4}} \\right)$$",
+      "$${\\sin ^{ - 1}}\\left( {{1 \\over 3}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmetpfs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_022",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An optical component and an object S placed along its optic axis are given in Column I. The distance between the object and the component can be varied. The properties of images are given in Column II. Match all the properties of images from Column II with the appropriate components given in Column I. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n\n[Diagram]\n\n(P)\nReal Image\n\n\n(B)\n\n[Diagram]\n\n(Q)\nVirtual Image\n\n\n(C)\n\n[Diagram]\n\n(R)\nMagnified Image\n\n\n(D)\n\n[Diagram]\n\n(S)\nImage at infinity",
+    "solution": "(A) $$\\to$$ P, Q, R, S\n$$v = {f \\over {1 - {f \\over u}}},m = {{ - v} \\over u}$$\nFor different values of u, we get different values of $$v$$(+ve, $$-$$ve or $$\\infty$$). Like wise $$m$$ comes out to be positive, negative, greater than 1 etc.\n(B) $$\\to$$ Q\nIn case of a convex mirror we always get virtual, diminished image, between P and F.\n(C) $$\\to$$ P, Q, R, S\nWhen object is at infinity, a real, inverted and diminished image is formed at F. When the object is brought closer to the lens. The image moves away from the lens and increase in size. (Image is between F and 2F). when the object is at 2F', the image is formed at 2F. The image is real, inverted and is of the same size. When the object is moved closer between 2F' and F', the image is real, inverted and magnified. When the object is at F' the image is real, inverted, highly magnified and is formed at infinity.\n(D) $$\\to$$ P, Q, R, S\n\n[Diagram]\n\n$${1 \\over f} = (\\mu - 1)\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right] = (\\mu - 1)\\left[ {{{{R_2} - {R_1}} \\over {{R_1}{R_2}}}} \\right]$$\nHere $${R_1} < {R_2}\\thereforef$$ is positive.\nTherefore, it behaves like a convex lens.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "A$$\\to$$(P, Q, R); B$$\\to$$(Q); C$$\\to$$(P, R, S); D$$\\to$$(P, Q, R, S)",
+      "A$$\\to$$(P, Q, R, S); B$$\\to$$(Q); C$$\\to$$(P, Q, R, S); D$$\\to$$(P, Q, R, S)",
+      "A$$\\to$$(P, Q, R); B$$\\to$$(Q); C$$\\to$$(P, R, S); D$$\\to$$(P, Q, S)",
+      "A$$\\to$$(P, Q); B$$\\to$$(Q); C$$\\to$$(R, S); D$$\\to$$(P, Q, R, S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgnczfw5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_023",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two beams of red and violet colours are made to pass separately through a prism (angle of the prism is 60$$^\\circ$$). In the position of minimum deviation, the angle of refraction will be :",
+    "solution": "[Diagram]\n\n[Diagram]\n\nFor minimum deviation, the ray in the prism is parallel to base of the prism. This condition does not depend on the colour (i.e., wavelength of incident radiation. So, both the cases, by geometry, $$r=30^\\circ$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "30$$^\\circ$$ for both the colours",
+      "greater for the violet colour",
+      "greater for the red colour",
+      "equal but not 30$$^\\circ$$ for both the colours"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgkjizio.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_024",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Light travels as a",
+    "solution": "Since the wave fronts are parallel in each medium, the beam is also a parallel beam travelling in the direction perpendicular to the wave fronts. Since the beam would bend inside medium 2 when travelling from medium 1 , the second medium has the higher refractive index.\nTrick : For plane wave fronts the beam of light is parallel.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "parallel beam in each medium",
+      "convergent beam in each medium",
+      "divergent beam in each medium",
+      "divergent beam in one medium and convergent beam in the other medium."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lguf6rwr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_025",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The phases of the light wave at $$c, d, e$$ and $$f$$ are $$\\phi_c, \\phi_d, \\phi_{e}$$ and $$\\phi_{f}$$ respectively.\nIt is given that $$\\phi_{c}\neq \\phi_{f}$$.",
+    "solution": "Since point c and d are on same wave front.\nTherefore, $$\\phi_d=\\phi_c$$\nSimilarly, $$\\phi_e=\\phi_f\\therefore~\\phi_d-\\phi_f=\\phi_c-\\phi_f$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\phi_{c}$$ cannot be equal to $$\\phi_{d}$$",
+      "$$\\phi_{d}$$ can be equal to $$\\phi_{c}$$",
+      "$$\\left(\\phi_{d}-\\phi_{f}\\right)$$ is equal to $$\\left(\\phi_{c}-\\phi_{e}\\right)$$",
+      "$$\\left(\\phi_{d}-\\phi_{c}\\right)$$ is not equal to $$\\left(\\phi_{f}-\\phi_{e}\\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lguf6rwr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_026",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In an experiment to determine the focal length (f) of a concave mirror by the u-v method, a student places the object pin A on the principal axis at a distance x form the pole P. The student looks at the pin and its inverted image form a distance keeping his/her eye in line with PA. When the student shifts his/her eye towards left, the image appears to the right, oh the object pin. Then,",
+    "solution": "**About forming an inverted image:** A concave mirror will make an upside-down (inverted) image only when the object is placed farther from the mirror than its focal point. This means the distance $x$ from the object to the pole should be bigger than the focal length $f$ (so, $x > f$).\n**When the object and image overlap:** If you place the object at $x = 2f$ (twice the focal length), the image will appear at the same spot as the object. At this exact spot, moving your eye side to side does not make the image and object swap positions. This means you cannot see “parallax.”\n**Understanding parallax with two points:** Imagine you have two points in space, $A$ and $B$. $A$ is closer to your eye, $B$ is farther away. If your eye is at point $E$ on the line joining $A$ and $B$, the following image shows this:\n\n[Diagram]\n\n**How parallax works:** If you move your eye in one direction (say, to the left), the point that is closer to you ($A$) will appear to move in the opposite direction (to the right) compared to the background ($B$). The point that is farther away ($B$) will seem to move in the same direction as your eye (to the left).\nFor example, if you move your eye from $E$ to $E_1$ (leftwards), the line from your eye to the far point $B$ changes from $E B$ to $E_1 B$. The near point $A$ looks like it shifts to the right compared to this line. The line from your eye to the near point $A$ changes from $E A$ to $E_1 A$, and the far point $B$ now seems to move to the left relative to $A$.\nYou can try this! Put two fingers in front of your eyes (one closer, one farther), and move your head. You’ll see the closer finger appears to shift more, in the opposite direction you move your eye.\nIf the two points ($A$ and $B$) are at the same spot (they “coincide”), you won’t see any parallax. There is no shifting effect between them.\n**What happens in the mirror experiment:** In this experiment, when you move your eye to the left, the image of the pin seems to move to the right of the real object pin. This shows the image is between your eye and the object pin. That means the object is closer to the mirror’s pole $P$ than its image is. For this to happen, the object must be between the focal length $f$ and twice the focal length $2f$. In other words, $f < x < 2f$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$x < f$$",
+      "$$f < x < 2f$$",
+      "$$x = 2f$$",
+      "$$x > 2f$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggbg68c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_027",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ray of light travelling in water in incident on its surface open to air. The angle of incidence is $$\\theta$$, which is less than the critical angle. Then there will be",
+    "solution": "[Diagram]\n\na reflected ray and refracted ray and the angle b/w them would be less than (180$$^\\circ$$ - 2$$\\theta$$).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "only a reflected ray and no refracted ray",
+      "only a refracted ray and no reflected ray",
+      "a reflected ray and a refracted ray and the angle between them would be less than 180$$^\\circ$$ - 2$$\\theta$$",
+      "a reflected ray and the angle between them would be greater than 180$$^\\circ$$ - 2$$\\theta$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcu693.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_028",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :**\nThe formula connecting u, v and f for a spherical mirror is valid only for mirrors whose sizes are very small compared to their radii of curvature.\n**Statement 2 :**\nLaws of reflection are strictly valid for plane surfaces, but not for large spherical surfaces.",
+    "solution": "Statement 1\nThe formula connecting $ u, v $ and $ f $ for a spherical mirror is valid only for mirrors whose sizes are very small compared to their radii of curvature.\n✅ True.\nThis is due to the paraxial approximation—the mirror formula $\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$ holds only when the mirror aperture is small so that rays make small angles with the principal axis. This avoids spherical aberration.\n\nStatement 2\nLaws of reflection are strictly valid for plane surfaces, but not for large spherical surfaces.\n❌ False.\nThe laws of reflection (angle of incidence = angle of reflection) are fundamental and apply to all reflecting surfaces—plane, spherical, or irregular. What changes in large spherical mirrors is that reflected rays do not all converge at a single focus due to geometry, but the law of reflection itself still holds locally at every point on the surface.\n\nConclusion\n\nStatement 1: True\nStatement 2: False\n\n✅ Correct Option: C\nOption C: Statement 1 is True, Statement 2 is False.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt0vp4a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_029",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A point object is placed at a distance of 20 cm from a thin plano-convex lens of focal length 15 cm , if the plane surface is silvered. The image will form at\n[Diagram]",
+    "solution": "Focal length of the lens is given by\n$$ f=\\frac{\\mathrm{R}}{\\mu-1}=15 $$\nAfter silvering the plane surface of the lens, it converts into the thin plano-convex mirror.\nFocal length is now changed.\n$\\therefore$ For mirror, new focal length $f$ is given by\n$$ f^{\\prime}=\\frac{R}{2(\\mu-1)}=\\frac{15}{2}=7.5 $$\nThus, for the mirror, equation becomes,\n$$ \\begin{gathered} \\frac{1}{v}+\\frac{1}{u}=\\frac{1}{f^{\\prime}} \\\\ {[u=\\text { object distance from mirror }=-20 \\mathrm{~cm}} \\\\ v=\\text { image distance from mirror }=?] \\\\ \\frac{1}{v}+\\frac{1}{-20}=\\frac{1}{-7.5} \\end{gathered} \\begin{aligned} & \\frac{1}{v}=-\\frac{1}{7.5}+\\frac{1}{20}=\\frac{-20+7.5}{7.5 \\times 20} \\\\ & \\frac{1}{v}=\\frac{-12.5}{150} \\\\ & v=\\frac{-150}{12.5} \\\\ & v=-12 \\mathrm{~cm} \\end{aligned} $$\n$\\therefore-\\operatorname{sign}$ Indicates that it is to the left of the system.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "60 cm left of AB",
+      "30 cm left of $A B$",
+      "12 cm left of AB",
+      "60 cm right of AB"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt0vp4a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_030",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A biconvex lens of focal length $f$ forms a circular image of sun of radius $r$ in focal plane. Then",
+    "solution": "$$ \\text { From, figure, } \\quad r=f \\tan \\alpha $$\n\n[Diagram]\n$$ \\begin{aligned} & & &r \\propto f \\\\ & & r^2 & =f^2 \\tan ^2 \\alpha \\\\ & \\therefore & \\pi r^2 & =f^2 \\tan ^2 \\alpha \\quad \\text { (area of image) } \\\\ & \\therefore & r^2 & \\propto f^2 \\end{aligned} $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\pi r^2 \\propto f$.",
+      "$\\pi r^2 \\propto f^2$.",
+      "if the lower half part is covered by black sheet, then the area of the image is equal to $\\frac{\\pi r^2}{2}$.",
+      "if f is doubled intensity will increase."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt0yurk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_031",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Graph of position of image versus position of point object from a convex lens is shown. Then, the focal length of the lens is\n[Diagram]",
+    "solution": "Given : $v-u$ graph of a convex lens.\nfrom\n$$ \\begin{aligned} & \\frac{1}{f}=\\frac{1}{v}-\\frac{1}{u} \\\\ & \\frac{1}{f}=\\frac{1}{10}-\\frac{1}{-10}=\\frac{1}{10}+\\frac{1}{10} \\end{aligned} \\begin{aligned} &\\begin{gathered} \\frac{1}{f}=\\frac{2}{10}=\\frac{1}{5} \\\\ f=5 \\mathrm{~cm} \\end{gathered}\\\\ &\\text { On differentiation of the given formula of } f \\text {. }\\\\ &\\begin{aligned} -\\frac{d f}{f^2} & =\\frac{-d v}{v^2}-\\frac{d u}{u^2} \\\\ \\frac{\\Delta f}{f^2} & =\\frac{\\Delta v}{v^2}+\\frac{\\Delta u}{u^2} \\\\ \\frac{\\Delta f}{5^2} & =\\frac{0.1}{10^2}+\\frac{0.1}{10^2}=\\frac{0.2}{100} \\\\ \\Delta f & =\\frac{0.2 \\times 25}{100}=0.05 \\mathrm{~cm} \\\\ f & =5 \\pm 0.05 \\mathrm{~cm} \\end{aligned} \\end{aligned} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$0.50 \\pm 0.05 \\mathrm{~cm}$",
+      "$0.50 \\pm 0.10 \\mathrm{~cm}$",
+      "$5.00 \\pm 0.05 \\mathrm{~cm}$",
+      "$5.00 \\pm 0.10 \\mathrm{~cm}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1262a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_032",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A simple telescope used to view distant objects has eyepiece and objective lens of focal lengths $f_e$ and $f_0$, respectively. Match Column I with Column II:\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\nColumn I\nColumn II\n\n\n\n(A)\nIntensity of light received by lens.\n(P)\nRadius of aperture(R).\n\n\n(B)\nAngular magnification.\n(Q)\nDispersion of lens.\n\n\n(C)\nLength of telescope.\n(R)\nFocal length $f_0, f_e$.\n\n\n(D)\nSharpness of image.\n(S)\nSpherical aberration.",
+    "solution": "(A) Intensity of light received by the lens\n\nThe amount of light collected (intensity received) depends on the aperture (radius R) of the objective lens.\nLarger radius ⇒ more light collected ⇒ brighter image.\n\n✅ (A) → (P).\n\n(B) Angular magnification\n\nFor a simple telescope (in normal adjustment),\n$ M = \\frac{f_0}{f_e}. $\nSo, magnification depends on focal lengths $f_0, f_e$.\n\n✅ (B) → (R).\n\n(C) Length of telescope\n\nOptical length of telescope in normal adjustment is\n$ L = f_0 + f_e. $\nAgain depends on focal lengths $f_0, f_e$.\n\n✅ (C) → (R).\n\n(D) Sharpness of image\n\nSharpness (freedom from blurring) is affected by optical aberrations:\nSpherical aberration (S): due to large aperture.\nChromatic aberration / dispersion (Q): due to different focal lengths for different colors.\nBoth dispersion and spherical aberration degrade sharpness.\n\n✅ (D) → (P, Q, S) — P indirectly since aperture radius affects spherical aberration, but specifically aberrations (Q, S).\nHowever, let’s check options carefully:\n\nComparing to given options:\n| A | D → (P, Q) (missing S) |\n| B | D → (P, Q, S) ✅ |\n| C | Wrong A and C mappings |\n| D | Wrong C, D mappings |\n\n✅ Correct option is Option B\n$ \\boxed{[\\mathrm{A}\\to(\\mathrm{P}); \\; \\mathrm{B}\\to(\\mathrm{R}); \\; \\mathrm{C}\\to(\\mathrm{R}); \\; \\mathrm{D}\\to(\\mathrm{P},\\mathrm{Q},\\mathrm{S})]} $",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}) ; \\mathrm{B} \\rightarrow(\\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}) ; \\mathrm{D} \\rightarrow(\\mathrm{P}, \\mathrm{Q})]$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}) ; \\mathrm{B} \\rightarrow(\\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}) ; \\mathrm{D} \\rightarrow(\\mathrm{P}, \\mathrm{Q}, \\mathrm{~S})]$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{R}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}) ; \\mathrm{C} \\rightarrow(\\mathrm{R}) ; \\mathrm{D} \\rightarrow( \\mathrm{Q}, \\mathrm{~S})]$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}) ; \\mathrm{B} \\rightarrow(\\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathrm{S}) ; \\mathrm{D} \\rightarrow( \\mathrm{Q})]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7el7ny.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_033",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What will be the minimum angle of incidence such that the total internal reflection occurs on both the surfaces?\n\n[Diagram]",
+    "solution": "If $$c_{1}$$ be the critical angle for the interface AB in figure.\n$$\\begin{array}{rlr}\nn_{2} \\sin c_{1} & =n_{1} \\sin 90^{\\circ} & \\left(n_{1}=\\sqrt{2}\\right. \\\\\n2 \\sin c_{1} & =\\sqrt{2} \\times 1 & \\left.n_{2}=2\\right) \\\\\n\\sin c_{1} & =\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}=\\sin 45^{\\circ} \\\\\nc_{1} & =45^{\\circ} \\\\\nn_{1} & =\\sqrt{2} \\\\\nn_{2} & =2 \\\\\n\\hline n_{3} & =\\sqrt{3}\n\\end{array}$$\nSince, AB and CD are parallel, the angle of\nincidence for both will be equal.\nIf $$c_{2}$$ be the critical angle for the interface CD.\n$$\\begin{aligned}\nn_{2} \\sin c_{2} & =n_{3} \\sin 90^{\\circ} \\quad\\left(n_{3}=\\sqrt{3}\\right) \\\\\n2 \\sin c_{2} & =\\sqrt{3} \\times 1 \\\\\n\\sin c_{2} & =\\frac{\\sqrt{3}}{2}=\\sin 60^{\\circ} \\\\\nc_{2} & =60^{\\circ}\n\\end{aligned}$$\nThe minimum value of the angle of incidence must be equal to the greater of the values of $$c_{1}$$ and $$c_{2}$$.\n$$\\therefore$$ Minimum angle of incidence is $$60^{\\circ}$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "30$$^\\circ$$",
+      "45$$^\\circ$$",
+      "50$$^\\circ$$",
+      "60$$^\\circ$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7el7ny.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_034",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical prisms of refractive index $$\\sqrt{3}$$ are kept as shown in the figure. A light ray strikes the first prism at face AB. Find\n(A) the angle of incidence so that the\nemergent ray from the first prism has\nminimum deviation;\n(B) through what angle, the prism DCE\nshould be rotated about C so that the\nfinal emergent ray also has minimum\ndeviation?\n\n[Diagram]",
+    "solution": "(A) At minimum deviation $$r_{1}=r_{2}=30^{\\circ}$$\nFrom Snell's law $$\\mu=\\frac{\\sin i_{1}}{\\sin r_{1}}$$\nor $$\\quad \\sqrt{3}=\\frac{\\sin i_{1}}{\\sin 30^{\\circ}}=\\frac{\\sin i_{1}}{\\frac{1}{2}}\\therefore \\quad \\sin i_{1}=\\sqrt{3} \\times \\frac{1}{2}=\\frac{\\sqrt{3}}{2}=\\sin 60^{\\circ}\\therefore \\quad i_{1}=60^{\\circ}$$\n(B) In the position shown below net derivation suffered by the ray of light should be minimum.\nRotate DCE about C for final emergent ray to have minimum deviation.\n\n[Diagram]\n\nThis is achieved when the second prism is rotated anti-clockwise by $$60^{\\circ}$$ about C.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(A) = 45$$^\\circ$$, (B) = 60$$^\\circ$$",
+      "(A) = 60$$^\\circ$$, (B) = 45$$^\\circ$$",
+      "(A) = 45$$^\\circ$$, (B) = 45$$^\\circ$$",
+      "(A) = 60$$^\\circ$$, (B) = 60$$^\\circ$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7gb1dv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_035",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical concave mirrors each of focal length *f* are facing each other as shown in the schematic diagram. The focal length *f* is much larger than the size of the mirrors. A glass slab of thickness *t* and refractive index *n_0* is kept equidistant from the mirrors and perpendicular to their common principal axis. A monochromatic point light source **S** is embedded at the center of the slab on the principal axis, as shown in the schematic diagram. For the image to be formed on **S** itself, which of the following distances between the two mirrors is/are correct:\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$ \\begin{aligned} & \\frac{S-t}{2}+\\frac{t}{2 n_0}=2 f \\\\ & S+t\\left(\\frac{1}{n_0}-1\\right)=4 f \\\\ & S=4 f+\\left(1-\\frac{1}{n_0}\\right) t \\end{aligned} $$\nAlso\n$$ \\begin{aligned} & \\frac{S-t}{2}+\\frac{t}{2 n_0}=f \\\\ & S=2 f+\\left(1-\\frac{1}{n_0}\\right) t \\end{aligned} $$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$4f + \\left(1 - \\frac{1}{n_0}\\right)t$",
+      "$2f + \\left(1 - \\frac{1}{n_0}\\right)t$",
+      "$4f + (n_0 - 1)t$",
+      "$2f + (n_0 - 1)t$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maw5mqm3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_036",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A glass beaker has a solid, plano-convex base of refractive index 1.60, as shown in the figure. The radius of curvature of the convex surface (SPU) is $9 \\mathrm{~cm}$, while the planar surface (STU) acts as a mirror. This beaker is filled with a liquid of refractive index $n$ up to the level QPR. If the image of a point object $\\mathrm{O}$ at a height of $h$ (OT in the figure) is formed onto itself, then, which of the following option(s) is(are) correct?\n\n[Diagram]",
+    "solution": "Since STU is a plane mirror, we can take mirror image of the whole situation about it and final image can be assumed to be at a distance h below the base.\n\n[Diagram]\n\nSince object and image are at same distance from equivalent lens, hence $$\\mathrm{h}=2 \\mathrm{~F}_{\\mathrm{qq}}\\begin{aligned}\n& \\frac{1}{\\mathrm{~F}_{\\mathrm{eq}}}=\\left(\\frac{1.6-1}{1}\\right)\\left(\\frac{2}{9}\\right)+\\frac{(\\mathrm{n}-1)}{1}\\left(\\frac{-2}{9}\\right) \\\\\n& \\frac{1}{\\frac{\\mathrm{h}}{2}}=\\frac{1.2}{9}+\\frac{2(1-\\mathrm{n})}{9} \\\\\n& \\frac{2}{\\mathrm{~h}}=\\frac{3.2-2 \\mathrm{n}}{9} \\\\\n& \\mathrm{~h}=\\frac{9}{1.6-\\mathrm{n}} \\mathrm{cm}\n\\end{aligned}$$\n(A) for $$\\mathrm{n}=1.42, \\mathrm{~h}=50 \\mathrm{~cm}$$\n(B) for $$\\mathrm{n}=1.35, \\mathrm{~h}=36 \\mathrm{~cm}$$\n(C) for $$\\mathrm{n}=1.45, \\mathrm{~h}=60 \\mathrm{~cm}$$\n(D) for $$\\mathrm{n}=1.48, \\mathrm{~h}=75 \\mathrm{~cm}$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "For $n=1.42, h=50 \\mathrm{~cm}$.",
+      "For $n=1.35, h=36 \\mathrm{~cm}$.",
+      "For $n=1.45, h=65 \\mathrm{~cm}$.",
+      "For $n=1.48, h=85 \\mathrm{~cm}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lxfrv967.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_037",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A monochromatic light wave is incident normally on a glass slab of thickness $d$, as shown in the figure. The refractive index of the slab increases linearly from $n_1$ to $n_2$ over the height $h$. Which of the following statement(s) is(are) true about the light wave emerging out of the slab?\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAt point A on one end of the slab, the wavefront takes a time $$ t $$ to reach the other end. The time $$ t $$ can be expressed as the ratio of the distance traveled, $$ d $$, to the speed of the wave in the medium, which is $$ \\frac{c}{n_1} $$ (where $$ c $$ is the speed of light in vacuum and $$ n_1 $$ is the refractive index of the medium at A). Therefore, the time taken $$ t $$ is given by $$ t = \\frac{d}{\\frac{c}{n_1}} = \\frac{n_1 d}{c} $$.\n\nSimultaneously, consider the wavefront at point B, located in a different medium with a refractive index $$ n_2 $$. In the same time $$ t $$, the wavefront at B travels a distance $$ s_1 $$. The distance $$ s_1 $$ can be calculated as the product of the speed of light in the medium at B, $$ \\frac{c}{n_2} $$, and the time $$ t $$, yielding $$ s_1 = \\frac{c}{n_2} \\times \\frac{n_1 d}{c} = \\frac{d n_1}{n_2} $$.\n\nOnce the wavefront at B reaches the end of the slab, an additional time $$ t_1 $$ elapses. The time $$ t_1 $$ can be determined by considering the remaining distance the wavefront must travel in the slab, which is $$ d - s_1 $$, and dividing it by the speed of light in the medium at B. This gives us $$ t_1 = \\left(\\frac{d - s_1}{c}\\right) n_2 = \\left(d - \\frac{d n_1}{n_2}\\right) \\frac{n_2}{c} = \\frac{d(n_2 - n_1)}{c} $$.\n\nDuring this time $$ t_1 $$, the wavefront at A will travel a distance $$ s_2 $$. The distance $$ s_2 $$ is simply the speed of light in vacuum multiplied by the time $$ t_1 $$, leading to $$ s_2 = c t_1 = d(n_2 - n_1) $$.\n\nFinally, the angle $$ \\theta $$ can be determined using the tangent function, where $$ \\tan \\theta $$ is the ratio of the difference in distances traveled by the wavefronts in the two media to the height $$ h $$ of the slab.\n\nTherefore, $$ \\tan \\theta = \\frac{(n_2 - n_1) d}{h} $$.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "It will deflect up by an angle $\\tan ^{-1}\\left[\\frac{\\left(n_2^2-n_1^2\\right) d}{2 h}\\right]$.",
+      "It will deflect up by an angle $\\tan ^{-1}\\left[\\frac{\\left(n_2-n_1\\right) d}{h}\\right]$.",
+      "It will not deflect.",
+      "The deflection angle depends only on $\\left(n_2-n_1\\right)$ and not on the individual values of $n_1$ and $n_2$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liipc1a5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_038",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A plane polarized blue light ray is incident on a prism such that there is no reflection from the surface of the prism. The angle of deviation of the emergent ray is $\\delta=60^{\\circ}$ (see Figure-1). The angle of minimum deviation for red light from the same prism is $\\delta_{\\min }=30^{\\circ}$ (see Figure-2). The refractive index of the prism material for blue light is $\\sqrt{3}$. Which of the following statement(s) is(are) correct?\n\n[Diagram]",
+    "solution": "When light strikes a surface at Brewster's angle, it becomes polarized perpendicular to the plane of incidence.\n\nTherefore, there is no reflection of blue light observed.\n\nThis implies that the light must be polarized within the plane of incidence.\n\n[Diagram]\n\n$\\begin{aligned} \\tan i & =\\sqrt{3} \\\\\\\\ i & =60^{\\circ} \\\\\\\\ \\delta & =i+e-A \\\\\\\\ 60 & =60+e-A \\\\\\\\ \\Rightarrow A & =e\\end{aligned}$\n\n$\\begin{aligned} \\frac{\\sin i}{\\sin r_1} & =\\sqrt{3} \\\\\\\\ \\Rightarrow \\frac{\\sin 60}{\\sin r_1} & =\\sqrt{3} \\Rightarrow r_1=30^{\\circ}\\end{aligned}$\n\n$\\begin{array}{rlrl}r_2 =A-r_1 \\\\\\\\ r \\sin \\left(A-r_1\\right) =\\sin e \\\\\\\\ \\Rightarrow \\sqrt{3} \\sin (A-30) =\\sin A \\\\\\\\ r_3\\left[\\sin A \\cos 30^{\\circ}-\\cos A\\right. \\sin 30]=\\sin A \\\\\\\\ \\Rightarrow \\frac{\\sqrt{3}}{2}(\\sqrt{3}-\\cot A) =1 \\\\\\\\ \\Rightarrow \\cot A =\\sqrt{3}-\\frac{2}{\\sqrt{3}}=\\frac{1}{\\sqrt{3}} \\\\\\\\ \\Rightarrow \\cot A =\\frac{1}{\\sqrt{3}} \\\\\\\\ \\Rightarrow A =60^{\\circ}\\end{array}$\n\nSo, $\\quad e=60^{\\circ}$ (for blue)\n\nFor red,\n\n$$\n\\begin{aligned}\n\\mu & =\\frac{\\sin \\left(\\frac{\\delta_m+A}{2}\\right)}{\\sin \\frac{A}{2}} \\\\\\\\\n& =\\frac{\\sin \\left(\\frac{30+60}{2}\\right)}{\\sin \\frac{60}{2}}=\\frac{\\sin 45}{\\sin 30}=\\frac{1 / \\sqrt{2}}{1 / 2} \\\\\\\\\n\\mu_{\\text {red }} & =\\sqrt{2}\n\\end{aligned}\n$$\n\n(A), (C), (D) are correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The blue light is polarized in the plane of incidence.",
+      "The angle of the prism is $45^{\\circ}$.",
+      "The refractive index of the material of the prism for red light is $\\sqrt{2}$.",
+      "The angle of refraction for blue light in air at the exit plane of the prism is $60^{\\circ}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liip7ya3.webp",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_039",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three plane mirrors form an equilateral triangle with each side of length $L$. There is a small hole at a distance $l>0$ from one of the corners as shown in the figure. A ray of light is passed through the hole at an angle $\\theta$ and can only come out through the same hole. The cross section of the mirror configuration and the ray of light lie on the same plane.\n\n[Diagram]\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "[Diagram]\n\nAs we can see, for $$\\theta=30^\\circ$$, the ray will incident normally and hence will retrace its path.\n$$\\Rightarrow$$ (A) is correct\nConsidering the symmetry of the situation, we can have :\n\n[Diagram]\n\n$$\\Rightarrow$$ (B) is correct\n\n[Diagram]\n\nAs is clear from the above diagram, ray comes out.\n$$\\Rightarrow$$ (C) is not correct\nAlso, as is clear from the above diagram, total number of reflections = 5.\n(D) is not correct.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The ray of light will come out for $\\theta=30^{\\circ}$, for $0< l < L$.",
+      "There is an angle for $l=\\frac{L}{2}$ at which the ray of light will come out after two reflections.",
+      "The ray of light will **NEVER** come out for $\\theta=60^{\\circ}$, and $l=\\frac{L}{3}$.",
+      "The ray of light will come out for $\\theta=60^{\\circ}$, and $0 < l < \\frac{L}{2}$ after six reflections."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekw90a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_040",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a prism of prism angle $$\\theta$$ = 60$$^\\circ$$, the refractive indices of the left half and the right half are, respectively, n$_{1}$ and n$_{2}$ (n$_{2}$ $$\\ge$$ n$_{1}$) as shown in the figure. The angle of incidence i is chosen such that the incident light rays will have minimum deviation if n$_{1}$ = n$_{2}$ = n = 1.5. For the case of unequal refractive indices, n$_{1}$ = n and n$_{2}$ = n + $$\\Delta$$n (where $$\\Delta$$n << n), the angle of emergence e = i + $$\\Delta$$e. Which of the following statement(s) is(are) correct?\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$${n_1} = {n_2} = n = {3 \\over 2}$$ for minimum deviation.\n\n$${r_m} = {A \\over 2} = {{60} \\over 2} = 30^\\circ $$ and $$i = e = \\theta n = {{\\sin \\left( {{{{\\delta _{\\min }} + A} \\over 2}} \\right)} \\over {\\sin \\left( {{A \\over 2}} \\right)}} \\Rightarrow {3 \\over 2} = {{\\sin \\theta } \\over {\\sin \\left( {{{60} \\over 2}} \\right)}} \\Rightarrow \\sin \\theta = {3 \\over 4} \\Rightarrow \\cos \\theta = {{\\sqrt 7 } \\over 4}$$\n\nIf $${n_1} = n = {3 \\over 2}$$ and $${n_2} = n + \\Delta ne = \\theta + \\Delta \\theta (1)\\sin \\theta = n\\sin 30^\\circ (n + \\Delta n)\\sin 30^\\circ = (1)\\sin (\\theta + \\Delta \\theta )$$\n\nSolving $${1 \\over 2}(\\Delta n) = \\sin (\\theta + \\Delta \\theta ) - \\sin \\theta {{\\Delta n} \\over 2} = {{\\sin (\\theta + \\Delta \\theta ) - sin\\theta } \\over {\\Delta \\theta }} \\times \\Delta \\theta {{d(\\sin \\theta )} \\over {d\\theta }} = \\cos \\theta {{\\Delta n} \\over 2} = (\\cos \\theta )(\\Delta \\theta ) \\Rightarrow {{\\Delta n} \\over 2} = {{\\sqrt 7 } \\over 4}(\\Delta \\theta ) \\Rightarrow {{\\Delta n} \\over {\\Delta \\theta }} = {{\\sqrt 7 } \\over 2} = {{2.64} \\over 2}{{\\Delta n} \\over {\\Delta \\theta }} = 1.34 > 1\\Rightarrow\\Delta$$n > $$\\Delta\\theta$$, so option (a) is incorrect.\n\n$$\\Delta n = (1.34)\\Delta \\theta \\Rightarrow \\Delta \\theta \\propto \\Delta n \\Rightarrow $$ option (b) is correct.\n\n$${{\\Delta n} \\over {\\Delta \\theta }} = {{\\sqrt 7 } \\over 2} \\Rightarrow {{2.8 \\times {{10}^{ - 3}}} \\over {\\Delta \\theta }} = {{\\sqrt 7 } \\over 2}\\Delta \\theta = {{5.6 \\times {{10}^{ - 3}}} \\over {\\sqrt 7 }} = \\sqrt 7 \\times 0.8 \\times {10^{ - 3}}\\Delta \\theta = (2.64 \\times 0.8) \\times {10^{ - 3}} = 2.11 \\times {10^{ - 3}}$$ rad\n\nSo, option (c) is correct.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The value of $$\\Delta$$e (in radians) is greater than that of $$\\Delta$$n",
+      "$$\\Delta$$e is proportional to $$\\Delta$$n",
+      "$$\\Delta$$e lies between 2.0 and 3.0 milliradians, if $$\\Delta$$n = 2.8 $$\\times$$ 10$^{$$-$$3}$",
+      "$$\\Delta$$e lies between1.0 and 1.6 milliradians, if $$\\Delta$$n = 2.8 $$\\times$$ 10$^{$$-$$3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx9rkx19.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_041",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wide slab consisting of two media of refractive indices n$_{1}$ and n$_{2}$ is placed in air as shown in the figure. A ray of light is incident from medium n$_{1}$ to n$_{2}$ at an angle $$\\theta$$, where sin$$\\theta$$ is slightly larger than 1/n$_{1}$. Take refractive index of air as 1. Which of the following statement(s) is(are) correct?\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$\\sin \\theta > {1 \\over {{n_1}}}$$ (Given)\n\ni.e., $$\\sin {\\theta _1} > {1 \\over {{n_1}}}{n_1}\\sin {\\theta _1} = {n_2}\\sin {\\theta _2}\\sin {\\theta _2} = {{{n_1}\\sin {\\theta _1}} \\over {{n_2}}}$$\n\nif $${n_1} = {n_2}$$ then $${\\theta _2} = {\\theta _1}{n_2}\\sin {\\theta _2} = (1)\\sin {\\theta _3}\\sin {\\theta _3} = {n_2}\\sin {\\theta _2}\\sin {\\theta _3} = {n_1}\\sin {\\theta _1}\\sin {\\theta _1} = {{\\sin {\\theta _3}} \\over {{n_1}}} > {1 \\over {{n_1}}}\\sin {\\theta _3} > 1{\\theta _3} > 90^\\circ $$\n\nThis means ray cannot enter air.\n\nFor $${n_1} > {n_2};\\sin {\\theta _1} = {{{n_2}} \\over {{n_1}}}\\sin {\\theta _2} > {1 \\over {{n_1}}}\\sin {\\theta _2} > {1 \\over {{n_2}}}$$\n\nFor surface 2 - air interface\n\n$${n_2}\\sin {\\theta _2} = \\sin {\\theta _3}\\sin {\\theta _2} = {{\\sin {\\theta _3}} \\over {{n_2}}} > {1 \\over {{n_2}}}{\\theta _2} > 90^\\circ $$\n\nIt means ray is reflected back in medium-2\n\n\n[Diagram]\n\nFor surface 1 and surface 2 interface\n\n$${n_2}\\sin {\\theta _2} = {n_1}\\sin {\\theta _1}\\sin {\\theta _{2C}} = {{{n_1}} \\over {{n_2}}}{\\theta _{2C}}$$ : critical angle\n\nFor ray to enter medium - 1\n\n$${\\theta _2} < {\\theta _{2C}}\\sin {\\theta _2} < \\sin 2{\\theta _C}{{{n_1}} \\over {{n_2}}}\\sin {\\theta _1} < {{{n_1}} \\over {{n_2}}}\\sin {\\theta _1} < 1{\\theta _1} < 90^\\circ $$, which is true.\n\nHence, ray enters medium - 1\n\nFor $${n_2} > {n_1}{{{n_2}} \\over {{n_1}}}\\sin {\\theta _2} > {{{n_2}} \\over {{n_1}}}\\sin {\\theta _2} > {1 \\over {{n_2}}}$$\n\nFor surface 2 - air interface\n\n$${n_2}\\sin {\\theta _2} = \\sin {\\theta _3}\\sin {\\theta _2} = {{\\sin {\\theta _3}} \\over {{n_2}}} > {1 \\over {{n_2}}}{\\theta _2} > 90$$\n\nIt means ray reflected back in medium - 2\n\n\n[Diagram]\n\n$${n_2}\\sin {\\theta _2} = {n_1}\\sin {\\theta _1}\\sin {\\theta _1} = {{{n_2}} \\over {{n_1}}}\\sin {\\theta _2}\\sin {\\theta _{2C}} = {{{n_1}} \\over {{n_2}}};{\\theta _{2C}}\\to$$ critical angle\n\nFor ray to enter medium - 1\n\n$${\\theta _2} < {\\theta _{2C}}\\sin {\\theta _2} < \\sin {\\theta _{2C}}{{{n_1}} \\over {{n_2}}}\\sin {\\theta _1} < {{{n_1}} \\over {{n_2}}}\\sin {\\theta _1} < 1{\\theta _1} = 90^\\circ $$, which is true.\n\nHence, ray enters medium - 1\n\nLet, n$_{2}$ = 1\n\n\n[Diagram]\n\n$${n_1}\\sin {\\theta _1} = {n_2}\\sin {\\theta _2} \\Rightarrow {n_2} = 1{n_1}\\sin {\\theta _1} = \\sin {\\theta _2}\\sin {\\theta _1} = {{\\sin {\\theta _2}} \\over {{n_1}}} > {1 \\over {{n_1}}}\\sin {\\theta _2} > 1 \\Rightarrow {\\theta _2} = 90^\\circ \\therefore$$ Ray is reflected back in medium.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The light ray enters air if n$_{2}$ = n$_{1}$",
+      "The light ray is finally reflected back into the medium of refractive index n$_{1}$ if n$_{2}$ < n$_{1}$",
+      "The light ray is finally reflected back into the medium of refractive index n$_{1}$ if n$_{2}$ > n$_{1}$",
+      "The light ray is reflected back into the medium of refractive index n$_{1}$ if n$_{2}$ = 1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4lbcerw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_042",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A beaker of radius r is filled with water (refractive index $${4 \\over 3}$$) up to a height H as shown in the figure on the left. The beaker is kept on a horizontal table rotating with angular speed $$\\omega$$. This makes the water surface curved so that the difference in the height of water level at the center and at the circumference of the beaker is h (h << H, h << r), as shown in the figure on the right. Take this surface to be approximately spherical with a radius of curvature R. Which of the following is/are correct? (g is the acceleration due to gravity)\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\n$${(R - h)^2} + {r^2} = {R^2}{R^2} + {h^2} - 2Rh + {r^2} = {R^2}{h^2} + {r^2} = 2Rh \\Rightarrow {{{h^2} + {r^2}} \\over {2h}} = R$$ .....(i)\n\nWhen r > > > h, then\n\n$$R = {{{r^2}} \\over {2h}} \\Rightarrow h = {{{\\omega ^2}{r^2}} \\over {2g}}R = {{{r^2}2g} \\over {2{\\omega ^2}{r^2}}} \\Rightarrow R = {g \\over {{\\omega ^2}}}$$ ..... (ii)\n\n$${{{\\mu _1}} \\over v} - {{{\\mu _2}} \\over u} = {{{\\mu _1} - {\\mu _2}} \\over R} \\Rightarrow {1 \\over v} + {4 \\over {3u}} = {{1 - {4 \\over 3}} \\over R}{1 \\over v} = - \\left( {{1 \\over {3R}} + {4 \\over {3(H - h)}}} \\right){1 \\over v} = - \\left( {{1 \\over {3R}} + {4 \\over {3H}}} \\right)$$\n\nPutting the value of Eq. (ii) h < < H\n\n$${1 \\over v} = - \\left[ {{4 \\over {3H}}\\left( {1 + {{3H} \\over 4}{{{\\omega ^2}} \\over {39}}} \\right)} \\right]v = - \\left[ {{{3H} \\over 4}{{\\left( {1 + {{{\\omega ^2}H} \\over 4}} \\right)}^{ - 1}}} \\right]$$",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$R = {{{h^2} + {r^2}} \\over {2h}}$$",
+      "$$R = {{3{r^2}} \\over {2h}}$$",
+      "Apparent depth of the bottom of the beaker is close to $${{3H} \\over 2}\\left( {1 + {{{\\omega ^2}H} \\over {2g}}} \\right)^{-1}$$",
+      "Apparent depth of the bottom of the beaker is close to $${{3H} \\over 4}{\\left( {1 + {{{\\omega ^2}H} \\over {4g}}} \\right)^{ - 1}}$$"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_043",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three glass cylinders of equal height H = 30 cm and same refractive index n = 1.5 are placed on a horizontal surface as shown in figure.\n\n\n[Diagram]\n\n\nCylinder I has a flat top, cylinder II has a convex top and cylinder III has a concave top. The radii of curvature of the two curved tops are same (R = 3 m). If H$_{1}$, H2$_{}$, and H3$_{}$ are the apparent depths of a point X on the bottom of the three cylinders, respectively, the correct statement(s) is/are",
+    "solution": "**Case - I**\n\n\n[Diagram]\nH = 30 cm\n\nn = $${3 \\over 2}$$\n\nH$_{1}$ = $${H \\over n} \\Rightarrow {{30 \\times 2} \\over 3}$$ = 20 cm\n\n**Case - II**\n\n\n[Diagram]\nR = 300 cm\n\n$${{{n_2}} \\over v} - {{{n_1}} \\over u} = {{{n_2} - {n_1}} \\over R}{1 \\over { - {H_2}}} - {3 \\over { - 2 \\times 30}} = {{1 - {3 \\over 2}} \\over { - 300}}{H_2} = {{600} \\over {29}} = 20.684$$ cm\n\n**Case - III**\n\n\n[Diagram]\n$${{{n_2}} \\over v} - {{{n_1}} \\over u} = {{{n_2} - {n_1}} \\over R}$$;\n\n$${1 \\over { - {H_3}}} - {3 \\over { - 2 \\times 30}} = {{1 - {3 \\over 2}} \\over {300}}{H_3} = {{600} \\over {31}} = 19.354$$ cm",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "H$_{2}$ > H$_{1}$",
+      "H$_{3}$ > H$_{1}$",
+      "0.85 cm < (H$_{2}$ $$ - $$ H$_{1}$) < 0.9 cm",
+      "H$_{2}$ > H$_{3}$"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_044",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin convex lens is made of two materials with refractive indices n$_{1}$ and n$_{2}$, as shown in the figure. The radius of curvature of the left and right spherical surfaces are equal. f is the focal length of the lens when n$_{1}$ = n$_{2}$ = n. The focal length is f + $$\\Delta $$f when n$_{1}$ = n and n$_{2}$ = n + $$\\Delta $$n.\n\nAssuming $$\\Delta $$n << (n - 1) and 1 < n < 2, the correct statement(s) is/are\n\n[Diagram]",
+    "solution": "Given, thin convex lens made of two materials.\n\nRadius of curvature of left spherical surface $=$ radius of curvature of right spherical surface\n\nWhen $n_1=n_2=n$, focal length $=f$\n\nWhen $n_1=n$ and $n_2=n+\\Delta n$, focal length $=f+\\Delta f$\n\nHere, $\\Delta n \\ll(n-1)$ and $1< n < 2$\n\nNow, when $n_1=n_2=n$, from lens maker's formula\n\n$$\n\\begin{aligned}\n\\frac{1}{f} & =(n-1)\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right)=(n-1)\\left(\\frac{1}{R}-\\frac{1}{(-R)}\\right) \\\\\\\\\n\\Rightarrow \\frac{1}{f} & =(n-1)\\left(\\frac{2}{R}\\right) ........(1)\n\\end{aligned}\n$$\n\nWhen $n_1=n$ and $n_2=n+\\Delta n$\n\n$$\n\\frac{1}{f+\\Delta f}=(n-1) \\frac{1}{R_1}-(n+\\Delta n-1) \\frac{1}{+R_2}\n\n\\begin{aligned}\n& \\quad=(n-1) \\frac{1}{R}-(n+\\Delta n-1) \\frac{1}{(-R)} \\\\\\\\\n& \\Rightarrow \\frac{1}{f+\\Delta f}=\\frac{1}{R}(n-1+n+\\Delta n-1)=\\frac{1}{R}(2 n+\\Delta n-2) \\\\\\\\\n& \\Rightarrow \\frac{1}{f+\\Delta f}=\\frac{1}{R}(2 n+\\Delta n-2) ........(2)\n\\end{aligned}\n$$\n\nSubtracting Eq. (2) from Eq. (1), we get\n\n$$\n\\begin{aligned}\n& \\frac{1}{f}-\\frac{1}{f+\\Delta f}=(n-1)\\left(\\frac{2}{R}\\right)-\\frac{1}{R}(2 n+\\Delta n-2) \\\\\\\\\n& =\\frac{1}{R}(2 n-2-2 n-\\Delta n+2)=-\\frac{\\Delta n}{R} \\\\\\\\\n& \\Rightarrow \\frac{1}{f}-\\frac{1}{f+\\Delta f}=-\\frac{\\Delta n}{R} \\Rightarrow \\frac{(f+\\Delta f)-f}{f(f+\\Delta f)}=-\\frac{\\Delta n}{R} \\\\\\\\\n& \\Rightarrow \\frac{\\Delta f}{f(f+\\Delta f)}=-\\frac{\\Delta n}{R} \\sim \\frac{\\Delta f}{f}=-\\frac{\\Delta n}{R} \\\\\\\\\n& \\Rightarrow \\frac{\\Delta f}{f}=-\\frac{\\Delta n}{R} \\times f\n\\end{aligned}\n$$\n\nUsing Eq. (1), we get $f=\\frac{R}{2(n-1)}$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{\\Delta f}{f}=-\\frac{\\Delta n}{R} \\times \\frac{R}{2(n-1)} \\Rightarrow \\frac{\\Delta f}{f}=-\\frac{\\Delta n}{2(n-1)} \\\\\\\\\n& \\Rightarrow\\left|\\frac{\\Delta f}{f}\\right|=\\frac{1}{2}\\left|\\frac{\\Delta n}{n-1}\\right| \\\\\\\\\n& \\Rightarrow\\left|\\frac{\\Delta f}{f}\\right|>\\left|\\frac{\\Delta n}{n}\\right|\n\\end{aligned}\n$$\n\nHence, option (C) is incorrect.\n\nNow, for $n=1.5, \\Delta n=10^{-3}$ and $f=20 \\mathrm{~cm}$. Using relation $\\frac{\\Delta f}{f(f+\\Delta f)}=-\\frac{\\Delta n}{R}$ and Eq. (1), we get\n\n$$\n\\begin{aligned}\n& \\frac{\\Delta f}{f(f+\\Delta f)}=-\\frac{\\Delta n}{2(n-1) f} \\Rightarrow \\frac{\\Delta f}{f+\\Delta f}=-\\frac{\\Delta n}{2 n-2} \\\\\\\\\n& \\Rightarrow \\Delta f(2 n-2)=-\\Delta n(f+\\Delta f) \\\\\\\\\n& \\Rightarrow \\Delta f(2 n-2)=-\\Delta n f-\\Delta n \\Delta f \\\\\\\\\n& \\Rightarrow \\Delta f(2 n-2+\\Delta n)=-\\Delta n f \\\\\\\\\n& \\Rightarrow \\Delta f=\\frac{-\\Delta n \\times f}{2 n-2+\\Delta n} \\\\\\\\\n& \\Rightarrow|\\Delta f|=\\frac{\\Delta n+f}{2 n-2+\\Delta n}\n\\end{aligned}\n$$\n\nSubstituting all values, we get\n\n$$\n|\\Delta f|=\\frac{10^{-3} \\times 20}{2 \\times 1.5-2+10^{-3}}=0.02 \\mathrm{~cm}\n$$\n\nHence, option (B) is correct.\n\nSince $\\frac{\\Delta f}{f}=-\\frac{\\Delta n}{2(n-1)}$, so if $\\frac{\\Delta n}{n}<0$ then $\\frac{\\Delta f}{f}>0$.\n\nHence, option $(\\mathrm{A})$ is correct.\n\nSince the relation between $\\frac{\\Delta f}{f}$ and $\\frac{\\Delta n}{n}$ is independent of radius of curvature so the relation remains unchanged only the sign of focal length changes.\n\nHence, option (D) is correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "If $${{\\Delta n} \\over n} < 0$$ then $${{\\Delta f} \\over f}$$ > 0",
+      "For n = 1.5, $$\\Delta $$n = 10$^{-3}$ and f = 20 cm, the value of $$\\left| {\\Delta f} \\right|$$ will be 0.02 cm (round off to 2$^{nd}$ decimal place).",
+      "$$\\left| {{{\\Delta f} \\over f}} \\right| < \\left| {{{\\Delta n} \\over n}} \\right|$$",
+      "The relation between $${{{\\Delta f} \\over f}}$$ and $${{{\\Delta n} \\over n}}$$ remains unchanged if both the convex surfaces are replaced by concave surfaces of the same radius of curvature."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6zwo9qc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_045",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wire is bent in the shape of a right angled triangle and is placed in front of a concave mirror of focal length $$f,$$ as shown in the figure. Which of the figures shown in the four options qualitatively represent(s) the shape of the image of the bent wire? (These figures are not to scale.)\n\n[Diagram]",
+    "solution": "Consider the point F, the focus of the concave mirror. All rays emanating from F will be reflected back parallel to the principal axis PF. Thus, virtual image F' of the point F is formed at $$\\infty$$.\n\n[Diagram]\nConsider the point L at an object distance u = $$-$$ | f | / 2. For convenience, we use symbol $$\\widehat f$$ for | f | i.e., $$\\widehat f$$ = | f |. Use mirror formula, 1/v + 1/u = 1/f, with f = $$-\\widehat f$$ to get the image distance v = $$\\widehat f$$. Thus, the virtual image L' of the point L is formed on the left side of the mirror at a distance $$\\widehat f$$.\nThe image of a point on LF will lie on the line L'F'. Now, consider the point M. Its object distance is u = $$-\\widehat f$$/2. Thus, the virtual image M' of the point M is also formed at a distance $$\\widehat f$$ from the mirror. The distance of M' above the principal axis is given by h$_{M'}$ = $$-$$ (v/u) (LM) = $$-$$ ($$-$$2) ($$\\widehat f$$/2) = $$\\widehat f$$ (magnification by a spherical mirror).\nNow consider a point N on the line segment FM. Let N$_{1}$ be the projection of N on the principal axis PF such that FN$_{1}$ = x. The object distance is u = $$-$$ ($$\\widehat f-$$ x). The mirror formula gives the image distance v = $$\\widehat f$$ ($$\\widehat f-$$ x) / x. The distance of the image N' above the principal axis is given by h$_{N'}$ = $$-$$ (v/u) (N$_{1}$N) = ($$\\widehat f$$/x) (x) = $$\\widehat f$$ (it is independent of x). Since, N is an arbitrary point on FM, the image of all points on FM will be formed at a distance $$\\widehat f$$ above the optic axis.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kysiwwh7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_046",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For an isosceles prism of angle $$A$$ and refractive index $$\\mu $$, it is found that the angle of minimum deviation $${\\delta _m} = A.$$\n\nWhich of the following options is/are correct?",
+    "solution": "We discuss the options as follows:\n$$\\bullet$$ For option (A) : For the angle of incidence i$_{1}$ = A, we have minimum deviation and the ray inside the prism is parallel to the base of the prism.\nHence, option (A) is correct.\n\n[Diagram]\n\n$$\\bullet$$ For option (C) : The angle of deviation is given as\n$$\\delta$$ = i$_{1}$ + i$_{2}$ $$-$$ A\nAt minimum deviation, i$_{1}$ = i$_{2}$ and r$_{1}$ = r$_{2}$. Therefore,\ni$_{1}$ = A ....... (1)\nAlso, we know that\nr$_{1}$ + r$_{2}$ = A\nAs r$_{1}$ = r$_{2}$, we get\n2r$_{1}$ = A $$\\Rightarrow$$ r$_{1}$ = $${A \\over 2}$$\nFrom Eq. (1), we get\n$${r_1} = {{{i_1}} \\over 2}$$\nHence, option (C) is correct.\nAccording to Snell's law, we have\n$${{\\sin {i_2}} \\over {\\sin {r_2}}} = \\mu $$\nFor emergent ray to be tangential to the surface, we have\ni$_{2}$ = 90$$^\\circ\\Rightarrow$$ sin90$$^\\circ$$ = $$\\mu$$sinr$_{2}$ $$\\Rightarrow\\mu$$sinr$_{2}$ = 1\nsinr$_{2}$ = $${1 \\over \\mu }\\Rightarrow$$ r$_{2}$ = sin$^{$$-$$1}$$$\\left( {{1 \\over \\mu }} \\right)$$ ....... (2)\nFrom the relation r$_{1}$ + r$_{2}$ = A, we get\nr$_{1}$ = A $$-$$ r$_{2}$\n$$\\Rightarrow$$ sinr$_{1}$ = sin(A $$-$$ r$_{2}$)\nUsing sin(a $$-$$ b) = sinacosb $$-$$ sinbcosa, we have\n$$\\Rightarrow$$ sinr$_{1}$ = sinAcosr$_{2}$ $$-$$ sinr$_{2}$cosA ......... (3)\nUsing Eq. (2), we have\nsinr$_{2}$ = $${{1 \\over \\mu }}$$\nSquaring it, we get\nsin$^{2}$r$_{2}$ = $${{1 \\over {{\\mu ^2}}}}$$\nUsing the relation sin$^{2}$x + cos$^{2}$x = 1, we get\nsin$^{2}$x = 1 $$-$$ cos$^{2}$x\n$$\\Rightarrow$$ 1 $$-$$ cos$^{2}$ r$_{2}$ = $${{1 \\over {{\\mu ^2}}}}\\Rightarrow$$ cos$^{2}$ r$_{2}$ = 1 $$-{{1 \\over {{\\mu ^2}}}}$$\nThat is,\ncosr$_{2}$ = $$\\sqrt {1 - {1 \\over {{\\mu ^2}}}} $$\nSubstituting the values of sinr$_{2}$ and cosr$_{2}$ in Eq. (3), we get\nsinr$_{1}$ = sin A$$\\sqrt {1 - {1 \\over {{\\mu ^2}}}} -{{1 \\over \\mu }}$$cos A\nAccording to Snell's law, we have\n$${{\\sin {i_1}} \\over {\\sin {r_1}}} = \\mu $$\nThat is,\n$$\\sin {i_1} = \\mu \\sin {r_1} = \\mu \\left( {\\sin A\\sqrt {1 - {1 \\over {{\\mu ^2}}}} - {1 \\over \\mu }\\cos A} \\right)\\sin {i_1} = \\mu \\left( {\\sin A{{\\sqrt {{\\mu ^2} - 1} } \\over \\mu } - {{\\cos A} \\over \\mu }} \\right)\\sin {i_1} = \\sin A\\sqrt {{\\mu ^2} - 1} - \\cos A$$ ....... (4)\nNow, at minimum deviation, we have A = i$_{1}$ and r$_{1}$ = $${A \\over 2}$$. Thus, from Snell's law, we get\n$$\\mu = {{\\sin {i_1}} \\over {\\sin {r_1}}} = {{\\sin A} \\over {\\sin (A/2)}}$$\nUsing $$\\sin x = 2\\sin {x \\over 2}\\cos {x \\over 2}$$, we get\n$$\\mu = {{2\\sin A/2\\cos A/2} \\over {\\sin A/2}} \\Rightarrow \\mu = 2\\cos {A \\over 2}$$ ....... (5)\nNow, Eq. (4) becomes\n$$\\sin {i_1} = \\sin A\\sqrt {{{\\left( {2\\cos {A \\over 2}} \\right)}^2} - 1 - \\cos A} = \\sin A\\sqrt {4{{\\cos }^2}{A \\over 2} - 1} - \\cos A{i_1} = {\\sin ^{ - 1}}\\left[ {\\sin A\\sqrt {4{{\\cos }^2}{A \\over 2} - 1} - \\cos A} \\right]$$\nHence, option (D) is correct.\n$$\\bullet$$ For option (B) : From Eq. (5), we have\n$$\\mu = 2\\cos {A \\over 2}\\cos {A \\over 2} = {\\mu \\over 2} \\Rightarrow {A \\over 2} = {\\cos ^{ - 1}}\\left( {{\\mu \\over 2}} \\right) \\Rightarrow A = 2{\\cos ^{ - 1}}\\left( {{\\mu \\over 2}} \\right)$$\nHence, option (B) is incorrect.",
+    "answerKey": [
+      "C",
+      "A",
+      "D"
+    ],
+    "options": [
+      "For the angle of incidence $${i_1} = A,$$ the ray inside the prism is parallel to the base of the prism",
+      "For this prism, the refractive index $$\\mu $$ and the angle of prism $$A$$ are related as\n\n$$A = {1 \\over 2}{\\cos ^{ - 1}}\\left( {{\\mu \\over 2}} \\right)$$",
+      "At minimum deviation, the incident angle $${i_1}$$ and the refracting angle $${r_1}$$ at the first refracting surface are related by $${r_1} = \\left( {{i_1}/2} \\right)$$",
+      "For this prism, the emergent ray at the second surface will be tangential to the surface when the angle of incidence at the first surface is\n\n$${i_1} = {\\sin ^{ - 1}}\\left[ {\\sin A\\sqrt {4{{\\cos }^2}{A \\over 2} - 1} - \\cos A} \\right]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0kk4g2q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_047",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A plano-convex lens is made of material of refractive index n. When a small object is placed 30 cm away in front of the curved surface of the lens, an image of double the size of the object is produced. Due to reflection from the convex surface of the lens, another faint image is observed at a distance of 10 cm away form the lens. Which of the following statement(s) is(are) true?",
+    "solution": "For refraction through plano - Convex lens,\n\n$$\nm=-2=\\frac{v}{u}\n\n\\begin{array}{ll}\n\\Rightarrow v=-2 u \\\\\\\\\n\\text { As, } u=-30 \\mathrm{~cm} \\\\\\\\\n\\Rightarrow v=60 \\mathrm{~cm}\n\\end{array}\n$$\n\nUsing lens formula, $\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}$\n\n$$\n\\begin{aligned}\n\\frac{1}{60}-\\frac{1}{-30} & =\\frac{1}{f} \\\\\\\\\n\\Rightarrow f =20 \\mathrm{~cm}\n\\end{aligned}\n$$\n\n[Diagram]\n\nBy lens maker's formula,\n\n$$\n\\begin{aligned}\n\\frac{1}{f} & =(n-1)\\left(\\frac{1}{\\mathrm{R}_1}-\\frac{1}{\\mathrm{R}_2}\\right) \\\\\\\\\n\\Rightarrow \\frac{1}{20} & =(n-1)\\left(\\frac{1}{\\mathrm{R}}+\\frac{1}{\\infty}\\right)=\\frac{n-1}{\\mathrm{R}} \\\\\\\\\n\\Rightarrow n & =1+\\left(\\frac{\\mathrm{R}}{20}\\right) ........(i)\n\\end{aligned}\n$$\n\nfor poor reflection from convex surface,\n\n$$\n\\begin{aligned}\n& u=-30 \\mathrm{~cm}, \\\\\\\\\n& v=10 \\mathrm{~cm}, f=\\mathrm{R} / 2\n\\end{aligned}\n$$\n\n[Diagram]\n\nUsing mirror formula,\n\n$$\n\\begin{aligned}\n\\frac{1}{v}+\\frac{1}{u} & =\\frac{1}{f}=\\frac{2}{\\mathrm{R}} ; \\\\\\\\\n\\Rightarrow \\frac{1}{10}+\\frac{1}{-30} & =\\frac{2}{\\mathrm{R}}\n\\end{aligned}\n\n\\begin{array}{llrl}\n\\Rightarrow \\frac{2}{\\mathrm{R}} =\\frac{2}{30} \\\\\\\\\n\\therefore \\mathrm{R} =30 \\mathrm{~cm}\n\\end{array}\n$$\n\nSubstitute $R=30 \\mathrm{~cm}$ in equation (i) to get $n=$ 2.5 for $f=20 \\mathrm{~cm}$ (inverted image) and $n=1.5$ for $f=60 \\mathrm{~cm}$ (erect image).",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "The refractive index of the lens is 2.5",
+      "The radius of curvature of the convex surface is 45 cm",
+      "The faint image is erect and real",
+      "The focal length of the lens is 20 cm"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li45tlr5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_048",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A transparent slab of thickness d has a refractive index n (z) that increases with z. Here, z is the vertical distance inside the slab, measured from the top. The slab is placed between two media with uniform refractive indices n$_{1}$ and n$_{2}$ (> n$_{1}$), as shown in the figure. A ray of light is incident with angle $$\\theta$$$_{i}$ from medium 1 and emerges in medium 2 with refraction angle $$\\theta$$$_{f}$ with a lateral displacement $l$.\n\n\n[Diagram]\n\nWhich of the following statement(s) is (are) true?",
+    "solution": "From Snell's law,\n\n$$\n\\begin{aligned}\nn_1 \\sin \\theta_i=n\\left(z_1\\right) \\sin \\theta_{z_1}=n\\left(z_2\\right) \\sin \\theta_{z_2} & =\\ldots \\ldots \\\\\\\\\n\\ldots & =n(d) \\sin \\theta_d=n_2 \\sin \\theta_f\n\\end{aligned}\n$$\n\nThe lateral displacement of a ray by a parallel slab depends on the angle of incidence $\\theta_i$, refractive index $n_1$, slab thickness $d$ and the refractive index of the slab $n$ (it is independent of $n_2$ because $l$ is measured before the start of medium 2, there is no effect of $n_2$ on $l$ ). Consider the parallel slab shown in the figure.\n\n[Diagram]\n\nBy Snell's law, $n_1 \\sin i_1=n \\sin r_1$ and $n \\sin i_2=$ $n_2 \\sin r_2$. By geometry, $i_2=r_1$ and the lateral displacement is given by\n\n$$\nl=d \\frac{\\sin r_1}{\\cos r_1}=\\frac{d n_1 \\sin i_1}{\\sqrt{n^2-n_1^2 \\sin ^2 i_1}} .\n$$\n\nHence, $l$ is independent of $n_2$ but it is dependent of $n(z)$.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$l$ is dependent on n(z)",
+      "n$_{1}$ sin$$\\theta$$$_{i}$ = (n$_{2}$ $$-$$ n$_{1}$) sin$$\\theta$$$_{f}$",
+      "n$_{1}$ sin$$\\theta$$$_{i}$ = n$_{2}$ sin$$\\theta$$$_{f}$",
+      "$l$ is independent of n$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0d6yw0x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_049",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For two structures namely S$_{1}$ with n$_{1}$ = $${{\\sqrt {45} } \\over 4}$$ and n$_{2}$ = $${3 \\over 2}$$, and S$_{2}$ with n$_{1}$ = $${8 \\over 5}$$ and n$_{2}$ = $${7 \\over 5}$$ and taking the refractive index of water to be $${4 \\over 3}$$ and that to air to be 1, the correct options is/are :",
+    "solution": "Let the whole structure be placed in the medium of refractive index n$_{0}$. From geometry, if the angle of incidence at Q is $$\\theta$$ then the angle of refraction at P is 90$$^\\circ-\\theta$$.\n\n[Diagram]\n\nThe ray will undergo total internal reflection at Q if the angle of incidence at Q is greater than or equal to the critical angle i.e.,\n$$\\theta\\ge\\theta$$$_{c}$ = sin$^{$$-$$1}$(n$_{2}$ / n$_{1}$). ........ (1)\nApply Snell's law for refraction at P to get\nn$_{0}$ sin i = n$_{1}$ sin(90$$^\\circ-\\theta$$) = n$_{1}$ cos$$\\theta$$\n= $${n_1}\\sqrt {1 - {{\\sin }^2}\\theta } $$. ...... (2)\nFrom equation (2), the angle of incidence is maximum (i = i$_{m}$) when $$\\theta$$ is minimum i.e., when $$\\theta$$ = $$\\theta$$$_{c}$ (from equation (1)). Thus, the numerical aperture is given by\n$$NA = \\sin {i_m} = {{{n_1}\\sqrt {1 - {{\\sin }^2}{\\theta _c}} } \\over {{n_0}}} = {{\\sqrt {n_1^2 - n_2^2} } \\over {{n_0}}}$$ ........ (3)\nSubstitute $${n_1} = \\sqrt {45} /4$$ and $${n_2} = 3/2$$ in equation (3) to get the numerical aperture for the structure S$_{1}$ is\n$$N{A_1} = {{\\sqrt {45/16 - 9/4} } \\over {{n_0}}} = {3 \\over {4{n_0}}}$$ ...... (4)\nSimilarly, substitute n$_{1}$ = 8/4 and n$_{2}$ = 7/5 in equation (3) to get the numerical aperture for the structure S$_{2}$ as\n$$N{A_2} = {{\\sqrt {64/25 - 49/25} } \\over {{n_0}}} = {{\\sqrt {15} } \\over {5{n_0}}}$$ ...... (5)\nIn case (A), substitute n$_{0}$ = 4/3 in equation (4) to get NA$_{1}$ = 9/16 and substitute n$_{0}$ = 16/3$$\\sqrt15$$ in equation (5) to get NA$_{2}$ = 9/16.\nIn case (B), substitute n$_{0}$ = 6/$$\\sqrt15$$ in equation (4) to get NA$_{1}$ = $$\\sqrt15$$/8 and substitute n$_{0}$ = 4/3 in equation (5) to get NA$_{2}$ = 3$$\\sqrt15$$/20.\nIn case (C), substitute n$_{0}$ = 1 in equation (4) to get NA$_{1}$ = 3/4 and substitute n$_{0}$ = 4/$$\\sqrt15$$ equation (5) to get NA$_{2}$ = 3/4.\nIn case (D), substitute n$_{0}$ = 1 in equation (4) to get NA$_{1}$ = 3/4 and substitute n$_{0}$ = 4/3 equation (5) to get NA$_{2}$ = 3$$\\sqrt15$$/20.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "NA of S$_{1}$ immersed in water is the same as that of S$_{2}$ immersed in a liquid of refractive index $${{16} \\over {3\\sqrt {15} }}$$",
+      "NA of S$_{1}$ immersed in liquid of refractive index $${6 \\over {\\sqrt {15} }}$$ is the same as that of S$_{2}$ immersed in water",
+      "NA of S$_{1}$ placed in air is the same as that S$_{2}$ immersed in liquid of refractive index $${4 \\over {\\sqrt {15} }}$$",
+      "NA of S$_{1}$ placed in air is the same as that of S$_{2}$ placed in water"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ym6ht1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_050",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If two structures of same cross-sectional area, but different numeral apertures NA$_{1}$ and NA$_{2}$ (NA$_{2}$ < NA$_{1}$) are joined longitudinally, the numerical aperture of the combined structure is",
+    "solution": "$$\n\\sin i_m=n_1 \\sin \\left(90-\\theta_c\\right)\n\n\\Rightarrow \\sin i_m=n_1 \\cos \\theta_c\n\n\\begin{aligned}\n\\Rightarrow N A & =n_1 \\sqrt{1-\\sin ^2 \\theta_c} \\\\\\\\\n& =n_1 \\sqrt{1-\\frac{n_2^2}{n_1^2}}=\\sqrt{n_1^2-n_2^2}\n\\end{aligned}\n$$\n\nSubstituting the values we get,\n\n$$\nN A_1=\\frac{3}{4}\n\n\\text { and } N A_2=\\frac{\\sqrt{15}}{5}=\\sqrt{\\frac{3}{4}}\n$$\n\nand $$\nN A_2 < N A_1\n$$\n\nTherefore, the numerical aperture of combined structure is equal to the lesser of the two numerical aperture, which is $N A_2$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{N{A_1}N{A_2}} \\over {N{A_1} + N{A_2}}}$$",
+      "$$N{A_1} + N{A_2}$$",
+      "$$N{A_1}$$",
+      "$$N{A_2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wl450p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_051",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical glass rods S$_{1}$ and S$_{2}$ (refractive index = 1.5) have one convex end of radius of curvature 10 cm. They are placed with the curved surfaces at a distance d as shown in the figure, with their axes (shown by the dashed line) aligned. When a point source of light P is placed inside rod S$_{1}$ on its axis at a distance of 50 cm from the curved face, the light rays emanating from it are found to be parallel to the axis inside S$_{2}$. The distance d is\n\n[Diagram]",
+    "solution": "Apply the formula for the refraction at the spherical surface of S$_{1}$, $${{{\\mu _2}} \\over v} - {{{\\mu _1}} \\over u} = {{{\\mu _2} - {\\mu _1}} \\over R}$$, to get\n$${{1.0} \\over v} - {{1.5} \\over {( - 50)}} = {{1 - 1.5} \\over {( - 10)}}$$.\nSolve to get the image distance v = 50 cm (point Q in the figure).\n\n[Diagram]\n\nThe image Q acts as an object for refraction at the spherical surface of S$_{2}$. The object distance is $$u = - (d - 50)$$. The image distance is v = $$\\infty$$ (because rays are parallel in S$_{2}$). Apply the formula for refraction at the spherical surface of S$_{2}$, to get\n$${{1.5} \\over \\infty } - {1 \\over { - (d - 50)}} = {{1.5 - 1} \\over {(10)}}$$.\nSolve to get d = 70 cm.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "60 cm",
+      "70 cm",
+      "80 cm",
+      "90 cm"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11yeuxl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_052",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "[Diagram]\n\nA transparent thin film of uniform thickness and refractive index n$_{1}$ = 1.4 is coated on the convex spherical surface of radius R at one end of a long solid glass cylinder of refractive index n$_{2}$ = 1.5, as shown in the figure. Rays of light parallel to the axis of the cylinder traversing through the film from air to glass get focused at distance f$_{1}$ from the film, while rays of light traversing from glass to air get focused at distance f$_{2}$ from the film. Then",
+    "solution": "As the film has R$_{1}$ = R$_{2}$ = R (say), its focal length\n\n$${1 \\over f} = ({n_1} - 1)\\left( {{1 \\over R} - {1 \\over R}} \\right)$$\n\n\n[Diagram]\n\n$${1 \\over f} = 0$$ or $$f = \\infty $$. It will not cause refraction.\n\nRefraction will take place at air and glass cylinder. Given u = $$\\infty - {{{n_1}} \\over u} + {{{n_2}} \\over v} = {{{n_2} - {n_1}} \\over R} - {{{n_1}} \\over \\infty } + {1.5 \\over {{f_1}}} = {{1.5 - 1} \\over R}$$ or $${f_1} = 3R$$\n\nFor glass-air refraction, we have\n\n$$ - {{{n_2}} \\over u} + {{{n_1}} \\over v} = {{{n_1} - {n_2}} \\over R} - {{{n_2}} \\over \\infty } + {1 \\over {{b_2}}} = {{1 - 1.5} \\over R}$$\n\nor $${f_2} = - 2R$$ or $$\\left| {{f_2}} \\right| = 2R$$.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\left| {{f_1}} \\right| = 3R$$",
+      "$$\\left| {{f_1}} \\right| = 2.8R$$",
+      "$$\\left| {{f_2}} \\right| = 2R$$",
+      "$$\\left| {{f_2}} \\right| = 1.4R$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4odbpr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_053",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ray OP of monochromatic light is incident on the face AB of prism ABCD near vertex B at an incident angle of 60$$^\\circ$$ (see figure). If the refractive index of the material of the prism is $$\\sqrt3$$, which of the following is(are) correct?\n\n[Diagram]",
+    "solution": "Consider the refraction at the face AB. Snell's law,\n$$\\sin i/\\sin r = \\sin 60^\\circ /\\sin r = \\sqrt 3 $$,\ngives $$r = 30^\\circ $$.\n\n[Diagram]\n\nThe geometry in BCQP gives\n$$\\angle BPQ = 30^\\circ + 90^\\circ = 120^\\circ \\angle CQP = 360^\\circ - (135^\\circ + 60^\\circ + 120^\\circ ) = 45^\\circ $$.\nThus, the angle of incidence at Q is $${i_1} = 45^\\circ $$. The critical angle for prism to air refraction is given by $$\\sin {i_c} = 1/\\sqrt 3 $$. Since $$\\sin {i_1} = 1/\\sqrt 2 > 1\\sqrt 3 $$, we get $${i_1} > {i_c}$$ i.e., the angle of incidence is greater than the critical angle. Thus, the ray undergoes total internal reflection at Q. The laws of reflection gives $${r_1} = {i_1} = 45^\\circ $$. In triangle QRD, $$\\angle QRD = 60^\\circ $$ and hence the angle of incidence at R is $${i_2} = 30^\\circ $$.\nApplying Snell's law at face AD, we get\n\n$$\\sqrt 3 \\times \\sin 30^\\circ = 1 \\times \\sin e$$\nor, $$\\sqrt 3 \\times {1 \\over 2} = \\sin e\\sin e = {{\\sqrt 3 } \\over 2}$$\nor, $$e = {\\sin ^{ - 1}}\\left( {{{\\sqrt 3 } \\over 2}} \\right) = 60^\\circ $$\nFrom figure,\n\n[Diagram]\n\nThe angle between the incident ray and the emergent ray is 90$$^\\circ$$.\nHence, option (c) is correct and option (d) is incorrect.\nNote : Angle between incident and emergent rays is the same as the angle between the two faces = 90$$^\\circ$$.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The ray gets totally internally reflected at face CD.",
+      "The ray comes out through face AD.",
+      "The angle between the incident ray and the emergent ray is 90$$^\\circ$$.",
+      "The angle between the incident ray and the emergent ray is 120$$^\\circ$$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l31thlbn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_054",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A student performed the experiment of determination of focal length of a concave mirror by $$u$$-$$v$$ method using an optical bench of length 1.5 m. The focal length of the mirror used is 24 cm. The maximum error in the location of the image can be 0.2 cm. The 5 sets of ($$u,v$$) values recorded by the student (in cm) are : (42, 56), (48, 48), (60, 40), (66, 33), (78, 39). The data set(s) that cannot come from experiment and is (are) incorrectly recorded, is (are)",
+    "solution": "Using mirror formula for the concave mirror, we have\n$${1 \\over v} + {1 \\over u} = {1 \\over f}$$\nOption (A) : When the value is (42, 56), we have\n$${1 \\over { - 56}} + {1 \\over { - 42}} = {{ - 98} \\over {56 \\times 42}} \\Rightarrow f = {{ - 56 \\times 42} \\over {98}} = - 24$$ cm\nOption (B) : When the value is (48, 48), we have\n$${1 \\over { - 48}} + {1 \\over { - 48}} = {{ - 1} \\over {24}} \\Rightarrow f = - 24$$ cm\nOption (C) : When the value is (66, 33), we have\n$${1 \\over { - 33}} + {1 \\over { - 66}} = {{ - 1} \\over {22}} \\Rightarrow f = - 22$$ cm\nOption (D) : When the value is (78, 39), we have\n$${1 \\over { - 39}} + {1 \\over { - 78}} = {{ - 1} \\over {26}} \\Rightarrow f = - 26$$ cm\nSince options (A) and (B) give $$f = - 24$$ cm, which is the same as that given in the problem, we conclude that the options (C) and (D) as the correct options.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "(42, 56)",
+      "(48, 48)",
+      "(66, 33)",
+      "(78, 39)"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_055",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two equilateral-triangular prisms $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are kept with their sides parallel to each other, in vacuum, as shown in the figure. A light ray enters prism $\\mathrm{P}_1$ at an angle of incidence $\\theta$ such that the outgoing ray undergoes minimum deviation in prism $\\mathrm{P}_2$. If the respective refractive indices of $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are $\\sqrt{\\frac{3}{2}}$ and $\\sqrt{3}$, then $\\theta=\\sin ^{-1}\\left[\\sqrt{\\frac{3}{2}} \\sin \\left(\\frac{\\pi}{\\beta}\\right)\\right]$, where the value of $\\beta$ is ____.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAt surface BC\n$$\\begin{aligned}\n& \\sqrt{\\frac{3}{2}} \\sin r_2=\\sqrt{3} \\sin 30 \\\\\n& \\sqrt{\\frac{3}{2}} \\sin r_2=\\frac{\\sqrt{3}}{2} \\\\\n& \\operatorname{sinr}_2=\\frac{1}{\\sqrt{2}} \\\\\n& r_2=45^{\\circ} \\\\\n& r_1=60^{\\circ}-45^{\\circ}=15^{\\circ}\n\\end{aligned}$$\nAt surface $$A B\\begin{gathered}\n1 \\sin \\theta=\\sqrt{\\frac{3}{2}} \\sin 15^{\\circ} \\\\\n\\theta=\\sin ^{-1}\\left[\\sqrt{\\frac{3}{2}} \\sin \\frac{\\pi}{12}\\right] \\\\\n\\beta=12\n\\end{gathered}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpx4jke.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_056",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An optical arrangement consists of two concave mirrors $M_1$ and $M_2$, and a convex lens $L$ with a common principal axis, as shown in the figure. The focal length of $\\mathrm{L}$ is $10 \\mathrm{~cm}$. The radii of curvature of $M_1$ and $M_2$ are $20 \\mathrm{~cm}$ and $24 \\mathrm{~cm}$, respectively. The distance between $L$ and $M_2$ is $20 \\mathrm{~cm}$. A point object $S$ is placed at the mid-point between $\\mathrm{L}$ and $M_2$ on the axis. When the distance between $\\mathrm{L}$ and $\\mathrm{M}_1$ is $n / 7 \\mathrm{~cm}$, one of the images coincides with $\\mathrm{S}$. The value of $n$ is _______.\n\n[Diagram]",
+    "solution": "**Case-1 : if $\\mathrm{I}^{\\text {st }}$ refraction on lens :**\n\n[Diagram]\n\nGiven that the object is positioned at the focal point, the resulting light rays will transition to a parallel alignment.\n\nUpon the first reflection at Mirror $ M_1 $:\n\nAs the incoming light rays are parallel, the resultant image will be formed at the focal point.\n\n$\\mathrm{II}^{\\text {nd }}$ refraction from $\\mathrm{L}$ :-\n\n$$\n\\begin{aligned}\n& \\mathrm{u}=-(\\mathrm{d}-10) \\\\\\\\\n& \\mathrm{f}=10 \\mathrm{~cm} \\\\\\\\\n& \\frac{1}{\\mathrm{v}}-\\frac{1}{\\mu}=\\frac{1}{\\mathrm{f}} \\\\\\\\\n& \\frac{1}{\\mathrm{v}}+\\frac{1}{\\mathrm{~d}-10}=\\frac{1}{10} \\\\\\\\\n& \\frac{1}{\\mathrm{v}}=\\frac{1}{10}-\\frac{1}{(\\mathrm{~d}-10)} .......(i)\n\\end{aligned}\n$$\n\nThis $v$ will be object for $M_2$, and image should be at $10 \\mathrm{~cm}$\n\n$$\n\\begin{aligned}\n& \\frac{1}{\\mu}+\\frac{1}{v_1}=\\frac{1}{f} \\\\\\\\\n& -\\frac{1}{(20-v)}-\\frac{1}{10}=-\\frac{1}{12} \\\\\\\\\n& \\frac{1}{12}-\\frac{1}{10}=\\frac{1}{20-v} \\\\\\\\\n& -\\frac{2}{120}=\\frac{1}{20-v} \\\\\\\\\n& 20-v=-60 \\\\\\\\\n& v=80 \\mathrm{~cm}\n\\end{aligned}\n$$\n\nFrom equation (i), we get\n\n$$\n\\begin{aligned}\n& \\frac{1}{80}=\\frac{1}{10}-\\frac{1}{d-10} \\\\\\\\\n& \\frac{1}{d-10}=\\frac{1}{10}-\\frac{1}{80} \\\\\\\\\n& \\frac{1}{d-10}=\\frac{80-10}{800}=\\frac{70}{800} \\\\\\\\\n& d-10=\\frac{80}{7} \\Rightarrow d=10+\\frac{80}{7}=\\frac{150}{7} \\\\\\\\\n& n=150\n\\end{aligned}\n$$\n\n**Case-2 : If $1^{\\text {st }}$ reflection on mirror $m_2$ :**\n\n[Diagram]\n\nFor $\\mathrm{m}_2$\n\n$$\n\\begin{aligned}\n& \\frac{1}{\\mathrm{~V}_1}+\\frac{1}{-10}=\\frac{1}{-12} \\\\\\\\\n& \\mathrm{~V}_1=60 \\mathrm{~cm}\n\\end{aligned}\n$$\n\nThen refraction on lens $\\mathrm{L}$\n\n$$\n\\begin{aligned}\n& \\mathrm{u}_2=80 \\mathrm{~cm} \\\\\\\\\n& \\frac{1}{\\mathrm{~V}_2}-\\frac{1}{-60}=\\frac{1}{10} \\\\\\\\\n& \\mathrm{~V}_2=\\frac{80}{7}\n\\end{aligned}\n$$\n\nThen reflection on $\\mathrm{m}_2$\n\nEither $V_2$ is at centre (normal incidence)\n\n$$\n\\begin{aligned}\n& \\mathrm{d}-\\frac{80}{7}=20 \\\\\\\\\n& \\mathrm{~d}=\\frac{220}{7} \\\\\\\\\n& \\frac{\\mathrm{n}}{7}=\\frac{220}{7} \\\\\\\\\n& \\mathrm{n}=220\n\\end{aligned}\n$$\n\n$V_2$ is at pole of $m_2$\n\n$$\n\\begin{aligned}\n& \\mathrm{d}-\\frac{80}{7}=0 \\\\\\\\\n& \\mathrm{~d}=\\frac{80}{7} \\\\\\\\\n& \\frac{\\mathrm{n}}{7}=\\frac{80}{7} \\\\\\\\\n& \\mathrm{n}=80\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liipn5l9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_057",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a configuration of $n$ identical units, each consisting of three layers. The first layer is a column of air of height $h=\\frac{1}{3} \\mathrm{~cm}$, and the second and third layers are of equal thickness $d=$ $\\frac{\\sqrt{3}-1}{2} \\mathrm{~cm}$, and refractive indices $\\mu_{1}=\\sqrt{\\frac{3}{2}}$ and $\\mu_{2}=\\sqrt{3}$, respectively. A light source 0 is placed on the top of the first unit, as shown in the figure. A ray of light from 0 is incident on the second layer of the first unit at an angle of $\\theta=60^{\\circ}$ to the normal. For a specific value of $n$, the ray of light emerges from the bottom of the configuration at a distance $l=\\frac{8}{\\sqrt{3}} \\mathrm{~cm}$, as shown in the figure. The value of $n$ is ________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$\n\\begin{aligned}\n&x_1 =\\frac{1}{3} \\times \\tan 60 \\\\\\\\\n& =\\frac{1}{\\sqrt{3}} \\mathrm{~cm}\n\\end{aligned}\n$$\n\nBy Snell's law\n\n$$\n\\begin{aligned}\n&1 \\times \\sin 60 =\\frac{\\sqrt{3}}{\\sqrt{2}} \\sin \\theta_2 \\\\\\\\\n& \\Rightarrow \\theta_2 =45^ \\mathrm{o} \\\\\\\\\n&\\therefore x_2 =d\n\\end{aligned}\n$$\n\nAgain, by applying Snell's law\n\n$$\n\\begin{aligned}\n&\\sqrt{\\frac{3}{2} \\times \\frac{1}{\\sqrt{2}}} =\\sqrt{3} \\times \\sin \\theta_3 \\\\\\\\\n&\\Rightarrow \\theta_2 =30^{\\circ} \\\\\\\\\n& \\therefore x_3 =\\frac{d}{\\sqrt{3}}\n\\end{aligned}\n$$\n\nAlso\n\n$$\n\\begin{aligned}\n& x_1+x_2+x_3 =\\frac{1}{\\sqrt{3}}+d+\\frac{d}{\\sqrt{3}} \\\\\\\\\n& =\\frac{1}{\\sqrt{3}}+\\left(\\frac{\\sqrt{3}-1}{2}\\right)+\\frac{\\sqrt{3}-1}{2 \\sqrt{3}} \\\\\\\\\n& =\\frac{2+(3-\\sqrt{3})+\\sqrt{3}-1}{2 \\sqrt{3}} \\\\\\\\\n& =\\frac{4}{2 \\sqrt{3}} \\\\\\\\\n& x_1+x_2+x_3 =\\frac{2}{\\sqrt{3}} \\mathrm{~cm} \\\\\\\\\n& \\text {And,}~~ \\eta =\\frac{l}{x_1+x_2+x_3} \\\\\\\\\n&\\eta =\\frac{8 / \\sqrt{3}}{2 / \\sqrt{3}}=4 \\\\\\\\\n&\\eta =4\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9jzab.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_058",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An object and a concave mirror of focal length $f=10 \\mathrm{~cm}$ both move along the principal axis of the mirror with constant speeds. The object moves with speed $V_{0}=15 \\mathrm{~cm} \\mathrm{~s}^{-1}$ towards the mirror with respect to a laboratory frame. The distance between the object and the mirror at a given moment is denoted by $u$. When $u=30 \\mathrm{~cm}$, the speed of the mirror $V_{m}$ is such that the image is instantaneously at rest with respect to the laboratory frame, and the object forms a real image. The magnitude of $V_{m}$ is _________ $\\mathrm{cm} \\,\\mathrm{s}^{-1}$.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nMagnification,\n\n$$\n\\begin{aligned}\n& m =\\frac{f}{u-f} \\\\\\\\\n& =\\frac{10}{30-10}=\\frac{1}{2}\n\\end{aligned}\n$$\n\nAlso $\\quad m^2=\\frac{v_m}{v_0-v_m}$\n[where, $v_m=$ speed of mirror]\n\n$$\n\\begin{aligned}\n& m^2\\left(v_{\\mathrm{o}}-v_{\\mathrm{m}}\\right) =v_m \\\\\\\\\n& \\Rightarrow \\left(v_0-v_m\\right) \\times \\frac{1}{4} =v_{\\mathrm{m}} \\\\\\\\\n& \\Rightarrow v_0 =5 v_m \\\\\\\\\n& \\Rightarrow v_m =\\frac{v_0}{5}=\\frac{15}{5} \\\\\\\\\n& \\Rightarrow v_m =3 \\mathrm{~cm} / \\mathrm{s}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9rmt6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_059",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rod of length $2 \\mathrm{~cm}$ makes an angle $\\frac{2 \\pi}{3} \\mathrm{rad}$ with the principal axis of a thin convex lens. The lens has a focal length of $10 \\mathrm{~cm}$ and is placed at a distance of $\\frac{40}{3} \\mathrm{~cm}$ from the object as shown in the figure. The height of the image is $\\frac{30 \\sqrt{3}}{13} \\mathrm{~cm}$ and the angle made by it with respect to the principal axis is $\\alpha$ rad. The value of $\\alpha$ is $\\frac{\\pi}{n} r a d$, where $n$ is __________ .\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$\\frac{\\mathrm{h}_{\\mathrm{i}}}{\\mathrm{h}_0}=\\frac{\\mathrm{v}}{\\mathrm{u}} \\Rightarrow \\frac{-\\frac{30 \\sqrt{3}}{13}}{\\sqrt{3}}=\\frac{\\mathrm{v}}{-\\frac{43}{3}} \\Rightarrow \\mathrm{v}_1=\\frac{430}{13} \\mathrm{~cm}$\n\nNow using,\n\n$ \\frac{1}{\\mathrm{v}}-\\frac{1}{\\mathrm{u}}=\\frac{1}{\\mathrm{f}} \\Rightarrow \\frac{1}{\\mathrm{v}}=\\frac{1}{10}-\\frac{3}{40} \\Rightarrow \\mathrm{v}=40 \\mathrm{~cm}$\n\n$$ \\therefore $$ $ \\mathrm{x}=40-\\frac{430}{13}=\\frac{90}{13} \\mathrm{~cm}$\n\n$\\tan \\alpha=\\frac{\\frac{30 \\sqrt{3}}{\\frac{90}{13}}}{\\mathrm{~N}}=\\frac{1}{\\sqrt{3}} \\Rightarrow \\alpha=30^{\\circ}=\\frac{\\pi}{6}$\n\n$$ \\therefore $$ N = 6",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekd5c3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_060",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A large square container with thin transparent vertical walls and filled with water\n(refractive index $${4 \\over 3}$$) is kept on a horizontal table. A student holds a thin straight wire vertically\ninside the water 12 cm from one of its corners, as shown schematically in the figure. Looking at the\nwire from this corner, another student sees two images of the wire, located symmetrically on each\nside of the line of sight as shown. The separation (in cm) between these images is ;\n\n[Diagram]",
+    "solution": "Consider ray of light from object $\\mathrm{O}$ moves along $\\mathrm{OB}$ at an angle of incidence $i$ and refracted through air parallel to line of sight, that is, $\\angle r=45^{\\circ}$. Another ray slight above $\\mathrm{OA}$ is refracted along $\\mathrm{AC}$ and image appears to be formed at $I_1$ having height $h$.\n\n[Diagram]\n\nAt point B; from Snell's law\n\n$$\n\\begin{aligned}\n& \\frac{\\sin i}{\\sin 45}=\\frac{1}{4 / 3} \\Rightarrow \\sin i=\\frac{3}{4} \\sin 45^{\\circ} \\\\\\\\\n& \\Rightarrow \\sin =\\frac{3}{4} \\times \\frac{1}{\\sqrt{2}}=\\frac{3}{4 \\times 1.4142}=0.5303\n\\end{aligned}\n$$\n\nSo, $i=32.03^{\\circ}$.\n\nIn $\\triangle \\mathrm{OAB}, \\quad \\angle B=\\left(90^{\\circ}+i\\right)=\\left(90^{\\circ}+32.03^{\\circ}\\right) \\Rightarrow 122.03^{\\circ}$.\n\n$$\n\\begin{aligned}\n& \\angle A=45^{\\circ} \\\\\\\\\n& \\angle O=\\left(180-45^{\\circ}-122.03^{\\circ}\\right) \\cong 13^{\\circ}\n\\end{aligned}\n$$\n\nFrom sine law, we have\n\n$$\n\\begin{aligned}\n& \\frac{12}{\\sin 122^{\\circ}}=\\frac{\\mathrm{AB}}{\\sin 13^{\\circ}} \\Rightarrow \\mathrm{AB}=\\frac{12}{\\sin 122^{\\circ}} \\times \\sin 13^{\\circ} \\\\\\\\\n& \\mathrm{AB}=\\frac{12}{0.8480} \\times 0.2249=3.1833 \\mathrm{~cm}\n\\end{aligned}\n$$\n\nIn $\\triangle \\mathrm{BAE}$,\n\n$$\n\\begin{aligned}\n& \\frac{\\mathrm{BE}}{\\mathrm{AB}}=\\sin 45^{\\circ} \\Rightarrow \\mathrm{BE}=\\mathrm{AB} \\sin 45^{\\circ} \\\\\\\\\n& \\mathrm{BE}=31833 \\times \\frac{1}{\\sqrt{2}}=\\frac{3.1833}{1.4142}=2.25 \\mathrm{~cm}\n\\end{aligned}\n$$\n\nSince, $\\mathrm{BE}=\\mathrm{FG}$ is position of image $I_1$ at upper half of square, $h=2.25 \\mathrm{~cm}$.\n\nSimilarly, in lower half of square image $I_2$ will be at a distance of $2.25 \\mathrm{~cm}$.\n\n$$\nI_1 I_2=2 \\times 2.25=4.50 \\mathrm{~cm}=4.00 \\mathrm{~cm}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhvfj0ft.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_061",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A monochromatic light is incident from air on a refracting surface of a prism of angle 75$$^\\circ $$ and refractive index $${n_0} = \\sqrt 3 $$. The other refracting surface of the prism is coated by a thin film of material of refractive index n as shown in figure. The light suffers total internal reflection at the coated prism surface for an incidence angle of $$\\theta \\le 60^\\circ $$. The value of n$^{2}$ is .............\n\n[Diagram]",
+    "solution": "For TIR at coating,\n\n[Diagram]\n\n\nApplying Snell's law at first surface $$\\sin \\theta = \\sqrt 3 \\sin (75^\\circ - {\\theta _c})$$\n\nFor limiting condition, at $$\\theta $$ = 60$$^\\circ \\sin 60^\\circ = \\sqrt 3 \\sin (75^\\circ - {\\theta _c}){{\\sqrt 3 } \\over 2} = \\sqrt 3 \\sin (75^\\circ - {\\theta _c}){1 \\over 2} = \\sin (75^\\circ - {\\theta _c}) \\Rightarrow sin30^\\circ = \\sin (75^\\circ - {\\theta _c})30^\\circ $$ = $$75^\\circ - {\\theta _c} \\Rightarrow {\\theta _c}$$ = 45$$^\\circ $$\n\nNow since θ$_{c}$ < 60$^{o}$, therefore total internal reflection takes place. For total internal reflection at the other refracting surface, using Snell’s law, we have\n\n$${n \\over {\\sqrt 3 }} = {1 \\over {\\sqrt 2 }} \\Rightarrow {n^2} = {3 \\over 2} = 1.50$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_062",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A planar structure of length L and width W is made of two different optical media of refractive indices n$_{1}$ = 1.5 and n$_{2}$ = 1.44 as shown in figure. If L >> W, a ray entering from end AB will emerge from end CD. CD only if the total internal reflection condition is met inside the structure. For L = 9.6 m, if the incident angle $$\\theta $$ is varied, the maximum time taken by a ray to exit the plane CD is t $$ \\times $$ 10$^{-9}$ s, where, t is ................\n\n[Speed of light, c = 3 $$ \\times $$ 10$^{8}$ m/s]\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\nAccording to total internal reflection (TIR),\n\n$$1.5\\sin {\\theta _c} = 1.44\\sin 90^\\circ \\sin {\\theta _c} = {{1.44} \\over {1.50}} = {{24} \\over {25}} \\therefore \\sin {\\theta _c} = {x \\over d} = {{24} \\over {25}} \\Rightarrow d = {{25x} \\over {24}} \\therefore $$ Total length travelled by light,\n\n$$ \\therefore t = {S \\over {\\left( {{c \\over {{n_1}}}} \\right)}} = {{10} \\over {{{3 \\times {{10}^8}} \\over {1.5}}}} = {1 \\over 2} \\times {10^{ - 7}} = 5 \\times {10^{ - 8}}$$\n\nt = 50 ns $$ \\Rightarrow $$ t = 50 $$ \\times $$ 10$^{-9}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_063",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sunlight of intensity $$1.3kW\\,{m^{ - 2}}$$ is incident normally on a thin convex lens of focal length $$20$$ cm. Ignore the energy loss of light due to the lens and assume that the lens aperture size is much smaller than its focal length. The average intensity of light, in $$kW\\,{m^{ - 2}},$$ at a distance $$22$$ cm from the lens on the other side is ___________.",
+    "solution": "Given, intensity of sunlight, I = 1.3 kW m$^{-2}$ and focal length of convex lens, f = 20 cm\n\n[Diagram]\n\nNow, we know, Intensity = $${{Energy} \\over {Area}}$$\nSo, intensity on screen is given as\n$${I_{screen}} = {{Incident\\,energy} \\over {{A_2}}}$$\nBut, Incident energy = Intensity of sunlight $$\\times$$ Area of lens\n= 1.3 kW m$^{$$-$$2}$ $$\\times$$ A$_{1}$\nSo, intensity on screen is given as\n$${I_{screen}} = 1.3\\,kW\\,{m^{ - 2}} \\times {{{A_1}} \\over {{A_2}}}$$\nNow from figure, and using similar triangles theorem, we have\n$${{{A_1}} \\over {{A_2}}} = {\\left( {{{20} \\over 2}} \\right)^2} = 100$$\nTherefore, intensity on screen = 1.3 kW m$^{$$-$$2}$ $$\\times$$ 100 = 130 kW m$^{$$-$$2}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyg0jyko.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_064",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A monochromatic light is travelling in a medium of refractive index $$n=1.6.$$ It enters a stack of glass layers from the bottom side at an angle $$\\theta = {30^ \\circ }.$$ The interfaces of the glass layers are parallel to each other. The refractive indices of different glass layers are monotonically decreasing as $${n_m} = n - m\\Delta n,$$ where $${n_m}$$ is the refractive index of the $${m^{th}}$$ slab and $$\\Delta n = 0.1$$ (see the figure). The ray is refracted out parallel to the interface between the $${\\left( {m - 1} \\right)^{th}}$$ and $${m^{th}}$$ slabs from the right side of the stack. What is the value of $$m$$?\n\n[Diagram]",
+    "solution": "Applying Snell's law, we have nsin$$\\theta$$ = (n $$-$$ m$$\\Delta$$n)sin90$$^\\circ$$ it is given that n = 1.6, $$\\theta$$ = 30$$^\\circ$$, $$\\Delta$$n = 0.1. The above equation becomes\n1.6sin30 = [1.6 $$-$$ m(0.1)]sin90\n1.6 $$\\times{1 \\over 2}$$ = (1.6 $$-$$ 0.1m) $$\\times$$ 1\n0.8 = (1.6 $$-$$ 0.1m)\n0.1m = 1.6 $$-$$ 0.8\n0.1m = 0.8\nm = 8",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_065",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A monochromatic beam of light is incident at 60$$^\\circ$$ on one face of an equilateral prism of refractive index n and emerges from the opposite face making an angle $$\\theta$$(n) with the normal (see figure). For n = $$\\sqrt 3 $$ the value of $$\\theta$$ is 60$$^\\circ$$ and $${{d\\theta } \\over {dn}} = m$$. The value of m is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nUsing Snell's law:\n$$\\sin 60^\\circ = n\\sin {r_1}$$ ..... (1)\n$$\\sin {r_1} = {{\\sqrt 3 } \\over {2 \\times \\sqrt 3 }} = {1 \\over 2}{r_1} = 30^\\circ $$\nAlso,\n$$n\\sin {r_2} = 1\\sin \\theta $$\nAlso\n$${r_1} + {r_2} = A = 60^\\circ $$\nTherefore,\n$$n\\sin (60^\\circ - {r_1}) = 1\\sin \\theta $$ ....... (2)\nDifferentiating on both sides, we get\n$$\\sin (60^\\circ - {r_1}) - n\\cos (60^\\circ - {r_1}){{d{r_1}} \\over {dn}} = \\cos \\theta {{d\\theta } \\over {dn}}$$\nDifferentiating Eq. (1) on both sides, we get\n$$0 = \\sin {r_1} + n\\cos {r_1}{{d{r_1}} \\over {dn}}0 = {1 \\over 2} + \\sqrt 3 .{{\\sqrt 3 } \\over 2}{{d{r_1}} \\over {dn}}$$\nTherefore,\n$${{d{r_1}} \\over {dn}} = {{ - 1} \\over 3}$$\nHence, substituting $${r_1} = 30^\\circ $$, we get\n$${{d{r_1}} \\over {dn}} = {{ - 1} \\over 3}$$\nNow, $$\\sin 30^\\circ - \\sqrt 3 \\cos 30^\\circ \\left( { - {1 \\over 3}} \\right) = \\cos 60^\\circ {{d\\theta } \\over {dn}}{1 \\over 2} + {3 \\over {2 \\times 3}} = {1 \\over 2}{{d\\theta } \\over {dn}}{{d\\theta } \\over {dn}} = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0woalyz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_066",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a concave mirror and a convex lens (refractive index = 1.5) of focal length 10 cm each, separated by a distance of 50 cm in air (refractive index = 1) as shown in the figure. An object is placed at a distance of 15 cm from the mirror. Its erect image formed by this combination has magnification M$_{1}$. When the set-up is kept in a medium of refractive index $${7 \\over 6}$$, the magnification becomes M$_{2}$. The magnitude $$\\left| {{{{M_2}} \\over {{M_1}}}} \\right|$$ is\n\n[Diagram]",
+    "solution": "Case I\nReflection from mirror\n$${1 \\over f} = {1 \\over v} + {1 \\over u} \\Rightarrow {1 \\over { - 10}} = {1 \\over v} + {1 \\over { - 15}} \\Rightarrow v = - 30$$\n\n[Diagram]\n\nFor lens $${1 \\over f} = {1 \\over v} - {1 \\over u}{1 \\over {10}} = {1 \\over v} - {1 \\over { - 20}}v = 20\\left| {{M_1}} \\right| = \\left| {{{{v_1}} \\over {{u_1}}}} \\right|\\left| {{{{v_2}} \\over {{u_2}}}} \\right| = \\left( {{{30} \\over {15}}} \\right)\\left( {{{20} \\over {20}}} \\right) = 2 \\times 1 = 2$$ (in air)\nCase II :\nNow, consider the setup placed in a medium of refractive index $${\\mu {'_1}}$$ = 7/6. The focal length of the mirror does not change. Thus, the distance of the image formed by the mirror and its magnification does not change. The focal length of the lens changes. The refractive index of the lens material is $$\\mu$$$_{2}$ = 1.5. Apply lens maker's formula to get the new focal length of the lens\n$${1 \\over {f'}} = \\left( {{{{\\mu _2} - \\mu {'_1}} \\over {\\mu {'_1}}}} \\right)\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right] = {{{\\mu _2} - \\mu {'_1}} \\over {\\mu {'_1}}}{{{\\mu _1}} \\over {{\\mu _2} - {\\mu _1}}}{{{\\mu _2} - {\\mu _1}} \\over {{\\mu _1}}}\\left[ {{1 \\over {{R_1}}} - {1 \\over {{R_2}}}} \\right] = \\left( {{{{\\mu _2} - \\mu {'_1}} \\over {{\\mu _2} - {\\mu _1}}}} \\right)\\left( {{{{\\mu _1}} \\over {\\mu {'_1}}}} \\right){1 \\over f} = \\left( {{{1.5 - 7/6} \\over {1.5 - 1}}} \\right)\\left( {{1 \\over {7/6}}} \\right){1 \\over {10}} = {2 \\over {35}}$$. ..... (1)\nAgain using lens formula, $${1 \\over v} - {1 \\over u} = {1 \\over {{f_l}'}}{1 \\over v} - {1 \\over { - 20}} = {2 \\over {35}} \\Rightarrow {1 \\over v} = {2 \\over {35}} - {1 \\over {20}} = {1 \\over {140}}\\therefore$$ v = 140 cm\nMagnification, $${m_2}' = {v \\over u} = {{140} \\over { - 20}} = - 7$$\nMagnification produced by the combination,\n$${M_2} = {m_1} \\times {m_2}' = ( - 2) \\times ( - 7) = 14\\therefore\\left| {{{{M_2}} \\over {{M_1}}}} \\right| = {{14} \\over 2} = 7$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11tsw5t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_067",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Water (with refractive index = 4/3) in a tank is 18 cm deep. Oil of refractive index 7/4 lies on water making a convex surface of radius of curvature R = 6 cm as shown. Consider oil to act a thin lens. An object S is placed 24 cm above water surface. The location of its image is at x cm above the bottom of the tank. Then x is __________.\n\n[Diagram]",
+    "solution": "We have\n$${{{n_2}} \\over v} - {{{n_1}} \\over u} = {{{n_1} - {n_2}} \\over R}$$\nFor the first refracting surface (air-oil), we have n$_{2}$ = 7/4; n$_{1}$ = 1; R = 6 cm. Therefore,\n$${7 \\over {4{v_1}}} - {1 \\over {24}} = {{ - (7/4)} \\over 6}$$\nor v$_{1}$ = 21 cm and for the second interface (water-oil), we have\n$${n_1} = {7 \\over 4};{n_2} = {4 \\over 3}u = {v_1};R = \\infty $$\nTherefore,\n$${4 \\over {3{v_2}}} - {7 \\over {4 \\times 21}} = 0$$\nv$_{2}$ = 16 cm and v$_{2}$ + x = height of water.\nTherefore,\n$$x = 18 - 16 = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2mkqy49.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_068",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The focal length of a thin biconvex lens is 20 cm. When an object is moved from a distance of 25 cm in front of it to 50 cm, the magnification of its image changes from m$_{25}$ to m$_{50}$. The ratio $${{{m_{25}}} \\over {{m_{50}}}}$$ is __________.",
+    "solution": "$${1 \\over v} - {1 \\over u} = {1 \\over f}$$\nor, $${u \\over v} - 1 = {u \\over f}$$\nor, $${u \\over v} = \\left( {{{u + f} \\over f}} \\right)\\thereforem = {v \\over u} = \\left( {{f \\over {u + f}}} \\right){{{m_{25}}} \\over {{m_{50}}}} = {{\\left( {{{20} \\over { - 25 + 20}}} \\right)} \\over {\\left( {{{20} \\over { - 50 + 20}}} \\right)}} = 6$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_geometrical_optics_069",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A large glass slab ($$\\mu$$ = 5/3) of thickness 8 cm is placed over a point source of light on a plane surface. It is seen that light emerges out of the top surface of the slab from a circular area of radius R cm. What is the value of R?",
+    "solution": "[Diagram]\n\nFrom the figure shown here, we have\n$$\\tan {i_c} = {R \\over t}\\sin {i_c} = {R \\over {\\sqrt {{R^2} + {t^2}} }} = {1 \\over \\mu } = {3 \\over 5}25{R^2} = 9{R^2} + 9{t^2}16{R^2} = 9{t^2} \\Rightarrow R = {{3t} \\over 4} = {{3 \\times 8} \\over 4} = 6$$ cm",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bjytd5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_geometrical_optics_070",
+    "subject": "Physics",
+    "chapter": "Geometrical Optics",
+    "topic": "Geometrical Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Image of an object approaching a convex mirror of radius of curvature 20 m along its optical axis is observed to move from $${{25} \\over 3}$$ m to $${{50} \\over 7}$$ m in 30 s. What is the speed of the object in km per hour?",
+    "solution": "Focal length of a convex mirror, $$f = {R \\over 2} = {{20} \\over 2}$$ m = 10 m\nFor first object, $${v_1} = + {{25} \\over 3}$$ m, $$f = + 10$$ m\nUsing mirror formula $${1 \\over v} + {1 \\over u} = {1 \\over f}\\therefore{1 \\over {(25/3)}} + {1 \\over {{u_1}}} = {1 \\over {10}}$$ or $${1 \\over {{u_1}}} = {1 \\over {10}} - {3 \\over {25}}$$\nor $${u_1} = - 50$$ m\nFor second object,\n$${v_2} = + {{50} \\over 7}$$ m, $$f = + 10$$ m\n$$\\therefore{1 \\over {{v_2}}} + {1 \\over {{u_2}}} = {1 \\over f}{1 \\over {(50/7)}} + {1 \\over {{u_2}}} = {1 \\over {10}}$$ or $${1 \\over {{u_2}}} = {1 \\over {10}} - {7 \\over {50}}$$ or $${u_2} = - 25$$ m\nSpeed of the object $$ = {{25} \\over {30}}$$ m s$^{$$-$$1}$\n$$ = {{25} \\over {30}} \\times {{18} \\over 5}$$ km h$^{$$-$$1}$ = 3 km h$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

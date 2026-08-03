@@ -1,0 +1,58 @@
+[
+  {
+    "id": "math_statistics_001",
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "topic": "Statistics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a data consisting of 10 observations $x_1, x_2, \\ldots, x_{10}$, whose mean is 5 and variance is 7 . If the mean and the variance of the first 8 observations $x_1, x_2, \\ldots, x_8$ are 4 and 3.5 , respectively, and $x_9 < x_{10}$, then the value of $3 x_9+2 x_{10}$ is $\\_\\_\\_\\_$ .",
+    "solution": "We know the mean of 10 observations is 5. So, the total sum of the 10 observations is:\n$$\\frac{x_1+x_2+x_3+\\ldots+x_8+x_9+x_{10}}{10}=5$$\nMultiplying both sides by 10 gives:\n$$x_1+x_2+x_3+\\ldots+x_8+x_9+x_{10}=50$$\nThe mean of the first 8 observations is 4, so their total sum is:\n$$\\frac{x_1+x_2+\\ldots+x_8}{8}=4$$\nTherefore,\n$$x_1+x_2+\\ldots+x_8=32$$\nSubtracting, we get:\n$$x_9+x_{10}=50-32=18$$\nNext, we use the formula for variance of the 10 observations:\n$$\\text{Variance} = \\frac{\\sum\\limits_{i=1}^{10} x_i^2}{10} - (\\text{mean})^2$$\nSubstitute the given values to find the total of squares:\n$$\\frac{\\sum\\limits_{i=1}^{10} x_i^2}{10} - 25 = 7\\sum\\limits_{i=1}^{10} x_i^2 = 320$$\nSimilarly, for the first 8 observations:\n$$\\frac{\\sum\\limits_{i=1}^{8} x_i^2}{8} - 16 = 3.5\\sum\\limits_{i=1}^{8} x_i^2 = 156$$\nNow, subtract the two results:\n$$x_9^2 + x_{10}^2 = 320 - 156 = 164$$\nWe already know:\n$$x_9 + x_{10} = 18$$\nExpanding $ (x_9 + x_{10})^2 $, we get:\n$$x_9^2 + x_{10}^2 + 2x_9x_{10} = 324$$\nSubstitute $x_9^2 + x_{10}^2 = 164$:\n$$164 + 2x_9x_{10} = 324x_9x_{10} = 80$$\nNow, we have two equations:\n$$x_9 + x_{10} = 18x_9x_{10} = 80$$\nSolving the quadratic $t^2 - 18t + 80 = 0$, we get $t = 8$ and $10$.\n\nGiven $x_9 < x_{10}$, so $x_9 = 8$ and $x_{10} = 10$.\nFinally,\n$$3x_9 + 2x_{10} = 3(8) + 2(10) = 44$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_statistics_002",
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "topic": "Statistics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following frequency distribution:table {width: 100%;border-collapse: collapse;margin: 20px 0;} th {background-color: blue;color: white;border: 1px solid lightgrey;padding: 10px;} td {border: 1px solid lightgrey;padding: 10px;text-align: left;} Value458961211Frequency5$f_1$$f_2$2113Suppose that the sum of the frequencies is 19 and the median of this frequency distribution is 6.For the given frequency distribution, let $\\alpha$ denote the mean deviation about the mean, $\\beta$ denote the mean deviation about the median, and $\\sigma^2$ denote the variance.Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\nList – I\nList – II\n\n\n(P) 7 f$_{1}$ + 9 f$_{2}$ is equal to\n(1) 146\n\n\n(Q) 19 α is equal to\n(2) 47\n\n\n(R) 19 β is equal to\n(3) 48\n\n\n(S) 19 σ$_{2}$ is equal to\n(4) 145\n\n\n\n(5) 55",
+    "solution": "[Diagram]\n\nGiven $12+f_1+f_2=19$\nMedian = 6\n$\\Rightarrow \\quad f_1+f_2=7$\nMedian $=\\left(\\frac{N+1}{2}\\right)^{\\text {th }}$ term $=\\left(\\frac{19+1}{2}\\right)^{\\text {th }}$ term $=10^{\\text {th }}$ term\n$$ \\begin{aligned} & \\Rightarrow \\quad 6+f_1=10 \\Rightarrow f_1=4 \\text { and } f_2=3 \\\\ & \\therefore \\quad 7 f_1+9 f_2=7 \\times 4+9 \\times 3 \\\\ & =55 \\Rightarrow P \\rightarrow 5 \\end{aligned} $$\nMean $(\\bar{X})=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{133}{19}=7$\n$$ \\begin{aligned} & \\text { Mean deviation about mean }(\\alpha)=\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i} \\\\ & =\\frac{5(3)+4(2)+1(1)+3(1)+2(2)+3(4)+1(5)}{19}=\\frac{48}{19} \\\\ & \\Rightarrow 19 \\alpha=48 \\quad Q \\rightarrow 3 \\end{aligned} $$\nMean deviation about median $(\\beta)$\n$$ \\begin{aligned} & =\\frac{\\Sigma f_i\\left|x_i-M\\right|}{\\Sigma f_i} \\\\ & =\\frac{5(2)+4(1)+1(0)+3(2)+2(3)+3(5)+1(6)}{19} \\\\ & =\\frac{47}{19} \\\\ & 19 \\beta=47 \\quad R \\rightarrow 2 \\end{aligned} $$\n\n$\\begin{aligned} & \\text { Variance }\\left(\\sigma^2\\right)=\\frac{\\Sigma f_i f_i^2}{\\Sigma f_i}-(\\bar{X})^2 \\\\ & =\\frac{5 \\times 16+4 \\times 25+1 \\times 36+3 \\times 64+2 \\times 81+3 \\times 121+1 \\times 144}{19}-(7)^2 \\\\ & =\\frac{1077}{19}-49=\\frac{146}{19} \\\\ & \\Rightarrow 19 \\sigma^2=146 \\\\ & S \\rightarrow 1 \\\\ & P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1\\end{aligned}$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(P) → (5)    (Q) → (3)    (R) → (2)    (S) → (4)",
+      "(P) → (5)    (Q) → (2)    (R) → (3)    (S) → (1)",
+      "(P) → (5)    (Q) → (3)    (R) → (2)    (S) → (1)",
+      "(P) → (3)    (Q) → (2)    (R) → (5)    (S) → (4)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mbdkszsy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_statistics_003",
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "topic": "Statistics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the given data with frequency distribution\n\n$$\n\\begin{array}{ccccccc}\nx_i & 3 & 8 & 11 & 10 & 5 & 4 \\\\\nf_i & 5 & 2 & 3 & 2 & 4 & 4\n\\end{array}\n$$\n\nMatch each entry in **List-I** to the correct entries in **List-II**.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) The mean of the above data is\n(1) 2.5\n\n\n(Q) The median of the above data is\n(2) 5\n\n\n(R) The mean deviation about the mean of the above data is\n(3) 6\n\n\n(S) The mean deviation about the median of the above data is\n(4) 2.7\n\n\n\n(5) 2.4\n\n\nThe correct option is:",
+    "solution": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline x_1 & f_i & f_i x_i & f_i\\left|x_i-\\bar{x}\\right| & f_i\\left|x_i-N\\right| \\\\\n\\hline 3 & 5 & 15 & 15 & 10 \\\\\n\\hline 4 & 4 & 16 & 8 & 4 \\\\\n\\hline 5 & 4 & 20 & 4 & 0 \\\\\n\\hline 8 & 2 & 16 & 4 & 6 \\\\\n\\hline 10 & 2 & 20 & 8 & 10 \\\\\n\\hline 11 & 3 & 33 & 15 & 18 \\\\\n\\hline & \\Sigma f_i=20 & \\Sigma f_i x_i=120 & \\text { sum }=54 & \\text { sum }=48 \\\\\n\\hline\n\\end{array}\n$$\n\n(P) $\\quad$ Mean $=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{120}{20}=6$\n\n(Q)\n\n$$\n\\begin{aligned}\n\\text { Median } & =\\frac{\\left(10^{\\text {th }}+11^{\\text {th }}\\right) \\text { observation }}{2} \\\\\\\\\n& =\\frac{5+5}{2}=5\n\\end{aligned}\n$$\n\n(both observation are same)\n\n(R) Mean deviation\n\n$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i}=\\frac{54}{20} \\\\\\\\\n& =2.7\n\\end{aligned}\n$$\n\n(S) Mean deviation about median\n\n$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\mathrm{M}\\right|}{\\Sigma f_i}=\\frac{48}{20} \\\\\\\\\n& =2.4\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(5)$",
+      "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(1) ~~ (S) \\rightarrow(5)$",
+      "$(P) \\rightarrow(2) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(1) $",
+      "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(5) ~~ (S) \\rightarrow(5)$"
+    ]
+  }
+]

@@ -1,0 +1,909 @@
+[
+  {
+    "id": "math_permutations_combinations_001",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The letters of the word COCHIN are permuted and all the permutations are arranged in an alphabetical order as in an English dictionary. The number of words that appear before the word COCHIN is",
+    "solution": "[Diagram]\n\n**Case 1 :**\n\nAmong four bags from one bag 4 balls are taken. Number of ways of chosing one bag from 4 bags = $${}^4{C_1}$$\n\nFrom this bag number of ways of taking 4 balls are\n\n(a) 3 Red and 1 Blue balls, which can be chosen in $${}^3{C_3} \\times {}^2{C_1}$$ ways.\n\n(b) 2 Red and 2 Blue balls, which can be chosen in $${}^3{C_2} \\times {}^2{C_2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of choosing this 4 balls from this bag = $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right)$$\n\nNow, two balls are taken from remaining three bags.\n\nFrom each bag two balls can be taken in $${{}^3{C_1} \\times {}^2{C_1}}$$ ways.\n\nSo, for three bags two balls can be taken in $${\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$ ways.\n\n$$ \\therefore $$ Total number of ways of chosing 10 balls from these four bags\n\n= $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right) \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$\n\n**Case 2 :**\n\nAmong four bags from two bags 3 balls are taken. Number of ways of chosing two bags from 4 bags = $${}^4{C_2}$$\n\nFrom each bag, number of ways of taking 3 balls are\n\n(a) 2 Red and 1 Blue balls, which can be chosen in $${}^3{C_2} \\times {}^2{C_1}$$ ways.\n\n(b) 1 Red and 2 Blue balls, which can be chosen in $${}^3{C_1} \\times {}^2{C_2}$$ ways.\n\nSo, for two bags three balls can be taken in $${\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of choosing this 3 balls from this two bags = $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2}$$\n\nNow, two balls are taken from remaining two bags.\n\nFrom each bag two balls can be taken in $${{}^3{C_1} \\times {}^2{C_1}}$$ ways.\n\nSo, for two bags two balls can be taken in $${\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of chosing 10 balls from these four bags\n\n= $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2} \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}$$\n\nFrom Case 1 and Case 2, total number of ways of chosing 10 balls from these 4 boxes so that from each box at least one red ball and one blue ball are chosen\n\n= $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right) \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$\n\n+ $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2} \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}\n\\begin{aligned}\n& =4(5)(6)^3+6(3 \\times 2+3)^2(6)^2 \\\\\\\\\n& =4320+17496 \\\\\\\\\n& =21816\n\\end{aligned}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "360",
+      "192",
+      "96",
+      "48"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lf7f1wc6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_002",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S = \\{1, 2, 3, \\ldots, 10\\}$. Consider the set $X = \\{R : R \\text{ is an equivalence relation on the set } S \\text{ such that } R \\text{ has exactly 42 elements}\\}$. Then the number of elements in $X$ is ____________.",
+    "solution": "An **equivalence relation** divides the given set into disjoint groups, called **equivalence classes**. Together, these classes form a complete **partition** of the set.\nHere, the set is $ S = \\{1, 2, 3, \\ldots, 10\\} $. So, we must divide it into parts (subsets) such that the total number of elements across all parts is 10.\nFor an equivalence relation, if one class has $ n_i $ elements, then all possible ordered pairs inside this class are related. Hence, it contributes $ n_i^2 $ related pairs to the relation.\nBecause the total number of related pairs is given as 42, we need to find positive integers $ n_1, n_2, \\ldots, n_k $ satisfying both:\n$$ n_1 + n_2 + \\ldots + n_k = 10 $$\nand\n$$ n_1^2 + n_2^2 + \\ldots + n_k^2 = 42 $$\nNow, we search for combinations of squares that add up to 42, while the corresponding numbers add up to 10.\nPossible combinations are:\n$$ 42 = 36 + 4 + 1 + 1 \\ \\Rightarrow \\ \\{6, 2, 1, 1\\} 42 = 25 + 16 + 1 \\ \\Rightarrow \\ \\{5, 4, 1\\} $$\nHence, the partitions can be $ \\{6, 2, 1, 1\\} $ and $ \\{5, 4, 1\\} $.\nCase 1: Partition {5, 4, 1}\nFirst choose 5 elements out of 10 for one class, then choose 4 out of the remaining 5 for the next class, and the last one forms a single-element class. The number of ways is:\n$$ {^{10}C_5} \\times {^{5}C_4} \\times {^{1}C_1} = 1260 $$\nCase 2: Partition {6, 2, 1, 1}\nFirst choose 6 elements out of 10, then 2 from the remaining 4, and the last two each become single-element classes. Since the two single-element groups are identical, we divide by 2! to adjust for overcounting. So the number of ways is:\n$$ {^{10}C_6} \\times {^{4}C_2} \\times \\frac{{^{2}C_1 \\times ^{1}C_1}}{2} = 1260 $$\nTherefore, the total number of such equivalence relations is the sum of both cases:\n$$ 1260 + 1260 = 2520 $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mfqo4lxa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_003",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let\n\n$${S_1} = \\left\\{ {(i,j,k):i,j,k \\in \\{ 1,2,....,10\\} } \\right\\}$$,\n\n$${S_2} = \\left\\{ {(i,j):1 \\le i < j + 2 \\le 10,i,j \\in \\{ 1,2,...,10\\} } \\right\\}$$,\n\n$${S_3} = \\left\\{ {(i,j,k,l):1 \\le i < j < k < l,i,j,k,l \\in \\{ 1,2,...,10\\} } \\right\\}$$ and\n\n$${S_4} = \\{ (i,j,k,l):i,j,k$$ and $$l$$ are distinct elements in {1, 2, ...., 10}.\n\nIf the total number of elements in the set S$_{r}$ is n$_{r}$, r = 1, 2, 3, 4, then which of the following statements is(are) TRUE?",
+    "solution": "n$_{1}$ = number of elements in S$_{1}$ = 10 $$\\times$$ 10 $$\\times$$ 10 = 1000\n\nn$_{2}$ = number of elements in S$_{2}$ = 8 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1\n\n= 8 + $${{8 \\times 9} \\over 2} = 44$$ ($$\\because$$ 1 $$\\le$$ i < j + 2 $$\\le$$ 10 $$\\Rightarrow$$ j $$\\le$$ 8 and i $$\\ge$$ 1\n\n$$\\therefore$$ (i = 1, j = 1, 2, 3, .... 8), (i = 2, j = 1, 2, 3, ..... 8), (i = 3, j = 2, 3, 4, .... 8) and so on)\n\nn$_{3}$ = number of elements in S$_{3}$ = $${}^{10}{C_4}$$\n\n(selecting 4 numbers and arranging in increasing order)\n\n$$ = {{10 \\times 9 \\times 8 \\times 7} \\over {24}} = 210$$\n\nn$_{4}$ = number of elements in S$_{4}$ = $${}^{10}{C_4}$$ = 10 $$\\times$$ 9 $$\\times$$ 8 $$\\times$$ 7\n\n$$ \\Rightarrow {{{n_4}} \\over {12}} = 420$$",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "n$_{1}$ = 1000",
+      "n$_{2}$ = 44",
+      "n$_{3}$ = 220",
+      "$${{{n_4}} \\over {12}} = 420$$"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_004",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If total number of runs scored in n matches is $$\\left( {{{n + 1} \\over 4}} \\right)\\,\\,({2^{n + 1}} - n - 2)\\,$$ where $$n > 1$$, and the runs scored in the $${k^{th}}$$ match are given by k. $$\\,{2^{n + 1 - k}}$$, where $$1 \\le k \\le n$$. Find n.",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_005",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Total number of ways in which six ' + ' and four ' - ' signs can be arranged in a line such that no two ' - ' signs occur together is.....................................",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_006",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product of any r consecutive natural numbers is always divisible by r!",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_007",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider 4 boxes, where each box contains 3 red balls and 2 blue balls. Assume that all 20 balls are distinct. In how many different ways can 10 balls be chosen from these 4 boxes so that from each box at least one red ball and one blue ball are chosen ?",
+    "solution": "[Diagram]\n\n**Case 1 :**\n\nAmong four bags from one bag 4 balls are taken. Number of ways of chosing one bag from 4 bags = $${}^4{C_1}$$\n\nFrom this bag number of ways of taking 4 balls are\n\n(a) 3 Red and 1 Blue balls, which can be chosen in $${}^3{C_3} \\times {}^2{C_1}$$ ways.\n\n(b) 2 Red and 2 Blue balls, which can be chosen in $${}^3{C_2} \\times {}^2{C_2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of choosing this 4 balls from this bag = $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right)$$\n\nNow, two balls are taken from remaining three bags.\n\nFrom each bag two balls can be taken in $${{}^3{C_1} \\times {}^2{C_1}}$$ ways.\n\nSo, for three bags two balls can be taken in $${\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$ ways.\n\n$$ \\therefore $$ Total number of ways of chosing 10 balls from these four bags\n\n= $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right) \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$\n\n**Case 2 :**\n\nAmong four bags from two bags 3 balls are taken. Number of ways of chosing two bags from 4 bags = $${}^4{C_2}$$\n\nFrom each bag, number of ways of taking 3 balls are\n\n(a) 2 Red and 1 Blue balls, which can be chosen in $${}^3{C_2} \\times {}^2{C_1}$$ ways.\n\n(b) 1 Red and 2 Blue balls, which can be chosen in $${}^3{C_1} \\times {}^2{C_2}$$ ways.\n\nSo, for two bags three balls can be taken in $${\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of choosing this 3 balls from this two bags = $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2}$$\n\nNow, two balls are taken from remaining two bags.\n\nFrom each bag two balls can be taken in $${{}^3{C_1} \\times {}^2{C_1}}$$ ways.\n\nSo, for two bags two balls can be taken in $${\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}$$ ways.\n\n$$ \\therefore $$ Total number of ways of chosing 10 balls from these four bags\n\n= $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2} \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}$$\n\nFrom Case 1 and Case 2, total number of ways of chosing 10 balls from these 4 boxes so that from each box at least one red ball and one blue ball are chosen\n\n= $${}^4{C_1}\\left( {{}^3{C_3} \\times {}^2{C_1} + {}^3{C_2} \\times {}^2{C_2}} \\right) \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^3}$$\n\n+ $${}^4{C_2}{\\left( {{}^3{C_2} \\times {}^2{C_1} + {}^3{C_1} \\times {}^2{C_2}} \\right)^2} \\times {\\left( {{}^3{C_1} \\times {}^2{C_1}} \\right)^2}\n\\begin{aligned}\n& =4(5)(6)^3+6(3 \\times 2+3)^2(6)^2 \\\\\\\\\n& =4320+17496 \\\\\\\\\n& =21816\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "21816",
+      "85536",
+      "12096",
+      "156816"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lf7f1wc6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_008",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a high school, a committee has to be formed from a group of 6 boys M$_{1}$, M$_{2}$, M$_{3}$, M$_{4}$, M$_{5}$, M$_{6}$ and 5 girls G$_{1}$, G$_{2}$, G$_{3}$, G$_{4}$, G$_{5}$.\n\n(i) Let $$\\alpha $$$_{1}$ be the total number of ways in which the committee can be formed such that the committee has 5 members, having exactly 3 boys and 2 girls.\n\n(ii) Let $$\\alpha $$$_{2}$ be the total number of ways in which the committee can be formed such that the committee has at least 2 members, and having an equal number of boys and girls.\n\ni) Let $$\\alpha $$$_{3}$ be the total number of ways in which the committee can be formed such that the committee has 5 members, at least 2 of them being girls.\n\n(iv) Let $$\\alpha $$$_{4}$ be the total number of ways in which the committee can be formed such that the committee has 4 members, having at least 2 girls such that both M$_{1}$ and G$_{1}$ are NOT in the committee together.\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid black;\npadding: 10px;\n}\ntd {\nborder: 1px solid black;\npadding: 10px;\ntext-align: left;\n}\n\n\n\nLIST-I\nLIST-II\n\n\nP. The value of $\\alpha_1$ is\n1. 136\n\n\nQ. The value of $\\alpha_2$ is\n2. 189\n\n\nR. The value of $\\alpha_3$ is\n3. 192\n\n\nS. The value of $\\alpha_4$ is\n4. 200\n\n\n\n5. 381\n\n\n\n6. 461\n\n\nThe correct option is",
+    "solution": "Given 6 boys M$_{1}$, M$_{2}$, M$_{3}$, M$_{4}$, M$_{5}$, M$_{6}$ and 5 girls G$_{1}$, G$_{2}$, G$_{3}$, G$_{4}$, G$_{5}$\n\n(i) $$\\alpha $$$_{1}$ $$ \\to $$ Total number of ways of selecting 3 boys and 2 girls from 6 boys and 5 girls.\n\ni.e., $${}^6{C_3} \\times {}^5{C_2} = 20 \\times 10 = 200 \\therefore \\alpha $$$_{1}$ = 200\n\n(ii) $$\\alpha $$$_{2}$ $$ \\to $$ Total number of ways selecting at least 2 member and having equal number of boys and girls i.e., $${}^6{C_1}{}^5{C_1} + {}^6{C_2}{}^5{C_2} + {}^6{C_3}{}^5{C_3} + {}^6{C_4}{}^5{C_4} + {}^6{C_5}{}^5{C_5}$$\n\n= 30 + 150 + 200 + 75 + 6 = 461\n\n$$\\alpha $$$_{2}$ = 461\n\n(iii) $$\\alpha $$$_{3}$ $$ \\to $$ Total number of ways of selecting 5 members in which at least 2 of them girls\n\ni.e., $${}^5{C_2}{}^6{C_3} + {}^5{C_3}{}^6{C_2} + {}^5{C_4}{}^6{C_1} + {}^5{C_5}{}^6{C_0} = 200 + 150 + 30 + 1 = 381\\alpha $$$_{3}$ = 381\n\n(iv) $$\\alpha $$$_{4}$ $$ \\to $$ Total number of ways of selecting 4 members in which at least two girls such that M$_{1}$ and G$_{1}$ are not included together.\n\nG$_{1}$ is included $$ \\to {}^4{C_1}.{}^5{C_2} + {}^4{C_2}.{}^5{C_1} + {}^4{C_3}$$\n\n40 + 30 + 4 = 74\n\nM$_{1}$ is included $$ \\to {}^4{C_2}.{}^5{C_1} + {}^4{C_3}$$ = 30 + 4 = 34\n\nG$_{1}$ and M$_{1}$ both are not included\n\n$${}^4{C_4} + {}^4{C_3}.{}^5{C_1} + {}^4{C_2}.{}^5{C_2}$$ = 1 + 20 + 60 = 81\n\n$$ \\therefore $$ Total number = 74 + 34 + 81 = 189\n\n$$\\alpha $$$_{4}$ = 189\n\nNow, P $$ \\to $$ 4 ; Q $$ \\to $$ 6 ; R $$ \\to $$ 5 ; S $$ \\to $$ 2\n\nHence, option (C) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P $$ \\to $$ 4; Q $$ \\to $$ 6; R $$ \\to $$ 2; S $$ \\to $$ 1",
+      "P $$ \\to $$ 1; Q $$ \\to $$ 4; R $$ \\to $$ 2; S $$ \\to $$ 3",
+      "P $$ \\to $$ 4; Q $$ \\to $$ 6; R $$ \\to $$ 5; S $$ \\to $$ 2",
+      "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 3; S $$ \\to $$ 1"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_009",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A debate club consists of 6 girls and 4 boys. A team of 4 members is to be select from this club including the selection of a captain (from among these 4 members ) for the team. If the team has to include at most one boy, then the number of ways of selecting the team is",
+    "solution": "We have 6 girls and 4 boys in the club and we have to select team of 4 members in which one is captain and at most one boy.\n\n$\\therefore$ We can have one boy and three girls in team or all four girls.\nSo, selection of 1 boy from 4 boys $={ }^4 C_1$ ways\n\nSelection of 3 girls from 6 girls $={ }^6 \\mathrm{C}_3$ ways\n\nSelection of 4 girls from 6 girls $={ }^6 \\mathrm{C}_4$ ways\n\n$\\therefore$ Total number of ways selecting the team\n$$\n=\\left({ }^4 \\mathrm{C}_1 \\cdot{ }^6 \\mathrm{C}_3+{ }^6 \\mathrm{C}_4\\right) \\times 4\n$$\n\n(since, among any of the selection we have 4 choice to select captain)\n\n$$\n\\begin{aligned}\n\\therefore \\text { Total number of ways } & =(4 \\times 20+15) \\times 4 \\\\\\\\\n& =380\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "380",
+      "320",
+      "260",
+      "95"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_010",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six cards and six envelopes are numbered 1, 2, 3, 4, 5, 6 and cards are to be placed in envelopes so that each envelope contains exactly one card and no card is placed in the envelope bearing the same number and moreover the card numbered 1 is always placed in envelope numbered 2. Then the number of ways it can be done is",
+    "solution": "Given, six cards and six envelops are numbered $$1,2,3,4,5$$ and 6.\nThe number of arrangements when all six\ncards are placed in wronge envelops\n$$\\begin{aligned}\n& =\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.\\left(1-\\frac{1}{\\left| \\!{\\underline {\\,\n{1} \\,}} \\right.}+\\frac{1}{\\left| \\!{\\underline {\\,\n{2} \\,}} \\right.}-\\frac{1}{\\left| \\!{\\underline {\\,\n{3} \\,}} \\right.}+\\frac{1}{\\left| \\!{\\underline {\\,\n{4} \\,}} \\right.}-\\frac{1}{\\left| \\!{\\underline {\\,\n{5} \\,}} \\right.}+\\frac{1}{\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.}\\right) \\\\\n& =\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.\\left[1-\\frac{1}{1}+\\frac{3}{\\left| \\!{\\underline {\\,\n{3} \\,}} \\right.}-\\frac{1}{\\left| \\!{\\underline {\\,\n{3} \\,}} \\right.}+\\frac{5}{\\left| \\!{\\underline {\\,\n{5} \\,}} \\right.}-\\frac{1}{5}+\\frac{1}{\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.}\\right] \\\\\n& =\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.\\left[\\frac{2}{\\left| \\!{\\underline {\\,\n{3} \\,}} \\right.}+\\frac{4}{\\left| \\!{\\underline {\\,\n{5} \\,}} \\right.}+\\frac{1}{\\left| \\!{\\underline {\\,\n{6} \\,}} \\right.}\\right] \\\\\n& =2.6 .5 .4+4.6+1 \\\\\n& =240+24+1 \\\\\n& =265 \\\\\n\\end{aligned}$$\nIn the above dearrangement, there are 5 ways in which card number 1 is going wrong envelope i.e, other than envelope number 1. So, when card number 1 going in envelop number 2 is $$\\frac{265}{5}=53$$ ways.\nHint:\nIn the total dearrangement of 6 cards there are 5 ways in which card number 1 is going other than envelope number 1.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "264",
+      "265",
+      "53",
+      "67"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_011",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${{a_n}}$$ denote the number of all n-digit positive integers formed by the digits 0, 1 or both such that no consecutive digits in them are 0.Let $${{b_n}}$$ = the number of such n-digit integers ending with digit 1 and $${{c_n}}$$ =the number of such n-digit integers ending with digit 0.\nThe value of $${{b_6}}$$ is",
+    "solution": "Given, $$b_n$$ denotes the number of $$n$$-digit integer formed by the digits 0, 1 or both such that $$n$$-digit integer ending with 1 and no consecutive digits are '0'.\n$$\\therefore \\quad b_6=$$ six digit number ending with 1.\nLike 1 ........... 1, and rest four places are filled as Case No. (I) : Use four ' 1 '\n$$\\text { Case No. (I) : Use four ' } 1 \\text { ' }\\underline 1 \\underbrace {\\underline 1 \\,\\underline 1 \\,\\underline 1 \\,\\underline 1 }_{}\\underline 1 $$\nNumber of ways = 1\nCase No. (II) : Use three '1' and one '0'\n$$\\underline 1 \\underbrace {\\underline 1 \\,\\underline 1 \\,\\underline 1 \\,\\underline 0 }_{}\\underline 1 $$\nNumber of ways $$=\\frac{4!}{3!}=4$$\nCase No. (III) : Use two '1' and two '0'\n$$\\underline 1 \\underbrace {\\underline 1 \\,\\underline 0 \\,\\underline 1 \\,\\underline 0 }_{}\\underline 1 $$\nor\n$$\\underline 1 \\underbrace {\\underline 1 \\,\\underline 1 \\,\\underline 0 \\,\\underline 1 }_{}\\underline 1 $$\nor\n$$\\underline 1 \\underbrace {\\underline 0 \\,\\underline 1 \\,\\underline 1 \\,\\underline 0 }_{}\\underline 1 $$\nNo. of ways = 3\nHence, $$b_6=1+4+3=8$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_012",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${{a_n}}$$ denote the number of all n-digit positive integers formed by the digits 0, 1 or both such that no consecutive digits in them are 0.Let $${{b_n}}$$ = the number of such n-digit integers ending with digit 1 and $${{c_n}}$$ =the number of such n-digit integers ending with digit 0.\nWhich of the following is correct?",
+    "solution": "For $$a_n$$\nCase I : If the unit digit is 1, and rest $$(n-1)$$ places are filled as $$a_{n-1}\\mathrm{\\underbrace {1\\underline {} \\,\\underline {} \\,\\underline {} \\,\\underline {...} \\,\\underline {...} \\,\\underline {} }_{(n - 1)\\,places}\\underline 1}$$\nCase II : If the unit digit is 0, then tenth place must be 1 and rest $$(n-2)$$ places are filled as $$a_{n-2}\\mathrm{\\underbrace {1\\underline {} \\,\\underline {} \\,\\underline {} \\,\\underline {} \\,....\\,\\underline {} }_{(n - 2)\\,place}\\underline 1 \\underline 0}\\begin{aligned}\n& \\text { Hence, } a_n =a_{n-1}+a_{n-2} \\\\\n\\Rightarrow \\quad & a_{17} =a_{16}+a_{15}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${a_{17}} = {a_{16}} + {a_{15}}$$",
+      "$${c_{17}}\ne {c_{16}} + {c_{15}}$$",
+      "$${b_{17}}\ne {b_{16}} + {c_{16}}$$",
+      "$${a_{17}} = {c_{17}} + {b_{16}}$$"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_013",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of ways in which 5 balls of different colours can be distributed among 3 persons so that each person gets at least one ball is",
+    "solution": "Here, 5 distinct balls are to be distributed amongst 3 persons so that each gets at least one\nball. So, two possible cases arises\nCase I : Two of the persons get one-one ball each and the third person gets three balls.\ni.e.\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nA\nB\nC\n\n\n\n1\n1\n3\n\n\nNow, A can get the ball in $${ }^5 \\mathrm{C}_1$$ ways. After that, $$B$$ can get one ball in $${ }^4 C_1$$ ways and then after $$C$$ can get three balls in $${ }^3 \\mathrm{C}_3$$ ways.\nHence, Total number of ways\n$$\\begin{aligned}\n& ={ }^5 \\mathrm{C}_1 \\cdot{ }^4 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_3 \\times \\frac{3!}{2!} \\\\\n& =5 \\times 4 \\times 1 \\times \\frac{3 \\times 2 \\times 1}{2 \\times 1} \\\\\n& =60\n\\end{aligned}$$\nCase II : Two of the persons get two-two balls each and the third person gets one ball.\ni.e.\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nA\nB\nC\n\n\n\n2\n2\n1\n\n\nNow, A can get two balls in $${ }^5 \\mathrm{C}_2$$ ways. After that, $$B$$ can get 2 ball in $${ }^3 \\mathrm{C}_2$$ ways and then after $$C$$ can get 1 ball in $${ }^1 C_1$$ way. Hence, total number of ways\n$$\\begin{aligned}\n& ={ }^5 C_2 \\cdot{ }^3 C_2{ }^1 C_1 \\cdot \\frac{3!}{2!} \\\\\n& =\\frac{5 \\times 4}{2 \\times 1} \\times \\frac{3 \\times 2}{2 \\times 1} \\times 1 \\times \\frac{3 \\times 2 \\times 1}{2 \\times 1} \\\\\n& =90\n\\end{aligned}$$\nHence, total number of ways to distribute 5 balls $$=60+90=150$$\nCombination with Repetition\n(i) Only two possible cases arises:\nCase I :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nA\nB\nC\n\n\n\n1\n1\n3\n\n\nCase II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\nA\nB\nC\n\n\n\n2\n2\n1\n\n\n(iii) Use the concept of combination to find individual ways and then add up the total ways in each case.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "75",
+      "150",
+      "210",
+      "243"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_014",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of seven digit integers, with sum of the digits equal to 10 and formed by using the digits 1, 2 and 3 only, is",
+    "solution": "The two possible cases are as follows:\nCase 1 : There are five 1's; one 2; one 3. Therefore, the number of numbers is 7!/5! = 42.\nCase 2 : There are four 1's; three 2's. Therefore, the number of numbers is 7!/4! 3! = 35. Hence, the total number of numbers is 42 + 35 = 77",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "55",
+      "66",
+      "77",
+      "88"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_015",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider all possible permutations of the letters of the word ENDEANOEL. Match the Statements/Expressions in Column I with the Statements/Expressions in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nThe number of permutations containing the word ENDEA is\n(P)\n5!\n\n\n(B)\nThe number of permutations in which the letter E occurs in the first and the last position is\n(Q)\n2 $$\\times$$ 5!\n\n\n(C)\nThe number of permutations in which none of the letters D, L, N occurs in the last five positions is\n(R)\n7 $$\\times$$ 5!\n\n\n(D)\nThe number of permutations in which the letters A, E, O occur only in odd positions is\n(S)\n21 $$\\times$$ 5!",
+    "solution": "(A) Considering ENDEA as one group, remaining letters are N, O, E, L.\nSo, no. of permutations = 5!\n(A) - (i)\n(B) E occurs in 1$^{st}$ and last positions. The remaining letters are N, N, D, A, O, E, L.\nNo. of permutation\n$$ = {{7!} \\over {2!}} = {{7 \\times 6} \\over 2} \\times 5! = 21! \\times 5!$$\n(B) - (iv)\n(C) D, L, N should not occur in last five positions\n$$\\Rightarrow$$ D, L, N should occur in 1$^{st}$ four positions, but we have D, L, N, N.\nSo, ways of arranging D, L, N, N in 1$^{st}$ four positions\n$$ = {{4!} \\over {2!}} = 12$$\nWays of arranging remaining E, E, A, O, E in last five positions $$ = {{5!} \\over {3!}} = 20$$,\nTotal $$=12\\times20=240=2\\times5!$$\n(C) - (iv)\n(D) A, E, O occur in odd positions.\nNo. of odd positions = 5 and letters are E, E, E, A, O. i.e. 5\nWays of arranging those 5 letters in 5 odd positions $$ = {{5!} \\over {3!}} = 20$$\nRemaining 4 letters D, L, N, N can be arranged in remaining 4 positions in $$ = {{4!} \\over {2!}} = 12$$ ways\nTotal no. of permutations $$=20\\times12=240=2\\times5!$$\n(D) - (iii)",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A) - p ; (B) - s; (C) - q ; (D) - q",
+      "(A) - q ; (B) - q ; (C) - s ; (D) - p",
+      "(A) - p ; (B) - s; (C) - p ; (D) - r",
+      "(A) - p ; (B) - r ; (C) - q ; (D) - p"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_016",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The letters of the word COCHIN are permuted and all the permutations are arranged in an alphabetical order as in an English dictionary. The number of words that appear before the word COCHIN is :",
+    "solution": "The letter of word COCHIN in alphabetic order are C, C, H, I, N, O\nFixing $$1^{\\text {st }}$$ letter $$\\mathrm{C}$$ and keeping $$\\mathrm{C}$$ at second place, rest 4 can be arranged in 4 ! ways.\nSimilarly, the words starting with $$\\mathrm{CH}, \\mathrm{CI}, \\mathrm{CN}$$ are 4 ! in each case\nThen fixing first two letters as CO next four places, when filled in alphabetic order give the word COCHIN.\n$$\\therefore$$ Number of words coming before COCHIN are $$4 \\times 4$$!\n$$=4\\times24=96$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "360",
+      "192",
+      "96",
+      "48"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_017",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rectangle with sides of lenght (2m - 1) and (2n - 1) units is divided into squares of unit lenght by drawing parallel lines as shown in the diagram, then the number of rectangles possible with odd side lengths is\n\n[Diagram]",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${(m + n - 1)^2}$$",
+      "$${4^{m + n - 1}}$$",
+      "$${m^2}\\,{n^2}$$",
+      "$$m(m + 1)\\,n\\,(m + 1)$$"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_018",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the LCM of p, q is $${r^2}\\,{r^4}\\,{s^2}$$, where r, s, t are prime numbers and p, q are the positive integers then number of ordered pair (p, q) is",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "252",
+      "254",
+      "225",
+      "224"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_019",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of arrangements of the letters of the word BANANA in which the two N's do not appear adjacently is",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "40",
+      "60",
+      "80",
+      "100"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_020",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${T_n}$$ denote the number of triangles which can be formed using the vertices of a regular polygon of n sides. If $${T_{n + 1}} - {T_n} = 21$$, then n equals",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_021",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How many different nine digit numbers can be formed from the number 223355888 by rearranging its digits so that the odd digits occupy even positions?",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "16",
+      "36",
+      "60",
+      "180"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_022",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A five-digit numbers divisible by 3 is to be formed using the numerals 0, 1, 2, 3, 4 and 5, without repetition. The total number of ways this can be done is",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "216",
+      "240",
+      "600",
+      "3125"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_023",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Eight chairs are numbered 1 to 8. Two women and three men wish to occupy one chair each. First the women choose the chairs from amongst the chairs marked 1 to 4; and then the men select the chairs from amongst the remaining. The number of possible arrangements is",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${}^6{C_3} \\times {}^4{C_2}$$",
+      "$${}^4{P_2} \\times {}^4{P_3}$$",
+      "$${}^4{C_2} \\times {}^4{P_3}$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_024",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ten different letters of an alphabet are given. Words with five letters are formed from these given letters. Then the numbers of words which have at least one letter repeated are",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "69760",
+      "30240",
+      "99748",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_025",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of the expression $$\\,{}^{47}{C_4} + \\sum\\limits_{j = 1}^5 {^{52 - j}\\,{C_3}} $$ is equal to",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${}^{47}{C_5}$$",
+      "$${}^{52}{C_5}$$",
+      "$${}^{52}{C_4}$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_026",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${}^n{C_{r - 1}} = 36,{}^n{C_r} = 84\\,\\,and\\,\\,{}^n{C_{r + 1}} = 126$$, then r is :",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_027",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of ways to distribute **10** identical red pens and **14** identical blue pens among four persons such that each person gets **6** pens, is ______________.",
+    "solution": "We have to distribute 10 identical red pens and 14 identical blue pens among four persons so that each person gets 6 pens in total.\nFor every possible way of giving out the red pens, the blue pens will automatically be distributed, because the total number of pens each person receives is fixed at 6. Hence, we only need to count the number of ways to distribute the red pens.\nLet the number of red pens received by the four persons be $ x_1, x_2, x_3, x_4 $. Then,\n$$ x_1 + x_2 + x_3 + x_4 = 10 $$\nand since each person can receive a maximum of 6 pens, $ 0 \\leq x_i \\leq 6 $.\nThe number of non-negative integer solutions to the equation $ x_1+x_2+x_3+x_4=10 $ with $ x_i \\le 6 $ can be obtained by finding the coefficient of $ x^{10} $ in the expansion of $ (1+x+x^2+\\ldots+x^6)^4 $.\nWe know that:\n$$ (1+x+x^2+\\ldots+x^6) = \\frac{1-x^7}{1-x} $$\nTherefore,\n$$ (1+x+x^2+\\ldots+x^6)^4 = \\left( \\frac{1-x^7}{1-x} \\right)^4 = (1-x^7)^4(1-x)^{-4} $$\nNow, we need the coefficient of $ x^{10} $ in this expansion. Expanding $ (1-x^7)^4 $, we get:\n$$ (1-x^7)^4 = 1 - 4x^7 + \\ldots $$\nThus, the required coefficient of $ x^{10} $ is:\n$$ \\text{Coeff. of } x^{10} \\text{ in } (1-x)^{-4} - 4 \\times \\text{Coeff. of } x^{3} \\text{ in } (1-x)^{-4} $$\nWe know that the coefficient of $ x^r $ in $ (1-x)^{-n} $ is $ {^{n+r-1}C_{r}} $. Hence,\n$$ {^{13}C_3} - 4 \\times {^{6}C_3} = 286 - 80 = 206 $$\n**Therefore, the total number of ways = 206.**",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mfqo4lxa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_028",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the set of all relations $R$ on the set $\\{a, b, c, d, e, f\\}$, such that $R$ is reflexive and symmetric, and $R$ contains exactly $10$ elements, be denoted by $\\mathcal{S}$.Then the number of elements in $\\mathcal{S}$ is ________________.",
+    "solution": "[Diagram]\n\nProblem restated: Let $R$ be a relation on $X = \\{a,b,c,d,e,f\\}$.\nWe want $R$ to be reflexive and symmetric, and contain exactly 10 elements.\nLet $\\mathcal{S} = \\{R : R \\text{ satisfies this}\\}$. Find $|\\mathcal{S}|$.\n\nStep 1. Size of the universe\n$|X| = 6$.\nSo $X \\times X$ has $36$ ordered pairs.\n\nStep 2. Reflexivity\nReflexive means we must include all $(x,x)$ pairs.\nSo there are 6 forced elements.\nSo any reflexive relation on $X$ automatically contains:\n$ \\{(a,a),(b,b),(c,c),(d,d),(e,e),(f,f)\\}. $\nSo our reflexive relation starts with 6 elements.\n\nStep 3. Symmetry\nFor off-diagonal elements:\nIf we include $(x,y)$ (for $x\neq y$), we must also include $(y,x)$.\nSo these off-diagonal pairs come in symmetric pairs (each of size 2).\nThere are $\\binom{6}{2} = 15$ distinct unordered pairs $\\{x,y\\}$, each would correspond to either including both $(x,y)$ and $(y,x)$, or excluding both. So think of them as independent choices.\n\nStep 4. Required size\nTotal size should be 10.\nWe already have 6 diagonal pairs.\nSo we need 4 more pairs.\nBut each symmetric pair contributes 2 elements.\nSo to get 4 additional, we must include exactly 2 symmetric pairs.\n\nStep 5. Counting\nNumber of unordered pairs = 15.\nWe must choose 2 of them to include.\nSo total = $\\binom{15}{2} = 105$.\n\nFinal Answer:\n$ |\\mathcal{S}| = \\boxed{105} $",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mfqo4lxa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_029",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S$ be the set of all seven-digit numbers that can be formed using the digits $0, 1$ and $2$. For example, $2210222$ is in $S$, but $0210222$ is **NOT** in $S$.Then the number of elements $x$ in $S$ such that at least one of the digits $0$ and $1$ appears exactly twice in $x$, is equal to ____________.",
+    "solution": "$$|a-b| \\geq 2 \\text { or }|b-a|=2$$\nTotal\n$$\\begin{array}{lll}\na=1 & b=3,4,5,6 & 8 \\\\\na=2 & b=4,5,6 & 6 \\\\\na=3 & b=5,6 & 4 \\\\\na=4 & b=6 & 2 \\\\\n\\text { sum }=20\n\\end{array}\\begin{aligned}\n& \\mathrm{n}(\\mathrm{X})={ }^{20} \\mathrm{C}_6={ }^{\\mathrm{m}} \\mathrm{C}_6 \\\\\n& \\mathrm{~m}=20\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_030",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $n(X)={ }^m C_6$, then the value of $m$ is _____",
+    "solution": "$$|a-b| \\geq 2 \\text { or }|b-a|=2$$\nTotal\n$$\\begin{array}{lll}\na=1 & b=3,4,5,6 & 8 \\\\\na=2 & b=4,5,6 & 6 \\\\\na=3 & b=5,6 & 4 \\\\\na=4 & b=6 & 2 \\\\\n\\text { sum }=20\n\\end{array}\\begin{aligned}\n& \\mathrm{n}(\\mathrm{X})={ }^{20} \\mathrm{C}_6={ }^{\\mathrm{m}} \\mathrm{C}_6 \\\\\n& \\mathrm{~m}=20\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_031",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the value of $n(Y)+n(Z)$ is $k^2$, then $|k|$ is _________.",
+    "solution": "given $$|a-b| \\geq 2$$ so if\n\n[Diagram]\n\ni.e. Total elements in X is $${ }^{20} \\mathrm{C}_6$$\nNow for $$\\mathrm{n}(\\mathrm{Y})$$, range of R has exactly one element i.e. second elements must be constant in R and since R must have 6 element so it is not possible to satisfy both condition so $$\\mathrm{n}(\\mathrm{Y})=0$$.\n$$\\begin{aligned}\n\\text { for } \\quad \\mathrm{n}(\\mathrm{z}) \\quad & 1 \\rightarrow 3,4,5,6 \\\\\n& 2 \\rightarrow 4,5,6 \\\\\n& 3 \\rightarrow 1,5,6 \\\\\n& 4 \\rightarrow 1,2,6 \\\\\n& 5 \\rightarrow 1,2,3 \\\\\n& 6 \\rightarrow 1,2,3,4\n\\end{aligned}$$\nno. of relation that are function will be\n$$\\begin{aligned}\n& ={ }^4 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^4 \\mathrm{C}_1 \\\\\n& =(4 \\times 3 \\times 3)^2=\\mathrm{k}^2 \\\\\n& \\text { i.e. } \\mathrm{k}=36\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzeat597.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_032",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A group of 9 students, $s_1, s_2, \\ldots, s_9$, is to be divided to form three teams $X, Y$, and $Z$ of sizes 2,3 , and 4 , respectively. Suppose that $s_1$ cannot be selected for the team $X$, and $s_2$ cannot be selected for the team $Y$. Then the number of ways to form such teams, is ____________.",
+    "solution": "$$\\matrix{\nx & y & z \\cr\n2 & 3 & 4 \\cr\n{{{\\overline S }_1}} & {{{\\overline S }_2}} & {} \\cr\n\n}$$\nC-i) When x does not contain S$$_1$$, but contains S$$_2\\mathop {{}^7{C_1}}\\limits_{for\\,x} \\times \\mathop {{{7!} \\over {3!4!}}}\\limits_{for\\,y,z} = 245$$\nC-ii) When x does not contain $$\\mathrm{S}_1, \\mathrm{~S}_2$$ and y does not contain $$\\mathrm{S}_2$$\ni.e. $$\\mathop {{}^7{C_2}}\\limits_{for\\,x} \\times \\mathop {{{6!} \\over {3!3!}}}\\limits_{for\\,y,z} = 420$$\nso total No. of ways 665",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_033",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of 4-digit integers in the closed interval [2022, 4482] formed by using the digits $$0,2,3,4,6,7$$ is _________.",
+    "solution": "[Diagram]\n\nThis is a 4-digit integer whose 0th digit called D, 10th digit called C, 100th digit called B and 1000th digit called A.\nGiven range for possible number is 2022 to 4482.\nSo, position A can have digits 2, 3 or 4.\n0, 6 and 7 can't put in A as number starts with 0, 6 or 7 don't fall in the range between 2022 to 4482.\nSo, Position A can be filled with 2, 3 or 4 in $${}^3{C_1} = 3$$ ways.\nPosition B can be filled by one of 0, 2, 3, 4, 6, 7\nSo, total possible ways for position B = $${}^6{C_1} = 6$$ ways\nSimilarly, Position C can be filled in $${}^6{C_1} = 6$$ ways\nPosition D can be filled in $${}^6{C_1} = 6$$ ways\n$$\\therefore$$ Total possible integer numbers starting with 2 or 3 or 4\n$$ = 3 \\times 6 \\times 6 \\times 6 = 3 \\times 216 = 648$$\nNow lets find those numbers which starts with 2 and 4 but don't fall in the range between 2022 to 4482.\nSituation 1 :\n\n[Diagram]\n\n$$\\therefore$$ Total possible numbers starting with 200 are = 6\nSituation 2 :\n\n[Diagram]\n\n$$\\therefore$$ Total possible number in this case = 1\nSituation 3 :\n\n[Diagram]\n\n$$\\therefore$$ Total numbers in this case $$ = 2 \\times 6 \\times 6 = 72\\therefore$$ Total number that don't fall in the range 2022 to 4482 which starts with 2 or 4 are\n$$= 6 + 1 + 72 = 79\\therefore$$ Total numbers falls in the range 2022 to 4482\n$$=648-79=569$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7upxhsu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_permutations_combinations_034",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An engineer is required to visit a factory for exactly four days during the first 15 days of every month and it is mandatory that no two visits take place on consecutive days. Then the number of all possible ways in which such visits to the factory can be made by the engineer during 1-15 June 2021 is ...........",
+    "solution": "Let the engineer visits the factory first time after x$_{1}$ days to 1 June, second time after x$_{2}$ days to first visit and so on.\n\n$$ \\therefore $$ x$_{1}$ + x$_{2}$ + x$_{3}$ + x$_{4}$ + x$_{5}$ = 11\n\nwhere x$_{1}$, x$_{5}$ $$ \\ge $$ 0 and x$_{2}$, x$_{3}$, x$_{4}$ $$ \\ge $$ 1 according to the requirement of the question.\n\nNow, let x$_{2}$ = a + 1, x$_{3}$ = b + 1 and x$_{4}$ = c + 1 where a, b, c $$ \\ge $$ 0\n\n$$ \\therefore $$ New equation will be\n\nx$_{1}$ + a + b + c + x$_{5}$ = 8\n\nNow, the number of all possible ways in which the engineer can made visits is equals to the non-negative integral solution of equation\n\nx$_{1}$ + a + b + c + x$_{5}$ = 8, and it is equal to\n\n$${}^{8 + 5 - 1}{C_{5 - 1}} = {}^{12}{C_4} = {{12 \\times 11 \\times 10 \\times 9} \\over {4 \\times 3 \\times 2}} = 495$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_035",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a hotel, four rooms are available. Six persons are to be accommodated in these four rooms in such a way that each of these rooms contains at least one person and at most two persons. Then the number of all possible ways in which this can be done is ..........",
+    "solution": "The groups of persons can be made only in 2, 2, 1, 1\n\n$$ \\therefore $$ So the number of required ways is equal to number of ways to distribute the 6 distinct objects in group sizes 1, 1, 2 and 2\n\n= $$\\eqalign{\n& {{6!} \\over {{{(2!)}^2}{{(1!)}^2}(2!)(2!)}}(4!) \\cr\n& = 360 \\times 3 = 1080 \\cr} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_036",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let |X| denote the number of elements in a set X. Let S = {1, 2, 3, 4, 5, 6} be a sample space, where each element is equally likely to occur. If A and B are independent events associated with S, then the number of ordered pairs (A, B) such that 1 $$ \\le $$ |B| < |A|, equals .............",
+    "solution": "Given sample space S = {1, 2, 3, 4, 5, 6} and let there are i elements in set A and j elements in set B.\n\nNow, according to information 1 $$ \\le $$ j < i $$ \\le $$ 6.\n\nWhen number of element in set B = 1 then number of elements in set A can be 2 or 3 or 4 or 5 or 6. Number of such pairs of A and B in this case\n\n= $^{6}$C$_{1}$[$^{6}$C$_{2}$ + $^{6}$C$_{3}$ + $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\nWhen number of element in set B = 2 then number of elements in set A can be 3 or 4 or 5 or 6. Number of such pairs of A and B in this case\n\n= $^{6}$C$_{2}$[ $^{6}$C$_{3}$ + $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\nWhen number of element in set B = 3 then number of elements in set A can be 4 or 5 or 6. Number of such pairs of A and B in this case\n\n= $^{6}$C$_{3}$[ $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\nWhen number of element in set B = 4 then number of elements in set A can be 5 or 6. Number of such pairs of A and B in this case\n\n= $^{6}$C$_{4}$[ $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\nWhen number of element in set B = 5 then number of elements in set A can be 6. Number of such pairs of A and B in this case\n\n= $^{6}$C$_{5}$[ $^{6}$C$_{6}$]\n\nSo, total number of ways of choosing sets A and B\n\n=\n$^{6}$C$_{1}$[$^{6}$C$_{2}$ + $^{6}$C$_{3}$ + $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\n+ $^{6}$C$_{2}$[ $^{6}$C$_{3}$ + $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\n+ $^{6}$C$_{3}$[ $^{6}$C$_{4}$ + $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\n+ $^{6}$C$_{4}$[ $^{6}$C$_{5}$ + $^{6}$C$_{6}$]\n\n+ $^{6}$C$_{5}$[ $^{6}$C$_{6}$]\n\n= Sum of all possible products of two terms from\n\n$^{6}$C$_{1}$, $^{6}$C$_{2}$, $^{6}$C$_{3}$, ......., $^{6}$C$_{6}$ = p(Assume)\n\nNow we know,\n\n($^{6}$C$_{1}$ + $^{6}$C$_{2}$ + .....+ $^{6}$C$_{6}$)$^{2}$\n\n= [ ($^{6}$C$_{1}$)$^{2}$ + ($^{6}$C$_{2}$)$^{2}$+ ....+ ($^{6}$C$_{6}$)$^{2}$] + 2[$^{6}$C$_{1}$$^{6}$C$_{2}$ + $^{6}$C$_{1}$$^{6}$C$_{3}$ + ... +$^{6}$C$_{1}$$^{6}$C$_{6}$\n\n+ $^{6}$C$_{2}$$^{6}$C$_{3}$ + $^{6}$C$_{2}$$^{6}$C$_{4}$ + ... +$^{6}$C$_{2}$$^{6}$C$_{6}$+ ....+ $^{6}$C$_{5}$$^{6}$C$_{6}$]\n\n$$ \\Rightarrow $$ ($^{6}$C$_{1}$ + $^{6}$C$_{2}$ + .....+ $^{6}$C$_{6}$)$^{2}$\n\n= [ ($^{6}$C$_{1}$)$^{2}$ + ($^{6}$C$_{2}$)$^{2}$+ ....+ ($^{6}$C$_{6}$)$^{2}$] + 2(p)\n\n$$ \\Rightarrow $$ (2$^{6}$ - $^{6}$C$_{0}$)$^{2}$ = [ $^{12}$C$_{6}$ - ($^{6}$C$_{0}$)$^{2}$ ] + 2p\n\n$$ \\Rightarrow $$ p $$ = {{{{({2^6} - 1)}^2} - ({}^{12}{C_6} - 1)} \\over 2} = {{{{(63)}^2} - {{12!} \\over {6!6!}} + 1} \\over 2} = {{3969 - 924 + 1} \\over 2} = {{3046} \\over 2} = 1523$$\n\n**Note :**\n\n($^{n}$C$_{0}$ + $^{n}$C$_{1}$ + .....+ $^{n}$C$_{n}$)$^{2}$\n\n= ($^{n}$C$_{0}$)$^{2}$ + ($^{n}$C$_{1}$)$^{2}$+ ....+ ($^{n}$C$_{n}$)$^{2}$ + 2[ $^{n}$C$_{0}$$^{n}$C$_{1}$ + $^{n}$C$_{0}$$^{n}$C$_{2}$ + ... +$^{n}$C$_{0}$$^{n}$C$_{n}$\n\n+ $^{n}$C$_{1}$$^{n}$C$_{2}$ + $^{n}$C$_{1}$$^{n}$C$_{3}$ + ... + $^{n}$C$_{1}$$^{n}$C$_{n}$\n\n+ $^{n}$C$_{2}$$^{n}$C$_{3}$ + $^{n}$C$_{2}$$^{n}$C$_{4}$ + ... +$^{n}$C$_{2}$$^{n}$C$_{n}$+ ....+ $^{n}$C$_{n - 1}$$^{n}$C$_{n}$]\n\n$$ \\Rightarrow $$ (2$^{n}$)$^{2}$ = $^{2n}$C$_{n}$ + 2(Sum of all possible products of two terms from\n\n$^{n}$C$_{1}$, $^{n}$C$_{2}$, $^{n}$C$_{3}$, ......., $^{n}$C$_{n}$)",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_037",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Five persons A, B, C, D and E are seated in a circular arrangement. If each of them is given a hat of one of the three colours red, blue and green, then the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats is ............",
+    "solution": "Given that no two persons sitting adjacent have hats of\nsame colour. Also, hats of different colour cannot be\nused in 1 + 1 + 3 combination because any three hats\ncannot be of same colour.So, only possible combination due to circular arrangement is 2 + 2 + 1.So, there are following three cases of selecting hats are\n\n2R + 2B + 1G or 2B + 2G + 1R or 2G + 2R + 1B.\n\nTo distribute these 5 hats first we will select a person which we can done in $${{}^5{C_1}}$$ ways and distribute that hat which is one of it's colour. And, now the remaining four hats can be distributed in two ways. So, total ways will be 3 $$ \\times {{}^5{C_1}} \\times $$ 2 = 3 $$ \\times $$ 5 $$ \\times $$ 2 = 30",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_038",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of 5 digit numbers which are divisible by 4, with digits from the set {1, 2, 3, 4, 5} and the repetition of digits is allowed, is .................",
+    "solution": "A number is divisible by 4 if last 2 digit number is divisible by 4.\n\n$$ \\therefore $$ Last two digit number divisible by 4 from (1, 2, 3, 4, 5) are 12, 24, 32, 44, 52\n\n$$ \\therefore $$ The number of 5 digit number which are divisible by 4, from the digit (1, 2, 3, 4, 5) and digit is repeated is 5 $$ \\times $$ 5 $$ \\times $$ 5 $$ \\times $$ (5 $$ \\times $$ 1) = 625",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_039",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Words of length 10 are formed using the letters A, B, C, D, E, F, G, H, I, J. Let x be the number of such words where no letter is repeated; and let y be the number of such words where exactly one letter is repeated twice and no other letter is repeated. Then, $${y \\over {9x}}$$ = ?",
+    "solution": "The given, formed word is of length 10.\nIt is given that x is the number of words where no letter is repeated.\nAlso, it is given that y is the number of words where exactly one letter is repeated twice and no other letter is repeated. Therefore,\nx = 10!\nand y = $^{10}$C$_{1}$ $$\\times$$ $^{10}$C$_{2}$ $$\\times$$ $^{9}$C$_{8}$ $$\\times$$ 8!\nThus, $${y \\over {9x}} = {{{}^{10}{C_1} \\times {}^{10}{C_2} \\times {}^9{C_8} \\times 8!} \\over {9 \\times 10!}}$$\nUsing $${}^n{C_r} = {{n!} \\over {r!(n - r)!}}$$, we get\n$${y \\over {9x}} = {{\\left[ {{{10!} \\over {1!(10 - 1)!}} \\times {{10!} \\over {2!(10 - 2)!}} \\times {{9!} \\over {8!(9 - 8)!}} \\times 8!} \\right]} \\over {9 \\times 10!}} = {{10!} \\over {9 \\times 2!\\, \\times 8!}} = {{10 \\times 9 \\times 8!} \\over {9 \\times 2 \\times 8!}} = {{10} \\over 2} = 5$$ [Using $$n! = n(n - 1)(n - 2)......1!$$]",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_040",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let n be the number of ways in which 5 boys and 5 girls can stand in a queue in such a way that all the girls stand consecutively in the queue. Let m be the number of ways in which 5 boys and 5 girls can stand in a queue in such a way that exactly four girls stand consecutively in the queue. Then the value of $${m \\over n}$$ is",
+    "solution": "Given: 5 boys and 5 girls\n\n$n=$ number of ways of arranging them in a queue such that all the girls stand consecutively.\n\nLet us consider 5 girls as one set\n\nSo, we have to arrange 5 boys and one set of girls. They can be arranged in 6 ! ways.\n\nAlso, the girls in the set can be arranged in 5 ! ways\n\nSo, total number of ways $=6 ! \\times 5!$\n\n$$\n\\Rightarrow n=6 ! \\times 5 !\n$$\n\nNow, $m=$ number of ways of arranging them in a queue, such that exactly four girls stand consecutively.\n\n$\\because$ Exactly four girls can stand together so the remaining one girl must not stand consecutively with four girls.\n\nLet us consider 2 cases:\n\n**Case I** : The set of four girls is at the corner. Firstly, four girls are selected out of five girls in ${ }^5 \\mathrm{C}_4$ ways. These girls are arranged in 4 ! ways.\n\nAlso, these girls can be placed in any of the two corners and the remaining one girl cannot stand next to the set of girls placed at the corner. So, the $5^{\\text {th }}$ girl can stand at (7-1-1 = 5 ways) And the boys can be arranged in 5 ! ways.\n\n$$\n\\begin{aligned}\n\\text {So, number of ways } & =4 ! \\times 2 \\times{ }^5 \\mathrm{C}_4 \\times 5 ! \\times 5 \\\\\\\\\n& =2 \\times 5 \\times 5 ! \\times 5 !\n\\end{aligned}\n$$\n\n**Case II**: The set of four girls are not placed at the corner.\n\nSo, four girls can be selected and arranged among themselves in ${ }^5 C_4 \\times 4 !=5$ ! ways\nThese girls are not at the corner so they can be arranged at 5 places.\n\nThe $5^{\\text {th }}$ girl can stand at $7-2-1=4$ ways. $\\{$ As she cannot stand at places near the set of four girls $\\}$ and the boys can be arranged in 5 ! ways.\n\nSo, number of ways $=5 ! \\times 5 \\times 5 \\times 4 \\times 5!$\n\n$$\n\\begin{aligned}\n\\Rightarrow m & =(2 \\times 5 \\times 5 ! \\times 5 !)+(5 \\times 4 \\times 5 ! \\times 5 !) \\\\\\\\\n& =5 ! \\times 5 !(10+20) \\\\\\\\\n& =30 \\times 5 ! \\times 5 ! \\\\\\\\\n\\therefore \\frac{m}{n} & =\\frac{30 \\times 5 ! \\times 5 !}{6 ! \\times 5 !} \\\\\\\\\n\\Rightarrow \\frac{m}{n} & \\left.=\\frac{30 \\times 5 !}{6 \\times 5 !} \\quad \\quad \\because n !=n(n-1) !\\right. \\\\\\\\\n\\Rightarrow \\frac{m}{n} & =5\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_041",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${n \\ge 2}$$ be an integer. Take n distinct points on a circle and join each pair of points by a line segment. Colour the line segment joining every pair of adjacent points by blue and the rest by red. If the number of red and blue line segments are equal, then the value of n is",
+    "solution": "Number of blue lines $=n=$ number of sides of polygon so formed.\n\nNumber of red lines $={ }^n C_2-n$.\n\nThus, by joining $n$ points (not more than 2 on a line) there are ${ }^n C_2$ lines formed because for each line two points are required.\n\nAlso, red lines come after excluding sides of polygon.\n\nTherefore, $n={ }^n C_2-n$\n\nor ${ }^n C_2=2 n$\n\n$\\frac{n(n-1)}{2}=2 n$\n\nor $n-1=4 (\\because n\neq 0)$\n\n$\\therefore n=5$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_042",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${n_1}\\, < {n_2}\\, < \\,{n_3}\\, < \\,{n_4}\\, < {n_5}$$ be positive integers such that $${n_1}\\, + {n_2}\\, + \\,{n_3}\\, + \\,{n_4}\\, + {n_5}$$ = 20. Then the number of such destinct arrangements $$\\,({n_1}\\,,\\,{n_2},\\,\\,{n_3},\\,\\,{n_4}\\,,{n_5})$$ is",
+    "solution": "As, $n_1 \\geq 1, n_2 \\geq 2, n_3 \\geq 3, n_4 \\geq 4, n_5 \\geq 5$\n\nLet $n_1-1=x_1 \\geq 0, n_2-2=x_2 \\geq 0, \\ldots$,\n$n_5-5=x_5 \\geq 0$\n\n$\\Rightarrow$ New equation will be\n\n$$\n\\begin{gathered}\nx_1+1+x_2+2+\\ldots+x_5+5=20\n\\end{gathered}\n$$\n\n$\\begin{array}{r}\\Rightarrow x_1+x_2+x_3+x_4+x_5 =20-15=5\\end{array}$\n\nNow, $ x_1 \\leq x_2 \\leq x_3 \\leq x_4 \\leq x_5$\n\nSo the cases can be listed giving -\n\n$$\n\\begin{array}{c|c|c|c|c}\n\\hline \\boldsymbol{x}_{\\boldsymbol{1}} & \\boldsymbol{x}_{\\mathbf{2}} & \\boldsymbol{x}_{\\mathbf{3}} & \\boldsymbol{x}_{\\mathbf{4}} & \\boldsymbol{x}_{\\mathbf{5}} \\\\\n\\hline 0 & 0 & 0 & 0 & 5 \\\\\\hline\n0 & 0 & 0 & 1 & 4 \\\\\\hline\n0 & 0 & 0 & 2 & 3 \\\\\\hline\n0 & 0 & 1 & 1 & 3 \\\\\\hline\n0 & 0 & 1 & 2 & 2 \\\\\\hline\n0 & 1 & 1 & 1 & 2 \\\\\\hline\n1 & 1 & 1 & 1 & 1 \\\\\n\\hline\n\\end{array}\n$$\n\nSo there are 7 distinct arrangements.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_043",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the set of eight vectors $$V = \\left\\{ {a\\,\\hat i + b\\,\\hat j + c\\hat k:a,\\,b,\\,c\\, \\in \\left\\{ { - 1,\\,1} \\right\\}} \\right\\}$$. Three non-coplanar vectors can be chosen from v in $${2^p}$$ ways. Then p is",
+    "solution": "Given, the set of eight vectors\n$$\\mathrm{V}=\\{a \\hat{i}+b \\hat{j}+c \\hat{k}: a, b, c \\in\\{-1,1\\}\\} .$$\nNow, the eight vectors are $$\\hat{i}+\\hat{j}+\\hat{k}, \\hat{i}+\\hat{j}-\\hat{k}$$,\n$$\\begin{aligned}\n& \\hat{i}-\\hat{j}+\\hat{k},-\\hat{i}+\\hat{j}+\\hat{k}, \\hat{i}-\\hat{j}-\\hat{k}, \\\\\n& -\\hat{i}+\\hat{j}-\\hat{k},-\\hat{i}-\\hat{j}+\\hat{k} \\text { and }-\\hat{i}-\\hat{j}-\\hat{k} .\n\\end{aligned}$$\nHere, $$\\hat{i}+\\hat{j}+\\hat{k}$$ and $$-\\hat{i}-\\hat{j}-\\hat{k}, \\hat{i}+\\hat{j}-\\hat{k}$$ and $$-\\hat{i}-\\hat{j}+\\hat{k}, \\hat{i}-\\hat{j}+\\hat{k}$$ and $$-\\hat{i}+\\hat{j}-\\hat{k},-\\hat{i}+\\hat{j}+\\hat{k}$$ and $$\\hat{i}-\\hat{j}-\\hat{k}$$ are collinear vectors.\n$$\\begin{aligned}\n\\text{Let} \\quad & \\mathrm{S}_1=\\{\\hat{i}+\\hat{j}+\\hat{k},-\\hat{i}-\\hat{j}-\\hat{k}\\}, \\\\\n& \\mathrm{S}_2=\\{\\hat{i}+\\hat{j}-\\hat{k},-\\hat{i}-\\hat{j}+\\hat{k}\\}, \\\\\n& \\mathrm{S}_3=\\{\\hat{i}-\\hat{j}+\\hat{k},-\\hat{i}+\\hat{j}-\\hat{k}\\} \\text { and } \\\\\n& \\mathrm{S}_4=\\{-\\hat{i}+\\hat{j}+\\hat{k}, \\hat{i}-\\hat{j}-\\hat{k}\\}\n\\end{aligned}$$\nFor the set of three non - coplanar vector, we have to select three set out of $$\\mathrm{S}_1, \\mathrm{~S}_2, \\mathrm{~S}_3, \\mathrm{~S}_4$$ and select one vector in every selected set of $$\\mathrm{S_1, S_2}, \\mathrm{S}_3, \\mathrm{~S}_4\\begin{aligned}\n& \\Rightarrow{ }^4 C_3 \\cdot{ }^2 C_1 \\cdot{ }^2 C_1{ }^2 C_1=2^p \\\\\n& \\Rightarrow \\quad 4.2 .2 .2=2^p \\\\\n& \\Rightarrow \\quad 2^5=2^p \\\\\n& \\Rightarrow \\quad p=5 \\\\\n\\end{aligned}$$\nHints :\nRecall that $$\\hat{i}+\\hat{j}+\\hat{k}$$ and $$-\\hat{i}-\\hat{j}-\\hat{k}, \\hat{i}+\\hat{j}-\\hat{k}$$ and $$-\\hat{i}-\\hat{j}+\\hat{k}, \\hat{i}-\\hat{j}+\\hat{k}$$ and $$-\\hat{i}+\\hat{j}-\\hat{k},-\\hat{i}+\\hat{j}+\\hat{k}$$ and $$\\hat{i}-\\hat{j}-\\hat{k}$$ are collinear vectors.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_044",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\left( {x,\\,y,\\,z} \\right)$$ be points with integer coordinates satisfying the system of homogeneous equation:\n$$$\\matrix{\n{3x - y - z = 0} \\cr\n{ - 3x + z = 0} \\cr\n{ - 3x + 2y + z = 0} \\cr\n\n} $$$\nThen the number of such points for which $$x^2 + {y^2} + {z^2} \\le 100$$ is",
+    "solution": "To solve this problem, we need to find the integer points $$\\left( {x,\\,y,\\,z} \\right)$$ that satisfy the given system of homogeneous equations:\n\n$$\\matrix{ {3x - y - z = 0} \\cr { - 3x + z = 0} \\cr { - 3x + 2y + z = 0} \\cr }$$\n\nFirstly, let’s solve for $$z$$ in terms of $$x$$ from the second equation:\n\n$$ - 3x + z = 0 \\Rightarrow z = 3x $$\n\nNext, substitute $$z = 3x$$ into the first equation:\n\n$$ 3x - y - 3x = 0 \\Rightarrow -y = 0 \\Rightarrow y = 0 $$\n\nWith $$y = 0$$ and $$z = 3x$$, the third equation also should be satisfied. Let's substitute $$y$$ and $$z$$ back into the third equation to verify:\n\n$$ - 3x + 2y + z = 0 \\Rightarrow - 3x + 2(0) + 3x = 0 $$\n\nThis equation holds true, confirming that the solutions for $$y$$ and $$z$$ remain consistent. Therefore, the points that satisfy the given system are of the form:\n\n$$\\left( x,\\,0,\\,3x \\right)$$\n\nAdditionally, we need $$x^2 + y^2 + z^2 \\le 100$$. Substituting $$y = 0$$ and $$z = 3x$$, we get:\n\n$$ x^2 + 0^2 + (3x)^2 \\le 100 $$\n\nThis further simplifies to:\n\n$$ x^2 + 9x^2 \\le 100 10x^2 \\le 100 x^2 \\le 10 $$\n\nHence, $$ -\\sqrt{10} \\le x \\le \\sqrt{10} $$\n\nSince $$x$$ must be an integer, we evaluate acceptable values for $$x$$:\n\n$$x \\in \\{-3,\\,-2,\\,-1,\\,0,\\,1,\\,2,\\,3\\}$$\n\nFor each of these values, let’s determine the corresponding points $$\\left( x,\\,0,\\,3x \\right)$$:\n\n$$( -3,\\,0,\\,-9 )( -2,\\,0,\\,-6 )( -1,\\,0,\\,-3 )( 0,\\,0,\\,0 )( 1,\\,0,\\,3 )( 2,\\,0,\\,6 )( 3,\\,0,\\,9 )$$\n\nThus, there are a total of 7 such points.\n\nTherefore, the number of integer-coordinate points $$\\left( x,\\,y,\\,z \\right)$$ satisfying the given system of equations and the condition $$x^2 + y^2 + z^2 \\le 100$$ is 7.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_045",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An n-digit number is a positive number with exactly digits. Nine hundred distinct n-digit numbers are to be formed using only the three digits 2, 5 and 7. The smallest value of n for which this is possible is",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_046",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove by permulation or otherwise $${{({n^2})!} \\over {{{(n!)}^n}}}$$ is an integer $$(n \\in {1^ + })$$.",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_047",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A committee of 12 is to be formed from 9 women and 8 men. In how many ways this can be done if at least five women have to included in a committee? In how many of these committees? In how may of these committees\n\n(a) The women are in majority?\n\n(b) The men are in majority?",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_048",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Eighteen guests have to be seated, half on each side of a long table. Four particular guests desire to sit on one particular side and three others on the other side. Determine the number of ways in which the sitting arrangements can be made.",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_049",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains two white balls, three black balls and four red balls. In how many ways can three balls be drawn from the box if at least one black ball is to be included in the draw?",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_050",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "7 relatives of a man comprises 4 ladies and 3 gentlemen ; his wife has also 7 relatives ; 3 of them are ladies and 4 gentlemen. In how many ways can they invite a dinner party of 3 ladies and 3 gentlemen so that there are 3 of man's relatives and 3 of the wife's relatives?",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_051",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "m men and n women are to be seated in a row so that no two women sit together. If $$m > n$$, then show that the number of ways in which they can be seated is $$\\,{{m!(m + 1)!} \\over {(m - n + 1)!}}$$",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_052",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Five balls of different colours are to be placed in there boxes of different size. Each box can hold all five. In how many different ways can be place the balls so that no box remains emply?",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_053",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six X' s have to be placed in the squares of figure below in such a way that each row contains at least one X. In how many different ways can this be done.\n\n[Diagram]",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_054",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are four balls of different colours and four boxes of colours, same as those of the balls. The number of ways in which the balls, one each in a box, could be placed such that a ball does not go to a box of its own colour is.......................",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_055",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The side AB, BC and CA of a triangle ABC have 3, 4 and 5 interior points respectively on them. The number of triangles that can be constructed using these interior points as vertices is .......................",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_permutations_combinations_056",
+    "subject": "Mathematics",
+    "chapter": "Permutations & Combinations",
+    "topic": "Permutations & Combinations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a certain test, $${a_i}$$ students gave wrong answers to atleast i questions, where i = 1, 2,..., k. No student gave more than k wrong answers. The total number of wrong answers given is.....................................",
+    "solution": "Solution for this Permutations & Combinations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

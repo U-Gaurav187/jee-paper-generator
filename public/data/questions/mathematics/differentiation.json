@@ -1,0 +1,631 @@
+[
+  {
+    "id": "math_differentiation_001",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${{{d^2}x} \\over {d{y^2}}}$$ equals",
+    "solution": "Given, $$\\mathrm{F}^{\\prime}(x)=f^{\\prime}(x)\\quad \\text{.... (i)}$$\nAnd $$\\quad \\mathrm{F}(x)=\\int_0^{x^2} f(\\sqrt{t}) d t$$\nDifferentiate the equation (ii) w.r.t. $$x\\begin{aligned}\n& \\Rightarrow \\quad \\mathrm{F}^{\\prime}(x)=\\frac{d\\left(x^2\\right)}{d x} \\cdot f\\left(\\sqrt{x^2}\\right)-\\frac{d(0)}{d x} \\cdot f(\\sqrt{0}) \\\\\n& \\Rightarrow \\quad f^{\\prime}(x)=2 x \\cdot f(x)-0 \\\\\n& \\Rightarrow \\quad \\frac{d f(x)}{f(x)}=2 x d x \\\\\n& \\Rightarrow \\int \\frac{d f(x)}{f(x)}=\\int 2 x d x \\\\\n& \\Rightarrow \\ln f(x)=2 \\cdot \\frac{x^2}{2}+\\mathrm{C} \\\\\n& \\Rightarrow \\ln f(x)=x^2+\\mathrm{C} \\quad \\text{... (iii)}\n\\end{aligned}$$\nGiven, $$f(0)=1\\begin{array}{llrl}\n& \\therefore & \\ln (1) & =0^2+C \\\\\n& \\Rightarrow & 0 & =0+C \\\\\n\\Rightarrow & & C=0\n\\end{array}$$\nPut $$c=0$$ in the equation (iii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\ln f(x)=x^2 \\\\\n\\Rightarrow \\quad f(x) & =e^{x^2} \\\\\n\\Rightarrow \\quad f(\\sqrt{t}) & =e^t\n\\end{array}$$\nPut $$f(\\sqrt{t})=e^t$$ in the equation (ii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\mathrm{F}(x)=\\int_0^{x^2} e^t \\cdot d t \\\\\n\\Rightarrow & \\mathrm{F}(x)=\\left[e^t\\right]_0^{x^2} \\\\\n\\Rightarrow & \\mathrm{F}(x)=e^{x^2}-1\n\\end{array}$$\nPut $$\\quad x=2\\Rightarrow \\mathrm{F}(2)=e^4-1$$\nHint:\n(i) If $$y=\\int_{\\phi(x)}^{\\psi(x)} f(t) d t$$, then $$\\frac{d y}{d x}=\\frac{d \\psi(x)}{d x} \\cdot f(\\psi(x))-\\frac{d \\phi(x)}{d x} \\cdot f(\\phi(x))$$\n(ii) $$\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln (f(x))+c$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right)^{ - 1}}$$",
+      "$$ - {\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right)^{ - 1}}{\\left( {{{dy} \\over {dx}}} \\right)^{ - 3}}$$",
+      "$$\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right){\\left( {{{dy} \\over {dx}}} \\right)^{ - 2}}$$",
+      "$$ - \\left( {{{{d^2}y} \\over {d{x^2}}}} \\right){\\left( {{{dy} \\over {dx}}} \\right)^{ - 3}}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_002",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}$ denote the set of all real numbers. Consider the polynomial function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by\n$$ f(x)=\\frac{d^{10}}{d x^{10}}\\left(\\left(x^2-1\\right)^{10}\\right), \\quad \\text { for all } x \\in \\mathbb{R} $$\nHere $\\frac{d^{10}}{d x^{10}}\\left(\\left(x^2-1\\right)^{10}\\right)$ is the $10^{\\text {th }}$ order derivative of the function $\\left(x^2-1\\right)^{10}$.\nThen which of the following statements is (are) TRUE ?",
+    "solution": "Let us first expand the given function:\n$$ g(x) = (x^2 - 1)^{10} $$\nUsing the binomial theorem, we get:\n$$ g(x) = {^{10}C_0}x^{20} - {^{10}C_1}x^{18} + {^{10}C_2}x^{16} - \\cdots + (-1)^{10}{^{10}C_{10}} $$\nNow, the function is defined as:\n$$ f(x) = \\frac{d^{10}}{dx^{10}} \\left( (x^2 - 1)^{10} \\right) $$\nThis means we need to take the 10th derivative of each term of $ g(x) $. When we differentiate $ x^{20}, x^{18}, \\ldots $ ten times, their powers will reduce by 10 at each differentiation step. Hence:\n$$ f(x) = {^{10}C_0} (20 \\cdot 19 \\cdot \\ldots \\cdot 11)x^{10} - {^{10}C_1}(18 \\cdot 17 \\cdot \\ldots \\cdot 9)x^8 + {^{10}C_2}(16 \\cdot 15 \\cdot \\ldots \\cdot 7)x^6 - \\cdots - {^{10}C_5}(10 \\cdot 9 \\cdot 8 \\cdots 1) $$\n**(A)** The coefficient of $ x^8 $ is obtained from the second term:\n$$ \\text{Coefficient of } x^8 = (-1)^{1} {^{10}C_1} \\frac{18!}{8!} = (-10)\\left( \\frac{18!}{8!} \\right) $$\n**(B)** Since $ g(x) = (x^2 - 1)^{10} $ is an even function, its even-order derivatives (like the 10th derivative) are also even. Therefore,\n$$ f(1) = f(-1) $$\nThe sum can be written as:\n$$ \\begin{aligned} f(1) + f(-1) &= 2\\left[ \\frac{20!}{10!} - {^{10}C_1}\\frac{18!}{8!} + {^{10}C_2}\\frac{16!}{6!} - {^{10}C_3}\\frac{14!}{4!} + {^{10}C_4}\\frac{12!}{2!} - {^{10}C_5}(10!) \\right] \\\\ &= 2 \\times 10! \\left[ {^{10}C_0}{^{20}C_{10}} - {^{10}C_1}{^{18}C_{10}} + {^{10}C_2}{^{16}C_{10}} - {^{10}C_3}{^{14}C_{10}} + {^{10}C_4}{^{12}C_{10}} - {^{10}C_5}{^{10}C_{10}} \\right] \\end{aligned} $$\nThis expression equals twice the coefficient of $ x^{10} $ in $ ((1 + x)^2 - 1)^{10} $. Hence:\n$$ f(1) + f(-1) = 10! \\times 2^{11} $$\n**(C)** After differentiating $ (x^2 - 1)^{10} $ ten times, the highest power of $ x $ left is $ x^{10} $. Therefore,\n$$ \\text{Degree of } f(x) = 10 $$\n**(D)** The constant term comes from the last term where the power of $ x $ becomes zero after the 10th derivative, which is:\n$$ \\text{Constant term} = \\frac{ - (10!)^2 }{ 5! \\times 5! } $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The coefficient of $x^8$ in the polynomial $f(x)$ is $(-10)\\left( \\frac{18!}{8!} \\right)$",
+      "The value of $f(1) + f(-1)$ is equal to $10! \\cdot 2^{11}$",
+      "The degree of the polynomial $f(x)$ is $10$",
+      "The constant term of the polynomial $f(x)$ is $- \\left( \\frac{10!}{5!} \\right)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lvdssv64.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differentiation_003",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f\\left( \\theta \\right) = \\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {\\cos 2\\theta } }}} \\right)} \\right),$$ where $$ - {\\pi \\over 4} < \\theta < {\\pi \\over 4}.$$\nThen the value of $${d \\over {d\\left( {\\tan \\theta } \\right)}}\\left( {f\\left( \\theta \\right)} \\right)$$ is",
+    "solution": "$$\\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {\\cos 2\\theta } }}} \\right)} \\right)$$, where $$\\theta \\in \\left( { - {\\pi \\over 4},{\\pi \\over 4}} \\right)\\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {2{{\\cos }^2}\\theta - 1} }}} \\right)} \\right) = \\sin ({\\sin ^{ - 1}}(\\tan \\theta )) = \\tan \\theta {{d(\\tan \\theta )} \\over {d(\\tan \\theta )}} = 1$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_004",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable\n\nfunction such that $$\\left| {f\\left( x \\right)} \\right| \\le 1$$ and $$f'(x)=g(x).$$\n\nIf $${f^2}\\left( 0 \\right) + {g^2}\\left( 0 \\right) = 9.$$ Prove that there exists some $$c \\in \\left( { - 3,3} \\right)$$\n\nsuch that $$g(c).g''(c)<0.$$",
+    "solution": "$$f(x)$$ is differentiable function and $$g(x)$$ is double differentiable function.\nlet $$f(x) = {{{x^3}} \\over 3} + 9,g(x) = {x^2}f'(x) = {x^2}$$\nSo, the function satisfies the criteria $$f'(x) = g(x)$$\nAlso, the two function\n$${f^2}(0) = 0 + 9 = 9{g^2}(0) = 0 \\Rightarrow {f^2}(0) + {g^2}(0) = 9|f(x)| \\le 1 \\Rightarrow \\left| {{{{x^3}} \\over 3} + 9} \\right| \\le 1 \\Rightarrow - 1 \\le {{{x^3}} \\over 3} + 9 \\le 1 \\Rightarrow - 10 \\le {{{x^3}} \\over 3} \\le - 8 \\Rightarrow - 30 \\le {x^3} \\le - 24 \\Rightarrow {( - 30)^{{1 \\over 3}}} \\le x \\le {( - 24)^{{1 \\over 3}}} \\Rightarrow ( - 3.10) \\le x \\le - 2.88$$\nNow, $$g(c) = {c^2}g'(x) = 2xg''(x) = 2$$\nIt is given $$g(c).~g''(c) < 0\\Rightarrow 2c^2 < 0\\Rightarrow c < 0$$\nAs $$x$$ lies between $$-2.88$$ to $$-3.10$$\nSo, $$c$$ lies between $$[-3,3]$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_005",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$x{e^{xy}} = y + {\\sin ^2}x,$$ then at $$x = 0,{{dy} \\over {dx}} = ..............$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_006",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The derivative of an even function is always an odd function.",
+    "solution": "The statement \"The derivative of an even function is always an odd function\" is Option A: TRUE.\n\nTo understand why this is true, let's first define even and odd functions:\n\nAn even function is a function $ f(x) $ that satisfies the condition:\n\n$$ f(-x) = f(x) $$\n\nAn odd function is a function $ g(x) $ that satisfies the condition:\n\n$$ g(-x) = -g(x) $$\n\nNow, let's consider the derivative of an even function. Let $ f(x) $ be an even function, meaning:\n\n$$ f(-x) = f(x) $$\n\nWe want to find the derivative $ f'(x) $ and determine if it is odd. Using the definition of the derivative, we have:\n\n$$ f'(x) = \\lim_{{h \\to 0}} \\frac{f(x+h) - f(x)}{h} $$\n\nSince $ f(x) $ is even, we have:\n\n$$ f(x) = f(-x) $$\n\nTaking the derivative of both sides with respect to $ x $, we get:\n\n$$ f'(-x) \\cdot (-1) = f'(x) $$\n\nor\n\n$$ f'(-x) = -f'(x) $$\n\nThis shows that the derivative $ f'(x) $ satisfies the condition for being an odd function. Therefore, the derivative of an even function is indeed always an odd function.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_differentiation_007",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\,\\,\\,f\\left( x \\right) = 2 + \\cos x$$ for all real $$X$$.\n**STATEMENT - 1:** for eachreal $$t$$, there exists a point $$c$$ in $$\\left[ {t,t + \\pi } \\right]$$ such that $$f'\\left( c \\right) = 0$$ because\n\n**STATEMENT - 2:** $$f\\left( t \\right) = f\\left( {t + 2\\pi } \\right)$$ for each real $$t$$.",
+    "solution": "Given, $$\\mathrm{F}^{\\prime}(x)=f^{\\prime}(x)\\quad \\text{.... (i)}$$\nAnd $$\\quad \\mathrm{F}(x)=\\int_0^{x^2} f(\\sqrt{t}) d t$$\nDifferentiate the equation (ii) w.r.t. $$x\\begin{aligned}\n& \\Rightarrow \\quad \\mathrm{F}^{\\prime}(x)=\\frac{d\\left(x^2\\right)}{d x} \\cdot f\\left(\\sqrt{x^2}\\right)-\\frac{d(0)}{d x} \\cdot f(\\sqrt{0}) \\\\\n& \\Rightarrow \\quad f^{\\prime}(x)=2 x \\cdot f(x)-0 \\\\\n& \\Rightarrow \\quad \\frac{d f(x)}{f(x)}=2 x d x \\\\\n& \\Rightarrow \\int \\frac{d f(x)}{f(x)}=\\int 2 x d x \\\\\n& \\Rightarrow \\ln f(x)=2 \\cdot \\frac{x^2}{2}+\\mathrm{C} \\\\\n& \\Rightarrow \\ln f(x)=x^2+\\mathrm{C} \\quad \\text{... (iii)}\n\\end{aligned}$$\nGiven, $$f(0)=1\\begin{array}{llrl}\n& \\therefore & \\ln (1) & =0^2+C \\\\\n& \\Rightarrow & 0 & =0+C \\\\\n\\Rightarrow & & C=0\n\\end{array}$$\nPut $$c=0$$ in the equation (iii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\ln f(x)=x^2 \\\\\n\\Rightarrow \\quad f(x) & =e^{x^2} \\\\\n\\Rightarrow \\quad f(\\sqrt{t}) & =e^t\n\\end{array}$$\nPut $$f(\\sqrt{t})=e^t$$ in the equation (ii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\mathrm{F}(x)=\\int_0^{x^2} e^t \\cdot d t \\\\\n\\Rightarrow & \\mathrm{F}(x)=\\left[e^t\\right]_0^{x^2} \\\\\n\\Rightarrow & \\mathrm{F}(x)=e^{x^2}-1\n\\end{array}$$\nPut $$\\quad x=2\\Rightarrow \\mathrm{F}(2)=e^4-1$$\nHint:\n(i) If $$y=\\int_{\\phi(x)}^{\\psi(x)} f(t) d t$$, then $$\\frac{d y}{d x}=\\frac{d \\psi(x)}{d x} \\cdot f(\\psi(x))-\\frac{d \\phi(x)}{d x} \\cdot f(\\phi(x))$$\n(ii) $$\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln (f(x))+c$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True."
+    ]
+  },
+  {
+    "id": "math_differentiation_008",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:\\left[ {0,2} \\right] \\to R$$ be a function which is continuous on $$\\left[ {0,2} \\right]$$ and is differentiable on $$(0,2)$$ with $$f(0)=1$$. Let\n\n$$F\\left( x \\right) = \\int\\limits_0^{{x^2}} {f\\left( {\\sqrt t } \\right)dt} $$ for $$x \\in \\left[ {0,2} \\right]$$. If $$F'\\left( x \\right) = f'\\left( x \\right)$$ for all $$x \\in \\left[ {0,2} \\right]$$, then $$F(2)$$ equals",
+    "solution": "Given, $$\\mathrm{F}^{\\prime}(x)=f^{\\prime}(x)\\quad \\text{.... (i)}$$\nAnd $$\\quad \\mathrm{F}(x)=\\int_0^{x^2} f(\\sqrt{t}) d t$$\nDifferentiate the equation (ii) w.r.t. $$x\\begin{aligned}\n& \\Rightarrow \\quad \\mathrm{F}^{\\prime}(x)=\\frac{d\\left(x^2\\right)}{d x} \\cdot f\\left(\\sqrt{x^2}\\right)-\\frac{d(0)}{d x} \\cdot f(\\sqrt{0}) \\\\\n& \\Rightarrow \\quad f^{\\prime}(x)=2 x \\cdot f(x)-0 \\\\\n& \\Rightarrow \\quad \\frac{d f(x)}{f(x)}=2 x d x \\\\\n& \\Rightarrow \\int \\frac{d f(x)}{f(x)}=\\int 2 x d x \\\\\n& \\Rightarrow \\ln f(x)=2 \\cdot \\frac{x^2}{2}+\\mathrm{C} \\\\\n& \\Rightarrow \\ln f(x)=x^2+\\mathrm{C} \\quad \\text{... (iii)}\n\\end{aligned}$$\nGiven, $$f(0)=1\\begin{array}{llrl}\n& \\therefore & \\ln (1) & =0^2+C \\\\\n& \\Rightarrow & 0 & =0+C \\\\\n\\Rightarrow & & C=0\n\\end{array}$$\nPut $$c=0$$ in the equation (iii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\ln f(x)=x^2 \\\\\n\\Rightarrow \\quad f(x) & =e^{x^2} \\\\\n\\Rightarrow \\quad f(\\sqrt{t}) & =e^t\n\\end{array}$$\nPut $$f(\\sqrt{t})=e^t$$ in the equation (ii)\n$$\\begin{array}{ll}\n\\Rightarrow & \\mathrm{F}(x)=\\int_0^{x^2} e^t \\cdot d t \\\\\n\\Rightarrow & \\mathrm{F}(x)=\\left[e^t\\right]_0^{x^2} \\\\\n\\Rightarrow & \\mathrm{F}(x)=e^{x^2}-1\n\\end{array}$$\nPut $$\\quad x=2\\Rightarrow \\mathrm{F}(2)=e^4-1$$\nHint:\n(i) If $$y=\\int_{\\phi(x)}^{\\psi(x)} f(t) d t$$, then $$\\frac{d y}{d x}=\\frac{d \\psi(x)}{d x} \\cdot f(\\psi(x))-\\frac{d \\phi(x)}{d x} \\cdot f(\\phi(x))$$\n(ii) $$\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln (f(x))+c$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${e^2} - 1$$",
+      "$${e^4} - 1$$",
+      "$$e - 1$$",
+      "$${e^4}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_009",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$g(x) = \\log f(x)$$, where $$f(x)$$ is a twice differentiable positive function on (0, $$\\infty$$) such that $$f(x + 1) = xf(x)$$. Then for N = 1, 2, 3, ..., $$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = $$",
+    "solution": "Given that,\n$$g(x) = \\log f(x) \\Rightarrow g(x + 1) = \\log f(x + 1) \\Rightarrow g(x + 1) = \\log xf(x)$$\n[$$\\becausef(x + 1) = xf(x)$$]\n$$g(x + 1) = \\log x + \\log f(n) \\Rightarrow g(x + 1) - g(x) = \\log (x)g'(x + 1) - g'(x) = {1 \\over x} \\Rightarrow g''(x + 1) - g''(x) = {{ - 1} \\over {{x^2}}}$$\nPutting, $$x = x - {1 \\over 2}$$, we get\n$$g''\\left( {x + {1 \\over 2}} \\right) - g''\\left( {x - {1 \\over 2}} \\right) = - {1 \\over {{{\\left( {x - {1 \\over 2}} \\right)}^2}}} = {{ - {{(2)}^2}} \\over {{{(2x - 1)}^2}}}$$\nPutting $$x = 1,2,3$$ .........., N we get\n$$g''\\left( {x + {1 \\over 2}} \\right) - g''\\left( {x - {1 \\over 2}} \\right) - = {1 \\over {{{\\left( {x - {1 \\over 2}} \\right)}^2}}} = {{ - {{(2)}^2}} \\over {{{(2x - 1)}^2}}}$$\nPutting $$x = 1,2,3$$, .........., N we get\n$$g''\\left( {{3 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = {{ - {2^2}} \\over {{1^2}}}$$ .... (i)\n$$g''\\left( {{5 \\over 2}} \\right) - g''\\left( {{3 \\over 2}} \\right) = {{ - {2^2}} \\over {{1^2}}}$$ ..... (ii)\n$$g''\\left( {{7 \\over 2}} \\right) - g''\\left( {{5 \\over 2}} \\right) = {{ - {2^2}} \\over {{5^2}}}$$ ..... (iii)\n$$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {N - {1 \\over 2}} \\right) = {{ - {2^2}} \\over {{{(2N - 1)}^2}}}$$ ..... (iv)\nAdding all the above equations, we get\n$$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = 4\\left[ {1 + {1 \\over {{3^2}}} + {1 \\over {{5^2}}}\\, + \\,...\\, + \\,{1 \\over {{{(2N - 1)}^2}}}} \\right]$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ - 4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N - 1} \\right)}^2}}}} \\right\\}$$",
+      "$$4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N - 1} \\right)}^2}}}} \\right\\}$$",
+      "$$ - 4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N + 1} \\right)}^2}}}} \\right\\}$$",
+      "$$4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N + 1} \\right)}^2}}}} \\right\\}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_010",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is true?",
+    "solution": "$$f(x) = {{{x^2} - ax + 1} \\over {{x^2} + ax + 1}}$$\nfor differentiation, we can write f(x) as\n$$f(x) = 1 - {{2ax} \\over {{x^2} + ax + 1}}$$\nNow, on differentiation\n$$f'(x) = {{2a({x^2} - 1)} \\over {{{({x^2} + ax + 1)}^2}}}$$ ..... (i)\n$$f'(1) = 0 = f'( - 1)$$\nThen again differentiation (1)\n$${({x^2} + ax + 1)^2}\\,.\\,2x - ({x^2} - 1)f''(x) = 2a.\\,{{2({x^2} + ax + 1)(2x + a)} \\over {{{({x^2} + ax + 1)}^4}}}f''( - 1) = {{ - 4a} \\over {{{(2 - a)}^2}}}f''(1) = {{ - 4a} \\over {{{(2 - a)}^2}}}$$\nCombining both\n$$f''(1){(2 + a)^2} + f''( - 1){(2 - a)^2} = 0$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${\\left( {2 + a} \\right)^2}f''\\left( 1 \\right) + {\\left( {2 - a} \\right)^2}f''\\left( { - 1} \\right) = 0$$",
+      "$${\\left( {2 - a} \\right)^2}f''\\left( 1 \\right) - {\\left( {2 + a} \\right)^2}f''\\left( { - 1} \\right) = 0$$",
+      "$$f'\\left( 1 \\right)f'\\left( { - 1} \\right) = {\\left( {2 - a} \\right)^2}$$",
+      "$$f'\\left( 1 \\right)f'\\left( { - 1} \\right) = -{\\left( {2 + a} \\right)^2}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_011",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f\\left( { - 10\\sqrt 2 } \\right) = 2\\sqrt 2 ,$$ then $$f''\\left( { - 10\\sqrt 2 } \\right) = $$",
+    "solution": "We have\n$${y^3} - 3y + x = 0$$\nDifferentiate both sides we get\n$$3{y^2}.y' - 3y' + 1 = 0$$ ..... (i)\nPut $$y = 2\\sqrt 2 ,x = - 10\\sqrt 2 $$ then\n$$y'( - 10\\sqrt 2 ) = {{ - 1} \\over {21}}$$\nDifferentiate eq. (i), we get\n$$3{y^2}y'' + 6y{(y')^2} - 3y'' = 0$$\nPut $$y = 2\\sqrt 2 ,x = - 10\\sqrt 2 ,y' = {{ - 1} \\over {21}}$$ then\n$$y''( - 10\\sqrt 2 ) = {{ - 4\\sqrt 2 } \\over {{7^3}\\,.\\,{3^2}}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{4\\sqrt 2 } \\over {{7^3}{3^2}}}$$",
+      "$$-{{4\\sqrt 2 } \\over {{7^3}{3^2}}}$$",
+      "$${{4\\sqrt 2 } \\over {{7^3}3}}$$",
+      "$$-{{4\\sqrt 2 } \\over {{7^3}3}}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_012",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f$$ and $$g$$ be real valued functions defined on interval $$(-1, 1)$$ such that $$g''(x)$$ is continuous, $$g\\left( 0 \\right)\ne 0.g'\\left( 0 \\right) = 0$$, $$g''\\left( 0 \\right)\ne 0$$, and $$f\\left( x \\right) = g\\left( x \\right)\\sin x$$\n**STATEMENT - 1:** $$\\mathop {\\lim }\\limits_{x \\to 0} \\,\\,\\left[ {g\\left( x \\right)\\cot x - g\\left( 0 \\right)\\cos ec\\,x} \\right] = f''\\left( 0 \\right)$$ and\n\n**STATEMENT - 2:** $$f'\\left( 0 \\right) = g\\left( 0 \\right)$$",
+    "solution": "$$\\mathop {\\lim }\\limits_{x \\to 0} {{g(x)\\cos x - g(0)} \\over {\\sin x}} = \\mathop {\\lim }\\limits_{x \\to 0} {{g'(x)\\cos x - g(x)\\sin x} \\over {\\cos x}}$$ (Applying L-Hospital rule)\n$$g'(0) - 0 = 0 = f''(0)$$\nStatement - 1 is True.\n$$f'(x) = g(x)\\cos x + g'(x)\\sin xf'(0) = g(0)$$\nStatement - 2 is True.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is **NOT** a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement -2 is False",
+      "Statement - 1 is False, Statement -2 is True"
+    ]
+  },
+  {
+    "id": "math_differentiation_013",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$\\frac{d^{2} x}{d y^{2}}$$ equals :",
+    "solution": "Let’s start by finding the relationship between derivatives.\nWe know that $\\frac{dy}{dx} = \\left( \\frac{dx}{dy} \\right)^{-1}$. This just means that the derivative going from $y$ to $x$ is the reciprocal of going from $x$ to $y$.\nTo find the second derivative, we get the derivative of the first derivative. So, $\\frac{d}{dx}\\left( \\frac{dy}{dx} \\right) = \\frac{d}{dx}\\left( \\frac{dx}{dy} \\right)^{-1}$.\nInstead of $x$, let’s write the second derivative in terms of $y$. We use the chain rule for derivatives: $\\frac{d}{dx} = \\frac{d}{dy} \\cdot \\frac{dy}{dx}$.\nSo, $\\frac{d^2y}{dx^2} = \\frac{d}{dy}\\left( \\frac{dx}{dy} \\right)^{-1} \\cdot \\frac{dy}{dx}$.\nTaking the derivative of $\\left( \\frac{dx}{dy} \\right)^{-1}$ with respect to $y$ gives us $-\\left( \\frac{dx}{dy} \\right)^{-2} \\cdot \\frac{d^2x}{dy^2}$.\nIncluding the extra $\\frac{dy}{dx}$ from the chain rule, we get: $\\frac{d^2y}{dx^2} = -\\left( \\frac{dx}{dy} \\right)^{-2} \\frac{d^2x}{dy^2} \\cdot \\frac{dy}{dx}$.\nNow, solve this for $\\frac{d^2x}{dy^2}$:\n$\\frac{d^2x}{dy^2} = \\frac{ - d^2y }{ dx^2 } \\left( \\frac{dy}{dx} \\right)^{-3}$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left(\\frac{d^{2} y}{d x^{2}}\\right)^{-1}$$",
+      "$$-\\left(\\frac{d^{2} y}{d x^{2}}\\right)^{-1}\\left(\\frac{d y}{d x}\\right)^{-3}$$",
+      "$$\\left(\\frac{d^{2} y}{d x^{2}}\\right)\\left(\\frac{d y}{d x}\\right)^{-2}$$",
+      "$$-\\left(\\frac{d^{2} y}{d x^{2}}\\right)\\left(\\frac{d y}{d x}\\right)^{-3}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_014",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f(x)$$ is a twice differentiable function and given that $$f\\left( 1 \\right) = 1;f\\left( 2 \\right) = 4,f\\left( 3 \\right) = 9$$, then",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$f''\\left( x \\right) = 2$$ for $$\\forall x \\in \\left( {1,3} \\right)$$",
+      "$$f''\\left( x \\right) = f'\\left( x \\right) = 5$$ for some $$x \\in \\left( {2,3} \\right)$$",
+      "$$f''\\left( x \\right) = 3$$ for $$\\forall x \\in \\left( {2,3} \\right)$$",
+      "$$f''\\left( x \\right) = 2$$ for some $$x \\in \\left( {1,3} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_015",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y$$ is a function of $$x$$ and log $$(x+y)-2xy=0$$, then the value of $$y'(0)$$ is equal to",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1$$",
+      "$$-1$$",
+      "$$2$$",
+      "$$0$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_016",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:\\left( {0,\\infty } \\right) \\to R$$ and $$F\\left( x \\right) = \\int\\limits_0^x {f\\left( t \\right)dt.} $$ If $$F\\left( {{x^2}} \\right) = {x^2}\\left( {1 + x} \\right)$$, then $$f(4)$$ equals",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$5/4$$",
+      "$$7$$",
+      "$$4$$",
+      "$$2$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_017",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${x^2} + {y^2} = 1$$ then",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$yy'' - 2{\\left( {y'} \\right)^2} + 1 = 0$$",
+      "$$yy'' + {\\left( {y'} \\right)^2} + 1 = 0$$",
+      "$$yy'' + {\\left( {y'} \\right)^2} - 1 = 0$$",
+      "$$yy'' + 2{\\left( {y'} \\right)^2} + 1 = 0$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_018",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y = {\\left( {\\sin x} \\right)^{\\tan x}},$$ then $${{dy} \\over {dx}}$$ is equal to",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${\\left( {\\sin x} \\right)^{\\tan x}}\\left( {1 + {{\\sec }^2}x\\,\\log \\,\\sin \\,x} \\right)$$",
+      "$$\\tan x{\\left( {\\sin x} \\right)^{\\tan x - 1}}.\\cos x$$",
+      "$${\\left( {\\sin x} \\right)^{\\tan x}}{\\sec ^2}x\\,\\log \\,\\sin \\,x$$",
+      "$$\\tan x{\\left( {\\sin x} \\right)^{\\tan x - 1}}$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_019",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f(x)$$ be a quadratic expression which is positive for all the real values of $$x$$. If $$g(x)=f(x)+f''(x)$$, then for any real $$x$$,",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$g(x)<0$$",
+      "$$g(x)>0$$",
+      "$$g(x)=0$$",
+      "$$g\\left( x \\right) \\ge 0$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_020",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${y^2} = P\\left( x \\right)$$, a polynomial of degree $$3$$, then $$2{d \\over {dx}}\\left( {{y^3}{{{d^2}y} \\over {d{x^2}}}} \\right)$$ equals",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$P''\\left( x \\right) + P\\left( x \\right)$$",
+      "$$P'\\left( x \\right)P''\\left( x \\right)$$",
+      "$$P\\left( x \\right)P''\\left( x \\right)$$",
+      "a constant"
+    ]
+  },
+  {
+    "id": "math_differentiation_021",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S$ be the set of all twice differentiable functions $f$ from $\\mathbb{R}$ to $\\mathbb{R}$ such that $\\frac{d^2 f}{d x^2}(x)>0$ for all $x \\in(-1,1)$. For $f \\in S$, let $X_f$ be the number of points $x \\in(-1,1)$ for which $f(x)=x$. Then which of the following statements is(are) true?",
+    "solution": "$S=$ Set of all twice differentiable functions $\\mathrm{f}: \\mathrm{R} \\rightarrow$ R\n\n$$\n\\frac{\\mathrm{d}^2 \\mathrm{f}}{\\mathrm{dx}^2}>0 \\text { in }(-1,1)\n$$\n\nGraph ' $\\mathrm{f}$ ' is Concave upward.\n\nNumber of solutions of $f(x)=x \\rightarrow x_f$\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n$\\Rightarrow$ Graph of $y=f(x)$ can intersect graph of $y=x$ at atmost two points $\\Rightarrow 0 \\leq x_f \\leq 2$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "There exists a function $f \\in S$ such that $X_f=0$",
+      "For every function $f \\in S$, we have $X_f \\leq 2$",
+      "There exists a function $f \\in S$ such that $X_f=2$",
+      "There does NOT exist any function $f$ in $S$ such that $X_f=1$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lvdssv64.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differentiation_022",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:\\mathbb{R} \\to \\mathbb{R},\\,g:\\mathbb{R} \\to \\mathbb{R}$$ and $$h:\\mathbb{R} \\to \\mathbb{R}$$ be differentiable functions such that $$f\\left( x \\right)= {x^3} + 3x + 2,g\\left( {f\\left( x \\right)} \\right) = x$$ and $$h\\left( {g\\left( {g\\left( x \\right)} \\right)} \\right) = x$$ for all $$x \\in R$$. Then",
+    "solution": "**Option (A)**: It is given that $f: \\mathbb{R} \\rightarrow \\mathbb{R}, g: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ are differentiable functions.\n\nNow, $\\quad f(x)=x^3+3 x+2$\n\nDifferentiating w.r.t. to $x$, we get\n\n$$\nf^{\\prime}(x)=3 x^2+3\n$$\n\nAlso,\n$$\ng(f(x))=x\n$$\n\nNow,\n\n$$\n\\begin{aligned}\n& g^{\\prime}(f(x)) \\cdot f^{\\prime}(x)=1 \\\\\\\\\n& f(x)=2 \\Rightarrow x^3+3 x+2=2 \\\\\\\\\n& \\Rightarrow x^3+3 x=0 \\Rightarrow x\\left(x^2+3\\right)=0 \\\\\\\\\n& \\Rightarrow x=0\n\\end{aligned}\n$$\nNow,\n\n$$\ng^{\\prime}(f(0))=\\frac{1}{f^{\\prime}(0)} \\Rightarrow g^{\\prime}(2)=\\frac{1}{3}\n$$\n\nHence, option (A) is incorrect.\n\n**Option (B)**: For all $x \\in \\mathbb{R}$ :\n\n$$\n\\begin{aligned}\n& h(g(g(f(x)))=x \\\\\\\\\n& h(g(g(x)))=x \\\\\\\\\n& \\text { Now, } \\quad x \\rightarrow f(x) \\Rightarrow h(g(g(f(x)))=f(x) \\\\\\\\\n& \\Rightarrow \\quad h(g(x))=f(x) \\\\\\\\\n& \\Rightarrow \\quad h^{\\prime}(g(x)) \\cdot g^{\\prime}(x)=f^{\\prime}(x)=3 x^2+3~~...(1)\n\\end{aligned}\n$$\n\nFor all $x \\in \\mathbb{R}: g(f(x))=x$\n\nNow, $\\quad x=1 \\Rightarrow g(f(1))=1 \\Rightarrow g(6)=1 \\quad[\\because f(1)=6]$\n\nSubstituting $x=6$ in Eq. (1), we get\n\n$$\nh^{\\prime}(g(6)) \\cdot g^{\\prime}(6)=3\\left(6^2\\right)+3=111\n$$\n\nTherefore,\n\n$$\nh^{\\prime}(1)=\\frac{111}{g^{\\prime}(6)} \\quad\\left(g^{\\prime}(6)=\\frac{1}{f^{\\prime}(1)}\\right)\n$$\n\nThat is, $h^{\\prime}(1)=111 \\cdot f^{\\prime}(x)=111 \\times(3+3)=666$\n\nHence, option (B) is correct.\n\n**Option (C)**: $h(g(g(x)))=x$.\n\nFor $g(g(x))=0$, we have\n\n$$\n\\begin{array}{ll}\n& g(x)=g^{-1}(0)=2 \\\\\\\\\n\\Rightarrow & x=g^{-1}(2)=f(2)=16 \\\\\\\\\n\\Rightarrow & h(0)=16\n\\end{array}\n$$\n\nHence, option (C) is correct.\n\n**Option (D)**: Here, $g(g(x))=g(3)$ which implies that\n\n$$\ng(x)=3 \\Rightarrow x=g^{-1}(3)=f(3)=38\n$$\n\nHence, option (D) is incorrect.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$g'\\left( 2 \\right) = {1 \\over {15}}$$",
+      "$$h'\\left( 1 \\right) = 666$$",
+      "$$h\\left( 0 \\right) = 16$$",
+      "$$h\\left( {g\\left( 3 \\right)} \\right) = 36$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_023",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$F:R \\to R$$ be a thrice differentiable function. Suppose that\n\n$$F\\left( 1 \\right) = 0,F\\left( 3 \\right) = - 4$$ and $$F'\\left( x \\right) < 0$$ for all $$x \\in \\left( {{1 \\over 2},3} \\right).$$ Let $$f\\left( x \\right) = xF\\left( x \\right)$$ for all $$x \\in R.$$\nThe correct statement(s) is (are)",
+    "solution": "Given,\nF(1) = 0, F(3) = 4\nF'(x) < 0 for all x $$\\in$$(1, 3)\nand f(x) = xF(x)\nNow, f'(x) = F(x) + xF'(x)\n$$\\Rightarrow$$ f'(1) = F(1) + 1 . F'(1)\n$$\\Rightarrow$$ f'(1) = 0 + F'(1) ....... (1)\nAs F'(x) < 0 for all x $$\\in$$ (1, 3)\n$$\\therefore$$ F'(1) < 0\nFrom (1), we get\nf'(1) = F'(1) < 0\nFrom Lagrange theorem\n$$F'(2) = {{F(3) - F(1)} \\over {3 - 1}} = {{ - 4 - 0} \\over 2}$$\n= $$-$$2\nAs f(x) = xF(x)\n$$\\therefore$$ f(3) = 3 . F(3) = 3 . ($$-$$4) = $$-$$12\nand f(1) = 1 . F(1) = 0\n$$\\thereforef'(2) = {{f(3) - f(1)} \\over {3 - 1}} = {{ - 12} \\over 2} = - 6$$\nAs, f'(x) = F(x) + x . F'(x)\n$$\\therefore$$ f'(2) = F(2) + 2 . F'(2)\n$$ \\Rightarrow - 6 = {{f(2)} \\over 2} + 2.\\,( - 2) \\Rightarrow {{f(2)} \\over 2} = - 2\\Rightarrow$$ f(2) = $$-$$4\n$$\\therefore$$ f(2) < 0\n$$f'(x) = {{f(3) - f(1)} \\over {3 - 1}}$$ when x $$\\in$$ (1, 3)\nf(3) = $$-$$12\nand f(1) = 0\n$$\\thereforef'(x) = {{ - 12} \\over 2} = - 6\\therefore$$ f'(x) $$\ne$$ 0 for any x $$\\in$$(1, 3)",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$f'\\left( 1 \\right) < 0$$",
+      "$$f\\left( 2 \\right) < 0$$",
+      "$$f'\\left( x \\right)\ne 0$$ for any $$x \\in \\left( {1,3} \\right)$$",
+      "$$f'\\left( x \\right) = 0$$ for some $$x \\in \\left( {1,3} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_differentiation_024",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable function such that $$|f(x)| \\leq 1$$ and $$f'(x)=g(x)$$, where,$$f^{2}(0)+g^{2}(0)=9$$ then prove that there exists some $$c \\in(-3,3)$$ such that $$g(c) \\circ g^{n}(c) < 0$$.",
+    "solution": "$$f(x)$$ is differentiable function and $$g(x)$$ is double differentiable function.\nlet $$f(x) = {{{x^3}} \\over 3} + 9,g(x) = {x^2}f'(x) = {x^2}$$\nSo, the function satisfies the criteria $$f'(x) = g(x)$$\nAlso, the two function\n$${f^2}(0) = 0 + 9 = 9{g^2}(0) = 0 \\Rightarrow {f^2}(0) + {g^2}(0) = 9|f(x)| \\le 1 \\Rightarrow \\left| {{{{x^3}} \\over 3} + 9} \\right| \\le 1 \\Rightarrow - 1 \\le {{{x^3}} \\over 3} + 9 \\le 1 \\Rightarrow - 10 \\le {{{x^3}} \\over 3} \\le - 8 \\Rightarrow - 30 \\le {x^3} \\le - 24 \\Rightarrow {( - 30)^{{1 \\over 3}}} \\le x \\le {( - 24)^{{1 \\over 3}}} \\Rightarrow ( - 3.10) \\le x \\le - 2.88$$\nNow, $$g(c) = {c^2}g'(x) = 2xg''(x) = 2$$\nIt is given $$g(c).~g''(c) < 0\\Rightarrow 2c^2 < 0\\Rightarrow c < 0$$\nAs $$x$$ lies between $$-2.88$$ to $$-3.10$$\nSo, $$c$$ lies between $$[-3,3]$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_025",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If$$\\,\\,\\,y = {{a{x^2}} \\over {\\left( {x - a} \\right)\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {{bx} \\over {\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {c \\over {x - c}} + 1$$,\n\nprove that $${{y'} \\over y} = {1 \\over x}\\left( {{a \\over {a - x}} + {b \\over {b - x}} + {c \\over {c - x}}} \\right)$$.",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_026",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find $${{{dy} \\over {dx}}}$$ at $$x=-1$$, when\n\n$${\\left( {\\sin y} \\right)^{\\sin \\left( {{\\pi \\over 2}x} \\right)}} + {{\\sqrt 3 } \\over 2}{\\sec ^{ - 1}}\\left( {2x} \\right) + {2^x}\\tan \\left( {In\\left( {x + 2} \\right)} \\right) = 0$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_027",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$x = \\sec \\theta - \\cos \\theta $$ and $$y = {\\sec ^n}\\theta - {\\cos ^n}\\theta $$, then show\n\nthat $$\\left( {{x^2} + 4} \\right){\\left( {{{dy} \\over {dx}}} \\right)^2} = {n^2}\\left( {{y^2} + 4} \\right)$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_028",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha $$ be a repeated root of a quadratic equation $$f(x)=0$$ and $$A(x), B(x)$$ and $$C(x)$$ be polynomials of degree $$3$$, $$4$$ and $$5$$ respectively,\n\nthen show that $$\\left| {\\matrix{\n{A\\left( x \\right)} & {B\\left( x \\right)} & {C\\left( x \\right)} \\cr\n{A\\left( \\alpha \\right)} & {B\\left( \\alpha \\right)} & {C\\left( \\alpha \\right)} \\cr\n{A'\\left( \\alpha \\right)} & {B'\\left( \\alpha \\right)} & {C'\\left( \\alpha \\right)} \\cr\n\n} } \\right|$$ is\n\ndivisible by $$f(x)$$, where prime denotes the derivatives.",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_029",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f$$ be a twice differentiable function such that\n$$f''\\left( x \\right) = - f\\left( x \\right),$$ and $$f'\\left( x \\right) = g\\left( x \\right),h\\left( x \\right) = {\\left[ {f\\left( x \\right)} \\right]^2} + {\\left[ {g\\left( x \\right)} \\right]^2}$$\nFind $$h\\left( {10} \\right)$$ if $$h(5)=11$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_030",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$y = {e^{x\\,\\sin \\,{x^3}}} + {\\left( {\\tan x} \\right)^x}$$. Find $${{dy} \\over {dx}}$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_031",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given $$y = {{5x} \\over {3\\sqrt {{{\\left( {1 - x} \\right)}^2}} }} + {\\cos ^2}\\left( {2x + 1} \\right)$$; Find $${{dy} \\over {dx}}$$.",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_032",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the derivative of\n$$$f\\left( x \\right) = \\left\\{ {\\matrix{\n{{{x - 1} \\over {2{x^2} - 7x + 5}}} & {when\\,\\,x\ne 1} \\cr\n{ - {1 \\over 3}} & {when\\,\\,x = 1} \\cr\n\n} } \\right.$$$\n\nat $$x=1$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_033",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the derivative of $$\\sin \\left( {{x^2} + 1} \\right)$$ with respect to $$x$$ first principle.",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_034",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f\\left( x \\right) = \\left| {x - 2} \\right|$$ and $$g\\left( x \\right) = f\\left[ {f\\left( x \\right)} \\right]$$, then $$g'\\left( x \\right) = ...............$$ for $$x > 20$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_035",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The derivative of $${\\sec ^{ - 1}}\\left( {{1 \\over {2{x^2} - 1}}} \\right)$$ with respect to $$\\sqrt {1 - {x^2}} $$ at $$x = {1 \\over 2}$$ is ...............",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_036",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$f\\left( x \\right) = {\\log _x}\\left( {In\\,x} \\right),$$ then $$f'\\left( x \\right)$$ at $$x=e$$ is ................",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_037",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${f_r}\\left( x \\right),{g_r}\\left( x \\right),{h_r}\\left( x \\right),r = 1,2,3$$ are polynomials in $$x$$ such that $${f_r}\\left( a \\right) = {g_r}\\left( a \\right) = {h_r}\\left( a \\right),r = 1,2,3$$\n\nand $$F\\left( x \\right) = \\left| {\\matrix{\n{{f_1}\\left( x \\right)} & {{f_2}\\left( x \\right)} & {{f_3}\\left( x \\right)} \\cr\n{{g_1}\\left( x \\right)} & {{g_2}\\left( x \\right)} & {{g_3}\\left( x \\right)} \\cr\n{{h_1}\\left( x \\right)} & {{h_2}\\left( x \\right)} & {{h_3}\\left( x \\right)} \\cr\n\n} } \\right|$$ then $$F'\\left( x \\right)$$ at $$x = a$$ is ...........",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differentiation_038",
+    "subject": "Mathematics",
+    "chapter": "Differentiation",
+    "topic": "Differentiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y = f\\left( {{{2x - 1} \\over {{x^2} + 1}}} \\right)$$ and $$f'\\left( x \\right) = \\sin {x^2}$$, then $${{dy} \\over {dx}} = ..........$$",
+    "solution": "Solution for this Differentiation question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

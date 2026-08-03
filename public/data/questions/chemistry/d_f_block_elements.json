@@ -1,0 +1,493 @@
+[
+  {
+    "id": "chem_d_f_block_elements_001",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pair(s) of diamagnetic ions is(are)",
+    "solution": "(6) Diamagnetic - No unpaired electrons. All the electrons are paired.\nA) $\\mathrm{La}^{3+}, \\mathrm{Ce}^{4+}$.\n\nElement $L a$ election configuration is $[\\mathrm{Xe}] 5 \\mathrm{~d}^{\\prime} 6 \\mathrm{~s}^2$\n\nFor $\\mathrm{La}^{3+}$, three valence electrons are removed So, the electron configuration of $\\mathrm{La}^{3+}$ is $\\left[\\mathrm{Xe}\\right]$\nThe configuration [ $x_e$ ] is the noble gas configuration and all the elections are paired.\nSo, $\\mathrm{La}^{3+}$ is diamagnetic.\nElement $\\mathrm{Ce}_{\\text { }}$ election configuration is $\\left[x_e\\right] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$\n\nFor $\\mathrm{Ce} ^{4+}$, for valence elections are removed. so, the electron configuration of $\\mathrm{Ce}^{4+}$ is $\\left[\\mathrm{Xe}\\right]$.\nThe origination $\\left[X_e\\right]$ is the noble gas configuration and all the electrons are paired.\nSo, $Ce^{4+}$ is diamagnetic.\nSo, It is a pair of a diamagnetic ions.\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$\n\nElement Yb electron configuration is : $\\left[x_e\\right] 4 f^{14} 6 s^2$\n\nFor $y b^{2+}$, two valence electrons are removed from $y b$ - So, the election configuration of ${y} b^{2+}$ is $[x e] \\& f^{14}$.\n\nThe configuration $\\left[X_e\\right] 4 f^{14}$ has no unpaired electrons. All the electrons are paired and hence $yb^{2+}$ is diamagnetic.\n\nElement Lu electron configuration is $\\left[x_e\\right] 4 f^{\\prime 4} 5 d^1 6 s^2$\n\nFor $\\mathrm{Lu}^{3+}$, three valence electrons we removed from. Lu . So, the electron configuration of $\\mathrm{Lu}^{3+}$ is $\\left[x_e\\right] 4 f^{14}$.\nThe configuration $\\left[\\mathrm{Xe}\\right] 4 f^{14}$ has no unpaired electrons. All the electrons are paired and hence $L u^3 t$ is diamagnetic.\nSo, It is a pair of diamagnetic ions:\n\nc) $\\mathrm{La}^{2+}, \\mathrm{Ce}^{3+}$\n\nElement la electron configuration is [ $x e$ ] $5 d^{\\prime} 6 s^2$.\n\nFor $\\mathrm{La}^{2+}$, two valence electrons are removed so, the electron configuration of $\\mathrm{La}^{2+}$ is $[\\mathrm{Xe}] 5 d^{\\prime}$.\n\nThe configuration $\\left[X_e\\right] 5 d^{\\prime}$ has one unpaired election and hence it is paramagnetic, not diamagnetic.\nElement $C_e$ electron configuration is $[x e] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$\nFor $\\mathrm{Ce}^{3+}$, three valence electrons we removed. So, the electron configuration of $\\mathrm{Ce}^{3+}$ is $[x e] 4 f^{\\prime}$\n\nThe configuration $[\\mathrm{Xe}]$. $4f^{\\prime}$ has one unpaired electron and hence it is paramagnetic, not diamagnetic.\nSo, it is not a pair of diamagnetic ions.\n\nD) $\\mathrm{Yb}^{3+}, \\mathrm{Lu}^{2+}$\nyb electron configuration is $[x e] 4 f^{14} 6 s^2$.\nFor $y b^{3+}$, three valence electrons are removed from $y b$. So, the electron configuration of $\\mathrm{Yb}^{3+}$ is $\\left[x_e\\right] 4 f^{13}$\nThe configuration $\\left[x_e\\right] 4 f^{13}$ has unpaired election and it is paramagnetic, not diamagnetic.\nLu electron configuration is $\\left[X_e\\right] 4 f^{14} 5 d^1 6 s^2$.\nFor $L u^{2+}$, two valence electrons are removed from LU. So, the electron configuration of $\\mathrm{Lu}^{2+}$ is $\\left[\\mathrm{Xe}_e\\right] 4 f^{14} 5 d^1$.\nThe configuration $[x]$. $4 f^{\\prime 4} 5 d^{\\prime}$ has unpaired electron and it is paramagnetic, not diamagnetic.\nSo, it is not a pair of diamagnetic ions.\nThe pairs of diamagnetic ions are\nA) $\\mathrm{La}^{3+}, \\mathrm{Cl}^{4+}$\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "La$^{3+}$, Ce$^{4+}$",
+      "Yb$^{2+}$, Lu$^{3+}$",
+      "La$^{2+}$, Ce$^{3+}$",
+      "Yb$^{3+}$, Lu$^{2+}$"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_002",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the scheme given below, $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are\n\n[Diagram]",
+    "solution": "$$\n\\mathrm{MnCl}_2 \\stackrel{\\mathrm{NaOH}(\\mathrm{aq})}{\\longrightarrow} \\underset{(\\mathrm{P})}{\\mathrm{Mn}\\left(\\mathrm{OH}_2\\right)}+\\underset{(\\mathrm{Q})}{\\mathrm{NaCl}}\n\n\\mathrm{Mn}(\\mathrm{OH})_2 \\underset{\\mathrm{PbO}_2(\\text { excess })}{\\stackrel{\\text { aq. } \\mathrm{H}_2 \\mathrm{SO}_4}{\\longrightarrow}} \\underset{(\\mathrm{X})}{\\mathrm{MnO}_4^{-}}+\\mathrm{Pb}^{2+}\n\n\\mathrm{NaCl} \\frac{\\mathrm{MnO}(\\mathrm{OH})_2}{\\text { conc. } \\mathrm{H}_2 \\mathrm{SO}_4 \\text { warm }} \\underset{(\\mathrm{Y})}{\\mathrm{Cl}_2}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\mathrm{CrO}_4{ }^{2-}$ and $\\mathrm{Br}_2$",
+      "$\\mathrm{MnO}_4{ }^{2-}$ and $\\mathrm{Cl}_2$",
+      "$\\mathrm{MnO}_4{ }^{-}$and $\\mathrm{Cl}_2$",
+      "$\\mathrm{MnSO}_4$ and $\\mathrm{HOCl}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqrcsy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_003",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of $\\mathrm{Xe}$ and $\\mathrm{O}_{2}{F}_{2}$ gives a $\\mathrm{Xe}$ compound $\\mathbf{P}$. The number of moles of $\\mathrm{HF}$ produced by the complete hydrolysis of $1 \\mathrm{~mol}$ of $\\mathbf{P}$ is __________.",
+    "solution": "$$\\mathrm{Xe}+2 \\mathrm{O}_{2}{F}_{2} \\rightarrow \\underset{(\\mathrm{P})}{\\mathrm{XeF}_{4}}+2 \\mathrm{O}_{2}\\underset{(\\mathrm{P})}{\\mathrm{6XeF}_{4}}+12 \\mathrm{H}_{2} \\mathrm{O} \\longrightarrow 4 \\mathrm{Xe}+2 \\mathrm{XeO}_{3}+24 \\mathrm{HF}+3 \\mathrm{O}_{2}$$\nSo, from the above reaction, it is clear that 6 moles of $\\mathrm{XeF}_4$ produces 24 moles of $\\mathrm{HF}$.\n\nSo, 1 mole of $\\mathrm{XeF}_4$ will produce $\\frac{24}{6}$ moles of HF, i.e., 4 moles of $\\mathrm{HF}$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_004",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write the balanced chemical equation for developing a back and white photographic film. Also explain why the solution of sodium thiosulphate on acidification turns milky white.",
+    "solution": "In the development of photographic film, the\nblack and white photographic film is developed\nas follows:\nThe silver bromide reacts with hydroquinone\nproducing black coloured silver particles along\nwith HBr and quinone. During this process,\nsilver bromide gets reduced to silver and\nhydroquinone is oxidised to quinone.\n\n[Diagram]\n\nThe hydroquinone acts as a developer during\nthis process.\nThe unreacted silver bromide then reacts\nwith sodium thiosulphate to produce soluble\ncomplex and sodium bromide.\n$$\\mathrm{AgBr + \\mathop {2N{a_2}{S_2}{O_3}}\\limits_{hypo\\,solution} \\to \\mathop {N{a_3}[Ag{{({S_2}{O_3})}_2}]}\\limits_{so{\\mathop{\\rm lub}} le} + NaBr}$$\nThe reaction occurs in acidic medium. In acidic\nmedium, sulphur from sodium thiosulphate\nwill precipitate out. The colloidal sulphur is\nobtained which gives milky white turbidity.\n\n$\\mathrm{Na}_2 \\mathrm{~S}_2 \\mathrm{O}_3+2 \\mathrm{H}^{+}(a q) \\longrightarrow 2 \\mathrm{Na}^{+}+\\mathrm{H}_2 \\mathrm{SO}_3+\\underset{\\substack{\\text { colloidal } \\\\ \\text { sulphur }}}{\\mathrm{S} \\downarrow}$\nFinal Answer :\n\n[Diagram]\n\n$$\\mathrm{AgBr + \\mathop {2N{a_2}{S_2}{O_3}}\\limits_{hypo\\,solution} \\to \\mathop {N{a_3}[Ag{{({S_2}{O_3})}_2}]}\\limits_{so{\\mathop{\\rm lub}} le} + NaBr}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9ldbp5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_005",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The treatment of galena with $\\mathrm{HNO}_{3}$ produces a gas that is",
+    "solution": "$$\\mathrm{PbS+dil.\\,HNO_3\\to Pb(NO_3)_2+S+NO+H_2O}$$\nNO is paramagnetic due to the presence of unpaired electron. It is a neutral oxide. It is colourless.\nHence, (A) and (D) are correct statements.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "paramagnetic",
+      "bent in geometry",
+      "an acidic oxide",
+      "colorless"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_006",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "With reference to aqua-regia, choose the correct option(s).",
+    "solution": "The explanation of given statements are as follows :\n\n(a) Aqua-regia is prepared by mixing conc. HCl and conc. HNO$_{3}$ in 3 : 1 (v/v) ratio and is used in oxidation of gold and platinum. Hence, option (a) is correct.\n\n(b) Yellow colour of aqua-regia is due to its decomposition into NOCl (orange yellow) and Cl$_{2}$ (greenish yellow). Hence, option (b) is correct.\n\n(c) When gold reacts with aqua-regia then it produces $$AuCl_4^ - $$ anion complex in which Au has +3 oxidation state.\n\n\n[Diagram]\n\n\nHence, option (c) is correct.\n\n(d) Reaction of gold with aqua-regia produces NO gas in absence of air. Hence, option (d) is incorrect.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Aqua-regia is prepared by mixing conc. HCl and conc. HNO$_{3}$ in 3 : 1 (v / v) ratio",
+      "The yellow colour of aqua-regia is due to the presence of NOCl and Cl$_{2}$",
+      "Reaction of gold with aqua-regia produces an anion having Au in +3 oxidation state",
+      "Reaction of gold with aqua regia produces NO$_{2}$ in the absence of air"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_007",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Fusion of MnO$_{2}$ with KOH in presence of O$_{2}$ produces a salt W. Alkaline solution of W upon electrolytic oxidation yields another salt X. The manganese containing ions present in W and X, respectively, are Y and Z. Correct statement(s) is (are)",
+    "solution": "[Diagram]\n\n\n$$MnO_4^{2 - }$$ ion has one unpaired electrons, therefore it gives d-d transition to form green colour. Y complex has paramagnetic nature due to presence of one unpaired electron.\n\nIn aqueous solution,\n\n\n[Diagram]\n\n\n$$MnO_4^{2 - }$$ ions gives charge transfer spectrum in which a fraction of electronic charge is transferred between the molecular entities.\n\n$$ \\because \\mathop {MnO_4^{2 - }}\\limits_{(Y)} \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{oxidation}^{Electrolytic}} \\mathop {MnO_4^ - }\\limits_{(Z)} + {e^ - }$$\n\nIn acidic medium, Y undergoes disproportionation reaction.\n\n\n[Diagram]\n\n\n$$\\mathop {MnO_4^{2 - }}\\limits_{(Y)} $$ and $$\\mathop {MnO_4^ - }\\limits_{(Z)} $$ both ions form $$\\pi $$-bonding between p-orbitals of oxygen and d-orbitals of manganese.\n\nThus, options (a, c, d) are correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "Both Y and Z are coloured and have tetrahedral shape",
+      "Y is diamagnetic in nature while Z is paramagnetic",
+      "In both Y and Z, $$\\pi $$-bonding occurs between p-orbitals of oxygen and d-orbitals of manganese",
+      "In aqueous acidic solution, Y undergoes disproportionation reaction to give Z and MnO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_008",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct option(s) to distinguish nitrate salts of $$M{n^{2 + }}$$ and $$C{u^{2 + }}$$ taken separately is (are)",
+    "solution": "Statement wise explanation is\nStatement (a) Mn$^{2+}$ produces yellow-green colour in flame test while Cu$^{2+}$ produces bluish-green colour in flame test. Thus, due to the presence of green colour in both the cases, flame test is not the suitable method to distinguish between nitrate salts of Cu$^{2+}$ and Mn$^{2+}$. Hence this statement is wrong.\nStatement (b) Cu$^{2+}$ belong to group II of cationic or basic radicals. It gives black ppt. of CuS if H$_{2}$S is passed through it in the presence of acid (e.g. HCl). Mn$_{2+}$ does not show this property hence this can be considered as a suitable method to distinguish between Mn$^{2+}$ and Cu$^{2+}$. Hence, this statement is correct.\nStatement (c) In faintly basic medium when H$_{2}$S is passed both Cu$^{2+}$ and Mn$^{2+}$ forms precipitates. Thus, it is not suitable method to distinguish between them. Hence, this statement is incorrect.\nStatement (d) The standard reduction potential of Cu$^{2+}$ /Cu is +0.34 V while that of Mn$^{2+}$/Mn is $$-$$1.18 V. This can be used to distinguish between Cu$^{2+}$ and Mn$^{2+}$. In general less electropositive metals have higher SRP. Hence, this statement is correct.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$M{n^{2 + }}$$ shows the characteristic green color in the flame test",
+      "Only $$C{u^{2 + }}$$ shows the formation of precipitate by passing $${H_2}S$$ in acidic medium",
+      "Only $$M{n^{2 + }}$$ shows the formation of precipitate by passing $${H_2}S$$ in faintly basic medium",
+      "$$C{u^{2 + }}/Cu$$ has higher reduction potential than $$M{n^{2 + }}/Mn$$ (measured under similar conditions)"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_009",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The options(s) with only amphoteric oxides is (are)",
+    "solution": "Compounds which dissolve in both acids and bases are known as amphoteric oxides.\nAmphoteric oxides are :\n\nCr$_{2}$O$_{3}$, BeO, SnO, SnO$_{2}$, ZnO, Al$_{2}$O$_{3}$ , PbO and PbO$_{2}$ Whereas, NO is a neutral oxide, B$_{2}$O$_{3}$ is an acidic oxide and CrO is a basic oxide.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$C{r_2}{O_3},BeO,SnO,Sn{O_2}$$",
+      "$$C{r_2}{O_3},CrO,SnO,PbO$$",
+      "$$NO,{B_2}{O_3},PbO,Sn{O_2}$$",
+      "$$ZnO,A{l_2}{O_3},PbO,Pb{O_2}$$"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_010",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reagent(s) that can selectively precipitate S$^{2-}$ from a mixture of S$^{2-}$ and SO$_{4}$$^{2-}$ in aqueous solution is (are) :",
+    "solution": "Consider the reactions of the given compounds with $\\mathrm{S}^{2-}$ and $\\mathrm{SO}_4^{2-}$.\n\n(i) With $\\mathrm{CuCl}_2$ :\n\n$$\n\\begin{aligned}\n&\\mathrm{CuCl}_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { black ppt }}{\\mathrm{CuS}}+2 \\mathrm{Cl}^{-} \\\\\\\\\n&\\mathrm{CuCl}_2+\\mathrm{SO}_4{ }^{2-} \\rightarrow \\text { No precipitate }\n\\end{aligned}\n$$\n\n(ii) With $\\mathrm{BaCl}_2$ : Alkaline earth metal sulphides are sparingly soluble in water but pass into solution with time and hence do not give precipitates from their aqueous solutions.\n\n$$\n\\begin{aligned}\n&\\mathrm{BaCl}_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { No ppt }}{\\mathrm{BaS}}+2 \\mathrm{Cl}^{-} \\\\\\\\\n&\\mathrm{BaS}+2 \\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\underset{\\text { water soluble }}{\\mathrm{Ba}(\\mathrm{OH})_2+{\\mathrm{Ba}(\\mathrm{SH})_2}}\n\\end{aligned}\n$$\n\nAlkaline earth metal sulphates, $\\mathrm{BaSO}_4, \\mathrm{CaSO}_4$ and $\\mathrm{SrSO}_4$ are insoluble in water.\n\n$\\mathrm{BaCl}_2+\\mathrm{SO}_4^{2-} \\rightarrow \\underset{\\text { white ppt }}{\\mathrm{BaSO}_4}+2 \\mathrm{Cl}^{-}$\n\n(iii) With $\\mathrm{Pb}(\\mathrm{OAc})_2$ :\n\n$$\n\\begin{aligned}\n&\\mathrm{Pb}(\\mathrm{OAc})_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { black ppt }}{\\mathrm{PbS}}+2 \\mathrm{CH}_3 \\mathrm{COO}^{-} \\\\\\\\\n&\\mathrm{Pb}(\\mathrm{OAc})_2+\\mathrm{SO}_4^{2-} \\rightarrow \\underset{\\text { white ppt }}{\\mathrm{PbSO}_4}+2 \\mathrm{CH}_3 \\mathrm{COO}^{-}\n\\end{aligned}\n$$\n\nThe $K_{\\mathrm{sp}}$ of $\\mathrm{PbS}$ is $3 \\times 10^{-28}$ and of $\\mathrm{PbSO}_4$ is $25 \\times$ $10^{-28}$. The difference is large, thus only $\\mathrm{PbS}$ is selectively precipitated.\n\n(iv) With $\\mathrm{Na}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]$ : When sodium nitroprusside is added to solution of sulphide ions, purple colouration is observed. This is a confirmative test for sulphides.\n\n$$\n\\begin{aligned}\n&{\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]^{2-}+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { Purple colour }}{\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NOS}\\right]}} \\\\\\\\\n&\\mathrm{Na}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]+\\mathrm{SO}_4{ }^{2-} \\rightarrow \\text { No precipitate }\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "CuCl$_{2}$",
+      "BaCl$_{2}$",
+      "Pb(OOCCH$_{3}$)$_{2}$",
+      "Na$_{2}$[Fe(CN)$_{5}$NO]"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_011",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pairs of ions where BOTH the ions are precipitated upon passing H$_{2}$S gas in presence of dilute HCl, is(are)",
+    "solution": "The pairs Cu$^{2+}$, Pb$^{2+}$ and Hg$^{2+}$, Bi$^{3+}$ are precipitated as sulphides upon passing H$_{2}$S in acidic medium.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "Ba$^{2+}$, Zn$^{2+}$",
+      "Bi$^{3+}$, Fe$^{3+}$",
+      "Cu$^{2+}$, Pb$^{2+}$",
+      "Hg$^{2+}$, Bi$^{3+}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ayod2h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_012",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statements about Cr$^{2+}$ and Mn$^{3+}$ is(are) (Atomic numbers of Cr = 24 and Mn = 25)",
+    "solution": "The correct statements are as follows:\n(A) Cr$^{3+}$ is more stable than Cr$^{2+}$, thus, Cr$^{2+}$ act as reducing agent.\n(B) Mn$^{2+}$ is more stable than Mn$^{3+}$, thus, Mn$^{3+}$ act as an oxidizing agent.\n(C) Both Cr$^{2+}$ and Mn$^{3+}$ exhibit d$^{4}$ electronic configuration.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Cr$^{2+}$ is a reducing agent.",
+      "Mn$^{3+}$ is an oxidizing agent.",
+      "both Cr$^{2+}$ and Mn$^{3+}$ exhibit d$^{4}$ electronic configuration.",
+      "when Cr$^{2+}$ is used as a reducing agent, the chromium ion attains d$^{5}$ electronic configuration."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ayod2h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_013",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Upon heating with Cu$_{2}$S, the reagent(s) that give copper metal is/are",
+    "solution": "To understand which of the given reagents will give copper metal upon heating with $Cu_2S$, let's discuss each one based on their chemical reactions during the process:\n\nOption A: CuFeS$_{2}$\n\n$CuFeS_2$ (Chalcopyrite) when heated with $Cu_2S$, it can react to form copper metal as part of the copper extraction process. However, the direct reaction between $CuFeS_2$ and $Cu_2S$ is more involved and typically requires a series of steps, including smelting and conversion to get to the copper metal. Therefore, while $CuFeS_2$ is a source of copper, it's not directly because of its reaction with $Cu_2S$, but through a complex metallurgical process.\n\nOption B: CuO\n\n$$\n\\begin{aligned}\n& 4 \\mathrm{CuO} \\xrightarrow{\\Delta} 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{O}_2 \\\\\\\\\n& \\mathrm{Cu}_2 \\mathrm{~S}+2 \\mathrm{Cu}_2 \\mathrm{O} \\xrightarrow{\\Delta} 6 \\mathrm{Cu}+\\mathrm{SO}_2\n\\end{aligned}\n$$\n\nOption C: Cu$_{2}$O\n\nCopper(I) oxide ($Cu_2O$) can also react with $Cu_2S$ to produce copper metal directly. The equation for this reaction is:\n\n$2Cu_2O + Cu_2S \\rightarrow 6Cu + SO_2$\n\nHere, $Cu_2O$ serves as the oxidizing agent, reducing $Cu_2S$ to copper metal, while itself being reduced to copper, and sulfur is oxidized to sulfur dioxide. This reaction is similar in principle to the reaction with $CuO$, but involves copper(I) oxide instead.\n\nOption D: CuSO$_{4}$\n\n$\\begin{array}{r}\\mathrm{CuSO}_4 \\xrightarrow{720^{\\circ} \\mathrm{C}} \\mathrm{CuO}+\\mathrm{SO}_2+\\frac{1}{2} \\mathrm{O}_2 \\\\\\\\ 4 \\mathrm{CuO} \\xrightarrow{1100^{\\circ} \\mathrm{C}} 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{O}_2 \\\\\\\\ 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{Cu}_2 \\mathrm{~S} \\xrightarrow{\\Delta} 6 \\mathrm{Cu}+\\mathrm{SO}_2\\end{array}$",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "CuFeS$_{2}$",
+      "CuO",
+      "Cu$_{2}$O",
+      "CuSO$_{4}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ayod2h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_014",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pair(s) of reagents that yield paramagnetic species is/are",
+    "solution": "Reaction of alkali metals with ammonia depends upon the physical state of ammonia whether it is in gaseous state or liquid state. If ammonia is considered as a gas then reaction will be\n\n(a) $$Na + \\mathop {N{H_3}}\\limits_{(Excess)} \\to NaN{H_2} + {1 \\over 2}{H_2}$$\n\n(NaNH$_{2}$ + 1/2H$_{2}$ are diamagnetic) If ammonia is considered as a liquid then reaction will be\n\n$$M + (x + y)N{H_3} \\to {[M{(N{H_3})_x}]^ + } + {[e{(N{H_3})_y}]^ - }\\bullet$$ ammoniated electron\n\n$$\\bullet$$ blue colour\n\n$$\\bullet$$ paramagnetic\n\n$$\\bullet$$ very strong reducing agent\n\n(b) $$K + \\mathop {{O_2}}\\limits_{(Excess)} \\to \\mathop {K{O_2}({K^ + },O_2^ - )}\\limits_{Potassium\\,\\sup eroxide\\,Paramagnetic} $$\n\n(c) $$3Cu + 8HN{O_3} \\to \\mathop {3Cu{{(N{O_3})}_2}}\\limits_{Paramagnetic} + \\mathop {2NO}\\limits_{Paramagnetic} + 4{H_2}O$$\n\n(d)\n[Diagram]\n\nHence, option (a), (b) and (c) are correct choices.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Na and excess of NH$_{3}$",
+      "K and excess of O$_{2}$",
+      "Cu and dilute HNO$_{3}$",
+      "O$_{2}$ and 2-ethylanthraquinol"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ayod2h.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_015",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the given aqueous reactions, which of the statement(s) is(are) true?\n\n[Diagram]",
+    "solution": "The first reaction is\n$${K_3}[Fe{(CN)_6}] + \\mathop {KI}\\limits_{excess} \\to {K_4}[Fe{(CN)_6}] + \\mathop {K{I_3}}\\limits_{brownish\\,yellow\\,solution} $$\nThis is a redox reaction as both oxidation and reduction are taking place.\n$$\\mathop {{K_4}[Fe{{(CN)}_6}]}\\limits_{soluble} \\, + ZnS{O_4} \\to \\mathop {{K_2}Z{n_3}{{[Fe{{(CN)}_6}]}_3}}\\limits_{white\\,ppt} + NaOH \\to \\mathop {N{a_2}{{[Zn{{(OH)}_4}]}^{2 - }}}\\limits_{soluble} 2I_3^ - + 2N{a_2}{S_2}{O_3} \\to \\mathop {N{a_2}{S_4}{O_6}}\\limits_{clear\\,solution} + 2NaI + \\mathop {2{I_2}}\\limits_{(blue\\,colour)} $$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The first reaction is a redox reaction.",
+      "White precipitate is Zn$_{3}$[Fe(CN)$_{6}$]$_{2}$.",
+      "Addition of filtrate to starch solution gives blue colour.",
+      "White precipitate is soluble in NaOH solution."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l26ahj0q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_016",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The green colour produced in the borax bead test of a chromium (III) salt is due to",
+    "solution": "Borax bead test is performed only for coloured salt. Borax (sodium pyroborate), Na$_{2}$B$_{4}$O$_{7}$.10H$_{2}$O on heating gets fused and lose water of crystallisation. It swells up into fluffy white porous mass which melts into a colourless liquid which later form a clear transparent glassy bead consisting of boric anhydride and sodium metaborate.\n\n\n[Diagram]\n\n\nBoric anhydride is non-volatile. When it react with Cr(III) salt then deep green complex is formed.\n\n\n[Diagram]\n\n\nHence, option (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Cr$_{2}$O$_{3}$",
+      "CrB",
+      "Cr(BO$_{2}$)$_{3}$",
+      "Cr$_{2}$(B$_{4}$O$_{7}$)$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_017",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following combination will produce $${H_2}$$ gas ?",
+    "solution": "(a) Conc. HNO$_{3}$ makes iron passive. Cold relatively concentrated HNO$_{3}$ will react with Fe.\n$$\\mathop {Fe}\\limits_{Iron} + \\mathop {6HN{O_3}}\\limits_{Nitric\\,acid} \\to \\mathop {Fe{{(N{O_3})}_3}}\\limits_{Iron\\,nitrate} + \\mathop {3N{O_2}}\\limits_{Nitrogen\\,dioxide} + \\mathop {3{H_2}O}\\limits_{Water} $$\n(b) $$\\mathop {Cu}\\limits_{Copper} + \\mathop {4HN{O_3}(conc.)}\\limits_{Nitric\\,acid} \\to \\mathop {Cu{{(N{O_3})}_2}}\\limits_{Copper\\,nitrate} + \\mathop {2N{O_2}}\\limits_{Nitrogen\\,dioxide} + \\mathop {2{H_2}O}\\limits_{Water} $$\n(c) $$\\mathop {Zn}\\limits_{Zinc} + \\mathop {2NaO{H_{(aq)}}}\\limits_{Sodium\\,hydroxide} \\to \\mathop {N{a_2}Zn{O_2}}\\limits_{Sodium\\,zincate} + \\mathop {{H_2}}\\limits_{Hydrogen} $$\n(d) $$\\mathop {4Au}\\limits_{Gold} + \\mathop {8NaCN}\\limits_{Sodium\\,cyanide} + \\mathop {{O_2}}\\limits_{Oxygen} + \\mathop {2{H_2}O}\\limits_{Water} \\to \\mathop {4Na[Au{{(CN)}_2}]}\\limits_{Sodium\\,dicyanoaurate} + \\mathop {4NaOH}\\limits_{Sodium\\,hydroxide} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Fe metal and conc. $$HN{O_3}$$",
+      "$$Cu$$ metal and conc. $$HN{O_3}$$",
+      "$$Zn$$ metal and $$NaOH(aq)$$",
+      "Au metal and $$NaCN\\left( {aq} \\right)$$ in the presence of air"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_018",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction, sequence in aqueous solution, the species X, Y and Z, respectively, are\n$${S_2}O_3^{2 - }\\buildrel {A{g^ + }} \\over\n\\longrightarrow \\mathop X\\limits_{Clear\\,solution} \\buildrel {A{g^ + }} \\over\n\\longrightarrow \\mathop Y\\limits_{White\\,precipitate} \\buildrel {With\\,time} \\over\n\\longrightarrow \\mathop Z\\limits_{Black\\,precipitate} $$",
+    "solution": "$$A{g^ + }\\mathop {2{S_2}O_3^{2 - }}\\limits_{(Excess)} \\to \\mathop {{{[Ag{{({S_2}{O_3})}_2}]}^{3 - }}}\\limits_{Argentothiosulphate\\,(X)\\,(Soluble)} \\buildrel {A{g^ + }} \\over\n\\longrightarrow \\mathop {A{g_2}{S_2}{O_3}}\\limits_{(Y)\\,(White\\,ppt.)} \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{(due\\,to\\,hydrolysis)}^{With\\,time}} \\mathop {A{g_2}S}\\limits_{(Z)\\,(Black\\,ppt.)} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Ag(S$_{2}$O$_{3}$)$_{2}$]$^{3$$-$$}$, Ag$_{2}$S$_{2}$O$_{3}$, Ag$_{2}$S",
+      "[Ag(S$_{2}$O$_{3}$)$_{2}$]$^{5$$-$$}$, Ag$_{2}$SO$_{3}$, Ag$_{2}$S",
+      "[Ag(SO$_{3}$)$_{2}$]$^{3$$-$$}$, Ag$_{2}$S$_{2}$O$_{3}$, Ag",
+      "[Ag(SO$_{3}$)$_{3}$]$^{3$$-$$}$, Ag$_{2}$SO$_{4}$, Ag"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_019",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Upon treatment with ammoniacal H$_{2}$S, the metal ion that precipitates as a sulphide is",
+    "solution": "On treatment with H$_{2}$S, Zn(II) gets precipitated as ZnS. Mg(II) does not get precipitated, while Fe$^{3+}$ and Al$^{3+}$ get precipitated as hydroxides.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Fe(III)",
+      "Al(III)",
+      "Mg(II)",
+      "Zn(II)"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_020",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The colour of light absorbed by an aqueous solution of CuSO$_{4}$ is",
+    "solution": "When we consider the color of light absorbed by a substance, we are referring to the complementary color of the light that is transmitted or reflected by the substance. An aqueous solution of copper(II) sulfate (CuSO$_{4}$) appears blue to our eyes. This color results from the absorption of light in the complementary color range.\n\nThe visible spectrum of light can be divided into several regions, each corresponding to a different color. The complementary color of blue is orange-red. This means that the aqueous solution of CuSO$_{4}$ absorbs light in the orange-red region of the spectrum.\n\nTherefore, the correct answer is:\n\nOption A: orange-red",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "orange-red",
+      "blue-green",
+      "yellow",
+      "violet"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_021",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Thermal decomposition of $\\mathrm{AgNO}_{3}$ produces two paramagnetic gases. The total number of electrons present in the antibonding molecular orbitals of the gas that has the higher number of unpaired electrons is ____________.",
+    "solution": "$$\n2 \\mathrm{AgNO}_3(\\mathrm{~s}) \\stackrel{\\Delta}{\\longrightarrow} 2 \\mathrm{Ag}(\\mathrm{s})+2 \\mathrm{NO}_2(\\mathrm{~g})+\\mathrm{O}_2(\\mathrm{~g})\n$$\nBoth the $\\mathrm{NO}_2$ and $\\mathrm{O}_2$ gases are paramagnetic. $\\mathrm{NO}_2(\\mathrm{~g})$ has 1 unpaired electron and $\\mathrm{O}_2(\\mathrm{~g})$ has 2 unpaired electrons. According to MOT,\n$$\\therefore\\,\\,\\,\\,$$ Molecular orbital configuration of O$_{2}$ (16 electrons) is\n\n$${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,\\,{\\pi _{2p_x^2}} = {\\pi _{2p_y^2}}\\,\\,\\pi _{2p_x^1}^ * \\,\\, = \\pi _{2p_y^1}^ * \\therefore\\,\\,\\,\\,$$N$_{a}$ = Anti bonding electrons = 6\n\nN$_{b}$ = 10\n\n**Note :**\n\nN$_{b}$ = Number of electrons in bonding molecular orbital\n\nN$_{a}$ $$=$$ Number of electrons in anti bonding molecular orbital\n\n(1) $$\\,\\,\\,\\,$$ upto 14 electrons, molecular orbital configuration is\n\n[Diagram]\n\nHere N$_{a}$ = Anti bonding electrons $$=$$ 4 and N$_{b}$ = 10\n\n(2) $$\\,\\,\\,\\,$$ After 14 electrons to 20 electrons molecular orbital configuration is - - -\n\n[Diagram]\n\nHere N$_{a}$ = 10\n\nand N$_{b}$ = 10",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_022",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of 1 mL of 3% H$_{2}$O$_{2}$, a blue alcohol layer was obtained. The blue colour is due to the formation of a chromium (VI) compound 'X'. What is the number of oxygen atoms bonded to chromium through only single bond in a molecule of X?",
+    "solution": "When a solution of K$_{2}$CrO$_{4}$ is treated with amyl alcohol and acidified H$_{2}$O$_{2}$, the layer of amyl alcohol turns blue because acidified H$_{2}$O$_{2}$ converts K$_{2}$CrO$_{4}$ to CrO$_{5}$ to given the blue colouration,\n\n[Diagram]\n\n**The structure of CrO$_{5}$ is :**\n\n[Diagram]\n\nNumber of oxygen atom bonded with chromium with single bond is = 4.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_023",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the species given below, the total number of diamagnetic species is _____________.\n\n$$H$$ atom, $$N{O_2}$$ monomer, $${O_2}^ - $$ (superoxide), dimeric sulphur in vapor phase, $$M{n_3}{O_4},\\,\\,{\\left( {N{H_4}} \\right)_2}\\left[ {FeC{l_4}} \\right],{\\left( {N{H_4}} \\right)_2}\\left[ {NiC{l_4}} \\right],\\,\\,{K_2}Mn{O_4},\\,{K_2}Cr{O_4}$$",
+    "solution": "Among the given species only K$_{2}$CrO$_{4}$ is diamagnetic as central metal atom Cr in it has [Ar]3d$^{0}$ electronic configuration i.e., all paired electrons. The structure and oxidation state of central metal atom of this compound are as follows\nStructure\n\n[Diagram]\n\nOxidation state Cr$^{6+}$\nRest all the compounds are paramagnetic. Reasons for their paramagnetism are given below.\n(i) H-atom have 1s$^{1}$ electronic configuration i.e., 1 unpaired electron.\n(ii) NO$_{2}$ i.e.\n\n[Diagram]\n\nin itself is an odd electron species.\n(iii) O$$_2^ - $$ (Superoxide) has one unpaired electron in $$\\pi$$* molecular orbital.\n(iv) S$_{2}$ in vapour phase has O$_{2}$ like electronic configuration i.e., have 2 unpaired electrons in $$\\pi$$* molecular orbitals.\n(v) Mn$_{3}$O$_{4}$ has following structure\n\n[Diagram]\n\nThus, Mn is showing +2 and +4 oxidation states. The outermost electronic configuration of elemental Mn is 3d$^{5}$4s$^{2}$. Hence, in both the above oxidation states it has unpaired electron as\n\n[Diagram]\n\n(vi) (NH$_{4}$)$_{2}$FeCl$_{4}$ has Fe as central metal atom with +2 oxidation state. The electronic configuration of Fe$^{2+}$ in the complex is\n\n[Diagram]\n\n(vii) (NH$_{4}$)$_{2}$NiCl$_{4}$ has Ni as central metal atom with +2 oxidation state. The electronic configuration of Ni$^{2+}$ in the complex is\n\n[Diagram]\n\n(viii) In K$_{2}$MnO$_{4}$ central metal atom Mn has +6 oxidation state with following structure\n\n[Diagram]\n\nElectronic configuration of Mn$^{6+}$ is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywgtxcx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_d_f_block_elements_024",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among PbS, CuS, HgS, MnS, Ag$_{2}$S, NiS, CoS, Bi$_{2}$S$_{3}$ and SnS$_{2}$ the total number of black coloured sulphides is",
+    "solution": "(i) Lead in +2 oxidation state as $\\mathrm{Pb}^{2+}$ reacts with hydrogen sulphide gas $\\left(\\mathrm{H}_2 \\mathrm{~S}\\right)$ to form black coloured precipitate of lead sulphide $(\\mathrm{PbS})$.\n\n$\\begin{aligned} & \\mathrm{Pb}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(g) \\rightarrow \\mathrm{PbS}(s) \\downarrow\\text { (Black } \\text { ppt) }+2 \\mathrm{H}^{+}(a q) \\\\\\\\ & \\mathrm{PbS} \\text { is black coloured precipitate. } \\\\ & \\end{aligned}$\n\n(ii) Silver in +1 oxidation state as $\\mathrm{Ag}^{+}$reacts with hydrogen sulphide in neutral or acidic medium to form black coloured precipitate of silver sulphide $\\left(\\mathrm{Ag}_2 \\mathrm{~S}\\right)$.\n\n$$ 2 \\mathrm{Ag}^{+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(g) \\xrightarrow[\\text { or acidic medium }]{\\text { Neutral }} \\mathrm{Ag}_2 \\mathrm{~S}(s) $$(Black ppt)\n\n**$\\mathrm{Ag}_2 \\mathrm{~S}$ is black coloured precipitate.**\n\n(iii) Mercury in +2 oxidation state as $\\mathrm{Hg}^{2+}$ reacts with hydrogen sulphide in dilute hydrochloric acid to form black coloured precipitate of mercury sulphide (HgS).\n\n$$ \\mathrm{Hg}^{2+}(a q)+\\underset{\\begin{array}{c} \\text { (saturated aq. } \\\\ \\text { solution or gas) } \\end{array}}{\\mathrm{H}_2 \\mathrm{~S}} \\xrightarrow{\\text { dil. } \\mathrm{HCl}} \\underset{\\begin{array}{c} \\text { Black } \\\\ \\text { ppt } \\end{array}}{\\mathrm{HgS}(s)} $$\n\n**HgS is black coloured precipitate.**\n\n(iv) Copper in +2 oxidation state as $\\mathrm{Cu}^{2+}$ reacts with dilute hydrochloric acid to form black coloured precipitate of copper sulphide (CuS).\n\n$$ \\begin{aligned} & \\mathrm{Cu}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(\\mathrm{~g}) \\text { (saturated aq. solution) } \\xrightarrow[\\text { HCl }]{\\text { dil }} \\mathrm{CuS}(\\mathrm{s}) \\text { (black ppt) } \\\\ & \\end{aligned} $$\n\n**CuS is black coloured precipitate.**\n\n(v) Cobalt in +2 oxidation state as $\\mathrm{Co}^{2+}$ reacts with hydrogen sulphide in neutral or alkaline solution to form black coloured precipitate of cobalt sulphide.\n\n$\\mathrm{Co}^{2+}(a q) \\text { (ammonical hydrogen sulphide) }+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\mathrm{CoS}(\\mathrm{s})\\text { (Black ppt.) }$\n\n**$(\\mathrm{CoS})$ is black coloured precipitate.**\n\n(vi) Nickel in +2 oxidation state as $\\mathrm{Ni}^{2+}$ reacts with hydrogen sulphide in neutral or slightly alkaline solution to form, black coloured precipitate of nickel sulphide.\n\n$$ \\mathrm{Ni}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\underset{\\substack{\\text { Black } \\\\ \\text { ppt. }}}{\\mathrm{NiS}(\\mathrm{s})} $$\n\n**NiS is black coloured precipitate.**\n\n(vii) Bismuth in +3 oxidation state as $\\mathrm{Bi}^{3+}$ reacts with hydrogen sulphide in cold dilute hydrochloric acid to form crystalline dark brown coloured precipitate, but appears black coloured solid of $\\mathrm{Bi}_2 \\mathrm{~S}_3$.\n\n$\\mathrm{Bi}^{3+}(a q) \\text { (Saturated solution) }+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\mathrm{Bi}_2 \\mathrm{~S}_3(\\mathrm{~s})\\text { (Dark brown or Black precipitate brownish) }$\n\n**$\\mathrm{Bi}_2 \\mathrm{~S}_3$ may appear black in colours.**\n\nEither compounds of sulphur are black in colour.\n\n(viii) In mildly acidic, medium tin in +2 state, i.e., $\\mathrm{Sn}^{2+}$ reacts with Hydrogen sulphide $\\left(\\mathrm{H}_2 \\mathrm{~S}\\right)$ to form brown coloured tin (II) sulphide which further reacts with excess of hydrogen sulphide to form light yellow coloured tin (IV) sulphide $\\left(\\mathrm{SnS}_2\\right)$.\n\n$\\begin{aligned} \\mathrm{Sn}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S} \\rightleftharpoons \\underset{\\text { Brown }}{\\mathrm{SnS}(s)} \\\\ \\mathrm{SnS}(\\mathrm{s})+\\mathrm{H}_2 \\mathrm{~S} \\rightleftharpoons \\underset{\\text { Yellow }}{\\mathrm{SnS}_2(\\mathrm{~s})}+2 \\mathrm{H}^{+}\\end{aligned}$\n\nHence, tin (IV) sulphide or $\\mathrm{SnS}_2$ is yellow in colour.\n\n(ix) MnS is known to be dirty pink coloured.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_d_f_block_elements_025",
+    "subject": "Chemistry",
+    "chapter": "d & f Block Elements",
+    "topic": "d & f Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The oxidation number of Mn in the product of alkaline oxidative fusion of MnO$$_2$$ is ___________.",
+    "solution": "The reaction for alkaline oxidative fusion is\n2MnO$$_2$$ + 4KOH + O$$_2\\to$$ 2K$$_2$$MnO$$_4$$ + 2H$$_2$$O\nIn potassium manganite formed as product :\nK$$_2$$MnO$$_4$$\n2(+1) + $$x$$ + 4($$-$$2) = 0\n$$2+x-8=0x-6=0\\Rightarrow x=+6$$",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

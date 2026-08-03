@@ -1,0 +1,794 @@
+[
+  {
+    "id": "math_differential_equations_001",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let **$y : (-\\infty, \\infty) \\to (0, \\infty)$** be the solution of the differential equation\n$$\\frac{dy}{dx} = \\frac{e^{5x} y^3 + y^3}{e^x + e^x y^4},$$\nsatisfying $y(0) = \\frac{1}{\\sqrt{2}}$. Then the value of $y(\\log_e 2)$ is",
+    "solution": "$$I=\\int\\limits_{0}^{2} \\frac{1}{3+3^x}\\,dx \\quad \\ldots\\ (1)I=\\int\\limits_{0}^{2} \\frac{1}{3+3^{2-x}}\\,dx \\quad \\ldots\\ (2)$$\nAdding (1) and (2)\n$$2I=\\int\\limits_{0}^{2} \\left(\\frac{1}{3+3^x}+\\frac{3^x}{3(3+3^x)}\\right)dx2I=\\int\\limits_{0}^{2} \\left(\\frac{3+3^x}{3(3+3^x)}\\right)dx2I=\\int\\limits_{0}^{2} \\frac{1}{3}\\,dx2I=\\frac{1}{3}[x]_{0}^{2}2I=\\frac{2}{3}\\Rightarrow I=\\frac{1}{3}\\Rightarrow \\text{Option (B) is correct.}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\sqrt{\\frac{5 + \\sqrt{35}}{2}}$",
+      "$\\sqrt{\\frac{7 + \\sqrt{53}}{2}}$",
+      "$\\frac{7 + \\sqrt{53}}{2}$",
+      "$\\frac{5 + \\sqrt{35}}{2}$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_002",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $y = f(x)$ be the real valued function defined on the interval $(0, \\infty)$, satisfying $y(1) = 0$ and the differential equation$$ x \\frac{dy}{dx} = y - x^3. $$Then which of the following statements is (are) TRUE?",
+    "solution": "We start with the differential equation:\n$$ x \\, dy - y \\, dx = -x^3 \\, dx $$\nDivide both sides by $ x^2 $ to simplify:\n$$ \\frac{x \\, dy - y \\, dx}{x^2} = -x \\, dx $$\nThe left side can be written as the derivative of a quotient:\n$$ d\\left( \\frac{y}{x} \\right) = -x \\, dx $$\nNow, integrate both sides:\n$$ \\frac{y}{x} = -\\frac{x^2}{2} + c $$\nMultiply by $ x $ to find $ y $:\n$$ y = -\\frac{x^3}{2} + c x $$\nWe are given $ y(1) = 0 $. Substitute $ x = 1 $ and $ y = 0 $:\n$$ 0 = -\\frac{1}{2} + c \\Rightarrow c = \\frac{1}{2} $$\nHence, the function becomes:\n$$ y = -\\frac{x^3}{2} + \\frac{x}{2} $$\nDifferentiate $ y $ with respect to $ x $:\n$$ \\frac{dy}{dx} = -\\frac{3x^2}{2} + \\frac{1}{2} $$\nWe can factorize this as:\n$$ \\frac{dy}{dx} = -\\frac{3}{2}\\left( x - \\frac{1}{\\sqrt{3}} \\right)\\left( x + \\frac{1}{\\sqrt{3}} \\right) $$\n\n[Diagram]\n\nAt $ x = \\frac{1}{\\sqrt{3}} $, the derivative changes from positive to negative, so there is a local maximum.\nAt $ x = -\\frac{1}{\\sqrt{3}} $, the derivative changes from negative to positive, so there is a local minimum.\nFor $ g(x) = f(x) $:\n$$ 4x^3 - 5x^2 + \\frac{3}{2}x = -\\frac{x^3}{2} + \\frac{x}{2} $$\nMultiply through to remove fractions and simplify:\n$$ 9x^3 - 10x^2 + 2x = 0 $$\nTake $ x $ common:\n$$ x(9x^2 - 10x + 2) = 0 $$\nSo, $ x = 0 $ or $ 9x^2 - 10x + 2 = 0 $.\nUsing the quadratic formula:\n$$ x = \\frac{5 \\pm \\sqrt{7}}{9} $$\nBoth these solutions are positive.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "The function $f$ has a local minimum at $x = \\frac{1}{\\sqrt{3}}$",
+      "The function $f$ has a local maximum at $x = \\frac{1}{\\sqrt{3}}$",
+      "The function $f$ is increasing in the interval $(1, 2)$",
+      "If $g(x) = 4x^3 - 5x^2 + \\frac{3}{2}x$ for $x > 0$, then the number of elements in the set $$ \\{x \\in (0, \\infty) : f(x) = g(x) \\} $$\nis $2$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpck3sab.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differential_equations_003",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $y(x)$ be the solution of the differential equation\n$$ x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e} $$\nsatisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is ____________.",
+    "solution": "$\\frac{d y}{d x}+\\frac{y}{x}=\\frac{x^2}{x^2}+\\frac{y^2}{x^2}$\n$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{x}=1+\\left(\\frac{y}{x}\\right)^2 \\\\ & \\text { Let } \\frac{y}{x}=t \\\\ & y=x t \\\\ & \\frac{d y}{d x}=x \\frac{d t}{d x}+t \\\\ & \\therefore x \\frac{d t}{d x}+t+t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+2 t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+t^2+1-2 t \\\\ & \\Rightarrow x \\frac{d t}{d x}=(t-1)^2 \\\\ & \\Rightarrow \\frac{d t}{(t-1)^2}=\\frac{d x}{x}\\end{aligned}$\nIntegrating both sides\n$$ \\begin{aligned} & \\Rightarrow \\int \\frac{d t}{(t-1)^2}=\\int \\frac{d x}{x} \\\\ & \\Rightarrow \\frac{-1}{(t-1)}=\\ln x+C \\\\ & \\Rightarrow \\frac{-1}{\\frac{y}{x}-1}=\\ln x+C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+C \\end{aligned} $$\nGiven $y(1)=0$\n$$ \\begin{aligned} & 1=C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+1 ..........(i)\\end{aligned} $$\n$\\therefore $ Put $x=e$\n$\\begin{aligned} & \\frac{-e}{y-e}=1+1 \\\\ & \\Rightarrow-e=2(y-e) \\\\ & \\Rightarrow e=2(e-y) \\\\ & \\Rightarrow \\frac{e}{2}=e-y \\\\ & \\Rightarrow y=e-\\frac{e}{2} \\Rightarrow \\frac{e}{2} \\Rightarrow y=\\frac{e}{2} \\\\ & \\text { Put } x=e^2 \\text { in (i) } \\\\ & \\Rightarrow \\frac{-e^2}{y-e^2}=2+1\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow-e^2=3\\left(y-e^2\\right) \\\\ & \\Rightarrow-e^2=3 y-3 e^2 \\\\ & \\Rightarrow 2 e^2=3 y \\\\ & \\Rightarrow y=\\frac{2}{3} e^2 \\\\ & \\therefore \\frac{2(y(e))^2}{y\\left(e^2\\right)}=2 \\frac{\\left(\\frac{e}{2}\\right)^2}{\\frac{2}{3} e^2} \\\\ & \\Rightarrow \\frac{\\frac{1}{2}}{\\frac{2}{3}}=\\frac{3}{4}=00.75\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_004",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If length of tangent at any point on the curve $$y=f(x)$$ intecepted between the point and the $$x$$-axis is length $$1.$$ Find the equation of the curve.",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_005",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f(x)$ be a continuously differentiable function on the interval $(0, \\infty)$ such that $f(1)=2$ and\n\n$$ \\lim\\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 $$\n\nfor each $x>0$. Then, for all $x>0, f(x)$ is equal to :",
+    "solution": "$$ \\begin{aligned} & \\lim _{1 \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 \\\\\\\\ & \\Rightarrow \\lim _{1 \\rightarrow x} \\frac{10 t^9 f(x)-x^{10} f^{\\prime}(t)}{9 t^8}=1 \\\\\\\\ & \\Rightarrow 10 x f(x)-x^2 f^{\\prime}(x)=9 \\\\\\\\ & \\Rightarrow x^2 f^{\\prime}(x)=10 x f(x)-9 \\\\\\\\ & \\Rightarrow f^{\\prime}(x)=\\frac{10 f(x)}{x}-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow \\frac{d y}{d x}-\\frac{10}{x} y=-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow y \\cdot \\frac{1}{x^{10}}=\\int-\\frac{9}{x^2} \\cdot \\frac{1}{x^{10}} d x \\\\\\\\ & \\Rightarrow \\frac{y}{x^{10}}=\\frac{9}{11 x^{11}}+c \\\\\\\\ & \\because f(1)=2 \\Rightarrow \\frac{2}{1}=\\frac{9}{11}+c \\Rightarrow c=\\frac{13}{11} \\\\\\\\ & \\therefore f(x)=\\frac{9}{11 x}+\\frac{13}{11} x^{10} \\end{aligned} $$\n\n$\\Rightarrow$ Option (B) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{31}{11 x}-\\frac{9}{11} x^{10}$",
+      "$\\frac{9}{11 x}+\\frac{13}{11} x^{10}$",
+      "$\\frac{-9}{11 x}+\\frac{31}{11} x^{10}$",
+      "$\\frac{13}{11 x}+\\frac{9}{11} x^{10}$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_006",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is :",
+    "solution": "1. We are given a relationship between the integral of the function $f(t)$ and the function $f(x)$ :\n\n\n$$3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$$\n\n2. Differentiate both sides of the above equation with respect to $x$ :\n\n$$\n3(f(x) \\cdot 1-0)=1 . f(x)+x f^{\\prime}(x)-\\frac{3 x^2}{3}\n\\Rightarrow 3f(x) = f(x) + xf'(x) - x^2 \\Rightarrow 2f(x) = xf'(x) - x^2$$\n\n3. We can rewrite this as a first order linear differential equation:\n\n\n\n$$xf'(x) - 2f(x) = x^2$$\n\n4. The general form of a first order linear differential equation is:\n\n\n\n$$y'(x) + p(x)y = q(x)$$\n\n\n\nHere $y = f(x)$, $p(x) = -\\frac{2}{x}$, and $q(x) = x$.\n\n5. The integrating factor is obtained by exponentiating the integral of $p(x)$ with respect to $x$:\n\n\n\n$$e^{\\int p(x) dx} = e^{\\int -\\frac{2}{x} dx} = e^{-2\\ln|x|} = \\frac{1}{x^2}$$\n\n6. $$ \\therefore $$ Solution of D.E :\n\n$$\n\\begin{gathered}\ny \\cdot\\left(\\frac{1}{x^2}\\right)=\\int(x) \\frac{1}{x^2} d x \\\\\\\\\n\\frac{y}{x^2}=\\ln x+c \\\\\\\\\ny=x^2 ln x+c x^2\n\\end{gathered}\n\\therefore $$ The general solution is :\n\n$$y(x) = x^2(\\ln x + c)$$\n\nHere, $y(x)$ is the same as $f(x)$, i.e. the function we're trying to find.\n\n7. Given that $f(1) = \\frac{1}{3}$, let's use this condition to find the constant $c$ :\n\n$$\\frac{1}{3} = 1^2(\\ln 1 + c) \\Rightarrow c = \\frac{1}{3}$$\n\nTherefore, the function $f(x)$ we are looking for is:\n\n$$f(x) = x^2(\\ln x + \\frac{1}{3})$$\n\nWe want to find $f(e)$, so substituting $x=e$ into the function, we get :\n\n$$f(e) = e^2(\\ln e + \\frac{1}{3}) = e^2(1 + \\frac{1}{3}) = \\frac{4e^2}{3}$$\n\nSo, the correct answer is\n\nOption C : $\\frac{4e^2}{3}$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\frac{e^2+4}{3}$",
+      "$\\frac{\\log _e 4+e}{3}$",
+      "$\\frac{4 e^2}{3}$",
+      "$\\frac{e^2-4}{3}$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_007",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If y = y(x) satisfies the differential equation\n\n$${8\\sqrt x \\left( {\\sqrt {9 + \\sqrt x } } \\right)dy = {{\\left( {\\sqrt {4 + \\sqrt {9 + \\sqrt x } } } \\right)}^{ - 1}}}$$\n\ndx, x > 0 and y(0) = $$\\sqrt 7 $$, then y(256) =",
+    "solution": "$${{dy} \\over {dx}} = {1 \\over {8\\sqrt x + \\sqrt {9 + \\sqrt x } \\sqrt {4 + \\sqrt {9 + \\sqrt x } } }} \\Rightarrow y = \\sqrt {4 + \\sqrt { + \\sqrt x } } + c$$\n\nNow, $$y(0) = \\sqrt 7 + c \\Rightarrow c = 0y(256) = \\sqrt {4 + \\sqrt {9 + \\sqrt {16} } } = \\sqrt {4 + 5} = 3$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "16",
+      "3",
+      "9",
+      "80"
+    ]
+  },
+  {
+    "id": "math_differential_equations_008",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The function $$y=f(x)$$ is the solution of the differential equation\n\n$${{dy} \\over {dx}} + {{xy} \\over {{x^2} - 1}} = {{{x^4} + 2x} \\over {\\sqrt {1 - {x^2}} }}\\,$$ in $$(-1,1)$$ satisfying $$f(0)=0$$.\nThen $$\\int\\limits_{ - {{\\sqrt 3 } \\over 2}}^{{{\\sqrt 3 } \\over 2}} {f\\left( x \\right)} \\,d\\left( x \\right)$$ is",
+    "solution": "Given, $$\\frac{d y}{d x}+\\left(\\frac{x}{x^2-1}\\right) y=\\frac{x^4+2 x}{\\sqrt{1-x^2}}$$\nThe above differential equation is a linear differential equation.\nIntegrating factor I.F. $$=e^{\\int \\frac{x}{x^2-1} d x}\\begin{aligned}\n& \\Rightarrow \\text { I.F. }=e^{\\frac{1}{2} \\int \\frac{-2 x d x}{1-x^2}} \\\\\n& \\Rightarrow \\text { I.F. }=e^{\\frac{1}{2} \\ln \\left(1-x^2\\right)} \\quad\\left(\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln f(x)+c\\right) \\\\\n& \\Rightarrow \\text { I.F. }=e^{\\ln \\sqrt{1-x^2}} \\\\\n& \\Rightarrow \\text { I.F. }=\\sqrt{1-x^2}\n\\end{aligned}$$\nNow, the solution of the given differential equation is\n$$\\begin{aligned}\n& \\Rightarrow y \\cdot \\text { (I.F. })=\\int\\left(\\frac{x^4+2 x}{\\sqrt{1-x^2}}\\right)(\\text { L.F. }) d x+\\text { C } \\\\\n& \\Rightarrow y \\sqrt{1-x^2}=\\int\\left(\\frac{x^4+2 x}{\\sqrt{1-x^2}}\\right) \\sqrt{1-x^2} d x+\\text { C } \\\\\n& \\Rightarrow y \\sqrt{1-x^2}=\\frac{x^5}{5}+2 \\times \\frac{x^2}{2}+\\text { C } \\\\\n& \\Rightarrow y=f(x)=\\frac{\\frac{x^5}{5}+x^2+\\mathrm{C}}{\\sqrt{1-x^2}}\n\\end{aligned}$$\nGiven, $$f(0)=0\\begin{array}{ll}\n\\Rightarrow & 0=\\frac{0+0+C}{\\sqrt{1-0}} \\\\\n\\Rightarrow & C=0 \\\\\n\\therefore & f(x)=\\frac{\\frac{x^5}{5}+x^2}{\\sqrt{1-x^2}}=\\frac{x^5}{5 \\sqrt{1-x^2}}+\\frac{x^2}{\\sqrt{1-x^2}}\n\\end{array}$$\nLet $$\\mathrm{I}=\\int_{\\frac{-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}} f(x) d x\\Rightarrow \\mathrm{I}=\\int_{\\frac{-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}}\\left(\\frac{x^5}{5 \\sqrt{1-x^2}}+\\frac{x^2}{\\sqrt{1-x^2}}\\right) d x$$\nHere, $$\\frac{x^5}{5 \\sqrt{1-x^2}}$$ is an odd function and $$\\frac{x^2}{\\sqrt{1-x^2}}$$ is an even function.\n$$\\begin{aligned}\n& \\therefore \\mathrm{I}=0+2 \\int_0^{\\frac{\\sqrt{3}}{2}} \\frac{x^2}{\\sqrt{1-x^2}} d x \\\\\n& \\Rightarrow \\mathrm{I}=2 \\int_0^{\\frac{\\sqrt{3}}{2}}\\left(\\frac{x^2-1+1}{\\sqrt{1-x^2}}\\right) d x \\\\\n& \\Rightarrow \\mathrm{I}=2 \\int_0^{\\frac{\\sqrt{3}}{2}}\\left(-\\sqrt{1-x^2}+\\frac{1}{\\sqrt{1-x^2}}\\right) d x \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\left(\\frac{x}{2} \\sqrt{1-x^2}+\\frac{1}{2} \\sin ^{-1} x\\right)+\\sin ^{-1} x\\right]_0^{\\frac{\\sqrt{3}}{2}} \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\frac{x}{2} \\sqrt{1-x^2}+\\frac{1}{2} \\sin ^{-1} x\\right]_0^{\\frac{\\sqrt{3}}{2}} \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\frac{\\sqrt{3}}{4} \\times \\frac{1}{2}+\\frac{1}{2} \\times \\frac{\\pi}{3}\\right] \\\\\n& \\Rightarrow \\mathrm{I}=\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{4}\n\\end{aligned}$$\nHint:\n(i) The solution of linear differential equation $$\\frac{d y}{d x}+\\mathrm{P}(x) \\cdot y=\\mathrm{Q}(x)$$ is\n$$y \\text { (I.F.) } =\\int \\mathrm{Q}(x) \\cdot(\\text { I.F. }) d x+\\text { C }$$\nWhere, $$\\quad \\text { L.F. } =e^{\\int p(x) d x}$$\n(ii) Recall the property\n$$\\int_{-a}^a f(x) d x=\\left\\{\\begin{array}{l}\n2 \\int_0^a f(x) d x, \\text { When } f(x) \\text { is an even } \\\\\n\\text { function. } \\\\\n0, \\text { When } f(x) \\text { is an odd function. }\n\\end{array}\\right.$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${\\pi \\over 3} - {{\\sqrt 3 } \\over 2}$$",
+      "$${\\pi \\over 3} - {{\\sqrt 3 } \\over 4}$$",
+      "$${\\pi \\over 6} - {{\\sqrt 3 } \\over 4}$$",
+      "$${\\pi \\over 6} - {{\\sqrt 3 } \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_009",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A curve passes through the point $$\\left( {1,{\\pi \\over 6}} \\right)$$. Let the slope of\n\nthe curve at each point $$(x,y)$$ be $${y \\over x} + \\sec \\left( {{y \\over x}} \\right),x > 0.$$\n\nThen the equation of the curve is",
+    "solution": "Given, the slope of curve at $$(x,y)$$ is\n$$\\begin{aligned}\n& \\frac{y}{x}+\\sec \\left(\\frac{y}{x}\\right), x>0 . \\\\\n\\therefore \\quad & \\frac{d y}{d x}=\\frac{y}{x}+\\sec \\left(\\frac{y}{x}\\right) \\quad \\text{... (i)}\n\\end{aligned}$$\nPut $$y=v x \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$$ in the equation (i)\n$$\\begin{aligned}\n& \\Rightarrow \\quad v+x \\frac{d v}{d x}=\\frac{v x}{x}+\\sec \\left(\\frac{v x}{x}\\right) \\\\\n& \\Rightarrow \\quad v+x \\frac{d v}{d x}=v+\\sec (v) \\\\\n& \\Rightarrow \\quad x \\frac{d v}{d x}=\\sec v \\\\\n& \\Rightarrow \\quad \\cos v d v=\\frac{d x}{x} \\\\\n& \\Rightarrow \\quad \\int \\cos v d v=\\int \\frac{d x}{x} \\\\\n& \\Rightarrow \\quad \\sin v=\\ln x+c \\\\\n& \\Rightarrow \\quad \\sin \\left(\\frac{y}{x}\\right)=\\ln x+c \\quad \\text{... (i)}\n\\end{aligned}$$\nPut $$x=1$$ and $$y=\\frac{\\pi}{6}$$ in the equation (ii)\n$$\\begin{aligned}\n\\Rightarrow & & \\sin \\frac{\\pi}{6} & =\\log 1+c \\\\\n\\Rightarrow & & \\frac{1}{2} & =0+c \\\\\n\\Rightarrow & & c & =\\frac{1}{2}\n\\end{aligned}$$\nPut $$c=\\frac{1}{2}$$ in the equation (ii)\n$$\\Rightarrow \\quad \\sin \\frac{y}{x}=\\log x+\\frac{1}{2}$$\nHints:\n(i) the slope of a curve at $$(x, y)$$ is equal to $$\\frac{d y}{d x}$$\n(ii) For the solution of homogeneous differential equation $$\\frac{d y}{d x}=f\\left(\\frac{y}{x}\\right)$$ put $$y=v x$$ i.e. $$\\frac{d y}{d x}=v+x \\frac{d v}{d x}$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$sin\\left( {{y \\over x}} \\right) = \\log x + {1 \\over 2}$$",
+      "$$cos\\,ec\\left( {{y \\over x}} \\right) = \\log x + 2$$",
+      "$$\\,s\\,ec\\left( {{{2y} \\over x}} \\right) = \\log x + 2\\,$$",
+      "$$\\,cos\\left( {{{2y} \\over x}} \\right) = \\log x + {1 \\over 2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5kfne.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differential_equations_010",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements/expressions in Column I with the values given in Column II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nThe number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi \\over 2}} \\right)$$\n(P)\n1\n\n\n(B)\nValue(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line\n(Q)\n2\n\n\n(C)\nValue(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)\n(R)\n3\n\n\n(D)\nIf $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$\n(S)\n4\n\n\n\n\n(T)\n5",
+    "solution": "(A) We have $$f'(x) > 0,\\forall x \\in (0,\\pi /2)$$. Therefore,\n$$f(0) < 0$$ and $$f(\\pi /2) > 0$$\nHence, there is no one solution.\n(B) Let us consider that $$(a,b,c)$$ is direction ratio of the intersected line. Therefore,\n$$ak + 4b + c = 04a + kb + 2c = 0{a \\over {8 - k}} = {b \\over {4 - 2k}} = {c \\over {{k^2} - 16}}$$\nWe need to have\n$$2(8 - k) + 2(4 - 2k) + ({k^2} - 16) = 0 \\Rightarrow k = 2,4$$.\n(C) Let us consider\n$$f(x) = |x + 2| + |x + 1| + |x - 1| + |x - 2|$$\nTherefore, $$k$$ can take values: 2, 3, 4, 5.\n\n[Diagram]\n\n(D) $$\\int {{{dy} \\over {y + 1}} = \\int {dx} } \\Rightarrow f(x) = 2{e^x} - 1 \\Rightarrow f(\\ln 2) = 3$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)$$\\to$$(P); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (R), (S), (T); (D)$$\\to$$(R)",
+      "(A)$$\\to$$(T); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (S), (T); (D)$$\\to$$(Q)",
+      "(A)$$\\to$$(S); (B)$$\\to$$(Q), (S); (C)$$\\to$$(P), (R), (S), (T); (D)$$\\to$$(R)",
+      "(A)$$\\to$$(P); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (R), (T); (D)$$\\to$$(S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5kfne.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differential_equations_011",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements/expressions in Column I with the open intervals in Column II :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nInterval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$\n(P)\n$$\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$\n\n\n(B)\nInterval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$\n(Q)\n$$\\left( {0,{\\pi \\over 2}} \\right)$$\n\n\n(C)\nInterval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies\n(R)\n$$\\left( {{\\pi \\over 8},{{5\\pi } \\over 4}} \\right)$$\n\n\n(D)\nInterval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing\n(S)\n$$\\left( {0,{\\pi \\over 8}} \\right)$$\n\n\n\n\n(T)\n$$( - \\pi ,\\pi )$$",
+    "solution": "(A) We have $${(x - 3)^2}{{dy} \\over {dx}} + y = 0\\int {{{dx} \\over {{{(x - 3)}^2}}} = - \\int {{{dy} \\over y}} } \\Rightarrow {1 \\over {x - 3}} = \\ln |y| + c$$\nSo the domain is $$R \\to \\{ 3\\} $$.\n(B) On substituting $$x = t + 3$$, we get\n$$\\int\\limits_{ - 2}^2 {(t + 2)(t + 1)t(t - 1)(t - 2)dt = \\int\\limits_{ - 2}^2 {t({t^2} - 1)({t^2} - 4)dt = 0} } $$ (being odd function)\n(C) $$f(x) = {5 \\over 4} - {\\left( {\\sin x - {1 \\over 2}} \\right)^2}$$\nThe maximum value occurs when $$\\sin x = 1/2$$.\n(D) $$f'(x) > 0$$ if $$\\cos x > \\sin x$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(S)",
+      "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (R); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(R)",
+      "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(S), (Q), (R), (T); (D)$$\\to$$(S)",
+      "(A)$$\\to$$(P), (T), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(S)"
+    ]
+  },
+  {
+    "id": "math_differential_equations_012",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a solution $$y=y(x)$$ of the differential equation,\n\n$$x\\sqrt {{x^2} - 1} \\,\\,dy - y\\sqrt {{y^2} - 1} \\,dx = 0$$ satify $$y\\left( 2 \\right) = {2 \\over {\\sqrt 3 }}.$$\n**STATEMENT-1 :** $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - {\\pi \\over 6}} \\right)$$ and\n\n**STATEMENT-2 :** $$y\\left( x \\right)$$ given by $${1 \\over y} = {{2\\sqrt 3 } \\over x} - \\sqrt {1 - {1 \\over {{x^2}}}} $$",
+    "solution": "The given differential equation is\n$$x\\sqrt {{x^2} - 1} dy - y\\sqrt {{y^2} - 1} dx = 0 = \\int {{{dy} \\over {y\\sqrt {{y^2} - 1} }} = \\int {{{dx} \\over {x\\sqrt {{x^2} - 1} }}} } \\Rightarrow {\\sec ^{ - 1}}y = {\\sec ^{ - 1}}x + cy = \\sec [{\\sec ^{ - 1}}x + C]$$ [$$\\becausey(2) = {2 \\over {\\sqrt 3 }}$$]\n$${2 \\over {\\sqrt 3 }} = \\sec ({\\sec ^{ - 1}}2 + C) = {\\sec ^{ - 1}}{2 \\over {\\sqrt 3 }} - {\\sec ^{ - 1}}2 = CC = {\\pi \\over 6} - {\\pi \\over 3} = {{ - \\pi } \\over 6}$$ [$$\\thereforey = \\sec \\left[ {{{\\sec }^{ - 1}}x - {\\pi \\over 6}} \\right]$$]\nStatement 1 is true\nAlso, $${1 \\over y} = \\cos \\left[ {\\cos - {\\pi \\over x} - {\\pi \\over 6}} \\right]\\cos \\left( {{{\\cos }^{ - 1}}{1 \\over x}} \\right)\\cos {\\pi \\over 6} + \\sin ({\\cos ^{ - 1}}{1 \\over x})\\sin {\\pi \\over 6} = {1 \\over y} = {{\\sqrt 3 } \\over {2x}} + {1 \\over 2}\\sqrt {1 - {1 \\over {{x^2}}}} \\therefore$$ Statement 2 is false.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "STATEMENT-1 is True, STATEMENT-2 is True;STATEMENT-2 is a correct explanation for STATEMENT-1",
+      "STATEMENT-1 is True, STATEMENT-2 is True;STATEMENT-2 is **NOT** a correct explanation for STATEMENT-1",
+      "STATEMENT-1 is True, STATEMENT-2 is False",
+      "STATEMENT-1 is False , STATEMENT-2 is True"
+    ]
+  },
+  {
+    "id": "math_differential_equations_013",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :",
+    "solution": "Given, $$ \\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}\\Rightarrow \\int \\frac{y}{\\sqrt{1-y^{2}}} d y=\\int d x\\Rightarrow -\\sqrt{1-y^{2}}=x+c \\Rightarrow(x+c)^{2}+y^{2}=1$$\nHere, centre $$(-c, 0)$$ and radius $$=1$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "variable radii and a fixed centre at $$(0,1)$$",
+      "variable radii and a fixed centre at $$(0,-1)$$",
+      "fixed radius 1 and variable centres along the $$x$$-axis",
+      "fixed radius 1 and variable centres along the $$y$$-axis"
+    ]
+  },
+  {
+    "id": "math_differential_equations_014",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The differential equation $${{dy} \\over {dx}} = {{\\sqrt {1 - {y^2}} } \\over y}$$ determines a family of circles with",
+    "solution": "To find $$y''(0)$$, we need to differentiate the given equation twice with respect to $$x$$ and then substitute $$x=0$$.\n\nDifferentiating the equation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ with respect to $$x$$, we get:\n\n$$ \\cos\\,y - x\\sin\\,y \\cdot y' + y'\\cos\\,x - y\\sin\\,x = 0$$\n\nNow, let's differentiate this equation again with respect to $$x$$:\n\n$$- \\sin\\,y \\cdot y' - \\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - y'\\sin\\,x - y'\\sin\\,x - y\\cos\\,x = 0$$\n\nSimplifying the equation, we get:\n\n$$-2\\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - 2y'\\sin\\,x - y\\cos\\,x = 0$$\n\nNow, let's substitute $$x = 0$$ in the original equation and the first derivative equation. This will help us find the values of $$y(0)$$ and $$y'(0)$$ respectively:\n\nFrom the original equation, $$x\\cos \\,y + y\\,cos\\,x = \\pi$$, substituting $$x = 0$$, we get:\n\n$$y(0) \\cdot 1 = \\pi$$\n\nTherefore, $$y(0) = \\pi$$.\n\nNow, substituting $$x = 0$$ in the first derivative equation, we get:\n\n$$ \\cos\\,y(0) + y'(0) \\cdot 1 = 0$$\n\nSubstituting $$y(0) = \\pi$$, we get:\n\n$$ \\cos \\pi + y'(0) = 0$$\n\nTherefore, $$y'(0) = 1$$.\n\nFinally, let's substitute $$x = 0$$, $$y(0) = \\pi$$, and $$y'(0) = 1$$ in the second derivative equation:\n\n$$-2\\sin\\pi \\cdot 1 - 0 \\cdot \\cos \\pi \\cdot (1)^2 - 0 \\cdot \\sin \\pi \\cdot y''(0) + y''(0)\\cos 0 - 2 \\cdot 1 \\cdot \\sin 0 - \\pi \\cdot \\cos 0 = 0$$\n\nSimplifying the equation, we get:\n\n$$y''(0) - \\pi = 0$$\n\nTherefore, $$y''(0) = \\pi$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "variable radii and a fixed centre at $$(0,1)$$",
+      "variable radii and a fixed centre at $$(0,-1)$$",
+      "fixed radius $$1$$ and variable centres along the $$x$$-axis.",
+      "fixed radius $$1$$ and variable centrs along the $$y$$-axis."
+    ]
+  },
+  {
+    "id": "math_differential_equations_015",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the primitive integral equation $$ydx + {y^2}dy = x\\,dy;x \\in R,\\,\\,y > 0,y = y\\left( x \\right),\\,y\\left( 1 \\right) = 1,$$ then $$y(-3)$$ is",
+    "solution": "To find $$y''(0)$$, we need to differentiate the given equation twice with respect to $$x$$ and then substitute $$x=0$$.\n\nDifferentiating the equation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ with respect to $$x$$, we get:\n\n$$ \\cos\\,y - x\\sin\\,y \\cdot y' + y'\\cos\\,x - y\\sin\\,x = 0$$\n\nNow, let's differentiate this equation again with respect to $$x$$:\n\n$$- \\sin\\,y \\cdot y' - \\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - y'\\sin\\,x - y'\\sin\\,x - y\\cos\\,x = 0$$\n\nSimplifying the equation, we get:\n\n$$-2\\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - 2y'\\sin\\,x - y\\cos\\,x = 0$$\n\nNow, let's substitute $$x = 0$$ in the original equation and the first derivative equation. This will help us find the values of $$y(0)$$ and $$y'(0)$$ respectively:\n\nFrom the original equation, $$x\\cos \\,y + y\\,cos\\,x = \\pi$$, substituting $$x = 0$$, we get:\n\n$$y(0) \\cdot 1 = \\pi$$\n\nTherefore, $$y(0) = \\pi$$.\n\nNow, substituting $$x = 0$$ in the first derivative equation, we get:\n\n$$ \\cos\\,y(0) + y'(0) \\cdot 1 = 0$$\n\nSubstituting $$y(0) = \\pi$$, we get:\n\n$$ \\cos \\pi + y'(0) = 0$$\n\nTherefore, $$y'(0) = 1$$.\n\nFinally, let's substitute $$x = 0$$, $$y(0) = \\pi$$, and $$y'(0) = 1$$ in the second derivative equation:\n\n$$-2\\sin\\pi \\cdot 1 - 0 \\cdot \\cos \\pi \\cdot (1)^2 - 0 \\cdot \\sin \\pi \\cdot y''(0) + y''(0)\\cos 0 - 2 \\cdot 1 \\cdot \\sin 0 - \\pi \\cdot \\cos 0 = 0$$\n\nSimplifying the equation, we get:\n\n$$y''(0) - \\pi = 0$$\n\nTherefore, $$y''(0) = \\pi$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$3$$",
+      "$$2$$",
+      "$$1$$",
+      "$$5$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_016",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The solution of primitive integral equation $$\\left( {{x^2} + {y^2}} \\right)dy = xydx$$ is $$y=y(x),$$ If $$y(1)=1$$ and $$\\left( {{x_0}} \\right) = e$$, then $${{x_0}}$$ is equal to",
+    "solution": "To find $$y''(0)$$, we need to differentiate the given equation twice with respect to $$x$$ and then substitute $$x=0$$.\n\nDifferentiating the equation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ with respect to $$x$$, we get:\n\n$$ \\cos\\,y - x\\sin\\,y \\cdot y' + y'\\cos\\,x - y\\sin\\,x = 0$$\n\nNow, let's differentiate this equation again with respect to $$x$$:\n\n$$- \\sin\\,y \\cdot y' - \\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - y'\\sin\\,x - y'\\sin\\,x - y\\cos\\,x = 0$$\n\nSimplifying the equation, we get:\n\n$$-2\\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - 2y'\\sin\\,x - y\\cos\\,x = 0$$\n\nNow, let's substitute $$x = 0$$ in the original equation and the first derivative equation. This will help us find the values of $$y(0)$$ and $$y'(0)$$ respectively:\n\nFrom the original equation, $$x\\cos \\,y + y\\,cos\\,x = \\pi$$, substituting $$x = 0$$, we get:\n\n$$y(0) \\cdot 1 = \\pi$$\n\nTherefore, $$y(0) = \\pi$$.\n\nNow, substituting $$x = 0$$ in the first derivative equation, we get:\n\n$$ \\cos\\,y(0) + y'(0) \\cdot 1 = 0$$\n\nSubstituting $$y(0) = \\pi$$, we get:\n\n$$ \\cos \\pi + y'(0) = 0$$\n\nTherefore, $$y'(0) = 1$$.\n\nFinally, let's substitute $$x = 0$$, $$y(0) = \\pi$$, and $$y'(0) = 1$$ in the second derivative equation:\n\n$$-2\\sin\\pi \\cdot 1 - 0 \\cdot \\cos \\pi \\cdot (1)^2 - 0 \\cdot \\sin \\pi \\cdot y''(0) + y''(0)\\cos 0 - 2 \\cdot 1 \\cdot \\sin 0 - \\pi \\cdot \\cos 0 = 0$$\n\nSimplifying the equation, we get:\n\n$$y''(0) - \\pi = 0$$\n\nTherefore, $$y''(0) = \\pi$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\sqrt {2\\left( {{e^2} - 1} \\right)} $$",
+      "$$\\sqrt {2\\left( {{e^2} + 1} \\right)} $$",
+      "$$\\sqrt 3 \\,e$$",
+      "$$\\sqrt {{{2\\left( {{e^2} + 1} \\right)} \\over 2}} $$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_017",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y=y(x)$$ and it follows the relation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ then $$y''(0)=$$",
+    "solution": "To find $$y''(0)$$, we need to differentiate the given equation twice with respect to $$x$$ and then substitute $$x=0$$.\n\nDifferentiating the equation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ with respect to $$x$$, we get:\n\n$$ \\cos\\,y - x\\sin\\,y \\cdot y' + y'\\cos\\,x - y\\sin\\,x = 0$$\n\nNow, let's differentiate this equation again with respect to $$x$$:\n\n$$- \\sin\\,y \\cdot y' - \\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - y'\\sin\\,x - y'\\sin\\,x - y\\cos\\,x = 0$$\n\nSimplifying the equation, we get:\n\n$$-2\\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - 2y'\\sin\\,x - y\\cos\\,x = 0$$\n\nNow, let's substitute $$x = 0$$ in the original equation and the first derivative equation. This will help us find the values of $$y(0)$$ and $$y'(0)$$ respectively:\n\nFrom the original equation, $$x\\cos \\,y + y\\,cos\\,x = \\pi$$, substituting $$x = 0$$, we get:\n\n$$y(0) \\cdot 1 = \\pi$$\n\nTherefore, $$y(0) = \\pi$$.\n\nNow, substituting $$x = 0$$ in the first derivative equation, we get:\n\n$$ \\cos\\,y(0) + y'(0) \\cdot 1 = 0$$\n\nSubstituting $$y(0) = \\pi$$, we get:\n\n$$ \\cos \\pi + y'(0) = 0$$\n\nTherefore, $$y'(0) = 1$$.\n\nFinally, let's substitute $$x = 0$$, $$y(0) = \\pi$$, and $$y'(0) = 1$$ in the second derivative equation:\n\n$$-2\\sin\\pi \\cdot 1 - 0 \\cdot \\cos \\pi \\cdot (1)^2 - 0 \\cdot \\sin \\pi \\cdot y''(0) + y''(0)\\cos 0 - 2 \\cdot 1 \\cdot \\sin 0 - \\pi \\cdot \\cos 0 = 0$$\n\nSimplifying the equation, we get:\n\n$$y''(0) - \\pi = 0$$\n\nTherefore, $$y''(0) = \\pi$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1$$",
+      "$$-1$$",
+      "$${\\pi}$$",
+      "$$ - \\pi $$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_018",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y=y(x)$$ and $${{2 + \\sin x} \\over {y + 1}}\\left( {{{dy} \\over {dx}}} \\right) = - \\cos x,y\\left( 0 \\right) = 1,$$\n\nthen $$y\\left( {{\\pi \\over 2}} \\right)$$ equals",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1/3$$",
+      "$$2/3$$",
+      "$$-1/3$$",
+      "$$1$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_019",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y(t)$$ is a solution of $$\\left( {1 + t} \\right){{dy} \\over {dt}} - ty = 1$$ and $$y\\left( 0 \\right) = - 1,$$ then $$y(1)$$ is equal to",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ - 1/2$$",
+      "$$e+1/2$$",
+      "$$e-1/2$$",
+      "$$ 1/2$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_020",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${x^2} + {y^2} = 1,$$ then",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$yy'' - 2{\\left( {y'} \\right)^2} + 1 = 0$$",
+      "$$yy'' + {\\left( {y'} \\right)^2} + 1 = 0$$",
+      "$$yy'' + {\\left( {y'} \\right)^2} - 1 = 0$$",
+      "$$yy'' + 2{\\left( {y'} \\right)^2} + 1 = 0$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_021",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution of the differential equation\n\n$${\\left( {{{dy} \\over {dx}}} \\right)^2} - x{{dy} \\over {dx}} + y = 0$$ is",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$y=2$$",
+      "$$y=2x$$",
+      "$$y=2x-4$$",
+      "$$y = 2{x^2} - 4$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_022",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The order of the differential equation whose general solution is given by\n\n$$y = \\left( {{C_1} + {C_2}} \\right)\\cos \\left( {x + {C_3}} \\right) - {C_4}{e^{x + {C_5}}},$$ where\n\n$${C_1},{C_2},{C_3},{C_4},{C_5},$$ are arbitrary constants, is",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$5$$",
+      "$$4$$",
+      "$$3$$",
+      "$$2$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_023",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $x \\in \\mathbb{R}$, let the function $y(x)$ be the solution of the differential equation\n\n$$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), \\quad y(0)=0\n$$\n\nThen, which of the following statements is/are TRUE ?",
+    "solution": "Given, $$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right)\n$$\n\nThis is a linear differential equation.\n\nWhere P = 12 and Q = $\\cos \\left(\\frac{\\pi}{12} x\\right)$\n\n$$\n\\text { I.F. }=e^{\\int P d x}=e^{\\int 12 d x}=e^{12 x}\n$$\n\nSolution of differencial equation is\n\n$$y \\times I.F = \\int {Q \\times \\left( {I.F} \\right)} dxy \\times \\text { I.F. }=\\int e^{12 x} \\cdot \\cos \\left(\\frac{\\pi}{12} x\\right) d x\n\\Rightarrow y e^{12 x}=\\frac{e^{12 x}}{12^2+\\left(\\frac{\\pi}{12}\\right)^2}\\left(12 \\cos \\frac{\\pi}{12} x+\\frac{\\pi}{12} \\sin \\frac{\\pi}{12} x\\right)+C $$\n\n[As $$\\int {{e^{ax}}.\\cos \\left( {bx} \\right)dx} = {{{e^{ax}}} \\over {{a^2} + {b^2}}}\\left\\{ {a\\cos \\left( {bx} \\right) + b\\sin \\left( {bx} \\right)} \\right\\} + C$$]\n\n$$\n\\Rightarrow y=\\frac{12}{(12)^4+\\pi^2}\\left\\{(12)^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)\\right\\}\n+\\frac{C}{e^{12 x}}\n\n\\begin{aligned}\n& \\text { Given }, y(0)=0 \\\\\\\\\n& \\Rightarrow 0=\\frac{12 \\cdot\\left(12^2\\right)}{12^4+\\pi^2}+C \\\\\\\\\n& \\Rightarrow C=\\frac{-12^3}{12^4+\\pi^2} \\\\\\\\\n& \\therefore y=\\frac{12}{12^4+\\pi^2}\\left[12^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)-12^2 \\cdot e^{-12 x}\\right]\n\\end{aligned}\n$$\n\n$y(x)$ is not a periodic function as $e^{-12 x}$ is a non-periodic function.\n\n$$ \\therefore $$ Option (D) is a wrong statement.\n\n$$\n\\begin{aligned}\n& \\text { Now } \\frac{d y}{d x}=\\frac{12}{12^4+\\pi^2}[{-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}+12^3 \\mathrm{e}^{-12 x}]\n\\end{aligned}\n$$\n\nValues of ${-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}$ varies between $\\left(-\\sqrt{144 \\pi^2+\\frac{\\pi^4}{144}},-12 \\pi \\sqrt{1+\\frac{\\pi^2}{12^4}}\\right)$\n\nSo, $\\mathrm{f}(\\mathrm{x})$ is neither increasing nor decreasing.\n\n$$ \\therefore $$ Option (A) and (B) are wrong statements.\n\nFor some $\\beta \\in R, y=\\beta$ intersects $y=f(x)$ at infinitely many points.\n\nSo option $\\mathrm{C}$ is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$y(x)$ is an increasing function",
+      "$y(x)$ is a decreasing function",
+      "There exists a real number $\\beta$ such that the line $y=\\beta \\quad$ intersects the curve $y=y(x)$ at infinitely many points",
+      "$y(x)$ is a periodic function"
+    ]
+  },
+  {
+    "id": "math_differential_equations_024",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\Gamma $$ denote a curve y = y(x) which is in the first quadrant and let the point (1, 0) lie on it. Let the tangent to I` at a point P intersect the y-axis at Y$_{P}$. If PY$_{P}$ has length 1 for each point P on I`, then which of the following options is/are correct?",
+    "solution": "Let a point P(h, k) on the curve y = y(x), so equation of tangent to the curve at point P is\n\n$$y - k = {\\left( {{{dy} \\over {dx}}} \\right)_{h,k}}(x - h)$$ ....(i)\n\nNow, the tangent (i) intersect the Y-axis at Y$_{p}$, so coordinates Y$_{p}$ is $$\\left( {0,k - h{{dy} \\over {dx}}} \\right)$$,\n\nwhere $${{{dy} \\over {dx}}}$$ = $${\\left( {{{dy} \\over {dx}}} \\right)}$$$_{(h,k)}$\n\nSo, PY$_{p}$ = 1 (given)\n\n$$ \\Rightarrow \\sqrt {{h^2} + {h^2}{{\\left( {{{dy} \\over {dx}}} \\right)}^2}} = 1 \\Rightarrow {{dy} \\over {dx}} = \\pm {{\\sqrt {1 - {x^2}} } \\over x}$$\n\n[on replacing h by x]\n\n$$ \\Rightarrow dy = \\pm {{\\sqrt {1 - {x^2}} } \\over x}dx$$\n\nOn puting x = sin$$\\theta $$, dx = cos$$\\theta $$d$$\\theta $$, we get\n\n$$dy = \\pm {{\\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}\\cos \\theta d\\theta = \\pm {{{{\\cos }^2}\\theta } \\over {\\sin \\theta }}d\\theta = \\pm (\\cos ec\\theta - \\sin \\theta )d\\theta \\Rightarrow y = \\pm [1n(\\cos ec\\theta - \\cot \\theta ) + \\cos \\theta ] + C \\Rightarrow y = \\pm \\left[ {1n\\left( {{{1 - \\cos \\theta } \\over {\\sin \\theta }}} \\right) + \\cos \\theta } \\right] + C \\Rightarrow y = \\pm \\left[ {1n\\left( {{{1 - \\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}} \\right) + \\sqrt {1 - {{\\sin }^2}\\theta } } \\right] + C \\Rightarrow y = \\pm \\left[ {1n\\left( {{{1 - \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} } \\right] + C$$\n\n[$$ \\because $$ x = sin$$\\theta $$]\n\n$$ = \\pm \\left[ { - 1n{{1 + \\sqrt {1 - {x^2}} } \\over x} + \\sqrt {1 - {x^2}} } \\right] + C$$\n\n[on rationalization]\n\n$$ \\because $$ The curve is in the first quadrant so y must be positive, so\n\n$$y = 1n\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} + C$$\n\nAs curve passes through (1, 0), so\n\n$$0 = 0 - 0 + c \\Rightarrow c = 0$$, so required curve is\n\n$$y = 1n\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$\n\nand required differential eaquation is\n\n$${{dy} \\over {dx}} = - {{\\sqrt {1 - {x^2}} } \\over x} \\Rightarrow xy' + \\sqrt {1 - {x^2}} = 0$$\n\nHence, options (a) and (c) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$xy' + \\sqrt {1 - {x^2}} = 0$$",
+      "$$xy' - \\sqrt {1 - {x^2}} = 0$$",
+      "$$y = {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$",
+      "$$y = - {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} $$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_025",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$g(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$, then",
+    "solution": "$$g(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$\n\ng'(x) = 2cos 2x sin$^{$$-$$1}$(sin2 x) $$-$$ cos x sin$^{$$-$$1}$(sin x)\n\n$$g'\\left( {{\\pi \\over 2}} \\right) = - 2{\\sin ^{ - 1}}(0) = 0g'\\left( { - {\\pi \\over 2}} \\right) = - 2{\\sin ^{ - 1}}(0) = 0$$\n\nNo option is matching.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$g'\\left( { - {\\pi \\over 2}} \\right) = 0$$",
+      "$$g'\\left( { - {\\pi \\over 2}} \\right) = - 2\\pi $$",
+      "$$g'\\left( {{\\pi \\over 2}} \\right) = 2\\pi $$",
+      "$$g'\\left( {{\\pi \\over 2}} \\right) = 0$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_026",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution curve of the differential equation\n\n$$\\left( {{x^2} + xy + 4x + 2y + 4} \\right){{dy} \\over {dx}} - {y^2} = 0,x>0,$$ passes through the\n\npoint $$(1,3)$$. Then the solution curve",
+    "solution": "**Options (A) and (B)**: The given differential equation is\n\n$$\n\\left[x^2+4 x+4+y(x+2)\\right] \\frac{d y}{d x}-y^2=0 \\quad(x>0)\n$$\n\nwhich is further simplified as follows:\n\n$$\n\\left[(x+2)^2+y(x+2)\\right] \\frac{d y}{d x}-y^2=0\n$$\n\nSubstituting $x+2=t$, we get\n\n$$\n\\frac{d x}{d y}=\\frac{d t}{d y}\n$$\n\nNow,\n\n$$\n(x+2)^2+y(x+2)-y^2 \\frac{d x}{d y}=0\n$$\n\nThat is,\n\n$$\n\\begin{aligned}\n&t^2+y t-y^2 \\frac{d t}{d y} =0 \\\\\\\\\n&y^2 \\frac{d t}{d y}-y t-t^2 =0 \\\\\\\\\n&\\frac{1}{t^2} \\frac{d t}{d y}-\\frac{1}{y t} =\\frac{1}{y^2}\n\\end{aligned}\n$$\n\nLet $\\frac{1}{t}=z$; therefore,\n\n$$\n\\frac{d t}{d y}\\left(-\\frac{1}{t^2}\\right)=\\frac{d z}{d y}\n$$\n\nNow,\n\n$\\begin{aligned} \\frac{-d z}{d y}-\\frac{z}{y} & =\\frac{1}{y^2} \\Rightarrow \\frac{d z}{d y}+\\frac{z}{y}=\\frac{-1}{y^2} \\\\\\\\ \\Rightarrow d(z y) & =\\int-\\frac{1}{y} d y \\\\\\\\ \\Rightarrow z y & =-\\ln |y|+\\ln c \\\\\\\\ \\Rightarrow \\frac{y}{t} & =-\\ln |y|+\\ln c\\end{aligned}$\n\n$$\n\\Rightarrow \\frac{y}{(x+2)}=-\\ln |y|+\\ln c ~~~~~...(1)\n$$\n\nwhich passes through the point $(1,3)$. Therefore, from Eq. (1), we get\n\n$$\n\\begin{aligned}\n&\\frac{z}{3} =-\\ln 3+c \\Rightarrow c=\\ln 3 e \\\\\\\\\n&\\frac{y}{x+2} =-\\ln |y|+\\ln 3 e=\\ln \\left(\\frac{3 e}{|y|}\\right) \\\\\\\\\n&\\frac{3 e}{|y|} =e^{y /(x+2)} \\\\\\\\\n&3 e =|y| e^{y /(x+2)}\n\\end{aligned}\n$$\n\nSubstituting $y=(x+2)$, we get $3 e=|x+2| e^1$\n\n$$\n|x+2|=3 \\Rightarrow x+2=-3,3 \\Rightarrow x=-5,1\n$$\n\nTherefore, $x=1$ (since $x\neq-5)$.\n\n[Diagram]\n\nThat is, the solution curve intersects $y=(x+2)$ exactly at one point and not at two points. Therefore, option (A) is correct and option (B) is incorrect.\n\n**Option (C)**: We have\n\n$$\n\\frac{3 e}{\\left|(x+2)^2\\right|}=e^{(x+2)}\n$$\n\nwhich meets at two points for $x<0$ and for $x>0$, there is no intersection point.\n\nHence, option $(\\mathrm{C})$ is incorrect.\n\n**Option (D)**: We have\n\n$$\n\\frac{3 e}{(x+3)^2}=e^{\\frac{(x+3)^2}{(x+2)}}=e^{\\frac{(x+2)^2+1+2(x+2)}{(x+2)}}=e^{2+\\frac{1}{(x+2)}+(x+2)}\n$$\n\nTherefore, there is no intersection point for $x>0$. Hence option (D) is correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "intersects $$y=x+2$$ exactly at one point",
+      "intersects $$y=x+2$$ exactly at two points",
+      "intersects $$y = {\\left( {x + 2} \\right)^2}$$",
+      "does NOT intersect $$\\,y = {\\left( {x + 3} \\right)^2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li7g4cgw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differential_equations_027",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:(0,\\infty ) \\to R$$ be a differentiable function such that $$f'(x) = 2 - {{f(x)} \\over x}$$ for all $$x \\in (0,\\infty )$$ and $$f(1)\ne 1$$. Then",
+    "solution": "$$f'(x) = 2 - {{f(x)} \\over x} \\Rightarrow f'(x) = {1 \\over x}f(x) = 2$$ is linear differential equation.\nHence, $$I.F. = {e^{\\int {{1 \\over x}dx} }} = {e^{\\ln x}} = x$$\nThus the solution is given by\n$$x\\,.\\,f(x) = \\int {2x\\,dx + \\lambda } $$\ni.e., $$xf(x) = {x^2} + \\lambda $$\nAs f(1) $$\ne$$ 1, we have $$\\lambda\ne$$ 0\n$$\\thereforef(x) = x + {\\lambda \\over x}$$, $$\\lambda\ne$$ 0\nThus, $$f'(x) = 1 - {\\lambda \\over {{x^2}}}$$, $$\\lambda\ne$$ 0\nNow, $$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f'\\left( {{1 \\over x}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} (1 - \\lambda {x^2}) = 1\\mathop {\\lim }\\limits_{x \\to {0^ + }} xf\\left( {{1 \\over x}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} x\\left( {{1 \\over x} + \\lambda x} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} (1 + \\lambda {x^2}) = 1\\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}f'(x) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}\\left( {1 - {\\lambda \\over {{x^2}}}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} ({x^2} - \\lambda ) = - \\lambda $$\nAgain, $$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f(x) \\to \\infty $$\nHence the function is not bounded.\nNote that $$\\lambda$$ can be $$-$$ve or +ve.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f'\\left( {{1 \\over x}} \\right) = 1$$",
+      "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} xf\\left( {{1 \\over x}} \\right) = 2$$",
+      "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}f'(x) = 0$$",
+      "$$\\left| {f(x)} \\right| \\le 2$$ for all $$x \\in (0,2)$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_028",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$y(x)$$ be a solution of the differential equation\n$$\\left( {1 + {e^x}} \\right)y' + y{e^x} = 1.$$\n\nIf $$y(0)=2$$, then which of the following statement is (are) true?",
+    "solution": "Given: $$\\left(1+e^x\\right) y^{\\prime}+y e^x=1\\left(1+e^x\\right) \\frac{d y}{d x}+y e^x=1\\frac{d y}{d x}+\\frac{e^x}{1+e^x} y=\\frac{1}{1+e^x}$$, which is liner differential equation in $$y$$.\nComparing above equation with $$\\frac{d y}{d x}+\\mathrm{P} y=Q$$, we get $$Q$$, we get\n$$\\begin{aligned}\n\\quad \\mathrm{P} & =\\frac{e^x}{1+e^x} \\text { and } \\mathrm{Q}=\\frac{1}{1+e^x} \\\\\n\\text { So, I.F. } & =e^{\\int \\mathrm{P} \\cdot d x} \\\\\n\\text { I.F. } & =e^{\\int \\frac{e^x}{1+e^x} d x} \\\\\n\\text { I.F. } & =e^{\\ln \\left(1+e^x\\right)}\n\\end{aligned}\\left\\{\\because \\int \\frac{f^{\\prime}(x)}{f(x)} d x=\\ln f(x)\\right\\}\\text { I.F }=1+e^x$$\nSo, solution of given differential equation is given by\n$$y \\text { (I.F.) }=\\int \\text { Q.(I.F.) } d x\\begin{aligned}\ny \\cdot\\left(1+e^x\\right) & =\\int \\frac{1}{1+e^x} \\cdot\\left(1+e^x\\right) d x \\\\\ny\\left(1+e^x\\right) & =\\int 1 d x \\\\\ny\\left(1+e^x\\right) & =x+\\mathrm{C} \\\\\n\\because \\quad y(0) & =2 \\\\\n\\Rightarrow \\quad 2\\left(1+e^0\\right) & =0+\\mathrm{C} \\\\\nc & =4\n\\end{aligned}$$\nSo, $$y(x)=\\frac{x+4}{1+e^x}\\quad \\text{... (i)}$$\nPut $$x=-4$$ in the equation, we get\n$$y(-4)=0$$\nPut $$x=-2$$ in the above equation (i), we get\n$$y(-2)=\\frac{2}{1+e^{-2}}\neq 0$$\nFor critical points, $$y^{\\prime}=0$$\nFrom e.q, (i), $$y\\left(1+e^x\\right)=x+4$$\nDifferentiating the above equation w.r.t. $$x$$, we get\n$$\\begin{aligned}\ny^{\\prime}\\left(1+e^x\\right)+y\\left(e^x\\right) & =1 \\\\\n0\\left(1+e^x\\right)+y e^x & =1 \\quad \\left\\{\\because y^{\\prime}=0\\right\\} \\\\\ny e^x-1 & =0\n\\end{aligned}\\quad \\begin{aligned}\n\\text { Now, } \\text { let } g(x) & =y e^x-1 \\\\\ng(x) & =\\frac{(x+4) e^x}{1+e^x}-1 \\\\\ng(x) & =\\frac{(x+3) e^x-1}{1+e^x}\n\\end{aligned}\\text { Now, } \\quad g(-1)=\\frac{2 e^{-1}-1}{1+e^{-1}}=\\frac{2-e}{1+e}<0 \\quad \\{\\because e=2 \\cdot 7 \\cdot 8\\}\\text { And, } \\quad g(0)=\\frac{3 e^0-1}{1+e^0}=1>0$$\nSo, there exists one value of $$x$$ in $$(-1,0)$$ for which\n$$\\begin{aligned}\ng(x) & =0 \\\\\n\\Rightarrow \\quad y^{\\prime} & =0\n\\end{aligned}$$\nThere exist a critical point of $$y(x)$$ in $$(-1,0)$$\nHint :\n(i) Use solution of liner differential equation\n$$\\begin{aligned}\n\\frac{d y}{d x}+\\mathrm{P} y & =\\mathrm{Q} \\text { is given by } \\\\\ny \\text { (I.F.) } & =\\int \\mathrm{Q} \\cdot \\text { (I.F) } d x, \\text { where I.F }=e^{\\int p \\cdot d x}\n\\end{aligned}$$\n(ii) For critical points, $$y^{\\prime}=0$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$y(-4)=0$$",
+      "$$y(-2)=0$$",
+      "$$y(x)$$ has a critical point in the interval $$(-1, 0)$$",
+      "$$y(x)$$ has no critical point in the interval $$(-1,0)$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_029",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the family of all circles whose centres lie on the straight line $$y=x,$$ If this family of circle is represented by the differential equation $$Py'' + Qy' + 1 = 0,$$ where $$P, Q$$ are functions of $$x,y$$ and $$y'\\left( {here\\,\\,\\,y' = {{dy} \\over {dx}},y'' = {{{d^2}y} \\over {d{x^2}}}} \\right)$$ then which of the following statements is (are) true?",
+    "solution": "Let equation of circle whose centre lie on straight line $y=x$ be\n\n$(x-k)^2+(y-k)^2=r^2~~~~...(i)$\n\nDifferentiating the above equation w.r.t. $x$, we get\n\n$$\n\\begin{aligned}\n& 2(x-k)+2(y-k) y^{\\prime}=0 \\\\\\\\\n\\Rightarrow & x+y y^{\\prime}=k\\left(1+y^{\\prime}\\right)~~~~~...(ii) \\\\\\\\\n\\Rightarrow & k=\\frac{x+y y^{\\prime}}{1+y^{\\prime}}\n\\end{aligned}\n$$\n\nDifferentiating the eq. (ii) w.r.t. $x$, we get\n\n$$\n\\begin{aligned}\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2=k y^{\\prime \\prime} \\quad\\left\\{\\because(u v)^{\\prime}=u v^{\\prime}+v u^{\\prime}\\right\\} \\\\\\\\\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2=\\left(\\frac{x+y y^{\\prime}}{1+y^{\\prime}}\\right) y^{\\prime \\prime} \\\\\\\\\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2+y^{\\prime}+y y^{\\prime} y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^3 \\\\\\\\\n& =x y^{\\prime \\prime}+y y^{\\prime} y^{\\prime \\prime} \\\\\\\\\n& \\Rightarrow y^{\\prime \\prime}(y-x)+\\left(y^{\\prime}\\right)^2\\left(1+y^{\\prime}\\right)+1+y^{\\prime}=0 \\\\\\\\\n& \\Rightarrow y^{\\prime \\prime}(y-x)+y^{\\prime}\\left(y^{\\prime}+\\left(y^{\\prime}\\right)^2+1\\right)+1=0\n\\end{aligned}\n$$\n\nComparing the above equation with $p y^{\\prime \\prime}+\\mathrm{Q} y^{\\prime}$ $+1=0$, we get\n\n$$\n\\begin{aligned}\n& P=y-x \\text { and } \\mathrm{Q}=y^{\\prime}+\\left(y^{\\prime}\\right)^2+1 \\\\\\\\\n\\therefore & P+Q=1-x+y+y^{\\prime}+\\left(y^{\\prime}\\right)^2\n\\end{aligned}\n$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$P = y + x$$",
+      "$$\\,P = y - x$$",
+      "$$\\,P + Q = 1 - x + y + y' + {\\left( {y'} \\right)^2}$$",
+      "$$\\,P - Q = 1 - x + y - y' - {\\left( {y'} \\right)^2}$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_030",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$y(x)$$ satisfies the differential equation $$y' - y\\,tan\\,x = 2x\\,secx$$ and $$y(0)=0,$$ then",
+    "solution": "Given, $$\\frac{d y}{d x}-y \\tan x=2 x \\sec x$$\nComparing with the liner differential form\n$$\\begin{gathered}\n\\frac{d y}{d x}+\\mathrm{P} y=\\mathrm{Q} \\\\\n\\Rightarrow \\mathrm{P}=-\\tan x \\text { and } \\mathrm{Q}=2 x \\sec x\n\\end{gathered}$$\nNow, Integrating factor (I.F) $$=e^{\\int P d x}\\begin{aligned}\n& =e^{\\int-\\tan x d x} \\\\\n& =e^{-\\log \\sec x} \\\\\n& =\\cos x\n\\end{aligned}\\begin{aligned}\n& \\text { The solution will be } y \\text { (I.F) }=\\int Q \\text { (I.F) } d x \\\\\n& \\Rightarrow \\quad y \\cos x=\\int 2 x \\sec x \\cdot \\cos x d x \\\\\n& \\Rightarrow \\quad y \\cos x=2 \\frac{x^2}{2}+c \\\\\n& \\Rightarrow \\quad y=x^2 \\sec x+c \\sec x \\\\\n\\end{aligned}$$\nNow, $$y(0)=0\\begin{aligned}\n& \\Rightarrow \\quad 0=0^2 \\sec 0+\\mathrm{c} \\mathrm{sec} 0 \\\\\n& \\Rightarrow \\quad c=0 \\\\\n& \\therefore \\quad y=x^2 \\sec x \\\\\n& y^{\\prime}=x^2 \\sec x \\cdot \\tan x+2 x \\sec x \\quad \\text{[using Product Rule in Differentiation]}\\\\\n\\end{aligned}$$\nNow,\n$$\\begin{aligned}\ny\\left(\\frac{\\pi}{4}\\right) & =\\left(\\frac{\\pi}{4}\\right)^2 \\sec \\frac{\\pi}{4}=\\frac{\\pi^2}{16} \\sqrt{2}=\\frac{\\pi^2}{8 \\sqrt{2}} \\\\\ny^{\\prime}\\left(\\frac{\\pi}{4}\\right) & =\\left(\\frac{\\pi}{4}\\right)^2 \\sec \\frac{\\pi}{4} \\tan \\frac{\\pi}{4}+2 \\cdot \\frac{\\pi}{4} \\sec \\frac{\\pi}{4} \\\\\n& =\\frac{\\pi^2}{16} \\cdot \\sqrt{2} \\cdot 1+\\frac{\\pi}{2} \\cdot \\sqrt{2} \\\\\n& =\\frac{\\pi^2}{8 \\sqrt{2}}+\\frac{\\pi}{\\sqrt{2}}\n\\end{aligned}\\begin{aligned}\ny\\left(\\frac{\\pi}{3}\\right) & =\\left(\\frac{\\pi}{3}\\right)^2 \\sec \\frac{\\pi}{3} \\\\\n& =\\frac{\\pi^2}{9} \\cdot 2=\\frac{2 \\pi^2}{9} \\\\\ny^{\\prime}\\left(\\frac{\\pi}{3}\\right) & =\\left(\\frac{\\pi}{3}\\right)^2 \\sec \\frac{\\pi}{3} \\cdot \\tan \\frac{\\pi}{3}+2 \\cdot \\frac{\\pi}{3} \\cdot \\sec \\frac{\\pi}{3} \\\\\n& =\\frac{\\pi^2}{9} \\cdot 2 \\cdot \\sqrt{3}+\\frac{2 \\pi}{3} \\cdot 2 \\\\\n& =\\frac{2 \\pi^2}{3 \\sqrt{3}}+\\frac{4 \\pi}{3}\n\\end{aligned}$$",
+    "answerKey": [
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$y\\left( {{\\pi \\over 4}} \\right) = {{{\\pi ^2}} \\over {8\\sqrt 2 }}$$",
+      "$$y'\\left( {{\\pi \\over 4}} \\right) = {{{\\pi ^2}} \\over {18}}$$",
+      "$$y\\left( {{\\pi \\over 3}} \\right) = {{{\\pi ^2}} \\over 9}$$",
+      "$$y'\\left( {{\\pi \\over 3}} \\right) = {{4\\pi } \\over 3} + {{2{\\pi ^2}} \\over {3\\sqrt 3 }}$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_031",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The differential equation representing the family of curves\n\n$${y^2} = 2c\\left( {x + \\sqrt c } \\right),$$ where $$c$$ is a positive parameter, is of",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "order $$1$$",
+      "order $$2$$",
+      "degree $$3$$",
+      "degree $$4$$"
+    ]
+  },
+  {
+    "id": "math_differential_equations_032",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For all **x > 0**, let **y₁(x)**, **y₂(x)**, and **y₃(x)** be the functions satisfying\n$ \\frac{dy_1}{dx} - (\\sin x)^2 y_1 = 0, \\quad y_1(1) = 5, $\n\n$ \\frac{dy_2}{dx} - (\\cos x)^2 y_2 = 0, \\quad y_2(1) = \\frac{1}{3}, $\n\n$ \\frac{dy_3}{dx} - \\frac{(2-x^3)}{x^3} y_3 = 0, \\quad y_3(1) = \\frac{3}{5e}, $\nrespectively. Then\n$ \\lim\\limits_{x \\to 0^+} \\frac{y_1(x)y_2(x)y_3(x) + 2x}{e^{3x} \\sin x} $\nis equal to __________________.",
+    "solution": "$\\begin{aligned} &\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y =-2 x\\left(x^2-5\\right)^2 \\\\ \\\\& \\Rightarrow \\frac{d y}{d x}-\\frac{2 x}{\\left(x^2-5\\right)} y=-2 x\\left(x^2-5\\right)\\end{aligned}$\n\nI.F. $=e^{-\\int \\frac{2 x}{x^2-5} d x}=\\frac{1}{\\left(x^2-5\\right)}$\n\nNow\n\n$$\n\\begin{aligned}\ny \\cdot \\frac{1}{\\left(x^2-5\\right)} & =-\\int 2 x d x \\\\\\\\\n& =-x^2+c\n\\end{aligned}\n$$\n\n$\\begin{array}{rlrl} &\\Rightarrow y =c\\left(x^2-5\\right)-x^2\\left(x^2-5\\right) \\\\\\\\ & y(2) =7 \\\\\\\\ &\\Rightarrow 7 =-c+4 \\\\\\\\ &\\Rightarrow c=-3\\end{array}$\n\nSo,\n\n$$\n\\begin{aligned}\ny & =\\left(x^2-5\\right)\\left(-x^2-3\\right) ............(1) \\\\\\\\\n\\frac{d y}{d x} & =\\left(x^2-5\\right)(-2 x)+\\left(-x^2-3\\right)(2 x) \\\\\\\\\n& =2 x\\left(-x+5-x^2-3\\right) \\\\\\\\\n& =2 x\\left(-2 x^2+2\\right)\n\\end{aligned}\n$$\n\nFor maxima and minima, put $\\frac{d y}{d x}=0$\n\n$\\Rightarrow x=0, \\pm 1$\n\n[Diagram]\n\nFrom (1),\n\n$$\ny_{\\text {max }}=16\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_033",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $x \\in \\mathbb{R}$, let $y(x)$ be a solution of the differential equation\n\n$\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^2-5\\right)^2$ such that $y(2)=7$.\n\nThen the maximum value of the function $y(x)$ is :",
+    "solution": "$\\begin{aligned} &\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y =-2 x\\left(x^2-5\\right)^2 \\\\ \\\\& \\Rightarrow \\frac{d y}{d x}-\\frac{2 x}{\\left(x^2-5\\right)} y=-2 x\\left(x^2-5\\right)\\end{aligned}$\n\nI.F. $=e^{-\\int \\frac{2 x}{x^2-5} d x}=\\frac{1}{\\left(x^2-5\\right)}$\n\nNow\n\n$$\n\\begin{aligned}\ny \\cdot \\frac{1}{\\left(x^2-5\\right)} & =-\\int 2 x d x \\\\\\\\\n& =-x^2+c\n\\end{aligned}\n$$\n\n$\\begin{array}{rlrl} &\\Rightarrow y =c\\left(x^2-5\\right)-x^2\\left(x^2-5\\right) \\\\\\\\ & y(2) =7 \\\\\\\\ &\\Rightarrow 7 =-c+4 \\\\\\\\ &\\Rightarrow c=-3\\end{array}$\n\nSo,\n\n$$\n\\begin{aligned}\ny & =\\left(x^2-5\\right)\\left(-x^2-3\\right) ............(1) \\\\\\\\\n\\frac{d y}{d x} & =\\left(x^2-5\\right)(-2 x)+\\left(-x^2-3\\right)(2 x) \\\\\\\\\n& =2 x\\left(-x+5-x^2-3\\right) \\\\\\\\\n& =2 x\\left(-2 x^2+2\\right)\n\\end{aligned}\n$$\n\nFor maxima and minima, put $\\frac{d y}{d x}=0$\n\n$\\Rightarrow x=0, \\pm 1$\n\n[Diagram]\n\nFrom (1),\n\n$$\ny_{\\text {max }}=16\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ltxu56bv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_differential_equations_034",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $y(x)$ is the solution of the differential equation\n\n$$\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x > 0, y(1)=2,\n$$\n\nand the slope of the curve $y=y(x)$ is never zero, then the value of $10 y(\\sqrt{2})$ is",
+    "solution": "$$xdy = ({y^2} - 4y)dx = 0 \\Rightarrow xdy = ({y^2} - 4y)dx \\Rightarrow {{dy} \\over {({y^2} - 4x)}} = {{dx} \\over x} \\Rightarrow {{dy} \\over {y(y - 4)}} = {{dx} \\over x} \\Rightarrow {1 \\over 4} \\times {{y - (y - 4)} \\over {y(y - 4)}}dy = {{dx} \\over x} \\Rightarrow {1 \\over 4}\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = {{dx} \\over x}$$\nIntegrating both side, we get\n$$ \\Rightarrow {1 \\over 4}\\int {\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = \\int {{{dx} \\over x}} } \\Rightarrow {1 \\over 4}\\left( {\\ln \\left| {{{y - 4} \\over y}} \\right|} \\right) = \\ln |x| + {1 \\over 4}\\ln C$$ (Cont.)\n$$ \\Rightarrow {1 \\over 4}\\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln x + {1 \\over 4}\\ln C$$ [As $$x > 0$$, so $$|x| = x$$]\n$$ \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = 4\\ln x + \\ln C \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln ({x^4}C) \\Rightarrow {{y - 4} \\over y} = \\, \\pm \\,C{x^4} \\Rightarrow {{y - 4} \\over y} = \\lambda {x^4}$$ [Assume $$ \\pm \\,C = \\lambda $$]\nGiven, $$y(1) = 2\\therefore{{2 - 4} \\over 2} = \\lambda {(1)^4} \\Rightarrow \\lambda = -1\\therefore{{y - 4} \\over y} = - {x^4}$$\nNow, $$y(\\sqrt 2 ) = - {(\\sqrt 2 )^4} = {{y - 4} \\over y} \\Rightarrow {{y - 4} \\over y} = - 4 \\Rightarrow y - 4 = - 4y \\Rightarrow 5y = 4 \\Rightarrow y = {4 \\over 5}\\therefore10y(\\sqrt 2 ) = 10 \\times {4 \\over 5} = 8$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_035",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R be a differentiable function with f(0) = 0. If y = f(x) satisfies the differential equation $${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$, then the value of $$\\mathop {\\lim }\\limits_{n \\to - \\infty } f(x)$$ is ...........",
+    "solution": "We have,\n\n$${{dy} \\over {dx}} = (2 + 5y)(5y - 2) \\Rightarrow {{dy} \\over {25{y^2} - 4}} = dx \\Rightarrow {1 \\over {25}}\\left( {{{dy} \\over {{y^2} - {4 \\over {25}}}}} \\right) = dx$$\n\nOn integrating both sides, we get\n\n$${1 \\over {25}}\\int {{{dy} \\over {{y^2} - {{\\left( {{2 \\over 5}} \\right)}^2}}} = \\int {dx} } \\Rightarrow {1 \\over {25}} \\times {1 \\over {2 \\times 2/5}}\\log \\left| {{{y - 2/5} \\over {y + 2/5}}} \\right| = x + C \\Rightarrow \\log \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = 20(x + C) \\Rightarrow \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = A{e^{20x}}$$ [$$ \\because $$ e$^{20C}$ = A]\n\nwhen x = 0 $$ \\Rightarrow $$ y = 0, then A = 1\n\n$$ \\therefore \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = {e^{20x}}\\mathop {\\lim }\\limits_{x \\to - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = \\mathop {\\lim }\\limits_{x \\to - \\infty } {e^{20x}} \\Rightarrow \\mathop {\\lim }\\limits_{n \\to - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = 0 \\Rightarrow \\mathop {\\lim }\\limits_{n \\to - \\infty } 5f(x) - 2 = 0 \\Rightarrow \\mathop {\\lim }\\limits_{n \\to - \\infty } f(x) = {2 \\over 5} = 0.4$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_036",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$y'\\left( x \\right) + y\\left( x \\right)g'\\left( x \\right) = g\\left( x \\right),g'\\left( x \\right),y\\left( 0 \\right) = 0,x \\in R,$$ where $$f'(x)$$ denotes $${{df\\left( x \\right)} \\over {dx}}$$ and $$g(x)$$ is a given non-constant differentiable function on $$R$$ with $$g(0)=g(2)=0.$$ Then the value of $$y(2)$$ is",
+    "solution": "It is given that\n$$y'(x) + y(x)g'(x) = g(x)g'(x) \\Rightarrow {e^{g(x)}}y'(x) + {e^{g(x)}}g'(x)y(x) = {e^{g(x)}}g(x)g'(x) \\Rightarrow {d \\over {dx}}(y(x){e^{g(x)}} )= {e^{g(x)}}g(x)g'(x)$$\nTherefore, $$y(x) = {e^{g(x)}} = \\int {{e^{g(x)}}g(x)g'(x)dx} = \\int {{e^t}t\\,dt} $$ [where g(x) = t]\n$$ = (t - 1){e^t} + c$$\nTherefore, $$y(x){e^{g(x)}} = (g(x) - 1){e^{g(x)}} + c$$\nSubstituting $$x = 0 \\Rightarrow 0 = (0 - 1) \\times 1 + c \\Rightarrow c = 1$$\nSubstituting $$x = 2 \\Rightarrow y(2) \\times 1 = (0 - 1) \\times (1) + 1$$\nHence, $$y(2) = 0$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_037",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f:[1,\\infty ) \\to [2,\\infty )$$ be a differentiable function such that $$f(1) = 2$$. If $$6\\int\\limits_1^x {f(t)dt = 3xf(x) - {x^3} - 5} $$ for all $$x \\ge 1$$, then the value of f(2) is ___________.",
+    "solution": "It is given that\n$$6\\int\\limits_1^x {f(t)dt = 3xf(x) - {x^3}} - 5 \\Rightarrow 6f(x) = 3f(x) + 3xf'(x) - 3{x^2} \\Rightarrow 3f(x) = 3xf'(x) - 3{x^2} \\Rightarrow xf'(x) - f(x) = {x^2} \\Rightarrow x{{dy} \\over {dx}} - y = {x^2} \\Rightarrow {{dy} \\over {dx}} - {1 \\over x}y = x$$ .... (1)\nNow, $$I.F. = {e^{\\int { - {1 \\over x}dx} }} = {e^{ - {{\\log }_e}x}}$$\nMultiplying Eq. (1) both sides by $${1 \\over x}$$, we get\n$${1 \\over x}{{dy} \\over {dx}} - {1 \\over {{x^2}}}y = 1 \\Rightarrow {d \\over {dx}}\\left( {y.{1 \\over x}} \\right) = 1$$\nIntegrating, we get\n$${y \\over x} = x + c$$\nSubstituting x = 1 and y = 2, we get\n$$ \\Rightarrow 2 = 1 + c \\Rightarrow c = 1 \\Rightarrow y = {x^2} + x \\Rightarrow f(x) = {x^2} + x \\Rightarrow f(2) = 6$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_038",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A curve $$'C''$$ passes through $$(2,0)$$ and the slope at $$(x,y|)$$ as $$\\,{{{{\\left( {x + 1} \\right)}^2} + \\left( {y - 3} \\right)} \\over {x + 3}}$$. Find the equation of the curve. Find the area bounded by curve and $$x$$-axis in fourth quadrant.",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_039",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A right circular cone with radius $$R$$ and height $$H$$ contains a liquid which eveporates at a rate proportional to its surface area in contact with air (proportionality constant $$ = k > 0$$. Find the time after which the come is empty.",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_040",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A hemispherical tank of radius $$2$$ metres is initially full of water and has an outlet of $$12$$ cm$^{2}$ cross-sectional area at the bottom. The outlet is opened at some instant. The flow through the outlet is according to the law $$v(t)=0.6\\sqrt {2gh\\left( t \\right),} $$ where $$v(t)$$ and $$h(t)$$ are respectively the velocity of the flow through the outlet and the height of water level above the outlet at time $$t,$$ and $$g$$ is the acceleration due to gravity. Find the time it takes to empty the tank. (Hint: From a differential equation by relasing the decreases of water level to the outflow).",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_041",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$u(x)$$ and $$v(x)$$ satisfy the differential equation $${{du} \\over {dx}} + p\\left( x \\right)u = f\\left( x \\right)$$ and $${{dv} \\over {dx}} + p\\left( x \\right)v = g\\left( x \\right),$$ where $$p(x) f(x)$$ and $$g(x)$$ are continuous functions. If $$u\\left( {{x_1}} \\right) > v\\left( {{x_1}} \\right)$$ for some $${{x_1}}$$ and $$f(x)>g(x)$$ for all $$x > {x_1},$$ prove that any point $$(x,y)$$ where $$x > {x_1},$$ does not satisfy the equations $$y=u(x)$$ and $$y=v(x)$$",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_042",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Determine the equation of the curve passing through the origin, in the form $$y=f(x),$$ which satisfies the differential equation $${{dy} \\over {dx}} = \\sin \\left( {10x + 6y} \\right).\\,$$",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_043",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$y=f(x)$$ be a curve passing through $$(1,1)$$ such that the triangle formed by the coordinate axes and the tangent at any point of the curve lies in the first quadrant and has area $$2.$$ From the differential equation and determine all such possible curves.",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_044",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A normal is drawn at a point $$P(x,y)$$ of a curve. It meets the $$x$$-axis at $$Q.$$ If $$PQ$$ is of constant length $$k,$$ then show that the differential equation describing such curves is $$y = {{dy} \\over {dx}} = \\pm \\sqrt {{k^2} - {y^2}} $$\nFind the equation of such a curve passing through $$(0,k).$$",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_differential_equations_045",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "topic": "Differential Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\left( {a + bx} \\right){e^{y/x}} = x,$$ then prove that $${x^3}{{{d^2}y} \\over {d{x^2}}} = {\\left( {x{{dy} \\over {dx}} - y} \\right)^2}$$",
+    "solution": "Solution for this Differential Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

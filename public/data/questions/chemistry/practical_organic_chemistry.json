@@ -1,0 +1,116 @@
+[
+  {
+    "id": "chem_practical_organic_chemistry_001",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.\n\n[Diagram]\n\nGiven:\nAtomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32, \\mathrm{Br}: 80, \\mathrm{Ba}: 137$\nThe volume of 1 M aqueous $\\mathrm{H}_2 \\mathrm{SO}_4$ required to completely neutralize the ammonia evolved from 5.72 g of $\\mathbf{L}$ in Kjeldahl's method of nitrogen estimation is $\\_\\_\\_\\_$ mL .",
+    "solution": "[Diagram]\n\n**Step 1:** Find moles of compound $ \\mathrm{L} $.\nThe molar mass of compound $ \\mathrm{L} $ is 286 g/mol.\n\nMoles of $ \\mathrm{L} $ are calculated as:\n$$\\text{Moles of } \\mathrm{L} = \\frac{5.72}{286} = 0.02 \\, \\text{mol}$$\n**Step 2:** Relationship between $ \\mathrm{L} $ and $ \\mathrm{NH_3} $.\nIn Kjeldahl’s method, 1 mole of $ \\mathrm{L} $ releases 1 mole of $ \\mathrm{NH_3} $.\n\nHence, moles of $ \\mathrm{NH_3} = 0.02 \\, \\text{mol}. $\n**Step 3:** Use the concept of gram-equivalents.\nDuring neutralization, gram-equivalents of base = gram-equivalents of acid.\nFor $ \\mathrm{NH_3} $, n-factor = 1\n\nFor $ \\mathrm{H_2SO_4} $, n-factor = 2\n**Step 4:** Apply the equivalent relation.\n$$0.02 \\times 1 = (1 \\times 2) \\times V$$\nSolving for $ V $:\n\n$$V = \\frac{0.02}{2} = 0.01 \\, \\text{L} = 10 \\, \\text{mL}$$\n**Final Answer:** Volume of $ 1 \\, \\text{M} \\, \\mathrm{H_2SO_4} $ required = **10 mL**.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9ypim9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_practical_organic_chemistry_002",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the compounds in **List-I** with the appropriate observations in **List-II** and choose the correct option.\n\nList–I\nList–II\n\n\n(P)\n[Diagram]\n\n(1) Reaction with phenyl diazonium salt gives\nyellow dye.\n\n\n\n(Q)\n[Diagram]\n\n(2) Reaction with ninhydrin gives purple color\nand it also reacts with FeCl$_{3}$ to give violet\ncolor.\n\n\n\n(R)\n[Diagram]\n\n(3) Reaction with glucose will give\ncorresponding hydrazone.\n\n\n\n(S)\n[Diagram]\n\n(4) Lassiagne extract of the compound treated with dilute HCl followed by addition of aqueous $\\mathrm{FeCl}_3$ gives blood red color.\n\n\n\n\n(5) After complete hydrolysis, it will give ninhydrin test and it DOES NOT give positive phthalein dye test.",
+    "solution": "[Diagram]\nAmide ( $-\\mathrm{CO}-\\mathrm{NH}-$ ) bond is present. It is known as peptide bond It is a dipeptide.This gives ninhydrin test. The result is a purple color.Ninhydrin test is used to detect the presence of amines in a sample.The test works by reacting ninhydrin with the free amino group $\\left(-\\mathrm{NH}_2\\right)$. The result of the test is a purple color.The above dipeptide react with ninhydrin, the alpha -amino group (present in the above structure) undergoes reaction to give purple color:The compound also reacts with $\\mathrm{FeCl}_3$ to give violet color. It is due to the free - OH group. It is a characteristic reaction of phenols\nSo, The compound $P$ reaction with ninhydrin gives purple color and it also reacts with $\\mathrm{FeCl}_3$ to give violet color.$$\nP-2\n$$\n[Diagram]\nNinhyduin test is possible with free $-\\mathrm{NH}_2$ group.\nThe above dipeptide on hydrolysis gives two amino acid molecules. So, after hydrolysis, ninhydrin test is possible. Because amino acids have free, $\\mathrm{NH}_2$ group.But the compound does not give phthalein dye test.Phthalein dye test - It is used to identify the presence of phenolic functional groups. The compound has no free -OH group and hence it does not give phthalein dye test. For phthalein dye test, $-O H$ group must be attached directly to the momatic ring. So, The compound Q after complete hydrolysis give ninhydrin test and it does not give positive phthalein dye test.$$\nQ-5\n$$\n[Diagram]\n$$\n\\text { Aniline hydrochboide. (Aniline + HCI) }\n$$Aniline hydrochloride reacts with phenyl diazonium salt (benzene diazonium salt) and forms a dye ( $p$-aminoarobenzene) with yellow color.\n[Diagram]\nSo, compound $R$ reaction with phenyl diazonium salt gives yellow dye.$$\nR-1\n$$\n[Diagram]\nIt is a hydrazine. It reacts with glucose and give corresponding hydrazone.$$\n\\text { It can be simply written as. }\n$$\n[Diagram]\n\n[Diagram]\nSo, S reaction with glucose give corresponding hydrazone.$S-3$$$\n\\begin{aligned}\n&\\text { Answer: Option (B) }\\\\\n&P \\rightarrow 2, Q \\rightarrow 5, R \\rightarrow 1, S \\rightarrow 3\n\\end{aligned}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P → 1; Q → 5; R → 4; S → 2",
+      "P → 2; Q → 5; R → 1; S → 3",
+      "P → 5; Q → 2; R → 1; S → 4",
+      "P → 2; Q → 1; R → 5; S → 3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb1obmia.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_practical_organic_chemistry_003",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.\n\n[Diagram]\n\nGiven :\nAtomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32, \\mathrm{Br}: 80, \\mathrm{Ba}: 137$\nIn sulphur estimation by Carius method, the amount of $\\mathrm{BaSO}_4$ formed from 3.79 g of $\\mathbf{M}$ is $\\_\\_\\_\\_$ g.",
+    "solution": "[Diagram]\n\n**Calculate moles of L**\nThe molar mass of compound L is $ 286 \\, \\text{g mol}^{-1} $.\n\nSo, the moles of L are:\n$$ \\text{Moles of } \\mathrm{L} = \\frac{5.72}{286} = 0.02 \\, \\text{mol} $$\nBecause each mole of L gives one mole of $ \\mathrm{NH_3} $,\n\nthe moles of $ \\mathrm{NH_3} $ formed are also $ 0.02 \\, \\text{mol}. $\n**Relation between $ \\mathrm{NH_3} $ and $ \\mathrm{H_2SO_4} $**\nThe number of gram-equivalents of acid and base will be equal at the point of neutralisation.\n$$ \\text{Eq. of } \\mathrm{NH_3} = \\text{Eq. of } \\mathrm{H_2SO_4} 0.02 \\times 1 = (1 \\times 2) \\times V \\Rightarrow V = \\frac{0.02}{2} = 0.01 \\, \\text{L} = 10 \\, \\text{mL} $$\n**Calculate moles of M**\nMolar mass of compound M is $ 379 \\, \\text{g mol}^{-1} $.\n\nSo, the moles of M are:\n$$ \\text{Moles of } \\mathrm{M} = \\frac{3.79}{379} = 0.01 \\, \\text{mol} $$\n**Relate M to BaSO$_{4}$ formation**\nIn the Carius method, one mole of M gives one mole of $ \\mathrm{BaSO_4} $.\n\nHence, moles of $ \\mathrm{BaSO_4} = 0.01 \\, \\text{mol}. $\n**Calculate mass of BaSO$_{4}$**\nThe molar mass of $ \\mathrm{BaSO_4} = 233 \\, \\text{g mol}^{-1} $.\n$$ \\text{Mass of } \\mathrm{BaSO_4} = 0.01 \\times 233 = 2.33 \\, \\text{g} $$\n**Final Answer:** The mass of $ \\mathrm{BaSO_4} $ formed is **2.33 g**.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9ypim9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_practical_organic_chemistry_004",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of 4-methyloct-1-ene $(\\mathbf{P}, 2.52 \\mathrm{~g})$ with $\\mathrm{HBr}$ in the presence of $\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CO}\\right)_2 \\mathrm{O}_2$ gives two isomeric bromides in a $9: 1$ ratio, with a combined yield of $50 \\%$. Of these, the entire amount of the primary alkyl bromide was reacted with an appropriate amount of diethylamine followed by treatment with aq. $\\mathrm{K}_2 \\mathrm{CO}_3$ to give a non-ionic product $\\mathbf{S}$ in $100 \\%$ yield.\n\nThe mass (in mg) of $\\mathbf{S}$ obtained is ________.\n\n[Use molar mass (in $\\mathrm{g} \\mathrm{mol}^{-1}$ ) : $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{Br}=80$ ]",
+    "solution": "[Diagram]\n\nFirst, calculate the moles of 4-methyloct-1-ene. The molar mass of 4-methyloct-1-ene is 126 g/mol. So, the moles of 4-methyloct-1-ene are :\n\n$$n_{4-\\text{methyloct-1-ene}} = \\frac{2.52 \\, g}{126 \\, g/mol} = 0.02 \\, mol$$\n\nGiven that the combined yield is 50%, the amount of isomeric bromides produced will be half of the initial amount, which is 0.01 mol.\n\nThe isomeric bromides are produced in a 9 : 1 ratio, so 90% of the product, or 0.009 mol, is the primary alkyl bromide. This is the compound that reacts further with diethylamine.\n\nThe reaction with diethylamine leads to the non-ionic product S with 100% yield, so we will still have 0.009 mol of product S.\n\nBased on the chemical structures provided, the molar mass of S is 199 g/mol.\n\nWe can now calculate the mass of product S using the equation :\n\n$$ \\text{Mass of S} = \\text{moles of S} \\times \\text{molar mass of S} = 0.009 \\, mol \\times 199 \\, g/mol = 1.791 \\, g$$\n\nTo convert this into milligrams, we multiply by 1000, yielding a mass of S obtained equal to 1791 mg.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lipqac1z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_practical_organic_chemistry_005",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reaction.\n\n[Diagram]\n\nOn estimation of bromine in $1.00 \\mathrm{~g}$ of $\\mathbf{R}$ using Carius method, the amount of $\\mathrm{AgBr}$ formed (in $\\mathrm{g}$ ) is ___________.\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{O}=16, \\mathrm{P}=31, \\mathrm{Br}=80, \\mathrm{Ag}=108]$",
+    "solution": "$$2P+3Br_2\\to2PBr_3$$\n\n[Diagram]\n\nNumber of moles in 1 gm of (R) = $$\\frac{1}{250}$$\nNumber of moles of AgBr formed from (R) = $$\\frac{2}{250}$$\nMass of AgBr formed $$=\\frac{2\\times188}{250}=1.50$$ gm",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7emd06v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_practical_organic_chemistry_006",
+    "subject": "Chemistry",
+    "chapter": "Practical Organic Chemistry",
+    "topic": "Practical Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The weight percentage of hydrogen in $\\mathbf{Q}$, formed in the following reaction sequence, is ________.\n\n[Diagram]\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{Cl}=35$ ]",
+    "solution": "[Diagram]\n\nFormula of compound = C$_{6}$H$_{3}$N$_{3}$O$_{7}$\nMolar Mass of compound = (12 $$\\times$$ 6 + 3 + 14 $$\\times$$ 3 + 16 $$\\times$$ 7) g = 229 g\nWeight % of H = $$\\frac{3}{229}\\times100=1.31$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7emeuck.png",
+      "position": "bottom"
+    }
+  }
+]

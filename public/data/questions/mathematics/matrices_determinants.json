@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "math_matrices_determinants_001",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following matrices can be obtained by performing elementary row transformations on the $3 \\times 3$ identity matrix?",
+    "solution": "Let us assume that the new matrix we get after performing elementary row operations on the identity matrix is $A$.\nThis means,\n$$A = E_n E_{n-1} \\ldots E_1 I$$\nHere, each $E_i$ represents an elementary matrix (a matrix obtained by performing one elementary row operation on the identity matrix).\nNow, the determinant of $A$ can be written as:\n$$\\det(A) = \\prod\\limits_{k=1}^{n} \\det(E_k)$$\nFor an elementary matrix, $\\det(E_k)$ can be either $1$, $-1$, or any non-zero number $k$. Therefore,\n$$\\det(A)\ne 0$$\nThis tells us that any matrix obtained from the identity matrix through elementary row transformations must have a non-zero determinant.\nNow, let’s check the determinant of each given option:\n(A) $$\\det\\left(\\begin{bmatrix}1 & 1 & 1\\\\1 & 1 & 1\\\\1 & 1 & 1\\end{bmatrix}\\right) = 0$$\n(B) $$\\det\\left(\\begin{bmatrix}1 & 1 & 1\\\\2 & 3 & 4\\\\1 & 2 & 1\\end{bmatrix}\\right) = -2\ne 0$$\n(C) $$\\det\\left(\\begin{bmatrix}1 & 1 & 1\\\\2 & 3 & 4\\\\2 & 5 & 8\\end{bmatrix}\\right) = 0$$\n(D) $$\\det\\left(\\begin{bmatrix}1 & 1 & 1\\\\-1 & 1 & 2\\\\0 & 2 & 3\\end{bmatrix}\\right) = 0$$\nSince only option (B) has a non-zero determinant, this means that it can be obtained from the identity matrix through elementary row operations.\nThe steps to obtain matrix (B) from the $3 \\times 3$ identity matrix are shown below:\nStart with:\n$$I = \\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}$$\nPerform $R_2 \\rightarrow R_2 + 2R_3$ :\n$$\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}$$\nNext, $R_1 \\rightarrow R_1 - R_3$ :\n$$\\begin{bmatrix}1 & 0 & -1\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}$$\nThen, $R_3 \\rightarrow -2R_3$ :\n$$\\begin{bmatrix}1 & 0 & -1\\\\0 & 1 & 2\\\\0 & 0 & -2\\end{bmatrix}$$\nNow, $R_3 \\rightarrow R_3 + R_2$ :\n$$\\begin{bmatrix}1 & 0 & -1\\\\0 & 1 & 2\\\\0 & 1 & 0\\end{bmatrix}$$\nNext, $R_1 \\rightarrow R_1 + R_2$ :\n$$\\begin{bmatrix}1 & 1 & 1\\\\0 & 1 & 2\\\\0 & 1 & 0\\end{bmatrix}$$\nThen, $R_3 \\rightarrow R_3 + R_1$ :\n$$\\begin{bmatrix}1 & 1 & 1\\\\0 & 1 & 2\\\\1 & 2 & 1\\end{bmatrix}$$\nFinally, $R_2 \\rightarrow R_2 + 2R_1$ :\n$$\\begin{bmatrix}1 & 1 & 1\\\\2 & 3 & 4\\\\1 & 2 & 1\\end{bmatrix}$$\nHence, option (B) can indeed be obtained by performing elementary row transformations on the $3 \\times 3$ identity matrix.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{bmatrix}$$",
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 2 & 3 & 4 \\\\ 1 & 2 & 1 \\end{bmatrix}$$",
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ 2 & 3 & 4 \\\\ 2 & 5 & 8 \\end{bmatrix}$$",
+      "$$\\begin{bmatrix} 1 & 1 & 1 \\\\ -1 & 1 & 2 \\\\ 0 & 2 & 3 \\end{bmatrix}$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_002",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the matrix $$ M = \\begin{bmatrix} 2 & -1 \\\\ 1 & 0 \\end{bmatrix}. $$ Let $p, q, r, s, a, b, c$ and $d$ be integers such that $$ M^{26} = \\begin{bmatrix} p & q \\\\ r & s \\end{bmatrix} \\quad \\text{and} \\quad \\sum\\limits_{k=1}^{26} M^k = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}. $$ Then which of the following statements is (are) TRUE?",
+    "solution": "We can write the matrix as\n$$ M = \\begin{bmatrix}2 & -1 \\\\ 1 & 0\\end{bmatrix} = \\begin{bmatrix}1 & -1 \\\\ 1 & -1\\end{bmatrix} + \\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} $$\nSo, let $ B = \\begin{bmatrix}1 & -1 \\\\ 1 & -1\\end{bmatrix} $. Then $ M = B + I $.\n**Find $ B^2 $**\n$$ B^2 = \\begin{bmatrix}1 & -1 \\\\ 1 & -1\\end{bmatrix} \\begin{bmatrix}1 & -1 \\\\ 1 & -1\\end{bmatrix} = \\begin{bmatrix}0 & 0 \\\\ 0 & 0\\end{bmatrix} $$\nThis means $ B $ is a nilpotent matrix, i.e., its square is a zero matrix.\n**Expand $ M^{26} $ using the Binomial Theorem**\n$$ M^{26} = (B + I)^{26} = {^{26}C_0} I + {^{26}C_1} B + {^{26}C_2} B^2 + \\ldots + {^{26}C_{26}} B^{26} $$\nAs $ B^2 = 0 $, all higher powers of $ B $ are zero. So,\n$$ M^{26} = I + 26B $$\n**Substitute the values**\n$$ M^{26} = \\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} + 26 \\begin{bmatrix}1 & -1 \\\\ 1 & -1\\end{bmatrix} = \\begin{bmatrix}27 & -26 \\\\ 26 & -25\\end{bmatrix} $$\nSo, $ p = 27, \\, q = -26, \\, r = 26, \\, s = -25. $\n**Find the sum $ D = \\sum_{k=1}^{26} M^k $**\n$$ D = M + M^2 + M^3 + \\ldots + M^{26} $$\nSubstitute $ M = B + I $:\n$$ D = (B + I) + (B + I)^2 + (B + I)^3 + \\ldots + (B + I)^{26} $$\nSince $ (B + I)^k = I + kB $, we have\n$$ D = (I + B) + (I + 2B) + (I + 3B) + \\ldots + (I + 26B) $$\nCombine like terms:\n$$ D = 26I + B(1 + 2 + 3 + \\ldots + 26) $$\nThe sum $ 1 + 2 + 3 + \\ldots + 26 = 351 $, so\n$$ D = 26I + 351B $$\nSubstitute the matrices:\n$$ \\sum_{k=1}^{26} M^k = \\begin{bmatrix}377 & -351 \\\\ 351 & -325\\end{bmatrix} = \\begin{bmatrix}a & b \\\\ c & d\\end{bmatrix} $$\nHence, $ a = 377, \\, b = -351, \\, c = 351, \\, d = -325. $\nSo, option (B) is incorrect.\n**Check option (C)**\nGiven system of equations:\n$$ 27x - 26y = m 26x - 25y = n $$\nDeterminant of coefficients:\n$$ \\left|\\begin{array}{rr} 27 & -26 \\\\ 26 & -25 \\end{array}\\right|\neq 0 $$\nSince the determinant is non-zero, a unique solution exists.\nOn solving, we get:\n$$ x = -24n - 25m, \\quad y = -23n - 26m $$\nBoth $ x $ and $ y $ are integers. Hence, option (C) is correct.\n**Check option (D)**\nWe have:\n$$ \\left|\\begin{array}{cc} a + t & b \\\\ c & d + t \\end{array}\\right| = ad + at + dt + t^2 - bc $$\nSubstitute $ a = 377, b = -351, c = 351, d = -325 $:\n$$ = (377)(-325) + t(52) + t^2 + (351)(351) = t^2 + 52t + 676 = (t + 26)^2 $$\nSince $ (t + 26)^2\neq 0 $ for all $ t > 0 $, the determinant is non-zero, so a unique solution exists. Option (D) is correct.\n**Check option (A)**\nLet $ N = \\begin{bmatrix}j & k \\\\ l & m\\end{bmatrix} $.\nCompute $ MN $:\n$$ MN = \\begin{bmatrix}2 & -1 \\\\ 1 & 0\\end{bmatrix} \\begin{bmatrix}j & k \\\\ l & m\\end{bmatrix} = \\begin{bmatrix}2j - l & 2k - m \\\\ j & k\\end{bmatrix} $$\nCompute $ N\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix} $:\n$$ N\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix} = \\begin{bmatrix}j & j + k \\\\ l & l + m\\end{bmatrix} $$\nComparing both, we get $ j = l $ and $ 2k - m = j + k $ ⟹ $ m - k = j $.\nDeterminant of $ N $:\n$$ |N| = jm - lk = j(m - k) $$\nThis is not always zero if $ j\neq 0 $ and $ m\neq k $, which means $ N $ can be invertible. Hence, option (A) is correct.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "There exists a $2 \\times 2$ invertible matrix $N$ with real entries such that$$ MN = N \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix} $$",
+      "The value of $a$ is $378$",
+      "For any two given integers $m$ and $n$, there exist unique integers $x$ and $y$ such that$$ px + qy = m \\quad \\text{and} \\quad rx + sy = n $$",
+      "For each positive real number $t$, the system of linear equations \\begin{align*} (a + t)x + by &= 1 \\\\ cx + (d + t)y &= -1 \\end{align*} has a unique solution"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_003",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $S=\\left\\{A=\\left(\\begin{array}{lll}0 & 1 & c \\\\ 1 & a & d \\\\ 1 & b & e\\end{array}\\right): a, b, c, d, e \\in\\{0,1\\}\\right.$ and $\\left.|A| \\in\\{-1,1\\}\\right\\}$, where $|A|$ denotes the determinant of $A$. Then the number of elements in $S$ is __________.",
+    "solution": "$$\\begin{aligned}\n& |A|=0(a e-b d)-1(e-d)+c(b-a) \\\\\n& =c(b-a)+(d-e)\n\\end{aligned}|\\mathrm{A}| \\in\\{-1,1\\}$$ and $$\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}, \\mathrm{e} \\in\\{0,1\\}$$\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzdk0sq2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_004",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\left| {\\matrix{\na & {{a^2}} & {1 + {a^3}} \\cr\nb & {{b^2}} & {1 + {b^3}} \\cr\nc & {{c^2}} & {1 + {c^3}} \\cr\n\n} } \\right| = 0$$ and the vectors\n\n$$\\overrightarrow A = \\left( {1,a,{a^2}} \\right),\\,\\,\\overrightarrow B = \\left( {1,b,{b^2}} \\right),\\,\\,\\overrightarrow C = \\left( {1,c,{c^2}} \\right),$$ are non-coplannar, then the product $$abc=$$ .......",
+    "solution": "Solution for this Matrices & Determinants question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_005",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the matrix$$ P = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}. $$Let the transpose of a matrix $X$ be denoted by $X^T$. Then the number of $3 \\times 3$ invertible matrices $Q$ with integer entries, such that$$ Q^{-1} = Q^T \\quad \\text{and} \\quad PQ = QP, $$is",
+    "solution": "To find the number of $3 \\times 3$ invertible matrices $Q$ with integer entries that satisfy both $Q^{-1} = Q^T$ and $PQ = QP$, consider the given matrix $P$:\n$ P = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix} $\nThe condition $PQ = QP$ implies:\n$ \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix} \\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix} = \\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix} \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix} $\nThis results in:\n$ \\begin{pmatrix} 2a & 2b & 2c \\\\ 2d & 2e & 2f \\\\ 3g & 3h & 3i \\end{pmatrix} = \\begin{pmatrix} 2a & 2b & 3c \\\\ 2d & 2e & 3f \\\\ 2g & 2h & 3i \\end{pmatrix} $\nFrom this, we derive that:\n$ c = 0, \\quad f = 0, \\quad h = 0, \\quad g = 0 $\nThus, the matrix $Q$ is of the form:\n$ Q = \\begin{pmatrix} a & b & 0 \\\\ c & d & 0 \\\\ 0 & 0 & e \\end{pmatrix} $\nNext, using the condition $Q^T = Q^{-1}$, we have the equation:\n$ Q Q^T = I $\nThis results in:\n$ \\begin{pmatrix} a & b & 0 \\\\ c & d & 0 \\\\ 0 & 0 & i \\end{pmatrix} \\begin{pmatrix} a & c & 0 \\\\ b & d & 0 \\\\ 0 & 0 & i \\end{pmatrix} = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix} $\nThis simplifies to:\n$ \\begin{pmatrix} a^2 + b^2 & ac + bd & 0 \\\\ ac + bd & c^2 + d^2 & 0 \\\\ 0 & 0 & i^2 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix} $\nFrom which we conclude:\n$ a^2 + b^2 = 1, \\quad ac + bd = 0, \\quad c^2 + d^2 = 1, \\quad i^2 = 1 $\nConsidering all possible integer solutions for these equations:\nCase I:\n\n$(a, b) = (0, 1)$ or $(0, -1)$,\n$(c, d) = (1, 0)$ or $(-1, 0)$\n\nCase II:\n\n$(a, b) = (1, 0)$ or $(-1, 0)$,\n$(c, d) = (0, 1)$ or $(0, -1)$\n\nFor each case, $e$ can be either 1 or -1 since $i^2=1$. Therefore, $e = \\pm 1$.\nCombining these options, we find a total of 16 possible matrices $Q$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "32",
+      "8",
+      "16",
+      "24"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_006",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\alpha$ and $\\beta$ be the distinct roots of the equation $x^2+x-1=0$. Consider the set $T=\\{1, \\alpha, \\beta\\}$. For a $3 \\times 3$ matrix $M=\\left(a_{i j}\\right)_{3 \\times 3}$, define $R_i=a_{i 1}+a_{i 2}+a_{i 3}$ and $C_j=a_{1 j}+a_{2 j}+a_{3 j}$ for $i=1,2,3$ and $j=1,2,3$.\n\nMatch each entry in **List-I** to the correct entry in **List-II**.\n\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\n}\nth {\nbackground-color: #1E90FF;\ncolor: white;\n}\nth, td {\nborder: 1px solid lightgrey;\npadding: 8px;\ntext-align: left;\n}\n\n\n\n\n\nList-I\nList-II\n\n\n\n\n(P) The number of matrices $ M = (a_{ij})_{3x3} $ with all entries in $ T $ such that $ R_i = C_j = 0 $ for all $ i, j $, is\n(1) 1\n\n\n(Q) The number of symmetric matrices $ M = (a_{ij})_{3x3} $ with all entries in $ T $ such that $ C_j = 0 $ for all $ j $, is\n(2) 12\n\n\n(R) Let $ M = (a_{ij})_{3x3} $ be a skew symmetric matrix such that $ a_{ij} \\in T $ for $ i > j $.\n\nThen the number of elements in the set\n\n$ \\left\\{\n\\begin{pmatrix}\nx \\\\\ny \\\\\nz\n\\end{pmatrix} : x, y, z \\in \\mathbb{R}, M\n\\begin{pmatrix}\nx \\\\\ny \\\\\nz\n\\end{pmatrix} =\n\\begin{pmatrix}\na_{12} \\\\\n0 \\\\\n\na_{13}\n\\end{pmatrix}\n\\right\\} $\nis\n(3) infinite\n\n\n(S) Let $ M = (a_{ij})_{3x3} $ be a matrix with all entries in $ T $ such that $ R_i = 0 $ for all $ i $. Then the absolute value of the determinant of $ M $ is\n(4) 6\n\n\n\nThe correct option is",
+    "solution": "$$\\alpha, \\beta$$ are roots of $$x^2+x-1=0\\begin{aligned}\n& \\therefore \\alpha+\\beta=-1 \\Rightarrow 1+\\alpha+\\beta=0 \\\\\n& M=\\left[\\begin{array}{lll}\n\\mathrm{a}_{11} & \\mathrm{a}_{12} & \\mathrm{a}_{13} \\\\\n\\mathrm{a}_{21} & \\mathrm{a}_{22} & \\mathrm{a}_{23} \\\\\n\\mathrm{a}_{31} & \\mathrm{a}_{32} & \\mathrm{a}_{33}\n\\end{array}\\right]\n\\end{aligned}$$\n(P) $$\\quad M=\\left[\\begin{array}{lll}1 & \\alpha & \\beta \\\\ \\alpha & \\beta & 1 \\\\ \\beta & 1 & \\alpha\\end{array}\\right] \\Rightarrow 3 ! \\times 2=12$$\nFor one arrangement of row 1 we can arrange other two rows exactly in two ways and row 1 can be arranged in 3! ways\n$$\\therefore 3!\\times 2=12 \\text { ways }$$\n(Q) $$\\quad M=\\left[\\begin{array}{lll}x & a & b \\\\ a & y & c \\\\ b & c & z\\end{array}\\right] \\Rightarrow$$ Consider one such arrangement with $$a=\\alpha, b=\\beta, c=1$$\na, b, c can be arranged in 3! ways and corresponding entries can be arranged in 1 way.\n(R)\n$$\\begin{aligned}\n& {\\left[\\begin{array}{ccc}\n0 & a & b \\\\\n-a & 0 & c \\\\\n-b & -c & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=\\left[\\begin{array}{c}\na \\\\\n0 \\\\\n-c\n\\end{array}\\right]} \\\\\n& a y+b z=a \\\\\n& -a x+c z=0 \\\\\n& -b x-c y=-c\n\\end{aligned}$$\nIt is observed that $$\\mathrm{D}=\\mathrm{D}_{\\mathrm{x}}=\\mathrm{D}_{\\mathrm{y}}=\\mathrm{D}_{\\mathrm{z}}=0\\therefore$$ infinite solution\n(S)\n$$\\begin{aligned}\n& {\\left[\\begin{array}{lll}\n1 & \\alpha & \\beta \\\\\n\\beta & \\alpha & 1 \\\\\n\\alpha & 1 & \\beta\n\\end{array}\\right] } \\\\\n& \\Rightarrow \\alpha \\beta-1-\\alpha \\beta^2+\\alpha^2+\\beta^2-\\alpha^2 \\beta=0 \\quad(\\text { since } \\alpha \\beta=\\alpha+\\beta=-1)\n\\end{aligned}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(P) $\\rightarrow$ (4) $\\quad$ (Q) $\\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(5) \\quad$ (S) $\\rightarrow$ (1)",
+      "$(\\mathrm{P}) \\rightarrow(2) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(5)$",
+      "$(\\mathrm{P}) \\rightarrow(2) \\quad$ (Q) $\\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(3) \\quad$ (S) $\\rightarrow$ (5)",
+      "(P) $\\rightarrow$ (1) $\\quad$ (Q) $\\rightarrow$ (5) $\\quad$ (R) $\\rightarrow$ (3) $\\quad$ (S) $\\rightarrow$ (4)"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_007",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\alpha, \\beta$ and $\\gamma$ be real numbers. Consider the following system of linear equations\n\n$$\n\\begin{aligned}\n& x+2 y+z=7 \\\\\\\\\n& x+\\alpha z=11 \\\\\\\\\n& 2 x-3 y+\\beta z=\\gamma\n\\end{aligned}\n$$\n\nMatch each entry in **List-I** to the correct entries in **List-II**.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma=28$, then the system has\n(1) a unique solution\n\n\n(Q) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma\neq 28$, then the system has\n(2) no solution\n\n\n(R) If $\\beta\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma\neq 28$, then the system has\n(3) infinitely many solutions\n\n\n(S) If $\\beta\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma=28$, then the system has\n(4) $x=11, y=-2$ and $z=0$ as a solution\n\n\n\n(5) $x=-15, y=4$ and $z=0$ as a solution\n\n\nThe correct option is:",
+    "solution": "Given\n\n$\\begin{gathered}x+2 y+z=7 \\\\\\\\ x+\\alpha z=11 \\\\\\\\ 2 x-3 y+\\beta z=\\gamma\\end{gathered}$\n\nUsing Cramer's rule\n\n$$\n\\begin{aligned}\n\\Delta & =\\left|\\begin{array}{ccc}\n1 & 2 & 1 \\\\\n1 & 0 & \\alpha \\\\\n2 & -3 & \\beta\n\\end{array}\\right| \\\\\\\\\n& =1(3 \\alpha)-2(\\beta-2 \\alpha)+1(-3) \\\\\\\\\n& =3 \\alpha-2 \\beta+4 \\alpha-3 \\\\\\\\\n& =7 \\alpha-2 \\beta-3\n\\end{aligned}\n$$\n\n$\\begin{aligned} \\Delta_x & =\\left|\\begin{array}{ccc}7 & 2 & 1 \\\\ 11 & 0 & \\alpha \\\\ \\gamma & -3 & \\beta\\end{array}\\right| \\\\\\\\ & =7(3 \\alpha)-2(11 \\beta-\\gamma \\alpha)+1(-33) \\\\\\\\ & =21 \\alpha-22 \\beta+22 \\gamma-33\\end{aligned}$\n\n$\\begin{aligned} \\Delta_y & =\\left|\\begin{array}{ccc}1 & 7 & 1 \\\\ 1 & 11 & \\alpha \\\\ 2 & \\gamma & \\beta\\end{array}\\right| \\\\\\\\ & =1(11 \\beta-\\alpha \\gamma)-7(\\beta-2 \\alpha)+1(\\gamma-22) \\\\\\\\ & =11 \\beta-\\alpha \\gamma-7 \\beta+14 \\alpha+\\gamma-22 \\\\\\\\ & =14 \\alpha+4 \\beta+\\gamma-\\alpha \\gamma-22\\end{aligned}$\n\n$\\begin{aligned} \\Delta_z & =\\left|\\begin{array}{ccc}1 & 2 & 7 \\\\ 1 & 0 & 11 \\\\ 2 & -3 & \\gamma\\end{array}\\right| \\\\\\\\ & =1(33)-2(\\gamma-22)+7(-3) \\\\\\\\ & =33-2 \\gamma+44-21 \\\\\\\\ & =-2 \\gamma+56\\end{aligned}$\n\nFor unique solution $\\Delta\neq 0$\n\nFor infinite solution\n\n$$\n\\Delta=\\Delta x=\\Delta y=\\Delta z=0\n$$\n\nFor no solution $\\Delta=0$ and atleast one in $\\Delta x, \\Delta y, \\Delta z$ is non zero.\n\n$$\n\\Delta=0\n\n\\Rightarrow \\beta=\\frac{1}{2}(7 \\alpha-3)\n$$\n\n(P) $ \\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma=28$\n\nthen $ \\Delta=0, \\Delta x=\\Delta y=\\Delta z=0$\n\n$\\therefore$ Infinite solution\n\n(Q) $ \\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma\neq 28$\n\n$\\therefore \\Delta=0$ and $\\Delta_2\neq 0$\n\n$\\Rightarrow$ No solution.\n\n$$\n\\begin{aligned}\n& \\text { (R) } \\beta\neq \\frac{1}{2}(7 \\alpha-3), \\alpha=1, \\gamma\neq 28 \\\\\\\\\n& \\Rightarrow \\Delta\neq 0=\\text { unique solution } \\\\\\\\\n& \\begin{aligned}\n& \\text { (S) } \\beta\neq \\frac{1}{2}(7 \\alpha-3), \\alpha=1, \\gamma=28 \\\\\\\\\n& \\therefore \\Delta\neq 0, \\Delta=4-2 \\beta \\\\\\\\\n& \\Delta x=44-22 \\beta \\\\\\\\\n& \\Delta y=4 \\beta-8 \\\\\\\\\n& \\Delta z=0\n\\end{aligned}\n\\end{aligned}\n$$\n\n$\\therefore x=11, y=-2, z=0$ is the solution.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~(R) \\rightarrow(1)~~ (S) \\rightarrow(4)$",
+      "$(P) \\rightarrow(3) ~~(Q) \\rightarrow(2) ~~(R) \\rightarrow(5)~~ (S) \\rightarrow(4)$",
+      "$(P) \\rightarrow(2)~~ (Q) \\rightarrow(1) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(5)$",
+      "$(P) \\rightarrow(2) ~~ (Q) \\rightarrow(1) ~~ (R) \\rightarrow(1) ~~ (S) \\rightarrow(3)$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_008",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $M=\\left(\\begin{array}{rr}\\frac{5}{2} & \\frac{3}{2} \\\\ -\\frac{3}{2} & -\\frac{1}{2}\\end{array}\\right)$, then which of the\n\nfollowing matrices is equal to $M^{2022} ?$",
+    "solution": "$$A=\\left(\\begin{array}{cc}\\frac{5}{2} & \\frac{3}{2} \\\\ -\\frac{3}{2} & -\\frac{1}{2}\\end{array}\\right)A^{2}=\\left(\\begin{array}{cc}4 & 3 \\\\ -3 & -2\\end{array}\\right)A^{3}=\\left(\\begin{array}{cc}\\frac{11}{2} & \\frac{9}{2} \\\\ -\\frac{9}{2} & -\\frac{7}{2}\\end{array}\\right)A^{4}=\\left(\\begin{array}{cc}7 & 6 \\\\ -6 & -5\\end{array}\\right)$$\nand so on\n$A^n=\\left(\\begin{array}{cc}\\frac{3 n}{2}+1 & \\frac{3 n}{2} \\\\ -\\frac{3 n}{2} & -\\frac{3 n}{2}+1\\end{array}\\right)$\nNow\n$$\n\\begin{aligned}\nA^{2022} & =\\left(\\begin{array}{ll}\n\\frac{3 \\times 2022}{2}+1 & \\frac{3 \\times 2022}{2} \\\\\n\\frac{-3 \\times 2022}{2} & \\frac{-3 \\times 2022}{2}+1\n\\end{array}\\right) \\\\\\\\\n& =\\left(\\begin{array}{cc}\n3034 & 3033 \\\\\n-3033 & -3032\n\\end{array}\\right)\n\\end{aligned}\n$$\n\n$\\therefore$ Option $(\\mathrm{A})$ is correct",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\left(\\begin{array}{rr}3034 & 3033 \\\\ -3033 & -3032\\end{array}\\right)$",
+      "$\\left(\\begin{array}{ll}3034 & -3033 \\\\ 3033 & -3032\\end{array}\\right)$",
+      "$\\left(\\begin{array}{rr}3033 & 3032 \\\\ -3032 & -3031\\end{array}\\right)$",
+      "$\\left(\\begin{array}{rr}3032 & 3031 \\\\ -3031 & -3030\\end{array}\\right)$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_009",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$p, q, r$$ be nonzero real numbers that are, respectively, the $$10^{\\text {th }}, 100^{\\text {th }}$$ and $$1000^{\\text {th }}$$ terms of a harmonic progression. Consider the system of linear equations\n$$$\n\\begin{gathered}\nx+y+z=1 \\\\\n10 x+100 y+1000 z=0 \\\\\nq r x+p r y+p q z=0\n\\end{gathered}\n$$$\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) If $$\\frac{q}{r}=10$$, then the system of linear equations has\n(P) $$x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$$ as a solution\n\n\n(II) If $$\\frac{p}{r}\neq 100$$, then the system of linear equations has\n(Q) $$x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$$ as a solution\n\n\n(III) If $$\\frac{p}{q}\neq 10$$, then the system of linear equations has\n(R) infinitely many solutions\n\n\n(IV) If $$\\frac{p}{q}=10$$, then the system of linear equations has\n(S) no solution\n\n\n\n(T) at least one solution\n\n\nThe correct option is:",
+    "solution": "Given:\n\n$$\n\\begin{gathered}\nx+y+z=1 ..........(1)\\\\\\\\\n10 x+100 y+1000 z=0 .........(2)\\\\\\\\\nq r x+p r y+p q z=0 ............(3)\n\\end{gathered}\n$$\n\nNow equation (3) can be re-written as\n\n$$\n\\frac{x}{p}=\\frac{y}{q}=\\frac{z}{r}=0 \\quad \\because\\{p, q, r\neq 0\\}\n$$\n\nNow given $p, q$ and $r$ are $10^{\\text {th }}, 100^{\\text {th }}$ and $1000^{\\text {th }}$ term of an. H.P.,\n\nSo let $p=\\frac{y}{a+9 d}, q=\\frac{1}{a+99 d}, r=\\frac{1}{a+999 d}$\n\nNow from equation (3)\n\n$$\n(a+9 d) x+(a+99 d) y+(a+999 d) z=0\n$$\n\nNow from and (1), (2) and (3) we get\n\n$$\n\\begin{aligned}\n\\Delta & =\\left|\\begin{array}{ccc}\n1 & 1 & 1 \\\\\n10 & 100 & 1000 \\\\\na+9 d & a+99 d & a+999 d\n\\end{array}\\right|=0 \\\\\\\\\n\\Delta x & =\\left|\\begin{array}{ccc}\n1 & 1 & 1 \\\\\n0 & 100 & 1000 \\\\\n0 & a+99 d & a+999 d\n\\end{array}\\right|=900(d-a) \\\\\\\\\n\\Delta y & =\\left|\\begin{array}{ccc}\n10 & 0 & 1000 \\\\\n1+9 d & 0 & a+999 d\n\\end{array}\\right|=990(a-d) \\\\\\\\\n\\Delta z & =\\left|\\begin{array}{ccc}\n1 & 1 & 1 \\\\\n1 & 1 & 1 \\\\\n10 & 100 & 0 \\\\\na+9 d & a+99 d & 0\n\\end{array}\\right|=90(d-a)\n\\end{aligned}\n$$\n\n(I) If $\\frac{q}{r}=10 \\Rightarrow a=d$\n\n$$\n\\Delta=\\Delta_x=\\Delta_y=\\Delta_z=0\n$$\n\nAnd equation (1) and equation (2) represents non-parallel plane equation (2) and equation (3) represents same plane\n\n$\\Rightarrow$ Infinitely many solutions.\n\nNow finding solution by taking $z=\\lambda$ then\n\n$$\n\\begin{aligned}\n& x+y =1-\\lambda \\\\\\\\\n& x+10 y =-100 \\lambda \\\\\\\\\n& x =\\frac{10}{9}+100 \\lambda \\\\\\\\\n& y =\\frac{-1}{9}-11 \\lambda \\\\\\\\\n& \\Rightarrow (x, y, z) \\in\\left(\\frac{10}{9}+10 \\lambda, \\frac{-1}{9}-11 \\lambda, \\lambda\\right)\n\\end{aligned}\n$$\n\nSo $\\mathrm{P}$ is not valid for any value of $\\lambda \\rightarrow \\mathrm{Q}$\n\n(II) $\\frac{p}{r}\neq 100 \\Rightarrow a\neq d$\n\n$$\n\\Delta=0 \\,\\text{and}\\, \\Delta_{x^{\\prime}} \\Delta_{y^{\\prime}} \\Delta_z\neq 0\n$$\n\nSo no solution.\n\n$$\n\\text { II } \\rightarrow \\mathrm{S}\n$$\n\n(III) If\n$$\n\\frac{p}{q}\neq 10 \\Rightarrow a\neq d \\text { then } \\Delta_z\neq 0\n$$\n\nSo no solution.\n\n$$\n\\text { III } \\rightarrow \\mathrm{S}\n$$\n\n(IV) If\n$$\n\\Rightarrow a=d \\text { then } \\Delta_z=0 \\Rightarrow \\Delta_x=\\Delta_y=0\n$$\n\nSo infinitely many solutions.\n\n$$\n\\mathrm{IV} \\rightarrow \\mathrm{R}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(I) $$\\rightarrow$$ (T); (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow$$ (S); (IV) $$\\rightarrow$$ (T)",
+      "(I) $$\\rightarrow$$ (Q); (II) $$\\rightarrow$$ (S); (III) $$\\rightarrow$$ (S); (IV) $$\\rightarrow$$ (R)",
+      "(I) $$\\rightarrow(\\mathrm{Q})$$; (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow(\\mathrm{P})$$; (IV) $$\\rightarrow$$ (R)",
+      "(I) $$\\rightarrow$$ (T); (II) $$\\rightarrow$$ (S); (III) $$\\rightarrow$$ (P); (IV) $$\\rightarrow$$ (T)"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_010",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$M = \\left[ {\\matrix{\n{{{\\sin }^4}\\theta } \\cr\n{1 + {{\\cos }^2}\\theta } \\cr\n\n} \\matrix{\n{ - 1 - {{\\sin }^2}\\theta } \\cr\n{{{\\cos }^4}\\theta } \\cr\n\n} } \\right] = \\alpha I + \\beta {M^{ - 1}}$$,\n\nwhere $$\\alpha $$ = $$\\alpha $$($$\\theta $$) and $$\\beta $$ = $$\\beta $$($$\\theta $$) are real numbers, and I is the 2 $$ \\times $$ 2 identity matrix. If $$\\alpha $$$^{*}$ is the minimum of the set {$$\\alpha $$($$\\theta $$) : $$\\theta \\in $$ [0, 2$$\\pi $$)} and {$$\\beta $$($$\\theta $$) : $$\\theta \\in $$ [0, 2$$\\pi $$)}, then the value of $$\\alpha $$$^{*}$ + $$\\beta $$$^{*}$ is",
+    "solution": "It is given that matrix\n\n$$M = \\left[ {\\matrix{\n{{{\\sin }^4}\\theta } \\cr\n{1 + {{\\cos }^2}\\theta } \\cr\n\n} \\matrix{\n{ - 1 - {{\\sin }^2}\\theta } \\cr\n{{{\\cos }^4}\\theta } \\cr\n\n} } \\right] = \\alpha I + \\beta {M^{ - 1}}$$, where\n\n$$\\alpha $$ = $$\\alpha $$($$\\theta $$) and $$\\beta $$ = $$\\beta $$($$\\theta $$) are real numbers and I is the 2 $$ \\times $$ 2 identity matrix.\n\nNow,\n\n$$(M) = \\left| M \\right| = {\\sin ^4}\\theta {\\cos ^4}\\theta + 1 + {\\sin ^2}\\theta + {\\cos ^2}\\theta + {\\sin ^2}\\theta {\\cos ^2}\\theta$$\n\n= $${\\sin ^4}\\theta {\\cos ^4}\\theta + {\\sin ^2}\\theta {\\cos ^2}\\theta + 2$$\n\nand$$\\left[ {\\matrix{\n{{{\\sin }^4}\\theta } \\cr\n{1 + {{\\cos }^2}\\theta } \\cr\n\n} \\matrix{\n{ - 1 - {{\\sin }^2}\\theta } \\cr\n{{{\\cos }^4}\\theta } \\cr\n\n} } \\right] = \\left[ {\\matrix{\n\\alpha \\cr\n0 \\cr\n\n} \\,\\matrix{\n0 \\cr\n\\alpha \\cr\n\n} } \\right] + {\\beta \\over {\\left| M \\right|}}(adj\\,M) \\because \\left[ {{M^{ - 1}} = {{adj\\,M} \\over {\\left| M \\right|}}} \\right] \\Rightarrow \\left[ {\\matrix{\n{{{\\sin }^4}\\theta } \\cr\n{1 + {{\\cos }^2}\\theta } \\cr\n\n} \\matrix{\n{ - 1 - {{\\sin }^2}\\theta } \\cr\n{{{\\cos }^4}\\theta } \\cr\n\n} } \\right] = \\left[ {\\matrix{\n\\alpha \\cr\n0 \\cr\n\n} \\,\\matrix{\n0 \\cr\n\\alpha \\cr\n\n} } \\right] + {\\beta \\over {\\left| M \\right|}}\\left[ {\\matrix{\n{{{\\cos }^4}\\theta } \\cr\n{ - 1 - {{\\cos }^2}\\theta } \\cr\n\n} \\matrix{\n{1 + {{\\sin }^2}\\theta } \\cr\n{{{\\sin }^4}\\theta } \\cr\n\n} } \\right] \\because \\left\\{ {adj\\left[ {\\matrix{\na & b \\cr\nc & d \\cr\n\n} } \\right] = \\left[ {\\matrix{\nd & { - b} \\cr\n{ - c} & a \\cr\n\n} } \\right]} \\right\\} \\Rightarrow \\beta = - \\left| M \\right|$$ and $$\\alpha = {\\sin ^4}\\theta + {\\cos ^4}\\theta \\Rightarrow \\alpha = \\alpha (\\theta ) = 1 - {1 \\over 2}{\\sin ^2}(2\\theta )$$, and $$\\beta = \\beta (\\theta ) = - \\left\\{ {{{\\left( {{{\\sin }^2}\\theta {{\\cos }^2}\\theta + {1 \\over 2}} \\right)}^2} + {7 \\over 4}} \\right\\} = - \\left\\{ {{{\\left( {{{{{\\sin }^2}(2\\theta )} \\over 4} + {1 \\over 2}} \\right)}^2} + {7 \\over 4}} \\right\\}$$\n\nNow, $${\\alpha ^*} = {\\alpha _{\\min }} = {1 \\over 2}$$\n\nand $${\\beta ^*} = {\\beta _{\\min }} = - {{37} \\over {16}} \\because \\alpha $$ is minimum at sin$^{2}$(2$$\\theta $$) = 1 and $$\\beta $$ is minimum at sin$^{2}$(2$$\\theta $$) = 1\n\nSo, $${\\alpha ^*} + {\\beta ^*} = {1 \\over 2} - {{37} \\over {16}} = - {{29} \\over {16}}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ - {{17} \\over {16}}$$",
+      "$$ - {{31} \\over {16}}$$",
+      "$$ - {{37} \\over {16}}$$",
+      "$$ - {{29} \\over {16}}$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_011",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How many 3 $$ \\times $$ 3 matrices M with entries from {0, 1, 2} are there, for which the sum of the diagonal entries of M$^{T}$M is 5?",
+    "solution": "Sum of diagonal entries of M$^{T}$M is $$\\sum\\limits_{}^{} {a_i^2} \\sum\\limits_{i = 1}^9 {a_i^2} = 5$$\n\nPossibilities\n\nI. 2, 1, 0, 0, 0, 0, 0, 0, 0, which gives $${{9!} \\over {7!}}$$ matrices\n\nII. 1, 1, 1, 1, 1, 0, 0, 0, 0, which gives $${{9!} \\over {4!\\, \\times 5!}}$$ matrices\n\nTotal matrices = 9 $$ \\times $$ 8 + 9 $$ \\times $$ 7 $$ \\times $$ 2 = 198",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "198",
+      "162",
+      "126",
+      "135"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_012",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n4 & 1 & 0 \\cr\n{16} & 4 & 1 \\cr\n\n} } \\right]$$ and I be the identity matrix of order 3. If $$Q = [{q_{ij}}]$$ is a matrix such that $${P^{50}} - Q = I$$ and $${{{q_{31}} + {q_{32}}} \\over {{q_{21}}}}$$ equals",
+    "solution": "Here, $$P = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n4 & 1 & 0 \\cr\n{16} & 4 & 1 \\cr\n\n} } \\right]\\therefore{P^2} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n4 & 1 & 0 \\cr\n{16} & 4 & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n4 & 1 & 0 \\cr\n{16} & 4 & 1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n{4 + 4} & 1 & 0 \\cr\n{16 + 32} & {4 + 4} & 1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n{4 \\times 2} & 1 & 0 \\cr\n{16(1 + 2)} & {4 \\times 2} & 1 \\cr\n\n} } \\right]$$ ...... (i)\nand $${P^3} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n{4 \\times 2} & 1 & 0 \\cr\n{16(1 + 2)} & {4 \\times 2} & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n4 & 1 & 0 \\cr\n{16} & 4 & 1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n{4 \\times 3} & 1 & 0 \\cr\n{16(1 + 2 + 3)} & {4 \\times 3} & 1 \\cr\n\n} } \\right]$$ ..... (ii)\nFrom symmetry,\n$${P^{50}} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n{4 \\times 50} & 1 & 0 \\cr\n{16(1 + 2 + 3 + .... + 50)} & {4 \\times 50} & 1 \\cr\n\n} } \\right]\\because{P^{50}} - Q = I$$ [given]\n$$\\therefore\\left[ {\\matrix{\n{1 - {q_{11}}} & { - {q_{12}}} & { - {q_{13}}} \\cr\n{200 - {q_{21}}} & {1 - {q_{22}}} & { - {q_{23}}} \\cr\n{16 \\times {{50} \\over 2}(51) - {q_{31}}} & {200 - {q_{32}}} & {1 - {q_{33}}} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right] \\Rightarrow 200 - {q_{21}} = 0$$, $${{16 \\times 50 \\times 51} \\over 2} - {q_{31}} = 0$$, $$200 - {q_{32}} = 0\\therefore{q_{21}} = 200$$, $${q_{32}} = 200$$, $${q_{31}} = 20400$$\nThus, $${{{q_{31}} + {q_{32}}} \\over {{q_{21}}}} = {{20400 + 200} \\over {200}} = {{20600} \\over {200}} = 103$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "52",
+      "103",
+      "201",
+      "205"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_013",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If P is a 3 $$\\times$$ 3 matrix such that P$^{T}$ = 2P + I, where P$^{T}$ is the transpose of P and I is the 3 $$\\times$$ 3 identity matrix, then there exists a column matrix $$X = \\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right]\ne \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$ such that",
+    "solution": "We have $${P^T} = 2P + I$$\nWe get $${P^T} - 2P = I$$ ..... (i)\nTaking transpose, we have $${({P^T} - 2P)^T} = {I^T} \\Rightarrow P - 2{P^T} = I$$ ..... (ii)\nFrom (i) and (ii) on eliminating P$^{T}$ we have\n$$ - 4P + P = 3I \\Rightarrow P = - I\\thereforeP + I = 0$$\nThus, $$(P + 1)X = 0 \\Rightarrow PX = - X$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$PX = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$",
+      "PX = X",
+      "PX = 2X",
+      "PX = $$-$$X"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_014",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = [{a_{ij}}]$$ be a 3 $$\\times$$ 3 matrix and let $$Q = [{b_{ij}}]$$, where $${b_{ij}} = {2^{i + j}}{a_{ij}}$$ for $$1 \\le i,j \\le 3$$. If the determinant of P is 2, then the determinant of the matrix Q is",
+    "solution": "Here, $$P = {[{a_{ij}}]_{3 \\times 3}} = \\left[ {\\matrix{\n{{a_{11}}} & {{a_{12}}} & {{a_{13}}} \\cr\n{{a_{21}}} & {{a_{22}}} & {{a_{23}}} \\cr\n{{a_{31}}} & {{a_{32}}} & {{a_{33}}} \\cr\n\n} } \\right]Q = {[{b_{ij}}]_{3 \\times 3}} = \\left[ {\\matrix{\n{{b_{11}}} & {{b_{12}}} & {{b_{13}}} \\cr\n{{b_{21}}} & {{b_{22}}} & {{b_{23}}} \\cr\n{{b_{31}}} & {{b_{32}}} & {{b_{33}}} \\cr\n\n} } \\right]$$\nwhere, $${b_{ij}} = {2^{i + j}}{a_{ij}}\\therefore\\left| Q \\right| = \\left| {\\matrix{\n{4{a_{11}}} & {8{a_{12}}} & {16{a_{13}}} \\cr\n{8{a_{21}}} & {16{a_{22}}} & {32{a_{23}}} \\cr\n{16{a_{31}}} & {32{a_{32}}} & {64{a_{33}}} \\cr\n\n} } \\right| = 4 \\times 8 \\times 16\\left| {\\matrix{\n{{a_{11}}} & {{a_{12}}} & {{a_{13}}} \\cr\n{2{a_{21}}} & {2{a_{22}}} & {2{a_{23}}} \\cr\n{4{a_{31}}} & {4{a_{32}}} & {4{a_{33}}} \\cr\n\n} } \\right| = {2^9} \\times 2 \\times 4\\left| {\\matrix{\n{{a_{11}}} & {{a_{12}}} & {{a_{13}}} \\cr\n{{a_{21}}} & {{a_{22}}} & {{a_{23}}} \\cr\n{{a_{31}}} & {{a_{32}}} & {{a_{33}}} \\cr\n\n} } \\right| = {2^{12}}.\\left| P \\right| = {2^{12}}.2 = {2^{13}}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "2$^{10}$",
+      "2$^{11}$",
+      "2$^{12}$",
+      "2$^{13}$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_015",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\omega\ne$$ 1 be a cube root of unity and S be the set of all non-singular matrices of the form $$\\left[ {\\matrix{\n1 & a & b \\cr\n\\omega & 1 & c \\cr\n{{\\omega ^2}} & \\omega & 1 \\cr\n\n} } \\right]$$, where each of a, b, and c is either $$\\omega$$ or $$\\omega$$$^{2}$. Then the number of distinct matrices in the set S is",
+    "solution": "$$\\left| A \\right|\ne 0$$, as non-singular.\n$$\\therefore\\left| {\\matrix{\n1 & a & b \\cr\n\\omega & 1 & c \\cr\n{{\\omega ^2}} & \\omega & 1 \\cr\n\n} } \\right|\ne 0 \\Rightarrow 1(1 - c\\omega ) - a(\\omega - c{\\omega ^2}) + b({\\omega ^2} - {\\omega ^2})\ne 0 \\Rightarrow 1 - c\\omega - a\\omega + ac{\\omega ^2}\ne 0 \\Rightarrow (1 - c\\omega )(1 - a\\omega )\ne 0 \\Rightarrow a\ne {1 \\over \\omega },c\ne {1 \\over \\omega } \\Rightarrow a = \\omega ,c = \\omega $$\nand $$b \\in \\{ \\omega ,{\\omega ^2}\\} \\Rightarrow 2$$ solutions",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2",
+      "6",
+      "4",
+      "8"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_016",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the point P(a, b, c), with reference to (E), lies on the plane 2x + y + z = 1, then the value of 7a + b + c is",
+    "solution": "Given, $${[\\matrix{\na & b & c \\cr\n\n} ]_{1 \\times 3}}{\\left[ {\\matrix{\n1 & 9 & 7 \\cr\n8 & 2 & 7 \\cr\n7 & 3 & 7 \\cr\n\n} } \\right]_{3 \\times 3}} = [\\matrix{\n0 & 0 & 0 \\cr\n\n} ] \\Rightarrow \\left[ {\\matrix{\n{a + 8b + 7c} \\cr\n{9a + 2b + 3c} \\cr\n{7a + 7b + 7c} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right] \\Rightarrow a + 8b + 7c = 0$$ ..... (i)\n$$ \\Rightarrow 9a + 2b + 3c = 0$$ .... (ii)\n$$ \\Rightarrow a + b + c = 0$$ ....... (iii)\nOn multiplying Eq. (iii) by 2, then subtract from Eq. (ii), we get\n$$7a + c = 0$$ ..... (iv)\nAgain multiplying Eq. (iii) by 3, then subtract from Eq. (ii), we get\n$$6a - b = 0$$ ..... (v)\n$$\\thereforeb = 6a$$ and $$c = - 7a$$\nAs (a, b, c) lies on $$2x + y + z = 1 \\Rightarrow 2a + b + c = 1 \\Rightarrow 2a + 6a - 7a = 1\\Rightarrow$$ a = 1, b = 6 and c = $$-$$7\n$$\\therefore7a + b + c = 7 + 6 - 7 = 6$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0",
+      "12",
+      "7",
+      "6"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_017",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\omega$$ be a solution of $${x^3} - 1 = 0$$ with $${\\mathop{\\rm Im}\nolimits} (\\omega ) > 0$$. If a = 2 with b and c satisfying (E), then the value of $${3 \\over {{\\omega ^a}}} + {1 \\over {{\\omega ^b}}} + {3 \\over {{\\omega ^c}}}$$ is equal to",
+    "solution": "Given, $${[\\matrix{\na & b & c \\cr\n\n} ]_{1 \\times 3}}{\\left[ {\\matrix{\n1 & 9 & 7 \\cr\n8 & 2 & 7 \\cr\n7 & 3 & 7 \\cr\n\n} } \\right]_{3 \\times 3}} = [\\matrix{\n0 & 0 & 0 \\cr\n\n} ] \\Rightarrow \\left[ {\\matrix{\n{a + 8b + 7c} \\cr\n{9a + 2b + 3c} \\cr\n{7a + 7b + 7c} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right] \\Rightarrow a + 8b + 7c = 0$$ ..... (i)\n$$ \\Rightarrow 9a + 2b + 3c = 0$$ .... (ii)\n$$ \\Rightarrow a + b + c = 0$$ .... (iii)\nOn multiplying Eq. (iii) by 2, then subtract from Eq. (ii), we get\n$$7a + c = 0$$ ..... (iv)\nAgain multiplying Eq. (iii) by 3, then subtract from Eq. (ii), we get\n$$6a - b = 0$$ ..... (v)\n$$\\therefore$$ b = 6a and c = $$-$$ 7a\nIf a = 2, b = 12 and c = $$-$$14\n$$\\therefore{3 \\over {{\\omega ^a}}} + {1 \\over {{\\omega ^b}}} + {3 \\over {{\\omega ^c}}} \\Rightarrow {3 \\over {{\\omega ^2}}} + {1 \\over {{\\omega ^{12}}}} + {3 \\over {{\\omega ^{ - 14}}}} = {3 \\over {{\\omega ^2}}} + 1 + 3{\\omega ^2} = 3\\omega + 1 + 3{\\omega ^2} = 1 + 3(\\omega + {\\omega ^2}) = 1 - 3 = - 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$-$$2",
+      "2",
+      "3",
+      "$$-$$3"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_018",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let b = 6, with a and c satisfying (E). If $$\\alpha$$ and $$\\beta$$ are the roots of the quadratic equation ax$^{2}$ + bx + c = 0, then $$\\sum\\limits_{n = 0}^\\infty {{{\\left( {{1 \\over \\alpha } + {1 \\over \\beta }} \\right)}^n}} $$ is",
+    "solution": "Given, $${[\\matrix{\na & b & c \\cr\n\n} ]_{1 \\times 3}}{\\left[ {\\matrix{\n1 & 9 & 7 \\cr\n8 & 2 & 7 \\cr\n7 & 3 & 7 \\cr\n\n} } \\right]_{3 \\times 3}} = [\\matrix{\n0 & 0 & 0 \\cr\n\n} ] \\Rightarrow \\left[ {\\matrix{\n{a + 8b + 7c} \\cr\n{9a + 2b + 3c} \\cr\n{7a + 7b + 7c} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right] \\Rightarrow a + 8b + 7c = 0$$ ..... (i)\n$$ \\Rightarrow 9a + 2b + 3c = 0$$ .... (ii)\n$$ \\Rightarrow a + b + c = 0$$ .... (iii)\nOn multiplying Eq. (iii) by 2, then subtract from Eq. (ii), we get\n$$7a + c = 0$$ ..... (iv)\nAgain multiplying Eq. (iii) by 3, then subtract from Eq. (ii), we get\n$$6a - b = 0$$ ..... (v)\n$$\\therefore$$ b = 6a and c = $$-$$ 7a\nIf b = 6, a = 1 and c = $$-$$7\n$$\\thereforea{x^2} + bx + c = 0 \\Rightarrow {x^2} + 6x - 7 = 0 \\Rightarrow (x + 7)(x - 1) = 0\\thereforex = 1,7 \\Rightarrow \\sum\\limits_{n = 0}^\\infty {{{\\left( {{1 \\over 1} - {1 \\over 7}} \\right)}^n} \\Rightarrow \\sum\\limits_{n = 0}^\\infty {{{\\left( {{6 \\over 7}} \\right)}^n}} } \\Rightarrow 1 + {6 \\over 7} + {\\left( {{6 \\over 7}} \\right)^n} + ....\\infty = {1 \\over {1 - {6 \\over 7}}} = {1 \\over {1/7}} = 7$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "6",
+      "7",
+      "$${6 \\over 7}$$",
+      "$$\\infty$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_019",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of $3 \\times 3$ matrices A whose entries are either 0 or 1 and for which the system\n\n$\\mathrm{A}\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$ has exactly two distinct solutions, is",
+    "solution": "Given,\nA $\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$ has two distinct solution we know that three Planes cannot intersect at two distinct point.\nHence, number of $3 \\times 3$ matrix $A$ is zero.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0",
+      "$2^9-1$",
+      "168",
+      "2"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_020",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of $A$ in $T_p$ such that $A$ is either symmetric or skew-symmetric or both, and $\\operatorname{det}(\\mathrm{A}) \\operatorname{divisible}$ by $p$ is :",
+    "solution": "We must have $a^2-b^2=1 < p$\n$$ (a+b)(a-b)=1 < p $$\nEither $a-b=0$ or $a+b$ is a multiple of $p$ when $a=b$ number of matrices is $p$ and when $a+b$ $=$ multiple of $p$.\n$$ \\Rightarrow a, b \\text { has } p-1 \\begin{aligned} \\text { Total number of matrices } & =p+p-1 \\\\\\\\ & =2 p-1 \\end{aligned} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$(p-1)^2$",
+      "$2(p-1)$",
+      "$(p-1)^2+1$",
+      "$2 p-1$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_021",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of A in $\\mathrm{T}_p$ such that the trace of A is not divisible by $p$ but $\\operatorname{det}(\\mathrm{A})$ is divisible by $p$ is\n[**Note :** The trace of a matrix is the sum of its diagonal entries.]",
+    "solution": "We have an odd prime $p$. Consider the set\n$ T_p \\;=\\; \\Bigl\\{ A \\;=\\;\\begin{pmatrix} a & b \\\\[6pt] c & a \\end{pmatrix} \\;:\\; a,b,c \\in \\{0,1,2,\\dots,p-1\\} \\Bigr\\}. $\nWe want to count the number of such matrices $A$ that satisfy:\n\n$\\text{trace}(A)\not\\equiv 0 \\pmod{p}$.\nSince $\\text{trace}(A) = a + a = 2a$, this means\n$ 2a \\;\not\\equiv\\; 0 \\pmod{p}. $\nBecause $p$ is an odd prime, $2$ is invertible $\\bmod\\,p$.\nHence $2a \\equiv 0 \\pmod{p}$ if and only if $a \\equiv 0 \\pmod{p}$.\nThus the condition\n$\\text{trace}(A)\not\\equiv 0 \\pmod{p}$\nis equivalent to\n$ a \\;\neq\\; 0 \\pmod{p}. $\nIn other words, $a$ must be a nonzero element modulo $p$; so\n$a\\in\\{1,2,\\dots,p-1\\}.$\n$\\det(A) \\equiv 0 \\pmod{p}$.\nFor the matrix\n$\\begin{pmatrix} a & b \\\\ c & a \\end{pmatrix},$ we have\n$ \\det(A) \\;=\\; a^2 - bc. $\nThe condition $\\det(A)\\equiv 0\\pmod{p}$ means\n$ a^2 \\;-\\; bc \\;\\equiv\\; 0 \\pmod{p} \\quad\\Longleftrightarrow\\quad bc \\;\\equiv\\; a^2 \\pmod{p}. $\n\nPutting these two pieces together:\n\n$a$ is nonzero ($a \\in \\{1,\\dots,p-1\\}$).\n$bc \\equiv a^2 \\pmod{p}.$\n\nCounting the solutions\nWe must count the number of triples $(a,b,c)$ with $a\neq 0$ and $bc \\equiv a^2$.\n\nRange for $a$\nSince $a\\in \\{1,2,\\dots,p-1\\}$, there are $p-1$ possible values of $a$.\nCondition $bc \\equiv a^2$ for given $a$\nSince $a\neq 0$, $a^2$ is also nonzero $\\bmod\\,p$.\n\nIf $b = 0$, then $bc \\equiv 0$, which would only be equal to $a^2$ if $a^2 \\equiv 0$. But $a^2\neq 0$ since $a\neq 0$. So $b=0$ gives no solutions.\nSimilarly, if $c=0$, then $bc=0$, which again cannot equal the nonzero $a^2$. So $c=0$ gives no solutions either.\nTherefore $b$ and $c$ must both be nonzero modulo $p$.\nOnce $b$ is chosen to be any nonzero element in $\\{1,\\dots,p-1\\}$, there is a unique $c \\equiv a^2 \\,b^{-1} \\pmod{p}$. Hence:\nFor each nonzero $b$ (that is, $b\\in\\{1,\\dots,p-1\\}$), there is exactly one $c\\in\\{1,\\dots,p-1\\}$ satisfying $bc \\equiv a^2$.\nConsequently, for each fixed nonzero $a$, the number of $(b,c)$-pairs is $p-1$.\n\nPutting it all together\n\nWe have $p-1$ choices for $a\neq 0$.\nFor each such $a$, there are $p-1$ pairs $(b,c)$ satisfying $bc\\equiv a^2$.\nTherefore, in total, the number of matrices is\n$ (p-1)\\,\\times\\,(p-1) \\;=\\; (p-1)^2. $\n\nHence the correct answer matches option C, which is\n$ \\boxed{(p-1)^2.} $",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$(p-1)\\left(p^2-p+1\\right)$",
+      "$p^3-(p-1)^2$",
+      "$(p-1)^2$",
+      "$(p-1)\\left(p^2-2\\right)$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_022",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of A in $\\mathrm{T}_p$ such that $\\operatorname{det}(\\mathrm{A})$ is not divisible by $p$ is :",
+    "solution": "Let $p$ be an odd prime number, and consider the set\n$ T_{p} \\;=\\; \\Bigl\\{ A \\;=\\;\\begin{pmatrix} a & b\\\\[6pt] c & a \\end{pmatrix} \\;:\\; a,b,c \\in \\{0,1,2,\\dots,p-1\\} \\Bigr\\}. $\nWe want to count the number of matrices $A \\in T_p$ whose determinant is not divisible by $p$.\nRecall that for\n$ A \\;=\\; \\begin{pmatrix} a & b \\\\ c & a \\end{pmatrix}, $\nthe determinant is\n$ \\det(A) \\;=\\; a^2 \\;-\\; b\\,c. $\nHence $\\det(A)$ is not divisible by $p$ precisely when\n$ a^2 \\;-\\; b\\,c \\;\not\\equiv\\; 0 \\pmod{p}, \\quad\\text{i.e.,}\\quad a^2 \\;\neq\\; b\\,c \\pmod{p}. $\n\nTotal number of matrices\nSince $a,b,c$ each range over $\\{0,1,\\dots,p-1\\}$, there are\n$ p^3 $\ntotal possible matrices in $T_p$.\n\nStep 1: Count how many $(a,b,c)$ do satisfy $a^2 \\equiv b\\,c \\pmod{p}$\nIt will be easier to first count the number of triples $(a,b,c)$ for which\n$ a^2 \\;\\equiv\\; b\\,c \\pmod{p}, $\nand then subtract that from $p^3$.\n\nCase A: $a = 0$\nThen $a^2 = 0$. We need\n$ b\\,c \\;\\equiv\\; 0 \\pmod{p}. $\nOver the field $\\mathbf{F}_p$, the product $b\\,c\\equiv 0$ if and only if at least one of $b$ or $c$ is $0$ (since $p$ is prime).\n\nIf $b=0$, then $c$ can be anything in $\\{0,\\dots,p-1\\}$.\nThis gives $p$ possibilities.\nIf $c=0$, then $b$ can be anything in $\\{0,\\dots,p-1\\}$.\nThis also gives $p$ possibilities.\nHowever, the pair $(b=0, c=0)$ is counted in both cases, so we must subtract it out once.\n\nHence, for $a=0$, the number of $(b,c)$ such that $b\\,c \\equiv 0$ is\n$ p \\;+\\; p \\;-\\; 1 \\;=\\; 2p \\;-\\; 1. $\n\nCase B: $a\neq 0$\nThen $a$ can be any nonzero element in $\\{1,2,\\dots,p-1\\}$; there are $p-1$ such choices. In that scenario, $a^2\neq 0\\pmod{p}$. We want\n$ b\\,c \\;\\equiv\\; a^2 \\pmod{p}. $\nOver $\\mathbf{F}_p$, a nonzero right-hand side $a^2$ can be written as $b\\,c$ in the following way:\n\nIf $b=0$, then $b\\,c = 0$, which cannot equal $a^2\neq 0$.\nNo solutions in that subcase.\nIf $b\neq 0$, then for each nonzero $b$ there is exactly one $c$ satisfying $b\\,c \\equiv a^2\\pmod{p}$, namely $c \\equiv a^2 b^{-1}\\pmod{p}$.\n\nSince $b$ can be any of the $p-1$ nonzero elements, we get $p-1$ solutions $(b,c)$ for each nonzero $a$.\nThus, for each $a\neq 0$, there are $p-1$ pairs $(b,c)$. Hence, for $p-1$ values of $a$, the total number of solutions in this case is\n$ (p-1)\\,\\times\\,(p-1) \\;=\\; (p-1)^2. $\n\nTotal number of solutions to $a^2 = b\\,c$\nSumming these two cases:\n\nCase A $(a=0)$: $2p - 1$ solutions.\nCase B $(a\neq 0)$: $(p-1)^2$ solutions.\n\nHence the total count of $(a,b,c)$ satisfying $a^2 \\equiv b\\,c$ is\n$ (2p -1) \\;+\\; (p-1)^2 \\;=\\; (2p -1) \\;+\\; \\bigl(p^2 \\;-\\;2p \\;+\\;1\\bigr) \\;=\\; p^2. $\n(A classic result: there are exactly $p^2$ solutions to $b\\,c = a^2$ over $\\mathbf{F}_p^3$.)\n\nStep 2: Count how many $(a,b,c)$ satisfy $a^2\neq b\\,c$\nSince there are $p^3$ total triples $(a,b,c)$, the number that satisfy\n$ a^2 \\;\neq\\; b\\,c \\pmod{p} $\nis simply\n$ p^3 \\;-\\; p^2. $\nThis directly corresponds to matrices $A$ whose determinant $a^2 - b\\,c$ is $\not\\equiv 0\\pmod{p}$.\nHence, the number of matrices in $T_p$ with $\\det(A)$ not divisible by $p$ is\n$ \\boxed{p^3 - p^2}. $\n\nThe expression $p^3 - p^2$ matches Option D.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$2 p^2$",
+      "$p^3-5 p$",
+      "$p^3-3 p$",
+      "$p^3-p^2$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_023",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of matrices in A is",
+    "solution": "Here,\n\nMatrix [A]$_{3 × 3}$ is symmetric\n\nHere, 5 be the number of 1’s and 4 be the 0’s\nentry in matrix A\n\nLet x be the number of 1’s on main diagonal.\n\nSince A is symmetric so, y be the number of 1’s\nbelow the main diagonal\n\nSo , x + 2y = 5\n\nx = 1 and y = 2\n\nor x = 3 and y = 1\n\n**Case I :** x = 1 and y = 2\n\nHere, Main diagonal entries in 0, 0 and 1. Hence,\nwe can choose main diagonal in 3 ways, and element above the diagonal is 1, 1, 0 . Hence, we\ncan choose it element above the main diagonal\nin 3 ways , element of below diagonal depends\non above the main diagonal.\n\nHence, total way = 3 × 3 = 9\n\n**Case II :** x = 3 and y = 1\n\nHere, Main diagonal entries in 1, 1 and 1.\n\nHence, we can choose main diagonal 1 ways\nand element above the diagonal is 1, 0, 0.\nHence, we can choose it element above the\nmain diagonal in 3 ways, element of below\ndiagonal depends on above the main diagonal.\n\nHence, total ways = 3 × 4 = 12\n\nSo, Total matrices = 9 + 3 = 12",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "12",
+      "6",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_024",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of matrices A in A for which the system of linear equations $$A\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$ has a unique solution, is",
+    "solution": "We have\n$$\\left[ {\\matrix{\n0 & a & b \\cr\na & 0 & c \\cr\nb & c & 1 \\cr\n\n} } \\right]$$\nWe can see that either $$b = 0$$ or $$c = 0 \\Rightarrow |A|\ne 0$$; therefore two matrices.\n$$\\left[ {\\matrix{\n0 & a & b \\cr\na & 1 & c \\cr\nb & c & 0 \\cr\n\n} } \\right]$$\nNow, either $$a = 0$$ or $$c = 0 \\Rightarrow |A|\ne 0$$; therefore, two matrices\n$$\\left[ {\\matrix{\n1 & a & b \\cr\na & 0 & c \\cr\nb & c & 0 \\cr\n\n} } \\right]$$\nNow, either $$a = 0$$ or $$b = 0 \\Rightarrow |A|\ne 0$$; therefore two matrices.\n$$\\left[ {\\matrix{\n1 & a & b \\cr\na & 1 & c \\cr\nb & c & 1 \\cr\n\n} } \\right]$$\nWhen $$a = b = 0 \\Rightarrow |A| = 0$$\nWhen $$a = c = 0 \\Rightarrow |A| = 0$$\nWhen $$b = c = 0 \\Rightarrow |A| = 0$$\nTherefore, there are only six matrices.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "less than 4",
+      "at least 4 but less than 7",
+      "at least 7 but less than 10",
+      "at least 10"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_025",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of matrices A in A for which the system of linear equations $$A\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$ is inconsistent, is",
+    "solution": "The six matrices A for which $$|A| = 0$$ are as follows:\n$$\\left[ {\\matrix{\n0 & 0 & 1 \\cr\n0 & 0 & 1 \\cr\n1 & 1 & 1 \\cr\n\n} } \\right] \\Rightarrow $$ inconsistent.\n$$\\left[ {\\matrix{\n0 & 1 & 0 \\cr\n1 & 1 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right] \\Rightarrow $$ inconsistent.\n$$\\left[ {\\matrix{\n1 & 1 & 1 \\cr\n1 & 0 & 0 \\cr\n1 & 0 & 0 \\cr\n\n} } \\right] \\Rightarrow $$ infinite solutions.\n$$\\left[ {\\matrix{\n1 & 1 & 0 \\cr\n1 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right] \\Rightarrow $$ inconsistent.\n$$\\left[ {\\matrix{\n1 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n1 & 0 & 1 \\cr\n\n} } \\right] \\Rightarrow $$ inconsistent.\n$$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 1 \\cr\n0 & 1 & 1 \\cr\n\n} } \\right] \\Rightarrow $$ infinite solutions.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0",
+      "more than 2",
+      "2",
+      "1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgulq0uj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_026",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the system of equations:\n$$x-2y+3z=-1-x+y-2z=kx-3y+4z=1$$\nStatement - 1 : The system of equations has no solution for $$k\ne3$$.\nand\nStatement - 2 : The determinant $$\\left| {\\matrix{\n1 & 3 & { - 1} \\cr\n{ - 1} & { - 2} & k \\cr\n1 & 4 & 1 \\cr\n\n} } \\right|\ne 0$$, for $$k\ne 3$$.",
+    "solution": "The given equations are\n$$x - 2y + 3z = - 1 - x + y - 2z = kx - 3y + 4z = 1D = \\left| {\\matrix{\n1 & { - 2} & 3 \\cr\n{ - 1} & 1 & { - 2} \\cr\n1 & { - 3} & 4 \\cr\n\n} } \\right| = 0D = \\left| {\\matrix{\n1 & { - 1} & 3 \\cr\n{ - 1} & k & { - 2} \\cr\n1 & 1 & 4 \\cr\n\n} } \\right| = k - 3\ne 0$$\nIf $$k\ne 3$$, the system has no solutions.\nHence, Statement - 1 is True Statement - 2 is correct explanation for Statement - 1.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is NOT a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is False",
+      "Statement - 1 is False, Statement - 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgulq0uj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_027",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$|U|$$ is :",
+    "solution": "$$\\begin{aligned}\n& A=\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n2 & 1 & 0 \\\\\n3 & 2 & 1\n\\end{array}\\right] \\\\\n& \\text { Let, } \\quad \\mathrm{U}_{1}=\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right] \\\\\n& \\mathrm{AU}_{1}=\\left[\\begin{array}{l}\n1 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n& \\Rightarrow\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n2 & 1 & 0 \\\\\n3 & 2 & 1\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=\\left[\\begin{array}{l}\n1 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad\\left[\\begin{array}{c}\nx \\\\\n2 x+y \\\\\n3 x+2 y+z\n\\end{array}\\right]=\\left[\\begin{array}{l}\n1 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad x=1,2 x+y=0,3 x+2 y+z=0 \\\\\n& y=-2,3-4+z=0 \\\\\n& z=1 \\text {. } \\\\\n& \\mathrm{U}_{1}=\\left[\\begin{array}{c}\n1 \\\\\n-2 \\\\\n1\n\\end{array}\\right]\n\\end{aligned}\\begin{aligned}\n\\text { Similarly } U_{2} & =\\left[\\begin{array}{c}\n2 \\\\\n-1 \\\\\n-4\n\\end{array}\\right] U_{3}=\\left[\\begin{array}{c}\n2 \\\\\n-1 \\\\\n-3\n\\end{array}\\right] \\\\\n\\therefore \\quad U & =\\left[\\begin{array}{ccc}\n1 & 2 & 2 \\\\\n-2 & -1 & -1 \\\\\n1 & -4 & -3\n\\end{array}\\right] \\\\\n|U| & =1(3-4)-2 \\times 7+2 \\times 5 \\\\\n& =-15+18=3\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "3",
+      "$$-3$$",
+      "$$3 / 2$$",
+      "2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgulq0uj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_028",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The sum of the elements of $\\mathrm{U}^{-1}$ is:",
+    "solution": "$$ \\mathrm{U}^{-1} \\text { can be calculated by following shortcut } $$\n\n[Diagram]\n$$ \\begin{aligned} &\\mathrm{U}^{-1}=\\frac{1}{3}\\left[\\begin{array}{ccc} -1 & -2 & 0 \\\\ -7 & -5 & -3 \\\\ 9 & 6 & 3 \\end{array}\\right]\\\\ &\\text { Sum of elements of } \\mathrm{U}^{-1}=0 \\end{aligned} $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgulq0uj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_029",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $\\left[\\begin{array}{lll}3 & 2 & 0\\end{array}\\right] U\\left[\\begin{array}{l}3 \\\\ 2 \\\\ 0\\end{array}\\right]$ is :",
+    "solution": "$$ \\begin{aligned} \\text { Solution } & =\\left[\\begin{array}{lll} 3 & 2 & 0 \\end{array}\\right] \\cup\\left[\\begin{array}{l} 3 \\\\ 2 \\\\ 0 \\end{array}\\right] \\\\ & =\\left[\\begin{array}{lll} 3 & 2 & 0 \\end{array}\\right]\\left[\\begin{array}{ccc} 1 & 2 & 2 \\\\ -2 & -1 & -1 \\\\ 1 & -4 & -3 \\end{array}\\right]\\left[\\begin{array}{l} 3 \\\\ 2 \\\\ 0 \\end{array}\\right] \\\\ & =\\left[\\begin{array}{lll} -1 & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{l} 3 \\\\ 2 \\\\ 0 \\end{array}\\right]=-3+8=5 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "5",
+      "$5 / 2$",
+      "4",
+      "$3 / 2$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_030",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $I=\\left(\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right)$ and $P=\\left(\\begin{array}{ll}2 & 0 \\\\ 0 & 3\\end{array}\\right)$. Let $Q=\\left(\\begin{array}{ll}x & y \\\\ z & 4\\end{array}\\right)$ for some non-zero real numbers $x, y$, and $z$, for which there is a $2 \\times 2$ matrix $R$ with all entries being non-zero real numbers, such that $Q R=R P$.\nThen which of the following statements is (are) TRUE?",
+    "solution": "Let us consider the matrices given:\n\n$ I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} $\n$ P = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix} $\n$ Q = \\begin{pmatrix} x & y \\\\ z & 4 \\end{pmatrix} $\n$ R = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} $\n\nwhere $ x, y, z, a, b, c, d $ are non-zero real numbers. We aim to verify properties of matrix $ Q $ given the relation $ Q R = R P $.\nSteps and Calculations\n\nMatrix Equation Analysis:\nGiven $ Q R = R P $, we equate both sides:\n$ \\begin{pmatrix} a x + c y & b x + d y \\\\ a z + 4c & b z + 4d \\end{pmatrix} = \\begin{pmatrix} 2a & 3b \\\\ 2c & 3d \\end{pmatrix} $\nFrom the matrix equality, we derive the following key equations:\n\n$ a x + c y = 2a $\n$ b x + d y = 3b $\n$ a z + 4c = 2c $\n$ b z + 4d = 3d $\n\nDeterminant Condition:\nComparing the equations:\n\nSet $ a z = -2c $ and $ b z = -d $, resulting in $ \\frac{a}{b} = \\frac{2c}{d} $.\nThe requirement $ |R|\neq 0 $ implies $ |P| = |Q| $. So, equating determinants gives us:\n$ |P| = |Q| \\Rightarrow 6 = 4x - yz \\quad \\text{(Equation 1)} $\n\nCondition for Non-Trivial Solutions:\nFrom:\n\n$ a(x - z) + c y = 0 $\n$ a z + 2c = 0 $\nimplies a non-trivial solution matrix must have:\n$ \\left|\\begin{array}{cc} x-2 & y \\\\ z & 2 \\end{array}\\right| = 0 \\Rightarrow 2x - yz = 4 \\quad \\text{(Equation 2)} $\n\nSolve for $ x $, $ yz $:\nSolving Equations 1 and 2:\n\n$ 4x - yz = 6 $\n$ 2x - yz = 4 $\nSubtract the second from the first:\n$ (4x - yz) - (2x - yz) = 6 - 4 \\Rightarrow 2x = 2 \\Rightarrow x = 1 $\nPlugging $ x = 1 $ back, we find:\n$ 4(1) - yz = 6 \\Rightarrow 4 - yz = 6 \\Rightarrow yz = -2 $\n\nVerify Determinants:\n\nFor $ Q - 2I $:\n$ |Q - 2I| = \\left|\\begin{array}{cc} x-2 & y \\\\ z & 2 \\end{array}\\right| = 2x - yz = 0 $\nFor $ Q - 6I $:\n$ |Q - 6I| = \\left|\\begin{array}{cc} x-6 & y \\\\ z & -2 \\end{array}\\right| = -2x + 12 - yz = 12 $\nFor $ Q - 3I $:\n$ |Q - 3I| = \\left|\\begin{array}{cc} x-3 & y \\\\ z & 1 \\end{array}\\right| = x - 3 - yz = 0 $\nTherefore, using the derived values, the statements for the determinants align correctly. The findings are:\n\n$ |Q - 2I| = 0 $\n$ |Q - 6I| = 12 $\n$ yz = -2 $\n\nThese calculations validate the conditions for matrix $ Q $ concerning the predefined matrix properties.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The determinant of $Q - 2I$ is zero",
+      "The determinant of $Q - 6I$ is 12",
+      "The determinant of $Q - 3I$ is 15",
+      "$yz = 2$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_031",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\mathbb{R}^2$ denote $\\mathbb{R} \\times \\mathbb{R}$. Let\n\n$$ S=\\left\\{(a, b, c): a, b, c \\in \\mathbb{R} \\text { and } a x^2+2 b x y+c y^2>0 \\text { for all }(x, y) \\in \\mathbb{R}^2-\\{(0,0)\\}\\right\\} . $$\n\nThen which of the following statements is (are) TRUE?",
+    "solution": "$$\\begin{aligned}\n\\text{(A)}\\quad & \\mathrm{ax}^2+2 \\mathrm{bxy}+\\mathrm{cy}^2>0 \\forall(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R}^2-\\{(0,0)\\} \\\\\n& \\Rightarrow \\mathrm{ax}+2 \\mathrm{bxy}+\\mathrm{cy}^2 \\text { must represent pair of imaginary lines and } \\mathrm{a}, \\mathrm{c}>0 . \\\\\n& \\Rightarrow \\mathrm{b}^2<\\mathrm{ac}\n\\end{aligned}\\mathrm{(B)}\\quad\\mathrm{b}^2<3 \\times \\frac{1}{12} \\Rightarrow|2 \\mathrm{~b}|<1\\mathrm{(C)}\\quad$$ since $$\\mathrm{b}^2\neq \\mathrm{ac}\\Rightarrow \\mathrm{ax}+\\mathrm{by}=1 \\text { and } \\mathrm{bx}+\\mathrm{cy}=-1$$\nare not parallel lines.\n$$\\mathrm{(D)}\\quad\\mathrm{ac}+\\mathrm{a}+\\mathrm{c}>\\mathrm{b}^2 \\Rightarrow$$ lines are not parallel.\n$$\\Rightarrow$$ Options (B), (C), (D) are Correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$\\left(2, \\frac{7}{2}, 6\\right) \\in S$",
+      "If $\\left(3, b, \\frac{1}{12}\\right) \\in S$, then $|2 b|<1$.",
+      "For any given $(a, b, c) \\in S$, the system of linear equations\n\n$$ \\begin{aligned} & a x+b y=1 \\\\ & b x+c y=-1 \\end{aligned} $$\n\nhas a unique solution.",
+      "For any given $(a, b, c) \\in S$, the system of linear equations\n\n$$ \\begin{aligned} & (a+1) x+b y=0 \\\\ & b x+(c+1) y=0 \\end{aligned} $$\n\nhas a unique solution."
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_032",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $M=\\left(a_{i j}\\right), i, j \\in\\{1,2,3\\}$, be the $3 \\times 3$ matrix such that $a_{i j}=1$ if $j+1$ is divisible by $i$, otherwise $a_{i j}=0$. Then which of the following statements is(are) true?",
+    "solution": "$M=\\left[\\begin{array}{lll}a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33}\\end{array}\\right]=\\left[\\begin{array}{ccc}1 & 1 & 1 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0\\end{array}\\right]$\n\n$|M|=-1+1=0 \\Rightarrow M$ is singular so non-invertible $$ \\Rightarrow $$ [A] is wrong.\n\n(B) $M\\left[\\begin{array}{l}a_1 \\\\ a_2 \\\\ a_3\\end{array}\\right]=\\left[\\begin{array}{l}-a_1 \\\\ -a_2 \\\\ -a_3\\end{array}\\right] \\Rightarrow\\left[\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0\\end{array}\\right]\\left[\\begin{array}{l}a_1 \\\\ a_2 \\\\ a_3\\end{array}\\right]=\\left[\\begin{array}{l}-a_1 \\\\ -a_2 \\\\ -a_3\\end{array}\\right]$\n\n$$\n\\left.\\begin{array}{l}\na_1+a_2+a_3=-a_1 \\\\\na_1+a_3=-a_2 \\\\\na_2=-a_3\n\\end{array}\\right\\} \\Rightarrow a_1=0 \\text { and } a_2+a_3=0 \\text { infinite solutions exists [B] is correct. }\n$$\n\nOption (D) :\n\n$$\n\\begin{aligned}\n& M-2 I=\\left[\\begin{array}{lll}\n1 & 1 & 1 \\\\\n1 & 0 & 1 \\\\\n0 & 1 & 0\n\\end{array}\\right]-2\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right]=\\left[\\begin{array}{ccc}\n-1 & 1 & 1 \\\\\n1 & -2 & 1 \\\\\n0 & 1 & -2\n\\end{array}\\right] \\\\\\\\\n& |M-2 I|=0 \\Rightarrow[D] \\text { is wrong }\n\\end{aligned}\n$$\n\nOption (C) :\n\n$$\n\\begin{aligned}\n& \\mathrm{MX}=0 \\Rightarrow\\left[\\begin{array}{lll}\n1 & 1 & 1 \\\\\n1 & 0 & 1 \\\\\n0 & 1 & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=\\left[\\begin{array}{l}\n0 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\\\\\n& x+y+z=0 \\\\\\\\\n& x+z=0 \\\\\\\\\n& y=0 \\\\\\\\\n& \\therefore \\text { Infinite solution }\n\\end{aligned}\n$$\n\n$[\\mathrm{C}]$ is correct",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$M$ is invertible",
+      "There exists a nonzero column matrix $\\left(\\begin{array}{l}a_1 \\\\ a_2 \\\\ a_3\\end{array}\\right)$ such that $M\\left(\\begin{array}{l}a_1 \\\\ a_2 \\\\ a_3\\end{array}\\right)=\\left(\\begin{array}{l}-a_1 \\\\ -a_2 \\\\ -a_3\\end{array}\\right)$",
+      "The set $\\left\\{X \\in \\mathbb{R}^3: M X=\\mathbf{0}\\right\\}\neq\\{\\mathbf{0}\\}$, where $\\mathbf{0}=\\left(\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right)$",
+      "The matrix $(M-2 I)$ is invertible, where $I$ is the $3 \\times 3$ identity matrix"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_033",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any 3 $$\\times$$ 3 matrix M, let | M | denote the determinant of M. Let\n\n$$E = \\left[ {\\matrix{\n1 & 2 & 3 \\cr\n2 & 3 & 4 \\cr\n8 & {13} & {18} \\cr\n\n} } \\right]$$, $$P = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right]$$ and $$F = \\left[ {\\matrix{\n1 & 3 & 2 \\cr\n8 & {18} & {13} \\cr\n2 & 4 & 3 \\cr\n\n} } \\right]$$\n\nIf Q is a nonsingular matrix of order 3 $$\\times$$ 3, then which of the following statements is(are) TRUE?",
+    "solution": "For option (a)\n\n$$PEP = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 2 & 3 \\cr\n2 & 3 & 4 \\cr\n8 & {13} & {18} \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 2 & 3 \\cr\n8 & {13} & {18} \\cr\n2 & 3 & 4 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 3 & 2 \\cr\n8 & {18} & {13} \\cr\n2 & 4 & 3 \\cr\n\n} } \\right] = F$$\n\nand $${P^2} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right]$$\n\nHence, option (a) is correct.\n\nFor option (b)\n\n$$\\left| {EQ + PF{Q^{ - 1}}} \\right| = \\left| {EQ} \\right| + \\left| {PF{Q^{ - 1}}} \\right|$$ .... (i)\n\n$$\\because$$ | E | = 0 and | F | = 0 and | Q | $$\ne$$ 0\n\n$$\\therefore\\left| {EQ} \\right| = \\left| E \\right|\\left| Q \\right| = 0$$\n\nand $$\\left| {PF{Q^{ - 1}}} \\right| = {{\\left| P \\right|\\left| F \\right|} \\over {\\left| Q \\right|}} = 0$$\n\nLet $$R = EQ + PF{Q^{ - 1}}$$ .... (ii)\n\n$$ \\Rightarrow RQ = E{Q^2} + PF = E{Q^2} + {P^2}EP = E{Q^2} + EP$$ [$$\\because$$ P$^{2}$ = I]\n\n$$ = E({Q^2} + P) \\Rightarrow \\left| {RQ} \\right| = \\left| {E({Q^2} + P)} \\right| \\Rightarrow \\left| R \\right|\\left| Q \\right| = \\left| E \\right|\\left| {{Q^2} + P} \\right| = 0$$ [$$\\because$$ | E | = O]\n\n$$ \\Rightarrow \\left| R \\right| = 0$$ (as $$\\left| Q \\right|\ne 0$$) ..... (iii)\n\nFrom Eqs. (ii) and (iii), we get Eq. (i) is true.\n\nHence, option (b) is correct.\n\nFor option (c)\n\n$$\\left| {{{(EF)}^3}} \\right| > {\\left| {EF} \\right|^2}$$\n\ni.e. 0 > 0 which is false.\n\nFor option (d)\n\n$$\\because{P^2} = I \\Rightarrow {P^{ - 1}} = P\\therefore{P^{ - 1}}FP = PFP = PPEPP = E$$\n\nSo, $$E + {P^{ - 1}}FP = E + E = 2E \\Rightarrow Tr(E + {P^{ - 1}}FP) = Tr(2E) = 2Tr(E)$$ ..... (iv)\n\nand $${P^{ - 1}}EP + F \\Rightarrow PEP + F = 2PEP$$ [$$\\because$$ F = PEP]\n\n$$\\thereforeTr(2PEP) = 2Tr(PEP) = 2Tr(F) = 2Tr(E)$$ ..... (v)\n\nFrom Eqs. (iv) and (v) option (d) is also correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "F = PEP and $${P^2} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right]$$",
+      "| EQ + PFQ$^{$$-$$1}$ | = | EQ | + | PFQ$^{$$-$$1}$ |",
+      "| (EF)$^{3}$ | > | EF |$^{2}$",
+      "Sum of the diagonal entries of P$^{$$-$$1}$EP + F is equal to the sum of diagonal entries of E + P$^{$$-$$1}$FP"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_034",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any 3 $$\\times$$ 3 matrix M, let |M| denote the determinant of M. Let I be the 3 $$\\times$$ 3 identity matrix. Let E and F be two 3 $$\\times$$ 3 matrices such that (I $$-$$ EF) is invertible. If G = (I $$-$$ EF)$^{$$-$$1}$, then which of the following statements is (are) TRUE?",
+    "solution": "$$\\because$$ I $$-$$ EF = G$^{$$-$$1}$ $$\\Rightarrow$$ G $$-$$ GEF = I ..... (i)\n\nand G $$-$$ EFG = I ..... (ii)\n\nClearly, GEF = EFG $$\\to$$ option (c) is correct.\n\nAlso, (I $$-$$ FE) (I + FGE)\n\n= I $$-$$ FE + FGE $$-$$ FEFGE\n\n= I $$-$$ FE + FGE $$-$$ F(G $$-$$ I) E\n\n= I $$-$$ FE + FGE $$-$$ FGE + FE\n\n= I $$\\to$$ option (b) is correct but option (d) is incorrect.\n\n$$\\because$$ (I $$-$$ FE) (I $$-$$ FGE) = I $$-$$ FE $$-$$ FGE + F(G $$-$$ I) E\n\n= I $$-$$ 2FE\n\nNow, (I $$-$$ FE) ($$-$$ FGE) = $$-$$ FE\n\n$$\\Rightarrow$$ | I $$-$$ FE | | FGE | = | FE |\n\n$$\\to$$ option (a) is correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "| FE | = | I $$-$$ FE| | FGE |",
+      "(I $$-$$ FE)(I + FGE) = I",
+      "EFG = GEF",
+      "(I $$-$$ FE)(I $$-$$ FGE) = I"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_035",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let M be a 3 $$ \\times $$ 3 invertible matrix with real entries and let I denote the 3 $$ \\times $$ 3 identity matrix. If M$^{$$-$$1}$ = adj(adj M), then which of the following statements is/are ALWAYS TRUE?",
+    "solution": "It is given that matrix M be a 3 $$ \\times $$ 3 invertible matrix, such that\n\nM$^{$$-$$1}$ = adj(adj M) $$ \\Rightarrow $$ M$^{$$-$$1}$ = |M| M\n\n($$ \\because $$ for a matrix A of order 'n' adj(adjA) = |A|$^{n$$-$$2}$ A}\n\n$$ \\Rightarrow $$ M$^{$$-$$1}$ M = |M|M$^{2}$ $$ \\Rightarrow $$ M$^{2}$|M| = I .....(i)\n\n$$ \\because $$ det(M$^{2}$ |M|) = det(I) = 1\n\n$$ \\Rightarrow $$ |M|$^{3}$|M|$^{2}$ = 1 $$ \\Rightarrow $$ |M| = 1 .....(ii)\n\nfrom Eqs. (i) and (ii), we get\n\nM$^{2}$ = I\n\nAs, adj M = |M|M$^{$$-$$1}$ = M\n\n$$ \\Rightarrow $$ (adj M)$^{2}$ = M$^{2}$ (adj M)$^{2}$ = I",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "M = I",
+      "det M = 1",
+      "M$^{2}$ = I",
+      "(adj M)$^{2}$ = I"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_036",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let x $$ \\in $$ R and let $$P = \\left[ {\\matrix{\n1 & 1 & 1 \\cr\n0 & 2 & 2 \\cr\n0 & 0 & 3 \\cr\n\n} } \\right]$$, $$Q = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right]$$ and R = PQP$^{$$-$$1}$, which of the following options is/are correct?",
+    "solution": "It is given, that matrices\n\n$$P = \\left[ {\\matrix{\n1 & 1 & 1 \\cr\n0 & 2 & 2 \\cr\n0 & 0 & 3 \\cr\n\n} } \\right]$$, $$Q = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right] \\therefore {P^{ - 1}} = {{adj(P)} \\over {|P|}}$$\n\nas |P| = 6 and adj P = $${\\left[ {\\matrix{\n6 & 0 & 0 \\cr\n{ - 3} & 3 & 0 \\cr\n0 & { - 2} & 2 \\cr\n\n} } \\right]^T} \\Rightarrow {P^{ - 1}} = {1 \\over 6}\\left[ {\\matrix{\n6 & { - 3} & 0 \\cr\n0 & 3 & { - 2} \\cr\n0 & 0 & 2 \\cr\n\n} } \\right] \\therefore $$ |R| = |PQP$^{$$-$$1}$| [$$ \\because $$ R = PQP$^{$$-$$1}$ (given)]\n\n$$ \\Rightarrow $$ |R| = |P||Q||P$^{$$-$$1}$| = |Q| [$$ \\because $$ |P| |P$^{$$-$$1}$| = |I| = 1]\n\n$$ = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 5 \\cr\n\n} } \\right] + \\left[ {\\matrix{\n2 & x & 0 \\cr\n0 & 4 & 0 \\cr\nx & x & 1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 5 \\cr\n\n} } \\right] + 2(4 - 0) - x(0 - 0) + 0(0 - 4x) = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 5 \\cr\n\n} } \\right] + 8$$, for all x $$ \\in $$ R\n\n$$ \\because PQ = \\left[ {\\matrix{\n1 & 1 & 1 \\cr\n0 & 2 & 2 \\cr\n0 & 0 & 3 \\cr\n\n} } \\right]\\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{2 + x} & {4 + 2x} & {x + 6} \\cr\n{2x} & {2x + 8} & {12} \\cr\n{3x} & {3x} & {18} \\cr\n\n} } \\right]$$\n\nand $$QP = \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & 1 & 1 \\cr\n0 & 2 & 2 \\cr\n0 & 0 & 3 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n2 & {2 + 2x} & {2 + 5x} \\cr\n0 & 8 & 8 \\cr\nx & {3x} & {3x + 18} \\cr\n\n} } \\right]$$\n\nThere is no common value of 'x', for which each corresponding element of matrices PQ and QP is equal.\n\nFor x = 0, $$Q = \\left[ {\\matrix{\n2 & 0 & 0 \\cr\n0 & 4 & 0 \\cr\n0 & 0 & 6 \\cr\n\n} } \\right]$$\n\nthen, if $$R\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 6\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] \\Rightarrow PQ{P^{ - 1}}\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 6\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right]$$ [$$ \\because $$ R = PQP$^{$$-$$1}$]\n\n$$ \\Rightarrow {1 \\over 6}\\left[ {\\matrix{\n1 & 1 & 1 \\cr\n0 & 2 & 2 \\cr\n0 & 0 & 3 \\cr\n\n} } \\right]\\left[ {\\matrix{\n2 & 0 & 0 \\cr\n0 & 4 & 0 \\cr\n0 & 0 & 6 \\cr\n\n} } \\right]\\left[ {\\matrix{\n6 & { - 3} & 0 \\cr\n0 & 3 & { - 2} \\cr\n0 & 0 & 2 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 6\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] \\Rightarrow {1 \\over 6}\\left[ {\\matrix{\n2 & 4 & 6 \\cr\n0 & 8 & {12} \\cr\n0 & 0 & {18} \\cr\n\n} } \\right]\\left[ {\\matrix{\n6 & { - 3} & 0 \\cr\n0 & 3 & { - 2} \\cr\n0 & 0 & 2 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 6\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] \\Rightarrow \\left[ {\\matrix{\n{12} & 6 & 4 \\cr\n0 & {24} & 8 \\cr\n0 & 0 & {36} \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 36\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] \\Rightarrow \\left[ {\\matrix{\n{12} & + & {6a} & + & {4b} \\cr\n0 & + & {24a} & + & {8b} \\cr\n0 & + & 0 & + & {36b} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{36} \\cr\n{36a} \\cr\n{36b} \\cr\n\n} } \\right] \\Rightarrow 6a + 4b = 24$$ and $$12a = 8b \\Rightarrow 3a + 2b = 12$$ and $$3a = 2b \\Rightarrow a = 2$$ and $$b = 3$$\n\nSo, a + b = 5.\n\nNow, $$R\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$\n\nand $$\\alpha \\widehat i + \\beta \\widehat j + \\gamma \\widehat k$$ is a unit vector,\n\nso det (R) = 0\n\n$$ \\Rightarrow $$ det (Q) = 0 [$$ \\because $$ R = PQP$^{$$-$$1}$ So, |R| = |Q|]\n\n$$ \\Rightarrow \\left| {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 6 \\cr\n\n} } \\right| = 0 \\Rightarrow 2(24 - 0) - x(0 - 0) + x(0 - 4x) = 0 \\Rightarrow 48 - 4{x^2} = 0 \\Rightarrow {x^2} = 12 \\Rightarrow x = \\pm 2\\sqrt 3 $$\n\nSo, for x = 1, there does not exist a unit vector $$\\alpha \\widehat i + \\beta \\widehat j + \\gamma \\widehat k$$, for which $$R\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$\n\nHence, options (b) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "There exists a real, number x such that PQ = QP",
+      "For $$x = 0$$, if $$R \\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right] = 6\\left[ {\\matrix{\n1 \\cr\na \\cr\nb \\cr\n\n} } \\right]$$, then a + b =5",
+      "For x = 1, there exists a unit vector $$\\alpha \\widehat i + \\beta \\widehat j + \\gamma \\widehat k$$ for which $$R\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right]$$",
+      "$$\\det R = \\det \\left[ {\\matrix{\n2 & x & x \\cr\n0 & 4 & 0 \\cr\nx & x & 5 \\cr\n\n} } \\right] + 8$$, for all x $$ \\in $$ R"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_037",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${P_1} = I = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right],\\,{P_2} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right],\\,{P_3} = \\left[ {\\matrix{\n0 & 1 & 0 \\cr\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right],\\,{P_4} = \\left[ {\\matrix{\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n1 & 0 & 0 \\cr\n\n} } \\right],\\,{P_5} = \\left[ {\\matrix{\n0 & 0 & 1 \\cr\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right],\\,{P_6} = \\left[ {\\matrix{\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n1 & 0 & 0 \\cr\n\n} } \\right]$$ and $$X = \\sum\\limits_{k = 1}^6 {{P_k}} \\left[ {\\matrix{\n2 & 1 & 3 \\cr\n1 & 0 & 2 \\cr\n3 & 2 & 1 \\cr\n\n} } \\right]P_k^T$$\n\nwhere $$P_k^T$$ denotes the transpose of the matrix P$_{k}$. Then which of the following option is/are correct?",
+    "solution": "$${P_1} = I = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right],\\,{P_2} = \\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right],\\,{P_3} = \\left[ {\\matrix{\n0 & 1 & 0 \\cr\n1 & 0 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right],\\,{P_4} = \\left[ {\\matrix{\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n1 & 0 & 0 \\cr\n\n} } \\right],\\,{P_5} = \\left[ {\\matrix{\n0 & 0 & 1 \\cr\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n\n} } \\right],\\,{P_6} = \\left[ {\\matrix{\n0 & 0 & 1 \\cr\n0 & 1 & 0 \\cr\n1 & 0 & 0 \\cr\n\n} } \\right]$$ and $$X = \\sum\\limits_{k = 1}^6 {{P_k}} \\left[ {\\matrix{\n2 & 1 & 3 \\cr\n1 & 0 & 2 \\cr\n3 & 2 & 1 \\cr\n\n} } \\right]P_k^T \\because P_1^T = {P_1},\\,P_2^T = {P_2},\\,P_3^T = {P_3},\\,P_4^T = {P_5},\\,P_5^T = {P_4}$$ and $$P_6^T = {P_6}$$\n\nand Let $$Q = \\left[ {\\matrix{\n2 & 1 & 3 \\cr\n1 & 0 & 2 \\cr\n3 & 2 & 1 \\cr\n\n} } \\right]$$\n\nand $$ \\because $$ Q$^{T}$ = Q\n\nNow,\n\n$$X = ({P_1}QP_1^T) + ({P_2}QP_2^T) + ({P_3}QP_3^T) + ({P_4}QP_4^T) + ({P_5}QP_5^T) + ({P_6}QP_6^T)$$\n\nSo, $${X^T} = {({P_1}QP_1^T)^T} + {({P_2}QP_2^T)^T} + {({P_3}QP_3^T)^T} + {({P_4}QP_4^T)^T} + {({P_5}QP_5^T)^T} + {({P_6}QP_6^T)^T}$$\n\n= $${P_1}QP_1^T$$ + $${P_2}QP_2^T$$ + $${P_3}QP_3^T$$ + $${P_4}QP_4^T$$ + $${P_5}QP_5^T$$ + $${P_6}QP_6^T$$\n\n[$$ \\because $$ (ABC)$^{T}$ = C$^{T}$B$^{T}$A$^{T}$ and (A$^{T}$)$^{T}$ = A and Q$^{T}$ = Q]\n\n$$ \\Rightarrow $$ X$^{T}$ = X\n\n$$ \\Rightarrow $$ X is a symmetric matrix.\n\nThe sum of diagonal entries of X = Tr(X)\n\n$$ = \\sum\\limits_{i = 1}^6 {{T_r}({P_i}QP_i^T) = \\sum\\limits_{i = 1}^6 {{T_r}(QP_i^T{P_i})} } $$ [$$ \\because $$ T$_{r}$(ABC) = T$_{r}$(BCA)]\n\n$$ = \\sum\\limits_{i = 1}^6 {{T_r}(QI)} $$\n\n[$$ \\because $$ P$_{i}$'s are orthogonal matrices]\n\n$$ = \\sum\\limits_{i = 1}^6 {{T_r}(Q) = 6{T_r}(Q) = 6 \\times 3 = 18} $$\n\nNow, Let $$R = \\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right]$$, then\n\n$$XR = \\sum\\limits_{K = 1}^6 {({P_K}} QP_K^T)R = \\sum\\limits_{K = 1}^6 {({P_K}QP_K^TR)} = \\sum\\limits_{K = 1}^6 {({P_K}QR)} $$ [$$ \\because P_K^T$$R = R]\n\n$$ = \\sum\\limits_{K = 1}^6 {{P_K}\\left[ {\\matrix{\n6 \\cr\n3 \\cr\n6 \\cr\n\n} } \\right]} = \\sum\\limits_{K = 1}^6 {{P_K}\\left[ {\\matrix{\n6 \\cr\n3 \\cr\n6 \\cr\n\n} } \\right]} = \\left[ {\\matrix{\n2 & 2 & 2 \\cr\n2 & 2 & 2 \\cr\n2 & 2 & 2 \\cr\n\n} } \\right]\\left[ {\\matrix{\n6 \\cr\n3 \\cr\n6 \\cr\n\n} } \\right] \\Rightarrow XR = \\left[ {\\matrix{\n{30} \\cr\n{30} \\cr\n{30} \\cr\n\n} } \\right] \\Rightarrow XR = 30R \\Rightarrow X\\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right] = 30\\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right] \\Rightarrow $$ (X $$-$$ 30I) R = 0 $$ \\Rightarrow $$ |X $$-$$ 30I| = 0\n\nSo, (X $$-$$ 30I) is not invertible and value of $$\\alpha $$ = 30.\n\nHence, options (a), (b) and (d) are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "X is a symmetric matrix",
+      "The sum of diagonal entries of X is 18",
+      "X $$-$$ 30I is an invertible matrix",
+      "If $$X\\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right] = \\alpha \\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right]$$, then $$\\alpha = 30$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_038",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$M = \\left[ {\\matrix{\n0 & 1 & a \\cr\n1 & 2 & 3 \\cr\n3 & b & 1 \\cr\n\n} } \\right]$$ and\n\nadj $$M = \\left[ {\\matrix{\n{ - 1} & 1 & { - 1} \\cr\n8 & { - 6} & 2 \\cr\n{ - 5} & 3 & { - 1} \\cr\n\n} } \\right]$$\n\nwhere a and b are real numbers. Which of the following options is/are correct?",
+    "solution": "Given square matrix\n\n$$M = \\left[ {\\matrix{\n0 & 1 & a \\cr\n1 & 2 & 3 \\cr\n3 & b & 1 \\cr\n\n} } \\right]$$\n\nand adj $$(M) = \\left[ {\\matrix{\n{ - 1} & 1 & { - 1} \\cr\n8 & { - 6} & 2 \\cr\n{ - 5} & 3 & { - 1} \\cr\n\n} } \\right] \\because $$ |adj (M)| = |M|$^{2}$ = $$\\left[ {\\matrix{\n{ - 1} & 1 & { - 1} \\cr\n8 & { - 6} & 2 \\cr\n{ - 5} & 3 & { - 1} \\cr\n\n} } \\right] \\Rightarrow |M{|^2} = - 1(6 - 6) - 1( - 8 + 10) - 1(24 - 30) = - 2 + 6 = 4 \\Rightarrow |M| = \\pm 2 \\therefore $$ det (adj M$^{2}$) = $$|{M^2}{|^2} = |M{|^4} = 16$$\n\nAs we know A(adj A) = |A| I\n\n$$ \\Rightarrow $$ M = |M| (adj M)$^{-1}$ ....(i)\n\n$$ \\because $$ (adj M)$^{-1}$ = $${1 \\over {|adj\\,M|}}{\\left[ {\\matrix{\n0 & { - 2} & { - 6} \\cr\n{ - 2} & { - 4} & { - 2} \\cr\n{ - 4} & { - 6} & { - 2} \\cr\n\n} } \\right]^T}$$\n\n= $${1 \\over 4}\\left[ {\\matrix{\n0 & { - 2} & { - 4} \\cr\n{ - 2} & { - 4} & { - 6} \\cr\n{ - 6} & { - 2} & { - 2} \\cr\n\n} } \\right]$$\n\nSo$$\\left[ {\\matrix{\n0 & 1 & a \\cr\n1 & 2 & 3 \\cr\n3 & b & 1 \\cr\n\n} } \\right] = {{|M|} \\over 4}\\left[ {\\matrix{\n0 & { - 2} & { - 4} \\cr\n{ - 2} & { - 4} & { - 6} \\cr\n{ - 6} & { - 2} & { - 2} \\cr\n\n} } \\right] \\Rightarrow $$ M = $$\\left[ {\\matrix{\n0 & 1 & 2 \\cr\n1 & 2 & 3 \\cr\n3 & 1 & 1 \\cr\n\n} } \\right]$$\n\nNow, If M$$\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n2 \\cr\n3 \\cr\n\n} } \\right] \\Rightarrow \\left[ {\\matrix{\n0 & 1 & 2 \\cr\n1 & 2 & 3 \\cr\n3 & 1 & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n2 \\cr\n3 \\cr\n\n} } \\right] \\Rightarrow \\beta $$ + 2$$\\gamma $$ = 1, $$\\alpha $$ + 2$$\\beta $$ + 3$$\\gamma $$ = 2 and 3$$\\alpha $$ + $$\\beta $$ + $$\\gamma $$ = 3\n\n$$ \\Rightarrow \\alpha $$ = 1, $$\\beta $$ = -1 and $$\\gamma $$ = 1\n\n$$ \\therefore \\alpha $$ - $$\\beta $$ + $$\\gamma $$ = 3\n\nAnd $${(adj\\,M)^{ - 1}} + adj\\,({M^{ - 1}}) = 2{(adj\\,M)^{ - 1}}$$\n\n[$$ \\because $$ adj (M$^{-1}$) = (adj M)$^{-1}$]\n\n= $$2\\left( { - {M \\over 2}} \\right) = - M$$\n\n[$$ \\because $$ (adj M)-$^{1}$ = $${M \\over {|M|}}$$ from Eq. (i) ]\n\nand $$ \\because $$ a = 2 and b = 1, so a + b = 3\n\nHence, options (b), (c) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "det(adj M$^{2}$) = 81",
+      "If $$M\\left[ {\\matrix{\n\\alpha \\cr\n\\beta \\cr\n\\gamma \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n2 \\cr\n3 \\cr\n\n} } \\right]$$, then $$\\alpha - \\beta + \\gamma = 3$$",
+      "$${(adj\\,M)^{ - 1}} + adj\\,{M^{ - 1}} = - M$$",
+      "a + b = 3"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_039",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let S be the set of all column matrices $$\\left[ {\\matrix{\n{{b_1}} \\cr\n{{b_2}} \\cr\n{{b_3}} \\cr\n\n} } \\right]$$ such that $${b_1},{b_2},{b_3} \\in R$$ and the system of equations (in real variables)\n\n$$\\eqalign{\n& - x + 2y + 5z = {b_1} \\cr\n& 2x - 4y + 3z = {b_2} \\cr\n& x - 2y + 2z = {b_3} \\cr} $$\n\nhas at least one solution. Then, which of the following system(s) (in real variables) has (have) at least one solution for each $$\\left[ {\\matrix{\n{{b_1}} \\cr\n{{b_2}} \\cr\n{{b_3}} \\cr\n\n} } \\right] \\in $$S?",
+    "solution": "We have,\n\n$$\\eqalign{\n& - x + 2y + 5z = {b_1} \\cr\n& 2x - 4y + 3z = {b_2} \\cr\n& x - 2y + 2z = {b_3} \\cr} $$\n\nhas at least one solution.\n\n$$ \\therefore D = \\left| {\\matrix{\n{ - 1} & 2 & 5 \\cr\n2 & { - 4} & 3 \\cr\n1 & { - 2} & 2 \\cr\n\n} } \\right|$$\n\nand $${D_1} = {D_2} = {D_3} = 0 \\Rightarrow {D_1} = \\left| {\\matrix{\n{{b_1}} & 2 & 5 \\cr\n{{b_2}} & { - 4} & 3 \\cr\n{{b_3}} & { - 2} & 2 \\cr\n\n} } \\right| = - 2{b_1} - 14{b_2} + 26{b_3} = 0 \\Rightarrow {b_1} + 7{b_2} = 13{b_3}$$ ....(i)\n\n(a) $$ \\Rightarrow D = \\left| {\\matrix{\n1 & 2 & 3 \\cr\n0 & 4 & 5 \\cr\n1 & 2 & 6 \\cr\n\n} } \\right| = 1(24 - 10) + 1(10 - 12) = 14 - 2 = 12\ne 0$$\n\nHere, D $$\ne $$ 0 $$ \\Rightarrow $$ unique solution for any b$_{1}$, b$_{2}$, b$_{3}$.\n\n(b) $$D = \\left| {\\matrix{\n1 & 1 & 3 \\cr\n5 & 2 & 6 \\cr\n{ - 2} & { - 1} & { - 3} \\cr\n\n} } \\right| = 1( - 6 + 6) - 1( - 15 + 12) + 3( - 5 + 4) = 0$$\n\nFor at least one solution\n\n$${D_1} = {D_2} = {D_3} = 0$$\n\nNow, $${D_1} = \\left| {\\matrix{\n{{b_1}} & 1 & 3 \\cr\n{{b_2}} & 2 & 6 \\cr\n{{b_3}} & { - 1} & { - 3} \\cr\n\n} } \\right| = {b_1}( - 6 + 6) - {b_2}( - 3 + 3) + {b_3}(6 - 6) = 0{D_2} = \\left| {\\matrix{\n1 & {{b_1}} & 3 \\cr\n5 & {{b_2}} & 6 \\cr\n{ - 2} & {{b_3}} & { - 3} \\cr\n\n} } \\right| = {b_1}( - 15 + 12) + {b_2}( - 3 + 6) - {b_3}(6 - 15) = 3{b_1} + 3{b_2} + 9{b_3} = 0 \\Rightarrow {b_1} + {b_2} + 3{b_3} = 0$$\n\nnot satisfies the Eq. (i)\n\n$$ \\therefore $$ It has no solution.\n\n(c) $$D = \\left| {\\matrix{\n{ - 1} & 2 & { - 5} \\cr\n2 & { - 4} & {10} \\cr\n1 & { - 2} & 5 \\cr\n\n} } \\right|$$\n\n= $$ - 1( - 20 + 20) - 2(10 - 10) - 5( - 4 + 4) = 0$$\n\nHere, b$_{2}$ = $$-$$2b$_{1}$ and b$_{3}$ = $$-$$b$_{1}$ satisfies the Eq. (i)\n\nPlanes are parallel.\n\n(d) $$D = \\left| {\\matrix{\n1 & 2 & 5 \\cr\n2 & 0 & 3 \\cr\n1 & 4 & { - 5} \\cr\n\n} } \\right| = 1(0 - 12) - 2( - 10 - 3) + 5(8 - 0) = 54D\ne 0 \\therefore $$ It has unique solutino for any b$_{1}$, b$_{2}$, b$_{3}$.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$x + 2y + 3z = {b_1}$$, $$\\,4y + 5z = {b_2}$$ and $$x + 2y + 6z = {b_3}$$",
+      "$$x + y + 3z = {b_1}$$, $$5x + 2y + 6z = {b_2}$$ and $$ - 2x - y - 3z = {b_3}$$",
+      "$$ - x + 2y - 5z = {b_1}$$, $$\\,2x - 4y + 10z = {b_2}$$ and $$x - 2y + 5z = {b_3}$$",
+      "$$x + 2y + 5z = {b_1}$$, $$2x + 3z = {b_2}$$ and $$x + 4y - 5z = {b_3}$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_040",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is(are) NOT the square of a 3 $$ \\times $$ 3 matrix with real entries?",
+    "solution": "For a matrix to be square of matrix with real entries, its determinant should be positive.\nOption (A) : $$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$, determinant is NOT possible:\n1($$-$$1) $$-$$ 0(0) + 0(0) = $$-$$1\nOption (B) : $$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & { - 1} & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$, determinant is possible:\n1(1) $$-$$ 0(0) + 0(0) = +1\nOption (C) : $$\\left[ {\\matrix{\n{ - 1} & 0 & 0 \\cr\n0 & { - 1} & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$, determinant is NOT possible :\n$$-$$1(1) $$-$$ 0(0) + 0(0) = $$-$$1\nOption (D) : $$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right]$$, determinant is possible:\n(1) $$-$$ 0(0) + 0(0) = +1\nThus, options (A) and (C) are NOT the square of a 3 $$\\times$$ 3 matrix with real entries.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$",
+      "$$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & { - 1} & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$",
+      "$$\\left[ {\\matrix{\n{ - 1} & 0 & 0 \\cr\n0 & { - 1} & 0 \\cr\n0 & 0 & { - 1} \\cr\n\n} } \\right]$$",
+      "$$\\left[ {\\matrix{\n1 & 0 & 0 \\cr\n0 & 1 & 0 \\cr\n0 & 0 & 1 \\cr\n\n} } \\right]$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_041",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a, $$\\lambda$$, m $$\\in$$ R. Consider the system of linear equations\nax + 2y = $$\\lambda$$\n3x $$-$$ 2y = $$\\mu$$\nWhich of the following statements is(are) correct?",
+    "solution": "The given system of linear equation is\nax + 2y = $$\\lambda$$\n3x $$-$$ 2y = $$\\mu$$\nBy Cramer's rule, we have\n$$\\Delta = \\left| {\\matrix{\na & 2 \\cr\n3 & { - 2} \\cr\n\n} } \\right| = - 2a - 6 = - 2(a + 3){\\Delta _1} = \\left| {\\matrix{\n\\lambda & 2 \\cr\n\\mu & { - 2} \\cr\n\n} } \\right| = - 2\\lambda - 2\\mu = - 2(\\lambda + \\mu ){\\Delta _2} = \\left| {\\matrix{\na & \\lambda \\cr\n3 & \\mu \\cr\n\n} } \\right| = (a\\mu - 3\\lambda )$$\nFor unique solution: $$\\Delta\ne$$ 0 $$\\Rightarrow$$ a + 3 $$\ne$$ 0 $$\\Rightarrow$$ a $$\ne-$$3, where $$\\lambda$$ and $$\\mu$$ can take any values.\nHence, option (B) is correct.\nFor infinite solution: $$\\Delta$$ = 0, $$\\Delta$$$_{1}$ and $$\\Delta$$$_{2}$ are zero.\nThat is, a = $$-$$3 and $$\\lambda$$ + $$\\mu$$ = 0 or a$$\\mu-$$ 3$$\\lambda$$ = 0.\nHence, options (C) are correct.\nFor no solution: $$\\Delta$$ = 0 and either $$\\Delta$$$_{1}$ or $$\\Delta$$$_{2}$ is non-zero.\nThat is, a = $$-$$3 and $$\\lambda$$ + $$\\mu\ne$$ 0.\nHence, option (D) is correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "If a = $$-$$3, then the system has infinitely many solutions for all values of $$\\lambda$$ and $$\\mu$$.",
+      "If a $$\ne-$$3, then the system has a unique solution for all values of $$\\lambda$$ and $$\\mu$$.",
+      "If $$\\lambda$$ + $$\\mu$$ = 0, then the system has infinitely many solutions for a = $$-$$3.",
+      "If $$\\lambda$$ + $$\\mu\ne$$ 0, then the system has no solution for a = -3."
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_042",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = \\left[ {\\matrix{\n3 & { - 1} & { - 2} \\cr\n2 & 0 & \\alpha \\cr\n3 & { - 5} & 0 \\cr\n\n} } \\right]$$, where $$\\alpha\\in$$ R. Suppose $$Q = [{q_{ij}}]$$ is a matrix such that PQ = kl, where k $$\\in$$ R, k $$\ne$$ 0 and I is the identity matrix of order 3. If $${q_{23}} = - {k \\over 8}$$ and $$\\det (Q) = {{{k^2}} \\over 2}$$, then",
+    "solution": "$$P = \\left[ {\\matrix{\n3 & { - 1} & { - 2} \\cr\n2 & 0 & \\alpha \\cr\n3 & { - 5} & 0 \\cr\n\n} } \\right]$$\nNow, $$\\left| P \\right| = 3(5\\alpha ) + 1( - 3\\alpha ) - 2( - 10) = 12\\alpha + 20$$ ....... (i)\n$$\\therefore(P) = {\\left[ {\\matrix{\n{5\\alpha } & {2\\alpha } & { - 10} \\cr\n{ - 10} & 6 & {12} \\cr\n{ - \\alpha } & { - (3\\alpha + 4)} & 2 \\cr\n\n} } \\right]^T} = \\left[ {\\matrix{\n{5\\alpha } & { - 10} & { - \\alpha } \\cr\n{2\\alpha } & 6 & { - 3\\alpha - 4} \\cr\n{ - 10} & {12} & 2 \\cr\n\n} } \\right]$$ ...... (ii)\nAs, $$PQ = kI \\Rightarrow \\left| P \\right|\\left| Q \\right| = \\left| {kI} \\right| \\Rightarrow \\left| P \\right|\\left| Q \\right| = {k^3} \\Rightarrow \\left| P \\right|\\left( {{{{k^2}} \\over 2}} \\right) = {k^3}$$ [given, $$\\left| Q \\right| = {{{k^2}} \\over 2}$$]\n$$ \\Rightarrow \\left| P \\right| = 2k$$ ......(iii)\n$$\\becausePQ = ki\\thereforeQ = k{p^{ - 1}}I = k\\,.\\,{{adj\\,P} \\over {\\left| P \\right|}} = {{k(adj\\,P)} \\over {2k}}$$ [from Eq. (iii)]\n$$ = {{adj\\,P} \\over 2} = {1 \\over 2}\\left[ {\\matrix{\n{5\\alpha } & { - 10} & { - \\alpha } \\cr\n{2\\alpha } & 6 & { - 3\\alpha - 4} \\cr\n{ - 10} & {12} & 2 \\cr\n\n} } \\right]\\therefore{q_{23}} = {{ - 3\\alpha - 4} \\over 2}$$ [given, $${q_{23}} = - {k \\over 8}$$]\n$$ \\Rightarrow - {{(3\\alpha + 4)} \\over 2} = - {k \\over 8} \\Rightarrow (3\\alpha + 4) \\times 4 = k \\Rightarrow 12\\alpha + 16 = k$$ ...... (iv)\nFrom Eq. (iii), $$\\left| P \\right| = 2k \\Rightarrow 12\\alpha + 20 = 2k$$ [from Eq. (i)] ...... (v)\nOn solving Eqs. (iv) and (v), we get\n$$\\alpha$$ = $$-$$1 and k = 4 ....... (vi)\n$$\\therefore4\\alpha - k + 8 = - 4 - 4 + 8 = 0\\therefore$$ Option (b) is correct.\nNow, $$\\left| {P\\,adj(Q)} \\right| = \\left| P \\right|\\left| {adj\\,Q} \\right| = 2k{\\left( {{{{k^2}} \\over 2}} \\right)^2} = {{{k^5}} \\over 2} = {{{2^{10}}} \\over 2} = {2^9}\\therefore$$ Option (c) is correct.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$\\alpha$$ = 0, k = 8",
+      "$$4\\alpha - k + 8 = 0$$",
+      "$$\\det (Padj(Q)) = {2^9}$$",
+      "$$\\det (Qadj(P)) = {2^{13}}$$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_043",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let X and Y be two arbitrary, 3 $$\\times$$ 3, non-zero, skew-symmetric matrices and Z be an arbitrary 3 $$\\times$$ 3, non-zero, symmetric matrix. Then which of the following matrices is(are) skew symmetric?",
+    "solution": "Given,\n$${X^T} = - X,{Y^T} = - Y,{Z^T} = Z$$\n(a) Let $$P = {Y^3}{Z^4} - {Z^4}{Y^3}$$\nThen, $${P^T} = {({Y^3}{Z^4})^T} - {({Z^4}{Y^3})^T} = {({Z^T})^4}{({Y^T})^3} - {({Y^T})^3}{({Z^T})^4} = - {Z^4}{Y^3} + {Y^3}{Z^4} = P\\therefore$$ P is symmetric matrix.\n(b) Let $$P = {X^{44}} + {Y^{44}}$$\nThen, $${P^T} = {({X^T})^{44}} + {({Y^T})^{44}} = {X^{44}} + {Y^{44}} = P\\therefore$$ P is symmetric matrix.\n(c) Let $$P = {X^4}{Z^3} - {Z^3}{X^4}$$\nThen, $${P^T} = {({X^4}{Z^3})^T} - {({Z^3}{X^4})^T} = {({Z^T})^3}{({X^T})^4} - {({X^T})^4}{({Z^T})^3} = {Z^3}{X^4} - {X^4}{Z^3} = - P\\therefore$$ P is skew-symmetric matrix.\n(d) Let $$P = {X^{23}} + {Y^{23}}$$\nThen, $${P^T} = {({X^T})^{23}} + {({Y^T})^{23}} = - {X^{23}} - {Y^{23}} = - P\\therefore$$ P is skew-symmetric matrix.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "Y$^{3}$Z$^{4}$ $$-$$ Z$^{4}$Y$^{3}$",
+      "X$^{44}$ + Y$^{44}$",
+      "X$^{4}$Z$^{3}$ $$-$$ Z$^{3}$X$^{4}$",
+      "X$^{23}$ + Y$^{23}$"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_044",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following values of $$\\alpha$$ satisfy the equation\n$$\\left| {\\matrix{\n{{{(1 - \\alpha )}^2}} & {{{(1 + 2\\alpha )}^2}} & {{{(1 + 3\\alpha )}^2}} \\cr\n{{{(2 + \\alpha )}^2}} & {{{(2 + 2\\alpha )}^2}} & {{{(2 + 3\\alpha )}^2}} \\cr\n{{{(3 + \\alpha )}^2}} & {{{(3 + 2\\alpha )}^2}} & {{{(3 + 3\\alpha )}^2}} \\cr\n\n} } \\right| = - 648\\alpha $$ ?",
+    "solution": "$$\\left| {\\matrix{\n{{{(1 - \\alpha )}^2}} & {{{(1 + 2\\alpha )}^2}} & {{{(1 + 3\\alpha )}^2}} \\cr\n{{{(2 + \\alpha )}^2}} & {{{(2 + 2\\alpha )}^2}} & {{{(2 + 3\\alpha )}^2}} \\cr\n{{{(3 + \\alpha )}^2}} & {{{(3 + 2\\alpha )}^2}} & {{{(3 + 3\\alpha )}^2}} \\cr\n\n} } \\right| = - 648\\alpha $$\nApplying $${R_3} \\to {R_3} - {R_2},{R_2} \\to {R_2},{R_1}$$, we get\n$$\\left| {\\matrix{\n{{{(1 - \\alpha )}^2}} & {{{(1 + 2\\alpha )}^2}} & {{{(1 + 3\\alpha )}^2}} \\cr\n{3 + 2\\alpha } & {3 + 4\\alpha } & {3 + 6\\alpha } \\cr\n{5 + 2\\alpha } & {5 + 4\\alpha } & {5 + 6\\alpha } \\cr\n\n} } \\right| = - 648\\alpha $$\nApplying $${R_3} \\to {R_3} - {R_2}$$, we get\n$$\\left| {\\matrix{\n{{{(1 - \\alpha )}^2}} & {{{(1 + 2\\alpha )}^2}} & {{{(1 + 3\\alpha )}^2}} \\cr\n{3 + 2\\alpha } & {3 + 4\\alpha } & {3 + 6\\alpha } \\cr\n2 & 2 & 2 \\cr\n\n} } \\right| = - 648\\alpha $$\nApplying $${C_3} \\to {C_3} - {C_2},{C_2} \\to {C_2} - {C_1}$$, we get\n$$\\left| {\\matrix{\n{{{(1 - \\alpha )}^2}} & {{{(1 + 2\\alpha )}^2}} & {{{(1 + 3\\alpha )}^2}} \\cr\n{3 + 2\\alpha } & {2\\alpha } & {2\\alpha } \\cr\n2 & 0 & 0 \\cr\n\n} } \\right| = - 648\\alpha $$\nExpanding, $$2{\\alpha ^2}(3\\alpha + 2) - 2{\\alpha ^2}(5\\alpha + 2) = - 324\\alpha \\Rightarrow - 4{\\alpha ^3} = - 324\\alpha \\Rightarrow \\alpha ({\\alpha ^2} - 81) = 0\\therefore\\alpha = 0, - 9,9$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$-$$4",
+      "9",
+      "$$-$$9",
+      "4"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_045",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let M be a 2 $$\\times$$ 2 symmetric matrix with integer entries. Then, M is invertible, if",
+    "solution": "Note : A square matrix M is invertible if det(M) or | M | $$\ne$$ 0.\n\nLet $$M = \\left[ {\\matrix{\na & b \\cr\nb & c \\cr\n\n} } \\right]$$\n\n(a) Given that $$\\left[ {\\matrix{\na \\cr\nb \\cr\n\n} } \\right] = \\left[ {\\matrix{\nb \\cr\nc \\cr\n\n} } \\right] \\Rightarrow a = b = c = \\alpha $$ (let)\n\n$$ \\Rightarrow M = \\left[ {\\matrix{\n\\alpha & \\alpha \\cr\n\\alpha & \\alpha \\cr\n\n} } \\right]\\Rightarrow$$ | M | = 0\n\n$$\\Rightarrow$$ M is non-invertible.\n\n(b) Given that [bc] = [ab]\n\n$$ \\Rightarrow a = b = c = \\alpha $$ (let)\n\nAgain | M | = 0\n\n$$\\Rightarrow$$ M is non-invertible.\n\n(c) As given $$M = \\left[ {\\matrix{\na & 0 \\cr\n0 & c \\cr\n\n} } \\right] \\Rightarrow \\left| M \\right| = ac\ne 0$$ ($$\\because$$ a and c are non-zero)\n\n$$\\Rightarrow$$ M is invertible.\n\n(d) $$M = \\left[ {\\matrix{\na & b \\cr\nb & c \\cr\n\n} } \\right] \\Rightarrow \\left| M \\right| = ac - {b^2}\ne 0\\because$$ ac is not equal to square of an integer.\n\n$$\\therefore$$ M is invertible.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "the first column of M is the transpose of the second row of M",
+      "the second row of M is the transpose of the first column of M",
+      "M is a diagonal matrix with non-zero entries in the main diagonal",
+      "the product of entries in the main diagonal of M is not the square of an integer"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_046",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let M and N be two 3 $$\\times$$ 3 matrices such that MN = NM. Further, if M $$\ne$$ N$^{2}$ and M$^{2}$ = N$^{4}$, then",
+    "solution": "Given MN = NM. Therefore, a$^{2}$ $$-$$ b$^{2}$ = (a + b) (a $$-$$ b) of algebra of numbers is applicable.\n\nNow, M$^{2}$ = N$^{4}$ $$\\Rightarrow$$ M$^{2}$ $$-$$ N$^{4}$ = 0 (Null matrix)\n\n$$\\Rightarrow$$ (M + N$^{2}$) (M $$-$$ N$^{2}$) = 0\n\nSince M $$\ne$$ N$^{2}$ (given), the possibilities are\n\n(M + N$^{2}$) = 0 and M $$-$$ N$^{2}$ $$\ne$$ 0 (1)\n\nor (M + N$^{2}$) $$\ne$$ 0 and M + N$^{2}$ $$\ne$$ 0 (2)\n\nNow, we know if A and B are non-null square matrix nd AB = 0, then A and B both are singular, that is, | A | = 0 and | B | = 0 and AB = 0.\n\nNote : For example, let A be non-singular. Therefore, B = In(2) = A$^{$$-$$1}$ AB = 0 (since AB = 0 is assumed).\n\nHence, B is singular, which is a contradiction and A has to be singular. Similarly, B also has to be singular.\n\nTherefore, from Eqs. (1) and (2), we conclude the only possibility is | M + N$^{2}$ | = 0.\n\nNow checking options :\n\n(A) | M$^{2}$ + MN$^{2}$ | = | M || M + N$^{2}$ | = 0\n\nHence, option (A) is correct.\n\n(B) (M$^{2}$ + MN$^{2}$) U = 0\n\nSince, M$^{2}$ + MN$^{2}$ is singular. Therefore, U has infinitely many possible values (non-trivial solutions). Hence, option (B) is true.\n\n(C) False since | M$^{2}$ + MN$^{2}$ | = 0.\n\n(D) Since | M$^{2}$ + MN$^{2}$ | = 0, U is not a necessarily a zero matrix.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "determinant of (M$^{2}$ + MN$^{2}$) is 0",
+      "there is a 3 $$\\times$$ 3 non-zero matrix U such that (M$^{2}$ + MN$^{2}$) U is zero matrix",
+      "determinant of (M$^{2}$ + MN$^{2}$) $$\\ge$$ 1",
+      "for a 3 $$\\times$$ 3 matrix U, if (M$^{2}$ + MN$^{2}$) U equals the zero matrix, then U is the zero matrix"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_047",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\omega$$ be a complex cube root of unity with $$\\omega\ne$$ 1 and P = [p$_{ij}$] be a n $$\\times$$ n matrix with p$_{ij}$ = $$\\omega$$$^{i + j}$. Then P$^{2}$ $$\ne$$ 0, when n = ?",
+    "solution": "The given matrix $ P = [p_{ij}] $ is an $ n \\times n $ matrix where $ p_{ij} = \\omega^{i + j} $ and $ \\omega $ is a complex cube root of unity with $\\omega\neq 1$. We need to determine when $ P^2\neq 0 $.\n\nFor $ n = 1 $:\n\n$ P = [p_{ij}]_{1 \\times 1} = [\\omega^2] $\n\n$ \\Rightarrow P^2 = [\\omega^4]\neq 0 $\n\nFor $ n = 2 $:\n\n$ P = [p_{ij}]_{2 \\times 2} = \\begin{bmatrix} \\omega^2 & \\omega^3 \\\\ \\omega^3 & \\omega^4 \\end{bmatrix} = \\begin{bmatrix} \\omega^2 & 1 \\\\ 1 & \\omega \\end{bmatrix} $\n\n$ P^2 = \\begin{bmatrix} \\omega^2 & 1 \\\\ 1 & \\omega \\end{bmatrix} \\begin{bmatrix} \\omega^2 & 1 \\\\ 1 & \\omega \\end{bmatrix} = \\begin{bmatrix} \\omega^4 + 1 & \\omega^2 + \\omega \\\\ \\omega^2 + \\omega & 1 + \\omega^2 \\end{bmatrix}\neq 0 $\n\nFor $ n = 3 $:\n\n$ P = [p_{ij}]_{3 \\times 3} = \\begin{bmatrix} \\omega^2 & \\omega^3 & \\omega^4 \\\\ 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\end{bmatrix} = \\begin{bmatrix} \\omega^2 & 1 & \\omega \\\\ 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\end{bmatrix} $\n\n$ P^2 = \\begin{bmatrix} \\omega^2 & 1 & \\omega \\\\ 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\end{bmatrix} \\begin{bmatrix} \\omega^2 & 1 & \\omega \\\\ 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix} = 0 $\n\nThus, $ P^2 = 0 $ when $ n $ is a multiple of 3. Therefore, $ P^2\neq 0 $ when $ n $ is not a multiple of 3.\n\nThe possible values of $ n $ where $ P^2\neq 0 $ are:\n\n$ \\Rightarrow n = 55, 58, 56 $\n\ntable {\n\nwidth: 100%;\n\nborder-collapse: collapse;\n\nmargin: 20px 0;\n\n}\n\nth {\n\nbackground-color: blue;\n\ncolor: white;\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\n}\n\ntd {\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\ntext-align: left;\n\n}",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "57",
+      "55",
+      "58",
+      "56"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_048",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For 3 × 3 matrices M and N, which of the following statement(s)\nis(are) NOT correct?",
+    "solution": "In case of option (A),\n$${({N^T}MN)^T} = {N^T}{M^T}{({N^T})^T} = {N^T}{M^T}N$$\nNow, $${N^T}{M^T}N = \\left\\{ \\matrix{\n{N^T}MN,\\,when\\,{M^T} = M \\hfill \\cr\n- {N^T}MN,\\,when\\,{M^T} = - M \\hfill \\cr} \\right.\\therefore$$ N$^{T}$MN is symmetric or skew symmetric according as M is symmetric or skew symmetric.\nIn case of option (B),\n$${(MN - NM)^T} = {(MN)^T} - {(NM)^T} = {N^T}{M^T} - {M^T}{N^T} = NM - MN$$ [$$\\because{M^T} = M,\\,{N^T} = N$$]\n$$ = - (MN - NM)\\thereforeMN - NM$$ is skew symmetric matrix.\nIn case of option (C),\n$${(MN)^T} = {N^T}{M^T} = NM$$ [$$\\because{M^T} = M,\\,{N^T} = N$$]\nNow, MN cannot always be equal to NM\n$$\\therefore$$ MN is not symmetric matrix.\nIn case of option (D),\n$$(Adj\\,M)(Adj\\,N) = Adj(NM)\ne Adj(MN)$$\nTherefore, (C) and (D) are the correct options.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "N$^{T}$MN is symmetric or skew symmetric, according as M\nis symmetric or skew symmetric.",
+      "MN – NM is skew symmetric for all symmetric matrices\nM and N.",
+      "MN is symmetric for all symmetric matrices M and N.",
+      "(adj M)·(adj N) = adj(MN) for all invertible matrices M\nand N."
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_049",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the ad joint of a 3 $$\\times$$ 3 matrix P is $$\\left[ {\\matrix{\n1 & 4 & 4 \\cr\n2 & 1 & 7 \\cr\n1 & 1 & 3 \\cr\n\n} } \\right]$$, then the possible value(s) of the determinant of P is(are)",
+    "solution": "Concept Involved If $$\\left| {{A_{n \\times n}}} \\right| = \\Delta $$, then $$\\left| {adj\\,A} \\right| = {\\Delta ^{n - 1}}$$\nHere, $${P_{3 \\times 3}} = \\left[ {\\matrix{\n1 & 4 & 4 \\cr\n2 & 1 & 7 \\cr\n1 & 1 & 3 \\cr\n\n} } \\right] \\Rightarrow \\left| {adj\\,P} \\right| = {\\left| P \\right|^2}\\therefore\\left| {adj\\,P} \\right| = \\left| {\\matrix{\n1 & 4 & 4 \\cr\n2 & 1 & 7 \\cr\n1 & 1 & 3 \\cr\n\n} } \\right| = 1(3 - 7) - 4(6 - 7) + 4(2 - 1) = - 4 + 4 + 4 = 4 \\Rightarrow \\left| P \\right| = \\pm \\,2$$",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$-$$2",
+      "$$-$$1",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_050",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let M and N be two 3 $$\\times$$ 3 non-singular skew symmetric matrices such that MN = NM. If P$^{T}$ denotes the transpose of P, then M$^{2}$N$^{2}$(M$^{T}$N)$^{$$-$$1}$(MN$^{$$-$$1}$)$^{T}$ is equal to",
+    "solution": "Given, $${M^T} = - M$$, $${N^T} = - N$$\nand $$MN = NM$$ ..... (i)\n$$\\therefore{M^2}{N^2}{({M^T}N)^{ - 1}}{(M{N^{ - 1}})^T} = {M^2}{N^2}{N^{ - 1}}{({M^T})^{ - 1}}{({N^{ - 1}})^T}.{M^T} = {M^2}N(N{M^{ - 1}}){( - M)^{ - 1}}{({N^T})^{ - 1}}( - M) = {M^2}NI( - {M^{ - 1}}){( - N)^{ - 1}}( - M) = - {M^2}N{M^{ - 1}}{N^{ - 1}}M = - M.(MN){M^{ - 1}}{N^{ - 1}}M = - M(NM){M^{ - 1}}{N^{ - 1}}M = - MN(N{M^{ - 1}}){N^{ - 1}}M = - M(N{N^{ - 1}})M = - {M^2}$$\nNote : This question is wrong, as given. An odd order skew symmetric matrix can't be invertible. Had the matrix be of even order, it could have been correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "M$^{2}$",
+      "$$-$$N$^{2}$",
+      "$$-$$M$^{2}$",
+      "MN"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_051",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $R=\\left\\{\\left(\\begin{array}{lll}a & 3 & b \\\\ c & 2 & d \\\\ 0 & 5 & 0\\end{array}\\right): a, b, c, d \\in\\{0,3,5,7,11,13,17,19\\}\\right\\}$.\n\nThen the number of invertible matrices in $R$ is :",
+    "solution": "$\\begin{gathered}R=\\left[\\begin{array}{lll}a & 3 & b \\\\ c & 2 & d \\\\ 0 & 5 & 0\\end{array}\\right] \\\\\\\\ a, b, c, d, \\in\\{0,3,5,7,11,13,17,19\\}\\end{gathered}$\n\nNumber of invertible matrices $=$ (Total matrices $)-$ (Non Invertible matrices)\n\n$\\begin{aligned} & \\text { Total matrices }=\\begin{array}{cccc}a, & b, & c, & d \\\\ \\downarrow& \\downarrow & \\downarrow & \\downarrow \\\\ 8 & 8 & 8 & 8\\end{array} \\\\\\\\ & =8 \\times 8 \\times 8 \\times 8=8^4=4096 \\\\ & \\end{aligned}$\n\nFor Non-invertible matrices,\n\n$$\n\n\\begin{aligned}\n\n& |R|=0 \\\\\\\\\n\n& |R|=-5(a d-b c)=0\n\n\\end{aligned}\n\n$$\n\n[Diagram]\n\nCases when both side are zero.\n\n(i) All four $a, b, c, d$ are zero.\n\n$$\n\na d=b c=0 \\quad 1 \\text { ways }\n\n$$\n\n(ii) Three zero and one different digit used for $a, b$, $c, d$.\n\n$$\n\n\\Rightarrow a d=b c\n\n$$\n\nSelect three from four $a, b, c, d$ assign them zero.\n\n$$\n\n\\text { i.e., }{ }^4 C_3 \\times 1 \\times 7=28 \\text { ways }\n\n$$\n\n(iii) Two zero and two different digits\n\n[Diagram]\n\nHence $2 \\times 7 \\times 2 \\times 7=196$ ways\n\nCase II: When both side are same but non zero number.\n\n$$\na d=b c\neq 0\n$$\n\n(i) All four $a, b, c, d$ are same.\n\ni.e., $a d=b c$ ( 7 ways)\n\n(ii) Two alike & two alike of another.\n\n$$\na d=b c\n\n{ }^7 \\mathrm{C}_1 \\times{ }^6 \\mathrm{C}_1 \\times 2 !=84 \\text { ways }\n$$\n\nTotal number of non invertible matrices are\n\n$$\n\\begin{aligned}\n& =1+28+196+7+84 \\\\\\\\\n& =316\n\\end{aligned}\n$$\n\nHence number of invertible matric\n\n$$\n\\begin{aligned}\n& =8^4-316 \\\\\\\\\n& =3780\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ltxujzcp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_matrices_determinants_052",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\beta$ be a real number. Consider the matrix\n\n$$\nA=\\left(\\begin{array}{ccc}\n\\beta & 0 & 1 \\\\\n2 & 1 & -2 \\\\\n3 & 1 & -2\n\\end{array}\\right)\n$$\n\nIf $A^{7}-(\\beta-1) A^{6}-\\beta A^{5}$ is a singular matrix, then the value of $9 \\beta$ is _________.",
+    "solution": "$${A^7} - (\\beta - 1){A^6} - \\beta {A^5}$$ is a singular matrix. So determinant of this matrix equal to zero.\n$$\\therefore|{A^7} - (\\beta - 1){A^6} - \\beta {A^5}| = 0 \\Rightarrow |{A^5}({A^2} - (\\beta - 1)A - \\beta I)| = 0 \\Rightarrow |{A^5}||({A^2} - \\beta A + A - \\beta I)| = 0 \\Rightarrow |A{|^5}|A(A + I) - \\beta (A + I)| = 0 \\Rightarrow |A{|^5}|(A - \\beta I)(A + I)| = 0 \\Rightarrow |A{|^5}|A - \\beta I||A + I| = 0$$\nNow given,\n$$A = \\left[ {\\matrix{\n\\beta & 0 & 1 \\cr\n2 & 1 & { - 2} \\cr\n3 & 1 & { - 2} \\cr\n\n} } \\right]\\therefore|A| = 2 - 3 = - 1|A + I| = \\left| {\\matrix{\n{\\beta + 1} & 0 & 1 \\cr\n2 & 2 & { - 2} \\cr\n3 & 1 & { - 1} \\cr\n\n} } \\right| = (\\beta + 1)( - 2 + 2) + 1(2 - 6) = - 4\\therefore$$ We get $$|A|\ne 0$$ and $$|A + I|\ne 0\\therefore|A{|^5}|A - \\beta I||A + I| = 0$$ is possible only when $$|A - \\beta I| = 0\\therefore|A - \\beta I| = \\left| {\\matrix{\n0 & 0 & 1 \\cr\n2 & {1 - \\beta } & { - 2} \\cr\n3 & 1 & { - 2 - \\beta } \\cr\n\n} } \\right| = 2 - 3 - 3\\beta \\therefore2 - 3 + 3\\beta = 0 \\Rightarrow 3\\beta = 1 \\Rightarrow 9\\beta = 3$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_053",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha$$, $$\\beta$$ and $$\\gamma$$ be real numbers such that the system of linear equations\n\nx + 2y + 3z = $$\\alpha$$\n\n4x + 5y + 6z = $$\\beta$$\n\n7x + 8y + 9z = $$\\gamma -$$ 1\n\nis consistent. Let | M | represent the determinant of the matrix\n\n$$M = \\left[ {\\matrix{\n\\alpha & 2 & \\gamma \\cr\n\\beta & 1 & 0 \\cr\n{ - 1} & 0 & 1 \\cr\n\n} } \\right]$$\n\nLet P be the plane containing all those ($$\\alpha$$, $$\\beta$$, $$\\gamma$$) for which the above system of linear equations is consistent, and D be the square of the distance of the point (0, 1, 0) from the plane P.\n\nThe value of | M | is _________.",
+    "solution": "$$7x + 8y + 9z - (\\gamma - 1) = A(4x + 5y + 6z - \\beta ) + B(x + 2y + 3z - \\alpha )$$\n\nOn equating the coefficients,\n\n4A + B = 7 .... (i)\n\n5A + 2B = 8 .... (ii)\n\nand $$-$$ ($$\\gamma-$$ 1) = $$-$$ A$$\\beta-\\alpha$$B ..... (iii)\n\nOn solving Eqs. (i) and (ii), we get A = 2 and B = $$-$$1\n\nFrom Eq. (iii), we get\n\n$$-\\gamma$$ + 1 = $$-$$ 2$$\\beta-\\alpha$$($$-$$1)\n\n$$\\Rightarrow\\alpha-$$ 2$$\\beta$$ + $$\\gamma$$ = 1 ..... (iv)\n\nNow, determinant of\n\n$$M = \\left| M \\right| = \\left| {\\matrix{\n\\alpha & 2 & \\gamma \\cr\n\\beta & 1 & 0 \\cr\n{ - 1} & 0 & 1 \\cr\n\n} } \\right| = \\alpha - 2\\beta + \\gamma = 1$$ [from Eq. (iv)]",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_054",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha$$, $$\\beta$$ and $$\\gamma$$ be real numbers such that the system of linear equations\n\nx + 2y + 3z = $$\\alpha$$\n\n4x + 5y + 6z = $$\\beta$$\n\n7x + 8y + 9z = $$\\gamma -$$ 1\n\nis consistent. Let | M | represent the determinant of the matrix\n\n$$M = \\left[ {\\matrix{\n\\alpha & 2 & \\gamma \\cr\n\\beta & 1 & 0 \\cr\n{ - 1} & 0 & 1 \\cr\n\n} } \\right]$$\n\nLet P be the plane containing all those ($$\\alpha$$, $$\\beta$$, $$\\gamma$$) for which the above system of linear equations is consistent, and D be the square of the distance of the point (0, 1, 0) from the plane P.\n\nThe value of D is _________.",
+    "solution": "$$7x + 8y + 9z - (\\gamma - 1) = A(4x + 5y + 6z - \\beta ) + B(x + 2y + 3z - \\alpha )$$\n\nOn equating the coefficients,\n\n4A + B = 7 .... (i)\n\n5A + 2B = 8 .... (ii)\n\nand $$-$$ ($$\\gamma-$$ 1) = $$-$$ A$$\\beta-\\alpha$$B ..... (iii)\n\nOn solving Eqs. (i) and (ii), we get A = 2 and B = $$-$$1\n\nFrom Eq. (iii), we get\n\n$$-\\gamma$$ + 1 = $$-$$ 2$$\\beta-\\alpha$$($$-$$1)\n\n$$\\Rightarrow\\alpha-$$ 2$$\\beta$$ + $$\\gamma$$ = 1 ..... (iv)\n\nNow, determinant of\n\n$$M = \\left| M \\right| = \\left| {\\matrix{\n\\alpha & 2 & \\gamma \\cr\n\\beta & 1 & 0 \\cr\n{ - 1} & 0 & 1 \\cr\n\n} } \\right| = \\alpha - 2\\beta + \\gamma = 1$$ [from Eq. (iv)]\n\nEquation of plane P is given by $$x - 2y + z = 1$$\n\nHence, perpendicular distance of the point (0, 1, 0) from the plane\n\n$$P = {{\\left| {0 - 2 \\times 1 + 0 - 1} \\right|} \\over {\\sqrt {{1^2} + {{( - 2)}^2} + {1^2}} }} = {{\\left| 3 \\right|} \\over {\\sqrt 6 }} \\Rightarrow D = {\\left( {{{\\left| 3 \\right|} \\over {\\sqrt 6 }}} \\right)^2} = {9 \\over 6} = 1.5$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_055",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The trace of a square matrix is defined to be the sum of its diagonal entries. If A is a 2 $$ \\times $$ 2 matrix such that the trace of A is 3 and the trace of A$^{3}$ is $$-$$18, then the value of the determinant of A is .............",
+    "solution": "Let a square matrix 'A' of order 2 $$ \\times $$ 2, such that t$_{r}$(A) = 3, is\n\n$$A = \\left[ {\\matrix{\nx & y \\cr\nz & {3 - x} \\cr\n\n} } \\right]$$\n\nSo, $${A^2} = \\left[ {\\matrix{\nx & y \\cr\nz & {3 - x} \\cr\n\n} } \\right]\\left[ {\\matrix{\nx & y \\cr\nz & {3 - x} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{{x^2} + yz} & {xy + 3y - xy} \\cr\n{xz + 3z - xz} & {yz + {{(3 - x)}^2}} \\cr\n\n} } \\right] \\therefore {A^3} = \\left[ {\\matrix{\n{{x^2} + yz} & {3y} \\cr\n{ + 3z} & {yz + 9 + {x^2} - 6x} \\cr\n\n} } \\right]\\left[ {\\matrix{\nx & y \\cr\nz & {3 - x} \\cr\n\n} } \\right] \\because {t_r}({A^3}) = {x^3} + xyz + 3yz + 3yz + 3yz - xyz + 27 - 9x + 3{x^2} - {x^3} - 18x + 6{x^2} = 9yz + 27 - 27x + 9{x^2} = - 18$$ (given)\n\n$$ \\Rightarrow yz + 3 - 3x + {x^2} = - 2 \\Rightarrow 3x - {x^2} - yz = 5 \\because |A|\\, = \\,\\left[ {\\matrix{\nx & y \\cr\nz & {3 - x} \\cr\n\n} } \\right] = 3x - {x^2} - yz = 5$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_056",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose\n\ndet$$\\left| {\\matrix{\n{\\sum\\limits_{k = 0}^n k } & {\\sum\\limits_{k = 0}^n {{}^n{C_k}{k^2}} } \\cr\n{\\sum\\limits_{k = 0}^n {{}^n{C_k}.k} } & {\\sum\\limits_{k = 0}^n {{}^n{C_k}{3^k}} } \\cr\n\n} } \\right| = 0$$\n\nholds for some positive integer n. Then $$\\sum\\limits_{k = 0}^n {{{{}^n{C_k}} \\over {k + 1}}} $$ equals ..............",
+    "solution": "It is given that,\n\n$$\\left| {\\matrix{\n{\\sum\\limits_{k = 0}^n k } & {\\sum\\limits_{k = 0}^n {{}^n{C_k}{k^2}} } \\cr\n{\\sum\\limits_{k = 0}^n {{}^n{C_k}.k} } & {\\sum\\limits_{k = 0}^n {{}^n{C_k}{3^k}} } \\cr\n\n} } \\right| = 0 \\Rightarrow \\left| {\\matrix{\n{{{n(n + 1)} \\over 2}} & {n(n + 1){2^{n - 2}}} \\cr\n{n{{.2}^{n - 1}}} & {{4^n}} \\cr\n\n} } \\right| = 0 \\because \\left[ \\matrix{\n\\sum\\limits_{k = 0}^n k = {{n(n + 1)} \\over 2},\\,\\sum\\limits_{k = 0}^n {{}^n{C_k}k = n{{.2}^{n - 1}}} \\hfill \\cr\n\\sum\\limits_{k = 0}^n {} {}^n{C_k}{k^2} = n(n + 1){2^{n - 2}}\\,\\,and\\,\\,\\sum\\limits_{k = 0}^n {} {}^n{C_k}{3^k} = {4^n} \\hfill \\cr} \\right] \\Rightarrow {{n(n + 1)} \\over 2}{4^n} - {n^2}(n + 1)\\,{2^{2n - 3}} = 0 \\Rightarrow {{{4^n}} \\over 2} - n{{{4^{n - 1}}} \\over 2} = 0 \\Rightarrow n = 4 \\therefore \\sum\\limits_{k = 0}^n {} {{{}^n{C_k}} \\over {k + 1}} = \\sum\\limits_{k = 0}^4 {} {{{}^4{C_k}} \\over {k + 1}}$$\n\n= $${1 \\over 5}\\sum\\limits_{k = 0}^4 {} {}^5{C_{k + 1}} = {1 \\over 5}({2^5} - 1) = {1 \\over 5}(32 - 1) = {{31} \\over 5} = 6.20$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_057",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let P be a matrix of order 3 $$ \\times $$ 3 such that all the entries in P are from the set {$$-$$1, 0, 1}. Then, the maximum possible value of the determinant of P is ............ .",
+    "solution": "Let $$Det(P) = \\left| {\\matrix{\n{{a_2}} & {{b_2}} & {{c_3}} \\cr\n{{a_3}} & {{b_3}} & {{c_3}} \\cr\n\n} } \\right| = {a_1}({b_2}{c_3} - {b_3}{c_2}) - {a_2}({b_1}{c_3} - {b_3}{c_1}) + {a_3}({b_1}{c_2} - {b_2}{c_1})$$\n\nNow, maximum value of Det (P) = 6\n\nIf $${a_1} = 1$$, $${a_2} = - 1$$, $${a_3} = 1$$, $${b_2}{c_3} = {b_1}{c_3} = {b_1}{c_2} = 1$$ and $${b_3}{c_2} = {b_3}{c_1} = {b_2}{c_1} = - 1$$\n\nBut it is not possible as\n\n$$({b_2}{c_3})({b_3}{c_1})({b_1}{c_2})$$ = $$-$$1\n\nand $$({b_1}{c_3})({b_3}{c_2})({b_2}{c_1})$$ = 1\n\ni.e., $${b_1}{c_2}{b_3}{c_1}{c_2}{c_3}$$ = 1 and $$-$$1\n\nSimilar contradiction occurs when\n\n$${a_1} = 1$$, $${a_2} = 1$$, $${a_3} = 1$$, $${b_2}{c_1} = {b_3}{c_1} = {b_1}{c_2}$$ = 1 and $${b_3}{c_2} = {b_1}{c_3} = {b_1}{c_2} = - 1$$\n\nNow, for value to be 5 one of the terms must be zero but that will make 2 terms zero which means answer cannot be 5\n\nNow,\n\n$$\\left| {\\matrix{\n1 & 1 & 1 \\cr\n{ - 1} & 1 & 1 \\cr\n1 & { - 1} & 1 \\cr\n\n} } \\right| = 4$$\n\nHence, maximum value is 4",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_058",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a real number $$\\alpha $$, if the system\n\n$$\\left[ {\\matrix{\n1 & \\alpha & {{\\alpha ^2}} \\cr\n\\alpha & 1 & \\alpha \\cr\n{{\\alpha ^2}} & \\alpha & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n1 \\cr\n\n} } \\right]$$\n\nof linear equations, has infinitely many solutions, then 1 + $$\\alpha $$ + $$\\alpha $$$^{2}$ =",
+    "solution": "It is given that\n$$\\left[ {\\matrix{\n1 & \\alpha & {{\\alpha ^2}} \\cr\n\\alpha & 1 & \\alpha \\cr\n{{\\alpha ^2}} & \\alpha & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n1 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 & \\alpha & {{\\alpha ^2}} \\cr\n\\alpha & 1 & \\alpha \\cr\n{{\\alpha ^2}} & \\alpha & 1 \\cr\n\n} } \\right] = 0 \\Rightarrow 1(1 - {\\alpha ^2}) - \\alpha (\\alpha - {\\alpha ^3}) + {\\alpha ^2}({\\alpha ^2} - {\\alpha ^2}) = 0 \\Rightarrow \\alpha (1 - {\\alpha ^2}) - {\\alpha ^2}(1 - {\\alpha ^2}) = 0 \\Rightarrow (1 - {\\alpha ^2})(1 - {\\alpha ^2}) = 0 \\Rightarrow {(1 - {\\alpha ^2})^2} = 0 \\Rightarrow {\\alpha ^2} = 1 \\Rightarrow \\alpha = \\pm 1$$\nFor $$\\alpha$$ = 1, the given system of linear equations has no solution.\n$$\\left[ {\\matrix{\n{ + 1} & { + 1} & { + 1} \\cr\n{ + 1} & { + 1} & { + 1} \\cr\n{ + 1} & { + 1} & { + 1} \\cr\n\n} } \\right]\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n1 \\cr\n\n} } \\right]x + y + z = 1x + y + z = - 1x + y + z = 1$$\nSince two planes are parallel. So, $$\\alpha$$ = 1 is rejected for $$\\alpha$$ = $$-$$1 the given system of linear equations has coincident planes\n$$\\left[ {\\matrix{\n1 & { - 1} & 1 \\cr\n{ - 1} & 1 & { - 1} \\cr\n1 & { - 1} & 1 \\cr\n\n} } \\right]\\left[ {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n1 \\cr\n\n} } \\right]x - y + z = 1 \\Rightarrow - x + y - z = - 1 \\Rightarrow x - y + z = 1x - y + 1 = 1$$\nTherefore, $$\\alpha$$ = $$-$$1 is accepted. That is,\n$$1 + \\alpha + {\\alpha ^2} = 1 + ( - 1) + {( - 1)^2} = 1 - 1 + 1 = 1 \\Rightarrow 1 + \\alpha + {\\alpha ^2} = 1$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_059",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of distinct x $$\\in$$ R for which\n$$\\left| {\\matrix{\nx & {{x^2}} & {1 + {x^3}} \\cr\n{2x} & {4{x^2}} & {1 + 8{x^3}} \\cr\n{3x} & {9{x^2}} & {1 + 27{x^3}} \\cr\n\n} } \\right| = 10$$ is ______________.",
+    "solution": "Given, $$\\left| {\\matrix{\nx & {{x^2}} & {1 + {x^3}} \\cr\n{2x} & {4{x^2}} & {1 + 8{x^3}} \\cr\n{3x} & {9{x^2}} & {1 + 27{x^3}} \\cr\n\n} } \\right| = 10 \\Rightarrow x\\,.\\,{x^2}\\left| {\\matrix{\n1 & 1 & {1 + {x^3}} \\cr\n2 & 4 & {1 + 8{x^3}} \\cr\n3 & 9 & {1 + 27{x^3}} \\cr\n\n} } \\right| = 10$$\nApply R$_{2}$ $$\\to$$ R$_{2}$ $$-$$ 2R$_{1}$ and R$_{3}$ $$\\to$$ R$_{3}$ $$-$$ 3R$_{1}$, we get\n$${x^3}\\left| {\\matrix{\n1 & 1 & {1 + {x^3}} \\cr\n0 & 2 & { - 1 + 6{x^3}} \\cr\n0 & 6 & { - 2 + 24{x^3}} \\cr\n\n} } \\right| = 10 \\Rightarrow {x^3}\\,.\\,\\left| {\\matrix{\n2 & {6{x^2} - 1} \\cr\n6 & {24{x^3} - 2} \\cr\n\n} } \\right| = 10 \\Rightarrow {x^3}(48{x^3} - 4 - 36{x^3} + 6) = 10 \\Rightarrow 12{x^6} + 2{x^3} = 10 \\Rightarrow 6{x^6} + {x^3} - 5 = 0 \\Rightarrow 6{({x^3})^2} + {x^3} - 5 = 6 \\Rightarrow 6{({x^3})^2} + 6{x^3} - 5{x^3} - 5 = 0 \\Rightarrow 6{x^3}({x^3} + 1) - 5({x^3} + 1) = 0 \\Rightarrow (6{x^3} - 5)({x^2} - x + 1)(x + 1) = 0\\thereforex = {\\left( {{5 \\over 6}} \\right)^{1/3}}, - 1$$\nHence, the number of real solutions is 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_060",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$z = {{ - 1 + \\sqrt 3 i} \\over 2}$$, where $$i = \\sqrt { - 1} $$, and r, s $$\\in$$ {1, 2, 3}. Let $$P = \\left[ {\\matrix{\n{{{( - z)}^r}} & {{z^{2s}}} \\cr\n{{z^{2s}}} & {{z^r}} \\cr\n\n} } \\right]$$ and I be the identity matrix of order 2. Then the total number of ordered pairs (r, s) for which P$^{2}$ = $$-$$I is ____________.",
+    "solution": "Here, $$z = {{ - 1 + i\\sqrt 3 } \\over 2} = \\omega \\becauseP = \\left[ {\\matrix{\n{{{( - \\omega )}^r}} & {{\\omega ^{2s}}} \\cr\n{{\\omega ^{2s}}} & {{\\omega ^r}} \\cr\n\n} } \\right]{P^2} = \\left[ {\\matrix{\n{{{( - \\omega )}^r}} & {{\\omega ^{2s}}} \\cr\n{{\\omega ^{2s}}} & {{\\omega ^r}} \\cr\n\n} } \\right]\\left[ {\\matrix{\n{{{( - \\omega )}^r}} & {{\\omega ^{2s}}} \\cr\n{{\\omega ^{2s}}} & {{\\omega ^r}} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{{\\omega ^{2r}} + {\\omega ^{4s}}} & {{\\omega ^{r + 2s}}[{{( - 1)}^r} + 1]} \\cr\n{{\\omega ^{r + 2s}}[{{( - 1)}^r} + 1]} & {{\\omega ^{4s}} + {\\omega ^{2r}}} \\cr\n\n} } \\right]$$\nGiven, $${P^2} = - I\\therefore{\\omega ^{2r}} + {\\omega ^{4s}} = - 1$$\nand $${\\omega ^{r + 2s}}[{( - 1)^r} + 1] = 0$$\nSince, r $$\\in$$ {1, 2, 3} and ($$-$$1)$^{r}$ + 1 = 0\n$$\\Rightarrow$$ r = {1, 3}\nAlso, $${\\omega ^{2r}} + {\\omega ^{4s}} = - 1$$\nIf r = 1, then $${\\omega ^2} + {\\omega ^{4s}} = - 1$$\nwhich is only possible, when s = 1.\nAs, $${\\omega ^2} + {\\omega ^4} = - 1\\therefore$$ r = 1, s = 1\nAgain, if r = 3, then\n$${\\omega ^6} + {\\omega ^{4s}} = - 1 \\Rightarrow {\\omega ^{4s}} = - 2$$ [never possible]\n$$\\therefore$$ r $$\ne$$ 3\n$$\\Rightarrow$$ (r, s) = (1, 1) is the only solution.\nHence, the total number of ordered pairs is 1.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_061",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let M be a 3 $$\\times$$ 3 matrix satisfying $$M\\left[ {\\matrix{\n0 \\cr\n1 \\cr\n0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{ - 1} \\cr\n2 \\cr\n3 \\cr\n\n} } \\right]$$, $$M\\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n1 \\cr\n{ - 1} \\cr\n\n} } \\right]$$ and $$M\\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n{12} \\cr\n\n} } \\right]$$. Then the sum of the diagonal entries of M is ___________.",
+    "solution": "Let $$M = \\left[ {\\matrix{\na & b & c \\cr\nd & e & f \\cr\ng & h & i \\cr\n\n} } \\right]M = \\left[ {\\matrix{\n0 \\cr\n1 \\cr\n0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{ - 1} \\cr\n2 \\cr\n3 \\cr\n\n} } \\right] \\Rightarrow b = - 1,\\,e = 2,\\,h = 3M = \\left[ {\\matrix{\n1 \\cr\n{ - 1} \\cr\n0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n1 \\cr\n1 \\cr\n{ - 1} \\cr\n\n} } \\right] \\Rightarrow a = 0,\\,d = 3,\\,g = 2M = \\left[ {\\matrix{\n1 \\cr\n1 \\cr\n1 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n{12} \\cr\n\n} } \\right] \\Rightarrow g + h + i = 12 \\Rightarrow i = 7$$\nHence, the sum of diagonal elements is 9.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_matrices_determinants_062",
+    "subject": "Mathematics",
+    "chapter": "Matrices & Determinants",
+    "topic": "Matrices & Determinants",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $k$ be a positive real number and let\n$$ \\begin{aligned} A & =\\left[\\begin{array}{ccc} 2 k-1 & 2 \\sqrt{k} & 2 \\sqrt{k} \\\\ 2 \\sqrt{k} & 1 & -2 k \\\\ -2 \\sqrt{k} & 2 k & -1 \\end{array}\\right] \\text { and } \\\\\\\\ \\mathbf{B} & =\\left[\\begin{array}{ccc} 0 & 2 k-1 & \\sqrt{k} \\\\ 1-2 k & 0 & 2 \\sqrt{k} \\\\ -\\sqrt{k} & -2 \\sqrt{k} & 0 \\end{array}\\right] . \\end{aligned} $$\nIf $\\operatorname{det}(\\operatorname{adj} A)+\\operatorname{det}(\\operatorname{adj} B)=10^6$, then $[k]$\n\nis equal to _________.\n\n[ **Note :** adj M denotes the adjoint of a square matrix M and $[k]$ denotes the largest integer less than or equal to $k$ ].",
+    "solution": "$$ |A|=(2 k+1)^3,|B|=0 $$\n( $\\therefore$ B is a skew - symmetric matrix of order 3 )\n$$ \\begin{aligned} \\text { Let }(\\operatorname{adj} \\mathrm{A}) & =|\\mathrm{A}|^{n-1} \\\\\\\\ \\left((2 k+1)^3\\right)^2 & =10^6 \\\\\\\\ (2 k+1)^6 & =10^6 \\Rightarrow 2 k+1=10 \\\\\\\\ 2 k=9 \\Rightarrow[k] & =4 \\end{aligned} $$",
+    "answerKey": [
+      "C",
+      "B"
+    ]
+  }
+]

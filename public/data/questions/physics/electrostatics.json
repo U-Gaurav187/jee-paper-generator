@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "phy_electrostatics_001",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two charges $Q_1 = q$ and $Q_2 = mq$ are placed at the points $P_1(a, b)$ and $P_2(ma, mb)$, respectively, in the $XY$ plane, where $a, b\neq 0$ and $m\neq 0, 1$. If $V_1$ is the potential at a point in the $XY$ plane due to charge $Q_1$ and $V_2$ is the potential at that point due to charge $Q_2$. Correct statement(s) for the points at which $|V_1| = |V_2|$ is/are :",
+    "solution": "Let an arbitrary point in the XY plane be $P(x,y)$.\nThe electrostatic potential $V$ at a distance $r$ from a point charge $Q$ is derived from the work done per unit charge bringing it from infinity to that point:\n$$V=\\frac{kQ}{r}$$\nwhere $k=\\frac{1}{4\\pi\\varepsilon_0}$.\nThe distance $r_1$ from the point $P_1(a,b)$ to $P(x,y)$ is given by the distance formula:\n$$r_1=\\sqrt{(x-a)^2+(y-b)^2}$$\nThe potential $V_1$ at $P(x,y)$ due to $Q_1=q$ is:\n$$V_1=\\frac{kq}{\\sqrt{(x-a)^2+(y-b)^2}}$$\nThe distance $r_2$ from the point $P_2(ma,mb)$ to $P(x,y)$ is:\n$$r_2=\\sqrt{(x-ma)^2+(y-mb)^2}$$\nThe potential $V_2$ at $P(x,y)$ due to $Q_2=mq$ is:\n$$V_2=\\frac{k(mq)}{\\sqrt{(x-ma)^2+(y-mb)^2}}$$\nFor the locus of points satisfying the condition $|V_1|=|V_2|$:\n$$\\left|\\frac{kq}{\\sqrt{(x-a)^2+(y-b)^2}}\\right|=\\left|\\frac{kmq}{\\sqrt{(x-ma)^2+(y-mb)^2}}\\right|\\frac{1}{\\sqrt{(x-a)^2+(y-b)^2}}=\\frac{m}{\\sqrt{(x-ma)^2+(y-mb)^2}}$$\nSquaring both sides\n$$\\frac{1}{(x-a)^2+(y-b)^2}=\\frac{m^2}{(x-ma)^2+(y-mb)^2} (x-ma)^2+(y-mb)^2=m^2\\left[(x-a)^2+(y-b)^2\\right] $$\nFor $m=-1$\n$$ (x-(-1)a)^2+(y-(-1)b)^2=(-1)^2\\left[(x-a)^2+(y-b)^2\\right] (x+a)^2+(y+b)^2=(x-a)^2+(y-b)^2 x^2+2ax+a^2+y^2+2by+b^2=x^2-2ax+a^2+y^2-2by+b^2 2ax+2by=-2ax-2by 4ax+4by=0 \\rightarrow ax+by=0 $$\nThus, option (A) is correct.\nFor $m=2$\n$$ (x-2a)^2+(y-2b)^2=2^2\\left[(x-a)^2+(y-b)^2\\right] (x-2a)^2+(y-2b)^2=4\\left[(x-a)^2+(y-b)^2\\right] (x^2-4ax+4a^2)+(y^2-4by+4b^2)=4(x^2-2ax+a^2+y^2-2by+b^2) x^2-4ax+4a^2+y^2-4by+4b^2=4x^2-8ax+4a^2+4y^2-8by+4b^2 (4x^2-x^2)+(-8ax+4ax)+(4a^2-4a^2)+(4y^2-y^2)+(-8by+4by)+(4b^2-4b^2)=0 3x^2-4ax+3y^2-4by=0 x^2-\\frac{4}{3}ax+y^2-\\frac{4}{3}by=0 $$\nThe standard circle form $(x^2+y^2+2gx+2fy+c=0)$:\n$$ \\left(x-\\frac{2}{3}a\\right)^2-\\left(\\frac{2}{3}a\\right)^2+\\left(y-\\frac{2}{3}b\\right)^2-\\left(\\frac{2}{3}b\\right)^2=0 \\left(x-\\frac{2}{3}a\\right)^2+\\left(y-\\frac{2}{3}b\\right)^2=\\frac{4}{9}a^2+\\frac{4}{9}b^2=\\frac{4}{9}(a^2+b^2) $$\nThis is a circle equation of the form $(x-x_c)^2+(y-y_c)^2=R^2$:\nWhere the centre is $(x_c,y_c)=\\left(\\frac{2}{3}a,\\frac{2}{3}b\\right)$\nAnd radius is $R=\\sqrt{\\frac{4}{9}(a^2+b^2)}=\\frac{2}{3}\\sqrt{a^2+b^2}$\n\nThus, option (B) is correct.\nFor $m=-2$\n$(x-(-2) a)^2+(y-(-2) b)^2=(-2)^2\\left[(x-a)^2+(y-b)^2\\right]$\n$(x+2 a)^2+(y+2 b)^2=4\\left[(x-a)^2+(y-b)^2\\right]$\n$$x^2+4ax+4a^2+y^2+4by+4b^2=4x^2-8ax+4a^2+4y^2-8by+4b^23x^2 - 12ax + 3y^2 - 12by = 0x^2 - 4ax + y^2 - 4by = 0(x - 2a)^2 - 4a^2 + (y - 2b)^2 - 4b^2 = 0(x - 2a)^2 + (y - 2b)^2 = 4a^2 + 4b^2 = 4(a^2 + b^2)$$\nThis is also a circle with centre $(2a, 2b)$ and radius\n$$\\sqrt{4(a^2 + b^2)} = 2\\sqrt{a^2 + b^2}$$\nThus, option (C) is correct.\nFor $m = -3$\n$$(x + 3a)^2 + (y + 3b)^2 = 9[(x - a)^2 + (y - b)^2]x^2 + 6ax + 9a^2 + y^2 + 6by + 9b^2 = 9x^2 - 18ax + 9a^2 + 9y^2 - 18by + 9b^28x^2 - 24ax + 8y^2 - 24by = 0x^2 - 3ax + y^2 - 3by = 0$$\nThis also represents a circle, not a straight line as given by $3bx + 3ay = 0$. Thus, option (D) is incorrect.\nTherefore, the correct options are (A), (B) and (C).",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "For $m = -1$, locus of these points is $ax + by = 0$.",
+      "For $m = 2$, the locus of these points is a circle of radius $\\frac{2}{3}\\sqrt{a^2+b^2}$ centered at $\\left(\\frac{2}{3}a, \\frac{2}{3}b\\right)$",
+      "For $m = -2$, the locus of these points is a circle of radius $2\\sqrt{a^2+b^2}$ centered at $(2a, 2b)$",
+      "For $m = -3$, locus of these points is $3bx - 3ay = 0$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpp6gcne.webp",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_002",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two co-axial conducting cylinders of same length $\\ell$ with radii $\\sqrt{2}R$ and $2R$ are kept, as shown in Fig. 1. The charge on the inner cylinder is $Q$ and the outer cylinder is grounded. The annular region between the cylinders is filled with a material of dielectric constant $\\kappa=5$. Consider an imaginary plane of the same length $\\ell$ at a distance $R$ from the common axis of the cylinders. This plane is parallel to the axis of the cylinders. The cross-sectional view of this arrangement is shown in Fig. 2. Ignoring edge effects, the flux of the electric field through the plane is ($\\epsilon_0$ is the permittivity of free space):\n[Diagram]",
+    "solution": "[Diagram]\n\nHere we are assuming that \" $\\ell$ \" is very large just for the sake of symmetry. Outside cylinder will have zero electric field inside, so the flux generated on the plate will be due to inner cylinder only in sections AB and CD , as section be will be at that place where electric field is zero.\n\n[Diagram]\n\nFlux through element will be =\n$$ \\begin{aligned} \\mathrm{d} \\phi & =\\overrightarrow{\\mathrm{E}} \\cdot \\overrightarrow{\\mathrm{dS}} \\\\ \\mathrm{~d} \\phi & =\\frac{2 \\mathrm{k} \\lambda}{\\mathrm{r}} \\mathrm{dy} \\cdot \\ell \\cdot \\cos \\theta .........(1) \\end{aligned} $$\nfrom figure we can say that\n$$ \\begin{aligned} & \\cos \\theta=\\frac{R}{r} \\Rightarrow r=R \\sec \\theta \\\\ & \\tan \\theta=\\frac{y}{R} \\Rightarrow y=R \\tan \\theta \\\\ & \\Rightarrow d y=R \\sec ^2 \\theta d \\theta \\\\ & d \\phi=\\frac{2 k \\lambda}{R \\sec \\theta} R \\cdot \\sec ^2 \\theta \\cdot \\ell \\cdot \\cos \\theta d \\theta \\\\ & d \\phi=2 k \\lambda \\ell d q \\end{aligned} $$\n$\\begin{aligned} & \\int_0^{\\phi_{\\mathrm{AB}}} \\mathrm{d} \\phi=2 \\mathrm{k} \\lambda \\ell \\int_{\\pi / 4}^{\\pi / 3} \\mathrm{~d} \\theta \\\\ & \\phi_{\\mathrm{AB}}=2 \\mathrm{k} \\lambda \\ell\\left[\\frac{\\pi}{3}-\\frac{\\pi}{4}\\right] \\\\ & \\phi_{\\mathrm{AB}}=2 \\mathrm{kQ}\\left[\\frac{\\pi}{12}\\right] \\\\ & \\phi_{\\mathrm{AB}}=2 \\times \\frac{1}{4 \\pi \\epsilon_0 \\epsilon_{\\mathrm{r}}} \\mathrm{Q}\\left[\\frac{\\pi}{12}\\right] \\\\ & \\phi_{\\mathrm{AB}}=\\frac{\\mathrm{Q}}{120 \\epsilon_0} \\\\ & \\phi_{\\text {plate }}=\\phi_{\\mathrm{AB}}+\\phi_{\\mathrm{BC}}+\\phi_{\\mathrm{CD}} \\quad\\left(\\phi_{\\mathrm{CD}}=\\phi_{\\mathrm{AB}}\\right) \\\\ & \\phi_{\\text {plate }}=\\frac{\\mathrm{Q}}{60 \\epsilon_0}\\end{aligned}$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\frac{Q}{30\\epsilon_0}$",
+      "$\\frac{Q}{15\\epsilon_0}$",
+      "$\\frac{Q}{60\\epsilon_0}$",
+      "$\\frac{Q}{120\\epsilon_0}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maw4b9e4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_003",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A charge is kept at the central point $\\mathrm{P}$ of a cylindrical region. The two edges subtend a half-angle $\\theta$ at $\\mathrm{P}$, as shown in the figure. When $\\theta=30^{\\circ}$, then the electric flux through the curved surface of the cylinder is $\\Phi$. If $\\theta=60^{\\circ}$, then the electric flux through the curved surface becomes $\\Phi / \\sqrt{n}$, where the value of $n$ is ___.\n\n[Diagram]",
+    "solution": "Place a point charge $q$ at the centre $P$ of a cylindrical Gaussian surface. Because of symmetry, the electric flux across each circular end cap is the same; call this $\\phi_f$. Let $\\phi$ be the flux through the curved side. Applying Gauss’s law to the closed cylinder, the total flux is\n$$ \\phi_{\\text{total}} \\;=\\; 2\\phi_f \\;+\\; \\phi \\;=\\; \\frac{q}{\\varepsilon_0}. $$\n\n[Diagram]\n\nThe solid angle subtended at point $P$ by the flat surface (spherical cap of half-angle $\\theta$ ) is $\\Omega_f=2 \\pi(1-\\cos \\theta$ ). The total solid angle is $\\Omega_t=4 \\pi$. Thus, the flux through one flat surface is\n$$ \\phi_f=\\phi_t\\left(\\frac{\\Omega_f}{\\Omega_t}\\right)=\\frac{\\phi_t(1-\\cos \\theta)}{2} $$\nSolve the above equations to get\n$$ \\phi=\\frac{q \\cos \\theta}{\\epsilon_0}=\\frac{q \\cos 30^{\\circ}}{\\epsilon_0}=\\frac{\\sqrt{3} q}{2 \\epsilon_0} $$\nThe flux through the curved surface for $\\theta=60^{\\circ}$ is\n$$ \\phi^{\\prime}=\\frac{q \\cos 60^{\\circ}}{\\epsilon_0}=\\frac{q}{2 \\epsilon_0}=\\frac{\\phi}{\\sqrt{3}} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpwz486.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_004",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an electric dipole comprising two charges $+q$ and $-q$ each with mass $m$, separated by a fixed distance $d$ and initially at rest with its dipole moment pointing along $\\hat{\\imath}$. A uniform electric field $E \\hat{\\jmath}$ is turned on at time $t = 0$ and it is turned off at $t = t_f$, when the dipole moment makes an angle $\\theta_f$ with $\\hat{\\imath}$. Neglecting any sources of energy loss, correct option(s) is/are :",
+    "solution": "An electric dipole consists of two equal and opposite charges separated by a distance vector $\\vec{d}$. The electric dipole moment vector $\\overrightarrow{\\mathrm{p}}$ is defined as :\n$$ \\overrightarrow{\\mathrm{p}}=\\mathrm{q} \\overrightarrow{\\mathrm{~d}} $$\n\n[Diagram]\n\nWhen the dipole is placed in a uniform electric field $\\vec{E}=E \\hat{\\jmath}$. The force experienced by a point charge $Q$ in an electric field is given by $\\vec{F}=Q \\vec{E}$\nThe force on the positive charge $+q$ is:\n$$ \\overrightarrow{\\mathrm{F}}_{+}=(+\\mathrm{q})(\\mathrm{E} \\hat{\\jmath})=\\mathrm{qE} \\hat{\\jmath} $$\nThe force on the negative charge -q is:\n$$ \\overrightarrow{\\mathrm{F}}_{-}=(-\\mathrm{q})(\\mathrm{E} \\hat{\\jmath})=-\\mathrm{qE} \\hat{\\jmath} $$\n\n[Diagram]\n\nThe total external force $\\overrightarrow{\\mathrm{F}}_{\\mathrm{ext}}$ acting on the dipole system is the vector sum of these individual forces:\n$$ \\overrightarrow{\\mathrm{F}}_{\\mathrm{ext}}=\\overrightarrow{\\mathrm{F}}_{+}+\\overrightarrow{\\mathrm{F}}_{-}=\\mathrm{qE} \\hat{\\jmath}+(-\\mathrm{qE} \\hat{\\jmath})=0 $$\nBy Newton's second law for a system of particles, the acceleration of the center of mass $\\overrightarrow{\\mathrm{a}}_{\\mathrm{cm}}$ is related to the net external force by:\n$$ \\overrightarrow{\\mathrm{F}}_{\\mathrm{ext}}=\\mathrm{M}_{\\mathrm{total}} \\overrightarrow{\\mathrm{a}}_{\\mathrm{cm}} \\Rightarrow \\overrightarrow{\\mathrm{a}}_{\\mathrm{cm}}=0 $$\nSince the dipole is initially completely at rest, its initial center of mass velocity is zero. Because the net external acceleration remains zero at all times, the center of mass must remain stationary at its initial position. It does not deflect in any direction. Thus, option (A) is incorrect.\nThe torque $\\vec{\\tau}$ exerted by a uniform electric field on a dipole is given by the vector cross product:\n$$ \\vec{\\tau}=\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{E}} $$\nInitially, at $t=0, \\overrightarrow{\\mathrm{p}}$ points along $\\hat{1}$ and $\\overrightarrow{\\mathrm{E}}$ points along $\\hat{\\mathrm{j}}$.\nAs the dipole rotates, let $\\theta$ be the instantaneous angle that the dipole moment vector makes with the positive x -axis (î).\n\n[Diagram]\n\nThe magnitude of this restoring torque tending to align the dipole with the electric field along $\\hat{\\jmath}$ is:\n$$ \\tau=|\\overrightarrow{\\mathrm{p}}||\\overrightarrow{\\mathrm{E}}| \\sin \\left(\\frac{\\pi}{2}-\\theta\\right)=\\mathrm{pE} \\cos \\theta=\\mathrm{qdE} \\cos \\theta $$\nThe moment of inertia I of the dipole rotating about its center of mass (the midpoint of the fixed distance d , since both charges have identical mass m ) is:\n$$I = m\\left(\\frac{d}{2}\\right)^2 + m\\left(\\frac{d}{2}\\right)^2 = \\frac{md^2}{4} + \\frac{md^2}{4} = \\frac{1}{2}md^2$$\nUsing work-energy theorem for rotational systems the work done by the torque equals the change in the rotational kinetic energy of the system:\n$$W = \\int\\limits_{0}^{\\theta_f} \\tau \\, d\\theta = \\Delta K_{\\mathrm{rot}}$$\nSubstituting the expression for torque:\n$$W = \\int\\limits_{0}^{\\theta_f} (qdE \\cos \\theta) \\, d\\theta = qdE\\,[\\sin \\theta]_{0}^{\\theta_f} = qdE \\sin \\theta_f$$\nSince the dipole starts from rest, its initial kinetic energy is zero ($K_i = 0$):\n$$\\Delta K_{\\mathrm{rot}} = K_f - 0 = \\frac{1}{2}I\\omega_f^2\\frac{1}{2}I\\omega_f^2 = qdE \\sin \\theta_f$$\nSubstituting the expression for the moment of inertia $I = \\frac{1}{2}md^2$:\n$$\\frac{1}{2}\\left(\\frac{1}{2}md^2\\right)\\omega_f^2 = qdE \\sin \\theta_f\\frac{1}{4}md^2\\omega_f^2 = qdE \\sin \\theta_f \\rightarrow \\omega_f^2 = \\frac{4qE}{md}\\sin \\theta_f\\omega_f = \\sqrt{\\frac{4qE}{md}\\sin \\theta_f}$$\nFor $\\omega_f = \\sqrt{\\frac{2qE}{md}}$\n$$\\sqrt{\\frac{4qE}{md}}\\sin \\theta_f = \\sqrt{\\frac{2qE}{md}}\\frac{4qE}{md}\\sin \\theta_f = \\frac{2qE}{md}4\\sin \\theta_f = 2 \\rightarrow \\sin \\theta_f = \\frac{2}{4} = \\frac{1}{2}\\theta_f = \\frac{\\pi}{6}$$\nThus, option (B) is correct.\nWhen $\\theta_f = \\frac{\\pi}{3}$ using work-energy theorem,\n$$\\Delta K = qdE\\sin \\theta_f\\Delta K = qdE\\sin\\left(\\frac{\\pi}{3}\\right) = qdE\\left(\\frac{\\sqrt{3}}{2}\\right) = \\frac{\\sqrt{3}}{2}qEd$$\nThus, Option (C) is incorrect.\nAt $t=t_f$, the electric field is completely turned off $(\\vec{E}=0)$.\nWhen the electric field becomes zero, the electric torque acting on the dipole falls to zero\n$$ \\vec{\\tau}=\\vec{p} \\times 0=0 $$\nAccording to the rotational form of Newton's second law:\n$$ \\vec{\\tau}=\\vec{I} \\alpha \\Rightarrow \\vec{\\alpha}=0 $$\nSince the angular acceleration $\\vec{\\alpha}$ is zero for all times $\\mathrm{t}>\\mathrm{t}_{\\mathrm{f}}$, the angular velocity must remain constant at its final value $\\omega_{\\mathrm{f}}$. Thus, Option (D) is correct.\nTherefore, the correct options are (B) and (D).",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "The center of mass of the dipole is deflected towards $\\hat{\\jmath}$ in the presence of the field.",
+      "If the magnitude of the final angular velocity $\\omega_f = \\sqrt{\\frac{2qE}{md}}$, then $\\theta_f = \\frac{\\pi}{6}$.",
+      "If $\\theta_f = \\pi/3$, then the change in kinetic energy of the dipole is given by $2\\sqrt{3}\\ qEd$.",
+      "For $\\theta_f = \\pi/4$, the dipole rotates around its center of mass with a constant angular velocity after $t > t_f$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpp6gcne.webp",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_005",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A positive point charge of $10^{-8}$ C is kept at a distance of 20 cm from the center of a neutral conducting sphere of radius 10 cm. The sphere is then grounded and the charge on the sphere is measured. The grounding is then removed and subsequently the point charge is moved by a distance of 10 cm further away from the center of the sphere along the radial direction. Taking $\\frac{1}{4\\pi\\epsilon_0} = 9 \\times 10^9$ Nm$^2$/C$^2$ (where $\\epsilon_0$ is the permittivity of free space), which of the following statements is/are correct:",
+    "solution": "[Diagram]\n\nBefore grounding\n$$ \\begin{aligned} & \\mathrm{V}_{\\text {sphere }}=\\left(\\mathrm{V}_{\\mathrm{C}}\\right)_{\\text {net }}=\\left(\\mathrm{V}_{\\mathrm{C}}\\right)_{\\mathrm{q}}+\\left(\\mathrm{V}_{\\mathrm{C}}\\right)_{\\text {ind }} \\\\ & \\mathrm{V}_{\\text {sphere }}=\\frac{\\mathrm{kq}}{\\ell}+0=\\frac{9 \\times 10^9 \\times 10^{-8}}{0.2}=\\frac{90}{0.2}=\\frac{900}{2}=450 \\text { volt } \\end{aligned} $$\nAfter grounding\n\n[Diagram]\n\n$$ \\begin{aligned} & \\frac{\\mathrm{kQ}}{\\ell}+\\frac{\\mathrm{kq}_{\\mathrm{s}}}{\\mathrm{R}}=\\mathrm{V}_{\\text {sphere }}^{\\prime}=0 \\\\ & \\mathrm{q}_{\\mathrm{s}}=-\\frac{\\mathrm{R}}{\\ell} \\mathrm{q}=-\\frac{1}{2} \\times 10^{-8}=-5 \\times 10^{-9} \\\\ & \\mathrm{q}_{\\mathrm{s}}=-5 \\times 10^{-9} \\text { Coulomb } \\end{aligned} $$\nCharge flower from sphere to ground $=5 \\times 10^{-9}$ Coulomb\nAfter grounding is removed\n$$ \\begin{aligned} & \\left(\\mathrm{V}_{\\text {sphere }}\\right)_{\\text {final }}=\\frac{\\mathrm{kq}}{\\ell^{\\prime}}+\\frac{\\mathrm{kq}_{\\mathrm{s}}}{\\mathrm{R}} \\\\ & =\\frac{9 \\times 10^9 \\times 10^2 \\times 10^{-8}}{30}-\\frac{9 \\times 10^9 \\times 5 \\times 10^{-9} \\times 10^2}{10} \\\\ & =\\frac{9 \\times 1000}{30}-450=300 \\mathrm{volt}-450 \\mathrm{volt}=-150 \\mathrm{volt} \\end{aligned} $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Before the grounding, the electrostatic potential of the sphere is 450 V.",
+      "Charge flowing from the sphere to the ground because of grounding is $5 \\times 10^{-9}$ C.",
+      "After the grounding is removed, the charge on the sphere is $-5 \\times 10^{-9}$ C.",
+      "The final electrostatic potential of the sphere is 300 V."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1may07gef.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_006",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six infinitely large and thin non-conducting sheets are fixed in configurations I and II. As shown in the figure, the sheets carry uniform surface charge densities which are indicated in terms of $\\sigma_0$. The separation between any two consecutive sheets is $1~\\mu \\text{m}$. The various regions between the sheets are denoted as 1, 2, 3, 4 and 5. If $\\sigma_0 = 9~\\mu\\text{C/m}^2$, then which of the following statements is/are correct:(Take permittivity of free space $\\epsilon_0 = 9 \\times 10^{-12}$ F/m) table { width: 100%; border-collapse: collapse; margin: 20px 0; } th { background-color: blue; color: white; border: 1px solid lightgrey; padding: 10px; } td { border: 1px solid lightgrey; padding: 10px; text-align: left; }\n[Diagram]",
+    "solution": "[Diagram]\n\n$\\begin{aligned}\\left(E_4\\right)_I= & \\frac{\\sigma_0}{2 \\epsilon_0}[1-1+1-1-1+1]=0 \\\\ \\left(V_{\\text {First }}\\right)_I & =\\frac{-\\sigma_0}{2 \\epsilon_0}[-1+2-3+4-5] \\mathrm{d} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}[-3] \\mathrm{d}=\\frac{\\sigma_0 3 \\mathrm{~d}}{2 \\epsilon_0}\\end{aligned}$\n$\\begin{aligned} & \\begin{aligned}\\left(V_{\\text {Last }}\\right)_I & =\\frac{-\\sigma_0}{2 \\epsilon_0}[1-2+3-4+5] \\\\ & =\\frac{\\sigma_0}{2 \\epsilon_0}[-3 \\mathrm{~d}]\\end{aligned} \\\\ & \\begin{aligned}\\left(V_{\\text {First }}-V_{\\text {Last }}\\right)_I & =\\frac{3 \\sigma_0 \\mathrm{~d}}{\\epsilon_0} \\\\ & =\\frac{3 \\times 9 \\times 10^{-6} \\times 1 \\times 10^{-6}}{9 \\times 10^{-12}}=3 \\mathrm{volt}\\end{aligned}\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} & \\begin{aligned}\\left(\\mathrm{E}_3\\right)_{\\text {II }}= & \\frac{\\sigma_0}{2 \\epsilon_0}\\left[\\frac{1}{2}-1+1+1-1+\\frac{1}{2}\\right]=\\frac{\\sigma_0}{2 \\epsilon_0} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}\\left[-1+2-3+4-\\frac{5}{2}\\right] \\mathrm{d} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}[2-2.5] \\mathrm{d}=\\frac{\\sigma_0 \\mathrm{~d}}{4 \\epsilon_0}\\end{aligned} \\\\ & \\left(\\mathrm{~V}_{\\text {Last }}\\right)_{\\text {II }}=\\frac{-\\sigma_0}{2 \\epsilon_0}\\left[1-2+3-4+\\frac{5}{2}\\right] \\mathrm{d} \\\\ & \\\\ & \\quad=\\frac{-\\sigma_0}{2 \\epsilon_0}[6.5-6] \\mathrm{d}=\\frac{-\\sigma_0 \\mathrm{~d}}{4 \\epsilon_0} \\\\ & \\left(\\mathrm{~V}_{\\text {First }}-\\mathrm{V}_{\\text {Last }}\\right)_{\\text {II }}=\\frac{\\sigma_0 \\mathrm{~d}}{2 \\epsilon_0}\neq 0\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "In region 4 of the configuration I, the magnitude of the electric field is zero.",
+      "In region 3 of the configuration II, the magnitude of the electric field is $\\dfrac{\\sigma_0}{\\epsilon_0}$.",
+      "Potential difference between the first and the last sheets of the configuration I is 5 V.",
+      "Potential difference between the first and the last sheets of the configuration II is zero."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawaadq1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_007",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small electric dipole $\\vec{p}_0$, having a moment of inertia $I$ about its center, is kept at a distance $r$ from the center of a spherical shell of radius $R$. The surface charge density $\\sigma$ is uniformly distributed on the spherical shell. The dipole is initially oriented at a small angle $\\theta$ as shown in the figure. While staying at a distance $r$, the dipole is free to rotate about its center.\n\n[Diagram]\n\nIf released from rest, then which of the following statement(s) is(are) correct?\n\n[ $\\varepsilon_0$ is the permittivity of free space.]",
+    "solution": "The electric field inside sphere is zero. So dipole will oscillate when $$r>R$$.\n$$\\begin{aligned}\n& \\text { For } \\mathrm{r}>\\mathrm{RE}=\\frac{\\sigma \\mathrm{R}^2}{\\varepsilon_0 \\mathrm{r}^2} \\\\\n& \\omega=\\sqrt{\\frac{\\mathrm{PE}}{\\mathrm{I}}}=\\sqrt{\\frac{\\mathrm{P}_0 \\sigma \\mathrm{R}^2}{\\mathrm{I} \\varepsilon_0 \\mathrm{r}^2}}\n\\end{aligned}$$\nwhen $$r=2 R\\omega=\\sqrt{\\frac{\\mathrm{P}_0 \\sigma}{4 \\mathrm{I} \\varepsilon_0}}$$\nwhen $$r=10 R\\omega=\\sqrt{\\frac{\\mathrm{P}_0 \\sigma}{100 \\mathrm{I} \\varepsilon_0}}$$",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "The dipole will undergo small oscillations at any finite value of $r$.",
+      "The dipole will undergo small oscillations at any finite value of $r>R$.",
+      "The dipole will undergo small oscillations with an angular frequency of $\\sqrt{\\frac{2 \\sigma p_0}{\\epsilon_0 I}}$ at $r=2 R$.",
+      "The dipole will undergo small oscillations with an angular frequency of $\\sqrt{\\frac{\\sigma p_0}{100 \\epsilon_0 I}}$ at $r=10 R$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpwmows.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_008",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the figure, the inner (shaded) region $A$ represents a sphere of radius $r_{A}=1$, within which the electrostatic charge density varies with the radial distance $r$ from the center as $\\rho_{A}=k r$, where $k$ is positive. In the spherical shell $B$ of outer radius $r_{B}$, the electrostatic charge density varies as $\\rho_{B}=$ $\\frac{2 k}{r}$. Assume that dimensions are taken care of. All physical quantities are in their SI units.\n\n[Diagram]\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "[Diagram]\n\n$\\begin{aligned} Q_{\\text {Total }} & =\\int_0^{r_A} k r\\left(4 \\pi r^2\\right) d r+\\int_{r_A}^{r_B} \\frac{2 k}{r}\\left(4 \\pi r^2\\right) d r \\\\\\\\ & =\\frac{4 \\pi k}{4} r_A^4+\\frac{8 \\pi k}{2}\\left(r_B^2-r_A^2\\right) \\\\\\\\ & =\\pi k+4 \\pi k\\left(r_B^2-r_A^2\\right)\\end{aligned}$\n\n(A) If $\\mathrm{r}_{\\mathrm{B}} =\\sqrt{\\frac{3}{2}}, \\ r_A=1 $\n\n$\n\\mathrm{Q}_{\\text {total }} =\\pi k r_A^4+4 \\pi k\\left(\\frac{3}{2}-r_A^2\\right) $\n\n$\n=\\pi k+4 \\pi k\\left(\\frac{3}{2}-1\\right) $\n\n$ =3 \\pi k$\n\n(B) If $\n\nr_B=\\frac{3}{2} \\& r_A=1 $\n\n$\n\\mathrm{Q}_{\\text {total }}=\\pi k r_A^4+4 \\pi k\\left(\\frac{9}{4}-1\\right) $\n\n$\n=6 \\pi k $$\n\\mathrm{~V}=\\frac{1}{4 \\pi \\varepsilon_0}\\left(\\frac{6 \\pi k}{r_B}\\right)=\\frac{k}{\\varepsilon_0} $\n\n$\n\\text { Hence, } \\quad \\mathrm{V}=\\frac{k}{\\varepsilon_0} $\n\n(C) If\n$\nr_B =2 $\n\n$\n\\mathrm{Q}_{\\text {total }} =13 \\pi K$\n\n(D) If $\nr_B =5 / 2 $\n\n$\nQ_{\\text {total }} =22 \\pi k $\n\n$\nE =\\frac{1}{4 \\pi \\varepsilon_0} \\frac{(22 \\pi k)}{25} \\times 4 $\n\n$$ \\Rightarrow $$ $E =\\frac{22 k}{25 \\varepsilon_0}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "If $r_{B}=\\sqrt{\\frac{3}{2}}$, then the electric field is zero everywhere outside $B$.",
+      "If $r_{B}=\\frac{3}{2}$, then the electric potential just outside $B$ is $\\frac{k}{\\epsilon_{0}}$.",
+      "If $r_{B}=2$, then the total charge of the configuration is $15 \\pi k$.",
+      "If $r_{B}=\\frac{5}{2}$, then the magnitude of the electric field just outside $B$ is $\\frac{13 \\pi k}{\\epsilon_{0}}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9tmcu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_009",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A disk of radius $\\mathrm{R}$ with uniform positive charge density $\\sigma$ is placed on the $x y$ plane with its center at the origin. The Coulomb potential along the $z$-axis is\n\n$$\nV(z)=\\frac{\\sigma}{2 \\epsilon_{0}}\\left(\\sqrt{R^{2}+z^{2}}-z\\right) .\n$$\n\nA particle of positive charge $q$ is placed initially at rest at a point on the $z$ axis with $z=z_{0}$ and $z_{0}>0$. In addition to the Coulomb force, the particle experiences a vertical force $\\vec{F}=-c \\hat{k}$ with $c>0$. Let $\\beta=\\frac{2 c \\epsilon_{0}}{q \\sigma}$.\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "$ \\mathrm{V}(z) =\\frac{\\sigma}{2 \\varepsilon_0}\\left(\\sqrt{\\mathrm{R}^2+z^2}-z\\right) $\n\n$ \\mathrm{U}(z)_{\\mathrm{net}} =\\frac{\\sigma q}{2 \\varepsilon_0}\\left(\\sqrt{\\mathrm{R}^2+z^2}-z\\right)+\\mathrm{cz} $\n\n$ =c\\left[\\frac{\\sigma q}{2 c \\varepsilon_0}\\left(\\sqrt{\\mathrm{R}^2+z^2}-z\\right)+z\\right]$\n\nWhen, $z=0$ and $\\beta=1 / 4$\n\n$$\n\\mathrm{U}_{(z) \\text { net }}=c(4 \\mathrm{R})=4 R c\n$$\n\nWhen, $z=z_0=\\frac{25}{7} \\mathrm{R}$ and; $\\mathrm{B}=\\frac{1}{4}$\n\n$$\nU_{(z) \\text { net }}=C\\left[4 \\times \\frac{26 R}{7}-3 \\times \\frac{25 R}{7}\\right]=\\frac{29 R c}{7}\n$$\n\nWhen, $z=z_0=\\frac{3 R}{7}$ and $\\beta=\\frac{1}{4}$\n\n$$\n\\mathrm{U}_{(z) \\text { net }}=3 R c\n$$\n\nWhen, $Z=\\frac{R}{\\sqrt{3}}$ and $\\beta=\\frac{1}{4}$\n\n$$\n\\mathrm{U}_{(z) n \\mathrm{t}}=2.887 \\mathrm{Rc}\n$$\n\nAs per option (A), particle reaches at origin with the $\\mathrm{KE}$\n\n$$\n\\frac{d(U)_z}{d z}=0 \\text { at } z=\\frac{3 R}{\\sqrt{7}}\n$$\n\nSo, at $\\beta = \\frac{1}{4}$ and $z=\\frac{3 R}{\\sqrt{7}}$\n\n$$\n\\mathrm{U}_{z(\\text { net })}=\\sqrt{7} R c=2.645 R c\n$$\n\nSimilarly, for option (B),\n\n$\\mathrm{U}_{(z) \\text { net }}$ at $z=\\frac{\\mathrm{R}}{\\sqrt{3}}$ the kinetic energy at origin\n\nwill become negative and mearly equal to $3 R c$\n\nAlso, for option (C)\n\n$\\mathrm{U}_{(z) \\text { net }}$ at $\\mathrm{Z}=\\frac{\\mathrm{R}}{\\sqrt{3}}>\\mathrm{U}_{(z) \\text { net }}$ at $z=\\frac{3 \\mathrm{R}}{\\sqrt{7}}$\n\nParticle will return to $z_0$\n\nAs per option $D,(\\beta>1 $ and $z_0>0) $ $U_{z(\\text { net })}$ increases continuously with $\\mathrm{Z}$. So, particle reaches the origin.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "For $\\beta=\\frac{1}{4}$ and $z_{0}=\\frac{25}{7} R$, the particle reaches the origin.",
+      "For $\\beta=\\frac{1}{4}$ and $z_{0}=\\frac{3}{7} R$, the particle reaches the origin.",
+      "For $\\beta=\\frac{1}{4}$ and $z_{0}=\\frac{R}{\\sqrt{3}}$, the particle returns back to $z=z_{0}$.",
+      "For $\\beta>1$ and $z_{0}>0$, the particle always reaches the origin."
+    ]
+  },
+  {
+    "id": "phy_electrostatics_010",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six charges are placed around a regular hexagon of side length $a$ as shown in the figure. Five of them have charge $q$, and the remaining one has charge $x$. The perpendicular from each charge to the nearest hexagon side passes through the center 0 of the hexagon and is bisected by the side.\n\n[Diagram]\n\nWhich of the following statement(s) is(are) correct in SI units?",
+    "solution": "When, x = q, the situation is symmetric\n$$\\Rightarrow$$ Electric field at O would be zero.\n$$\\Rightarrow$$ (A) is correct.\nWhen x = $$-$$q, we can think of x as q + ($$-$$2q) $$\\Rightarrow$$ Magnitude of electric field at $$O = {1 \\over {4\\pi { \\in _0}}}{{(2q)} \\over {{{\\left( {2 \\times {{\\sqrt 3 a} \\over 2}} \\right)}^2}}} = {1 \\over {4\\pi { \\in _0}}}{{2q} \\over {3{a^2}}} = {q \\over {6\\pi { \\in _0}{a^2}}}\\Rightarrow$$ (B) is correct.\nFor x = 2q, potential at O is\n$${V_0} = 6 \\times {1 \\over {4\\pi { \\in _0}}} \\times {q \\over {\\sqrt 3 a}} + {1 \\over {4\\pi { \\in _0}}}{q \\over {\\sqrt 3 a}} = {{7q} \\over {4\\sqrt 3 \\pi { \\in _0}a}}\\Rightarrow$$ (C) is correct.\nFor $$x = - 3q,\\,{V_0} = 2 \\times {1 \\over {4\\pi { \\in _0}}} \\times {q \\over {\\sqrt 3 a}} = {q \\over {2\\sqrt 3 \\pi { \\in _0}a}}\\Rightarrow$$ (D) is not correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "When $x=q$, the magnitude of the electric field at 0 is zero.",
+      "When $x=-q$, the magnitude of the electric field at 0 is $\\frac{q}{6 \\pi \\epsilon_{o} a^{2}}$.",
+      "When $x=2 q$, the potential at 0 is $\\frac{7 q}{4 \\sqrt{3} \\pi \\epsilon_{o} a}$.",
+      "When $x=-3 q$, the potential at 0 is $-\\frac{3 q}{4 \\sqrt{3} \\pi \\epsilon_{o} a}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ekyvoq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_011",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical non-conducting solid spheres of same mass and charge are suspended in air from a common point by two non-conducting, massless strings of same length. At equilibrium, the angle between the strings is $$\\alpha$$. The spheres are now immersed in a dielectric liquid of density 800 kg m$^{$$-$$3}$ and dielectric constant 21. If the angle between the strings remains the same after the immersion, then",
+    "solution": "In air,\n\n\n[Diagram]\n\n\nT cos$$\\theta$$ = mg ..... (i)\n\nT sin$$\\theta$$ = qE ..... (ii)\n\nqE = mg tan$$\\theta$$ ..... (iii)\n\nIn liquid,\n\n\n[Diagram]\n\n\nT' cos$$\\theta$$ = mg $$-$$ U\n\nT' cos$$\\theta$$ = mg - $$\\rho $$vg ..... (iv)\n\nT' sin$$\\theta$$ = $${{qE} \\over K}$$ ...... (v)\n\nDividing Eq. (v) by Eq. (ii), we get\n\n$${{T'} \\over T} = {1 \\over K} \\Rightarrow T' = {T \\over K} = {T \\over {21}}$$ ..... (vi)\n\nDividing Eq. (iv) by Eq. (v), we get\n\n$${{qE} \\over K} = $$ (mg - $$\\rho $$vg)tan $$\\theta qE = $$ K(mg - $$\\rho $$vg)tan $$\\theta $$ ..... (vii)\n\nFrom Eqs. (vii) and (iii), we get\n\nmg tan$$\\theta $$ = K(mg - $$\\rho $$vg)tan $$\\theta \\Rightarrow $$ m = K(m - $$\\rho $$v)\n\n$$ \\Rightarrow $$ dv = K(dv - $$\\rho $$v)\n\n$$ \\Rightarrow $$ d = Kd - K$$\\rho \\Rightarrow $$ d = 21d - 21$$\\rho $$ [ $$ \\because $$ K = 21]\n\n$$ \\Rightarrow $$ 20d = 21$$\\rho \\Rightarrow $$ 20d = 21 $$ \\times $$ 800\n\n$$ \\Rightarrow $$ d = 840 kg/m$^{3}$",
+    "answerKey": [
+      "C",
+      "A"
+    ],
+    "options": [
+      "electric force between the spheres remains unchanged",
+      "electric force between the spheres reduces",
+      "mass density of the spheres is 840 kg m$^{$$-$$3}$",
+      "the tension in the strings holding the spheres remains unchanged"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_012",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform electric field, $$\\overrightarrow E = - 400\\sqrt 3 \\widehat y$$ NC$^{−1}$\nis applied in a region. A charged particle of mass m\ncarrying positive charge q is projected in this region with an initial speed of 2$$\\sqrt {10} \\times $$ 10$^{6}$ ms$^{−1}$\n. This\nparticle is aimed to hit a target T, which is 5 m away from its entry point into the field as shown\nschematically in the figure.\nTake $${q \\over m}$$\n= 10$^{10}$ Ckg$^{−1}$\n. Then\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\n$$a = {{qE} \\over m}{10^{10}} \\times 400\\sqrt 3 \\,m/{s^2}$$\n\nor $$a = 4\\sqrt 3 \\times {10^{12}}\\,m/{s^2} \\therefore R = {{{u^2}\\sin 2\\theta } \\over a} \\Rightarrow \\sin 2\\theta = {{Ra} \\over {{u^2}}}$$\n\nor $$\\sin 2\\theta = {{5 \\times 4\\sqrt 3 \\times {{10}^{12}}} \\over {4 \\times 10 \\times {{10}^{12}}}} \\Rightarrow \\sin 2\\theta = {{\\sqrt 3 } \\over 2} \\Rightarrow 2\\theta = 60^\\circ ,\\,120^\\circ \\Rightarrow \\theta = 30^\\circ $$ or $$\\,60^\\circ $$ for same range\n\n$$ \\therefore T = {{2u\\sin \\theta } \\over a} = {{2 \\times 2\\sqrt {10} \\times {{10}^6}} \\over {2 \\times 4\\sqrt 3 \\times {{10}^{12}}}} \\Rightarrow T = \\sqrt {{{10} \\over {12}}} \\times {10^{ - 6}} \\Rightarrow T = \\sqrt {{5 \\over 6}} \\times {10^{ - 6}}$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "the particle will hit T if projected at an angle 45$^{o}$\nfrom the horizontal",
+      "the particle will hit T if projected either at an angle 30$^{o}$ or 60$^{o}$\nfrom the horizontal",
+      "time taken by the particle to hit T could be $$\\sqrt {{5 \\over 6}} \\mu $$s as well as $$\\sqrt {{5 \\over 2}} \\mu $$s",
+      "time taken by the particle to hit T is $$\\sqrt {{5 \\over 3}} \\mu $$s"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_013",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An electric dipole with dipole moment $${{{p_0}} \\over {\\sqrt 2 }}(\\widehat i + \\widehat j)$$ is held fixed at the origin O in the presence of a uniform electric field of magnitude E$_{0}$.\n\n[Diagram]\n\nIf the potential is constant on a circle of radius R centered at the origin as shown in figure, then the correct statement(s) is/are, ($$ \\in $$$_{0}$ is the permittivity of the free space, R >> dipole size)",
+    "solution": "R >> Dipole size.\n\nCircle is equipotential.\n\nSo, E$_{net}$ should be perpendicular to surface hence,\n\n$${{k{p_0}} \\over {{r^3}}} = {E_0} \\Rightarrow R = {\\left( {{{k{p_0}} \\over {{E_0}}}} \\right)^{1/3}}$$\n\nAt point B, net electric field will be zero.\n\nE$_{B}$ = 0\n\n$${({E_A})_{net}} = {{2k{p_0}} \\over {{R^3}}} + {E_0} = 3{E_0}$$\n\nElectric field at point A, $${E_A} = {3 \\over {\\sqrt 2 }}{E_0}[\\widehat i + \\widehat j]{({E_B})_{net}}$$ = 0\n\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The magnitude of total electric field on any two points of the circle will be same.",
+      "Total electric field at point B is $${\\overrightarrow E _B}$$ = 0",
+      "$$R = {\\left( {{{{p_0}} \\over {4\\pi { \\in _0}{E_0}}}} \\right)^{1/3}}$$",
+      "Total electric field at point A is\n\n$${\\overrightarrow E _A} = \\sqrt 2 {E_0}(\\widehat i + \\widehat j)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71eqn0p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_014",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A charged shell of radius R carries a total charge Q. Given $$\\phi $$ as the flux of electric field through a closed cylindrical surface of height h, radius r and with its center same as that of the shell. Here, center of the cylinder is a point on the axis of the cylinder which is equidistant from its top and bottom surfaces. Which of the following option(s) is/are correct?\n\n[$$ \\in $$$_{0}$ is the permittivity of free space]",
+    "solution": "(a) h > 2R and r > R\n\n\n[Diagram]\n\n\n$$\\phi = {Q \\over {{\\varepsilon _0}}}$$, clearly from Gauss' Law\n\n(b) suppose $$h = {{8R} \\over 5}$$ and $$r = {{3R} \\over 5}$$\n\n\n[Diagram]\n\n\n$$ \\therefore \\phi $$ = 0\n\nso, for $$h < {{8R} \\over 5}$$ then $$\\phi $$ = 0.\n\n(c) For h = 3R and r = $${{4R} \\over 5}$$\n\n\n[Diagram]\n\n\nShaded charge = $$2\\pi (1 - \\cos \\,53^\\circ ) \\times {Q \\over {4\\pi }} = {Q \\over 5} \\therefore {q_{enclosed}} = {{2Q} \\over 5} \\therefore \\phi = {{2Q} \\over {5{\\varepsilon _0}}} \\therefore $$ for h > 2R and $$r = {{4R} \\over 5} \\therefore \\phi = {{2Q} \\over {5{\\varepsilon _0}}}$$\n\n(d) like option c for h = 2R and $$r = {{3R} \\over 5}{q_{enclosed}} = 2 \\times 2\\pi (1 - \\cos \\,37^\\circ ){Q \\over {4\\pi }} = {Q \\over 5} \\therefore $$ Electric flux, $$\\phi = {Q \\over {5{\\varepsilon _0}}}$$",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "If h > 2R and r = 4R / 5 then $$\\phi $$ = Q / 5 $$ \\in $$$_{0}$",
+      "If h > 2R and r = 3R / 5 then $$\\phi $$ = Q / 5 $$ \\in $$$_{0}$",
+      "If h < 8R /5 and r = 3R / 5 then $$\\phi $$ = 0",
+      "If h > 2R and r = R then $$\\phi $$ = Q / $$ \\in $$$_{0}$"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_015",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An infinitely long thin non-conducting wire is parallel to the $$z$$-axis and carries a uniform line charge density $$\\lambda .$$ It pierces a thin non-conducting spherical shell of radius $$R$$ in such a way that the arc $$PQ$$ subtends an angle $${120^ \\circ }$$ at the center $$O$$ of the spherical shell, as shown in the figure. The permittivity of free space is $${ \\in _0}.$$ Which of the following statement is (are) true?\n\n[Diagram]",
+    "solution": "Let Gaussian surface be same as the non-conducting spherical shell. The charge enclosed by this Gaussian surface is the charge on the line segment PQ i.e.,\n$${q_{enc}} = PQ\\lambda = \\sqrt 3 R\\lambda $$,\nwhere we used law of cosines in triangle OPQ to get $$PQ = \\sqrt {{R^2} + {R^2} - 2(R)(R)\\cos 120^\\circ } = \\sqrt 3 R$$. The electric flux through the shell (Gaussian surface) is given by Gauss's law\n$$\\phi = {q_{enc}}/{ \\in _0} = \\sqrt 3 R\\lambda /{ \\in _0}$$.\nThe electric field at a point due to the infinitely long line charge is radial i.e., perpendicular to the line PQ. The non-conducting spherical shell does not affect or alter the electric field. Thus, electric field at a point lying on the surface of the shell is perpendicular to the z-axis i.e., its z component is zero. The figure shows electric field on the surface of the shell for a positive line charge. Note that the magnitude of electric field is inversely proportional to the distance of the point from the line charge.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The electric flux through the shell is $$\\sqrt 3 R\\lambda /{ \\in _0}$$",
+      "The $$z$$-component of the electric field is zero at all the points on the surface of the shell",
+      "The electric flux through the shell is $$\\sqrt 2 R\\lambda /{ \\in _0}$$",
+      "The electric field is normal to the surface of the shell at all points"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_016",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A point charge $$+Q$$ is placed just outside an imaginary hemispherical surface of radius $$R$$ as shown in the figure. Which of the following statements is/are correct?\n\n[Diagram]",
+    "solution": "Since charge Q is outside the hemispherical surface, the net flux passing through the curved surface of hemispherical surface and flat surface is zero.\n\n[Diagram]\n\nTherefore,\n$$\\phi$$$_{curved}$ + $$\\phi$$$_{flat}$ = 0 ....... (1)\nHence, option (B) is incorrect.\nNow,\n$${\\phi _{flat}} = \\int {\\overrightarrow E .\\,d\\overrightarrow A = \\int {EdA\\cos \\theta } } $$\nand $$E = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {{{(\\sqrt {{R^2} + {r^2}} )}^2}}} = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {({R^2} + {r^2})}}$$\nAlso,\n$$\\cos \\theta = {R \\over {\\sqrt {{R^2} + {r^2}} }}$$\nand\n$$A = 2\\pi r \\Rightarrow dA = 2\\pi rdr$$\nTherefore,\n$${\\phi _{flat}} = \\int\\limits_0^R {{1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {{R^2} + {r^2}}}2\\pi rdr{R \\over {\\sqrt {{R^2} + {r^2}} }}} {\\phi _{flat}} = {{QR} \\over {2{\\varepsilon _0}}}\\int\\limits_0^R {{{rdr} \\over {{{({R^2} + {r^2})}^{3/2}}}}} $$\nSubstituting R$^{2}$ + r$^{2}$ = t, we get\n$$2rdr = dt \\Rightarrow {\\phi _{flat}} = {{QR} \\over {2{\\varepsilon _0}}}\\int\\limits_0^R {{{dt} \\over 2}{1 \\over {{t^{3/2}}}} = {{QR} \\over {2{\\varepsilon _0}}}\\left[ {{1 \\over 2}{{{t^{ - 1/2}}} \\over { - 1/2}}} \\right]_0^R} $$\nSubstituting $$t = {R^2} + {r^2}$$, we get\n$${\\phi _{flat}} = {{QR} \\over {2{\\varepsilon _0}}}\\left[ {{1 \\over 2}{{{{({R^2} + {r^2})}^{ - 1/2}}} \\over { - 1/2}}} \\right]_0^R = {{QR} \\over {2{\\varepsilon _0}}}\\left[ {{{ - 1} \\over {\\sqrt {{R^2} + {r^2}} }}} \\right]_0^R = {{QR} \\over {2{\\varepsilon _0}}}\\left( {{{ - 1} \\over {\\sqrt {{R^2} + {R^2}} }} + {1 \\over {\\sqrt {{R^2}} }}} \\right) = {{QR} \\over {2{\\varepsilon _0}}}\\left( {{{ - 1} \\over {\\sqrt {2{R^2}} }} + {1 \\over {\\sqrt {{R^2}} }}} \\right) = {{QR} \\over {2{\\varepsilon _0}}}\\left( {{{ - 1} \\over {\\sqrt 2 R}} + {1 \\over R}} \\right) = {{QR} \\over {2{\\varepsilon _0}}}{1 \\over R}\\left( {{{ - 1} \\over {\\sqrt 2 }} + 1} \\right) = {Q \\over {2{\\varepsilon _0}}}\\left( {{{ - 1} \\over {\\sqrt 2 }} + 1} \\right)$$\nUsing Eq. (1), we get\n$${\\phi _{curved}} = - {\\phi _{flat}} = - {Q \\over {2{\\varepsilon _0}}}\\left( {{{ - 1} \\over {\\sqrt 2 }} + 1} \\right) = - {Q \\over {2{\\varepsilon _0}}}\\left( {1 - {1 \\over {\\sqrt 2 }}} \\right)$$\nHence, option (A) is correct.\nThe potential at any point on the circumference of the flat surface is $${1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {\\sqrt 2 R}}$$.\nThus, the circumference of flat surface is equipotential.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "The electric flux passing through the curved surface of the hemisphere is\n\n$$ - {Q \\over {2{\\varepsilon _0}}}\\left( {1 - {1 \\over {\\sqrt 2 }}} \\right)$$",
+      "Total flux through the curved and the flat surfaces is $${Q \\over {{\\varepsilon _0}}}$$",
+      "The component of the electric field normal to the flat surface is constant over the surface",
+      "The circumference of the flat surface is an equipotential"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0k0hb3o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_017",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a uniform spherical charge distribution of radius $${R_1}$$ centred at the origin $$O.$$ In this distribution, a spherical cavity of radius $${R_2},$$ centred at $$P$$ with distance $$OP=a = {R_1} - {R_2}$$ (see figure) is made. If the electric field inside the cavity at position $$\\overrightarrow r $$ is $$\\overrightarrow E \\overrightarrow {\\left( r \\right)} ,$$ then the correct statement(s) is (are)\n\n[Diagram]",
+    "solution": "Let $$\\rho$$ be the charge density of the spherical charge distribution of radius r$_{1}$ centred at the origin O. A spherical cavity of radius r$_{2}$ centred at P with distance OP = a = r$_{1}$ $$-$$ r$_{2}$ is made in the spherical charge distribution.\n\n[Diagram]\n\nThe sphere with cavity is equivalent to a sphere of uniform charge density $$-\\rho$$ and radius r$_{2}$ centred at P embedded in the original sphere. Thus, the electric field at a point Q in the cavity is superposition of (i) electric field at Q due to the sphere of charge density $$\\rho$$ and radius r$_{1}$ centred at O (say $$\\overrightarrow E $$$_{1}$), and (ii) electric field at Q due to the sphere of charge density $$-\\rho$$ and radius r$_{2}$ centred at P (say $$\\overrightarrow E $$$_{2}$). Let $$\\overrightarrow a $$, $$\\overrightarrow r $$, and $$\\overrightarrow r -\\overrightarrow a $$ be the vectors as shown in the figure. The electric fields $$\\overrightarrow E $$$_{1}$, $$\\overrightarrow E $$$_{2}$, and their superposition $$\\overrightarrow E $$$_{12}$ are given by\n$${\\overrightarrow E _1} = {1 \\over {4\\pi { \\in _0}}}{{{4 \\over 3}\\pi |\\overrightarrow r {|^3}\\rho } \\over {|\\overrightarrow r {|^2}}}\\widehat r = {\\rho \\over {3{ \\in _0}}}\\overrightarrow r $$,\n$${\\overrightarrow E _2} = - {\\rho \\over {3{ \\in _0}}}(\\overrightarrow r - \\overrightarrow a )$$,\n$${\\overrightarrow E _{12}} = {\\overrightarrow E _1} + {\\overrightarrow E _2} = {\\rho \\over {3{ \\in _0}}}\\overrightarrow a $$.\nThus, the electric field at a point within the cavity is uniform and its magnitude and direction both depend on $$\\overrightarrow a $$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\overrightarrow E $$ is uniform, its magnitude is independent of $${R_2}$$ but its direction depends on $$\\overrightarrow r .$$",
+      "$$\\overrightarrow E $$ is uniform, its magnitude depends on $${R_2}$$ and its direction depends on $$\\overrightarrow r .$$",
+      "$$\\overrightarrow E $$ is uniform, its magnitude is independent of a but its direction depends on $$\\overrightarrow a $$",
+      "$$\\overrightarrow E $$ is uniform and both its magnitude and direction depend on $$\\overrightarrow a $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ylv7j0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_018",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The figures below depict two situations in which two infinitely long static line charges of constant positive line charge density $$\\lambda $$ are kept parallel to each other. In their resulting electric field, point charges $$q$$ and $$-q$$ are kept in equilibrium between them. The point charges are confined to move in the $$x$$ direction only. If they are given a small displacement about their equilibrium positions, then the correct statement(s) is (are)\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$E = {\\lambda \\over {2\\pi {\\varepsilon _0}r}}$$\nCase 1 : If q is shifted towards right by x, we get\n$$F = {F_2} - {F_1} = {{\\lambda q} \\over {2\\pi {\\varepsilon _0}}}\\left( {{1 \\over {{d \\over 2} - x}} - {1 \\over {{d \\over 2} + x}}} \\right)$$ (towards left)\nCase 2 : If $$-$$q is shifted towards right by x\n$$F = {F_2} - {F_1} = {{\\lambda q} \\over {2\\pi {\\varepsilon _0}}}\\left( {{1 \\over {{d \\over 2} - x}} - {1 \\over {{d \\over 2} + x}}} \\right)$$ (towards right)\nThus, +q exhibits SHM while $$-$$q continues to move towards rightwards.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Both charges execute simple harmonic motion",
+      "Both charges will continue moving in the direction of their displacement",
+      "Charge $$+q$$ executes simple harmonic motion while charge $$-q$$ continues moving in the direction of its displacement",
+      "Charge $$-q$$ executes simple harmonic motion while charge $$+q$$ continues moving in the direction of its displacement"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1536qgu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_019",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${E_1}\\left( r \\right),{E_2}\\left( r \\right)$$ and $${E_3}\\left( r \\right)$$ be the respective electric field at a distance $$r$$ from a point charge $$Q,$$ an infinitely long wire with constant linear charge density $$\\lambda ,$$ and an infinite plane with uniform surface charge density $$\\sigma .$$ If $$E{}_1\\left( {{r_0}} \\right) = {E_2}\\left( {{r_0}} \\right) = {E_3}\\left( {{r_0}} \\right)$$ at a given distance $${r_0}.$$ then",
+    "solution": "$${E_1}(r) = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {{r^2}}}{E_2}(r) = {\\lambda \\over {2\\pi {\\varepsilon _0}r}}{E_3}(r) = {\\sigma \\over {2{\\varepsilon _0}}}$$\nAt $$r = {r_0}$$,\n$${E_1}({r_0}) = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {r_0^2}}{E_2}({r_0}) = {\\lambda \\over {2\\pi {\\varepsilon _0}{r_0}}}{E_3}({r_0}) = {\\sigma \\over {2{\\varepsilon _0}}}$$\nAs $${E_1}({r_0}) = {E_2}({r_0}) = {E_3}({r_0})$$ (Given)\n$$\\therefore{1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {r_0^2}} = {\\lambda \\over {2\\pi {\\varepsilon _0}{r_0}}} = {\\sigma \\over {2{\\varepsilon _0}}}$$\nThen\n$${1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {r_0^2}} = {\\sigma \\over {2{\\varepsilon _0}}}$$\nor $$Q = \\sigma \\pi r_0^2$$\nHence, option (a) is incorrect.\nNow, $${\\lambda \\over {2\\pi {\\varepsilon _0}{r_0}}} = {\\sigma \\over {2{\\varepsilon _0}}}$$ or $${r_0} = {\\lambda \\over {\\pi \\sigma }}$$\nHence, option (b) is incorrect.\nAt $$r = {r_0}/2$$,\n$${E_1}({r_0}/2) = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {{{({r_0}/2)}^2}}} = {4 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {r_0^2}} = 4{E_1}({r_0})$$\nor, $${E_1}({r_0}) = {1 \\over 4}{E_1}({r_0}/2){E_2}({r_0}/2) = {\\lambda \\over {2\\pi {\\varepsilon _0}({r_0}/2)}} = {{2\\lambda } \\over {2\\pi {\\varepsilon _0}{r_0}}} = 2{E_2}({r_0})$$\nor, $${E_2}({r_0}) = {1 \\over 2}{E_2}({r_0}/2)\\because {E_1}({r_0}) = {E_2}({r_0})\\therefore{1 \\over 4}{E_1}({r_0}/2) = {1 \\over 2}{E_2}({r_0}/2)$$\nor, $${E_1}({r_0}/2) = 2{E_2}({r_0}/2)$$\nHence, option (c) is correct.\n$${E_3}({r_0}/2) = {\\sigma \\over {2{\\varepsilon _0}}} = {E_3}({r_0})\\because{E_2}({r_0}) = {E_3}({r_0})\\therefore{1 \\over 2}{E_2}({{{r_0}} \\over 2}) = {E_3}({{{r_0}} \\over 2})$$\nor, $${E_2}({r_0}/2) = 2{E_3}({r_0}/2)$$\nHence, option (d) is incorrect.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$Q = 4\\sigma \\pi r_0^2$$",
+      "$${r_0} = {\\lambda \\over {2\\pi \\sigma }}$$",
+      "$${E_1}\\left( {{r_0}/2} \\right) = 2{E_2}\\left( {{r_0}/2} \\right)$$",
+      "$${E_2}\\left( {{r_0}/2} \\right) = 4{E_3}\\left( {{r_0}/2} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzufdnpd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_020",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two non-conducting spheres of radii $${R_1}$$ and $${R_2}$$ and carrying uniform volume charge densities $$ + \\rho $$ and $$ - \\rho ,$$ respectively, are placed such that they partially overlap, as shown in the figure. At all points in the overlapping region\n\n[Diagram]",
+    "solution": "[Diagram]\n\nHere we will use the concept of vectors and concept of electric field.\nLet's take a point P in the overlapping region.\nFrom $$\\Delta OPQ$$,\nBy triangle law of vector addition,\n$$\\overrightarrow {{r_1}} - \\overrightarrow {{r_2}} = \\overrightarrow d \\quad \\text{... (1)}$$\nNet electrostatic field at point P;\n$${\\overrightarrow E _{net}} = {{K{q_1}} \\over {r_1^3}}\\overrightarrow {{r_1}} = {{K{q_2}} \\over {r_2^3}}\\overrightarrow {{r_2}} \\Rightarrow {\\overrightarrow E _{net}} = {{K\\left( {\\rho {4 \\over 3}\\pi r_1^3} \\right)\\overrightarrow {{r_1}} } \\over {r_1^3}} - {{K\\left( {\\rho {4 \\over 3}\\pi r_2^3} \\right)\\overrightarrow {{r_2}} } \\over {r_2^3}} \\Rightarrow {\\overrightarrow E _{net}} = {4 \\over 3}\\rho \\pi \\times {1 \\over {4\\pi {\\varepsilon _0}}}\\left( {\\overrightarrow {{r_1}} - \\overrightarrow {{r_2}} } \\right) \\Rightarrow {\\overrightarrow E _{net}} = {\\rho \\over {3{\\varepsilon _0}}}\\overrightarrow d $$\nHence, the electrostatic field is constant in magnitude and has same direction.\nTherefore, options (C) and (D) are correct.",
+    "answerKey": [
+      "D",
+      "C"
+    ],
+    "options": [
+      "The electrostatic field is zero",
+      "The electrostatic potential is constant",
+      "The electrostatic field is constant in magnitude",
+      "The electrostatic field has same direction"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzufdnpd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_021",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six point charges are kept at the vertices of a regular hexagon of side $$L$$ and center $$O,$$ as shown in the figure. Given that $$K = {1 \\over {4\\pi {\\varepsilon _0}}}{q \\over {{L^2}}},$$ which of the following statement(s) is (are) correct ?\n\n[Diagram]",
+    "solution": "table {\n\nwidth: 100%;\n\nborder-collapse: collapse;\n\nmargin: 20px 0;\n\n}\n\nth {\n\nbackground-color: blue;\n\ncolor: white;\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\n}\n\ntd {\n\nborder: 1px solid lightgrey;\n\npadding: 10px;\n\ntext-align: left;\n\n}\n\nThe electric field at point $O$ due to the charges at vertices $A$ and $D$ is $4K$ along the direction OD. Similarly, due to the charges at vertices $B$ and $E$, the electric field is $2K$ along the direction OE, and due to the charges at vertices $C$ and $F$, it is $2K$ along the direction OC. Given the uniform geometry of this setup, the resulting electric field is $6K$ along OD.\n\nThe potential at point $O$ is calculated as :\n\n$$ V_{\\mathrm{O}}=\\sum \\frac{1}{4 \\pi \\epsilon_0} \\frac{q_i}{L} = \\frac{1}{4 \\pi \\epsilon_0 L} \\sum q_i = 0 $$\n\nFor any point on the line PR, we observe that there are pairs of equal and opposite charges equidistant from these points, making the potential at any point on PR zero. If we consider points on OS, the potential is positive, while for points on OT, the potential is negative. The potential at points on the line ST, at a distance $x$ from $O$ (with $x$ considered positive towards the right), can be shown to be :\n\n$$ \\begin{aligned} V(x) = \\frac{q}{4 \\pi \\epsilon_0} \\left[ \\frac{2}{\\sqrt{L^2 + x^2 + xL}} - \\frac{2}{\\sqrt{L^2 + x^2 - xL}} - \\frac{4x}{L^2 - x^2} \\right]. \\end{aligned} $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The electric field at $$O$$ is $$6K$$ along $$OD$$",
+      "The potential at $$O$$ is zero",
+      "The potential at all points on the line $$PR$$ is same",
+      "The potential at all points on the line $$ST$$ is same"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l254ddmq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_022",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A cubical region of side $$a$$ has its center at the origin. It encloses three fixed point charges, $$-q$$ at $$\\left( {0, - a/4,0} \\right), + 3q$$ at $$\\left( {0,0,0} \\right)$$ and $$-q$$ at $$\\left( {0, + a/4,0} \\right).$$ Choose the correct option(s)\n\n[Diagram]",
+    "solution": "The positions of all charges are symmetric about the planes $$x = +\\frac{a}{2}$$ and $$x = -\\frac{a}{2}$$. Therefore, the net electric flux crossing the plane $$x = +\\frac{a}{2}$$ is equal to the net electric flux crossing the plane $$x = -\\frac{a}{2}$$.\n\nSimilarly, the net electric flux crossing the plane $$y = +\\frac{a}{2}$$ is equal to the net electric flux crossing the plane $$y = -\\frac{a}{2}$$.\n\nAccording to Gauss's law, the net electric flux crossing the entire region is given by:\n\n$$ \\phi = \\frac{q_{\\text{inside}}}{\\varepsilon_0} = \\frac{3q - q - q}{\\varepsilon_0} = \\frac{q}{\\varepsilon_0} $$\n\nThe charges are symmetrically placed about the planes $$z = +\\frac{a}{2}$$ and $$x = +\\frac{a}{2}$$. Thus, the net electric flux crossing the plane $$z = +\\frac{a}{2}$$ is equal to the net electric flux crossing the plane $$x = +\\frac{a}{2}$$.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The net electric flux crossing the plane $$x=+a/2$$ is equal to the net electric flux crossing the plane $$x=-a/2$$",
+      "The net electric flux crossing the plane $$y=+a/2$$ is more than the net electric flux crossing the plane $$y=-a/2.$$",
+      "The net electric flux crossing the entire region is $${q \\over {{\\varepsilon _0}}}$$",
+      "The net electric flux crossing the plane $$z = + a/2$$ is equal to the net electric flux crossing the plane $$x=+a/2.$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24kxnpa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_023",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is/are correct?",
+    "solution": "Gauss's law is valid only if Coulomb's law holds, i.e. if $$E \\propto {r^{ - 2}}$$. Hence, choice (a) is wrong. Gauss's law cannot be used to calculate a non-uniform field distribution around an electric dipole. So choice (b) is also wrong.\nChoice (c) is correct because the directions of electric fields are opposite at a point between two similar charges.\nWork done $${W_{A \\to B}} = q({V_B} - {V_A}) = ({V_B} - {V_A})$$ ($$\\becauseq = + \\,1\\,C$$)\nHence, choice (d) is correct.\nSo the correct choices are (c) and (d).",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "If the electric field due to a point charge varies as $${r^{ - 2.5}}$$ instead of $${r^{ - 2}},$$ then the Gauss law will still be valid.",
+      "The Gauss law can be used to calculate the field distribution around an electric dipole.",
+      "If the electric field between two point charges is zero somewhere, then the sign of the two charges is the same.",
+      "The work done by the external force in moving a unit positive charge from point $$A$$ at potential $${V_A}$$ to point $$B$$ at potential $${V_B}$$ is $$\\left( {{V_B} - {V_A}} \\right).$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4k39xk8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_024",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spherical metal shell A of radius $${R_A}$$ and a solid metal sphere $$B$$ of radius $${R_B}\\left( { < {R_A}} \\right)$$ are kept far apart and each is given charge $$' + Q'.$$ Now they are connected by a thin metal wire. Then",
+    "solution": "When connected by a wire, charges on A and B are redistributed until potential on both becomes equal. After the charge redistribution, A and B are not influenced by each other because they are far apart. Thus, $$E_A^{inside} = 0$$ as field inside a conducting shell is zero.\n\n[Diagram]\n\nSo choice (a) is correct.\nLet Q$_{A}$ and Q$_{B}$ are the charges on metal shell A and metal sphere B after they are connected by a wire. Since their electric potentials will be equal,\nV$_{A}$ = V$_{B}$\n$$ \\Rightarrow {{{Q_A}} \\over {4\\pi {\\varepsilon _0}{R_A}}} = {{{Q_B}} \\over {4\\pi {\\varepsilon _0}{R_B}}} \\Rightarrow {{{Q_A}} \\over {{Q_B}}} = {{{R_A}} \\over {{R_B}}}$$\nSince $${R_B} < {R_A}$$, $${Q_A} > {Q_B}$$. So choice (b) is correct.\nNow, $${\\sigma _A} = {{{Q_A}} \\over {4\\pi R_A^2}}$$ and $${\\sigma _B} = {{{Q_B}} \\over {4\\pi R_B^2}}\\therefore{{{\\sigma _A}} \\over {{\\sigma _B}}} = {{{Q_A}} \\over {{Q_B}}} \\times {\\left( {{{{R_B}} \\over {{R_A}}}} \\right)^2} = {{{R_A}} \\over {{R_B}}} \\times {\\left( {{{{R_B}} \\over {{R_A}}}} \\right)^2} = {{{R_B}} \\over {{R_A}}}$$\nHence, choice (c) is also correct.\nElectric fields on the surface of shell and sphere are\n$${E_A} = {{{\\sigma _A}} \\over {{\\varepsilon _0}}}$$\nand $${E_B} = {{{\\sigma _B}} \\over {{\\varepsilon _0}}}\\therefore{{{E_A}} \\over {{E_B}}} = {{{\\sigma _A}} \\over {{\\sigma _B}}} < 1$$, i.e. $${E_A} < {E_B}$$\nSo, choice (d) is also correct. All the four choices are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$E_A^{inside} = 0$$",
+      "$${Q_A} > {Q_B}$$",
+      "$${{{\\sigma _A}} \\over {{\\sigma _B}}} = {{{R_B}} \\over {{R_A}}}$$",
+      "$$E_A^{on\\,\\,surface} < \\,E_B^{on\\,\\,surface}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4k39xk8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_025",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A few electric field lines for a system of two charges $${Q_1}$$ and $${Q_2}$$ fixed at two different points on the $$x$$-axis are shown in the figure. These lines suggest that\n\n[Diagram]",
+    "solution": "Number of electric field lines originating from Q$_{1}$ is more than terminating at Q$_{2}$.\n$$\\therefore|{Q_1}| > |{Q_2}|$$\nHere, Q$_{1}$ is positive while Q$_{2}$ is negative.\nThe electric field at a distance x towards the right of Q$_{2}$ is given by\n$$|\\overrightarrow E | = {1 \\over {4\\pi { \\in _0}}}{{{Q_1}} \\over {{{(d + x)}^2}}} - {1 \\over {4\\pi { \\in _0}}}{{{Q_2}} \\over {{x^2}}}$$,\nwhere d is the separation between Q$_{1}$ and Q$_{2}$. Since $${Q_1} > {Q_2}$$, $$|\\overrightarrow E |$$ becomes zero for some finite x.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$\\left| {{Q_1}} \\right| > \\left| {{Q_2}} \\right|$$",
+      "$$\\left| {{Q_1}} \\right| < \\left| {{Q_2}} \\right|$$",
+      "at a finite distance to the left of $${{Q_1}}$$ the electric field is zero",
+      "at a finite distance to the right of $${{Q_2}}$$ the electric field is zero"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1mdll.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_026",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrostatic potential $\\left(\\phi_r\\right)$ of a spherical symmetric system, kept at origin, is shown in the adjacent figure, and given as\n$$ \\begin{array}{ll} \\phi_r=\\frac{q}{4 \\pi \\epsilon_0 r} & \\left(r \\geq \\mathrm{R}_0\\right) \\\\ \\phi_r=\\frac{q}{4 \\pi \\epsilon_0 \\mathrm{R}_0} & \\left(r \\leq \\mathrm{R}_0\\right) \\end{array} $$\n\n[Diagram]\nWhich of the following option(s) is/are correct?",
+    "solution": "(A) Since, potential is same, so electrostatic energy stored is zero.\n(B)\n\n[Diagram]\n$$ \\text { (C) There is no charge in air, } \\therefore r=\\mathrm{R}_0 $$\n\n[Diagram]\n(D) From $r=\\mathrm{R}_0$ to $\\infty$.\nWe can assume point charge at centre equivalent to $q$.\n\n[Diagram]\n$$ \\text { So, } \\overrightarrow{\\mathrm{E}} \\propto \\frac{1}{r^2} \\text { so, it is discontinuous } $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "For spherical region $r \\leq \\mathrm{R}_0$, the total electrostatic energy stored is zero.",
+      "Within $r=2 \\mathrm{R}_0$, the total charge is $q$.",
+      "There will be no charge anywhere except at $r=\\mathrm{R}_0$.",
+      "Electric field is discontinuous at $r=\\mathrm{R}_0$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt1mdll.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_027",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List-I shows four configurations, each consisting of a pair of ideal electric dipoles. Each dipole has a dipole moment of magnitude $p$, oriented as marked by arrows in the figures. In all the configurations the dipoles are fixed such that they are at a distance $2 r$ apart along the $x$ direction. The midpoint of the line joining the two dipoles is $X$. The possible resultant electric fields $\\vec{E}$ at $X$ are given in List-II.\nChoose the option that describes the correct match between the entries in **List-I** to those in **List-II**.\n\n\n\nList–I\n\nList–II\n\n\n\n\n\n(P)\n[Diagram]\n\n(1) $$\n\\vec{E}=0\n$$\n\n\n\n\n\n(Q)\n[Diagram]\n\n(2) $\\displaystyle \\vec{E} = -\\,\\frac{p}{2\\pi\\epsilon_0\\,r^3}\\,\\hat{\\jmath}$\n\n\n\n\n\n(R)\n[Diagram]\n\n(3) $\\displaystyle \\vec{E} = -\\,\\frac{p}{4\\pi\\epsilon_0\\,r^3}\\,(\\hat{\\imath} - \\hat{\\jmath})$\n\n\n\n\n\n(S)\n[Diagram]\n\n(4) $\\displaystyle \\vec{E} = \\frac{p}{4\\pi\\epsilon_0\\,r^3}\\,(2\\hat{\\imath} - \\hat{\\jmath})$\n\n\n\n\n\n\n\n(5) $\\displaystyle \\vec{E} = \\frac{p}{\\pi\\epsilon_0\\,r^3}\\,\\hat{\\imath}$",
+    "solution": "The electric field $\\vec{E}$ due to a dipole at a point is given by:\nOn the axial line (along the dipole axis): $E_{\\text {axial }}=\\frac{2 k p}{r^3}$ (along the dipole moment )\nwhere, $K=\\frac{1}{4 \\pi \\varepsilon_0}$\nOn the equatorial line (perpendicular bisector):\n$$ \\text { Equatorial }=\\frac{-k p}{r^3}\\binom{\\text { opposite to }}{\\text { the dipole moment }} $$\n\n[Diagram]\n\nHere, $x$ is on the equatorial line for both dipoles:\n$$ \\vec{E}=\\overrightarrow{E_1}+\\overrightarrow{E_2} \\text { } \\begin{aligned} & So\\,\\,\\, \\vec{E}=-\\frac{k p}{r^3} \\hat{j}-\\frac{k p}{r^3} \\hat{j} \\\\ & \\Rightarrow \\vec{E}=-\\frac{2 k p}{r^3} \\hat{j}=\\frac{-2}{r^3}\\left(\\frac{1}{4 \\pi \\varepsilon_0}\\right) p{\\hat{j}} \\\\ & \\Rightarrow \\vec{E}=\\frac{-p}{2 \\pi \\varepsilon_0 r^3} \\hat{j} \\\\ & \\text { So }(p) \\rightarrow(2) \\end{aligned} $$\n\n[Diagram]\n\nHere, $x$ is on the equatorial line for both dipoles.\n$$ \\begin{aligned} &\\text { Electric field at } x \\text { due to dipole } 1 \\text {, }\\\\ &\\vec{E}_1=-\\frac{k p}{r^3} \\hat{j} \\end{aligned} $$\nElectric field at $x$ due to dipole 2,\n$$ \\vec{E}_2=\\frac{k p}{r^3} \\hat{j} \\quad\\left(\\begin{array}{l} \\text { as dipole moment } \\\\ \\text { is in }-\\hat{j} \\text { direction }) \\end{array}\\right. $$\nso. $\\vec{E}=\\vec{E}_1+\\vec{E}_2$\n$$ \\begin{aligned} & =\\frac{-k p}{r^3} \\hat{j}+\\frac{k p}{r^3} \\hat{j} \\\\ & \\Rightarrow \\vec{E}=0 \\end{aligned} $$\nSo $($ Q $) \\longrightarrow(1)$\n\n[Diagram]\n\nHere, $x$ is on the equatorial\nline for dipole 1 and on the axial line for dipole 2.\nSo, $\\vec{E}_1=\\frac{-k p}{r^3} \\hat{j}$\nand $\\vec{E}_2=\\frac{2 k p}{r^3} \\hat{i}$\n\n$$ \\begin{aligned}So\\,\\,\\,\\,\\, \\vec{E} & =\\vec{E}_1+\\vec{E}_2 \\\\ & =\\frac{-k p}{r^3} \\hat{j}+\\frac{2 k p}{r^3} \\hat{i} \\\\ & =\\frac{k p}{r^3}(-\\hat{j}+2 \\hat{i}) \\end{aligned} \\begin{aligned} &\\begin{aligned} & \\Rightarrow \\vec{E}=\\frac{k p}{r^3}(2 \\hat{i}-\\hat{j}) \\\\ & \\Rightarrow \\vec{E}=\\frac{p}{4 \\pi \\varepsilon_0 r^3}(2 \\hat{i}-\\hat{j}) \\end{aligned}\\\\ &\\text { So }(R) \\rightarrow(4) \\end{aligned} $$\n\n[Diagram]\n\nHere, $x$ is on the axial line for both dipoles.\nso $\\vec{E}_1=\\frac{2 k p}{r^3} \\hat{i}$ and $\\overrightarrow{E_2}=\\frac{2 k p}{r^3} \\hat{i}$\nSo\n$$ \\begin{aligned} \\vec{E} & =\\vec{E}_1+\\vec{E}_2 \\\\ & =\\frac{2 k p}{r^3} \\hat{i}+\\frac{2 k p}{r^3} \\hat{i} \\\\ \\Rightarrow \\vec{E} & =\\frac{4 k p}{r^3} \\hat{i} \\\\ \\Rightarrow \\vec{E} & =4\\left(\\frac{1}{4 \\pi \\varepsilon_0}\\right) \\frac{p}{r^3} \\hat{i} \\\\ \\Rightarrow \\vec{E} & =\\frac{p}{\\pi \\varepsilon_0 r^3} \\hat{i} \\end{aligned} $$\nSo $(S) \\rightarrow(5)$\nHence, option (c) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$ \\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 1, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 4, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 3, \\mathrm{~S} \\rightarrow 1$",
+      "$\\mathrm{P} \\rightarrow 2, \\mathrm{Q} \\rightarrow 1, \\mathrm{R} \\rightarrow 4, \\mathrm{~S} \\rightarrow 5$",
+      "$\\mathrm{P} \\rightarrow 2, \\mathrm{Q} \\rightarrow 1, \\mathrm{R} \\rightarrow 3, \\mathrm{~S} \\rightarrow 5$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0e2pjo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_028",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two beads, each with charge $q$ and mass $m$, are on a horizontal, frictionless, non-conducting, circular hoop of radius $a$. One of the beads is glued to the hoop at some point, while the other one performs small oscillations about its equilibrium position along the hoop. The square of the angular frequency of the small oscillations is given by\n\n[ $\\varepsilon_0$ is the permittivity of free space.]",
+    "solution": "Consider a circular hoop of radius $a$ with centre $O$.\nBead $A$ is fixed to the hoop, while bead $B$ can slide freely along its circumference.\nForces on bead $B$:\nElectrostatic force due to bead $A$, acting along the line $AB$.\nNormal reaction from the hoop, directed radially inward toward $O$.\nBecause these two forces are the only interactions, bead $B$ reaches equilibrium at the point $C$—the position diametrically opposite $A$—where the Coulomb repulsion is exactly balanced by the hoop’s normal reaction.\n\n[Diagram]\n\nDisplace bead $B$ slightly from its equilibrium point $C$ by a small angle $\\theta$ measured at the centre $O$.\n1. Geometry of the configuration\nIn the isosceles triangle $OAB$ (see figure)\n\n$\\angle A=\\dfrac{\\theta}{2}$\n\n$\\angle O = 180^{\\circ}-\\theta$\n\nThe side opposite $\\angle O$ is $AB$. Using the cosine rule,\n\n$$ AB^{2}=a^{2}+a^{2}-2a^{2}\\cos(180^{\\circ}-\\theta)=4a^{2}\\cos^{2}\\!\\frac{\\theta}{2}. $$\nHence the separation of the charges is\n$$ r=AB=2a\\cos\\frac{\\theta}{2}. $$\n\n2. Coulomb force on $B$\n$$ F=\\frac{q^{2}}{4\\pi\\varepsilon_{0}r^{2}} =\\frac{q^{2}}{16\\pi\\varepsilon_{0}a^{2}\\cos^{2}\\dfrac{\\theta}{2}}. $$\n\n3. Components along the hoop\n\nThe force makes an angle $\\dfrac{\\theta}{2}$ with the radial line $OB$.\n\nNormal component: $F\\cos\\dfrac{\\theta}{2}$  (balanced by the normal reaction of the hoop).\n\nTangential component: $F\\sin\\dfrac{\\theta}{2}$  (provides the restoring acceleration).\n\nApplying Newton’s second law tangentially,\n$$ ma\\frac{d^{2}\\theta}{dt^{2}} =-F\\sin\\frac{\\theta}{2} =-\\frac{q^{2}}{16\\pi\\varepsilon_{0}a^{2}\\cos^{2}\\dfrac{\\theta}{2}}\\, \\sin\\frac{\\theta}{2}. $$\n(The minus sign shows the couple is restoring.)\n\n4. Small-angle approximation\n$ \\sin\\frac{\\theta}{2}\\simeq\\frac{\\theta}{2},\\qquad \\cos\\frac{\\theta}{2}\\simeq1. $\nSubstituting,\n$ \\frac{d^{2}\\theta}{dt^{2}} =-\\frac{q^{2}}{32\\pi\\varepsilon_{0}ma^{3}}\\;\\theta =-\\omega^{2}\\theta, $\nwhere\n$ \\boxed{\\displaystyle \\omega^{2} =\\frac{q^{2}}{32\\pi\\varepsilon_{0}ma^{3}} }. $\nThe motion is simple harmonic, with angular frequency $\\omega$ given above.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{{q^2}} \\over {4\\pi {\\varepsilon _0}{a^3}m}}$$",
+      "$${{{q^2}} \\over {32\\pi {\\varepsilon _0}{a^3}m}}$$",
+      "$${{{q^2}} \\over {8\\pi {\\varepsilon _0}{a^3}m}}$$",
+      "$${{{q^2}} \\over {16\\pi {\\varepsilon _0}{a^3}m}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m9x2kgo2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_029",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An electric dipole is formed by two charges $+q$ and $-q$ located in $x y$-plane at $(0,2) \\mathrm{mm}$ and $(0,-2) \\mathrm{mm}$, respectively, as shown in the figure. The electric potential at point $P(100,100) \\mathrm{mm}$ due to the dipole is $V_0$. The charges $+q$ and $-q$ are then moved to the points $(-1,2) \\mathrm{mm}$ and $(1,-2) \\mathrm{mm}$, respectively. What is the value of electric potential at $P$ due to the new dipole?\n\n[Diagram]",
+    "solution": "$$\nV_1 \\propto \\frac{p_1 \\cos \\theta_1}{r_1^3}\n$$\n\n[Diagram]\n\n$$\nV_2 \\propto \\frac{p_2 \\cos \\theta_2}{r_2^3}\n$$\n\n[Diagram]\n\n$$\n\\begin{aligned}\n& \\frac{V_2}{V_1}=\\frac{p_2 \\cos \\theta_2}{p_1 \\cos \\theta_1} \\\\\\\\\n& \\frac{V_2}{V_1}=\\frac{q(-2 \\hat{i}+4 \\hat{j}) \\cdot(\\hat{i}+\\hat{j})}{q(0 \\hat{i}+4 \\hat{j}) \\cdot(\\hat{i}+\\hat{j})}=\\frac{1}{2}\n\\end{aligned}\n\n\\Rightarrow V_2=\\frac{V_0}{2}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{V_0}{4}$",
+      "$\\frac{V_0}{2}$",
+      "$\\frac{V_0}{\\sqrt{2}}$",
+      "$\\frac{3 V_0}{4}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liioyoeu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_030",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin spherical insulating shell of radius R carries a uniformly distributed charge such that the potential at its surface is V$_{0}$. A hole with a small area $$\\alpha $$4$$\\pi $$R$^{2}$($$\\alpha $$ << 1) is made on the shell without affecting the rest of the shell. Which one of the following statements is correct?",
+    "solution": "[Diagram]\n\n\nGiven, V at surface of the sphere\n\n$${V_0} = {{KQ} \\over R}$$\n\nHere, $$K = {1 \\over {4\\pi {\\varepsilon _0}}}$$ = constant\n\nV at point C,\n\n$${V_C} = {{KQ} \\over R} - {{K\\alpha Q} \\over R} = {V_0}(1 - \\alpha )$$\n\nV at point B,\n\n$${V_B} = {{KQ} \\over R} - {{K(\\alpha Q)} \\over {R/2}} = {V_0}(1 - 2\\alpha ) \\therefore {{{V_C}} \\over {{V_B}}} = {{1 - \\alpha } \\over {1 - 2\\alpha }}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "The ratio of the potential at the center of the shell of that of the point at $${1 \\over 2}$$R from center towards the hole will be $${{1 - \\alpha } \\over {1 - 2\\alpha }}$$.",
+      "The potential at the center of the shell is reduced by 2$$\\alpha $$V$_{0}$.",
+      "The magnitude of electric field at the center of the shell is reduced by $${{\\alpha {V_0}} \\over {2R}}$$.",
+      "The magnitude of electric field at a point, located on a line passing through the hole and shell's center, on a distance 2R from the center of the spherical shell will be reduced by $${{\\alpha {V_0}} \\over {2R}}$$."
+    ]
+  },
+  {
+    "id": "phy_electrostatics_031",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electric field $$E$$ is measured at a point $$P(0,0,d)$$ generated due to various charge distributions and the dependence of $$E$$ on $$d$$ is found to be different for different charge distributions. List-$${\\rm I}$$ contains different relations between $$E$$ and $$d$$. List-$${\\rm II}$$ describes different electric charge distributions, along with their locations. Match the functions in List-$${\\rm I}$$ with the related charge distributions in List-$${\\rm II}$$.\n\n.tg {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-yttm{font-weight:bold;font-size:22px;text-align:left}\n.tg .tg-pjk9{font-size:22px;text-align:left}\n.tg .tg-cyim{font-size:22px;text-align:left;vertical-align:top}\n\n\nLIST - I\nLIST - II\n\n\nP.\n$$E$$ is independent of $$d$$\n1.\nA point charge Q at the origin\n\n\nQ.\n$$E\\, \\propto \\,1/d$$\n2.\nA small dipole with point charges\n$$Q$$ at $$\\left( {0,0,l} \\right)$$ and $$-Q$$ at\n$$\\left( {0,0, - l} \\right).$$ Take $$2l < < d$$\n\n\nR.\n$$E\\, \\propto \\,1/{d^2}$$\n3.\nAn infinite line charge coincident\nwith the x-axis, with uniform linear charge density $$\\lambda $$\n\n\nS.\n$$E\\, \\propto \\,1/{d^3}$$\n4.\nTwo infinite wires carrying\nuniform linear charge density\nparallel to the $$x$$-axis. The one\nalong $$\\left( {y = 0,z = l} \\right)$$ has\na charge density $$ + \\lambda $$ and the one\n\nalong $$\\left( {y = 0,z = - l} \\right)$$ has a\ncharge density Take\n\n\n\n\n5.\nInfinite plane charge coincident\n\nwith the $$xy$$-plane with uniform surface charge density",
+    "solution": "For a point charge Q at the origin, we have\n$$E = {1 \\over {4\\pi {\\varepsilon _0}}}{Q \\over {{d^2}}} \\Rightarrow E \\propto {1 \\over {{d^2}}}$$\nThus, the correct mapping is $$R \\to 1$$.\nFor a small dipole with point charges Q at (0, 0, l) and $$-$$Q at (0, 0, $$-$$l), 2l << d, we have\n$$E = {1 \\over {4\\pi {\\varepsilon _0}}}{{2Q \\times 2l} \\over {{d^3}}} \\Rightarrow E \\propto {1 \\over {{d^3}}}$$\nThus, the correct mapping is $$S \\to 2$$.\nFor an infinite line charge coincident with x-axis with uniform linear charge density $$\\lambda$$, we have\n$$E = {\\lambda \\over {2\\pi {\\varepsilon _0}d}} \\Rightarrow E \\propto {1 \\over d}$$\nThus, the correct mapping is $$Q \\to 3$$.\nFor two infinite wires carrying uniform linear charge density parallel to the x-axis, we have\n$$E = {\\lambda \\over {2\\pi {\\varepsilon _0}(d - l)}} - {\\lambda \\over {2\\pi {\\varepsilon _0}(d + l)}} = {\\lambda \\over {2\\pi {\\varepsilon _0}}}\\left( {{1 \\over {d - l}} - {1 \\over {d + l}}} \\right) \\Rightarrow E = {\\lambda \\over {2\\pi {\\varepsilon _0}}}\\left( {{{d + l - d + l} \\over {(d - l)(d + l)}}} \\right) = {\\lambda \\over {2\\pi {\\varepsilon _0}}}{{(2l)} \\over {({d^2} - {l^2})}}$$\nSince $$2l < < d \\Rightarrow E = {\\lambda \\over {2\\pi {\\varepsilon _0}}}{{2l} \\over {{d^2}}} \\Rightarrow E \\propto {1 \\over {{d^2}}}$$\nThus, the correct mapping is $$R \\to 4$$.\nFor an infinite plane charge coincident with the x-y plane with uniform surface charge density, we have\n$$E = {\\sigma \\over {2\\pi {\\varepsilon _0}}}$$\nTherefore, E is independent of d.\nThus, the correct mapping is $$P \\to 5$$.\nTherefore, option (B) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$P \\to 5;Q \\to 3,4;R \\to 1;S \\to 2$$",
+      "$$P \\to 5;Q \\to 3;R \\to 1,4;S \\to 2$$",
+      "$$P \\to 4;Q \\to 3;R \\to 1,2;S \\to 4$$",
+      "$$P \\to 4;Q \\to 2,3;R \\to 1;S \\to 5$$"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_032",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an evacuated cylindrical chamber of height h having rigid conducting plates at the ends and an insulating curved surface as shown in the figure. A number of spherical balls made of a light weight and soft material and coated with a conducting material are placed on the bottom plate. The balls have a radius r << h. Now, a high voltage source (HV) connected across the conducting plates such that the bottom plate is at +V$_{0}$ and the top plate at $$-$$V$_{0}$. Due to their conducting surface, the balls will get charge, will become equipotential with the plate and are repelled by it. The balls will eventually collide with the top plate, where the coefficient of restitution can be taken to be zero due to the soft nature of the material of the balls. The electric field in the chamber can be considered to be that of a parallel plate capacitor. Assume that there are no collisions between the balls and the interaction between them is negligible. (Ignore gravity)\n\n\n[Diagram]\n\nWhich one of the following statement is correct?",
+    "solution": "The distance between the two plates is h. The potential of the bottom plate is V$_{0}$ and that of the top plates is $$-$$V$_{0}$. The electric field between the plates is E = 2V$_{0}$/h (directed upwards). The radius of each ball is r (<< h). Let m be the mass and C be the capacitance of each ball.\n\n[Diagram]\n\nWhen the ball touches the bottom plate, it gets a positive charge q = CV$_{0}$ (we assume that the charge transfer is instantaneous). This positively charged ball experiences an upward force, F = qE = 2CV$$_0^2$$/h, which accelerates the ball upwards. Since the force is constant, the ball cannot do SHM (for SHM, the force should be proportional to the displacement and directed towards the centre).\nWhen the ball hits the top plate, it transfers the positive charge to the plate and gets negative charge q = $$-$$CV$_{0}$. This negatively charged ball again experience a force F = qE (downward) and starts accelerating downwards. Thus, the ball keeps moving between the bottom and the top plates carrying a charge +q upwards and $$-$$q downwards.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "The balls will execute simple harmonic motion between the two plates",
+      "The balls will bounce back to the bottom plate carrying the same charge they went up with",
+      "The balls will stick to the top plate and remain there",
+      "The balls will bounce back to the bottom plate carrying the opposite charge they went up with"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0nl057m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_033",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an evacuated cylindrical chamber of height h having rigid conducting plates at the ends and an insulating curved surface as shown in the figure. A number of spherical balls made of a light weight and soft material and coated with a conducting material are placed on the bottom plate. The balls have a radius r << h. Now, a high voltage source (HV) connected across the conducting plates such that the bottom plate is at +V$_{0}$ and the top plate at $$-$$V$_{0}$. Due to their conducting surface, the balls will get charge, will become equipotential with the plate and are repelled by it. The balls will eventually collide with the top plate, where the coefficient of restitution can be taken to be zero due to the soft nature of the material of the balls. The electric field in the chamber can be considered to be that of a parallel plate capacitor. Assume that there are no collisions between the balls and the interaction between them is negligible. (Ignore gravity)\n\n[Diagram]\n\nThe average current in the steady state registered by the ammeter in the circuit will be",
+    "solution": "As the balls keep on oscillating between plates, current will flow even in steady state.\nLet a ball attains charge q at bottom plate. Then\n$${{Kq} \\over r} = {V_0} \\Rightarrow q = {{{V_0}r} \\over K}$$\nElectric field inside the chamber, $$E = [{V_0} - ( - {V_0})]/h = 2{V_0}/h\\therefore$$ Acceleration of each ball, $$a = {{qE} \\over m} = {{2V_0^2r} \\over {mhK}}\\therefore$$ Time taken by a ball to reach the other plate\n$$t = \\sqrt {{{2h} \\over a}} = {h \\over {{V_0}}}\\sqrt {{{mK} \\over r}} \\therefore$$ Average current due to n such balls,\n$${I_{av}} = {{nq} \\over t} = {{n{V_0}r} \\over K} \\times {{{V_0}} \\over h}\\sqrt {{r \\over {mK}}} \\Rightarrow {I_{av}} \\propto V_0^2$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "proportional to $$V_0^2$$",
+      "proportional to the potential $${V_0}$$",
+      "zero",
+      "proportions to $$V_0^{1/2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0nl057m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_034",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Charges $$Q,2Q$$ and $$4Q$$ are uniformly distributed in three dielectric solid spheres $$1,2$$ and $$3$$ of radii $$R/2,R$$ and $$2R$$ respectively, as shown in figure. If magnitude of the electric fields at point $$P$$ at a distance $$R$$ from the center of sphere $$1,2$$ and $$3$$ are $${E_1}$$, $${E_2}$$ and $${E_3}$$ respectively, then\n\n[Diagram]\n\n\n[Diagram]",
+    "solution": "Electric field due to uniformly charged dielectric solid sphere of radius R at a point P is given by\n\n[Diagram]\n\n$$E = \\left\\{ {\\matrix{\n{k\\,.\\,{Q \\over {{R^3}}}\\,.\\,r,} & {r \\le R} \\cr\n{k\\,.\\,{Q \\over {{r^2}}},} & {r > R} \\cr\n\n} } \\right.$$\nIn first two cases, P is outside the sphere. Therefore,\n$${E_1} = {1 \\over {4\\pi {E_0}}}.\\,{Q \\over {{R^2}}}$$ ..... (1)\n$${E_2} = {1 \\over {4\\pi {E_0}}}.\\,{{2Q} \\over {{R^2}}}$$ .... (2)\nIn Sphere 3, point P located is inside. Therefore,\n$${E_3} = \\left( {{\\rho \\over {3{E_0}}}} \\right)r\\rho = {{4Q} \\over {(4/3)\\pi {{(2R)}^3}}} = {{12Q} \\over {4\\pi \\,.\\,8{R^3}}} = {{3Q} \\over {8\\pi }}{E_3} = \\left( {{{3Q} \\over {\\pi {R^3}}}} \\right)R{E_3} = {1 \\over {4\\pi {E_0}}}\\,.\\,{Q \\over {2{R^2}}}$$ ..... (3)\n$${E_2} > {E_1} > {E_3}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${E_1} > {E_2} > {E_3}$$",
+      "$${E_3} > {E_1} > {E_2}$$",
+      "$${E_2} > {E_1} > {E_3}$$",
+      "$${E_3} > {E_2} > {E_1}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1cgckn5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_035",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four charges Q$_{1}$, Q$_{2}$, Q$_{3}$ and Q$_{4}$ of same magnitude are fixed along the x axis at x = $$-$$2a, $$-$$a, +a and +2a, respectively. A positive charge q is placed on the positive y axis at a distance b > 0. Four options of the signs of these charges are given in List I. The direction of the forces on the charge q is given in List II. Match List I with List II and select the correct answer using the code given below the lists.\n\n[Diagram]\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList I\n\nList II\n\n\n\n\nP.\nQ$$_1$$, Q$$_2$$, Q$$_3$$, Q$$_4$$ all positive\n1.\n+x\n\n\nQ.\nQ$$_1$$, Q$$_2$$ positive; Q$$_3$$, Q$$_4$$ negative\n2.\n$$ - $$x\n\n\nR.\nQ$$_1$$, Q$$_4$$ positive; Q$$_2$$, Q$$_3$$ negative\n3.\n+y\n\n\nS.\nQ$$_1$$, Q$$_3$$ positive; Q$$_2$$, Q$$_4$$ negative\n4.\n$$ - $$y",
+    "solution": "(P) Component of forces along x-axis will vanish. Net force along positive y-axis.\n\n[Diagram]\n\n(Q) Component of forces along y-axis will vanish. Net force along positive x-axis\n\n[Diagram]\n\n(R) Component of forces along x-axis will vanish. Net force along negative y-axis.\n\n[Diagram]\n\n(S) Component of forces along y-axis will vanish. Net force along negative x-axis\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P-3, Q-1, R-4, S-2",
+      "P-4, Q-2, R-3, S-1",
+      "P-3, Q-1, R-2, S-4",
+      "P-4, Q-2, R-1, S-3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17o53xb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_036",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two non-conducting solid spheres of radii $$R$$ and $$2R,$$ having uniform volume charge densities $${\\rho _1}$$ and $${\\rho _2}$$ respectively, touch each other. The net electric field at a distance $$2R$$ from the center of the smaller sphere, along the line joining the centers of the spheres, is zero. The ratio $${{{\\rho _1}} \\over {{\\rho _2}}}$$ can be",
+    "solution": "The electric field at $Q$\n\n$$ \\vec{E}_Q=\\frac{1}{4 \\pi \\epsilon_0}\\left[\\frac{\\frac{4}{3} \\pi R^3 \\rho_1}{(2 R)^2} \\hat{\\imath}-\\frac{\\frac{4}{3} \\pi R^3 \\rho_2}{R^2} \\hat{\\imath}\\right]=\\overrightarrow{0} $$\n\ngives $\\rho_1 / \\rho_2=4$\n\n[Diagram]\n\nThe electric field at $P$,\n\n$$ \\vec{E}_P=-\\frac{1}{4 \\pi \\epsilon_0}\\left[\\frac{\\frac{4}{3} \\pi R^3 \\rho_1}{(2 R)^2} \\hat{\\imath}+\\frac{\\frac{4}{3} \\pi(2 R)^3 \\rho_2}{(5 R)^2} \\hat{\\imath}\\right]=\\overrightarrow{0}, $$\n\ngives $\\rho_1 / \\rho_2=-32 / 25$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$-4$$",
+      "$$ - {{32} \\over {25}}$$",
+      "$$ {{32} \\over {25}}$$",
+      "$$4$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzoyfrbt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_037",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two large vertical and parallel metal plates having a separation of $$1cm$$ are connected to a $$DC$$ voltage source of potential difference $$X$$. A proton is released at rest midway between the two plates. It is found to move at $${45^ \\circ }$$ to the vertical JUST after release. Then $$X$$ is nearly",
+    "solution": "[Diagram]\n\nGiven that the proton moves at a $45^{\\circ}$ angle to the vertical, we can derive the electric field (E) as follows :\n\n$ qE = mg $ or $ E = \\frac{mg}{q} $\n\nSince $ E = \\frac{X}{d} $, we can substitute to find $ X $ :\n\n$ \\frac{X}{d} = \\frac{mg}{q} $ or $ X = \\frac{mgd}{q} $\n\nWhere :\n\n$ m = 1.67 \\times 10^{-27} \\, \\mathrm{kg} $\n\n$ g = 10 \\, \\mathrm{m/s^2} $\n\n$ d = 1 \\, \\mathrm{cm} = 1 \\times 10^{-2} \\, \\mathrm{m} $\n\n$ q = 1.6 \\times 10^{-19} \\, \\mathrm{C} $\n\nSubstituting these values, we get :\n\n$ \\begin{aligned} X &= \\frac{1.67 \\times 10^{-27} \\times 10 \\times 1 \\times 10^{-2}}{1.6 \\times 10^{-19}} \\, \\mathrm{V} \\\\\\\\ &= \\frac{1.67}{1.6} \\times 10^{-9} \\, \\mathrm{V} \\\\\\\\ &= 1 \\times 10^{-9} \\, \\mathrm{V} \\end{aligned} $",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1 \\times {10^{ - 5}}\\,\\,V$$",
+      "$$1 \\times {10^{ - 7}}\\,\\,V$$",
+      "$$1 \\times {10^{ - 9}}\\,\\,V$$",
+      "$$1 \\times {10^{ - 10}}\\,\\,V$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzw05uiy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_038",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a thin spherical shell of radius $$R$$ with center at the origin, carrying uniform positive surface charge density. The variation of the magnitude of the electric field $$\\left| {\\overrightarrow E \\left( r \\right)} \\right|$$ and the electric potential $$V(r)$$ with the distance $$r$$ from the center, best represented by which graph?",
+    "solution": "Consider a thin spherical shell of radius $ R $ with its center at the origin, carrying a uniform positive surface charge density. To understand how the electric field $ \\left| \\overrightarrow{E} \\left( r \\right) \\right| $ and the electric potential $ V(r) $ vary with the distance $ r $ from the center, refer to the following details:\n\nElectric Field due to a Uniformly Charged Thin Spherical Shell\n\nInside the Shell\n\nFor $ r < R $, the electric field is given by:\n\n$$ E_{\\text{inside}} = 0 \\quad [ r < R ] $$\n\nOn the Surface of the Shell\n\nFor $ r = R $, the electric field is:\n\n$$ E_{\\text{surface}} = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{Q}{R^2} $$\n\nOutside the Shell\n\nFor $ r > R $, the electric field is:\n\n$$ E_{\\text{outside}} = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{Q}{r^2} \\quad [ r > R ] $$\n\nBelow is a graphical representation of the electric field $ E $ variation with the distance $ r $ from the center:\n\n[Diagram]\n\nElectric Potential due to a Uniformly Charged Thin Spherical Shell\n\nInside the Shell\n\nFor $ r < R $, the electric potential is:\n\n$$ V_{\\text{inside}} = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{Q}{R} $$\n\nOn the Surface of the Shell\n\nFor $ r = R $, the electric potential is:\n\n$$ V_{\\text{surface}} = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{Q}{R} $$\n\nOutside the Shell\n\nFor $ r > R $, the electric potential is:\n\n$$ V_{\\text{outside}} = \\frac{1}{4 \\pi \\varepsilon_0} \\frac{Q}{r} $$\n\nBelow is a graphical representation of the electric potential $ V $ variation with the distance $ r $ from the center:\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24ktby3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_039",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the field patterns given below is valid for electric field as well as for magnetic field ?",
+    "solution": "The magnetic fields and the induced electric fields form the closed loops.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bjr7pp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_040",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an electric field $$\\overrightarrow E = {E_0}\\widehat x$$ where $${E_0}$$ is a constant. The flux through the shaded area (as shown in the figure) due to this field is\n\n[Diagram]",
+    "solution": "The flux through an area $$\\overrightarrow S $$ due to an electric field $$\\overrightarrow E $$ is given by\n$$\\phi = \\oint {\\overrightarrow E \\,.\\,d\\overrightarrow S } = \\overrightarrow E \\,.\\,\\oint {d\\overrightarrow S = \\overrightarrow E \\,.\\,\\overrightarrow S } $$ ($$\\because\\overrightarrow E $$ is a constant.) ...... (1)\nThe area of the shaded region is the cross product of vectors representing the two sides i.e.,\n$$\\overrightarrow S = (a\\widehat j) \\times (a\\widehat i + a\\widehat k) = {a^2}(\\widehat i - \\widehat k)$$ ...... (2)\nUse equations (1) and (2) to get\n$$\\phi = ({E_0}\\widehat i)\\,.\\,{a^2}(\\widehat i - \\widehat k) = {E_0}{a^2}$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$2{E_0}{a_2}$$",
+      "$$\\sqrt 2 {E_0}{a^2}$$",
+      "$${E_0}\\,{a^2}$$",
+      "$${{{E_0}{a^2}} \\over {\\sqrt 2 }}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bjr7pp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_041",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniformly charged thin spherical shell of radius $$R$$ carries uniform surface charge density of $$\\sigma $$ per unit area. It is made of two hemispherical shells, held together by pressing them with force $$F$$ (see figure). $$F$$ is proportional to\n\n[Diagram]",
+    "solution": "Electrostatic pressure is\n$$\\left( {{{{\\sigma ^2}} \\over {2{\\varepsilon _0}}}} \\right)$$ N/m$^{2}$\nThe force is\n$$F = {{{\\sigma ^2}} \\over {2{\\varepsilon _0}}} \\times \\pi {R^2}$$\nTherefore, $$F \\propto {{{\\sigma ^2}{R^2}} \\over {{\\varepsilon _0}}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over {{\\varepsilon _0}}}{\\sigma ^2}{R^2}$$",
+      "$${1 \\over {{\\varepsilon _0}}}{\\sigma ^2}R$$",
+      "$${1 \\over {{\\varepsilon _0}}}{{{\\sigma ^2}} \\over R}$$",
+      "$${1 \\over {{\\varepsilon _0}}}{{{\\sigma ^2}} \\over {{R^2}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrlnt2r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_042",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tiny spherical oil drop carrying a net charge $$q$$ is balanced in still air with a vertical uniform electric field of strength $${{81\\pi } \\over 7} \\times {10^5}\\,\\,V{m^{ - 1}}.$$ When the field is switched off, the drop is observed to fall with terminal velocity $$2 \\times {10^{ - 3}}\\,\\,m{s^{ - 1}}.$$ Given $$g = 9.8\\,m\\,{s^{ - 2}},$$ viscosity of the air $$ = 1.8 \\times {10^{ - 5}}\\,\\,Ns\\,{m^{ - 2}}$$ and the density of coil $$=900kg{m^{ - 3}},$$ the magnitude of $$q$$ is",
+    "solution": "The forces acting on the oil drop are its weight, buoyant force, and electrostatic force. The buoyant force on the oil drop is very small as compared to other two forces. Thus, the weight of the spherical oil drop is balanced by the electrostatic force\n\n[Diagram]\n\n$$qE = mgqE = {4 \\over 3}\\pi {r^3}\\rho g$$ ..... (i)\nwhere, r = radius of oil drop, $$\\rho$$ = density of oil, q = charge on the oil drop\nIN the absence of electric field,\nIN equilibrium,\n\n[Diagram]\n\nViscous force on the drop = Weight of the drop\n$$6\\pi \\eta r{v_T} = mg6\\pi \\eta r{v_T} = {4 \\over 3}\\pi {r^3}\\rho g$$ ...... (ii)\nwhere, v$_{T}$ = terminal velocity, $$\\eta $$ = coefficient of viscosity of air\nor $${r^2} = {{18 \\times \\eta \\times {v_T}} \\over {4 \\times \\rho \\times g}}$$\nSubstituting the given values, we get\n$${r^2} = {{18 \\times 1.8 \\times {{10}^{ - 5}} \\times 2 \\times {{10}^{ - 3}}} \\over {4 \\times 900 \\times 9.8}}$$ or $$r = {3 \\over 7} \\times {10^{ - 5}}$$ m\nFrom equation (i), we get $$q = {{4\\pi {r^3}\\rho g} \\over {3E}}$$\nSubstituting the given values, we get\n$$q = {{4 \\times \\pi \\times {{\\left( {{3 \\over 7} \\times {{10}^{ - 5}}} \\right)}^3} \\times 900 \\times 9.8} \\over {3 \\times \\left( {{{81\\pi } \\over 7} \\times {{10}^5}} \\right)}} = {{4 \\times \\pi \\times 7 \\times 3 \\times 3 \\times 3 \\times {{10}^{ - 15}} \\times 900 \\times 9.8} \\over {3 \\times 81\\pi \\times {{10}^5} \\times 7 \\times 7 \\times 7}} = 8 \\times {10^{ - 19}}C$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$1.6 \\times {10^{ - 19}}C$$",
+      "$$3.2 \\times {10^{ - 19}}C$$",
+      "$$4.8 \\times {10^{ - 19}}C$$",
+      "$$8.0 \\times {10^{ - 19}}C$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bjr7pp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_043",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A disk of radius $${a \\over 4}$$ having a uniformly distributed charge 6C is placed in the xy-plane with its centre at ($$-$$a/2, 0, 0). A rod of length a carrying a uniformly distributed charge 8C is placed on the x-axis from x = a/4 to x = 5a/4. Two points charges $$-$$7C and 3C are placed at (a/4, $$-$$a/4, 0) and ($$-$$3a/4, 3a/4, 0), respectively. Consider a cubical surface formed by six surfaces $$x=\\pm a/2,y=\\pm a/2,z=\\pm a/2$$. The electric flux through this cubical surface is\n\n[Diagram]",
+    "solution": "According to Gauss's law, we have\n$$\\mathrm{Flux=\\frac{Charge~enclosed}{\\varepsilon_0}}$$\nThe enclosed charges are half of the charges in the disc, point charge at $$(a/4,-a/4,0)$$, and charge in the rod from point $$a/4$$ to $$a/2$$, that is, 8 C/4. Therefore,\nFlux $$ = {{3C - 7C + (8C/4)} \\over {{\\varepsilon _0}}} = - {{2C} \\over {{\\varepsilon _0}}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{ - 2c} \\over {{\\varepsilon _0}}}$$",
+      "$${{2c} \\over {{\\varepsilon _0}}}$$",
+      "$${{10c} \\over {{\\varepsilon _0}}}$$",
+      "$${{12c} \\over {{\\varepsilon _0}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrlnt2r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_044",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three concentric metallic spherical shells of radii $$R,2R,3R$$ are given charges $$Q_1,Q_2,Q_3$$, respectively. It is found that the surface charge densities on the outer surfaces of the shells are equal. Then, the ratio of the charges given to the shells, $$Q_1:Q_2:Q_3$$, is",
+    "solution": "Surface charge density is\n$$\\rho = {Q \\over {4\\pi {R^2}}}$$\nwhere R is the radius of the sphere. For cancelling the field inside the cavity due to the shell of radius R, the shell with radius 2R induces a charge $$-$$Q in its inner surface and hence the total charge on the outer surface is $$Q_1+Q_2$$. Similarly, the charge on the outermost shell is\n$${Q_1} + {Q_2} + {Q_3}$$\n\n[Diagram]\n\nIt is given that the surface charge densities $$\\rho_1,\\rho_2$$ and $$\\rho_3$$ are equal, that is,\n$${{{Q_1}} \\over {4\\pi {R^2}}} = {{{Q_1} + {Q_2}} \\over {4\\pi {{(2R)}^2}}} = {{{Q_1} + {Q_2} + {Q_3}} \\over {4\\pi {{(3R)}^2}}} \\Rightarrow {Q_1} = {{{Q_1} + {Q_2}} \\over 4} = {{{Q_1} + {Q_2} + {Q_3}} \\over 9}$$\nThat is,\n$${Q_1} = {{{Q_1}} \\over 4} + {{{Q_2}} \\over 4} \\Rightarrow {Q_2} = 3{Q_1}$$\nTherefore,\n$${Q_3} = 5{Q_1}$$\nHence, the ratio of the charges given to the shells $${Q_1}:{Q_2}:{Q_3}$$ is 1 : 3 : 5.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1 : 2 : 3",
+      "1 : 3 : 5",
+      "1 : 4 : 9",
+      "1 : 8 : 18"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrlwlf7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_045",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six point charges, each of the same magnitude q, are arranged in different manners as shown in Column II. In each case, a point M and a line PQ passing through M are shown. Let E be the electric field and V be the electric potential at M (potential at infinity is zero) due to the given charge distribution when it is at rest. Now, the whole system is set into rotation with a constant angular velocity about the line PQ. Let B be the magnetic field at M and $$\\mu$$ be the magnetic moment of the system in this condition. Assume each rotating charge to be equivalent to a steady current.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$E=0$$\n(P)\n\n[Diagram]\n\nCharge are at the corners of a regular hexagon. M is at the centre of the hexagon. PQ is perpendicular to the plane of the hexagon.\n\n\n(B)\n$$V\ne 0$$\n(Q)\n\n[Diagram]\n\nCharges are on a line perpendicular to PQ at equal intervals. M is the midpoint between the two innermost charges.\n\n\n(C)\n$$B=0$$\n(R)\n\n[Diagram]\n\nCharges are placed on two coplanar insulating rings at equal intervals. M is the common centre of the rings. PQ is perpendicular to the plane of the rings.\n\n\n(D)\n$$\\mu\ne 0$$\n(S)\n\n[Diagram]\n\nCharges are placed at the corners of a rectangle of sides a and 2a and at the mid points of the longer sides. M is at the centre of the rectangle. PQ is parallel to the longer sides.\n\n\n\n\n(T)\n\n[Diagram]\n\nCharges are placed on two coplanar, identical insulating rings are equal intervals. M is the midpoint between the centres of the rings. PQ is perpendicular to the line joining the centres and coplanar to the rings.",
+    "solution": "Case (P) : $$E=0,V=0, B=0,\\mu=0$$.\nCase (Q) : $$E\ne0,V=0, B=0,\\mu=0$$.\nCase (R) : $$E=0,V\ne0, B\ne0,\\mu\ne0$$.\nCase (S) : $$E=0,V\ne0, B\ne0,\\mu\ne0$$.\nCase (T) : $$E\ne0,V=0, B=0,\\mu=0$$.\nHence, $$\\mathrm{(A)\\to(P),(R),(S);(B)\\to(R),(S);(C)\\to(P),(Q),(T);(D)\\to(R),(S)}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\mathrm{(A)\\to(R),(S);(B)\\to(R),(S);(C)\\to(P),(Q),(T);(D)\\to(T),(S)}$$",
+      "$$\\mathrm{(A)\\to(P),(R),(S);(B)\\to(R),(S);(C)\\to(P),(Q),(S);(D)\\to(R),(S)}$$",
+      "$$\\mathrm{(A)\\to(P),(R),(S);(B)\\to(R),(S);(C)\\to(P),(Q),(T);(D)\\to(R),(S)}$$",
+      "$$\\mathrm{(A)\\to(P),(Q),(S);(B)\\to(R),(S);(C)\\to(P),(Q),(T);(D)\\to(R),(S)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrmktvn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_046",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a system of three charges $${q \\over 3},{q \\over 3}$$ and $$ - {{2q} \\over 3}$$ placed at points A, B and C, respectively, as shown in the figure. Take O to be the centre of the circle of radius R and angle CAB = 60$$^\\circ$$\n\n[Diagram]",
+    "solution": "Electric field at point O is vector sum of electric field due to all three point charges individually.\n\n[Diagram]\n\n$$\\overrightarrow E = \\overrightarrow {{E_A}} + \\overrightarrow {{E_B}} + \\overrightarrow {{E_C}} $$ and $$\\overrightarrow {{E_A}} = - \\overrightarrow {{E_B}} $$\nSo, $$\\overrightarrow E = \\overrightarrow {{E_C}} = {{2q/3} \\over {4\\pi {\\varepsilon _0}.{R^2}}}$$ along $$\\overrightarrow {OC} = {q \\over {6\\pi \\varepsilon _0^2.{R^2}}}$$ along $$\\overrightarrow {OC} = {{ + q'} \\over {6\\pi \\varepsilon _0^2.{R^2}}}\\widehat i = {{ - q'} \\over {6\\pi \\varepsilon _0.{R^2}}}\\widehat j$$\nFrom geometry, we can find that $$\\angle$$ABC = 30$$^\\circ$$ and $$\\angle$$ACB = 90$$^\\circ$$\nSo, AB = 2R, AC = R, BC = $$\\sqrt3$$R\nTotal potential energy of the system is,\n$$U = {1 \\over {4\\pi {\\varepsilon _0}}}\\left[ {{{q/3 \\times q/3} \\over {2R}} - {{q/3 \\times 2q/3} \\over R} - {{q/3 \\times 2q/3} \\over {\\sqrt 3 R}}} \\right]\ne 0F = {{q/3 \\times q/3} \\over {4\\pi {\\varepsilon _0} \\times {{(\\sqrt 3 R)}^2}}} = {{{q^2}} \\over {54\\pi {\\varepsilon _0}{R^2}}}$$\nPotential at point O is,\n$$V = {{q/3 \\times q/3 - 2q/3} \\over {4\\pi {\\varepsilon _0}R}} = 0$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "The electric field at point O is $${q \\over {8\\pi {\\varepsilon _0}{R^2}}}$$ directed along the negative x-axis",
+      "The potential energy of the system is zero",
+      "The magnitude of the force between the charges at C and B is $${{{q^2}} \\over {54\\pi {\\varepsilon _0}{R^2}}}$$",
+      "The potential at point O is $${q \\over {12\\pi {\\varepsilon _0}R}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgl7hm7r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_047",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A parallel plate capacitor C with plates of unit area and separation d is filled with a liquid of dielectric constant K = 2. The level of liquid is $$\\frac{d}{3}$$ initially. Suppose the liquid level decreases at a constant speed V, the time constant as a function of time t is:\n\n[Diagram]",
+    "solution": "Time constant ($$\\tau$$) = RC$$_{eq}$$\nWhere R = Resistance\nC$$_{eq}$$ = equivalent capacitance\nAnd, $$v = {{ - dx} \\over {dt}} \\Rightarrow dx = - vdt \\Rightarrow \\int_{d/3}^x {dx = - v\\int_0^t {dt} } \\Rightarrow [x]_{d/3}^x = - v[t]_0^tx - {d \\over 3} = - vtx = {d \\over 3} - vt$$ ..... (i)\nAnd also, $${1 \\over {{C_{eq}}}} = {1 \\over {{C_1}}} + {1 \\over {{C_2}}} = {1 \\over {{{{\\varepsilon _0}A} \\over {(d - x)}}}} + {1 \\over {{{{\\varepsilon _0}Ak} \\over x}}}{1 \\over {{C_{eq}}}} = {{d - x} \\over {{\\varepsilon _0}A}} + {x \\over {{\\varepsilon _0}Ak}} = {1 \\over {{\\varepsilon _0}A}}\\left[ {d - x + {x \\over k}} \\right] = {1 \\over {{\\varepsilon _0}A}}\\left[ {{{(d - x)k + x} \\over k}} \\right]{1 \\over {{C_{eq}}}} = {1 \\over {{\\varepsilon _0}Ak}}[dk - xk + x]\\therefore{C_{eq}} = {{{\\varepsilon _0}A} \\over {kd + x(1 - k)}}$$ .... (ii)\nGiven, $$A = 1,k = 2,x = {d \\over 3} - vt$$\nHence, $${C_{eq}} = {{{\\varepsilon _0} \\times 1} \\over {2d + \\left[ {{d \\over 3} - vt} \\right](1 - 2)}} = {{6{\\varepsilon _0}} \\over {5d + 3vt}}$$\nTherefore, $$\\tau = R{C_{eq}} = {{6R{\\varepsilon _0}} \\over {5d + 3vt}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{6{\\varepsilon _0}R} \\over {5d + 3Vt}}$$",
+      "$${{(15d + 9Vt){\\varepsilon _0}R} \\over {2{d^2} - 3dVt - 9{V^2}{t^2}}}$$",
+      "$${{6{\\varepsilon _0}R} \\over {5d - 3Vt}}$$",
+      "$${{(15d - 9Vt){\\varepsilon _0}R} \\over {2{d^2} + 3dVt - 9{V^2}{t^2}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmelb50.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_048",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT 1 : For practical purposes, the earth is used as a reference at zero potential in electrical circuits.\nand\nSTATEMENT 2 : The electrical potential of a sphere of radius R with charge Q uniformly distributed on the surface is given by $${Q \\over {4\\pi {\\varepsilon _0}R}}$$",
+    "solution": "Statement 1 is True.\nThe earth is used as a reference\nwith zero potential. The reasons are :\n\n(i) Due to large size of the earth, its potential does\nnot change even if a small amount of charge is\ngiven to the earth or taken away from it. Also, all\nconductors on the earth which are not given any\nexternal charge, are very nearly at the potential\nV$_{e}$. The choice of reference is quite arbitrary and\nis largely governed by convenience.\n\n(ii) The earth is a good conductor. It is easily accessible for electrical circuits geographically distributed over it and hence it is used as a common\nreference with zero potentil.\nStatement 2 is true.\n\n[Diagram]\n\nV = $${Q \\over {4\\pi {\\varepsilon _0}R}}$$\nTherefore, statement 2 is correct explanation for statement 1.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmqyni4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_049",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electric field at r = R is :",
+    "solution": "[Diagram]\n\nAt $$r = R$$,\nBy applying Gauss law,\n$$\\phi = {{{q_{enclosed}}} \\over {{\\varepsilon _0}}} \\Rightarrow \\oint {E.ds = {{{q_{enclosed}}} \\over {{\\varepsilon _0}}}} \\Rightarrow E\\oint {ds = {{{q_{enclosed}}} \\over {{\\varepsilon _0}}}} \\Rightarrow E.4\\pi {R^2} = {{Ze} \\over {{\\varepsilon _0}}} \\Rightarrow E = {1 \\over {4\\pi {\\varepsilon _0}}}{{Ze} \\over {{R^2}}}$$\ni.e., $$E\\,\\mu {1 \\over {{R^2}}}$$\nHere, electric field is independent of 'a'.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "independent of a",
+      "directly proportional to a",
+      "directly proportional to a$$^2$$",
+      "inversely proportional to a"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmr80x3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_050",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a = 0, the value of d (maximum value of $$\\rho$$ as shown in the figure) is",
+    "solution": "For a = 0, the graph is as shown, the equation for the graph line is\n\n[Diagram]\n\nThe charge in the dotted element shown in figure is\n\n[Diagram]\n\n$$dq = \\sigma \\times 4\\pi {r^2}dr\\thereforedq = \\left( {d - {d \\over R}r} \\right)4\\pi {r^2}dr \\Rightarrow Ze = \\int_0^R {4\\pi d{r^2}dr - \\int_0^R {{{4\\pi d} \\over R}{r^3}dr} } Ze = 4\\pi d{{{R^3}} \\over 3} - {{4\\pi d} \\over R}{{{R^4}} \\over 4}\\therefore{{Ze} \\over {4\\pi d{R^3}}} = {1 \\over 3} - {1 \\over 4} = {1 \\over {12}}\\therefored = {{3Ze} \\over {\\pi {R^3}}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{3Ze} \\over {4\\pi {R^3}}}$$",
+      "$${{3Ze} \\over {\\pi {R^3}}}$$",
+      "$${{4Ze} \\over {3\\pi {R^3}}}$$",
+      "$${{Ze} \\over {3\\pi {R^3}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmr80x3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_051",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electric field within the nucleus is generally observed to be linearly dependent on r. This implies",
+    "solution": "The electric field inside a uniformly charged sphere\nis proportional to r. The volume charge density inside\na uniformly charged sphere is constant and hence a = R.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$a = 0$$",
+      "$$a = {R \\over 2}$$",
+      "$$a = R$$",
+      "$$a = {{2R} \\over 3}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmr80x3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_052",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spherical portion has been removed from a solid sphere having a charge distributed uniformly in its volume as shown in the figure. The electric field inside the emptied space is\n\n[Diagram]",
+    "solution": "When cavity is not present:\nElectric field inside the solid sphere\n$$\n\\overrightarrow{\\mathrm{E}_{1}}=\\frac{\\rho}{3 \\varepsilon_{0}} \\overrightarrow{r_{1}}\n$$ ..... (i)\n\n[Diagram]\n\nSolid sphere after making cavity inside solid sphere,\n\n[Diagram]\n\n$$\n\\overrightarrow{\\mathrm{E}_{2}}=\\frac{\\rho}{3 \\varepsilon_{0}} \\overrightarrow{r_{2}}\n$$ ...... (ii)\n$${\\overrightarrow E _{net}} = \\overrightarrow {{E_1}} - \\overrightarrow {{E_2}} = {\\rho \\over {3{\\varepsilon _0}}}\\overrightarrow {{r_1}} - {\\rho \\over {3{\\varepsilon _0}}}\\overrightarrow {{r_2}} =\\frac{\\rho}{3 \\varepsilon_{0}}\\left(\\overrightarrow{r_{1}}-\\overrightarrow{r_{2}}\\right)\n$$ ...... (iii)\n\n[Diagram]\n\nFrom eq (iii), we get\n$$\\therefore \\quad \\mathrm{E}_{\\mathrm{net}}=\\frac{\\rho}{3 \\varepsilon_{0}}(\\vec{r})$$\nHence, electric field inside the emptied space (cavity) is non-zero and uniform.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "zero everywhere",
+      "non-zero and uniform",
+      "non-uniform",
+      "zero only at its center"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lguerkm5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_053",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Positive and negative point charges of equal magnitude are kept at $$\\left(0,0, \\frac{a}{2}\\right)$$ and $$\\left(0,0, \\frac{-a}{2}\\right)$$, respectively. The work done by the electric field when another positive point charge is moved from $$(-a, 0,0)$$ to $$(0, a, 0)$$ is",
+    "solution": "Consider that,\n$$\\mathrm{P}=(-a, 0,0)$$ and $$\\mathrm{Q}=(0, a, 0)$$ points lie on the equatorial plane of dipole.\nThe charges makes an electric dipole.\nTherefore, potential at $$\\mathrm{P}=$$ Potential at $$\\mathrm{Q}=0$$\nWork done $$(\\mathrm{W})=q\\left(\\mathrm{~V}_{\\mathrm{P}}-\\mathrm{V}_{\\mathrm{Q}}\\right)=0$$\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "positive",
+      "negative",
+      "zero",
+      "depends on the path connecting the initial and final positions"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lguexbvt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_054",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A long, hollow conducting cylinder is kept coaxially inside another long, hollow conducting cylinder of larger radius. Both the cylinder are initially electrically neutral.",
+    "solution": "Let the radii of the inner and outer cylinders be $r_1$ and $r_2$, respectively. The problem has cylindrical symmetry and Gauss's law can be applied to find the electric field $E$.\n\n[Diagram]\n\nIn the case (A), surface charge density $\\sigma$ is given to the inner cylinder. Take a cylinder of radius $r\\left(r_1<\\right. r\n$$ E(2 \\pi r l)=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}=\\frac{\\sigma\\left(2 \\pi r_1 l\\right)}{\\epsilon_0}, \\quad \\text { i.e., } \\quad E=\\frac{\\sigma r_1}{\\epsilon_0 r} . $$\nPotential difference between the two cylinders is given by\n$$ \\Delta V=-\\int_{r_1}^{r_2} E \\mathrm{~d} r=-\\frac{\\sigma r_1}{\\epsilon_0} \\ln \\left(\\frac{r_2}{r_1}\\right) $$\nIn the case (B), charge density $\\sigma$ is given to the outer cylinder. Apply Gauss's law to get $E=0$ (because $q_{\\mathrm{enc}}=0$ ) and hence $\\Delta V=0$.\nIn the case (C), uniform linear charge density $\\lambda$ is kept along the common axis of cylinders. Apply Gauss's law as in case (A) to get the electric field\n$$ E(2 \\pi r l)=\\lambda l / \\epsilon_0, \\quad \\text { i.e., } \\quad E=\\lambda /\\left(2 \\pi \\epsilon_0 r\\right) . $$\nPotential difference between the two cylinders is\n$$ \\Delta V=-\\int_{r_1}^{r_2} E \\mathrm{~d} r=-\\frac{\\lambda}{2 \\pi \\epsilon_0} \\ln \\left(\\frac{r_2}{r_1}\\right) $$\nIn the case (D) charge density $\\sigma$ is given to both the cylinders. Using the argument similar to the case (A), we get, $\\Delta V=-\\frac{\\sigma r_1}{\\epsilon_0} \\ln \\left(\\frac{r_2}{r_1}\\right)$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "A potential difference appears between the two cylinders when a charge density is given to the inner cylinder",
+      "A potential difference appears between the two cylinders when a charge density is given to the outer cylinder",
+      "No potential difference appears between the two cylinders when a uniform line charge is kept along the axis of the cylinders",
+      "No potential difference appears between the two cylinders when same charge density is given to both the cylinders"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggbay4y.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_055",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a neutral conducting sphere. A positive point charge is placed outside the sphere. The net charge on the sphere is then,",
+    "solution": "[Diagram]\n\nNet charge on sphere = $$-20+20$$ = 0\nWhen we brought +q charge near neutral conducting sphere induction no produced.\nSo, net charge on sphere should be zero.\nWhen +q is placed option (d).\nOutside the conducting sphere, rearrange of charge taken place on sphere.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "negative and distributed uniformly over the surface of the sphere",
+      "negative and appears only at the point on the sphere closest to the point charge",
+      "negative and distributed non-uniformly over the entire surface of the sphere",
+      "zero"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcqz3t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_056",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A conducting liquid bubble of radius $$a$$ and thickness $$t(t < < a)$$ is charged to potential V. If the bubble collapses to a droplet, find the potential on the droplet.",
+    "solution": "A liquid-bubble contains air inside and liquid\nin the outer surface. When the bubble collapses\ninto a droplet, the volume of liquid remains\nsame in this transformation.\n\n[Diagram]\n\nLet thickness of liquid in surface = $$t\\therefore$$ Volume of liquid in bubble $$=4\\pi a^2t$$\nVolume of the droplet $$=\\frac{4}{3}\\pi R^3\\therefore~\\frac{4}{3}\\pi R^3=4\\pi a^2tR=(3a^2t)^{1/3}$$ ..... (i)\nLet the potential of liquid-bubble = V\n$$\\therefore \\mathrm{V}=\\frac{+q}{4 \\pi \\varepsilon_{0}}$$ where $$q$$ denotes charge on the bubble.\n\n[Diagram]\n\n$$\\therefore$$ Potential of droplet $$ = {2 \\over {4\\pi {\\varepsilon _0}R}}$$\nPotential of droplet $$ = \\left( {{{4\\pi {\\varepsilon _0}aV} \\over {4\\pi {\\varepsilon _0}}}} \\right)\\left[ {{1 \\over {{{(3{a^2}t)}^{1/3}}}}} \\right]$$\nPotential of droplet $$ = V\\left[ {{a \\over {{{(3{a^2}t)}^{1/3}}}}} \\right]$$\nPotential of droplet $$ = V{\\left[ {{{{a^3}} \\over {3{a^2}t}}} \\right]^{1/3}}$$\nPotential of droplet $$ = V{\\left[ {{a \\over {3t}}} \\right]^{1/3}}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$V{\\left[ {{2a \\over {3t}}} \\right]^{1/3}}$$",
+      "$$V{\\left[ {{7a \\over {3t}}} \\right]^{1/3}}$$",
+      "$$V{\\left[ {{a \\over {3t}}} \\right]^{1/3}}$$",
+      "$$V{\\left[ {{5a \\over {9t}}} \\right]^{1/3}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh7dxntv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_057",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An infinitely long thin wire, having a uniform charge density per unit length of $5 \\mathrm{nC} / \\mathrm{m}$, is passing through a spherical shell of radius $1 \\mathrm{~m}$, as shown in the figure. A $10 \\mathrm{nC}$ charge is distributed uniformly over the spherical shell. If the configuration of the charges remains static, the magnitude of the potential difference between points $\\mathrm{P}$ and $\\mathrm{R}$, in Volt, is ________.\n\n[Given: In SI units $\\frac{1}{4 \\pi \\epsilon_0}=9 \\times 10^9, \\ln 2=0.7$. Ignore the area pierced by the wire.]\n\n[Diagram]",
+    "solution": "[Diagram]\n\ndue to wire\n$$\\begin{aligned}\n& \\mathrm{dV}=-\\overrightarrow{\\mathrm{E}} \\cdot \\overrightarrow{\\mathrm{dx}} \\\\\n& \\int_\\limits{\\mathrm{v}_{\\mathrm{P}}}^{\\mathrm{v}_{\\mathrm{R}}} \\mathrm{dV}=-\\int_\\limits{0.5}^2 \\frac{2 \\mathrm{k} \\lambda}{\\mathrm{x}} \\mathrm{dx} \\\\\n& \\mathrm{v}_{\\mathrm{R}}-\\mathrm{v}_{\\mathrm{P}}=-2 \\mathrm{k} \\lambda \\ln \\frac{2}{0.5} \\\\\n& =-2 \\times 9 \\times 10^9 \\times 3 \\times 10^{-9} \\times 2 \\times 0.7=-126 \\mathrm{~V}\n\\end{aligned}$$\ndue to sphere\n$$\\begin{aligned}\n& v_R-v_P= \\frac{k Q}{2}-\\frac{k Q}{1}=-\\frac{k Q}{2}=\\frac{-9 \\times 10^9 \\times 10 \\times 10^{-9}}{2} \\\\\n&=-45 \\mathrm{~V} \\\\\n& v_R-v_P=-126-45=-171 \\mathrm{~V} \\\\\n& v_P-v_R= 171 \\mathrm{~V}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpx6vna.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_058",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A charge $q$ is surrounded by a closed surface consisting of an inverted cone of height $h$ and base radius $R$, and a hemisphere of radius $R$ as shown in the figure. The electric flux through the conical surface is $\\frac{n q}{6 \\epsilon_{0}}$ (in SI units). The value of $n$ is _______.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nSol. From Gauss law,\n\n$$\n\\phi_{\\text {hemisphere }}+\\phi_{\\text {Cone }}=\\frac{\\mathrm{q}}{\\varepsilon_0}\n$$ ............(1)\n\nTotal flux produced from $\\mathrm{q}$ in $\\alpha$ angle\n\n$$\n\\phi=\\frac{\\mathrm{q}}{2 \\varepsilon_0}[1-\\cos \\alpha]\n$$\n\nFor hemisphere, $\\alpha=\\frac{\\pi}{2}$\n\n$$\n\\phi_{\\text {hemisphere }}=\\frac{\\mathrm{q}}{2 \\varepsilon_0}\n$$\n\nFrom equation (1)\n\n$$\n\\begin{aligned}\n& =\\frac{\\mathrm{q}}{2 \\varepsilon_0}+\\phi_{\\text {cone }}=\\frac{\\mathrm{q}}{\\varepsilon_0} \\\\\\\\\n& \\phi_{\\text {cone }}=\\frac{\\mathrm{q}}{2 \\varepsilon_0} \\\\\\\\\n& \\frac{4 \\mathrm{q}}{6 \\varepsilon_0}=\\frac{\\mathrm{q}}{2 \\varepsilon_0} \\\\\\\\\n& \\mathrm{n}=3\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7g9lopk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_059",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two point charges $$-$$Q and +Q/$$\\sqrt 3 $$ are placed in the xy-plane at the origin (0, 0) and a point (2, 0), respectively, as shown in the figure. This results in an equipotential circle of radius R and potential V = 0 in the xy-plane with its center at (b, 0). All lengths are measured in meters.\n\n[Diagram]\n\nThe value of R is __________ meter.",
+    "solution": "[Diagram]\n\nV at B is zero if\n\n$${{kQ} \\over {(2 + R + x)}} = {{{{kQ} \\over {\\sqrt 3 }}} \\over {x + R}}$$ ($$\\becausek = {1 \\over {4\\pi {\\varepsilon _0}}}$$)\n\n$$\\sqrt 3 (x + R) = 2 + R + x(\\sqrt 3 - 1)x + (\\sqrt 3 - 1)R = 2$$ .....(i)\n\nV at A is zero if\n\n$${{kQ} \\over {2 - x'}} = {{{{kQ} \\over {\\sqrt 3 }}} \\over {x'}}\\sqrt 3 x' = 2 - x'x' = {2 \\over {\\sqrt 3 + 1}}x' + x = R{2 \\over {\\sqrt 3 + 1}} + x = R2 + (\\sqrt 3 + 1)x = (\\sqrt 3 + 1)Rx = {{(\\sqrt 3 + 1)R - 2} \\over {\\sqrt 3 + 1}}(\\sqrt 3 + 1)R - (\\sqrt 3 + 1)x = 2$$ .....(ii)\n\nUsing Eqs. (i) and (ii), we get\n\n$$R = \\sqrt 3 m = 1.73m$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4coz6b8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_060",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two point charges $$-$$Q and +Q/$$\\sqrt 3 $$ are placed in the xy-plane at the origin (0, 0) and a point (2, 0), respectively, as shown in the figure. This results in an equipotential circle of radius R and potential V = 0 in the xy-plane with its center at (b, 0). All lengths are measured in meters.\n\n[Diagram]\n\nThe value of b is __________ meter.",
+    "solution": "[Diagram]\n\nV at B is zero if\n\n$${{kQ} \\over {(2 + R + x)}} = {{{{kQ} \\over {\\sqrt 3 }}} \\over {x + R}}$$ ($$\\becausek = {1 \\over {4\\pi {\\varepsilon _0}}}$$)\n\n$$\\sqrt 3 (x + R) = 2 + R + x(\\sqrt 3 - 1)x + (\\sqrt 3 - 1)R = 2$$ .....(i)\n\nV at A is zero if\n\n$${{kQ} \\over {2 - x'}} = {{{{kQ} \\over {\\sqrt 3 }}} \\over {x'}}\\sqrt 3 x' = 2 - x'x' = {2 \\over {\\sqrt 3 + 1}}x' + x = R{2 \\over {\\sqrt 3 + 1}} + x = R2 + (\\sqrt 3 + 1)x = (\\sqrt 3 + 1)Rx = {{(\\sqrt 3 + 1)R - 2} \\over {\\sqrt 3 + 1}}(\\sqrt 3 + 1)R - (\\sqrt 3 + 1)x = 2$$ .....(ii)\n\nUsing Eqs. (i) and (ii), we get\n\n$$R = \\sqrt 3 m = 1.73mx = {{(\\sqrt 3 + 1)\\sqrt 3 - 2} \\over {\\sqrt 3 + 1}} = {{\\sqrt 3 + 1} \\over {\\sqrt 3 + 1}} = 1$$ m\n\nHence, the centre of circle is having x-coordinate\n\n= b = 2 + x = 3.00 m.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4coz6b8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_061",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A point charge q of mass m is suspended vertically by a string of length l. A point dipole of dipole\nmoment $$\\overrightarrow p $$ is now brought towards q from infinity so that the charge moves away. The final\nequilibrium position of the system including the direction of the dipole, the angles and distances is\nshown in the figure below. If the work done in bringing the dipole to this position is N $$ \\times $$ (mgh),\nwhere g is the acceleration due to gravity, then the value of N is _________ .\n(Note that for three\ncoplanar forces keeping a point mass in equilibrium,\n$${F \\over {\\sin \\theta }}$$\nis the same for all forces, where F is any\none of the forces and $$\\theta $$ is the angle between the other two forces)\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\nU$_{i}$ = 0\n\n$${U_f} = {{kqp} \\over {{{\\left( {2l\\sin {\\alpha \\over 2}} \\right)}^2}}}$$ + mgh .... (i)\n\nNow, from $$\\Delta$$OAB,\n\n$$\\alpha$$ + 90 $$-\\theta$$ + 90 $$-\\theta$$ = 180\n\n$$\\Rightarrow\\alpha$$ = 2$$\\theta$$\n\nFrom $$\\Delta$$ABC, h = 2l sin$$\\left( {{\\alpha \\over 2}} \\right)$$ sin$$\\theta$$\n\nh = 2l sin$$\\left( {{\\alpha \\over 2}} \\right)$$ sin$$\\left( {{\\alpha \\over 2}} \\right)\\Rightarrow$$ h = 2l sin$^{2}$$$\\left( {{\\alpha \\over 2}} \\right)$$\n\nNow, charge is in equilibrium at point B.\n\nSo, using sine rule,\n\n$${{mg} \\over {\\sin \\left( {90 + {\\alpha \\over 2}} \\right)}} = {{qE} \\over {\\sin 1(80 - 2\\theta )}} \\Rightarrow {{mg} \\over {\\cos {\\alpha \\over 2}}} = {{qE} \\over {\\sin 2\\theta }} \\Rightarrow {{mg} \\over {\\cos {\\alpha \\over 2}}} = {{qE} \\over {\\sin \\alpha }} \\Rightarrow {{mg} \\over {\\cos {\\alpha \\over 2}}} = {{qE} \\over {2\\sin {\\alpha \\over 2}\\cos {\\alpha \\over 2}}} \\Rightarrow qE = mg2\\sin \\left( {{\\alpha \\over 2}} \\right) \\Rightarrow {{q2kp} \\over {{{\\left( {2l\\sin {\\alpha \\over 2}} \\right)}^3}}} = mg2\\sin \\left( {{\\alpha \\over 2}} \\right) \\Rightarrow {{kpq} \\over {{{\\left( {2l\\sin {\\alpha \\over 2}} \\right)}^2}}} = mg\\sin \\left( {{\\alpha \\over 2}} \\right) \\times \\left( {2l\\sin {\\alpha \\over 2}} \\right) \\Rightarrow {{kpq} \\over {{{\\left( {2l\\sin {\\alpha \\over 2}} \\right)}^2}}} = mgh$$\n\nSubstituting this in Eq. (i), we get\n\n$${U_f} = mgh + {{kpq} \\over {{{\\left( {2l\\sin {\\alpha \\over 2}} \\right)}^2}}} \\Rightarrow {U_f} = 2mgh$$\n\nW = $$\\Delta$$U = 2mgh = Nmgh\n\n$$ \\therefore $$ N = 2",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_062",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two large circular discs separated by a distance of 0.01 m are connected to a battery via a switch as\nshown in the figure. Charged oil drops of density 900 kg m$^{−3}$\nare released through a tiny hole at the\ncenter of the top disc. Once some oil drops achieve terminal velocity, the switch is closed to apply a\nvoltage of 200 V across the discs. As a result, an oil drop of radius 8 $$ \\times $$ 10$^{−7}$ m stops moving\nvertically and floats between the discs. The number of electrons present in this oil drop is ________.\n\n(neglect the buoyancy force, take acceleration due to gravity = 10 ms$^{−2}$\nand charge on an electron\n(e) = 1.6 $$ \\times $$ 10$^{–19}$ C)\n\n[Diagram]",
+    "solution": "$$qE = Mg \\Rightarrow q = {{mg} \\over E} = \\left( {{{mg} \\over {V/d}}} \\right) = {{900 \\times {4 \\over 5}\\pi (8 \\times {{10}^{ - 7}}) \\times 10} \\over {{{200} \\over {0.01}}}}N = {q \\over e} = {{900 \\times 4\\pi \\times {8^3} \\times {{10}^{ - 21}} \\times 10 \\times 0.01} \\over {200 \\times 1.6 \\times {{10}^{ - 19}}}}$$\n\nN = 6",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_063",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circular disc of radius R carries surface charge density\n\n$$\\sigma \\left( r \\right) = {\\sigma _0}\\left( {1 - {r \\over R}} \\right)$$, where $$\\sigma $$$_{0}$ is a constant\nand r is the distance from the center of the disc. Electric flux through a large spherical surface that\nencloses the charged disc completely is $$\\phi $$$_{0}$. Electric flux through another spherical surface of radius $${R \\over 4}$$ and concentric with the disc is $$\\phi $$. Then the ratio $${{{\\phi _0}} \\over \\phi }$$ is ________.",
+    "solution": "To determine the disc’s total charge, integrate the radial surface–charge distribution across its entire area:\n$ \\begin{aligned} q_{\\text{enc}} &= \\int_{0}^{a} \\sigma(r)\\, 2\\pi r\\,dr = 2\\pi \\sigma_{0}\\int_{0}^{a}\\!\\left(r - \\frac{r^{2}}{a}\\right)dr \\\\[4pt] &= 2\\pi \\sigma_{0}\\!\\left[\\frac{r^{2}}{2} - \\frac{r^{3}}{3a}\\right]_{0}^{a} = \\frac{\\pi \\sigma_{0}a^{2}}{3}. \\end{aligned} $\nThe electric flux through the spherical surface that encloses the entire charged disc is\n$$ \\phi_0=\\frac{q_{\\mathrm{enc} 0}}{\\epsilon_0}=\\frac{\\pi \\sigma_0 a^2}{3 \\epsilon_0} . $$\n\n[Diagram]\n\nNext, we find the flux through the smaller spherical surface of radius $a / 4$, which encloses a portion of the disc. The charge on this portion of the disc is\n$$ q_{\\mathrm{enc}}=2 \\pi \\sigma_0 \\int\\limits_0^{a / 4}\\left(r-\\frac{r^2}{a}\\right) \\mathrm{d} r=\\frac{5}{96} \\pi \\sigma_0 a^2 $$\nThe flux through this spherical surface is\n$$ \\phi=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}=\\frac{5 \\pi \\sigma_0 a^2}{96 \\epsilon_0} $$\nThe ratio of the two fluxes is\n$$ \\frac{\\phi_0}{\\phi}=\\frac{32}{5}=6.4 $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m9xrsr7k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_064",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One end of a spring of negligible unstretched length and spring constant k is fixed at the origin (0, 0).\nA point particle of mass m carrying a positive charge q is attached at its other end. The entire system\nis kept on a smooth horizontal surface. When a point dipole $$\\overrightarrow p $$ pointing towards the charge q is fixed\nat the origin, the spring gets stretched to a length l and attains a new equilibrium position (see figure\nbelow). If the point mass is now displaced slightly by $$\\Delta $$l << l from its equilibrium position and\nreleased, it is found to oscillate at frequency $${1 \\over \\delta }\\sqrt {{k \\over m}} $$. The value of $$\\delta $$ is ______.\n\n[Diagram]",
+    "solution": "Electrostatic force = Spring force\n\nAt l, $$Fe = {F_{sp}}kl = {{2\\alpha pq} \\over {{l^3}}}$$ (Here, $$\\alpha = {1 \\over {4\\pi {\\varepsilon _0}}}$$)\n\n\n[Diagram]\n\n\nNow, the mass m is displaced by $$\\Delta $$l = x from the mean position.\n\n$${F_{net}} = {F_{sp}} - Fe = k(l + x) - {{q(2\\alpha p)} \\over {{{(l + x)}^3}}} = k(x + 1) - {{q(2\\alpha p)} \\over {{l^3}{{(l + x/l)}^3}}} = kx + kl - q\\left( {{{2\\alpha p} \\over {{l^3}}}} \\right)\\left( {1 - {{3x} \\over l}} \\right) = kx + kl - q\\left( {{{2\\alpha p} \\over {{l^3}}}} \\right) + {{2\\alpha p} \\over {{l^3}}}.{{3x} \\over l}$$\n\nSubstituting $${{2\\alpha pq} \\over {{l^3}}} = kl$$, we get\n\n$${F_{net}} = kx + kl\\left( {{{3x} \\over l}} \\right) = 4kx$$\n\nThis is restoring in nature.\n\nHence, $${k_{eq}} = 4k$$\n\nor $$T = 2\\pi \\sqrt {{m \\over {4k}}} = \\pi \\sqrt {{m \\over k}} \\therefore f = {1 \\over \\pi }\\sqrt {{k \\over m}} $$\n\nSo, $$\\delta = \\pi = 3.14$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lf1v64u3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_065",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle, of mass $${10^{ - 3}}kg$$ and charge $$1.0C,$$ is initially at rest. At time $$t=0,$$ the particle comes under the influence of an electric field $$\\overrightarrow E \\left( t \\right) = {E_0}\\sin \\,\\,\\omega t\\widehat i,$$ where $${E_0} = 1.0\\,N{C^{ - 1}}$$ and $$\\omega = 10{}^3\\,rad\\,{s^{ - 1}}.$$ Consider the effect of only the electrical force on the particle. Then the maximum speed, in $$m{s^{ - 1}},$$ attained by the particle at subsequent times is _______________.",
+    "solution": "Given, mass of particle = 10$^{$$-$$3}$ kg, charge on particle = 1.0 C, electric field $$\\overrightarrow E (t) = {E_0}\\sin \\omega t\\,\\widehat i$$, E$_{0}$ = 1.0 N C$^{$$-$$1}$, $$\\omega$$ = 10$^{3}$ rad s$^{$$-$$1}$\nForce on particle is given by\n$$ \\Rightarrow \\overrightarrow F = q{E_0}\\sin \\omega t\\,\\widehat i = 1.0 \\times 1.0 \\times \\sin ({10^3}t)\\widehat i \\Rightarrow \\overrightarrow F = \\sin ({10^3}t)\\widehat i$$\nWe know that $$\\overrightarrow F = m\\overrightarrow a \\Rightarrow \\overrightarrow a = {{\\overrightarrow F } \\over m} \\Rightarrow a = {{\\sin ({{10}^3}t)} \\over {{{10}^{ - 3}}}} \\Rightarrow a = {10^3}\\sin ({10^3}t)$$\nWe know $$a = {{dv} \\over {dt}} \\Rightarrow {{dv} \\over {dt}} = {10^3}\\sin ({10^3}t) \\Rightarrow dv = {10^3}\\sin ({10^3}t)dt$$\nNow, integrating it, we get\n$$\\int\\limits_0^v {dv = \\int\\limits_0^t {{{10}^3}\\sin ({{10}^3}t)dt} } \\Rightarrow \\left. v \\right|_0^v = {10^3}\\left( {{{ - \\left. {\\cos ({{10}^3}t)} \\right|_0^t} \\over {{{10}^3}}}} \\right) \\Rightarrow \\left. v \\right|_0^v = \\left. { - \\cos ({{10}^3}t)} \\right|_0^t \\Rightarrow v = ( - \\cos {10^3}t + \\cos 0) \\Rightarrow v = (1 - \\cos ({10^3}t))$$\nWe know that cos$$\\theta$$ can take values between $$-$$1 and 1. Therefore, maximum speed attained by the particle when cos$$\\theta$$ = $$-$$1. Thus,\n$${v_{\\max }} = 1 - ( - 1) = 2$$ m s$^{$$-$$1}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_electrostatics_066",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An infinitely long uniform line charge distribution of charge per unit length $$\\lambda$$ lies parallel to the y-axis in the y-z plane at $$z = {{\\sqrt 3 } \\over 2}$$a (see figure). If the magnitude of the flux of the electric field through the rectangular surface ABCD lying in the x-y plane with its centre at the origin is $${{\\lambda L} \\over {n{\\varepsilon _0}}}$$ ($${{\\varepsilon _0}}$$ = permittivity of free space), then the value of n is\n\n\n[Diagram]",
+    "solution": "ANBP is cross-section of a cylinder of length L. The line charge passes through the centre O and perpendicular to paper.\n\n[Diagram]\n\n$$AM = {a \\over 2}$$, $$MO = {{\\sqrt 3 a} \\over 2}\\therefore\\angle AOM = {\\tan ^{ - 1}}\\left( {{{AM} \\over {OM}}} \\right) = {\\tan ^{ - 1}}\\left( {{1 \\over {\\sqrt 3 }}} \\right) = 30^\\circ $$\nElectric flux passing from the whole cylinder\n$${\\phi _1} = {{{q_{in}}} \\over {{\\varepsilon _0}}} = {{\\lambda L} \\over {{\\varepsilon _0}}}\\therefore$$ Electric flux passing through ABCD plane surface (shown only AB) = Electric flux passing through cylindrical surface ANB\n$$ = \\left( {{{60^\\circ } \\over {360^\\circ }}} \\right)({\\phi _1}) = {{\\lambda L} \\over {6{\\varepsilon _0}}}\\therefore$$ n = 6",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11tz8em.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_067",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An infinitely long solid cylinder of radius R has a uniform volume charge density $$\\rho$$. It has a spherical cavity of radius R/2 with its centre on the axis of the cylinder, as shown in the figure. The magnitude of the electric field at the point P, which is at a distance 2R from the axis of the cylinder, is given by the expression $${{23\\rho R} \\over {16k{\\varepsilon _0}}}$$. The value of k is _____________.\n\n[Diagram]",
+    "solution": "Electric field at point P due to long uniformly charged solid cylinder is\n$${E_1} = {{\\rho {R^2}} \\over {2{\\varepsilon _0}(2R)}} = {{\\rho R} \\over {4{\\varepsilon _0}}}$$\nElectric field at point P due to spherical cavity is\n$${E_1} = {1 \\over {4\\pi {\\varepsilon _0}}}{{\\rho {4 \\over 3}\\pi {{\\left( {{R \\over 2}} \\right)}^3}} \\over {{{(2R)}^2}}} = {{\\rho R} \\over {96{\\varepsilon _0}}}$$\nThe electric field at the point P is\n$$ = {E_1} - {E_2} = {{\\rho R} \\over {4{\\varepsilon _0}}} - {{\\rho R} \\over {96{\\varepsilon _0}}} = {{\\rho R} \\over {4{\\varepsilon _0}}}\\left[ {1 - {1 \\over {24}}} \\right] = {{23\\rho R} \\over {96{\\varepsilon _0}}} = {{23\\rho R} \\over {(16)6{\\varepsilon _0}}} = {{23\\rho R} \\over {16k{\\varepsilon _0}}}\\thereforek = 6$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24l88a7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_068",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four point charges, each of +q, are rigidly fixed at the four corners of a square planar soap film of side a. The surface tension of the soap film is $$\\gamma$$. The system of charges and planar film are in equilibrium, and $$a = k{\\left[ {{{{q^2}} \\over \\gamma }} \\right]^{1/N}}$$, where k is a constant. Then N is __________.",
+    "solution": "The net force on one of the charges due to other charges is\n$$F = {{2k{q^2}} \\over {{a^2}}} + {{k{q^2}} \\over {2{a^2}}} = {5 \\over 2}\\left( {{{k{q^2}} \\over {{a^2}}}} \\right)$$\nwhere $$k = {1 \\over {4\\pi \\varepsilon }}$$. Here, as shown in the figure, line AB divided the soap film into two equal parts. The free-body diagram of half part is also depicted in the figure here.\n\n[Diagram]\n\nAt equilibrium, the surface tension balances the force.\nTherefore,\n$${F_{surface}} = 2\\sqrt 2 a\\gamma $$\nThat is, $$2\\sqrt 2 a\\gamma = {5 \\over 2}\\left( {{{k{q^2}} \\over {{a^2}}}} \\right) \\Rightarrow {a^3} = {5 \\over {4\\sqrt 2 }}\\left( {{{{q^2}} \\over \\gamma }} \\right)$$\nTherefore,\na = Any constant $$ \\times {\\left( {{{{q^2}} \\over \\gamma }} \\right)^{1/3}}$$\nHence, N = 3.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2lyo07w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electrostatics_069",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electrostatics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solid sphere of radius R has a charge Q distributed in its volume with a charge density $$\\rho = K{r^a}$$, where K and a are constants and r is the distance from its centre. If the electric field at $$r = R/2$$ is 1/8 times than at $$r = R$$, find the value of $$a$$.",
+    "solution": "Applying Gauss's theorem, we get\n$$E(4\\pi {r^2}) = {{{q_{encl}}} \\over {{t_0}}} = {1 \\over t}\\int\\limits_0^r {k{x^2}(4\\pi {x^2})dx} $$\n\n[Diagram]\n\nNow, $$E{r^2} = {k \\over {{t_0}}}\\int\\limits_0^r {{x^{2 + a}}dx = {k \\over {{t_0}}}\\left( {{{{r^{3 + a}}} \\over {3 + a}}} \\right)} $$\nTherefore, $$E = {k \\over {{t_0}}}{{{r^{1 + a}}} \\over {3 + a}}$$\nThat is, $$E \\propto {r^{1 + a}}$$\nNow, $$E\\left( {{R \\over 2}} \\right) = {1 \\over 8}E(R)$$\nTherefore, $${\\left( {{R \\over 2}} \\right)^{1 + a}} = {1 \\over 8}{(R)^{1 + a}} \\Rightarrow 8 = {2^{1 + a}}$$\nwhere $$1 + a = 3$$ and hence $$a = 2$$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4pb46.png",
+      "position": "bottom"
+    }
+  }
+]

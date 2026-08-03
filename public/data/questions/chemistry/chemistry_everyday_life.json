@@ -1,0 +1,26 @@
+[
+  {
+    "id": "chem_chemistry_everyday_life_001",
+    "subject": "Chemistry",
+    "chapter": "Chemistry in Everyday Life",
+    "topic": "Chemistry in Everyday Life",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Aspartame, an artificial sweetener, is a dipeptide aspartyl phenylalanine methyl ester. The structure of aspartame is\n\n[Diagram]",
+    "solution": "Aspartame structure is a dipeptide consisting aspartic acid and methyl ester of phenylalanine\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwrajwhm.png",
+      "position": "bottom"
+    }
+  }
+]

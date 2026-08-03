@@ -1,0 +1,2084 @@
+[
+  {
+    "id": "chem_chemical_bonding_001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species having bond order different from that in CO is",
+    "solution": "$\\begin{array}{cccc}\\mathrm{NO}_2^{+} & \\mathrm{NO}_2 & \\mathrm{NO}_3^{-} & \\mathrm{NO}_2^{-} \\\\ s p & s p^2 & s p^2 & s p^2\\end{array}$\n\n[Diagram]\n\n$\\mathrm{NO}_2^{-}<\\mathrm{NO}_3^{-}<\\mathrm{NO}_2<\\mathrm{NO}_2^{+}$bond angle order.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "NO$^{-}$",
+      "NO$^{+}$",
+      "CN$^{-}$",
+      "N$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpba0bid.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_002",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**The correct statement(s) about intermolecular forces is(are)**",
+    "solution": "Option A\nA charge–charge interaction falls off as\n$$U_{qq}\\propto\\frac1r$$\nwhile a charge–dipole interaction goes as\n$$U_{q\\mu}\\propto\\frac1{r^2}\\,. $$\nSo the charge–dipole potential actually decays faster.\n⇒ A is false.\nOption B\nA fixed dipole–dipole energy is\n$$U_{\\mu\\mu}\\propto\\frac1{r^3}\\,, $$\nbut once both molecules tumble freely, the thermal (Keesom) average gives\n$$\\langle U\\rangle_{\\rm Keesom}\\propto -\\frac{\\mu^4}{kT\\,(4\\pi\\varepsilon_0)^2\\,r^6}\\,. $$\nThat falls off as $1/r^6$, not $1/r^3$.\n⇒ B is false.\nOption C\nThe permanent–induced dipole (Debye) interaction is\n$$U_{\\rm Debye}=-\\tfrac12\\,\\alpha\\,E^2\\propto -\\frac{\\alpha\\,\\mu^2}{(4\\pi\\varepsilon_0)^2\\,r^6}\\,, $$\nand when you average over random orientations (assuming the interaction is weak compared with $kT$), no $T$ appears in the result.\n⇒ C is true.\nOption D\nEven totally nonpolar species experience instantaneous‐induced (London) dispersion forces that attract as\n$$U_{\\rm disp}\\propto -\\frac1{r^6}\\,. $$\n⇒ D is true.\n\nAnswer: C and D.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "The potential energy between two point charges approaches zero more rapidly than the potential energy between a point dipole and a point charge as the distance between them approaches infinity.",
+      "The average potential energy of two rotating polar molecules that are separated by a distance *r* has $1/r^3$ dependence.",
+      "The dipole-induced dipole average interaction energy is independent of temperature.",
+      "Nonpolar molecules attract one another even though neither has a permanent dipole moment."
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_003",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among $\\left[\\mathrm{I}_3\\right]^{+},\\left[\\mathrm{SiO}_4\\right]^{4-}, \\mathrm{SO}_2 \\mathrm{Cl}_2, \\mathrm{XeF}_2, \\mathrm{SF}_4, \\mathrm{ClF}_3, \\mathrm{Ni}(\\mathrm{CO})_4, \\mathrm{XeO}_2 \\mathrm{~F}_2,\\left[\\mathrm{PtCl}_4\\right]^{2-}, \\mathrm{XeF}_4$, and $\\mathrm{SOCl}_2$, the total number of species having $s p^3$ hybridised central atom is ________.",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1liwzaudh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_004",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Predict whether the following molecules are iso-structural or not. Justify your answer.\n(A) NMe$$_3$$\n(B) N(SiMe$$_3$$)$$_3$$",
+    "solution": "To become isostructural, both molecules NMe$$_3$$\nand N(SiMe$$_3$$)$$_3$$ must have same shape.\nIn NMe$$_3$$, three methyl groups are attached\nto central N atom. The structure of NMe$$_3$$\nis trigonal pyramidal and central N atom\nundergoes sp$$^3$$ hybridisation.\n\n[Diagram]\n\nIn N(SiMe$$_3$$)$$_3$$, central N atom is attached to 3 SiMe$$_3$$ groups. The shape of N(SiMe$$_3$$)$$_3$$ is trigonal planar as central N atom undergoes sp$$^2$$ hybridisation. Due to back-bonding, the three sp$$^2$$ orbitals are used for bonding and lone pair occupies p-pi orbital. These orbitals overlap with d-pi orbitals on each Si atoms and results in bonding, giving a trigonal planar shape.\n\n[Diagram]\n\nHence, NMe$$_3$$ and N(SiMe$$_3$$)$$_3$$ are not isostructural.\nFinal Answer\nThe NMe$$_3$$ and N(SiMe$$_3$$)$$_3$$ are not isostructural.\nHints:\nTwo molecules are considered as isostructural,\nwhen two molecules contain identical\nnumber of atoms arranged in identical spatial\narrangement.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9kqnjz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_005",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When N$_{2}$, the N-N bond distance _____ and when O$_{2}$ goes to $$O_2^+$$ the O-O bond distance ___.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_006",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The dipole moment of CH$_{3}$F is greater than of CH$_{3}$Cl",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_007",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following the paramagnetic compound is",
+    "solution": "$\\begin{array}{cccc}\\mathrm{NO}_2^{+} & \\mathrm{NO}_2 & \\mathrm{NO}_3^{-} & \\mathrm{NO}_2^{-} \\\\ s p & s p^2 & s p^2 & s p^2\\end{array}$\n\n[Diagram]\n\n$\\mathrm{NO}_2^{-}<\\mathrm{NO}_3^{-}<\\mathrm{NO}_2<\\mathrm{NO}_2^{+}$bond angle order.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Na$_{2}$O$_{2}$",
+      "O$_{3}$",
+      "N$_{2}$O",
+      "KO$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpba0bid.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_008",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct order of ONO bond angle in the given species is :",
+    "solution": "$\\begin{array}{cccc}\\mathrm{NO}_2^{+} & \\mathrm{NO}_2 & \\mathrm{NO}_3^{-} & \\mathrm{NO}_2^{-} \\\\ s p & s p^2 & s p^2 & s p^2\\end{array}$\n\n[Diagram]\n\n$\\mathrm{NO}_2^{-}<\\mathrm{NO}_3^{-}<\\mathrm{NO}_2<\\mathrm{NO}_2^{+}$bond angle order.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "NO$_2^+$ < NO$_2$ < NO$_3^-$ < NO$_2^-$",
+      "NO$_2^-$ < NO$_3^-$ < NO$_2$ < NO$_2^+$",
+      "NO$_3^-$ < NO$_2^-$ < NO$_2$ < NO$_2^+$",
+      "NO$_2^-$ < NO$_3^-$ < NO$_2^+$ < NO$_2$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpba0bid.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_009",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct order of dipole moments for the given species is",
+    "solution": "[Diagram]\n\n[Diagram]\n\n$$\\therefore $$ Order of dipole moment : $\\mathrm{BF}_3=\\mathrm{NH}_4^{+}<\\mathrm{NF}_3<\\mathrm{NH}_3$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "BF$_3$ = NH$_4^+$ < NF$_3$ < NH$_3$",
+      "BF$_3$ < NH$_4^+$ < NF$_3$ < NH$_3$",
+      "NH$_4^+$ < BF$_3$ < NH$_3$ < NF$_3$",
+      "BF$_3$ < NH$_4^+$ < NH$_3$ < NF$_3$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpb5vmo5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_010",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following species:\nSOCl$_2$, XeOF$_4$, ClF$_3$, ClF$_5$, XeF$_5^+$, SO$_3^{2-}$, XeF$_3^+$, SF$_4$\nList-I contains different molecular shapes and List-II contains total number of species with the same molecular shapes from the given species. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.\n\n\n\nList-I\nList-II\n\n\n\n\n\n\n\n(P) See-saw\n\n\n\n(1) one\n\n\n\n\n\n(Q) T-Shaped\n\n\n\n(2) two\n\n\n\n\n\n(R) Trigonal Planar\n\n\n\n(3) three\n\n\n\n\n\n(S) Square Pyramidal\n\n\n\n(4) four\n\n\n\n\n\n\n\n\n\n\n(5) zero",
+    "solution": "[Diagram]\n\n[Diagram]\n\nSee-saw → 1\nT-shape → 2\nTrigonal Planar → zero\nSquare pyramidal → 3\n$(P) \\rightarrow(1) ;(Q) \\rightarrow(2) ;(R) \\rightarrow(5) ;(S) \\rightarrow(3)$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P → 1; Q → 2; R → 5; S → 3",
+      "P → 5; Q → 4; R → 2; S → 3",
+      "P → 3; Q → 2; R → 1; S → 4",
+      "P → 1; Q → 3; R → 5; S → 4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpb7sv1o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_011",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Based on **VSEPR** model, match the xenon compounds given in **List-I** with the corresponding geometries and the number of lone pairs on xenon given in **List-II** and choose the correct option.\n\ntable {\nwidth: 80%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid lightgrey;\npadding: 10px;\n}\ntd {\nborder: 1px solid lightgrey;\npadding: 10px;\ntext-align: left;\n}\n\n\n\nList-I\nList-II\n\n\n(P) XeF$_2$\n(1) Trigonal bipyramidal and two lone pair of electrons\n\n\n(Q) XeF$_4$\n(2) Tetrahedral and one lone pair of electrons\n\n\n(R) XeO$_3$\n(3) Octahedral and two lone pair of electrons\n\n\n(S) XeO$_3$F$_2$\n(4) Trigonal bipyramidal and no lone pair of electrons\n\n\n\n(5) Trigonal bipyramidal and three lone pair of electrons",
+    "solution": "$\\mathrm{XeF}_2 \\Rightarrow 2$ sigma bonds and 3 lone pairs on $\\mathrm{Xe}$, number of hybrid orbitals $=5, \\mathrm{sp}^3 \\mathrm{~d}$ hybridisation , geometry will be trigonal bipyramidal.\n\n[Diagram]\n\n$\\mathrm{P}-5$\n\n$\\mathrm{XeF}_4 \\Rightarrow 4$ sigma bonds and 2 lone pairs on $\\mathrm{Xe}$, number of hybrid orbitals $=6, \\mathrm{sp}^3 \\mathrm{~d}^2$ hybridisation , geometry will be octahedral.\n\n[Diagram]\n\nQ-3\n\n$\\mathrm{XeO}_3 \\Rightarrow 3$ sigma bonds and 1 lone pairs on $\\mathrm{Xe}$, number of hybrid orbitals $=4, \\mathrm{sp}^3$ hybridisation , geometry will be tetrahedral.\n\n[Diagram]\n\nR-2\n\n$\\mathrm{XeO}_3 \\mathrm{F}_2 \\Rightarrow 5$ sigma bonds and 0 lone pairs on $\\mathrm{Xe}$, number of hybrid orbitals $=5, \\mathrm{sp}^3 \\mathrm{~d}$ hybridisation , geometry will be trigonal bipyramidal.\n\n[Diagram]\n\nS-4",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P-5, Q-2, R-3, S-1",
+      "P-5, Q-3, R-2, S-4",
+      "P-4, Q-3, R-2, S-1",
+      "P-4, Q-2, R-5, S-3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lxiplwqu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_012",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct molecular orbital diagram for $\\mathrm{F}_2$ molecule in the ground state is :",
+    "solution": "(1) Upto 14 electrons, molecular orbital configuration is ->\n\n[Diagram]\n\nN$_{b}$ = No of electrons in bonding molecular orbital\n\nN$_{a}$ $$=$$ No of electrons in anti bonding molecular orbital\n\nHere N$_{a}$ = Anti bonding electron $$=$$ 4 and N$_{b}$ = 10\n\n(2) After 14 electrons to 20 electrons molecular orbital configuration is ->\n\n[Diagram]\n\nHere N$_{a}$ = 10\n\nand N$_{b}$ = 10\n\nNow from question, in F atom 9 electrons present, so in F$_{2}$, 9 $$ \\times $$ 2 = 18 electrons present.\n\nMolecular orbital configuration of F$_{2}$(18 electrons) is\n\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,\\pi _{2p_x^2}^ * \\, = \\,\\pi _{2p_y^2}^ * $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqi1zx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_013",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Assuming 2s – 2p mixing is NOT operative, the paramagnetic species among the following is",
+    "solution": "Write the molecular orbital electronic configuration keeping in mind that there is no $2 s-2 p$ mixing, then if highest occupied molecular orbital contain unpaired electron then molecule is paramagnetic otherwise diamagnetic.\n\nNote: Since there is no mixing of $2 s$ and $2 p$ orbitals of each of the atom in a diatomic molecule, the energy of bonding molecular orbital $2 p z$, i.e., $2 p$ is less than that of bonding molecular orbital of $2 p x$ and $2 p y$, i.e., $\\left(\\pi_{2 p x}^*\\right.$ and $\\left.\\pi_{2 p y}^*\\right)$.\n\n$$ \\therefore $$ The order of molecular orbital energy levels, i.e., bonding and anti-bonding energy levels is as follows:\n\n$$ \\begin{aligned} \\left(\\sigma_{1 s}\\right)\\left(\\sigma_{1 s}^*\\right)\\left(\\sigma_{2 s}\\right)\\left(\\sigma_{2 s}^*\\right)\\left(\\sigma_{2 p z}\\right)\\left(\\pi_{2 p x}\\right. & \\left.\\equiv \\pi_{2 p y}\\right) \\left(\\pi_{2 p x}^*\\right. \\left.\\equiv \\pi_{2 p y}^*\\right)\\left(\\sigma_{2 p z}^*\\right) \\end{aligned} $$\n\n(A) Total number (no.) of electrons in $\\mathrm{Be}_2=4+4=$ 8. The electronic configuration of $\\mathrm{Be}_2$ is:\n\n$$ \\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2 $$\n\nAll the electrons in $\\mathrm{Be}_2$ are paired up, $\\mathrm{Be}_2$ is diamagnetic.\n\n(B) Total number (no.) of electrons in $\\mathrm{B}_2=5+5=$ 10. The electronic configuration of $B_2$ is:\n\n$\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\sigma_{2 p z}\\right)^2$\n\nAll the electrons in $B_2$ are paired up, $B_2$ is diamagnetic.\n\n(C) Total no. of electrons in $\\mathrm{C}_2=6+6=12$ The electronic configuration of $\\mathrm{C}_2$ is:\n\n$$ \\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\sigma_{2 p z}\\right)^2\\left(\\pi_{2 p x}^{* 1} \\equiv \\pi_{2 p y}^{* 1}\\right) $$\n\nThere are two unpaired electrons in doubly degenerate.\n\n$\\pi_{2 p x}$ and $\\pi_{2 p y} \\mathrm{C}_2$ is paramagnetic.\n\n(D) Total no. of electrons in $\\mathrm{N}_2=7+7=14$\n\nThe electronic configuration of $\\mathrm{N}_2$ is:\n\n$$ \\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\sigma_{2 p z}\\right)^2\\left(\\pi_{2 p x}^{* 2} \\equiv \\pi_{2 p y}^{* 2}\\right) $$\n\nAll the electrons in $\\mathrm{N}_2$ are paired up; $\\mathrm{N}_2$ is diamagnetic.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Be$_{2}$",
+      "B$_{2}$",
+      "C$_{2}$",
+      "N$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l180ew0u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_014",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the orbital overlap figures shown in List I with the description given in List II and select the correct answer using the code given below the lists.\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P-2, Q-1, R-3, S-4",
+      "P-4, Q-3, R-1, S-2",
+      "P-2, Q-3, R-1, S-4",
+      "P-4, Q-1, R-3, S-2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l180ew0u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_015",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The shape of XeO$_{2}$F$_{2}$ molecule is",
+    "solution": "The electronic configuration of Xe is 5s$^{2}$ 5p$^{6}$; and that of Xe in excited state is 5s$^{2}$ 5p$^{5}$ 5d$^{1}$. The hybridisation is sp$^{3}$d and geometry is see-saw. The actual shape is trigonal bipyramidal but due to the preaence of lone pair it gets distorted to see-saw structure.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "trigonal bipyramidal.",
+      "square planar.",
+      "tetrahedral.",
+      "see-saw."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l26hvc86.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_016",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species having pyramidal shape is",
+    "solution": "$\\mathrm{OSF}_2$ has $s p^3$ hybridisation. According to VSEPR theory, we can conclude that the shape of $\\mathrm{OSF}_2$ is a trigonal pyramid.\nSulphur has a non-bonding pair of electrons and three sulphur-oxygen ( $\\mathrm{S}-\\mathrm{O})$ bond pairs. $\\mathrm{SO}_2$ is $s p^2$ hybridised with three bond pairs (two sigma and one pi) and one lone pair. It is replace trigonal by bent.\n$\\mathrm{BrF}_3$ is $s p^3 d$ hybridized with three bond pair and two lone pairs. It is T shaped.\n$\\mathrm{SiO}_3^{2-}$ is $s p^2$ hybridised with four bond pairs (three sigma and one pi) and no lone pair. It has trigonal planar shape.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "SO$_{3}$",
+      "BrF$_{3}$",
+      "$$SiO_3^{2-}$$",
+      "OSF$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04lw88d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_017",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Assuming that Hund’s rule is violated, the bond order and magnetic nature of the diatomic molecule B$_{2}$ is",
+    "solution": "Molecular orbital configuration of B$_{2}$ (10 electrons) is\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,\\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,\\,{\\pi _{2p_x^1}} = {\\pi _{2p_y^1}}$$\nHere in B$_{2}$, 2 unpaired electrons present.\nSince the Hund's rule is violated, two electrons are placed in $\\pi 2 p_x$ molecular orbital, so\n$$ \\mathrm{B}_2(10): {\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,\\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,\\,{\\pi _{2p_x^2}} $$\nThus, bond order $=\\frac{6-4}{2}=1$.\nAs there are no unpaired electrons, the nature is diamagnetic.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1 and diamagnetic",
+      "0 and diamagnetic",
+      "1 and paramagnetic",
+      "0 and paramagnetic"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggeuks6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_018",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match each of the diatomic molecules in Column I with its property/properties in Column II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$${B_2}$$\n(P)\nParamagnetic\n\n\n(B)\n$${N_2}$$\n(Q)\nUndergoes oxidation\n\n\n(C)\n$$O_2^ - $$\n(R)\nUndergoes reduction\n\n\n(D)\n$${O_2}$$\n(S)\nBond order $$\\ge$$ 2\n\n\n\n\n(T)\nMixing of $$s$$ and $$p$$ orbitals",
+    "solution": "(A) $${B_2} \\to \\sigma 1{s^2}\\,\\sigma * 1{s^2}\\,\\sigma 2{s^2}\\,\\sigma * 2{s^2}\\pi 2p_x^1 = \\pi 2p_y^1$$\nIt is paramagnetic due to two unpaired electrons. The bond order is\n$${{{N_b} - {N_a}} \\over 2} = {{6 - 4} \\over 2} = 1$$\nThe gain of electron increases bond order, so reduction is possible.\n(B) $${N_2} \\to \\sigma 1{s^2}\\,\\sigma * 1{s^2}\\,\\sigma 2{s^2}\\,\\sigma * 2{s^2}\\pi 2p_x^2 = \\pi 2p_y^2\\sigma 2p_z^2$$\nThere are no unpaired electrons. Bond order is\n$${{{N_b} - {N_a}} \\over 2} = {{10 - 4} \\over 2} = {6 \\over 2} = 3$$\nMixing of 2s and 2p orbitals is possible because of similar energies.\n(C) $$O_2^ - \\to \\sigma 1{s^2}\\,\\sigma * 1{s^2}\\,\\sigma 2{s^2}\\,\\sigma * 2{s^2}\\sigma 2p_z^2\\pi 2p_x^2 = \\pi 2p_y^2\\,\\pi * 2p_x^2\\,\\pi * 2p_y^1$$\nThe molecule is paramagnetic due to presence of unpaired electron. Bond order is less than 2.\n$${{{N_b} - {N_a}} \\over 2} = {{10 - 7} \\over 2} = {3 \\over 2}$$\nLoss of electron increases the bond order so oxidation is possible.\n(D) $$O_2^{} \\to \\sigma 1{s^2}\\,\\sigma * 1{s^2}\\,\\sigma 2{s^2}\\,\\sigma * 2{s^2}\\sigma 2p_z^2\\pi 2p_x^2 = \\pi 2p_y^2\\,\\pi * 2p_x^1\\,\\pi * 2p_y^1$$\nThe molecule is paramagnetic due to presence of unpaired electrons. Bond order is\n$${{{N_b} - {N_a}} \\over 2} = {{10 - 6} \\over 2} = {4 \\over 2} = 2$$\nLoss of electron causes increase in bond order, so it undergoes oxidation.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\mathrm{(A)\\to(P),(Q),(R),(T);(B)\\to(S),(T);(C)\\to(P),(Q);(D)\\to(P),(Q),(S)}$$",
+      "$$\\mathrm{(A)\\to(P),(S),(R),(T);(B)\\to(S),(T);(C)\\to(P),(Q);(D)\\to(P),(T),(S)}$$",
+      "$$\\mathrm{(A)\\to(Q),(R),(T);(B)\\to(P),(T);(C)\\to(P),(Q);(D)\\to(T),(Q),(S)}$$",
+      "$$\\mathrm{(A)\\to(P),(R),(T);(B)\\to(Q),(T);(C)\\to(S),(Q);(D)\\to(P),(Q),(S)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggeuks6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_019",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species having bond order different from that in CO is :",
+    "solution": "Species having the same number of electrons will have the same bond order.\nNumber of electrons in CO are 14 (8 from oxygen and 6 from carbon).\nNO$$^-$$ has 16 electrons (7 from nitrogen, 8 from oxygen, add 1 for negative charge).\nNO$$^+$$ has 14 electrons (7 from nitrogen, 8 from oxygen, subtract 1 for positive charge).\nCN$$^-$$ has 14 electrons (7 from nitrogen, 6 from carbon, add 1 for negative charge).\nN$$_2$$ has 14 electrons (7 from each nitrogen).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "NO$$^-$$",
+      "NO$$^+$$",
+      "CN$$^-$$",
+      "N$$_2$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggeuks6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_020",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following the paramagnetic compound is:",
+    "solution": "$\\begin{array}{ll}\\text { (a) } \\mathrm{Na}_2 \\mathrm{O}_2 & \\rightarrow \\mathrm{Na}^{+} \\quad 8 \\mathrm{e}^{-} \\text {all shells are filled. } \\\\ \\mathrm{O}_2^{2-} & \\left.\\rightarrow \\quad \\begin{array}{lll}1 s^2 & 2 s^2 & 2 p^5 \\\\ 1 s^2 & 2 s^2 & 2 p^5\\end{array}\\right] 10 e^{-}\\end{array}$\n\n[Diagram]\n\n[Diagram]\n\n(c) $\\mathrm{N}_2 \\mathrm{O}$\n$$ : \\mathrm{N}=\\mathrm{N} \\rightarrow \\ddot{\\mathrm{O}}: $$\nall electrons are paired.\n(d) $\\mathrm{KO}_2 \\rightarrow \\mathrm{~K}^{+} \\mathrm{O}_2^{-}$\n$$ \\left.\\mathrm{O}_2^{-}=\\begin{array}{ccc} 1 s^2 & 2 s^2 & 2 p^4 \\\\ 1 s^2 & 2 s^2 & 2 p^5 \\end{array}\\right] 9 e^{-} $$\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Na$$_2$$O$$_2$$",
+      "O$$_3$$",
+      "N$$_2$$O",
+      "KO$$_2$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggeuks6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_021",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :** Boron always forms covalent bond.\n**Statement 2 :** The small size of B$$^{3+}$$ favours formation of covalent bond.",
+    "solution": "Statement 1: Boron always forms covalent bonds.\n→ Boron has a small size and high ionization energy. It does not easily lose electrons to form $ B^{3+} $ ions, since removing three electrons requires a lot of energy.\n→ Therefore, boron compounds (like BF₃, BCl₃, BH₃, etc.) are covalent in nature.\n✅ Statement 1 is True.\nStatement 2: The small size of $ B^{3+} $ favors formation of covalent bond.\n→ According to Fajan’s rules, small cations with high charge density have strong polarizing power, which distorts the electron cloud of the anion, leading to covalency.\n→ $ B^{3+} $ is extremely small and highly charged, therefore its compounds are predominantly covalent.\n✅ Statement 2 is True.\nFurthermore, Statement 2 gives the correct reason why boron compounds are covalent — due to the small size and high charge of $ B^{3+} $.\n✅ Correct Option: A\nAnswer: Option A — Both statements are true, and Statement 2 is the correct explanation for Statement 1.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_022",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which species has the maximum number of lone pair of electrons on the central atom?",
+    "solution": "To determine which species has the maximum number of lone pairs of electrons on the central atom, we'll examine the electron configuration of each molecule's central atom:\n\n**Option A: $$[ClO_3]^-$$**\n\nThe central atom is chlorine (Cl).\n\nChlorine has 7 valence electrons. In the $$[ClO_3]^-$$ ion, chlorine forms three bonds with oxygen atoms and there is an additional negative charge (one extra electron). Thus, chlorine has:\n\n$$7 + 1 - 3 = 5$$ valence electrons left, which form 2.5 lone pairs. However, due to the requirement to minimize formal charges, typically chlorine in $$[ClO_3]^-$$ is involved in resonance structures reducing the average lone pairs per resonance structure to 1.\n\nSo, $$[ClO_3]^-$$ has 1 lone pair on the central atom.\n\n**Option B: $$XeF_4$$**\n\nThe central atom is xenon (Xe).\n\nXenon has 8 valence electrons. In $$XeF_4$$, xenon forms four bonds with four fluorine atoms. Thus, xenon has:\n\n$$8 - 4 = 4$$ valence electrons left, which form 2 lone pairs.\n\nSo, $$XeF_4$$ has 2 lone pairs on the central atom.\n\n**Option C: $$SF_4$$**\n\nThe central atom is sulfur (S).\n\nSulfur has 6 valence electrons. In $$SF_4$$, sulfur forms four bonds with four fluorine atoms. Thus, sulfur has:\n\n$$6 - 4 = 2$$ valence electrons left, which form 1 lone pair.\n\nSo, $$SF_4$$ has 1 lone pair on the central atom.\n\n**Option D: $$[I_3]^-$$**\n\nThe central atom is iodine (I).\n\nIodine has 7 valence electrons. In the $$[I_3]^-$$ ion, iodines form a linear structure where the central iodine forms two bonds with two other iodine atoms and there is an additional negative charge (one extra electron). Thus, the central iodine has:\n\n$$7 + 1 - 2 = 6$$ valence electrons left, which form 3 lone pairs.\n\nSo, $$[I_3]^-$$ has 3 lone pairs on the central atom.\n\nHence, the species with the maximum number of lone pairs of electrons on the central atom is:\n\n**Option D: $$[I_3]^-$$**",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[ClO$_{3}$]$^{-}$",
+      "XeF$_{4}$",
+      "SF$_{4}$",
+      "[I$_{3}$]$^{-}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_023",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to molecular orbital theory which of the following statement about the magnetic character and bond order is correct regarding $$O_2^+$$",
+    "solution": "To determine which molecular species have unpaired electrons, let's examine the electron configurations of each species using molecular orbital (MO) theory. The presence of unpaired electrons can be deduced from the electron filling in the molecular orbitals.\n\nOption A: N$_{2}$\n\nFor nitrogen diatomic (N$_{2}$), each nitrogen atom has 7 electrons, so the total number of electrons is 14. According to the molecular orbital theory, the electrons fill the molecular orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$.\n\nFilling these orbitals results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2$$\n\nSo, N$_{2}$ has no unpaired electrons.\n\nOption B: F$_{2}$\n\nFor fluorine diatomic (F$_{2}$), each fluorine atom has 9 electrons, resulting in a total of 18 electrons. They fill the orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals also results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*2}$$\n\nSo, F$_{2}$ has no unpaired electrons.\n\nOption C: $$O_2^-$$\n\nThe dioxygen anion ($$O_2^-$$) has one extra electron compared to neutral O$_{2}$, which normally has 16 electrons. Hence, $$O_2^-$$ has 17 electrons. These electrons fill the orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals, the last electron will be placed in one of the degenerate $$\\pi_{2p_x}^{*}$$ or $$\\pi_{2p_y}^{*}$$ orbitals, resulting in one unpaired electron:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1}$$\n\nSo, $$O_2^-$$ has one unpaired electron.\n\nOption D: $$O_2^{2-}$$\n\nThe peroxide ion ($$O_2^{2-}$$) has two extra electrons compared to neutral O$_{2}$, giving it a total of 18 electrons. These electrons fill the orbitals as follows: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*2}$$\n\nSo, $$O_2^{2-}$$ has no unpaired electrons.\n\nBased on the molecular orbital theory, the molecular species that has unpaired electron(s) is Option C: $$O_2^-$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Paramagnetic and Bond order < O$_{2}$",
+      "Paramagnetic and Bond order > O$_{2}$",
+      "Diamagnetic and Bond order < O$_{2}$",
+      "Diamagnetic and Bond order > O$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgw2k9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_024",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following molecular species has unpaired electrons(s)?",
+    "solution": "To determine which molecular species have unpaired electrons, let's examine the electron configurations of each species using molecular orbital (MO) theory. The presence of unpaired electrons can be deduced from the electron filling in the molecular orbitals.\n\nOption A: N$_{2}$\n\nFor nitrogen diatomic (N$_{2}$), each nitrogen atom has 7 electrons, so the total number of electrons is 14. According to the molecular orbital theory, the electrons fill the molecular orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$.\n\nFilling these orbitals results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2$$\n\nSo, N$_{2}$ has no unpaired electrons.\n\nOption B: F$_{2}$\n\nFor fluorine diatomic (F$_{2}$), each fluorine atom has 9 electrons, resulting in a total of 18 electrons. They fill the orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals also results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*2}$$\n\nSo, F$_{2}$ has no unpaired electrons.\n\nOption C: $$O_2^-$$\n\nThe dioxygen anion ($$O_2^-$$) has one extra electron compared to neutral O$_{2}$, which normally has 16 electrons. Hence, $$O_2^-$$ has 17 electrons. These electrons fill the orbitals in the following order: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals, the last electron will be placed in one of the degenerate $$\\pi_{2p_x}^{*}$$ or $$\\pi_{2p_y}^{*}$$ orbitals, resulting in one unpaired electron:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*1}$$\n\nSo, $$O_2^-$$ has one unpaired electron.\n\nOption D: $$O_2^{2-}$$\n\nThe peroxide ion ($$O_2^{2-}$$) has two extra electrons compared to neutral O$_{2}$, giving it a total of 18 electrons. These electrons fill the orbitals as follows: $$\\sigma_{1s}$$, $$\\sigma_{1s}^*$$, $$\\sigma_{2s}$$, $$\\sigma_{2s}^*$$, $$\\pi_{2p_x}$$ = $$\\pi_{2p_y}$$, $$\\sigma_{2p_z}$$, $$\\pi_{2p_x}^{*}$$ = $$\\pi_{2p_y}^{*}$$, $$\\sigma_{2p_z}^*$$.\n\nFilling these orbitals results in no unpaired electrons:\n\n$$\\sigma_{1s}^{2} \\sigma_{1s}^{*2} \\sigma_{2s}^{2} \\sigma_{2s}^{*2} \\pi_{2p_x}^2 = \\pi_{2p_y}^2 \\sigma_{2p_z}^2 \\pi_{2p_x}^{*2} = \\pi_{2p_y}^{*2}$$\n\nSo, $$O_2^{2-}$$ has no unpaired electrons.\n\nBased on the molecular orbital theory, the molecular species that has unpaired electron(s) is Option C: $$O_2^-$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "N$_{2}$",
+      "F$_{2}$",
+      "$$O_2^-$$",
+      "$$O_2^{2-}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgw2k9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_025",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The common features among the species CN$^{-}$, CO and NO$^{+}$ are :",
+    "solution": "To answer the question about the common features among the species CN$^{-}$, CO, and NO$^{+}$, let's first understand the electronic configurations and bond orders of each species.\n\n1. Electronic Configurations:\n\n- CN$^{-}$: The cyanide ion (CN$^{-}$) has an electronic configuration similar to N$_{2}$ because CN has 10 electrons (from C and N); adding one more electron for the negative charge brings it to 11 electrons.\n\n- CO: Carbon monoxide (CO) has a total of 10 valence electrons (4 from Carbon and 6 from Oxygen).\n\n- NO$^{+}$: The nitrosonium ion (NO$^{+}$) has a total of 10 electrons as well, considering the positive charge removes one electron from the original 11 valence electrons of NO.\n\nThus, all three species CN$^{-}$, CO, and NO$^{+}$ are isoelectronic, meaning they all have the same number of electrons (10 valence electrons).\n\n2. Bond Order: The bond order is the number of chemical bonds between a pair of atoms. It is calculated as half the difference between the number of bonding electrons and the number of antibonding electrons. All three species have a bond order of 3, as can be seen from their molecular orbital diagrams.\n\n3. Ligand Field Strength:\n\nCO and CN$^{-}$ are generally considered strong field ligands due to their ability to partake in back-donation, where electrons from the metal center can be donated back into the empty π* orbitals of the ligand. NO$^{+}$ is also a reasonably strong field ligand due to its ability to accept electrons.\n\nConclusion:\n\nBased on the above analysis, the correct option is:\n\nOption A: bond order three and isoelectronic\n\nThis option accurately describes the common features among CN$^{-}$, CO, and NO$^{+}$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "bond order three and isoelectronic",
+      "bond order three and weak field ligands",
+      "bond order two and $$\\pi$$-acceptors",
+      "isoelectronic and weak field ligands"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgw2k9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_026",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hybridisation of atomic orbitals of nitrogen in $$NO_2^+$$, $$NO_3^-$$ and $$NH_4^+$$ are",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "sp, sp$^{3}$ and sp$^{2}$ respectively",
+      "sp, sp$^{2}$ and sp$^{3}$ respectively",
+      "sp$^{2}$, sp and sp$^{3}$ respectively",
+      "sp$^{2}$, sp$^{3}$ and sp respectively"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgw2k9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_027",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Molecular shape of SF$_{4}$, CF$_{4}$ and XeF$_{4}$ are",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "the same, with 2, 0 and 1 lone pair of electrons",
+      "the same, with 1, 1 and 1 lone pair of electrons",
+      "different, with 0, 1 and 2 lone pairs of electrons respectively",
+      "different, with 1, 0 and 2 lone pairs of electrons respectively"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgz2nb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_028",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The geometry of H$_{2}$S and its dipole moment are",
+    "solution": "$\\mathrm{H}_2 \\mathrm{~S}$ has $s p^3$ hybridised sulphur, therefore, angular in shape with non-zero dipole moment.\n\n[Diagram]\n\n(Non-linear, polar molecule)",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "angular and non-zero",
+      "angular and zero",
+      "linear and non-zero",
+      "linear and zero"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbh4qwo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_029",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct order of increasing C - O bond length of CO, $$CO_3^{2-}$$, CO$_{2}$ is",
+    "solution": "To determine the order of increasing C-O bond lengths for CO, $$CO_3^{2-}$$ and CO$_{2}$, it's essential to understand the types of bonding in these molecules and ions.\n\n1. Carbon Monoxide (CO):\n\nCarbon monoxide has a triple bond between carbon and oxygen. Triple bonds are stronger and shorter compared to single and double bonds. Thus, CO has a very short bond length.\n\n2. Carbon Dioxide (CO$_{2}$):\n\nIn CO$_{2}$, carbon is double-bonded to each oxygen atom. Double bonds are longer than triple bonds but shorter than single bonds. Therefore, the C-O bond length in CO$_{2}$ is longer than in CO but shorter than in a molecule with single bonds.\n\n3. Carbonate Ion ($$CO_3^{2-}$$):\n\nIn the carbonate ion, the bond order for each C-O bond is 1.33. This is because the carbonate ion has a resonance structure where one carbon-oxygen bond is a double bond and the others are single bonds. Due to the resonance, the effective bond order between carbon and oxygen is between a single and a double bond, making its bond length longer than that in CO$_{2}$ and shorter than a pure single bond.\n\nTherefore, the increasing order of C-O bond length is:\n\nCO < CO$_{2}$ < $$CO_3^{2-}$$\n\nThe correct option is:\n\nOption D\n\nCO < CO$_{2}$ < $$CO_3^{2-}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$CO_3^{2-}$$ < CO$_{2}$ < CO",
+      "CO$_{2}$ < $$CO_3^{2-}$$ < CO",
+      "CO < $$CO_3^{2-}$$ < CO$_{2}$",
+      "CO < CO$_{2}$ < $$CO_3^{2-}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbha0ji.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_030",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Read the following Assertion and Reason and answer as per the options given below\n\n**Assetion: ** LiCl is predominantly a covalent compound\n\n**Reason :** Electronegativity difference between Li and Cl is too small",
+    "solution": "The correct answer is Option C: If assertion is correct but reason is incorrect.\n\nExplanation:\n\nAssertion: LiCl (Lithium Chloride) is indeed predominantly a covalent compound. This is due to the high polarizing power of the small lithium ion (Li⁺), which distorts the electron cloud of the larger chloride ion (Cl⁻), resulting in a significant degree of electron sharing and hence covalency.\n\nReason: The reason provided is incorrect. The electronegativity difference between lithium (Li) and chlorine (Cl) is substantial. It is this difference in electronegativity that creates the polarity in the Li-Cl bond, making it an ionic bond with some covalent character.\n\nKey Point: The high polarizing power of the Li⁺ ion, due to its small size and high charge density, is the main reason for the covalent character of LiCl, not the small electronegativity difference.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "If both assertion and reason are correct and reason is the correct explanation of the assertion",
+      "If both assertion and reason are correct and reason is not the correct explanation of the assertion",
+      "If assertion is correct but reason is incorrect",
+      "If assertion is incorrect but reason is correct"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbha0ji.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_031",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The geometry and the type of hybrid orbital present about the central atom in BF$_{3}$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "linear, sp",
+      "trigonal planar, sp$^{2}$",
+      "tetrahedral, sp$^{3}$",
+      "pyramidal, sp$^{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbha0ji.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_032",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following compounds has sp$^{2}$ hybridization?",
+    "solution": "To determine which of the given compounds has sp$^{2}$ hybridization, we need to understand the structure of each molecule and the hybridization of the central atom in each case.\n\nOption A: CO$_{2}$\nIn carbon dioxide (CO$_{2}$), the carbon atom is the central atom. Carbon forms two double bonds with two oxygen atoms.\nIn this configuration, carbon has two regions of electron density (each double bond counts as one region of electron density). According to the Valence Shell Electron Pair Repulsion (VSEPR) theory, this would result in a linear structure with a bond angle of 180 degrees. The hybridization of the carbon atom, in this case, is sp, because it needs two hybrid orbitals to form the two double bonds.\nSo, CO$_{2}$ does not have sp$^{2}$ hybridization.\n\nOption B: SO$_{2}$\nIn sulfur dioxide (SO$_{2}$), the sulfur atom is the central atom. Sulfur forms two double bonds with two oxygen atoms.\nHowever, sulfur also has a lone pair of electrons. This results in three regions of electron density around the sulfur atom (two double bonds and one lone pair). According to the VSEPR theory, this configuration leads to a bent molecular shape.\nWith three regions of electron density, the hybridization of sulfur is sp$^{2}$. Therefore, SO$_{2}$ has sp$^{2}$ hybridization.\n\nOption C: N$_{2}$O\nIn nitrous oxide (N$_{2}$O), one nitrogen atom is central. The molecule can be arranged as N=N=O, where the central nitrogen forms a double bond with each of the terminal nitrogen and oxygen atoms.\nThis gives the central nitrogen two regions of electron density, resulting in linear geometry. The hybridization of the central nitrogen atom here is sp, not sp$^{2}$.\nSo, N$_{2}$O does not have sp$^{2}$ hybridization.\n\nOption D: CO\nIn carbon monoxide (CO), the carbon atom forms a triple bond with the oxygen atom. This involves one sigma bond and two pi bonds, with one lone pair on each atom.\nThis gives each atom two regions of electron density, resulting in linear geometry. The hybridization of carbon in CO is also sp.\nSo, CO does not have sp$^{2}$ hybridization.\n\nBased on the analysis of each option, the correct answer is:\nOption B: SO$_{2}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "CO$_{2}$",
+      "SO$_{2}$",
+      "N$_{2}$O",
+      "CO"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbhhg4x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_033",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which contains both polar and non-polar bonds?",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "NH$_{4}$Cl",
+      "HCN",
+      "H$_{2}$O$_{2}$",
+      "CH$_{4}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbhhg4x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_034",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The critical temperature of water is higher than that of O$_{2}$ because the H$_{2}$O molecule has",
+    "solution": "The critical temperature of a substance is the temperature above which it cannot be liquefied, regardless of the pressure applied. It depends on the intermolecular forces within the substance. To understand why the critical temperature of water (H$_{2}$O) is higher than that of oxygen (O$_{2}$), we need to examine the characteristics and interactions of these molecules.\n\nLet’s break down the options:\n\nOption A: Fewer electrons than O$_{2}$\n\nThis option is incorrect. The number of electrons in a molecule does not directly determine the critical temperature. While electron count can affect molecular interactions to an extent, it is not the primary reason for the difference in critical temperatures between H$_{2}$O and O$_{2}$.\n\nOption B: Two covalent bonds\n\nAlthough H$_{2}$O does have two covalent bonds, this feature alone does not explain its higher critical temperature compared to O$_{2}$. The nature of the bonds plays a more crucial role, particularly the type of intermolecular forces these bonds enable.\n\nOption C: V-shape\n\nH$_{2}$O indeed has a V-shaped (or bent) molecular geometry, while O$_{2}$ is linear. This V-shape contributes to some properties of water, like its polarity, but it is not the most direct reason for the higher critical temperature.\n\nOption D: Dipole moment\n\nThis is the correct answer. H$_{2}$O has a significant dipole moment due to its molecular geometry and the difference in electronegativity between hydrogen and oxygen atoms. This results in strong hydrogen bonding between water molecules. Hydrogen bonds are a type of dipole-dipole interaction, which are much stronger than the van der Waals forces (or London dispersion forces) experienced by O$_{2}$ molecules. These strong intermolecular hydrogen bonds in water require more energy (higher temperature) to break, resulting in a higher critical temperature.\n\nTherefore, the primary reason the critical temperature of water is higher than that of oxygen is due to the strong dipole moment leading to significant hydrogen bonding in water. The correct answer is:\n\nOption D: dipole moment",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "fewer electrons than O$_{2}$",
+      "two covalent bonds",
+      "V-shape",
+      "dipole moment"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_035",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following species, identity the isostructural pairs NF$_{3}$, $$NO_3^-$$, BF$_{3}$, H$_{3}$O$^{+}$ , HN$_{3}$",
+    "solution": "To identify the isostructural pairs among the given species, we first need to understand their molecular geometries and the electron-pair arrangements.\n\n1. NF$_{3}$: Nitrogen trifluoride has a trigonal pyramidal structure due to the presence of one lone pair of electrons on nitrogen. It follows the AX$_{3}$E steric number formula (where A is the central atom, X represents bonded atoms, and E represents lone pairs).\n\n2. $$NO_3^-$$: The nitrate ion has a trigonal planar structure. This can be rationalized using VSEPR theory, where it follows the AX$_{3}$ steric number formula with no lone pairs on the central nitrogen atom.\n\n3. BF$_{3}$: Boron trifluoride is also trigonal planar. It conforms to the AX$_{3}$ steric number formula with no lone pairs on boron.\n\n4. H$_{3}$O$^{+}$: The hydronium ion has a trigonal pyramidal structure, similar to NF$_{3}$, with one lone pair of electrons. It follows the AX$_{3}$E formula.\n\n5. HN$_{3}$: Hydronitrenium ion has a linear or slightly bent structure, depending on how we look at the resonance structures. Overall, it does not share the same geometric configuration with any of the molecules listed above.\n\nFrom the above analysis:\n\nIsostructural Pair 1: NF$_{3}$ and H$_{3}$O$^{+}$ (both have a trigonal pyramidal structure)\n\nIsostructural Pair 2: $$NO_3^-$$ and BF$_{3}$ (both have a trigonal planar structure)\n\nTherefore, the correct option is:\n\nOption C:\n\n[NF$_{3}$, H$_{3}$O$^{+}$] and [$$NO_3^-$$, BF$_{3}$].",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[NF$_{3}$, $$NO_3^-$$] and [BF$_{3}$, H$_{3}$O$^{+}$]",
+      "[NF$_{3}$, HN$_{3}$] and [$$NO_3^-$$, BF$_{3}$]",
+      "[NF$_{3}$, H$_{3}$O$^{+}$] and [$$NO_3^-$$, BF$_{3}$]",
+      "[NF$_{3}$, H$_{3}$O$^{+}$] and [HN$_{3}$, BF$_{3}$]"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_036",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number and type of bonds between two carbon atoms in CaC$_{2}$ are:",
+    "solution": "Calcium carbide ($$CaC_2$$) is an ionic compound consisting of $${Ca^{2+}}$$ and carbide ions $${C_2^{2-}}$$. In this compound, the two carbon atoms are bonded together in the carbide ion $${C_2^{2-}}$$. The bonding in the carbide ion involves one sigma ($$\\sigma$$) bond and two pi ($$\\pi$$) bonds, which forms a triple bond between the two carbon atoms.\n\nThe reasoning is as follows:\n\nEach carbon atom in the $${C_2^{2-}}$$ ion is sp hybridized, having one sigma ($$\\sigma$$) bond from the overlap of sp hybrid orbitals and two pi ($$\\pi$$) bonds from the lateral overlap of p orbitals. Therefore, the carbide ion $${C_2^{2-}}$$ has a carbon-carbon triple bond.\n\nThus, the correct option is:\n\nOption B: one sigma ($$\\sigma$$) and two pi ($$\\pi$$) bonds",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "one sigma ($$\\sigma$$) and one pi ($$\\pi$$) bonds",
+      "one sigma ($$\\sigma$$) and two pi ($$\\pi$$) bonds",
+      "one sigma ($$\\sigma$$) and one and a half pi ($$\\pi$$) bonds",
+      "one sigma ($$\\sigma$$) bond"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_037",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one is most ionic",
+    "solution": "To determine the number of paired electrons in an O$_{2}$ molecule, we need to understand its electronic configuration and molecular orbital configuration. Each oxygen atom has an atomic number of 8, so its electron configuration is:\n\n$$1s^2 2s^2 2p^4$$\n\nWhen two oxygen atoms form a diatomic O$_{2}$ molecule, their atomic orbitals combine to form molecular orbitals. For O$_{2}$, the relevant molecular orbitals and their filling order are:\n\n$$\\sigma_{1s}, \\sigma_{1s}^*, \\sigma_{2s}, \\sigma_{2s}^*, \\sigma_{2p_z}, \\pi_{2p_x} = \\pi_{2p_y}, \\pi_{2p_x}^* = \\pi_{2p_y}^*, \\sigma_{2p_z}^*$$\n\nFilling these molecular orbitals with the 16 electrons (8 from each oxygen atom) according to the aufbau principle and Hund's rule, we get the following configuration:\n\n$$ (\\sigma_{1s})^2 (\\sigma_{1s}^*)^2 (\\sigma_{2s})^2 (\\sigma_{2s}^*)^2 (\\sigma_{2p_z})^2 (\\pi_{2p_x})^2 (\\pi_{2p_y})^2 (\\pi_{2p_x}^*)^1 (\\pi_{2p_y}^*)^1 $$\n\nHere’s the breakdown of paired and unpaired electrons:\n\n$ \\sigma_{1s} $ -> 2 paired electrons\n$ \\sigma_{1s}^* $ -> 2 paired electrons\n$ \\sigma_{2s} $ -> 2 paired electrons\n$ \\sigma_{2s}^* $ -> 2 paired electrons\n$ \\sigma_{2p_z} $ -> 2 paired electrons\n$ \\pi_{2p_x} $ -> 2 paired electrons\n$ \\pi_{2p_y} $ -> 2 paired electrons\n\nThe antibonding $ \\pi_{2p_x}^* $ and $ \\pi_{2p_y}^* $ orbitals each have one unpaired electron, but since the question asks for paired electrons, these do not count.\n\nTotal number of paired electrons:\n\n$$2 ( \\sigma_{1s} ) + 2 ( \\sigma_{1s}^* ) + 2 ( \\sigma_{2s} ) + 2 ( \\sigma_{2s}^* ) + 2 ( \\sigma_{2p_z} ) + 2 ( \\pi_{2p_x} ) + 2 ( \\pi_{2p_y} ) = 14$$\n\nTherefore, the number of paired electrons in O$_{2}$ molecules is:\n\nOption D: 14",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P$_{2}$O$_{5}$",
+      "CrO$_{3}$",
+      "MnO",
+      "Mn$_{2}$O$_{7}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_038",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Number of paired electrons in O$_{2}$ molecules is",
+    "solution": "To determine the number of paired electrons in an O$_{2}$ molecule, we need to understand its electronic configuration and molecular orbital configuration. Each oxygen atom has an atomic number of 8, so its electron configuration is:\n\n$$1s^2 2s^2 2p^4$$\n\nWhen two oxygen atoms form a diatomic O$_{2}$ molecule, their atomic orbitals combine to form molecular orbitals. For O$_{2}$, the relevant molecular orbitals and their filling order are:\n\n$$\\sigma_{1s}, \\sigma_{1s}^*, \\sigma_{2s}, \\sigma_{2s}^*, \\sigma_{2p_z}, \\pi_{2p_x} = \\pi_{2p_y}, \\pi_{2p_x}^* = \\pi_{2p_y}^*, \\sigma_{2p_z}^*$$\n\nFilling these molecular orbitals with the 16 electrons (8 from each oxygen atom) according to the aufbau principle and Hund's rule, we get the following configuration:\n\n$$ (\\sigma_{1s})^2 (\\sigma_{1s}^*)^2 (\\sigma_{2s})^2 (\\sigma_{2s}^*)^2 (\\sigma_{2p_z})^2 (\\pi_{2p_x})^2 (\\pi_{2p_y})^2 (\\pi_{2p_x}^*)^1 (\\pi_{2p_y}^*)^1 $$\n\nHere’s the breakdown of paired and unpaired electrons:\n\n$ \\sigma_{1s} $ -> 2 paired electrons\n$ \\sigma_{1s}^* $ -> 2 paired electrons\n$ \\sigma_{2s} $ -> 2 paired electrons\n$ \\sigma_{2s}^* $ -> 2 paired electrons\n$ \\sigma_{2p_z} $ -> 2 paired electrons\n$ \\pi_{2p_x} $ -> 2 paired electrons\n$ \\pi_{2p_y} $ -> 2 paired electrons\n\nThe antibonding $ \\pi_{2p_x}^* $ and $ \\pi_{2p_y}^* $ orbitals each have one unpaired electron, but since the question asks for paired electrons, these do not count.\n\nTotal number of paired electrons:\n\n$$2 ( \\sigma_{1s} ) + 2 ( \\sigma_{1s}^* ) + 2 ( \\sigma_{2s} ) + 2 ( \\sigma_{2s}^* ) + 2 ( \\sigma_{2p_z} ) + 2 ( \\pi_{2p_x} ) + 2 ( \\pi_{2p_y} ) = 14$$\n\nTherefore, the number of paired electrons in O$_{2}$ molecules is:\n\nOption D: 14",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "7",
+      "8",
+      "16",
+      "14"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_039",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Pick out the isoelectronic structures from the following\n\nI. $$CH_3^+$$\nII. $$H_3O^+$$\n\nIII. $$NH_3$$\n\nIV. $$CH_3^-$$",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "I and II",
+      "III and IV",
+      "I and III",
+      "II, III and IV"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_040",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The cyanide ion, CN$^{-}$ and N$_{2}$ are isoelectronic, But in contrast to CN$^{-}$, N$_{2}$ is chemically inert, because of",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "low bond energy",
+      "absence of bond polarity",
+      "unsymmetrical electron distribution",
+      "presence of more number of electrons in bonding orbitals"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_041",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The type of hybrid orbitals used by the chlorine atom in $$ClO_2^-$$ is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "sp$^{3}$",
+      "sp$^{2}$",
+      "sp",
+      "none of these"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_042",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum number of hydrogen bonds a water molecule can form is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_043",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is paramagnetic?",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$O_2^-$$",
+      "CN$^{-}$",
+      "CO",
+      "NO$^{+}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_044",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound in which $$\\mathop C\\limits^* $$ uses its sp$^{3}$ hybrid orbitals for bond formation is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "H $$\\mathop C\\limits^* $$ OOH",
+      "(H$_{2}$N)$_{2}$ $$\\mathop C\\limits^* $$ O",
+      "(CH$_{3}$)$_{3}$ $$\\mathop C\\limits^* $$ OH",
+      "CH3 $$\\mathop C\\limits^* $$ HO"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_045",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecule which has zero dipole moment is:",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "CH$_{2}$Cl$_{2}$",
+      "BF$_{3}$",
+      "NF$_{3}$",
+      "ClO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_046",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecule which has pyramidal shape is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "PCl$_{3}$",
+      "SO$_{3}$",
+      "$$CO_3^{2-}$$",
+      "$$NO_3^-$$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_047",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecule that has linear structure is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "CO$_{2}$",
+      "NO$_{2}$",
+      "SO$_{2}$",
+      "SiO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_048",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species in which the central atom uses sp$^{2}$ hybrid orbitals in its bonding is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "PH$_{3}$",
+      "NH$_{3}$",
+      "$$CH_3^+$$",
+      "SbH$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_049",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hydrogen bond is maximum in",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Ethanol",
+      "Diethyl ether",
+      "Ethyl chloride",
+      "Triethylamine"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_050",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The bond between two identical non-metal atoms has a pair of electrons",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "unequally shared between the two",
+      "transferred fully from one atom to another",
+      "with identical spins",
+      "equally shared between them"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_051",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hydrogen bond is strongest in",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "O - H......S",
+      "S - H.......O",
+      "F - H........F",
+      "F - H.........O"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_052",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hybridisation of sulphur in sulphur dioxide is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "sp",
+      "sp$^{3}$",
+      "sp$^{2}$",
+      "dsp$^{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_053",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecule having one unpaired electron is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "NO",
+      "CO",
+      "CN$^{-}$",
+      "O$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_054",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "On hybridization of one s and one p orbitals we get:",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "two mutually perpendicular orbitals",
+      "two orbitals at 180$^{o}$",
+      "four orbitals directed tetrahedrally",
+      "three orbitals in a plane"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_055",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Carbon tetrachloride has no net dipole moment because of",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "its planar structure",
+      "its regular tetrahedral structure",
+      "similar sizes of carbon and chlorine",
+      "similar electron affinities of carbon and chlorine"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_056",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one among the following does not have the hydrogen bond?",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "phenol",
+      "liquid NH$_{3}$",
+      "water",
+      "liquid HCl"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_057",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The types of bonds present in CuSO$_{4}$.5H$_{2}$O are only",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "electrovalent and covalent",
+      "electrovalent and coordinate covalent",
+      "electrovalent, covalent and coordinate covalent",
+      "covalent and coordinate covalent"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_058",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the molecule that is linear is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "CO$_{2}$",
+      "NO$_{2}$",
+      "SO$_{2}$",
+      "ClO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_059",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound with no dipole moment is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "methyl chloride",
+      "carbon tetrachloride",
+      "methylene chloride",
+      "chloroform"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_060",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a molecule MX$_{3}$ has zero dipole moment, the sigma bonding orbitals used by M (atomic number < 21) are",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "pure p",
+      "sp hybrid",
+      "sp$^{2}$ hybrid",
+      "sp$^{3}$ hybrid"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_061",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is soluble in water?",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "CS$_{2}$",
+      "C$_{2}$H$_{5}$OH",
+      "CCl$_{4}$",
+      "CHCl$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_062",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of electrons that take part in forming the bond in N$_{2}$ is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2",
+      "4",
+      "6",
+      "10"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_063",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following compounds are covalent?",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "H$_{2}$",
+      "CaO",
+      "KCl",
+      "Na$_{2}$S"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_064",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Element X is strongly electropositive and element Y is strongly electronegative. Both are univalent. The compound formed would be",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "X$^{+}$Y$^{-}$",
+      "X$^{-}$X$^{+}$",
+      "X-Y",
+      "X $$\\to$$ Y"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_065",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The octet rule is not valid for the molecule",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "CO$_{2}$",
+      "H$_{2}$O",
+      "O$_{2}$",
+      "CO"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_066",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound which contains both ionic and covalent bonds is",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "CH$_{4}$",
+      "H$_{2}$",
+      "KCN",
+      "KCl"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_067",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Regarding the molecular orbital (MO) energy levels for homonuclear diatomic molecules, the **INCORRECT** statement(s) is(are)",
+    "solution": "Molecular orbital (MO) energy levels for homonuclear diatomic molecules:\n\nFor Molecular orbital theory, all the valence atomic orbitals are included. The total number of atomic orbitals must always equal the total number of molecular orbitals. Bonding molecular orbitals are more stable than the atomic orbitals and increase the electron density between the nuclei Antibonding molecular orbitals are. less stable than the atomic orbitals and decrease the electron density between the nuclei. (A) Bond older can be calculated using the formula:\n\nBond order $=\\frac{1}{2}\\left(N_b-N_a\\right)$\n\n$N_b$ - Number of bonding electrons\n\n$\\mathrm{N_a}^{\\text { }}$ - Number of antibonding electrons\n\nFor $\\mathrm{Ne}_2$,\ntotal number of electrons $=20 \\quad\\left\\{\\begin{array}{l}\\text { Number of electrons } \\\\ \\text { for } \\mathrm{Ne}=10\\end{array}\\right.$\n\nThe total electrons are filled in the molecular orbitals as,$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,\\pi _{2p_x^2}^ * \\, = \\,\\pi _{2p_y^2}^ * \\sigma _{2{p_z^2}}^ *\n\\begin{aligned}\nN_b=10, & N_a=10 \\\\\n\\text { Bond older } & =\\frac{1}{2}\\left(N_b-N_a\\right) \\\\\n& =\\frac{1}{2}(10-10) \\\\\n& =\\frac{1}{2}(0) \\\\\n& =0\n\\end{aligned}\n$$Bond order of $\\mathrm{Ne}_2$ is zero. It is correct.\nB) $H O M O$ of $F_2$\n\nThe number of electrons in $F$ is 9 . So, the total number of electrons in $F_2$ molecule is $18(9+9)$\nThe 18 electrons are filled in the molecular orbitals as,$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,\\pi _{2p_x^2}^ * \\, = \\,\\pi _{2p_y^2}^ * $$\n\nHomo is the highest occupied molecular orbital.\nFor $F_2$, the last electron is occupied in the $\\pi^*$ orbital. So, the highest occupied molecular orbital of $F_2$ is $\\pi$ - type, not $\\sigma$-type.\n\nIt is not correct.\nc) Bond energy is directly proportional to bond order. The strength of a chemical bond is directly proportional to the amount of energy required to break it.\n\nTo compare the bond energy of $\\mathrm{O}_2^{+}$and $\\mathrm{O}_2$, calculate the bond older. The molecule with higher bond order has higher bond energy$\\mathrm{O}_2$\nNumber of elections of oxygen $(0)=8$\nnumber of elections of $\\mathrm{O}_2$ molecule $=16$\nThe 16 elections are filled in the molecular orbitals as:\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,\\pi _{2p_x^2}^ *\n\\begin{aligned}\n\n& N_b=10, N_a=6\n\\end{aligned}\n\n\\begin{aligned}\n\\text { Bond older } & =\\frac{1}{2}\\left(N_b-N_a\\right) \\\\\n& =\\frac{1}{2}(10-6) \\\\\n& =\\frac{1}{2} \\cdot(4) \\\\\n& =2\n\\end{aligned}\n$$\n$\\mathrm{O}_2^{+}$\nTotal number of elections for $0_2$ molecule $=16$\nFor $\\mathrm{O}_2^{+}$, one electron is removed from $\\mathrm{O}_2$. So, the total number of electrons $=16-1=15$\nThe 15 electrons are filled in the molecular orbitals as,\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,\\pi _{2p_x^1}^ *\n\\begin{aligned}\nN_b=10, & N_a=5 \\\\\n\\text { Bond order } & =\\frac{1}{2}\\left(N_b-N_a\\right) \\\\\n& =\\frac{1}{2}(10-5) \\\\\n& =\\frac{1}{2}(5) \\\\\n& =2.5\n\\end{aligned}\n$$Bond order of $\\mathrm{O}_2^{+}$is higher than the bond order of $\\mathrm{O}_2$.\nBond order and bond energy are directly proportional so, the higher the bond oder, the higher the bond energy. Therefore, $\\mathrm{O}_2{ }^{+}$molecule which has higher bond order and also has higher bond energy.So, bond energy of $\\mathrm{O}_2^{+}$is higher than the bond energy of $\\mathrm{O}_2$.$$\n\\text { It is not correct: }\n$$\nD) Bond length of $Li_2$ and $B_2$\n\nBond length and bond older are inversely proportional to each other so; higher the bond order, shorter the bond length.\nTo get the bond length of $L_2$ and $B_2$, first calculate the bond order of $Li_2$ and $B_2$.\n$\\mathrm{Li}_2$\nNumber of electrons of $\\mathrm{Li}=3$ :\ntotal number of electrons in $\\mathrm{Li}_2$ molecule $=6$\nThe total electrons are filled in the molecular orbitals as\nLi$_{2}$ = $${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}} \\,\nN_b=4, N_a=2\n\n\\begin{aligned}\n\\text { Bond loeder } & =\\frac{1}{2}\\left(N_b-N_a\\right) \\\\\n& =\\frac{1}{2}(4-2) \\\\\n& =\\frac{1}{2}(2) \\\\\n& =1\n\\end{aligned}\n$$\n$B_2$\nNumber of electrons of Balon $(B)=5$\nTotal number of electrons of $B_2$ molecule $=10$\nThe total electrons are filled in the molecular orbitals as\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,\\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,\\,{\\pi _{2p_x^1}} = {\\pi _{2p_y^1}}\nN_b=6 \\quad N_a=4\n\n\\begin{aligned}\n\\text { Bond older } & =\\frac{1}{2}\\left(N_b+N_a\\right) \\\\\n& =\\frac{1}{2}(6-4) \\\\\n& =\\frac{1}{2}(2) \\\\\n& =1\n\\end{aligned}\n$$Bond order is equal for $Li_{2}$ and $B_2$ so, atomic size is consider Comparing the size of lithium and boron, lithium is a larger atom than boron. Bond length generally increases with the size of atom so, bond length of $\\mathrm{Li}_2$ is larger than the bond length of $\\mathrm{B_2}$\nSize of $Li>B$\nSo, Bond length of $Li_2>B_2$\nThis statement is correct:\nAnswer:\nThe incorrect statements are (B) and (C).\n(B) and (C).",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "Bond order of Ne$_{2}$ is zero.",
+      "The highest occupied molecular orbital (HOMO) of F$_{2}$ is $\\sigma$-type.",
+      "Bond energy of $O_2^{+}$ is smaller than the bond energy of O$_{2}$.",
+      "Bond length of Li$_{2}$ is larger than the bond length of B$_{2}$."
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_068",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The option(s) in which at least three molecules follow Octet Rule is(are)",
+    "solution": "The octet rule states that atoms tend to combine in such a way that they each have eight electrons in their valence shell, giving them the same electronic configuration as a noble gas. Let's examine each option to determine which molecules follow the octet rule.\n\nOption A: $\\mathrm{CO}_2, \\mathrm{C}_2 \\mathrm{H}_4, \\mathrm{NO}$ and $\\mathrm{HCl}$\n1. $\\mathrm{CO}_2$: Carbon dioxide follows the octet rule. Carbon forms double bonds with two oxygen atoms, allowing it to have 8 electrons in its valence shell.\n2. $\\mathrm{C}_2 \\mathrm{H}_4$: Ethylene follows the octet rule. Each carbon forms a double bond with the other carbon and single bonds with two hydrogen atoms, resulting in 8 electrons in the valence shell of the carbons.\n3. $\\mathrm{NO}$: Nitric oxide does not follow the octet rule. It has an odd number of electrons, making it a free radical.\n4. $\\mathrm{HCl}$: Hydrogen chloride follows the octet rule. Chlorine has 8 electrons in its valence shell when bonded with hydrogen.\nThus, three molecules $\\mathrm{CO}_2$, $\\mathrm{C}_2 \\mathrm{H}_4$, and $\\mathrm{HCl}$ follow the octet rule here.\n\nOption B: $\\mathrm{NO}_2, \\mathrm{O}_3, \\mathrm{HCl}$ and $\\mathrm{H}_2 \\mathrm{SO}_4$\n1. $\\mathrm{NO}_2$: Nitrogen dioxide does not follow the octet rule. It has an odd number of electrons.\n2. $\\mathrm{O}_3$: Ozone follows the octet rule. It has a resonance structure that allows each oxygen atom to have 8 electrons in its valence shell.\n3. $\\mathrm{HCl}$: As mentioned, hydrogen chloride follows the octet rule.\n4. $\\mathrm{H}_2 \\mathrm{SO}_4$: Sulfuric acid follows the octet rule. All atoms achieve stable configurations through bonding.\nThus, three molecules $\\mathrm{O}_3$, $\\mathrm{HCl}$, and $\\mathrm{H}_2 \\mathrm{SO}_4$ follow the octet rule in this option.\n\nOption C: $\\mathrm{BCl}_3, \\mathrm{NO}, \\mathrm{NO}_2$ and $\\mathrm{H}_2 \\mathrm{SO}_4$\n1. $\\mathrm{BCl}_3$: Boron trichloride does not follow the octet rule. Boron has only 6 electrons in its valence shell.\n2. $\\mathrm{NO}$: As mentioned, nitric oxide does not follow the octet rule.\n3. $\\mathrm{NO}_2$: As mentioned, nitrogen dioxide does not follow the octet rule.\n4. $\\mathrm{H}_2 \\mathrm{SO}_4$: Sulfuric acid follows the octet rule.\nThus, only one molecule, $\\mathrm{H}_2 \\mathrm{SO}_4$, follows the octet rule in this option.\n\nOption D: $\\mathrm{CO}_2, \\mathrm{BCl}_3, \\mathrm{O}_3$ and $\\mathrm{C}_2 \\mathrm{H}_4$\n1. $\\mathrm{CO}_2$: As mentioned, carbon dioxide follows the octet rule.\n2. $\\mathrm{BCl}_3$: As mentioned, boron trichloride does not follow the octet rule.\n3. $\\mathrm{O}_3$: As mentioned, ozone follows the octet rule.\n4. $\\mathrm{C}_2 \\mathrm{H}_4$: As mentioned, ethylene follows the octet rule.\nThus, three molecules $\\mathrm{CO}_2$, $\\mathrm{O}_3$, and $\\mathrm{C}_2 \\mathrm{H}_4$ follow the octet rule in this option.\n\nConclusion: The correct options are Option A and Option D, both having at least three molecules that follow the octet rule.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{CO}_2, \\mathrm{C}_2 \\mathrm{H}_4, \\mathrm{NO}$ and $\\mathrm{HCl}$",
+      "$\\mathrm{NO}_2, \\mathrm{O}_3, \\mathrm{HCl}$ and $\\mathrm{H}_2 \\mathrm{SO}_4$",
+      "$\\mathrm{BCl}_3, \\mathrm{NO}, \\mathrm{NO}_2$ and $\\mathrm{H}_2 \\mathrm{SO}_4$",
+      "$\\mathrm{CO}_2, \\mathrm{BCl}_3, \\mathrm{O}_3$ and $\\mathrm{C}_2 \\mathrm{H}_4$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_069",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Each of the following options contains a set of four molecules. Identify the option(s) where all four molecules posses permanent dipole moment at room temperature.",
+    "solution": "The molecules which gives permanent dipole moment are polar in nature.\n\n\n[Diagram]\n\n\n\n[Diagram]\n\n\nThus, options (a, c) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "SO$_{2}$, C$_{6}$H$_{5}$Cl, H$_{2}$Se, BrF$_{5}$",
+      "BeCl$_{2}$, CO$_{2}$, BCl$_{3}$, CHCl$_{3}$",
+      "NO$_{2}$, NH$_{3}$, POCl$_{3}$, CH$_{3}$Cl",
+      "BF$_{3}$, O$_{3}$, SF$_{6}$, XeF$_{6}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_070",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to Molecular Orbital Theory, which of the following statements is(are) correct?",
+    "solution": "Option (A) : According to molecular orbital theory, the arrangement of the electrons in the molecular orbitals is as follows :\n\nFor $$C_2^{2 - }$$, the total number of electrons is 14. The molecular orbital configuration is\n\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,{\\sigma _{2p_z^2}}$$\n\nThere is no unpaired electron and thus it is diamagnetic.\n\nOption (B) : For $$O_2^{2 + }$$, the total number of electrons is 14. The molecular orbital configuration is\n\n$${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,\\,{\\pi _{2p_x^2}} = {\\pi _{2p_y^2}}\\,\\,\\pi _{2p_x^0}^ * \\,\\, = \\pi _{2p_y^0}^ * $$\n\nThus the bond order = (10 $$-$$ 4)/2 = 3;\n\nMolecular orbital configuration of O$_{2}$ (16 electrons) is\n\n$${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,{\\sigma _{2p_z^2}}\\,\\,{\\pi _{2p_x^2}} = {\\pi _{2p_y^2}}\\,\\,\\pi _{2p_x^1}^ * \\,\\, = \\pi _{2p_y^1}^ * $$\n\nSo O$$_2$$ has 2 unpaired electrons. for O$_{2}$, bond order = 2.\n\nAs bond order is inversely proportional to bond length, thus the bond length of $$O_2^{2 + }$$ is less than the bond length of O$_{2}$.\n\nOption (C) : For $$N_2^ + $$, the total number of electrons is 13. The molecular orbital configuration is\n\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,{\\sigma _{2p_z^1}}$$\n\nBond order of $$N_2^ + $$ = (9 $$-$$ 4)/2 = 2.5\n\n$$N_2^{ - }$$ has 15 electrons.\n\nMoleculer orbital configuration of $$N_2^{ - }$$ is\n\n$${\\sigma _{1{s^2}}}\\,\\sigma _{1{s^2}}^ * \\,{\\sigma _{2{s^2}}}\\,\\sigma _{2{s^2}}^ * \\,{\\pi _{2p_x^2}}\\, = \\,{\\pi _{2p_y^2}}\\,{\\sigma _{2p_z^2}}\\,\\pi _{2p_x^1}^ * \\, = \\,\\pi _{2p_y^0}^ *\\therefore\\,\\,\\,\\,$$N$_{a}$ = 5\n\nN$_{b}$ = 10\n\n$$\\therefore\\,\\,\\,\\,$$ BO = $${1 \\over 2}\\left[ {10 - 5} \\right] = 2.5$$\n\nThus, the bond orders are the same.\n\nOption (D) : As some energy is released during the formation of $$He_2^ + $$ from two isolated He atoms, thus it has lesser energy as compared to two isolated He atoms.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$C_2^{2-}$$ is expected to be diamagnetic",
+      "$$O_2^{2+}$$ expected to have a longer bond length than O$_{2}$",
+      "$$N_2^+$$ and $$N_2^-$$ have the same bond order",
+      "$$He_2^+$$ has the same energy as two isolated He atoms"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_071",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound(s) with TWO lone pairs of electrons on the central atom is(are)",
+    "solution": "Structure of each of the compound is\nrepresented as :\n\n(A) BrF$_{5}$\n\n[Diagram]\n\nStructure : Square pyramidal\n\n(i) One lone pair\n\n(ii) Four bond pair\n\n(B) ClF$_{3}$\n\n[Diagram]\n\nStructure : T-Shaped\n\n(i) Two lone pair\n\n(ii) Three bond pair\n\n(C) XeF$_{4}$\n\n[Diagram]\n\nStructure : Square planar\n\n(i) Two lone pair\n\n(ii) Four bond pair\n\n(D) SF$_{4}$\n\n[Diagram]\n\nStructure : See-saw\n\n(i) One lone pair\n\n(ii) Four bond pair",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "BrF$_{5}$",
+      "ClF$_{3}$",
+      "XeF$_{4}$",
+      "SF$_{4}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li8e6xkx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_072",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hydrogen bonding plays a central role in the following phenomena",
+    "solution": "(a) Ice floats in water due to the low density of ice as compare to water which is due to open cage like structure (formed by intermolecular H-bonding).\n\n(b) Basic strength of RNH$_{2}$ > R$_{3}$N. It is also explained by hydrogen bonding.\n\n[Diagram]\n\n(c)\n[Diagram]\n\n(d) Dimerisation of acetic acid in benzene is due to intermolecular hydrogen bonding.\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "ice floats in water",
+      "higher Lewis basicity of primary amines than tertiary amines in aqueous solutions",
+      "formic acid is more acidic than acetic acid",
+      "dimerisation of acetic acid in benzene"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1ayw6aj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_073",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecules that will have dipole moment are",
+    "solution": "[Diagram]\n\n2, 2-dimethylpropane and 2, 2, 3, 3 - tetramethylbutane are symmetrical molecules so their net dipole moment is zero.\n(b) and (c) have resultant dipole moment.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "2, 2-dimethylpropane",
+      "trans-2-pentene",
+      "cis-3-hexene",
+      "2,2,3,3-tetramethylbutane"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw8ng6sv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_074",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following have identical bond order?",
+    "solution": "To determine which molecule or ion assumes a linear structure, we need to consider the molecular geometry, which is often predicted by the VSEPR (Valence Shell Electron Pair Repulsion) theory.\n\nLet’s analyze each option:\n\nOption A: SnCl$_{2}$\nTin(II) chloride, SnCl$_{2}$, has a bent structure rather than a linear one due to the presence of a lone pair of electrons on the tin atom, which repels the bonds between Sn and Cl.\n\nOption B: NCO$^{-}$\nThe cyanate ion, NCO$^{-}$, has a linear structure because the central atom carbon forms a double bond with nitrogen and a triple bond with oxygen, aligning all atoms in a straight line.\n\n[Diagram]\n\nOption C: CS$_{2}$\nCarbon disulfide, CS$_{2}$, has a linear structure. The central carbon atom forms double bonds with each sulfur atom, allowing the molecule to maintain a straight line.\n\n[Diagram]\n\nOption D: $$NO_2^+$$\nThe nitronium ion, $$NO_2^+$$, also has a linear structure. It has a central nitrogen atom bonded to two oxygen atoms with no lone pairs on nitrogen, thus the molecule assumes a linear shape.\n\n[Diagram]\n\nSo, the linear structures are assumed by Options B, C, and D.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "CN$^{-}$",
+      "$$O_2^-$$",
+      "NO$^{+}$",
+      "CN$^{+}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw8npx0c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_075",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The linear structure is assumed by :",
+    "solution": "To determine which molecule or ion assumes a linear structure, we need to consider the molecular geometry, which is often predicted by the VSEPR (Valence Shell Electron Pair Repulsion) theory.\n\nLet’s analyze each option:\n\nOption A: SnCl$_{2}$\nTin(II) chloride, SnCl$_{2}$, has a bent structure rather than a linear one due to the presence of a lone pair of electrons on the tin atom, which repels the bonds between Sn and Cl.\n\nOption B: NCO$^{-}$\nThe cyanate ion, NCO$^{-}$, has a linear structure because the central atom carbon forms a double bond with nitrogen and a triple bond with oxygen, aligning all atoms in a straight line.\n\n[Diagram]\n\nOption C: CS$_{2}$\nCarbon disulfide, CS$_{2}$, has a linear structure. The central carbon atom forms double bonds with each sulfur atom, allowing the molecule to maintain a straight line.\n\n[Diagram]\n\nOption D: $$NO_2^+$$\nThe nitronium ion, $$NO_2^+$$, also has a linear structure. It has a central nitrogen atom bonded to two oxygen atoms with no lone pairs on nitrogen, thus the molecule assumes a linear shape.\n\n[Diagram]\n\nSo, the linear structures are assumed by Options B, C, and D.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "SnCl$_{2}$",
+      "NCO$^{-}$",
+      "CS$_{2}$",
+      "$$NO_2^+$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw8npx0c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_076",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "CO$_{2}$ is isostructural with",
+    "solution": "Isostructural compounds are those that have the same shape and similar bond angles. To determine which compound is isostructural with carbon dioxide (CO$_{2}$), we need to analyze the molecular geometry of each of the options.\n\n1. CO$_{2}$ has a linear structure with the carbon atom in the center, double-bonded to two oxygen atoms, giving it a bond angle of 180°. The structure can be represented as:\n\n$$ \\text{O} = \\text{C} = \\text{O} $$\n\n2. HgCl$_{2}$ also has a linear structure. The mercury atom in the center is single-bonded to two chlorine atoms, giving it a bond angle of 180°. The structure can be represented as:\n\n$$ \\text{Cl} - \\text{Hg} - \\text{Cl} $$\n\n3. SnCl$_{2}$ has a bent (or V-shaped) structure due to lone pairs on the tin atom. Hence, it is not isostructural with CO$_{2}$.\n\n4. C$_{2}$H$_{2}$ (acetylene) has a linear structure with a carbon-carbon triple bond and hydrogen atoms at each end, giving it a bond angle of 180°. The structure can be represented as:\n\n$$ \\text{H} - \\text{C} \\equiv \\text{C} - \\text{H} $$\n\n5. NO$_{2}$ has a bent structure due to the presence of a lone electron on the nitrogen atom, which causes repulsion and bends the molecule. Therefore, it is not isostructural with CO$_{2}$.\n\nGiven this analysis, CO$_{2}$ is isostructural with both HgCl$_{2}$ and C$_{2}$H$_{2}$.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "HgCl$_{2}$",
+      "SnCl$_{2}$",
+      "C$_{2}$H$_{2}$",
+      "NO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_077",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following molecules: $\\mathrm{Br}_3 \\mathrm{O}_8, \\mathrm{~F}_2 \\mathrm{O}, \\mathrm{H}_2 \\mathrm{S}_4 \\mathrm{O}_6, \\mathrm{H}_2 \\mathrm{S}_5 \\mathrm{O}_6$, and $\\mathrm{C}_3 \\mathrm{O}_2$. Count the number of atoms existing in their zero oxidation state in each molecule.\n\nTheir sum is _______.",
+    "solution": "[Diagram]\n\nNumber of atoms with zero oxidation state $=0$\n\n[Diagram]\n\nNumber of atom with zero oxidation state $=0$\n\n[Diagram]\n\nNumber of atoms where zero oxidation state $=2$\n\n[Diagram]\n\nNumber of atoms where zero oxidation state $=3$\n\n[Diagram]\n\nNumber of atoms with zero oxidation state $=1$\n\n$$ \\therefore $$ Total atom with zero oxidation number state are 6.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lruysa3r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_078",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following compounds in the liquid form :\n\nO$_{2}$, HF, H$_{2}$O, NH$_{3}$, H$_{2}$O$_{2}$, CCl$_{4}$, CHCl$_{3}$, C$_{6}$H$_{6}$, C$_{6}$H$_{5}$Cl\n\nWhen a charged comb is brought near their flowing stream, how many of them show deflection as per the following figure?\n\n\n[Diagram]",
+    "solution": "Only polar liquid will be attracted towards charged comb due to the formation of electrically charged droplets in the polar liquid stream, induced by a nearby charged object. Hence, liquid showing deflection are HF, H$_{2}$O, NH$_{3}$, H$_{2}$O$_{2}$, CHCl$_{3}$, C$_{6}$H$_{5}$Cl.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1letdcucx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_079",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among $${H_2},H{e_2}^ + ,L{i_2},B{e_2},{B_2},{C_2},{N_2},O_2^ - $$ and $${F_2},$$ the number of diamagnetic species is\n\n(Atomic numbers : $$H = 1,He = 2,Li = 3,Be = 4,B = 5,C = 6,N = 7,O = 8,F = 9$$)",
+    "solution": "(1) Electronic configuration of diatomic $\\mathrm{H}_2$ on the the basis of molecular orbital theory:\n\n$\\left(\\sigma_{1 \\mathrm{~s}}\\right)^2\\left(\\sigma_{1 s}^*\\right)^0$\n\nThere are no unpaired electrons in the bonding and anti-bonding molecular orbitals; hence, it's a diamagnetic molecule.\n\n(2) Electronic configuration of diatomic $\\mathrm{He}^{2+}$ on the basis of molecular orbital theory:\n\n$\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^1$\n\nThere is one unpaired electron in the sigma bonding molecular orbital; hence, it's a paramagnetic molecule.\n\n(3) Electronic configuration of diatomic $\\mathrm{Li}_2$ on the basis of molecular orbital theory:\n\n$\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2$\n\nThere are no unpaired electrons in the bonding and anti-bonding molecular orbitals; hence, it's a diamagnetic molecule.\n\n(4) Electronic configuration of diatomic $\\mathrm{Be}_2$ on the basis of molecular orbital theory:\n\n$\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2$\n\nThere are no unpaired electrons in the bonding and anti-bonding molecular orbitals; hence, it's a diamagnetic molecule.\n\n(5) Electronic configuration of diatomic $B_2$ on the basis of molecular orbitals theory:\n\n$$\n\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\pi_{2 p x}^1 \\equiv \\pi_{2 p y}^1\\right)\n$$\n\nThere are two unpaired electrons in pi bonding molecular orbital; hence, it's a paramagnetic molecule.\n\n(6) Electronic configuration of diatomic $\\mathrm{C}_2$ on the basis of molecular orbital theory:\n\n$$\n\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\pi_{2 p x}^2 \\equiv \\pi_{2 p y}^2\\right)\n$$\n\nThere are no unpaired electrons in the bonding and anti-bonding molecular orbitals; hence, it's a diamagnetic molecule.\n\n(7) Electronic configuration of diatomic $\\mathrm{N}_2$ on the basis of molecular orbital theory:\n\n$$\n\\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\pi_{2 p x}^1 \\equiv \\pi_{2 p y}^1\\right) \\sigma_{2 p z}^2\n$$\n\nThere are no unpaired electron in the bonding and anti-bonding molecular orbitals; hence, it's a diamagnetic molecule.\n\n(8) Electronic configuration of diatomic $\\mathrm{O}_2$ on the basis of molecular orbital theory:\n\n$$\n\\begin{aligned}\n& \\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\sigma_{p 3}^2\\right)^2\\left(\\pi_{2 p x}^1 \\equiv \\pi_{2 p y}^1\\right) \\\\\\\\\n& \\left(\\pi_{2 p x}^* \\equiv \\pi\\right)\n\\end{aligned}\n$$\n\nThere is one unpaired electron in the $\\mathrm{pi}^*$ anti-bonding molecular orbital; hence, it's a paramagnetic molecule.\n\n(9) Electronic configuration of diatomic $\\mathrm{F}_2$ on the basis of molecular orbital theory:\n\n$$\n\\begin{aligned}\n& \\left(\\sigma_{1 s}\\right)^2\\left(\\sigma_{1 s}^*\\right)^2\\left(\\sigma_{2 s}\\right)^2\\left(\\sigma_{2 s}^*\\right)^2\\left(\\sigma_{2 p z}\\right)^2\\left(\\pi_{2 p x}^2 \\equiv \\pi_{2 p y}^2\\right) \\\\\\\\\n& \\left(\\pi_{2 p x}^{2^*} \\equiv \\pi_{2 p y}^{2^*}\\right)\n\\end{aligned}\n$$\n\nAll the electrons are paired in the bonding and anti-bonding molecular orbitals; hence, $\\mathrm{F}_2$ is a diamagnetic molecule\n\n**Answer**. The are 6 diamagnetic species among the given diatomic molecules.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_080",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the triatomic molecules/ions, BeCl$_{2}$, $$N_3^-$$, N$_{2}$O, $$NO_2^+$$, O$_{3}$, SCl$_{2}$, $$ICl_2^-$$, $$I_3^-$$ and XeF$_{2}$, the total number of linear molecule(s)/ion(s) where the hybridization of the central atom does not have contribution from the d-orbital(s) is\n\n[Atomic number: S = 16, Cl = 17, I = 53 and Xe = 54]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l14fna00.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_081",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A list of species having the formula XZ$_{4}$ is given below.\n\nXeF$_{4}$, SF$_{4}$ ,SiF$_{4}$, $$BF_4^-$$, $$BrF_4^-$$, [Cu(NH$_{3}$)$_{4}$]$^{2+}$, [FeCl$_{4}$]$^{2-}$, [CoCl$_{4}$]$^{2-}$ and [PtCl$_{4}$]$^{2-}$\n\nDefining shape on the basis of the location of X and Z atoms, the total number of species having a square\nplanar shape is",
+    "solution": "$\\mathrm{XeF}_4, \\mathrm{BrF}_4^{-},\\left[\\mathrm{Cu}\\left(\\mathrm{NH}_3\\right)_4\\right]^{2+},\\left[\\mathrm{PtCl}_4\\right]^{2-}$ are square planar as shown below :\n\n[Diagram]\n\n[Diagram]\n\n$\\mathrm{SF}_4(\\mathrm{See}-\\mathrm{saw})$ as shown below:\n\n[Diagram]\n\n$\\mathrm{SiF}_4, \\mathrm{BF}_4^{-},\\left[\\mathrm{FeCl}_4\\right]^{2-},\\left[\\mathrm{CoCl}_4\\right]^{2-}$ are tetrahedral as shown below :\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1luqscxkr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_082",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Based on VSEPR theory, the number of 90 degree F-Br-F angles in BrF$_{5}$ is",
+    "solution": "According to VSEPR, $\\mathrm{BrF}_5$ has square pyramidal structure with axial plane containing a lone pair and fluorine. The other four fluorine are arranged in square planner configuration around central metal atom. Thus, $\\mathrm{BrF}_5$ assumes square pyramidal shape where the valence electron pairs surrounding an atom tend to repel each other and will, therefore, adopt an arrangement that minimises this repulsion, thus, determining the molecule's geometry. All four planar bonds $(\\mathrm{F}-\\mathrm{Br}-\\mathrm{F})$ will reduce from $90^{\\circ}$ to $84.8^{\\circ}$ after lone pair - bond pair repulsion.\n\nSo, there are no 90 -degree $\\mathrm{F}-\\mathrm{Br}-\\mathrm{F}$ angles in $\\mathrm{BrF}_5$.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5lm5ug.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_083",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are ______ $$\\pi$$ bonds in a nitrogen molecule.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_084",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given : that $${\\mu _{obs}} = \\sum {{\\mu _i}\\,{x_i}} $$ where $${\\mu _i}$$ is the dipole moment of stable conformer and $${x_i}$$ is the mole fraction of that conformer.\n(A) Write stable conformer for Z-CH$$_2$$-CH$$_2$$-Z in Newman's projection.\nIf $${\\mu _{solution}}$$ = 1.0 D and mole fraction of anti-form = 0.82, find $${\\mu _{Gauche}}$$.\n(B) Write most stable meso conformer of\n\n[Diagram]\n\nIf (i) Y = CH$$_3$$ about C$$_2$$ - C$$_3$$ rotation and (ii) Y = OH about C$$_1$$ - C$$_2$$ rotation.",
+    "solution": "As given,\n$${\\mu _{obs}} = \\sum {{\\mu _i}{x_i}} $$\nHere, $$\\mu_i$$ is the dipole moment of stable conformer and $$x_i$$ represents the mole fraction of most stable conformer.\n(A) The given compound is Z-CH$$_2$$-CH$$_2$$-Z and it will have two stable conformers namely, anti,\nand gauche.\nThe Newman’s projection for both stable forms\nis shown below.\n\n[Diagram]\n\nGiven, $$x$$ (Anti) = 0.82\n$$\\mu_{solution}=1.0$$ D\nThe sum of mole fraction of anti and gauche\nform is 1.\nTherefore, the mole fraction of gauche form is,\n$$x$$ (Gauche) = $$1-x$$ (Anti)\nSubstitute respective value in above equation,\n$$x$$ (Gauche) = 1 $$-$$ 0.82 = 0.18\nThe mole fraction of gauche form is 0.18.\nThe dipole moment of solution is given. The\ndipole moment of anti-form of Z-CH$$_2$$-CH$$_2$$-Z\nwill be zero due to cancellation of individual\nbond dipole moments by one another.\nFor Z-CH$$_2$$-CH$$_2$$-Z, can be expressed as,\n$$\\mu_{obs}=\\mu(\\mathrm{Gauche}).x(\\mathrm{Gauche})+\\mu(\\mathrm{Anti}).x(\\mathrm{Anti})$$ ..... (i)\nGiven, $$\\mu_{obs}=1$$. We know the value for mole\nfractions of both anti and gauche forms. The\ndipole moment for anti-form is 0.\nPutting respective values in equation (i),\n$$1=\\mu(\\mathrm{Gauche})\\times0.18+0\\times0.82\\mu(\\mathrm{Gauche})=5.55$$ D\nThe value of $$\\mu(\\mathrm{Gauche})$$ is 5.55 D.\n(B) The given compound is,\n\n[Diagram]\n\nThe meso conformer is a compound containing\ntwo stereocenters which lack chirality due to\npresence of axis of symmetry.\n(i) Y = CH$$_3$$ about C$$_2$$-C$$_3$$ rotation\n\n[Diagram]\n\n(ii) Y = OH about C$$_1$$-C$$_2$$ rotation\n\n[Diagram]\n\nFinal Answer :\n\n[Diagram]\n\nHints :\nThe mole fraction for anti-form and dipole\nmoment of the solution is given. The formula\nfor calculating dipole moment for solution\nis given. The first step is to calculate mole\nfraction of gauche form which can be\nobtained by subtracting mole fraction of\nanti-form from 1. The dipole moment of anti-form will be 0 and we have value of dipole\nmoment of solution. Using the formula and\ngiven values, dipole moment of gauche form\ncan be calculated.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9mwt7a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_085",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Draw the structure of XeF$_{4}$ and OSF$_{4}$ according to VSEPR theory clearly indicating the state of hybridisation of the central atom and lone pair of electrons (if any) on the central atom.",
+    "solution": "**Structure of Xenon tetrafluoride, $\\mathrm{XeF}_4$ :**\n\nIn $\\mathrm{XeF}_4$, the central atom $\\mathrm{Xe}$ is attached to $4 \\mathrm{~F}$ atoms. The central atom $\\mathrm{Xe}$ undergoes $s p^3 d^2$ hybridization as shown below :\n\n[Diagram]\n\nThe geometry of $\\mathrm{XeF}_4$ is square planar and the structure is octahedral. The bond angle is $90^{\\circ}$. The two lone pairs of electrons are shown on $\\mathrm{Xe}$ atom.\n\n[Diagram]\n\n**Structure of Thionyl Tetrafluoride, $\\mathrm{OSF}_4$**\n\nIn $\\mathrm{OSF}_4$, the central atom is sulphur which is attached to a $\\mathrm{O}$ atom by double bond and attached to $4 \\mathrm{~F}$ atoms through a single bond. The central $S$ atom undergoes $s p^3 d$ hybridisation as shown below :\n\n[Diagram]\n\nOne of the $d$ orbitals will be involved in pi bond formation with $\\mathrm{O}$ atom.\n\nThus, the molecular geometry of $\\mathrm{OSF}_4$ should be trigonal bipyramidal. The geometry is distorted trigonal bipyramidal due to asymmetric charge distribution around the central atom. In the molecule, zero lone pairs are present along with 5 sigma bonds and a pi bond. The oxygen atom is at equatorial position as it is less electronegative than that of $\\mathrm{F}$.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5miw83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_086",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Arrange the following :\n\nIn the decreasing order of the O - O bond length present in them\n\nO$_{2}$, KO$_{2}$ and O$_{2}$[AsF$_{4}$]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5msl4v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_087",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Using VSEPR theory deduce the structures of PCl$_{5}$ and BrF$_{5}$",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5msl4v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_088",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write down the M.O. electron distribution of O$_{2}$. Specify its bond order and magnetic property.",
+    "solution": "We know that, magnetic moment, $$\\mu = \\sqrt {n(n + 2)} $$\nwhere [n = number of unpaired electrons]\n$$1.73 = \\sqrt {n(n + 2)} \\therefore$$ n = 1 [After solving we get n = 1]\nSo, vanadium ion contains only one unpaired electron.\nBut $$_{23}V = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^6}3{d^3}4{s^2}\\therefore{V^{4 + }} = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^2}3{d^1}$$\n(will have one unpaired electron).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_089",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Interpret the non-linear shape of H$_{2}$S molecule and non-planar shape of PCl$_{3}$ using valence shell electron pair repulsion (VSEPR) theory. (Atomic numbers : H = 1, P = 15, S = 16, Cl = 17)",
+    "solution": "We know that, magnetic moment, $$\\mu = \\sqrt {n(n + 2)} $$\nwhere [n = number of unpaired electrons]\n$$1.73 = \\sqrt {n(n + 2)} \\therefore$$ n = 1 [After solving we get n = 1]\nSo, vanadium ion contains only one unpaired electron.\nBut $$_{23}V = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^6}3{d^3}4{s^2}\\therefore{V^{4 + }} = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^2}3{d^1}$$\n(will have one unpaired electron).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_090",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A compound of vanadium has a magnetic moment of 1.73 BM. Work out the electronic configuration of the vanadium ion in the compound.",
+    "solution": "We know that, magnetic moment, $$\\mu = \\sqrt {n(n + 2)} $$\nwhere [n = number of unpaired electrons]\n$$1.73 = \\sqrt {n(n + 2)} \\therefore$$ n = 1 [After solving we get n = 1]\nSo, vanadium ion contains only one unpaired electron.\nBut $$_{23}V = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^6}3{d^3}4{s^2}\\therefore{V^{4 + }} = 1{s^2}2{s^2}2{p^6}3{s^2}3{p^2}3{d^1}$$\n(will have one unpaired electron).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_091",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Using the VSEPR theory, identify the type of hybridization and draw the structure of OF$_{2}$. What are the oxidation states of O and F?",
+    "solution": "To calculate the dipole moment assuming one elementary charge of opposite kinds located at each nucleus, and to determine the percentage ionic character of KCl, we will use the concepts of charge and distance in the dipole moment equation, and understand the measure of ionic character compared to a hypothetical purely ionic bond.\n\nStep 1: Calculating theoretical dipole moment\n\nThe elementary charge (e) is $$ 1.602 \\times 10^{-19} $$ Coulombs. If KCl were purely ionic, the potassium and chlorine atoms would carry charges of +e and -e respectively. The dipole moment $$ \\mu $$ is calculated by the formula:\n\n$$ \\mu = q \\times d $$\n\nwhere:\n- $$ q $$ is the charge in Coulombs (+e for K$^{+}$ and -e for Cl$^{-}$)\n- $$ d $$ is the separation distance between the charges, which is 2.6 $$ \\times 10^{-10} $$ meters.\n\nThus, using the values:\n\n$$ \\mu = 1.602 \\times 10^{-19} \\, \\text{Coulombs} \\times 2.6 \\times 10^{-10} \\, \\text{meters} = 4.1652 \\times 10^{-29} \\, \\text{Coulomb meters} $$\n\nStep 2: Actual dipole moment of KCl\n\nThe actual measured dipole moment of KCl is given as 3.336 $$ \\times $$ 10$^{-29}$ Coulomb meters. This is due to the actual electron distribution in the bond being not purely ionic.\n\nStep 3: Percentage ionic character\n\nThe percentage ionic character can be calculated by comparing the actual dipole moment to the theoretical dipole moment for fully ionic charges, using the formula:\n\n$$ \\text{Percentage Ionic Character} = \\left(\\frac{\\text{Actual Dipole Moment}}{\\text{Theoretical Dipole Moment}}\\right) \\times 100\\% $$\n\nSubstituting the values we have:\n\n$$ \\text{Percentage Ionic Character} = \\left(\\frac{3.336 \\times 10^{-29}}{4.1652 \\times 10^{-29}}\\right) \\times 100\\% = 80.11\\% $$\n\nThis calculation shows that while KCl is primarily ionic, it has less than 100% ionic character, indicating some degree of covalent character in its bonding, where the electron distribution is not completely transferred but shared to a certain extent.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_092",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The dipole moment of KCl is 3.336 $$\\times$$ 10$^{-29}$ Coulomb meters which indicates that it is a highly polar molecule. The interatomic distance between K$^{+}$ and Cl$^{-}$ in this molecule is 2.6 $$\\times$$ 10$^{-10}$. Calculate the dipole moment of KCl molecule if there were opposite charges of one fundamental unit located at each nucleus. Calculate the percentage ionic character of KCl.",
+    "solution": "To calculate the dipole moment assuming one elementary charge of opposite kinds located at each nucleus, and to determine the percentage ionic character of KCl, we will use the concepts of charge and distance in the dipole moment equation, and understand the measure of ionic character compared to a hypothetical purely ionic bond.\n\nStep 1: Calculating theoretical dipole moment\n\nThe elementary charge (e) is $$ 1.602 \\times 10^{-19} $$ Coulombs. If KCl were purely ionic, the potassium and chlorine atoms would carry charges of +e and -e respectively. The dipole moment $$ \\mu $$ is calculated by the formula:\n\n$$ \\mu = q \\times d $$\n\nwhere:\n- $$ q $$ is the charge in Coulombs (+e for K$^{+}$ and -e for Cl$^{-}$)\n- $$ d $$ is the separation distance between the charges, which is 2.6 $$ \\times 10^{-10} $$ meters.\n\nThus, using the values:\n\n$$ \\mu = 1.602 \\times 10^{-19} \\, \\text{Coulombs} \\times 2.6 \\times 10^{-10} \\, \\text{meters} = 4.1652 \\times 10^{-29} \\, \\text{Coulomb meters} $$\n\nStep 2: Actual dipole moment of KCl\n\nThe actual measured dipole moment of KCl is given as 3.336 $$ \\times $$ 10$^{-29}$ Coulomb meters. This is due to the actual electron distribution in the bond being not purely ionic.\n\nStep 3: Percentage ionic character\n\nThe percentage ionic character can be calculated by comparing the actual dipole moment to the theoretical dipole moment for fully ionic charges, using the formula:\n\n$$ \\text{Percentage Ionic Character} = \\left(\\frac{\\text{Actual Dipole Moment}}{\\text{Theoretical Dipole Moment}}\\right) \\times 100\\% $$\n\nSubstituting the values we have:\n\n$$ \\text{Percentage Ionic Character} = \\left(\\frac{3.336 \\times 10^{-29}}{4.1652 \\times 10^{-29}}\\right) \\times 100\\% = 80.11\\% $$\n\nThis calculation shows that while KCl is primarily ionic, it has less than 100% ionic character, indicating some degree of covalent character in its bonding, where the electron distribution is not completely transferred but shared to a certain extent.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5nqoq7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_093",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Arrange the following :\n\nIncreasing strength of hydrogen bonding (X-H-X):\n\nO, S, F, Cl, N",
+    "solution": "The strength of hydrogen bonding is directly proportional to the electronegativity and inversely proportional to the size of the atom bonded to the hydrogen atom.\n\nElectronegativity: A more electronegative atom attracts the electron density in the covalent bond more strongly, leaving the hydrogen atom with a partial positive charge (δ+). This partial positive charge allows for a stronger electrostatic attraction to the lone pair of electrons on another electronegative atom, forming a stronger hydrogen bond.\n\nSize: A smaller atom has a more concentrated electron density, leading to a stronger electrostatic attraction and a stronger hydrogen bond.\n\nTherefore, among the given atoms, the order of increasing hydrogen bond strength is:\n\nCl < S < N < O < F\n\nWith fluorine (F) forming the strongest hydrogen bonds due to its high electronegativity and small size.\n\nAdditionally, chlorine (Cl) is relatively large in size and less electronegative compared to the other atoms listed. This makes it less likely to participate in significant hydrogen bonding.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5nqoq7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_094",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Arrange the following :\n\nN$_{2}$, O$_{2}$, F$_{2}$, Cl$_{2}$ in increasing order of bond dissociation energy",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5nqoq7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_095",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write the lewis dot structure of the following:\n\nO$_{3}$, COCl$_{2}$",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lw5nqoq7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_chemical_bonding_096",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "How many sigma bonds and how many pi-bonds are present in a benzene molecule?",
+    "solution": "Benzene, with the chemical formula $$C_6H_6$$, is an aromatic hydrocarbon consisting of six carbon atoms arranged in a hexagonal ring, with alternating single and double bonds. Each carbon atom also bonds with one hydrogen atom.\n\nThe structure includes three double bonds and three single bonds interconnecting the carbon atoms in the ring. Here's how these bonds are categorized:\n\nSigma Bonds ($$\\sigma$$-bonds): Sigma bonds are the strongest type of covalent chemical bond. They are formed by head-on overlapping between atomic orbitals. In benzene:\n\nEach of the six carbon atoms forms a sigma bond with one hydrogen atom, giving us total six C-H sigma bonds.\n\nEach carbon-carbon (C-C) single bond in the ring is also a sigma bond. Since there are three C-C single bonds, this adds another three sigma bonds.\n\nFor double bonds, each contains one sigma and one pi bond. However, only the sigma component is counted here. Therefore, the three double bonds contribute another three sigma bonds from their C-C interactions.\n\nTotal Sigma Bonds: $$6 \\,(\\text{C-H}) + 3 \\,(\\text{C-C single bonds}) + 3 \\,(\\text{C-C part of double bonds}) = 12 \\,\\sigma\\text{-bonds}$$.\n\nPi Bonds ($$\\pi$$-bonds): Pi bonds are formed by the side-to-side overlap of atomic orbitals and are generally weaker than sigma bonds. In benzene, the pi bonds are part of the double bonds. Each double bond contributes one pi bond. Thus:\n\nThere are three double bonds in benzene, contributing one pi bond each.\n\nTotal Pi Bonds: $$3 \\,\\pi\\text{-bonds}$$.\n\nTherefore, a benzene molecule contains 12 sigma bonds and 3 pi bonds.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_097",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The two types of bond present in B$_{2}$H$_{6}$ are covalent and _______.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_098",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The shape of [CH$_{3}$]$^{+}$ is _____.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_099",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "____ hybrid orbitals of nitrogen atom are involved in the formation of ammonium ion.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_100",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The angle between two convalent bonds is maximum in ________. (CH$_{4}$, H$_{2}$O, CO$_{2}$)",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_101",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The presence of polar bonds in a poly-atomic molecule suggests that the molecule has non-zero dipole moment.",
+    "solution": "The statement \"SnCl$_{2}$ is a non-linear molecule\" is TRUE.\n\nTo understand why SnCl$_{2}$ (Tin(II) chloride) is a non-linear molecule, we need to look at its molecular geometry. Tin (Sn) is the central atom and it has a lone pair of electrons along with two bonding pairs of electrons with the chlorine (Cl) atoms. This creates a V-shaped or bent molecular geometry.\n\nAccording to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the lone pair of electrons on the tin atom will repel the bonding pairs, causing the molecule to take on a shape that minimizes repulsion. Therefore, the electron geometry of SnCl$_{2}$ is trigonal planar, but because of the lone pair, the molecular shape is bent.\n\nThe bond angle in a bent molecule like SnCl$_{2}$ deviates from the typical 180 degrees and is approximately 120 degrees. This bent shape confirms that SnCl$_{2}$ is non-linear.\n\nHence, the correct answer is:\n\n**Option A: TRUE**",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_102",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In benzene, carbon uses all the three p-orbitals for hybridisation.",
+    "solution": "The statement \"SnCl$_{2}$ is a non-linear molecule\" is TRUE.\n\nTo understand why SnCl$_{2}$ (Tin(II) chloride) is a non-linear molecule, we need to look at its molecular geometry. Tin (Sn) is the central atom and it has a lone pair of electrons along with two bonding pairs of electrons with the chlorine (Cl) atoms. This creates a V-shaped or bent molecular geometry.\n\nAccording to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the lone pair of electrons on the tin atom will repel the bonding pairs, causing the molecule to take on a shape that minimizes repulsion. Therefore, the electron geometry of SnCl$_{2}$ is trigonal planar, but because of the lone pair, the molecular shape is bent.\n\nThe bond angle in a bent molecule like SnCl$_{2}$ deviates from the typical 180 degrees and is approximately 120 degrees. This bent shape confirms that SnCl$_{2}$ is non-linear.\n\nHence, the correct answer is:\n\n**Option A: TRUE**",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_103",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "sp$^{2}$ hybrid orbitals have equal s and p character.",
+    "solution": "The statement \"SnCl$_{2}$ is a non-linear molecule\" is TRUE.\n\nTo understand why SnCl$_{2}$ (Tin(II) chloride) is a non-linear molecule, we need to look at its molecular geometry. Tin (Sn) is the central atom and it has a lone pair of electrons along with two bonding pairs of electrons with the chlorine (Cl) atoms. This creates a V-shaped or bent molecular geometry.\n\nAccording to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the lone pair of electrons on the tin atom will repel the bonding pairs, causing the molecule to take on a shape that minimizes repulsion. Therefore, the electron geometry of SnCl$_{2}$ is trigonal planar, but because of the lone pair, the molecular shape is bent.\n\nThe bond angle in a bent molecule like SnCl$_{2}$ deviates from the typical 180 degrees and is approximately 120 degrees. This bent shape confirms that SnCl$_{2}$ is non-linear.\n\nHence, the correct answer is:\n\n**Option A: TRUE**",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_104",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "SnCl$_{2}$ is a non-linear molecule",
+    "solution": "The statement \"SnCl$_{2}$ is a non-linear molecule\" is TRUE.\n\nTo understand why SnCl$_{2}$ (Tin(II) chloride) is a non-linear molecule, we need to look at its molecular geometry. Tin (Sn) is the central atom and it has a lone pair of electrons along with two bonding pairs of electrons with the chlorine (Cl) atoms. This creates a V-shaped or bent molecular geometry.\n\nAccording to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the lone pair of electrons on the tin atom will repel the bonding pairs, causing the molecule to take on a shape that minimizes repulsion. Therefore, the electron geometry of SnCl$_{2}$ is trigonal planar, but because of the lone pair, the molecular shape is bent.\n\nThe bond angle in a bent molecule like SnCl$_{2}$ deviates from the typical 180 degrees and is approximately 120 degrees. This bent shape confirms that SnCl$_{2}$ is non-linear.\n\nHence, the correct answer is:\n\n**Option A: TRUE**",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_105",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "All molecules with polar bonds have dipole moment.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_chemical_bonding_106",
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "topic": "Chemical Bonding",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Linear overlap of two atomic p-orbitals leads to a sigma bond.",
+    "solution": "Solution for this Chemical Bonding question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

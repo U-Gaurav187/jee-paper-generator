@@ -1,0 +1,2013 @@
+[
+  {
+    "id": "math_vector_algebra_001",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum of distinct real values of $$\\lambda ,$$ for which the vectors $$ - {\\lambda ^2}\\widehat i + \\widehat j + \\widehat k,\\widehat i - {\\lambda ^2}\\widehat j + \\widehat k$$ and $$\\widehat i + \\widehat j - {\\lambda ^2}\\widehat k$$ are coplanar, is",
+    "solution": "Let us find the area of triangle $OPR$ step by step.\nGiven:\n\nPosition vector of $P$ is $\\vec{a}$\nPosition vector of $Q$ is $\\vec{b}$\nPosition vector of $R$ is $\\vec{a}+\\vec{b}$\n\nSo, for triangle $OPR$, the two side vectors from $O$ are:\n$$ \\overrightarrow{OP}=\\vec{a}, \\qquad \\overrightarrow{OR}=\\vec{a}+\\vec{b} $$\nHence, area of triangle $OPR$ is\n$$ \\frac{1}{2}\\left|\\vec{a}\\times(\\vec{a}+\\vec{b})\\right| $$\nNow,\n$$ \\vec{a}\\times(\\vec{a}+\\vec{b})=\\vec{a}\\times\\vec{a}+\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{b} $$\nsince $\\vec{a}\\times\\vec{a}=0$.\nTherefore,\n$$ \\text{Area of } \\triangle OPR=\\frac{1}{2}|\\vec{a}\\times\\vec{b}| $$\nSo we only need to find $|\\vec{a}\\times\\vec{b}|$.\n\nWe are given:\n$$ |\\vec{a}+\\vec{b}|=\\sqrt{21} $$\nSquaring both sides,\n$$ |\\vec{a}+\\vec{b}|^2=21 $$\nSo,\n$$ |\\vec{a}|^2+|\\vec{b}|^2+2\\vec{a}\\cdot\\vec{b}=21 \\qquad (1) $$\nAlso,\n$$ |\\vec{a}-\\vec{b}|=3 $$\nSquaring,\n$$ |\\vec{a}-\\vec{b}|^2=9 $$\nThus,\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 \\qquad (2) $$\nNow subtract $(2)$ from $(1)$:\n$$ 4\\vec{a}\\cdot\\vec{b}=12 $$\nSo,\n$$ \\vec{a}\\cdot\\vec{b}=3 $$\n\nNow use the condition that $\\vec{a}$ is perpendicular to $(\\vec{a}-\\vec{b})$.\nTherefore,\n$$ \\vec{a}\\cdot(\\vec{a}-\\vec{b})=0 |\\vec{a}|^2-\\vec{a}\\cdot\\vec{b}=0 $$\nSince $\\vec{a}\\cdot\\vec{b}=3$, we get\n$$ |\\vec{a}|^2=3 $$\nSo,\n$$ |\\vec{a}|=\\sqrt{3} $$\nNow use equation $(2)$:\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 $$\nSubstitute $|\\vec{a}|^2=3$ and $\\vec{a}\\cdot\\vec{b}=3$:\n$$ 3+|\\vec{b}|^2-6=9 |\\vec{b}|^2=12 $$\n\nNow use the identity\n$$ |\\vec{a}\\times\\vec{b}|^2=|\\vec{a}|^2|\\vec{b}|^2-(\\vec{a}\\cdot\\vec{b})^2 $$\nSubstitute the values:\n$$ |\\vec{a}\\times\\vec{b}|^2=(3)(12)-3^2=36-9=27 $$\nTherefore,\n$$ |\\vec{a}\\times\\vec{b}|=\\sqrt{27}=3\\sqrt{3} $$\nHence area of triangle $OPR$ is\n$$ \\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{1}{2}(3\\sqrt{3}) \\boxed{\\frac{3\\sqrt{3}}{2}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_002",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the vectors\n$$ \\vec{x}=\\hat{\\imath}+2 \\hat{\\jmath}+3 \\hat{k}, \\quad \\vec{y}=2 \\hat{\\imath}+3 \\hat{\\jmath}+\\hat{k}, \\quad \\text { and } \\quad \\vec{z}=3 \\hat{\\imath}+\\hat{\\jmath}+2 \\hat{k} $$\nFor two distinct positive real numbers $\\alpha$ and $\\beta$, define\n$$ \\vec{X}=\\alpha \\vec{x}+\\beta \\vec{y}-\\vec{z}, \\quad \\vec{Y}=\\alpha \\vec{y}+\\beta \\vec{z}-\\vec{x}, \\quad \\text { and } \\quad \\vec{Z}=\\alpha \\vec{z}+\\beta \\vec{x}-\\vec{y} . $$\nIf the vectors $\\vec{X}, \\vec{Y}$, and $\\vec{Z}$ lie in a plane, then the value of $\\alpha+\\beta-3$ is ____________.",
+    "solution": "$$ \\begin{aligned} & {[\\vec{x} \\vec{y} \\vec{z}]=0} \\\\ & \\Rightarrow\\left|\\begin{array}{ccc} \\alpha & \\beta & -1 \\\\ -1 & \\alpha & \\beta \\\\ \\beta & -1 & \\alpha \\end{array}\\right| \\underbrace{\\left|\\begin{array}{ccc} 1 & 2 & 3 \\\\ 2 & 3 & 1 \\\\ 3 & 1 & 2 \\end{array}\\right|}_{\neq 0}=0 \\\\ & \\Rightarrow\\left(\\alpha^3+\\beta^3-1\\right)-(-\\alpha \\beta-\\alpha \\beta-\\alpha \\beta)=0 \\\\ & \\Rightarrow \\alpha^3+\\beta^3+3 \\alpha \\beta=1 \\\\ & \\Rightarrow \\alpha^3+\\beta^3+(-1)^3=3(\\alpha)(\\beta)(-1) \\\\ & \\Rightarrow \\alpha+\\beta-1=0 \\end{aligned} $$\nSo, $\\alpha+\\beta-3=-2$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_003",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\hat{\\imath}, \\hat{\\jmath}$ and $\\hat{k}$ be the unit vectors along the three positive coordinate axes. Let\n\n$$\n\\begin{aligned}\n& \\vec{a}=3 \\hat{\\imath}+\\hat{\\jmath}-\\hat{k} \\text {, } \\\\\n& \\vec{b}=\\hat{\\imath}+b_{2} \\hat{\\jmath}+b_{3} \\hat{k}, \\quad b_{2}, b_{3} \\in \\mathbb{R} \\text {, } \\\\\n& \\vec{c}=c_{1} \\hat{\\imath}+c_{2} \\hat{\\jmath}+c_{3} \\hat{k}, \\quad c_{1}, c_{2}, c_{3} \\in \\mathbb{R}\n\\end{aligned}\n$$\n\nbe three vectors such that $b_{2} b_{3}>0, \\vec{a} \\cdot \\vec{b}=0$ and\n\n$$\n\\left(\\begin{array}{ccc}\n0 & -c_{3} & c_{2} \\\\\nc_{3} & 0 & -c_{1} \\\\\n-c_{2} & c_{1} & 0\n\\end{array}\\right)\\left(\\begin{array}{l}\n1 \\\\\nb_{2} \\\\\nb_{3}\n\\end{array}\\right)=\\left(\\begin{array}{r}\n3-c_{1} \\\\\n1-c_{2} \\\\\n-1-c_{3}\n\\end{array}\\right) .\n$$\n\nThen, which of the following is/are TRUE?",
+    "solution": "Given,\n$$\\left[ {\\matrix{\n0 & { - {c_3}} & {{c_2}} \\cr\n{{c_3}} & 0 & { - {c_1}} \\cr\n{ - {c_2}} & {{c_1}} & 0 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 \\cr\n{{b_2}} \\cr\n{{b_3}} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{3 - {c_1}} \\cr\n{1 - {c_2}} \\cr\n{ - 1 - {c_3}} \\cr\n\n} } \\right]\\therefore - {b_2}{c_3} + {b_3}{c_2} = 3 - {c_1}$$ ..... (1)\n$${c_3} - {b_3}{c_1} = 1 - {c_2}$$ ...... (2)\n$$ - {c_2} + {b_2}{c_1} = - 1 - {c_3}$$ ..... (3)\nAdding (1), (2) and (3), we get\n$$({b_2} - {b_3}){c_1} + ({b_3} - 1){c_2} + (1 - {b_2}){c_3} = 3 - ({c_1} + {c_2} + {c_3}) \\Rightarrow ({c_2}{b_3} - {c_3}{b_2}) - ({c_1}{b_3} - {c_3}) + ({c_1}{b_2} - {c_2}) = 3 - ({c_1} + {c_2} + {c_3})$$ ..... (4)\nAlso given,\n$$\\overrightarrow a = 3\\widehat i + \\widehat j - \\widehat k\\overrightarrow b = \\widehat i + {b_2}\\widehat j + {b_3}\\widehat k\\overrightarrow c = {c_1}\\widehat i + {c_2}\\widehat j + {c_3}\\widehat k$$\nNow,\n$$\\overrightarrow c \\times \\overrightarrow b = \\left| {\\matrix{\n{\\widehat i} & {\\widehat j} & {\\widehat k} \\cr\n{{c_1}} & {{c_2}} & {{c_3}} \\cr\n1 & {{b_2}} & {{b_3}} \\cr\n\n} } \\right| = ({c_2}{b_3} - {c_3}{b_2})\\widehat i - \\widehat j({c_1}{b_3} - {c_3}) + \\widehat k({c_1}{b_2} - {c_2})$$\nAnd\n$$\\overrightarrow a - \\overrightarrow c = (3 - {c_1})\\widehat i + (1 - {c_2})\\widehat j + ( - 1 - {c_3})\\widehat k$$\nComparing value of $$\\overrightarrow c \\times \\overrightarrow b $$ and $$\\overrightarrow a - \\overrightarrow c $$ with equation (4), we get\n$$\\overrightarrow c \\times \\overrightarrow b = \\overrightarrow a - \\overrightarrow c $$ ..... (5)\nMultiplying both side with $$\\overrightarrow b $$, we get\n$$\\overrightarrow b \\,.\\,(\\overrightarrow c \\times \\overrightarrow b ) = \\overrightarrow a \\,.\\,\\overrightarrow b - \\overrightarrow b \\,.\\,\\overrightarrow c \\Rightarrow 0 = 0 - \\overrightarrow b \\,.\\,\\overrightarrow c $$ [Given $$\\overrightarrow a \\,.\\,\\overrightarrow b = 0$$]\n$$ \\Rightarrow \\overrightarrow b \\,.\\,\\overrightarrow c = 0\\therefore$$ (B) is correct.\nNow multiplying both side of equation (5) with $$\\overrightarrow c $$, we get\n$$\\overrightarrow c \\,.\\,(\\overrightarrow c \\times \\overrightarrow b ) = \\overrightarrow a \\,.\\,\\overrightarrow c - |\\overrightarrow c {|^2} \\Rightarrow 0 = \\overrightarrow a \\,.\\,\\overrightarrow c - |\\overrightarrow c {|^2} \\Rightarrow \\overrightarrow a \\,.\\,\\overrightarrow c = |\\overrightarrow c {|^2}$$\nNow given $$\\overrightarrow c = {c_1}\\widehat i + {c_2}\\widehat j + {c_3}\\widehat k\\therefore|\\overrightarrow c {|^2} = \\sqrt {c_1^2 + c_2^2 + c_3^2} \\Rightarrow |\\overrightarrow c {|^2} = c_1^2 + c_2^2 + c_3^2\\therefore|\\overrightarrow c {|^2} = 0$$ when $${c_1} = 0$$, $${c_2} = 0$$ and $${c_3} = 0$$\nNow if we put $${c_1} = {c_2} = {c_3} = 0$$ in matrix we get,\n$$\\left[ {\\matrix{\n0 & 0 & 0 \\cr\n0 & 0 & 0 \\cr\n0 & 0 & 0 \\cr\n\n} } \\right]\\left[ {\\matrix{\n1 \\cr\n{{b_2}} \\cr\n{{b_3}} \\cr\n\n} } \\right] = \\left[ {\\matrix{\n{3 - {c_1}} \\cr\n{1 - {c_2}} \\cr\n{ - 1 - {c_3}} \\cr\n\n} } \\right] \\Rightarrow \\left[ {\\matrix{\n0 \\cr\n0 \\cr\n0 \\cr\n\n} } \\right] = \\left[ {\\matrix{\n3 \\cr\n1 \\cr\n{ - 1} \\cr\n\n} } \\right]\\therefore$$ Matrix does not satisfy the value of $${c_1} = {c_2} = {c_3} = 0$$.\n$$\\therefore{c_1},{c_2},{c_3}$$ can't be zero.\n$$\\therefore|\\overrightarrow c {|^2}\ne 0 \\Rightarrow \\overrightarrow a \\,.\\,\\overrightarrow c\ne 0\\therefore$$ Option (A) is wrong.\nAs $$\\overrightarrow a \\,.\\,\\overrightarrow c = |\\overrightarrow c {|^2} \\Rightarrow |\\overrightarrow a ||\\overrightarrow c |\\cos \\theta = |\\overrightarrow c {|^2}$$ [$$\\theta$$ = angle between $$\\overrightarrow a $$ and $$\\overrightarrow c $$]\n$$ \\Rightarrow |\\overrightarrow a |\\cos \\theta = |\\overrightarrow c | \\Rightarrow (\\sqrt {9 + 1 + 1} )\\cos \\theta = |\\overrightarrow c | \\Rightarrow |\\overrightarrow c | = \\sqrt {11} \\cos \\theta \\Rightarrow |\\overrightarrow c | \\le \\sqrt {11} $$ [as $$ - 1 \\le \\cos \\theta \\le 1$$]\n$$\\therefore$$ Option (D) is correct.\nGiven, $$\\overrightarrow a \\,.\\,\\overrightarrow b = 0 \\Rightarrow (3\\widehat i + \\widehat j - \\widehat k)\\,.\\,(\\widehat i + {b_2}\\widehat j + {b_3}\\widehat k) = 0 \\Rightarrow 3 + {b_2} - {b_3} = 0 \\Rightarrow {b_3} = 3 + {b_2}$$\nNow,\n$$\\overrightarrow b = \\widehat i + {b_2}\\widehat j + {b_3}\\widehat k \\Rightarrow |\\overrightarrow b | = \\sqrt {1 + b_2^2 + b_3^2} \\Rightarrow |\\overrightarrow b {|^2} = 1 + b_2^2 + {(3 + {b_2})^2} \\Rightarrow |\\overrightarrow b {|^2} = 1 + b_2^2 + 9 + 6{b_2} + b_2^2 \\Rightarrow |\\overrightarrow b {|^2} = 10 + 6{b_2} + 2b_2^2 \\Rightarrow |\\overrightarrow b {|^2} = 10 + 2{b_2}(3 + {b_2}) \\Rightarrow |\\overrightarrow b {|^2} = 10 + 2{b_2}{b_3} \\Rightarrow |\\overrightarrow b {|^2} > 10$$ [as $${b_2}{b_3} > 0$$ then $$2{b_2}{b_3} > 0$$]\n$$ \\Rightarrow |\\overrightarrow b | > \\sqrt {10} \\therefore$$ Option (C) is correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$\\vec{a} \\cdot \\vec{c}=0$",
+      "$\\vec{b} \\cdot \\vec{c}=0$",
+      "$|\\vec{b}|>\\sqrt{10}$",
+      "$|\\vec{c}| \\leq \\sqrt{11}$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_004",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the incident ray on a surface is along the unit vector $$\\widehat v\\,\\,,$$ the reflected ray is along the unit vector $$\\widehat w\\,\\,$$ and the normal is along unit vector $$\\widehat a\\,\\,$$ outwards. Express $$\\widehat w\\,\\,$$ in terms of $$\\widehat a\\,\\,$$ and $$\\widehat v\\,\\,.$$\n\n[Diagram]",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_005",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$OA=a,OB=10a+2b$$ and $$OC=b$$ where $$O,A$$ and $$C$$ are non-collinear points. Let $$p$$ denote the area of the quadrilateral $$OABC,$$ and let $$q$$ denote the area of the parallelogram with $$OA$$ and $$OC$$ as adjacent sides. If $$p=kq,$$ then $$k=$$.........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_006",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any three vectors $${\\overrightarrow a ,\\,\\overrightarrow b ,}$$ and $${\\overrightarrow c ,}\\left( {\\overrightarrow a - \\overrightarrow b } \\right)\\,.\\,\\left( {\\overrightarrow b - \\overrightarrow c } \\right)\\, \\times \\,\\left( {\\overrightarrow c - \\overrightarrow a } \\right)\\, = \\,2\\overrightarrow {a\\,} .\\,\\overrightarrow {b\\,} \\times \\,\\overrightarrow c .$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_007",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a \\,,\\,\\overrightarrow b ,\\overrightarrow c $$ be unit vectors such that $${\\overrightarrow a + \\overrightarrow b + \\overrightarrow c = \\overrightarrow 0 .}$$ Which one of the following is correct ?",
+    "solution": "Let us find the area of triangle $OPR$ step by step.\nGiven:\n\nPosition vector of $P$ is $\\vec{a}$\nPosition vector of $Q$ is $\\vec{b}$\nPosition vector of $R$ is $\\vec{a}+\\vec{b}$\n\nSo, for triangle $OPR$, the two side vectors from $O$ are:\n$$ \\overrightarrow{OP}=\\vec{a}, \\qquad \\overrightarrow{OR}=\\vec{a}+\\vec{b} $$\nHence, area of triangle $OPR$ is\n$$ \\frac{1}{2}\\left|\\vec{a}\\times(\\vec{a}+\\vec{b})\\right| $$\nNow,\n$$ \\vec{a}\\times(\\vec{a}+\\vec{b})=\\vec{a}\\times\\vec{a}+\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{b} $$\nsince $\\vec{a}\\times\\vec{a}=0$.\nTherefore,\n$$ \\text{Area of } \\triangle OPR=\\frac{1}{2}|\\vec{a}\\times\\vec{b}| $$\nSo we only need to find $|\\vec{a}\\times\\vec{b}|$.\n\nWe are given:\n$$ |\\vec{a}+\\vec{b}|=\\sqrt{21} $$\nSquaring both sides,\n$$ |\\vec{a}+\\vec{b}|^2=21 $$\nSo,\n$$ |\\vec{a}|^2+|\\vec{b}|^2+2\\vec{a}\\cdot\\vec{b}=21 \\qquad (1) $$\nAlso,\n$$ |\\vec{a}-\\vec{b}|=3 $$\nSquaring,\n$$ |\\vec{a}-\\vec{b}|^2=9 $$\nThus,\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 \\qquad (2) $$\nNow subtract $(2)$ from $(1)$:\n$$ 4\\vec{a}\\cdot\\vec{b}=12 $$\nSo,\n$$ \\vec{a}\\cdot\\vec{b}=3 $$\n\nNow use the condition that $\\vec{a}$ is perpendicular to $(\\vec{a}-\\vec{b})$.\nTherefore,\n$$ \\vec{a}\\cdot(\\vec{a}-\\vec{b})=0 |\\vec{a}|^2-\\vec{a}\\cdot\\vec{b}=0 $$\nSince $\\vec{a}\\cdot\\vec{b}=3$, we get\n$$ |\\vec{a}|^2=3 $$\nSo,\n$$ |\\vec{a}|=\\sqrt{3} $$\nNow use equation $(2)$:\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 $$\nSubstitute $|\\vec{a}|^2=3$ and $\\vec{a}\\cdot\\vec{b}=3$:\n$$ 3+|\\vec{b}|^2-6=9 |\\vec{b}|^2=12 $$\n\nNow use the identity\n$$ |\\vec{a}\\times\\vec{b}|^2=|\\vec{a}|^2|\\vec{b}|^2-(\\vec{a}\\cdot\\vec{b})^2 $$\nSubstitute the values:\n$$ |\\vec{a}\\times\\vec{b}|^2=(3)(12)-3^2=36-9=27 $$\nTherefore,\n$$ |\\vec{a}\\times\\vec{b}|=\\sqrt{27}=3\\sqrt{3} $$\nHence area of triangle $OPR$ is\n$$ \\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{1}{2}(3\\sqrt{3}) \\boxed{\\frac{3\\sqrt{3}}{2}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\overrightarrow a \\times \\overrightarrow b = b \\times \\overrightarrow c = \\overrightarrow c \\times \\overrightarrow a = \\overrightarrow 0 $$",
+      "$$\\overrightarrow a \\times \\overrightarrow b = b \\times \\overrightarrow c = \\overrightarrow c \\times \\overrightarrow a\ne \\overrightarrow 0 $$",
+      "$$\\overrightarrow a \\times \\overrightarrow b = b \\times \\overrightarrow c = \\overrightarrow a \\times \\overrightarrow c\ne \\overrightarrow 0 $$",
+      "$$\\overrightarrow a \\times \\overrightarrow b ,b \\times \\overrightarrow c ,\\overrightarrow c \\times \\overrightarrow a $$ are muturally perpendicular"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_008",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the vectors $$\\overrightarrow {PQ} ,\\,\\,\\overrightarrow {QR} ,\\,\\,\\overrightarrow {RS} ,\\,\\,\\overrightarrow {ST} ,\\,\\,\\overrightarrow {TU} ,$$ and $$\\overrightarrow {UP} ,$$ represent the sides of a regular hexagon.\n**STATEMENT-1**: $$\\overrightarrow {PQ} \\times \\left( {\\overrightarrow {RS} + \\overrightarrow {ST} } \\right)\ne \\overrightarrow 0 .$$ **because**\n\n**STATEMENT-2**: $$\\overrightarrow {PQ} \\times \\overrightarrow {RS} = \\overrightarrow 0 $$ and $$\\overrightarrow {PQ} \\times \\overrightarrow {ST}\ne \\overrightarrow 0 \\,\\,.$$",
+    "solution": "Let us find the area of triangle $OPR$ step by step.\nGiven:\n\nPosition vector of $P$ is $\\vec{a}$\nPosition vector of $Q$ is $\\vec{b}$\nPosition vector of $R$ is $\\vec{a}+\\vec{b}$\n\nSo, for triangle $OPR$, the two side vectors from $O$ are:\n$$ \\overrightarrow{OP}=\\vec{a}, \\qquad \\overrightarrow{OR}=\\vec{a}+\\vec{b} $$\nHence, area of triangle $OPR$ is\n$$ \\frac{1}{2}\\left|\\vec{a}\\times(\\vec{a}+\\vec{b})\\right| $$\nNow,\n$$ \\vec{a}\\times(\\vec{a}+\\vec{b})=\\vec{a}\\times\\vec{a}+\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{b} $$\nsince $\\vec{a}\\times\\vec{a}=0$.\nTherefore,\n$$ \\text{Area of } \\triangle OPR=\\frac{1}{2}|\\vec{a}\\times\\vec{b}| $$\nSo we only need to find $|\\vec{a}\\times\\vec{b}|$.\n\nWe are given:\n$$ |\\vec{a}+\\vec{b}|=\\sqrt{21} $$\nSquaring both sides,\n$$ |\\vec{a}+\\vec{b}|^2=21 $$\nSo,\n$$ |\\vec{a}|^2+|\\vec{b}|^2+2\\vec{a}\\cdot\\vec{b}=21 \\qquad (1) $$\nAlso,\n$$ |\\vec{a}-\\vec{b}|=3 $$\nSquaring,\n$$ |\\vec{a}-\\vec{b}|^2=9 $$\nThus,\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 \\qquad (2) $$\nNow subtract $(2)$ from $(1)$:\n$$ 4\\vec{a}\\cdot\\vec{b}=12 $$\nSo,\n$$ \\vec{a}\\cdot\\vec{b}=3 $$\n\nNow use the condition that $\\vec{a}$ is perpendicular to $(\\vec{a}-\\vec{b})$.\nTherefore,\n$$ \\vec{a}\\cdot(\\vec{a}-\\vec{b})=0 |\\vec{a}|^2-\\vec{a}\\cdot\\vec{b}=0 $$\nSince $\\vec{a}\\cdot\\vec{b}=3$, we get\n$$ |\\vec{a}|^2=3 $$\nSo,\n$$ |\\vec{a}|=\\sqrt{3} $$\nNow use equation $(2)$:\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 $$\nSubstitute $|\\vec{a}|^2=3$ and $\\vec{a}\\cdot\\vec{b}=3$:\n$$ 3+|\\vec{b}|^2-6=9 |\\vec{b}|^2=12 $$\n\nNow use the identity\n$$ |\\vec{a}\\times\\vec{b}|^2=|\\vec{a}|^2|\\vec{b}|^2-(\\vec{a}\\cdot\\vec{b})^2 $$\nSubstitute the values:\n$$ |\\vec{a}\\times\\vec{b}|^2=(3)(12)-3^2=36-9=27 $$\nTherefore,\n$$ |\\vec{a}\\times\\vec{b}|=\\sqrt{27}=3\\sqrt{3} $$\nHence area of triangle $OPR$ is\n$$ \\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{1}{2}(3\\sqrt{3}) \\boxed{\\frac{3\\sqrt{3}}{2}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True."
+    ]
+  },
+  {
+    "id": "math_vector_algebra_009",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let **$ \\vec{a}, \\vec{b} $** be two vectors, and let **P, Q** and **R** be the points with position vectors **$ \\vec{a}, \\vec{b} $** and **$ \\vec{a} + \\vec{b} $**, respectively, with respect to the origin **O**. If **$ |\\vec{a} + \\vec{b}| = \\sqrt{21} $**, **$ |\\vec{a} - \\vec{b}| = 3 $**, and **$ \\vec{a} $** and **$ (\\vec{a} - \\vec{b}) $** are perpendicular to each other, then the area of the triangle **OPR** is :",
+    "solution": "Let us find the area of triangle $OPR$ step by step.\nGiven:\n\nPosition vector of $P$ is $\\vec{a}$\nPosition vector of $Q$ is $\\vec{b}$\nPosition vector of $R$ is $\\vec{a}+\\vec{b}$\n\nSo, for triangle $OPR$, the two side vectors from $O$ are:\n$$ \\overrightarrow{OP}=\\vec{a}, \\qquad \\overrightarrow{OR}=\\vec{a}+\\vec{b} $$\nHence, area of triangle $OPR$ is\n$$ \\frac{1}{2}\\left|\\vec{a}\\times(\\vec{a}+\\vec{b})\\right| $$\nNow,\n$$ \\vec{a}\\times(\\vec{a}+\\vec{b})=\\vec{a}\\times\\vec{a}+\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{b} $$\nsince $\\vec{a}\\times\\vec{a}=0$.\nTherefore,\n$$ \\text{Area of } \\triangle OPR=\\frac{1}{2}|\\vec{a}\\times\\vec{b}| $$\nSo we only need to find $|\\vec{a}\\times\\vec{b}|$.\n\nWe are given:\n$$ |\\vec{a}+\\vec{b}|=\\sqrt{21} $$\nSquaring both sides,\n$$ |\\vec{a}+\\vec{b}|^2=21 $$\nSo,\n$$ |\\vec{a}|^2+|\\vec{b}|^2+2\\vec{a}\\cdot\\vec{b}=21 \\qquad (1) $$\nAlso,\n$$ |\\vec{a}-\\vec{b}|=3 $$\nSquaring,\n$$ |\\vec{a}-\\vec{b}|^2=9 $$\nThus,\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 \\qquad (2) $$\nNow subtract $(2)$ from $(1)$:\n$$ 4\\vec{a}\\cdot\\vec{b}=12 $$\nSo,\n$$ \\vec{a}\\cdot\\vec{b}=3 $$\n\nNow use the condition that $\\vec{a}$ is perpendicular to $(\\vec{a}-\\vec{b})$.\nTherefore,\n$$ \\vec{a}\\cdot(\\vec{a}-\\vec{b})=0 |\\vec{a}|^2-\\vec{a}\\cdot\\vec{b}=0 $$\nSince $\\vec{a}\\cdot\\vec{b}=3$, we get\n$$ |\\vec{a}|^2=3 $$\nSo,\n$$ |\\vec{a}|=\\sqrt{3} $$\nNow use equation $(2)$:\n$$ |\\vec{a}|^2+|\\vec{b}|^2-2\\vec{a}\\cdot\\vec{b}=9 $$\nSubstitute $|\\vec{a}|^2=3$ and $\\vec{a}\\cdot\\vec{b}=3$:\n$$ 3+|\\vec{b}|^2-6=9 |\\vec{b}|^2=12 $$\n\nNow use the identity\n$$ |\\vec{a}\\times\\vec{b}|^2=|\\vec{a}|^2|\\vec{b}|^2-(\\vec{a}\\cdot\\vec{b})^2 $$\nSubstitute the values:\n$$ |\\vec{a}\\times\\vec{b}|^2=(3)(12)-3^2=36-9=27 $$\nTherefore,\n$$ |\\vec{a}\\times\\vec{b}|=\\sqrt{27}=3\\sqrt{3} $$\nHence area of triangle $OPR$ is\n$$ \\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{1}{2}(3\\sqrt{3}) \\boxed{\\frac{3\\sqrt{3}}{2}} $$\nSo, the correct option is:\n$$ \\boxed{\\text{Option C}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$ \\sqrt{3} $",
+      "$ \\frac{\\sqrt{3}}{2} $",
+      "$ \\frac{3\\sqrt{3}}{2} $",
+      "$ \\frac{3}{2} $"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_010",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For real numbers $\\alpha$, $\\beta$, $\\gamma$, $\\delta$ and $\\mu$, consider the matrix\n$$ M = \\begin{bmatrix} \\alpha & \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{3}} & \\beta & \\frac{1}{\\sqrt{3}} \\\\ \\gamma & \\delta & \\mu \\end{bmatrix}. $$\nSuppose that $MM^{T} = I$, where $M^{T}$ is the transpose of the matrix $M$, and $I$ is the $3 \\times 3$ identity matrix. Let\n$$ \\vec{u} = \\alpha\\,\\hat{i} + \\frac{1}{\\sqrt{3}}\\hat{j} + \\gamma\\,\\hat{k}, \\qquad \\vec{v} = \\frac{1}{\\sqrt{2}}\\hat{i} + \\beta\\hat{j} + \\delta\\hat{k} \\qquad \\text{and} \\qquad \\vec{w} = -\\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{3}}\\hat{j} + \\mu\\hat{k}. $$\nMatch each entry in List-I to the correct entry in List-II and choose the correct option.\n\n\n\n\n\nList-I\n\nList-II\n\n\n\n\n\n\n\n\n\n\n\n(P) The value of\n\n$$\\gamma^2 + \\delta^2$$\n\nis\n\n\n\n\n\n(1) 0\n\n\n\n\n\n\n\n\n\n(Q) If\n\n$$x\\vec{u} + y\\vec{v} + z\\vec{w} = \\hat{j}$$\n\nfor some real numbers $x$, $y$ and $z$, then the value of $x$ is\n\n\n\n\n\n(2) 1\n\n\n\n\n\n\n\n\n\n(R) The value of\n\n$$\\left|\\vec{u} \\cdot (\\vec{v} \\times \\vec{w})\\right|$$\n\nis\n\n\n\n\n\n(3)\n\n$$\\frac{1}{\\sqrt{2}}$$\n\n\n\n\n\n\n\n\n\n(S) The value of\n\n$$\\left|\\vec{u} \\times (\\vec{v} \\times \\vec{w})\\right|$$\n\nis\n\n\n\n\n\n(4)\n\n$$\\frac{1}{\\sqrt{3}}$$\n\n\n\n\n\n(5)\n\n$$\\frac{5}{6}$$",
+    "solution": "Given the matrix\n$$ M = \\begin{bmatrix} \\alpha & \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{3}} & \\beta & \\frac{1}{\\sqrt{3}} \\\\ \\gamma & \\delta & \\mu \\end{bmatrix}, $$\nand $ MM^{T} = I $, this means that the rows of $ M $ are orthonormal vectors (that is, each has unit length and they are mutually perpendicular).\nLet\n$$ \\vec{u} = \\alpha \\hat{i} + \\frac{1}{\\sqrt{3}} \\hat{j} + \\gamma \\hat{k}, \\quad \\vec{v} = \\frac{1}{\\sqrt{2}} \\hat{i} + \\beta \\hat{j} + \\delta \\hat{k}, \\quad \\vec{w} = -\\frac{1}{\\sqrt{2}} \\hat{i} + \\frac{1}{\\sqrt{3}} \\hat{j} + \\mu \\hat{k}. $$\n**Length condition for each row (unit vectors)**\nFor $ \\vec{u} $, the condition $ |\\vec{u}| = 1 $ gives\n$$ \\alpha^2 + \\frac{1}{3} + \\gamma^2 = 1 $$\nThus,\n$$ \\alpha^2 + \\gamma^2 = \\frac{2}{3} \\tag{1} $$\nFor $ \\vec{v} $, the condition $ |\\vec{v}| = 1 $ gives\n$$ \\frac{1}{2} + \\beta^2 + \\delta^2 = 1 $$\nTherefore,\n$$ \\beta^2 + \\delta^2 = \\frac{1}{2} \\tag{2} $$\nFor $ \\vec{w} $, the condition $ |\\vec{w}| = 1 $ gives\n$$ \\frac{1}{2} + \\frac{1}{3} + \\mu^2 = 1 $$\nHence,\n$$ \\mu^2 = \\frac{1}{6} \\tag{3} $$\n**Using the third row’s condition**\nThe third row of $ M $ also has unit length, so\n$$ \\gamma^2 + \\delta^2 + \\mu^2 = 1 $$\nSubstitute $ \\mu^2 = \\frac{1}{6} $:\n$$ \\gamma^2 + \\delta^2 = 1 - \\frac{1}{6} = \\frac{5}{6} $$\nSo, for (P), the value of $ \\gamma^2 + \\delta^2 = \\frac{5}{6}. $\n**Finding $ x $ when $ x\\vec{u} + y\\vec{v} + z\\vec{w} = \\hat{j} $**\nTaking the dot product with $ \\vec{u} $ on both sides:\n$$ x(\\vec{u} \\cdot \\vec{u}) + y(\\vec{v} \\cdot \\vec{u}) + z(\\vec{w} \\cdot \\vec{u}) = \\vec{u} \\cdot \\hat{j} $$\nSince the vectors are mutually perpendicular, $ \\vec{u} \\cdot \\vec{v} = 0 $ and $ \\vec{u} \\cdot \\vec{w} = 0 $. So,\n$$ x(1) = \\frac{1}{\\sqrt{3}} $$\nTherefore, $ x = \\frac{1}{\\sqrt{3}}. $\n**Value of $ |\\vec{u} \\cdot (\\vec{v} \\times \\vec{w})| $**\nFor an orthogonal matrix, the determinant is $ \\pm 1 $, meaning the scalar triple product equals 1 in magnitude. Hence,\n$$ |\\vec{u} \\cdot (\\vec{v} \\times \\vec{w})| = 1. $$\n**Value of $ |\\vec{u} \\times (\\vec{v} \\times \\vec{w})| $**\nUsing vector identity $ \\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\cdot \\vec{c})\\vec{b} - (\\vec{a} \\cdot \\vec{b})\\vec{c} $, and since the vectors are perpendicular, both $ \\vec{u} \\cdot \\vec{v} = 0 $ and $ \\vec{u} \\cdot \\vec{w} = 0 $. Thus,\n$$ \\vec{u} \\times (\\vec{v} \\times \\vec{w}) = 0, $$\nand its magnitude is 0.\n**Final Matching:**\n(P) → (5) $ \\dfrac{5}{6} $\n(Q) → (4) $ \\dfrac{1}{\\sqrt{3}} $\n(R) → (2) $ 1 $\n(S) → (1) $ 0 $",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(P) → (5), (Q) → (4), (R) → (2), (S) → (1)",
+      "(P) → (4), (Q) → (5), (R) → (1), (S) → (2)",
+      "(P) → (5), (Q) → (3), (R) → (2), (S) → (1)",
+      "(P) → (5), (Q) → (4), (R) → (1), (S) → (2)"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_011",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\vec{w} = \\hat{i} + \\hat{j} - 2\\hat{k}$, and $\\vec{u}$ and $\\vec{v}$ be two vectors, such that $\\vec{u} \\times \\vec{v} = \\vec{w}$ and $\\vec{v} \\times \\vec{w} = \\vec{u}$. Let $\\alpha, \\beta, \\gamma$, and $t$ be real numbers such that\n$\\vec{u} = \\alpha \\hat{i} + \\beta \\hat{j} + \\gamma \\hat{k},\\ \\ \\ - t \\alpha + \\beta + \\gamma = 0,\\ \\ \\ \\alpha - t \\beta + \\gamma = 0,\\ \\ \\ \\alpha + \\beta - t \\gamma = 0.$\nMatch each entry in List-I to the correct entry in List-II and choose the correct option.\n\n\n\nList – I\n\nList – II\n\n\n\n\n\n(P) $\\lvert \\vec{v} \\rvert^2$ is equal to\n\n(1) 0\n\n\n\n\n\n(Q) If $\\alpha = \\sqrt{3}$, then $\\gamma^2$ is equal to\n\n(2) 1\n\n\n\n\n\n(R) If $\\alpha = \\sqrt{3}$, then $(\\beta + \\gamma)^2$ is equal to\n\n(3) 2\n\n\n\n\n\n(S) If $\\alpha = \\sqrt{2}$, then $t + 3$ is equal to\n\n(4) 3\n\n\n\n\n\n\n\n(5) 5",
+    "solution": "$\\begin{aligned} & \\vec{u} \\times \\vec{v}=\\vec{w} \\text { and } \\vec{v} \\times \\vec{w}=\\vec{u} \\\\ & \\Rightarrow \\quad \\vec{u}, \\vec{v} \\text { and } \\vec{w} \\text { are mutually perpendicular. } \\\\ & (\\vec{v} \\times \\vec{w}) \\times \\vec{v}=\\vec{w} \\\\ & \\Rightarrow \\quad \\vec{w}(\\vec{v} \\cdot \\vec{v})-\\vec{v}(\\vec{v} \\cdot \\vec{w})=\\vec{w} \\\\ & \\Rightarrow \\quad \\vec{w}\\left(|\\vec{v}|^2-1\\right)-\\vec{v}(\\vec{v} \\cdot \\vec{w})=\\overrightarrow{0}\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow \\quad|\\vec{v}|^2=1 \\text { and } \\vec{v} \\cdot \\vec{w}=0 \\\\ & |\\vec{u}||\\vec{v}|=|\\omega| \\Rightarrow|\\vec{u}|=\\sqrt{6} \\\\ & \\vec{u} \\cdot \\vec{w}=0 \\Rightarrow \\alpha+\\beta-2 \\gamma=0 \\\\ & \\text { and }-t \\alpha+\\beta+\\gamma=0 .......(i) \\\\ & \\alpha-t \\beta+\\gamma=0 ........(ii) \\\\ & \\alpha+\\beta-t \\gamma=0 ........(iii) \\\\ & \\text { (ii) }- \\text { (i) } \\Rightarrow \\quad \\alpha(1+t)=(t+1) \\beta \\\\ & \\text { (iii) }- \\text { (ii) } \\Rightarrow \\quad \\beta(1+t)=(1+t) \\gamma \\\\ & \\Rightarrow \\quad \\alpha(1+t)=\\beta(1+t)=\\gamma(1+t)\\end{aligned}$\neither $t=-1$ or $\\alpha=\\beta=\\gamma$\n$$ \\begin{aligned} & \\Rightarrow \\quad \\sqrt{\\alpha^2+\\alpha^2+\\alpha^2}=\\sqrt{6} \\\\ & \\Rightarrow \\quad \\alpha=\\sqrt{2},-t \\alpha=-\\alpha-\\alpha \\\\ & \\Rightarrow \\quad t=2 \\end{aligned} $$\nSince $\\alpha=\\sqrt{3}$\n$$ \\begin{aligned} \\Rightarrow & t=-1 \\\\ \\Rightarrow & \\alpha+\\beta+\\gamma=0 \\\\ & \\alpha+\\beta-2 \\gamma=0 \\\\ \\Rightarrow & \\gamma=0 \\end{aligned} $$\n$(\\mathrm{Q}) \\rightarrow 1$\n$$ \\begin{aligned} & \\alpha+\\beta=0 \\Rightarrow(\\beta+\\gamma)=-\\alpha \\Rightarrow(\\beta+\\gamma)^2=\\alpha^2=3,(\\mathrm{R}) \\rightarrow 4 \\\\ & \\Rightarrow|\\vec{v}|^2=1 \\rightarrow(\\mathrm{P}) \\rightarrow 2 \\end{aligned} $$\nIf $\\alpha=\\sqrt{3} \\Rightarrow \\gamma^2=0 \\rightarrow(\\mathrm{Q}) \\rightarrow 1$\nIf $\\alpha=\\sqrt{3} \\Rightarrow(\\beta+\\gamma)^2=(\\sqrt{3})^2=3,(\\mathrm{R}) \\rightarrow 4$\nIf $\\alpha=\\sqrt{2}, t+3=(2)+3=5$, (S) $\\rightarrow 5$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(P) $\\to$ (2)   (Q) $\\to$ (1)   (R) $\\to$ (4)   (S) $\\to$ (5)",
+      "(P) $\\to$ (2)   (Q) $\\to$ (4)   (R) $\\to$ (3)   (S) $\\to$ (5)",
+      "(P) $\\to$ (2)   (Q) $\\to$ (1)   (R) $\\to$ (4)   (S) $\\to$ (3)",
+      "(P) $\\to$ (5)   (Q) $\\to$ (4)   (R) $\\to$ (1)   (S) $\\to$ (3)"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_012",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the position vectors of the points $P, Q, R$ and $S$ be $\\vec{a}=\\hat{i}+2 \\hat{j}-5 \\hat{k}, \\vec{b}=3 \\hat{i}+6 \\hat{j}+3 \\hat{k}$, $\\vec{c}=\\frac{17}{5} \\hat{i}+\\frac{16}{5} \\hat{j}+7 \\hat{k}$ and $\\vec{d}=2 \\hat{i}+\\hat{j}+\\hat{k}$, respectively. Then which of the following statements is true?",
+    "solution": "$\\begin{aligned} & P(\\vec{a})=\\hat{i}+2 \\hat{j}-5 \\hat{k} \\\\\\\\ & Q(\\vec{b})=3 \\hat{i}+6 \\hat{j}+3 \\hat{k} \\\\\\\\ & R(\\vec{c})=\\frac{17}{5} \\hat{i}+\\frac{16}{5} \\hat{j}+7 \\hat{k} \\\\\\\\ & S(\\vec{d})=2 \\hat{i}+\\hat{j}+\\hat{k}\\end{aligned}$\n\nFrom option\n(A) :\n\n[Diagram]\n\n$$\n\\begin{aligned}\n& {[\\overrightarrow{P Q}, \\overrightarrow{P R}, \\overrightarrow{P S}] \\rightarrow \\text { S.T.P }} \\\\\\\\\n& \\left|\\begin{array}{ccc}\n2 & 4 & 6 \\\\\n\\frac{12}{5} & \\frac{6}{5} & 12 \\\\\n1 & -1 & 6\n\\end{array}\\right|=0\n\\end{aligned}\n$$\n\nHence P, Q, R, S are coplanar.\n\nFrom option\n(B) :\n\n$\\frac{\\vec{b}+2 \\vec{d}}{3}=\\frac{7 i+8 j+5 k}{3}$\n\n[Diagram]\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{\\frac{17 \\lambda}{5}+1}{1+\\lambda}=\\frac{7}{3} \\\\\\\\\n& \\Rightarrow \\frac{(17 \\lambda+5)}{1+\\lambda}=\\frac{35}{3} \\\\\\\\\n& \\Rightarrow 15 \\lambda+15=35+35 \\lambda \\\\\\\\\n& \\Rightarrow 16 \\lambda=20 \\\\\\\\\n& \\Rightarrow \\lambda=\\frac{5}{4}\n\\end{aligned}\n$$\n\nHence option (B) is correct.\n\n(D)\n\n$\\quad \\begin{aligned}|\\vec{b} \\times \\vec{d}|^2 & =|\\vec{b}|^2|\\vec{d}|^2-(\\vec{b} \\cdot \\vec{d})^2 \\\\\\\\ & =54 \\times 6-225 \\\\\\\\ & =324-225 \\\\\\\\ & =99\\end{aligned}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "The points $P, Q, R$ and $S$ are **NOT** coplanar",
+      "$\\frac{\\vec{b}+2 \\vec{d}}{3}$ is the position vector of a point which divides $P R$ internally in the ratio $5: 4$",
+      "$\\frac{\\vec{b}+2 \\vec{d}}{3}$ is the position vector of a point which divides $P R$ externally in the ratio $5: 4$",
+      "The square of the magnitude of the vector $\\vec{b} \\times \\vec{d}$ is 95"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lvdt3h7j.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_013",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let O be the origin and let PQR be an arbitrary triangle. The point S is such that\n\n$$\\overrightarrow{OP}$$ . $$\\overrightarrow{OQ}$$ + $$\\overrightarrow{OR}$$ . $$\\overrightarrow{OS}$$ = $$\\overrightarrow{OR}$$ . $$\\overrightarrow{OP}$$ + $$\\overrightarrow{OQ}$$ . $$\\overrightarrow{OS}$$ = $$\\overrightarrow{OQ}$$ . $$\\overrightarrow{OR}$$ + $$\\overrightarrow{OP}$$ . $$\\overrightarrow{OS}$$\n\nThen the triangle PQR has S as its",
+    "solution": "$$\\overrightarrow{OP}$$ . $$\\overrightarrow{OQ}$$ + $$\\overrightarrow{OR}$$ . $$\\overrightarrow{OS}$$ = $$\\overrightarrow{OR}$$ . $$\\overrightarrow{OP}$$ + $$\\overrightarrow{OQ}$$ . $$\\overrightarrow{OS} \\Rightarrow \\overrightarrow{OP}$$($$\\overrightarrow{OQ}-\\overrightarrow{OR}$$) + $$\\overrightarrow{OS}$$($$\\overrightarrow{OR}-\\overrightarrow{OQ}$$) = 0\n\n$$ \\Rightarrow $$ ($$\\overrightarrow{OP}-\\overrightarrow{OS}$$)($$\\overrightarrow{OQ}-\\overrightarrow{OR}$$) = 0\n\n$$ \\Rightarrow \\overrightarrow{SP}$$ . $$\\overrightarrow{RQ}$$ = 0\n\nSimilarly $$\\overrightarrow{SR}$$ . $$\\overrightarrow{PQ}$$ = 0 and $$\\overrightarrow{SQ}$$ . $$\\overrightarrow{PR}$$ = 0\n\n$$ \\therefore \\overrightarrow{S}$$ is orthocentre.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "centroid",
+      "orthocentre",
+      "incentre",
+      "circumcentre"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_014",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "|$$\\overrightarrow{OX} \\times \\overrightarrow{OY}$$| = ?",
+    "solution": "[Diagram]\n\nNow, $$\\overrightarrow {OX} = {{\\overrightarrow {QR} } \\over {QR}}$$\nand $$\\overrightarrow {OY} = {{\\overrightarrow {RP} } \\over {RP}}$$\nTherefore, $$(\\overrightarrow {OX} \\times \\overrightarrow {OY} ) = {{\\overrightarrow {QR} } \\over {QR}} \\times {{\\overrightarrow {RP} } \\over {RP}} = {{\\overrightarrow {QR} \\times \\overrightarrow {RP} } \\over {PQ}} = {{PQ\\sin R} \\over {PQ}} = \\sin R = \\sin (\\pi - (P + Q) = \\sin (P + Q))$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "sin(P + Q)",
+      "sin(P + R)",
+      "sin(Q + R)",
+      "sin2R"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0b0n11o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_015",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the following :\n\n\n\nColumn I\n\nColumn II\n\n\n\n\n\n\n\n**(A)**\n\nIn $ \\mathbb{R}^2 $, if the magnitude of the projection vector of the vector\n\n$ \\alpha \\hat{i} + \\beta \\hat{j} $ on\n\n$ \\sqrt{3}\\hat{i} + \\hat{j} $\n\nis $ \\sqrt{3} $ and if\n\n$ \\alpha = 2 + \\sqrt{3}\\beta $,\n\nthen possible value(s) of\n\n$ |\\alpha| $\n\nis (are)\n\n\n\n$(P)\\ 1$\n\n\n\n\n\n\n\n**(B)**\n\nLet $ \\alpha $ and $ b $ be real numbers such that the function\n\n\n\n$ f(x)= \\begin{cases} -3\\alpha x^2-2, & x<1 \\\\[4pt] bx+\\alpha^2, & x\\ge 1 \\end{cases} $\n\nis differentiable for all\n\n$ x \\in \\mathbb{R} $.\n\nThen possible value(s) of\n\n$ \\alpha $\n\nis (are)\n\n\n\n$(Q)\\ 2$\n\n\n\n\n\n\n\n**(C)**\n\nLet $ \\omega\ne 1 $ be a complex cube root of unity. If\n\n$ (3-3\\omega+2\\omega^2)^{4n+3} +(2+3\\omega-3\\omega^2)^{4n+3} +(-3+2\\omega+3\\omega^2)^{4n+3}=0, $\n\nthen possible value(s) of $ n $ is (are)\n\n\n\n$(R)\\ 3$\n\n\n\n\n\n\n\n**(D)**\n\nLet the harmonic mean of two positive real numbers\n\n$ a $ and $ b $\n\nbe $ 4 $. If $ q $ is a positive real number such that\n\n$ a,\\ 5,\\ q,\\ b $\n\nis an arithmetic progression, then the value(s) of\n\n$ |q-a| $\n\nis (are)\n\n\n\n$(S)\\ 4$\n\n\n\n\n\n\n\n$(T)\\ 5$",
+    "solution": "**Option (A)**: Let $\\vec{a}=\\alpha \\hat{i}+\\beta \\hat{j}$ and $\\vec{b}=\\sqrt{3} \\hat{i}+\\hat{j}$.\n\nTherefore, the magnitude of projection of $\\vec{a}$ on $\\vec{b}$ is\n\n$$\n\\begin{aligned}\n&\\vec{b}=\\frac{|\\vec{a} \\cdot \\vec{b}|}{|\\vec{b}|} \\\\\\\\\n&=\\frac{|\\sqrt{3} \\alpha+\\beta|}{\\sqrt{3+1}}=\\sqrt{3} \\\\\\\\\n&\\Rightarrow \\sqrt{3} \\alpha+\\beta= \\pm 2 \\sqrt{3} \\\\\\\\\n&\\Rightarrow \\sqrt{3}(2+\\sqrt{3} \\beta)+\\beta= \\pm 2 \\sqrt{2} \\\\\\\\\n&\\Rightarrow \\beta=0 \\text { or } \\beta=-\\sqrt{3} \\Rightarrow \\alpha=2 \\text { or } \\alpha=-1 \\\\\\\\\n&\\Rightarrow|\\alpha|=2 \\text { or } 1\n\\end{aligned}\n$$\n\nHence, $(\\mathrm{A}) \\rightarrow(\\mathrm{P}),(\\mathrm{Q})$.\n\n**Option (B)**: $f(x)=\\left\\{\\begin{array}{r}-3 a x^2-2, x<1 \\\\ b x+a^2, x>1\\end{array}\\right.$\n\nSince $f(x)$ is differentiable $\\forall x \\in \\mathbb{R}$, we have $f\\left(1^{-}\\right)=f\\left(1^{+}\\right)$\n\n$$\n\\begin{aligned}\n&\\Rightarrow-3 a-2 =b+a^2 \\\\\\\\\n&\\Rightarrow a^2+3 a+2 =-b \\\\\\\\\n&\\Rightarrow(a+2)(a+1) =-b \\quad\\quad...(1)\n\\end{aligned}\n$$\n\nAlso, $f^{\\prime}(x)=\\left\\{\\begin{array}{cc}-6 a x ; & x<1 \\\\ b ; & x>1\\end{array}\\right.$\n\n$$\n=f^{\\prime}\\left(1^{-}\\right)=f^{\\prime}\\left(1^{+}\\right)\n\n\\Rightarrow \\quad-6 a=b \\quad\\quad...(2)\n$$\n\nTherefore, from Eqs. (1) and (2), we get (2) $a^2+3 a+2$ $=6 a$\n\n$$\n\\Rightarrow a=1 \\text { or } a=2\n$$\n\nHence, (B) $\\rightarrow(\\mathrm{P})$, (Q).\n\nAlso,\n\n$$\n\\begin{aligned}\n&f^{\\prime}(x) =\\left\\{\\begin{array}{cc}\n-6 a x, & x<1 \\\\\nb, & x \\geq 1\n\\end{array}\\right. \\\\\\\\\n&\\Rightarrow f^{\\prime}\\left(1^{-}\\right) =f^{\\prime}\\left(1^{+}\\right) \\\\\\\\\n&\\Rightarrow-6 a =b \\\\\\\\\n&f^{\\prime}\\left(1^{-}\\right) =f^{\\prime}\\left(1^{+}\\right), a^2+3 a+2=6 a \\\\\\\\\n&\\Rightarrow a =1 \\text { or } a=2\n\\end{aligned}\n$$\n\nHence, $(\\mathrm{B}) \\rightarrow(\\mathrm{P}),(\\mathrm{Q})$\n\n$$\n\\begin{aligned}\n& \\mathbb{\\text {Option (C): }}\\left(3-3 \\omega+2 \\omega^2\\right)^{4 x+3}+\\left(2+3 \\omega-3 \\omega^2\\right)^{4 x+3}+ \\\\\\\\\n& \\left(-3+2 \\omega+3 \\omega^2\\right)^{4 x+3}=0 \\\\\\\\\n& \\Rightarrow\\left[1-3 \\omega+2\\left(1+\\omega^2\\right)\\right]^{4 x+3}+\\left[2(1+\\omega)+\\omega-3 \\omega^2\\right]+ \\\\\\\\\n& {\\left[-3+\\omega^2+2\\left(\\omega+\\omega^2\\right)\\right]^{4 x+3}=0}\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow {[1-3 \\omega-2 \\omega]^{4 x+3}+\\left[-5 \\omega^2+\\omega\\right]^{4 x+3} } \\\\\\\\\n& \\quad \\quad\\left(\\omega^2\\right)^{4 x+3}(1-5 \\omega)^{4 x+3}=0 \\\\\\\\\n& \\Rightarrow(1-5 \\omega)^{4 x+3}\\left(1+\\omega^n+\\omega^{2 x}\\right)=0 \\\\\\\\\n& \\Rightarrow \\omega(1-5 \\omega)^{4 x+3}\neq 0 \\\\\\\\\n& \\Rightarrow 1+\\omega^x+\\omega^{2 x}=0 \\\\\\\\\n& \\Rightarrow x=3 k+1 \\text { or } x=3 k+2 ; k \\in \\mathbb{Z} \\\\\\\\\n& \\Rightarrow x \\in\\{1,2,4,5\\}\n\\end{aligned}\n$$\n\nHence, $(\\mathrm{C}) \\rightarrow(\\mathrm{P}),(\\mathrm{Q}),(\\mathrm{S}),(\\mathrm{T})$.\n\n**Option (D)**: HM of $a$ and $b=\\frac{2 a b}{a+b}=4$, where $a, b>0$. Now, $a, 5, q, b$ are in AP, where $q>0$.\n\n$$\n\\begin{gathered}\n\\Rightarrow a+b=5+q \\\\\\\\\n\\Rightarrow \\frac{a b}{2}=5+q ~~~~~~~~(1)\n\\end{gathered}\n$$\n\nAlso\n\n$$\n\\begin{aligned}\n&a+q= 10 \\text { and } q=\\frac{5+b}{2} ~~~~~~~~(2)\\\\\\\\\n& \\Rightarrow b=2 q-5(3)\n\\end{aligned}\n$$\n\nTherefore, from Eqs. (1), (2) and (3), $a=\\frac{5}{2}$ or $a=6$.\n\n$$\n\\Rightarrow q=\\frac{15}{2} \\text { or } 4 \\Rightarrow|q-a|=5 \\text { or } 2\n$$\n\nHence, (D) $\\rightarrow$ (Q), (T).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left( A \\right) \\to p, q;\\,\\,\\left( B \\right) \\to p,q;\\,\\,\\left( C \\right) \\to p,q,s,t;\\,\\,\\left( D \\right) \\to q,t$$",
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to q;\\,\\,\\left( C \\right) \\to p,q,s,t;\\,\\,\\left( D \\right) \\to q,t$$",
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to p,q;\\,\\,\\left( C \\right) \\to p,t;\\,\\,\\left( D \\right) \\to q,t$$",
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to p,q;\\,\\,\\left( C \\right) \\to p,q,s,t;\\,\\,\\left( D \\right) \\to q$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_016",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$ **List $$I$$**\n\n**(P.)**$$\\,\\,\\,\\,$$ Volume of parallelopiped determined by vectors $$\\overrightarrow a ,\\overrightarrow b $$ and $$\\overrightarrow c $$ is $$2.$$ Then the volume of the parallelepiped determined by vectors $$2\\left( {\\overrightarrow a \\times \\overrightarrow b } \\right),3\\left( {\\overrightarrow b \\times \\overrightarrow c } \\right)$$ and $$\\left( {\\overrightarrow c \\times \\overrightarrow a } \\right)$$ is\n\n**(Q.)**$$\\,\\,\\,\\,$$ Volume of parallelopiped determined by vectors $$\\overrightarrow a ,\\overrightarrow b $$ and $$\\overrightarrow c $$ is $$5.$$ Then the volume of the parallelepiped determined by vectors $$3\\left( {\\overrightarrow a + \\overrightarrow b } \\right),\\left( {\\overrightarrow b + \\overrightarrow c } \\right)$$ and $$2\\left( {\\overrightarrow c + \\overrightarrow a } \\right)$$ is\n\n**(R.)**$$\\,\\,\\,\\,$$ Area of a triangle with adjacent sides determined by vectors $${\\overrightarrow a }$$ and $${\\overrightarrow b }$$ is $$20.$$ Then the area of the triangle with adjacent sides determined by vectors $$\\left( {2\\overrightarrow a + 3\\overrightarrow b } \\right)$$ and $$\\left( {\\overrightarrow a - \\overrightarrow b } \\right)$$ is\n\n**(S.)**$$\\,\\,\\,\\,$$ Area of a parallelogram with adjacent sides determined by vectors $${\\overrightarrow a }$$ and $${\\overrightarrow b }$$ is $$30.$$ Then the area of the parallelogram with adjacent sides determined by vectors $$\\left( {\\overrightarrow a + \\overrightarrow b } \\right)$$ and $${\\overrightarrow a }$$ is\n$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$ **List $$II$$**\n\n**(1.)**$$\\,\\,\\,\\,100$$\n\n**(2.)**$$\\,\\,\\,\\,30$$\n\n**(3.)**$$\\,\\,\\,\\,24$$\n\n**(4.)**$$\\,\\,\\,\\,60$$",
+    "solution": "(P) Given, the volume of parallelopiped formed by $$\\vec{a}, \\vec{b}, \\vec{c}$$ is 2\n$$\\Rightarrow[\\vec{a} \\vec{b} \\vec{c}]=2$$\nLet V be the volume of parallelopiped formed by $$2(\\vec{a} \\times \\vec{b}), 3(\\vec{b} \\times \\vec{c})$$ and $$(\\vec{c} \\times \\vec{a})\\begin{aligned}\n& \\Rightarrow \\mathrm{V}=\\left[\\begin{array}{lll}\n2(\\vec{a} \\times \\vec{b}) & 3(\\vec{b} \\times \\vec{c}) & (\\vec{c} \\times \\vec{a})\n\\end{array}\\right] \\\\\n& \\Rightarrow \\mathrm{V}=2 \\times 3[(\\vec{a} \\times \\vec{b})(\\vec{b} \\times \\vec{c})(\\vec{c} \\times \\vec{a})] \\\\\n& \\Rightarrow \\mathrm{V}=6[\\vec{a} \\vec{b} \\vec{c}]^2 \\\\\n& \\Rightarrow \\mathrm{V}=6 \\times 2^2 \\\\\n& \\Rightarrow \\mathrm{V}=24 \\\\\n\\end{aligned}$$\nHence, P match with 3.\n(Q) Given, the volume of parallelopiped formed by $$\\vec{a}, \\vec{b}$$ and $$\\vec{c}$$ is 5.\n$$\\Rightarrow[\\vec{a} \\vec{b} \\vec{c}]=5 \\quad \\text{... (i)}$$\nLet V be the volume of parallelopiped formed by $$3(\\vec{a}+\\vec{b}),(\\vec{b}+\\vec{c})$$ and $$2(\\vec{c}+\\vec{a})$$.\n$$\\Rightarrow \\mathrm{V}=\\left[\\begin{array}{lll}\n3(\\vec{a}+\\vec{b}) & (\\vec{b}+\\vec{c}) & 2(\\vec{c}+\\vec{a})\n\\end{array}\\right]\\begin{aligned}\n& \\Rightarrow \\mathrm{V}=3.2[(\\vec{a}+\\vec{b})(\\vec{b}+\\vec{c})(\\vec{c}+\\vec{a})] \\\\\n& \\Rightarrow \\mathrm{V}=6 \\times 2\\left[\\begin{array}{lll}\n\\vec{a} & \\vec{b} & \\vec{c}\n\\end{array}\\right] \\\\\n& \\Rightarrow \\mathrm{V}=12 \\times 5 \\\\\n& \\Rightarrow \\mathrm{V}=60\n\\end{aligned}$$\nHence, Q match with 4.\n(R) Given, the area of a triangle with adjacent sides $$\\vec{a}$$ and $$\\vec{b}$$ is 20 .\n$$\\begin{array}{ll}\n\\Rightarrow & \\frac{1}{2}|\\vec{a} \\times \\vec{b}|=20 \\\\\n\\Rightarrow & |\\vec{a} \\times \\vec{b}|=40 \\quad \\text{.... (i)}\n\\end{array}$$\nLet $$\\Delta$$ be the area of a triangle with adjacent sides $$(2 \\vec{a}+3 \\vec{b})$$ and $$(\\vec{a}-\\vec{b})$$.\n$$\\begin{aligned}\n& \\Rightarrow \\quad \\Delta=\\frac{1}{2}|(2 \\vec{a}+3 \\vec{b}) \\times(\\vec{a}-\\vec{b})| \\\\\n& \\Rightarrow \\Delta=\\frac{1}{2}|2 \\vec{a} \\times \\vec{a}-2 \\vec{a} \\times \\vec{b}+3 \\vec{b} \\times \\vec{a}-3 \\vec{b} \\times \\vec{b}| \\\\\n& \\Rightarrow \\Delta=\\frac{1}{2}|0-2 \\vec{a} \\times \\vec{b}-3 \\vec{a} \\times \\vec{b}-0| \\\\\n& \\Rightarrow \\Delta=\\frac{5}{2}|\\vec{a} \\times \\vec{b}| \\\\\n& \\Rightarrow \\Delta=\\frac{5}{2} \\times 40 \\\\\n& \\Rightarrow \\quad \\Delta=100\n\\end{aligned}$$\nHence, R match with 1.\n(S) Given, the area of parallelogram with adjacent sides $$\\vec{a}$$ and $$\\vec{b}$$ is 30.\n$$\\Rightarrow|\\vec{a} \\times \\vec{b}|=30 \\quad \\text{... (i)}$$\nLet, $$\\Delta^{\\prime}$$ be the area of parallelogram with adjacent sides $$(\\vec{a}+\\vec{b})$$ and $$\\vec{a}$$.\n$$\\begin{array}{ll}\n\\Rightarrow & \\Delta^{\\prime}=|(\\vec{a}+\\vec{b}) \\times \\vec{a}| \\\\\n\\Rightarrow & \\Delta^{\\prime}=|\\vec{a} \\times \\vec{a}+\\vec{b} \\times \\vec{a}| \\\\\n\\Rightarrow & \\Delta^{\\prime}=|0-\\vec{a} \\times \\vec{b}| \\\\\n\\Rightarrow & \\Delta^{\\prime}=|\\vec{a} \\times \\vec{b}| \\\\\n\\Rightarrow & \\Delta^{\\prime}=30\n\\end{array}$$\nHence, S match with 2.\nHints :\n(i) $$[\\vec{a} \\times \\vec{b} \\vec{b} \\times \\vec{c} \\vec{c} \\times \\vec{a}]=[\\vec{a} \\vec{b} \\vec{c}]^2$$\n(ii) $$\\left[\\begin{array}{lll}\\vec{a}+\\vec{b} & \\vec{b}+\\vec{c} & \\vec{c}+\\vec{a}\\end{array}\\right]=2\\left[\\begin{array}{ll}\\vec{a} \\vec{b} \\vec{c}\\end{array}\\right]$$\n(iii) $$\\vec{A} \\cdot(\\vec{B} \\times \\vec{C})=[\\vec{A} \\vec{B} \\vec{C}]$$\n(iv) $$\\vec{A} \\times \\vec{B}=-\\vec{B} \\times \\vec{A}$$\n(v) $$\\vec{A} \\times \\vec{A}=\\vec{B} \\times \\vec{B}=0$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$P = 4,Q = 2,R = 3,S = 1$$",
+      "$$P = 2,Q = 3,R = 1,S = 4$$",
+      "$$P = 3,Q = 4,R = 1,S = 2$$",
+      "$$P = 1,Q = 4,R = 3,S = 2$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzsvd9ew.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_017",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\overrightarrow{\\mathrm{PR}}=3 \\hat{i}+\\hat{j}-2 \\hat{k}$ and $ \\overrightarrow{\\mathrm{SQ}}=\\hat{i}-3 \\hat{j}-4 \\hat{k}$ determine diagonals of a parallelogram $P Q R S$ and $\\overrightarrow{\\mathrm{PT}}=\\hat{i}+2 \\hat{j}+3 \\hat{k}$ be another vector. Then the volume of the parallelopiped determined by the vectors $\\overrightarrow{\\mathrm{PT}}, \\overrightarrow{\\mathrm{PQ}}$ and $\\overrightarrow{\\mathrm{PS}}$ is :",
+    "solution": "Given that $\\overrightarrow{\\mathrm{PR}} = 3 \\hat{i} + \\hat{j} - 2 \\hat{k}$ and $\\overrightarrow{\\mathrm{SQ}} = \\hat{i} - 3 \\hat{j} - 4 \\hat{k}$ are the diagonals of the parallelogram $PQRS$,\n\n[Diagram]\n\nwe have the following relationships:\n\n$ \\begin{aligned} \\overrightarrow{\\mathrm{PR}} &= \\overrightarrow{\\mathrm{PQ}} + \\overrightarrow{\\mathrm{QR}} \\\\ \\overrightarrow{\\mathrm{SQ}} &= \\overrightarrow{\\mathrm{PQ}} - \\overrightarrow{\\mathrm{PS}} \\\\ \\end{aligned} $\n\nSince $\\overrightarrow{\\mathrm{QR}} = \\overrightarrow{\\mathrm{PS}}$,\n\n$ \\overrightarrow{\\mathrm{PQ}} = \\frac{\\overrightarrow{\\mathrm{PR}} + \\overrightarrow{\\mathrm{SQ}}}{2} $\n\nand\n\n$ \\overrightarrow{\\mathrm{PS}} = \\frac{\\overrightarrow{\\mathrm{PR}} - \\overrightarrow{\\mathrm{SQ}}}{2}. $\n\nSubstituting the values of $\\overrightarrow{\\mathrm{PR}}$ and $\\overrightarrow{\\mathrm{SQ}}$,\n\n$ \\begin{aligned} \\overrightarrow{\\mathrm{PQ}} &= \\frac{(3 \\hat{i} + \\hat{j} - 2 \\hat{k}) + (\\hat{i} - 3 \\hat{j} - 4 \\hat{k})}{2} \\\\ &= \\frac{4 \\hat{i} - 2 \\hat{j} - 6 \\hat{k}}{2} \\\\ &= 2 \\hat{i} - \\hat{j} - 3 \\hat{k}, \\end{aligned} $\n\n$ \\begin{aligned} \\overrightarrow{\\mathrm{PS}} &= \\frac{(3 \\hat{i} + \\hat{j} - 2 \\hat{k}) - (\\hat{i} - 3 \\hat{j} - 4 \\hat{k})}{2} \\\\ &= \\frac{2 \\hat{i} + 4 \\hat{j} + 2 \\hat{k}}{2} \\\\ &= \\hat{i} + 2 \\hat{j} + \\hat{k}. \\end{aligned} $\n\nGiven $\\overrightarrow{\\mathrm{PT}} = \\hat{i} + 2 \\hat{j} + 3 \\hat{k}$,\n\nTo find the volume $V$ of the parallelepiped formed by $\\overrightarrow{\\mathrm{PT}}, \\overrightarrow{\\mathrm{PQ}},$ and $\\overrightarrow{\\mathrm{PS}}$, we calculate the determinant of the following matrix:\n\n$ V = \\left| \\begin{array}{ccc} 1 & 2 & 3 \\\\ 2 & -1 & -3 \\\\ 1 & 2 & 1 \\end{array} \\right|. $\n\nCalculating this determinant:\n\n$ \\begin{aligned} V &= 1(-1 \\times 1 + 6) - 2(2 + 3) + 3(4 + 1) \\\\\\\\ &= 1 \\times 5 - 2 \\times 5 + 3 \\times 5 \\\\\\\\ &= 5 - 10 + 15\\\\\\\\ &= 10. \\end{aligned} $\n\nThus, the volume of the parallelepiped is 10 units.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "5 units",
+      "20 units",
+      "10 units",
+      "30 units"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzsvd9ew.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_018",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a $$ and $$\\overrightarrow b $$ are vectors such that $$\\left| {\\overrightarrow a + \\overrightarrow b } \\right| = \\sqrt {29} $$ and $$\\,\\overrightarrow a \\times \\left( {2\\widehat i + 3\\widehat j + 4\\widehat k} \\right) = \\left( {2\\widehat i + 3\\widehat j + 4\\widehat k} \\right) \\times \\widehat b,$$ then a possible value of $$\\left( {\\overrightarrow a + \\overrightarrow b } \\right).\\left( { - 7\\widehat i + 2\\widehat j + 3\\widehat k} \\right)$$ is",
+    "solution": "$$\\begin{aligned}\n& \\text { Given, } \\vec{a} \\times(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})=(2 \\hat{i}+3 \\hat{j}+4 \\hat{k}) \\times \\vec{b} \\\\\n& \\begin{aligned}\n& \\Rightarrow \\vec{a} \\times(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})-(2 \\hat{i}+3 \\hat{j}+4 \\hat{k}) \\times \\vec{b}=0 \\\\\n& \\Rightarrow \\vec{a} \\times(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})+\\vec{b} \\times(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})=0 \\\\\n& \\therefore(\\overrightarrow{\\mathrm{A}} \\times \\overrightarrow{\\mathrm{B}}=-\\overrightarrow{\\mathrm{B}} \\times \\overrightarrow{\\mathrm{A}}) \\\\\n& \\Rightarrow \\quad (\\vec{a}+\\vec{b}) \\times(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})=0\n\\end{aligned}\n\\end{aligned}$$\nHence, $$\\vec{a}+\\vec{b}$$ is collinear to $$2 \\hat{i}+3 \\hat{j}+4 \\hat{k}$$\nLet $$\\vec{a}+\\vec{b}=\\lambda(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})\\quad \\text{... (i)}\\begin{array}{l}\n\\Rightarrow & |\\vec{a}+\\vec{b}|=|\\lambda| \\sqrt{2^2+3^2+4^2} \\\\\n\\Rightarrow & \\sqrt{29}=|\\lambda| \\sqrt{29} \\quad \\text { (Given, }|\\vec{a}+\\vec{b}|=\\sqrt{29}) \\\\\n\\Rightarrow & |\\lambda|=1 \\\\\n\\Rightarrow & |\\lambda|= \\pm 1 \\\\\n\\therefore & \\vec{a}+\\vec{b}= \\pm(2 \\hat{i}+3 \\hat{j}+4 \\hat{k})\n\\end{array}\\begin{aligned}\n\\text { Now, } &(\\vec{a}+\\vec{b}) \\cdot(-7 \\hat{i}+2 \\hat{j}+3 \\hat{k}) \\\\\n&= \\pm(2 \\hat{i}+3 \\hat{j}+4 \\hat{k}) \\cdot(-7 \\hat{i}+2 \\hat{j}+3 \\hat{k}) \\\\\n&= \\pm(-14+6+12) \\\\\n&= \\pm 4\n\\end{aligned}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$0$$",
+      "$$3$$",
+      "$$4$$",
+      "$$8$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_019",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements given in Column -$$I$$ with the values given in Column-$$II.\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$ **Column-$$I$$**\n\n(A) $$\\,\\,\\,\\,$$If $$\\overrightarrow a = \\widehat j + \\sqrt 3 \\widehat k,\\overrightarrow b = - \\widehat j + \\sqrt 3 \\widehat k$$ and $$\\overrightarrow c = 2\\sqrt 3 \\widehat k$$ form a triangle, then the internal angle of the triangle between $$\\overrightarrow a $$ and $$\\overrightarrow b $$ is\n\n(B)$$\\,\\,\\,\\,$$ If $$\\int\\limits_a^b {\\left( {f\\left( x \\right) - 3x} \\right)dx = {a^2} - {b^2},} $$ then the value of $$f\\left( {{\\pi \\over 6}} \\right)$$ is\n\n(C)$$\\,\\,\\,\\,$$ The value of $${{{\\pi ^2}} \\over {\\ell n3}}\\int\\limits_{7/6}^{5/6} {\\sec \\left( {\\pi x} \\right)dx} $$ is\n\n(D)$$\\,\\,\\,\\,$$ The maximum value of $$\\left| {Arg\\left( {{1 \\over {1 - z}}} \\right)} \\right|$$ for $$\\left| z \\right| = 1,\\,z\ne 1$$ is given by\n$$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$$ **Column-$$II$$**\n\n(p)$$\\,\\,\\,\\,{{\\pi \\over 6}}$$\n\n(q)$$\\,\\,\\,\\,{{2\\pi \\over 3}}$$\n\n(r)$$\\,\\,\\,\\,{{\\pi \\over 3}}$$\n\n(s)$$\\,\\,\\,\\,\\pi $$\n\n(t) $$\\,\\,\\,\\,{{\\pi \\over 2}}$$",
+    "solution": "(A) We have, $$\\overrightarrow a - \\overrightarrow b = - 1 + 3 = 2$$, where $$|\\overrightarrow a | = 2$$ and $$|\\overrightarrow b | = 2$$.\n$$\\cos \\theta = {2 \\over {2 \\times 2}} = {1 \\over 2}\\theta = {\\pi \\over 3},\\,{{2\\pi } \\over 3}$$ ; however, it is $${{2\\pi } \\over 3}$$ as its opposite to side of maximum length.\n(B) $$\\int\\limits_a^b {(f(x) - 3x)dx = {a^2} - {b^2}} \\int\\limits_a^b {f(x)dx = {3 \\over 2}({b^2} - {a^2}) + {a^2} - {b^2} = {{ - {a^2} + {b^2}} \\over 2} \\Rightarrow f(x) = x} $$\nTherefore, $$f(\\pi /6) = ({\\pi ^2}/6)$$\n(C) $${{{\\pi ^2}} \\over {\\ln 3}}\\left( {{{\\ln |(\\sec \\pi x + \\tan \\pi x)|_{7/6}^{5/6}} \\over \\pi }} \\right) = {\\pi \\over {\\ln 3}}\\left( {\\ln \\left| {\\sec {{5\\pi } \\over 6} + \\tan {{5\\pi } \\over 6}} \\right| - \\ln \\left| {\\sec {{7\\pi } \\over 6} + \\tan {{7\\pi } \\over 6}} \\right|} \\right) = \\pi $$\n(D) Let us consider,\n$$u = {1 \\over {1 - z}} \\Rightarrow z = 1 - {1 \\over u}|z| = 1 \\Rightarrow \\left| {1 - {1 \\over u}} \\right| = 1 \\Rightarrow |u - 1| = |u|$$\nHence, the locus of u is perpendicular bisector of line segment joining 0 and 1.\nTherefore, the maximum arg(u) approaches $$\\pi$$/2, but it will not attain.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to p;\\,\\,\\left( C \\right) \\to s;\\,\\,\\left( D \\right) \\to t$$",
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to p;\\,\\,\\left( C \\right) \\to t;\\,\\,\\left( D \\right) \\to s$$",
+      "$$\\left( A \\right) \\to p;\\,\\,\\left( B \\right) \\to q;\\,\\,\\left( C \\right) \\to s;\\,\\,\\left( D \\right) \\to t$$",
+      "$$\\left( A \\right) \\to q;\\,\\,\\left( B \\right) \\to s;\\,\\,\\left( C \\right) \\to p;\\,\\,\\left( D \\right) \\to t$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6amzrup.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_020",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = \\widehat i + \\widehat j + \\widehat k,\\,\\overrightarrow b = \\widehat i - \\widehat j + \\widehat k$$ and $$\\overrightarrow c = \\widehat i - \\widehat j - \\widehat k$$ be three vectors. A vector $$\\overrightarrow v $$ in the plane of $$\\overrightarrow a $$ and $$\\overrightarrow b ,$$ whose projection on $$\\overrightarrow c $$ is $${{1 \\over {\\sqrt 3 }}}$$ , is given by",
+    "solution": "We have,\n$$\\overrightarrow v = \\lambda \\overline a + \\mu \\overline b = \\lambda (\\widehat i + \\widehat j + \\widehat k) + \\mu (\\widehat i - \\widehat j + \\widehat k)$$\nProjection of $$\\overrightarrow v $$ on $$\\overline c {{\\overline v \\,.\\,\\overline c } \\over {\\left| {\\overline c } \\right|}} = {1 \\over {\\sqrt 3 }} \\Rightarrow {{\\left[ {(\\lambda + \\mu )\\widehat i + (\\lambda - \\mu )\\widehat j + (\\lambda + \\mu )\\widehat k} \\right]\\,.\\,\\left( {\\widehat i - \\widehat j - \\widehat k} \\right)} \\over {\\sqrt 3 }} = {1 \\over {\\sqrt 3 }} \\Rightarrow \\lambda + \\mu - \\lambda + \\mu - \\lambda - \\mu = 1 \\Rightarrow \\mu - \\lambda = 1 \\Rightarrow \\lambda = \\mu - 1\\overline v = (\\mu - 1)(\\widehat i + \\widehat j + \\widehat k) + \\mu (\\widehat i - \\widehat j + \\widehat k) = \\mu (2\\widehat i + 2\\widehat k) - \\widehat i - \\widehat j - \\widehat k\\overline v = (2\\mu - 1)\\widehat i - \\widehat j + (2\\mu - 1)\\widehat k$$\nAt $$\\mu = 2$$, $$\\overline v = 3\\widehat i - \\widehat j + 3\\widehat k$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\widehat i - 3\\widehat j + 3\\widehat k$$",
+      "$$-3\\widehat i - 3\\widehat j - \\widehat k$$",
+      "$$3\\widehat i - \\widehat j + 3\\widehat k$$",
+      "$$\\widehat i + 3\\widehat j - 3\\widehat k$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l308fk5w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_021",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two adjacent sides of a parallelogram $$ABCD$$ are given by\n\n$$\\overrightarrow {AB} = 2\\widehat i + 10\\widehat j + 11\\widehat k$$ and $$\\,\\overrightarrow {AD} = -\\widehat i + 2\\widehat j + 2\\widehat k$$\n\nThe side $$AD$$ is rotated by an acute angle $$\\alpha $$ in the plane of the parallelogram so that $$AD$$ becomes $$AD'.$$ If $$AD'$$ makes a right angle with the side $$AB,$$ then the cosine of the angle $$\\alpha $$ is given by",
+    "solution": "$$\\overrightarrow {AB} = 2\\widehat i + 10\\widehat j + 11\\widehat k$$\n\n[Diagram]\n\n$$\\overrightarrow {AD} = - \\widehat i + 2\\widehat j + 2\\widehat k$$\nAngle '$$\\theta$$' between $$\\overrightarrow {AB} $$ and $$\\overrightarrow {AD} $$ is\n$$\\cos (\\theta ) = \\left| {{{\\overrightarrow {AB} \\,.\\,\\overrightarrow {AD} } \\over {\\left| {\\overrightarrow {AB} } \\right|\\left| {\\overrightarrow {AD} } \\right|}}} \\right| = \\left| {{{ - 2 + 20 + 22} \\over {(15)(3)}}} \\right| = {8 \\over 9} \\Rightarrow \\sin (\\theta ) = {{\\sqrt {17} } \\over 9}$$\nSince, $$\\alpha + \\theta = 90^\\circ \\therefore\\cos (\\alpha ) = \\cos (90^\\circ - \\theta ) = \\sin (\\theta ) = {{\\sqrt {17} } \\over 9}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{8 \\over 9}}$$",
+      "$${{{\\sqrt {17} } \\over 9}}$$",
+      "$${{1 \\over 9}}$$",
+      "$${{{4\\sqrt 5 } \\over 9}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6amzrup.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_022",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P,Q,R$$ and $$S$$ be the points on the plane with position vectors $${ - 2\\widehat i - \\widehat j,4\\widehat i,3\\widehat i + 3\\widehat j}$$ and $${ - 3\\widehat i + 2\\widehat j}$$ respectively. The quadrilateral $$PQRS$$ must be a",
+    "solution": "We have $$PS = \\sqrt {{1^2} + {3^2}} = \\sqrt {10} SR = \\sqrt {{6^2} + {1^2}} = \\sqrt {37} $$, $$RQ = \\sqrt {{1^2} + {3^2}} = \\sqrt {10} $$\n\n[Diagram]\n\n$$QP = \\sqrt {{6^2} + {1^2}} = \\sqrt {37} $$\nThen PQRS is a parallelogram. It can be a rectangle, so let's check the product of slopes of PS and SR\n$$({m_{PS}})\\,.\\,({m_{SR}}) = {3 \\over { - 1}} \\times {1 \\over 6} = - {1 \\over 2}\ne - 1$$\nThus PS and SR are not perpendicular. So, it's not a rectangle.\nAlso, $${m_{PR}}\\,.\\,{m_{QS}} = {4 \\over 5} \\times {2 \\over { - 7}} = - {8 \\over {35}}\ne - 1$$\nThus, PR and QS are also not perpendicular. So it's not a rhombus either.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "parallelogram, which is neither a rhombus nor a rectangle",
+      "square",
+      "rectangle, but not a square",
+      "rhombus, but not a square"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l308fk5w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_023",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a ,\\overrightarrow b ,\\overrightarrow c $$ and $$\\overrightarrow d $$ are unit vectors such that $$(\\overrightarrow a \\times \\overrightarrow b )\\,.\\,(\\overrightarrow c \\times \\overrightarrow d ) = 1$$ and $$\\overrightarrow a \\,.\\,\\overrightarrow c = {1 \\over 2}$$, then",
+    "solution": "The given equation, $$(\\overrightarrow a \\times \\overrightarrow b )\\,.\\,(\\overrightarrow c \\times \\overrightarrow d ) = 1$$, is possible only when $$|\\overrightarrow a \\times \\overrightarrow b | = |\\overrightarrow c \\times \\overrightarrow d | = 1$$ and $$(\\overrightarrow a \\times \\overrightarrow b )||(\\overrightarrow c \\times \\overrightarrow d )$$.\nSince $$\\overrightarrow a \\,.\\,\\overrightarrow c = 1/2$$ and $$\\overrightarrow b ||\\overrightarrow d $$, we get $$|\\overrightarrow c \\times \\overrightarrow d |\ne 1$$; hence, we conclude that the vectors $$\\overrightarrow b $$ and $$\\overrightarrow d $$ are non-parallel.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\overrightarrow a \\,,\\,\\overrightarrow b ,\\overrightarrow c $$ are non-coplanar",
+      "$$\\overrightarrow b \\,,\\,\\overrightarrow c ,\\overrightarrow d $$ are non-coplanar",
+      "$$\\overrightarrow b \\,,\\overrightarrow d $$ are non-parallel",
+      "$$\\overrightarrow a ,\\overrightarrow d $$ parallel and $$\\overrightarrow b ,\\overrightarrow c $$ are parallel"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_024",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let two non-collinear unit vectors $$\\widehat a$$ and $$\\widehat b$$ form an acute angle. A point $$P$$ moves so that at any time $$t$$ the position vector $$\\overrightarrow {OP} $$ (where $$O$$ is the origin) is given by $$\\widehat a\\cos t + \\widehat b\\sin t.$$ When $$P$$ is farthest from origin $$O,$$ let $$M$$ be the length of $$\\overrightarrow {OP} $$ and $$\\widehat u$$ be the unit vector along $$\\overrightarrow {OP} $$. Then :",
+    "solution": "$$|\\overrightarrow {OP} | = |\\widehat a\\cos t + \\widehat b\\sin t||\\overrightarrow {OP} {|^2} = (\\widehat a\\cos t + \\widehat b\\sin t)\\,.\\,(\\widehat a\\cos t + \\widehat b\\sin t) = |\\widehat a{|^2}{\\cos ^2}t + 2\\widehat a\\,.\\,\\widehat b\\cos t\\sin t + |\\widehat b{|^2}{\\sin ^2}t = {\\cos ^2}t + \\widehat a\\,.\\,\\widehat b\\sin 2t + {\\sin ^2}t = 1 + \\widehat a\\,.\\,\\widehat b\\sin 2t$$\nThe greatest value of $$|\\overrightarrow {OP} |$$ is reached when $$\\sin 2t = 1$$\ni.e., $$t = {\\pi \\over 4}M = |\\overrightarrow {OP} |$$ greatest $$ = \\sqrt {1 + \\widehat a\\,.\\,\\widehat b} $$\nThe direction of $$\\overrightarrow {OP} $$ is given by\n$$\\widehat u = {{\\widehat a + \\widehat b} \\over {\\sqrt 2 \\,.\\,{{|\\widehat a + \\widehat b|} \\over {\\sqrt 2 }}}} = {{\\widehat a + \\widehat b} \\over {|\\widehat a + \\widehat b|}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\widehat u = {{\\widehat a + \\widehat b} \\over {\\left| {\\widehat a + \\widehat b} \\right|}}\\,\\,and\\,\\,M = {\\left( {1 + \\widehat a.\\,\\widehat b} \\right)^{1/2}}$$",
+      "$$\\widehat u = {{\\widehat a - \\widehat b} \\over {\\left| {\\widehat a - \\widehat b} \\right|}}\\,\\,and\\,\\,M = {\\left( {1 + \\widehat a.\\,\\widehat b} \\right)^{1/2}}$$",
+      "$$\\widehat u = {{\\widehat a + \\widehat b} \\over {\\left| {\\widehat a + \\widehat b} \\right|}}\\,\\,and\\,\\,M = {\\left( {1 + 2\\widehat a.\\,\\widehat b} \\right)^{1/2}}$$",
+      "$$\\widehat u = {{\\widehat a - \\widehat b} \\over {\\left| {\\widehat a - \\widehat b} \\right|}}\\,\\,and\\,\\,M = {\\left( {1 + 2\\widehat a.\\,\\widehat b} \\right)^{1/2}}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_025",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The unit vector perpendicular to both $${L_1}$$ and $${L_2}$$ is :",
+    "solution": "Vector in the direction of $${L_1} = \\overrightarrow {{n_1}} = 3\\widehat i + \\widehat j + 2\\widehat k$$\nVector in the direction of $${L_2} = \\overrightarrow {{n_2}} = \\widehat i + 2\\widehat j + 3\\widehat k\\therefore$$ Vector perpendicular to both L$$_1$$ and L$$_2\\overrightarrow {{n_1}} \\times \\overrightarrow {{n_2}} = \\left| {\\matrix{\n{\\widehat i} & {\\widehat j} & {\\widehat k} \\cr\n3 & 1 & 2 \\cr\n1 & 2 & 3 \\cr\n\n} } \\right| = - \\widehat i - 7\\widehat j + 5\\widehat k\\therefore$$ Required unit vector\n$$ = \\widehat n = {{ - \\widehat i - 7\\widehat j + 5\\widehat k} \\over {\\sqrt {1 + 49 + 25} }} = {{ - \\widehat i - 7\\widehat j + 5\\widehat k} \\over {5\\sqrt 3 }}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{ - \\widehat i + 7\\widehat j + 7\\widehat k} \\over {\\sqrt {99} }}$$",
+      "$${{ - \\widehat i - 7\\widehat j + 5\\widehat k} \\over {5\\sqrt 3 }}$$",
+      "$${{ - \\widehat i + 7\\widehat j + 5\\widehat k} \\over {5\\sqrt 3 }}$$",
+      "$${{7\\widehat i - 7\\widehat j - \\widehat k} \\over {\\sqrt {99} }}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_026",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The shortest distance between $${L_1}$$ and $${L_2}$$ is :",
+    "solution": "The shortest distance between L$$_1$$ and L$$_2$$ is\n$${{(\\overrightarrow {{a_2}} - \\overrightarrow {{a_1}} )(\\overrightarrow {{b_1}} \\times \\overrightarrow {{b_2}} )} \\over {|\\overrightarrow {{b_1}} \\times \\overrightarrow {{b_2}} |}} = (\\overrightarrow {{a_2}} - \\overrightarrow {{a_1}} )\\,.\\,\\widehat n$$\nWhere, $${a_1} = - \\widehat i - 2\\widehat j - \\widehat k{a_2} = 2\\widehat i - 2\\widehat j + 3\\widehat k\\therefore\\overrightarrow {{a_2}} - \\overrightarrow {{a_1}} = 3\\widehat i + 4\\widehat k\\therefore({\\widehat a_2} - {\\widehat a_1})\\,.\\,\\widehat n = (3\\widehat i + 4\\widehat k)\\,.\\,\\left( {{{ - \\widehat i - 7\\widehat j + 5\\widehat k} \\over {5\\sqrt 3 }}} \\right) = {{ - 3 + 20} \\over {5\\sqrt 3 }} = {{17} \\over {5\\sqrt 3 }}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$0$$",
+      "$${17 \\over {\\sqrt 3 }}$$",
+      "$${41 \\over {5\\sqrt 3 }}$$",
+      "$${17 \\over {5\\sqrt 3 }}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_027",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The edges of a parallelopiped are of unit length and are parallel to non-coplanar unit vectors $$\\overrightarrow a \\,,\\,\\overrightarrow b ,\\overrightarrow c $$ such that $$\\widehat a\\,.\\,\\widehat b = \\widehat b\\,.\\,\\widehat c = \\widehat c\\,.\\,\\widehat a = {1 \\over 2}.$$ Then, the volume of the parallelopiped is :",
+    "solution": "The important thing to remember in this is the formula\n$${\\left[ {\\overrightarrow x \\,.\\,\\overrightarrow y \\,.\\,\\overrightarrow z } \\right]^2} = \\left| {\\matrix{\n{\\overrightarrow x \\,.\\,\\overrightarrow x } & {\\overrightarrow x \\,.\\,\\overrightarrow y } & {\\overrightarrow x \\,.\\,\\overrightarrow z } \\cr\n{\\overrightarrow y \\,.\\,\\overrightarrow x } & {\\overrightarrow y \\,.\\,\\overrightarrow y } & {\\overrightarrow y \\,.\\,\\overrightarrow z } \\cr\n{\\overrightarrow z \\,.\\,\\overrightarrow x } & {\\overrightarrow z \\,.\\,\\overrightarrow y } & {\\overrightarrow z \\,.\\,\\overrightarrow z } \\cr\n\n} } \\right|$$\nVolume of the parallelopiped $$v = \\left[ {\\matrix{\n{\\widehat a} & {\\widehat b} & {\\widehat c} \\cr\n\n} } \\right]\\therefore{v^2} = {\\left[ {\\matrix{\n{\\widehat a} & {\\widehat b} & {\\widehat c} \\cr\n\n} } \\right]^2} = \\left| {\\matrix{\n{\\widehat a\\,.\\,\\widehat a} & {\\widehat a\\,.\\,\\widehat b} & {\\widehat a\\,.\\,\\widehat c} \\cr\n{\\widehat b\\,.\\,\\widehat a} & {\\widehat b\\,.\\,\\widehat b} & {\\widehat b\\,.\\,\\widehat c} \\cr\n{\\widehat c\\,.\\,\\widehat a} & {\\widehat c\\,.\\,\\widehat b} & {\\widehat c\\,.\\,\\widehat c} \\cr\n\n} } \\right| = \\left| {\\matrix{\n1 & {{1 \\over 2}} & {{1 \\over 2}} \\cr\n{{1 \\over 2}} & 1 & {{1 \\over 2}} \\cr\n{{1 \\over 2}} & {{1 \\over 2}} & 1 \\cr\n\n} } \\right| = {1 \\over 2}$$ (on evaluation)\n$$ \\Rightarrow v = \\left[ {\\matrix{\n{\\widehat a} & {\\widehat b} & {\\widehat c} \\cr\n\n} } \\right] = {1 \\over {\\sqrt 2 }}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over {\\sqrt 2 }}$$",
+      "$${1 \\over {2\\sqrt 2 }}$$",
+      "$${{\\sqrt 3 } \\over 2}$$",
+      "$${1 \\over {\\sqrt 3 }}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggpsc36.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_028",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\vec{a}, \\vec{b}, \\vec{c}$$ be unit vectors such that $$\\vec{a}+\\vec{b}+\\vec{c}=\\overrightarrow{0}$$. Which one of the following is correct?",
+    "solution": "Given, $$\\quad \\vec{a}+\\vec{b}+\\vec{c}=0\\Rightarrow \\vec{a}+\\vec{b}=-\\vec{c}\\Rightarrow \\vec{a} \\times \\vec{c}+\\vec{b} \\times \\vec{c}=\\overrightarrow{0}-\\vec{c} \\times \\vec{a}=-\\vec{b} \\times \\vec{c}\\vec{c} \\times \\vec{a}=\\vec{b} \\times \\vec{c}$$\nSimilarly, we shall obtain\n$$\\vec{b} \\times \\vec{c}=\\vec{a} \\times \\vec{b}$$\nNote that no two of $$\\vec{a}, \\vec{b}, \\vec{c}$$ are parallel.\nIf $$\\theta$$ is the angle between $$\\vec{a}$$ and $$\\vec{b}$$ then\n$$\\begin{aligned}& \\vec{a}+\\vec{b}+\\vec{c}=\\overrightarrow{0} \\\\\n& \\vec{a}+\\vec{b}=-\\vec{c} \\\\\n& (\\vec{a}+\\vec{b}) \\cdot(\\vec{a}+\\vec{b})=|\\vec{c}|^{2} \\\\\n& \\vec{a} \\cdot \\vec{a}+\\vec{b} \\cdot \\vec{b}+2 \\vec{a} \\cdot \\vec{b}=|\\vec{c}|^{2} \\\\\n& 1+1+2 \\times 1 \\times 1 \\cos \\theta \\approx 1 \\\\\n& \\cos \\theta=\\frac{-1}{2} \\Rightarrow \\theta=\\frac{2 \\pi}{3} \\\\\n& \\text { so } \\vec{a}\neq \\vec{b} \\text { similarly, } \\vec{b}\neq \\vec{c}, \\vec{a}\neq \\vec{c} \\\\\n& \\therefore \\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a}\neq 0\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a}=\\overrightarrow{0}$$",
+      "$$\\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a}\neq \\overrightarrow{0}$$",
+      "$$\\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{a} \\times \\vec{c}\neq \\overrightarrow{0}$$",
+      "$$\\vec{a} \\times \\vec{b}, \\vec{b} \\times \\vec{c}, \\vec{c} \\times \\vec{a}$$ are mutually perpendicular"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggpsc36.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_029",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of distinct real values of $$\\lambda$$, for which the vectors $$ - {\\lambda ^2}\\widehat i + \\widehat j + \\widehat k,\\widehat i - {\\lambda ^2}\\widehat j + \\widehat k$$ and $$\\widehat i + \\widehat j - {\\lambda ^2}\\widehat k$$ are coplanar, is :",
+    "solution": "We know that for coplanar of vector\n$$\\left| {\\matrix{\n{ - {\\lambda ^2}} & 1 & 1 \\cr\n1 & { - {\\lambda ^2}} & 1 \\cr\n1 & 1 & { - {\\lambda ^2}} \\cr\n\n} } \\right| = 0{R_1} \\to {R_1} + {R_2} + {R_3}\\left| {\\matrix{\n{2 - {\\lambda ^2}} & {2 - {\\lambda ^2}} & {2 - {\\lambda ^2}} \\cr\n1 & { - {\\lambda ^2}} & 1 \\cr\n1 & 1 & { - {\\lambda ^2}} \\cr\n\n} } \\right| = 0(2 - {\\lambda ^2})\\left| {\\matrix{\n1 & 1 & 1 \\cr\n1 & { - {\\lambda ^2}} & 1 \\cr\n1 & 1 & { - {\\lambda ^2}} \\cr\n\n} } \\right| = 0(2 - {\\lambda ^2})\\left| {\\matrix{\n1 & 1 & 1 \\cr\n0 & { - (1 + {\\lambda ^2})} & 0 \\cr\n0 & 0 & { - (1 + {\\lambda ^2})} \\cr\n\n} } \\right| = 0({R_1} - {R_1},{R_3} - {R_1}) \\Rightarrow (2 - {\\lambda ^2}){(1 + {\\lambda ^2})^2} = 0\\lambda = \\, \\pm \\sqrt 2 \\therefore$$ Two real solutions.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggpsc36.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_030",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the vector $$\\overrightarrow {PQ} ,\\overrightarrow {QR} ,\\overrightarrow {RS} ,\\overrightarrow {ST} ,\\overrightarrow {TU} $$ and $$\\overrightarrow {UP} $$, represent the sides of a regular hexagon.\n**Statement 1 :** $$\\overrightarrow {PQ} \\times \\left( {\\overrightarrow {RS} + \\overrightarrow {ST} } \\right)\ne \\overrightarrow 0 $$\n**Statement 2 :** $$\\overrightarrow {PQ} \\times \\overrightarrow {RS} = \\overrightarrow 0 $$ and $$\\overrightarrow {PQ} \\times \\overrightarrow {ST}\ne \\overrightarrow 0 $$",
+    "solution": "Statement 1 : $$\\overrightarrow {PQ} \\times (\\overrightarrow {RS} + \\overrightarrow {ST} )\ne 0$$ since $$\\overrightarrow {PQ} $$ is not parallel to $$\\overrightarrow {RT} $$,\nWe get,\n$$\\overrightarrow {PQ} \\times \\overrightarrow {RT} $$\nThat is statement 1 is true.\n\n[Diagram]\n\n$$\\overrightarrow {PQ} \\times \\overrightarrow {RT}\ne 0$$\nStatement 2 : $$\\overrightarrow {PQ} \\times \\overrightarrow {RS}\ne \\overrightarrow 0 $$ and $$\\overrightarrow {PQ} \\times \\overrightarrow {ST}\ne \\overrightarrow 0 $$ since $$\\overrightarrow {PQ} $$ is not parallel to $$\\overrightarrow {RS} $$.\nStatement 2 is false.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggpsc36.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_031",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = \\widehat i + 2\\widehat j + \\widehat k,\\,\\overrightarrow b = \\widehat i - \\widehat j + \\widehat k$$ and $$\\overrightarrow c = \\widehat i + \\widehat j - \\widehat k.$$ A vector in the plane of $$\\overrightarrow a $$ and $$\\overrightarrow b $$ whose projection on $$\\overrightarrow c $$ is $${1 \\over {\\sqrt 3 }},$$ is",
+    "solution": "$$ \\begin{aligned} \\vec{a} & =\\hat{i}+2 \\hat{j}+\\hat{k} \\\\ \\vec{b} & =\\hat{i}-\\hat{j}+\\hat{k} \\\\ \\vec{c} & =\\hat{i}-\\hat{j}-\\hat{k} \\end{aligned} $$\n**Step 1: Write the vector in the plane of $\\vec{a}$ and $\\vec{b}$**\nAny vector in the plane made by $\\vec{a}$ and $\\vec{b}$ can be written as:\n$$ \\vec{r} = \\vec{a} + \\lambda \\vec{b} $$\nSubstituting the values:\n$$ \\vec{r} = (\\hat{i} + 2\\hat{j} + \\hat{k}) + \\lambda (\\hat{i} - \\hat{j} + \\hat{k}) \\vec{r} = (1+\\lambda)\\hat{i} + (2-\\lambda)\\hat{j} + (1+\\lambda)\\hat{k} $$\n**Step 2: Use the projection condition**\nThe question asks for a vector whose projection onto $\\vec{c}$ is $\\frac{1}{\\sqrt{3}}$. The formula for the projection of $\\vec{r}$ on $\\vec{c}$ is:\n$$ \\frac{\\vec{r} \\cdot \\vec{c}}{|\\vec{c}|} = \\frac{1}{\\sqrt{3}} $$\nFirst, find $|\\vec{c}|$:\n$$ \\vec{c} = \\hat{i} - \\hat{j} - \\hat{k} $$\n\nSo, $|\\vec{c}| = \\sqrt{1^2 + (-1)^2 + (-1)^2} = \\sqrt{3}$\n**Step 3: Calculate the dot product**\nFind $\\vec{r} \\cdot \\vec{c}$:\n$$ \\left[ (1+\\lambda)\\hat{i} + (2-\\lambda)\\hat{j} + (1+\\lambda)\\hat{k} \\right] \\cdot (\\hat{i} - \\hat{j} - \\hat{k}) $$\nMultiply out each part:\n\n$\\hat{i}$ part: $1+\\lambda$\n\n$-\\hat{j}$ part: $- (2-\\lambda)$\n\n$-\\hat{k}$ part: $- (1+\\lambda)$\n\nSo,\n\n$$ (1+\\lambda) - (2-\\lambda) - (1+\\lambda) $$\n\nSimplify:\n$(1+\\lambda) - 2 + \\lambda - 1 - \\lambda = 1+\\lambda - 2 + \\lambda - 1 - \\lambda$\nCombine like terms:\n\n$1 - 2 - 1 + \\lambda + \\lambda - \\lambda = -2 + \\lambda$\n\n**Step 4: Set the projection equal to the given value and solve for $\\lambda$**\n\n$$ \\frac{-2 + \\lambda}{\\sqrt{3}} = \\frac{1}{\\sqrt{3}} $$\n\nMultiply both sides by $\\sqrt{3}$:\n\n$$ -2 + \\lambda = 1 $$\n\nSo,\n\n$$ \\lambda = 3 $$\n\n**Step 5: Find the required vector**\nPlug $\\lambda = 3$ back into the vector expression:\n\n$$ \\vec{r} = (1+3)\\hat{i} + (2-3)\\hat{j} + (1+3)\\hat{k} = 4\\hat{i} - \\hat{j} + 4\\hat{k} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$4\\widehat i - \\widehat j + 4\\widehat k$$",
+      "$$3\\widehat i + \\widehat j - 3\\widehat k$$",
+      "$$2\\widehat i + \\widehat j - 2\\widehat k$$",
+      "$$4\\widehat i + \\widehat j - 4\\widehat k$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_032",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": ".tg {border-collapse:collapse;border-spacing:0;}\n\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\noverflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\n\n(i)\n\nTwo rays in the first quadrant $x+y=|a|$ and $a x-y=1$ Intersects each other in the interval $a \\in\\left(a_0, \\infty\\right)$, the value of $a_0$ is\n\n(A)\n\n2\n\n\n\n\n\n(ii)\n\nPoint $(\\alpha, \\beta, \\gamma)$ lies on the plane $x+y+z=2$.\nLet $\\vec{a}=\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}, \\hat{k} \\times(\\hat{k} \\times \\vec{a})=0$, then $\\gamma=$\n\n(B)\n\n4/3\n\n\n\n\n\n(iii)\n\n$$\n\\left|\\int_0^1\\left(1-y^2\\right) d y\\right|+\\left|\\int_1^0\\left(y^2-1\\right) d y\\right|\n$$\n\n(C)\n\n$$\n\\left|\\int_0^1 \\sqrt{1-x} d x\\right|+\\left|\\int_1^0 \\sqrt{1+x} d x\\right|\n$$\n\n\n\n\n\n(iv)\n\nIf $\\sin A \\sin B \\sin C+\\cos A \\cos B=1$, then the value of $\\sin C=$\n\n(D)\n\n1",
+    "solution": "$$ \\begin{aligned} &\\begin{array}{ll} (i)& \\quad x+y=(a) \\text { and } a x-y=1 \\\\ & \\quad x+a x-1=|a| \\\\ \\Rightarrow & \\quad x=\\frac{|a|+1}{a+1}>0 \\quad y=\\frac{|a|-1}{a+1}>0 \\\\ & \\quad a+1>0 \\text { also }|a|-1>0 \\quad|a|>1 \\\\ \\therefore & \\quad a_0=1 \\end{array}\\\\ &\\text { (ii) since, } \\vec{a} \\cdot \\hat{k}=\\gamma \\end{aligned} \\begin{aligned} & \\text { Now, } \\quad \\hat{k} \\times(\\hat{k} \\times \\vec{a})=(\\hat{k} \\cdot \\vec{a}) \\hat{k}-(\\hat{k} \\cdot \\hat{k}) \\cdot \\vec{a}=0 \\\\ & \\Rightarrow \\quad y \\hat{k}-(\\alpha \\hat{i}+\\beta \\hat{j}+y \\hat{k})=0 \\end{aligned} \\begin{array}{lrl} \\Rightarrow & -(\\alpha \\hat{i}+\\beta \\hat{j}) & =0 \\\\ \\Rightarrow & \\alpha=\\beta & =0 \\\\ \\text { Also } & \\alpha+\\beta+\\gamma & =2 \\\\ \\Rightarrow & \\gamma & =2 \\end{array} \\begin{aligned} &\\text { }\\\\ &\\begin{aligned} (iii) & \\left|\\int_0^1\\left(1-y^2\\right) d y\\right|+\\left|\\int_0^1\\left(y^2-1\\right) d y\\right| \\\\ & =2\\left|\\int_0^1\\left(1-y^2\\right) d y\\right|=\\frac{4}{3} \\\\ & \\left|\\int_0^1 \\sqrt{1-x} d x\\right|+\\left|\\int_{-1}^0 \\sqrt{1+x} d x\\right| \\\\ & =2 \\int_0^1 \\sqrt{1-x} d x \\\\ & =2 \\int_0^1 \\sqrt{x} d x \\end{aligned} \\end{aligned} =2 \\cdot \\frac{2}{3}\\left[x^{3 / 2}\\right]_0^1=\\frac{4}{3} $$\n(concept)\n$$ \\because \\int_{-1}^0 \\sqrt{1+x} $$\nPut $x=-t$\n$$ \\begin{aligned} \\Rightarrow \\quad d x= & -d t \\\\ & \\int_1^0 \\sqrt{1-t}(-d t) \\\\ = & \\int_0^1 \\sqrt{1-t} d t \\\\ = & \\int_1^1 \\sqrt{1-t} d x \\end{aligned} $$\n(iv) $\\sin A \\sin B \\sin C+\\cos A \\cos B$\n$$ \\begin{aligned} & \\leq \\sin \\mathrm{A} \\sin \\mathrm{~B}+\\cos \\mathrm{A} \\cos \\mathrm{~B} \\\\ & \\leq \\cos (\\mathrm{A}-\\mathrm{B}) \\\\ & \\cos (\\mathrm{A}-\\mathrm{B}) \\geq 1 \\quad \\Rightarrow \\quad \\cos (\\mathrm{~A}-\\mathrm{B})=1 \\\\ & \\sin \\mathrm{C}=1 \\end{aligned} $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ \\begin{aligned} & \\text { (i)-(D); (ii)-(B); (iii)-(B),(C); } \\text { (iv)-(A) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(D); (ii)-(A); (iii)-(B); } \\text { (iv)-(D) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(A); (ii)-(D); (iii)-(B),(C); } \\text { (iv)-(D) } \\end{aligned} $$",
+      "$$ \\begin{aligned} & \\text { (i)-(D); (ii)-(A); (iii)-(B),(C); } \\text { (iv)-(D) } \\end{aligned} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrshd8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_033",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a \\,,\\,\\overrightarrow b ,\\overrightarrow c $$ are three non-zero, non-coplanar vectors and\n\n$$\\overrightarrow {{b_1}} = \\overrightarrow b - {{\\overrightarrow b .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow a } \\right|}^2}}}\\overrightarrow a ,\\overrightarrow {{b_2}} = \\overrightarrow b + {{\\overrightarrow b .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow a } \\right|}^2}}}\\overrightarrow a ,\\overrightarrow {{c_1}} = \\overrightarrow c - {{\\overrightarrow c .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow a } \\right|}^2}}}\\overrightarrow a + {{\\overrightarrow b .\\,\\overrightarrow c } \\over {{{\\left| c \\right|}^2}}}{\\overrightarrow b _1},\\,\\,\\overrightarrow {{c_2}} = \\overrightarrow c - {{\\overrightarrow c .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow a } \\right|}^2}}}\\overrightarrow a - {{\\overrightarrow b \\,.\\,\\overrightarrow c } \\over {{{\\left| {{{\\overrightarrow b }_1}} \\right|}^2}}}{\\overrightarrow b _1},\\overrightarrow {{c_3}} = \\overrightarrow c - {{\\overrightarrow c .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow c } \\right|}^2}}}\\overrightarrow a + {{\\overrightarrow b .\\,\\overrightarrow c } \\over {{{\\left| c \\right|}^2}}}{\\overrightarrow b _1},\\,\\,\\overrightarrow {{c_4}} = \\overrightarrow c - {{\\overrightarrow c .\\,\\overrightarrow a } \\over {{{\\left| {\\overrightarrow c } \\right|}^2}}}\\overrightarrow a - {{\\overrightarrow b \\,.\\,\\overrightarrow c } \\over {{{\\left| {{{\\overrightarrow b }_1}} \\right|}^2}}}{\\overrightarrow b _1},$$\n\nthen the set of orthogonal vectors is",
+    "solution": "Since $$\\hat{v}$$ unit vector along the incident ray and $$\\widehat{w}$$ unit vector along the reflected ray\nHence, $$\\hat{a}$$ is a unit vector along the external bisector of $$\\hat{v}$$ and $$\\widehat{w}\\therefore \\quad \\hat{w}-\\hat{v}=\\lambda \\hat{a}$$\nSquaring on both sides\n$${(\\widehat w - \\widehat v)^2} = {(\\lambda \\widehat a)^2}$$\n\n[Diagram]\n\n$$\\Rightarrow 1+1-2\\cos2\\theta=\\lambda^2\\Rightarrow \\quad \\lambda^2=2(1-cos2\\theta)\\Rightarrow \\quad \\lambda^{2}=2 \\cdot 2 \\sin ^{2} \\theta\\Rightarrow \\quad \\lambda=2 \\sin \\theta$$\nHence, $$\\quad \\widehat{w}-\\hat{v}=2 \\sin \\theta \\cdot \\hat{a}\\begin{aligned}\n& =2 \\cos \\left(90^{\\circ}-\\theta\\right) \\cdot \\hat{a} \\\\\n& =-(2 \\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a} \\\\\n\\widehat{w} & =\\hat{v}-2(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( {\\overrightarrow a ,\\overrightarrow {{b_1}} ,\\overrightarrow {{c_3}} } \\right)$$",
+      "$$\\left( {\\overrightarrow a ,\\overrightarrow {{b_1}} ,\\overrightarrow {{c_2}} } \\right)$$",
+      "$$\\left( {\\overrightarrow a ,\\overrightarrow {{b_1}} ,\\overrightarrow {{c_1}} } \\right)$$",
+      "$$\\left( {\\overrightarrow a ,\\overrightarrow {{b_2}} ,\\overrightarrow {{c_2}} } \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrshd8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_034",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Incident ray is along the unit vector $$\\hat{v}$$ and the reflected ray is along the unit vector $$\\widehat{w}$$. The normal is along unit vector $$\\hat{a}$$ outwards. Express $$\\hat{w}$$, in terms of $$\\hat{a}$$ and $$\\hat{v}$$.",
+    "solution": "Since $$\\hat{v}$$ unit vector along the incident ray and $$\\widehat{w}$$ unit vector along the reflected ray\nHence, $$\\hat{a}$$ is a unit vector along the external bisector of $$\\hat{v}$$ and $$\\widehat{w}\\therefore \\quad \\hat{w}-\\hat{v}=\\lambda \\hat{a}$$\nSquaring on both sides\n$${(\\widehat w - \\widehat v)^2} = {(\\lambda \\widehat a)^2}$$\n\n[Diagram]\n\n$$\\Rightarrow 1+1-2\\cos2\\theta=\\lambda^2\\Rightarrow \\quad \\lambda^2=2(1-cos2\\theta)\\Rightarrow \\quad \\lambda^{2}=2 \\cdot 2 \\sin ^{2} \\theta\\Rightarrow \\quad \\lambda=2 \\sin \\theta$$\nHence, $$\\quad \\widehat{w}-\\hat{v}=2 \\sin \\theta \\cdot \\hat{a}\\begin{aligned}\n& =2 \\cos \\left(90^{\\circ}-\\theta\\right) \\cdot \\hat{a} \\\\\n& =-(2 \\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a} \\\\\n\\widehat{w} & =\\hat{v}-2(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\widehat{w}=\\hat{v}-2(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}$$",
+      "$$\\widehat{w}=\\hat{v}+2(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}$$",
+      "$$\\widehat{w}=\\hat{v}-3(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}$$",
+      "$$\\widehat{w}=5\\hat{v}+3(\\hat{a} \\cdot \\hat{v}) \\cdot \\hat{a}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrshd8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_035",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The unit vector which is orthogonal to the vector $$3\\overrightarrow i + 2\\overrightarrow j + 6\\overrightarrow k $$ and is coplanar with the vectors $$\\,2\\widehat i + \\widehat j + \\widehat k$$ and $$\\,\\widehat i - \\widehat j + \\widehat k\\,\\,\\,$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{2\\widehat i - 6\\widehat j + \\widehat k} \\over {\\sqrt {41} }}$$",
+      "$${{2\\widehat i - 3\\widehat j} \\over {\\sqrt {13} }}$$",
+      "$${{3\\widehat i - \\widehat k} \\over {\\sqrt {10} }}$$",
+      "$${{4\\widehat i + 3\\widehat j - 3\\widehat k} \\over {\\sqrt {34} }}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_036",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a = \\left( {\\widehat i + \\widehat j + \\widehat k} \\right),\\overrightarrow a .\\overrightarrow b = 1$$ and $$\\overrightarrow a \\times \\overrightarrow b = \\widehat j - \\widehat k,$$ then $$\\overrightarrow b $$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\widehat i - \\widehat j + \\widehat k$$",
+      "$$2\\widehat j - \\widehat k$$",
+      "$$\\widehat i$$",
+      "$$2\\widehat i$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_037",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$'a'$$ so that the volume of parallelopiped formed by $$\\widehat i + a\\widehat j + \\widehat k,\\widehat j + a\\widehat k$$ and $$a\\widehat i + \\widehat k$$ becomes minimum is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$-3$$",
+      "$$3$$",
+      "$$1/\\sqrt 3 $$",
+      "$$\\sqrt 3 $$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_038",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow V = 2\\overrightarrow i + \\overrightarrow j - \\overrightarrow k $$ and $$\\overrightarrow W = \\overrightarrow i + 3\\overrightarrow k .$$ If $$\\overrightarrow U $$ is a unit vector, then the maximum value of the scalar triple product $$\\left| {\\overrightarrow U \\overrightarrow V \\overrightarrow W } \\right|$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$-1$$",
+      "$$\\sqrt {10} + \\sqrt 6 $$",
+      "$$\\sqrt {59} $$",
+      "$$\\sqrt {60} $$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_039",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${\\overrightarrow a }$$ and $${\\overrightarrow b }$$ are two unit vectors such that $${\\overrightarrow a + 2\\overrightarrow b }$$ and $${5\\overrightarrow a - 4\\overrightarrow b }$$ are perpendicular to each other then the angle between $$\\overrightarrow a $$ and $$\\overrightarrow b $$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${45^ \\circ }$$",
+      "$${60^ \\circ }$$",
+      "$${\\cos ^{ - 1}}\\left( {{1 \\over 3}} \\right)$$",
+      "$${\\cos ^{ - 1}}\\left( {{2 \\over 7}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_040",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a \\,,\\,\\overrightarrow b $$ and $$\\overrightarrow c $$ are unit vectors, then $${\\left| {\\overrightarrow a - \\overrightarrow b } \\right|^2} + {\\left| {\\overrightarrow b - \\overrightarrow c } \\right|^2} + {\\left| {\\overrightarrow c - \\overrightarrow a } \\right|^2}$$ does NOT exceed",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$4$$",
+      "$$9$$",
+      "$$8$$",
+      "$$6$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_041",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = \\overrightarrow i - \\overrightarrow k ,\\overrightarrow b = x\\overrightarrow i + \\overrightarrow j + \\left( {1 - x} \\right)\\overrightarrow k $$ and\n\n$$\\overrightarrow c = y\\overrightarrow i - x\\overrightarrow j + \\left( {1 + x - y} \\right)\\overrightarrow k .$$ Then $$\\left[ {\\overrightarrow a \\,\\overrightarrow b \\,\\overrightarrow c } \\right]$$ depends on",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "only $$x$$",
+      "only $$y$$",
+      "Neither $$x$$ Nor $$y$$",
+      "both $$x$$ and $$y$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_042",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a \\,,\\,\\overrightarrow b $$ and $$\\overrightarrow c $$ are unit coplanar vectors, then the scalar triple product $$\\left[ {2\\overrightarrow a - \\overrightarrow b ,2\\overrightarrow b - \\overrightarrow c ,2\\overrightarrow c - \\overrightarrow a } \\right] = $$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$0$$",
+      "$$1$$",
+      "$$ - \\sqrt 3 $$",
+      "$$ \\sqrt 3 $$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_043",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the vectors $$\\overrightarrow a ,\\overrightarrow b ,\\overrightarrow c $$ and $$\\overrightarrow d $$ be such that\n\n$$\\left( {\\overrightarrow a \\times \\overrightarrow b } \\right) \\times \\left( {\\overrightarrow c \\times \\overrightarrow d } \\right) = 0.$$ Let $${P_1}$$ and $${P_2}$$ be planes determined\n\nby the pairs of vectors $$\\overrightarrow a .\\overrightarrow b $$ and $$\\overrightarrow c .\\overrightarrow d $$ respectively. Then the angle between $${P_1}$$ and $${P_2}$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$0$$",
+      "$${\\pi \\over 4}$$",
+      "$${\\pi \\over 3}$$",
+      "$${\\pi \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_044",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the vectors $$\\overrightarrow a ,\\overrightarrow b $$ and $$\\overrightarrow c $$ form the sides $$BC,CA$$ and $$AB$$ respectively of a triangle $$ABC,$$ then",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\overrightarrow a .\\overrightarrow b + \\overrightarrow b .\\overrightarrow c + \\overrightarrow c .\\overrightarrow a = 0$$",
+      "$$\\overrightarrow a \\times \\overrightarrow b = \\overrightarrow b \\times \\overrightarrow c = \\overrightarrow c \\times \\overrightarrow a $$",
+      "$$\\overrightarrow a .\\overrightarrow b = \\overrightarrow b .\\overrightarrow c = \\overrightarrow c .\\overrightarrow a$$",
+      "$$\\overrightarrow a \\times \\overrightarrow b + \\overrightarrow b \\times \\overrightarrow c + \\overrightarrow c \\times \\overrightarrow a = \\overrightarrow 0 $$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_045",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a=2i+j+k, b=i+2j-k$$ and a unit vector $$c$$ be coplanar. If $$c$$ is perpendicular to $$a,$$ then $$c =$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over {\\sqrt 2 }}\\left( { - j + k} \\right)$$",
+      "$${1 \\over {\\sqrt 3 }}\\left( {- i - j - k} \\right)$$",
+      "$${1 \\over {\\sqrt 5 }}\\left( {i - 2j} \\right)$$",
+      "$${1 \\over {\\sqrt 3 }}\\left( {i - j - k} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_046",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a=2i+j-2k$$ and $$b=i+j.$$ If $$c$$ is a vector such that $$a.c = \\left| c \\right|,\\left| {c - a} \\right| = 2\\sqrt 2 $$ and the angle between $$\\left( {a \\times b} \\right)$$ and $$c$$ is $${30^ \\circ },$$ then $$\\left| {\\left( {a \\times b} \\right) \\times c} \\right| = $$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$2/3$$",
+      "$$3/2$$",
+      "$$2$$",
+      "$$3$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_047",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a = i + j + k,\\overrightarrow b = 4i + 3j + 4k$$ and $$c = i + \\alpha j + \\beta k$$ are linearly dependent vectors and $$\\left| c \\right| = \\sqrt 3 ,$$ then",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\alpha = 1,\\,\\,\\beta = - 1$$",
+      "$$\\alpha = 1,\\,\\,\\beta = \\pm 1$$",
+      "$$\\alpha = - 1,\\,\\,\\beta = \\pm 1$$",
+      "$$\\alpha = \\pm 1,\\,\\,\\beta = 1$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_048",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For three vectors $$u,v,w$$ which of the following expression is not equal to any of the remaining three?",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\,u \\bullet \\left( {v \\times w} \\right)$$",
+      "$$\\left( {v \\times w} \\right) \\bullet u$$",
+      "$$\\,v \\bullet \\left( {u \\times w} \\right)$$",
+      "$$\\left( {u \\times v} \\right) \\bullet w$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_049",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a ,\\overrightarrow b $$ and $$\\overrightarrow c $$ are three non coplanar vectors, then\n\n$$\\left( {\\overrightarrow a + \\overrightarrow b + \\overrightarrow c } \\right).\\left[ {\\left( {\\overrightarrow a + \\overrightarrow b } \\right) \\times \\left( {\\overrightarrow a + \\overrightarrow c } \\right)} \\right]$$ equals",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$0$$",
+      "$$\\left[ {\\overrightarrow a \\,\\overrightarrow b \\,\\overrightarrow c } \\right]$$",
+      "$$2\\left[ {\\overrightarrow a \\,\\overrightarrow b \\,\\overrightarrow c } \\right]$$",
+      "$$-\\left[ {\\overrightarrow a \\,\\overrightarrow b \\,\\overrightarrow c } \\right]$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_050",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow u ,\\overrightarrow v $$ and $$\\overrightarrow w $$ be vectors such that $$\\overrightarrow u + \\overrightarrow v + \\overrightarrow w = 0.$$ If $$\\left| {\\overrightarrow u } \\right| = 3,\\left| {\\overrightarrow v } \\right| = 4$$ and $$\\left| {\\overrightarrow w } \\right| = 5,$$ then $$\\overrightarrow u .\\overrightarrow v + \\overrightarrow v .\\overrightarrow w + \\overrightarrow w .\\overrightarrow u $$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$47$$",
+      "$$-25$$",
+      "$$0$$",
+      "$$25$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_051",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a ,\\overrightarrow b ,\\overrightarrow c $$ are non coplanar unit vectors such that $$\\overrightarrow a \\times \\left( {\\overrightarrow b \\times \\overrightarrow c } \\right) = {{\\left( {\\overrightarrow b + \\overrightarrow c } \\right)} \\over {\\sqrt 2 }},\\,\\,$$ then the angle between $$\\overrightarrow a $$ and $$\\overrightarrow b $$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{3\\pi } \\over 4}$$",
+      "$${{\\pi } \\over 4}$$",
+      "$$\\pi /2$$",
+      "$$\\pi $$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_052",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = \\widehat i - \\widehat j,\\overrightarrow b = \\widehat j - \\widehat k,\\overrightarrow c = \\widehat k - \\widehat i.$$ If $$\\overrightarrow d $$ is a unit vector such that $$\\overrightarrow a .\\overrightarrow d = 0 = \\left[ {\\overrightarrow b \\overrightarrow c \\overrightarrow d } \\right],$$ then $$\\overrightarrow d $$ equals",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ \\pm {{\\widehat i + \\widehat j - 2k} \\over {\\sqrt 6 }}$$",
+      "$$ \\pm {{\\widehat i + \\widehat j - k} \\over {\\sqrt 3 }}$$",
+      "$$ \\pm {{\\widehat i + \\widehat j + k} \\over {\\sqrt 3 }}$$",
+      "$$ \\pm \\widehat k$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_053",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, b, c$$ be distinct non-negative numbers. If the vectors $$a\\widehat i + a\\widehat j + c\\widehat k,\\widehat i + \\widehat k$$ and $$c\\widehat i + c\\widehat j + b\\widehat k$$ lie in a plane, then $$c$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "the Arithmetic Mean of $$a$$ and $$b$$",
+      "the Geometric Mean of $$a$$ and $$b$$",
+      "the Harmonic Mean of $$a$$ and $$b$$",
+      "equal to zero"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_054",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a ,\\overrightarrow b ,\\overrightarrow c ,$$ be three non-coplanar vectors and $$\\overrightarrow p ,\\overrightarrow q ,\\overrightarrow r,$$ are vectors defined by the relations $$\\overrightarrow p = {{\\overrightarrow b \\times \\overrightarrow c } \\over {\\left[ {\\overrightarrow a \\overrightarrow b \\overrightarrow c } \\right]}},\\,\\,\\overrightarrow q = {{\\overrightarrow c \\times \\overrightarrow a } \\over {\\left[ {\\overrightarrow a \\overrightarrow b \\overrightarrow c } \\right]}},\\,\\,\\overrightarrow r = {{\\overrightarrow a \\times \\overrightarrow b } \\over {\\left[ {\\overrightarrow a \\overrightarrow b \\overrightarrow c } \\right]}}$$ then the value of the expression $$\\left( {\\overrightarrow a + \\overrightarrow b } \\right).\\overrightarrow p + \\left( {\\overrightarrow b + \\overrightarrow c } \\right).\\overrightarrow q + \\left( {\\overrightarrow c + \\overrightarrow a } \\right),\\overrightarrow r $$ is equal to",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$0$$",
+      "$$1$$",
+      "$$2$$",
+      "$$3$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_055",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of vectors of unit length perpendicular to vectors $$\\overrightarrow a = \\left( {1,1,0} \\right)$$ and $$\\overrightarrow b = \\left( {0,1,1} \\right)$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "one",
+      "two",
+      "three",
+      "infinite"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_056",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = {a_1}i + {a_2}j + {a_3}k,\\,\\,\\,\\overrightarrow b = {b_1}i + {b_2}j + {b_3}k$$ and $$\\overrightarrow c = {c_1}i + {c_2}j + {c_3}k$$ be three non-zero vectors such that $$\\overrightarrow c $$ is a unit vector perpendicular to both the vectors $$\\overrightarrow a $$ and $$\\overrightarrow b .$$ If the angle between $$\\overrightarrow a $$ and $$\\overrightarrow b $$ is $${\\pi \\over 6},$$ then\n\n$${\\left| {\\matrix{\n{{a_1}} & {{a_2}} & {{a_3}} \\cr\n{{b_1}} & {{b_2}} & {{b_3}} \\cr\n{{c_1}} & {{c_2}} & {{c_3}} \\cr\n\n} } \\right|^2}$$ is equal to",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$0$$",
+      "$$1$$",
+      "$${1 \\over 4}\\left( {a_1^2 + a_2^2 + a_2^3} \\right)\\left( {b_1^2 + b_2^2 + b_3^2} \\right)$$",
+      "$${3 \\over 4}\\left( {a_1^2 + a_2^2 + a_3^2} \\right)\\left( {b_1^2 + b_2^2 + b_3^2} \\right)\\left( {c_1^2 + c_2^2 + c_3^2} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_057",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For non-zero vectors $${\\overrightarrow a ,\\,\\overrightarrow b ,\\overrightarrow c },\\left| {\\left( {\\overrightarrow a \\times \\overrightarrow b } \\right).\\overrightarrow c } \\right| = \\left| {\\overrightarrow a } \\right|\\left| {\\overrightarrow b } \\right|\\left| {\\overrightarrow c } \\right|$$ holds if and only if",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\overrightarrow a \\,.\\,\\overrightarrow b = 0,\\overrightarrow b \\,.\\,\\overrightarrow c = 0$$",
+      "$$\\overrightarrow b \\,.\\,\\overrightarrow c = 0,\\overrightarrow c \\,.\\,\\overrightarrow a = 0$$",
+      "$$\\overrightarrow c \\,.\\,\\overrightarrow a = 0,\\overrightarrow a \\,.\\,\\overrightarrow b = 0$$",
+      "$$\\overrightarrow a \\,.\\,\\overrightarrow b = \\overrightarrow b \\,.\\,\\overrightarrow c = \\overrightarrow c \\,.\\,\\overrightarrow a = 0$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_058",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The scalar $$\\overrightarrow A .\\left( {\\overrightarrow B + \\overrightarrow C } \\right) \\times \\left( {\\overrightarrow A + \\overrightarrow B + \\overrightarrow C } \\right)$$ equals :",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$0$$",
+      "$$\\left[ {\\overrightarrow A \\,\\overrightarrow B \\,\\overrightarrow C } \\right] + \\left[ {\\overrightarrow B \\,\\overrightarrow C \\,\\overrightarrow A } \\right]$$",
+      "$$\\left[ {\\overrightarrow A \\,\\overrightarrow B \\,\\overrightarrow C } \\right]$$",
+      "None of these"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_059",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any two points $M$ and $N$ in the $XY$-plane, let $\\overrightarrow{MN}$ denote the vector from $M$ to $N$, and $\\vec{0}$ denote the zero vector. Let $P, Q$ and $R$ be three distinct points in the $XY$-plane. Let $S$ be a point inside the triangle $\\triangle PQR$ such that$$\\overrightarrow{SP} + 5\\; \\overrightarrow{SQ} + 6\\; \\overrightarrow{SR} = \\vec{0}.$$Let $E$ and $F$ be the mid-points of the sides $PR$ and $QR$, respectively. Then the value of$\\frac{\\text { length of the line segment } E F}{\\text { length of the line segment } E S}$is ________________.",
+    "solution": "$$15 \\hat{\\mathrm{i}}+10 \\hat{\\mathrm{j}}+6 \\hat{\\mathrm{k}}=\\alpha(2 \\overrightarrow{\\mathrm{p}}+\\overrightarrow{\\mathrm{q}})+\\beta(\\overrightarrow{\\mathrm{p}}-2 \\overrightarrow{\\mathrm{q}})+\\gamma(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})$$\ntaking dot with $$(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})\n\\begin{aligned}\n& \\left|\\begin{array}{ccc}\n15 & 10 & 6 \\\\\n2 & 1 & 3 \\\\\n1 & -1 & 1\n\\end{array}\\right|=0+0+{\\gamma}\\left(\\mathrm{p}^2 \\mathrm{q}^2-(\\overrightarrow{\\mathrm{p}} \\cdot \\overrightarrow{\\mathrm{q}})^2\\right) \\quad\\left[\\because(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})^2+(\\overrightarrow{\\mathrm{p}} \\cdot \\overrightarrow{\\mathrm{q}})^2=\\mathrm{p}^2 \\mathrm{q}^2\\right] \\\\\n& \\Rightarrow 52=26 \\boldsymbol{\\gamma} \\\\\n& \\therefore \\gamma=2\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_060",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\vec{p}=2 \\hat{i}+\\hat{j}+3 \\hat{k}$ and $\\vec{q}=\\hat{i}-\\hat{j}+\\hat{k}$. If for some real numbers $\\alpha, \\beta$, and $\\gamma$, we have\n\n$$ 15 \\hat{i}+10 \\hat{j}+6 \\hat{k}=\\alpha(2 \\vec{p}+\\vec{q})+\\beta(\\vec{p}-2 \\vec{q})+\\gamma(\\vec{p} \\times \\vec{q}), $$\n\nthen the value of $\\gamma$ is ________.",
+    "solution": "$$15 \\hat{\\mathrm{i}}+10 \\hat{\\mathrm{j}}+6 \\hat{\\mathrm{k}}=\\alpha(2 \\overrightarrow{\\mathrm{p}}+\\overrightarrow{\\mathrm{q}})+\\beta(\\overrightarrow{\\mathrm{p}}-2 \\overrightarrow{\\mathrm{q}})+\\gamma(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})$$\ntaking dot with $$(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})\n\\begin{aligned}\n& \\left|\\begin{array}{ccc}\n15 & 10 & 6 \\\\\n2 & 1 & 3 \\\\\n1 & -1 & 1\n\\end{array}\\right|=0+0+{\\gamma}\\left(\\mathrm{p}^2 \\mathrm{q}^2-(\\overrightarrow{\\mathrm{p}} \\cdot \\overrightarrow{\\mathrm{q}})^2\\right) \\quad\\left[\\because(\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}})^2+(\\overrightarrow{\\mathrm{p}} \\cdot \\overrightarrow{\\mathrm{q}})^2=\\mathrm{p}^2 \\mathrm{q}^2\\right] \\\\\n& \\Rightarrow 52=26 \\boldsymbol{\\gamma} \\\\\n& \\therefore \\gamma=2\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_061",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\overrightarrow{O P}=\\frac{\\alpha-1}{\\alpha} \\hat{i}+\\hat{j}+\\hat{k}, \\overrightarrow{O Q}=\\hat{i}+\\frac{\\beta-1}{\\beta} \\hat{j}+\\hat{k}$ and $\\overrightarrow{O R}=\\hat{i}+\\hat{j}+\\frac{1}{2} \\hat{k}$ be three vectors, where $\\alpha, \\beta \\in \\mathbb{R}-\\{0\\}$ and $O$ denotes the origin. If $(\\overrightarrow{O P} \\times \\overrightarrow{O Q}) \\cdot \\overrightarrow{O R}=0$ and the point $(\\alpha, \\beta, 2)$ lies on the plane $3 x+3 y-z+l=0$, then the value of $l$ is ____________.",
+    "solution": "$$\\begin{aligned}\n& (\\overrightarrow{\\mathrm{OP}} \\times \\overrightarrow{\\mathrm{OQ}}) \\cdot \\overrightarrow{\\mathrm{OR}}=0 \\\\\n& \\left|\\begin{array}{ccc}\n\\frac{\\alpha-1}{\\alpha} & 1 & 1 \\\\\n1 & \\frac{\\beta-1}{\\beta} & 1 \\\\\n1 & 1 & \\frac{1}{2}\n\\end{array}\\right|=0\n\\end{aligned}\\begin{array}{ll}\n\\qquad\\alpha+\\beta+1=0 \\quad \\text{... (i)}\\\\\n\\text { Also } \\quad (\\alpha, \\beta, 2) \\text { lies on } 3 \\mathrm{x}+3 \\mathrm{y}-\\mathrm{z}+l=0 \\\\\n\\Rightarrow \\quad 3 \\alpha+3 \\beta-2+l=0 \\quad \\Rightarrow \\quad l=2-3(\\alpha+\\beta) \\\\\n\\text { use (1) in it } \\Rightarrow l=5\n\\end{array}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_062",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $P$ be the plane $\\sqrt{3} x+2 y+3 z=16$ and let\n$S=\\left\\{\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}: \\alpha^2+\\beta^2+\\gamma^2=1\\right.$ and the distance of $(\\alpha, \\beta, \\gamma)$ from the plane $P$ is $\\left.\\frac{7}{2}\\right\\}$.\nLet $\\vec{u}, \\vec{v}$ and $\\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u}-\\vec{v}|=|\\vec{v}-\\vec{w}|=|\\vec{w}-\\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by vectors $\\vec{u}, \\vec{v}$ and $\\vec{w}$. Then the value of $\\frac{80}{\\sqrt{3}} V$ is :",
+    "solution": "$\\begin{aligned} & P: \\sqrt{3} x+2 y+3 z=16 \\\\\\\\ & \\qquad S=\\left\\{\\alpha \\hat{\\imath}+\\beta \\hat{j}+\\gamma \\hat{k}: \\alpha^2+\\beta^2+\\gamma^2=1,\\right. \\left.\\quad d_p=\\frac{7}{2}\\right\\} \\\\\\\\ & \\because|\\vec{u}-\\vec{v}|=|\\vec{v}-\\vec{w}|=|\\vec{w}-\\vec{u}| .............. (1)\\end{aligned}$\n\n$\\vec{u}, \\vec{v}, \\vec{w}$ are elements of set $S$ and in set $S$ magnitude of vector is 1\n\n$\\therefore \\vec{u}, \\vec{v}, \\vec{w}$ are unit vectors and by equation (1) we can system $\\vec{u}, \\vec{v}, \\vec{w}$ are equally inclined and vertices of equilateral triangle also lying on a circle which is intersection of sphere $|\\vec{r}|=1$\n\nDistance from origin to $P$,\n\n$$\nd=\\frac{|-16|}{\\sqrt{3+4+9}}=\\frac{16}{4}=4\n$$\n\n$\\therefore$ Plane containing $\\hat{u}, \\hat{v}, \\hat{w}$ are at a distance\n\n$4-\\frac{7}{2}=\\frac{1}{2}$ from origin and Parallel to $\\sqrt{3 x}+2 y+3 z$ $=16$.\n\n$\\therefore$ Equation of the plane is\n\n$$\n\\begin{array}{rlrl}\n& \\sqrt{3 x}+2 y+3 z & =\\gamma \\\\\\\\\n& \\therefore \\frac{1}{2} =\\left|\\frac{\\gamma}{4}\\right| \\\\\\\\\n& \\Rightarrow \\gamma = \\pm 2 \\\\\\\\\n& \\sqrt{3 x}+2 y+3 z =2\n\\end{array}\n$$\n\nEquation of sphere $x^2+y^2+z^2=1$\n\n$\\therefore$ Radius or circle\n\n[Diagram]\n\n$\\begin{aligned} r & =\\sqrt{1-\\frac{1}{4}}=\\frac{\\sqrt{3}}{2} \\\\\\\\ \\text { then } \\quad \\frac{a}{2} & =\\frac{\\sqrt{3}}{2} \\cos 30^{\\circ} \\\\\\\\ a & =\\sqrt{3} \\times \\frac{\\sqrt{3}}{2}=\\frac{3}{2}\\end{aligned}$\n\n[Diagram]\n\n$\\therefore$ Area or triangle\n\n$$\n=\\frac{\\sqrt{3}}{2} a^2=\\frac{\\sqrt{3}}{2} \\times \\frac{9}{4}=\\frac{9 \\sqrt{3}}{16}\n$$\n\n$\\therefore$ Volume of Parallelepiped\n\n$$\n\\begin{aligned}\n& =2 \\times \\frac{1}{2} \\times \\frac{9 \\sqrt{3}}{16} \\\\\\\\\nV & =\\frac{9 \\sqrt{3}}{16}\n\\end{aligned}\n$$\n\n$\\therefore$ Volume of Parallelepiped\n\n$$\n\\begin{aligned}\n= & 2 \\times \\frac{1}{2} \\times \\frac{9 \\sqrt{3}}{16} \\\\\\\\\nV & =\\frac{9 \\sqrt{3}}{16}\n\\end{aligned}\n$$\n\n$\\therefore \\frac{80 \\mathrm{~V}}{\\sqrt{3}}=\\frac{80}{\\sqrt{3}} \\times \\frac{9 \\sqrt{3}}{16}=45$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ls7xgbn1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_063",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow u $$, $$\\overrightarrow v $$ and $$\\overrightarrow w $$ be vectors in three-dimensional space, where $$\\overrightarrow u $$ and $$\\overrightarrow v $$ are unit vectors which are not perpendicular to each other and $$\\overrightarrow u $$ . $$\\overrightarrow w $$ = 1, $$\\overrightarrow v $$ . $$\\overrightarrow w $$ = 1, $$\\overrightarrow w $$ . $$\\overrightarrow w $$ = 4\n\nIf the volume of the paralleopiped, whose adjacent sides are represented by the vectors, $$\\overrightarrow u $$, $$\\overrightarrow v $$ and $$\\overrightarrow w $$, is $$\\sqrt 2 $$, then the value of $$\\left| {3\\overrightarrow u + 5\\overrightarrow v } \\right|$$ is ___________.",
+    "solution": "Given: $|\\vec{u}|=1,|\\vec{v}|=1$\n\n$\\vec{u}$ is not perpendicular to $\\vec{v}$ $\\vec{u} \\cdot \\vec{v}\neq 0$\n\nAnd $\\vec{u} \\cdot \\vec{w}=1 \\quad \\vec{v} \\cdot \\vec{w}=1 \\quad \\vec{w} \\cdot \\vec{w}=4$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\vec{w} \\cdot \\vec{w}=|\\vec{w}|^2=4 \\\\\\\\\n& \\Rightarrow|\\vec{w}|=2\n\\end{aligned}\n$$\n\nVolume of parallelepiped with $\\vec{u}, \\vec{v}$ and $\\vec{w}$ as its sides,\n\n$$\n\\begin{aligned}\n& =[\\vec{u} \\vec{v} \\vec{w}]=\\sqrt{2} \\\\\\\\\n& \\text { Now, }[\\vec{u} \\vec{v} \\vec{w}]^2=\\left|\\begin{array}{ccc}\n\\vec{u} \\cdot \\vec{u} & \\vec{u} \\cdot \\vec{v} & \\vec{u} \\cdot \\vec{w} \\\\\n\\vec{v} \\cdot \\vec{u} & \\vec{v} \\cdot \\vec{v} & \\vec{v} \\cdot \\vec{w} \\\\\n\\vec{w} \\cdot \\vec{u} & \\vec{w} \\cdot \\vec{v} & \\vec{w} \\cdot \\vec{w}\n\\end{array}\\right|=2 \\\\\\\\\n& \\Rightarrow\\left|\\begin{array}{ccc}\n1 & \\vec{u} \\cdot \\vec{v} & 1 \\\\\n\\vec{v} \\cdot \\vec{u} & 1 & 1 \\\\\n1 & 1 & 4\n\\end{array}\\right|=2\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow 1(4-1)-\\vec{u} \\cdot \\vec{v}(4 \\vec{u} \\cdot \\vec{v}-1)+1(\\vec{u} \\cdot \\vec{v}-1)=2 \\\\\\\\\n& \\Rightarrow 3-4(\\vec{u} \\vec{v})^2+\\vec{u} \\vec{v}+\\vec{u} \\vec{v}-1=2 \\\\\\\\\n& \\Rightarrow-4(\\vec{u} \\vec{v})^2+2 \\vec{u} \\vec{v}+2=2 \\\\\\\\\n& \\Rightarrow-4(\\vec{u} \\vec{v})^2+2 \\vec{u} \\vec{v}=0 \\\\\\\\\n& \\Rightarrow 2 \\vec{u} \\vec{v}(-2 \\vec{u} \\vec{v}+1)=0 \\\\\\\\\n& \\Rightarrow \\vec{u} \\cdot \\vec{v}=\\frac{1}{2}, \\vec{u} \\cdot \\vec{v}\neq 0 \\\\\\\\\n& \\text { Now, }|3 \\vec{u}+5 \\vec{v}|=\\sqrt{9+25+30\\left(\\frac{1}{2}\\right)} \\\\\\\\\n& \\Rightarrow|3 \\vec{u}+5 \\vec{v}|=\\sqrt{49} \\\\\\\\\n& \\Rightarrow|3 \\vec{u}+5 \\vec{v}|=7\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_064",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = 2\\widehat i + \\widehat j - \\widehat k$$ and $$\\overrightarrow b = \\widehat i + 2\\widehat j + \\widehat k$$ be two vectors. Consider a vector c = $$\\alpha \\overrightarrow a$$ + $$\\beta \\overrightarrow b$$, $$\\alpha $$, $$\\beta \\in $$ R. If the projection of $$\\overrightarrow c$$ on the vector ($$\\overrightarrow a$$ + $$\\overrightarrow b$$) is $$3\\sqrt 2 $$, then the\nminimum value of ($$\\overrightarrow c-$$($$\\overrightarrow a \\times \\overrightarrow b$$)).$$\\overrightarrow c$$ equals ................",
+    "solution": "Given vectors $$\\overrightarrow a = 2\\widehat i + \\widehat j - \\widehat k$$\n\nand $$\\overrightarrow b = \\widehat i + 2\\widehat j + \\widehat k$$\n\nSo, $$\\overrightarrow a + \\overrightarrow b = 3\\widehat i + 3\\widehat j \\Rightarrow |\\overrightarrow a + \\overrightarrow b| = 3\\sqrt 2 $$\n\nSince, it is given that projection of $$\\overrightarrow c $$ = $$\\alpha $$a + $$\\beta $$b on the vector ($$\\overrightarrow a $$ + $$\\overrightarrow b $$) is $$3\\sqrt 2 $$, then\n\n$${{(\\overrightarrow a + \\overrightarrow b ).\\overrightarrow c } \\over {|\\overrightarrow a + \\overrightarrow b|}} = 3\\sqrt 2 \\Rightarrow (\\overrightarrow a + \\overrightarrow b).(\\alpha \\overrightarrow a + \\beta \\overrightarrow b) = 18 \\Rightarrow \\alpha (\\overrightarrow a.\\overrightarrow a) + \\beta (\\overrightarrow a.\\overrightarrow b) + \\alpha (\\overrightarrow b.\\overrightarrow a) + \\beta (\\overrightarrow a.\\overrightarrow b) = 18 \\Rightarrow 6\\alpha + 3\\beta + 3\\alpha + 6\\beta = 18 \\Rightarrow 9\\alpha + 9\\beta = 18 \\Rightarrow (\\alpha + \\beta ) = 2$$ .....(i)\n\nNow, for minimum value of\n\n($$\\overrightarrow c-$$($$\\overrightarrow a \\times \\overrightarrow b$$)).$$\\overrightarrow c = (\\alpha \\overrightarrow a + \\beta \\overrightarrow b - (\\overrightarrow a \\times \\overrightarrow b)).(\\alpha \\overrightarrow a + \\beta \\overrightarrow b) = {\\alpha ^2}(\\overrightarrow a.\\overrightarrow a) + \\alpha \\beta (\\overrightarrow a.\\overrightarrow b) + \\alpha \\beta (\\overrightarrow a.\\overrightarrow b) + {\\beta ^2}(\\overrightarrow b.\\overrightarrow b)$$\n\n[$$ \\because $$ ($$\\overrightarrow a \\times \\overrightarrow b$$) . $$\\overrightarrow a$$ = 0 = ($$\\overrightarrow a \\times \\overrightarrow b$$) . $$\\overrightarrow b$$]\n\n$$6{\\alpha ^2} + 6\\alpha \\beta + 6{\\beta ^2} = 6({\\alpha ^2} + {\\beta ^2} + \\alpha \\beta ) = 6\\,[{(\\alpha + \\beta )^2} - \\alpha \\beta ] = 6\\,[4 - \\alpha \\beta ] = 6\\,[4 - \\alpha (2 - \\alpha )] = 6\\,[4 - 2\\alpha + {\\alpha ^2}]$$\n\nLet\nf ( $$\\alpha $$) = $$4 - 2\\alpha + {\\alpha ^2}$$\n\nf′( $$\\alpha $$) = –2 + 2$$\\alpha $$\n\nAt maximum and minimum f′( $$\\alpha $$) = 0\n\n$$ \\Rightarrow $$ –2 + 2$$\\alpha \\Rightarrow \\alpha $$ = 1\n\nf′'( $$\\alpha $$) = 2 (+ve)\n\nTherefore, minimum value of $$4 - 2\\alpha + {\\alpha ^2}$$ is (4 – 2 + 1) = 3.\n\n$$ \\therefore $$ The minimum value of\n\n$$6(4 - 2\\alpha + {\\alpha^2}) = 6(3) = 18$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_065",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a and b be two unit vectors such that a . b = 0. For some x, y$$ \\in $$R, let $$\\overrightarrow c = x\\overrightarrow a + y\\overrightarrow b + \\overrightarrow a \\times \\overrightarrow b $$. If | $$\\overrightarrow c $$| = 2 and the vector c is inclined at the same angle $$\\alpha $$ to both a and b, then the value of $$8{\\cos ^2}\\alpha $$ is ..............",
+    "solution": "We have,\n\n$$\\overrightarrow c = x\\overrightarrow a + y\\overrightarrow b + \\overrightarrow a \\times \\overrightarrow b $$ and $$\\overrightarrow a .\\overrightarrow b $$ = 0\n\n|$$\\overrightarrow a $$| = |$$\\overrightarrow b $$| = 1\n\nand |$$\\overrightarrow c $$| = 2\n\nAlso, given $$\\overrightarrow c $$ is inclined on $$\\overrightarrow a $$ and $$\\overrightarrow b $$ with same angle $$\\alpha $$.\n\n$$ \\therefore \\overrightarrow a .\\overrightarrow c = x|\\overrightarrow a {|^2} + y(\\overrightarrow a .\\overrightarrow b ) + \\overrightarrow a .(\\overrightarrow a \\times \\overrightarrow b )|\\overrightarrow a ||\\overrightarrow c |cos\\alpha = x + 0 + 0$$\n\nx = 2cos$$\\alpha $$\n\nSimilarly,\n\n$$|\\overrightarrow b ||\\overrightarrow c |cos\\alpha = 0 + y + 0 \\Rightarrow $$ y = 2cos$$\\alpha |\\overrightarrow c {|^2} = {x^2} + {y^2} + |\\overrightarrow a \\, \\times \\,\\overrightarrow b {|^2}4 = 8{\\cos ^2}\\alpha + |a{|^2}|b{|^2}{\\sin ^2}90^\\circ 4 = 8{\\cos ^2}\\alpha + 1 \\Rightarrow 8{\\cos ^2}\\alpha $$ = 3",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_066",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose that $$\\overrightarrow p ,\\overrightarrow q $$ and $$\\overrightarrow r $$ are three non-coplanar vectors in $${R^3}$$. Let the components of a vector $$\\overrightarrow s $$ along $$\\overrightarrow p ,\\overrightarrow q $$ and $$\\overrightarrow r $$ be $$4, 3$$ and $$5,$$ respectively. If the components of this vector $$\\overrightarrow s $$ along $$\\left( { - \\overrightarrow p + \\overrightarrow q + \\overrightarrow r } \\right),\\left( {\\overrightarrow p - \\overrightarrow q + \\overrightarrow r } \\right)$$ and $$\\left( { - \\overrightarrow p - \\overrightarrow q + \\overrightarrow r } \\right)$$ are $$x, y$$ and $$z,$$ respectively, then the value of $$2x+y+z$$ is",
+    "solution": "Here, $$\\overrightarrow s = 4\\overrightarrow p + 3\\overrightarrow q + 5\\overrightarrow r $$ ....... (i)\nand $$\\overrightarrow s = ( - \\overrightarrow p + \\overrightarrow q + \\overrightarrow r )x + (\\overrightarrow p - \\overrightarrow q + \\overrightarrow r )y + ( - \\overrightarrow p - \\overrightarrow q + \\overrightarrow r )z$$ ...... (ii)\n$$\\therefore4\\overrightarrow p + 3\\overrightarrow q + 5\\overrightarrow r = \\overrightarrow p ( - x + y - z) + \\overrightarrow q (x - y - z) + \\overrightarrow r (x + y + z)$$\nOn comparing both sides, we get\n$$ - x + y - z = 4$$, $$x - y - z = 3$$ and $$x + y + z = 5$$\nOn solving above equations, we get\n$$x = 4$$, $$y = {9 \\over 2}$$, $$z = {{ - 7} \\over 2}\\therefore2x + y + z = 8 + {9 \\over 2} - {7 \\over 2} = 9$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1luv1m80l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_067",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a \\,\\,,\\,\\,\\overrightarrow b $$ and $$\\overrightarrow c $$ be three non-coplanar unit vectors such that the angle between every pair of them is $${\\pi \\over 3}.$$ If $$\\overrightarrow a \\times \\overrightarrow b + \\overrightarrow b \\times \\overrightarrow c = p\\overrightarrow a + q\\overrightarrow b + r\\overrightarrow c ,$$ where $$p,q$$ and $$r$$ are scalars, then the value of $${{{p^2} + 2{q^2} + {r^2}} \\over {{q^2}}}$$ is",
+    "solution": "Given $\\vec{a} \\times \\vec{b}+\\vec{b} \\times \\vec{c}=p \\vec{a}+q \\vec{b}+r \\vec{c}$ ..........(1)\n\n[Diagram]\n\nTaking dot product with $\\vec{a}$ :\n\nHence,\n\n$$\n0+\\vec{a} \\cdot \\vec{b} \\times \\vec{c}=p(1 \\cdot 1 \\cdot \\cos 0)+q\\left(1 \\cdot 1 \\cdot \\cos \\frac{\\pi}{3}\\right)+r\\left(1 \\cdot 1 \\cdot \\cos \\frac{\\pi}{3}\\right)\n$$\n\n$\\Rightarrow \\vec{a} \\cdot \\vec{b} \\times \\vec{c}=p+\\frac{q}{2}+\\frac{r}{2}$ ..........(2)\n\nTaking the dot product of (1) with $\\vec{b}$ :\n\n$$\n0+0=\\frac{p}{2}+q+\\frac{r}{2}\n$$ ............(3)\n\nTaking the dot product of (1) with $\\vec{c}$ :\n\n$$\n\\vec{c} \\cdot \\vec{a} \\times \\vec{b}+0=\\frac{p}{2}+\\frac{q}{2}+r$$ .............(4)\n\nFrom (2) and (4), we get\n\n$$\n\\begin{aligned}\np+\\frac{q}{2}+\\frac{r}{2} & =\\frac{p}{2}+\\frac{q}{2}+r \\\\\\\\\n\\frac{p}{2} & =\\frac{r}{2} \\Rightarrow p=r\n\\end{aligned}\n$$\n\nNow, from Eq. (3), we get $0=\\frac{r}{2}+q+\\frac{r}{2} \\Rightarrow q=-r$.\n\nNow, $\\frac{p^2+2 q^2+r^2}{q^2}=\\frac{r^2+2(-r)^2+r^2}{(-r)^2}=\\frac{4 r^2}{r^2}=4$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1luv1m80l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_068",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a ,\\overrightarrow b $$ and $$\\overrightarrow c $$ are unit vectors satisfying\n\n$${\\left| {\\overrightarrow a - \\overrightarrow b } \\right|^2} + {\\left| {\\overrightarrow b - \\overrightarrow c } \\right|^2} + {\\left| {\\overrightarrow c - \\overrightarrow a } \\right|^2} = 9,$$ then $$\\left| {2\\overrightarrow a + 5\\overrightarrow b + 5\\overrightarrow c } \\right|$$ is",
+    "solution": "$$\\begin{aligned}\n& \\text { Given, }|\\vec{a}-\\vec{b}|^2+|\\vec{b}-\\vec{c}|^2+|\\vec{c}-\\vec{a}|^2=9 \\\\\n& \\Rightarrow|\\vec{a}|^2+|\\vec{b}|^2-2 \\vec{a} \\cdot \\vec{b}+|\\vec{b}|^2 \\\\\n&|\\vec{c}|^2-2 \\vec{b} \\cdot \\vec{c}+|\\vec{c}|^2+|\\vec{a}|^2-2 \\vec{c} \\cdot \\vec{a}=9 \\\\\n& \\Rightarrow 2\\left(|\\vec{a}|^2+|\\vec{b}|^2+|\\vec{c}|^2\\right)-2(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a})=9 \\\\\n& \\Rightarrow 2(1+1+1)-2(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a})=9 \\\\\n& \\Rightarrow(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a})=\\frac{-3}{2} \\quad \\text{... (i)} \\\\\n& \\operatorname{Now},|\\vec{a}+\\vec{b}+\\vec{c}|^2 \\geq 0 \\\\\n& \\Rightarrow|\\vec{a}|^2+|\\vec{b}|^2+|\\vec{c}|^2+2(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a}) \\geq 0 \\\\\n& \\Rightarrow 1+1+1+2(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a}) \\geq 0 \\\\\n& \\Rightarrow(\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a}) \\geq \\frac{-3}{2} \\quad \\text{... (ii)}\n\\end{aligned}$$\nFrom (i) and (ii), we get\n$$\\begin{array}{lr}\n\\Rightarrow & (\\vec{a} \\cdot \\vec{b}+\\vec{b} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{a})=\\frac{-3}{2} \\\\\n\\Rightarrow & |\\vec{a}+\\vec{b}+\\vec{c}|=0 \\\\\n\\Rightarrow & \\vec{a}+\\vec{b}+\\vec{c}=0 \\\\\n\\Rightarrow & \\vec{b}+\\vec{c}=-\\vec{a} \\quad \\text{.... (iii)}\n\\end{array}\\begin{aligned}\n\\therefore \\quad|2 \\vec{a}+5 \\vec{b}+5 \\vec{c}| & =|2 \\vec{a}+5(\\vec{b}+\\vec{c})| \\\\\n& =|2 \\vec{a}+5(-\\vec{a})| \\quad[\\text { [from (iii)] } \\\\\n& =|-3 \\vec{a}| \\\\\n\\begin{aligned}\n& =|3 \\vec{a}| \\\\\n& =3 \\quad[\\because \\vec{a} \\text { is unit vector }]\n\\end{aligned}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_069",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow a = - \\widehat i - \\widehat k,\\overrightarrow b = - \\widehat i + \\widehat j$$ and $$\\overrightarrow c = \\widehat i + 2\\widehat j + 3\\widehat k$$ be three given vectors. If $$\\overrightarrow r $$ is a vector such that $$\\overrightarrow r \\times \\overrightarrow b = \\overrightarrow c \\times \\overrightarrow b $$ and $$\\overrightarrow r .\\overrightarrow a = 0,$$ then the value of $$\\overrightarrow r .\\overrightarrow b $$ is",
+    "solution": "Since it is given that $$\\overrightarrow r \\times \\overrightarrow b = \\overrightarrow c \\times \\overrightarrow b $$, taking cross product with\n$$\\overrightarrow a \\times (\\overrightarrow r \\times \\overrightarrow b ) = \\overrightarrow a \\times (\\overrightarrow c \\times \\overrightarrow b )(\\overrightarrow a \\,.\\,\\overrightarrow b )\\overrightarrow r - (\\overrightarrow a \\,.\\,\\overrightarrow r )\\overrightarrow b = \\overrightarrow a \\times (\\overrightarrow c \\times \\overrightarrow b ) \\Rightarrow \\overrightarrow r = - 3\\widehat i + 6\\widehat j + 3\\widehat k\\overrightarrow r \\,.\\,\\overrightarrow b = 3 + 6 = 9$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_070",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a $$ and $$\\overrightarrow b $$ are vectors in space given by $$\\overrightarrow a = {{\\widehat i - 2\\widehat j} \\over {\\sqrt 5 }}$$ and $$\\overrightarrow b = {{2\\widehat i + \\widehat j + 3\\widehat k} \\over {\\sqrt {14} }},$$ then find the value of $$\\,\\left( {2\\overrightarrow a + \\overrightarrow b } \\right).\\left[ {\\left( {\\overrightarrow a \\times \\overrightarrow b } \\right) \\times \\left( {\\overrightarrow a - 2\\overrightarrow b } \\right)} \\right].$$",
+    "solution": "$$ \\begin{aligned} & (2 \\vec{a}+\\vec{b})[(\\vec{a} \\times \\vec{b}) \\times(\\vec{a}-2 \\vec{b})] \\\\\\\\ & =4(\\vec{a} \\cdot \\vec{a})+\\vec{b} \\cdot \\vec{b}+4 \\vec{a} \\cdot \\vec{b} \\text { where } \\\\\\\\ & \\vec{a} \\cdot \\vec{b}=\\frac{2-2}{\\sqrt{70}}=0 \\quad|\\vec{a}|=1 \\text { and }|\\vec{b}|=1 \\\\\\\\ & =5 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_071",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let O be the origin and $$\\overrightarrow {OA} = 2\\widehat i + 2\\widehat j + \\widehat k$$ and $$\\overrightarrow {OB} = \\widehat i - 2\\widehat j + 2\\widehat k$$ and $$\\overrightarrow {OC} = {1 \\over 2}\\left( {\\overrightarrow {OB} - \\lambda \\overrightarrow {OA} } \\right)$$ for some $$\\lambda$$ > 0. If $$\\left| {\\overrightarrow {OB} \\times \\overrightarrow {OC} } \\right| = {9 \\over 2}$$, then which of the following statements is (are) TRUE?",
+    "solution": "Given,\n$$\\overrightarrow {OA} = 2\\widehat i + 2\\widehat j + 2\\widehat k\\overrightarrow {OB} = \\widehat i - \\widehat j + 2\\widehat k$$\nand $$\\overrightarrow {OC} = {1 \\over 2}(\\overrightarrow {OB} - \\lambda \\overrightarrow {OA} )$$\nAlso, $$\\left| {OB \\times OC} \\right| = 9/2$$ ..... (i)\nNow, $$\\overrightarrow {OB} \\times \\overrightarrow {OC} = \\overrightarrow {OB} \\times {1 \\over 2}(\\overrightarrow {OB} - \\lambda \\overrightarrow {OA} ) = {{ - \\lambda } \\over 2}\\overrightarrow {OB} \\times \\overrightarrow {OA} = {\\lambda \\over 2}(\\overrightarrow {OA} \\times \\overrightarrow {OB} )$$\nWe need to find $$\\overrightarrow {OA} \\times \\overrightarrow {OB} $$ for this,\n($$\\because\\overrightarrow a \\times \\overrightarrow b = - \\overrightarrow b \\times \\overrightarrow a $$ and $$\\overrightarrow a \\times \\overrightarrow a $$ = 0)\n$$\\overrightarrow {OA} \\times \\overrightarrow {OB} = \\left| {\\matrix{\n{\\widehat i} & {\\widehat j} & {\\widehat k} \\cr\n2 & 2 & 1 \\cr\n1 & { - 2} & 2 \\cr\n\n} } \\right| = 6\\widehat i - 3\\widehat j - 6\\widehat k = 3(2\\widehat i - \\widehat j - 2\\widehat k)$$\nSo, $$\\overrightarrow {OB} \\times \\overrightarrow {OC} = {{3\\lambda } \\over 2}(2\\widehat i - \\widehat j - 2\\widehat k)$$\nFrom Eq. (i), $$\\left| {{{3\\lambda } \\over 2}\\sqrt {4 + 1 + 4} } \\right| = 9/2 \\Rightarrow \\left| {{{9\\lambda } \\over 2}} \\right| = 9/2 \\Rightarrow {9 \\over 2}\\left| \\lambda \\right| = {9 \\over 2} \\Rightarrow \\left| \\lambda \\right| = 1 \\Rightarrow \\lambda = \\pm 1$$\nBut $$\\lambda$$ > 0\n$$\\therefore\\lambda$$ = 1\nSo, $$\\overrightarrow {OC} = {1 \\over 2}(\\overrightarrow {OB} - \\overrightarrow {OA} )$$ (By putting $$\\lambda$$ = 1)\n$$ \\Rightarrow \\overrightarrow {OC} = {1 \\over 2}( - \\widehat i - 4\\widehat j + \\widehat k) = - {1 \\over 2}\\widehat i - 2\\widehat j + {1 \\over 2}\\widehat k$$\nOption (a)\nProjection of $${\\overrightarrow {OC} }$$ and $${\\overrightarrow {OA} } = {{\\overrightarrow {OC} \\,.\\,\\overrightarrow {OA} } \\over {\\left| {\\overrightarrow {OA} } \\right|}} = {{{1 \\over 2}( - 2 - 8 + 1)} \\over 3} = {{ - 3} \\over 2}$$\nOption (b)\nArea of $$\\Delta OAB = {1 \\over 2}\\left| {\\overrightarrow {OA} \\times \\overrightarrow {OB} } \\right| = {1 \\over 2}\\left| {\\overrightarrow {OA} } \\right|\\left. {\\overrightarrow {OB} } \\right|\\sin 90^\\circ = {1 \\over 2}\\left| {3 \\times 3} \\right| = {9 \\over 2}$$\nOption (c)\nArea of the $$\\Delta ABC = {1 \\over 2}\\left| {\\overrightarrow {AB} \\times \\overrightarrow {AC} } \\right| = {1 \\over 2}\\left\\| {\\matrix{\n{\\widehat i} & {\\widehat j} & {\\widehat k} \\cr\n{ - 1} & { - 4} & 1 \\cr\n{ - 5/2} & { - 4} & {{{ - 1} \\over 2}} \\cr\n\n} } \\right\\| = {1 \\over 2}\\left| {6\\widehat i - 3\\widehat j - 6\\widehat k} \\right| = {1 \\over 2} \\times 3 \\times 3 = {9 \\over 2}$$\nOption (d)\nThe acute angle between the diagonals of the parallelogram with adjacent sides $${\\overrightarrow {OA} }$$ and $${\\overrightarrow {OC} }$$ = $$\\theta \\Rightarrow {{(\\overrightarrow {OA} + \\overrightarrow {OC} )\\,.\\,(\\overrightarrow {OA} - \\overrightarrow {OC} )} \\over {\\left| {\\overrightarrow {OA} + \\overrightarrow {OC} } \\right|\\left| {\\overrightarrow {OA} - \\overrightarrow {OC} } \\right|}} = \\cos \\theta \\Rightarrow \\cos \\theta = {{\\left( {{3 \\over 2}\\widehat i + {3 \\over 2}\\widehat k} \\right)\\,.\\,\\left( {{5 \\over 2}\\widehat i + 4\\widehat j + {1 \\over 2}\\widehat k} \\right)} \\over {{3 \\over 2}\\sqrt 2 \\times \\sqrt {{{90} \\over 4}} }} = {{18} \\over {3\\sqrt 2 \\times \\sqrt {90} }} = {1 \\over {\\sqrt 5 }}\ne {1 \\over 2}$$ [$$\\therefore\\theta\ne\\pi$$/3]",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Projection of $$\\overrightarrow {OC} $$ on $$\\overrightarrow {OA} $$ is $$ - {3 \\over 2}$$",
+      "Area of the triangle OAB is $${9 \\over 2}$$",
+      "Area of the triangle ABC is $${9 \\over 2}$$",
+      "The acute angle between the diagonals of the parallelogram with adjacent sides $${\\overrightarrow {OA} }$$ and $${\\overrightarrow {OC} }$$ is $${\\pi \\over 3}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_072",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a and b be positive real numbers. Suppose $$PQ = a\\widehat i + b\\widehat j$$ and $$PS = a\\widehat i - b\\widehat j$$ are adjacent sides of a parallelogram PQRS. Let u and v be the projection vectors of $$w = \\widehat i + \\widehat j$$ along PQ and PS, respectively. If |u| + |v| = |w| and if the area of the parallelogram PQRS is 8, then which of the following statements is/are TRUE?",
+    "solution": "Given vectors $$PQ = a\\widehat i + b\\widehat j$$ and $$PS = a\\widehat i - b\\widehat j$$ are adjacent sides of a parallelogram PQRS, so area of parallelogram PQRS =\n\n|PQ $$ \\times $$ PS| = 2ab = 8 (given)\n\n$$ \\therefore $$ ab = 4 ......(i)\n\nAccording to the question,\n\n|u| = |projection vector of w = $$\\widehat i$$ + $$\\widehat j$$ along PQ|\n\n$$ = \\left| {{{(\\widehat i + \\widehat j)\\,.\\,(a\\widehat i + b\\widehat j)} \\over {\\sqrt {{a^2} + {b^2}} }}} \\right| = {{|a + b|} \\over {\\sqrt {{a^2} + {b^2}} }}$$\n\nand, similarly, |v| = |projection vector of $$w = \\widehat i + \\widehat j$$ along PS|\n\n$$ = \\left| {{{(\\widehat i + \\widehat j)\\,.\\,(a\\widehat i + b\\widehat j)} \\over {\\sqrt {{a^2} + {b^2}} }}} \\right| = {{|a - b|} \\over {\\sqrt {{a^2} + {b^2}} }} \\Rightarrow |u| + |v|\\, = \\,|w| \\Rightarrow {{|a + b|} \\over {\\sqrt {{a^2} + {b^2}} }} + {{|a - b|} \\over {\\sqrt {{a^2} + {b^2}} }} = \\sqrt 2 \\Rightarrow |a + b| + |a - b| = \\sqrt 2 \\sqrt {{a^2} + {b^2}} $$\n\nIf a $$ \\ge $$ b $$ \\ge $$ 0, then $$2a = \\sqrt 2 \\sqrt {{a^2} + {b^2}} \\Rightarrow 4{a^2} = 2{a^2} + 2{b^2} \\Rightarrow {a^2} = {b^2} \\Rightarrow a = b$$ ....(ii)\n\nFrom Eqs. (i) and (ii), we get\n\n$$a = 2 = b \\Rightarrow a + b = 4$$\n\nand the length of diagonal PR\n\n$$ = |a\\widehat i + b\\widehat j + a\\widehat i - b\\widehat j| = |2a\\widehat i| = 2a = 4$$\n\nAnd, the angle bisector of vector PQ and PS is along the vector\n\n$$ \\pm {\\lambda \\over {\\sqrt {{a^2} + {b^2}} }}((a\\widehat i + b\\widehat j) \\pm (a\\widehat i - b\\widehat j))$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "a + b = 4",
+      "a $$-$$ b = 2",
+      "The length of the diagonal PR of the parallelogram PQRS is 4",
+      "w is an angle bisector of the vectors PQ and PS"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_073",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\widehat u = {u_1} \\widehat i + {u_2}\\widehat j + {u_3}\\widehat k$$ be a unit vector in $${{R^3}}$$ and\n$$\\widehat w = {1 \\over {\\sqrt 6 }}\\left( {\\widehat i + \\widehat j + 2\\widehat k} \\right).$$ Given that there exists a vector $${\\overrightarrow v }$$ in $${{R^3}}$$ such that $$\\left| {\\widehat u \\times \\overrightarrow v } \\right| = 1$$ and $$\\widehat w.\\left( {\\widehat u \\times \\overrightarrow v } \\right) = 1.$$ Which of the following statement(s) is (are) correct?",
+    "solution": "We have $$\\widehat u = {u_1}\\widehat i + {u_2}\\widehat j + {u_3}\\widehat k$$\nThat is, $$\\left| {\\widehat u} \\right| = 1 = \\sqrt {u_1^2 + u_2^2 + u_3^2} \\Rightarrow u_1^2 + u_2^2 + u_3^2 = 1$$\nAlso, it is given that\n$$\\widehat \\omega = {1 \\over {\\sqrt 6 }}(\\widehat i + \\widehat j + 2\\widehat k)$$\nThat is, $$\\left| {\\widehat \\omega } \\right| = 1$$\nNow, $$\\left| {\\widehat u \\times \\overrightarrow v } \\right| = 1$$\nThat is, $$\\left| {\\widehat u} \\right|\\left| {\\overrightarrow v } \\right|\\sin \\theta = 1 \\Rightarrow \\left| {\\overrightarrow v } \\right| = {1 \\over {\\sin \\theta }}$$\nwhich shows that there are infinitely many possible values exist for $$\\overrightarrow v $$ (here $$\\theta$$ is angle between the vectors $$\\overrightarrow v $$ and $$\\widehat u$$).\nHence, option (B) is correct.\nNow, $$\\widehat \\omega \\,.\\,(\\widehat u \\times \\overrightarrow v ) = 1\\left| {\\widehat \\omega \\,.\\,(\\widehat u \\times \\overrightarrow v )} \\right| = 1$$\nThat is, $$\\left| {\\widehat \\omega } \\right|\\left| {\\widehat u \\times \\overrightarrow v } \\right|\\cos \\alpha = 1$$\nwhere $$\\alpha$$ is the angle between $$\\widehat \\omega $$ and $$\\widehat u \\times \\overrightarrow v $$.\nTherefore, (1)(1)cos$$\\alpha$$ = 1\n$$\\Rightarrow$$ a = 0\nwhich means that $$\\widehat \\omega $$ and $$\\widehat u \\times \\overrightarrow v $$ are parallel vector or $$\\widehat \\omega $$ is perpendicular vector to $$\\widehat u$$ and $$\\overrightarrow v $$.\n$$\\widehat u\\,.\\,\\widehat \\omega = 0({u_1}\\widehat i + {u_2}\\widehat j + {u_3}\\widehat k)\\,.\\,\\left( {{{(\\widehat i + \\widehat j + 2\\widehat k)} \\over {\\sqrt 6 }}} \\right) = 0{u_1} + {u_2} + 2{u_3} = 0$$\nIf $$\\widehat u$$ lies in xy-plane then u$_{3}$ = 0. Therefore,\n$${u_1} + {u_2} = 0 \\Rightarrow {u_1} = - {u_2} \\Rightarrow \\left| {{u_1}} \\right| = \\left| {{u_2}} \\right|$$\nHence, option (C) is correct.",
+    "answerKey": [
+      "C",
+      "B"
+    ],
+    "options": [
+      "There is exactly one choice for such $${\\overrightarrow v }$$",
+      "There are infinitely many choices for such $${\\overrightarrow v }$$",
+      "If $$\\widehat u$$ lies in the $$xy$$-plane then $$\\left| {{u_1}} \\right| = \\left| {{u_2}} \\right|$$",
+      "If $$\\widehat u$$ lies in the $$xz$$-plane then $$2\\left| {{u_1}} \\right| = \\left| {{u_3}} \\right|$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_074",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\Delta PQR$$ be a triangle. Let $$\\vec a = \\overrightarrow {QR} ,\\vec b = \\overrightarrow {RP} $$ and $$\\overrightarrow c = \\overrightarrow {PQ} .$$ If $$\\left| {\\overrightarrow a } \\right| = 12,\\,\\,\\left| {\\overrightarrow b } \\right| = 4\\sqrt 3 ,\\,\\,\\,\\overrightarrow b .\\overrightarrow c = 24,$$ then which of the following is (are) true?",
+    "solution": "For a triangle, we have $\\vec{a}+\\vec{b}+\\vec{c}=\\overrightarrow{0}$\n\n[Diagram]\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\vec{a}=-(\\vec{b}+\\vec{c}) \\\\\\\\\n& \\Rightarrow|\\vec{a}|^2=|\\vec{b}|^2+|\\vec{c}|^2+2 \\vec{b} \\cdot \\vec{c} \\\\\\\\\n& \\Rightarrow|\\vec{a}|^2=48+|\\vec{c}|^2+48 \\\\\\\\\n& \\Rightarrow|\\vec{c}|^2=|\\vec{a}|^2-96=144-96 \\\\\\\\\n& \\Rightarrow|\\vec{c}|^2=48 \\\\\\\\\n& \\Rightarrow|\\vec{c}|=\\sqrt{48}=4 \\sqrt{3}\n\\end{aligned}\n$$\n\nTherefore, $\\frac{|\\vec{c}|^2}{2}-|\\vec{a}|=24-12=12$\n\nOption (A) is correct.\n\n$$\n\\frac{|\\vec{c}|^2}{2}+|\\vec{a}|=24+12=36\n$$\n\nAlso, $\\quad \\vec{a}+\\vec{b}=-\\vec{c} \\Rightarrow \\vec{a} \\cdot \\vec{b}=-72$\n\nFrom Eq. (1), we get\n\n$$\n\\begin{aligned}\n& \\vec{a} \\times \\vec{a}=-(\\vec{a} \\times \\vec{b}+\\vec{a} \\times \\vec{c}) \\Rightarrow \\vec{a} \\times \\vec{b}=\\vec{c} \\times \\vec{a} \\\\\\\\\n& |\\vec{a} \\times \\vec{b}+\\vec{a} \\times \\vec{c}|=|2(\\vec{a} \\times \\vec{b})|=2|\\vec{a}||\\vec{b}| \\sin \\theta \\\\\\\\\n& =96 \\sqrt{3} \\sqrt{1-\\left(\\frac{-72}{48 \\sqrt{3}}\\right)^2} \\\\\\\\\n& =96 \\sqrt{3} \\sqrt{1-\\left(\\frac{\\sqrt{3}}{12}\\right)^2}=48 \\sqrt{3}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${{{{\\left| {\\overrightarrow c } \\right|}^2}} \\over 2} - \\left| {\\overrightarrow a } \\right| = 12$$",
+      "$${{{{\\left| {\\overrightarrow c } \\right|}^2}} \\over 2} + \\left| {\\overrightarrow a } \\right| = 30$$",
+      "$$\\left| {\\overrightarrow a \\times \\overrightarrow b + \\overrightarrow c \\times \\overrightarrow a } \\right| = 48\\sqrt 3 $$",
+      "$$\\overrightarrow a .\\overrightarrow b = - 72$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li8ipi3p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_075",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow x ,\\overrightarrow y $$ and $$\\overrightarrow z $$ be three vectors each of magnitude $$\\sqrt 2 $$ and the angle between each pair of them is $${\\pi \\over 3}$$. If $$\\overrightarrow a $$ is a non-zero vector perpendicular to $$\\overrightarrow x $$ and $$\\overrightarrow y \\times \\overrightarrow z $$ and $$\\overrightarrow b $$ is a non-zero vector perpendicular to $$\\overrightarrow y $$ and $$\\overrightarrow z \\times \\overrightarrow x ,$$ then",
+    "solution": "[Diagram]\n\n$\\angle \\mathrm{AOB}=\\angle \\mathrm{BOC}=\\angle \\mathrm{CCOA}=\\frac{\\pi}{3}$\n\nAccording to question, we have\n\n$$\n\\begin{aligned}\n\\vec{a} & =\\lambda\\{(\\vec{x} \\cdot \\vec{z}) \\vec{y}-(\\vec{x} \\cdot \\vec{y}) \\vec{z}\\} \\\\\\\\\n& =\\lambda\\left\\{\\left(2 \\cos \\frac{\\pi}{3}\\right) \\vec{y}-\\left(2 \\cos \\frac{\\pi}{3}\\right) \\vec{z}\\right\\}=\\lambda(\\vec{y}-\\vec{z})\n\\end{aligned}\n$$\n\nThus,\n\n$$\n\\begin{aligned}\n\\vec{\\alpha} & \\times(\\vec{\\beta} \\times \\vec{\\gamma})=(\\vec{\\alpha} \\cdot \\vec{\\gamma}) \\vec{\\beta}-(\\vec{\\alpha} \\cdot \\vec{\\beta}) \\vec{\\gamma} \\\\\\\\\n\\vec{b} & =\\mu\\{(\\vec{y} \\cdot \\vec{x}) \\vec{z}-(\\vec{y} \\cdot \\vec{z}) \\vec{x}\\} \\\\\\\\\n& =\\mu\\{\\vec{z}-\\vec{x}\\}\n\\end{aligned}\n$$\n\nNow, $\\vec{a} \\cdot \\vec{y}=\\lambda\\{2-1\\}$; therefore, $\\lambda=\\vec{a} \\cdot \\vec{y}$.\n\nHence, $ \\vec{a}=\\vec{a} \\cdot \\vec{y}(\\vec{y}-\\vec{z})$ ...........(1)\n\nSimilarly,\n$$\n\\vec{b}=\\vec{b} \\cdot \\vec{z}(\\vec{z}-\\vec{x})\n$$ ............(2)\n\nNow,\n\n$\\begin{aligned} \\vec{a} \\cdot \\vec{b} & =(\\vec{a} \\cdot \\vec{y})(\\vec{b} \\cdot \\vec{z})\\{\\vec{y} \\cdot \\vec{z}-\\vec{y} \\cdot \\vec{x}-\\vec{z} \\cdot \\vec{z}+\\vec{z} \\cdot \\vec{x}\\} \\\\\\\\ & =(\\vec{a} \\cdot \\vec{y})(\\vec{b} \\cdot \\vec{z})\\{1-1-2+1\\} \\\\\\\\ & =-(\\vec{a} \\cdot \\vec{y})(\\vec{b} \\cdot \\vec{z}) .........(3)\\end{aligned}$\n\nHence, from Eqs. (1), (2) and (3), we can conclude that the correct options are $(\\mathrm{A}),(\\mathrm{B})$ and $(\\mathrm{C})$.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$\\overrightarrow b = \\left( {\\overrightarrow b \\,.\\,\\overrightarrow z } \\right)\\left( {\\overrightarrow z - \\overrightarrow x } \\right)$$",
+      "$$\\overrightarrow a = \\left( {\\overrightarrow a \\,.\\,\\overrightarrow y } \\right)\\left( {\\overrightarrow y - \\overrightarrow z } \\right)$$",
+      "$$\\overrightarrow a \\,.\\,\\overrightarrow b = - \\left( {\\overrightarrow a \\,.\\,\\overrightarrow y } \\right)\\left( {\\overrightarrow b \\,.\\,\\overrightarrow z } \\right)$$",
+      "$$\\overrightarrow a = \\left( {\\overrightarrow a \\,.\\,\\overrightarrow y } \\right)\\left( {\\overrightarrow z - \\overrightarrow y } \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1luwfmk38.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_vector_algebra_076",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The vector (s) which is/are coplanar with vectors $${\\widehat i + \\widehat j + 2\\widehat k}$$ and $${\\widehat i + 2\\widehat j + \\widehat k,}$$ and perpendicular to the vector $${\\widehat i + \\widehat j + \\widehat k}$$ is/are",
+    "solution": "Let $$\\overrightarrow a = \\widehat i + \\widehat j + 2\\widehat k$$, $$\\overrightarrow b = \\widehat i + 2\\widehat j + \\widehat k$$ and $$\\overrightarrow c = \\widehat i + \\widehat j + \\widehat k$$.\nAny vector in the plane of $$\\widehat i + \\widehat j + 2\\widehat k$$ and $$\\widehat i + 2\\widehat j + \\widehat k$$ is given by\n$$\\overrightarrow r = \\lambda \\overrightarrow a + \\mu \\overrightarrow b = \\lambda (\\widehat i + \\widehat j + 2\\widehat k) + \\mu (\\widehat i + 2\\widehat j + \\widehat k) = (\\lambda + \\mu )\\widehat i + (\\lambda + 2\\mu )\\widehat j + (2\\lambda + \\mu )\\widehat k$$\nAlso, $$\\overrightarrow r \\,.\\,\\overrightarrow c = 0 \\Rightarrow (\\lambda + \\mu )\\,.\\,1 + (\\lambda + 2\\mu )\\,.\\,1 + (2\\lambda + \\mu )\\,.\\,1 = 0 \\Rightarrow 4\\lambda + 4\\mu = 0 \\Rightarrow \\lambda + \\mu = 0 \\Rightarrow \\left[ {\\matrix{\n{\\overrightarrow r } & {\\overrightarrow a } & {\\overrightarrow b } \\cr\n\n} } \\right] = 0$$\nSo, vectors $$\\widehat j - \\widehat k$$ and $$ - \\widehat j + \\widehat k$$ satisfy this.",
+    "answerKey": [
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$\\widehat j - \\widehat k$$",
+      "$$-\\widehat i + \\widehat j$$",
+      "$$\\widehat i - \\widehat j$$",
+      "$$-\\widehat j + \\widehat k$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_077",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a$$ and $$b$$ two non-collinear unit vectors. If $$u = a - \\left( {a\\,.\\,b} \\right)\\,b$$ and $$v = a \\times b,$$ then $$\\left| v \\right|$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\left| u \\right|$$",
+      "$$\\,\\left| u \\right| + \\left| {u\\,.\\,a} \\right|$$",
+      "$$\\,\\left| u \\right| + \\left| {u\\,.\\,b} \\right|$$",
+      "$$\\left| u \\right| + u.\\left( {a + b} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_078",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following expressions are meaningful?",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$u\\left( {v \\times w} \\right)$$",
+      "$$\\left( {u \\bullet v} \\right) \\bullet w$$",
+      "$$\\left( {u \\bullet v} \\right)w$$",
+      "$$\\,u\\, \\times \\left( {v \\bullet w} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_079",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The vector $$\\,{1 \\over 3}\\left( {2\\widehat i - 2\\widehat j + \\widehat k} \\right)$$ is",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "a unit vector",
+      "makes an angle $${\\pi \\over 3}$$ with the vector $$\\left( {2\\widehat i - 4\\widehat j + 3\\widehat k} \\right)$$",
+      "parallel to the vector $$\\left( { - \\widehat i + \\widehat j - {1 \\over 2}\\widehat k} \\right)$$",
+      "perpendicular to the vector $${3\\widehat i + 2\\widehat j - 2\\widehat k}$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_080",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\vec a = 2\\hat i - \\hat j + \\hat k,\\vec b = \\hat i + 2\\hat j - \\hat k$$ and $$\\overrightarrow c = \\widehat i + \\widehat j - 2\\widehat k - 2\\widehat k$$ be three vectors. A vector in the plane of $${\\overrightarrow b }$$ and $${\\overrightarrow c }$$, whose projection on $${\\overrightarrow a }$$ is of magnitude $$\\sqrt {2/3,} $$ is :",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$2\\widehat i + 3\\widehat j - 3\\widehat k$$",
+      "$$2\\widehat i + 3\\widehat j + 3\\widehat k$$",
+      "$$-2\\widehat i - \\widehat j + 5\\widehat k$$",
+      "$$2\\widehat i + \\widehat j + 5\\widehat k$$"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_081",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow a ,\\overrightarrow b ,\\overrightarrow c $$ and $$\\overrightarrow d $$ are distinct vectors such that\n\n$$\\,\\overrightarrow a \\times \\overrightarrow c = \\overrightarrow b \\times \\overrightarrow d $$ and $$\\overrightarrow a \\times \\overrightarrow b = \\overrightarrow c \\times \\overrightarrow d \\,.$$ Prove that\n\n$$\\left( {\\overrightarrow a - \\overrightarrow d } \\right).\\left( {\\overrightarrow b - \\overrightarrow c } \\right)\ne 0\\,\\,i.e.\\,\\,\\,\\overrightarrow a .\\overrightarrow b + \\overrightarrow d .\\overrightarrow c\ne \\overrightarrow d .\\overrightarrow b + \\overrightarrow a .\\overrightarrow c $$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_082",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow u ,\\overrightarrow v ,\\overrightarrow w ,$$ are three non-coplanar unit vectors and $$\\alpha ,\\beta ,\\gamma $$ are the angles between $$\\overrightarrow u $$ and $$\\overrightarrow v $$ and $$\\overrightarrow w ,\\overrightarrow w $$ and $$\\overrightarrow u $$ respectively and $$\\overrightarrow x ,\\overrightarrow y ,\\overrightarrow z ,$$ are unit vectors along the bisectors of the angles $$\\alpha ,\\,\\,\\beta ,\\,\\,\\gamma $$ respectively. Prove that $$\\,\\left[ {\\overrightarrow x \\times \\overrightarrow y \\,\\,\\overrightarrow y \\times \\overrightarrow z \\,\\,\\overrightarrow z \\times \\overrightarrow x } \\right] = {1 \\over {16}}{\\left[ {\\overrightarrow u \\,\\,\\overrightarrow v \\,\\,\\overrightarrow w } \\right]^2}\\,{\\sec ^2}{\\alpha \\over 2}{\\sec ^2}{\\beta \\over 2}{\\sec ^2}{\\gamma \\over 2}.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_083",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$V$$ be the volume of the parallelopiped formed by the vectors $$\\overrightarrow a = {a_1}\\widehat i + {a_2}\\widehat j + {a_3}\\widehat k,\\,\\,\\,\\,\\overrightarrow b = {b_1}\\widehat i + {b_2}\\widehat j + {b_3}\\widehat k,\\,\\,\\,\\,\\,\\overrightarrow c = {c_1}\\widehat i + {c_2}\\widehat j + {c_3}\\widehat k.$$ where $$r=1, 2, 3,$$ are non-negative real numbers and $$\\sum\\limits_{r = 1}^3 {\\left( {{a_r} + {b_r} + {c_r}} \\right) = 3L,} $$ show that $$V \\le {L^3}\\,\\,.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_084",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find $$3-$$dimensional vectors $${\\overrightarrow v _1},{\\overrightarrow v _2},{\\overrightarrow v _3}$$ satisfying\n\n$$\\,{\\overrightarrow v _1}.{\\overrightarrow v _1} = 4,\\,{\\overrightarrow v _1}.{\\overrightarrow v _2} = - 2,\\,{\\overrightarrow v _1}.{\\overrightarrow v _3} = 6,\\,\\,{\\overrightarrow v _2}.{\\overrightarrow v _2} = 2,\\,{\\overrightarrow v _2}.{\\overrightarrow v _3} = - 5,\\,{\\overrightarrow v _3}.{\\overrightarrow v _3} = 29$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_085",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show, by vector methods, that the angular bisectors of a triangle are concurrent and find an expression for the position vector of the point of concurrency in terms of the position vectors of the vertices.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_086",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow A \\left( t \\right) = {f_1}\\left( t \\right)\\widehat i + {f_2}\\left( t \\right)\\widehat j$$ and\n$$$\\overrightarrow B \\left( t \\right) = {g_1}\\left( t \\right)\\overrightarrow i + {g_2}\\left( t \\right)\\widehat j,t \\in \\left[ {0,1} \\right],$$$\n\nwhere $${f_1},{f_2},{g_1},{g_2}$$ are continuous functions. If $$\\overrightarrow A \\left( t \\right)$$ and $$\\overrightarrow B \\left( t \\right)$$ are nonzero vectors for all $$t$$ and $$\\overrightarrow A \\left( 0 \\right) = 2\\widehat i + 3\\widehat j,\\,\\overrightarrow A \\left( 1 \\right) = 6\\widehat i + 2\\widehat j,\\,\\overrightarrow B \\left( 0 \\right) = 3\\widehat i + 2\\widehat j$$ and $$\\,\\overrightarrow B \\left( 1 \\right) = 2\\widehat i + 6\\widehat j.$$ Then show that $$\\,\\overrightarrow A \\left( t \\right)$$ and $$\\,\\overrightarrow B \\left( t \\right)$$ are parallel for some $$t.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_087",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$u$$ and $$v$$ be units vectors. If $$w$$ is a vector such that $$w + \\left( {w \\times u} \\right) = v,$$ then prove that $$\\left| {\\left( {u \\times v} \\right) \\cdot w} \\right| \\le 1/2$$ and that the equality holds if and only if $$u$$ is perpendicular to $$v .$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_088",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove, by vector methods or otherwise, that the point of intersection of the diagonals of a trapezium lies on the line passing through the mid-points of the parallel sides. (You may assume that the trapezium is not a parallelogram.)",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_089",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any two vectors $$u$$ and $$v,$$ prove that\n\n(a) $${\\left( {u\\,.\\,v} \\right)^2} + {\\left| {u \\times v} \\right|^2} = {\\left| u \\right|^2}{\\left| v \\right|^2}$$ and\n\n(b) $$\\left( {1 + {{\\left| u \\right|}^2}} \\right)\\left( {1 + {{\\left| v \\right|}^2}} \\right) = {\\left( {1 - u.v} \\right)^2} + {\\left| {u + v + \\left( {u \\times v} \\right)} \\right|^2}.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_090",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$A,B$$ and $$C$$ are vectors such that $$\\left| B \\right| = \\left| C \\right|.$$ Prove that\n\n$$\\left[ {\\left( {A + B} \\right) \\times \\left( {A + C} \\right)} \\right] \\times \\left( {B \\times C} \\right)\\left( {B + C} \\right) = 0\\,\\,.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_091",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the vectors $$\\overrightarrow b ,\\overrightarrow c ,\\overrightarrow d ,$$ are not coplanar, then prove that the vector\n\n$$\\left( {\\overrightarrow a \\times \\overrightarrow b } \\right) \\times \\left( {\\overrightarrow c \\times \\overrightarrow d } \\right) + \\left( {\\overrightarrow a \\times \\overrightarrow c } \\right) \\times \\left( {\\overrightarrow d \\times \\overrightarrow b } \\right) + \\left( {\\overrightarrow a \\times \\overrightarrow d } \\right) \\times \\left( {\\overrightarrow b \\times \\overrightarrow c } \\right)$$ is parallel to $$\\overrightarrow a .$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_092",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a triangle $$ABC, D$$ and $$E$$ are points on $$BC$$ and $$AC$$ respectively, such that $$BD=2DC$$ and $$AE=3EC.$$ Let $$P$$ be the point of intersection of $$AD$$ and $$BE.$$ Find $$BP/PE$$ using vector methods.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_093",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Determine the value of $$'c'$$ so that for all real $$x,$$ the vector\n\n$$cx\\widehat i - 6\\widehat j - 3\\widehat k$$ and $$x\\widehat i + 2\\widehat j + 2cx\\widehat k$$ make an obtuse angle with each other.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_094",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow A = 2\\overrightarrow i + \\overrightarrow k ,\\,\\overrightarrow B = \\overrightarrow i + \\overrightarrow j + \\overrightarrow k ,$$ and $$\\overrightarrow C = 4\\overrightarrow i - 3\\overrightarrow j + 7\\overrightarrow k .$$ Determine a vector $$\\overrightarrow R .$$ Satisfying $$\\overrightarrow R \\times \\overrightarrow B = \\overrightarrow C \\times \\overrightarrow B $$ and $$\\overrightarrow R \\,.\\,\\overrightarrow A = 0$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_095",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If vectors $$\\overrightarrow A ,\\overrightarrow B ,\\overrightarrow C $$ are coplanar, show that\n$$$\\left| {\\matrix{\n{} & {\\overrightarrow {a.} } & {} & {\\overrightarrow {b.} } & {} & {\\overrightarrow {c.} } \\cr\n{\\overrightarrow {a.} } & {\\overrightarrow {a.} } & {\\overrightarrow {a.} } & {\\overrightarrow {b.} } & {\\overrightarrow {a.} } & {\\overrightarrow {c.} } \\cr\n{\\overrightarrow {b.} } & {\\overrightarrow {a.} } & {\\overrightarrow {b.} } & {\\overrightarrow {b.} } & {\\overrightarrow {b.} } & {\\overrightarrow {c.} } \\cr\n\n} } \\right| = \\overrightarrow 0 $$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_096",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a triangle $$OAB,E$$ is the midpoint of $$BO$$ and $$D$$ is a point on $$AB$$ such that $$AD:DB=2:1.$$ If $$OD$$ and $$AE$$ intersect at $$P,$$ determine the ratio $$OP:PD$$ using vector methods.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_097",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$OACB$$ be a parallelogram with $$O$$ at the origin and $$OC$$ a diagonal. Let $$D$$ be the midpoint of $$OA.$$ Using vector methods prove that $$BD$$ and $$CO$$ intersect in the same ratio. Determine this ratio.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_098",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$A, B, C, D$$ are any four points in space, prove that -\n\n$$\\left| {\\overrightarrow {AB} \\times \\overrightarrow {CD} + \\overrightarrow {BC} \\times \\overrightarrow {AD} + \\overrightarrow {CA} \\times \\overrightarrow {BD} } \\right| = 4$$ (area of triangle $$ABC$$)",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_099",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The position vectors of the points $$A, B, C$$ and $$D$$ are $$3\\widehat i - 2\\widehat j - \\widehat k,\\,2\\widehat i + 3\\widehat j - 4\\widehat k,\\, - \\widehat i + \\widehat j + 2\\widehat k$$ and $$4\\widehat i + 5\\widehat j + \\lambda \\widehat k,$$\n\nrespectively. If the points $$A, B, C$$ and $$D$$ lie on a plane, find the value of $$\\lambda .$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_100",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all values of $$\\lambda $$ such that $$x, y, z,\\,\ne (0,0,0)$$ and\n\n$$\\left( {\\overrightarrow i + \\overrightarrow j + 3\\overrightarrow k } \\right)x + \\left( {3\\overrightarrow i - 3\\overrightarrow j + \\overrightarrow k } \\right)y + \\left( { - 4\\overrightarrow i + 5\\overrightarrow j } \\right)z = \\lambda \\left( {x\\overrightarrow i \\times \\overrightarrow j \\,\\,y + \\overrightarrow k \\,z} \\right)$$ where $$\\overrightarrow i ,\\,\\,\\overrightarrow j ,\\,\\,\\overrightarrow k $$ are unit vectors along the coordinate axes.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_101",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${A_1},{A_2},.................{A_n}$$ are the vertices of a regular plane polygon with $$n$$ sides and $$O$$ is its centre. Show that\n\n$$\\sum\\limits_{i = 1}^{n - 1} {\\left( {\\overrightarrow {O{A_i}} \\times {{\\overrightarrow {OA} }_{i + 1}}} \\right) = \\left( {1 - n} \\right)\\left( {{{\\overrightarrow {OA} }_2} \\times {{\\overrightarrow {OA} }_1}} \\right)} $$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_102",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A nonzero vector $$\\overrightarrow a $$ is parallel to the line of intersection of the plane determined by the vectors $$\\widehat i,\\widehat i + \\widehat j$$ and the plane determined by the vectors $$\\widehat i - \\widehat j,\\widehat i + \\widehat k.$$ The angle between $$\\overrightarrow a $$ and the vector $$\\widehat i - 2\\widehat j + 2\\widehat k$$ is ................",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_103",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow b \\,$$ and $$\\overrightarrow c \\,$$ are two non-collinear unit vectors and $$\\overrightarrow a \\,$$ is any vector, then $$\\left( {\\overrightarrow a .\\overrightarrow b } \\right)\\overrightarrow b + \\left( {\\overrightarrow a .\\overrightarrow c } \\right)\\overrightarrow c + {{\\overrightarrow a .\\left( {\\overrightarrow b \\times \\overrightarrow c } \\right)} \\over {\\left| {\\overrightarrow b \\times \\overrightarrow c } \\right|}}\\left( {\\overrightarrow b \\times \\overrightarrow c } \\right) = $$ ..............",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_104",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A unit vector coplanar with $$\\overrightarrow i + \\overrightarrow j + 2\\overrightarrow k $$ and $$\\overrightarrow i + 2\\overrightarrow j + \\overrightarrow k $$ and perpendicular to $$\\overrightarrow i + \\overrightarrow j + \\overrightarrow k $$ is ...........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_105",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given that $$\\overrightarrow a = \\left( {1,1,1} \\right),\\,\\,\\overrightarrow c = \\left( {0,1, - 1} \\right),\\,\\overrightarrow a .\\overrightarrow b = 3$$ and $$\\overrightarrow a \\times \\overrightarrow b = \\overrightarrow c ,$$ then $$\\overrightarrow b \\, = $$.........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_106",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The components of a vector $$\\overrightarrow a $$ along and perpendicular to a non-zero vector $$\\overrightarrow b $$ are ......and .....respectively.",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_107",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the vectors $$a\\widehat i + \\widehat j + \\widehat k,\\,\\,\\widehat i + b\\widehat j + \\widehat k$$ and $$\\widehat i + \\widehat j + c\\widehat k\\left( {a\ne b\ne c\ne 1} \\right)$$ are coplannar, then the value of $${1 \\over {\\left( {1 - a} \\right)}} + {1 \\over {\\left( {1 - b} \\right)}} + {1 \\over {\\left( {1 - c} \\right)}} = ..........$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_108",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$b = 4\\widehat i + 3\\widehat j$$ and $$\\overrightarrow c $$ be two vectors perpendicular to each other in the $$xy$$-plane. All vectors in the same plane having projecttions $$1$$ and $$2$$ along $$\\overrightarrow b $$ and $$\\overrightarrow c, $$ respectively, are given by ...........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_109",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow A \\overrightarrow {\\,B} \\overrightarrow {\\,C} $$ are three non-coplannar vectors, then -\n\n$${{\\overrightarrow A .\\overrightarrow B \\times \\overrightarrow C } \\over {\\overrightarrow C \\times \\overrightarrow A .\\overrightarrow B }} + {{\\overrightarrow B .\\overrightarrow A \\times \\overrightarrow C } \\over {\\overrightarrow C .\\overrightarrow A \\times \\overrightarrow B }} = $$ ................",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_110",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overrightarrow A = \\left( {1,1,1} \\right),\\,\\,\\overrightarrow C = \\left( {0,1, - 1} \\right)$$ are given vectors, then a vector $$B$$ satifying the equations $$\\overrightarrow A \\times \\overrightarrow B = \\overrightarrow {\\,C} $$ and $$\\overrightarrow A .\\overrightarrow B = \\overrightarrow {3\\,} $$ ..........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_111",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A, B, C$$ and $$D,$$ are four points in a plane with position vectors $$a, b, c$$ and $$d$$ respectively such that\n$$$\\left( {\\overrightarrow a - \\overrightarrow d } \\right)\\left( {\\overrightarrow b - \\overrightarrow c } \\right) = \\left( {\\overrightarrow b - \\overrightarrow d } \\right)\\left( {\\overrightarrow c - \\overrightarrow a } \\right) = 0$$$\nThe point $$D,$$ then, is the ................ of the triangle $$ABC.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_112",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow A ,\\overrightarrow B ,\\overrightarrow C $$ be vectors of length $$3, 4, 5$$ respectively. Let $$\\overrightarrow A $$ be perpendicular to $$\\overrightarrow B + \\overrightarrow C ,\\overrightarrow B $$ to $$\\overrightarrow C + \\overrightarrow A $$ to $$\\overrightarrow A + \\overrightarrow B .$$ Then the length of vector $$\\overrightarrow A + \\overrightarrow B + \\overrightarrow C $$ is ..........",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_113",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The points with position vectors $$a+b,a-b,$$ and $$a+kb$$ are collinear for all real values of $$k.$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_114",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$X.A=0, X.B=0, X.C=0$$ for some non-zero vector $$X,$$ then $$\\left[ {A\\,B\\,C} \\right] = 0$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_vector_algebra_115",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vector Algebra",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\overrightarrow A ,\\overrightarrow B $$ and $${\\overrightarrow C }$$ be unit vectors suppose that $$\\overrightarrow A .\\overrightarrow B = \\overrightarrow A .\\overrightarrow C = 0,$$ and thatthe angle between $${\\overrightarrow B }$$ and $${\\overrightarrow C }$$ is $$\\pi /6.$$ Then $$\\overrightarrow A = \\pm 2\\left( {\\overrightarrow B \\times \\overrightarrow C } \\right).$$",
+    "solution": "Solution for this Vector Algebra question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

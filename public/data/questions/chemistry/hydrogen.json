@@ -1,0 +1,183 @@
+[
+  {
+    "id": "chem_hydrogen_001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "LIST-I contains compounds and LIST-II contains reactions\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) $\\mathrm{H}_{2} \\mathrm{O}_{2}$\n\n(P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$\n\n\n(II) $\\mathrm{Mg}(\\mathrm{OH})_{2}$\n\n(Q) $\\mathrm{BaO}_{2}+\\mathrm{H}_{2} \\mathrm{SO}_{4} \\rightarrow$\n\n\n(III) $\\mathrm{BaCl}_{2}$\n\n(R) $\\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{MgCl}_{2} \\rightarrow$\n\n\n(IV) $\\mathrm{CaCO}_{3}$\n\n(S) $\\mathrm{BaO}_{2}+\\mathrm{HCl} \\rightarrow$\n\n\n\n(T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$\n\n\nMatch each compound in LIST-I with its formation reaction(s) in LIST-II, and choose the correct option",
+    "solution": "(P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCO}_3+\\mathrm{H}_2 \\mathrm{O}$\n\n(Q) $\\mathrm{BaO}_2+\\mathrm{H}_2 \\mathrm{SO}_4 \\rightarrow \\mathrm{BaSO}_4+\\mathrm{H}_2 \\mathrm{O}_2$\n\n(R) $\\mathrm{Ca}(\\mathrm{OH})_2+\\mathrm{MgCl}_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCl}_2$\n\n(S) $\\mathrm{BaO}_2+\\mathrm{HCl} \\rightarrow \\mathrm{BaCl}_2+\\mathrm{H}_2 \\mathrm{O}_2$\n\n(T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow 2 \\mathrm{CaCO}_3+2 \\mathrm{H}_2 \\mathrm{O}$\n\nAns. $\\quad \\mathrm{I} \\rightarrow \\mathrm{Q}, \\mathrm{S} ; \\mathrm{II} \\rightarrow \\mathrm{P}, \\mathrm{R} ; \\mathrm{III} \\rightarrow \\mathrm{S} ; \\mathrm{IV} \\rightarrow \\mathrm{P}, \\mathrm{T}$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "I $\\rightarrow$ Q; II $\\rightarrow$ P; III $\\rightarrow$ S; IV $\\rightarrow$ R",
+      "I $\\rightarrow$ T; II $\\rightarrow$ P; III $\\rightarrow$ Q; IV $\\rightarrow$ R",
+      "I $\\rightarrow$ T; II $\\rightarrow$ R; III $\\rightarrow$ Q; IV $\\rightarrow$ P",
+      "I $\\rightarrow$ Q; II $\\rightarrow$ R; III $\\rightarrow$ S; IV $\\rightarrow$ P"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_002",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reagent(s) used for softening the temporary hardness of water is (are)",
+    "solution": "Solution for this Hydrogen question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "Ca$_{3}$(PO$_{4}$)$_{2}$",
+      "Ca(OH)$_{2}$",
+      "Na$_{2}$CO$_{3}$",
+      "NaOCl"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_003",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hydrogen peroxide acts both as an oxidising and as a reducing agent in alkaline solution towards certain first row transition metal ions. Illustrate both these properties of H$_{2}$O$_{2}$ using chemical equations.",
+    "solution": "Hydrogen peroxide (H$_{2}$O$_{2}$) can act as both an oxidizing agent and a reducing agent, depending on the reactants and the conditions of the reaction. Let's illustrate both properties using chemical equations involving first row transition metal ions.\n\nHydrogen peroxide as an oxidizing agent:\n\nIn an alkaline solution, hydrogen peroxide can oxidize manganese(II) ions (Mn$^{2+}$) to manganese dioxide (MnO$_{2}$). The balanced chemical equation for this reaction is:\n\n$$2\\text{Mn}^{2+} + \\text{H}_2\\text{O}_2 + 4\\text{OH}^- \\rightarrow 2\\text{MnO}_2 + 4\\text{H}_2\\text{O}$$\n\nIn this reaction, H$_{2}$O$_{2}$ is reduced to water (H$_{2}$O), while Mn$^{2+}$ is oxidized to MnO$_{2}$.\n\nHydrogen peroxide as a reducing agent:\n\nConversely, in an alkaline solution, hydrogen peroxide can reduce chromium(VI) ions (CrO$_{4}$$^{2-}$) to chromium(III) ions (Cr$^{3+}$). The balanced chemical equation for this reaction is:\n\n$$2\\text{CrO}_4^{2-} + 3\\text{H}_2\\text{O}_2 + 2\\text{OH}^- \\rightarrow 2\\text{Cr}^{3+} + 3\\text{O}_2 + 5\\text{H}_2\\text{O}$$\n\nIn this reaction, H$_{2}$O$_{2}$ is oxidized to oxygen (O$_{2}$), while CrO$_{4}$$^{2-}$ is reduced to Cr$^{3+}$.\n\nThrough these equations, it is clear that hydrogen peroxide can exhibit both oxidizing and reducing properties in alkaline solutions, depending on the nature of the transition metal ion it interacts with. These dual roles make H$_{2}$O$_{2}$ a versatile reagent in various chemical processes.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_004",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The absorption of hydrogen by palladium is commonly known as ______.",
+    "solution": "The absorption of hydrogen by palladium is commonly known as \"occlusion\".\n\nLet's dive a bit deeper into this concept:\n\nPalladium has a unique ability to absorb large quantities of hydrogen gas. When hydrogen gas comes into contact with palladium, the hydrogen molecules dissociate into individual hydrogen atoms. These atoms are then absorbed into the interstitial spaces between the palladium atoms in its crystal lattice. This process of hydrogen absorption is not merely a physical process but also involves some chemical interactions at the atomic level.\n\nThe term \"occlusion\" refers to this specific phenomenon. The absorbed hydrogen can be released again upon heating or by applying a vacuum, making palladium-hydrogen systems very useful in various applications, such as hydrogen storage, purification, and sensors.\n\nTo understand this interaction more quantitatively, consider the solubility of hydrogen in palladium which can be described by the Sieverts' law:\n\n$$ C_H = K \\cdot \\sqrt{P_H} $$\n\nWhere:\n\n$$C_H$$ is the concentration of hydrogen in palladium.\n\n$$K$$ is the Sieverts' constant.\n\n$$P_H$$ is the partial pressure of hydrogen gas.\n\nThis relationship shows that the concentration of absorbed hydrogen is proportional to the square root of the hydrogen gas pressure.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_005",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following liberates O$_{2}$ upon hydrolysis?",
+    "solution": "(a) $$P{b_3}{O_4} + {H_2}O\\buildrel {} \\over\n\\longrightarrow $$ No reaction Pb$_{3}$O$_{4}$ is insoluble in water or do not react with water.\n\n(b) $$K{O_2} + 2{H_2}O\\buildrel {} \\over\n\\longrightarrow KOH + {H_2}{O_2} + 1/2{O_2}$$\n\nPotassium superoxide is a strong oxidant, able to convert oxides into peroxides or molecular oxygen. Hydrolysis gives oxygen gas, hydrogen peroxide and potassium hydroxide.\n\n(c) $$N{a_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n\\longrightarrow 2NaOH + {H_2}{O_2}$$\n\nWhen sodium peroxide dissolves in water, it is hydrolysed and forms sodium hydroxide and hydrogen peroxide. The reaction is highly exothermic.\n\n(d) $$L{i_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n\\longrightarrow 2LiOH + {H_2}{O_2}$$\n\nThe reactivity of Li$_{2}$O$_{2}$ toward water differs from LiO$_{2}$, in Li$_{2}$O$_{2}$ results in H$_{2}$O$_{2}$ as a product.\n\nHence, the correct option is (b).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Pb$_{3}$O$_{4}$",
+      "KO$_{2}$",
+      "Na$_{2}$O$_{2}$",
+      "Li$_{2}$O$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_006",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hydrogen peroxide in its reaction with KIO$_{4}$ and NH$_{2}$OH respectively, is acting as a",
+    "solution": "In the reaction with potassium periodate (KIO$_{4}$) and hydroxylamine (NH$_{2}$OH), hydrogen peroxide (H$_{2}$O$_{2}$) exhibits different roles :\n\n(i) When hydrogen peroxide reacts with potassium periodate (KIO$_{4}$), it forms potassium iodate (KIO$_{3}$).\n\n**The balanced chemical reaction is :**\n\n$$ \\mathrm{H}_2 \\mathrm{O}_2 + \\underset{\\substack{\\text{Potassium}\\\\ \\text{periodate}}}{\\mathrm{KIO}_4} \\longrightarrow \\underset{\\begin{array}{c}\\text{Potassium}\\\\ \\text{iodate}\\end{array}}{\\mathrm{KIO}_3} + \\mathrm{H}_2 \\mathrm{O} + \\mathrm{O}_2 $$\n\nOxidation state of oxygen in hydrogen peroxide :\n\n(a) In H$_{2}$O$_{2}$ :\n\n$$ \\begin{aligned} & 2x + 2 = 0 \\\\\\\\ & x = -1 \\end{aligned} $$\n\n(b) In O$_{2}$ :\n\n$$ x = 0 $$\n\nThe oxidation state of oxygen increases from -1 to 0, indicating that H$_{2}$O$_{2}$ is oxidized and acts as a reducing agent for KIO$_{4}$.\n\n(iii) When hydrogen peroxide reacts with hydroxylamine (NH$_{2}$OH), it produces nitric acid (HNO$_{3}$) and water (H$_{2}$O).\n\n$$ 3 \\mathrm{H}_2 \\mathrm{O}_2 + \\mathrm{NH}_2 \\mathrm{OH} \\longrightarrow \\mathrm{HNO}_3 + 4 \\mathrm{H}_2 \\mathrm{O} $$\n\n**Oxidation state of oxygen :**\n\n(a) In H$_{2}$O$_{2}$ :\n\n$$ \\begin{aligned} & 2x + 2 = 0 \\\\\\\\ & x = -1 \\end{aligned} $$\n\n(b) In H$_{2}$O :\n\n$$ 2 + x = 0 x = -2 $$\n\nThe oxidation state of oxygen decreases from -1 to -2, meaning H$_{2}$O$_{2}$ is reduced and acts as an oxidizing agent for NH$_{2}$OH.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "reducing agent, oxidising agent",
+      "reducing agent, reducing agent",
+      "oxidising agent, oxidising agent",
+      "oxidising agent, reducing agent"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_007",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hydrogen gas will not reduce",
+    "solution": "Reduction is a chemical process by which a substance gains electrons. Hydrogen gas is commonly used as a reducing agent because it can easily donate electrons to other substances. However, the ability of hydrogen to reduce an oxide depends on the reactivity of the metal in the oxide.\n\nLet's consider each option:\n\nOption A: Heated Cupric Oxide (CuO)\n\nCopper(II) oxide can be reduced by hydrogen gas to form metallic copper and water. The reaction is as follows:\n\n$$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$$\n\nOption B: Heated Ferric Oxide (Fe_2O_3)\n\nFerric oxide can also be reduced by hydrogen gas to form metallic iron and water. The reaction is as follows:\n\n$$\\text{Fe}_2\\text{O}_3 + 3\\text{H}_2 \\rightarrow 2\\text{Fe} + 3\\text{H}_2\\text{O}$$\n\nOption C: Heated Stannic Oxide (SnO_2)\n\nStannic oxide can be reduced by hydrogen gas to form metallic tin and water. The reaction is as follows:\n\n$$\\text{SnO}_2 + 2\\text{H}_2 \\rightarrow \\text{Sn} + 2\\text{H}_2\\text{O}$$\n\nOption D: Heated Aluminium Oxide (Al_2O_3)\n\nAluminium oxide cannot be reduced by hydrogen gas. Aluminium has a very high affinity for oxygen, making the reduction of aluminium oxide (Al_2O_3) with hydrogen gas not feasible under normal conditions. This is because aluminium is much more reactive and forms a very stable oxide.\n\nTherefore, the correct answer is Option D: heated aluminium oxide.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "heated cupric oxide",
+      "heated ferric oxide",
+      "heated stannic oxide",
+      "heated aluminium oxide"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_008",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Heavy water is",
+    "solution": "Solution for this Hydrogen question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "H$_{2}$$^{18}$O",
+      "water obtained by repeated distillation",
+      "D$_{2}$O",
+      "water at 4$^{o}$C"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_009",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reactions for the oxidation of hydrogen peroxide with potassium permanganate in acidic medium.",
+    "solution": "Solution for this Hydrogen question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_010",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following:\n\nHydrogen peroxide acts as an oxidising as well as a reducing agent.",
+    "solution": "Solution for this Hydrogen question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_hydrogen_011",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "topic": "Hydrogen",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons of the following:\n\nHydrogen peroxide is a better oxidising agent than water.",
+    "solution": "Solution for this Hydrogen question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

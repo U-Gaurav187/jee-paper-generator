@@ -1,0 +1,1110 @@
+[
+  {
+    "id": "phy_atoms_and_nuclei_001",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A nuclear reactor starts producing a radioactive nuclide *X* from *t* = 0, at a constant rate of **α** per second. Each decay of *X* produces energy *E$_{0}$*, which is utilized to heat a liquid of mass *m* and specific heat *s*. Assuming no heat loss from the liquid and taking **λ** as the decay constant of *X*, the rate of increase in the temperature of the liquid is :",
+    "solution": "Let $\\mathrm{N}(\\mathrm{t})$ be the number of active nuclei of the radioactive substance X present in the reactor at any time t.\n\n[Diagram]\n\nThe net rate of change of the number of nuclei ($\\frac{\\mathrm{d}N}{\\mathrm{d}t}$) is of concurrent processes, the production of nuclei at a constant rate, which is $+\\alpha$ and the decay of nuclei which is proportional to the number of nuclei present, given by $-\\lambda N$.\n$$\\frac{\\mathrm{d}N}{\\mathrm{d}t}=\\alpha-\\lambda N\\frac{\\mathrm{d}N}{\\alpha-\\lambda N}=\\mathrm{d}t$$\nAt $t=0$, the reactor just starts producing the nuclide, so the initial number of nuclei is $N=0$.\nAt time $t$, let the number of nuclei be $N$:\n$$\\int\\limits_{0}^{N} \\frac{\\mathrm{d}N}{\\alpha-\\lambda N}=\\int\\limits_{0}^{t} \\mathrm{d}t$$\nFor integral $\\int\\limits_{0}^{N} \\frac{\\mathrm{d}N}{\\alpha-\\lambda N}$, on substitution $u=\\alpha-\\lambda N \\rightarrow \\mathrm{d}u=-\\lambda\\,\\mathrm{d}N \\rightarrow \\mathrm{d}N=-\\frac{\\mathrm{d}u}{\\lambda}$\n$$\\int\\limits_{0}^{N} \\frac{\\mathrm{d}N}{\\alpha-\\lambda N}=\\int \\frac{1}{u}\\left(-\\frac{\\mathrm{d}u}{\\lambda}\\right)=-\\frac{1}{\\lambda}\\ln|u|=-\\frac{1}{\\lambda}\\ln|\\alpha-\\lambda N|=\\left[-\\frac{1}{\\lambda}\\ln(\\alpha-\\lambda N)\\right]_{0}^{N}=t\\ln(\\alpha-\\lambda N)-\\ln(\\alpha)=-\\lambda t$$\nUsing the logarithmic identity $\\ln A-\\ln B=\\ln\\frac{A}{B}$:\n$$\\ln\\left(\\frac{\\alpha-\\lambda N}{\\alpha}\\right)=-\\lambda t\\frac{\\alpha-\\lambda N}{\\alpha}=e^{-\\lambda t}\\alpha-\\lambda N=\\alpha e^{-\\lambda t}\\lambda N=\\alpha-\\alpha e^{-\\lambda t}\\lambda N=\\alpha\\left(1-e^{-\\lambda t}\\right)$$\nThe activity $A(t)$ of a radioactive sample is the total number of decays occurring per second.\n$$A(t)=\\lambda NA(t)=\\alpha\\left(1-e^{-\\lambda t}\\right)$$\nEach decay releases a fixed amount of thermal energy $E_0$. Therefore, the total thermal energy released per unit time (the power input to the liquid, $\\frac{dQ}{dt}$) is\n$$\\frac{dQ}{dt}=A(t)\\cdot E_0=\\alpha E_0\\left(1-e^{-\\lambda t}\\right)$$\nWhen heat energy $Q$ is supplied to a liquid of mass $m$ and specific heat capacity $s$, the relationship between the heat supplied and the resulting temperature rise $\\Delta T$ is given by\n$$Q=ms\\,\\Delta T$$\nFor an infinitesimal change over time $dt$,\n$$dQ=ms\\,dT\\frac{dQ}{dt}=ms\\frac{dT}{dt}\\frac{dT}{dt}=\\frac{1}{ms}\\left(\\frac{dQ}{dt}\\right)\\frac{dT}{dt}=\\frac{1}{ms}\\left[\\alpha E_0\\left(1-e^{-\\lambda t}\\right)\\right]\\frac{dT}{dt}=\\frac{\\alpha E_0}{ms}\\left(1-e^{-\\lambda t}\\right)$$\nTherefore, the rate of increase of temperature of liquid is $\\frac{\\alpha E_0}{ms}\\left(1-e^{-\\lambda t}\\right)$. Thus, the correct option is (A).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$ \\frac{\\alpha E_0}{ms} (1 - e^{-\\lambda t}) $",
+      "$ \\frac{\\alpha E_0}{ms} (e^{\\lambda t} - 1) $",
+      "$ \\frac{\\lambda E_0}{ms} (1 - e^{-\\lambda t}) $",
+      "$ \\frac{E_0}{ms} (\\alpha - \\lambda e^{-\\lambda t}) $"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpp4nyvr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_002",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a hydrogen atom with $v_k, r_k,$ and $K_k$ denoting the velocity, orbital radius and kinetic energy of the electron in the $k^{{th}}$ orbit, respectively. The electron undergoes a transition from the $n^{{th}}$ orbit, emitting radiation corresponding to the Lyman series. Considering $h$ to be the Planck’s constant and $\nho_0$ the permittivity of the free space, the correct statement(s) is/are:",
+    "solution": "For an electron of mass $m$ and charge $e$ orbiting a stationary proton (charge $+e$ ) in a circular path of radius $r_k$ with speed $\\mathrm{v}_{\\mathrm{k}}$.\n\n[Diagram]\n\nThe electrostatic force provides the necessary centripetal acceleration,\n$$ \\frac{\\mathrm{m} \\mathrm{v}_{\\mathrm{k}}^2}{\\mathrm{r}_{\\mathrm{k}}}=\\frac{\\mathrm{e}^2}{4 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}^2} \\Rightarrow \\mathrm{~m} \\mathrm{v}_{\\mathrm{k}}^2=\\frac{\\mathrm{e}^2}{4 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}} $$\nThe kinetic energy of an electron in its orbit is,\n$$ \\mathrm{K}_{\\mathrm{k}}=\\frac{1}{2} \\mathrm{~m} \\mathrm{v}_{\\mathrm{k}}^2=\\frac{\\mathrm{e}^2}{8 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}} $$\nThe potential energy of an electron in its orbit is,\n$$ \\mathrm{U}_{\\mathrm{k}}=-\\frac{\\mathrm{e}^2}{4 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}} $$\nSo, the total energy of an electron in hydrogen atom in $\\mathrm{k}^{\\text {th }}$ orbit is,\n$$ \\mathrm{E}_{\\mathrm{k}}=\\mathrm{K}_{\\mathrm{k}}+\\mathrm{U}_{\\mathrm{k}}=-\\frac{\\mathrm{e}^2}{8 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}}=-\\mathrm{K}_{\\mathrm{k}} $$\nAccording to Bohr's second postulate the orbital angular momentum is quantized as an integral multiple of $\\frac{h}{2 \\pi}$ :\n$$ \\mathrm{L}_{\\mathrm{k}}=\\mathrm{m} \\mathrm{v}_{\\mathrm{k}} \\mathrm{r}_{\\mathrm{k}}=\\frac{\\mathrm{kh}}{2 \\pi} \\Rightarrow \\mathrm{~m}=\\frac{\\mathrm{kh}}{2 \\pi \\mathrm{v}_{\\mathrm{k}} \\mathrm{r}_{\\mathrm{k}}} $$\nFor the ground state ( $\\mathrm{k}=1$ )\n$$ \\mathrm{m}=\\frac{\\mathrm{h}}{2 \\pi \\mathrm{v}_1 \\mathrm{r}_1} $$\nFor the $\\mathrm{n}^{\\text {th }}$ state ( $\\mathrm{k}=\\mathrm{n}$ )\n$$ \\mathrm{m}=\\frac{\\mathrm{nh}}{2 \\pi \\mathrm{v}_{\\mathrm{n}} \\mathrm{r}_{\\mathrm{n}}} $$\nWhen the electron undergoes a transition from a higher state n to the ground state 1 the magnitude of change in kinetic energy is:\n$$ |\\Delta K|=\\left|K_n-K_1\\right| $$\nSince the mass of the electron is constant, $\\mathrm{K}_{\\mathrm{k}}=\\frac{1}{2} \\mathrm{~L}_{\\mathrm{k}} \\omega_{\\mathrm{k}}$, where angular velocity $\\omega_{\\mathrm{k}}=\\frac{\\mathrm{v}_{\\mathrm{k}}}{\\mathrm{r}_{\\mathrm{k}}}$ :\n$$ \\mathrm{K}_{\\mathrm{k}}=\\frac{1}{2}\\left(\\frac{\\mathrm{k} \\mathrm{~h}}{2 \\pi}\\right)\\left(\\frac{\\mathrm{v}_{\\mathrm{k}}}{\\mathrm{r}_{\\mathrm{k}}}\\right)=\\frac{\\mathrm{k} \\mathrm{hv}_{\\mathrm{k}}}{4 \\pi \\mathrm{r}_{\\mathrm{k}}} $$\nFor $\\mathrm{k}=\\mathrm{n}$\n$$ \\mathrm{K}_{\\mathrm{n}}=\\frac{\\mathrm{nhv}_{\\mathrm{n}}}{4 \\pi \\mathrm{r}_{\\mathrm{n}}} $$\nAnd for $\\mathrm{k}=1$ :\n$$ \\mathrm{K}_1=\\frac{\\mathrm{hv}_1}{4 \\pi \\mathrm{r}_1} $$\nTherefore, the magnitude of the change in kinetic energy is:\n$$ |\\Delta \\mathrm{K}|=\\left|\\frac{\\mathrm{nh}}{4 \\pi} \\frac{\\mathrm{v}_{\\mathrm{n}}}{\\mathrm{r}_{\\mathrm{n}}}-\\frac{\\mathrm{h}}{4 \\pi} \\frac{\\mathrm{v}_1}{\\mathrm{r}_1}\\right|=\\frac{\\mathrm{h}}{4 \\pi}\\left|\\frac{\\mathrm{n}_{\\mathrm{n}}}{\\mathrm{r}_{\\mathrm{n}}}-\\frac{\\mathrm{v}_1}{\\mathrm{r}_1}\\right| $$\nThus, option (A) is correct\nThe de Broglie wavelength $\\lambda_{\\mathrm{k}}$ of the electron is given by:\n$$ \\lambda_{\\mathrm{k}}=\\frac{\\mathrm{h}}{\\mathrm{p}_{\\mathrm{k}}}=\\frac{\\mathrm{h}}{\\sqrt{2 \\mathrm{mK}_{\\mathrm{k}}}} $$\nFrom the kinetic energy equation\n$$ \\mathrm{K}_{\\mathrm{k}}=\\frac{\\mathrm{e}^2}{8 \\pi \\epsilon_0 \\mathrm{r}_{\\mathrm{k}}} \\Rightarrow \\mathrm{r}_{\\mathrm{k}}=\\frac{\\mathrm{e}^2}{8 \\pi \\epsilon_0 \\mathrm{~K}_{\\mathrm{k}}} $$\nUsing Bohr's quantization condition $2 \\pi \\mathrm{r}_{\\mathrm{k}}=\\mathrm{k} \\lambda_{\\mathrm{k}}$ :\n$$ \\lambda_k=\\frac{2 \\pi r_k}{k}=\\frac{2 \\pi}{k}\\left(\\frac{e^2}{8 \\pi \\epsilon_0 K_k}\\right)=\\frac{e^2}{4 \\epsilon_0 k_k} $$\nThe change in wavelength between the two levels is :\n$$ |\\Delta \\lambda|=\\left|\\lambda_n-\\lambda_1\\right|=\\frac{\\mathrm{e}^2}{4 \\epsilon_0}\\left|\\frac{1}{\\mathrm{nK}_{\\mathrm{n}}}-\\frac{1}{1 \\cdot \\mathrm{~K}_1}\\right| |\\Delta \\lambda|=\\frac{\\mathrm{e}^2}{4 \\epsilon_0}\\left|\\frac{1}{\\mathrm{nK}_{\\mathrm{n}}}-\\frac{1}{\\mathrm{~K}_1}\\right| $$\nThus, option (B) is incorrect.\nAccording to Bohr's frequency condition, the energy of the photon emitted during a transition from level n to level 1 is equal to the change in total energy :\n$$ \\mathrm{h}\nu=\\mathrm{E}_{\\mathrm{n}}-\\mathrm{E}_1=\\left(-\\mathrm{K}_{\\mathrm{n}}\\right)-\\left(-\\mathrm{K}_1\\right)=\\mathrm{K}_1-\\mathrm{K}_{\\mathrm{n}} $$\n\nThe kinetic energy in $k^{\\text{th}}$ energy level is $K_k = \\frac{e^2}{8\\pi \\epsilon_0 r_k}$,\n$$h\nu = \\frac{e^2}{8\\pi \\epsilon_0 r_1} - \\frac{e^2}{8\\pi \\epsilon_0 r_n} = \\frac{e^2}{8\\pi \\epsilon_0} \\left( \\frac{1}{r_1} - \\frac{1}{r_n} \\right)\nu = \\frac{e^2}{8\\pi \\epsilon_0 h} \\left( \\frac{1}{r_1} - \\frac{1}{r_n} \\right)$$\nTherefore, the frequency of radiation emitted can be expressed as $\\frac{e^2}{8\\pi \\epsilon_0 h} \\left( \\frac{1}{r_1} - \\frac{1}{r_n} \\right)$. Thus, option (C) is correct.\nThe magnitude of the change in total energy is exactly equal to the magnitude of the change in kinetic energy because $|E_k| = K_k$.\n$$|\\Delta E| = |\\Delta K| = \\frac{h}{4\\pi} \\left| \\frac{n\\,v_n}{r_n} - \\frac{v_1}{r_1} \\right|$$\nHence, option (D) is incorrect.\nTherefore, the correct options are (A) and (C).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "Magnitude of change in kinetic energy of electron can be expressed as $\\frac{h}{4\\pi}\\left|\\frac{nv_n}{r_n} - \\frac{v_1}{r_1}\\right|$.",
+      "Magnitude of change in de Broglie wavelength of the electron can be expressed as $\\frac{e^2}{4\\epsilon_0}\\left|\\frac{1}{K_n} - \\frac{1}{K_1}\\right|$.",
+      "Frequency of the radiation emitted can be expressed as $\\frac{e^2}{8\\pi\\epsilon_0 h}\\left(\\frac{1}{r_1} - \\frac{1}{r_n}\\right)$.",
+      "Magnitude of change in total energy of the electron can be expressed as $\\frac{h}{2\\pi}\\left|\\frac{v_1}{r_1} - \\frac{nv_n}{r_n}\\right|$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpe0nxmq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_003",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a radioactive decay process, the activity is defined as $A=-\\frac{d N}{d t}$, where $N(t)$ is the number of radioactive nuclei at time $t$. Two radioactive sources, $S_1$ and $S_2$ have same activity at time $t=0$. At a later time, the activities of $S_1$ and $S_2$ are $A_1$ and $A_2$, respectively. When $S_1$ and $S_2$ have just completed their $3^{\\text {rd }}$ and $7^{\\text {th }}$ half-lives, respectively, the ratio $A_1 / A_2$ is _________.",
+    "solution": "$$\nA_1=A_0 e^{-\\lambda_1 t_1}\n$$\n\nalso $A_2=A_0 e^{-\\lambda_2 t_2}$\n\nAt $t_1=\\frac{3 \\ln 2}{\\lambda_1}, $\n\n$A_1=A_0 e^{-\\lambda_1 \\frac{3 \\ln 2}{\\lambda_1}}$\n\n$$\n=A_0 e^{-3 \\ln 2}\n$$ ...........(i)\n\nSimilarly, at\n\n$$\n\\begin{aligned}\n&t_2= \\frac{7 \\ln 2}{\\lambda_2}, \\\\\\\\& A_2=A_0 e^{-\\lambda_2 \\frac{7 \\ln 2}{\\lambda_2}} \\\\\\\\\n& =A_0 e^{-7 \\ln 2} ...........(ii)\n\\end{aligned}\n$$\n\nFrom (i) and (ii)\n\n$$\n\\frac{A_1}{A_2}=\\frac{A_0 e^{-3 \\ln 2}}{A_0 e^{-7 \\ln 2}}=\\frac{2^{-3}}{2^{-7}}=\\frac{1}{2^{-4}}=2^4=16\n$$\n\n$\\therefore \\frac{A_1}{A_2}=16$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_004",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List-I shows various functional dependencies of energy $(E)$ on the atomic number $(Z)$. Energies associated with certain phenomena are given in List-II.\nChoose the option that describes the correct match between the entries in List-I to those in List-II.\n\n\n\nList–I\n\nList–II\n\n\n\n\n\n(P) $E \\propto Z^2$\n\n(1) energy of characteristic x-rays\n\n\n\n\n\n(Q) $E \\propto (Z - 1)^2$\n\n(2) electrostatic part of the nuclear binding energy for stable nuclei with mass numbers in the range 30 to 170\n\n\n\n\n\n(R) $E \\propto Z(Z - 1)$\n\n(3) energy of continuous x-rays\n\n\n\n\n\n(S) $E$ is practically independent of $Z$\n\n(4) average nuclear binding energy per nucleon for stable nuclei with mass number in the range 30 to 170\n\n\n\n\n\n\n\n(5) energy of radiation due to electronic transitions from hydrogen-like atoms",
+    "solution": "(P) For a hydrogen - like atom (atomic. number $z$ ), the energy of an\nelectron in the n-th orbit (Bohr model) is, $E_n=\\frac{-13.6 z^2}{n^2} \\mathrm{eV}$\nSo $E \\propto z^2$\nSo energy of radiation due to electronic transitions from hydrogen like atoms can be written as\n$$ \\begin{aligned} & E=-13.6 z^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right) \\\\ \\Rightarrow & E \\propto z^2 \\end{aligned} \\text { so }(p) \\rightarrow(s) $$\n(Q) Characteristic $x$-rays are emitted when an electron from a higher shell fills a vacancy in an inner shell (eg. K-shell). The energy of the emitted $x$-ray corresponds to the energy difference between the shells.\nFor $k$-shell $x$-rays,\n$$ \\text { L- shell }(n=2) \\rightarrow k \\text {-shell }(n=1) $$ transition occurs.\nThe energy levels, are modified by screening effects as the inner electron sees an effective nuclear charge of approximately $(z-1)$ due to screening by the other $k$-shell electron.\nSo using Bohr-like model with effective charge :\n$$ E_1=\\frac{-13.6(z-1)^2}{1^2}, E_2=\\frac{-13.6(z-1)^2}{2^2} $$\nSo $\\Delta E=E_2-E_1$\n$$ \\begin{aligned} & =13 \\cdot 6(z-1)^2\\left[\\frac{1}{1^2}-\\frac{1}{2^2}\\right] \\\\ \\Rightarrow & \\Delta E \\propto(z-1)^2 \\\\ \\Rightarrow & E \\propto(z-1)^2 \\end{aligned} $$\nSo $($ a $) \\longrightarrow(1)$\n(R) $E \\propto z(z-1)$\nLet's find the electrostatic energy between, protons in the nucleus: A nucleus with atomic number z has z protons.\nThe electrostatic (coulomb) energy arises from the repulsion between each pair of protons.\nSo number of paps $=z_{c_2}=\\frac{z(z-1)}{2}$\nCoulomb energy between two protons separated by a distance $r$.\n$$ E_1=\\frac{k q_1 q_2}{r}=\\frac{1}{4 \\pi \\varepsilon_0} \\frac{e \\cdot e}{r}=\\frac{e^2}{4 \\pi \\varepsilon_0 r} $$\nSo total electrostatic energy.\n$$ \\begin{aligned} E & =\\text { number of pairs } \\times E_1 \\\\ \\Rightarrow E & =\\frac{z(z-1)}{2} \\cdot \\frac{e^2}{4 \\pi \\varepsilon_0 r} \\\\ \\Rightarrow E & \\propto z(z-1) \\end{aligned} $$\nSo $(R) \\longrightarrow(2)$\n(s) The binding energy per nucleon is a measure of the stability of a nucleus and is given by the semi-empirical mass formula. For most nuclei (except very light ones), the average binding energy per nucleon is approximately constant, around $8-9 \\mathrm{Mev}$ due to the saturation of nuclear forces. i.e., it is independent of $z$.\nso ( S ) $\\rightarrow$ (4)\nHence, option (C) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P→4, Q→3, R→1, S→2",
+      "P→5, Q→2, R→1, S→4",
+      "P→5, Q→1, R→2, S→4",
+      "P→3, Q→2, R→1, S→5"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_005",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List-I shows different radioactive decay processes and List-II provides possible emitted particles. Match each entry in List-I with an appropriate entry from List-II, and choose the correct option.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) ${ }_{92}^{238} U \\rightarrow{ }_{91}^{234} \\mathrm{~Pa}$\n(1) one $\\alpha$ particle and one $\\beta^{+}$particle\n\n\n(Q) ${ }_{82}^{214} \\mathrm{~Pb} \\rightarrow{ }_{82}^{210} \\mathrm{~Pb}$\n(2) three $\\beta^{-}$particles and one $\\alpha$ particle\n\n\n(R) ${ }_{81}^{210} \\mathrm{Tl} \\rightarrow{ }_{82}^{206} \\mathrm{~Pb}$\n(3) two $\\beta^{-}$particles and one $\\alpha$ particle\n\n\n(S) ${ }_{91}^{228} \\mathrm{~Pa} \\rightarrow{ }_{88}^{224} \\mathrm{Ra}$\n(4) one $\\alpha$ particle and one $\\beta^{-}$particle\n\n\n\n(5) one $\\alpha$ particle and two $\\beta^{+}$particles",
+    "solution": "In the given nuclear reaction :\n\n$${}_{{Z_1}}{Z^{{A_1}}} \\to {}_{{Z_2}}{Y^{{A_2}}} + {N_1}\\,\\,\\left( {{}_2{H^4}} \\right) + {N_2}\\,\\,\\left( {{}_1{e^0}} \\right) + {N_3}\\,\\,\\left( {{}_{ - 1}{e^0}} \\right)$$\n\nwe have the conservation of charge expressed as :\n\n$\nZ_1 = Z_2 + 2N_{1} + N_{2} - N_{3}\n$ ...............(i)\n\nand the conservation of nucleons (mass number) is given by :\n\n$\n\\begin{aligned}\nA_1 &= A_2 + 4N_{1} \\\\\\\\\nN_{1} &= \\frac{A_1 - A_2}{4} ..........(ii)\n\\end{aligned}\n$\n\nFrom (i) and (ii), we get\n\n$$\n\\mathrm{N}_2-\\mathrm{N}_3=\\mathrm{Z}_1-\\mathrm{Z}_2-\\left(\\frac{\\mathrm{A}_1-\\mathrm{A}_2}{2}\\right)\n$$\n\n$\\begin{aligned} & \\text { (P) }{ }_{92} \\mathrm{U}^{238} \\rightarrow{ }_{91} \\mathrm{~Pa}^{234} \\\\\\\\ & \\mathrm{~N}_1=\\frac{238-234}{4}=1 \\rightarrow 1 \\alpha \\\\\\\\ & \\mathrm{N}_2-\\mathrm{N}_3=(92-91)-\\left(\\frac{4}{2}\\right)=-1 \\rightarrow 1 \\beta^{-}\\end{aligned}$\n\n$\\begin{aligned} & \\text { (Q) }{ }_{82} \\mathrm{~Pb}^{214} \\rightarrow { }_{82} \\mathrm{~Pb}^{210} \\\\\\\\ & \\quad \\mathrm{~N}_1=\\frac{214-210}{4}=1 \\rightarrow 1 \\alpha \\\\\\\\ & \\mathrm{N}_2-\\mathrm{N}_3=(82-82)-\\left(\\frac{4}{2}\\right)=-2 \\rightarrow 2 \\beta^{-}\\end{aligned}$\n\n$\\begin{aligned} & (\\mathrm{R}){ }_{81} \\mathrm{~T} \\ell^{210} \\rightarrow { }_{82} \\mathrm{~Pb}^{206} \\\\\\\\ & \\mathrm{~N}_1=\\frac{210-206}{4}=1 \\rightarrow 1 \\alpha \\\\\\\\ & \\mathrm{N}_2-\\mathrm{N}_3=(81-83)-\\frac{4}{2}=-3 \\rightarrow 3 \\beta^{-}\\end{aligned}$\n\n$\\begin{aligned} & \\text { (S) }{ }_{91} \\mathrm{~Pa}^{228} \\rightarrow_{88} \\mathrm{Ra}^{224} \\\\\\\\ & \\mathrm{~N}_1=\\frac{228-224}{4}=1 \\rightarrow 1 \\alpha \\\\\\\\ & \\mathrm{N}_2-\\mathrm{N}_3=(91-88)-\\frac{4}{2}=1 \\beta^{+}\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$P \\rightarrow 4, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1$",
+      "$P \\rightarrow 4, Q \\rightarrow 1, R \\rightarrow 2, S \\rightarrow 5$",
+      "$P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 1, S \\rightarrow 4$",
+      "$P \\rightarrow 5, Q \\rightarrow 1, R \\rightarrow 3, S \\rightarrow 2$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_006",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A heavy nucleus Q of half-life 20 minutes undergoes alpha-decay with probability of 60% and beta-decay with probability of 40%. Initially, the number of Q nuclei is 1000. The number of alpha-decays of Q in the first one hour is",
+    "solution": "Out of 1000 nuclei of Q, 60% may go $$\\alpha$$-decay\n\n$$\\Rightarrow$$ 600 nuclei may have $$\\alpha$$-decay\n\n$$\\lambda = {{\\ln 2} \\over {{t_{1/2}}}} = {{\\ln 2} \\over {20}}$$\n\nt = 1 h = 60 min\n\nUsing,\n\n$$N = {N_0}{e^{ - \\lambda t}} = 600 \\times {e^{ - {{\\ln 2} \\over {20}} \\times 60}}$$\n\nN = 75\n\n$$\\Rightarrow$$ 75 nuclei are left after one hour\n\nSo, number of nuclei decayed = 600 $$-$$ 75 = 525",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "50",
+      "75",
+      "350",
+      "525"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_007",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a radioactive sample, $${}_{19}^{40}K$$ nuclei either decay into stable $${}_{20}^{40}Ca$$ nuclei with decay constant 4.5 $$ \\times $$ 10$^{-10}$ per year or into stable $${}_{18}^{40}Ar$$ nuclei with decay constant 0.5 $$ \\times $$ 10$^{-10}$ per year. Given that in this sample all the stable $${}_{20}^{40}Ca$$ and $${}_{18}^{40}Ar$$ nuclei are produced by the $${}_{19}^{40}K$$ nuclei only. In time t $$ \\times $$ 10$^{9}$ years, if the ratio of the sum of stable $${}_{20}^{40}Ca$$ and $${}_{18}^{40}Ar$$ nuclei to the radioactive $${}_{19}^{40}K$$ nuclei is 99, the value of t will be\n\n[Given : In 10 = 2.3]",
+    "solution": "[Diagram]\n\n\nat t = 0 dissipated energy,\n\n$${{dN} \\over {dt}} = - ({\\lambda _1} + {\\lambda _2}) \\times N \\Rightarrow {{dN} \\over N} = - ({\\lambda _1} + {\\lambda _2})dt$$\n\nIntegration on both sides, we get\n\n$${\\log _e}\\left( {{N \\over {{N_0}}}} \\right) = - ({\\lambda _1} + {\\lambda _2})t2.3 \\times {\\log _{10}}\\left( {{{{N_0}} \\over {{N_0}/100}}} \\right) = (5 \\times {10^{ - 10}})t{{2.303 \\times 2} \\over {5 \\times {{10}^{ - 10}}}} = t2.303 \\times 0.4 \\times {10^{10}} = t \\Rightarrow t = 9.2 \\times {10^9}Yr$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "9.2",
+      "1.15",
+      "4.6",
+      "2.3"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_008",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An accident in a nuclear laboratory resulted in deposition of a certain amount of radioactive material of half-life 18 days inside the laboratory. Tests revealed that the radiation was 64 times more than the permissible level required for safe operation of the laboratory. What is the minimum number of days after which the laboratory can be considered safe for use?",
+    "solution": "To determine the minimum number of days after which the laboratory can be considered safe for use, we need to understand how the radioactive material decays over time.\n\nThe half-life of a radioactive material is the time it takes for half of the material to decay. For our given material, the half-life is 18 days. This means every 18 days, the amount of radioactive material is reduced to half of its previous amount.\n\nGiven that the initial radiation level is 64 times more than the permissible level, we can represent this situation mathematically. Let $ R $ be the initial radiation level and $ P $ be the permissible level of radiation. We are given:\n\n$$ R = 64P $$\n\nAfter each half-life period of 18 days, the amount of radioactive material will be halved. If $ n $ is the number of half-life periods required for the radiation to reduce to the permissible level, we can write:\n\n$$ \\frac{R}{2^n} = P $$\n\nUsing the given information ($ R = 64P $), we get:\n\n$$ \\frac{64P}{2^n} = P $$\n\nDividing both sides by $ P $, we get:\n\n$$ \\frac{64}{2^n} = 1 $$\n\nThis implies:\n\n$$ 2^n = 64 $$\n\nKnowing that $ 64 $ is a power of $ 2 $:\n\n$$ 64 = 2^6 $$\n\nTherefore, $ n = 6 $. This means it will take six half-life periods for the radiation to decay to a safe level.\n\nSince each half-life period is 18 days, the total number of days required is:\n\n$$ 6 \\times 18 = 108 $$\n\nHence, the minimum number of days after which the laboratory can be considered safe for use is 108 days.\n\n**Answer: Option C (108)**",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "64",
+      "90",
+      "108",
+      "120"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_009",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrostatic energy of Z protons uniformly distributed throughout a spherical nucleus of radius R is given by $$E = {3 \\over 5}{{Z(Z - 1){e^2}} \\over {4\\pi {\\varepsilon _0}R}}$$\n\nThe measured masses of the neutron, $$_1^1H$$, $$_7^{15}N$$ and $$_8^{15}O$$ are 1.008665u, 1.007825u, 15.000109u and 15.003065u, respectively. Given that the radii of both the $$_7^{15}N$$ and $$_8^{15}O$$ nuclei are same, 1 u = 931.5 MeV/c$^{2}$ (c is the speed of light) and e$^{2}$/(4$$\\pi{{\\varepsilon _0}}$$) = 1.44 MeV fm. Assuming that the difference between the binding energies of $$_7^{15}N$$ and $$_8^{15}O$$ is purely due to the electrostatic energy, the radius of either of the nuclei is (1 fm = 10$^{$$-$$15}$ m)",
+    "solution": "The binding energies of $$_7^{15}N$$ and $$_8^{15}O$$ are given by\n$$B{E_N} = \\Delta {m_N}{c^2} = (8{m_n} + 7{m_p} - {M_N}){c^2} = (8 \\times 1.008665 + 7 \\times 1.007825 - 15.000109 \\times 931.5$$\n= 115.49 MeV,\n$$B{E_O} = \\Delta {m_O}{c^2} = (7{m_n} + 8{m_p} - {M_O}){c^2} = (7 \\times 1.008665 + 8 \\times 1.007825 - 15.003065 \\times 931.5$$\n= 111.95 MeV.\nThe difference in binding energies of $$_7^{15}N$$ and $$_8^{15}O$$ is\n$$\\Delta BE = B{E_N} - B{E_O} = 115.49 - 111.95$$\n= 3.54 MeV. ........ (1)\nThe electrostatic energies of $$_7^{15}N$$ and $$_8^{15}O$$ are given by\n$${E_N} = {3 \\over 5}{{Z(Z - 1){e^2}} \\over {4\\pi { \\in _0}R}} = {3 \\over 5}{{7(7 - 1)1.44} \\over R} = {{36.288} \\over R}$$ MeV-fm\n$${E_O} = {3 \\over 5}{{8(8 - 1)1.44} \\over R} = {{48.384} \\over R}$$ MeV-fm.\nThe difference in electrostatic energies of $$_7^{15}N$$ and $$_8^{15}O$$ is\n$$\\Delta E = {E_O} - {E_N} = (12.096/R)$$ ...... (2)\nSince, $$\\Delta E = \\Delta BE$$, equations (1) and (2) give $$R = 12.096/3.54 = 3.42$$ fm.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2.85 fm",
+      "3.03 fm",
+      "3.42 fm",
+      "3.80 fm"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_010",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the nuclear processes given in Column I with the\nappropriate option(s) in Column II:\n\n[Diagram]",
+    "solution": "The nuclear fusion is responsible for energy production in stars via fusion of hydrogen nuclei into helium nuclei. In sun, the fusion takes place dominantly by proton-proton cycle, $$4_1^1H \\to _2^4He + 2{e^ + } + 2\nu + 2\\gamma $$. The neutrino ($$\nu $$) and $$\\gamma$$-rays emissions are parts of this fusion reaction.\nThe uranium based fission reactions involve absorption of thermal neutrons by $${}_{92}^{235}$$U nuclei to produce the highly fissionable $${}_{92}^{236}$$U nuclei. This nuclei then fissions into two parts e.g., $${}_{92}^{236}$$U $$\\to{}_{63}^{137}$$I + $${}_{39}^{97}$$Y + 2n. The fission fragments are unstable and undergo $$\\beta$$-decay to reduce their neutron to proton ratio. The fragments are generally formed in excited states and consequently emit $$\\gamma$$-rays. The heavy water (D$_{2}$O) is used as a moderator to slow down the fast moving neutrons.\nIn $$\\beta$$-decay, a neutron is converted into a proton. In this process, an electron and an antineutrino are created and emitted from the nucleus, n $$\\to$$ p + e$^{$$-$$}$ + $$\\overline v $$. The $$\\beta$$-decay in $${}_{27}^{60}$$Co $$\\to{}_{28}^{60}$$Ni + e$^{$$-$$}$ + $$\\overline v $$. The daughter nuclei $${}_{28}^{60}$$Ni is formed in excited state and comes to ground state by $$\\gamma$$-ray emission.\nThe $$\\gamma$$-rays are high energy electromagnetic rays. These rays are generally emitted when a nuclei in excited state (high energy) makes a transition to a lower state (low energy).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)→(R) or (RT), (T); (B)→(P), (S); (C)→(Q), (T); (D)→(R)",
+      "(A)→(R), (T); (B)→(Q), (S); (C)→(Q), (T); (D)→(R)",
+      "(A)→(R) or (RT), (T); (B)→(P), (S); (C)→(S), (T); (D)→(R)",
+      "(A)→(P), (T); (B)→(P), (S); (C)→(Q), (T); (D)→(R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l139aafx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_011",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\lambda$$$_{Cu}$ is the wavelength of K$_{$$\\alpha$$}$ X-ray line of copper (atomic number 29) and $$\\lambda$$$_{Mo}$ is the wavelength of the K$_{$$\\alpha$$}$ X-ray line of molybdenum (atomic number 42), then the ratio $$\\lambda$$$_{Cu}$/$$\\lambda$$$_{Mo}$ is close to",
+    "solution": "The wavelength of the K$_{$$\\alpha$$}$ X-ray line is related to the atomic number of the element by Moseley's law, which can be expressed as:\n\n$$ \\sqrt{\nu} = A(Z - B) $$\n\nHere, $$\nu$$ is the frequency of the emitted X-ray, $$Z$$ is the atomic number, and $$A$$ and $$B$$ are constants. Given that the wavelength $$\\lambda$$ is inversely proportional to the frequency $$\nu$$ (since $$\nu = \\frac{c}{\\lambda}$$, where $$c$$ is the speed of light), we can rewrite this equation in terms of wavelength:\n\n$$ \\lambda \\propto \\frac{1}{(Z - B)^2} $$\n\nNow, let's consider the ratio of the wavelengths for copper (Cu) and molybdenum (Mo):\n\n$$ \\frac{\\lambda_{Cu}}{\\lambda_{Mo}} = \\left(\\frac{Z_{Mo} - B}{Z_{Cu} - B}\\right)^2 $$\n\nFor the K$_{$$\\alpha$$}$ X-ray line, the constant $$B$$ can be approximated as 1. Using the atomic numbers $$Z_{Cu} = 29$$ and $$Z_{Mo} = 42$$, we can plug these values into the ratio:\n\n$$ \\frac{\\lambda_{Cu}}{\\lambda_{Mo}} = \\left(\\frac{42 - 1}{29 - 1}\\right)^2 = \\left(\\frac{41}{28}\\right)^2 $$\n\nCalculating the above expression:\n\n$$ \\frac{41}{28} \\approx 1.464 \\left(1.464\\right)^2 \\approx 2.14 $$\n\nTherefore, the ratio $$\\frac{\\lambda_{Cu}}{\\lambda_{Mo}}$$ is close to 2.14. The correct option is:\n\n**Option B** 2.14",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1.99",
+      "2.14",
+      "0.50",
+      "0.48"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_012",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement is",
+    "solution": "We have\n$$m(_1^2H) + m(_2^4He) = 2.014102 + 4.002603 = 6.016705\\,um(_3^6Li) = 6.015123\\,u{m_1} + {m_2} > M$$\nThus, option (A) is wrong.\n$$m(_1^1H) + m(_{83}^{209}Bi) = 1.007825\\,u + 208.980388\\,u = 209.988213\\,um(_{84}^{210}Po) = 209.982876\\,u{m_1} + {m_2} > M$$\nThus, option (B) is wrong.\n$$m(_1^2H) + m(_2^4He) = 2.014102\\,u + 4.002603\\,u = 6.016705\\,u_3^6Li = 6.015123\\,u({m_3} + {m_4}) > M'$$\nThus, option (C) is correct. Therefore, deuteron and alpha particle can go complete fusion.\n$$m(_{30}^{70}Zn) + _{34}^{82}Se = 69.925325\\,u + 81.916709\\,u = 151.842034\\,u_{64}^{152}Gd = 151.919803\\,u{m_3} + {m_4} < M'$$\nThus, option (D) is wrong.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "the nucleus $$_3^6Li$$ can emit an alpha particle.",
+      "the nucleus $$_{84}^{210}Po$$ can emit a proton.",
+      "deuteron and alpha particle can undergo complete fusion.",
+      "the nuclei $$_{30}^{70}Zn$$ and $$_{34}^{82}Se$$ can undergo complete fusion."
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_013",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The kinetic energy (in keV) of the alpha particle, when the nucleus $$_{84}^{210}Po$$ at rest undergoes alpha decay, is",
+    "solution": "The alpha decay of $$_{84}^{210}Po$$ is given by\n$$_{84}^{210}Po \\to _{82}^{206}Pb + _2^4He$$\nThe energy released during this process is\n$$Q = ({M_{Po}} - {M_{Pb}} - {M_{He}}){c^2} = (209.982876 - 205.974455 - 4.002603)\\,u \\times {c^2} = (0.005818\\,u){c^2} = (0.005818\\,u) \\times 932\\,MeV = 5.422\\,MeV = 5422\\,keV$$\nKinetic energy of a particle, $${K_\\alpha } = {{(A - 4)Q} \\over A}{K_\\alpha } = {{(210 - 4)} \\over {210}} \\times 5422\\,keV = {{206} \\over {210}} \\times 5422\\,keV = 5319\\,keV$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "5319",
+      "5422",
+      "5707",
+      "5818"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_014",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match List I of the nuclear processes with List II containing parent nucleus and one of the end products of each process and then select the correct answer using the codes given below the lists :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nList I\n\nList II\n\n\n\nP.\nAlpha decay\n1.\n$$_8^{15}O \\to _7^{15}N + ...$$\n\n\n\nQ.\n$${\\beta ^ + }$$ decay\n2.\n$$_{91}^{238}U \\to _{90}^{234}Th + ...$$\n\n\n\nR.\nFission\n3.\n$$_{83}^{185}Bi \\to _{82}^{184}Pb + ...$$\n\n\n\nS.\nProton emission\n4.\n$$_{94}^{239}Pu \\to _{57}^{140}La + ...$$",
+    "solution": "In alpha decay, atomic number decreases by 2 and mass number decreases by 4.\nP $$\\to$$ 2\nIn $$\\beta$$$^{+}$ decay, atomic number decreases by 1 and mass number remains unchanged.\nQ $$\\to$$ 1\nIn fission, heavy nucleus breaks into two light nuclei.\nR $$\\to$$ 4\nIn proton emission, both atomic number and mass number decreases by 1.\nS $$\\to$$ 3",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P-4, Q-2, R-1, S-3",
+      "P-1, Q-3, R-2, S-4",
+      "P-2, Q-1, R-4, S-3",
+      "P-4, Q-3, R-2, S-1"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_015",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What is the maximum energy of the anti-neutrino?",
+    "solution": "$${K_p} + {K_{\\overline e }} + {K_{\\overline v }}$$ = 0.8 $$\\times$$ 10$^{6}$ eV\nWhen electron has zero kinetic energy is shared by antineutrino and proton.\nThen, $${K_p} + {K_{\\overline v }}$$ = 0.8 $$\\times$$ 10$^{6}$ eV\nAs antineutrino is very light mass in comparison to proton so it will have almost contribution in total energy.\n$$\\therefore$$ Its energy is almost 0.8 $$\\times$$ 10$^{6}$ eV",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Zero.",
+      "Much less than 0.8 $$\\times$$ 10$^{6}$ eV.",
+      "Nearly 0.8 $$\\times$$ 10$^{6}$ eV.",
+      "much larger than 0.8 $$\\times$$ 10$^{6}$ eV."
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_016",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the anti-neutrino had a mass of 3 eV/c$^{2}$ (where c is the speed of light) instead of zero mass, what should be the range of the kinetic energy, K, of the electron?",
+    "solution": "Total energy remains conserved. Energy is shared by antineutrino, proton and electron. Kinetic energy of electron has continuous spectrum and it is maximum when antineutrino does not share any kinetic energy.\nSo total energy is shared with proton and electron only.\n$$\\therefore$$ K $$\\le$$ 0.8 $$\\times$$ 10$^{6}$ eV\nand kinetic energy of electron will be minimum or zero when total energy is shared by proton and antineutrino.\n$$\\therefore$$ 0 $$\\le$$ K $$\\le$$ 0.8 $$\\times$$ 10$^{6}$ eV",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0 $$\\le$$ K $$\\le$$ 0.8 $$\\times$$ 10$^{6}$ eV",
+      "3.0 eV $$\\le$$ K $$\\le$$ 0.8 $$\\times$$ 10$^{6}$ eV",
+      "3.0 eV $$\\le$$ K < 0.8 $$\\times$$ 10$^{6}$ eV",
+      "0 $$\\le$$ K < 0.8 $$\\times$$ 10$^{6}$ eV"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_017",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The wavelength of the first spectral line in the Balmer series of hydrogen atom is 6561 $$\\mathop A\\limits^o $$. The wavelength of the second spectral line in the Balmer series of singly-ionized helium atom is",
+    "solution": "$${1 \\over \\lambda } = {R_H}{Z^2}\\left[ {{1 \\over {n_1^2}} - {1 \\over {n_2^2}}} \\right]$$\nFor singly-ionized helium atom, Z = 2. For hydrogen atom Z = 1.\nFor Balmer series n$_{1}$ = 2.\nFor first spectral line of hydrogen :\n$${1 \\over {6561}} = {R_H} \\times {(1)^2}\\left[ {{1 \\over {{2^2}}} - {1 \\over {{3^2}}}} \\right] = {{5R} \\over {36}} \\Rightarrow {R_H} = {{36} \\over {5 \\times 6561}}$$\nFor second spectral line of helium,\n$${1 \\over \\lambda } = {R_H} \\times {(2)^2}\\left[ {{1 \\over {{2^2}}} - {1 \\over {{4^2}}}} \\right] = {{3{R_H}} \\over 4} = {3 \\over 4} \\times {{36} \\over {5 \\times 6561}} \\Rightarrow \\lambda = 1215\\,\\mathop A\\limits^o $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1215 $$\\mathop A\\limits^o $$",
+      "1640 $$\\mathop A\\limits^o $$",
+      "2430 $$\\mathop A\\limits^o $$",
+      "4687 $$\\mathop A\\limits^o $$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_018",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A diatomic molecule has moment of inertia I. By Bohr's quantization condition, its rotational energy in the nth level (n = 0 is not allowed) is",
+    "solution": "To find the quantized rotational energy of a diatomic molecule, we can use Bohr's quantization condition for angular momentum. Bohr's quantization condition states that the angular momentum $ L $ of an electron in a hydrogen atom is quantized and given by:\n\n$$ L = n \\hbar $$\n\nwhere $ n $ is a positive integer (known as the quantum number) and $ \\hbar $ is the reduced Planck's constant, given by $ \\hbar = {\\hbar \\over {2\\pi}} $.\n\nFor a diatomic molecule, we extend this concept to its rotational motion. A rigid diatomic molecule can be approximated as a rigid rotor with a moment of inertia $ I $. The angular momentum $ L $ for the molecule in the nth level is given by:\n\n$$ L = n \\hbar $$\n\nwhere $ n $ is the quantum number (note that $ n = 0 $ is not allowed).\n\nThe rotational kinetic energy for a rotating body with moment of inertia $ I $ is given by:\n\n$$ E = {1 \\over 2} I \\omega^2 $$\n\nwhere $ \\omega $ is the angular velocity. The angular momentum $ L $ is related to the angular velocity $ \\omega $ by:\n\n$$ L = I \\omega $$\n\nSolving for $ \\omega $, we get:\n\n$$ \\omega = {L \\over I} $$\n\nSubstituting this back into the expression for energy, we get:\n\n$$ E = {1 \\over 2} I \\left( {L \\over I} \\right)^2 = {L^2 \\over 2I} $$\n\nUsing Bohr's quantization condition $ L = n \\hbar $, the energy expression becomes:\n\n$$ E = {{(n \\hbar)^2} \\over {2I}} $$\n\nSubstituting $ \\hbar = {\\hbar \\over {2\\pi}} $, we obtain:\n\n$$ E = {n^2 \\over {2I}} \\left( {{\\hbar^2} \\over {4\\pi^2}} \\right) = n^2 \\left( {{\\hbar^2} \\over {8\\pi^2 I}} \\right) $$\n\nTherefore, the quantized rotational energy of the diatomic molecule in the nth level is:\n\n$$ E_n = n^2 \\left( {{\\hbar^2} \\over {8\\pi^2 I}} \\right) $$\n\nSo, the correct option is:\n\nOption D\n\n$$ n^2 \\left( {{{h^2} \\over {8\\pi^2 I}}} \\right) $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${1 \\over {{n^2}}}\\left( {{{{h^2}} \\over {8{\\pi ^2}I}}} \\right)$$",
+      "$${1 \\over n}\\left( {{{{h^2}} \\over {8{\\pi ^2}I}}} \\right)$$",
+      "$$n\\left( {{{{h^2}} \\over {8{\\pi ^2}I}}} \\right)$$",
+      "$${n^2}\\left( {{{{h^2}} \\over {8{\\pi ^2}I}}} \\right)$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_019",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "It is found that the excitation frequency from ground to the first excited state of rotation for the CO molecule is close to $${4 \\over \\pi } \\times {10^{11}}$$ Hz. Then, the moment of inertia of CO molecule about its centre of mass is close to (Take h = 2$$\\pi\\times$$ 10$^{$$-$$34}$ J-s)",
+    "solution": "The energy of photon is equal to the energy difference between the ground level and first excited level.\n$$hv = {E_2} - {E_1}hv = {{(4 - 1){h^2}} \\over {8{\\pi ^2}I}} \\Rightarrow I = {{3h} \\over {8{\\pi ^2}v}}I = {{3 \\times 2\\pi \\times {{10}^{ - 34}}} \\over {[(8{\\pi ^2}4)/\\pi ] \\times {{10}^{11}}}} = {3 \\over {16}} \\times {10^{ - 45}}$$ kg-m$^{2}$ = 1.87 $$\\times$$ 10$^{$$-$$46}$ kg-m$^{2}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2.76 $$\\times$$ 10$^{$$-$$46}$ kg m$^{2}$",
+      "1.87 $$\\times$$ 10$^{$$-$$46}$ kg m$^{2}$",
+      "4.67 $$\\times$$ 10$^{$$-$$47}$ kg m$^{2}$",
+      "1.17 $$\\times$$ 10$^{$$-$$47}$ kg m$^{2}$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_020",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a CO molecule, the distance between C (mass = 12 amu) and O (mass = 16 amu), where 1 amu $$ = {5 \\over 3} \\times {10^{ - 27}}$$ kg, is close to :",
+    "solution": "The moment of inertia of CO molecule is\nI = $$\\mu$$r$^{2}$ ....... (i)\nwhere, $$\\mu$$ = reduced mass of the CO molecule, r = distance between C and O or bond length\nThe reduced mass $$\\mu$$ of the CO molecule is\n$$\\mu = {{{m_1}{m_2}} \\over {{m_1} + {m_2}}} = \\left[ {{{(12)(16)} \\over {12 + 16}}} \\right] \\times {5 \\over 3} \\times {10^{ - 27}}$$ kg\nBut $$I = 1.87 \\times {10^{ - 46}}$$ kg m$^{2}$ (From the above question)\nFrom equation (i), we get\n$${r^2} = {I \\over \\mu }$$\nSubstituting the values of I and $$\\mu$$ in above equation, we get\n$${r^2} = {{1.87 \\times {{10}^{ - 46}}} \\over {\\left[ {{{12 \\times 16} \\over {28}} \\times {5 \\over 3} \\times {{10}^{ - 27}}} \\right]}}$$\nor $${r^2} = {{1.87 \\times {{10}^{ - 46}} \\times 28 \\times 3} \\over {12 \\times 16 \\times 5 \\times {{10}^{ - 27}}}}$$ or $$r = 1.3 \\times {10^{ - 10}}$$ m",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2.4 $$\\times$$ 10$^{$$-$$10}$ m",
+      "1.9 $$\\times$$ 10$^{$$-$$10}$ m",
+      "1.3 $$\\times$$ 10$^{$$-$$10}$ m",
+      "4.4 $$\\times$$ 10$^{$$-$$11}$ m"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_021",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The speed of the particle, that can take discrete values, is proportional to",
+    "solution": "To find the relationship between the speed of the particle and the quantum number $$n$$, we need to follow a few steps using the given information and fundamental quantum mechanical principles.\n\nFirstly, for a particle moving in a one-dimensional box of length $$a$$, the allowed wavelengths $$\\lambda$$ of standing waves can be given by:\n\n$$ \\lambda = \\frac{2a}{n} $$\n\nfor $ n = 1, 2, 3, \\ldots $.\n\nThe de Broglie relation links the wavelength $$\\lambda$$ of a particle to its momentum $$p$$:\n\n$$ \\lambda = \\frac{h}{p} $$\n\nFrom this, we can express the momentum $$p$$ in terms of the quantum number $$n$$:\n\n$$ \\frac{h}{p} = \\frac{2a}{n} $$\n\nSolving for $$p$$, we get:\n\n$$ p = \\frac{nh}{2a} $$\n\nThe kinetic energy $$E$$ of the particle is related to its momentum $$p$$ by the equation:\n\n$$ E = \\frac{p^2}{2m} $$\n\nSubstituting $$ p = \\frac{nh}{2a} $$ into the energy expression, we get:\n\n$$ E = \\frac{(nh/2a)^2}{2m} = \\frac{n^2 h^2}{8ma^2} $$\n\nThe kinetic energy can also be written in terms of the speed $$v$$ of the particle:\n\n$$ E = \\frac{1}{2} m v^2 $$\n\nEquating the two expressions for energy, we have:\n\n$$ \\frac{1}{2} m v^2 = \\frac{n^2 h^2}{8ma^2} $$\n\nSolving for the speed $$v$$, we get:\n\n$$ v^2 = \\frac{n^2 h^2}{4m^2 a^2} $$\n\nTherefore, the speed $$v$$ of the particle is:\n\n$$ v = \\frac{nh}{2ma} $$\n\nFrom the above expression, we see that the speed $$v$$ of the particle is directly proportional to $$n$$:\n\n$$ v \\propto n $$\n\nTherefore, the speed of the particle is proportional to:\n\nOption D: $$ n $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${n^{ - 3/2}}$$",
+      "$${n^{ - 1}}$$",
+      "$${n^{1/2}}$$",
+      "$$n$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_022",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the core of nuclear fusion reactor, the gas becomes plasma because of",
+    "solution": "In a nuclear fusion reactor, the gas becomes plasma primarily because of the high temperature maintained inside the reactor core. At such high temperatures, typically in the range of millions of degrees Kelvin, the thermal energy is sufficient to ionize the atoms, meaning electrons are stripped from the nuclei, resulting in a collection of positively charged deuteron nuclei and negatively charged electrons. This ionized state of matter is known as plasma.\n\nThe strong nuclear force and Coulomb force (between deuterons and between deuteron-electron pairs) play roles in the fusion process and the behavior of particles. However, the ionization into plasma is primarily due to the extremely high temperatures.\n\nTherefore, the correct option is:\nOption D: the high temperature maintained inside the reactor core.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "strong nuclear force acting between the deuterons.",
+      "Coulomb force acting between the deuterons.",
+      "Coulomb force acting between deuteron-electrons pairs.",
+      "the high temperature maintained inside the reactor core."
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_023",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Assume that two deuteron nuclei in the core of fusion reactor at temperature T are moving towards each other, each with kinetic energy 1.5 kT, when the separation between them is large enough to neglect Coulomb potential energy. Also neglect any interaction from other particles in the core. The minimum temperature T required for them to reach a separation of 4 $$\\times$$ 10$$^{-15}$$ m is in the range",
+    "solution": "To determine the minimum temperature required for two deuteron nuclei to reach a separation of $$4 \\times 10^{-15}$$ m, we need to equate the initial kinetic energy of the deuterons with the potential energy at the specified separation distance.\n\nThe initial kinetic energy of each deuteron is given as :\n\n$$ KE = 1.5 \\, k \\, T $$\n\nSince there are two deuterons, the total kinetic energy is :\n\n$$ KE_{\\text{total}} = 2 \\times 1.5 \\, k \\, T = 3 \\, k \\, T $$\n\nThe Coulomb potential energy (PE) between two deuterons at a separation distance $$r = 4 \\times 10^{-15}$$ m is given by :\n\n$$ PE = \\frac{e^2}{4 \\pi \\epsilon_0 r} $$\n\nUsing the given value:\n\n$$ \\frac{e^2}{4 \\pi \\epsilon_0} = 1.44 \\times 10^9 \\, \\text{eV} \\cdot \\text{m} $$\n\nSo, the potential energy becomes :\n\n$$ PE = \\frac{1.44 \\times 10^9 \\, \\text{eV} \\cdot \\text{m}}{4 \\times 10^{-15} \\, \\text{m}} $$\n\nSimplifying :\n\n$$ PE = \\frac{1.44 \\times 10^9}{4 \\times 10^{-15}} \\, \\text{eV} PE = 0.36 \\times 10^{24} \\, \\text{eV} $$\n\nNow, we equate the total kinetic energy to the potential energy to find the temperature $ T $ :\n\n$$ 3 \\, k \\, T = 0.36 \\times 10^{24} \\, \\text{eV} $$\n\nSolving for $ T $ :\n\n$$ T = \\frac{0.36 \\times 10^{24}}{3 \\times 8.6 \\times 10^{-5}} \\, \\text{K} T = \\frac{0.36 \\times 10^{24}}{2.58 \\times 10^{-4}} \\, \\text{K} T = 1.395 \\times 10^{9} \\, \\text{K} $$\n\nThis temperature is in the range :\n\nOption A: $$1.0 \\times {10^9}K < T < 2.0 < {10^9}K$$\n\nSo, the correct answer is :\n\n**Option A :** $$1.0 \\times {10^9}K < T < 2.0 < {10^9}K$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1.0 \\times {10^9}K < T < 2.0 < {10^9}K$$",
+      "$$2.0 \\times {10^9}K < T < 3.0 < {10^9}K$$",
+      "$$3.0 \\times {10^9}K < T < 4.0 < {10^9}K$$",
+      "$$4.0 \\times {10^9}K < T < 5.0 < {10^9}K$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_024",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Results of calculations for four different designs of a fusion reactor using D-D reaction are given below. Which of these is most promising based on Lawson criterion?",
+    "solution": "To determine the most promising design based on the Lawson criterion, we need to calculate the Lawson number ($$nt_0$$) for each design and check if it exceeds $$5 \\times 10^{14}$$ s/cm$$^3$$. We will do this for each of the given options:\n\n**Option A:**\n\nDeuteron density, $$n = 2.0 \\times 10^{12}~\\mathrm{cm^{-3}}$$\n\nConfinement time, $$t_0 = 5.0 \\times 10^{-3}~\\mathrm{s}$$\n\nLawson number, $$nt_0 = n \\cdot t_0 = (2.0 \\times 10^{12}) \\cdot (5.0 \\times 10^{-3}) = 1.0 \\times 10^{10}~\\mathrm{s/cm^3}$$\n\n**Option B:**\n\nDeuteron density, $$n = 8.0 \\times 10^{14}~\\mathrm{cm^{-3}}$$\n\nConfinement time, $$t_0 = 9.0 \\times 10^{-1}~\\mathrm{s}$$\n\nLawson number, $$nt_0 = n \\cdot t_0 = (8.0 \\times 10^{14}) \\cdot (9.0 \\times 10^{-1}) = 7.2 \\times 10^{14}~\\mathrm{s/cm^3}$$\n\n**Option C:**\n\nDeuteron density, $$n = 4.0 \\times 10^{23}~\\mathrm{cm^{-3}}$$\n\nConfinement time, $$t_0 = 1.0 \\times 10^{-11}~\\mathrm{s}$$\n\nLawson number, $$nt_0 = n \\cdot t_0 = (4.0 \\times 10^{23}) \\cdot (1.0 \\times 10^{-11}) = 4.0 \\times 10^{12}~\\mathrm{s/cm^3}$$\n\n**Option D:**\n\nDeuteron density, $$n = 1.0 \\times 10^{24}~\\mathrm{cm^{-3}}$$\n\nConfinement time, $$t_0 = 4.0 \\times 10^{-12}~\\mathrm{s}$$\n\nLawson number, $$nt_0 = n \\cdot t_0 = (1.0 \\times 10^{24}) \\cdot (4.0 \\times 10^{-12}) = 4.0 \\times 10^{12}~\\mathrm{s/cm^3}$$\n\nBased on the calculations, the Lawson numbers for each option are:\n\nOption A: $$1.0 \\times 10^{10}~\\mathrm{s/cm^3}$$\n\nOption B: $$7.2 \\times 10^{14}~\\mathrm{s/cm^3}$$\n\nOption C: $$4.0 \\times 10^{12}~\\mathrm{s/cm^3}$$\n\nOption D: $$4.0 \\times 10^{12}~\\mathrm{s/cm^3}$$\n\nThe most promising design based on the Lawson criterion, which requires the Lawson number to be greater than $$5 \\times 10^{14}~\\mathrm{s/cm^3}$$, is **Option B** because its Lawson number exceeds the threshold.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Deuteron density = $$2.0\\times10^{12}~\\mathrm{cm^{-3}}$$; Confinement time = $$5.0\\times10^{-3}~\\mathrm{s}$$.",
+      "Deuteron density = $$8.0\\times10^{14}~\\mathrm{cm^{-3}}$$; Confinement time = $$9.0\\times10^{-1}~\\mathrm{s}$$.",
+      "Deuteron density = $$4.0\\times10^{23}~\\mathrm{cm^{-3}}$$; Confinement time = $$1.0\\times10^{-11}~\\mathrm{s}$$.",
+      "Deuteron density = $$1.0\\times10^{24}~\\mathrm{cm^{-3}}$$; Confinement time = $$4.0\\times10^{-12}~\\mathrm{s}$$."
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_025",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A radioactive sample S$_{1}$ having activity of 5 $$\\mu$$Ci has twice the number of nuclei as another sample S$_{2}$ which has an activity of 10 $$\\mu$$Ci. The half lives of S$_{1}$ and S$_{2}$ can be :",
+    "solution": "To solve this problem, let's begin with some fundamental concepts of radioactive decay.\n\nThe activity of a radioactive sample, which is its decay rate, is given by the equation:\n\n$$A = \\lambda N$$\n\nwhere:\n\n$$A$$ is the activity.\n$$\\lambda$$ is the decay constant.\n$$N$$ is the number of radioactive nuclei present.\n\nGiven that sample S$_{1}$ has an activity of 5 $$\\mu$$Ci and sample S$_{2}$ has an activity of 10 $$\\mu$$Ci, and that sample S$_{1}$ has twice the number of nuclei as sample S$_{2}$, we have:\n\n$$A_1 = \\lambda_1 N_1A_2 = \\lambda_2 N_2$$\n\nWe are also given that:\n\n$$N_1 = 2N_2$$\n\nSubstitute $$N_1 = 2N_2$$ into the first equation:\n\n$$5 \\, \\mu\\text{Ci} = \\lambda_1 (2N_2)$$\n\nAnd for the second equation:\n\n$$10 \\, \\mu\\text{Ci} = \\lambda_2 N_2$$\n\nDividing the first equation by the second equation to eliminate $$N_2$$, we get:\n\n$$\\frac{5 \\, \\mu\\text{Ci}}{10 \\, \\mu\\text{Ci}} = \\frac{\\lambda_1 (2N_2)}{\\lambda_2 N_2}$$\n\nSimplifying this, we obtain:\n\n$$\\frac{1}{2} = \\frac{2 \\lambda_1}{\\lambda_2}$$\n\nTherefore:\n\n$$\\lambda_2 = 4 \\lambda_1$$\n\nNext, we can relate the decay constant to the half-life using the equation:\n\n$$\\lambda = \\frac{\\ln(2)}{T_{1/2}}$$\n\nUsing the relationship between the decay constants, we have:\n\n$$\\frac{\\lambda_2}{\\lambda_1} = \\frac{T_{1/2,1}}{T_{1/2,2}}$$\n\nSubstituting $$\\lambda_2 = 4 \\lambda_1$$, we get:\n\n$$4 = \\frac{T_{1/2,1}}{T_{1/2,2}}$$\n\nTherefore:\n\n$$T_{1/2,1} = 4 T_{1/2,2}$$\n\nGiven the options, the half-lives that satisfy this relationship are:\n\nOption A: 20 years and 5 years, respectively.\n\nIn this case:\n\n$$\\frac{20 \\text{ years}}{5 \\text{ years}} = 4$$\n\nThus, option A is correct. Therefore, the half-lives of S$_{1}$ and S$_{2}$ are 20 years and 5 years, respectively.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "20 years and 5 years, respectively",
+      "20 years and 10 years, respectively",
+      "10 years each",
+      "5 years each"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_026",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The quantum number n of the state finally populated in He$$^+$$ ions is :",
+    "solution": "For H atom,\n$${E_1} = - {{13.6} \\over {{1^2}}} = - 13.6\\,eV{E_2} = - {{13.6} \\over {{2^2}}} = - 3.4\\,eV$$\nEnergy released by H atom = E$$_2-$$ E$$_1 = - 3.4 - ( - 13.6) = 10.2\\,eV$$\nThis energy will be absorbed by He atom. Thus, for He atom\n$$10.2 = - 13.6 \\times {2^2}\\left( {{1 \\over {{2^2}}} - {1 \\over {{n^2}}}} \\right)0.1875 = {1 \\over 4} - {1 \\over {{n^2}}}{n^2} = 16n = 4$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_027",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The wavelength of light emitted in the visible region by He$$^+$$ ions after collisions with H atoms is",
+    "solution": "$${{hc} \\over \\lambda } = {E_4} - {E_3}{{hc} \\over \\lambda } = - 13.68 \\times {2^2}\\left( {{1 \\over {{4^2}}} - {1 \\over {{3^2}}}} \\right){{hc} \\over \\lambda } = 13.6 \\times {2^2}\\left( {{1 \\over 9} - {1 \\over {16}}} \\right){{4.1356 \\times {{15}^{ - 15}}\\,eV.s \\times 3 \\times {{10}^8}\\,m{s^{ - 1}}} \\over 1} = 2.644 \\Rightarrow \\lambda \\cong 4.8\\, * \\,{10^{ - 7}}\\,m$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$6.5\\times10^{-7}$$ m",
+      "$$5.6\\times10^{-7}$$ m",
+      "$$4.8\\times10^{-7}$$ m",
+      "$$4.0\\times10^{-7}$$ m"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggco49q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_028",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ratio of the kinetic energy of the $$n=2$$ electron for the H atom to that of He$$^+$$ ion is",
+    "solution": "To determine the ratio of the kinetic energy of the $$n=2$$ electron for the H atom to that of the He$$^+$$ ion, we need to consider the Bohr model of the atom. According to the Bohr model, the kinetic energy (KE) of an electron in a hydrogen-like ion in the nth orbit can be given by:\n\n$$ KE_n = \\frac{1}{2} m v_n^2 = \\frac{Z^2 e^4 m}{8 \\epsilon_0^2 h^2 n^2} $$\n\nwhere:\n\n$ m $ is the mass of the electron\n\n$ Z $ is the atomic number of the nucleus\n\n$ e $ is the charge of the electron\n\n$ \\epsilon_0 $ is the permittivity of free space\n\n$ h $ is Planck's constant\n\n$ n $ is the principle quantum number, which is 2 in this case\n\nFor a hydrogen atom (H) ($ Z = 1 $) in the $ n = 2 $ state:\n\n$$ KE_{H (n=2)} = \\frac{1^2 \\cdot e^4 m}{8 \\epsilon_0^2 h^2 \\cdot 2^2} = \\frac{e^4 m}{32 \\epsilon_0^2 h^2} $$\n\nFor a singly ionized helium ion (He$$^+$$) ($ Z = 2 $) in the $ n = 2 $ state:\n\n$$ KE_{He^+ (n=2)} = \\frac{2^2 \\cdot e^4 m}{8 \\epsilon_0^2 h^2 \\cdot 2^2} = \\frac{4 e^4 m}{32 \\epsilon_0^2 h^2} = \\frac{e^4 m}{8 \\epsilon_0^2 h^2} $$\n\nTo find the ratio of the kinetic energy of the $ n=2 $ electron for the H atom to that of the He$$^+$$ ion, we divide the kinetic energies:\n\n$$ \\text{Ratio} = \\frac{KE_{H (n=2)}}{KE_{He^+ (n=2)}} = \\frac{\\frac{e^4 m}{32 \\epsilon_0^2 h^2}}{\\frac{e^4 m}{8 \\epsilon_0^2 h^2}} = \\frac{1}{4} $$\n\nTherefore, the ratio of the kinetic energy of the $ n=2 $ electron for the H atom to that of the He$$^+$$ ion is:\n\nOption A: $$\\frac{1}{4}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{1}{4}$$",
+      "$$\\frac{1}{2}$$",
+      "1",
+      "2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggco49q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_029",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the option given below, let E denote the rest mass energy of a nucleus and n a neutron. The correct option is",
+    "solution": "Iodine and Yttrium are medium sized nuclei and therefore, have more binding energy per nucleon as compared to uranium which has a big nuclei and less binding energy per nucleon. So that Iodine and Yttrium are more stable and therefore possess less energy and less restmass. When uranium nuclei explodes, it will convert into I and Y nuclei having kinetic energies.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$E\\left( {_{92}^{236}U} \\right) > E\\left( {_{53}^{137}I} \\right) + E\\left( {_{39}^{97}Y} \\right) + 2E(n)$$",
+      "$$E\\left( {_{92}^{236}U} \\right) < E\\left( {_{53}^{137}I} \\right) + E\\left( {_{39}^{97}Y} \\right) + 2E(n)$$",
+      "$$E\\left( {_{92}^{236}U} \\right) < E\\left( {_{56}^{140}Ba} \\right) + E\\left( {_{36}^{94}Kr} \\right) + 2E(n)$$",
+      "$$E\\left( {_{92}^{236}U} \\right) = E\\left( {_{56}^{140}Ba} \\right) + E\\left( {_{36}^{94}Kr} \\right) + 2E(n)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggco49q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_030",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The largest wavelength in the ultraviolet region of the hydrogen spectrum is 122 nm. The smallest wavelength in the infrared region of the hydrogen spectrum (to the nearest integer) is",
+    "solution": "[Diagram]\n\nFor largest $$\\lambda$$ in UV $$\\to$$ 122 nm\nFor $$\\Delta$$E$$_{\\mathrm{min}}$$,\n$${1 \\over {{\\lambda _{lyman}}}} = {R_c}\\left( {1 - {1 \\over 4}} \\right)$$\n[$$\\because{1 \\over \\lambda } = {R_c}\\left( {{1 \\over {n_2^2}} - {1 \\over {n_1^2}}} \\right)$$]\n$${1 \\over {{\\lambda _{lyman}}}} = {{3{R_c}} \\over 4}$$ ..... (i)\nR$$_c$$ = Rydber constant = 1.097 $$\\times$$ 10$$^7$$ m$$^{-1}$$\nFor min $$\\lambda$$ in IR region, n = D $$\\to$$ n = 3\n$${1 \\over {{\\lambda _{IR}}}} = {{{R_c}} \\over 9}$$ ...... (ii)\nOn dividing eq. (i) by (ii)\n$${1 \\over {{\\lambda _{lyman}}}} \\times {\\lambda _{IR}} = {1 \\over {{{3{R_c}} \\over 4}}} \\times {9 \\over {{R_c}}} = {{3{R_c}} \\over 4} \\times {9 \\over {{R_c}}} = {{27} \\over 4}\\therefore{\\lambda _{IR}} = {{27} \\over 4} \\times 122$$ nm = 823.5 nm",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "802 nm",
+      "823 nm",
+      "1882 nm",
+      "1648 nm"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggco49q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_031",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\text { Match the following Columns. } $$\n\n.tg {border-collapse:collapse;border-spacing:0;}\n\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\noverflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n\n\n(A)\n\nNuclear fusion.\n\n(P)\n\nConverts some matter into energy.\n\n\n\n\n\n(B)\n\nNuclear fission.\n\n(Q)\n\nGenerally possible for nuclei with low atomic number.\n\n\n\n\n\n(C)\n\n$\\beta$-decay.\n\n(R)\n\nGenerally possible for nuclei with higher atomic number.\n\n\n\n\n\n(D)\n\nExothermic nuclear reaction.\n\n(S)\n\nEssentially proceeds by weak nuclear forces.",
+    "solution": "In a nuclear fusion reaction, two or more lighter nuclei combine to give a comparatively heavier nucleus and some matter is converted into energy.\nIn a nuclear fission reaction, a heavy nuclear breaks into two or more lighter nuclei and some matter is converted into energy.\n$\\beta$-decay essentially proceeds by weak nuclear forces and converts some matter into energy. Exothermic nuclear reaction is possible for both type of nuclei (with low and high atomic number) and releases energy.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ [\\mathrm{A} \\rightarrow( \\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}, \\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathbf{P}, \\mathbf{S}) ; \\mathbf{D} \\rightarrow( \\mathbf{R})] $$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}, \\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathbf{P}) ; \\mathbf{D} \\rightarrow(\\mathbf{P}, \\mathbf{Q}, \\mathbf{R})] . $$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}, \\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}, \\mathrm{R}) ; \\mathrm{C} \\rightarrow(\\mathbf{P}, \\mathbf{S}) ; \\mathbf{D} \\rightarrow(\\mathbf{P}, \\mathbf{Q}, \\mathbf{R})] . $$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{P}, \\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}, \\mathrm{R}) ; \\mathrm{C} \\rightarrow( \\mathbf{S}) ; \\mathbf{D} \\rightarrow(\\mathbf{P}, \\mathbf{Q})] . $$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_032",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Highly energetic electrons are bombarded on a target of an element containing 30 neutrons. The ratio of radii of nucleus to that of Helium nucleus is $$(14)^{\\frac{1}{3}}$$. Find\n(A) Atomic number of the nucleus;\n(B) the frequency of $$\\mathrm{K}_{\\alpha}$$ line of the X-ray produced.\n$$\\left(\\mathrm{R}=1.1 \\times 10^{7} \\mathrm{~m}^{-1}\\right.$$ and $$\\left.c=3 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}\\right)$$",
+    "solution": "(A) Using\n$$R=R_{0} A^{1 / 3}\\frac{\\mathrm{R}_{1}}{\\mathrm{R}_{2}}=\\left(\\frac{\\mathrm{A}_{1}}{\\mathrm{~A}_{2}}\\right)^{1 / 3}\\frac{\\mathrm{R}}{\\mathrm{R}_{\\mathrm{He}}}=\\left(\\frac{\\mathrm{A}}{4}\\right)^{1 / 3}(14)^{1 / 3}=\\left(\\frac{\\mathrm{A}}{4}\\right)^{1 / 3}A=14 \\times 4=56$$\nSo, $$Z=(56-30)=26=\\text { atomic number }$$\n(B) Frequency of $$K_{\\alpha}$$ line $$=f\\therefore f=\\mathrm{R} c(z-b)^{2}\\left[\\frac{1}{n_{1}^{2}}-\\frac{1}{n_{2}^{2}}\\right], b=1$$ for $$\\mathrm{K} \\alpha, z=26f=\\left(1.1 \\times 10^{7}\\right)\\left(3 \\times 10^{8}\\right)(26-1)\\left[\\frac{1}{1^{2}}-\\frac{1}{2^{2}}\\right]f=\\frac{3.3 \\times 10^{15} \\times 25 \\times 25 \\times 3}{4}f=1.547 \\times 10^{18} \\mathrm{~Hz}\\therefore$$ Frequency of $$\\mathrm{K} \\alpha$$ line of $$\\mathrm{X}$$-rays\n$$=1.547 \\times 10^{18} \\mathrm{~Hz}=1.55 \\times 10^{18} \\mathrm{~Hz} \\text {. }$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A) 26 ; (B) $$2.55 \\times 10^{18} \\mathrm{~Hz}$$",
+      "(A) 26 ; (B) $$1.55 \\times 10^{18} \\mathrm{~Hz}$$",
+      "(A) 36 ; (B) $$1.55 \\times 10^{18} \\mathrm{~Hz}$$",
+      "(A) 46 ; (B) $$2.55 \\times 10^{18} \\mathrm{~Hz}$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_033",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass $m$ is moving in a circular orbit under the influence of the central force $F(r)=-k r$, corresponding to the potential energy $V(r)=k r^2 / 2$, where $k$ is a positive force constant and $r$ is the radial distance from the origin. According to the Bohr's quantization rule, the angular momentum of the particle is given by $L=n \\hbar$, where $\\hbar=h /(2 \\pi), h$ is the Planck's constant, and $n$ a positive integer. If $v$ and $E$ are the speed and total energy of the particle, respectively, then which of the following expression(s) is(are) correct?",
+    "solution": "The central force will provide necessary centripetal force\n$$\\Rightarrow \\mathrm{kr}=\\frac{\\mathrm{mv}^2}{\\mathrm{r}}$$\nor, $$\\mathrm{kr}^2=\\mathrm{mv}^2\\quad \\text{... (1)}$$\nBy quantisation rule $$\\mathrm{n} \\hbar=\\mathrm{mvr}$$\nor, $$\\frac{\\mathrm{n} \\hbar}{\\mathrm{r}}=\\mathrm{mv}\\quad \\text{... (2)}\\begin{aligned}\n& \\frac{(1)}{(2)^2} \\Rightarrow \\frac{\\mathrm{kr}^2}{\\frac{\\mathrm{n}^2 \\hbar^2}{\\mathrm{r}^2}}=\\frac{\\mathrm{mv}^2}{\\mathrm{~m}^2 \\mathrm{v}^2} \\\\\n& \\Rightarrow \\frac{\\mathrm{k}}{\\mathrm{n}^2 \\hbar^2} \\mathrm{r}^4=\\frac{1}{\\mathrm{~m}} \\\\\n& \\Rightarrow \\mathrm{r}=\\left(\\frac{\\mathrm{n}^2 \\hbar^2}{\\mathrm{~km}}\\right)^{\\frac{1}{4}} \\Rightarrow \\mathrm{r}^2=\\frac{\\mathrm{n} \\hbar}{\\sqrt{\\mathrm{mk}}}\n\\end{aligned}$$\n(B) Using (1), $$\\mathrm{K} \\cdot \\frac{\\mathrm{n} \\hbar}{\\sqrt{\\mathrm{mk}}}=\\mathrm{mv}^2\\Rightarrow \\mathrm{v}^2=\\mathrm{n} \\hbar \\sqrt{\\frac{\\mathrm{k}}{\\mathrm{m}^3}}$$\n(C) $$\\frac{\\mathrm{L}}{\\mathrm{mr}^2}=\\frac{\\mathrm{mvr}}{\\mathrm{mr}^2}=\\frac{\\mathrm{v}}{\\mathrm{r}}=\\sqrt{\\frac{\\mathrm{k}}{\\mathrm{m}}}$$ from (1)\n(D) $$\\mathrm{E}=\\frac{1}{2} \\mathrm{mv}^2+\\frac{1}{2} \\mathrm{kr}^2=\\frac{\\mathrm{n} \\hbar}{2} \\sqrt{\\frac{\\mathrm{k}}{\\mathrm{m}}}+\\frac{1}{2} \\mathrm{k} \\frac{\\mathrm{n} \\hbar}{\\sqrt{\\mathrm{mk}}}\\mathrm{E}=\\mathrm{n} \\hbar \\sqrt{\\frac{\\mathrm{k}}{\\mathrm{m}}}$$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$r^2=n \\hbar \\sqrt{\\frac{1}{m k}}$",
+      "$v^2=n \\hbar \\sqrt{\\frac{k}{m^3}}$",
+      "$\\frac{L}{m r^2}=\\sqrt{\\frac{k}{m}}$",
+      "$E=\\frac{n \\hbar}{2} \\sqrt{\\frac{k}{m}}$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_034",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The binding energy of nucleons in a nucleus can be affected by the pairwise Coulomb repulsion. Assume that all nucleons are uniformly distributed inside the nucleus. Let the binding energy of a proton be $E_{b}^{p}$ and the binding energy of a neutron be $E_{b}^{n}$ in the nucleus.\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "Total binding energy (without considering repulsions),\n$${E_b} = [Z{m_p} + (A - Z){m_n} - {m_x}]{c^2}$$\nWhere, $$_Z^AX$$ is the nuclei under consideration.\nNow, considering repulsion :\nNumber of proton pairs $$ = {}^z{C_2}\\Rightarrow$$ This repulsion energy $$ \\propto \\,{{Z(Z - 1)} \\over 2} \\times {1 \\over {4\\pi { \\in _0}}}{{{e^2}} \\over R}$$\nWhere R is the radius of the nucleus\n$$ \\Rightarrow E_b^p - E_b^n \\propto Z(Z - 1)\\therefore$$ there will be no repulsion term for neutrons.\nAlso, since $$R = {R_0}{A^{1/3}} \\Rightarrow E_b^p - E_b^n \\propto {A^{ - 1/3}}$$\nBecause of repulsion among protons,\n$$E_b^p < E_b^n$$\nSince in $$\\beta^+$$ decay, number of protons decrease $$\\Rightarrow$$ repulsion would decrease\n$$ \\Rightarrow E_b^p$$ increases",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "$E_{b}^{p}-E_{b}^{n}$ is proportional to $Z(Z-1)$ where $Z$ is the atomic number of the nucleus.",
+      "$E_{b}^{p}-E_{b}^{n}$ is proportional to $A^{-\\frac{1}{3}}$ where $A$ is the mass number of the nucleus.",
+      "$E_{b}^{p}-E_{b}^{n}$ is positive.",
+      "$E_{b}^{p}$ increases if the nucleus undergoes a beta decay emitting a positron."
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_035",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A heavy nucleus N, at rest, undergoes fission N $$\\to$$ P + Q, where P and Q are two lighter nuclei. Let $$\\delta$$ = M$_{N}$ $$-$$ M$_{P}$ $$-$$ M$_{Q}$, where M$_{P}$, M$_{Q}$ and M$_{N}$ are the masses of P, Q and N, respectively. E$_{P}$ and E$_{Q}$ are the kinetic energies of P and Q, respectively. The speeds of P and Q are v$_{P}$ and v$_{Q}$, respectively. If c is the speed of light, which of the following statement(s) is(are) correct?",
+    "solution": "[Diagram]\n\n(p$_{total}$) = 0 $$\\Rightarrow$$ (p$_{total}$)$_{f}$ = 0\n\nSo, momentum of one nucleus is p in forward direction, then momentum of the other nucleus will be p in backwards direction.\n\nEnergy released = ($$\\Delta$$m)c$^{2}$ = $$\\delta$$c$^{2}$ = KE$_{P}$ + KE$_{Q}$\n\n$$K{E_P} = {{{p^2}} \\over {2{m_P}}},K{E_Q} = {{{p^2}} \\over {2{m_Q}}} \\Rightarrow K{E_P}:K{E_Q} = {1 \\over {{m_P}}}:{1 \\over {{m_Q}}} = {m_Q}:{m_P}K{E_P} = \\left( {{{{m_Q}} \\over {{m_P} + {m_Q}}}} \\right)\\delta {c^2}K{E_Q} = \\left( {{{{m_P}} \\over {{m_P} + {m_Q}}}} \\right)\\delta {c^2}K{E_P} + K{E_Q} = \\delta {c^2}{{{p^2}} \\over {2{m_P}}} + {{{p^2}} \\over {2{m_Q}}} = \\delta {c^2} \\Rightarrow p = c\\sqrt {2\\left( {{{{m_P}{m_Q}} \\over {{m_P} + {m_Q}}}} \\right)\\delta } $$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${E_P} + {E_Q} = {c^2}\\delta $$",
+      "$${E_P} = \\left( {{{{M_P}} \\over {{M_P} + {M_Q}}}} \\right){c^2}\\delta $$",
+      "$${{{v_P}} \\over {{v_Q}}} = {{{M_Q}} \\over {{M_P}}}$$",
+      "The magnitude of momentum for P as well Q is $$c\\sqrt {2\\mu \\delta } $$, where $$\\mu = {{{M_P}{M_Q}} \\over {({M_P} + {M_Q})}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l05qv1xu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_036",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is(are) correct about the spectrum of the hydrogen atom?",
+    "solution": "For Balmer series\n\n$$\n\\frac{1}{\\lambda}=\\mathrm{R}\\left(\\frac{1}{4}-\\frac{1}{n^2}\\right) n>2\n$$\n\n$\\lambda$ is minimum for transition from $n_1 \\rightarrow \\infty$ to $n_2=2$.\n\n$$\n\\frac{1}{\\lambda_{\\min }}=\\frac{R}{4}\n$$\n\n$\\lambda$ is maximum for transition from $n_1=3$ to $n_2=2$\n\n$$\n\\frac{1}{\\lambda_{\\max }}=\\mathrm{R}\\left(\\frac{1}{4}-\\frac{1}{9}\\right)=\\frac{5 \\mathrm{R}}{36}\n$$\n\nDividing the above two equations, we get\n\n$$\n\\frac{\\lambda_{\\max }}{\\lambda_{\\min }}=\\frac{R}{4} \\times \\frac{36}{5 R}=\\frac{9}{5}\n$$\n\nOption (A) is correct.\n\nFor Lyman series,\n\n$\\lambda_{\\min }=91.18 \\mathrm{~nm}$\n\n$\\lambda_{\\max }=121.57 \\mathrm{~nm}$\n\nFor Balmer series,\n\n$\\lambda_{\\min }=364.60 \\mathrm{~nm}$\n\n$\\lambda_{\\max }=656.30 \\mathrm{~nm}$\n\nFor Pashen series,\n\n$\\lambda_{\\min }=820.40 \\mathrm{~nm}$\n\n$\\lambda_{\\max }=1875 \\mathrm{~nm}$\n\nWe can see from the above that there is no overlap between the wavelength ranges of Balmer and Paschen series. so, option (B) is incorrect.\n\nSimilarly wavelength ranges of Lyman and Balmer series also do not overlap. Hence, option (D) is correct.\n\nShortest wavelength of Lyman series\n\n$$\n\\begin{aligned}\n\\frac{1}{\\lambda_0} & =R\\left(1-\\frac{1}{\\infty}\\right) \\\\\\\\\n\\lambda_0 & =\\frac{1}{R}\n\\end{aligned}\n$$\n\nFor Lyman series, $\\frac{1}{\\lambda}=\\mathrm{R}\\left(1-\\frac{1}{n^2}\\right)$\n\n$$\n\\begin{aligned}\n& =\\frac{1}{\\lambda_0}\\left(1-\\frac{1}{n^2}\\right) \\\\\\\\\n\\lambda & =\\frac{\\lambda_0}{1-\\frac{1}{n^2}}=\\frac{\\lambda_0 n^2}{n^2-1} \\\\\\\\\n& =\\frac{\\lambda_0\\left(n^2-1\\right)+1}{n^2-1} \\\\\\\\\n& =\\lambda_0\\left(1+\\frac{1}{n^2-1}\\right)\n\\end{aligned}\n$$\n\nIf $n^2-1=m^2$ ( $m$ is an integer)\n\nthen this is rarely true as $\\left(n^2-1\\right)$ cannot always be the square of an integer. Hence, option (C) is incorrect.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "The ratio of the longest wavelength to the shortest wavelength in Balmer series is 9/5",
+      "There is an overlap between the wavelength ranges of Balmer and Paschen series",
+      "The wavelengths of Lyman series are given by $$\\left( {1 + {1 \\over {{m^2}}}} \\right){\\lambda _0}$$, where $${\\lambda _0}$$ is the shortest wavelength of Lyman series and m is an integer",
+      "The wavelength ranges of Lyman and Balmer series do not overlap"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_037",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In an X-ray tube, electrons emitted from a filament (cathode) carrying current I hit a target (anode) at a distance d from the cathode. The target is kept at a potential V higher than the cathode resulting in emission of continuous and characteristic X-rays. If the filament current I is decreased to $${1 \\over 2}$$, the potential difference V is increased to 2V, and the separation distance d is reduced to $${d \\over 2}$$, then",
+    "solution": "$$\\lambda \\propto {1 \\over V}$$\n\nSo, when V double, then cut-off wavelength become half. Characteristic does not depend on voltage. When I is halved, then intensity will decrease.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "the cut-off wavelength will reduce to half, and the wavelengths of the characteristic X-rays will remain the same",
+      "the cut-off wavelength as well as the wavelengths of the characteristic X-rays will remain the same",
+      "the cut-off wavelength will reduce to half, and the intensities of all the X-rays will decrease",
+      "the cut-off wavelength will become two times larger, and the intensity of all the X-rays will decrease"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_038",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass m moves in circular orbits with potential energy V(r) = Fr, where F is a positive\nconstant and r is its distance from the origin. Its energies are calculated using the Bohr model. If the\nradius of the particle’s orbit is denoted by R and its speed and energy are denoted by v and E,\nrespectively, then for the n$^{th}$ orbit (here h is the Planck’s constant)",
+    "solution": "$$|Force| = \\left| { - {{dV} \\over {dr}}} \\right| \\Rightarrow F = {{m{v^2}} \\over r}$$ .....(i)\n\n$$mvr = {{nh} \\over {2\\pi }}$$ .....(ii)\n\nFrom Eqs. (i) and (ii), we get\n\n$$ \\therefore F = {m \\over r}{\\left( {{{nh} \\over {2\\pi mr}}} \\right)^2} \\because \\left( {v = {{nh} \\over {2\\pi mr}}} \\right)$$\n\nor $$F = {{m{n^2}{h^2}} \\over {4{\\pi ^2}{m^2}{r^3}}}$$\n\nor $$F = {{{n^2}{h^2}} \\over {4{\\pi ^2}m{r^3}}}{r^3} \\propto \\,{n^2}$$ (as F = constant)\n\n$$r \\propto \\,{n^{2/3}}v = {{nh} \\over {2\\pi mr}}v \\propto {n \\over {{n^{2/3}}}}$$\n\nor $$v \\propto {n^{1/3}} \\therefore KE = {1 \\over 2}m{v^2} = {{Fr} \\over 2} \\because TE = PE + KE = Fr + {{Fr} \\over 2} \\Rightarrow {{3Fr} \\over 2} = TE$$\n\nor $$TE = E = {{3F} \\over 2} \\times {\\left( {{{{n^2}{h^2}} \\over {4{\\pi ^2}rnF}}} \\right)^{1/3}} = {3 \\over 2}{\\left( {{{{n^2}{h^2}{F^2}} \\over {4{\\pi ^2}m}}} \\right)^{1/3}}$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$R \\propto {n^{{1 \\over 3}}}$$ and $$v \\propto {n^{{2 \\over 3}}}$$",
+      "$$R \\propto {n^{{2 \\over 3}}}$$ and $$v \\propto {n^{{1 \\over 3}}}$$",
+      "$$E = {3 \\over 2}{\\left( {{{{n^2}{h^2}{F^2}} \\over {4{\\pi ^2}m}}} \\right)^{{1 \\over 3}}}$$",
+      "$$E = 2{\\left( {{{{n^2}{h^2}{F^2}} \\over {4{\\pi ^2}m}}} \\right)^{{1 \\over 3}}}$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_039",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A free hydrogen atom after absorbing a photon of wavelength $$\\lambda $$$_{a}$ gets excited from the state n = 1 to the state n = 4. Immediately after that the electron jumps to n = m state by emitting a photon of wavelength $$\\lambda $$$_{e}$. Let the change in momentum of atom due to the absorption and the emission be $$\\Delta {p_a}$$ and $$\\Delta {p_e}$$, respectively. If $${{{\\lambda _a}} \\over {{\\lambda _e}}} = {1 \\over 5}$$, which of the option(s) is/are correct? [Use hc = 1242 eVnm; 1 nm = 10$^{-9}$ m, h and c are Planck's constant and speed of light in vacuum, respectively]",
+    "solution": "A hydrogen atom in its ground state (n = 1) absorbs a photon with wavelength $$\\lambda_a$$ and gets excited to the n = 4 state. Subsequently, the electron transitions to the n = m state, emitting a photon with wavelength $$\\lambda_e$$. Given that $${{{\\lambda _a}} \\over {{\\lambda _e}}} = {1 \\over 5}$$, let's analyze the options systematically.\n\n**Calculation for the Wavelengths:**\n\nThe energy difference between levels in a hydrogen atom can be given by the Rydberg formula for hydrogen:\n\n$$ E_n = - \\frac{{13.6 \\ eV}}{{n^2}} $$\n\nThe energy of the absorbed photon that excites the electron from n = 1 to n = 4 could be expressed as:\n\n$$ E_a = E_4 - E_1 = - \\frac{{13.6 \\ eV}}{{4^2}} - (- \\frac{{13.6 \\ eV}}{{1^2}}) = - \\frac{{13.6 \\ eV}}{{16}} + 13.6 \\ eV = 13.6 \\ eV (1 - \\frac{1}{16}) = 13.6 \\ eV \\cdot \\frac{15}{16} = 12.75 \\ eV$$\n\nWavelength $$\\lambda_a$$ associated with this energy is:\n\n$$ \\lambda_a = \\frac{{hc}}{{E_a}} = \\frac{{1242 \\ nm \\cdot eV}}{{12.75 \\ eV}} = 97.4 \\ nm$$\n\nGiven $${{{\\lambda _a}} \\over {{\\lambda _e}}} = {1 \\over 5}$$, we get:\n\n$$ \\lambda_e = 5 \\lambda_a = 5 \\cdot 97.4 \\ nm = 487 \\ nm$$\n\n**Option A: The ratio of kinetic energy of the electron in the state n = m to the state n = 1 is $${1 \\over 4}$$**\n\nThe kinetic energy of an electron in a hydrogen atom in the n$^{th}$ state is proportional to $$- \\frac{{1}}{{n^2}}$$. Therefore, the ratio of kinetic energy in state m to that in state n can be written as:\n\n$$ \\frac{{E_m}}{{E_1}} = \\frac{{- \\frac{{13.6}}{{m^2}} eV}}{{- 13.6 \\ eV}} = \\frac{1}{{m^2}} $$\n\nAccording to the question, the ratio is $$\\frac{1}{4}$$:\n\n$$ \\frac{1}{{m^2}} = \\frac{1}{4} \\Rightarrow m = 2 $$\n\nTherefore, Option A is correct if m = 2.\n\n**Option B: m = 2**\n\nBased on the energy calculations above, we find m = 2. Therefore, Option B is correct.\n\n**Option C: $${{\\Delta {p_a}} \\over {\\Delta {p_e}}} = {1 \\over 2}$$**\n\nThe change in momentum for each photon is given by:\n\n$$ \\Delta p = \\frac{h}{\\lambda} $$\n\nSo, the ratio of the momentum changes is:\n\n$$ \\frac{{\\Delta p_a}}{{\\Delta p_e}} = \\frac{{\\frac{h}{\\lambda_a}}}{{\\frac{h}{\\lambda_e}}} = \\frac{\\lambda_e}{\\lambda_a} = 5 $$\n\nThis shows the given option C (i.e., $$\\frac{1}{2}$$) is incorrect. The correct ratio is 5.\n\n**Option D: $$\\lambda_e = 418 \\ nm$$**\n\nFrom our previous calculations, we found $$\\lambda_e = 487 \\ nm$$, which does not match 418 nm. Option D is incorrect.\n\nHence, the correct options are A and B.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The ratio of kinetic energy of the electron in the state n = m to the state, n = 1 is $${1 \\over 4}$$",
+      "m = 2",
+      "$${{\\Delta {p_a}} \\over {\\Delta {p_e}}} = {1 \\over 2}$$",
+      "$$\\lambda $$$_{e}$ = 418 nm"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_040",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a radioactive decay chain, $${}_{90}^{232}Th$$ nucleus decays to $${}_{82}^{212}Pb$$ nucleus. Let $${N_\\alpha }$$ and $${N_\\beta }$$ be the number of $$\\alpha $$ and $${\\beta ^ - }$$ particles, respectively, emitted in this decay process. Which of the following statements is (are) true?",
+    "solution": "Given,\n$${}_{90}^{232}Th\\buildrel {} \\over\n\\longrightarrow {}_{82}^{212}pb$$\nwhere N$_{$$\\alpha$$}$ = number of $$\\alpha$$ particles, N$_{$$\\beta$$}$ = number of $$\\beta$$ particles\nWe know that $$\\alpha$$-decay is given as\n$${}_Z^AX\\buildrel {} \\over\n\\longrightarrow {}_{Z - 2}^{A - 4}Y + {\\alpha ^ - }$$ particle\nand $$\\beta$$-decay is given as\n$${}_Z^AX\\buildrel {} \\over\n\\longrightarrow {}_{Z + 1}^AX + {\\beta ^ - }$$ particle\nIn above decay process change in mass number A is 20 and change in atomic number Z is 8.\nTherefore, change in mass number A $$\\Rightarrow$$ number of $$\\alpha$$-particles emitted are\n$${N_\\alpha } = {{20} \\over 4} = 5$$\nNow, emission of 5 $$\\alpha$$ particles implies atomic number reduces by 10 but change in atomic number is 8, therefore, number of $$\\beta$$-particles emitted is 2.\nTherefore, N$_{$$\\alpha$$}$ = 5 and N$_{$$\\beta$$}$ = 2\nSo, option (A) and option (C) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$${N_\\alpha } = 5$$",
+      "$${N_\\alpha } = 6$$",
+      "$${N_\\beta } = 2$$",
+      "$${N_\\beta } = 4$$"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_041",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Highly excited states for hydrogen-like atoms (also called Rydberg states) with nuclear charge Ze are defined by their principle quantum number n, where n >> 1. Which of the following statement(s) is(are) true?",
+    "solution": "The radius of $n^{\\text {th }}$ orbital for a hydrogen-like atom of atomic number $Z$ is given by $r_n={{{n^2}{a_0}} \\over Z}$, where $a_0=0.53 $$$\\mathop A\\limits^o $$ is the Bohr's radius.\n\n$$ \\therefore\n\\text { Radius of orbit, } r \\propto \\frac{n^2}{Z}\n$$\n\nThe relative change in the radii of two consecutive orbitals is\n\n$$\n\\frac{r_{n+1}-r_n}{r_n}=\\frac{\\frac{(n+1)^2}{Z}-\\frac{n^2}{Z}}{\\frac{n^2}{Z}}=\\frac{2 n+1}{n^2} \\approx \\frac{2}{n} \\quad(\\because n>>1)\n$$\n\nThe energy of the n$^{th}$ orbital is given by\n\n$${E_n} = {{ - 13.6{Z^2}} \\over {{n^2}}}eV \\therefore\nE_n \\propto \\frac{-Z^2}{n^2}\n$$\n\nThe relative change in the energy of\ntwo consecutive orbitals is\n\n$$\n\\begin{aligned}\n& \\frac{E_{n+1}-E_n}{E_n}=\\frac{\\frac{-Z^2}{(n+1)^2}+\\frac{Z^2}{n^2}}{\\frac{-Z^2}{n^2}}=-\\frac{(2 n+1)}{(n+1)^2} \\\\\\\\\n& \\approx-\\frac{2 n}{n^2}=-\\frac{2}{n} \\quad(n>>1)\n\\end{aligned}\n$$\n\nThe angular momentum of the $n^{\\text {th }}$ orbital is given by $L_n={{nh} \\over {2\\pi }}$. The relative change in the angular momentum of two consecutive orbitals is\n\n$$\n\\frac{L_{n+1}-L_n}{L_n}=\\frac{(n+1) {{h} \\over {2\\pi }}-{{nh} \\over {2\\pi }}}{{nh} \\over {2\\pi }}=\\frac{1}{n}\n$$",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "Relative change in the radii of two consecutive orbitals does not depend on Z.",
+      "Relative change in the radii of two consecutive orbitals varies as 1/n",
+      "Relative change in the energy of two consecutive orbitals varies as 1/n$^{3}$",
+      "Relative change in the angular momenta of two consecutive orbitals varies as 1/n"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_042",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A fission reaction is given by $$_{92}^{236}U \\to _{54}^{140}Xe + _{38}^{94}Sr + x + y$$, where x and y are two particles. Considering $$_{92}^{236}U$$ to be at rest, the kinetic energies of the products are denoted by $${K_{Xe}},{K_{Sr}},{K_x}(2MeV)\n\\text { and } \\mathrm{K}_{\\mathrm{y}}(2 \\mathrm{MeV})\n$$, respectively. Let the binding energies per nucleon of $$_{92}^{236}U$$, $$_{54}^{140}Xe$$ and $$_{38}^{94}Sr$$ be 7.5 MeV, 8.5 MeV and 8.5 MeV, respectively. Considering different conservation laws, the correct options is/are",
+    "solution": "$${}_{92}^{236}U \\to {}_{54}^{140}Xe + {}_{38}^{94}Sr + x + y$$\nK$_{x}$ = 2 MeV, K$_{y}$ = 2 MeV, K$_{Xe}$ = ?, K$_{Sr}$ = ?\nBy conservation of charge number and mass number, x $$\\equiv$$ y $$\\equiv$$ n\nB.E. per nucleon of $${}_{92}^{236}U = 7.5$$ MeV\nB.E. per nucleon of $${}_{54}^{140}Xe$$ or $${}_{38}^{94}Sr = 8.5$$ MeV\nQ value of reaction,\nQ = Net kinetic energy gained in the process\n$$ = {K_{Xe}} + {K_{Sr}} + 2 + 2 - 0 = {K_{Xe}} + {K_{Sr}} + 4$$ ..... (1)\nAs number of nucleons is conserved in a reaction, so Q = Difference of binding energies of the nuclei\n$$ = 140 \\times 8.5 + 94 \\times 8.5 - 236 \\times 7.5 = 219$$ MeV ...... (2)\nFrom eqns. (i) and (ii)\n$${K_{Xe}} + {K_{Sr}} = 219 - 4 = 215$$ MeV ....... (3)\nThe linear momentum of a particle of mass m and kinetic energy K is given by $$p = \\sqrt {2mK} $$. Since the masses and kinetic energies of x and y are very small in comparison to that of $${}_{54}^{140}Xe$$ and $${}_{38}^{94}Sr$$, we can neglect the linear momentum of these particles. Initially, the linear momentum of $${}_{92}^{236}U$$ is zero (at rest). Finally, the products $${}_{54}^{140}Xe$$ and $${}_{38}^{94}Sr$$ will move in opposite direction with equal linear momentum (by conservation of linear momentum). Thus,\n$$\\sqrt {2{M_{Xe}}{K_{Xe}}} = \\sqrt {2{M_{Sr}}{K_{Sr}}} $$, i.e.,\n$$140{K_{Xe}} = 94{K_{Sr}}$$. ...... (4)\nSolve equations (3) and (4) to get K$_{Xe}$ = 86 MeV and K$_{Sr}$ = 129 MeV.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "x = n, y = n, K$_{sr}$ = 129 MeV, K$_{Xe}$ = 86 MeV",
+      "x = p, y = e$^{$$-$$}$, K$_{sr}$ = 129 MeV, K$_{Xe}$ = 86 MeV",
+      "x = p, y = n, K$_{sr}$ = 129 MeV, K$_{Xe}$ = 86 MeV",
+      "x = n, y = n, K$_{sr}$ = 86 MeV, K$_{Xe}$ = 129 MeV"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgktehr4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_043",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of the orbit of an electron in a hydrogen-like atom is 4.5a$_{0}$, where a$_{0}$ is the Bohr radius. Its orbital angular momentum is $${{3h} \\over {2\\pi }}$$. It is given that h is Planck constant and R is Rydberg constant. The possible wavelength(s), when the atom de-excites, is(are)",
+    "solution": "The orbital angular momentum is\n$$L = {{nh} \\over {2\\pi }}{{3h} \\over {2\\pi }} = {{nh} \\over {2\\pi }} \\Rightarrow n = 3$$\nThe radius of the orbit is\n$$4.5({a_0}) = {a_0}\\left( {{{{n^2}} \\over Z}} \\right)Z = {{{n^2}} \\over {4.5}} = {{{3^2}} \\over {4.5}} = {9 \\over {4.5}} = 2$$\nThus, the possible transitions are 3$$\\to$$2, 3$$\\to$$1 and 2$$\\to$$1. For the transition 3$$\\to$$2, the wavelength is\n$${1 \\over \\lambda } = R{(2)^2}\\left[ {{1 \\over 4} - {1 \\over 9}} \\right] = 4R\\left[ {{{9 - 4} \\over {36}}} \\right] = {{5R} \\over 9} \\Rightarrow \\lambda = {9 \\over {5R}}$$\nFor the transition 3$$\\to$$1, the wavelength is\n$${1 \\over \\lambda } = R{(2)^2}\\left[ {1 - {1 \\over 9}} \\right] = 4R\\left( {{8 \\over 9}} \\right) = {{32R} \\over 9} \\Rightarrow \\lambda = {9 \\over {32R}}$$\nFor the transition 2$$\\to$$1, the wavelength is\n$${1 \\over \\lambda } = R{(2)^2}\\left[ {1 - {1 \\over 4}} \\right] = 4R\\left( {{3 \\over 4}} \\right) = 3R \\Rightarrow \\lambda = {1 \\over {3R}}$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$${9 \\over {32R}}$$",
+      "$${9 \\over {16R}}$$",
+      "$${9 \\over {5R}}$$",
+      "$${4 \\over {3R}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgktehr4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_044",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Assume that the nuclear binding energy per nucleon (B/A) versus mass number (A) is as shown in the figure. Use this plot to choose the correct choice(s) given below.\n\n[Diagram]",
+    "solution": "When binding energy per nucleon increases for a nuclear process, energy is released.\n(a) For 1 < A < 50, on fusion, mass number of the resulting nucleus will be less than 100. No energy will be released.\n(b) For 51 < A < 100, on fusion, mass number of the resulting nucleus will be between 100 and 200. As BE increases, energy will be released.\n(c) On fission for 100 < A < 200, the mass number for fission nuclei will be between 50 and 100. As BE decreases, no energy will be released.\n(d) On fission for 200 < A < 260, the mass number for the fission nuclei will be between 100 and 130. Since BE will increase, energy will be released.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "Fusion of two nuclei with mass number lying in the range of 1 < A < 50 will release energy",
+      "Fusion of two nuclei with mass numbers lying in the range of 51 < A < 100 will release energy",
+      "Fission of a nucleus lying in the mass range of 100 < A < 200 will release energy when broken into two equal fragments",
+      "Fission of a nucleus lying in the mass range of 200 < A < 260 will release energy when broken into two equal fragments"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgktehr4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_045",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a radioactive decay chain reaction, ${ }_{90}^{230} \\mathrm{Th}$ nucleus decays into ${ }_{84}^{214} \\mathrm{Po}$ nucleus. The ratio of the number of $\\alpha$ to number of $\\beta^{-}$particles emitted in this process is ________.",
+    "solution": "To solve this problem, we need to analyze the changes in the atomic number and mass number during the decay chain reaction from ${ }_{90}^{230}\\mathrm{Th}$ (Thorium) to ${ }_{84}^{214}\\mathrm{Po}$ (Polonium). Let's denote the number of alpha particles emitted by $n_{\\alpha}$ and the number of beta-minus particles emitted by $n_{\\beta^{-}}$.\n\nFirst, consider the changes in the mass number (A) and atomic number (Z). For alpha decay, which emits an $\\alpha$ particle (${ }_{2}^{4}\\mathrm{He}$), the mass number decreases by 4, and the atomic number decreases by 2. For beta-minus decay, which emits a $\\beta^{-}$ particle (an electron, $e^{-}$), the atomic number increases by 1, but the mass number remains unchanged.\n\nThe initial and final nuclei are given as:\n\nInitial: ${ }_{90}^{230}\\mathrm{Th}$\n\nFinal: ${ }_{84}^{214}\\mathrm{Po}$\n\nThe changes in the mass number (A) and atomic number (Z) are:\n\nChange in mass number (A): $230 - 214 = 16$\n\nChange in atomic number (Z): $90 - 84 = 6$\n\nSince each alpha particle decreases the mass number by 4 and the atomic number by 2, if $n_{\\alpha}$ is the number of alpha particles emitted, we have:\n\n$$\\Delta A = 4n_{\\alpha}\\Delta Z_{\\alpha} = 2n_{\\alpha}$$\n\nFrom the given changes, we can write:\n\n$$4n_{\\alpha} = 16 \\Rightarrow n_{\\alpha} = \\frac{16}{4} = 4$$\n\nThe contribution to the change in atomic number due to the alpha particles is:\n\n$$\\Delta Z_{\\alpha} = 2 \\times 4 = 8$$\n\nHowever, since the change in atomic number is 6, the number of beta-minus particles emitted must account for the difference:\n\n$$\\Delta Z - \\Delta Z_{\\alpha} = n_{\\beta^{-}} \\Rightarrow 6 - 8 = n_{\\beta^{-}} \\Rightarrow n_{\\beta^{-}} = 2 \\text{ (increase)}$$\n\nNote that an increase of 2 units due to $\\beta^-$ (beta-minus decay) particles means:\n\n$$\\Delta Z_{\\beta^{-}} = n_{\\beta^{-}} = 2$$\n\nThus the number of $\\beta^{-}$ particles emitted is 2.\n\nTherefore, the ratio of the number of $\\alpha$ particles to the number of $\\beta^{-}$ particles emitted is:\n\n$$\\frac{n_{\\alpha}}{n_{\\beta^{-}}} = \\frac{4}{2} = 2$$\n\nSo, the ratio is 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_046",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum kinetic energy needed by an alpha particle to cause the nuclear reaction ${ }_{7}^{16} \\mathrm{~N}+$ ${ }_{2}^{4} \\mathrm{He} \\rightarrow{ }_{1}^{1} \\mathrm{H}+{ }_{8}^{19} \\mathrm{O}$ in a laboratory frame is $n$ (in $M e V$. Assume that ${ }_{7}^{16} \\mathrm{~N}$ is at rest in the laboratory frame. The masses of ${ }_{7}^{16} \\mathrm{~N},{ }_{2}^{4} \\mathrm{He},{ }_{1}^{1} \\mathrm{H}$ and ${ }_{8}^{19} \\mathrm{O}$ can be taken to be $16.006 u, 4.003 u, 1.008 u$ and $19.003 u$, respectively, where $1 u=930 \\,\\mathrm{MeVc}^{-2}$. The value of $n$ is ________ .",
+    "solution": "$$\n\\begin{aligned}\n\\mathrm{Q} &=\\left(\\mathrm{m}_{\\mathrm{N}}+\\mathrm{m}_{\\mathrm{He}}-\\mathrm{m}_{\\mathrm{H}}-\\mathrm{m}_{\\mathrm{O}}\\right) \\times \\mathrm{c}^{2} \\\\\n&=(16.006+4.003-1.008-19.003) \\times 930 \\mathrm{MeV} \\\\\n&=-1.86 \\mathrm{MeV} \\\\\n&=1.86 \\mathrm{MeV} \\text { energy absorbed. }\n\\end{aligned}\n$$\n\nAnd, $\\frac{1}{2} \\times \\frac{m \\times 4 m}{5 m} \\times v^{2}=$ max loss in kinetic energy\n\n$$\n\\begin{aligned}\n\\Rightarrow \\frac{1}{2} m v^{2} &=\\frac{5}{4} \\times Q \\\\\n&=\\frac{5}{4} \\times(1.86) \\mathrm{MeV} \\\\\n&=2.325 \\mathrm{MeV}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_047",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose a $$_{88}^{226}Ra$$ nucleus at rest and in ground state undergoes $$\\alpha $$-decay to a $$_{86}^{222}Rn$$ nucleus in its excited state. The kinetic energy of the emitted $$\\alpha $$ particle is found to be 4.44 MeV. $$_{86}^{222}Rn$$ nucleus then goes to its ground state by $$\\gamma $$-decay. The energy of the emitted $$\\gamma $$ photon is ............ keV.\n\n[Given : atomic mass of $$_{86}^{226}Ra$$ = 226.005 u, atomic of $$_{86}^{222}Rn$$ = 222.000 u, atomic mass of $$\\alpha $$ particle = 4.000 u, 1 u = 931 MeV/e$^{2}$, c is speed of the light]",
+    "solution": "Given, atomic mass of ${ }_{88}^{226} \\mathrm{R} a=226.005 u$,\n\natomic mass of ${ }_{86}^{222} \\mathrm{R} n=222.000 u$.\n\natomic mass of $\\alpha$ particle $=4.000 u$\n\n$$\n1 u=931 \\frac{\\mathrm{MeV}}{c^2}\n$$\n\nwhere, c = speed of the light\n\n$$\n{ }_{88}^{226} \\mathrm{R} a \\stackrel{\\alpha-\\text { decay }}{\\longrightarrow}{ }_{86}^{222} \\mathrm{R} n+{ }_2^4 \\mathrm{He}\n$$\n\nTotal energy emitted $=(\\Delta m) c^2$\n\n$$\n\\begin{aligned}\n& =[226.005-(222+14)] \\times 931.5 \\mathrm{Mev} \\\\\\\\\n& =0.005 \\times 931.5 \\mathrm{MeV}\n\\end{aligned}\n$$\n\nKinetic energy of $\\alpha=4.44 \\mathrm{MeV}$\n\nKinetic energy of Rn = $$4.44 \\mathrm{MeV} \\times \\frac{4}{222}$$ = 0.08 MeV\n\n$$\n\\begin{aligned}\n& \\text { Energy of photon }(\\gamma)=(\\Delta m) c^2-\\left(k . \\mathrm{E}_\\alpha+k \\mathrm{E}_{\\mathrm{R} n}\\right) \\\\\\\\\n& \\mathrm{E}_r=[[0.05 \\times 931.5]-(4.44+0.08)] \\mathrm{MeV} \\\\\\\\\n& \\mathrm{E}_r=[4.655-4.52] \\mathrm{MeV} \\\\\\\\\n& \\mathrm{E}_r=0.135 \\mathrm{MeV}=0.135 \\times 10^3 \\mathrm{keV} \\\\\\\\\n& \\mathrm{E}_r=135 \\mathrm{keV}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_048",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a hydrogen-like ionized atom with atomic number $$Z$$ with a single electron. In the emission spectrum of this atom, the photon emitted in the $$n=2$$ to $$n=1$$ transition has energy $$74.8eV$$ higher than the photon emitted in the $$n=3$$ to $$n=2$$ transition. The ionization energy of the hydrogen atom is $$13.6eV.$$ The value of $$Z$$ is ____________.",
+    "solution": "We know that,\n$$\\Delta {E_{i - j}} = 13.6\\left[ {{1 \\over {n_j^2}} - {1 \\over {n_i^2}}} \\right]{Z^2}$$\nTherefore,\n$$\\Delta {E_{2 - 1}} = 13.6\\left[ {{1 \\over {{1^2}}} - {1 \\over {{2^2}}}} \\right]{Z^2} = 13.6\\left[ {{1 \\over 1} - {1 \\over 4}} \\right]{Z^2}\\Delta {E_{2 - 1}} = 13.6 \\times {3 \\over 4} \\times {Z^2}$$\nSimilarly,\n$$\\Delta {E_{3 - 2}} = 13.6\\left[ {{1 \\over {{2^2}}} - {1 \\over {{3^2}}}} \\right]{Z^2} = 13.6\\left[ {{1 \\over 4} - {1 \\over 9}} \\right]{Z^2}\\Delta {E_{3 - 2}} = 13.6 \\times {5 \\over {36}} \\times {Z^2}$$\nGiven, $$\\Delta {E_{2 - 1}} = \\Delta {E_{3 - 2}} + 74.8 \\Rightarrow 13.6 \\times {3 \\over 4} \\times {Z^2} = 13.6 \\times {5 \\over {36}} \\times {Z^2} + 74.8 \\Rightarrow 13.6 \\times {3 \\over 4} \\times {Z^2} - 13.6 \\times {5 \\over {36}} \\times {Z^2} = 74.8 \\Rightarrow 13.6 \\times {Z^2}\\left[ {{3 \\over 4} - {5 \\over {36}}} \\right] = 74.8 \\Rightarrow 13.6 \\times {Z^2}\\left[ {{{27 - 5} \\over {36}}} \\right] = 74.8 \\Rightarrow 13.6 \\times {Z^2} \\times {{22} \\over {36}} = 74.8 \\Rightarrow {Z^2} = {{74.8 \\times 36} \\over {13.6 \\times 22}} = 9 \\Rightarrow Z = 3$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_049",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${}^{131}{\\rm I}$$ is an isotope of Iodine that $$B$$ decays to an isotope of Xenon with a half-life of $$8$$ days. A small amount of a serum labelled with $${}^{131}{\\rm I}$$ is injected into the blood of a person. The activity of the amount of $${}^{131}{\\rm I}$$ injected was $$2.4 \\times {10^5}$$ Becquerel $$(Bq).$$ It is known that the injected serum will get distributed uniformly in the blood stream in less than half an hour. After $$11.5$$ hours, $$2.5$$ ml of blood is drawn from person's body, and gives an activity of $$115Bq$$. The total volume of blood in the person's body, in liters is approximately (you may use $${e^x} \\approx 1 + x\\,\\,$$ for $$\\left| x \\right| < < 1$$ and $$\\ln 2 \\approx 0.7).$$",
+    "solution": "The decay rate is related to half life by $$\\lambda = {{\\ln 2} \\over {{t_{1/2}}}}$$. A sample having N$_{0}$ radioactive nuclei at time t = 0 will have $$N = {N_0}{e^{ - \\lambda t}}$$ radioactive nuclei at time t. Thus, activity (A = $$\\lambda$$N) of a sample reduces from its initial value A$_{0}$ to a value $$A = {A_0}{e^{ - \\lambda t}}$$ at time t.\nLet V be the total volume of blood and N be the total number of radioactive nuclei at time t. The nuclei are distributed uniformly in blood. A sample of volume v will have n = (v/V)N radioactive nuclei in it. Thus, activity of this sample is\n$$a = \\lambda n = \\lambda \\left( {{v \\over V}N} \\right) = {v \\over V}(\\lambda N) = {v \\over V}A = {v \\over V}{A_0}{e^{ - \\lambda t}}$$.\nSubstitute a = 115 Bq, v = 2.5 ml, A$_{0}$ = 2.4 $$\\times$$ 10$^{5}$ Bq, $$\\lambda$$ = ln 2/t$_{1/2}$ $$\\approx$$ 0.7/(8 $$\\times$$ 24) hr$^{$$-$$1}$ and t = 11.5 hr to get\n$$V = {{(2.5)(2.4 \\times {{10}^5})} \\over {115}}{e^{ - {{0.7 \\times 11.5} \\over {8 \\times 24}}}} \\approx {{(2.5)(2.4 \\times {{10}^5})} \\over {115}}\\left( {1 - {{0.7 \\times 11.5} \\over {8 \\times 24}}} \\right)$$\n= 4998 ml $$\\approx$$ 5 litre.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_050",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An electron in a hydrogen atom undergoes a transition from an orbit with quantum number $${n_i}$$ to another with quantum number $${n_f}$$. $${V_i}$$ and $${V_f}$$ are respectively the initial and final potential energies of the electron. If $${{{V_i}} \\over {{V_f}}} = 6.25$$, then the smallest possible $${n_f}$$ is",
+    "solution": "The energy of a hydrogen atom with an electron in n$^{th}$ orbit is given by\n$${E_n} = - {{13.6} \\over {{n^2}}}eV$$.\nThe potential energy in n$^{th}$ orbit is related to E$_{n}$ by V$_{n}$ = E$_{n}$/2. Thus, potential energies in orbits with quantum numbers n$_{i}$ and n$_{f}$ are given by\n$${V_i} = - {{13.6} \\over {2n_i^2}}eV$$, and $${V_f} = - {{13.6} \\over {2n_f^2}}eV$$, which gives\n$${{{V_i}} \\over {{V_f}}} = {{n_f^2} \\over {n_i^2}} = 6.25$$ (given).\nTake square root to get n$_{f}$ = 2.5n$_{i}$. Since n$_{i}$ and n$_{f}$ are positive integers, smallest possible integral value of n$_{f}$ is 5 for n$_{i}$ = 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_051",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A hydrogen atom in its ground state is irradiated by light of wavelength 970$$\\mathop A\\limits^o $$.\n\nTaking hc = 1.237 $$\\times$$ 10$^{$$-$$6}$ eVm and the ground state energy of hydrogen atom as $$-$$ 13.6 eV, the number of lines present in the emission spectrum is",
+    "solution": "The energy of the incident photon of wavelength $\\lambda=970 $ $$\\mathop A\\limits^o $$ is\n\n$$\n\\Delta E=\\frac{h c}{\\lambda}=\\frac{1.237 \\times 10^{-6}}{970 \\times 10^{-10}}=12.75 \\mathrm{eV}\n\n\\begin{aligned}\n& \\text { Final energy of electron in } n^{\\text {th }} \\text { state }=-\\frac{13.6}{n^2} \\mathrm{eV} \\\\\\\\\n& \\Rightarrow-\\frac{13.6}{n^2}=-13.6+12.75=-0.85 \\\\\\\\\n& \\Rightarrow n^2=16 \\Rightarrow n=4\n\\end{aligned}\n$$\n\n[Diagram]\n\nThe hydrogen atom can make ${ }^n \\mathrm{C}_2=6$ transitions while returning to ground state. Thus, the emission spectrum will have six lines.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li48jikm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_052",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The isotope $$_5^{12}B$$ having a mass 12.014 u undergoes $$\\beta $$-decay to $$_6^{12}C$$. $$_6^{12}C$$ has an excited state of the nucleus ($$_6^{12}C$$*) at 4.041 MeV above its ground state. If $$_5^{12}B$$ decays to $$_6^{12}C$$*, the maximum kinetic energy of the $$\\beta$$-particle in units of MeV is (1u = 931.5 MeV/c$^{2}$, where c is the speed of light in vacuum).",
+    "solution": "As the ${ }_5^{12} B$ is going under $\\beta$-decay to form\n$$_6^{12}C$$. We can write the balanced equation as follows\n\n$$\n{ }_5^{12} \\mathrm{~B} \\rightarrow{ }_6^{12} \\mathrm{C}+e^{-1}+\\bar{\nu}\n$$\n\nThe $Q$-value of this reaction is given by\n\n$$\n\\begin{aligned}\nQ & =\\left[m\\left({ }_5^{12} \\mathrm{~B}\\right)-m\\left({ }_6^{12} \\mathrm{C}\\right)\\right] c^2 \\\\\\\\\n& =[12.041-12.0] \\times 931.5=13.041 \\mathrm{MeV}\n\\end{aligned}\n$$\n\nThe energy $Q=13.041 \\mathrm{MeV}$ is released in the reaction. Out of this energy, 4.041 $\\mathrm{MeV}$ is used to excite ${ }_6^{12} \\mathrm{C}$ to its excited state ${ }_6^{12} \\mathrm{C}^*$. Thus, the kinetic energy available to the $\\beta$-particle $\\left(K_\\beta\\right)$ and the antineutrino $\\left(K_{\\bar{\nu}}\\right)$ is $K_\\beta+K_{\\bar{\nu}}=13.041-4.041=9 \\mathrm{MeV}$. In $\\beta-$ decay, the kinetic energy of the $\\bar{\nu}$ can vary from zero to a maximum value. Hence, the maximum kinetic energy of the $\\beta$-particle is $K_{\\beta, \\max }=9 \\mathrm{MeV}$ (when $K_{\\bar{\nu}}=0$ ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_053",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a radioactive material, its activity A and rate of change of its activity R are defined as $$A = - {{dN} \\over {dt}}$$ and $$R = - {{dA} \\over {dt}}$$, where N(t) is the number of nuclei at time t. Two radioactive source P(mean life $$\\tau $$) and Q (mean life 2$$\\tau $$) have the same activity at t = 0. Their rate of change of activities at t = 2$$\\tau $$ are R$_{P}$ and R$_{Q}$, respectively. If $${{{R_P}} \\over {{R_Q}}} = {n \\over e}$$, then the value of n is",
+    "solution": "Law of radioactivity : $$N = {N_0}{e^{ - \\lambda t}}$$ where $$\\lambda$$ = decay constant\nActivity $$\\left| A \\right| = \\left| {{{ - dN} \\over {dt}}} \\right| = {N_0}\\lambda {e^{ - \\lambda t}}$$\nRate of activity $$R = {{d|A|} \\over {dt}} = {N_0}{\\lambda ^2}{e^{ - \\lambda t}}$$\nAt t = 0, A$_{1}$ = A$_{2}$. Therefore,\n$${N_{OP}}{\\lambda _P} = {N_{OQ}}{\\lambda _Q}$$\nAt $$t = 2\\tau ,\\,{{{R_P}} \\over {{R_Q}}} = {\\left( {{{{\\lambda _P}} \\over {{\\lambda _Q}}}} \\right)^2}\\left( {{{{N_{OP}}} \\over {{N_{OQ}}}}} \\right){{{e^{ - \\lambda P(25)}}} \\over {{e^{ - \\lambda Q(25)}}}} = {{{\\lambda _P}} \\over {{\\lambda _Q}}}{e^{({\\lambda _Q} - {\\lambda _P})25}}$$\nSince mean life is given by $$\\tau = {1 \\over \\lambda }$$.\nTherefore,\n$${{{R_P}} \\over {{R_Q}}} = {{{\\lambda _P}} \\over {{\\lambda _Q}}}{e^{{{\\left( {{1 \\over {25}} - {1 \\over 5}} \\right)}^{25}}}} = {{{\\lambda _P}} \\over {{\\lambda _Q}}}{e^{ - 1}}{{{R_P}} \\over {{R_Q}}} = {{{\\lambda _\\{ }} \\over {{\\lambda _Q}}}{1 \\over e} = {n \\over e}n = {{{\\lambda _P}} \\over {{\\lambda _Q}}} = {{2\\tau } \\over \\tau } = 2$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_atoms_and_nuclei_054",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a hydrogen atom with its electron in the nth orbital. An electromagnetic radiation of wavelength 90 nm is used to ionize the atom. If the kinetic energy of the ejected electron is 10.4 eV, then the value of n is (hc = 1242 eV nm)",
+    "solution": "Energy of the incident photon $$ = hf = {{hc} \\over \\lambda } = {{1242} \\over {90}} = 13.8$$ eV. Since after ionisation, electron is ejected with some kinetic energy. By energy conservation, we get\nEnergy (photon) = Kinetic energy (electron) + $$\\Delta$$E\nTransition energy from nth orbit to n $$\\to\\infty$$. Therefore,\n13.8 = 10.4 + $$\\Delta$$E\n$$\\Rightarrow\\Delta$$E = 3.4 eV\nFrom Bohr's theory,\n$${E_n} = {{ - 13.6} \\over {{n^2}}} = - 3.4 \\Rightarrow n = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkvlqr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_055",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A nuclear power plant supplying electrical power to a village uses a radioactive material of half life T years as the fuel. The amount of fuel at the beginning is such that the total power requirement of the village is 12.5 % of the electrical power available from the plant at that time. If the plant is able to meet the total power needs of the village for a maximum period of nT years, then the value of n is",
+    "solution": "Half life of radioactive material = T years\nLet amount of radioactive material as fuel at the beginning be N$_{0}$ and corresponding power produced by it be P$_{0}$.\nAccording to question,\nPower requirement of the village\n= 12.5% of $${P_0} = {{{P_0}} \\over 8}$$\nSince, after each T year, power will be half, i.e.,\n$${P_0}\\buildrel T \\over\n\\longrightarrow {{{P_0}} \\over 2}\\buildrel T \\over\n\\longrightarrow {{{P_0}} \\over 4}\\buildrel T \\over\n\\longrightarrow {{{P_0}} \\over 8}$$\nTotal time upto which the plant can meet the village's need = 3T years = nT years\n$$\\therefore$$ n = 3",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkvlqr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_056",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A freshly prepared sample of a radioisotope of half-life 1386 s has activity 10$^{3}$ disintegrations per second. Given that ln2 = 0.693, the fraction of the initial number of nuclei (expressed in nearest integer percentage) that will decay in the first 80 s after preparation of the sample is __________.",
+    "solution": "Decay constant, $$\\lambda = {{\\ln 2} \\over {{T_{1/2}}}} = {{0.693} \\over {1386\\,s}} = 5 \\times {10^{ - 4}}\\,s$$\nAccording to radioactive decay, $$N = {N_0}{e^{ - \\lambda t}}{N \\over {{N_0}}} = {e^{ - 5 \\times {{10}^{ - 4}} \\times 80}}$$ or $${N \\over {{N_0}}} = {e^{ - 0.04}}$$\nFraction of nuclei decayed $$ = {{{N_0} - N} \\over {{N_0}}} = 1 - {N \\over {{N_0}}} = 1 - {e^{ - 0.04}} = 1 - 0.96 = 0.04 = 4\\% $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkvlqr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_057",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "To determine the half-life of a radioactive element, a student plots a graph of $$\\ln \\left| {{{dN(t)} \\over {dt}}} \\right|$$ versus t. Here, $${{dN(t)} \\over {dt}}$$ is the rate of radioactive decay at time t. If the number of radioactive nuclei of this element decreases by a factor of p after 4.16 years, the value of p is __________.\n\n[Diagram]",
+    "solution": "The activity of a radioactive substance, having a decay constant $$\\lambda$$ and number of nuclei N at time t, is given by\n$$A = \\left| {dN/dt} \\right| = \\lambda N = \\lambda {N_0}{e^{ - \\lambda t}}$$ ..... (1)\nTake logarithm on both sides of equation (1) to get\n$$\\ln \\left| {dN/dt} \\right| = \\ln (\\lambda {N_0}) - \\lambda t$$ ...... (2)\nThus, the graph between t and $$\\left| {dN/dt} \\right|$$ is a straight line with slope $$ - \\lambda $$.\nSlope $$ = - \\lambda = {{3 - 4} \\over {6 - 4}}$$ (From graph) or $$\\lambda = {1 \\over 2}$$ year$^{$$-$$1}$\nHalf life $${T_{1/2}} = {{0.693} \\over \\lambda } = 2 \\times 0.693$$ years = 1.386 years\n4.16 years is approximately 3 half-lives\nNuclei will decay by a factor of 2$^{3}$ = 8\n$$\\therefore$$ p = 8",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkvlqr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_atoms_and_nuclei_058",
+    "subject": "Physics",
+    "chapter": "Atoms & Nuclei",
+    "topic": "Atoms & Nuclei",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In hydrogen-like atom $(z=11)$, $n$th line of Lyman series has wavelength A equal to the de Broglie's wavelength of electron in the level from which it originated. What is the value of $n$ ?",
+    "solution": "The $n^{\\text {th }}$ line in Lyman series corresponds to transition $(n+1) \\rightarrow 1$. The wavelength of this transition is given by\n$$ \\begin{aligned} \\frac{1}{\\lambda} & =\\mathrm{R} z^2\\left|\\frac{1}{1^2}-\\frac{1}{(n+1)^2}\\right| \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)\\\\ \\mathrm{R} & =1.097 \\times 10^7 \\mathrm{~m}^{-1} \\text { and } z=11 . \\end{aligned} $$\nThe angular momemtum in $n^{\\text {th }}$ orbit is given by\n$$ m v r=\\frac{n h}{2 \\pi} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii)$$\nThe de-Broglie wavelength of electron in $(n+1)^{\\text {th }}$ orbit is\n$$ \\lambda=\\frac{h}{m v}=\\frac{h r}{m v r}=\\frac{2 \\pi r}{(n+1)} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii) \\begin{aligned} &\\text { The radius of }(n+1) \\text { th orbit is }\\\\ &r=a_0(n+1)^2 / z \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iv)\\end{aligned} $$\nwhere, $a_0=0.5269 \\times 10^{-10} m$ is Bohr's radius.\nSubstitute $r$ from equation (iv) into equation (iii) and then substitute into equation (i) to get.\n$$ \\begin{aligned} \\lambda & =\\frac{2 \\pi\\left(a_0(n+1)^2\\right) / z}{(n+1)} \\\\ & =\\frac{2 \\pi a_0(n+1)}{z} \\end{aligned} $$\nFrom (i)\n$$ \\begin{aligned} & \\frac{\\frac{1}{\\frac{2 \\pi a_0(n+1)}{z}}=\\mathrm{R} z^2\\left|\\frac{1}{1^2}-\\frac{1}{(n+1)^2}\\right|}{\\frac{z}{2 \\pi a_0(n+1)}=\\mathrm{R} z^2\\left|\\frac{1}{1^2}-\\frac{1}{(n+1)^2}\\right|} \\\\ & \\frac{z}{2 \\pi\\left(0.529 \\times 10^{-10}\\right)(n+1)} \\end{aligned} \\begin{aligned} &=1.09 \\times 10^7 \\times z^2\\left[1-\\frac{1}{(n+1)^2}\\right]\\\\ &\\text { Put } z=11\\\\ &\\begin{aligned} & \\frac{11}{2 \\pi\\left(0.529 \\times 10^{-10}\\right)(n+1)} \\\\ & \\quad=1.09 \\times 10^7(11)^2\\left[1-\\frac{1}{(n+1)^2}\\right] \\\\ & \\frac{1}{2 \\pi\\left(0.529 \\times 10^{-10}\\right)(n+1)} \\\\ & \\quad=1.09 \\times 10^7(10)\\left[1-\\frac{1}{(n+1)^2}\\right] \\\\ & \\frac{1}{2 \\pi\\left(0.529 \\times 10^{-10}\\right)\\left(1.09 \\times 10^7\\right)(11)} \\\\ & \\quad=\\left[1-\\frac{1}{(n+1)^2}\\right][n+1] \\end{aligned} \\end{aligned} \\begin{aligned} & \\frac{1}{2 \\pi(0.529)\\left(10^{-10}\\right)\\left(1.09 \\times 10^7\\right)(11)} \\\\ & =\\frac{(n+1)^2-1}{(n+1)^2} \\cdot(n+1) \\end{aligned} \\begin{aligned} \\frac{1}{2 \\pi(0.529)(1.09)(11)\\left(10^{-3}\\right)} & =\\frac{(n+1)^2-1}{(n+1)} \\\\ \\frac{1}{39.852 \\times 10^{-3}} & =\\frac{(n+1)^2-1}{(n+1)} \\\\ \\frac{1000}{39.852} & =\\frac{(n+1)^2-1}{(n+1)} \\\\ 25.09 & =\\frac{(n+1)^2-1}{n+1} \\\\ \\Rightarrow \\quad 25 n+25=n^2+2 n & +1-1 \\\\ & \\quad \\text { (approximate) } \\end{aligned} \\begin{aligned} & \\quad \\begin{aligned} 25 n & +25=n^2+2 n \\\\ n^2-23 n & -25=0 \\\\ n & =\\frac{-(-23) \\pm \\sqrt{(-23)^2-4.1 .(-25)}}{2.1} \\\\ & =\\frac{23 \\pm \\sqrt{529+100}}{2}=\\frac{23 \\pm \\sqrt{629}}{2} \\\\ n & =\\frac{23+\\sqrt{629}}{2}=\\frac{23-\\sqrt{629}}{2} \\\\ n & =\\frac{23+25}{2}=\\frac{23-25}{2} \\\\ \\quad n & =24, n=1 \\\\\\therefore n & =24 \\end{aligned} \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

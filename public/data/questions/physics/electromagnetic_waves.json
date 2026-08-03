@@ -1,0 +1,142 @@
+[
+  {
+    "id": "phy_electromagnetic_waves_001",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electric field associated with an electromagnetic wave travelling in vacuum is given by\n$E_0 \\sin(3y + 4z + \\omega t) \\hat{i}$, where $\\\\omega$ is the angular frequency. All quantities are in SI units. The correct statement(s) about this wave is/are:\n[Given: speed of light in vacuum $c = 3 \\times 10^8\\ \\mathrm{m\\,s^{-1}}$.]",
+    "solution": "The standard for a plane electromagnetic wave traveling in a general direction is\n$$\\vec{E} = \\vec{E}_0 \\sin(\\vec{k} \\cdot \\vec{r} + \\omega t + \\phi)$$\nHere, $\\vec{k} = k_x \\hat{i} + k_y \\hat{j} + k_z \\hat{k}$ is the wave vector, and $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ is the position vector.\n$$\\vec{k} \\cdot \\vec{r} = k_x x + k_y y + k_z z$$\nThe electric field phase is given as $(3y + 4z + \\omega t)$.\nOn comparing with $(\\vec{k} \\cdot \\vec{r} + \\omega t)$, $k_x = 0$, $k_y = 3$, $k_z = 4$\nTherefore, the wave vector is:\n$$\\vec{k} = 3\\hat{j} + 4\\hat{k}$$\nThe unit vector $\\hat{n}$ in the direction of wave propagation:\n$$\\hat{n} = -\\frac{\\vec{k}}{|\\vec{k}|} = \\frac{-3\\hat{j} + 4\\hat{k}}{\\sqrt{3^2 + 4^2}} = \\frac{-3\\hat{j} + 4\\hat{k}}{\\sqrt{9 + 16}} = \\frac{-3\\hat{j} + 4\\hat{k}}{5} = -\\frac{1}{5}(3\\hat{j} + 4\\hat{k})$$\nThus, option (A) is correct.\nThe magnitude of the wave vector $|\\vec{k}|$ is,\n\n$${k} = |\\vec{\\text{k}}| = \\sqrt{k_x^2 + k_y^2 + k_z^2} = \\sqrt{0^2 + 3^2 + 4^2} = \\sqrt{25} = 5\\ \\text{m}^{-1}$$\nSo, the magnitude of the wave vector is $5\\ \\text{m}^{-1}$. Thus, option (B) is incorrect.\nIn a vacuum, the angular frequency $\\omega$, the magnitude of the wave vector $\\text{k}$, and the speed of light $c$ are related by the wave speed equation:\n$$c = \\frac{\\omega}{\\text{k}} \\rightarrow \\omega = c \\cdot \\text{k}$$\nGiven the speed of light $c = 3 \\times 10^8\\ \\text{ms}^{-1}$, and our calculated wave vector magnitude $\\text{k} = 5\\ \\text{m}^{-1}$:\n$$\\omega = (3 \\times 10^8) \\times (5) = 15 \\times 10^8\\ \\text{rad}\\ \\text{s}^{-1} = 1.5 \\times 10^9\\ \\text{rad}\\ \\text{s}^{-1}$$\nThus, option (C) is correct.\nFor a transverse electromagnetic wave, the electric field vector $\\vec{\\text{E}}$, the magnetic field vector $\\vec{\\text{B}}$, and the propagation unit vector $\\hat{\\text{n}}$ are mutually orthogonal and follow a definitive right-hand rule cross product vector relation:\n$$\\vec{\\text{B}} = \\frac{1}{c}\\,(\\hat{\\text{n}} \\times \\vec{\\text{E}})\\vec{\\text{B}} = \\frac{1}{\\omega}\\,(\\vec{\\text{k}} \\times \\vec{\\text{E}})$$\nHere, $\\vec{\\text{k}} = 3\\hat{\\text{j}} + 4\\hat{\\text{k}}$ and $\\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,\\hat{\\text{i}}$\n$$\\vec{\\text{k}} \\times \\vec{\\text{E}} = (3\\hat{\\text{j}} + 4\\hat{\\text{k}}) \\times [E_0 \\sin(3y + 4z + \\omega\\ t)\\,\\hat{\\text{i}}]\\vec{\\text{k}} \\times \\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,[3(\\hat{\\text{j}} \\times \\hat{\\text{i}}) + 4(\\hat{\\text{k}} \\times \\hat{\\text{i}})]\\vec{\\text{k}} \\times \\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,[3(-\\hat{\\text{k}}) + 4(\\hat{\\text{j}})] = E_0 \\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})$$\nPutting in magnetic field expression,\n$$\\vec{\\text{B}} = \\frac{1}{\\omega}\\left[E_0 \\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})\\right]$$\nSince $\\omega = c \\cdot \\text{k}$ and $\\text{k} = 5$:\n$$\\vec{\\text{B}} = \\frac{E_0}{5c}\\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})$$\nThus, option (D) is incorrect.\nTherefore, the correct options are (A) and (C).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The wave is travelling in $-\\frac{1}{5} (3 \\hat{j} + 4 \\hat{k})$ direction.",
+      "The magnitude of the wave vector is $0.5\\ \\mathrm{m}^{-1}$.",
+      "The value of $\\omega$ is $1.5 \\times 10^9 \\ \\mathrm{rad}\\ \\mathrm{s}^{-1}$.",
+      "The magnetic field associated with this wave is given by $\\frac{E_0}{c} \\sin(3y + 4z + \\omega t)(4 \\hat{j} - 3 \\hat{k})$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrph97s4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electromagnetic_waves_002",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A cube of unit volume contains $35 \\times 10^7$ photons of frequency $10^{15} \\mathrm{~Hz}$. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\\alpha \\times 10^{-9} \\mathrm{~T}$. Taking permeability of free space $\\mu_0=4 \\pi \\times 10^{-7} \\mathrm{Tm} / \\mathrm{A}$, Planck's constant $h=6 \\times 10^{-34} \\mathrm{Js}$ and $\\pi=\\frac{22}{7}$, the value of $\\alpha$ is ____________.",
+    "solution": "As the cube has unit volume so energy density, $u=\\frac{E}{1}=E$\nwhere, $E=$ total energy\nEnergy of a photon, $E_1=h\nu$\n\nSo for n photon, $E=n h\nu$\nHere, the question mentions \"average energy contained in the electromagnetic waves within the same volume\" which means we have to consider standing wave in a cavity (since the photons are in a cube).\nAverage energy density for a standing wave : $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 E_0{ }^2+\\frac{1}{2} \\frac{B_0{ }^2}{\\mu_0}\\right)$\nThe factor $\\frac{1}{2}$ comes from averaging $\\sin ^2(k x)$\nover the volume. $\\left\\langle\\sin ^2(k x)\\right\\rangle=\\frac{1}{2}$\nFor an $E M$ wave $E=C B$\n$$ \\text { so } E_0=C B_0 $$\nHence, $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0\\left(c B_0\\right)^2+\\frac{B_0^2}{2 \\mu_0}\\right)$\n$$ =\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right) \\begin{aligned} \\Rightarrow\\langle u\\rangle=\\frac{1}{2} & {\\left[\\frac{1}{2}\\left(\\frac{1}{\\mu_0 c^2}\\right) c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right]\\left(\\begin{array}{l} As, c=\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\\\ \\text { so } \\varepsilon_0=\\frac{1}{\\mu_0 c^2} \\end{array}\\right.} \\\\ \\Rightarrow\\langle u\\rangle & =\\frac{1}{2}\\left[\\frac{B_0^2}{2 \\mu_0}+\\frac{B_0^2}{2 \\mu_0}\\right] \\\\ & \\Rightarrow\\langle u\\rangle=\\frac{B_0^2}{2 \\mu_0} \\end{aligned} $$\nGiven that this is equal to the photon energy density. so $\\frac{B_0^2}{2 \\mu_0}=n h\nu$\nTotal energy of photons.\n$$ \\begin{aligned} E & =n h\nu \\\\ & =35 \\times 10^7 \\times 6 \\times 10^{-34} \\times 1.15 \\\\ \\Rightarrow E & =210 \\times 10^{-12} \\mathrm{~J} \\end{aligned} $$\nFor $E M$ waves : $E=\\frac{B_0{ }^2}{2 \\mu_0}$\nSo $\\frac{B_0^2}{2 \\mu_0}=210 \\times 10^{-12}$\n$$ \\begin{aligned} & \\Rightarrow B_0^2=2 \\times 4 \\times \\frac{22}{7} \\times 10^{-7} \\times 210 \\times 10^{-12} \\\\ & \\Rightarrow B_0^2=5280 \\times 10^{-19} \\\\ & \\Rightarrow B_0^2=528 \\times 10^{-18} \\\\ & \\Rightarrow B_0=\\sqrt{528} \\times 10^{-9} \\\\ & \\Rightarrow B_0=22.978 \\times 10^{-9} \\mathrm{~T} \\\\ & \\\\ & \\text { = } \\alpha \\times 10^{-9} \\mathrm{~T} \\text { (given) } \\\\ &So, \\alpha=22.98 \\text { Ans. } \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_electromagnetic_waves_003",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand for dimensions of electric and magnetic fields respectively, while $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ stand for dimensions of the permittivity and permeability of free space respectively. $$\\left[ L \\right]$$ and $$\\left[ T \\right]$$ are dimensions of length and time respectively. All the quantities are given in $$SI$$ units.\n\nThe relation between $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ is",
+    "solution": "$$c = {1 \\over {\\sqrt {{\\mu _0}{\\varepsilon _0}} }}{c^2} = {1 \\over {{\\mu _0}{\\varepsilon _0}}}{\\mu _0} = \\varepsilon _0^{ - 1}\\,.\\,{c^{ - 2}}[{\\mu _0}] = {[{\\varepsilon _0}]^{ - 1}}[{L^{ - 2}}{T^2}]$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$",
+      "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$",
+      "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$",
+      "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$"
+    ]
+  },
+  {
+    "id": "phy_electromagnetic_waves_004",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$. Which of the following option(s) is(are) correct?\n\n[Given: The speed of light in vacuum, $c=3 \\times 10^8 \\mathrm{~m} \\mathrm{~s}^{-1}$ ]",
+    "solution": "**1. Calculation of the Speed of Light in a Medium:**\n\n\n- The speed of light in a medium, denoted as $$ V $$, is given by the formula $$ V = \\frac{W}{k} $$.\n\n\n- Substituting values, we get $$ V = \\frac{3 \\times 5 \\times 10^{14}}{10^7} = 1.5 \\times 10^8 \\text{ m/s} $$.\n\n**2. Determination of the Refractive Index:**\n\n\n- The refractive index, $$ \\mu $$, is the ratio of the speed of light in vacuum, $$ C $$, to the speed of light in the medium, $$ V $$.\n\n\n- Substituting values, $$ \\mu = \\frac{3 \\times 10^8}{1.5 \\times 10^8} = 2 $$.\n\n- Hence, the refractive index $$ \\mu $$ is 2.\n\nTherefore, the option (D) is the answer.\n\nGiven, $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$\n\nNow magnitude of\n\n$$\n\\begin{aligned}\nB & =\\frac{E}{v} \\\\\\\\\n\\Rightarrow B & =\\frac{30 \\sqrt{5}}{1.5 \\times 10^8}\n\\end{aligned}\n$$\n\n[Diagram]\n\n$\\begin{aligned} & \\tan \\alpha=\\frac{1}{2} \\\\\\\\ & \\sin \\alpha=\\frac{1}{\\sqrt{5}}\\end{aligned}$\n\nThe direction of $\\vec{B}$ is along the direction of $\\vec{v} \\times \\vec{E}$\n\ni.e. $\\hat{v} \\times \\hat{E}=\\hat{B}$\n\nNow $ B_x=-B \\sin \\alpha$\n\n$$\n\\Rightarrow B_x=-\\frac{30 \\sqrt{5}}{1.5 \\times 10^8} \\times \\frac{1}{\\sqrt{5}}=-2 \\times 10^7\n$$\n\nTherefore, option (A) is the answer.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$B_x=-2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$.",
+      "$B_y=2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$.",
+      "The wave is polarized in the $x y$-plane with polarization angle $30^{\\circ}$ with respect to the $x$-axis.",
+      "The refractive index of the medium is 2."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrph97s4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_electromagnetic_waves_005",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In terms of potential difference V, electric current I, permittivity $${\\varepsilon _0}$$, permeability $${\\mu _0}$$ and speed of light c,\nthe dimensionally correct equation(s) is(are) :",
+    "solution": "The speed of light in vacuum is given by, $$c = {1 \\over {\\sqrt {{\\mu _0}{\\varepsilon _0}} }}$$ and The impedance (resistance) of free space is\ndefined a $$R = \\sqrt {{{{\\mu _0}} \\over {{\\varepsilon _0}}}} $$. Using this check the dimensional correctness of equations.\n(a) $${\\mu _0}{I^2} = {\\varepsilon _0}{V^2}{{{\\mu _0}} \\over {{\\varepsilon _0}}} = {{{V^2}} \\over {{I^2}}} = {R^2}\\therefore{R^2} = {R^2}$$ which is dimensionally correct.\n(b) $${\\varepsilon _0}I = {\\mu _0}V \\Rightarrow {{{\\varepsilon _0}} \\over {{\\mu _0}}} = {V \\over I} \\Rightarrow {1 \\over {{R^2}}} = R$$\nwhich is dimensionally incorrect.\n(c) $$I = {\\varepsilon _0}cV \\Rightarrow {I \\over V} = {\\varepsilon _0}C = {{{\\varepsilon _0}} \\over {\\sqrt {{\\varepsilon _0}{\\mu _0}} }}$$ = $$\\sqrt {{{{\\varepsilon _0}} \\over {{\\mu _0}}}} $$ = $$ {1 \\over R}{1 \\over R} = \\sqrt {{{{\\varepsilon _0}} \\over {{\\mu _0}}}} \\Rightarrow {1 \\over R} = {1 \\over R}$$\nwhich is dimensionally correct.\n(d) $${\\mu _0}cI = {\\varepsilon _0}V \\Rightarrow {{{\\mu _0}c} \\over {{\\varepsilon _0}}} = {V \\over I}{{{\\mu _0}} \\over {{\\varepsilon _0}}}{1 \\over {\\sqrt {{\\varepsilon _0}{\\mu _0}} }} = R \\Rightarrow {1 \\over {{\\varepsilon _0}}}\\sqrt {{{{\\mu _0}} \\over {{\\varepsilon _0}}}} = R{R \\over {{\\varepsilon _0}}} = R$$, which is dimensionally incorrect.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$${\\mu _0}{I^2} = {\\varepsilon _0}{V^2}$$",
+      "$${\\varepsilon _0}I = {\\mu _0}V$$",
+      "$$I = {\\varepsilon _0}cV$$",
+      "$${\\mu _0}cI = {\\varepsilon _0}V$$"
+    ]
+  },
+  {
+    "id": "phy_electromagnetic_waves_006",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand for dimensions of electric and magnetic fields respectively, while $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ stand for dimensions of the permittivity and permeability of free space respectively. $$\\left[ L \\right]$$ and $$\\left[ T \\right]$$ are dimensions of length and time respectively. All the quantities are given in $$SI$$ units.\n\nThe relation between $$[E]$$ and $$[B]$$ is",
+    "solution": "We know $$B = {E \\over c}$$ or $$E = Bc$$\nNow, $$[E] = [B][c]$$\nWe know that $$[c] = [L{T^{ - 1}}]$$\nTherefore, $$[E] = [B][L{T^{ - 1}}] = [B][L]{[T]^{ - 1}}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]\\left[ T \\right]$$",
+      "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}\\left[ T \\right]$$",
+      "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]{\\left[ T \\right]^{ - 1}}$$",
+      "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}{\\left[ T \\right]^{ - 1}}$$"
+    ]
+  },
+  {
+    "id": "phy_electromagnetic_waves_007",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Waves",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A pulse of light of duration 100 ns is absorbed completely by a small object initially at rest. Power of the pulse is 30 mW and the speed of light is 3 $$\\times$$ 10$^{8}$ ms$^{$$-$$1}$. The final momentum of the object is",
+    "solution": "Duration of pulse, t = 100 ns = 100 $$\\times$$ 10$^{$$-$$9}$ s.\nPower of the pulse, P = 30 mW = 30 $$\\times$$ 10$^{$$-$$3}$ W.\nSpeed of light, c = 3 $$\\times$$ 10$^{8}$ ms$^{$$-$$1}$\nThe final momentum of the object is\n$$p = {E \\over c} = {{P \\times t} \\over c} = {{30 \\times {{10}^{ - 3}} \\times 100 \\times {{10}^{ - 9}}} \\over {3 \\times {{10}^8}}} = {10^{ - 17}}$$ kg-ms$^{$$-$$1}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0.3 $$\\times$$ 10$^{$$-$$17}$ kg-ms$^{$$-$$1}$",
+      "1.0 $$\\times$$ 10$^{$$-$$17}$ kg-ms$^{$$-$$1}$",
+      "3.0 $$\\times$$ 10$^{$$-$$17}$ kg-ms$^{$$-$$1}$",
+      "9.0 $$\\times$$ 10$^{$$-$$17}$ kg-ms$^{$$-$$1}$"
+    ]
+  }
+]

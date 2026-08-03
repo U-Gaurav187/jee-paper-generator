@@ -1,0 +1,223 @@
+[
+  {
+    "id": "chem_polymers_001",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, major products $\\mathbf{X}$ and $\\mathbf{Y}$ are acyclic monomers.\n\n[Diagram]\n\n500 mol of $\\mathbf{X}$ completely reacts with 500 mol of $\\mathbf{Y}$ to give 1 mol of a single biodegradable acyclic copolymer $\\mathbf{Z}$ as the only product. The amount of $\\mathbf{Z}$ formed in grams is $\\_\\_\\_\\_$ .\nGiven :\nAtomic mass (in amu): $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{Br}: 80$",
+    "solution": "[Diagram]\n\n[Diagram]\n\n**Calculation of water molecules lost**\nEach monomer of $X$ and $Y$ combines by losing $2$ moles of water per linkage. When $500$ moles of each react, total possible water molecules lost will be:\n$$ 500 \\times 2 - 1 = 999 $$\n**Mass of water lost**\nMass of water lost = (number of moles of water) × (molar mass of water)\n$$ = 999 \\times 18 = 17982 \\text{ g} $$\n** Mass of polymer formed**\nTotal mass of reactants = (mass of 500 mol of X) + (mass of 500 mol of Y)\n$$ = 75 \\times 500 + 131 \\times 500 = 37500 + 65500 = 103000 \\text{ g} $$\nTherefore, mass of polymer formed, $Z$, after losing water is:\n$$ 103000 - 17982 = 85018 \\text{ g} $$\n**Hence, the mass of polymer $Z$ formed is 85,018 g.**",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9ykwdp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_002",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the correct statement(s) about polymers is(are)",
+    "solution": "(A) Polymerization of chloroprene gives synthetic rubber.\n(B) Teflon is manufactured by heating tetrafluoroethene with a free radical or persulphate catalyst at hight pressure.\n(C) Polyvinyl chloride (PVC) is a thermoplastic polymer and used in making hand bags, vinyl flooring and water pipes.\n(D) Ethene at 350-570 K temperature and 1000-2000 atm pressure in the presence of a peroxide initiator yields low density polythene.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The polymerization of chloroprene gives natural rubber.",
+      "Teflon is prepared from tetrafluoroethene by heating it with persulphate catalyst at high pressures.",
+      "PVC are thermoplastic polymers.",
+      "Ethene at 350-570 K temperature and 1000-2000 atm pressure in the presence of a peroxide initiator yields high density polythene."
+    ]
+  },
+  {
+    "id": "chem_polymers_003",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "On complete hydrogenation, natural rubber produces",
+    "solution": "Hydrogenation of natural rubber leads to formation of ethylene-propylene copolymer.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "ethylene-propylene copolymer.",
+      "vulcanized rubber.",
+      "polypropylene.",
+      "polybutylene."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ihodie.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_004",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Monomer A of a polymer on ozonolysis yields two moles of HCHO and one mole of CH$$_3$$COCHO.\n(A) Deduce the structure of A.\n(B) Write the structure of \"all $$cis$$\" forms of polymer of compound A.",
+    "solution": "(A) The monomer A on ozonolysis yields two\nmolecules of HCHO and a molecule of\nCH$$_3$$COCHO. During ozonolysis, the double\nor triple bonds in the molecule are replaced by\ncarbonyl groups.\nTherefore, if we remove the oxygen atoms\nfrom 2 molecules of HCHO and a molecule of\nCH$$_3$$COCHO and replaced them with double\nbond, we can deduce the structure of monomer\nA.\n\n[Diagram]\n\nThe structure of monomer A we got is the\nstructure of isoprene. Therefore, monomer A\nis isoprene.\n(B) The isoprene is a monomer for natural rubber.\n\n[Diagram]\n\nTo write the “all $$cis$$” form of the polymer of\nmonomer A that is isoprene, we need to write\nthe structure of polymer such that the identical\ngroups present across double bonds should lie\nin the same plane.\nThe “all $$cis$$” for of the polymer is shown below.\n\n[Diagram]\n\nFinal Answer\n\n[Diagram]\n\nHints:\nThe ozonolysis eliminates the double or triple\nbond from the molecule and replace it with\ncarbonyl groups. The removal of oxygen\natoms and replacing it with double bonds will\ngive the structure of monomer A.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9kec78.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_005",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is ______.**Use:** Atomic mass of N (in amu) = 14",
+    "solution": "Monomer $(X) \\rightarrow$ positive carbylamine test\nThe monomer used in the synthesis of Nylon -6,6 are hexamethylene diamine and adipic acid.\n\n[Diagram]\n\nPositive carbylamine test is given by primary amine compounds. Hexamethylene diamine is a primary amine compound and can give positive carbylamine test.\n\nSo, the monomer $X$ is hoxamethylene diamine.\n$$\n\\begin{aligned}\n&\\begin{aligned}\nx \\rightarrow \\mathrm{H_2N}-\\left(\\mathrm{CH}_2\\right)_6-\\mathrm{NH}_2 \\quad & \\text { Molarmars } & \\\\\n= & 6 \\times 12 \\mathrm{~g} / \\mathrm{mol}+2 \\times 14 \\mathrm{~g} / \\mathrm{mol} +16 \\times 1 \\mathrm{~g} / \\mathrm{mol} & \\\\\n= & 116 \\mathrm{~g} / \\mathrm{mol} &\n\\end{aligned}\\\\\n&\\text { Moles of } X \\text { analyzed using Dumas method }=10 \\mathrm{~mol}\n\\end{aligned}\n$$According to Dumas method, the nitrogen present in the compound is released as nitrogen gas $\\left(\\mathrm{N}_2\\right)$,\n\nThe general chemical equation fol Dumas method can be written as$$\n\\mathrm{C}_x \\mathrm{H}_y \\mathrm{~N}_z+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{CuO}(\\mathrm{~s}) \\xrightarrow{}\n$$(organic\nCompound)$$\nx \\mathrm{CO}_2(g)+\\frac{y}{2} H_2 \\mathrm{O}(gold )+\\frac{z}{2} \\mathrm{~N}_2(g)+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{Cu}(s)\n$$The compound used in Dumas method is hexamethylene diamine. Its formula is $\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2$$$\n\\text { So, the equation can be written as, }\n\n\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2+20 \\mathrm{CuO} \\rightarrow\n\n6 \\mathrm{CO}_2+8 \\mathrm{H}_2 \\mathrm{O}+1 \\mathrm{~N}_2+20 \\mathrm{Cu}\n\n\\text { So, } 1 \\text { mole of } \\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2 \\text { gives. } 1 \\text { mole of } \\mathrm{N}_2 \\text {. }\n$$Given 10, moles of $\\mathrm{C}_{6}\\mathrm{H}_{16} \\mathrm{~N}_2$ (hexamethylene diamine) gives 10 moles of $\\mathrm{N}_2$ gas.Moles of $\\mathrm{N}_2$ gas evolved $=10$ mol Mass can be calculated as, \\begin{aligned}\n&\\text { Moles }=\\frac{\\text { mass }}{\\text { molarmass }}\\\\\n&\\text { Moloumass of } \\mathrm{N}_2=28 \\mathrm{~g} / \\mathrm{mol}\n\\end{aligned}mass $=$ moles $\\times$ molar mass$$\n\\begin{aligned}\n&\\begin{aligned}\n& =10 \\text { mol } x 28 \\mathrm{~g} / \\mathrm{mol} \\\\\n& =280 \\mathrm{~g}\n\\end{aligned}\\\\\n&\\text { Answer: } 280 \\%\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mbryl0o4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_006",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct option(s) from the following.",
+    "solution": "(a) Teflon is prepared by heating tetrafluoroethene in presence of persulphate catalyst at higher pressure.\n\n\n[Diagram]\n\nThus, option (a) is correct.\n\n(b) Natural rubber is a linear polymer of isoprene (2-methyl-1,3-butadiene) also known as\ncis-1,4-polyisoprene.\n\n\n[Diagram]\n\nThus, option (b) is incorrect.\n\n(c) Cellulose has only $$\\beta $$-D-glucose units that are joined together by glycosidic linkages as shown in the following structure :\n\n\n[Diagram]\n\nThus, option (c) is incorrect.\n\n(d) Nylon-6 has amide linkages.\n\n\n[Diagram]\n\nThus, option (d) is correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "Teflon is prepared by heating tetrafluoroethene in presence of a persulphate catalyst at high pressure.",
+      "Natural rubber is polyisoprene containing trans alkene units",
+      "Cellulose has only $$\\alpha $$-D-glucose units that are joined by glycosidic linkages",
+      "Nylon-6 has amide linkages"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtg4hmf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_007",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Under hydrolytic conditions, the compounds used for preparation of linear polymer and for chain termination, respectively, are",
+    "solution": "The reaction involved in the preparation of liner polymer is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "CH$_{3}$SiCl$_{3}$ and Si(CH$_{3}$)$_{4}$.",
+      "(CH$_{3}$)$_{2}$SiCl$_{2}$ and (CH$_{3}$)$_{3}$SiCl.",
+      "(CH$_{3}$)$_{2}$SiCl$_{2}$ and CH$_{3}$SiCl$_{3}$.",
+      "SiCl$_{4}$ and (CH$_{3}$)$_{3}$SiCl."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0w7s8oz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_008",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct functional group X and the reagent/reaction condition Y in the following scheme are\n\n[Diagram]",
+    "solution": "(i) (a) Hexa-1, 6-diamide undergoes Hoffmann bromamide degradation to form tetra-1, 4-diammine.\nIf $$ \\mathrm{X}=-\\mathrm{CONH}_2 \\mathrm{H}_2 \\mathrm{NOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{CONH}_2+2 \\mathrm{Br}_2+4 \\mathrm{NaOH}(a q) \\rightarrow $$\n$\\mathrm{H}_2 \\mathrm{~N}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{NH}_2+2 \\mathrm{Na}_2 \\mathrm{CO}_3+4 \\mathrm{NaBr}(a q)+4 \\mathrm{H}_2 \\mathrm{O}$\n(b) Hexa-1, 6-diammine reacts with hexa-1, 6-dioic acid to form an amide with release water.\n\n[Diagram]\n\nSince, water is lost during the reaction between amine and carboxylic acid, the reaction is condensation reaction.\nOption (C) is correct.\n(ii) (a) Hexa-1, 6-dinitrile undergoes reduction to amine in pressure of same hydrogen and nickel as catalyst to form hexane-1, 6-diammine. If $X$ $=\\mathrm{CN}$\n$$ \\mathrm{NC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{CN} \\xrightarrow[\\mathrm{Ni}(\\mathrm{~s})]{\\mathrm{H}_2(\\mathrm{~g})} \\quad \\mathrm{H}_2 \\mathrm{~N}-\\left(\\mathrm{CH}_2\\right)_6-\\mathrm{NH}_2\\text { (hexane-1, 6-diammine) } $$\n(b) Hexane-1, 6-diammine reacts with hexane-1, 4-dioic acid to form an amide with the loss of water molecule. This reaction is condensation reaction.\n\n[Diagram]\n\nSince, water molecule is lost during the reaction between amine and carboxylic acid the reaction is condensation reaction.\nOption (D) is correct.\n(iii) The compound contains carbonyl functional group of ester and cannot be reduced by hydrogen in presence of nickel. Hence, no condensation reaction is possible between ester and an acid.\nIf $\\mathrm{X}=\\mathrm{COOCH}_3$\n$$ \\mathrm{H}_3 \\mathrm{COOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{COOCH}_3+\\mathrm{H}_{2(\\mathrm{~g})} \\xrightarrow{\\mathrm{Ni}(\\mathrm{~s})} $$No reaction\n$$ \\mathrm{H}_3 \\mathrm{COOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{COOCH}_3\\text { (hexan-1, 4-dioic acid) }+\\mathrm{HOOC}-\\left(\\mathrm{CH}_2\\right)_4 $$\nOption (A) is not correct.\n(iv) Hexan-1, 4-diamide is not affected by the reducing agent hydrogen in presence of catalyst nickel. Reaction between the hexan-1, 4-diamine with basic functional group $\\left(-\\mathrm{NH}_2\\right)$ and acidic proton of hexane-1, 4-dioic acid gives salt.\n\n[Diagram]\n\nOption (B) is correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "X = COOCH$_{3}$, Y = H$_{2}$/Ni/heat",
+      "X = CONH$_{2}$, Y = H$_{2}$/Ni/heat",
+      "X = CONH$_{2}$, Y = Br$_{2}$/NaOH",
+      "X = CN, Y = H$_{2}$/Ni/heat"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m3dybip2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_009",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among cellulose, poly(vinyl chloride), nylon and natural rubber, the polymer in which the intermolecular force of attraction is weakest is",
+    "solution": "Natural rubber is an elastomer in which the chains are held together by weak van der Waals forces of attraction. Cellulose and nylon are fibres and PVC is a thermoplastic. Both these classes of polymers have stronger forces of attraction in the order\nFibre > Thermoplastic > Elastomer.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Nylon",
+      "Poly(vinyl chloride)",
+      "Cellulose",
+      "Natural Rubber"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggooc8d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_polymers_010",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "topic": "Polymers",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the chemical substances in Column I with type of polymers/type of bonds in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\ncellulose\n(P)\nnatural polymer\n\n\n(B)\nnylon-6, 6\n(Q)\nsynthetic polymer\n\n\n(C)\nprotein\n(R)\namide linkage\n\n\n(D)\nsucrose\n(S)\nglycoside linkage",
+    "solution": "(A) Cellulose - a natural polymer of $$\\alpha$$-D-glucose, linked by glycoside linkage.\n\n[Diagram]\n\n(B) Nylon-6, 6 is a synthetic polymer of adipic acid and 1, 6-diaminohexane. The diacid is linked with diamine through amide linkage.\n\n[Diagram]\n\n(C) Protein- a natural polymer of $$\\alpha$$-amino acids where individual amino acid units are linked by amide linkage.\n\n[Diagram]\n\n(D) Sucrose- has glycoside linkage, a disaccharide\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "A - (p, s); B - (q); C - (p, r); D - (s)",
+      "A - (p, s); B - (q, r); C - (r); D - (s)",
+      "A - (p, s); B - (q, r); C - (p, r); D - (s)",
+      "A - (s); B - (q, r); C - (p, r); D - (s)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggooc8d.png",
+      "position": "bottom"
+    }
+  }
+]

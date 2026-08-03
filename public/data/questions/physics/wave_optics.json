@@ -1,0 +1,441 @@
+[
+  {
+    "id": "phy_wave_optics_001",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "As shown in the figure, a ray **AB** of unpolarized light enters from water of refractive index $n_w = \\frac{4}{3}$ into a medium of refractive index $n_p = \\frac{4}{\\sqrt{3}}$ after passing through a glass plate of refractive index $n_g = 1.5$ and a layer of water. At a particular incident angle $i$ the reflected ray **CD** is polarized in the direction as shown in the figure. The value of $i$ (in degrees) is :\n[Diagram]",
+    "solution": "When unpolarized light is incident on a boundary separating two optical media with different refractive indices, a part is reflected and the remaining is refracted.\nThe electric field vectors in unpolarized light oscillate randomly across all planes perpendicular to its direction of travel, parallel $(\\downarrow)$ to the plane of incidence and perpendicular to the plane of incidence $(\\odot)$ (parallel to the reflecting surface).\nThe reflected ray is composed entirely of oscillations perpendicular to the plane of incidence, making it completely linearly polarized.\nWhen the angle between the reflected and refracted rays is $90^{\\circ}$ :\n$$ \\mathrm{i}_{\\mathrm{p}}+90^{\\circ}+\\mathrm{r}_{\\mathrm{p}}=180^{\\circ} \\Rightarrow \\mathrm{i}_{\\mathrm{p}}+\\mathrm{r}_{\\mathrm{p}}=90^{\\circ} \\Rightarrow \\mathrm{r}_{\\mathrm{p}}=90^{\\circ}-\\mathrm{i}_{\\mathrm{p}} $$\nApplying Snell's law when light is moving from a medium of index $\\mathrm{n}_1$ to a medium of index $\\mathrm{n}_2$ ):\n$$ \\mathrm{n}_1 \\sin \\mathrm{i}_{\\mathrm{p}}=\\mathrm{n}_2 \\sin \\mathrm{r}_{\\mathrm{p}} $$\nSubstituting $\\mathrm{r}_{\\mathrm{p}}=90^{\\circ}-\\mathrm{i}_{\\mathrm{p}}$ into the equation:\n$$ \\mathrm{n}_1 \\sin \\mathrm{i}_{\\mathrm{p}}=\\mathrm{n}_2 \\sin \\left(90^{\\circ}-\\mathrm{i}_{\\mathrm{p}}\\right)=\\mathrm{n}_2 \\cos \\mathrm{i}_{\\mathrm{p}} \\frac{\\sin \\mathrm{i}_{\\mathrm{p}}}{\\cos \\mathrm{i}_{\\mathrm{p}}}=\\frac{\\mathrm{n}_2}{\\mathrm{n}_1} \\Rightarrow \\tan \\mathrm{i}_{\\mathrm{p}}=\\frac{\\mathrm{n}_2}{\\mathrm{n}_1} $$\nThis relationship is known as Brewster's Law.\nReflection occurs at the final boundary where light tries to pass from the water layer underneath the prism medium into the lower medium $\\left(\\mathrm{n}_{\\mathrm{p}}\\right)$.\n\n[Diagram]\n\nInitial medium is water layer above the glass is $\\mathrm{n}_1=\\mathrm{n}_{\\mathrm{w}}=\\frac{4}{3}$\nThe final medium is of refractive index $\\mathrm{n}_2=\\mathrm{n}_{\\mathrm{p}}=\\frac{4}{\\sqrt{3}}$\nLet $\\theta$ be the angle of incidence at this bottom water-prism boundary.\nApplying Brewster's Law:\n$$ \\tan \\theta=\\frac{\\mathrm{n}_{\\mathrm{p}}}{\\mathrm{n}_{\\mathrm{w}}}=\\frac{4 / \\sqrt{3}}{4 / 3}=\\frac{3}{\\sqrt{3}}=\\sqrt{3} $$\nSince $\\tan \\left(60^{\\circ}\\right)=\\sqrt{3}$, the internal angle of incidence at this interface must be:\n$$ \\theta=60^{\\circ} $$\nApplying Snell's law sequentially at each boundary interface:\n\n[Diagram]\n\nBoundary 1: $n_w \\, \\sin i = n_g \\, \\sin r_g$\nBoundary 2: $n_g \\, \\sin r_g = n_w \\, \\sin r_w$\nBoundary 3: $n_w \\, \\sin r_w = n_p \\, \\sin r_p$\nSo, $n_w \\, \\sin i = n_w \\, \\sin \\theta$\nWhere $r_w = \\theta = 60^\\circ$.\n$\\sin i = \\sin \\theta$\n$\\sin i = \\sin(60^\\circ) \\Rightarrow i = 60^\\circ$\nTherefore, the correct answer is 60.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpp789ht.webp",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_002",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the List-I, four optical effects are mentioned. The physical phenomena of light which are essential to describe these optical effects are given in List-II. Choose the option which describes the correct match between the entries in List-I to those in List-II.\n\n\n\nList-I\nList-II\n\n\n\n\n\n\n\n(P) Colorful sky in north polar region (Aurora Borealis)\n\n\n\n(1) Dispersion and reflection\n\n\n\n\n\n(Q) Partially polarized sun light\n\n\n\n(2) Total internal reflection\n\n\n\n\n\n(R) Rainbow\n\n\n\n(3) Diffraction\n\n\n\n\n\n(S) Dark and bright fringes\n\n\n\n(4) Scattering of light by molecules in the atmosphere\n\n\n\n\n\n\n\n\n\n\n\n(5) Emission of radiation from oxygen and nitrogen atoms excited by charged particles",
+    "solution": "**(P) Colorful sky in north polar region (Aurora Borealis)**\nThe Aurora Borealis occurs when high-speed charged particles (electrons and protons) from the solar wind collide with atoms and molecules in Earth's upper atmosphere. These collisions transfer energy to the atmospheric gases, exciting the electrons within oxygen and nitrogen atoms to higher energy levels. When these excited electrons return to their ground states, they emit photons of specific characteristic wavelengths (such as green and red from oxygen, or blue and violet from nitrogen).\nSo, this phenomenon is emission of radiation from oxygen and nitrogen atoms excited by charged particles.\n$$ \\text { P → } 5 $$\n**(Q) Partially polarized sun light**\nDirect sunlight entering the Earth's atmosphere is initially unpolarized. However, when this light strikes air molecules and small particles suspended in the atmosphere, it undergoes Rayleigh scattering. The scattered light viewed at an angle perpendicular ( $90^{\\circ}$ ) to the incident beam becomes completely plane-polarized, while light scattered at other intermediate angles is partially polarized.\nSo, it is due to scattering of light by molecules in the atmosphere.\n$$ Q \\rightarrow 4 $$\n**(C) Rainbow**\nA rainbow is formed when sunlight enters a spherical raindrop suspended in the air. The process involves:\n\n[Diagram]\n\nRefraction and Dispersion: Sunlight bends and splits into its constituent colors as it enters the drop due to different wavelengths having slightly different refractive indices.\nReflection: The separated colors travel through the droplet and reflect off the back inside surface of the water drop.\nRefraction: The light exits the droplet, bending once more before reaching the observer's eye.\nSo, during the process of rainbow formation the light undergoes dispersion and reflection.\n$$ \\mathrm{R} \\rightarrow 1 $$\n**(D) Dark and bright fringes**\nThe regular alternation of dark and bright bands (fringes) is the pattern produced by the phenomena of wave interference and diffraction. When light encounters a small aperture, obstacle, or slit system, it bends around edges (diffraction) and superimposes, generating constructive (bright) and destructive (dark) regions.\nTherefore, the dark and bright fringes are formed by diffraction.\n$$ S \\rightarrow 3 $$\n$\\mathrm{P} \\rightarrow 5, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 1, \\mathrm{~S} \\rightarrow 3$.\n\nThus, the correct option is (A).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P→5, Q→4, R→1, S→3",
+      "P→4, Q→2, R→1, S→3",
+      "P→4, Q→1, R→2, S→3",
+      "P→5, Q→4, R→1, S→2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpffsqup.webp",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_003",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a system of three connected strings, $S_1, S_2$ and $S_3$ with uniform linear mass densities $\\mu$ $\\mathrm{kg} / \\mathrm{m}, 4 \\mu \\mathrm{~kg} / \\mathrm{m}$ and $16 \\mu \\mathrm{~kg} / \\mathrm{m}$, respectively, as shown in the figure. $S_1$ and $S_2$ are connected at the point $P$, whereas $S_2$ and $S_3$ are connected at the point $Q$, and the other end of $S_3$ is connected to a wall. A wave generator 0 is connected to the free end of $S_1$. The wave from the generator is represented by $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$, where $y_0, \\omega$ and $k$ are constants of appropriate dimensions. Which of the following statements is/are correct:\n\n[Diagram]",
+    "solution": "[Diagram]\n\nGiven, wave eqn, $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$\n\n$y_0, w, k$ are constants\nwe know, wave speed, $v=\\sqrt{\\frac{T}{\\mu}}$, where $T=$ tension in string\n$$ \\begin{aligned} &\\text { So speeds : } v_1=\\sqrt{\\frac{T}{\\mu}}, v_2=\\sqrt{\\frac{T}{4 \\mu}}=\\frac{1}{2} \\sqrt{\\frac{T}{\\mu}}\\\\ &\\begin{aligned}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, & \\Rightarrow v_2=\\frac{v_1}{2}, v_3=\\sqrt{\\frac{\\tau}{16 \\mu}}=\\frac{1}{4} \\sqrt{\\frac{\\tau}{\\mu}} \\\\ & \\Rightarrow v_3=\\frac{v_1}{4} \\end{aligned} \\end{aligned} $$\nwave numbers: $k=\\frac{\\omega}{v}$\nso $k_1=k, k_2=\\frac{\\omega}{v_2}=2 k$\nand $k_3=\\frac{\\omega}{v_3}=4 k$\nReflection of wave in string from fixed end, reflected wave phase change by $\\pi_0$.\n\nAnd reflected wave from free (rarer) end no phase change.\n$\\therefore$ For medium $P Q\\left(s_2\\right)$\n$$ k_{S_2}=k_{P Q}=2k $$\nFor medium, $S_3, k_{s_3}=4 k$\nOption ( $A$ ) reflection from $P$, phase change by ' $\\pi$, No Change in ' $K$ '. Hence, ( $A$ ) is the correct option.\nIn option (B), $k_{s_2}=2 k$ but in option given $k_s=k$. Hence, wrong option.\nIn option (C), the direction of the reflected wave is in the negative direction. Hence wrong,\noption (D), no phase change in transmitted wave and given $k_{s_3}=4 k$\nHere, correct option.\nSo (A), (D) are correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "When the wave reflects from $P$ for the first time, the reflected wave is represented by $y=\\alpha_1 \\mathrm{y}_0 \\cos (\\omega t+k x+\\pi) \\mathrm{cm}$, where $\\alpha_1$ is a positive constant.",
+      "When the wave transmits through $P$ for the first time, the transmitted wave is represented by $y=\\alpha_2 y_0 \\cos (\\omega t-k x) \\mathrm{cm}$, where $\\alpha_2$ is a positive constant.",
+      "When the wave reflects from $Q$ for the first time, the reflected wave is represented by $y=\\alpha_3 \\mathrm{y}_0 \\cos (\\omega t-k x+\\pi) \\mathrm{cm}$, where $\\alpha_3$ is a positive constant.",
+      "When the wave transmits through $Q$ for the first time, the transmitted wave is represented by $y=\\alpha_4 y_0 \\cos (\\omega t-4 k x) \\mathrm{cm}$, where $\\alpha_4$ is a positive constant."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0dix2q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_004",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a Young's double slit experiment, a combination of two glass wedges $A$ and $B$, having refractive indices 1.7 and 1.5, respectively, are placed in front of the slits, as shown in the figure. The separation between the slits is $d=2 \\mathrm{~mm}$ and the shortest distance between the slits and the screen is $D=2 \\mathrm{~m}$. Thickness of the combination of the wedges is $t=12 \\mu \\mathrm{~m}$. The value of $l$ as shown in the figure is 1 mm . Neglect any refraction effect at the slanted interface of the wedges. Due to the combination of the wedges, the central maximum shifts (in mm ) with respect to O by ____________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$\\begin{aligned} & x+y=12 \\mu m \\\\ & \\frac{4}{12}=\\frac{1}{x} \\\\ & x=3 \\mu m \\\\ & y=6 \\mu m\\end{aligned}$\n$\\begin{aligned} & \\therefore \\Delta=\\frac{y d}{D}-\\left(\\mu_B-1\\right) x-\\left(\\mu_A-1\\right) y+\\left(\\mu_B-1\\right) y+\\left(\\mu_A-1\\right) x \\\\ & \\frac{-y d}{D}=-0.5 \\times 3-0.7 \\times 9+0.5 \\times 9+0.7 \\times 3 \\\\ & \\frac{-y d}{D}=-0.5 \\times 6-0.7 \\times 6 \\\\ & \\Rightarrow \\frac{-y d}{D}=-1.2 \\mu \\mathrm{~m} \\\\ & \\Rightarrow y=\\frac{1.2 \\times D}{d}=\\frac{1.2 \\times 2}{2 \\times 10^{-3}} \\times 10^{-6} \\\\ & =1.2 \\mathrm{~mm}\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawpmcn5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_005",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A single slit diffraction experiment is performed to determine the slit width using the equation, $\\frac{b d}{D}=$ $m \\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between the $m^{\\text {th }}$ diffraction maximum and the central maximum, and $\\lambda$ is the wavelength. $D$ and $d$ are measured with scales of least count of 1 cm and 1 mm , respectively. The values of $\\lambda$ and $m$ are known precisely to be 600 nm and 3, respectively. The absolute error (in $\\mu \\mathrm{m}$ ) in the value of $b$ estimated using the diffraction maximum that occurs for $m=3$ with $d=5 \\mathrm{~mm}$ and $D=1 \\mathrm{~m}$ is ________.",
+    "solution": "Given. $\\frac{b d}{d}=m \\lambda$\nso $\\quad b=\\frac{m \\lambda D}{d}$\nError propagation:\n$$ \\frac{\\Delta b}{b}=\\frac{\\Delta m}{m}+\\frac{\\Delta \\lambda}{\\lambda}+\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d} $$\nas $\\lambda $ and $ m$ are known precisely so $\\Delta \\lambda$ and $\\Delta$m are zero.\nSo ${\\Delta }{b}=\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}$\n$$ \\begin{aligned} & \\Rightarrow {\\Delta }{b}=\\left(\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}\\right)\\left(\\frac{m \\lambda D}{d}\\right) \\\\ & \\Rightarrow {\\Delta }{b} =\\left(\\frac{1}{100}+\\frac{0.1}{0.5}\\right)\\left(\\frac{3 \\times 600 \\times 10^{} \\times 100}{0.5}\\right) \\\\ &=\\left(\\frac{1+20}{100}\\right)\\left(\\frac{18}{5} \\times \\frac{1}{100}\\right) \\\\ &=\\frac{21}{100} \\times \\frac{18}{5} \\times \\frac{1}{100} \\mathrm{~cm} \\\\ & \\end{aligned} \\begin{aligned} &\\begin{gathered} \\Delta b=\\frac{1890}{25000} \\times 10 \\mu\\mathrm{m}=\\frac{1890}{25} \\mu\\mathrm{m} \\\\ \\Rightarrow \\Delta b=75.60 \\mu\\mathrm{m} \\end{gathered}\\\\ &\\text { } \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_wave_optics_006",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The $8^{\\text {th }}$ bright fringe above the point $\\mathrm{O}$ oscillates with time between two extreme positions. The separation between these two extreme positions, in micrometer $(\\mu \\mathrm{m})$, is _________ .",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} .\\left(\\frac{\\lambda \\mathrm{D}}{\\mathrm{d}}\\right) \\\\\n& \\text { for } 8^{\\text {th }} \\text { fringe } \\\\\n& \\mathrm{y}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{y}_{\\max }=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {min }}} \\\\\n& \\mathrm{y}_{\\text {min }}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {max }}} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\text {min }}=8 \\lambda \\mathrm{D}\\left[\\frac{1}{\\mathrm{~d}_{\\text {min }}}-\\frac{1}{\\mathrm{~d}_{\\text {max }}}\\right] \\\\\n& \\lambda=6000 \\mathop A\\limits^o\\\\\n& \\begin{aligned}\n& \\mathrm{D}=1 \\mathrm{~m} \\\\\n& \\mathrm{~d}_{\\max }=0.34 \\mathrm{~mm} \\\\\n& \\mathrm{~d}_{\\min }=0.76 \\mathrm{~mm} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\min }=8 \\times 6000 \\times 10^{-10} \\times 1\\left[\\frac{1}{0.76 \\times 10^{-3}}-\\frac{1}{0.84 \\times 10^{-3}}\\right] \\\\\n& \\quad=8 \\times 6 \\times 10^{-4} \\times\\left[\\frac{0.08}{0.76 \\times 0.84}\\right]=601.5 \\mu \\mathrm{m}\n\\end{aligned}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpxavmm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_007",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum speed in $\\mu \\mathrm{m} / \\mathrm{s}$ at which the $8^{\\text {th }}$ bright fringe will move is ______.",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} \\cdot \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{v}=\\frac{\\mathrm{dy}}{\\mathrm{dt}}=-\\mathrm{n} \\cdot \\frac{\\lambda \\cdot \\mathrm{d}}{\\mathrm{d}^2} \\cdot \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\\\\n& \\mathrm{d}=0.8+0.04 \\sin \\omega \\mathrm{t} \\\\\n& \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}=0.04 \\omega \\cos \\omega \\mathrm{t} \\\\\n& \\text { for } \\mathrm{v} \\rightarrow \\max \\Rightarrow \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\\\\n& \\text { For } \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\\\\n& \\cos \\omega \\mathrm{t}=1 \\Rightarrow \\sin \\omega \\mathrm{t}=0 \\\\\n& \\Rightarrow\\left(\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}\\right)_{\\max }=0.04 \\\\\n& \\Rightarrow \\mathrm{d}=0.8 \\mathrm{~mm} \\\\\n& \\mathrm{v}_{\\max }=\\frac{8 \\times 6000 \\times 10^{-10} \\times 1 \\times 0.04 \\times 0.08}{0.8 \\times 0.8 \\times 10^{-6} \\times 10^{-3}}=24 \\mu \\mathrm{m} / \\mathrm{s}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpxavmm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_008",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A point source $\\mathrm{S}$ emits unpolarized light uniformly in all directions. At two points $\\mathrm{A}$ and $\\mathrm{B}$, the ratio $r=I_A / I_B$ of the intensities of light is 2 . If a set of two polaroids having $45^{\\circ}$ angle between their pass-axes is placed just before point $\\mathrm{B}$, then the new value of $r$ will be __________.",
+    "solution": "To solve this problem, we start by understanding the information given and how the polarization of light affects light intensity.\n\nInitially, we have the ratio of the intensities at points A and B given as:\n\n$$ r = \\frac{I_A}{I_B} = 2 $$\n\nThis means:\n\n$$ I_A = 2I_B $$\n\nNow, we place two polaroids with their pass-axes at an angle of $45^\\circ$ between them before point B. When unpolarized light passes through the first polaroid, it gets polarized, and its intensity is reduced to half of its original value:\n\n$$ I_{B1} = \\frac{1}{2} I_B $$\n\nHere, $I_{B1}$ is the intensity of light after passing through the first polaroid.\n\nNext, this polarized light passes through the second polaroid, which is at an angle of $45^\\circ$ to the first one. According to Malus's law, the intensity of light after passing through the second polaroid is given by:\n\n$$ I_{B2} = I_{B1} \\cos^2(45^\\circ) $$\n\nWe know that:\n\n$$ \\cos(45^\\circ) = \\frac{1}{\\sqrt{2}} $$\n\nThus,\n\n$$ I_{B2} = \\frac{1}{2} I_B \\left(\\frac{1}{\\sqrt{2}}\\right)^2 = \\frac{1}{2} I_B \\cdot \\frac{1}{2} = \\frac{1}{4} I_B $$\n\nNow, the new intensity at point B is $I_{B2}$. We need to calculate the new ratio $r'$ of the intensities at points A and B:\n\n$$ r' = \\frac{I_A}{I_{B2}} $$\n\nSubstituting the values $I_A = 2I_B$ and $I_{B2} = \\frac{1}{4} I_B$, we get:\n\n$$ r' = \\frac{2 I_B}{\\frac{1}{4} I_B} = 2 \\times 4 = 8 $$\n\nTherefore, the new value of $r$ will be:\n\n$$ r' = 8 $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_wave_optics_009",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A Young's double slit interference arrangement with slits S$_{1}$ and S$_{2}$ is immersed in water (refractive index = 4/3) as shown in the figure. The positions of maxima on the surface of water are given by x$^{2}$ = p$^{2}$m$^{2}$$$\\lambda$$$^{2}$ $$-$$ d$^{2}$, where $$\\lambda$$ is the wavelength of light in air (refractive index = 1). 2d is the separation between the slits and m is an integer. The value of p is\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$\\mu ({S_2}P) - {S_1}P = m\\lambda \\Rightarrow \\mu \\sqrt {{d^2} + {x^2}} - \\sqrt {{d^2} + {x^2}} = m\\lambda \\Rightarrow (\\mu - 1)\\sqrt {{d^2} + {x^2}} = m\\lambda \\Rightarrow \\left( {{4 \\over 3} - 1} \\right)\\sqrt {{d^2} + {x^2}} = m\\lambda $$\nor, $$\\sqrt {{d^2} + {x^2}} = 3m\\lambda $$\nSquaring this equation we get,\n$${x^2} = 9{m^2}{\\lambda ^2} - {d^2} \\Rightarrow {p^2} = 9$$ or $$p = 3$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11twg8a.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_010",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A parallel beam of light strikes a piece of transparent glass having cross section as shown in the figure\nbelow. Correct shape of the emergent wavefront will be (figures are schematic and not drawn to\nscale)\n\n[Diagram]",
+    "solution": "Clearly middle part of glass is diverging and upper and lower part are conversing so correct shape of the emergent wavefront is as shown in the figure.\n\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "phy_wave_optics_011",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the Young's double-slit experiment using a monochromatic light of wavelength $$\\lambda$$, the path difference (in terms of an integer n) corresponding to any point having half the peak intensity is",
+    "solution": "Wavelength of light is $$\\lambda$$.\nNow, using the relation for intensity, we have\n$$I = {I_{\\max }}{\\cos ^2}\\left( {{\\phi \\over 2}} \\right){1 \\over 2} = {\\cos ^2}\\left( {{\\phi \\over 2}} \\right) \\Rightarrow \\cos {\\phi \\over 2} = {1 \\over {\\sqrt 2 }} \\Rightarrow {\\phi \\over 2} = {\\pi \\over 4} \\Rightarrow \\phi = {\\pi \\over 2} \\Rightarrow \\phi = {\\pi \\over 2},{{3\\pi } \\over 2},{{5\\pi } \\over 2},{{7\\pi } \\over 2}\\phi = {{2\\pi } \\over \\lambda }\\Delta x \\Rightarrow {\\pi \\over 2} = {{2\\pi } \\over 2}\\Delta x \\Rightarrow \\Delta x = {\\lambda \\over 4},{{3\\lambda } \\over 4},{{5\\lambda } \\over 4} \\Rightarrow \\Delta x = (2n + 1){\\lambda \\over 4}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$(2n + 1){\\lambda \\over 2}$$",
+      "$$(2n + 1){\\lambda \\over 4}$$",
+      "$$(2n + 1){\\lambda \\over 8}$$",
+      "$$(2n + 1){\\lambda \\over {16}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2mkk70r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_012",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Young's double slit experiment is carried out by using green, red and blue light, one colour at a time. The fringe widths recorded are $$\\beta$$$_{G}$, $$\\beta$$$_{R}$ and $$\\beta$$$_{B}$, respectively. Then,",
+    "solution": "Fringe width, $$\\beta = {{\\lambda D} \\over d}\\therefore\\beta \\propto \\lambda $$\nAs, $${\\lambda _R} > {\\lambda _G} > {\\lambda _B}\\therefore{\\beta _R} > {\\beta _G} > {\\beta _B}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\beta$$$_{G}$ > $$\\beta$$$_{B}$ > $$\\beta$$$_{R}$",
+      "$$\\beta$$$_{B}$ > $$\\beta$$$_{G}$ > $$\\beta$$$_{R}$",
+      "$$\\beta$$$_{R}$ > $$\\beta$$$_{B}$ > $$\\beta$$$_{G}$",
+      "$$\\beta$$$_{R}$ > $$\\beta$$$_{G}$ > $$\\beta$$$_{B}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2mkk70r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_013",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A light ray travelling in glass medium is incident on glass-air interface at an angle of incidence $$\\theta$$. The reflected (R) and transmitted (T) intensities, both as function of $$\\theta$$, are plotted. The correct sketch is",
+    "solution": "If I is the intensity of the incident light then R + T = I. Since the incident ray is travelling in a denser medium (glass), it will be totally reflected at a certain critical angle $$\\theta$$$_{c}$. For $$\\theta$$ < $$\\theta$$$_{c}$ a part of the incident intensity is reflected and the remaining part is transmitted. But for $$\\theta$$ > $$\\theta$$$_{c}$, there is no refracted ray. Hence for $$\\theta$$ > $$\\theta$$$_{c}$, the value of R is 100%. Hence the only correct option is (c).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2mkk70r.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_014",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Column I shows four situations of standard Young's double slit arrangement with the screen placed far away from the slits S$$_1$$ and S$$_2$$. In each of these cases, S$$_1$$P$$_0$$ = S$$_2$$P$$_0$$, S$$_1$$P$$_1-$$ S$$_2$$P$$_1$$ = $$\\lambda/4$$ and S$$_1$$P$$_2-$$ S$$_2$$P$$_2$$ = $$\\lambda/3$$, where $$\\lambda$$ is the wavelength of the light used. In the cases B, C and D, a transparent sheet of refractive index $$\\mu$$ and thickness t is pasted on slit S$$_2$$. The thickness of the sheets are different in different cases. The phase difference between the light waves reaching a point P on the screen from the two slits is denoted by $$\\delta$$(P) and the intensity by I(P). Match each situation given in Column I with the statement(s) in Column II valid for that situation:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n\n[Diagram]\n\n(P)\n$$\\delta ({P_0}) = 0$$\n\n\n\n(B)\n$$(\\mu-1)t=\\lambda/4$$\n\n[Diagram]\n\n(Q)\n$$\\delta ({P_1}) = 0$$\n\n\n\n(C)\n$$(\\mu-1)t=\\lambda/2$$\n\n[Diagram]\n\n(R)\n$$I({P_1}) = 0$$\n\n\n\n(D)\n$$(\\mu-1)t=3\\lambda/4$$\n\n[Diagram]\n\n(S)\n$$I({P_0}) > I({P_1})$$\n\n\n\n\n\n(T)\n$$I({P_2}) > I({P_1})$$",
+    "solution": "(A)$$\\to$$(P), (S)\nSince the path difference is\n$$S_1P_0=S_2P_0=0$$\nthe phase difference becomes\n$$\\delta(P_0)=0$$\nThe intensity at any point is\n$$I = {I_{\\max }}{\\cos ^2}\\left( {{8 \\over 2}} \\right)$$\nNow, $$I({P_0}) = {I_{\\max }}$$ [$$\\because\\delta ({P_0}) = 0$$]\n$$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi \\over 4}} \\right) = {{{I_{\\max }}} \\over 2}$$\nTherefore, $$I({P_0}) > I({P_1})$$\n(B)$$\\to$$(Q)\nIn this case, the path difference at P$$_1$$ is\n$${P_1} = {\\lambda \\over 4} - (\\mu - 1)t = {\\lambda \\over 4} - {\\lambda \\over 4} = 0$$\nTherefore, $$\\delta ({P_1}) = 0$$.\n(C)$$\\to$$(T)\nIn this case, the path difference at P$$_1$$ is\n$${P_1} = {\\lambda \\over 4} - (\\mu - 1)t = {\\lambda \\over 4} - {\\lambda \\over 2} = {{ - \\lambda } \\over 4}$$\nTherefore, the phase difference at P$$_1$$ is\n$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 4}} \\right) = - {\\pi \\over 2}$$\nTherefore, $$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi \\over 4}} \\right) = {{{I_{\\max }}} \\over 2}$$\nThe path difference at P$$_2$$ is\n$${P_2} = {\\lambda \\over 3} - (\\mu - 1)t = {\\lambda \\over 3} - {\\lambda \\over 2} = {{ - \\lambda } \\over 6}$$\nTherefore, the phase difference at P$$_1$$ is\n$${P_2} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 6}} \\right) = - {\\pi \\over 3}$$\nTherefore, $$I({P_2}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi \\over 6}} \\right) = {3 \\over 4}{I_{\\max }}$$\nTherefore, $$I({P_2}) > I({P_1})$$.\n(D)$$\\to$$(R), (S), (T)\nIn this case, the path difference at P$$_1$$ is\n$${P_1} = {\\lambda \\over 4} - (\\mu - 1)t = {\\lambda \\over 4} - {{3\\lambda } \\over 4} = {{ - \\lambda } \\over 2}$$\nTherefore, the phase difference at P$$_1$$ is\n$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( { - {\\lambda \\over 2}} \\right) = - \\pi $$\nTherefore, $$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi \\over 2}} \\right) = 0$$\nThe path difference at P$$_0$$ is\n$${P_0} = 0 - (\\mu - 1)t = {{ - 3\\lambda } \\over 4}$$\nTherefore, the phase difference at P$$_0$$ is\n$${P_0} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - 3\\lambda } \\over 4}} \\right) = {{ - 3\\lambda } \\over 2}$$\nTherefore, $$I({P_0}) = {I_{\\max }}{\\cos ^2}{{3\\pi } \\over 4} = {{{I_{\\max }}} \\over 2}$$\nNow, the path difference at P$$_1$$ is\n$${P_1} = {\\lambda \\over 4} - (\\mu - 1)t = {\\lambda \\over 4} - {{3\\lambda } \\over 4} = - {\\lambda \\over 2}$$\nThe phase difference at P$$_1$$ is\n$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 2}} \\right) = - \\pi $$\nTherefore, $$I({P_1}) = {I_{\\max }}\\cos \\left( {{\\pi \\over 2}} \\right) = 0$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)",
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(R); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)",
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q); (C)$$\\to$$(S); (D)$$\\to$$(R), (S), (T)",
+      "(A)$$\\to$$(P), (R); (B)$$\\to$$(Q); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4fcpn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_015",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Speed of the light is",
+    "solution": "The gap between consecutive wave fronts in medium 2 is less than that in medium 1. Therefore, wavelength of light in medium 2 in less than that in medium 1. Therefore, speed of light is more in medium 1 and less in medium 2.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "the same in medium-1 and medium-2",
+      "larger in medium-1 than in medium-2",
+      "larger in medium-2 than in medium-1",
+      "different at b and d"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lguf6rwr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_016",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A double slit setup is shown in the figure. One of the slits is in medium 2 of refractive index $n_{2}$. The other slit is at the interface of this medium with another medium 1 of refractive index $n_{1}\\left(\neq n_{2}\\right)$. The line joining the slits is perpendicular to the interface and the distance between the slits is $d$. The slit widths are much smaller than $d$. A monochromatic parallel beam of light is incident on the slits from medium 1. A detector is placed in medium 2 at a large distance from the slits, and at an angle $\\theta$ from the line joining them, so that $\\theta$ equals the angle of refraction of the beam. Consider two approximately parallel rays from the slits received by the detector.\n\n[Diagram]\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "[Diagram]\n\n$\n\\tan \\theta =\\frac{\\mathrm{AB}}{d}$\n\nAnd, $\n\\mathrm{AB} =d \\tan \\theta $ ........ (i)\n\n$\n\\mathrm{BC} =\\mathrm{AB} \\sin \\alpha $\n\n$\n=d \\tan \\theta \\sin \\alpha $\n\n$\n\\mathrm{AD} =\\mathrm{AB} \\sin \\theta\n$\n\nPath difference in vacuum\n\n$$\n\\begin{aligned}\n\\Delta x & =n_1 \\mathrm{BC}-n_2 \\mathrm{AD} \\\\\\\\\n\\Delta x & =n_1(\\mathrm{AB}) \\sin \\alpha-n_2(\\mathrm{AB} \\sin \\theta)\n\\end{aligned}\n$$\n\nHence, $\\mathrm{AB}\\left(n_1 \\sin \\alpha-n_2 \\sin \\theta\\right)=0$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "The phase difference between the two rays is independent of $d$.",
+      "The two rays interfere constructively at the detector.",
+      "The phase difference between the two rays depends on $n_{1}$ but is independent of $n_{2}$.",
+      "The phase difference between the two rays vanishes only for certain values of $d$ and the angle of incidence of the beam, with $\\theta$ being the corresponding angle of refraction."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ga51jq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_017",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a Young's double slit experiment, the slit separation d is 0.3 mm and the screen distance D is 1 m. A parallel beam of light of wavelength 600 nm is incident on the slits at angle $$\\alpha $$ as shown in figure.\n\n\n[Diagram]\n\n\nOn the screen, the point O is equidistant from the slits and distance PO is 11.0 mm. Which of the following statement(s) is/are correct?",
+    "solution": "[Diagram]\n\n\n$$\\Delta $$x = d sin$$\\alpha $$ + d sin$$\\theta \\theta $$ and $$\\alpha $$ are small angles\n\n$$ \\therefore \\Delta $$x = d$$\\alpha $$ + $${{dy} \\over D}$$\n\n(a) $$\\alpha $$ = 0\n\n$$ \\therefore \\Delta x = {{dy} \\over D} = {{0.3 \\times 11} \\over {1000}} = 33 \\times {10^{ - 4}}$$ mm\n\n$$\\Delta $$x in terms of $$\\lambda $$ = $${{33 \\times {{10}^{ - 4}}} \\over {600 \\times {{10}^{ - 6}}}}\\lambda = {{11\\lambda } \\over 2}$$\n\nas $$\\Delta x = (2n - 1){\\lambda \\over 2}$$\n\nThere will be destructive interference.\n\n(b) $$\\Delta x = 0.3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi \\over {180}} + {{0.3\\,mm \\times 11\\,mm} \\over {1000}} = 39 \\times {10^{ - 4}}$$ mm\n\n$$39 \\times {10^{ - 4}}$$ = $$(2x - 1) \\times {{600 \\times {{10}^{ - 9}} \\times {{10}^{ - 3}}} \\over 2}$$\n\nn = 7\n\nSo, there will be destruction interference.\n\n(c) $$\\Delta x = 3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi \\over {180}} + 0$$ = 600 nm\n\n600 nm = n$$\\lambda \\Rightarrow $$ n = 1\n\nSo, there will be construction interference.\n\n(d) Fringe width does not depend on $$\\alpha $$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "For $$\\alpha $$ = 0, there will be constructive interference at point P.",
+      "For $$\\alpha = {{0.36} \\over \\pi }$$ degree, there will be destructive interference at point P.",
+      "For $$\\alpha $$ = $$\\alpha = {{0.36} \\over \\pi }$$ degree, there will be destructive interference at point O.",
+      "Fringe spacing depends on $$\\alpha $$."
+    ]
+  },
+  {
+    "id": "phy_wave_optics_018",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two coherent monochromatic point sources $${S_1}$$ and $${S_2}$$ of wavelength $$\\lambda = 600\\,nm$$ are placed symmetrically on either side of the center of the circle as shown. The sources are separated by a distance $$d=1.8mm.$$ This arrangement produces interference fringes visible as alternate bright and dark spots on the circumference of the circle. The angular separation between two consecutive bright spots is $$\\Delta \\theta .$$ Which of the following options is/are correct?\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAt any point P on circumference, the path difference, $$\\Delta$$x = d sin$$\\theta$$\nAt P$_{1}$, $$\\theta$$ = 0$$^\\circ\\Rightarrow\\Delta$$x = 0\nAt P$_{2}$, $$\\theta$$ = 90$$^\\circ\\Rightarrow\\Delta$$x = d\nFor constructive interference, $$\\Delta$$x = n$$\\lambda\\thereforen = {d \\over \\lambda } = {{1.8\\,mm} \\over {600\\,nm}} = {{1.8 \\times {{10}^{ - 3}}m} \\over {600 \\times {{10}^{ - 9}}m}} = 3000$$\nSince, n is integer, hence P$_{2}$ corresponds to bright spot and also it corresponds to maximum order of fringe.\nNow, $$\\Delta$$x = d sin$$\\theta$$\nd$$\\Delta$$x = d cos$$\\theta$$ d$$\\theta$$ or R$$\\lambda$$ = d cos$$\\theta$$ d$$\\theta\\therefored\\theta \\propto {1 \\over {\\cos \\theta }}$$\nHence, as $$\\theta$$ increases, cos $$\\theta$$ decreases and consequently d$$\\theta$$ increases.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "The angular separation between two consecutive\nbright spots decreases as we move from P$_{1}$ to P$_{2}$ along\nthe first quadrant.",
+      "At P$_{2}$ the order of the fringe will be maximum.",
+      "A dark spot will be formed at the point P$_{2}$.",
+      "The total number of fringes produced between P$_{1}$ and\nP$_{2}$ in the first quadrant is close to 3000."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6t9bhro.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_019",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "While conducting the Young's double slit experiment, a student replaced the two slits with a large opaque plate in the XY-plane containing two small holes that act as two coherent point sources (S$_{1}$, S$_{2}$) emitting light of wavelength 600 mm. The student mistakenly placed the screen parallel to the XZ-plane (for z > 0) at a distance D = 3 m from the mid-point of S$_{1}$S$_{2}$, as shown schematically in the figure. The distance between the source d = 0.6003 mm. The origin O is at the intersection of the screen and the line joining S$_{1}$S$_{2}$.\n\n\n[Diagram]\n\nWhich of the following is(are) true of the intensity pattern on the screen?",
+    "solution": "At point O, the path difference is\n$${{2\\pi } \\over \\lambda }({S_1}O - {S_2}O) = {{2\\pi } \\over \\lambda }\\left[ {\\left( {D + {d \\over 2}} \\right) - \\left( {D - {d \\over 2}} \\right)} \\right] = {{2\\pi d} \\over \\lambda } = {{2\\pi (0.6003 \\times {{10}^{ - 3}})} \\over {600 \\times {{10}^{ - 9}}}} = 2001\\pi = (2n + 1)\\pi $$\nTherefore, the dark fringe forms at O.\nHence, option (A) is correct.\nThe shape of wavefronts from both sources for D >> d is semi-circular, which are concentric with each other with the difference just in their phase resulting in concentric semicircular interference fringes. That is, the region nearby point O is dark.\n\n[Diagram]\n\nHence, option (B) is correct.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "Semi circular bright and dark bands centered at point O",
+      "The region very close to the point O will be dark",
+      "Straight bright and dark bands parallel to the X-axis.",
+      "Hyperbolic bright and dark bands with foci symmetrically placed about O in the x-direction"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0no0py3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_wave_optics_020",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A light source, width emits two wavelengths $$\\lambda$$$_{1}$ = 400 nm and $$\\lambda$$$_{2}$ = 600 nm, is used in a Young's double-slit experiment. If recorded fringe widths for $$\\lambda$$$_{1}$ and $$\\lambda$$$_{2}$ are $$\\beta$$$_{1}$ and $$\\beta$$$_{2}$ and the number of fringes for them within a distance y on one side of the central maximum are m$_{1}$ and m$_{2}$, respectively, then",
+    "solution": "Fringe width $$\\beta = {{\\lambda D} \\over d}$$; $$\\lambda$$$_{1}$ = 400 nm; $$\\lambda$$$_{2}$ = 400 nm\n\nSince $$\\lambda$$$_{2}$ > $$\\lambda$$$_{1}$, $$\\beta$$$_{2}$ > $$\\beta$$$_{1}$\n\nNumber of fringes within a distance y is given by\n\n$${m_1} = {y \\over {{\\beta _1}}}{m_2} = {y \\over {{\\beta _2}}}$$\n\nSince, $$\\beta$$$_{2}$ > $$\\beta$$$_{1}$, we get m$_{2}$ < m$_{1}$.\n\nPosition of 3$^{rd}$ maxima of $$\\lambda$$$_{2}$ :\n\n$$y' = {D \\over d}(3{\\lambda _2}) = 1800{D \\over d}$$\n\nPosition of 5$^{th}$ minima of $$\\lambda$$$_{1}$ :\n\n$$y'' = {D \\over d}\\left( {{{9{\\lambda _1}} \\over 2}} \\right) = 1800{D \\over d}$$\n\nHence, y' = y''.\n\nAngular fringe width is $$\\theta = {\\beta \\over D} = {\\lambda \\over d}$$\n\nSince, $$\\beta$$$_{2}$ > $$\\beta$$$_{1}$ $$\\Rightarrow\\theta$$$_{2}$ > $$\\theta$$$_{1}$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$\\beta$$$_{2}$ > $$\\beta$$$_{1}$",
+      "m$_{1}$ > m$_{2}$",
+      "from the central maximum, 3rd maximum of $$\\lambda$$$_{2}$ overlaps with 5th minimum of $$\\lambda$$$_{1}$",
+      "the angular separation of fringes of $$\\lambda$$$_{1}$ is greater than $$\\lambda$$$_{2}$"
+    ]
+  },
+  {
+    "id": "phy_wave_optics_021",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Wave Optics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a Young's double slit experiment, the separation between the two slits is d and the wavelength of the light is $$\\lambda$$. The intensity of light falling on slit 1 is four times the intensity of light falling on slit 2. Choose the correct choice(s).",
+    "solution": "If $$d=\\lambda$$, the maximum path difference (path difference is given by $$d \\sin\\theta$$) will be less than $$\\lambda$$. So there will be only central maximum on the screen, because in the equation $$d\\sin\\theta=n\\lambda,n$$ can take only one value.\nIf $$\\lambda < d < 2\\lambda$$, then the maximum path difference will be less than 2$$\\lambda$$. So there will be two more maximum on the screen in addition to the central maximum.\nIntensity of dark fringes becomes zero when intensities at the two slits are equal. Initial intensity at both the slits is unequal so there will some brightness at dark fringes. Hence, when intensity of both slits is made equal, the intensity at dark fringes on screen will reduces to zero.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "If $$d=\\lambda$$, the screen will contain only one maximum",
+      "If $$\\lambda < d < 2\\lambda$$, at least one more maximum (besides the central maximum) will be observed on the screen",
+      "If the intensity of light falling on slit 1 is reduced so that it becomes equal to that of slit 2, the intensities of the observed dark and bright fringes will increase",
+      "If the intensity of light falling on slit 2 is increased so that it becomes equal to that of slit 1, the intensities of the observed dark and bright fringes will increase"
+    ]
+  }
+]

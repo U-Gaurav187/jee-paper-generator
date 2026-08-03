@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "chem_p_block_elements_001",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Correct statement(s) about the compounds **P**, **Q** and **R** is(are)\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "**P** has two lone pairs of electrons on the central atom.",
+      "**Q** has a perfect octahedral geometry.",
+      "**Q** can act as a fluorinating agent.",
+      "The molecular structure of **R** is trigonal pyramidal."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9ycb1m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_002",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The complete hydrolysis of ICl, ClF$_{3}$ and BrF$_{5}$, respectively, gives :",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "IO$^{-}$, ClO$_{2}$$^{-}$ and BrO$_{3}$$^{-}$",
+      "IO$_{3}$$^{-}$, ClO$_{2}$$^{-}$ and BrO$_{3}$$^{-}$",
+      "IO$^{-}$, ClO$^{-}$ and BrO$_{2}$$^{-}$",
+      "IO$_{3}$$^{-}$, ClO$_{4}$$^{-}$ and BrO$_{2}$$^{-}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxoo3mz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_003",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Dissolving $1.24 \\mathrm{~g}$ of white phosphorous in boiling $\\mathrm{NaOH}$ solution in an inert atmosphere gives a gas $\\mathbf{Q}$. The amount of $\\mathrm{CuSO}_{4}$ (in g) required to completely consume the gas $\\mathbf{Q}$ is _________.\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{O}=16, \\mathrm{Na}=23, \\mathrm{P}=31, \\mathrm{~S}=32, \\mathrm{Cu}=63$ ]",
+    "solution": "$$\\mathop {{P_4}}\\limits_{\\matrix{\n{1.24\\,g} \\cr\n{or} \\cr\n{0.01\\,mole} \\cr\n\n} } +3NaOH+3H_2O\\to PH_3+3NaH_2PO_2$$\nAs NaOH is present in excess. So, amount of phosphine formed is 0.01 mole (as P$_{4}$ is limiting)\n$$\\mathop {2P{H_3}}\\limits_{0.01\\,mole} +3CuSO_4\\to Cu_3P_2+3H_2SO_4$$\nAmount of CuSO$_{4}$ required = $$\\frac{3\\times0.01}{2}$$ mole\nMass of CuSO$_{4}$ (in g) required = $$\\frac{0.03}{2}\\times(63+32+16\\times4)=\\frac{0.03}{2}\\times159=2.38$$ g",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_004",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(A) Calculate the amount of calcium oxide required to react with 852 g of P$$_4$$O$$_{10}$$.\n(B) Write the structure of P$$_4$$O$$_{10}$$.",
+    "solution": "(A) The balanced chemical reaction between CaO\nand P$$_4$$O$$_{10}$$ is shown below.\n$$\\mathrm{6CaO+P_4O_{10}\\rightarrow 2Ca_3(PO_4)_2}$$\nGiven, mass of $$\\mathrm{P_4O_{10}=852~g}$$\nThe first step is to calculate the molar mass of\n$$\\mathrm{P_4O_{10}}$$. The molar mass can be used to calculate the number of moles present in the given\nsample of $$\\mathrm{P_4O_{10}}$$.\nMolar mass of\n$$\\mathrm{P_4O_{10}}=4\\times31+10\\times16=284$$ g\nMoles of $$\\mathrm{P_4O_{10}}=\\frac{\\mathrm{Mass~of~P_4O_{10}}}{\\mathrm{Molar~mass~of~P_4O_{10}}}=\\frac{852}{284}$$\nMoles of $$\\mathrm{P_4O_{10}}$$ = 3 moles\n1 mol of $$\\mathrm{P_4O_{10}}$$ reacts with 6 mol of CaO to produce 2 mol of Ca$$_3$$(PO$$_4$$)$$_2$$.\n$$\\therefore$$ 3 mol of $$\\mathrm{P_4O_{10}}$$ will react with 3 $$\\times$$ 6 = 18 mol of CaO.\nMass of 1 mol of CaO = 40 + 16 = 56 g\n$$\\therefore$$ Mass of 18 mol of CaO = 18 $$\\times$$ 56 = 1008 g\n(B) Structure of $$\\mathrm{P_4O_{10}}$$\nIn $$\\mathrm{P_4O_{10}}$$, eqach P atom is bonded to 4 O atoms such that there are three P-O single bonds and one P-O double bond. Two phosphorous atoms share a single O atom.\n\n[Diagram]\n\nFinal Answer\n(A) 1008 g\n(B)\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mh9kikcl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_005",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Correct statement(s) about the compounds X, Y and Z is (are)**\n[Diagram]",
+    "solution": "[Diagram]\n\n**(A)** Compound X is used for sterilizing drinking water.\nChlorine gas ($\\mathrm{Cl_2}$) is widely used as a disinfectant in water treatment. It kills harmful bacteria and microorganisms, making the water safe for drinking.\n**(B)** Compound Y is $\\mathrm{NCl_3}$ which has a pyramidal shape.\nThis is because the nitrogen atom has one lone pair of electrons. Due to the repulsion between the bond pairs and lone pair, the molecular shape becomes pyramidal (similar to $\\mathrm{NH_3}$).\n**(C)** Compound Z is used in the enrichment of ${}^{235}\\mathrm{U}$.\nChlorine trifluoride ($\\mathrm{ClF_3}$) is a very strong fluorinating agent. In the nuclear industry, it converts uranium into uranium hexafluoride ($\\mathrm{UF_6}$). This compound is important in the gaseous diffusion or centrifugation process used to separate ${}^{235}\\mathrm{U}$ from ${}^{238}\\mathrm{U}$.\n$$ \\mathrm{U(s)} + 3\\,\\mathrm{ClF_3} \\rightarrow \\mathrm{UF_6(g)} + 3\\,\\mathrm{ClF(g)} $$\n**(D)** $\\mathrm{NH_3}$ is a stronger Lewis base than $\\mathrm{NCl_3}$.\nIn $\\mathrm{NH_3}$, nitrogen’s lone pair is more available for donation because hydrogen is less electronegative. In $\\mathrm{NCl_3}$, the chlorine atoms pull electron density away from nitrogen, making its lone pair less available. Hence, $\\mathrm{NH_3}$ acts as the stronger Lewis base.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "**X** is used for sterilizing drinking water.",
+      "**Y** has a planar structure.",
+      "**Z** is used in the enrichment of $^{235}$U.",
+      "**Y** is a stronger Lewis base than ammonia."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9y48zp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_006",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound(s) with P–H bond(s) is(are)",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "H$_{3}$PO$_{4}$",
+      "H$_{3}$PO$_{3}$",
+      "H$_{4}$P$_{2}$O$_{7}$",
+      "H$_{3}$PO$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxencce.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_007",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound(s) having peroxide linkage is(are)",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{H}_2 \\mathrm{~S}_2 \\mathrm{O}_7$",
+      "$\\mathrm{H}_2 \\mathrm{~S}_2 \\mathrm{O}_8$",
+      "$\\mathrm{H}_2 \\mathrm{~S}_2 \\mathrm{O}_5$",
+      "$\\mathrm{H}_2 \\mathrm{SO}_5$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwruf2fr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_008",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound(s) which react(s) with $\\mathrm{NH}_{3}$ to give boron nitride (BN) is(are)",
+    "solution": "The compound(s) which react with $\\mathrm{NH}_3$ to form Boron nitride $(\\mathrm{BN})$ is/are:\n\n(A) Amorphous $\\mathrm{B}+\\mathrm{NH}_3 \\underset{\\text { Tempreature }}{\\stackrel{\\text { Very high }}{\\longrightarrow}} \\mathrm{BN}+\\mathrm{H}_2$\n\n(B) $\\mathrm{B}_2 \\mathrm{H}_6+\\mathrm{NH}_3 \\stackrel{\\text { High Temp. }}{\\longrightarrow}(\\mathrm{BN})_{\\mathrm{x}}$\n\n(C) $\\mathrm{B}_2 \\mathrm{O}_3+2 \\mathrm{NH}_3 \\stackrel{900^{\\circ} \\mathrm{C}}{\\longrightarrow} 2 \\mathrm{BN}+3 \\mathrm{H}_2 \\mathrm{O}$\n\n(D) $\\mathrm{HBF}_4+\\mathrm{NH}_3 \\longrightarrow\\left[\\mathrm{NH}_4^{\\oplus}\\right]\\left[\\mathrm{BF}_4^{\\ominus}\\right]$\n\nHence, $(A, B, C)$ are correct",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$\\mathrm{B}$",
+      "$\\mathrm{B}_{2} \\mathrm{H}_{6}$",
+      "$\\mathrm{B}_{2} \\mathrm{O}_{3}$",
+      "$\\mathrm{HBF}_{4}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_009",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) related to oxoacids of phosphorous is(are)",
+    "solution": "(a) H$_{3}$PO$_{3}$ gives H$_{3}$PO$_{4}$ and PH$_{3}$ on heating. This reaction is known as disproportionation reaction.\n\n$$4{H_3}P{O_3}\\buildrel \\Delta \\over\n\\longrightarrow 3{H_3}P{O_4} + P{H_3}$$\n\n(b) P in H$_{3}$PO$_{4}$ is in its highest oxidation state i.e. + 5 hence, it cannot act as reducing agent. But P in H$_{3}$PO$_{3}$ is in oxidation state, + 3 hence, it can act as reducing agent.\n\n(c) H$_{3}$PO$_{3}$ contains two $$-$$OH groups, hence it is a dibasic acid.\n\n\n[Diagram]\n\n(d) Hydrogen attached to P, does not ionise in water. Therefore, options (a), (b) and (d) are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "Upon heating, H$_{3}$PO$_{3}$ undergoes disproportionation reaction to produce H$_{3}$PO$_{4}$ and PH$_{3}$.",
+      "While H$_{3}$PO$_{3}$ can act as reducing agent, H$_{3}$PO$_{4}$ cannot.",
+      "H$_{3}$PO$_{3}$ is a monobasic acid.",
+      "The H atom of P-H bond in H$_{3}$PO$_{3}$ is not ionizable in water."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kzspvb4g.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_010",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "With respect to hypochlorite, chlorate and perchlorate ions, choose the correct statement(s).",
+    "solution": "(a) Order of acid strength different oxyacids of chlorine are :\n\n$$\\mathop {HClO}\\limits_{(Hypochlorous\\,acid)}^{( + 1)} < \\mathop {HCl{O_3}}\\limits_{(Chloric\\,acid)}^{( + 5)} < \\mathop {HCl{O_4}}\\limits_{(Perchloric\\,acid)}^{( + 7)} $$\n\nWeak acid have strong conjugate base thus hypochlorite ion has strongest conjugate base. Therefore, statement (a) is correct.\n\n(b) Hypochlorite ion is linear and perchlorate ion is tetrahedral and there is no effect of lone pair on hypochlorite ion. Thus, statement (b) is correct.\n\n\n[Diagram]\n\n\n(c) In the disproportionation reaction, chlorate ion Cl(+5) is oxidised to perchlorate, Cl(+7) and reduce to chloride, Cl($$-$$1).\n\n$$4ClO_3^ - \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} 3ClO_4^ - + C{l^ - }$$\n\nWhile in hypochlorite ion, chlorite ion Cl(+1) is oxidised to chlorate, Cl(+5) and reduced to chloride, Cl($$-$$1) ion.\n\n$$3ClO_{}^ - \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} ClO_3^ - + 2C{l^ - }$$\n\nThus, statement (c) is incorrect.\n\n(d) The hypochlorite ion oxidises the sulphite ion to sulphate ion, because HOCl is the strongest oxidising Cloxyacids,\n\n$$Cl{O^ - } + SO_3^{2 - }\\buildrel {} \\over\n\\longrightarrow SO_4^{2 - } + C{l^ - }$$\n\nThus, statement (d) is correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The hypochlorite ion is the strongest conjugate base.",
+      "The molecular shape of only chlorate ion is influenced by the lone pair of electrons of Cl.",
+      "The hypochlorite and chlorate ions disproportionate to give rise to identical set of ions.",
+      "The hypochlorite ion oxidises the sulphite ion."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_011",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following reactions (unbalanced).\n\n$$Zn + Hot\\,conc.\\,{H_2}S{O_4}\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} G + R + XZn + conc.\\,NaOH\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} T + QG + {H_2}S + N{H_4}OH\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} Z\\,(a\\,precipitate) + X + Y$$\n\nChoose the correct option(s).",
+    "solution": "When Zn react with hot conc. H$_{2}$SO$_{4}$ then SO$_{2}$ is released and ZnSO$_{4}$ is obtained.\n\n\n[Diagram]\n\n\nR(SO$_{2}$) molecule is V-shaped\n\n\n[Diagram]\n\n\nThus, option (b) is correct.\n\nWhen Zn is react with conc. NaOH then H$_{2}$ gas is evolved and Na$_{2}$ZnO$_{2}$ is obtained.\n\n$$Zn + 2NaOH(conc.)\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} \\mathop {N{a_2}Zn{O_2}}\\limits_{(T)} + \\mathop {{H_2}}\\limits_{(Q)} \\uparrow $$\n\nIn ground state, H$$-$$H (Q)\n\n(bond order = 1)\n\nThus, option (c) is correct.\n\nThe oxidation state of Zn in T(Na$_{2}$ZnO$_{2}$) is +2\n\nThus, option (a) is incorrect.\n\n$$\\mathop {ZnS{O_4}}\\limits_{(G)} + {H_2}S + N{H_4}OH\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}} \\mathop {ZnS}\\limits_{(Z)} \\downarrow + \\mathop {2{H_2}O}\\limits_{(X)} + \\mathop {{{(N{H_4})}_2}S{O_4}}\\limits_{(Y)} $$\n\nZnS (Z) compound is dirty white coloured.\n\nThus, option (d) is correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The oxidation state of Zn in T is +1",
+      "R is a V-shaped molecule",
+      "Bond order of Q is 1 in its ground state",
+      "Z is dirty white in colour"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_012",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tin chloride Q undergoes the following reactions (not balanced)\n\n$$Q + C{l^ - } \\to XQ + M{e_3}N \\to YQ + CuC{l_2} \\to Z + CuCl$$\n\nX is a monoanion having pyramidal geometry. Both Y and Z are neutral compounds.\n\nChoose the correct option(s).",
+    "solution": "Sn can exist in +2 or +4 oxidation state. So, Q in the given reactions can be SnCl$_{2}$ or SnCl$_{4}$. Since X is monoanion having trigonal pyramidal geometry (sp$^{3}$ with one lone pair as per VSEPR), so Q is SnCl$_{2}$, and the first reaction is\n\n\n[Diagram]\n\nThe second reaction is Stephen’s reaction, where nitrile is converted to aldehyde via formation of iminium salt.\n\n\n\n[Diagram]\n\n[Diagram]\n\nThere is a coordinate bond in the Cl$_{2}$Sn.N(CH$_{3}$)$_{3}$ in between nitrogen and Sn metal.\n\n\n[Diagram]\n\nZ is oxidised product and oxidation state of Sn is +4 in Z compound. Structure of SnCl$_{4}$ (Z) is\n\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "There is a coordinate bond in Y",
+      "The central atom in Z has one lone pair of electrons.",
+      "The oxidation state of the central atom in Z is +2",
+      "The central atom in X is sp$^{3}$ hybridised"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_013",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Based on the compounds of group $$15$$ elements, the correct statement(s) is (are)",
+    "solution": "Option (A) : Correct. The basicity of oxides usually increases on descending a group. Therefore, Bi$_{2}$O5 is more basic than N$_{2}$O$_{5}$.\nOption (B) : Correct. Covalent nature of a molecule depends on the electronegativity difference between bonded atoms.\nOption (C) : Correct. Boiling point of NH$_{3}$ is more than that of PH$_{3}$ due to hydrogen bonding.\nOption (D) : Incorrect. P$$-$$P single bond is stronger than N$$-$$N single bond. This is due to the fact that N is small in size, due to smaller size of atoms lone pair of repulsion will be more.",
+    "answerKey": [
+      "B",
+      "C",
+      "A"
+    ],
+    "options": [
+      "$$B{i_2}{O_5}$$ is more basic than $${N_2}{O_5}$$",
+      "$$N{F_3}$$ is more covalent than $$Bi{F_3}$$",
+      "$$P{H_3}$$ boils at lower temperature than $$N{H_3}$$",
+      "The $$N-N$$ single bond is stronger than the $$P-P$$ single bond"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_014",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compounds(s) which generate(s) $${N_2}$$ gas upon thermal decomposition below $${300^ \\circ }C$$ is (are)",
+    "solution": "(A) $$N{H_4}N{O_3}\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{below\\,300^\\circ C}} {N_2}O + 2{H_2}O{N_2}O\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{above\\,600^\\circ C}} {N_2} + {O_2}$$\n(B) $${(N{H_4})_2}C{r_2}{O_7}\\buildrel \\Delta \\over\n\\longrightarrow {N_2} + C{r_2}{O_3} + 4{H_2}O$$\n(C) $$Ba{({N_3})_2}\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{180^\\circ C}^\\Delta } Ba + 3{N_2}$$\n(D) $$M{g_3}{N_2}\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{above\\,700^\\circ C}} 3Mg + {N_2}$$\nHence, only $${(N{H_4})_2}C{r_2}{O_7}$$ and $$Ba{({N_3})_2}$$ can provide N$_{2}$ gas on heating below $$300^\\circ C$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$N{H_4}N{O_3}$$",
+      "$$\\left( {N{H_4}} \\right){}_2C{r_2}O{}_7$$",
+      "$$Ba{\\left( {{N_3}} \\right)_2}$$",
+      "$$M{g_3}{N_2}$$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_015",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the correct statement(s) is (are)",
+    "solution": "**Option (A)**: Correct.\n\nThe aluminium compounds are unusual because they have dimeric structures, and appear to have three-centre bonds involving $s p^3$ hybrid orbitals on $\\mathrm{Al}$ and $\\mathrm{C}$ in $\\mathrm{Al}-\\mathrm{C}-\\mathrm{Al}$ bridges.\n\n[Diagram]\n\n**Option (B)**: Correct.\n\nIn diborane $\\left(\\mathrm{BH}_3\\right)$ there are 12 valency electrons, three from each $B$ atom and six from the $\\mathrm{H}$ atoms. An $s p^3$ hybrid orbital from each boron atom overlaps with the $1 s$ orbital of the hydrogen. This gives a delocalised molecular orbital covering all three nuclei, containing one pair of electrons and making up one of the bridges. This is a three-centre two-electron bond $(3 c-2 e)$.\n\n[Diagram]\n\n**Option (D)**: Group 13 elements have only three valency electrons. When these are used to form three covalent bonds, the atom has a share in only six electrons. The compounds are therefore electron deficient. In $\\mathrm{AlCl}_3$, effective $\\pi$ overlap takes place between $p$ orbitals of $\\mathrm{Al}$ and $\\mathrm{Cl}$ due to their comparable size while in $\\mathrm{BCl}_3$, the $\\pi$ overlap is not effective as $p$ orbital of boron is smaller than that of $p$ orbital of chlorine, hence, the acidity of $\\mathrm{BCl}_3$ is greater than that of $\\mathrm{AlCl}_3$.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$Al{\\left( {C{H_3}} \\right)_3}$$ has the three-centre two-electron bonds in its dimeric structure",
+      "$$B{H_3}$$ has the three-center two-electron bonds in its dimeric structure",
+      "$$AlC{l_3}$$ has the three-center two-electron bonds in its dimeric structure",
+      "The Lewis acidity of $$BC{l_3}$$ is greater than that of $$AlC{l_3}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhya6ohx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_016",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The color of the $${X_2}$$ molecules of group $$17$$ elements changes gradually from yellow to violet down the group. This is due to",
+    "solution": "Halogens exist as diatomic molecule of different colours:\n\n$$\n\\begin{array}{|c|c|c|}\n\\hline \\text { S.No. } & \\text { Halogen } & \\text { Colour } \\\\\n\\hline 1 . & \\text { Fluorine } & \\text { Pale yellow } \\\\\n\\hline 2 . & \\text { Chlorine } & \\text { Yellow green } \\\\\n\\hline 3 . & \\text { Bromine } & \\text { Red brown } \\\\\n\\hline 4 . & \\text { Iodine } & \\text { Purple } \\\\\n\\hline\n\\end{array}\n$$\n\n(i) The molecular orbital energy level diagram explains the appearance of colour by halogens. The MOT for halogens is represented.\n\n[Diagram]\n\n[Diagram]\n\n(ii) It represents molecular orbital energy level diagram for fluorine. Similar molecular energy level diagram exist. Other halogens.\n\n(iii) Antibonding $\\pi$ orbitals, i.e., $\\pi^*{ }_{2 p x}$ and $\\pi^*{ }_{2 p y}$ forms the highest occupied molecular orbital (HOMO) and antibonding sigma* orbitals forms the lowest unoccupied molecular orbital (LUMO) for halogens.\n\n(iv) Absorption of energy of suitable wavelength (or colour) results in transition of electron from HOMO to LUMO. As electron returns back to ground state, i.e, HOMO, it releases energy corresponding to a different wavelength (colour complementary to the colour absorbed). This gives halogens their characteristic colour.\n\n(v) As we move down the group 17, size of halogen atom increases and nuclear force of attraction for the outermost shell electrons decrease. This affects the energy gap between $\\mathrm{HOMO}$ and LUMO.\n\n$$\n\\mathrm{F}_2>\\mathrm{Cl}_2>\\mathrm{Br}_2>\\mathrm{I}_2\n$$\n\nHOMO-LUMO energy gap decreases $\\rightarrow$\n\nWavelength of light emitted decreases $\\rightarrow$\n\n(vi) The energy gap between HOMO and LUMO keeps on decreasing as we move down the group. As a result, the energy required for transition of electron from HOMO to LUMO decreases and less energy (or light of lower wavelength is absorbed).\n\n(vii)When electron moves back to HOMO, energy is emitted. It corresponds to the light of complementary colour to the colour of the light absorbed.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "The physical state of $${X_2}$$ at room temperature changes from gas to solid down the group",
+      "Decrease in ionization energy down the group",
+      "Decrease in $${\\pi ^ * } - {\\sigma ^ * }$$ gap down the group",
+      "Decrease in HOMO-LUMO gap down the group"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhzx8yy4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_017",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) about the oxoacids, $$HCl{O_4}$$ and $$HClO$$ is (are)",
+    "solution": "**Option (A)**: Correct. The structures of the ions formed are shown in below figure. All these structures are based on a tetrahedron. The $s p^3$ hybrid orbitals used for bonding form only weak $\\sigma$ bonds, because the $s$ and $p$ levels differ appreciably in energy. The ions are stabilised by strong $p \\pi-d \\pi$ bonding between full $2 p$ orbitals on oxygen with empty $d$ orbitals on the halogen atoms.\n\n[Diagram]\n\n**Option (B)**: $\\mathrm{HClO}_4$ is an extremely strong acid, while $\\mathrm{HOCl}$ is a very weak acid. Oxygen is more electronegative than chlorine. The more oxygen atoms that are bonded, the more the electrons will be pulled away from the $\\mathrm{O}-\\mathrm{H}$ bond, and the more this bond will be weakened. Thus $\\mathrm{HClO}_4$ requires the least energy to break the $\\mathrm{O}-\\mathrm{H}$ bond and form $\\mathrm{H}^{+}$.\n\n**Option (C)**: The reaction is $\\mathrm{Cl}_2+\\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\mathrm{HOCl}+\\mathrm{HCl}$\n\n**Option (D)**: $\\mathrm{As} ~\\mathrm{HClO}_4$ is a stronger acid than $\\mathrm{H}_2 \\mathrm{O}$, therefore, its conjugate base $\\left(\\mathrm{ClO}_4^{-}\\right)$will be weaker than $\\left(\\mathrm{OH}^{-}\\right)$that of $\\mathrm{H}_2 \\mathrm{O}$.\n\n$$\n\\mathrm{HClO}_4+\\mathrm{H}_2 \\mathrm{O} \\rightarrow \\mathrm{H}_3 \\mathrm{O}^{+}+\\mathrm{ClO}_4^{-}\n$$",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The central atom in both $$HCl{O_4}$$ and $$HClO$$ is $$s{p^3}$$ hybridized",
+      "$$HCl{O_4}$$ is more acidic than $$HClO$$ because of the resonance stabilization of its anion",
+      "$$HCl{O_4}$$ is formed in the reaction between $$C{l_2}$$ and $${H_2}O$$",
+      "The conjugate base of $$HCl{O_4}$$ is weaker base than $${H_2}O$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li0z48pu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_018",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The nitrogen containing compound produced in the reaction of HNO$_{3}$ with P$_{4}$O$_{10}$",
+    "solution": "The reaction of HNO$_{3}$ and P$_{4}$O$_{10}$ produces N$_{2}$O$_{5}$.\n4HNO$_{3}$ + P$_{4}$O$_{10}$ $$\\to$$ 2N$_{2}$O$_{5}$ + 4HPO$_{3}$\nThe reaction of HNO$_{3}$ with P$_{4}$ does not yield N$_{2}$O$_{5}$.\nP$_{4}$ + 20 HNO$_{3}$ $$\\to$$ 4H$_{3}$PO$_{4}$ + 20 NO$_{2}$ + 4 H$_{2}$O\nThe structure of N$_{2}$O$_{5}$ has one N$$-$$O$$-$$N bond, but no N$$-$$N bond. It is diamagnetic in nature.\n\n[Diagram]\n\nN$_{2}$O$_{5}$ reacts with sodium metal to produce NO$_{2}$ (brown gas)\nN$_{2}$O$_{5}$ + Na $$\\to$$ NaNO$_{3}$ + $$\\mathop {N{O_2} \\uparrow }\\limits_{Brown\\,gas} $$",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "can also be prepared by reaction of P$_{4}$ and HNO$_{3}$.",
+      "is diamagnetic.",
+      "contains one N$$-$$N bond.",
+      "reacts with Na metal producing a brown gas."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0imm6d8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_019",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The crystalline form of borax has.",
+    "solution": "Structure of crystalline form of borax\n\n[Diagram]\n\n(a) Borax contains four boron atom; hence, it is tetranuclear.\n\n(b) Only 2 boron atoms lie in the same plane.\n\n(c) Two boron atoms are $s p^3$ hybridised other two borons are $s p^2$ hybridised.\n\n(d) Each of the boron has hydroxyl group attached to it with two hydroxyl groups present as hydroxyl salts.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "tetranuclear [B$_{4}$O$_{5}$(OH)$_{4}$]$^{2-}$ unit",
+      "all boron atoms in the same plane",
+      "equal number of sp$^{2}$ and sp$^{3}$ hybridised boron atoms",
+      "one terminal hydroxide per boron atom"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li2zyk4f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_020",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statements regarding (i) HClO, (ii) HClO$_{2}$, (iii) HClO$_{3}$ and (iv) HClO$_{4}$ is (are)",
+    "solution": "In all the oxyacids of chlorine : Cl undergoes sp$^{3}$ hybridization HClO$_{4}$ is the strongest acid among the given compounds.\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "The number of Cl=O bonds (ii) and (iii) together is two.",
+      "The number of lone pairs of electrons on Cl in (ii) and (iii) together is three.",
+      "The hybridization of Cl in (iv) is sp$^{3}$",
+      "Amongst (i) to (iv), the strongest acid is (i)."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wfz1wn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_021",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) for orthoboric acid is/are",
+    "solution": "(a) It does not undergo self ionisation in water but accepts an electron pair from water, so it behaves as weak monobasic acid\n\nH$_{3}$BO$_{3}$ + H$_{2}$O $$\\rightleftharpoons$$ B(OH)$$_4^ - $$ + H$^{+}$\n\nHence, (a) is incorrect.\n\n(b) When treated with 1, 2-dihydroxy or polyhydroxy compounds, they form chelate (ring complex) which effectively remove [B(OH)$_{4}$]$^{$$-$$}$ species from solution and thereby produce maximum number of H$_{3}$O$^{+}$ or H$^{+}$ ions, i.e., results in increased acidity.\n\n(c) Baric acid crystallises in a layer structure in which planar triangular BO$$_3^{3 - }$$ ions are bonded together through hydrogen bonds.\n\n(d) In water the pK$_{a}$ value of H$_{3}$BO$_{3}$ is 9.25\n\nH$_{3}$BO$_{3}$ + H$_{2}$O $$\\rightleftharpoons$$ B(OH)$$_4^ - $$ + H$^{+}$ ; pK$_{a}$ = 9.25\n\nSo, it is weak electrolyte in water.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "it behaves as a weak acid in water due to self ionisation",
+      "acidity of its aqueous solution increases upon addition of ethylene glycol",
+      "it has a three dimensional structure due to hydrogen bonding",
+      "it is a weak electrolyte in water"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnnake.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_022",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) about O$_{3}$ is(are)",
+    "solution": "As all electrons are paired, ozone is diamagnetic in nature. The structure is bent or V-shaped. The structure of ozone is resonance hybrid of the two structures with a delocalised p-orbital which covers all three atoms. Because of this, the two O-O bond lengths are equal.\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "O-O bond lengths are equal.",
+      "Thermal decomposition of O$_{3}$ is endothermic.",
+      "O$_{3}$ is diamagnetic in nature.",
+      "O$_{3}$ has a bent structure."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qnnake.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_023",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "With respect to graphite and diamond, which of the statement(s) given below is(are) correct?",
+    "solution": "Diamond is hard and graphite is soft. Graphite is a good conductor of electricity as it has one free electron which is responsible for the conduction.\nDiamond has higher thermal conductivity than graphite because the structure of diamond is precise and thus the transfer of heat is faster in it.\nIn case of graphite, the C-C bond has a double bond character so its bond order becomes higher than that of diamond which has only single C-C bonds.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "Graphite is harder than diamond.",
+      "Graphite has higher electrical conductivity than diamond.",
+      "Graphite has higher thermal conductivity than diamond.",
+      "Graphite has higher C-C bond order than diamond."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4y8hs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_024",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following hydrogen halides reacts with AgNO$_{3}$(aq.) to give a precipitate that dissolves in Na$_{2}$S$_{2}$O$_{3}$ (aq.) ?",
+    "solution": "Only HF does not react with AgNO$_{3}$. All others react with AgNO$_{3}$ to give precipitate of AgX which is soluble in Na$_{2}$S$_{2}$O$_{3}$\n$$HX + AgN{O_3} \\to AgX \\downarrow + HN{O_3}(X = Cl,Br,I)AgX + N{a_2}{S_2}{O_3} \\to \\mathop {N{a_3}[Ag{{({S_2}{O_3})}_2}]}\\limits_{Soluble} \\, + NaX$$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "HCl",
+      "HF",
+      "HBr",
+      "HI"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4y8hs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_025",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction\n$$\\mathrm{2X+B_2H_6\\to[BH_2(X)_2]^+[BH_4]^-}$$\nthe amine(s) X is(are) :",
+    "solution": "Tertiary amine will not react due to the bulkiness of trimethyl groups. Tertiary amines instead react with diborane to give simple addition compounds through symmetrical cleavage of diborane.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "NH$$_3$$",
+      "CH$$_3$$NH$$_2$$",
+      "(CH$$_3$$)$$_2$$NH",
+      "(CH$$_3$$)$$_3$$N"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4y8hs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_026",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The nitrogen oxide(s) that contain(s) N-N bond(s) is(are)",
+    "solution": "The bond formation in the given oxides of nitrogen is as follows.\n\n[Diagram]\n\nThus N-N bond exists in N$$_2$$O, N$$_2$$O$$_3$$ and N$$_2$$O$$_4$$.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "N$$_2$$O",
+      "N$$_2$$O$$_3$$",
+      "N$$_2$$O$$_4$$",
+      "N$$_2$$O$$_5$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4y8hs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_027",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution of colourless salt H on boiling with excess NaOH produces a non-flammable gas. The gas evolution ceases after sometime. Upon addition of Zn dust to the same solution, the gas evolution restarts. The colourless salt(s) H is(are):",
+    "solution": "The colourless salt H is either NH$$_4$$NO$$_3$$ or NH$$_4$$NO$$_2$$. The colourless salt produces NH$$_3$$ gas (non-inflammable) on boiling with excess of NaOH. On addition of zinc dust (a reducing agent) to this solution, sodium nitrite or sodium nitrate will liberate NH$$_3$$ gas again.\nNH$$_4$$NO$$_3$$ + NaOH $$\\to$$ NH$$_3$$ + NaNO$$_3$$ + H$$_2$$O\n7NaOH + NaNO$$_3$$ + 4Zn $$\\to$$ 4Na$$_2$$ZnO$$_2$$ + NH$$_3$$ + 2H$$_2$$O\nNH$$_4$$NO$$_2$$ + NaOH $$\\to$$ NaNO$$_2$$ + NH$$_3$$ + H$$_2$$O\n3Zn + 5NaOH + NaNO$$_2\\to$$ 3Na$$_2$$ZnO$$_2$$ + NH$$_3$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "NH$$_4$$NO$$_3$$",
+      "NH$$_4$$NO$$_2$$",
+      "NH$$_4$$Cl",
+      "(NH$$_4$$)$$_2$$SO$$_4$$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_028",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species present in solution when CO$_{2}$ is dissolved in water are",
+    "solution": "When carbon dioxide (CO$_{2}$) is dissolved in water, it undergoes a series of chemical reactions that result in various species being present in the solution. The reactions can be described as follows:\n\n1. Carbon dioxide reacts with water to form carbonic acid:\n\n$$CO_2 + H_2O \\rightleftharpoons H_2CO_3$$\n\n2. Carbonic acid can dissociate into a bicarbonate ion and a proton:\n\n$$H_2CO_3 \\rightleftharpoons HCO_3^- + H^+$$\n\n3. Bicarbonate ion can further dissociate into a carbonate ion and a proton:\n\n$$HCO_3^- \\rightleftharpoons CO_3^{2-} + H^+$$\n\nBased on these reactions, the species present in the solution when CO$_{2}$ is dissolved in water include CO$_{2}$, $$H_2CO_3$$, $$HCO_3^-$$, and $$CO_3^{2-}$$. Thus, the correct option is:\n\nOption A: CO$_{2}$, H$_{2}$CO$_{3}$, $$HCO_3^-$$, $$CO_3^{2-}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "CO$_{2}$, H$_{2}$CO$_{3}$, $$HCO_3^-$$, $$CO_3^{2-}$$",
+      "$$H_2CO_3$$, $$CO_3^{2-}$$",
+      "$$CO_3^{2-}$$, $$HCO_3^-$$",
+      "CO$_{2}$, H$_{2}$CO$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_029",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The heating of NH$_{4}$NO$_{2}$ at 60–70 °C and NH$_{4}$NO$_{3}$ at 200–250 °C is associated with the formation of nitrogen containing compounds **X** and **Y**, respectively. **X** and **Y**, respectively, are",
+    "solution": "$$\n\\begin{aligned}\n& \\mathrm{NH}_4 \\mathrm{NO}_2 \\xrightarrow{\\text { heat, } 60-70^{\\circ} \\mathrm{C}} X \\\\\n& \\mathrm{NH}_4 \\mathrm{NO}_3 \\xrightarrow{\\text { heat, } 200-250^{\\circ} \\mathrm{C}} Y\n\\end{aligned}\n$$\n\n$\\mathrm{NH}_4 \\mathrm{NO}_2$ on heating at $60-70^{\\circ} \\mathrm{C}$ gives decomposition reaction.\n\nThe reactant ammonium nitrite is unstable and readily decomposes into nitrogen gas $\\left(\\mathrm{N}_2\\right)$ and water $\\mathrm{H}_2 \\mathrm{O}$ ). The decomposition is faster at higher temperatures, and in concentrated aqueous solutions.\n\nThe chemical equation for the heating of $\\mathrm{NH}_4 \\mathrm{NO}_2$ can be written as\n\n$$\n\\mathrm{NH}_4 \\mathrm{NO}_2 \\frac{\\Delta}{6 \\mathrm{O}-70^{\\circ} \\mathrm{C}} \\mathrm{~N}_2+2 \\mathrm{H}_2 \\mathrm{O}\n$$\n\nSo, the product $x$ is $N_2$\nHeating ammonium nitrate $\\left(\\mathrm{NH}_4 \\mathrm{NO}_3\\right)$ at $200^{\\circ} \\mathrm{C}$ - $250^{\\circ} \\mathrm{C}$ leads to decomposition reaction.\nThe product of heating $\\mathrm{NH}_4 \\mathrm{NO}_3$ are nitrous oxide ( $\\mathrm{N}_2 \\mathrm{O}$ ) and water ( $\\mathrm{H}_2 \\mathrm{O}$ ). The reaction is exothermic and the salt leaves no residue on heating.\nThe chemical reaction can be written as\n\n$$\n\\mathrm{NH}_4 \\mathrm{NO}_3 \\xrightarrow[200-250 \\mathrm{C}]{\\Delta} \\mathrm{N}_2 \\mathrm{O}+2 \\mathrm{H}_2 \\mathrm{O}\n$$\n\nSo, the product $y$ is $\\mathrm{N}_2 \\mathrm{O}$\n\nAnswer: Option (A) $\\mathrm{N}_2$ and $\\mathrm{N}_2 \\mathrm{O}$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "N$_{2}$ and N$_{2}$O",
+      "NH$_{3}$ and NO$_{2}$",
+      "NO and N$_{2}$O",
+      "N$_{2}$ and NH$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_030",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The species formed on fluorination of phosphorus pentachloride in a polar organic solvent are",
+    "solution": "When $ \\text{PCl}_5 $ is fluorinated in a polar organic solvent, it forms ionic isomers. The formation of these ionic species can be understood as follows:\n\n$ \\text{PCl}_5 $ in a polar organic solvent can dissociate into ionic forms, such as $ \\left[\\text{PCl}_4\\right]^+ $ and $ \\left[\\text{PCl}_6\\right]^- $.\n\nUpon fluorination, $ \\text{PCl}_5 $ can be converted into $ \\left[\\text{PF}_6\\right]^- $ and $ \\left[\\text{PCl}_4\\right]^+ $.\n\nFurther fluorination can lead to the formation of mixed ionic compounds where $ \\text{PCl}_5 $ can form isomers like $ \\left[\\text{PCl}_4\\right]^+ \\left[\\text{PCl}_4 \\text{F}_2\\right]^- $.\n\nThe two ionic isomers formed are:\n\n$ \\left[\\text{PCl}_4\\right]^+ \\left[\\text{PCl}_4 \\text{F}_2\\right]^- $, which are colorless crystals.\n\n$ \\left[\\text{PCl}_4\\right]^+ \\left[\\text{PF}_6\\right]^- $, which are white crystals.\n\nHence, the ionic isomers formed when $ \\text{PCl}_5 $ is fluorinated in a polar organic solvent are :\n\nOption B : $ \\left[\\text{PCl}_4\\right]^+ \\left[\\text{PCl}_4 \\text{F}_2\\right]^- $ and $ \\left[\\text{PCl}_4\\right]^+ \\left[\\text{PF}_6\\right]^- $",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\left[\\mathrm{PF}_4\\right]^{+}\\left[\\mathrm{PF}_6\\right]^{-}$and $\\left[\\mathrm{PCl}_4\\right]^{+}\\left[\\mathrm{PF}_6\\right]^{-}$",
+      "$\\left[\\mathrm{PCl}_4\\right]^{+}\\left[\\mathrm{PCl}_4 \\mathrm{~F}_2\\right]^{-}$and $\\left[\\mathrm{PCl}_4\\right]^{+}\\left[\\mathrm{PF}_6\\right]^{-}$",
+      "$\\mathrm{PF}_3$ and $\\mathrm{PCl}_3$",
+      "$\\mathrm{PF}_5$ and $\\mathrm{PCl}_3$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_031",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At room temperature, disproportionation of an aqueous solution of in situ generated nitrous acid $\\left(\\mathrm{HNO}_2\\right)$ gives the species",
+    "solution": "To determine the products of the disproportionation of nitrous acid ($$ \\mathrm{HNO}_2 $$) at room temperature, let's analyze the chemical behavior of $$ \\mathrm{HNO}_2 $$ in aqueous solution.\n\nDisproportionation is a redox reaction in which a single substance is simultaneously oxidized and reduced, yielding two different products. In the case of nitrous acid ($$ \\mathrm{HNO}_2 $$), the reaction can be represented as follows:\n\n$$ 3 \\mathrm{HNO}_2 \\rightarrow \\mathrm{HNO}_3 + \\mathrm{H_2O} + 2 \\mathrm{NO} $$\n\nBreaking this down, we see that nitrous acid disproportionates into nitric acid ($$ \\mathrm{HNO}_3 $$), water ($$ \\mathrm{H_2O} $$), and nitrogen monoxide ($$ \\mathrm{NO} $$). Additionally, in an aqueous solution, nitric acid dissociates to form $$ \\mathrm{H_3O}^+ $$ (hydronium ion) and $$ \\mathrm{NO_3}^- $$ (nitrate ion).\n\nTherefore, the species formed from this disproportionation reaction are $$ \\mathrm{H_3O}^+ $$, $$ \\mathrm{NO_3}^- $$, and $$ \\mathrm{NO} $$.\n\nFrom the given options, the correct answer is:\nOption A\n$$ \\mathrm{H_3O}^+ $$, $$ \\mathrm{NO_3}^- $$, and $$ \\mathrm{NO} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\mathrm{H}_3 \\mathrm{O}^{+}, \\mathrm{NO}_3^{-}$and $\\mathrm{NO}$",
+      "$\\mathrm{H}_3 \\mathrm{O}^{+}, \\mathrm{NO}_3{ }^{-}$and $\\mathrm{NO}_2$",
+      "$\\mathrm{H}_3 \\mathrm{O}^{+}, \\mathrm{NO}^{-}$and $\\mathrm{NO}_2$",
+      "$\\mathrm{H}_3 \\mathrm{O}^{+}, \\mathrm{NO}_3{ }^{-}$and $\\mathrm{N}_2 \\mathrm{O}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_032",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the reactions (in the given stoichiometry of the reactants) in List-I with one of their products given in List-II and choose the correct option.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) $\\mathrm{P}_2 \\mathrm{O}_3+3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow$\n(1) $\\mathrm{P}(\\mathrm{O})\\left(\\mathrm{OCH}_3\\right) \\mathrm{Cl}_2$\n\n\n(Q) $\\mathrm{P}_4+3 \\mathrm{NaOH}+3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow$\n(2) $\\mathrm{H}_3 \\mathrm{PO}_3$\n\n\n(R) $\\mathrm{PCl}_5+\\mathrm{CH}_3 \\mathrm{COOH} \\rightarrow$\n(3) $\\mathrm{PH}_3$\n\n\n(S) $\\mathrm{H}_3 \\mathrm{PO}_2+2 \\mathrm{H}_2 \\mathrm{O}+4 \\mathrm{AgNO}_3 \\rightarrow$\n(4) $\\mathrm{POCl}_3$\n\n\n\n(5) $\\mathrm{H}_3 \\mathrm{PO}_4$",
+    "solution": "To match the reactions given in List-I with the products in List-II, let's analyze each reaction individually based on its reactants and expected products.\n\nReaction (P): $\\mathrm{P}_2 \\mathrm{O}_3 + 3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow$ involves the hydration of phosphorus trioxide. The product of this reaction is phosphorous acid:\n\n$ \\mathrm{P}_2 \\mathrm{O}_3 + 3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow 2 \\mathrm{H}_3 \\mathrm{PO}_3 $\n\nHence, P matches with (2) $\\mathrm{H}_3 \\mathrm{PO}_3$.\n\nReaction (Q): $\\mathrm{P}_4 + 3 \\mathrm{NaOH} + 3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow$ involves the reaction of phosphorus with a base (NaOH) and water, leading to the production of phosphine and sodium hypophosphite, not exactly reflected in the products listed, but given the context and possible products, we align with phosphorus chemistry principles. Typically, reactions involving phosphorus and strong bases can generate phosphine:\n\n$ \\mathrm{P}_4 + \\mathrm{NaOH} + 3 \\mathrm{H}_2 \\mathrm{O} \\rightarrow \\mathrm{PH}_3 +\\mathrm{NaH}_2 \\mathrm{PO}_2 $\n\nThus, Q matches best with (3) $\\mathrm{PH}_3$ given the options, acknowledging the simplicity of the given answer choices.\n\nReaction (R): $\\mathrm{PCl}_5 + \\mathrm{CH}_3 \\mathrm{COOH} \\rightarrow$ involves phosphorus pentachloride and acetic acid. The key reaction here is that $\\mathrm{PCl}_5$ reacts with $\\mathrm{CH}_3\\mathrm{COOH}$ to replace $\\mathrm{OH}$ groups in acetic acid with $\\mathrm{Cl}$, creating acetyl chloride $\\mathrm{CH}_3\\mathrm{COCl}$ and $\\mathrm{POCl}_3$:\n\n$ \\mathrm{PCl}_5 + \\mathrm{CH}_3 \\mathrm{COOH} \\rightarrow \\mathrm{CH}_3\\mathrm{COCl} + \\mathrm{POCl}_3 $\n\nTherefore, R matches with (4) $\\mathrm{POCl}_3$.\n\nReaction (S): $\\mathrm{H}_3 \\mathrm{PO}_2 + 2 \\mathrm{H}_2 \\mathrm{O} + 4 \\mathrm{AgNO}_3 \\rightarrow$ involves hypophosphorous acid reacting in an oxidative environment given by silver nitrate, leading to the production of orthophosphoric acid among other products:\n\n$ \\mathrm{H}_3 \\mathrm{PO}_2 + 2 \\mathrm{H}_2 \\mathrm{O} + 4 \\mathrm{AgNO}_3 \\rightarrow \\mathrm{H}_3 \\mathrm{PO}_4 +\\mathrm{Ag}+\\mathrm{HNO}_3 $\n\nS, therefore, matches with (5) $\\mathrm{H}_3 \\mathrm{PO}_4$.\n\nGiven these reactions and the best fits for the products listed,\n\nP matches with 2,\n\nQ matches with 3,\n\nR matches with 4,\n\nS matches with 5.\n\nThus, the correct option is Option D: $\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 5$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 5$",
+      "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 2$",
+      "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 3$",
+      "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 5$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_033",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of $\\mathrm{HClO}_{3}$ with $\\mathrm{HCl}$ gives a paramagnetic gas, which upon reaction with $\\mathrm{O}_{3}$ produces",
+    "solution": "$\\mathrm{HClO}_3$ reacts with $\\mathrm{HCl}$ according to the following equation,\n\n$$\n2 \\mathrm{HClO}_3+2 \\mathrm{HCl} \\longrightarrow 2 \\mathrm{ClO}_2+\\mathrm{Cl}_2+2 \\mathrm{H}_2 \\mathrm{O}\n$$\n\n$\\mathrm{ClO}_2$ molecule is paramagnetic, as it contains odd number of electrons.\n\n$$\n2 \\mathrm{ClO}_2+2 \\mathrm{O}_3 \\longrightarrow \\mathrm{Cl}_2 \\mathrm{O}_6+2 \\mathrm{O}_2\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\mathrm{Cl}_{2} \\mathrm{O}$",
+      "$\\mathrm{ClO}_{2}$",
+      "$\\mathrm{Cl}_{2} \\mathrm{O}_{6}$",
+      "$\\mathrm{Cl}_{2} \\mathrm{O}_{7}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_034",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of $\\mathrm{Pb}\\left(\\mathrm{NO}_{3}\\right)_{2}$ and $\\mathrm{NaCl}$ in water produces a precipitate that dissolves upon the addition of $\\mathrm{HCl}$ of appropriate concentration. The dissolution of the precipitate is due to the formation of",
+    "solution": "$\\mathrm{Pb}^{2+}$ on reaction with $\\mathrm{Cl}^{-}$, produces white precipitate of $\\mathrm{PbCl}_2$\n\n$$\n\\mathrm{Pb}^{2+}+2 \\mathrm{Cl}^{-} \\longrightarrow \\mathrm{PbCl}_2 \\downarrow\n$$\n(White)\n\nThis precipitate is soluble in concentrated hydrochloric acid due to formation of tetrachloroplumbate (II) ion\n\n$$\n\\mathrm{PbCl}_2 \\downarrow+2 \\mathrm{Cl}^{-} \\longrightarrow\\left[\\mathrm{PbCl}_4\\right]^{2-}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\mathrm{PbCl}_{2}$",
+      "$\\mathrm{PbCl}_{4}$",
+      "$\\left[\\mathrm{PbCl}_{4}\\right]^{2-}$",
+      "$\\left[\\mathrm{PbCl}_{6}\\right]^{2-}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_035",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A colourless aqueous solution contains nitrates of two metals, X and Y. When it was added to an aqueous solution of NaCl, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue P and a solution Q. The residue P was soluble in aqueous NH$_{3}$ and also in excess sodium thiosulphate. The hot solution Q gave a yellow precipitate with KI. The metals X and Y, respectively, are",
+    "solution": "X : Ag Y : Pb P : AgCl Q : PbCl$_{2}$\n\n\n[Diagram]\n\n\nHence, the correct option is (a).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Ag and Pb",
+      "Ag and Cd",
+      "Cd and Pb",
+      "Cd and Zn"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_036",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$Y$$ and $$Z$$ are, respectively",
+    "solution": "Reaction of $\\mathrm{P}_4 \\mathrm{O}_{10}$ with pure nitric acid $\\left(\\mathrm{HNO}_3\\right)$ gives dinitrogen pentaoxide $\\left(\\mathrm{N}_2 \\mathrm{O}_5\\right)$ and metaphosphoric acid $\\left(\\mathrm{HPO}_3\\right)$\n\n$$\n\\mathrm{P}_4 \\mathrm{O}_{10}+4 \\mathrm{HNO}_3 \\rightarrow \\underset{Z}{4 \\mathrm{HPO}_3}+\\underset{Y}{2 \\mathrm{~N}_2 \\mathrm{O}_5}\n$$\n\nThe compound $\\mathrm{Y}$ is dinitrogen pentaoxide $\\left(\\mathrm{N}_2 \\mathrm{O}_5\\right)$ and compound $\\mathrm{Z}$ is metaphosphoric $\\operatorname{acid}\\left(\\mathrm{HPO}_3\\right)$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${N_2}{O_3}$$ and $${H_3}P{O_4}$$",
+      "$${N_2}{O_5}$$ and $$HP{O_3}$$",
+      "$${N_2}{O_4}$$ and $$HP{O_3}$$",
+      "$${N_2}{O_4}$$ and $${H_3}P{O_3}$$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_037",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$W$$ and $$X$$ are, respectively",
+    "solution": "(i) Potassium chlorate $\\left(\\mathrm{KClO}_3\\right)$ is decomposed in presence of $\\mathrm{MnO}_2$ as catalyst to form potassium chloride and oxygen gas.\n\n$2 \\mathrm{KClO}_3(s) \\underset{\\mathrm{MnO}_2}{\\stackrel{\\Delta}{\\longrightarrow}} 2 \\mathrm{KCl}+\\underset{(w)}{3 \\mathrm{O}_2(g)}$\n\nThe gas $(w)$ is oxygen.\n\n(ii) Reaction of white phosphorous with excess of gas $w$ (i.e., $\\mathrm{O}_2$ ) gives $\\mathrm{P}_4 \\mathrm{O}_{10}$ (a dimer of phosphorous pentaoxide).\n\n$$\n\\underset{\\text{White}}{\\mathrm{P}_4(s)}+\\underset{\\text{(excess)}}{5 \\mathrm{O}_2(g)} \\rightarrow \\underset{(X)}{\\mathrm{P}_4 \\mathrm{O}_{10}(s)}$$\n\nphosphorous oxygen\n\nThe compound $(X)$ is $\\mathrm{P}_4 \\mathrm{O}_{10}$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${O_3}$$ and $${P_4}{O_6}$$",
+      "$${O_2}$$ and $${P_4}{O_6}$$",
+      "$${O_2}$$ and $${P_4}{O_{10}}$$",
+      "$${O_3}$$ and $${P_4}{O_{10}}$$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_038",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The increasing order of atomic radii of the following group 13 elements is",
+    "solution": "The increasing order of atomic radii is as follows:\nGa < Al < In < Tl\nThe atomic radius generally increases on moving down a group in the periodic table. As an anomaly, the atomic radius of Ga is less than that of aluminium because of poor shielding of nuclear charge by 10 number of 3d electrons. As a result, the outershell electrons are held more firmly by the nucleus and contraction of radius is observed. This contraction is also called d-block contraction. The size of Tl is similarly affected by 14 number of 4f electrons (lanthanoid contraction) and the atomic radius of Tl is almost similar in size to In.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Al < Ga < In < Tl",
+      "Ga < Al < In < Tl",
+      "Al < In < Ga < Tl",
+      "Al < Ga < Tl < In"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_039",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product formed in the reaction of SOCl$_{2}$ with white phosphorus is",
+    "solution": "The reaction involved is\nP$_{4}$ + 8SOCl$_{2}$ $$\\to$$ 4PCl$_{3}$ + 4SO$_{2}$ + 2S$_{2}$Cl$_{2}$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "PCl$_{3}$",
+      "SO$_{2}$Cl$_{2}$",
+      "SCl$_{2}$",
+      "POCl$_{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l182pd83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_040",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Under ambient conditions, the total number of gases released as products in the final step of the reaction scheme shown below is\n\n[Diagram]",
+    "solution": "The reaction involved is\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l182pd83.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_041",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "P and Q, respectively, are the sodium salts of",
+    "solution": "The reactions involved are\nCl$_{2}$ + 2NaOH (cold, dil.) $$\\to\\mathop {NaOCl}\\limits_{(P)} $$ + NaCl + H$_{2}$O\n3Cl$_{2}$ + 6NaOH (hot, conc.) $$\\to\\mathop {NaCl{O_3}}\\limits_{(Q)} $$ + 5NaCl + 3H$_{2}$O\nwhere NaOCl and NaClO$_{3}$ are salts of hypochlorous acid (HOCl) and chloric acid (HClO$_{3}$), respectively.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Hypochlorous and chloric acids.",
+      "Hypochlorous and chlorous acids.",
+      "Chloric and perchloric acids.",
+      "Chloric and hypochlorous acids."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_042",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "R, S and T respectively, are",
+    "solution": "The reactions involved are\n$$S{O_2} + C{l_2}\\buildrel {Charcoal} \\over\n\\longrightarrow \\mathop {S{O_2}C{l_2}}\\limits_{(R)} \\mathop {10S{O_2}C{l_2}}\\limits_{(R)} + {P_4} \\to \\mathop {4PC{l_5}}\\limits_{(S)} + 10S{O_2}\\mathop {PC{l_5}}\\limits_{(S)} + 4{H_2}O \\to \\mathop {{H_3}P{O_4}}\\limits_{(T)} + 5HCl$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "SO$_{2}$Cl$_{2}$, PCl$_{5}$ and H$_{3}$PO$_{4}$",
+      "SO$_{2}$Cl$_{2}$, PCl$_{3}$ and H$_{3}$PO$_{3}$",
+      "SOCl$_{2}$, PCl$_{3}$ and H$_{3}$PO$_{2}$",
+      "SOCl$_{2}$, PCl$_{5}$ and H$_{3}$PO$_{4}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_043",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The unbalanced chemical reactions given in List I show missing reagent or condition (?) which are provided in List II. Match List I with List II and select the correct answer using the code given below the lists :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nList I\n\nList II\n\n\n\nP.\n$$Pb{O_2} + {H_2}S{O_4}\\buildrel ? \\over\n\\longrightarrow PbS{O_4} + {O_2} + Other\\,products$$\n1.\nNO\n\n\nQ.\n$$N{a_2}{S_2}{O_3} + {H_2}O\\buildrel ? \\over\n\\longrightarrow NaHS{O_4} + Other\\,products$$\n2.\n$${I_2}$$\n\n\nR.\n$${N_2}{H_4}\\buildrel ? \\over\n\\longrightarrow {N_2} + Other\\,products$$\n3.\nWarm\n\n\nS.\n$$Xe{F_2}\\buildrel ? \\over\n\\longrightarrow Xe + Other\\,products$$\n4.\n$$C{l_2}$$",
+    "solution": "The reactions involved are as follows:\n(P) $$Pb{O_2} + {H_2}S{O_4}\\buildrel {Warm} \\over\n\\longrightarrow PbS{O_4} + {H_2}O + {1 \\over 2}{O_2}$$\n(Q) $$2N{a_2}{S_2}{O_3} + 2{H_2}O + C{l_2} \\to 2NaCl + 2NaHS{O_4} + 2S$$\n(R) $${N_2}{H_4} + 2{I_2} \\to {N_2} + 4HI$$\n(S) $$Xe{F_2} + 2NO \\to Xe + 2NOF$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P-4, Q-2, R-3, S-1",
+      "P-3, Q-2, R-1, S-4",
+      "P-1, Q-4, R-2, S-3",
+      "P-3, Q-4, R-2, S-1"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_044",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Concentrated nitric acid, upon long standing, turns yellow-brown due to the formation of",
+    "solution": "The reaction involved is 4HNO$_{3}$ $$\\to$$ 4NO$_{2}$ + 2H$_{2}$O + O$_{2}$. The yellow-brown color appears due to the formation of NO$_{2}$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "NO",
+      "NO$_{2}$",
+      "N$_{2}$O",
+      "N$_{2}$O$_{4}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_045",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of white phosphorous with aqueous NaOH gives phosphine along with another phosphorus containing compound. The reaction type; the oxidation states of phosphorus in phosphine and the other product are, respectively,",
+    "solution": "According to the reaction\nP$_{4}$ + NaOH + 3H$_{2}$O $$\\to$$ PH$_{3}$ + 3NaH$_{2}$PO$_{2}$\noxidation state of phosphorus in P$_{4}$ is zero while in PH$_{3}$ it is $$-$$3 and in NaH$_{2}$PO$_{2}$, it is +1. This shows that this is a type of disproportionation reaction because there is an increase as well as decrease in the oxidation state of phosphorus.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "redox reaction; $$-$$3 and $$-$$5",
+      "redox reaction; +3 and +5",
+      "disproportionation reaction; $$-$$3 and +1",
+      "disproportionation reaction; $$-$$3 and +3"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_046",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Bleaching powder contains a salt of an oxoacid as one of its components. The anhydride of that oxoacid is",
+    "solution": "Bleaching powder is CaOCl$_{2}$ which contains HOCl as an oxoacid and the anhydride of which is Cl$_{2}$O.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Cl$_{2}$O",
+      "Cl$_{2}$O$_{7}$",
+      "ClO$_{2}$",
+      "Cl$_{2}$O$_{6}$"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_047",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "25 mL of household bleach solution was mixed with 30 mL of 0.50 M KI and 10 mL of 4 N acetic acid. In the titration of the liberated iodine, 48 mL of 0.25 N Na$_{2}$S$_{2}$O$_{3}$ was used to reach the end point. The molarity of the household bleach solution is",
+    "solution": "Consider the titration reaction\nCaOCl$_{2}$ + 2KI $$\\to$$ I$_{2}$ + Ca(OH)$_{2}$ + KCl\nAccording to this reaction, 25 mL of CaOCl$_{2}$ reacts with 30 mL of 0.50 M KI\nI$_{2}$ + 2Na$_{2}$S$_{2}$O$_{3}$ $$\\to$$ Na$_{2}$S$_{4}$O$_{6}$ + 2NaI\nGiven that 48 mL of 0.25 N Na$_{2}$S$_{2}$O$_{3}$ was used to reach the end point. So, the number of moles of I$_{2}$ produced = 48 $$\\times$$ 0.25/2 = 6.\nAccording to the reaction,\nNumber of millimoles of bleaching powder = Number of moles of I$_{2}$ = (1/2) $$\\times$$ Number of moles of Na$_{2}$S$_{2}$O$_{3}$ = 6\nSo, the molarity of CaOCl$_{2}$ is\n$${{Number\\,of\\,moles\\,of\\,bleaching\\,powder} \\over {Volume\\,of\\,solution}} = {{6\\,mmol} \\over {25\\,mL}} = 0.24M$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0.48 M",
+      "0.96 M",
+      "0.24 M",
+      "0.024 M"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wdela1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_048",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which ordering of compounds is according to the decreasing order of the oxidation state of nitrogen?",
+    "solution": "In HNO$_{3}$, the oxidation state of N is +5 while in NO, it is +2. In N$_{2}$, it is zero and in NH$_{4}$Cl, the oxidation state of nitrogen is $$-$$3. So, the decreasing order of oxidation state of nitrogen is\nHNO$_{3}$ > NO > N$_{2}$ > NH$_{4}$Cl",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "HNO$_{3}$, NO, NH$_{4}$Cl, N$_{2}$",
+      "HNO$_{3}$, NO, N$_{2}$, NH$_{4}$Cl",
+      "HNO$_{3}$, NH$_{4}$Cl, NO, N$_{2}$",
+      "NO, HNO$_{3}$, NH$_{4}$Cl, N$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wdela1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_049",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Extra very pure N$_{2}$ can be obtained by heating",
+    "solution": "Extra pure N$_{2}$ can be obtained by heating Ba(N$_{3}$)$_{2}$.\nExplanation\nThermal Decomposition of Barium Azide\nThermal decomposition of barium azide produces very pure nitrogen gas (N$_{2}$).\n$$\\text{Ba(N}_3)_2 \\xrightarrow{\\Delta} \\text{Ba}(s) + 3\\text{N}_2(g)$$\nThis reaction yields pure nitrogen gas.\nDecomposition of Ammonium Dichromate\nDecomposition of ammonium dichromate ((NH$_{4}$)$_{2}$Cr$_{2}$O$_{7}$) produces chromium (III) oxide as impurities.\n$$(\\text{NH}_4)_2\\text{Cr}_2\\text{O}_7 \\xrightarrow{\\Delta} \\text{N}_2(g) + 4\\text{H}_2\\text{O} + \\text{Cr}_2\\text{O}_3(s)$$\nWhile nitrogen gas is produced, chromium oxide impurities also form.\nHeating Ammonium Nitrate\nHeating ammonium nitrate (NH$_{4}$NO$_{3}$) results in the formation of nitrous oxide and water, not pure nitrogen gas.\n$$\\text{NH}_4\\text{NO}_3 \\xrightarrow{\\Delta} \\text{N}_2\\text{O}(g) + \\text{H}_2\\text{O}$$\nNo nitrogen gas is produced in this reaction.\nReaction of Ammonia with Copper Oxide\nThe reaction between ammonia (NH$_{3}$) and copper oxide (CuO) gives nitrogen gas along with copper as an impurity.\n$$2\\text{NH}_3(g) + 3\\text{CuO}(s) \\rightarrow \\text{N}_2(g) + 3\\text{Cu}(s) + 3\\text{H}_2\\text{O}(l)$$\nWhile nitrogen gas is produced, copper impurities remain.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "NH$_{3}$ with CuO",
+      "NH$_{4}$NO$_{3}$",
+      "(NH$_{4}$)$_{2}$CrO$_{7}$",
+      "Ba(N$_{3}$)$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wdela1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_050",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "All the compounds listed in **Column I** react with water. Match the result of the respective reactions with the appropriate options listed in **Column II**.\n\n\nColumn I\nColumn II\n\n\n(A) (CH$_{3}$)$_{2}$SiCl$_{2}$\n(P) Hydrogen halide formation\n\n\n(B) XeF$_{4}$\n(Q) Redox reaction\n\n\n(C) Cl$_{2}$\n(R) Reacts with glass\n\n\n(D) VCl$_{5}$\n(S) Polymerisation\n\n\n\n(T) O$_{2}$ formation",
+    "solution": "(A) Dimethyl silyl chloride undergoes hydration followed by polymerisation owing to the loss of water molecule.\n\n[Diagram]\n\n(A) → P, S\n$$ \\begin{aligned} & \\text { (B) } 6 \\mathrm{XeF}_4+12 \\mathrm{H}_2 \\mathrm{O} \\rightarrow 4 \\mathrm{Xe}+2 \\mathrm{XeO}_3 +24 \\mathrm{HF} \\text { (Hydrogen fluoride) }+3 \\mathrm{O}_2 \\text { (Oxygen) } \\\\ & \\end{aligned} $$\nHere, xenon undergoes disproportionation reaction (which is a kind of redox reaction) with xenon (in +4 oxidation state) gets oxidized to xenon trioxide $\\left(\\mathrm{XeO}_3\\right)$ and reduced to xenon (Xe) at the same time.\nHF reacts with glass as shown :\n$$ \\mathrm{Na}_2 \\mathrm{SiO}_3+6 \\mathrm{HF} \\rightarrow \\mathrm{Na}_2 \\mathrm{SiF}_6+3 \\mathrm{H}_2 \\mathrm{O} $$\n(B) → P, Q, R, T\n(C)\n$2 \\mathrm{Cl}_2+2 \\mathrm{H}_2 \\mathrm{O} \\longrightarrow {4 \\mathrm{HCl} \\text { (Hydrogen } \\text { halide )}+\\mathrm{O}_2}$\n(C) $\\rightarrow$ P, Q\n(D) $\\mathrm{VCl}_5+\\mathrm{H}_2 \\mathrm{O} \\longrightarrow \\mathrm{VOCl}_3+2 \\mathrm{HCl}$ (Hydrogen chloride)\n(D) $\\rightarrow P$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A)→(P);\n(B)→(P), (Q), (R), (T);\n(C)→(P);\n(D)→(P)",
+      "(A)→(P), (S);\n(B)→(P), (Q), (R), (T);\n(C)→(P), (Q);\n(D)→(P)",
+      "(A)→(P), (S);\n(B)→(P), (R), (T);\n(C)→(P), (Q);\n(D)→(P)",
+      "(A)→(P), (S);\n(B)→(P), (Q), (R);\n(C)→(P), (Q);\n(D)→(P)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wdela1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_051",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match each of the reactions given in Column I with the corresponding product(s) given in Column II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$\\mathrm{Cu+dil.~HNO_3}$$\n(P)\n$$\\mathrm{NO}$$\n\n\n(B)\n$$\\mathrm{Cu+conc.~HNO_3}$$\n(Q)\n$$\\mathrm{NO_2}$$\n\n\n(C)\n$$\\mathrm{Zn+dil.~HNO_3}$$\n(R)\n$$\\mathrm{N_2O}$$\n\n\n(D)\n$$\\mathrm{Zn+conc.~HNO_3}$$\n(S)\n$$\\mathrm{Cu(NO_3)_2}$$\n\n\n\n\n(T)\n$$\\mathrm{Zn(NO_3)_2}$$",
+    "solution": "The reactions are as follows:\n(A) 3Cu + 8HNO$$_3$$ (dil.) $$\\to$$ 3Cu(NO$$_3$$)$$_2$$ + 4H$$_2$$O + 2NO\n(B) Cu + 4HNO$$_3$$ (conc.) $$\\to$$ Cu(NO$$_3$$)$$_2$$ + 4H$$_2$$O + 2NO$$_2$$\n(C) 4Zn + 10HNO$$_3$$ (dil.) $$\\to$$ 4Zn(NO$$_3$$)$$_2$$ + 5H$$_2$$O + N$$_2$$O\n(D) Zn + HNO$$_3$$ (conc.) $$\\to$$ Zn(NO$$_3$$)$$_2$$ + 2H$$_2$$O + 2NO$$_2$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(R), (S); (C)$$\\to$$(R), (T); (D)$$\\to$$(R), (T)",
+      "(A)$$\\to$$(T), (S); (B)$$\\to$$(P), (S); (C)$$\\to$$(R), (T); (D)$$\\to$$(S), (T)",
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q), (S); (C)$$\\to$$(R), (T); (D)$$\\to$$(Q), (T)",
+      "(A)$$\\to$$(R), (S); (B)$$\\to$$(Q), (S); (C)$$\\to$$(R), (T); (D)$$\\to$$(S), (T)"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_052",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction of P$$_4$$ with X leads selectively to P$$_4$$O$$_6$$. The X is",
+    "solution": "Phosphorus reacts with limited supply of oxygen to form the given product.\nP$$_4$$ + 3O$$_2\\to$$ P$$_4$$O$$_6$$\nN$$_2$$ is used to retard the further oxidation.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Dry O$$_2$$.",
+      "A mixture of O$$_2$$ and N$$_2$$.",
+      "Moist O$$_2$$.",
+      "O$$_2$$ in the presence of aqueous NaOH."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_053",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Statement 1 : Pb$$^{4+}$$ compounds are stronger oxidising agents than Sn$$^{4+}$$ compounds.\nand\nStatement 2 : The higher oxidation states for the group 14 elements are more stable for the heavier members of the group due to 'inert pair effect'.",
+    "solution": "In p-block elements, inert pair effect is observed, due to which lower oxidation state becomes more stable on going down the group. In 14$^{th}$ group (C, Si, Ge, Sn, Pb) Pb is placed at lower position than Sn, that's why lower oxidation state is more stable for lead (Pb$$^{2+}$$) and Sn$$^{+4}$$ is more stable than Pb$$^{+4}$$. So, Pb$$^{+4}$$ compounds are stronger oxidising agents than Sn$$^{+4}$$ compounds. Lower oxidation for the group 14$^{th}$ elements are more stable for the heavier members.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True; Statement 2 is correct explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is True; Statement 2 is NOT correct explanation for Statement 1.",
+      "Statement 1 is True, Statement 2 is False.",
+      "Statement 1 is False, Statement 2 is True."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_054",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the correct statement is:",
+    "solution": "Due to greater solubility and nature to be prone to microbial action, nitrates are less abundant in earth's crust. Nitrates are soluble. In nitrates, nitrogen has maximum oxidation state and cannot be further oxidised.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Phosphates have no biological significance in humans.",
+      "Between nitrates and phosphates, phosphates are less abundant in earth's crust.",
+      "Between nitrates and phosphates, nitrates are less abundant in earth's crust.",
+      "Oxidation of nitrates is possible in soil."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_055",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the correct statement is :",
+    "solution": "Both NH$$_3$$ and PH$$_3$$ have one lone pair of electron on it. The lone pair in case of ammonia occupy sp$$^3$$ orbital is directional.\nHence, the lone pair in case of ammonia is easily available and can be easily donated. But for PH$$_3$$ the lone pair of electrons occupy spherical s-orbital which is less directional and thus its lone pair is not easily available neither it can be donated easily.\nAlso the lone pair of electrons in sp$$^3$$ orbital has lesser s-character and less attracted by nucleus and available for easy donation than in PH$$_3$$ with pure s orbital, the lone pair in which lone pair are more strongly attracted by nucleus. As we go down a group, the p-character in bond pair increases and the s-character in lone pair increases.\nThus ammonia is a better base than PH$$_3$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Between NH$$_3$$ and PH$$_3$$, NH$$_3$$ is better electron donor because the lone pair of electrons occupies spherical 's' orbital and is less directional.",
+      "Between NH$$_3$$ and PH$$_3$$, PH$$_3$$ is a better electron donor because the lone pair of electrons occupies sp$$^3$$ orbital and is more directional.",
+      "Between NH$$_3$$ and PH$$_3$$, NH$$_3$$ is a better electron donor because the lone pair of electrons occupies sp$$^3$$ orbital and is more directional.",
+      "Between NH$$_3$$ and PH$$_3$$, PH$$_3$$ is better electron donor because the lone pair of electrons occupies spherical 's' orbital and is less directional."
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_056",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "White phosphorus on reaction with NaOH gives PH$$_3$$ as one of the products. This is a:",
+    "solution": "White phosphorus on reaction with NaOH gives PH$$_3$$ as one of the products.\nP$$_4$$ + 3NaOH + 3H$$_2$$O $$\\to$$ 3NaH$$_2$$PO$$_2$$ + PH$$_3$$\nThe oxidation state of P in P$$_4$$, NaH$$_2$$PO$$_2$$ and PH$$_3$$ is 0, +1 and $$-$$3 respectively. It is an example of disproportionation reaction.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "dimerisation reaction",
+      "disproportionation reaction",
+      "condensation reaction",
+      "precipitation reaction"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggn5902.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_057",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**STATEMENT-1 :** Band gap in germanium is small.\n\n\n**STATEMENT-2 :** The energy gap of each germanium atomic energy level is infinitesimally small.",
+    "solution": "Statement‑1:\n“Band gap in germanium is small.”\n✅ True.\nGermanium is a semiconductor with an energy band gap of about 0.66 eV at 300 K, which is much smaller than that of silicon (~1.1 eV).\n\nStatement‑2:\n“The energy gap of each germanium atomic energy level is infinitesimally small.”\n❌ False.\nIn a single germanium atom, the energy levels are discrete with finite energy differences between them — not infinitesimally small.\nIn a solid, when many atoms come together, each discrete atomic level splits into closely spaced energy states due to interactions between atoms, forming continuous bands; the gap between valence and conduction bands (the band gap) is small but finite.\nSo, the “infinitesimally small” part is incorrect.\n\n✅ Correct Option: C\nStatement‑1 is True, Statement‑2 is False.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is not a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is False",
+      "Statement - 1 is False, Statement - 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggn5902.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_058",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement-1 :** Molecules that are not superimposable on their mirror images are chiral.\n**Statement-2 :** All chiral molecules have chiral centres.",
+    "solution": "A molecule is said to be chiral if it cannot be\nsuper imposed on its mirror image by any\ncombination of rotations or translation. A chiral\nmolecule exists as two stereoisomers that are\nmirror images of each other called enantiomers.\nChirality is based on molecular symmetry. A\nchiral molecule cannot have an improper axis\nof rotation which includes planes of symmetry\nand inversion center.\nStatement- 1 is true as molecules that are not\nsuperimposable on their mirror images are a\nsymmetric and hence chiral. Such molecules\nare known as enantiomers.\nStatement- 2: All chiral molecules don’t have to\nhave a stereogenic center. A molecule can be chiral even if it does not have a stereocenter.\nA molecule’s chirality depends entirely on\nwhether it is a symmetrical. Example-Biphenyls\ndo not have a chiral carbon but they cannot\nrotate freely due to steric crowding. Hence,\nthey are a symmetrical. Therefore, we can\nconclude that Statement-2 is false.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggn5902.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_059",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The percentage of p-character in the orbitals forming P-P bonds in P$$_4$$ is",
+    "solution": "[Diagram]\n\nP = 5 Value electrons\nSteric number = 3 + 1 = 4\nGeometry - Tetrahedral hybridisation $$-$$ sp$$^3$$\nP character $$=\\frac{3}{4}\\times100=75\\%$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "25",
+      "33",
+      "50",
+      "75"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggn5902.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_060",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :** In water, orthoboric acid behaves as a weak monobasic acid.\n\n**Statement 2 :** In water, orthoboric acid acts as a proton donor.",
+    "solution": "H$$_3$$BO$$_3$$ (orthoboric acid) is a weak Lewis acid.\nH$$_3$$BO$$_3$$ + H$$_2$$O $$\\rightleftharpoons$$ B(OH)$$^{-}_{4}$$ + H$$^ \\oplus $$\nIt does not donate proton rather it accepts OH$$^-$$ form water.\nSo, Statement 1 is True, Statement 2 is False.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggo9mfl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_061",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Argon is used in arc welding because of its",
+    "solution": "Argon is an inert gas; hence, less reactive. It shield metal during welding. Argon is frequently blended with carbon dioxide (CO$$_2$$), hydrogen (H$$_2$$), helium (He) or oxygen (O$$_2$$) to enhance the arc characteristics or facilitate metal transfer in gas metal arc welding.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "low reactivity with metal",
+      "ability to lower the melting point of metal",
+      "flammability",
+      "high calorific value"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggo9mfl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_062",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of XeO$$_3$$",
+    "solution": "Hybridisation, H = $$\\frac{1}{2}$$(V + X $$-$$ C + A) = $$\\frac{1}{2}$$ (8 + 0 $$-$$ 0 + 0 ) = 4. So, sp$$^3$$ hybridised and has tetrahedral structure.\nNo. of lone pair = H $$-$$ X $$-$$ D = 4 $$-$$ 0 $$-$$ 3 = 1. As lone pair is present the electron pair geometry will be distorted tetrahedral and structure is pyramidal.\n\n[Diagram]\n\nH = hybridisation no. (if 2 then sp, if 3 then sp$$^2$$ etc.)\nV = valence electrons of central atom.\nX = no. of monovalent atom.\nC = cationic charge, A = anionic charge.\nD = no. of divalent atom",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "linear",
+      "planar",
+      "pyramidal",
+      "T-shaped"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggo9mfl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_063",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "XeF$$_4$$ and XeF$$_6$$ are expected to be",
+    "solution": "6XeF$$_4$$ + 12H$$_2$$O $$\\to$$ 4Xe + 2XeO$$_3$$ + 24HF + 3O$$_2$$\nXeF$$_6$$ + 3H$$_2$$O $$\\to$$ XeO$$_3$$ + 6HF\nXeF$$_4$$ and XeF$$_6$$ are expected to be oxidizing because in both the reactions XeF$$_4$$ and XeF$$_6$$ are themselves reduced to xenon (Xe) and oxidises water to oxygen.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "oxidizing",
+      "reducing",
+      "unreactive",
+      "strongly basic"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtbf2ly.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_064",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\mathrm{B}(\\mathrm{OH})_3+\\mathrm{NaOH} \\quad \\mathrm{NaBO}_2+\\mathrm{Na}\\left[\\mathrm{~B}(\\mathrm{OH})_4\\right] $$$+\\mathrm{H}_2 \\mathrm{O}$\nHow can this reaction be made to proceed in forward direction?",
+    "solution": "When boric acid reacts with sodium hydroxide, the products formed are sodium tetrahydroxoborate (III), sodium metaborate and water. The reaction is reversible in nature.\nThe reaction is difficult to proceed in forward direction due to weak monoprotic boric acid. When cis-1, 2-diol is added in the mixture of boric acid and sodium hydroxide, the weak acid gets converted to a comparatively stronger acid due to chelate complex formation. This stronger acid along with NaOH can undergo titration using phenolphthalein as an indicator. $\\mathrm{B}(\\mathrm{OH})_3+\\mathrm{NaOH} \\rightleftharpoons \\mathrm{Na}\\left[\\mathrm{B}(\\mathrm{OH})_4\\right]$\n\n[Diagram]\nDue to stable nature, it is removed from the solution during reaction. The entire reaction proceed in the same manner, disrupting the reversible chemical reaction and favouring the forward reaction completely.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "addition of cis -1,2-diol",
+      "addition of borax",
+      "addition of trans $-1,2-$ diol",
+      "addition of $\\mathrm{Na}_2 \\mathrm{HPO}_4$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtbf2ly.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_065",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ \\text { Match the Column I with Column II : } $$\n\n.tg {border-collapse:collapse;border-spacing:0;}\n\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\noverflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n\n\n(A)\n\n$$\n\\mathrm{Bi}^{3+} \\rightarrow(\\mathrm{BiO})^{+}\n$$\n\n(P)\n\nHeat\n\n\n\n\n\n(B)\n\n$$\n\\left[\\mathrm{AlO}_2\\right]^{-} \\rightarrow \\mathrm{Al}(\\mathrm{OH})_3\n$$\n\n(Q)\n\nHydrolysis\n\n\n\n\n\n(C)\n\n$$\n\\mathrm{SiO}_4^{4-} \\rightarrow \\mathrm{Si}_2 \\mathrm{O}_7^{6-}\n$$\n\n(R)\n\nAcidification\n\n\n\n\n\n(D)\n\n$$\n\\left(\\mathrm{B}_4 \\mathrm{O}_7^{2-}\\right) \\rightarrow\\left[\\mathrm{B}(\\mathrm{OH})_3\\right]\n$$\n\n(S)\n\nDilution by water",
+    "solution": "(A) When $\\mathrm{Bi}^{3+}$ is treated with water, it gives $[\\mathrm{BiO}]^{+}$ ion and two protons.\n$$ \\mathrm{Bi}^{3+}+\\mathrm{H}_2 \\mathrm{O} \\rightarrow\\left[\\mathrm{BiO}^{+}+2 \\mathrm{H}^{+}\\right. $$\nThe hydrolysis is a chemical reaction in which water is used for breaking down chemical bonds. The conversion of $\\mathrm{Bi}^{+} \\rightarrow[\\mathrm{BiO}]^{+}$is carried out with the help of water; hence, it is a hydrolysis reaction.\nHence, option A from column I matches with option Q from column II.\n(B) The conversion of $\\left[\\mathrm{AlO}_2\\right]^{-} \\rightarrow \\mathrm{Al}(\\mathrm{OH})_3$ is carried out by acidification. The proton is added to one of the reactant to produce aluminium hydroxide. The acid serve as a source of protons required for the acidification. The chemical reaction for the same is shown below:\n$$ \\left[\\mathrm{AlO}_2\\right]^{-} \\rightarrow \\mathrm{Al}(\\mathrm{OH})_3 $$\nHence, option B from column I matches with option R from column II.\n(C) Two molecules of orthosillicate $2 \\mathrm{SiO}_4^{4-}$ gives pyrosilicate $\\mathrm{Si}_2 \\mathrm{O}_7^{6-}$ on strong heating.\n$$ 2 \\mathrm{H}_4 \\mathrm{SiO}_4 \\xrightarrow{\\Delta} \\mathrm{H}_6 \\mathrm{~S}_2 \\mathrm{O}_7 $$\nEquation can also be written as\n$$ 2 \\mathrm{SiO}_4^{4-} \\xrightarrow{\\Delta} \\mathrm{Si}_2 \\mathrm{O}_7^{6-} $$\nHence, option C from column I matches with option P in column II.\n(D) The conversion of $\\left(\\mathrm{B}_4 \\mathrm{O}_7^{2-}\\right)$ into $\\left[\\mathrm{B}(\\mathrm{OH})_3\\right]$ can be achieved either by hydrolysis or acidification.\nThe ( $\\mathrm{B}_4 \\mathrm{O}_7^{2-}$ ) is an anion in $\\mathrm{Na}_2 \\mathrm{~B}_4 \\mathrm{O}_7$.\nWhen $\\mathrm{Na}_2 \\mathrm{~B}_4 \\mathrm{O}_7$ is treated with HCl or $\\mathrm{H}_2 \\mathrm{SO}_4$, it gives $\\mathrm{H}_3 \\mathrm{BO}_3$.\n$$ \\mathrm{Na}_2 \\mathrm{~B}_4 \\mathrm{O}_7 \\xrightarrow{\\mathrm{HCl} \\text { or } \\mathrm{H}_2 \\mathrm{SO}_4} \\mathrm{H}_3 \\mathrm{BO}_3 \\text { or } \\mathrm{B}(\\mathrm{OH})_3 $$\nSimilarly, hydrolysis of $\\mathrm{Na}_2 \\mathrm{~B}_4 \\mathrm{O}_7$ yields $\\mathrm{H}_3 \\mathrm{BO}_3$.\n$$ \\mathrm{Na}_2 \\mathrm{~B}_4 \\mathrm{O}_7 \\xrightarrow{\\mathrm{H}_2 \\mathrm{O}} \\mathrm{H}_3 \\mathrm{BO}_3 $$\nThe $\\mathrm{H}_3 \\mathrm{BO}_3$ is a chemical formula of boric acid and is written as $\\left[\\mathrm{B}(\\mathrm{OH})_3\\right]$.\nHence, option D from column I matches with options Q and R in column II.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$ [\\mathbf{A} \\rightarrow(\\mathbf{Q}, \\mathrm{R}) ; \\mathbf{B} \\rightarrow(\\mathbf{R}) ; \\mathbf{C} \\rightarrow(\\mathbf{P}) ; \\mathrm{D} \\rightarrow(\\mathrm{R})] .$$",
+      "$$ [\\mathbf{A} \\rightarrow(\\mathbf{Q}, \\mathrm{R}) ; \\mathbf{B} \\rightarrow(\\mathbf{R}) ; \\mathbf{C} \\rightarrow(\\mathbf{P}) ; \\mathrm{D} \\rightarrow(\\mathrm{Q}, \\mathrm{R})] .$$",
+      "$$ [\\mathbf{A} \\rightarrow(\\mathbf{Q}) ; \\mathbf{B} \\rightarrow(\\mathbf{R}) ; \\mathbf{C} \\rightarrow(\\mathbf{P}) ; \\mathrm{D} \\rightarrow(\\mathrm{Q})] .$$",
+      "$$ [\\mathbf{A} \\rightarrow(\\mathbf{Q}) ; \\mathbf{B} \\rightarrow(\\mathbf{R}) ; \\mathbf{C} \\rightarrow(\\mathbf{P}) ; \\mathrm{D} \\rightarrow(\\mathrm{Q}, \\mathrm{R})] .$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgml3v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_066",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Specify the coordination geometry around and hybridisation of N and B atoms in a 1 : 1 complex of BF$_{3}$ and NH$_{3}$",
+    "solution": "The correct answer is Option A: N: tetrahedral, sp³; B: tetrahedral, sp³\n\nExplanation:\n\nBF₃ (Boron trifluoride): In its isolated state, BF₃ has a trigonal planar geometry around the boron atom with sp² hybridization.\n\nNH₃ (Ammonia): In its isolated state, NH₃ has a trigonal pyramidal geometry around the nitrogen atom with sp³ hybridization.\n\nHowever, when BF₃ and NH₃ form a 1:1 complex, the lone pair of electrons on nitrogen donates to the empty p-orbital of boron. This leads to the formation of a coordinate bond between nitrogen and boron.\n\nIn the BF₃-NH₃ complex:\n\n[Diagram]\n\nNitrogen (N): Now has four bonding pairs of electrons (three with hydrogen and one with boron), resulting in a tetrahedral geometry and sp³ hybridization.\n\nBoron (B): Also has four bonding pairs of electrons (three with fluorine and one with nitrogen), leading to a tetrahedral geometry and sp³ hybridization.\n\nKey point: The formation of the coordinate bond between nitrogen and boron changes the hybridization and geometry of both atoms in the complex.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "N : tetrahedral, sp$^{3}$; B : tetrahedral, sp$^{3}$",
+      "N : pyramidal, sp$^{3}$; B : pyramidal, sp$^{3}$",
+      "N : pyramidal, sp$^{3}$; B : planar, sp$^{2}$",
+      "N : pyramidal, sp$^{3}$; B : tetrahedral, sp$^{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwbgml3v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_067",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The oxidation number of sulphur in S$_{8}$,S$_{2}$F$_{2}$,H$_{2}$S\nrespectively, are",
+    "solution": "The oxidation number of an atom in a molecule or an ion is essentially a theoretical charge that the atom would have if all the bonds to atoms of different elements were completely ionic. To determine the oxidation numbers of sulfur in the given compounds: S$_{8}$, S$_{2}$F$_{2}$, and H$_{2}$S, let's analyze them one by one.\n\n1. In S$_{8}$: This is an elemental form of sulfur, comprising of sulfur atoms only. In elemental forms, the atoms are not bonded to atoms of a different element, but only to themselves. In such cases, the oxidation number is always 0. Hence, the oxidation number of sulfur in S$_{8}$ is 0.\n\n2. In S$_{2}$F$_{2}$: This is a molecule consisting of sulfur and fluorine. Fluorine is more electronegative than sulfur and virtually always has an oxidation number of -1 in its compounds. Let's denote the oxidation number of sulfur as $x$. Since there are two fluorine atoms, each contributing -1, and the overall molecule is neutral, we get:\n\n$2x + (2 \\times -1) = 0$\n\n$2x - 2 = 0$\n\n$2x = 2$\n\n$x = +1$\n\nTherefore, the oxidation number of sulfur in S$_{2}$F$_{2}$ is +1.\n\n3. In H$_{2}$S: In this compound, hydrogen has an oxidation number of +1 (except when bonded to metals where it can be -1). Since there are two hydrogens, their total contribution is +2. Let's denote the oxidation number of sulfur in this compound as $x$. The compound is neutral overall, so:\n\n$2(+1) + x = 0$\n\n$2 + x = 0$\n\n$x = -2$\n\nTherefore, the oxidation number of sulfur in H$_{2}$S is -2.\n\nComparing with the given options, the correct answers are 0, +1, and -2 for S$_{8}$, S$_{2}$F$_{2}$, and H$_{2}$S, respectively. Therefore, the correct option is Option A: 0, +1, and -2.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0, +1 and -2",
+      "+2, +1 and -2",
+      "0, +1 and +2",
+      "-2, +1 and -2"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_068",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among B$_{2}$H$_{6}$, B$_{3}$N$_{3}$H$_{6}$, N$_{2}$O, N$_{2}$O$_{4}$, H$_{2}$S$_{2}$O$_{3}$ and H$_{2}$S$_{2}$O$_{8}$, the total number of molecules containing covalent bond between two atoms of the same kind is ...................",
+    "solution": "N$_{2}$O, N$_{2}$O$_{4}$, H$_{2}$S$_{2}$O$_{3}$ and H$_{2}$S$_{2}$O$_{8}$ molecules are containing covalent bond between two atoms.\n\n[Diagram]\n\nB$_{2}$H$_{6}$ and B$_{3}$N$_{3}$H$_{6}$ have polar bond, but do not have same kind of atom.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71a8ngp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_069",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 143 K, the reaction of XeF$_{4}$ with O$_{2}$F$_{2}$ produces a xenon compound Y. The total number of lone pair(s) of electrons present on the whole molecule of Y is .................",
+    "solution": "XeF$_{4}$ reacts with O$_{2}$F$_{2}$ to form XeF$_{6}$.O$_{2}$F$_{2}$ is fluoronating reagent.\n\n$$Xe{F_4} + {O_2}{F_2}\\buildrel {143\\,K} \\over\n\\longrightarrow \\mathop {Xe{F_6}}\\limits_{(Y)} + {O_2}$$\n\nThe structure of XeF$_{6}$ is\n\n\n[Diagram]\n\n\nY compound (XeF$_{6}$) has 3 lone pair in each fluorine and one lone pair in xenon.\n\nHence, total number of lone pairs electrons is 19.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_070",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of compounds having at least one bridging oxo group among the molecules given below is _________.\n\n$${N_2}{O_3},{N_2}{O_5},{P_4}{O_6},{P_4}{O_7},{H_4}{P_2}{O_5},{H_5}{P_3}{O_{10}},{H_2}{S_2}{O_3},{H_2}{S_2}{O_5}$$",
+    "solution": "The structures of various molecules given in problem are discussed below -\n1. N$_{2}$O$_{3}$ It is the tautomeric mixture of following two structures -\n\n[Diagram]\n\nConclusion 1 bridging oxo group is present in the compound.\n2. N$_{2}$O$_{5}$ It has following structure.\n\n[Diagram]\n\nConclusion 1 bridging oxo group is present in the compound.\nwhere, p$_{i}$ = initial pressure, p$_{t}$ = total pressure, y = number of gaseous products per mole of reactant\n3. P$_{4}$O$_{6}$\n\n[Diagram]\n\nConclusion 6 bridging oxo groups are present in the compound.\n4. P$_{4}$O$_{7}$\n\n[Diagram]\n\nConclusion 6 bridging oxo groups are present in the compound.\n5. H$_{4}$P$_{2}$O$_{5}$\n\n[Diagram]\n\nConclusion 1 bridging oxo group is present in the compound.\n6. H$_{5}$P$_{3}$O$_{10}$\n\n[Diagram]\n\nConclusion 2 bridging oxo groups are present in the compound.\n7. H$_{2}$S$_{2}$O$_{3}$\n\n[Diagram]\n\nConclusion This compound does not contain any bridging oxo group.\n8. H$_{2}$S$_{2}$O$_{5}$\n\n[Diagram]\n\nConclusion This compound also does not contain any bridging oxo group.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5qxcg3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_071",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three moles of B$_{2}$H$_{6}$ are completely reacted with methanol. The number of moles of boron containing product formed is ____________.",
+    "solution": "The reaction is\nB$_{2}$H$_{6}$ + 6CH$_{3}$OH $$\\to$$ 2B(OCH$_{3}$)$_{3}$ + 6H$_{2}$\nFrom the reaction, 1 mol of B$_{2}$H$_{6}$ reacts with 6 mol of CH$_{3}$OH to produce 2 mol of B(OCH$_{3}$)$_{3}$.\nTherefore, 3 mol of B$_{2}$H$_{6}$ would react with 18 mol of CH$_{3}$OH to produce 6 mol of B(OCH$_{3}$)$_{3}$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13v4vzi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_072",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of lone pairs of electrons in N$_{2}$O$_{3}$ is ___________.",
+    "solution": "The structure of N$_{2}$O$_{3}$ is\n\n[Diagram]\n\nTherefore, the total number of lone pairs is 8.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13v4vzi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_073",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the number of compounds that can react with PCl$_{5}$ to given POCl$_{3}$ is _____________.\nO$_{2}$, CO$_{2}$, SO$_{2}$, H$_{2}$O, H$_{2}$SO$_{4}$, P$_{4}$O$_{10}$",
+    "solution": "The following reactions show how PCl$_{5}$ reacts with different compounds to form POCl$_{3}$ :\n\n$$CO_2 + PCl_5 \\rightarrow POCl_3 + COCl_2H_2O + PCl_5 \\rightarrow POCl_3 + 2HClSO_2 + PCl_5 \\rightarrow POCl_3 + SOCl_2P_4O_{10} + 6PCl_5 \\rightarrow 10POCl_3H_2SO_4 + PCl_5 \\rightarrow POCl_3 + HSO_3Cl + HCl$$\n\nFrom these reactions, it is clear that CO$_{2}$, H$_{2}$O, SO$_{2}$, P$_{4}$O$_{10}$, and H$_{2}$SO$_{4}$ can react with PCl$_{5}$ to give POCl$_{3}$.\nThere are 5 compounds that meet this criterion.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lytt1glu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_p_block_elements_074",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $$n$$ in the molecular formula $$\\mathrm{Be_n Al_2Si_6O_{18}}$$ is ___________.",
+    "solution": "In the given molecular formula $$\\mathrm{Be_n Al_2Si_6O_{18}}$$, according to charge balance in a molecule, we get\n$$2n+2(+3)+6(+4)-18(2)=0\\Rightarrow n=3$$\nSo, the formula is $$\\mathrm{Be_3 Al_2Si_6O_{18}}$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_p_block_elements_075",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements",
+    "topic": "p-Block Elements",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of diprotic acids among the following is:\nH$_{3}$PO$_{4}$, H$_{2}$SO$_{4}$, H$_{3}$PO$_{3}$, H$_{2}$CO$_{3}$, H$_{2}$S$_{2}$O$_{7}$, H$_{3}$BO$_{3}$, H$_{3}$PO$_{2}$, H$_{2}$CrO$_{4}$ and H$_{2}$SO$_{3}$",
+    "solution": "A diprotic acid is an acid that contains within its molecular structure two hydrogen atoms per molecule capable of dissociating (i.e., ionisable protons) in water.\n\n$$ \\mathrm{H}_2 \\mathrm{SO}_4, \\mathrm{H}_2 \\mathrm{CO}_3, \\mathrm{H}_2 \\mathrm{~S}_2 \\mathrm{O}_7, \\mathrm{H}_2 \\mathrm{CrO}_4, \\mathrm{H}_3 \\mathrm{PO}_3, \\mathrm{H}_2 \\mathrm{SO}_3 $$\n\nStructure of each of the compounds is given below :\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lytt1glu.png",
+      "position": "bottom"
+    }
+  }
+]

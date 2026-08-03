@@ -1,0 +1,898 @@
+[
+  {
+    "id": "math_ellipse_001",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the ellipses given by\n$$ x^2+4 y^2=1 \\quad \\text { and } \\quad 4 x^2+y^2=1 $$\nLet $P$ be the point in the first quadrant where the given ellipses intersect. If $\\theta$ is the acute angle between the tangents to the given ellipses at the point $P$, then the value of $4 \\tan \\theta$ is $\\_\\_\\_\\_$ .",
+    "solution": "[Diagram]\n\n$E_1: x^2+4 y^2=1, E_2: 4 x^2+y^2=1$\nIntersection point in $1^{\\text {st }}$ quadrant is $P\\left(\\frac{1}{\\sqrt{5}}, \\frac{1}{\\sqrt{5}}\\right)$ tangent to $E_1$ at point $P$ is $x \\cdot \\frac{1}{\\sqrt{5}}+4 y \\cdot \\frac{1}{\\sqrt{5}}=1$\n$$ \\Rightarrow \\quad x+4 y=\\sqrt{5}, m_1=-\\frac{1}{4} $$\nTangent to $E_2$ at point $P$ is $4 x \\cdot \\frac{1}{\\sqrt{5}}+y \\cdot \\frac{1}{\\sqrt{5}}=1$\n$$ \\begin{aligned} & \\Rightarrow \\quad 4 x+y=\\sqrt{5}, m_2=-4 \\\\ & \\Rightarrow \\quad \\tan \\theta=\\left|\\frac{m_1-m_2}{1+m_1 m_2}\\right|=\\left|\\frac{-\\frac{1}{4}+4}{1+\\frac{1}{4} \\times 4}\\right|=\\frac{15}{8} \\\\ & \\Rightarrow \\quad 4 \\tan \\theta=\\frac{15}{2}=07.50 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpcknbap.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_002",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $P\\left(x_1, y_1\\right)$ and $Q\\left(x_2, y_2\\right)$ be two distinct points on the ellipse\n$$ \\frac{x^2}{9}+\\frac{y^2}{4}=1 $$\nsuch that $y_1>0$, and $y_2>0$. Let $C$ denote the circle $x^2+y^2=9$, and $M$ be the point $(3,0)$.\nSuppose the line $x=x_1$ intersects $C$ at $R$, and the line $x=x_2$ intersects C at $S$, such that the $y$-coordinates of $R$ and $S$ are positive. Let $\\angle R O M=\\frac{\\pi}{6}$ and $\\angle S O M=\\frac{\\pi}{3}$, where $O$ denotes the origin $(0,0)$. Let $|X Y|$ denote the length of the line segment $X Y$.\nThen which of the following statements is (are) TRUE?",
+    "solution": "[Diagram]\n\n$\\begin{aligned} & \\mathrm{P} \\equiv\\left(3 \\cos 30^{\\circ}, 2 \\sin 30^{\\circ}\\right) \\equiv\\left(\\frac{3 \\sqrt{3}}{2}, 1\\right) \\\\ & \\mathrm{Q} \\equiv\\left(3 \\cos 60^{\\circ}, 2 \\sin 60^{\\circ}\\right) \\equiv\\left(\\frac{3}{2}, \\sqrt{3}\\right) \\\\ & \\mathrm{R}\\left(\\frac{3 \\sqrt{3}}{2}, \\frac{3}{2}\\right), \\mathrm{S}\\left(\\frac{3}{2}, \\frac{3 \\sqrt{3}}{2}\\right)\\end{aligned}$\nSlope of $\\mathrm{PQ}=\\mathrm{m}_{\\mathrm{PQ}}=\\frac{\\sqrt{3}-1}{\\frac{3}{2}-\\frac{3 \\sqrt{3}}{2}}=-\\frac{2}{3}$\nEquation of line PQ\n$$ y-\\sqrt{3}=-\\frac{2}{3}\\left(x-\\frac{3}{2}\\right) $$\n$\\Rightarrow 2 x+3 y=3(\\sqrt{3}+1) \\quad$ option (A) is correct\nNow\nif $\\mathrm{N}_2=\\left(\\mathrm{x}_2, 0\\right)=\\left(\\frac{3}{2}, 0\\right)$\n$\\left|\\mathrm{N}_2 \\mathrm{Q}\\right|=\\sqrt{3}$ and $\\left|\\mathrm{N}_2 \\mathrm{~S}\\right|=\\frac{3 \\sqrt{3}}{2}$\n$\\Rightarrow 3\\left|\\mathrm{~N}_2 \\mathrm{Q}\\right|=2\\left|\\mathrm{~N}_2 \\mathrm{~S}\\right| \\quad$ option (C) is correct\nNow, if $\\mathrm{N}_1=\\left(\\mathrm{x}_1, 0\\right) \\Rightarrow \\mathrm{N}_1=\\left(\\frac{3 \\sqrt{3}}{2}, 0\\right)$\n$\\Rightarrow\\left|\\mathrm{N}_1 \\mathrm{P}\\right|=1,\\left|\\mathrm{~N}_1 \\mathrm{R}\\right|=\\frac{3}{2} \\quad$ option (D) is incorrect",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The equation of the line joining **P** and **Q** is $2x + 3y = 3(1 + \\sqrt{3})$",
+      "The equation of the line joining **P** and **Q** is $2x + y = 3(1 + \\sqrt{3})$",
+      "If $N_2 = (x_2, 0)$, then $3|N_2Q| = 2|N_2S|$",
+      "If $N_1 = (x_1, 0)$, then $9|N_1P| = 4|N_1R|$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maz2ejxb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_003",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$. Let $S(p, q)$ be a point in the first quadrant such that $\\frac{p^2}{9}+\\frac{q^2}{4}>1$. Two tangents are drawn from $S$ to the ellipse, of which one meets the ellipse at one end point of the minor axis and the other meets the ellipse at a point $T$ in the fourth quadrant. Let $R$ be the vertex of the ellipse with positive $x$-coordinate and $O$ be the center of the ellipse. If the area of the triangle $\\triangle O R T$ is $\\frac{3}{2}$, then which of the following options is correct?",
+    "solution": "[Diagram]\n\n$\\operatorname{Ar}(\\Delta \\mathrm{ORT})=\\frac{3}{2}$\n\n$\\begin{aligned} & \\left|\\frac{1}{2} \\times 3 \\times 2 \\sin \\theta\\right|=\\frac{3}{2} \\\\\\\\ & \\sin \\theta=\\frac{1}{2} \\Rightarrow \\theta=\\frac{11 \\pi}{6} \\\\\\\\ & \\mathrm{~T}\\left(\\frac{3 \\sqrt{3}}{2},-1\\right)\\end{aligned}$\n\nTanget at $(0,2)\n$,\n\n$\\frac{x(0)}{9}+\\frac{y(2)}{4}=1 \\Rightarrow y=2$ .........(1)\n\nTangent at $\\left(\\frac{3 \\sqrt{3}}{2},-1\\right) $,\n\n$\\frac{x\\left(\\frac{3 \\sqrt{3}}{2}\\right)}{9}+\\frac{y(-1)}{4}=1$ ...........(2)\n\n$\\therefore$ By solving (1) & (2) $\\Rightarrow \\mathrm{p}=3 \\sqrt{3}, \\mathrm{q}=2$\n\n$\\Rightarrow$ Option $(\\mathrm{A})$ is Correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$q=2, p=3 \\sqrt{3}$",
+      "$q=2, p=4 \\sqrt{3}$",
+      "$q=1, p=5 \\sqrt{3}$",
+      "$q=1, p=6 \\sqrt{3}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwxhv0tt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_004",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equation of the common tangent in $${1^{st}}$$ quadrant to the circle $${x^2} + {y^2} = 16$$ and the ellipse $${{{x^2}} \\over {25}} + {{{y^2}} \\over 4} = 1$$. Also find the length of the intercept of the tangent between the coordinate axes.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_005",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ellipse has eccentricity $${1 \\over 2}$$ and one focus at the point $$P\\left( {{1 \\over 2},1} \\right)$$. Its one directrix is the common tangent, nearer to the point $$P$$, to the circle $${x^2} + {y^2} = 1$$ and the hyperbol;a $${x^2} - {y^2} = 1$$. The equation of the ellipse, in the standard form, is ............",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_006",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let E be the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$. For any three distinct points P, Q and Q' on E, let M(P, Q) be the mid-point of the line segment joining P and Q, and M(P, Q') be the mid-point of the line segment joining P and Q'. Then the maximum possible value of the distance between M(P, Q) and M(P, Q'), as P, Q and Q' vary on E, is _______.",
+    "solution": "As we know that, in a triangle, sides joining the mid-points of two sides is half and parallel to the third side.\n\n$$\\therefore{M_1}{M_2} = {1 \\over 2}QQ'$$\n\n\n[Diagram]\n\nMaximum value of QQ' is AA'\n\nHence, maximum value of $${M_1}{M_2} = {1 \\over 2}AA' = 4$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0lt0c7e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_007",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For how many values of p, the circle x$^{2}$ + y$^{2}$ + 2x + 4y $$-$$ p = 0 and the coordinate axes have exactly three common points?",
+    "solution": "We will consider three cases\nCase 1 : Circle passes through origin, that is, p = 0 the equation of circle becomes\nx$^{2}$ + y$^{2}$ + 2x + 4y = 0\nx = 0 $$\\Rightarrow$$ y$^{2}$ + 4y = 0 $$\\Rightarrow$$ y(y + 4) = 0\ny = 0, $$-$$4\ny = 0 $$\\Rightarrow$$ x$^{2}$ + 2x = 0 $$\\Rightarrow$$ x(x + 2) = 0 $$\\Rightarrow$$ x = 0, $$-$$ 2\n\n[Diagram]\n\nCase 2 : Circle touches y axis then circle will intersect x axis at two distinct points\nPut y = 0 in equation of circle, we get\nx$^{2}$ + 2x $$-$$ p = 0\nNow from g$^{2}$ $$-$$ c > 0 and f$^{2}$ $$-$$ c = 0\n$$\\Rightarrow$$ 1$^{2}$ $$-$$ ($$-$$p) > 0 and 2$^{2}$ $$-$$ ($$-$$p) = 0\n1 + p > 0 and 4 + p = 0\np > $$-$$1 and p = $$-$$ 4\nwhich is a contradiction. Also, for p = $$-$$4 we get\nx$^{2}$ $$-$$ 2x + 4 = 0\n$$x = {{2 \\pm \\sqrt {4 - 4 \\times 4} } \\over 2} = {{2 \\pm 2\\sqrt 3 i} \\over 2} = 1 \\pm \\sqrt 3 i$$\nThey are imaginary roots.\nTherefore, Case 2 is not possible.\n\n[Diagram]\n\nCase 3 : Circle touches x axis. Then the circle will intersect y axis at two distinct points.\nSubstituting x = 0, we get\ny$^{2}$ + 4y $$-$$ p = 0\nNow, from g$^{2}$ $$-$$ C = 0 and f$^{2}$ $$-$$ C > 0, we have\n1$^{2}$ $$-$$ ($$-$$p) = 0 and 2$^{2}$ = ($$-$$p) > 0\np = $$-$$1 and 4 + p > 0 $$\\Rightarrow$$ p > $$-$$4\n\n[Diagram]\n\nTherefore, the equation of circle becomes\ny$^{2}$ + 4y + 1 = 0\n$$ \\Rightarrow y = {{ - 4 \\pm \\sqrt {16 - 4} } \\over 2} = {{ - 4 \\pm \\sqrt {12} } \\over 2}y = {{ - 4 \\pm \\sqrt {4 \\times 3} } \\over 2} = {{ - 4 \\pm 2\\sqrt 3 } \\over 2} = - 2 \\pm \\sqrt 3 $$ real values\nThus, Case 3 is possible.\nThus, for p = 0 and p = $$-$$1 the circle and coordinates have exactly three points in common. Hence, the correct answer is 2.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l02c4tml.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_008",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A vertical line passing through the point $$(h,0)$$ intersects the ellipse $${{{x^2}} \\over 4} + {{{y^2}} \\over 3} = 1$$ at the points $$P$$ and $$Q$$. Let the tangents to the ellipse at $$P$$ and $$Q$$ meet at the point $$R$$. If $$\\Delta \\left( h \\right)=$$ area of the triangle $$PQR$$, $${{\\Delta _1}} = \\mathop {\\max }\\limits_{1/2 \\le h \\le 1} \\Delta \\left( h \\right)$$ and $${{\\Delta _2}} = \\mathop {\\min }\\limits_{1/2 \\le h \\le 1} \\Delta \\left( h \\right)$$, then $${8 \\over {\\sqrt 5 }}{\\Delta _1} - 8{\\Delta _2} = $$",
+    "solution": "[Diagram]\n\nA vertical line passing through $$(h, 0)$$ is $$x=h$$ and this vertical line intersect the ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at P and Q.\nPut $$x=h$$ in the ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1\\begin{aligned}\n& \\Rightarrow \\frac{h^2}{4}+\\frac{y^2}{3}=1 \\\\\n& \\Rightarrow y= \\pm \\sqrt{3-\\frac{3 h^2}{4}}\n\\end{aligned}$$\nSo $$\\mathrm{P}=\\left(h, \\sqrt{3-\\frac{3 h^2}{4}}\\right)$$ and $$\\mathrm{Q}=\\left(h,-\\sqrt{3-\\frac{3 h^2}{4}}\\right)$$\nEquation of tangent of ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at P is\n$$\\frac{h x}{4}+\\frac{y}{3} \\sqrt{3-\\frac{3 h^2}{4}}=1 \\quad \\text{... (i)}$$\nEquation of tangent of ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at Q is\n$$\\frac{h x}{4}-\\frac{y}{3} \\sqrt{3-\\frac{3 h^2}{4}}=1 \\quad \\text{... (ii)}$$\nGiven, $$R$$ is the point of intersection of tangents at $$P$$ and at $$Q$$.\nOn solving the equations (i) and (ii)\n$$\\Rightarrow \\quad \\mathrm{R}=\\left(\\frac{8}{h}, 0\\right)$$\nGiven, $$\\Delta(h)=$$ Area of $$\\Delta \\mathrm{PQR}\\begin{aligned}\n\\Rightarrow \\quad \\Delta(h) & =\\frac{1}{2}\\left(\\frac{8}{h}-h\\right) \\cdot 2 \\sqrt{3-\\frac{3 h^2}{4}} \\\\\n\\Rightarrow \\quad \\Delta(h) & =\\frac{\\sqrt{3}}{2}\\left(\\frac{8}{h}-h\\right) \\sqrt{4-h^2} \\\\\n\\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}= & \\frac{\\sqrt{3}}{2}\\left(\\frac{-8}{h^2}-1\\right) \\sqrt{4-h^2} +\\frac{\\sqrt{3}}{2}\\left(\\frac{8}{h}-h\\right) \\cdot \\frac{(-2 h)}{2 \\sqrt{4-h^2}}\n\\end{aligned}\\begin{aligned}\n\\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}= & \\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}} \\\\\n& {\\left[\\left(\\frac{8}{h^2}+1\\right)\\left(4-h^2\\right)+\\left(\\frac{8}{h}-h\\right) h\\right] }\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}}\\left[\\frac{32}{h^2}-8+4-\\hbar^2+8-h^2\\right] \\\\\n& \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}}\\left[-2 h^2+\\frac{32}{h^2}+4\\right] \\\\\n& \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{\\sqrt{3}}{h^2 \\sqrt{4-h^2}}\\left[h^4-2 h^2-16\\right] \\\\\n& \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{\\sqrt{3}}{h^2 \\sqrt{4-h^2}}\\left[\\left(h^2-1\\right)^2-17\\right]\n\\end{aligned}$$\nFor, $$\\frac{1}{2} \\leq h \\leq 1, \\quad \\frac{d \\Delta(h)}{d h}<0\\therefore \\quad \\Delta(h)$$ is a decreasing function for $$x \\in\\left[\\frac{1}{2}, 1\\right]\\Rightarrow \\Delta(1) \\leq \\Delta(h) \\leq \\Delta\\left(\\frac{1}{2}\\right)$$\nGiven $$\\quad \\Delta_1=\\max _{\\frac{1}{2} \\leq h \\leq 1} \\Delta(h)$$ and\n$$\\begin{aligned}\n\\Delta_2 & =\\min _{\\frac{1}{2} \\leq h \\leq 1} \\Delta(h) \\\\\n\\Rightarrow \\quad \\Delta_1 & =\\Delta\\left(\\frac{1}{2}\\right) \\text { and } \\Delta_2=\\Delta(1) \\\\\n\\Rightarrow \\quad \\Delta_1 & =\\frac{\\sqrt{3}}{2}\\left(16-\\frac{1}{2}\\right) \\sqrt{4-\\frac{1}{4}} \\text { and } \\\\\n\\Delta_2 & =\\frac{\\sqrt{3}}{2}(8-1) \\sqrt{4-1} \\\\\n\\Rightarrow \\quad \\Delta_1 & =\\frac{\\sqrt{3}}{2} \\times \\frac{31}{2} \\times \\frac{\\sqrt{5} \\cdot \\sqrt{3}}{2} \\text { and } \\Delta_2=\\frac{21}{2} \\\\\n\\Rightarrow \\quad \\frac{8 \\Delta_1}{\\sqrt{5}} & =93 \\text { and } 8 \\Delta_2=84\n\\end{aligned}\\Rightarrow \\frac{8 \\Delta_1}{\\sqrt{5}}-8 \\Delta_2=9$$\nHints:\n(i) If $$f(x)$$ is a decreasing function in $$x \\in[a, b]$$, then $$f(b) \\leq f(x) \\leq f(a)$$\n(ii) If $$\\left(x_1, y_1\\right)$$ is a point on the curve $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$, then equation of tangent at $$\\left(x_1, y_1\\right)$$ is $$\\frac{x x_1}{a^2}+\\frac{y y_1}{b^2}=1$$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzsmvvxy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_009",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $T_1$ and $T_2$ be two distinct common tangents to the ellipse $E: \\frac{x^2}{6}+\\frac{y^2}{3}=1$ and the parabola $P: y^2=12 x$. Suppose that the tangent $T_1$ touches $P$ and $E$ at the points $A_1$ and $A_2$, respectively and the tangent $T_2$ touches $P$ and $E$ at the points $A_4$ and $A_3$, respectively. Then which of the following statements is(are) true?",
+    "solution": "$$\n\\begin{aligned}\n& E: \\frac{x^2}{6}+\\frac{y^2}{3}=1 \\text {, Tangent : } y=m_1 x \\pm \\sqrt{6 m_1^2+3} \\\\\\\\\n& P: y^2=12 x, \\text { Tangent: } y=m_2 x+\\frac{3}{m_2}\n\\end{aligned}\n$$\n\nFor common tangent\n\n$$\n\\begin{aligned}\n& m=m_1=m_2, \\pm \\sqrt{6 m_1^2+3}=\\frac{3}{m_2} \\\\\\\\\n& \\Rightarrow m= \\pm 1\n\\end{aligned}\n$$\n\n$\\Rightarrow$ Equation of common tangents $y=x+3$ and $y=-x-3$ point of contact for parabola is $\\left(\\frac{a}{m^2}, \\frac{2 a}{m}\\right)$\n\n$$\n\\Rightarrow A_1 \\equiv(3,6), \\quad A_4(3-6)\n$$\n\nLet $A_2\\left(x_1, y_1\\right) \\Rightarrow$ tangent to $E$ is $\\frac{x x_1}{6}+\\frac{y y_1}{3}=1$\n\n$A_3$ is mirror image of $A_2$ in $x$-axis $\\Rightarrow A_3(-2,-1)$\n\n[Diagram]\n\nIntersection point of $T_1=0$ and $T_2=0$ is $(-3,0)$\n\nArea of quadrilateral $A_1 A_2 A_3 A_4=\\frac{1}{2}(12+2) \\times 5=35$ square units",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The area of the quadrilateral $A_1 A_2 A_3 A_4$ is 35 square units",
+      "The area of the quadrilateral $A_1 A_2 A_3 A_4$ is 36 square units",
+      "The tangents $T_1$ and $T_2$ meet the $x$-axis at the point $(-3,0)$",
+      "The tangents $T_1$ and $T_2$ meet the $x$-axis at the point $(-6,0)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrv17k8w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_010",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Define the collections {E$_{1}$, E$_{2}$, E$_{3}$, ...} of ellipses and {R$_{1}$, R$_{2}$, R$_{3}$.....} of rectangles as follows :\n\n$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$\n\nR$_{1}$ : rectangle of largest area, with sides parallel to the axes, inscribed in E$_{1}$;\n\nEn : ellipse $${{{x^2}} \\over {a_n^2}} + {{{y^2}} \\over {b_n^2}} = 1$$ of the largest area inscribed in $${R_{n - 1}},n > 1$$;\n\nR$_{n}$ : rectangle of largest area, with sides parallel to the axes, inscribed in E$_{n}$, n > 1.\n\nThen which of the following options is/are correct?",
+    "solution": "Given equation of ellipse\n\n$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ ... (i)\n\nNow, let a vertex of rectangle of largest area with sides parallel to the axes, inscribed in E$_{1}$ be (3cos$$\\theta $$, 2sin$$\\theta $$).\n\nSo, area of rectangle\n\nR$_{1}$ = 2(3cos$$\\theta $$) $$ \\times $$ 2(2sin$$\\theta $$) = 12sin(2$$\\theta $$)\n\n\n[Diagram]\n\n\nThe area of R$_{1}$ will be maximum, $$\\theta = {\\pi \\over 4}$$ and maximum area is 12 square units and length of sides of rectangle R$_{1}$ are $$2a\\cos \\theta = \\sqrt 2 a = 3\\sqrt 2 $$ = length of major axis of ellipse E$_{2}$ and\n\n$$2b\\sin \\theta = \\sqrt 2 b = 2\\sqrt 2 $$ = length of minor axis of ellipse E$_{2}$.\n\nSo, $${E_2}:{{{x^2}} \\over {{{\\left( {{a \\over {\\sqrt 2 }}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {\\sqrt 2 }}} \\right)}^2}}} = 1$$ and\n\nmaximum area of rectangle\n\n$${R_2}:2\\left( {{a \\over {\\sqrt 2 }}} \\right)\\left( {{b \\over {\\sqrt 2 }}} \\right)$$ and so on.\n\nSo, $${E_n} = {{{x^2}} \\over {{{\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} = 1$$,\n\nand maximum area of rectangle\n\n$${R_n} = 2\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right) + \\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)$$\n\nNow option (a),\n\nSince, eccentricity of ellipse\n\n$${E_n} = e{'_n} = \\sqrt {1 - {{{{({b_n})}^2}} \\over {{{({a_n})}^2}}}} = \\sqrt {1 - {{{{\\left( {{b \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}} \\over {{{\\left( {{a \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}}}} = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}} = \\sqrt {1 - {4 \\over 9}} = {{\\sqrt 5 } \\over 3}$$\n\nis independent of 'n', so eccentricity of E$_{18}$ and E$_{19}$ are equal.\n\nOption (b),\n\nDistance between focus and centre of\n\n$${E_9} = e.{a_9} = {a \\over {{{(\\sqrt 2 )}^8}}}(e) = {3 \\over {{2^4}}} \\times {{\\sqrt 5 } \\over 3} = {{\\sqrt 5 } \\over {16}}$$ unit\n\nOption (c),\n\n$$ \\because \\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n})} < (area\\,of\\,{R_1}) + (area\\,of\\,{R_2}) + .....\\infty < 2ab + 2{{ab} \\over 2} + 2{{ab} \\over {{2^2}}} + ....... < 2ab\\left( {1 + {1 \\over 2} + {1 \\over {{2^2}}} + .....} \\right) < 12\\left( {{1 \\over {1 - 1/2}}} \\right) \\Rightarrow \\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n}} ) < 24$$, for each positive integer N.\n\nOption (d),\n\nLength of latusrectum $${E_9} = {{2b_9^2} \\over {{a_9}}} = {{2{b^2}} \\over {a{{(\\sqrt 2 )}^8}}} = {{2 \\times 4} \\over {3 \\times 16}} = {1 \\over 6}$$ units\n\nHence, options (c) and (d) are correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "The eccentricities of E$_{18}$ and E$_{19}$ are not equal.",
+      "The distance of a focus from the centre in E$_{9}$ is $${{\\sqrt 5 } \\over {32}}$$.",
+      "$$\\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n})} $$ < 24, for each positive integer N.",
+      "The length of latusrectum of E$_{9}$ is $${1 \\over 6}$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_011",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider two straight lines, each of which is tangent to both the circle x$^{2}$ + y$^{2}$ = (1/2) and the parabola y$^{2}$ = 4x. Let these lines intersect at the point Q. Consider the ellipse whose centre is at the origin O(0, 0) and whose semi-major axis is OQ. If the length of the minor axis of this ellipse is $$\\sqrt 2 $$, then which of the following statement(s) is (are) TRUE?",
+    "solution": "We have,\n\nEquations of circle\n\n$${x^2} + {y^2} = {1 \\over 2}$$\n\nand Equations of parabola\n\ny$^{2}$ = 4x\n\n\n[Diagram]\n\n\nLet the equation of common tangent of parabola and circle is\n\n$$y = mx + {1 \\over m}$$\n\nSince, radius of circle = $${1 \\over {\\sqrt 2 }} \\therefore {1 \\over {\\sqrt 2 }}$$ = $$\\left| {{{0 + 0 + {1 \\over m}} \\over {\\sqrt {1 + {m^2}} }}} \\right| \\Rightarrow $$ m$^{4}$ + m$^{2}$ $$-$$ 2 = 0\n\n$$ \\Rightarrow $$ m =$$ \\pm $$1\n\n$$ \\therefore $$ Equation of common tangents are\n\ny = x + 1 and y = $$-$$x$$-$$1\n\nIntersection point of common tangent at Q($$-$$1, 0)\n\n$$ \\therefore $$ Equation of ellipse\n\n$${{{x^2}} \\over 1} + {{{y^2}} \\over {1/2}} = 1$$\n\nwhere, $${a^2} = 1$$, $${b^2} = 1/2$$\n\nNow, eccentricity\n\n$$ = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}} = \\sqrt {1 - {1 \\over 2}} = {1 \\over {\\sqrt 2 }}$$\n\nand length of latusrectum\n\n$$ = {{2{b^2}} \\over a} = {{2\\left( {{1 \\over 2}} \\right)} \\over 1} = 1$$\n\n\n[Diagram]\n\n$$ \\therefore $$ Area of shaded region\n\n$$ = 2\\int_{1/\\sqrt 2 }^1 {{1 \\over {\\sqrt 2 }}} \\sqrt {1 - {x^2}} dx\\eqalign{\n& = \\sqrt 2 \\left[ {{x \\over 2}\\sqrt {1 - {x^2}} + {1 \\over 2}{{\\sin }^{ - 1}}x} \\right]_{1/\\sqrt 2 }^1 \\cr\n& = \\sqrt 2 \\left[ {\\left( {0 + {\\pi \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi \\over 8}} \\right)} \\right] \\cr} = \\sqrt 2 \\left[ {\\left( {0 + {\\pi \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi \\over 8}} \\right)} \\right] = \\sqrt 2 \\left( {{\\pi \\over 8} - {1 \\over 4}} \\right) = {{\\pi - 2} \\over {4\\sqrt 2 }}$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "For the ellipse, the eccentricity is 1$$\\sqrt 2 $$ and the length of the latus rectum is 1",
+      "For the ellipse, the eccentricity is 1/2 and the length of the latus rectum is 1/2",
+      "The area of the region bounded by the ellipse between the lines $$x = {1 \\over {\\sqrt 2 }}$$ and x = 1 is $${1 \\over {4\\sqrt 2 }}(\\pi - 2)$$",
+      "The area of the region bounded by the ellipse between the lines $$x = {1 \\over {\\sqrt 2 }}$$ and x = 1 is $${1 \\over {16}}(\\pi - 2)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywtgr6s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_012",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${E_1}$$ and $${E_2}$$ be two ellipses whose centres are at the origin. The major axes of $${E_1}$$ and $${E_2}$$ lie along the $$x$$-axis and the $$y$$-axis, respectively. Let $$S$$ be the circle $${x^2} + {\\left( {y - 1} \\right)^2} = 2$$. The straight line $$x+y=3$$ touches the curves $$S$$, $${E_1}$$ and $${E_2}$$ at $$P, Q$$ and $$R$$ respectively. Suppose that $$PQ = PR = {{2\\sqrt 2 } \\over 3}$$. If $${e_1}$$ and $${e_2}$$ are the eccentricities of $${E_1}$$ and $${E_2}$$, respectively, then the correct expression(s) is (are)",
+    "solution": "Here, $${E_1}:{{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1,\\,(a > b)$$\n\n[Diagram]\n\n$${E_2}:{{{x^2}} \\over {{c^2}}} + {{{y^2}} \\over {{d^2}}} = 1,\\,(c < d)$$\nand $$S:{x^2} + {(y - 1)^2} = 2$$\nas tangent to E$_{1}$, E$_{2}$ and S is $$x + y = 3$$.\nLet the point of contact of tangent be $$({x_1},{y_1})$$ to S.\n$$\\thereforex\\,.\\,{x_1} + y\\,.\\,{y_1} - (y + {y_1}) + 1 = 2$$\nor $$x{x_1} + y{y_1} - y = (1 + {y_1})$$, same as $$x + y = 3$$.\n$$ \\Rightarrow {{{x_1}} \\over 1} = {{{y_1} - 1} \\over 1} = {{1 + {y_1}} \\over 3}$$\ni.e. $${x_1} = 1$$ and $${y_1} = 2\\thereforeP = (1,2)$$\nSince, $$PR = PQ = {{2\\sqrt 2 } \\over 3}$$. Thus, by parametric form,\n$${{x - 1} \\over { - 1/\\sqrt 2 }} = {{y - 2} \\over {1/\\sqrt 2 }} = \\pm {{2\\sqrt 2 } \\over 3} \\Rightarrow \\left( {x = {5 \\over 3},y = {4 \\over 3}} \\right)$$\nand $$\\left( {x = {1 \\over 3},y = {8 \\over 3}} \\right)\\thereforeQ = \\left( {{5 \\over 3},{4 \\over 3}} \\right)$$ and $$R = \\left( {{1 \\over 3},{8 \\over 3}} \\right)$$\nNow, equation of tangent at Q on ellipse E$_{1}$ is\n$${{x\\,.\\,5} \\over {{a^2}\\,.\\,3}} + {{y\\,.\\,4} \\over {{b^2}\\,.\\,3}} = 1$$\nOn comparing with x + y = 3, we get\n$${a^2} = 5$$ and $${b^2} = 4\\thereforee_1^2 = 1 - {{{b^2}} \\over {{a^2}}} = 1 - {4 \\over 5} = {1 \\over 5}$$ ..... (i)\nAlso, equation of tangent at R on ellipse E$_{2}$ is\n$${{x\\,.\\,1} \\over {{a^2}\\,.\\,3}} + {{y\\,.\\,8} \\over {{b^2}\\,.\\,3}} = 1$$\nOn comparing with x + y = 3, we get\n$${a^2} = 1,\\,{b^2} = 8\\thereforee_2^2 = 1 - {{{a^2}} \\over {{b^2}}} = 1 - {1 \\over 8} = {7 \\over 8}$$ ...... (ii)\nNow, $$e_1^2\\,.\\,e_2^2 = {7 \\over {40}} \\Rightarrow {e_1}{e_2} = {{\\sqrt 7 } \\over {2\\sqrt {10} }}$$\nand $$e_1^2 + e_2^2 = {1 \\over 5} + {7 \\over 8} = {{43} \\over {40}}$$\nAlso, $$\\left| {e_1^2 - e_2^2} \\right| = \\left| {{1 \\over 5} - {7 \\over 8}} \\right| = {{27} \\over {40}}$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$\\mathop e\nolimits_1^2 + \\mathop e\nolimits_2^2 = {{43} \\over {40}}$$",
+      "$${e_1}{e_2} = {{\\sqrt 7 } \\over {2\\sqrt {10} }}$$",
+      "$$\\left| {\\mathop e\nolimits_1^2 + \\mathop e\nolimits_2^2 } \\right| = {5 \\over 8}$$",
+      "$${e_1}{e_2} = {{\\sqrt 3 } \\over 4}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0vya8xs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_013",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ellipse intersects the hyperbola $$2{x^2} - 2{y^2} = 1$$ orthogonally. The eccentricity of the ellipse is reciprocal of that of the hyperbola. If the axes of the ellipse are along the coordinate axes then",
+    "solution": "The ellipse and hyperbola will be confocal. Therefore,\n$$( \\pm ae,0) \\equiv ( \\pm 1,0) \\Rightarrow \\left( { \\pm a \\times {1 \\over {\\sqrt 2 }},0} \\right) \\equiv ( \\pm 1,0) \\Rightarrow a = \\sqrt 2 $$ and $$e = {1 \\over {\\sqrt 2 }} \\Rightarrow {b^2} = {a^2}(1 - {e^2}) \\Rightarrow {b^2} = 1$$\nHence, the equation of ellipse $${{{x^2}} \\over 2} + {{{y^2}} \\over 1} = 1$$.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "equation of ellipse is $${x^2} + 2{y^2} = 2$$",
+      "the foci of ellipse are $$\\left( { \\pm 1,0} \\right)$$",
+      "equation of ellipse is $${x^2} + 2{y^2} = 4$$",
+      "the foci of ellipse are $$\\left( { \\pm \\sqrt 2 ,0} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_014",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a triangle $$ABC$$ with fixed base $$BC$$, the vertex $$A$$ moves such that\n$$$\\cos \\,B + \\cos \\,C = 4{\\sin ^2}{A \\over 2}.$$$\nIf $$a, b$$ and $$c$$ denote the lengths of the sides of the triangle opposite to the angles $$A, B$$ and $$C$$, respectively, then",
+    "solution": "From this given data, we can write as\n$$2\\cos \\left( {{{B + C} \\over 2}} \\right)\\cos \\left( {{{B - C} \\over 2}} \\right) = 4{\\sin ^2}{A \\over 2}\\cos \\left( {{{B - C} \\over 2}} \\right) = 2\\sin (A/2) \\Rightarrow {{\\cos \\left( {{{B - C} \\over 2}} \\right)} \\over {\\sin A/2}} = 2 \\Rightarrow {{\\sin B + \\sin C} \\over {\\sin A}} = 2 \\Rightarrow b + c = 2a$$\nwhere a is a constant. Therefore, the locus of point A is an ellipse.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$b+c=4a$$",
+      "$$b+c=2a$$",
+      "locus of point $$A$$ is an ellipse",
+      "locus of point $$A$$ is a pair of straight lines"
+    ]
+  },
+  {
+    "id": "math_ellipse_015",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P\\left( {{x_1},{y_1}} \\right)$$ and $$Q\\left( {{x_2},{y_2}} \\right),{y_1} < 0,{y_2} < 0,$$ be the end points of the latus rectum of the ellipse $${x^2} + 4{y^2} = 4.$$ The equations of parabolas with latus rectum $$PQ$$ are :",
+    "solution": "The ellipse is $${x^2} + 4{y^2} = 4$$,\n$${{{x^2}} \\over 4} + {{{y^2}} \\over 1} = 1$$\nWe have $${b^2} - {a^2}(1 - {e^2})e = {{\\sqrt 3 } \\over 2}$$\nP and Q are obtained as\n$$P\\left( {\\sqrt 3 ,{{ - 1} \\over 2}} \\right),Q = \\left( { - \\sqrt 3 ,{{ - 1} \\over 2}} \\right)$$\nWe have $$PQ = 2\\sqrt 3 $$\nWith PQ as latus rectum two parabolas are possible their vertices being\n$$\\left( {0,{{ - \\sqrt 3 - 1} \\over 2}} \\right)$$ and $$\\left( {0,{{\\sqrt 3 - 1} \\over 2}} \\right)$$\nThe equation of the parabola s can be obtained as\n$${x^2} - 2\\sqrt 3 y = 3 + \\sqrt 3 $$ and $${x^2} + 2\\sqrt 3 y = 3 - \\sqrt 3 $$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$${x^2} + 2\\sqrt 3y = 3 + \\sqrt 3 $$",
+      "$${x^2} - 2\\sqrt 3y = 3 + \\sqrt 3 $$",
+      "$${x^2} + 2\\sqrt 3y = 3 - \\sqrt 3 $$",
+      "$${x^2} - 2\\sqrt 3 y = 3 - \\sqrt 3 $$"
+    ]
+  },
+  {
+    "id": "math_ellipse_016",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "On the ellipse $$4{x^2} + 9{y^2} = 1,$$ the points at which the tangents are parallel to the line $$8x = 9y$$ are",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$\\left( {{2 \\over 5},{1 \\over 5}} \\right)$$",
+      "$$\\left( -{{2 \\over 5},{1 \\over 5}} \\right)$$",
+      "$$\\left( -{{2 \\over 5},-{1 \\over 5}} \\right)$$",
+      "$$\\left( {{2 \\over 5},-{1 \\over 5}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_017",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the ellipse\n\n$$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$$\n\nLet $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is\n(P) $\\frac{(\\sqrt{3}-1)^{4}}{8}$\n\n\n(II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is\n(Q) 1\n\n\n(III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is\n(R) $\\frac{3}{4}$\n\n\n(IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is\n(S) $\\frac{1}{2 \\sqrt{3}}$\n\n\n\n(T) $\\frac{3 \\sqrt{3}}{2}$\n\n\nThe correct option is:",
+    "solution": "[Diagram]\n\nGiven:\n$$\n\\frac{x^2}{4}+\\frac{y^2}{3}=1\n$$\n\nLet $\\quad \\alpha=2 \\cos \\phi$\n\nTangent at $\\mathrm{E}(2 \\cos \\phi, \\sqrt{3} \\sin \\phi)$\n\nto the ellipse is $\\frac{x \\cos \\phi}{2}+\\frac{y \\sin \\phi}{\\sqrt{3}}=1$\n\nThis intersect $x$-axis at $\\mathrm{G}(2 \\sec \\phi, 0)$\n\n$$\n\\begin{aligned}\n& \\text { Area of triangle } \\mathrm{FGH}=\\frac{1}{2}(2 \\sec \\phi-2 \\cos \\phi) 2 \\sin \\phi \\\\\\\\\n& \\Delta=2 \\sin ^2 \\phi \\cdot \\tan \\phi \\\\\\\\\n& \\Delta=(1-\\cos 2 \\phi) \\cdot \\tan \\phi\n\\end{aligned}\n\n\\begin{aligned}\n\\text {I. If }\\phi & =\\frac{\\pi}{4}, \\Delta=1 \\rightarrow Q \\\\\\\\\n\\text {II. If }\\phi & =\\frac{\\pi}{3}, \\Delta=2\\left(\\frac{\\sqrt{3}}{2}\\right)^2 \\cdot \\sqrt{3} \\\\\\\\\n& =\\frac{3 \\sqrt{3}}{2} \\rightarrow \\mathrm{T}\n\\end{aligned}\n\n\\begin{aligned}\n\\text {III. If }\\phi & =\\frac{\\pi}{6}, \\Delta=2\\left(\\frac{1}{2}\\right)^2 \\cdot \\frac{1}{\\sqrt{3}} \\\\\\\\\n& =\\frac{1}{2 \\sqrt{3}} \\rightarrow S\n\\end{aligned}\n\n\\begin{aligned}\n\\text {IV. If }\\phi=\\frac{\\pi}{12}, \\Delta & =\\left(1-\\frac{\\sqrt{3}}{2}\\right) \\cdot(2-\\sqrt{3}) \\\\\\\\\n& =\\frac{(\\sqrt{3}-1)^4}{8} \\rightarrow P\n\\end{aligned}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$(\\mathrm{I}) \\rightarrow(\\mathrm{R}) ;(\\mathrm{II}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{Q}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$",
+      "(I) $\\rightarrow$ (R); (II) $\\rightarrow(\\mathrm{T}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$",
+      "(I) $\\rightarrow(\\mathrm{Q}) ;(\\mathrm{II}) \\rightarrow(\\mathrm{T}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$",
+      "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfqoru6w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_018",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let S be the circle in the XY-plane defined the equation x$^{2}$ + y$^{2}$ = 4.\n\nLet P be a point on the circle S with both coordinates being positive. Let the tangent to S at P intersect the coordinate axes at the points M and N. Then, the mid-point of the line segment MN must lie on the curve",
+    "solution": "We have,\n\nx$^{2}$ + y$^{2}$ = 4\n\nLet P(2 cos$$\\theta $$, 2 sin$$\\theta $$) be a point on a circle.\n\n$$ \\therefore $$ Tangent at P is\n\n2 cos$$\\theta $$x + 2 sin$$\\theta $$y = 4\n\n$$ \\Rightarrow $$ x cos$$\\theta $$ + y sin$$\\theta $$ = 2\n\n[Diagram]\n\n$$ \\therefore $$ The coordinates at $$M\\left( {{2 \\over {\\cos \\theta }},0} \\right)$$ and $$N\\left( {0,{2 \\over {\\sin \\theta }}} \\right)$$\n\nLet (h, k) is mid-point of MN\n\n$$ \\therefore h = {1 \\over {\\cos \\theta }}$$ and $$k = {1 \\over {\\sin \\theta }} \\Rightarrow \\cos \\theta = {1 \\over h}$$\n\nand $$\\sin \\theta = {1 \\over k} \\Rightarrow {\\cos ^2}\\theta + {\\sin ^2}\\theta = {1 \\over {{h^2}}} + {1 \\over {{k^2}}} \\Rightarrow 1 = {{{h^2} + {k^2}} \\over {{h^2}.{k^2}}}{h^2} + {k^2} = {h^2}{k^2} \\therefore $$ Mid-point of MN lie on the curve\n\n$${x^2} + {y^2} = {x^2}{y^2}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(x + y)$^{2}$ = 3xy",
+      "x$^{2/3}$ + y$^{2/3}$ = 2$^{4/3}$",
+      "x$^{2}$ + y$^{2}$ = 2xy",
+      "x$^{2}$ + y$^{2}$ = x$^{2}$y$^{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx16meae.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_019",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} < 0}$$ and $${{x_2} > 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin and focus at $${F_2}$$ intersects the ellipse at point $$M$$ in the first quadrant and at point $$N$$ in the fourth quadrant.\n\nIf the tangents to the ellipse at $$M$$ and $$N$$ meet at $$R$$ and the normal to the parabola at $$M$$ meets the $$x$$-axis at $$Q$$, then the ratio of area of the triangle $$MQR$$ to area of the quadrilateral $$M{F_1}N{F_2}$$is",
+    "solution": "Equation of tangent at M(3/2, $$\\sqrt6$$) to $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$ is\n$${3 \\over 2}.{x \\over 9} + \\sqrt 6 .{y \\over 8} = 1$$ ....... (i)\nwhich intersect X-axis at (6, 0).\nAlso, equation of tangent at N(3/2, $$-\\sqrt6$$) is\n$${3 \\over 2}.{x \\over 9} - \\sqrt 6 .{y \\over 8} = 1$$ ....... (ii)\nEqs. (i) and (ii) intersect on X-axis at R(6, 0). ........ (iii)\nAlso, normal at $$M(3/2,\\sqrt 6 )$$ is\n$$y - \\sqrt 6 = {{ - \\sqrt 6 } \\over 2}\\left( {x - {3 \\over 2}} \\right)$$\nOn solving with y = 0, we get Q(7/2, 0) ....... (iv)\n\n[Diagram]\n\nThe area of MQR is\n$$\\left| {{1 \\over 2}} \\right|\\left| {\\matrix{\n{3/2} & {\\sqrt 6 } & 1 \\cr\n6 & 0 & 1 \\cr\n{7/2} & 0 & 1 \\cr\n\n} } \\right| = \\left| {{{\\sqrt 6 } \\over 2}\\left( {6 - {7 \\over 2}} \\right)} \\right| = {{5\\sqrt 6 } \\over 4}$$\nThe area of the quadrilateral MF$_{1}$NF$_{2}$ is\n$$2(\\Delta {m_1}{F_1}{F_2}) = 2\\sqrt 6 $$\nand the required ratio is\n$${{5\\sqrt 6 } \\over {4\\,.\\,2\\sqrt 6 }} = {5 \\over 8}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$3:4$$",
+      "$$4:5$$",
+      "$$5:8$$",
+      "$$2:3$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ri61sa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_020",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} < 0}$$ and $${{x_2} > 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin and focus at $${F_2}$$ intersects the ellipse at point $$M$$ in the first quadrant and at point $$N$$ in the fourth quadrant.\n\nThe orthocentre of the triangle $${F_1}MN$$ is",
+    "solution": "F$_{1}$(x, 0) and F$_{2}$(x$_{2}$, 0) are the foci of the ellipse:\n$${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$\nTherefore, a$^{2}$ = 9 and b$^{2}$ = 8.\n$${b^2} = {a^2}(1 - {e^2})1 - {e^2} = {8 \\over 9} \\Rightarrow {e^2} = 1 - {8 \\over 9} = {1 \\over 9} \\Rightarrow e = {1 \\over 3}$$\nThe focus is\n$${F_1}\\left( { - 3 \\times {1 \\over 3},0} \\right)$$ and $${F_2}\\left( {3 \\times {1 \\over 3},0} \\right)$$\nThat is, F$_{1}$($$-$$1, 0) and F$_{2}$(1, 0).\n\n[Diagram]\n\nThe equation of parabola is\n$${y^2} = 4(O{F_2})x{y^2} = 4x(O{F_2} = 1)$$\nThe point of intersection of ellipse and parabola is\n$${{{x^2}} \\over 9} + {{4x} \\over 8} = 1 \\Rightarrow {{{x^2}} \\over 9} + {x \\over 2} = 1 \\Rightarrow 2{x^2} + 9x - 18 = 0 \\Rightarrow 2{x^2} + 12x - 3x - 18 = 0 \\Rightarrow 2x(x + 6) - 3(x + 6) = 0 \\Rightarrow x = {3 \\over 2}$$ (x $$-$$6 is rejected)\nNow, $${y^2}(4){3 \\over 2} = 6y = \\pm \\sqrt 6 $$\nThat is, the points M and N are, respectively, $$M\\left( {{3 \\over 2},\\sqrt 6 } \\right)$$ and $$N\\left( {{3 \\over 2}, - \\sqrt 6 } \\right)$$.\nLet the orthocenter be (h, k).\n\n[Diagram]\n\nThe slope of $$OM = {{k - \\sqrt 6 } \\over {h - (3/2)}}$$\nThe slope of $$ON = {{\\sqrt 6 } \\over { - 1 - (3/2)}} = {{ - 2\\sqrt 6 } \\over 5}$$\nNow, $$\\left( {{{k - \\sqrt 6 } \\over {h - (3/2)}}} \\right)\\left( {{{ - 2\\sqrt 6 } \\over 5}} \\right) = - 12\\sqrt 6 k - 12 = 5h - {{15} \\over 2}5h - 2\\sqrt 6 k = {{15} \\over 2} - 12 = {{ - 9} \\over 2}$$\nThe slope of $$ON = {{k + \\sqrt 6 } \\over {h - (3/2)}}$$\nThe slope of $${F_1}M = {{\\sqrt 6 } \\over {1 + (3/2)}} = {{2\\sqrt 6 } \\over 5}{{k + \\sqrt 6 } \\over {h - (3/2)}} \\times {{2\\sqrt 6 } \\over 5} = - 12\\sqrt 6 k + 12 = - 5h + {{15} \\over 2}5h + 2\\sqrt 6 k = {{15} \\over 2} - 12 = {{ - 9} \\over 2}5h + 2\\sqrt 6 k = {{ - 9} \\over 2}$$ ....... (1)\n$$5h - 2\\sqrt 6 k = {{ - 9} \\over 2}$$ ........ (2)\nSolving Eqs. (1) and (2), we get\n$$10h = - 9 \\Rightarrow h = {{ - 9} \\over {10}}$$ and k = 0\nHence, the orthocentre of the triangle F$_{1}$MN is $$\\left( {{{ - 9} \\over {10}},0} \\right)$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left( { - {9 \\over {10}},0} \\right)$$",
+      "$$\\left( { {2 \\over {3}},0} \\right)$$",
+      "$$\\left( { {9 \\over {10}},0} \\right)$$",
+      "$$\\left( {{2 \\over 3},\\sqrt 6 } \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0ri1rws.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_021",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The common tangents to the circle $${x^2} + {y^2} = 2$$ and the parabola $${y^2} = 8x$$ touch the circle at the points $$P, Q$$ and the parabola at the points $$R$$, $$S$$. Then the area of the quadrilateral $$PQRS$$ is",
+    "solution": "Given, a circle $$x^2+y^2=2$$ and a parabola $$y^2=8 x$$\n\n[Diagram]\n\nLet $$P R$$ and $$Q R$$ are common tangents of given circle and parabola intersect at A.\nLet $$\\mathrm{R}=\\left(2 t^2, 4 t\\right)$$ and $$S=\\left(2 t^2,-4 t\\right)$$\nEquation of tangent of parabola\n$$y^2=8 x \\text { at } \\mathrm{R}\\left(2 t^2, 4 t\\right) \\text { is } t y=x+2 t^2$$\nHere, $$A$$ is the point of intersection of tangent\n$$\\begin{aligned}\nt y & =x+2 t^2 \\text { and } X \\text {-axis } \\\\\n\\Rightarrow \\mathrm{A} & =\\left(-2 t^2, 0\\right)\n\\end{aligned}$$\nHere, $$t y=x+2 t^2$$ also touches the circle at P\n$$\\begin{array}{lr}\n\\therefore & \\sqrt{2}=\\frac{\\left|0-t \\times 0+2 t^2\\right|}{\\sqrt{1^2+(-t)^2}} \\\\\n\\Rightarrow & \\sqrt{2} \\cdot \\sqrt{1+t^2}=2 t^2 \\\\\n\\Rightarrow & 2+2 t^2=4 t^4 \\\\\n\\Rightarrow & 2 t^4-t^2-1=0 \\\\\n\\Rightarrow & 2 t^4-2 t^2+t^2-1=0 \\\\\n\\Rightarrow & \\left(2 t^2+1\\right)\\left(t^2-1\\right)=0 \\\\\n\\Rightarrow & t^2=\\frac{-1}{2}, 1\n\\end{array}\\begin{array}{ll}\n\\Rightarrow t^2=1 \\left(t^2=-\\frac{1}{2} \\text { is impossible }\\right) \\\\\n\\Rightarrow t = \\pm 1\n\\end{array}\\therefore \\quad \\mathrm{R}=(2,4), \\mathrm{S}=(2,-4) \\text { and } \\mathrm{A}=(-2,0)$$\nNow, the equation of chord PQ w.r.t. point $$(-2,0)$$ is\n$$\\begin{aligned}\n\\Rightarrow & & -2 \\cdot x+0 \\cdot y-2 & =0 \\\\\n\\Rightarrow & & x & =-1\n\\end{aligned}$$\nHere, P and Q are the point of intersection of circle $$x^2+y^2=2$$ and the line $$x=-1\\begin{aligned}\n& \\therefore & (-1)^2+y^2 & =2 \\\\\n\\Rightarrow & & y & = \\pm 1 \\\\\n\\Rightarrow & & P & =(-1,1) \\text { and } \\mathrm{Q}=(-1,-1)\n\\end{aligned}$$\n\n[Diagram]\nArea of quadrilateral $$\\mathrm{PQRS}=\\frac{1}{2} \\times 3 \\times(2+8) =15$$ Sq. units.\nHint:\n(i) The parametric point of the parabola $$y^2=4 a x$$ is $$\\left(a t^2, 2 a t\\right)$$\n(ii) Equation of tangent of the parabola $$y^2=4 a x$$ at $$\\left(a t^2, 2 a t\\right)$$ is $$t y=x+a t^2$$\n(iii) If a line $$a x+b y+c=0$$ touches the circle $$\\left(x-x_1\\right)^2+\\left(y-y_1\\right)^2=R^2$$, then\n$$\\mathrm{R}=\\frac{\\left|a x_1+b y_1+\\mathrm{C}\\right|}{\\sqrt{a^2+b^2}}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$3$$",
+      "$$6$$",
+      "$$9$$",
+      "$$15$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqkmou0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_022",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ellipse $${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ is inscribed in a rectangle $$R$$ whose sides are parallel to the coordinate axes. Another ellipse $${E_2}$$ passing through the point $$(0, 4)$$ circumscribes the rectangle $$R$$. The eccentricity of the ellipse $${E_2}$$ is",
+    "solution": "[Diagram]\nLet the equation of ellipse $$\\mathrm{E}_2$$ is $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$.\nNow, it is given that $$\\mathrm{E}_2$$ passes through $$(0,4)\\begin{aligned}\n\\Rightarrow \\quad \\frac{0^2}{a^2}+\\frac{4^2}{b^2} & =1 \\\\\nb^2 & =16\n\\end{aligned}$$\nAlso, $$\\mathrm{E}_2$$ passes through $$( \\pm 3, \\pm 2)\\begin{aligned}\n& \\Rightarrow \\quad \\frac{3^2}{a^2}+\\frac{2^2}{b^2}=1 \\\\\n& \\Rightarrow \\quad \\frac{9}{a^2}+\\frac{4}{16}=1 \\\\\n& \\Rightarrow \\quad \\frac{9}{a^2}=\\frac{3}{4} \\\\\n& \\Rightarrow \\quad a^2=12 \\\\\n& \\text { Now, } \\quad b^2>a^2 \\\\\n& \\Rightarrow \\quad b>a \\\\\n& \\therefore \\quad a^2=b^2\\left(1-e^2\\right) \\\\\n& \\Rightarrow \\quad 12=16\\left(1-e^2\\right) \\\\\n& \\Rightarrow \\quad \\frac{12}{16}=1-e^2 \\\\\n& \\Rightarrow \\quad e^2=1-\\frac{3}{4} \\\\\n& \\Rightarrow \\quad e^2=\\frac{1}{4} \\\\\n& \\Rightarrow \\quad e=\\frac{1}{2} \\\\\n\\end{aligned}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{\\sqrt 2 } \\over 2}$$",
+      "$${{\\sqrt 3 } \\over 2}$$",
+      "$${{1 \\over 2}}$$",
+      "$${{3 \\over 4}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzuwjsyz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_023",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe orthocentre of the triangle $$PAB$$ is",
+    "solution": "Equation of AB is\n\n[Diagram]\n\n$$y - 0 = {{{8 \\over 5}} \\over { - {9 \\over 5} - 3}}(x - 3) = {8 \\over { - 24}}(x - 3) \\Rightarrow y = - {1 \\over 3}(x - 3) \\Rightarrow x + 3y = 3$$ ...... (i)\nEquation of the straight line perpendicular to AB through P is $$3x - y = 5$$.\nEquation of PA is $$x - 3 = 0$$.\nThe equation of straight line perpendicular to PA through $$B\\left( {{{ - 9} \\over 5},{8 \\over 5}} \\right)$$ is $$y = {8 \\over 5}$$.\nHence, the orthocentre is $$\\left( {{{11} \\over 5},{8 \\over 5}} \\right)$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( {5,{8 \\over 7}} \\right)$$",
+      "$$\\left( {{7 \\over 5},{{25} \\over 8}} \\right)$$",
+      "$$\\left( {{11 \\over 5},{{8} \\over 5}} \\right)$$",
+      "$$\\left( {{8 \\over 25},{{7} \\over 5}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6aoexbx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_024",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe equation of the locus of the point whose distances from the point $$P$$ and the line $$AB$$ are equal, is",
+    "solution": "From the given condition,\n$$\\sqrt {{{(x - 3)}^2} - {{(y - 4)}^2}} = {{|x + 3y - 3|} \\over {\\sqrt {1 + 9} }} \\Rightarrow 10\\{ ({x^2} - 6x + 9) + ({y^2} - 8y + 16)\\} = {(x + 3y - 3)^2} \\Rightarrow 10{x^2} + 10{y^2} - 60x - 80y + 250 = {x^2} + 9{y^2} + 9 + 6xy - 6x - 18y \\Rightarrow 9{x^2} + {y^2} - 6xy - 54x - 62y + 241 = 0$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$9{x^2} + {y^2} - 6xy - 54x - 62y + 241 = 0$$",
+      "$${x^2} + 9{y^2} + 6xy - 54x + 62y - 241 = 0$$",
+      "$$9{x^2} + 9{y^2} - 6xy - 54x - 62y - 241 = 0$$",
+      "$${x^2} + {y^2} - 2xy + 27x + 31y - 120 = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5hcu6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_025",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe coordinates of $$A$$ and $$B$$ are",
+    "solution": "Equation of chord of contact is $${x \\over 3} + y = 1$$, i.e. $$x = 3(1 - y)$$\nSolving it with the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1{(1 - y)^2} + {{{y^2}} \\over 4} = 1 \\Rightarrow 4({y^2} - 2y + 1) + {y^2} = 4\\thereforey = 0 \\Rightarrow 5{y^2} - 8y = 0\\thereforey = 0,\\,8/5$$\nCorrespondingly $$x = 3,\\, - 9/5$$\nPoints are $$(3,0)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$(3,0)$$ and $$(0,2)$$",
+      "$$\\left( { - {8 \\over 5},{{2\\sqrt {161} } \\over {15}}} \\right)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$",
+      "$$\\left( { - {8 \\over 5},{{2\\sqrt {161} } \\over {15}}} \\right)$$ and $$(0,2)$$",
+      "$$(3,0)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5hcu6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_026",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The normal at a point $$P$$ on the ellipse $${x^2} + 4{y^2} = 16$$ meets the $$x$$- axis $$Q$$. If $$M$$ is the mid point of the line segment $$PQ$$, then the locus of $$M$$ intersects the latus rectums of the given ellipse at the points",
+    "solution": "The normal is\n$$4x\\sec \\phi - 2y\\cos ec\\phi = 12$$\nNow, the points Q and M are given by\n$$Q \\equiv (3\\cos \\phi ,0)M \\equiv (\\alpha ,\\beta )$$\nTherefore, $$\\alpha = {{3\\cos \\phi + 4\\cos \\phi } \\over 2} = {7 \\over 2}\\cos \\phi \\Rightarrow \\cos \\phi = {2 \\over 7}\\alpha $$\nand $$\\beta = \\sin \\phi ;{\\cos ^2}\\phi + {\\sin ^2}\\phi = 1$$.\nTherefore, $${4 \\over {49}}{\\alpha ^2} + {\\beta ^2} = 1 \\Rightarrow {4 \\over {49}}{x^2} + {y^2} = 1$$\nHence, the rectum is $$x = \\pm 2\\sqrt 3 $$.\nHence,\n$${{48} \\over {49}} + {y^2} = 1 \\Rightarrow y = \\pm {1 \\over 7}\\left( { \\pm 2\\sqrt 3 , \\pm {1 \\over 7}} \\right)$$\nHence, the locus of M intersects the latus rectum of the given ellipse at the points\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( { \\pm {{3\\sqrt 5 } \\over 2},\\, \\pm {2 \\over 7}} \\right)$$",
+      "$$\\left( { \\pm {{3\\sqrt 5 } \\over 2},\\, \\pm \\sqrt {{{19} \\over 4}} } \\right)$$",
+      "$$\\left( { \\pm 2\\sqrt 3 , \\pm {1 \\over 7}} \\right)$$",
+      "$$\\left( { \\pm 2\\sqrt 3 , \\pm {{4\\sqrt 3 } \\over 7}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5hcu6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_027",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The line passing through the extremity $$A$$ of the major axis and extremity $$B$$ of the minor axis of the ellipse $${x^2} + 9{y^2} = 9$$ meets its auxiliary circle at the point $$M$$. Then the area of the triangle with vertices at $$A$$, $$M$$ and the origin $$O$$ is",
+    "solution": "Equation of line AM is $$x + 3y - 3 = 0$$.\nPerpendicular distance of line from origin is $$3/\\sqrt {10} $$.\nLength of AM is\n$$2\\sqrt {9 - {9 \\over {10}}} = 2 \\times {9 \\over {\\sqrt {10} }}$$\nThe required area of the rectangle is\n$${1 \\over 2} \\times 2 \\times {9 \\over {\\sqrt {10} }} \\times {3 \\over {\\sqrt {10} }} = {{27} \\over {10}}$$ sq. unit",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{31} \\over {10}}$$",
+      "$${{29} \\over {10}}$$",
+      "$${{21} \\over {10}}$$",
+      "$${{27} \\over {10}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgg71zni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_028",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the conics in Column I with the statements/expressions in Column II :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nCircle\n(P)\nThe locus of the point ($$h,k$$) for which the line $$hx+ky=1$$ touches the circle $$x^2+y^2=4$$.\n\n\n(B)\nParabola\n(Q)\nPoints z in the complex plane satisfying $$|z+2|-|z-2|=\\pm3$$.\n\n\n(C)\nEllipse\n(R)\nPoints of the conic have parametric representation $$x = \\sqrt 3 \\left( {{{1 - {t^2}} \\over {1 + {t^2}}}} \\right),y = {{2t} \\over {1 + {t^2}}}$$\n\n\n(D)\nHyperbola\n(S)\nThe eccentricity of the conic lies in the interval $$1 \\le x \\le \\infty $$.\n\n\n\n\n(T)\nPoints z in the complex plane satisfying $${\\mathop{\\rm Re}\nolimits} {(z + 1)^2} = |z{|^2} + 1$$.",
+    "solution": "(P) We have $${1 \\over {{k^2}}} = 4\\left( {1 + {{{h^2}} \\over {{k^2}}}} \\right) \\Rightarrow 1 = 4({k^2} + {h^2})$$\nHence, $${h^2} + {k^2} = {\\left( {{1 \\over 2}} \\right)^2}$$ , which is a circle.\n(Q) If $$|z - {z_1}| - |z - {z_2}| = k$$, where $$k < |{z_1} - {z_2}|$$, the locus is a hyperbola.\n(R) Let $$t = \\tan \\alpha $$. Hence,\n$$x = \\sqrt 3 \\cos 2\\alpha $$ and $$y = \\sin 2\\alpha $$\nor $$\\cos 2\\alpha = {x \\over {\\sqrt 3 }}$$ and $$\\sin 2\\alpha = y{{{x^2}} \\over 3} + {y^2} = {\\sin ^2}2\\alpha + {\\cos ^2}2\\alpha = 1$$, which is an ellipse.\n(S) If eccentricity is $$[1,\\infty]$$, then the conic can be a parabola (if $$e=1$$) and a hyperbola if $$e\\in(1,\\infty)$$.\n(T) Let $$z = x + iy;x,y \\in R$$. Hence,\n$${(x + 1)^2} - {y^2} = {x^2} + {y^2} + 1 \\Rightarrow {y^2} = x;$$ which is a parabola",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(R); (D)$$\\to$$(R), (S)",
+      "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(R); (D)$$\\to$$(Q), (S)",
+      "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(S); (D)$$\\to$$(R), (S)",
+      "(A)$$\\to$$(P); (B)$$\\to$$(P), (T); (C)$$\\to$$(R); (D)$$\\to$$(Q), (S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgg71zni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_029",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the two curves $${C_1}:{y^2} = 4x,\\,{C_2}:{x^2} + {y^2} - 6x + 1 = 0$$. Then,",
+    "solution": "Given that,\n$${C_1}:{y^2} = 4x{C^2}:{x^2} + {y^2} - 6x + 1 = 0$$\nPutting $${y^2} = 4x$$ in $${x^2} + {y^2} - 6x + 1 = 0$$, we get\n$${x^2} + 4x - 6x + 1 = 0 \\Rightarrow {(x - 1)^2} = 0x = 1$$\nputting $$x = 1$$ in $${y^2} = 4x$$ we get $$y = \\, \\pm ~2$$\n\n[Diagram]\n\nSo, the curves touches each other at two points (1, 2) and (1, $$-$$2),",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${C_1}$$ and $${C_2}$$ touch each other only at one point.",
+      "$${C_1}$$ and $${C_2}$$ touch each other exactly at two points",
+      "$${C_1}$$ and $${C_2}$$ intersect (but do not touch ) at exactly two points",
+      "$${C_1}$$ and $${C_2}$$ neither intersect nor touch each other"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgg71zni.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_ellipse_030",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum area of triangle formed by the tangent to the $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ and coordinate axes is",
+    "solution": "Equation of tangent to ellipse.\n$$\\frac{x \\cos \\theta}{5}+\\frac{y \\sin \\theta}{2}=1$$\nFor all real values of $$\\theta$$\nThis line also touches the given circle which implies that\n$$\\left|\\frac{-10}{\\sqrt{4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta}}\\right|=4\\Rightarrow 4\\left(4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta\\right)=25\\Rightarrow 16 \\cos ^{2} \\theta+100 \\sin ^{2} \\theta=25\\Rightarrow \\quad 84 \\sin ^{2} \\theta+16=25\\Rightarrow \\sin ^{2} \\theta=\\frac{9}{84}$$ and $$\\cos ^{2} \\theta=\\frac{75}{84}$$\nSince, the tangent is in first quadrant, its slope must negative. Hence, the equation of tangent is\n$$\\Rightarrow y=\\left(\\frac{-2}{5} \\frac{\\cos \\theta}{\\sin \\theta}\\right) x+\\frac{2}{\\sin \\theta}\\Rightarrow y=\\frac{-2}{5} \\times \\sqrt{\\frac{75}{9}} x+\\frac{2}{3} \\sqrt{84}\\Rightarrow y=\\frac{-2}{\\sqrt{3}} x+\\frac{4}{\\sqrt{3}} \\sqrt{7}\\Rightarrow 2 x+\\sqrt{3} y=4 \\sqrt{7}$$\nTherefore, the common tangent is\n$$2 x+\\sqrt{3} y=4 \\sqrt{7}$$\nThe common tangent meet the axes in the points.\nA $$(2 \\sqrt{7}, 0)$$ and $$B\\left(0,4 \\frac{\\sqrt{7}}{\\sqrt{3}}\\right)$$\nHence, length $$\\mathrm{AB}=\\sqrt{(0-2 \\sqrt{7})^{2}+\\left(\\frac{4 \\sqrt{7}}{\\sqrt{3}}\\right)^{2}-0}=\\sqrt{28+\\frac{112}{3}}=\\sqrt{\\frac{196}{3}}=\\frac{14}{\\sqrt{3}} \\text { units }$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ab$$ sq. units",
+      "$${{{{a^2} + {b^2}} \\over 2}}$$ sq. units",
+      "$${{{{\\left( {a + b} \\right)}^2}} \\over 2}$$ sq. units",
+      "$${{{a^2} + ab + {b^2}} \\over 3}$$ sq. units"
+    ]
+  },
+  {
+    "id": "math_ellipse_031",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equation of the common tangent in the first quadrant to the circle $$x^{2}+y^{2}=16$$ and the ellipse $$\\frac{x^{2}}{25}+\\frac{y^{2}}{4}=1$$. Also find the length of the intercept of the tangent between the coordinate axes.",
+    "solution": "Equation of tangent to ellipse.\n$$\\frac{x \\cos \\theta}{5}+\\frac{y \\sin \\theta}{2}=1$$\nFor all real values of $$\\theta$$\nThis line also touches the given circle which implies that\n$$\\left|\\frac{-10}{\\sqrt{4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta}}\\right|=4\\Rightarrow 4\\left(4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta\\right)=25\\Rightarrow 16 \\cos ^{2} \\theta+100 \\sin ^{2} \\theta=25\\Rightarrow \\quad 84 \\sin ^{2} \\theta+16=25\\Rightarrow \\sin ^{2} \\theta=\\frac{9}{84}$$ and $$\\cos ^{2} \\theta=\\frac{75}{84}$$\nSince, the tangent is in first quadrant, its slope must negative. Hence, the equation of tangent is\n$$\\Rightarrow y=\\left(\\frac{-2}{5} \\frac{\\cos \\theta}{\\sin \\theta}\\right) x+\\frac{2}{\\sin \\theta}\\Rightarrow y=\\frac{-2}{5} \\times \\sqrt{\\frac{75}{9}} x+\\frac{2}{3} \\sqrt{84}\\Rightarrow y=\\frac{-2}{\\sqrt{3}} x+\\frac{4}{\\sqrt{3}} \\sqrt{7}\\Rightarrow 2 x+\\sqrt{3} y=4 \\sqrt{7}$$\nTherefore, the common tangent is\n$$2 x+\\sqrt{3} y=4 \\sqrt{7}$$\nThe common tangent meet the axes in the points.\nA $$(2 \\sqrt{7}, 0)$$ and $$B\\left(0,4 \\frac{\\sqrt{7}}{\\sqrt{3}}\\right)$$\nHence, length $$\\mathrm{AB}=\\sqrt{(0-2 \\sqrt{7})^{2}+\\left(\\frac{4 \\sqrt{7}}{\\sqrt{3}}\\right)^{2}-0}=\\sqrt{28+\\frac{112}{3}}=\\sqrt{\\frac{196}{3}}=\\frac{14}{\\sqrt{3}} \\text { units }$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\frac{14}{\\sqrt5}$$",
+      "$$\\frac{5}{\\sqrt3}$$",
+      "$$\\frac{14}{\\sqrt3}$$",
+      "$$\\frac{15}{\\sqrt3}$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_032",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If tangents are drawn to the ellipse $${x^2} + 2{y^2} = 2,$$ then the locus of the mid-point of the intercept made by the tangents between the coordinate axes is",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over {2{x^2}}} + {1 \\over {4{y^2}}} = 1$$",
+      "$${1 \\over {4{x^2}}} + {1 \\over {2{y^2}}} = 1$$",
+      "$${{{x^2}} \\over 2} + {{{y^2}} \\over 4} = 1$$",
+      "$${{{x^2}} \\over 4} + {{{y^2}} \\over 2} = 1$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_033",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of the quadrilateral formed by the tangents at the end points of latus rectum to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 5} = 1,$$ is",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$27/4$$ sq. units",
+      "$$9$$ sq. units",
+      "$$27/2$$ sq. units",
+      "$$27$$ sq. units"
+    ]
+  },
+  {
+    "id": "math_ellipse_034",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of values of $$c$$ such that the straight line $$y=4x + c$$ touches the curve $$\\left( {{x^2}/4} \\right) + {y^2} = 1$$ is",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$0$$",
+      "$$1$$",
+      "$$2$$",
+      "infinite."
+    ]
+  },
+  {
+    "id": "math_ellipse_035",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$P=(x, y)$$, $${F_1} = \\left( {3,0} \\right),\\,{F_2} = \\left( { - 3,0} \\right)$$ and $$16{x^2} + 25{y^2} = 400,$$ then $$P{F_1} + P{F_2}$$ equals",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$8$$",
+      "$$6$$",
+      "$$10$$",
+      "$$12$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_036",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of the circle passing through the foci of the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$, and having its centre at $$(0, 3)$$ is",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$4$$",
+      "$$3$$",
+      "$$\\sqrt {{1 \\over 2}} $$",
+      "$${{7 \\over 2}}$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_037",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $$2{x^2} + 3{y^2} - 8x - 18y + 35 = k$$ represents",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "no locus if $$k > 0$$",
+      "an ellipse if $$k < 0$$",
+      "a point if $$k = 0$$",
+      "a hyperbola if $$k > 0$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_038",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$E$$ be the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ and $$C$$ be the circle $${x^2} + {y^2} = 9$$. Let $$P$$ and $$Q$$ be the points $$(1, 2)$$ and $$(2, 1)$$ respectively. Then",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$Q$$ lies inside $$C$$ but outside $$E$$",
+      "$$Q$$ lies outside both $$C$$ and $$E$$",
+      "$$P$$ lies inside both $$C$$ and $$E$$",
+      "$$P$$ lies inside $$C$$ but outside $$E$$"
+    ]
+  },
+  {
+    "id": "math_ellipse_039",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove that, in an ellipse, the perpendicular from a focus upon any tangent and the line joining the centre of the ellipse to the point of contact meet on the corresponding directrix.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_040",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P$$ be a point on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1,0 < b < a$$. Let the line parallel to $$y$$-axis passing through $$P$$ meet the circle $${x^2} + {y^2} = {a^2}$$ at the point $$Q$$ such that $$P$$ and $$Q$$ are on the same side of $$x$$-axis. For two positive real numbers $$r$$ and $$s$$, find the locus of the point $$R$$ on $$PQ$$ such that $$PR$$ : $$RQ = r: s$$ as $$P$$ varies over the ellipse.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_041",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$ABC$$ be an equilateral triangle inscribed in the circle $${x^2} + {y^2} = {a^2}$$. Suppose perpendiculars from $$A, B, C$$ to the major axis of the ellipse $$x.{{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, $$(a>b)$$ meets the ellipse respectively, at $$P, Q, R$$. so that $$P, Q, R$$ lie on the same side of the major axis as $$A, B, C$$ respectively. Prove that the normals to the ellipse drawn at the points $$P, Q$$ and $$R$$ are concurrent.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_042",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the co-ordinates of all the points $$P$$ on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, for which the area of the triangle $$PON$$ is maximum, where $$O$$ denotes the origin and $$N$$, the foot of the perpendicular from $$O$$ to the tangent at $$P$$.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_043",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the family of circles $${x^2} + {y^2} = {r^2},\\,\\,2 < r < 5$$. If in the first quadrant, the common taingent to a circle of this family and the ellipse $$4{x^2} + 25{y^2} = 100$$ meets the co-ordinate axes at $$A$$ and $$B$$, then find the equation of the locus of vthe mid-point of $$AB$$.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_044",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tangent to the ellipse x$^{2}$ + 4y$^{2}$ = 4 meets the ellipse x$^{2}$ + 2y$^{2}$ = 6 at P and Q. Prove that the tangents at P and Q of the ellipse x$^{2}$ + 2y$^{2}$ = 6 are at right angles.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_ellipse_045",
+    "subject": "Mathematics",
+    "chapter": "Ellipse",
+    "topic": "Ellipse",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let '$$d$$' be the perpendicular distance from the centre of the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ to the tangent drawn at a point $$P$$ on the ellipse. If $${F_1}$$ and $${F_2}$$ are the two foci of the ellipse, then show that $${\\left( {P{F_1} - P{F_2}} \\right)^2} = 4{a^2}\\left( {1 - {{{b^2}} \\over {{d^2}}}} \\right)$$.",
+    "solution": "Solution for this Ellipse question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

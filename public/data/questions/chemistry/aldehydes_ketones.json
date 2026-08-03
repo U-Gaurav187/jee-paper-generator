@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "chem_aldehydes_ketones_001",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Natural rubber on complete ozonolysis $\\left(\\mathrm{O}_3 / \\mathrm{Zn}-\\mathrm{H}_2 \\mathrm{O}\\right)$ gives compound $\\mathbf{X}$ as the major product. $\\mathbf{X}$ gives positive iodoform and Tollen's tests. $\\mathbf{X}$ on heating with aqueous NaOH gives $\\mathbf{Y}$ as the major product. $\\mathbf{Y}$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xyjj3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_002",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, **Q, R, S** and **T** are the major products.\n[Diagram]\nThe correct statement(s) about **Q, R, S** and **T** is(are) :",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "S on warming with ammoniacal AgNO$_{3}$ results in the formation of silver mirror.",
+      "Q on treatment with Cl$_{2}$(excess)/UV gives gammaxane.",
+      "T is a heterocyclic compound.",
+      "R on acid catalyzed intramolecular cyclization followed by treatment with Zn-Hg/HCl gives 9,10-dihydroxyanthracene."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9y8w4f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_003",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The sum of total number of carbonyl groups ($> \\t{C}=\\t{O}$) present in the major products X and Y in the following reactions is _____.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nNumber of $>C=O$ groups in $(X)$ and $(Y)$ are 1 and 3 respectively. $(1+3=4)$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9ye2mc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_004",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering LiBH$_{4}$ reduces an ester group to the corresponding alcohol and does not reduce a carboxylic acid group, the correct statement about the major products **P, Q, R and S** is:\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n**Understanding the role of LiBH$_{4}$**\nLiBH$_{4}$ is a reducing agent. It converts **esters** into **alcohols**, but it does not reduce the **carboxylic acid group**. This selectivity helps in predicting which groups will change during the reaction and which will remain the same.\n**Forming the products**\nIn the reaction, only the ester group gets reduced. The carboxylic acid group stays unchanged. Based on this, different compounds form as products, which are labelled as **P, Q, R,** and **S**.\n**Relationship between products**\nThe pairs **P and Q** have the same connectivity but differ in the spatial arrangement of atoms. Similarly, **R and S** also differ in spatial arrangement. These are examples of **diastereomers**, which are a type of stereoisomer that are not mirror images of each other.\n**Type of isomerism**\nSince the difference arises due to the geometry around the double bond or restricted rotation, **P and Q** as well as **R and S** are specifically **geometrical isomers**, which are a form of diastereomers.\nTherefore, **P and Q are diastereomers** and **R and S are diastereomers** because they are **geometrical isomers**.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "**P & Q** are identical, and **R & S** are diastereomers.",
+      "**P & Q** are diastereomers, and **R & S** are identical.",
+      "**P & Q** are diastereomers, and **R & S** are diastereomers.",
+      "**P & Q** are identical, and **R & S** are identical."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9xxunz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_005",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The List-II contains products obtained from the reaction of compounds in List-I with $O_3$/Zn-$H_2O$ followed by cyclization (via more stable enolate) in the presence of aqueous NaOH. Match each entry in List-I with appropriate entry in List-II and choose the correct option.\n\n\n\nList-I\nList-II\n\n\n\n\n\n\n\n(P)\n\n\n[Diagram]\n\n\n\n\n(1)\n\n\n[Diagram]\n\n\n\n\n\n\n(Q)\n\n\n[Diagram]\n\n\n\n\n(2)\n\n\n[Diagram]\n\n\n\n\n\n\n(R)\n\n\n[Diagram]\n\n\n\n\n(3)\n\n\n[Diagram]\n\n\n\n\n\n\n(S)\n\n\n[Diagram]\n\n\n\n\n(4)\n\n\n[Diagram]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(5)\n\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P $\\rightarrow$ 2; Q $\\rightarrow$ 4; R $\\rightarrow$ 1; S $\\rightarrow$ 3",
+      "P $\\rightarrow$ 3; Q $\\rightarrow$ 4; R $\\rightarrow$ 5; S $\\rightarrow$ 2",
+      "P $\\rightarrow$ 2; Q $\\rightarrow$ 1; R $\\rightarrow$ 5; S $\\rightarrow$ 3",
+      "P $\\rightarrow$ 3; Q $\\rightarrow$ 5; R $\\rightarrow$ 4; S $\\rightarrow$ 2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9yvstb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_006",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the major products obtained in the reactions given in List-I with the corresponding structures in List-II and choose the correct option.\n\n\n\nList-I\nList-II\n\n\n\n\n\n\n\n(P)\n\n\n[Diagram]\n\n\n\n\n(1)\n\n\n[Diagram]\n\n\n\n\n\n\n(Q)\n\n\n[Diagram]\n\n\n\n\n(2)\n\n\n[Diagram]\n\n\n\n\n\n\n(R)\n\n\n[Diagram]\n\n\n\n\n(3)\n\n\n[Diagram]\n\n\n\n\n\n\n(S)\n\n\n[Diagram]\n\n\n\n\n(4)\n\n\n[Diagram]\n\n\n\n\n\n\n\n\n\n(5)\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "P $\\rightarrow$ 2; Q $\\rightarrow$ 1; R $\\rightarrow$ 5; S $\\rightarrow$ 4",
+      "P $\\rightarrow$ 1; Q $\\rightarrow$ 2; R $\\rightarrow$ 4; S $\\rightarrow$ 5",
+      "P $\\rightarrow$ 1; Q $\\rightarrow$ 2; R $\\rightarrow$ 3; S $\\rightarrow$ 4",
+      "P $\\rightarrow$ 2; Q $\\rightarrow$ 1; R $\\rightarrow$ 3; S $\\rightarrow$ 5"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9zbnxc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_007",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Monocyclic compounds $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$ and $\\mathbf{S}$ are the major products formed in the reaction sequences given below.\n\n[Diagram]\n\n[Diagram]\n\nThe product having the highest number of unsaturated carbon atom(s) is :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawv18ue.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_008",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, the major product $\\mathbf{Q}$ is\n\n[Diagram]",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpxx8oq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_009",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**List-I** contains various reaction sequences and **List-II** contains the possible products. Match each entry in **List-I** with the appropriate entry in **List-II** and choose the correct option.\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\nmargin: 20px 0;\n}\nth {\nbackground-color: blue;\ncolor: white;\nborder: 1px solid lightgrey;\npadding: 10px;\n}\ntd {\nborder: 1px solid lightgrey;\npadding: 10px;\ntext-align: left;\nvertical-align: top;\n}\nimg {\nmax-width: 100px;\nheight: auto;\n}\n\n\nList-I\nList-II\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n[Diagram]\n\n\n\n\n[Diagram]\n\n\n\n\n\n\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P-3, Q-5, R-4, S-1",
+      "P-3, Q-2, R-4, S-1",
+      "P-3, Q-5, R-1, S-4",
+      "P-5, Q-2, R-4, S-1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwre1l9f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_010",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major products obtained from the reactions in List-II are the reactants for the named reactions mentioned in List-I. Match List-I with List-II and choose the correct option.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) Etard reaction\n(1) Acetophenone $\\stackrel{\\mathrm{Zn}-\\mathrm{Hg}, \\mathrm{HCl}}{\\longrightarrow}$\n\n\n(Q) Gattermann reaction\n(2) $$\n\\text { Toluene } \\underset{\\text { (ii) } \\mathrm{SOCl}_2}{\\stackrel{\\text { (i) } \\mathrm{KMnO}_4, \\mathrm{KOH}, \\Delta}{\\longrightarrow}}\n$$\n\n\n(R) Gattermann-Koch reaction\n(3) $$\n\\text { Benzene } \\underset{\\text { anhyd. } \\mathrm{AlCl}_3}{\\stackrel{\\mathrm{CH}_3 \\mathrm{Cl}}{\\longrightarrow}}\n$$\n\n\n(S) Rosenmund reduction\n(4) $$\n\\text { Aniline } \\underset{273-278 \\mathrm{~K}}{\\stackrel{\\mathrm{NaNO}_2 / \\mathrm{HCl}}{\\longrightarrow}}\n$$\n\n\n\n(5) $$\n\\text { Phenol } \\stackrel{\\mathrm{Zn}, \\Delta}{\\longrightarrow}\n$$",
+    "solution": "$(P) \\rightarrow(3)$\n\n[Diagram]\n\n$(Q) \\rightarrow(4)$\n\n[Diagram]\n\n$(\\mathrm{R}) \\rightarrow(5)$\n\n[Diagram]\n\n$(S) \\rightarrow(2)$\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\n\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 3\n$$",
+      "$$\n\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 2\n$$",
+      "$$\n\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 4\n$$",
+      "$$\n\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 2\n$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lruwpqhd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_011",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following options has correct combination considering List-I and List-II?",
+    "solution": "[Diagram]\n\n[Diagram]\n\nHence, correct match of II is (P, S, U).\n\n\n[Diagram]\n\nHence, correct match of (III) are T, Q, R\n\n\n[Diagram]\n\nHence, correct match of IV is Q, R.\n\nHence, correct matching from List-I and List-II on the basis of given option is (IV), (Q), (R).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(III), (S) (R)",
+      "(IV), (Q), (R)",
+      "(III), (T), (U)",
+      "(IV), (Q), (U)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtib415.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_012",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following options has correct combination considering List-I and List-II?",
+    "solution": "[Diagram]\n\n[Diagram]\n\nHence, correct match of II is (P, S, U).\n\nHence, correct matching from List-I and List-II on the basis of given options is (II), (P), (S), (U).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(II), (P), (S), (U)",
+      "(I), (Q), (T), (U)",
+      "(II), (P), (S), (T)",
+      "(I), (S), (Q), (R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtib415.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_013",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct order of acid strength of the following carboxylic acids is\n\n[Diagram]",
+    "solution": "Acidic nature depends upon nature of electron withdrawing group and electronegativity. Electronegativity further depends on % of s character. Higher the s-character, greater will be the electronegativity and hence tendency to loose H increases thus acidic character also increases.\n\n\n[Diagram]\n\n\nsp- hybridisation (50% s character) (pK$_{a}$ = 1.86)\n\n\n[Diagram]\n\n\nsp$^{2}$ - hybridisation (33-33% s character) (pK$_{a}$ = 4.3)\n\n\n[Diagram]\n\n\nsp$^{2}$ - hybridisation (Resonance effect) (pK$_{a}$ = 4.5)\n\n\n[Diagram]\n\n\nsp$^{3}$ - hybridisation (25% s-character) (pK$_{a}$ = 4.8)\n\nHence, acidic order I > II > III > IV.\n\nII is more acidic than III since electron donating group ($$ - OC{H_3}$$) is attached to benzene ring in III which decreases the acidic character.\n\nOn the other hand, pK$_{a}$ value also determined acidic nature, lower pK$_{a}$ value gives maximum acidic character.\n\nHence, option (b) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "III > II > I > IV",
+      "I > II > III > IV",
+      "II > I > IV > III",
+      "I > III > II > IV"
+    ]
+  },
+  {
+    "id": "chem_aldehydes_ketones_014",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The desired product $$X$$ can be prepared by reacting the major product of the reactions in **LIST-I** with one or more appropriate reagents in **LIST-II** (given, order of migratory aptitude: aryl > alkyl > hydrogen)\n\n[Diagram]\n\n\nThe correct option is",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$P - 1;Q - 2,3;R - 1,4;S - 2,4$$",
+      "$$P - 1,5;Q - 3,4;R - 4,5;S - 3$$",
+      "$$P - 1,5;Q - 3,4;R - 5;S - 2,4$$",
+      "$$P - 1,5;Q - 2,3;R - 1,5;S - 2,3$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhyaheax.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_015",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound $$Y$$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhvg39u5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_016",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound $$Z$$ is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhvg4tmd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_017",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An organic acid **P** $$\\left( {{C_{11}}{H_{12}}{O_2}} \\right)$$ can easily be oxidized to a dibasic acid which reacts with ethylene glycol to produce a polymer dacron. Upon ozonolysis, **P** gives an aliphatic ketone as one of the products. **P** undergoes the following reaction sequences to furnish **R** *via* **Q**. The compound **P** also undergoes another set of reactions to produce **S**.\n\n[Diagram]\n\n\nThe compound **S** is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5cge9i.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_018",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An organic acid **P** $$\\left( {{C_{11}}{H_{12}}{O_2}} \\right)$$ can easily be oxidized to a dibasic acid which reacts with ethylene glycol to produce a polymer dacron. Upon ozonolysis, **P** gives an aliphatic ketone as one of the products. **P** undergoes the following reaction sequences to furnish **R** *via* **Q**. The compound **P** also undergoes another set of reactions to produce **S**.\n\n[Diagram]\n\n\nThe compound **R** is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5cec0k.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_019",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reactions, $$Q$$ to $$R$$ and $$R$$ to $$S,$$ are",
+    "solution": "The reaction $\\mathrm{Q} \\rightarrow \\mathrm{R}$ and $\\mathrm{R} \\rightarrow \\mathrm{S}$ Friedel-Crafts alkylation and Friedel-Crafts alkylation is the introduction of alkyl group into benzene ring in presence of lewis acid catalyst such as anhydrous $\\mathrm{AlCl}_3$. Friedel Crafts acylation is the introduction of acyl group into benzene ring in presence of lewis acid catalyst such as anhydrous $\\mathrm{AlCl}_3$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Dehydration and Friedel$$-$$Crafts acylation",
+      "Aromatic sulfonation and Friedel$$-$$Crafts acylation",
+      "Friedel$$-$$Crafts alkylation, dehydration and Friedel$$-$$Crafts acylation",
+      "Friedel$$-$$Crafts alkylation and Friedel$$-$$Crafts acylation"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhy9373u.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_020",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The product $$S$$ is",
+    "solution": "(i) Compound P reacts with $\\mathrm{CH}_3 \\mathrm{MgBr}$ in excess in $\\left(\\mathrm{C}_2 \\mathrm{H}_5\\right)_2 \\mathrm{O}$ followed by addition of water to form alcohol derivative of the compound.\n\n[Diagram]\n\n(ii) Compound $Q$ undergoes dehydration in presence of $\\mathrm{H}_2 \\mathrm{SO}_4$ at $0^{\\circ} \\mathrm{C}$.\n\n[Diagram]\n\n(iii) Compound $R$ undergoes acylation of aromatic ring in presence of\n\n[Diagram]\nand anhydrous $\\mathrm{AlCl}_3$.\n\n[Diagram]\n\nThe substitution should take place at ortho or para position but due to steric crowding at ortho and occupancy of para position. Meta position is substituted with acetyl group.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhy9f95p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_021",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the synthesis of benzoic acid, the only CORRECT combination is",
+    "solution": "The synthesis involving benzoic acid is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(II) (i) (S)",
+      "(IV) (ii) (P)",
+      "(I) (iv) (Q)",
+      "(III) (iv) (R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li0yqhvi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_022",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The only CORRECT combination in which the reaction proceeds through radical mechanism is :",
+    "solution": "The following reaction takes place by free radical mechanism :\n\n[Diagram]\n\nThe mechanism is as follows :\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(III) (ii) (P)",
+      "(IV) (i) (Q)",
+      "(II) (iii) (R)",
+      "(I) (ii) (R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li1g2skt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_023",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The only CORRECT combination that gives two different carboxylic acids is :",
+    "solution": "[Diagram]\n\nReaction of benzaldehyde with acetic\nanhydride in presence of potassium acetate\nresults in formation of cinnamic acid. Cinnamic\nacid contains cis and trans forms; hence, two\ntypes of acids are generated. This is called\nPerkin reaction.\n\nMechanism of Perkin reaction is as follows :\n\n(i) The potassium acetate is a strong base and abstracts acidic $\\alpha$-proton from acetic anhydride.\n\n[Diagram]\n\n(ii) The negatively charged carbanion attacks the\ncarbon of carbonyl group of benzaldehyde.\n\n[Diagram]\n\n[Diagram]\n\n(iii) The intermediate formed undergoes\nrearrangement\n\n[Diagram]\n\n(iv) Loss of proton from $\\alpha$-carbon gives cinnamic acid\n\n[Diagram]\n\n[Diagram]\n\n(v) Depending upon the orientation of carboxylic\nfunctional group cis and trans cinnamic acid\nare formed.\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(II) (iv) (R)",
+      "(IV) (iii) (Q)",
+      "(III) (iii) (P)",
+      "(I) (i) (S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li1gqkma.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_024",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct order of acidity for the following compounds is\n\n[Diagram]",
+    "solution": "Due to ortho-effect, (I) and (II) are stronger acid than (III) and (IV). Due to two ortho hydroxyl groups in (I), it is stronger acid than (II). (III) is a stronger acid than (IV) because at m-position, $$-$$OH group cannot exert its +R effect but can only exert its $$-$$I effect while at p-position, $$-$$OH group exerts its strong +R effect. Thus, the correct order of acidity is :\n(I) > (II) > (III) > (IV)",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "I > II > III > IV",
+      "III > I > II > IV",
+      "III > IV > II > I",
+      "I > III > IV > II"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0iko5oe.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_025",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction sequence is:\n\n[Diagram]",
+    "solution": "The major product of the given reaction sequence is :\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0il8af1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_026",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product in the following reaction is\n\n[Diagram]",
+    "solution": "The reaction is\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l187l0ce.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_027",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Different possible thermal decomposition pathways for peroxyesters are shown below. Match each pathway from List I with an appropriate structure from List II and select the correct answer using the code given below the lists.\n\n[Diagram]\n\n[Diagram]",
+    "solution": "The reactions are as follows:\nFrom pathway, (P) $$\\to$$ (1)\n\n[Diagram]\n\nFrom pathway, (Q) $$\\to$$ (3)\n\n[Diagram]\n\nFrom pathway (R) $$\\to$$ (4)\n\n[Diagram]\n\nFrom pathway, (S) $$\\to$$ (2)\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P-1, Q-3, R-4, S-2",
+      "P-2, Q-4, R-3, S-1",
+      "P-4, Q-1, R-2, S-3",
+      "P-3, Q-2, R-1, S-4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l195jtzr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_028",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Compounds formed from P and Q are, respectively,",
+    "solution": "The reactions involved are\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Optically active S and optically active pair (T, U).",
+      "Optically inactive S and optically inactive pair (T, U).",
+      "Optically active pair (T, U) and optically active S.",
+      "Optically inactive pair (T, U) and optically inactive S."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qld7xy.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_029",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequences V and W are, respectively,\n\n[Diagram]",
+    "solution": "The reactions involved are\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qmmma2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_030",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product H of the given reaction sequence is\n$$C{H_3} - C{H_2} - CO - C{H_3}\\buildrel {\\overline C N} \\over\n\\longrightarrow G\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{Heat}^{95\\% \\,{H_2}S{O_4}}} H$$",
+    "solution": "The reaction is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l261brpn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_031",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound that undergoes decarboxylation most readily under mild condition is",
+    "solution": "The $$\\beta$$-keto acid given in option (B) undergoes decarboxylation most easily because it results in formation of stable product on rearrangement. The reaction taking place is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l261j7py.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_032",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound I is",
+    "solution": "In the given reaction, an aromatic aldehyde is condensed with an acid anhydride (Perkin condensation) in the presence of a base to form $$\\alpha$$,$$\\beta$$-unsaturated acid (cinnamic acid). This gives effervescence on reaction with NaHCO$_{3}$ and positive test with Bayer's reagent (1% alkaline KMnO$_{4}$).\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l261oq6v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_033",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound K is",
+    "solution": "The reaction sequence is\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l261s0mo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_034",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The carboxyl functional group ($$-$$COOH) is present in",
+    "solution": "The structures of the given compounds are as follows. Only aspirin has $$-$$COOH group.\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "picric acid",
+      "barbituric acid",
+      "ascorbic acid",
+      "aspirin"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l254brve.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_035",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of aldol reactions that occur in the given transformation are\n\n[Diagram]",
+    "solution": "The reactions involved in the transformation are:\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lgwem.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_036",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of optically active products obtained from the complete ozonolysis of the given compound is ______.\n\n[Diagram]",
+    "solution": "The reaction is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lilkl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_037",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of compound P is",
+    "solution": "(i) When 3,3-dimethyl but-1-yne reacts with dil. $\\mathrm{H}_2 \\mathrm{SO}_4$ in presence of $\\mathrm{HgSO}_4$, ketone is formed.\n\n[Diagram]\n\n(ii) The ketone is reduced to secondary alcohol in presence of sodium borohydride $\\left(\\mathrm{NaBH}_4\\right)$ ethanol).\n\n[Diagram]\n\n(iii) Reaction of acid with alcohol results in dehydration forming an alkene. During the process, methyl shift results in rearrangement of carbocation which further leads to the formation of alkene.\n\n[Diagram]\n\nThe product 2,3-dimethyl but-2-ene undergoes ozonolysis to form two moles acetone.\n\n[Diagram]\n\nTwo moles of acetone is the final product of the reaction.\nCompound P is 3,3-dimethyl butyne.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "CH$_{3}$CH$_{2}$CH$_{2}$CH$_{2}$ $$-$$ C $$\\equiv$$ C $$-$$ H",
+      "H$_{3}$CH$_{2}$C $$-$$ C $$\\equiv$$ C $$-$$ CH$_{2}$CH$_{3}$",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03vmefq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_038",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of the compound Q is",
+    "solution": "(i) When 3,3-dimethyl but-1-yne reacts with dil. $\\mathrm{H}_2 \\mathrm{SO}_4$ in presence of $\\mathrm{HgSO}_4$, ketone is formed.\n\n[Diagram]\n\n(ii) The ketone is reduced to secondary alcohol in presence of sodium borohydride $\\left(\\mathrm{NaBH}_4\\right)$ ethanol).\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03v8s1f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_039",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compounds **P** and **Q** respectively are :",
+    "solution": "[Diagram]\n\nThe given product is an ester, obtained by condensation of a hydroxy acid obtained through hydrolysis of a cyanohydrin :\n\n[Diagram]\n\nAcid above is obtained by acid hydrolysis of cyanohydrin S as\n\n[Diagram]\n\nS is obtained by nucleophile addition of HCN on R, hence R is\n\n[Diagram]\n\n$R$ is obtained by treatment of $P$ and $Q$ with aqueous $\\mathrm{K}_2 \\mathrm{CO}_3$ through aldol condensation reaction as\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wao6gc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_040",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound **R** is :",
+    "solution": "[Diagram]\n\nThe given product is an ester, obtained by condensation of a hydroxy acid obtained through hydrolysis of a cyanohydrin :\n\n[Diagram]\n\nAcid above is obtained by acid hydrolysis of cyanohydrin S as\n\n[Diagram]\n\nS is obtained by nucleophile addition of HCN on R, hence R is\n\n[Diagram]\n\n$R$ is obtained by treatment of $P$ and $Q$ with aqueous $\\mathrm{K}_2 \\mathrm{CO}_3$ through aldol condensation reaction as\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wao6gc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_041",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The compound **S** is :",
+    "solution": "[Diagram]\n\nThe given product is an ester, obtained by condensation of a hydroxy acid obtained through hydrolysis of a cyanohydrin :\n\n[Diagram]\n\nAcid above is obtained by acid hydrolysis of cyanohydrin S as\n\n[Diagram]\n\nS is obtained by nucleophile addition of HCN on R, hence R is\n\n[Diagram]\n\n$R$ is obtained by treatment of $P$ and $Q$ with aqueous $\\mathrm{K}_2 \\mathrm{CO}_3$ through aldol condensation reaction as\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4wao6gc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_042",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match each of the compounds given in Column I with the reaction(s), that they can undergo, given in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n\n[Diagram]\n\n(P)\nNucleophilic substitution\n\n\n(B)\n\n[Diagram]\n\n(Q)\nElimination\n\n\n(C)\n\n[Diagram]\n\n(R)\nNucleophilic addition\n\n\n(D)\n\n[Diagram]\n\n(S)\nEsterification with acetic anhydride\n\n\n\n\n(T)\nDehydrogenation",
+    "solution": "(A) The compound undergoes nucleophilic substitution due to formation of stable carbocation and elimination reaction in which the alkene formed is stabilized due to conjugation with aromatic nucleus.\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n(D) The compound undergoes nucleophilic substitution reaction\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(A)$$\\to$$ (Q), (T); (B)$$\\to$$(P), (Q), (T); (C)$$\\to$$(P), (S); (D)$$\\to$$(P)",
+      "(A)$$\\to$$(P), (T); (B)$$\\to$$ (S), (T); (C)$$\\to$$(R), (S); (D)$$\\to$$(S)",
+      "(A)$$\\to$$(S), (Q), (T); (B)$$\\to$$(P), (Q), (T); (C)$$\\to$$(R), (S); (D)$$\\to$$(T)",
+      "(A)$$\\to$$(P), (Q), (T); (B)$$\\to$$(P), (S), (T); (C)$$\\to$$(R), (S); (D)$$\\to$$(P)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft55bdc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_043",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of the carbonyl compound P is",
+    "solution": "The structure of carbonyl compound P is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrn5fk8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_044",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structures of the products Q and R, respectively, are",
+    "solution": "The structures for compounds Q and R are\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrn7wag.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_045",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of the product S is",
+    "solution": "The structure of compound S is\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrndurx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_046",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, the correct structure of E, F and G are :\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgevqr4v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_047",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of the product I is :",
+    "solution": "[Diagram]\n\nHex-3-ynal on reduction with sodium borohydride produces an alcohol.\nThe $$-$$OH group of alcohol reacts with phosphorus tribromide to form alkyl bromide (compound I).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg958qhe.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_048",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of compounds J and K, respectively, are:",
+    "solution": "[Diagram]\n\nThe alkyl bromide reacts with Mg to form alkyl magnesium bromide (Grignard reagent) which attacks carbon dioxide followed by hydrolysis to form a carboxylic acid (compound J).\nIt reacts with thionyl chloride (compound K) to form acid chloride.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg95lsjz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_049",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The structure of product L is :",
+    "solution": "[Diagram]\n\nAcid chloride which on hydrogenation with Pd supported on barium sulphate partially poisoned with quinoline to form compound L. Here, a triple bond is selectively reduced to a double bond which has $$cis$$ configuration.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6pcg4i.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_050",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Cyclohexene on ozonolysis followed by reaction with zinc dust and water gives compound E. Compound E on further treatment with aqueous KOH yields compound F. Compound F is :",
+    "solution": "[Diagram]\n\nIts open structure is\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghsuvj7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_051",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the compounds/ions in Column I with their properties/reactions in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$\\mathrm{C_6H_5CHO}$$\n(P)\ngives precipitate with 2, 4-dinitrophenylhydrazine\n\n\n(B)\n$$\\mathrm{CH_3C\\equiv CH}$$\n(Q)\ngives precipitate with $$\\mathrm{AgNO_3}$$\n\n\n(C)\n$$\\mathrm{CN^-}$$\n(R)\nis a nucleophile\n\n\n(D)\n$$\\mathrm{I^-}$$\n(S)\nis involved in cyanohydrin formation",
+    "solution": "(A)\n[Diagram]\n\n[Diagram]\n\n(B)\n[Diagram]\n\n(C) CN$$^-$$ is negatively charged, so it is a nucleophile\n$$\\mathrm{CN^-+AgNO_3\\rightarrow AgCN\\downarrow + ~NO^-_3}$$\n\n[Diagram]\n\nThus involves in cyanohydrin fomration.\n(D) $$\\mathrm{I^-+AgNO_3\\rightarrow AgI\\downarrow +~NO^-_3}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\mathrm{A-(p,s);B-(q);C-(r,s);D-(q)}$$",
+      "$$\\mathrm{A-(p,s);B-(q);C-(q,r,s);D-(q,r)}$$",
+      "$$\\mathrm{A-(s);B-(q);C-(q,r,s);D-(q)}$$",
+      "$$\\mathrm{A-(p);B-(q);C-(s);D-(r)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghv423l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_052",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :** p-Hydroxybenzoic acid has a lower boiling point than o-hydroxybenzoic acid.\n**Statement 2 :** o-Hydroxybenzoic acid has intramolecular hydrogen bonding.",
+    "solution": "We know that hydrogen are of two types :\n1. Intermolecular hydrogen bonding\n2. Intramolecular hydrogen bonding\nIn any organic compound, if there is ortho substituent and hydrogen bonding is possible in that compound then always the bonding will be intramolecular hydrogen bonding. If the substituent is at para position, then intermolecular hydrogen bonding exists. Therefore, we can say that o-Hydroxybenzoic acid will show intramolecular benzoic acid and p-hydroxybenzoic acid will show intermolecular hydrogen bonding.\n\n[Diagram]\n\nThe strength of intermolecular hydrogen bonding is more than intramolecular hydrogen bonding. Therefore we can say that p-hydroxybenzoic acid because of intermolecular hydrogen bonding has a higher boiling point than o-hydroxybenzoic acid. Therefore, statement 1 is false but statement 2 is correct.\nNow, if we look at the reason it states that o-hydroxybenzoic acid has intramolecular hydrogen bonding. From the above explanation we can say that this statement is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggnzser.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_053",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions, $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ are the major products.\n\n[Diagram]\n\n[Diagram]\n\nThe correct statement(s) about $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is(are) :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$\\mathbf{P}$ and $\\mathbf{Q}$ are monomers of polymers dacron and glyptal, respectively.",
+      "$\\mathbf{P}, \\mathbf{Q}$, and $\\mathbf{R}$ are dicarboxylic acids.",
+      "Compounds $\\mathbf{Q}$ and $\\mathbf{R}$ are the same.",
+      "$\\mathbf{R}$ does not undergo aldol condensation and $\\mathbf{S}$ does not undergo Cannizzaro reaction."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiri3b9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_054",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions, $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ are the major products.\n\n[Diagram]\n\n[Diagram]\n\nThe correct statement(s) about $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is(are) :",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "Both $\\mathbf{P}$ and $\\mathbf{Q}$ have asymmetric carbon(s).",
+      "Both $\\mathbf{Q}$ and $\\mathbf{R}$ have asymmetric carbon(s).",
+      "Both $\\mathbf{P}$ and $\\mathbf{R}$ have asymmetric carbon(s).",
+      "$\\mathbf{P}$ has asymmetric carbon(s), $\\mathbf{S}$ does not have any asymmetric carbon."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqk4mn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_055",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering the reaction sequence given below, the correct statement(s) is(are)\n\n[Diagram]",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$\\mathbf{P}$ can be reduced to a primary alcohol using $\\mathrm{NaBH}_{4}$.",
+      "Treating $\\mathbf{P}$ with conc. $\\mathrm{NH}_{4} \\mathrm{OH}$ solution followed by acidification gives $\\mathbf{Q}$.",
+      "Treating $\\mathbf{Q}$ with a solution of $\\mathrm{NaNO}_{2}$ in aq. $\\mathrm{HCl}$ liberates $\\mathrm{N}_{2}$.",
+      "$\\mathbf{P}$ is more acidic than $\\mathrm{CH}_{3} \\mathrm{CH}_{2} \\mathrm{COOH}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7emn7s9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_056",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction scheme shown below Q, R and S are the major products.\n\n[Diagram]\n\nThe correct structure of",
+    "solution": "Compound (P) undergoes Friedel-Craft acylation reaction in presence of succinic anhydride and AlCl$_{3}$ to gives an acid (Q).\n\nCompound (Q) on treatment with Zn-Hg/HCl undergoes Clemmensen reduction, where ketone group change into alkane and on further reaction with dehydrating agent H$_{3}$PO$_{4}$ gives compound (R).\n\nCompound (R) on reaction with Grignard reagent and heated in presence of acid gives dehydrating product (S).\n\n[Diagram]\n\nThus, the option (b) and (d) are correct.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "S is\n\n[Diagram]",
+      "Q is\n\n[Diagram]",
+      "R is\n\n[Diagram]",
+      "S is\n\n[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_aldehydes_ketones_057",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Choose the correct option(s) for the following reaction sequence\n\n[Diagram]\n\nConsider Q, R and S as major products.",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhdl7mmc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_058",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The reaction (s) leading to the formation of $$1,3,5$$-trimethylbenzene is (are)",
+    "solution": "[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyl8ozwd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_059",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Compounds $$P$$ and $$R$$ upon ozonolysis produce $$Q$$ and $$S,$$ respectively. The molecular formula of $$Q$$ and $$S$$ is $${C_8}{H_8}O.Q$$ undergoes Canninzzaro reaction but not haloform reaction, whereas $$S$$ undergoes haloform reaction but not Cannizzaro reaction\n\n[Diagram]\n\nThe option(s) with suitable combination of $$P$$ and $$R,$$ respectively, is (are)",
+    "solution": "**Option (A)**: Correct\n\n[Diagram]\n\n[Diagram]\n\n**Option (B)**: Correct\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhya08q0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_060",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Reagent(s) which can be used to bring about the following transformation is(are)\n\n[Diagram]",
+    "solution": "Option (A) : LiAlH$_{4}$ in (C$_{2}$H$_{5}$)$_{2}$ reduces ester ($$-$$COOR), carboxylic acid ($$-$$COOH) epoxide, aldehydes and ketones.\nOption (B) : BH$_{3}$ in THF reduces $$-$$COOH and aldehydes into alcohols. However, it does not reduces esters and epoxides.\nOption (C) : NABH$_{4}$ in C$_{2}$H$_{5}$OH reduces only aldehydes and ketones into alcohols, but it does not reduce to others.\nOption (D) : Raney Ni/H$_{2}$ in THF does not reduce to $$-$$COOH, $$-$$COOR and epoxide but it can reduce aldehyde into alcohols.\nHence, options (C) and (D) are correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "LiAlH$_{4}$ in (C$_{2}$H$_{5}$)$_{2}$O",
+      "BH$_{3}$ in THF",
+      "NaBH$_{4}$ in C$_{2}$H$_{5}$OH",
+      "Raney Ni/H$_{2}$ in THF"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0im0xag.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_061",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Positive Tollen’s test is observed for",
+    "solution": "Only aldehydes and $$\\alpha $$-hydroxyketones show positive\ntest with Tollen’s reagent containing [Ag(NH$_{3}$)$_{2}$]$^{+}$ ions.\nIt is a weak oxidising agent that oxidises aldehydes to\ncarboxylate ions and gets reduce to metallic silver Ag,\ndepositing on the walls of test tube as silver mirror.\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1leuko639.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_062",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statements about of the following reaction sequence is (are)\nCumene (C$_{9}$H$_{12}$) $$\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{(ii)\\,{H_3}{O^ + }}^{(i)\\,{O_2}}} $$ P $$\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{}^{CHC{l_3}/NaOH}} $$ Q (major) + R (minor)\n\nQ $$\\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{PhC{H_2}Br}^{NaOH}} $$ S",
+    "solution": "[Diagram]\n\n'Q' is steam volatile due to intramolecular hydrogen bonding while 'R' undergoes intermolecular hydrogen bonding hence, has higher boiling point. 'Q' gives dark violet coloration with 1% aqueous FeCl$_{3}$ solution due to the presence of phenolic group while 'S' gives yellow precipitate with 2, 4-dinitrophenyl hydrazine due to the presence of aldehydic group ($$-$$CHO).",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "R is steam volatile.",
+      "Q gives dark violet coloration with 1% aqueous FeCl$_{3}$ solution.",
+      "S gives yellow precipitate with 2, 4-dinitrophenylhydrazine.",
+      "S gives dark violet coloration with 1% aqueous FeCl$_{3}$ solution."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0cz88bf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_063",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions\n\n[Diagram]\n\nCompound X is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wbrzzi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_064",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reactions\n\n[Diagram]\n\nThe major compound Y is",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wbrzzi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_065",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The major product of the following reaction is\n\n[Diagram]",
+    "solution": "The reaction proceeds via intramolecular aldol condensation of the given diketone. The enolate formed on abstraction of proton adds to the second ketone group followed by cyclization to a six-membered ring.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13we3ww.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_066",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "After completion of the reactions (I and II), the organic compound(s) in the reaction mixtures is(are)\n\n[Diagram]",
+    "solution": "In reaction I, in basic medium, with each $$\\alpha$$-halogenation the rate of reaction increases and the complete haloform reaction takes place.\n\n[Diagram]\n\nIn reaction II, in acidic medium only one halogenated product is obtained with 1 mol of halogen.\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Reaction I : P and Reaction II : P",
+      "Reaction I : U, acetone and Reaction II : Q, acetone",
+      "Reaction I : T, U, acetone and Reaction II : P",
+      "Reaction I : R, acetone and Reaction II : S, acetone"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qmdaxf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_067",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "With reference to the scheme given, which of the given statement(s) about T, U, V and W is(are) correct?\n\n[Diagram]",
+    "solution": "The reactions involved are as follows:\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "T is soluble in hot aqueous NaOH.",
+      "U is optically active.",
+      "Molecular formula of W is C$_{10}$H$_{18}$O$_{4}$.",
+      "V gives effervescence on treatment with aqueous NaHCO$_{3}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l26ajj94.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_068",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Identify the binary mixtures that can be separated into individual compounds, by differential extraction, as shown in the given scheme.\n\n[Diagram]",
+    "solution": "Both phenol and benzoic acid are soluble in NaOH, so they cannot be separated.\nC$_{6}$H$_{5}$OH + NaOH $$\\to$$ C$_{6}$H$_{5}$ONa + H$_{2}$O\nC$_{6}$H$_{5}$COOH + NaOH $$\\to$$ C$_{6}$H$_{5}$COONa + H$_{2}$O\nBenzel alcohol C$_{6}$H$_{5}$CH$_{2}$OH is not soluble in NaOH and NaHCO$_{3}$, while benzoic acid is soluble in both, so these can be separated. Both C$_{6}$H$_{5}$OH and C$_{6}$H$_{5}$CH$_{2}$OH are insoluble in NaHCO$_{3}$, so they cannot be separated. C$_{6}$H$_{5}$CH$_{2}$COOH is soluble in NaOH and NaHCO$_{3}$, whereas benzyl alcohol is not soluble in NaOH and NaHCO$_{3}$. So, they can be separated.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "C$_{6}$H$_{5}$OH and C$_{6}$H$_{5}$COOH",
+      "C$_{6}$H$_{5}$COOH and C$_{6}$H$_{5}$CH$_{2}$OH",
+      "C$_{6}$H$_{5}$CH$_{2}$OH and C$_{6}$H$_{5}$OH",
+      "C$_{6}$H$_{5}$CH$_{2}$OH and C$_{6}$H$_{5}$CH$_{2}$COOH"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24ljxeo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_069",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following reactants on reaction with conc. NaOH followed by acidification gives the following lactone as the only product?\n[Diagram]",
+    "solution": "The lactone is a cyclic organic ester. The structure of lactone is given below.\n\n[Diagram]\nThe conversion of compound B to lactone is shown below:\n\n[Diagram]\nThe conversion of compound C to lactone is shown below:\nStep 1:\nThe compound C is ortho-phthalaldehyde. The compound C when treated with conc. NaOH undergoes Cannizaro reaction as shown below:\n\n[Diagram]\nStep 2:\nOn acidification, the COONa group is converted to COOH group. The compound now will have both $\\mathrm{CH}_2 \\mathrm{OH}$ and COOH groups.\n\n[Diagram]\nStep 3:\nThe dehydration of the above compound gives lactone.\n\n[Diagram]\nNote: Option B is not possible as it on reaction with conc. NaOH undergoes intermolecular cannizaro's reaction with possibility of forming pthalic acid as one of the products.\nPthalic acid undergoes dehydration in presence of acid to form an anhydride which is an unwanted product.\nStep 1:\n\n[Diagram]\n$$ \\text { Step 2: } $$\n\n[Diagram]\n$$ \\text { Step 3: } $$\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtmyrku.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_070",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The smallest ketone and its next homologue are reacted with $\\mathrm{NH}_2 \\mathrm{OH}$ to form oxime.",
+    "solution": "$$ \\text { Reaction between } \\mathrm{CH}_3 \\mathrm{COCH}_3 \\text { and } \\mathrm{NH}_2 \\mathrm{OH} \\text { : } $$\n\n[Diagram]\nThe oxime formed is optically inactive as there is plane of symmetry present in it.\nReaction between $\\mathrm{CH}_3 \\mathrm{CH}_2 \\mathrm{COCH}_3$ and $\\mathrm{NH}_2 \\mathrm{OH}$\n\n[Diagram]\nAn oxime will be obtained which shows two enantiomers based on the position of bulky group, $\\mathrm{CH}_3 \\mathrm{CH}_2$ with respect to the OH group attached to N atom of the oxime.\nThe two enantiomers of the above compound are:\n\n[Diagram]\nThe two enantiomers are optically active as they lack a plane of symmetry and exist as $R$ and S isomers.\nHence, 3 different oximes are formed out of which 2 are optically active and one is optically inactive.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Two different oximes are formed.",
+      "Three different oximes are formed.",
+      "Two oximes are optically active.",
+      "All oximes are optically active."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgtnszzj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_071",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An organic compound $\\mathbf{P}$ having molecular formula $\\mathrm{C}_6 \\mathrm{H}_6 \\mathrm{O}_3$ gives ferric chloride test and does not have intramolecular hydrogen bond. The compound $\\mathbf{P}$ reacts with 3 equivalents of $\\mathrm{NH}_2 \\mathrm{OH}$ to produce oxime $\\mathbf{Q}$. Treatment of $\\mathbf{P}$ with excess methyl iodide in the presence of $\\mathrm{KOH}$ produces compound $\\mathbf{R}$ as the major product. Reaction of $\\mathbf{R}$ with excess iso-butylmagnesium bromide followed by treatment with $\\mathrm{H}_3 \\mathrm{O}^{+}$gives compound $\\mathbf{S}$ as the major product.\n\nThe total number of methyl $\\left(-\\mathrm{CH}_3\\right)$ group(s) in compound $\\mathbf{S}$ is ___.",
+    "solution": "[Diagram]\n\n[Diagram]\n\n$\\therefore$ Sum of oxygen atoms in $\\mathrm{S}$ and $\\mathrm{T}=1+1=2$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_aldehydes_ketones_072",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Sum of number of oxygen atoms in $\\mathbf{S}$ and $\\mathbf{T}$ is _______.",
+    "solution": "[Diagram]\n\n[Diagram]\n\n$\\therefore$ Sum of oxygen atoms in $\\mathrm{S}$ and $\\mathrm{T}=1+1=2$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lxj3lfi4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_073",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The molecular weight of $\\mathbf{U}$ is ______ .",
+    "solution": "[Diagram]\n\n$\\begin{aligned} & \\text { Molecular mass of polymers }=(104 \\times 500)+(118 \\times 500)-18 \\times 999 \\\\\\\\ & =52000+59000-17982=93018\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lxj3ga4s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_074",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Complete reaction of acetaldehyde with excess formaldehyde, upon heating with conc. $\\mathrm{NaOH}$ solution, gives $\\mathbf{P}$ and $\\mathbf{Q}$. Compound $\\mathbf{P}$ does not give Tollens' test, whereas $\\mathbf{Q}$ on acidification gives positive Tollens' test. Treatment of $\\mathbf{P}$ with excess cyclohexanone in the presence of catalytic amount of $p$-toluenesulfonic acid (PTSA) gives product $\\mathbf{R}$.\n\nSum of the number of methylene groups $\\left(-\\mathrm{CH}_2-\\right)$ and oxygen atoms in $\\mathbf{R}$ is __________.",
+    "solution": "[Diagram]\n\nNumber of $\\mathrm{CH}_2$ groups in $\\mathrm{R}=14$\n\nNumber of $\\mathrm{O}$-atoms $=4$\n\nRequired Answer $=14+4=18$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lxj22p68.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_075",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the reaction given below, the total number of atoms having sp$^{2}$ hybridization in the major product P is _________.\n\n[Diagram]",
+    "solution": "Alkene on treatment with ozone (O$_{3}$) followed by\ntreatment with Zn/H$_{2}$O gives carbonyl compounds.\n\n[Diagram]\n\nCarbonyl compounds react with NH$_{2}$OH\nto give oximes.\n\n\n[Diagram]\n\nThere are four sp$^{2}$-carbon atoms, four sp$^{2}$-nitrogen atoms and\nfour sp$^{2}$-oxygen atoms as shown in structures I and II.\nTherefore, total number of atoms having sp$^{2}$-hybridisation are\ntwelve (12).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx891scf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_076",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction, compound Q is obtained from compound P via an ionic intermediate\n\n[Diagram]\n\nWhat is the degree of unsaturation of Q?",
+    "solution": "Compound (P) on treatment with concentrated H$_{2}$SO$_{4}$, gives intermediate compound, on delocalisation, gives a coloured compound Q.\n\n[Diagram]\n\nNumber of rings = 4 + 1 = 5\n\n$$\\pi $$-bonds = 4 $$ \\times $$ 3 + 1 = 13\n\nThus, the degree of unsaturation of Q is 18.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_aldehydes_ketones_077",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following reaction sequence, the amount of $$D$$ (in g) formed from $$10$$ moles of acetophenone is ___________.\n\n(Atomic weights in $$g\\,mo{l^{ - 1}}:H = 1,C = 12,N = 14,O = 16,Br = 80.$$. The yield (%) corresponding to the product in each step is given in the parenthesis)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nThe amount of D formed in mol is $${{60} \\over {100}} \\times {{50} \\over {100}} \\times {{50} \\over {100}} \\times 10 = 1.5$$ mol\nAmount of D in grams is = 1.5 $$\\times$$ 330 g = 495 g",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywp4ywl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_078",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following the number of reactions that produces benzaldehyde is _________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]\n\n\n[Diagram]\n\nTherefore, the number of reactions leading to the formation of benzaldehyde is 4.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0w6f8aq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_079",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider all possible isomeric ketones including stereoisomers of MW = 100. All these isomers are independently reacted with NaBH$_{4}$ (Note : stereoisomers are also reacted separately). The total number of ketones that give a racemic product(s) is/are",
+    "solution": "Molecular weight of the ketone is 100. So, molecular formula = C$_{6}$H$_{12}$O.\nThe possible number of ketones with molecular formula C$_{6}$H$_{12}$O is six. Out of these, the total number of ketones that give a racemic product(s) on reaction with NaBH$_{4}$ is 5. The structure with chiral carbon will not give racemic product on reduction.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1axn5w6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_080",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of carboxylic acid groups is the product P is _________.\n\n[Diagram]",
+    "solution": "The reaction involved is\n\n[Diagram]\n\nThe number of carboxylic acid groups in the product is 2.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1tja7tc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_081",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the scheme given below, the total number of intra molecular aldol condensation products formed from Y is ____________.\n\n[Diagram]",
+    "solution": "There is only one product formed in intramolecular aldol condensation, which is explained as follows:\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexmjkim.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_aldehydes_ketones_082",
+    "subject": "Chemistry",
+    "chapter": "Aldehydes Ketones & Carboxylic Acids",
+    "topic": "Aldehydes Ketones & Carboxylic Acids",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Amongst the following, the total number of compounds soluble in aqueous NaOH is _________.\n\n[Diagram]",
+    "solution": "Aromatic alcohols and carboxylic acids forms salt with NaOH,\nwill dissolve in aqueous NaOH :\n\n[Diagram]\n\nBenzylic alcohol is less acidic than water and hence does dissolve in aqueous NaOH.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexmr9fx.png",
+      "position": "bottom"
+    }
+  }
+]

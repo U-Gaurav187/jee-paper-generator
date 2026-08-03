@@ -1,0 +1,548 @@
+[
+  {
+    "id": "phy_dual_nature_of_radiation_001",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A hydrogen atom, initially at rest in its ground state, absorbs a photon of frequency $v_1$ and ejects the electron with a kinetic energy of 10 eV . The electron then combines with a positron at rest to form a positronium atom in its ground state and simultaneously emits a photon of frequency $v_2$. The center of mass of the resulting positronium atom moves with a kinetic energy of 5 eV . It is given that positron has the same mass as that of electron and the positronium atom can be considered as a Bohr atom, in which the electron and the positron orbit around their center of mass. Considering no other energy loss during the whole process, the difference between the two photon energies (in eV) is ____________.",
+    "solution": "Ionization of H (ground state at –13.6 eV)\n• Photon of energy $E_1=h\nu_1$ ionizes H and leaves the electron with 10 eV.\n• Energy conservation (neglecting proton recoil):\n$ E_1 = 13.6\\;\\text{eV} \\;+\\;10\\;\\text{eV} =23.6\\;\\text{eV}. $\nFormation of positronium (Ps)\n• Positron initially at rest, electron arrives with 10 eV.\n• Ps ground‐state binding energy is 6.8 eV (half of hydrogen’s 13.6 eV).\n• The newly formed Ps moves with 5 eV of center‐of‐mass (COM) kinetic energy and emits a photon of energy $E_2=h\nu_2$.\n• Writing energy conservation (zero energy set at free e⁺ + e⁻ at rest):\n$ \\underbrace{10\\;\\text{eV}}_{\\text{initial KE}} =\\;\\underbrace{(-6.8\\;\\text{eV})}_{\\text{binding}} \\;+\\;\\underbrace{5\\;\\text{eV}}_{\\text{COM KE}} \\;+\\;E_2 $\nso\n$ E_2 = 10 -5 +6.8 = 11.8\\;\\text{eV}. $\nDifference between the two photon energies\n$ E_1 - E_2 = 23.6\\;\\text{eV} \\;-\\;11.8\\;\\text{eV} = 11.8\\;\\text{eV}. $\n\nAnswer: The difference $h\nu_1 - h\nu_2$ is 11.8 eV.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_002",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A metal target with atomic number $Z=46$ is bombarded with a high energy electron beam. The emission of X-rays from the target is analyzed. The ratio $r$ of the wavelengths of the $K_\\alpha$-line and the cut-off is found to be $r=2$. If the same electron beam bombards another metal target with $Z=41$, the value of $r$ will be",
+    "solution": "To solve this problem, we need to understand the relationship between the atomic number $ Z $, the characteristic X-ray wavelengths, and the cut-off wavelength in X-ray spectra.\n\nThe cut-off wavelength, also known as the minimum wavelength ($ \\lambda_{\\text{min}} $), corresponds to the maximum energy of the X-rays produced and can be related to the accelerating voltage used in the X-ray tube. The characteristic X-rays, such as the $ K_\\alpha $-line, correspond to specific electron transitions in the atom and are dependent on the atomic number $ Z $ of the target material.\n\nThe wavelength of the $ K_\\alpha $-line is given by Moseley's Law, which can be approximated as:\n\n$$ \\lambda_{K_\\alpha} \\propto \\frac{1}{(Z - 1)^2} $$\n\nThe cut-off wavelength is given by the relationship between the energy of the incident electrons and the X-ray produced:\n\n$$ \\lambda_{\\text{min}} = \\frac{hc}{eV} $$\n\nNow, given the ratio $ r $ for the first metal target with $ Z = 46 $ :\n\n$$ r = \\frac{\\lambda_{K_\\alpha}}{\\lambda_{\\text{min}}} = 2 $$\n\nFor the second metal target with $ Z = 41 $, let's denote the new ratio as $ r_2 $. We assume the same cutoff wavelength since the same electron beam is used.\n\nThe ratio for $ Z = 41 $ can be calculated using the relationship between the $ K_\\alpha $-line wavelenghts:\n\n$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{Z_2 - 1}{Z_1 - 1} \\right)^2 $$\n\nSubstituting $ Z_1 = 46 $ and $ Z_2 = 41 $:\n\n$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{41 - 1}{46 - 1} \\right)^2 = \\left( \\frac{40}{45} \\right)^2 = \\left( \\frac{8}{9} \\right)^2 = \\frac{64}{81} $$\n\nLet $ \\lambda_{K_\\alpha (1)} = 2 \\lambda_{\\text{min}} $ because $ r = 2 $. Therefore:\n\n$$ \\lambda_{K_\\alpha (2)} = \\lambda_{K_\\alpha (1)} \\cdot \\frac{81}{64} = 2 \\lambda_{\\text{min}} \\cdot \\frac{81}{64} $$\n\nThus, the new ratio $ r_2 $ is:\n\n$$ r_2 = \\frac{\\lambda_{K_\\alpha (2)}}{\\lambda_{\\text{min}}} = 2 \\cdot \\frac{81}{64} = \\frac{162}{64} = 2.53 $$\n\nSo, the value of $ r $ for the second metal target with $ Z = 41 $ is:\n\nOption A: 2.53",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2.53",
+      "1.27",
+      "2.24",
+      "1.58"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_003",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Light of wavelength $$\\lambda$$$_{ph}$ falls on a cathode plate inside a vacuum tube as shown in the figure. The work function of the cathode surface is $$\\phi$$ and the anode is a wire mesh of conducting material kept at a distance d from the cathode. A potential difference V is maintained between the electrodes. If the minimum de-Broglie wavelength of the electrons passing through the anode is $$\\lambda$$$_{e}$, which of the following statement(s) is (are) true?\n\n\n[Diagram]",
+    "solution": "In photo-electric effect, the maximum kinetic energy of the photo-electron ejected at the cathode, is given by\n$${K_{\\max ,\\,c}} = {{hc} \\over {{\\lambda _{ph}}}} - \\phi $$,\nwhere $$\\lambda$$$_{ph}$ is the wavelength of the incident light and $$\\phi$$ is the work function of the material. The ejected photoelectrons are accelerated from the cathode to the anode by a potential V. Thus, the maximum kinetic energy of the photo-electron at the anode is\n$${K_{\\max ,\\,a}} = {K_{\\max ,\\,c}} + eV = {{hc} \\over {{\\lambda _{ph}}}} - \\phi + eV$$.\nNow, minimum de-Broglie wavelength of electrons passing through anode,\n$${\\lambda _e} = {h \\over {\\sqrt {2m\\,{K_{\\max ,\\,a}}} }} = {h \\over {\\sqrt {2m\\left( {{{hc} \\over {{\\lambda _{ph}}}} - \\phi + eV} \\right)} }}$$ ...... (i)\nD : For $$V > > \\phi e{\\lambda _e} \\approx {h \\over {\\sqrt {2meV} }} \\propto {1 \\over {\\sqrt V }}\\therefore$$ If V is made four times, $$\\lambda$$$_{e}$ becomes $${1 \\over {\\sqrt 4 }} = {1 \\over 2}$$, i.e. halved.\nC : When $$\\phi$$ and $$\\lambda$$$_{ph}$ increases, $$\\lambda$$$_{e}$ also increases.\nA : From (i)\n$${{d{\\lambda _e}} \\over {dt}} = {{ - h} \\over 2}{\\left[ {2m\\left( {{{hc} \\over {{\\lambda _{ph}}}} - \\phi + eV} \\right)} \\right]^{ - 3/2}} \\times 2m\\left( {{{ - hc} \\over {\\lambda _{ph}^2}}} \\right){{d{\\lambda _{ph}}} \\over {dt}} \\Rightarrow {{d{\\lambda _e}} \\over {dt}}\ne {{d{\\lambda _{ph}}} \\over {dt}}$$\nI : $$\\lambda$$$_{e}$ does not depend on d.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\lambda$$$_{e}$ increases at the same rate as $$\\lambda$$$_{ph}$ for $$\\lambda$$$_{ph}$ < hc/$$\\phi$$",
+      "$$\\lambda$$$_{e}$ is approximately halved, if d is doubled",
+      "$$\\lambda$$$_{e}$ decreases with increase in $$\\phi$$ and $$\\lambda$$$_{ph}$",
+      "For large potential difference (V >> $$\\phi$$/e), $$\\lambda$$$_{e}$ is approximately halved if V is made four times"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0pzi04p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_004",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_{\\mathrm{B}} T$ has the same de Broglie wavelength as that of this electron. If this temperature is given by $T=\\frac{Z^2 h^2}{\\alpha \\pi^2 a_0^2 m_{\\mathrm{N}} k_{\\mathrm{B}}}$, (where $h$ is the Planck's constant, $k_B$ is the Boltzmann constant, $m_{\\mathrm{N}}$ is the mass of the neutron and $a_0$ is the first Bohr radius of hydrogen atom) then the value of $\\alpha$ is ______.",
+    "solution": "Here, we will first find the de Broglie wavelength of the electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. Then we will find the de Broglie wavelength of the Neutron having thermal energy $k_B T$. Thereafter, we will equate both the wavelengths as they are the same (given)\nde Broglie wavelength of the electron:\nRadius in the $n$-th orbit,\n$$ \\begin{aligned} & r_n=\\frac{n^2 a_0}{Z} \\\\ & n=3 \\text { So } r=\\frac{3^2 a_0}{Z}=\\frac{9 a_0}{Z} \\end{aligned} $$\nUsing Bohr quantization :\n$$ \\begin{aligned} & m_e v r=n \\hbar \\\\ \\Rightarrow & m_e v \\cdot \\frac{n^2 a_0}{Z}= \\frac{nh}{2 \\pi} \\\\ \\Rightarrow & p=m_e v=\\frac{\\hbar h}{2 \\pi} \\cdot \\frac{Z}{n^2 a_0}=\\frac{Z h}{2 \\pi n a_0} \\\\ & n=3 \\text { so } p=\\frac{Z h}{6 \\pi a_0} \\end{aligned} $$\nde Broglie wavelength, $\\lambda_e=\\frac{h}{p}=\\frac{h}{\\frac{2 h}{6 \\pi q_0}}$\n$$ \\begin{aligned} &\\Rightarrow \\lambda_e=\\frac{6 \\pi a_0}{Z}\\\\ &\\text { Neutron's de Broglie wavelength : }\\\\ &E=k_B T \\text { (given) } \\end{aligned} \\begin{aligned} &\\begin{aligned} p & =\\sqrt{2 m_N E}=\\sqrt{2 m_N k_B T} \\\\ \\lambda_n & =\\frac{h}{p}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\end{aligned}\\\\ &\\text { Now, equating the wavelengths, }\\\\ &\\begin{aligned} & \\frac{6 \\pi a_0}{Z}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\\\ \\Rightarrow & \\sqrt{2 m_N k_B T}=\\frac{Z h}{6 \\pi a_0} \\\\ \\Rightarrow & 2 m_N k_B T=\\frac{Z^2 h^2}{36 \\pi^2 a_0^2} \\\\ \\Rightarrow & T=\\frac{Z^2 h^2}{72 m_N k_B \\pi^2 a_0^2} \\\\ & T=\\frac{Z^2 h^2}{\\alpha \\pi^2 a_0^2 m_N k_B} \\text { (given) } \\end{aligned} \\end{aligned} \\text { So, } \\alpha=72 $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_005",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A Hydrogen-like atom has atomic number $Z$. Photons emitted in the electronic transitions from level $n=4$ to level $n=3$ in these atoms are used to perform photoelectric effect experiment on a target metal. The maximum kinetic energy of the photoelectrons generated is $1.95 \\mathrm{eV}$. If the photoelectric threshold wavelength for the target metal is $310 \\mathrm{~nm}$, the value of $Z$ is _________.\n\n[Given: $h c=1240 \\mathrm{eV}-\\mathrm{nm}$ and $R h c=13.6 \\mathrm{eV}$, where $R$ is the Rydberg constant, $h$ is the Planck's constant and $c$ is the speed of light in vacuum]",
+    "solution": "To find the atomic number $$ Z $$ for the hydrogen-like atom emitting photons that cause photoelectrons to eject from the metal surface with a maximum kinetic energy of $$ 1.95 \\mathrm{eV} $$, we need to make use of the concept of energy transitions in atoms, as well as the photoelectric effect equation. We are given the photoelectric threshold wavelength for the metal and the constants $$ h c $$ and $$ R h c $$.\nFirst, let's calculate the energy of the photon emitted during the transition from level $$ n=4 $$ to level $$ n=3 $$ in the hydrogen-like atom. The energy of a photon emitted when an electron transitions between two levels in a hydrogen-like atom is given by :\n$$\n\\Delta E = Z^2 R h c \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)\n$$\nwhere:\n\n$$ Z $$ is the atomic number.\n$$ R h c $$ is the ionization energy of hydrogen (13.6 eV).\n$$ n_1 $$ and $$ n_2 $$ are the principal quantum numbers of the initial and final energy levels, respectively.\n\nFor the transition from $$ n_1 = 4 $$ to $$ n_2 = 3 $$, the energy of the photon is:\n$$\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{3^2} - \\frac{1}{4^2} \\right) \\mathrm{eV}\n\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{9} - \\frac{1}{16} \\right) \\mathrm{eV}\n\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{16 - 9}{144} \\right) \\mathrm{eV}\n\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} \\mathrm{eV}\n$$\nNext, using the photoelectric effect equation, the maximum kinetic energy (K.E.) of the ejected photoelectrons is equal to the energy of the incident photon minus the work function ($$ \\phi $$). The work function can be calculated using the given threshold wavelength :\n$$\n\\phi = \\frac{h c}{\\lambda}\n$$\nGiven:\n$$ \\lambda = 310 \\mathrm{nm} h c = 1240 \\mathrm{eV} \\cdot \\mathrm{nm} $$\nSo the work function is:\n$$\n\\phi = \\frac{1240}{310} \\mathrm{eV}\n\n\\phi = 4 \\mathrm{eV}\n$$\nThe maximum kinetic energy is given by :\n$$\nK.E. = \\Delta E - \\phi\n$$\nWe are given $$ K.E. = 1.95 \\mathrm{eV} $$, hence :\n$$\n1.95 = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} - 4\n\\Rightarrow\nZ^2 \\cdot 13.6 \\cdot \\frac{7}{144} = 1.95 + 4\n\\Rightarrow\nZ^2 = \\frac{1.95 + 4}{13.6 \\cdot \\frac{7}{144}}\n\\Rightarrow\nZ^2 = \\frac{5.95 \\times 144}{13.6 \\times 7}\n\\Rightarrow\nZ^2 = \\frac{856.8}{95.2}\n\\Rightarrow\nZ^2 = 9\n\\Rightarrow\nZ = \\sqrt{9}\n\\Rightarrow\nZ = 3\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_006",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a photoemission experiment, the maximum kinetic energies of photoelectrons from metals P, Q and R are E$_{P}$, E$_{Q}$ and E$_{R}$, respectively, and they are related by E$_{P}$ = 2E$_{Q}$ = 2E$_{R}$. In this experiment, the same source of monochromatic light is used for metals P and Q while a different source of monochromatic light is used for the metal R. The work functions for metals P, Q and R are 4.0 eV, 4.5 eV and 5.5 eV, respectively. The energy of the incident photon used for metal R, in eV, is ___________.",
+    "solution": "E$_{P}$ = 2E$_{Q}$ = 2E$_{R}$ = E(assume)\nFor metal P and Q,\nE$_{1}$ - 4 = E$_{P}$ = E ……..(1)\nE$_{1}$ - 4.5 = E$_{A}$ = E/2 ……..(2)\nSubtracting equation (2) from (1), we get\nE/2 = 0.5\nFor metal R\nE$_{2}$ - 5.5 = E$_{R}$ = E/2 = 0.5\n$$ \\Rightarrow $$ E$_{2}$ = 6",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_007",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A perfectly reflecting mirror of mass M mounted on a spring constitutes a spring-mass system of angular frequency $$\\Omega $$ such that $${{4\\pi M\\Omega } \\over h} = {10^{24}}{m^{ - 2}}$$ with h as Planck's constant. N photons of wavelength $$\\lambda $$ = 8$$\\pi \\times $$ 10$^{$$ - $$6}$ m strike the mirror simultaneously at normal incidence such that the mirror gets displaced by 1 $$\\mu $$m. If the value of N is x $$ \\times $$ 10$^{12}$, then the value of x is ................ [Consider the spring as massless]\n\n\n[Diagram]",
+    "solution": "Momentum transferred on mirror = $${{2Nh} \\over \\lambda }{{2Nh} \\over \\lambda } = M{V_{(mean\\,position)}}{V_{(mean\\,position)}} = \\Omega A$$ (where, A = 1 $$\\mu $$m)\n\n$${{2Nh} \\over \\lambda } = M\\Omega A$$\n\n(where $$\\lambda $$ = 8$$\\pi \\times $$ 10$^{$$ - $$6}$)\n\n$$N = {{M\\Omega ({{10}^{ - 6}})\\lambda } \\over {2h}} = {{M\\Omega 8\\pi \\times {{10}^{ - 6}} \\times {{10}^{ - 6}}} \\over {2h}}N = {{4\\pi M\\Omega } \\over h} \\times {10^{ - 12}} = {10^{ - 24}} \\times {10^{ - 12}}N = 1 \\times {10^{ - 12}} \\Rightarrow x = 1$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_008",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a photoelectric experiment a parallel beam of monochromatic light with power of $$200W$$ is incident on a perfectly absorbing cathode of work function $$6.25ev.$$ The frequency of light is just above the threshold frequency so that the photoelectrons are emitted with negligible kinetic energy. Assume that the photoelectron emission efficiency is $$100\\% $$. A potential difference of $$500V$$ is applied between the cathode and the anode. All the emitted electrons are incident normally on the anode and are absorbed. The anode experiences a force $$F = n \\times {10^{ - 4}}N$$ due to the impact of the electrons. The value of $$n$$ is ______________. Mass of the electron $${M_e} = 9 \\times {10^{ - 31}}\\,kg$$ and $$1.0eV = 1.6 \\times {10^{ - 19}}\\,J.$$",
+    "solution": "The frequency of incident light is just above the threshold frequency. Hence, the energy of each photon is equal to the work function (E$_{p}$ = $$\\phi$$ = 6.25 eV) and the kinetic energy of emitted photo-electron is zero (K$_{e0}$ = 0). The energy incident per second on the cathode is incident power P = 200 W. Thus, number of photons incident per second is\nN$_{p}$ = P/E$_{p}$ = P/$$\\phi$$.\nThe photo-electron emission efficiency is 100%. Thus, number of photo-electron emitted per second is equal to the number of photons incident per second i.e., N$_{e}$ = N$_{p}$. These photo-electrons are accelerated by a potential difference V = 500 V. Thus, gain in potential energy of each photo-electron is $$\\Delta$$U = eV = 500 eV. By conservation of energy, kinetic energy of the photo-electron when it reaches the anode is\nK$_{e}$ = K$_{e0}$ + $$\\Delta$$U = 500 eV.\nThe linear momentum of photo-electron of mass m$_{e}$ and kinetic energy K$_{e}$ is given by\n$${p_e} = \\sqrt {2{m_e}{K_e}} $$.\nThe photo-electron transfer its entire linear momentum to the anode (absorbed by the anode). Thus, gain in linear momentum of the anode by absorbing one photo-electron is\n$$\\Delta$$p$_{a}$ = p$_{e}$.\nThe force on the anode is equal to the increase in its linear momentum per second. Since N$_{e}$ photo-electrons strikes the anode per second, the force acting on the anode is given by\n$${F_a} = {N_e}\\Delta {p_a} = {N_e}{p_e}$$ ($$\\because\\Delta {p_a} = {p_e}$$)\n$$ = {N_p}{p_e} = (P/\\phi ){p_e}$$ ($$\\because{N_e} = {N_p} = P/\\phi $$)\n$$ = (P/\\phi )\\sqrt {2{m_e}{K_e}} $$ ($$\\because{p_e} = \\sqrt {2{m_e}{K_e}} $$)\n$$ = (P/\\phi )\\sqrt {2{m_e}eV} $$ ($$\\because{K_e} = eV = 2.4 \\times {10^{ - 4}}N$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_009",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An electron in an excited state of Li$^{2+}$ ion has angular momentum $${{3h} \\over {2\\pi }}$$. The de Broglie wavelength of the electron in this state is p$$\\pi$$a$_{0}$ (where a$_{0}$ is the Bohr radius). The value of p is",
+    "solution": "Angular momentum $$mvr = {{nh} \\over {2\\pi }}$$ where $$r = 3{a_0}$$ where $$n = 3$$, that is, electron in $$L{i^{2 + }}$$ is in second excited state\n$$\\lambda = {h \\over {mv}} = p\\pi {a_0} \\Rightarrow n = p\\pi (mv{a_0}) = p\\pi \\left( {{{mvr} \\over 3}} \\right) = {{p\\pi } \\over 3}\\left( {{{3h} \\over {2\\pi }}} \\right) = {{ph} \\over 2}$$\nTherefore, $$p = 2$$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qqx4ra.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_010",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The work functions of silver and sodium are 4.6 and 2.3 eV, respectively. The ratio of the slope of the stopping potential versus frequency plot for silver to that of sodium is ___________.",
+    "solution": "We have,\n$$V = {{hf} \\over e} - {\\phi \\over e}$$\nSlope is h/e.\n\n[Diagram]\n\nSlope is the same for both silver and sodium.\nTherefore, the ratio of the slope of the stopping potential versus frequency plot for silver to that of sodium is 1 : 1.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qqx4ra.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_011",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A proton is fired from very far away towards a nucleus with charge Q = 120e, where e is the electronic charge. It makes a closest approach of 10 fm to the nucleus. The de Broglie wavelength (in units of fm) of the proton at its start is ____________. (Take the proton mass, $${m_p} = (5 \\times 3) \\times {10^{ - 27}}$$ kg; $$h/e = 4.2 \\times {10^{ - 15}}$$ J.s/C; $${1 \\over {4\\pi {\\varepsilon _0}}} = 9 \\times {10^9}$$ m/F; 1 fm = 10$^{15}$ m.)",
+    "solution": "Let initial and final kinetic energies of the proton be K$_{i}$ and K$_{f}$ and corresponding potential energies be U$_{i}$ and U$_{f}$. When proton is far away from the nucleus (r $$\\to\\infty$$), its potential energy is\n$${U_i} = \\mathop {\\lim }\\limits_{r \\to \\infty } {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over r} = 0$$.\nAt closest distance, the proton comes to rest momentarily, giving K$_{f}$ = 0. The potential energy at closest distance is\n$${U_f} = {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over a}$$,\nwhere a is the distance of closest approach. Since electrostatic force is conservative, total energy is conserved i.e., $${K_i} + {U_i} = {K_f} + {U_f}$$. Substitute the values to get\n$${K_i} = {U_f} = {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over a}$$\nThe de-Broglie wavelength of the proton is given by\n$${\\lambda _i} = {h \\over {{p_i}}} = {h \\over {\\sqrt {2{m_p}{K_i}} }} = {h \\over e}\\sqrt {{{4\\pi {\\varepsilon _0}a} \\over {240{m_p}}}} = 4.2 \\times {10^{ - 15}}{\\left( {{{10 \\times {{10}^{ - 15}}} \\over {9 \\times {{10}^9} \\times 240 \\times (5/3) \\times {{10}^{ - 27}}}}} \\right)^{1/2}}$$\n= 7 fm.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_012",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A silver sphere of radius 1 cm and work function 4.7 eV is suspended from an insulating thread in free-space. It is under continuous illumination of 200 nm wavelength light. As photoelectrons are emitted, the sphere gets charged and acquires a potential. The maximum number of photoelectrons emitted from the spheres is A $$\\times$$ 10$^{Z}$ (where 1 < A < 10). The value of Z is _____________.",
+    "solution": "The silver sphere gets positively charged due to emission of photoelectrons. This positively charged sphere attracts (binds) the emitted photoelectrons. The emitted photoelectrons cannot escape if their kinetic energies (hc/$$\\lambda-\\phi$$) are less than or equal to their potential energies $$\\left( {{1 \\over {4\\pi {\\varepsilon _0}}}{{n{e^2}} \\over r}} \\right)$$. Thus, in limiting case,\n$${{hc} \\over \\lambda } - \\phi = {1 \\over {4\\pi {\\varepsilon _0}}}{{n{e^2}} \\over r}$$ ..... (1)\nSubstitute the values of various parameters in equation (1),\n$${{1242} \\over {200}} - 4.7 = {{n(9 \\times {{10}^9})(1.6 \\times {{10}^{ - 19}})} \\over {{{10}^{ - 2}}}}$$,\nto get n = 1.04 $$\\times$$ 10$^{7}$. [We have used hc = 1242 eV-nm.]",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_013",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The activity of a freshly prepared radioactive sample is 10$^{10}$ disintegrations per second, whose mean life is 10$^{9}$ s. The mass of an atom of this radioisotope is 10$^{$$-$$25}$ kg. The mass (in mg) of the radioactive sample is _________.",
+    "solution": "Activity $$A = \\lambda N$$, where $$\\lambda$$ is decay constant and N is number of particles present. Therefore,\n$$N = {A \\over \\lambda } = A\\tau $$\nwhere $$\\tau$$ = 1 / $$\\lambda$$ is the mean life of the sample. The mass of the sample is\n$$M = mN = mA\\tau $$\nwhere m is mass of an atom. Therefore, the mass of the radioactive sample is\nM = 10$^{$$-$$25}$ $$\\times$$ 10$^{10}$ $$\\times$$ 10$^{9}$ = 10$^{$$-$$6}$ kg = 1 mg",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_014",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An $$\\alpha$$-particle and a proton are accelerated from the rest by a potential difference of 100 V. After this, their de Broglie wavelengths are $$\\lambda$$$_{$$\\alpha$$}$ and $$\\lambda$$$_{p}$, respectively. The ratio $${{{\\lambda _p}} \\over {{\\lambda _\\alpha }}}$$, to the nearest integer, is _____________.",
+    "solution": "The de Broglie wavelength of a particle with momentum p is given by\n$$\\lambda$$ = h/p.\nThe momentum and kinetic energy of a particle of mass m are related by\n$$p = \\sqrt {2mK} $$.\nThe kinetic energy of a charge q, accelerated through potential V, is given by K = qV. Thus,\n$$\\lambda = h/\\sqrt {2mK} = h/\\sqrt {2mqV} $$,\nwhich gives\n$${{{\\lambda _p}} \\over {{\\lambda _\\alpha }}} = \\sqrt {{{2{m_\\alpha }{q_\\alpha }V} \\over {2{m_p}{q_p}V}}} = \\sqrt {{{2\\,.\\,4u\\,.\\,2e\\,.\\,100} \\over {2\\,.\\,1u\\,.\\,1e\\,.\\,100}}} = \\sqrt 8 = 2.8 \\approx 3$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_015",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When light of a given wavelength is incident on a metallic surface, the minimum potential needed to stop the emitted photoelectrons is $6.0 \\mathrm{~V}$. This potential drops to $0.6 \\mathrm{~V}$ if another source with wavelength four times that of the first one and intensity half of the first one is used. What are the wavelength of the first source and the work function of the metal, respectively? [Take $\\frac{h c}{e}=1.24 \\times$ $10^{-6} \\mathrm{JmC}^{-1}$.]",
+    "solution": "By Einstein's photoelectric equation, we have:\n\n$\n\n\\mathrm{KE} =h v-\\phi$\n\n$\nh v-\\phi =6 \\mathrm{eV} $\n\n$\n\\frac{h c}{\\lambda}-\\phi =6 \\mathrm{eV} $ .........(i)\n\n$\n\\frac{h c}{4 \\lambda}-\\phi =0.6 \\mathrm{eV} $\n\n$\n\\frac{3 h c}{4 \\lambda} =5.4 \\mathrm{eV}$\n\n$$ \\Rightarrow $$ $\\lambda=\\frac{3 h c}{5.4 \\mathrm{eV} \\times 4} $\n\n$$ \\Rightarrow $$ $\n\\lambda =\\frac{3 \\times 1.24 \\times 10^{-6}}{4 \\times 5.4}=1.72 \\times \\times^{-7} \\mathrm{~m}$ ........(ii)\n\nFrom equation (i) and (ii), we conclude\n\n$\\frac{h c}{1.72 \\times 10^{-7}} \\times \\frac{1}{1.6 \\times 10^{-19}}-\\phi=6 \\mathrm{eV}$\n\non subsituting all the values we get\n\n$$\n\\begin{aligned}\n& \\phi=(7.27-6) \\\\\\\\\n&\\Rightarrow \\phi=1.27 \\mathrm{eV} \\\\\\\\\n&\\Rightarrow \\phi=1.20 \\mathrm{eV}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$1.72 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$",
+      "$1.72 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$",
+      "$3.78 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$",
+      "$3.78 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_016",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A photoelectric material having work-function $${\\phi _0}$$ is illuminated with light of wavelength $$\\lambda \\left( {\\lambda < {{he} \\over {{\\phi _0}}}} \\right).$$ The fastest photoelectron has a de-Broglic wavelength $${\\lambda _d}.$$ A change in wavelength of the incident light by $$\\Delta \\lambda $$ result in a change $$\\Delta {\\lambda _d}$$ in $${\\lambda _d}.$$ Then the ratio $$\\Delta {\\lambda _d}/\\Delta \\lambda $$ is proportional to",
+    "solution": "Here, $$\\lambda$$ is the wavelength of incident light and $$\\lambda$$$_{d}$ is the de Broglie wavelength of the fastest photoelectron. The fastest ejected photoelectron has the maximum kinetic energy which is given by\n$${K_{\\max }} = {{hc} \\over \\lambda } - {\\phi _0}$$ .....(1)\nThe de Broglie wavelength of the photoelectron having kinetic energy $${K_{\\max }} = {{{p^2}} \\over {2m}}$$ is given by\n$${\\lambda _d} = {h \\over p} = {h \\over {\\sqrt {2m{K_{\\max }}} }}$$ ..... (2)\nwhere m is the mass of the electron and p is its linear momentum. Eliminate K$_{max}$ from equations (1) and (2) to get\n$${{{h^2}} \\over {2m\\lambda _d^2}} = {{hc} \\over \\lambda } - {\\phi _0}$$ ...... (3)\nDifferentiate equation (3) to get\n$$( - 2){{{h^2}} \\over {2m\\lambda _d^3}}\\Delta {\\lambda _d} = ( - 1){{hc} \\over {{\\lambda ^2}}}\\Delta \\lambda $$,\nwhich gives\n$${{\\Delta {\\lambda _d}} \\over {\\Delta \\lambda }} = {{mc} \\over h}{{\\lambda _d^3} \\over {{\\lambda ^2}}}$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${\\lambda _d}/\\lambda $$",
+      "$$\\lambda _d^2/{\\lambda ^2}$$",
+      "$$\\lambda _d^3/\\lambda $$",
+      "$$\\lambda _d^3/{\\lambda ^2}$$"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_017",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a historical experiment to determine Planck's constant, a metal surface was irradiated with light of different wavelengths. The emitted photoelectron energies were measured by applying a stopping potential. The relevant data for the wavelength ($$\\lambda $$) of incident light and the corresponding stopping potential (V$_{0}$) are given below:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\n$$\\lambda \\left( {\\mu m} \\right)$$\nV$_{0}$(Volt)\n\n\n\n0.3\n2.0\n\n\n0.4\n1.0\n\n\n0.5\n0.4\n\n\nGiven that c = 3 $$ \\times $$ 10$^{8}$ ms$^{-1}$ and e = 1.6 $$ \\times $$ 10$^{-19}$ C, Planck's constant (in units of J-s) found from such an experiment is) :",
+    "solution": "$${{hc} \\over \\lambda } - \\phi = e{V_0}$$ ($$\\phi$$ = work function)\n\n$${{hc} \\over {0.3 \\times {{10}^{ - 6}}}} - \\phi = 2e$$ .... (i)\n\n$${{hc} \\over {0.4 \\times {{10}^{ - 6}}}} - \\phi = 1e$$ .... (ii)\n\nSubtracting Eq. (ii) from Eq. (i)\n\n$$hc\\left( {{1 \\over {0.3}} - {1 \\over {0.4}}} \\right){10^6} = ehc\\left( {{{0.1} \\over {0.12}} \\times {{10}^6}} \\right) = eh = 0.64 \\times {10^{ - 33}} = 6.4 \\times {10^{ - 34}}$$ J-s",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "6.0 $$ \\times $$ 10$^{-34}$",
+      "6.6 $$ \\times $$ 10$^{-34}$",
+      "6.4 $$ \\times $$ 10$^{-34}$",
+      "6.8 $$ \\times $$ 10$^{-34}$"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_018",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A metal surface is illuminated by light of two different wavelengths 248 nm and 310 nm. The maximum speeds of the photoelectrons corresponding to these wavelengths are u$_{1}$ and u$_{2}$, respectively. If the ratio u$_{1}$ : u$_{2}$ = 2 : 1 and hc = 1240 eV nm, the work function of the metal is nearly",
+    "solution": "From Einstein's photoelectric equation,\nkinetic energy of photoelectrons,\n$$K = {1 \\over 2}m{v^2} = {{hc} \\over \\lambda } - \\phi $$ ..... (i)\nFor $$\\lambda$$ = 248 nm, v = u$_{1}$\n$$\\therefore{K_1} = {1 \\over 2}mu_1^2 = {{hc} \\over {248}} - \\phi $$ ...... (ii)\nFor $$\\lambda$$ = 310 nm, v = u$_{2}$\n$$\\therefore{K_2} = {1 \\over 2}mu_2^2 = {{hc} \\over {310}} - \\phi $$ ....... (iii)\nDivide eqn. (ii) by eqn. (iii),\n$${{u_1^2} \\over {u_2^2}} = {{{{hc} \\over {248}} - \\phi } \\over {{{hc} \\over {310}} - \\phi }} = {{{{1240} \\over {248}} - \\phi } \\over {{{1240} \\over {310}} - \\phi }} \\Rightarrow {\\left( {{2 \\over 1}} \\right)^2} = {{5 - \\phi } \\over {4 - \\phi }} \\Rightarrow 16 - 4\\phi = 5 - \\phi \\Rightarrow 3\\phi = 11$$\nor, $$\\phi$$ = 3.67 eV $$\\approx$$ 3.7 eV",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "3.7 eV",
+      "3.2 eV",
+      "2.8 eV",
+      "2.5 eV"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4263y.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_019",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Photoelectric effect experiments are performed using three different metal plates p, q and r having work functions $$\\phi_p=2.0~\\mathrm{eV}$$, $$\\phi_q=2.5~\\mathrm{eV}$$ and $$\\phi_r=3.0~\\mathrm{eV}$$, respecticely. A light beam containing wavelengths of 550 nm, 450 nm and 350 nm with equal intensities illuminates each of the plates. The correct I-V graph for the experiment is (Take hc = 1240 eV nm)",
+    "solution": "We have\n$$E = \\left( {{{hc} \\over \\lambda }} \\right)$$ J $$ \\Rightarrow E = \\left( {{{1240} \\over {\\lambda \\,nm}}} \\right)$$ eV\nTherefore,\n$$\\lambda_1$$ = 550 nm, $$E_1$$ = 2.25 eV\n$$\\lambda_2$$ = 450 nm, $$E_2$$ = 2.75 eV\n$$\\lambda_3$$ = 350 nm, $$E_3$$ = 3.5 eV\nAlso,\n$$\\phi_p=2$$ eV, all $$\\lambda$$'s cause emissions.\n$$\\phi_q=2.5$$ eV, last two $$\\lambda$$'s cause emissions.\n$$\\phi_r=3$$ eV, only the last $$\\lambda$$ causes emissions.\nThat is, $$I_p > I_q > I_r$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4263y.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_020",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The allowed energy for the particle for a particular value of $$n$$ is proportional to",
+    "solution": "We have,\n$$a = n\\left( {{\\lambda \\over 2}} \\right) \\Rightarrow \\lambda = {{2a} \\over n}$$\n\n[Diagram]\n\nFrom de Broglie relation, we have\n$$\\lambda = {h \\over {mv}} = {h \\over p}$$\nTherefore, $${{2a} \\over n} = {h \\over p} \\Rightarrow p = {{nh} \\over {2a}}$$\nNow, $$E = {{{p^2}} \\over {2m}} = {{{n^2}{h^2}} \\over {8m{a^2}}} \\Rightarrow E \\propto {a^{ - 2}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${a^{ - 2}}$$",
+      "$${a^{ - 3/2}}$$",
+      "$${a^{ - 1}}$$",
+      "$${a^2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrmdbi4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_021",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the mass of the particle is $$m=1.0\\times10^{-30}$$ kg and $$a=6.6$$ nm, the energy of the particle in its ground state is closest to",
+    "solution": "For ground state, $$n = 1$$. Therefore,\n$${E_1} = {{{h^2}} \\over {8m{a^2}}} = \\left[ {{{{{(6.6 \\times {{10}^{ - 34}})}^2}} \\over {8 \\times {{10}^{ - 30}} \\times {{(6.6 \\times {{10}^{ - 9}})}^2}}}} \\right]$$ J\nTherefore, $${{{E_1}} \\over e} = \\left( {{{{E_1}} \\over {1.6 \\times {{10}^{ - 19}}}}} \\right)$$ meV = 8 meV",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0.8 meV",
+      "8 meV",
+      "80 meV",
+      "800 meV"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_022",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following statements is WRONG in the context of X-rays generated from a X-ray tube?",
+    "solution": "The cut-off wavelength is given by $${\\lambda _{\\min }} = {{hc} \\over {eV}}$$\nThe cut-off wavelength depends on the energy eV of the accelerated electrons and is independent of the atomic number of target. Thus, greater the accelerating voltage for electrons, higher will be kinetic energy it attains before striking the target, higher will be the frequency of X-rays and smaller will be wavelength.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Wavelength of characteristic X-rays decreases when the atomic number of the target increases.",
+      "Cut-off wavelength of the continuous X-rays depends on the atomic number of the target.",
+      "Intensity of the characteristic X-rays depends on the electrical power given to the X-ray tube.",
+      "Cut-off wavelength of the continuous X-rays depends on the energy of the electrons in the X-ray tube."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdcumd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_023",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Electrons with de-Broglie wavelength $$\\lambda$$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is",
+    "solution": "The cut off wavelength is given by\n$$\\lambda_{0}=\\frac{h c}{e v}$$ ..... (i)\nAccording to de-Broglie equation\n$$\\lambda=\\frac{h}{p}=\\frac{h}{\\sqrt{2 m e \\mathrm{~V}}}\\Rightarrow \\quad \\lambda^{2}=\\frac{h^{2}}{2 m e \\mathrm{~V}}\\Rightarrow \\quad \\mathrm{V}=\\frac{h^{2}}{2 m e \\lambda^{2}}$$ ..... (ii)\nFrom (i) and (ii)\n$$\\lambda_{0}=\\frac{h c \\times 2 m e \\lambda^{2}}{e h^{2}}=2 m c \\lambda^{2}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\lambda_{0}=\\frac{2 m c \\lambda^{2}}{h}$$",
+      "$$\\lambda_{0}=\\frac{2 h}{m c}$$",
+      "$$\\lambda_{0}=\\frac{2 m^{2} c^{2} \\lambda^{3}}{h^{2}}$$",
+      "$$\\lambda_{0}=\\lambda$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdcumd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_024",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Some laws/processes are given in Column I. Match these with the physical phenomena given in Column II and indicate your answer by darkening appropriate bubbles in the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nTransition between two atomic energy levels\n(P)\nCharacteristic X-rays\n\n\n(B)\nElectron emission from a material\n(Q)\nPhotoelectric effect\n\n\n(C)\nMosley's law\n(R)\nHydrogen spectrum\n\n\n(D)\nChange of photon energy into kinetic energy of electrons\n(S)\n$$\\beta$$-decay",
+    "solution": "Reason : Characteristics x-ray are produced due to transition of electron from one energy level to another. Similarly, the line in the hydrogen spectrum is obtained due to transition of electron from one energy level to another.\nA $$\\to$$ P, R\nReason : In photoelectric effect electron from the metal surface are emitted upon the incidence of light of appropriate freaquency.\nNote : In $$\\beta$$-decay, electrons are emitted from the nucleus of atom.\nB $$\\to$$ Q, S\nMoseley gave a law which related frequency of emitted X-ray with the atomic number of the target material.\n$$\\sqrt v=a(z-b)$$\nC $$\\to$$ P\nIn photo electric effect, energy of photons of incident ray gets converted into K.E of emitted electron.\nD $$\\to$$ Q",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "A $$\\to$$ (P); B $$\\to$$ (Q); C $$\\to$$ (P); D $$\\to$$ (Q)",
+      "A $$\\to$$ (R); B $$\\to$$ (Q, S); C $$\\to$$ (P); D $$\\to$$ (Q, P)",
+      "A $$\\to$$ (P, R); B $$\\to$$ (Q, S); C $$\\to$$ (P); D $$\\to$$ (Q)",
+      "A $$\\to$$ (P, R); B $$\\to$$ (Q, S); C $$\\to$$ (Q); D $$\\to$$ (P)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdcumd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_025",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :**\nIf the accelerating potential in an X-ray tube is increased, the wavelengths of the characteristic X-rays do not change.\n\n**Statement 2 :**\nWhen an electron beam strikes the target in an X-ray tube, part of the kinetic energy is converted into X-ray energy.",
+    "solution": "Since, Potential increases\n\n[Diagram]\n\nIf we give the constant energy release we observe constant wavelength. So the statement 1 is true.\nFrom Einstein equation,\n$${{hc} \\over \\lambda } = W + K.E$$\nW = work function (2.4) eV\nIf we given energy above 2.4 eV it will release photon.\nStatement 2 is true.\nHint : ($$\\lambda_{ray}\\mu$$ target material) does not depend on V$$_0$$ (accelerating potential)\n\n[Diagram]\n\nStatement 1 is True\nStatement 2 is True, it follows the energy conservatioin.\nBut statement 2 is not correct explanation of statement 1.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdcumd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_026",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The potential energy of a particle of mass m\nis given by\n$$\\mathrm{U}(x)=\\left\\{\\begin{array}{cc}\\mathrm{E}_{0} & 0 \\leq x \\leq 1 \\\\ 0 & x>1\\end{array}\\right.\\lambda_{1}$$ and $$\\lambda_{2}$$ are the de Broglie wavelengths of the particle, when $$0 \\leq x \\leq 1$$ and $$x > 1$$, respectively. If the total energy of particle is $$2 \\mathrm{E}_{0}$$, find $$\\frac{\\lambda_{1}}{\\lambda_{2}}$$.",
+    "solution": "$$U(x) = \\left\\{ {\\matrix{\n{{E_0}} & {0 \\le x \\le 1} \\cr\n0 & {x > 1} \\cr\n\n} } \\right.K.E = \\left\\{ {\\matrix{\n{2{E_0} - {E_0} = {E_0}} & {0 \\le x \\le 1} \\cr\n{2{E_0} - 0 = 2{E_0}} & {x > 1} \\cr\n\n} } \\right.$$\nFrom $$\\lambda = {h \\over {\\sqrt {2mE} }}{\\lambda _1} = {h \\over {\\sqrt {2m{E_0}} }}$$ and $${\\lambda _2} = {h \\over {\\sqrt {2m{E_0}} }} = {h \\over {\\sqrt {4m{E_0}} }}$$\nNow $${{{\\lambda _1}} \\over {{\\lambda _2}}} = {{{h \\over {\\sqrt {2m{E_0}} }}} \\over {{h \\over {\\sqrt {4m{E_0}} }}}} = {{\\sqrt {4m{E_0}} } \\over {\\sqrt {2m{E_0}} }} = \\sqrt {{{4m{E_0}} \\over {2m{E_0}}}} \\sqrt 2 {{{\\lambda _1}} \\over {{\\lambda _2}}} = \\sqrt 2 $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2",
+      "$$\\sqrt2$$",
+      "$$\\sqrt3$$",
+      "3"
+    ]
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_027",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For photo-electric effect with incident photon wavelength $$\\lambda$$, the stopping potential is V$_{0}$. Identify the correct variation(s) of V$_{0}$ with $$\\lambda$$ and $${1 \\over \\lambda }$$.",
+    "solution": "[Diagram]\n\nStopping potential (V$_{0}$) is given by\n$$e{V_0} = {{hc} \\over \\lambda } - \\phi $$\nGraph between V$_{0}$ and $$\\lambda$$ :\n$$e{V_0} + \\phi = {{hc} \\over \\lambda }(e{V_0} + \\phi )\\lambda = hc(e{V_0} + \\phi )\\lambda $$ = constant\nHere, both e and $$\\phi$$ are also constant. It represents a hyperbola.\nFor, V$_{0}$ = 0, $$\\lambda = {{constant} \\over \\phi } = $$ constant\nSo correct option is (a).\n\n[Diagram]\n\nGraph between V$_{0}$ and $${1 \\over \\lambda }$$ :\n$${V_0} = \\left( {{{hc} \\over e}} \\right)\\left( {{1 \\over \\lambda }} \\right) - \\left( {{\\phi \\over e}} \\right)$$\nIt represents a straight line with slope $$\\left( {{{hc} \\over e}} \\right)$$ and intercept $$\\left( { - {\\phi \\over e}} \\right)$$ on V$_{0}$ axis.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l11u6vbm.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_028",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Using the expression $$2d\\sin \\theta = \\lambda $$, one calculates the values of d by measuring the corresponding angles $$\\theta $$ in\nthe range 0 to 90$^{o}$. The wavelength $$\\lambda $$ is exactly known and the error in $$\\theta $$ is constant for all values of $$\\theta $$. As $$\\theta $$ increases from 0$^{o}$",
+    "solution": "To determine how the error in $$d$$ behaves as $$\\theta$$ increases, let’s examine the given expression:\n\n$$2d\\sin \\theta = \\lambda$$\n\nWe can rearrange this to solve for $$d$$:\n\n$$d = \\frac{\\lambda}{2 \\sin \\theta}$$\n\nGiven that the wavelength $$\\lambda$$ is exactly known, any error in the measurement of $$\\theta$$ (denoted as $$\\Delta \\theta$$) will propagate through to the error in $$d$$. To analyze this, we need to consider how the error propagates in the expression for $$d$$.\n\nAssuming the error propagation formula, the differential of $$d$$ with respect to $$\\theta$$ is:\n\n$$d = \\frac{\\lambda}{2 \\sin \\theta}$$\n\nDifferentiating with respect to $$\\theta$$:\n\n$$\\frac{d(d)}{d(\\theta)} = \\frac{d}{d(\\theta)} \\left( \\frac{\\lambda}{2 \\sin \\theta} \\right)$$\n\nUsing the chain rule, we get the partial derivative:\n\n$$\\frac{d(d)}{d(\\theta)} = -\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2}$$\n\nThe absolute error in $$d$$, denoted as $$\\Delta d$$, is given by:\n\n$$\\Delta d = \\left| \\frac{d(d)}{d(\\theta)} \\Delta \\theta \\right| = \\left| -\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\right| \\Delta \\theta = \\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\Delta \\theta$$\n\nHere, $$\\Delta \\theta$$ is the constant error in the measurement of $$\\theta$$. From the equation above, we observe that $$\\Delta d$$ depends on $$\\cos \\theta / (\\sin \\theta)^2$$ which is a function of $$\\theta$$.\n\nAs $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$, the behavior is as follows:\n\nWhen $$\\theta$$ is close to $$0^\\circ$$, $$\\cos \\theta \\approx 1$$ and $$\\sin \\theta \\approx 0$$, thus $$\\left( \\frac{\\cos \\theta}{(\\sin \\theta)^2} \\right)$$ becomes very large, indicating that $$\\Delta d$$ is very large.\n\nAs $$\\theta$$ approaches $$90^\\circ$$, $$\\cos \\theta \\approx 0$$, and $$\\sin \\theta \\approx 1$$, which makes $$\\left( \\frac{\\cos \\theta}{(\\sin \\theta)^2} \\right)$$ approach zero, thus making $$\\Delta d$$ very small.\n\nTherefore, as $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$, the absolute error in $$d$$ decreases.\n\nTo analyze the fractional error in $$d$$ (denoted as $$\\frac{\\Delta d}{d}$$), we note:\n\n$$d = \\frac{\\lambda}{2 \\sin \\theta}$$\n\nSo the fractional error is:\n\n$$\\frac{\\Delta d}{d} = \\frac{\\Delta d}{\\frac{\\lambda}{2 \\sin \\theta}} = \\frac{\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\Delta \\theta}{\\frac{\\lambda}{2 \\sin \\theta}} = \\frac{\\cos \\theta \\Delta \\theta}{\\sin \\theta}$$\n\nAs $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$:\n\nInitially (at $$\\theta \\approx 0^\\circ$$), $$\\cos \\theta \\approx 1$$ and $$\\sin \\theta \\approx 0$$, making the fractional error large.\n\nAs $$\\theta$$ continues to increase, $$\\cos \\theta$$ decreases and $$\\sin \\theta$$ increases, thus the fractional error $$\\frac{\\cos \\theta \\Delta \\theta}{\\sin \\theta}$$ decreases.\n\nHence, the fractional error in $$d$$ also decreases as $$\\theta$$ increases.\n\nSo the correct answer is:\n\n**Option D**: the fractional error in $$d$$ decreases.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "the absolute error in d remains constant",
+      "the absolute error in d increases",
+      "the fractional error in d remains constant",
+      "the fractional error in d decreases"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt21m65.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_dual_nature_of_radiation_029",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation",
+    "topic": "Dual Nature of Radiation",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The graph between $\\frac{1}{\\lambda}$ and stopping potential (V) of three metals having work functions $\\phi_1, \\phi_2$, and $\\phi_3$ in an experiment of photoelectric effect is plotted as shown in the figure. Which of the following statement(s) is/are correct? (Here, $\\lambda$ is the wavelength of the incident ray).\n[Diagram]",
+    "solution": "The energy of incident photon $\\frac{h c}{\\lambda}$ is equal to the sum of minimum energy required to emit the photoelectron (work function) and kinetic energy K of the ejected photoelectron.\nThe stopping potential V converts the kinetic energy K of ejected photoelectron into potential energy eV , there by stopping its motion.\nThus, $\\frac{h c}{\\lambda}=\\phi+\\mathrm{K}=\\phi+\\mathrm{eV}$\n$$ \\Rightarrow \\frac{h c}{\\lambda}-\\phi=\\mathrm{eV} . $$\ni.e., $\\mathrm{V}=\\frac{h c}{e} \\cdot \\frac{1}{\\lambda}-\\frac{\\phi}{e} \\quad$ Slope, $m=\\tan \\theta=\\frac{h c}{e}$\n(on comparing with $y=m x-c$ )\nAt $\\mathrm{V}=0, \\phi=\\frac{h c}{\\lambda}$ which gives\n$$ \\phi_1=0.001 h c, \\phi_2=0.002 h c, \\phi_3=0.004 h c, $$\n(For metal 1)           (metal 2)              (metal 3)\nThus, $\\phi_1: \\phi_2: \\phi_3:: 1: 2: 4$.\nAlso, $\\phi=\\frac{h c}{\\lambda_0}$, where $\\lambda_0$ is threshold wavelength,\n$\\therefore$ The wavelength corresponding to $\\phi_1, \\phi_2, \\lambda_3$ are\n$$ \\begin{aligned} & \\lambda_1=\\frac{1}{0.001}=1000 \\mathrm{~nm} \\\\ & \\lambda_2=\\frac{1}{0.002}=500 \\mathrm{~nm} \\\\ & \\lambda_3=\\frac{1}{0.004}=250 \\mathrm{~nm} \\end{aligned} $$\nThe wavelength of violet colour light is close to 400 nm , which is more than the threshold wavelength for metal 3 . Thus violet light can eject photoelectrons from from metal 2 but not from metal 3 .",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "Ratio of work functions $\\phi_1: \\phi_2: \\phi_3 =1: 2: 4$.",
+      "Ratio of work functional $\\phi_1: \\phi_2: \\phi_3 =4: 2: 1$.",
+      "$\\tan \\theta$ is directly proportional to $\\frac{h c}{e}$, where $h$ is Planck's constant and $c$ is the speed of light.",
+      "The violet colour light can eject photoelectrons from metals 2 and 3 ."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt21m65.png",
+      "position": "bottom"
+    }
+  }
+]

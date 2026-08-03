@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "chem_basics_organic_chemistry_001",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the reactions in List-I with the features of their products in List-II and choose the correct option.\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P)\n[Diagram]\n\n(1) Inversion of configuration\n\n\n(Q)\n[Diagram]\n\n(2) Retention of configuration\n\n\n(R)\n[Diagram]\n\n(3) Mixture of enantiomers\n\n\n(S)\n[Diagram]\n\n(4) Mixture of structural isomers\n\n\n\n(5) Mixture of diastereomers",
+    "solution": "[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 3$",
+      "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 1 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 5$",
+      "$P \\rightarrow 1 ; Q \\rightarrow 2 ; R \\rightarrow 5 ; S \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 5$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liirjnmx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_002",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum number of possible isomers (including stereoisomers) which may be formed on mono-bromination of 1-methylcyclohex-1-ene using Br$_{2}$ and UV light is ___________.",
+    "solution": "[Diagram]\n\n(i) Mono-bromination of substituted methyl on 1-methylcyclohex-1-ene.\n\n[Diagram]\n\nOnly one stereoisomer possible as compound (1) is optically active.\n\n(ii) Mono-bromination of allylic carbon (C-3) :\n\n[Diagram]\n\nC-3 is optically active on bromine substitution and gives two optically active isomers.\n\n(iii) Mono-bromination of C-4 carbon :\n\n[Diagram]\n\nC-4 is optically active on mono-bromination and gives two optically active isomers.\n\n(iv) Mono-bromination of C-5 carbon :\n\n[Diagram]\n\nC-5 is optically active on mono-bromination and gives two optically active isomers.\n\n(v) Mono-bromination of C-6 carbon :\n\n[Diagram]\n\nC-6 is optically active on mono-bromination and gives two optically active isomers.\n\n(vi) Mono-bromination of C-1 carbon :\n\n[Diagram]\n\nC-1 is optically active on mono-bromination and gives two optically active isomers.\n\n(vii) Mono-bromination of C-2 carbon :\n\n[Diagram]\n\nC-2 is optically active on mono-bromination and gives two optically active isomers.\n\nSo, maximum number of possible isomers are 13.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyimcupc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_003",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following four compounds, I, II, III, and IV.\n\n\n[Diagram]\n\n[Diagram]\n\n\nChoose the correct statement(s)",
+    "solution": "The correct basic strength order is\n\n(IV) > (II) > (I) > (III);\n\n(IV) is strongest base due to steric inhibition to resonance effect.\n\n(III) is weakest base due to $$-$$M group of three nitro groups present at ortho and para positions.\n\n(II) is stronger than (I) since (III) is tertiary and (I) primary aromatic amine.\n\nSo, option (a) is incorrect.\n\n(b) pK$_{b}$ different between I and II is 0.53 and that of III and IV is 4.6. So, option (b) is incorrect.\n\n(c) and (d) In 2, 4, 6-trinitro aniline (III) due to strong $$-$$R effect of $$-$$NO$_{2}$ groups, the lone pair of $$-$$NH$_{2}$ is more involved with benzene ring hence it has least basic strength. Whereas (IV) N, N-dimethyl 2, 4, 6-trinitro aniline, due to steric inhibition to resonance (SIR) effect; the lone pair of nitrogen is not in the plane of benzene, hence makes it lone pair more free to protonate.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "The order of basicity is II > I > III > IV.",
+      "The magnitude of pK$_{b}$ difference between I and II is more than that between III and IV.",
+      "Resonance effect is more in III than in IV.",
+      "Steric effect makes compound IV more basic than III."
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_004",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name of succinic acid is _______.",
+    "solution": "Solution for this Basics of Organic Chemistry question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_005",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write the IUPAC name for the following :\n\n[Diagram]",
+    "solution": "[Diagram]\n\nNote :\n(1) Here functional group $$-$$COOH present. All functional groups add as secondary suffix.\n(a) If carbon atom of $$-$$COOH group present in main chain then secondary suffix name is $$\\to$$ oic acid.\n(b) If carbon atom of $$-$$COOH group present not in main chain then secondary suffix name is $$\\to$$ carboxylic acid.\nAs here carbon atom of $$-$$COOH group present in main chain that is why we use oic acid.\n(2) Functional group should always get lowest possible number.\n(3) Alkane, alkene(=) and alkyne($$\\equiv$$) always act as primary suffix.\nFor alkane we use word \"ane\".\nFor alkene we use word \"ene\".\nFor alkyne we use word \"yne\".\nHere alkene(=) present so we use word \"ene\" as primary suffix.\n(4) After last e of \"ene\" if we get a, i, o, u, y as the first letter of secondary suffix then we delete e.\nHere in the name $$\\to$$\n\n[Diagram]\n\n(5) Naming is done by following way $$\\to$$\nPrefix + word root + suffix(p) + suffix(s)\n(a) Here no prefix (name of side chain) as there is no side chain present.\n(b) Word root represent number of carbon atom in main chain.\nHere in main chain 5 carbon atoms present so word root is \"pent\".\n(c) Primary suffix is alkene.\n(d) Secondary suffix is function group $$-$$COOH. It's name oic acid.\n(6) If functional group's carbon get number \"1\" then we can ignore it in nomenclature. So it's nomenclature can be also $$\\to\\mathrm{pent - 2 - enoic\\,acid}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9e7acyi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_006",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Correct match of the C-H bonds (shown in bold) in Column J with their BDE in Column K is\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nColumn J\nMolecule\nColumn K\nBDE (kcal $$mo{l^{ - 1}}$$)\n\n\n\n(P) H-CH($$C{H_3}$$)$$_2$$\n(i) 132\n\n\n(Q) H-CH$$_2$$Ph\n(ii) 110\n\n\n(R) H-CH=CH$$_2$$\n(iii) 95\n\n\n(S) H-C $$ \\equiv $$ CH\n(iv) 88",
+    "solution": "A more stable radical means lesser the bond dissociation energy.\nRadicals formed are\n\n[Diagram]\n\nRadical formed from Q (PhCH$_{2}$$$-$$H) is most stable due to resonance.\nStability of free radical decreases with increase in % s-character.\nP radical $$\\to$$ sp$^{3}$ $$\\to$$ % s-character 25%\nR radical $$\\to$$ sp$^{2}$ $$\\to$$ % s-character 33%\nS radical $$\\to$$ sp $$\\to$$ % s-character 50%\nThus, order of stability of free radical is\nQ > P > R > S\nOrder of bond dissociation energy is\nS > R > P > Q",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P - iii, Q - iv, R - ii, S - i",
+      "P - i, Q - ii, R - iii, S - iv",
+      "P - iii, Q - ii, R - i, S - iv",
+      "P - ii, Q - i, R - iv, S - ii"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0m5b3id.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_007",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following reaction\n\nCH$_{4}$(g) + Cl$_{2}$(g) $$\\buildrel {light} \\over\n\\longrightarrow $$ CH$_{3}$Cl(g) + HCl (g)\n\nthe correct statement is",
+    "solution": "The reaction is exothermic with $$\\Delta$$H$$^\\circ$$ = $$-$$25 kcal mol$^{$$-$$1}$\nCH$_{4}$(g) + Cl$_{2}$(g) $$\\buildrel {hv} \\over\n\\longrightarrow $$ CH$_{3}$Cl(g) + HCl(g)\n(a) Initiation step is breaking of Cl$$-$$Cl bond which requires energy and hence, this step is endothermic.\n\n[Diagram]\n\n(b) Propagation step involving formation of CH$_{3}$ is also endothermic as bond between C$$-$$H is breaking.\n\n[Diagram]\n\n(c) Propagation step involving formation of CH$_{3}$Cl is exothermic as bond is formed between C$$-$$Cl\n\n[Diagram]\n\n(d) $$\\mathop H\\limits^ \\bullet $$ + $$\\mathop {Cl}\\limits^ \\bullet \\to$$ HCl, $$\\Delta$$H$_{4}$$$^\\circ$$ = $$-$$103 kcal/mol\nEnthalpy of reaction, $$\\Delta$$H$$^\\circ$$ = $$\\Delta$$H$$_1^o$$ + $$\\Delta$$H$$_2^o$$ + $$\\Delta$$H$$_3^o$$ + $$\\Delta$$H$$_4^o$$\n= 58 + 105 $$-$$ 85 $$-$$ 103\n= $$-$$25 kcal mol$^{$$-$$1}$\nHence, the reaction is exothermic with $$\\Delta$$H$$^o$$ = $$-$$25 kcal/mol",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Initiation step is exothermic with $$\\Delta$$H$$^\\circ$$ = $$-$$58 kcal mol$^{$$-$$1}$.",
+      "Propagation step involving $${}^ \\bullet C{H_3}$$ formation is exothermic with $$\\Delta$$H$$^\\circ$$ = $$-$$2 kcal mol$^{$$-$$1}$.",
+      "Propagation step involving CH$_{3}$Cl formation is endothermic with $$\\Delta$$H$$^\\circ$$ = +27 kcal mol$^{$$-$$1}$.",
+      "The reaction is exothermic with $$\\Delta$$H$$^\\circ$$ = $$-$$25 kcal mol$^{$$-$$1}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0m6gho1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_008",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the conformation that corresponds to the most stable conformation of meso-butane-2,3-diol is",
+    "solution": "Due to the intramolecular H-bonding, the gauche conformation of butane-2,3-diol is most stable one.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l742g3z8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_009",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Newman projections P, Q, R and S are shown below :\n\n[Diagram]\n\nWhich one of the following options represents identical molecules?",
+    "solution": "IUPAC name of P, Q, R and S are :\n\n[Diagram]\n\nIUPAC name of compounds Q and R are same, thus the correct option is (c).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P and Q",
+      "Q and S",
+      "Q and R",
+      "R and S"
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_010",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following structures has the IUPAC name\n\n3-ethynyl-2-hydroxy-4-methylhex-3-en-5-ynoic acid?",
+    "solution": "According to the IUPAC rules, first of all select the longest carbon chain (6-carbon atoms) then numbering should be start from most prior functional group, which is carboxylic acid in the given compound, thus\n\n[Diagram]\n\n3-ethynyl-2hydroxy-4-methylhex-3-en-5-ynoic acid",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_011",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The Fischer projection of D-erythrose is shown below :\n\n\n[Diagram]\n\n\nD-erythrose and its isomers are listed as P, Q, R, and S in Column - I. Choose the correct relationship of P, Q, R, and S with D-erythrose from Column - II.\n\n\n[Diagram]",
+    "solution": "First of all, we need to convert wedge-dash formula into Fischer projection formula.\n\n\n[Diagram]\n\n[Diagram]\n\n\nNow we can clearly see, that compound P is same as given compound, thus compound P is identical to D-erythrose.\n\nCompound Q and D-erythrose are not mirror images of one another and are non-superimposable on one another. Thus, they are diastereomers.\n\nCompound R and D-erythrose are also not mirror images of one another and are non-superimposable on one another. Thus, they are diastereomers.\n\nCompound S and D-erythrose are chiral molecules. They are mirror images of one another. Furthermore, the molecules are non-superimposable on one another. This means that the molecules cannot be placed on top of one another and give the same molecule. Chiral molecules with one or more stereocenters can be enantiomers.\n\nHence, the correct option is (c).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "P\nQ\nR\nS\n\n\n\n2\n3\n2\n2",
+      "P\nQ\nR\nS\n\n\n\n3\n1\n1\n2",
+      "P\nQ\nR\nS\n\n\n\n2\n1\n1\n3",
+      "P\nQ\nR\nS\n\n\n\n2\n3\n3\n1"
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_012",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Isomers of hexane, based on their branching, can be divided into three distinct classes as shown in the figure.\n\n[Diagram]\n\nThe correct order of their boiling point is",
+    "solution": "As the branching increases, the boiling point decreases. This is because the van der Waals forces of attraction decrease.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "I > II > III",
+      "III > II > I",
+      "II > III > I",
+      "III > I > III"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17z24ga.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_013",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following compounds, the most acidic is",
+    "solution": "(i) The structures of the different organic compounds are as follows :\n(A) p-Nitrophenol\n\n[Diagram]\n\n(B) p-Hydroxybenzoic Acid\n\n[Diagram]\n\n(C) o-Hydroxybenzoic Acid\n\n[Diagram]\n\n(D) p-Toluic Acid\n\n[Diagram]\n\n(ii) According to the $pK_a$ values, the order of acidity of these compounds is as follows :\n\n[Diagram]\n\n(iii) Regardless of the substitution, phenols are generally less acidic than carboxylic acids. Therefore, p-nitrophenol is the least acidic, despite the presence of an electron-withdrawing nitro group.\n(iv) The \"ortho effect,\" i.e., the presence of an electron-withdrawing or releasing substituent at the ortho position relative to the carboxylic acid group, increases the acidity of substituted benzoic acids.\nTherefore, o-hydroxybenzoic acid is more acidic than p-hydroxybenzoic acid.\n\n[Diagram]\n\n(v) The presence of an -OH group at the para position decreases the acidity of carboxylic acids due to its electron-donating nature (via the positive mesomeric effect, +M). This effect is stronger compared to the electron-donating nature of a methyl group via the positive inductive effect (+I) or hyperconjugative effect (+H).\n\n[Diagram]\n\nHence, the order of acidity of the compounds is :\n\n(C) o-Hydroxybenzoic Acid\n(D) p-Toluic Acid\n(B) p-Hydroxybenzoic Acid\n(A) p-Nitrophenol\n\nOption (C) has the lowest $pK_a$ or the highest $K_a$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "p-nitrophenol",
+      "p-hydroxybenzoic acid",
+      "o-hydroxybenzoic acid",
+      "p-toluic acid"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m04mbpr5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_014",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following carbocation, H/CH$$_3$$ that is most likely to migrate to the positively charged carbon is :\n\n[Diagram]",
+    "solution": "The hydride shift from C-2 will lead to a resonance stabilized secondary carbocation (conjugated with oxygen).\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "CH$$_3$$ at C-4",
+      "H at C-4",
+      "CH$$_3$$ at C-2",
+      "H at C-2"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4v78s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_015",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct stability order of the following resonance structures is\n\n[Diagram]",
+    "solution": "Among the resonance structures, the more stable ones are those with:\n(i) more number of covalent bonds\n(ii) all the atoms having octet of electrons complete,\n(iii) less separation of opposite charges and more dispersal of charge.\nBased on these, the order of stability of the resonance structures is (I) > (III) > (II) > (IV).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(I) > (II) > (IV) > (III)",
+      "(I) > (III) > (II) > (IV)",
+      "(II) > (I) > (III) > (IV)",
+      "(III) > (I) > (IV) > (II)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4wpxv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_016",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct acidity order of the following is\n\n[Diagram]",
+    "solution": "We know that, carboxylic acids are more acidic than phenols. Further, presence of electron withdrawing groups on the ring increases the acidic nature and electron releasing group decreases the acidic strength. So, structure III, due to the presence of carboxylic acid is the strongest acid $$(p{K_a} = 4.17)$$.\n\nIn structure IV, the +I effect of alkyl group reduces the acidic strength $$(p{K_a} = 4.37)$$ of the carboxylic acid. Structure III, due to the presence of electron withdrawing substituent (Cl), is more acidic than phenol $$(p{K_a} = 9.38)$$. Phenol (structure I) is the weakest acid amongst all $$(p{K} = 9.98)$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(III) > (IV) > (II) > (I)",
+      "(IV) > (III) > (I) > (II)",
+      "(III) > (II) > (I) > (IV)",
+      "(II) > (III) > (IV) > (I)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrmoczg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_017",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name of the following compound is\n\n[Diagram]",
+    "solution": "The priority order of the substituents on the ring is\n$$-$$CN > $$-$$Br > $$-$$OH\nCyanide group is given the highest priority.\n\nHence, it is written as suffix benzonitrile and\nother functional groups behave as substituents.\nThe numbering of substituents is done in such\na way that sum of the locants is least.\n\nThe names of substituents are written in\nalphabetical order.\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "4-Bromo-3-cyanophenol",
+      "2-Bromo-5-hydroxybenzonitrile",
+      "2-Cyano-4-hydroxybromobenzene",
+      "6-Bromo-3-hydroxybenzonitrile"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrmpzfw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_018",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct stability order for the following species is :\n\n[Diagram]",
+    "solution": "Stability of the following species depends upon the no. of $$\\alpha$$ hydrogen which can undergoes hyperconjugation as well as resonance. Higher the no. of $$\\alpha$$ hydrogen, higher will be the stability of the carbocation.\n\n[Diagram]\n\nStabilizes by resonance and have six $$\\alpha$$-hydrogen atoms (hyperconjugation).\n\n[Diagram]\n\nStabilizes by resonance and have three $$\\alpha$$-hydrogen atoms.\n\n[Diagram]\n\nIt have five $$\\alpha$$-hydrogen atoms.\n\n[Diagram]\n\nIt have only two $$\\alpha$$-hydrogen atoms.\n$$\\therefore$$ (I) > (III) > (II) > (IV)",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(II) > (IV) > (I) > (III)",
+      "(I) > (II) > (III) > (IV)",
+      "(II) > (I) > (IV) > (III)",
+      "(I) > (III) > (II) > (IV)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgbxtxp7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_019",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Hyperconjugation involves overlapping of the following orbitals:",
+    "solution": "Hyperconjugation effect is one of the type of permanent effect in which delocalisation of $$\\sigma$$ electrons of C-H bond of an alkyl group directly attached to an atom of the unsaturated system or to an atom with an unshared p orbital. The main role of hyperconjugation is to stabilise the carbocation because it helps in the dispersal of positive charge. Higher the number of alkyl groups attached to a positively charged carbon atom, greater is the hyperconjugative effect and stability of carbonation. It generally involves the interaction of electrons in a C-H sigma orbital with nearby non-bonding p or anti-bonding $$\\sigma^*$$ or $$\\pi^*$$ orbitals to provide extended conjugation which further increases the stability of the carbocation. Sometimes, low lying anti-bonding $$\\sigma^*$$ also interact with filled orbitals of lone pair character. This type of conjugation is termed as negative hyperconjugation.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\sigma-\\sigma$$",
+      "$$\\sigma-p$$",
+      "$$p-p$$",
+      "$$\\pi-\\pi$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mght7gdl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_020",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of stereoisomers obtained by bromination of $$trans$$-2-butene is :",
+    "solution": "If we add halogens on alkenes it is mostly anti addition. Anti addition of $$\\mathrm{Br_2}$$ on $$trans$$ alkene gives meso compound.\nSo, here only 1 stereoisomer is formed.\n$$trans$$-2-butene is\n\n[Diagram]\n\nBromination of $$trans$$-2-butene\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mght7gdl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_021",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following the least stable resonance structure is :",
+    "solution": "Among the given resonance structures, the least stable resonance structure is given by option (A) as the two positive charges lie adjacent to each other and cause maximum repulsion.\n(A)\n[Diagram]\n\nSame charges are present at nearest position making the molecule less stable.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghtbump.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_022",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of structural isomers for C$$_6$$H$$_{14}$$ is :",
+    "solution": "Structural Isomers\n\n[Diagram]",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggn07op.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_023",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hybridization of carbon atoms in C-C single bond of HC $$ \\equiv $$ C - CH = CH$_{2}$ is",
+    "solution": "[Diagram]\n\nIts correct IUPAC name is\n\n3-methylbut-1-ene.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$sp^3 - sp^3$$",
+      "$$sp^2 - sp^3$$",
+      "$$sp - sp^2$$",
+      "$$sp^3 - sp$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9ea8akx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_024",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name of the compound\n\nCH$_{2}$ = CH $$-$$ CH(CH$_{3}$)$_{2}$",
+    "solution": "[Diagram]\n\nIts correct IUPAC name is\n\n3-methylbut-1-ene.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1, 1-dimethyl-2-propene",
+      "3-methylbut-1-ene",
+      "2-vinylpropane",
+      "1 isopropylethylene"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9ea8akx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_025",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name of the compound having the formula is :\n\n[Diagram]",
+    "solution": "[Diagram]\n\nThe correct name is 3, 3-dimethylbut-1-ene.\n\n**Note :**\n\n(1) This is alkene. So according to the rule of IUPAC naming of alkene, double bond should get lowest possible number.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "3, 3, 3-trimethyl-1-propene",
+      "1, 1, 1-trimethyl-2-propene",
+      "3, 3-dimethylbut-1-ene",
+      "2, 2-dimethyl-3-butene"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9eaeomb.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_026",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Total number of isomers, considering both structural and stereoisomers of cyclic ethers with the molecular formula C$_{4}$H$_{8}$O is .................",
+    "solution": "The structure of cyclic ether with molecular formula, C$_{4}$H$_{8}$O are as follows :\n\n\n[Diagram]\n\nTotal number of isomers of cyclic ether with molecular formula, C$_{4}$H$_{8}$O are 10.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwthmr03.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_027",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the given compound $$X,$$ the total number of optically active stereoisomers is ____________.\n\n[Diagram]\n\n[Diagram]",
+    "solution": "There are total 7 optically active stereoisomers. Their structures are as follows:\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kywrdzp1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_028",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the number of aromatic compound(s) is\n\n[Diagram]",
+    "solution": "Huckel's rule states that a conjugated, planar, cyclic system will be aromatic if it contains $(4 n+2)$ delocalised $\\pi$ electrons, where $n$ is zero or integers like $1,2,3 \\ldots$. Aromatic compounds are as follows:\n\n[Diagram]\n\nAlso\n\n[Diagram]\n\n(i) Both the rings in compound is cyclic.\n\n(ii) Due to the presence of alternate carboncarbon double bond in benzene ring all carbon are $s p^2$ hybridised and planner. But all carbons in second ring are not conjugated as carbons nine and ten are $s p^3$ hybridised. This makes second ring non-aromatic.\n\n(iii) There are $(4 n+2) \\pi$ electrons in aromatic ring (benzene); hence, it's aromatic. Even if one ring in compound is aromatic, the entire molecule becomes aromatic.\n\nHence, there are total of 5 aromatic compounds in the given list of compounds.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhzwx0iq.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_029",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the following mono-bromination reaction, the number of possible chiral product(s) is (are)...\n\n[Diagram]",
+    "solution": "The number of possible monobrominated chiral products for:\n\n[Diagram]\n\n(a) Bromination at carbon atom 1 :\n\n[Diagram]\n\n(b) Bromination at carbon atom 2 :\n\n[Diagram]\n\nall carbon become a chiral.\n\n(c) Bromination at carbon atom 3 :\n\n[Diagram]\n\n[Diagram]\n\n(d) Bromination at carbon atom 4 :\n\n[Diagram]\n\n(e) Bromination at carbon atom 5 :\n\n[Diagram]\n\nMonobrominated products (I), (III), (IV), (VI) and (VII) are chiral products.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li309zjv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_030",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of stereoisomers that can exist for M is ___________.\n\n[Diagram]",
+    "solution": "The total number of stereo isomers = 2$^{n}$ = 2$^{2}$ = 4, where n is the number of chiral centres.\nHowever, in bridge/bicycle compounds, the number of stereo-isomers is equal to the number of chiral centres because no carbon centres rotation is possible. Therefore, two stereoisomers would be possible for the given compound.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l13w56ja.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_031",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number(s) of stable conformers with non-zero dipole moment for the following compound is(are)\n\n[Diagram]",
+    "solution": "The conformations of the given compound are as follows\n\n[Diagram]\n\nThese three have non-zero dipole moment due to non-cancellation of all dipole moment created by C$$-$$Cl and C$$-$$Br bond.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1aya05z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_032",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When the following aldohexose exists in its D-configuration, the total number of stereoisomers in its pyranose form is ____________.\n\n[Diagram]",
+    "solution": "The structure of aldohexose in D-configuration can be represented as\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24ls1ss.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_033",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of contributing structure showing hyper-conjugation (involving C-H bonds) for the following carbocation is _________.\n\n[Diagram]",
+    "solution": "(i) Hyper conjugation involves the electrons of $\\mathrm{C}-\\mathrm{H}$ sigma ( $\\sigma$ ) bond, of alkyl group is delocalised with an atom containing empty $p$-orbital (i.e., a carbocation) or unsaturated system.\n(ii) For the given carbocation, hypercojugation involves the delocalisation of $\\mathrm{C}-\\mathrm{H}$ sigma ( $\\sigma$ ) bond, of alkyl group with the adjacent atom containing unshared $p$-orbital.\n(iii) The different kinds of hydrogen that will be involved in hyperconjugation are as follows :\n\n[Diagram]\n\nThere are three different kinds of hydrogen; $\\mathrm{H}_{a^{\\prime}} \\mathrm{H}_b$ and $\\mathrm{H}_c$.\n(iv) Hyperconjugative structure due to different kind of hydrogens are as follows :\n(a) Hyperconjugation due to $\\mathrm{C}-\\mathrm{H}_a$ sigma (or $\\sigma)$ bond.\n\n[Diagram]\n\nSimilarly, two more hyperconjugative structures are possible due to two other hydrogen atoms.\nA total of three hyperconjugative structures of carbocation are possible due to delocalisation of $\\mathrm{C}-\\mathrm{H}_a$ ( $\\sigma$ bond) with empty $p$-orbital (on carbocation).\n(b) Hyperconjugation due to $\\mathrm{C}-\\mathrm{H}_b$ sigma (or $\\sigma)$ bond.\n\n[Diagram]\n\nSimilarly, one more hyperconjugative structure is possible due to other hydrogen $\\left(\\mathrm{H}_b\\right)$. A total of two hyperconjugative structures of carbocations are possible due to delocalisation of $\\mathrm{C}-\\mathrm{H}_b$ ( $\\sigma$ bond) with empty $p$-orbital (on carbocation).\n(c) Hyperconjugation due to $\\mathrm{C}-\\mathrm{H}_c$ sigma (or $\\sigma)$ bond.\n\n[Diagram]\n\nThere is only one $\\mathrm{H}^c$ hydrogen; hence, one hyperconjugative structure is possible due to delocalisation of $\\mathrm{C}-\\mathrm{H}_c$ ( $\\sigma$ bond) with empty $p$-orbital (on carbocation).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m0duew1c.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_034",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of cyclic isomers possible for a hydrocarbon with the molecular formula C$_{4}$H$_{6}$ is",
+    "solution": "Cyclic C$$_5$$H$$_{10}$$\n\n[Diagram]\n\nFor third structure, 2 $$cis-trans$$ and 1 optical isomer are possible. So, a total of 7 structures are.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5ejp8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_035",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The total number of cyclic structural as well as stereoisomers possible for a compound with the molecular formula C$$_5$$H$$_{10}$$ is ____________.",
+    "solution": "Cyclic C$$_5$$H$$_{10}$$\n\n[Diagram]\n\nFor third structure, 2 $$cis-trans$$ and 1 optical isomer are possible. So, a total of 7 structures are.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5ejp8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_036",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "With respect to the compounds I-V, choose the correct statement(s).\n\n\n[Diagram]",
+    "solution": "Triphenylmethane (I) is acidic because its conjugate base is stabilised by resonance.\n\n$${(Ph)_3}CH\\buildrel {} \\over\n\\longrightarrow \\mathop {{{(Ph)}_3}C}\\limits_{Triphenylmethyl\\,carbanion} + {H^ + }$$\n\nCyclopentadiene (IV) is acidic because its conjugate base is aromatic.\n\n\n[Diagram]\n\n\nNitrobenzene is more acidic than benzene because nitro group is electron withdrawing. It will stabilise the conjugate base of benzene by $$-$$R and $$-$$I effect.\n\nThe acidic strength order on the basis of pK$_{a}$ data is\n\nIV > V > I > II > III.\n\nHence, the correct options are (a), (b) and (c) only.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The acidity of compound I is due to delocalisation in the conjugate base.",
+      "The conjugate base of compound IV is aromatic.",
+      "Compound II becomes more acidic, when it has a $$-$$NO$_{2}$ substituent.",
+      "The acidity of compounds follows the order\n\nI > IV > V > II > III."
+    ]
+  },
+  {
+    "id": "chem_basics_organic_chemistry_037",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the following compounds, the correct statement(s) with respect to nucleophilic substitution reaction is (are)\n\n[Diagram]",
+    "solution": "(a) I is a benzylic halide, thus, it undergoes S$_{N}$1 reaction easily as benzylic carbocation is resonance stabilized. III also follows S$_{N}$1 mechanism as it is 3$$^\\circ$$ alkyl halide.\n(b) Compounds I and II are 1$$^\\circ$$ alkyl halides, then they undergo S$_{N}$2 mechanism.\n(c) Correct. In S$_{N}$1 reaction, the nucleophile approaches the substrate carbon from the back side with respect to the leaving group. Nucleophilic displacement of the leaving group in an S$_{N}$2 reaction causes inversion of configuration at the substrate carbon.\n\n[Diagram]\n\n(d) Stability of carbocations follows the order:\n$$\\mathop {2^\\circ \\,benzylic}\\limits_{(IV)} > \\mathop {3^\\circ \\,alkyl}\\limits_{(III)} > \\mathop {1^\\circ \\,benzylic}\\limits_{(I)} $$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$${\\rm I}$$ and $${\\rm I}{\\rm I}{\\rm I}$$ follow $${S_N}1$$ mechanism",
+      "$${\\rm I}$$ and $${\\rm II}$$ follow $${S_N}2$$ mechanism",
+      "Compound $${\\rm IV}$$ undergoes inversion of configuration",
+      "The order of reactivity for $${\\rm I},{\\rm I}{\\rm I}{\\rm I}$$ and $${\\rm IV}$$ is : $${\\rm I}V > {\\rm I} > {\\rm I}{\\rm I}{\\rm I}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0b0ux7w.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_038",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statements(s) for the following addition reactions is (are)\n\n[Diagram]",
+    "solution": "Bromination of alkenes always proceeds via\ntrans addition.\n\n[Diagram]\n\n[Diagram]\n\n' $O$ ' and ' $P$ ' are enantiomers.\n\n$(M$ and $O)$ and ( $N$ and $P)$ are two pairs of diastereomers.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$O$$ and $$P$$ are identical molecules",
+      "($$M$$ and $$O$$) and ($$N$$ and $$P$$) are two pairs of diastereomers",
+      "($$M$$ and $$O$$) and ($$N$$ and $$P$$) are two pairs of enantiomers",
+      "Bromination proceeds through *trans*-addition in both the reactions"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li1htcku.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_039",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The IUPAC name(s) of the following compound is (are)\n\n[Diagram]",
+    "solution": "The IUPAC name of the compound:\n\n[Diagram]\n\n1. When two or more substituents such as alkane, halogen, nitro groups, etc., are attached to the aromatic ring (e.g., benzene), these substituents are named in the alphabetical order with substituents of lowest alphabet named first followed by the other.\n\n2. These substituents are numbered in a way with lowest number given to substituent whose name starts with the alphabet that appear first in the series. The direction of numbering is chosen such that next substituent gets the lowest number.\n\n3. After the numbering is complete, the substituents are numbered in alphabetical order.\n\nHence, the IUPAC name of the compound is 1-Chloro-4-methylbenzene.\n\n4. If a substituent attached to benzene ring together has a common name that has been accepted as an IUPAC name, the compound is called by that common name with other group attached to it as its substituent.\n\nHence, methyl attached to benzene is commonly called toluene and chlorine is substituent at the fourth position.\n\n[Diagram]\n\nThe compound is named as 4-chlorotoluene.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$1$$-chloro-$$4$$-methylbenzene",
+      "$$4$$-chlorotoluene",
+      "$$4$$-methylchlorobenzene",
+      "$$1$$-methyl-$$4$$-chlorobenzene"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li0zhrs0.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_040",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct combination of names for isomeric alcohols with molecular formula C$_{4}$H$_{10}$O is/are",
+    "solution": "[Diagram]",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "tert-butanol and 2-methylpropan-2-ol",
+      "tert-butanol and 1, 1-dimethylethan-1-ol",
+      "n-butanol and butan-1-ol",
+      "iso-butyl alcohol and 2-methylpropan-1-ol"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1az69h8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_041",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hyperconjugative stabilities of tert-butyl cation and 2-butene, respectively, are due to",
+    "solution": "(i) The structure of tert-butyl cation $\\left[\\left(\\mathrm{CH}_3\\right)_3 \\mathrm{C}^{\\oplus}\\right]$ is as follows :\n\n[Diagram]\n\nThe carbocation is highly stable due to positive hyperconjugative $(+\\mathrm{H})$ and inductive $(+\\mathrm{I})$ effect.\n\n(ii) The hyperconjugative effect is due to delocalication of $\\sigma$ (sigma) electrons of $\\mathrm{C}-\\mathrm{H}$ sigma ( $\\sigma$ ) bond on carbon adjacent to carbocation with an empty P orbital (on carbcation).\n\n[Diagram]\n\nHence, carbocation is stabilised due to formation of pi bond with adjacent carbon (due to delocalised) electrons of $\\mathrm{C}-\\mathrm{H}$ sigma bond). Its a s to p (empty) delocalisation.\n\n(iii) There are eight more protons on carbons\nadjacent to carbocation. This gives eight more\nhyperconjugative structures. This impart\nstability to carbocation.\n\n(iv) The structure of 2-butene is as follows :\n\n$$\n\\mathrm{CH}_3-\\mathrm{C}=\\mathrm{C}-\\mathrm{CH}_3\n$$\n\nThe hyperconjugative effect is due to the delocalisation of sigma ( $\\sigma$ ) electrons of $\\mathrm{C}-\\mathrm{H}$ bond with adjacent carbon containing pi bond.\n\n[Diagram]\n\nThe electrons of $\\mathrm{C}-\\mathrm{H} $ $\\sigma$ bond are donated to anti-bonding $\\left(\\pi^*\\right)$ orbitals of carbon-carbon double bond. Its $\\sigma $ $\\mathrm{s}$ to $\\pi^*$ delocalisation.\nThere are five more hydrogens from methyl groups attached to carbon-carbon double bond. Hence, five more hyperconjugative structures.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\sigma \\to p$$ (empty) and $$\\sigma \\to \\pi^*$$ electron delocalisations",
+      "$$\\sigma \\to \\sigma^*$$ and $$\\sigma \\to \\pi$$ electron delocalisations",
+      "$$\\sigma \\to p$$ (filled) and $$\\sigma \\to \\pi$$ electron delocalisations",
+      "p (filled) $$\\to \\sigma^*$$ and $$\\sigma \\to \\pi^*$$ electron delocalisations"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lyinhkup.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_042",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the given statement(s) about N, O, P and Q with respect to M is(are) correct?\n\n[Diagram]",
+    "solution": "The relation between the given compounds can be determined assigning them R and S configuration. The given structures can be represented as\n\n[Diagram]\n\n[Diagram]\n\nM and N are diastereomers.\nM and O are identical.\nM and P are enantiomers (non-superimposable mirror images).\nM and Q are diastereomers.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "M and N are non-minor image stereoisomers.",
+      "M and O are identical.",
+      "M and P are enantiomers.",
+      "None of these."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l26alolk.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_043",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following molecules, in pure form, is(are) unstable at room temperature?",
+    "solution": "(a) The compound is monocyclic but non-planar due to presence of two $s p^3$ hybridised carbon atoms. As a result, delocalisation of pi $(\\pi)$ electrons (or a conjugate system) is not possible. The compound is non-aromatic.\n\n(b) The compound is monocyclic and planar. Carbon atoms are $s p^2$ hybridised and the pi $(\\pi)$ electrons are conjugated, i.e., there is delocalisation of pi $(\\pi)$ electrons. It follows $4 n$$\\pi$ electron system with $4 \\pi$ electrons. This makes the compound anti-aromatic and least stable.\n\n(c) The compound is monocyclic and planar. The carbons including carbonyl carbon are $s p^2$ hybridised. There is no extended delocalisation of pi ( $\\pi$ ) electrons (due to exocyclic carbonyl double bond). It also follows $4 n \\pi$ electron system with $4 \\pi$ electrons inside the ring. This makes compound anti-aromatic and least stable.\n\n(d) The compound is monocyclic and planar. The all carbons including carbonyl carbons are $s p^2$ hybridised. Though, there is no extended delocalisation of electron inside the ring, but ring has $(4 n+2) \\pi$ electrons, i.e., $6 \\pi$ electrons. This makes compound aromatic and most stable.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24lp3ol.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_044",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the given options, the compound(s) in which all the atoms are in one plane in all the possible conformations (if any) is(are)",
+    "solution": "For compound in option (A) : Only two of the conformers (cisiod and transoid) have all the atom in the same plane.\nFor compound in option (B) : The terminal hydrogen of allene will be perpendicular to each other plane.\n\n[Diagram]\n\nFor compound in option (C) : All the atoms are in one plane in all the possible conformations. There is no atom on oxygen.\n\n[Diagram]",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "H$_{2}$C = C = 0",
+      "H$_{2}$C = C = CH$_{2}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m03vw8nc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_045",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the Newman projection for 2,2-dimethylbutane, X and Y can, respectively, be\n\n[Diagram]",
+    "solution": "In the structure of 2,2-dimethylbutane:\n\n[Diagram]\n\nOn C$$_2-$$C$$_3$$ bond axis X = CH$$_3$$, Y = CH$$_3$$.\nOn C$$_1-$$C$$_2$$ bond axis X = H, Y = C$$_2$$H$$_5$$.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "H and H",
+      "H and C$$_2$$H$$_5$$",
+      "C$$_2$$H$$_5$$ and H",
+      "CH$$_3$$ and CH$$_3$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lexlj1ek.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_046",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) about the compound $$\\mathrm{H_3C(HO)HC-CH=CH-CH(OH)CH_3~~(X)}$$ is (are)",
+    "solution": "The possible stereoisomers of the given compounds are as follows:\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]\n\n[Diagram]",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "The total number of stereoisomers possible for X is 6.",
+      "The total number of diastereomers possible for X is 3.",
+      "If the stereochemistry about the double bond in X in $$trans$$, the number of enantiomers possible for X is 4.",
+      "If the stereochemistry about the double bond in X is $$cis$$, the number of enantiomers possible for X is 2."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lfrmurzg.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_047",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) concerning the structures E, F and G is(are) :\n\n[Diagram]",
+    "solution": "The correct statements concerning the structures E, F and G are:\n(B) E, F and G are tautomers.\nE is in keto form (C=O) and F and G are in enol form (C=C$$-$$OH)\n(C) F and G are geometrical isomers. F is Z isomer and E is E isomer.\n(D) F and G are diastereomers. They are not mirror images of each other and non-superimposable.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "E, F and G are resonance structures.",
+      "E, F and E, G are tautomers.",
+      "F and G are geometrical isomers.",
+      "F and G are diasteromers."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg94vmxo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_048",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "[Diagram]\n\nWhat are N and M?",
+    "solution": "When 2-methyl butane is treated with $\\mathrm{Cl}_2$, the chlorination of the compound occur (via free radical mechanism) and an isomeric mixture of products is obtained with chemical formula, $\\mathrm{C}_5 \\mathrm{H}_{11} \\mathrm{Cl}$.\nThe products formed are shown below.\n\n[Diagram]\nThe chlorination yields total 6 different compounds. The compounds I, II, III and IV have chiral centres present in it. The compounds I and II, III and IV are a pair of enantiomers due to presence of chiral centres. Hence, value of N will be 6 .\nThe enantiomers have identical boiling points. The method of fractional distillation cannot be used for separating enantiomers.\nHence, only four compounds will be separated which are shown below. The compounds I and II, III and IV will remain as racemic mixture as fractional distillation will unable to separate each enantiomer.\nHence, value of $M$ will be 4 .\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "6,6",
+      "6,4",
+      "4,4",
+      "3,3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgutd558.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_049",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give the IUPAC name of the following compound :\n\n[Diagram]",
+    "solution": "[Diagram]\n\nNote :\n(1) Here functional group $$-$$COOH present. All functional groups add as secondary suffix.\n(a) If carbon atom of $$-$$COOH group present in main chain then secondary suffix name is $$\\to$$ oic acid.\n(b) If carbon atom of $$-$$COOH group present not in main chain then secondary suffix name is $$\\to$$ carboxylic acid.\nAs here carbon atom of $$-$$COOH group present in main chain that is why we use oic acid.\n(2) Functional group should always get lowest possible number.\n(3) Alkane, alkene(=) and alkyne($$\\equiv$$) always act as primary suffix.\nFor alkane we use word \"ane\".\nFor alkene we use word \"ene\".\nFor alkyne we use word \"yne\".\nHere alkene(=) present so we use word \"ene\" as primary suffix.\n(4) After last e of \"ene\" if we get a, i, o, u, y as the first letter of secondary suffix then we delete e.\nHere in the name $$\\to$$\n\n[Diagram]\n\n(5) Naming is done by following way $$\\to$$\nPrefix + word root + suffix(p) + suffix(s)\n(a) Here no prefix (name of side chain) as there is no side chain present.\n(b) Word root represent number of carbon atom in main chain.\nHere in main chain 5 carbon atoms present so word root is \"pent\".\n(c) Primary suffix is alkene.\n(d) Secondary suffix is function group $$-$$COOH. It's name oic acid.\n(6) If functional group's carbon get number \"1\" then we can ignore it in nomenclature. So it's nomenclature can be also $$\\to\\mathrm{pent - 2 - enoic\\,acid}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9e61fj4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_basics_organic_chemistry_050",
+    "subject": "Chemistry",
+    "chapter": "Basics of Organic Chemistry",
+    "topic": "Basics of Organic Chemistry",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Write the IUPAC name of :\n\nCH$_{3}$CH$_{2}$CH = CHCOOH",
+    "solution": "[Diagram]\n\nNote :\n(1) Here functional group $$-$$COOH present. All functional groups add as secondary suffix.\n(a) If carbon atom of $$-$$COOH group present in main chain then secondary suffix name is $$\\to$$ oic acid.\n(b) If carbon atom of $$-$$COOH group present not in main chain then secondary suffix name is $$\\to$$ carboxylic acid.\nAs here carbon atom of $$-$$COOH group present in main chain that is why we use oic acid.\n(2) Functional group should always get lowest possible number.\n(3) Alkane, alkene(=) and alkyne($$\\equiv$$) always act as primary suffix.\nFor alkane we use word \"ane\".\nFor alkene we use word \"ene\".\nFor alkyne we use word \"yne\".\nHere alkene(=) present so we use word \"ene\" as primary suffix.\n(4) After last e of \"ene\" if we get a, i, o, u, y as the first letter of secondary suffix then we delete e.\nHere in the name $$\\to$$\n\n[Diagram]\n\n(5) Naming is done by following way $$\\to$$\nPrefix + word root + suffix(p) + suffix(s)\n(a) Here no prefix (name of side chain) as there is no side chain present.\n(b) Word root represent number of carbon atom in main chain.\nHere in main chain 5 carbon atoms present so word root is \"pent\".\n(c) Primary suffix is alkene.\n(d) Secondary suffix is function group $$-$$COOH. It's name oic acid.\n(6) If functional group's carbon get number \"1\" then we can ignore it in nomenclature. So it's nomenclature can be also $$\\to\\mathrm{pent - 2 - enoic\\,acid}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l9lg2apw.png",
+      "position": "bottom"
+    }
+  }
+]

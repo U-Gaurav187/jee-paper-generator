@@ -1,0 +1,2446 @@
+[
+  {
+    "id": "math_probability_001",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${H_1},{H_2},....,{H_n}$$ be mutually exclusive and exhaustive events with $$P\\left( {{H_1}} \\right) > 0,i = 1,2,.....,n.$$ Let $$E$$ be any other event with $$0 < P\\left( E \\right) < 1.$$\n\n**STATEMENT-1:**\n\n$$P\\left( {{H_1}|E} \\right) > P\\left( {E|{H_1}} \\right).P\\left( {{H_1}} \\right)$$ for $$i=1,2,....,n$$ **because**\n**STATEMENT-2:** $$\\sum\\limits_{i = 1}^n {P\\left( {{H_i}} \\right)} = 1.$$",
+    "solution": "We start with the given probabilities:\n\n$ P(U) = \\frac{1}{2} $\n$ P(V) = \\frac{1}{10} $\n$ P(W) = \\frac{1}{12} $\n\nThe event $ U $ indicates that at least one of the students can solve the problem. Thus, its complement $ U' $ (none of the students can solve the problem) is expressed as:\n$ \\mathrm{P}(U') = \\mathrm{P}(S_1' \\cap S_2' \\cap S_3') = 1 - P(U) = \\frac{1}{2} $\nThe expression for the probability of the complement is:\n$ \\mathrm{P}(S_1') \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{2} $\nFrom this, we understand:\n$ (1 - \\mathrm{P}(S_1))(1 - \\mathrm{P}(S_2))(1 - \\mathrm{P}(S_3)) = \\frac{1}{2} \\quad \\text{(Equation 1)} $\nGiven $ P(V) $, which is the probability that $ S_1 $ solves the problem given that neither $ S_2 $ nor $ S_3 $ can, we have:\n$ \\mathrm{P}(V) = \\frac{\\mathrm{P}(S_1 \\cap S_2' \\cap S_3')}{\\mathrm{P}(S_2' \\cap S_3')} = \\frac{1}{10} $\n$ \\Rightarrow \\mathrm{P}(S_1) \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{10} \\cdot \\mathrm{P}(S_2' \\cap S_3') $\nNow, calculate $ \\mathrm{P}(S_2' \\cap S_3') $:\nFrom $ P(W) $:\n$ \\mathrm{P}(W) = \\mathrm{P}(S_2 \\cap S_3') = \\frac{1}{12} $\nCombining Equations from conditions of complementary events:\n$ \\mathbf{\\frac{P(S_1)}{1 - \\mathrm{P}(S_1)} = \\frac{1}{10}} $\nNext, let's solve:\n$ \\begin{aligned} & (1 - \\mathrm{P}(S_2)) (1 - \\mathrm{P}(S_3)) = \\frac{5}{9} \\\\ & \\text{Given, using } \\mathrm{P}(W), \\; \\mathrm{P}(S_2) \\cdot \\mathrm{P}(S_3') = \\frac{1}{12} \\\\ & \\text{Therefore, from equivalence} \\left(\\frac{\\mathrm{P}(S_2)}{1 - \\mathrm{P}(S_2)} = \\frac{1}{12} \\times \\frac{9}{5}\\right) \\end{aligned} $\nFrom simplification:\n$ \\begin{aligned} & \\mathrm{P}(S_2) = \\frac{3}{23} \\\\ & \\frac{3}{23} \\cdot (1 - \\mathrm{P}(S_3)) = \\frac{1}{12} \\\\ & 1 - \\mathrm{P}(S_3) = \\frac{23}{36} \\\\ & \\mathrm{P}(S_3) = \\frac{13}{36} \\end{aligned} $\nThus, the probability that student $ S_3 $ can solve the problem, denoted by $ P(T) $, is:\n$ P(T) = 1 - \\mathrm{P}(S_3') = \\frac{13}{36} $",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True"
+    ]
+  },
+  {
+    "id": "math_probability_002",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A bookshelf contains 6 distinct books of Mathematics and 5 distinct books of Physics. From these 11 books, 6 books are chosen at random. Let $X$ be the absolute value of the difference between the number of Mathematics books chosen and the number of Physics books chosen. If $\\alpha$ is the mean of the random variable $X$, then the value of $77 \\alpha$ is $\\_\\_\\_\\_$ .",
+    "solution": "Let the number of Mathematics books chosen be $a$ and the number of Physics books chosen be $b$.\nSince a total of 6 books are selected, we have:\n$$a + b = 6$$\nThe random variable is defined as the absolute difference between these two numbers:\n$$X = |a - b|$$\n**Case 1:** $X = 6$\n\nThis happens if all 6 books are Mathematics books and none are Physics books, or vice versa. But since only 6 Maths and 5 Physics books exist, only $a=6$, $b=0$ is possible.\n$$P(X = 6) = \\frac{^6C_6 \\times ^5C_0}{^{11}C_6} = \\frac{1}{^{11}C_6}$$\n**Case 2:** $X = 4$\n\nThis happens if $(a,b) = (5,1)$ or $(a,b) = (1,5)$.\n$$P(X = 4) = \\frac{^6C_5 \\times ^5C_1 + ^6C_1 \\times ^5C_5}{^{11}C_6} = \\frac{36}{^{11}C_6}$$\n**Case 3:** $X = 2$\n\nThis happens if $(a,b) = (4,2)$ or $(a,b) = (2,4)$.\n$$P(X = 2) = \\frac{^6C_4 \\times ^5C_2 + ^6C_2 \\times ^5C_4}{^{11}C_6} = \\frac{225}{^{11}C_6}$$\n**Case 4:** $X = 0$\n\nThis happens if $(a,b) = (3,3)$.\n$$P(X = 0) = \\frac{^6C_3 \\times ^5C_3}{^{11}C_6} = \\frac{200}{^{11}C_6}$$\n**Mean of the random variable $X$:**\n$$\\alpha = \\sum X \\cdot P(X)$$\nSubstituting the values:\n$$\\alpha = \\frac{6(1) + 4(36) + 2(225) + 0(200)}{^{11}C_6}\\alpha = \\frac{100}{77}$$\nHence,\n$$77\\alpha = 100$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_003",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose that Box I contains 6 red balls and 9 green balls, and Box II contains 8 red balls and 12 green balls. All the balls of Box I and Box II are mixed together and a ball is chosen at random from them. Let $E_1$ be the event that the ball chosen belonged to Box I and let $E_2$ be the event that the ball chosen belonged to Box II. Let $F_1$ be the event that the ball chosen is red and let $F_2$ be the event that the ball chosen is green.Then which of the following statements is (are) TRUE?",
+    "solution": "[Diagram]\n\nThe first step is to define the given events clearly:\n$$ \\begin{array}{ll} E_1 \\rightarrow \\text{Ball from Box I} & F_1 \\rightarrow \\text{Red Ball} \\\\\\\\ E_2 \\rightarrow \\text{Ball from Box II} & F_2 \\rightarrow \\text{Green Ball} \\end{array} $$\n**Find total and individual probabilities.**\nTotal number of balls in both boxes = $15 + 20 = 35$.\nSo, we have:\n$$\\begin{array}{ll} P(E_1) = \\frac{15}{35}, & P(E_2) = \\frac{20}{35} \\\\\\\\ P(F_1) = \\frac{14}{35}, & P(F_2) = \\frac{21}{35} \\\\\\\\ P(E_1 \\cap F_1) = \\frac{6}{35}, & P(E_1 \\cap F_2) = \\frac{9}{35} \\\\\\\\ P(E_2 \\cap F_1) = \\frac{8}{35}, & P(E_2 \\cap F_2) = \\frac{12}{35} \\end{array}$$\n**Check the given options.**\n**Option (A):**\n$$P(E_1) \\cdot P(F_1) = \\frac{15}{35} \\times \\frac{14}{35} = \\frac{6}{35} = P(E_1 \\cap F_1)$$\nThis statement is true.\n**Option (B):**\n$$P(E_2) \\cdot P(F_2) = \\frac{20}{35} \\times \\frac{21}{35} = \\frac{12}{35} = P(E_2 \\cap F_2)$$\nThis statement also appears correct numerically, but let’s recheck later with the next steps.\n**Option (C):**\nFind the conditional probabilities:\n$$\\begin{array}{r} P(F_1 | E_1) = \\frac{\\frac{6}{35}}{\\frac{15}{35}} = \\frac{6}{15} = \\frac{2}{5}, \\\\\\\\ P(F_1 | E_2) = \\frac{\\frac{8}{35}}{\\frac{20}{35}} = \\frac{4}{20} = \\frac{2}{5} \\end{array}$$\nSince both are equal, $P(F_1 | E_1) = P(F_1 | E_2)$, this statement is true.\n**Option (D):**\n$$P(F_2 | E_2) = \\frac{\\frac{12}{35}}{\\frac{20}{35}} = \\frac{3}{5} > P(F_1 | E_1)$$\nThis means more green balls are likely from Box II than red balls from Box I.\n**Conclusion**\nThe correct statements are **Options (A) and (C)**.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The events $E_1$ and $F_1$ are independent",
+      "The events $E_2$ and $F_2$ are dependent",
+      "The conditional probability $P(F_1|E_1)$ is equal to the conditional probability $P(F_1|E_2)$",
+      "The conditional probability $P(F_1|E_1)$ is greater than the conditional probability $P(F_2|E_2)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpcc90qn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_004",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A person goes to office either by car, scooter, bus or train, the probability of which being $${1 \\over 7},{3 \\over 7},{2 \\over 7}$$ and $${1 \\over 7}$$ respectively. Probability that he reaches office late, if he takes car, scooter, bus or train is $${2 \\over 9},{1 \\over 9},{4 \\over 9}$$ and $${1 \\over 9}$$ respectively. Given that he reached office in time, then what is the probability that he travelled by a car.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_005",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If two events $$A$$ and $$B$$ are such that $$P\\,\\,\\left( {{A^c}} \\right)\\,\\, = \\,\\,0.3,\\,\\,P\\left( B \\right) = 0.4$$ and $$P\\left( {A \\cap {B^c}} \\right) = 0.5,$$ then $$P\\left( {B/\\left( {A \\cup {B^c}} \\right)} \\right.\\left. \\, \\right] = $$ ............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_006",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the probability for $$A$$ to fail in an examination is $$0.2$$ and that for $$B$$ is $$0.3$$, then the probability that either $$A$$ or $$B$$ fails is $$0.5$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_probability_007",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One Indian and four American men and their wives are to be seated randomly around a circular table. Then the conditional probability that the Indian man is seated adjacent to his wife given that each American man is seated adjacent to his wife is",
+    "solution": "We start with the given probabilities:\n\n$ P(U) = \\frac{1}{2} $\n$ P(V) = \\frac{1}{10} $\n$ P(W) = \\frac{1}{12} $\n\nThe event $ U $ indicates that at least one of the students can solve the problem. Thus, its complement $ U' $ (none of the students can solve the problem) is expressed as:\n$ \\mathrm{P}(U') = \\mathrm{P}(S_1' \\cap S_2' \\cap S_3') = 1 - P(U) = \\frac{1}{2} $\nThe expression for the probability of the complement is:\n$ \\mathrm{P}(S_1') \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{2} $\nFrom this, we understand:\n$ (1 - \\mathrm{P}(S_1))(1 - \\mathrm{P}(S_2))(1 - \\mathrm{P}(S_3)) = \\frac{1}{2} \\quad \\text{(Equation 1)} $\nGiven $ P(V) $, which is the probability that $ S_1 $ solves the problem given that neither $ S_2 $ nor $ S_3 $ can, we have:\n$ \\mathrm{P}(V) = \\frac{\\mathrm{P}(S_1 \\cap S_2' \\cap S_3')}{\\mathrm{P}(S_2' \\cap S_3')} = \\frac{1}{10} $\n$ \\Rightarrow \\mathrm{P}(S_1) \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{10} \\cdot \\mathrm{P}(S_2' \\cap S_3') $\nNow, calculate $ \\mathrm{P}(S_2' \\cap S_3') $:\nFrom $ P(W) $:\n$ \\mathrm{P}(W) = \\mathrm{P}(S_2 \\cap S_3') = \\frac{1}{12} $\nCombining Equations from conditions of complementary events:\n$ \\mathbf{\\frac{P(S_1)}{1 - \\mathrm{P}(S_1)} = \\frac{1}{10}} $\nNext, let's solve:\n$ \\begin{aligned} & (1 - \\mathrm{P}(S_2)) (1 - \\mathrm{P}(S_3)) = \\frac{5}{9} \\\\ & \\text{Given, using } \\mathrm{P}(W), \\; \\mathrm{P}(S_2) \\cdot \\mathrm{P}(S_3') = \\frac{1}{12} \\\\ & \\text{Therefore, from equivalence} \\left(\\frac{\\mathrm{P}(S_2)}{1 - \\mathrm{P}(S_2)} = \\frac{1}{12} \\times \\frac{9}{5}\\right) \\end{aligned} $\nFrom simplification:\n$ \\begin{aligned} & \\mathrm{P}(S_2) = \\frac{3}{23} \\\\ & \\frac{3}{23} \\cdot (1 - \\mathrm{P}(S_3)) = \\frac{1}{12} \\\\ & 1 - \\mathrm{P}(S_3) = \\frac{23}{36} \\\\ & \\mathrm{P}(S_3) = \\frac{13}{36} \\end{aligned} $\nThus, the probability that student $ S_3 $ can solve the problem, denoted by $ P(T) $, is:\n$ P(T) = 1 - \\mathrm{P}(S_3') = \\frac{13}{36} $",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 2}$$",
+      "$${1 \\over 3}$$",
+      "$${2 \\over 5}$$",
+      "$${1 \\over 5}$$"
+    ]
+  },
+  {
+    "id": "math_probability_008",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three students $S_1, S_2,$ and $S_3$ are given a problem to solve. Consider the following events:\n**U**: At least one of $S_1, S_2,$ and $S_3$ can solve the problem,\n**V**: $S_1$ can solve the problem, given that neither $S_2$ nor $S_3$ can solve the problem,\n**W**: $S_2$ can solve the problem and $S_3$ cannot solve the problem,\n**T**: $S_3$ can solve the problem.\nFor any event $E$, let $P(E)$ denote the probability of $E$. If\n$P(U) = \\dfrac{1}{2}$ , $P(V) = \\dfrac{1}{10}$ , and $P(W) = \\dfrac{1}{12}$,\nthen $P(T)$ is equal to",
+    "solution": "We start with the given probabilities:\n\n$ P(U) = \\frac{1}{2} $\n$ P(V) = \\frac{1}{10} $\n$ P(W) = \\frac{1}{12} $\n\nThe event $ U $ indicates that at least one of the students can solve the problem. Thus, its complement $ U' $ (none of the students can solve the problem) is expressed as:\n$ \\mathrm{P}(U') = \\mathrm{P}(S_1' \\cap S_2' \\cap S_3') = 1 - P(U) = \\frac{1}{2} $\nThe expression for the probability of the complement is:\n$ \\mathrm{P}(S_1') \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{2} $\nFrom this, we understand:\n$ (1 - \\mathrm{P}(S_1))(1 - \\mathrm{P}(S_2))(1 - \\mathrm{P}(S_3)) = \\frac{1}{2} \\quad \\text{(Equation 1)} $\nGiven $ P(V) $, which is the probability that $ S_1 $ solves the problem given that neither $ S_2 $ nor $ S_3 $ can, we have:\n$ \\mathrm{P}(V) = \\frac{\\mathrm{P}(S_1 \\cap S_2' \\cap S_3')}{\\mathrm{P}(S_2' \\cap S_3')} = \\frac{1}{10} $\n$ \\Rightarrow \\mathrm{P}(S_1) \\cdot \\mathrm{P}(S_2') \\cdot \\mathrm{P}(S_3') = \\frac{1}{10} \\cdot \\mathrm{P}(S_2' \\cap S_3') $\nNow, calculate $ \\mathrm{P}(S_2' \\cap S_3') $:\nFrom $ P(W) $:\n$ \\mathrm{P}(W) = \\mathrm{P}(S_2 \\cap S_3') = \\frac{1}{12} $\nCombining Equations from conditions of complementary events:\n$ \\mathbf{\\frac{P(S_1)}{1 - \\mathrm{P}(S_1)} = \\frac{1}{10}} $\nNext, let's solve:\n$ \\begin{aligned} & (1 - \\mathrm{P}(S_2)) (1 - \\mathrm{P}(S_3)) = \\frac{5}{9} \\\\ & \\text{Given, using } \\mathrm{P}(W), \\; \\mathrm{P}(S_2) \\cdot \\mathrm{P}(S_3') = \\frac{1}{12} \\\\ & \\text{Therefore, from equivalence} \\left(\\frac{\\mathrm{P}(S_2)}{1 - \\mathrm{P}(S_2)} = \\frac{1}{12} \\times \\frac{9}{5}\\right) \\end{aligned} $\nFrom simplification:\n$ \\begin{aligned} & \\mathrm{P}(S_2) = \\frac{3}{23} \\\\ & \\frac{3}{23} \\cdot (1 - \\mathrm{P}(S_3)) = \\frac{1}{12} \\\\ & 1 - \\mathrm{P}(S_3) = \\frac{23}{36} \\\\ & \\mathrm{P}(S_3) = \\frac{13}{36} \\end{aligned} $\nThus, the probability that student $ S_3 $ can solve the problem, denoted by $ P(T) $, is:\n$ P(T) = 1 - \\mathrm{P}(S_3') = \\frac{13}{36} $",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\dfrac{13}{36}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{19}{60}$",
+      "$\\dfrac{1}{4}$"
+    ]
+  },
+  {
+    "id": "math_probability_009",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A student appears for a quiz consisting of only true-false type questions and answers all the questions. The student knows the answers of some questions and guesses the answers for the remaining questions. Whenever the student knows the answer of a question, he gives the correct answer. Assume that the probability of the student giving the correct answer for a question, given that he has guessed it, is $\\frac{1}{2}$. Also assume that the probability of the answer for a question being guessed, given that the student's answer is correct, is $\\frac{1}{6}$. Then the probability that the student knows the answer of a randomly chosen question is :",
+    "solution": "We can solve this problem using Bayes' theorem. Let's define the following events :\n\n$A$: The student knows the answer of a randomly chosen question.\n\n$B$: The student guesses the answer of a randomly chosen question.\n\n$C$: The student gives the correct answer to a question.\n\nWe are asked to find the probability that the student knows the answer of a randomly chosen question, i.e., $P(A | C)$. According to Bayes' theorem,\n\n$$ P(A | C) = \\frac{P(C | A) \\cdot P(A)}{P(C)} $$\n\nWe need to find the values of $P(C | A)$, $P(A)$, and $P(C)$. Let's proceed step by step :\n\n1. $P(C | A)$ is the probability that the student gives the correct answer given that he knows the answer. Since he knows the answer, he will definitely give the correct answer. Therefore,\n\n$$ P(C | A) = 1 $$\n\n2. $P(A)$ is the probability that the student knows the answer of a randomly chosen question. We don't have this value directly, and we will denote it as $P(A)$. Likewise, the probability that the student guesses the answer is $P(B) = 1 - P(A)$.\n\n3. $P(C)$ is the total probability that the student gives the correct answer. This can be calculated using the Law of Total Probability :\n\n$$ P(C) = P(C | A) \\cdot P(A) + P(C | B) \\cdot P(B) $$\n\nWhere:\n\n$$ P(C | B) = \\frac{1}{2} $$\n\n(The probability that the student gives the correct answer given that he guessed it), and\n\n$$ P(B | C) = \\frac{1}{6} $$\n\n(The probability that the answer was guessed given the student's answer is correct).\n\nWe also have the relation :\n\n$$ P(B | C) = \\frac{P(C | B) \\cdot P(B)}{P(C)} $$\n\nSubstitute the known values and simplify :\n\n$$ \\frac{1}{6} = \\frac{\\frac{1}{2} \\cdot P(B)}{P(C)} $$\n\nSolving for $P(C)$ gives :\n\n$$ P(C) = 3 \\cdot P(B) $$\n\nFrom $P(B) = 1 - P(A)$, we get :\n\n$$ P(C) = 3 \\cdot (1 - P(A)) $$\n\nWe also know from our Law of Total Probability calculation :\n\n$$ P(C) = P(A) + \\frac{1}{2} \\cdot (1 - P(A)) $$\n\nEquate the two expressions for $P(C)$ :\n\n$$ P(A) + \\frac{1}{2} \\cdot (1 - P(A)) = 3 \\cdot (1 - P(A)) $$\n\nSimplify this equation:\n\n$$ P(A) + \\frac{1}{2} - \\frac{1}{2} \\cdot P(A) = 3 - 3 \\cdot P(A) P(A) - \\frac{1}{2} \\cdot P(A) + \\frac{1}{2} = 3 - 3 \\cdot P(A) \\frac{1}{2} \\cdot P(A) + \\frac{1}{2} = 3 - 3 \\cdot P(A) \\frac{7}{2} \\cdot P(A) = \\frac{5}{2} P(A) = \\frac{5}{7} $$\n\nThus, the probability that the student knows the answer of a randomly chosen question is :\n\n$$ \\boxed{\\frac{5}{7}} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{7}$",
+      "$\\frac{5}{7}$",
+      "$\\frac{5}{12}$"
+    ]
+  },
+  {
+    "id": "math_probability_010",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an experiment of tossing a coin repeatedly until the outcomes of two consecutive tosses are same. If the probability of a random toss resulting in head is $\\frac{1}{3}$, then the probability that the experiment stops with head is :",
+    "solution": "We are given a biased coin with the probability of getting heads (H) as $\\frac{1}{3}$ and thus, the probability of getting tails (T) is $\\frac{2}{3}$ (since the total probability of getting either heads or tails should sum to 1).\nThe experiment involves tossing this coin repeatedly until we obtain two identical outcomes in a row. We are interested in the case where the experiment ends with two consecutive heads.\nLet's consider two different scenarios for the sequences of coin tosses :\n\nSequences that begin with a head and end with HH (like HH, HTHH, HTHTHH, and so on).\nSequences that begin with a tail and end with HH (like THH, THTHH, THTHTHH, and so on).\n\nBoth types of sequences will result in the experiment ending, so we need to consider both in our final probability calculation.\nScenario 1 : Sequences beginning with H\nThe simplest sequence is getting HH right away. The probability of this event is $(\\frac{1}{3})^2 = \\frac{1}{9}$.\nThe next sequence is getting a head, then a tail, and then HH (i.e., HTHH). The probability of this sequence is $\\frac{1}{3} \\cdot \\frac{2}{3} \\cdot (\\frac{1}{3})^2 = \\frac{2}{81}$.\nWe can see a pattern in these sequences. Each sequence in this scenario can be described as getting one head, followed by some number of \"tail, head\" pairs, and ending with HH.\nHence, the sequences in this scenario form a geometric series, where the ratio between consecutive terms is $r = P(HT) = \\frac{1}{3} \\cdot \\frac{2}{3} = \\frac{2}{9}$.\nThe sum of an infinite geometric series is given by the formula $\\frac{a}{1 - r}$, where $a$ is the first term of the series and $r$ is the common ratio.\nIn this scenario, the first term is the probability of getting HH immediately, which is $\\frac{1}{9}$. So, the sum of this series is :\n$$S_1 = \\frac{1/9}{1 - 2/9} = \\frac{1/9}{7/9} = \\frac{1}{7}.$$\nScenario 2 : Sequences beginning with T\nIn this scenario, we first get a tail, and then we follow the same pattern as in the first scenario.\nThe simplest sequence is THH, with a probability of $\\frac{2}{3} \\cdot (\\frac{1}{3})^2 = \\frac{2}{27}$.\nThe next sequence is getting a tail, a head, another tail, and then HH (i.e., THTHH). The probability of this sequence is $\\frac{2}{3} \\cdot \\frac{1}{3} \\cdot \\frac{2}{3} \\cdot (\\frac{1}{3})^2 = \\frac{4}{243}$.\nAs before, these sequences form a geometric series, with the ratio between consecutive terms is $r = P(TH) = \\frac{2}{9}$.\nIn this scenario, the first term is the probability of getting THH, which is $\\frac{2}{27}$. So, the sum of this series is :\n$$S_2 = \\frac{2/27}{1 - 2/9} = \\frac{2/27}{7/9} = \\frac{2}{21}.$$\nFinally, to calculate the total probability of the experiment ending with two consecutive heads, we need to sum up the probabilities calculated in both scenarios:\n$$P(\\text{HH}) = S_1 + S_2 = \\frac{1}{7} + \\frac{2}{21} = \\frac{5}{21}.$$\nSo, the answer to the problem is $\\frac{5}{21}$ (Option B).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{5}{21}$",
+      "$\\frac{4}{21}$",
+      "$\\frac{2}{7}$"
+    ]
+  },
+  {
+    "id": "math_probability_011",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $X=\\left\\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z}: \\frac{x^2}{8}+\\frac{y^2}{20}<1\\right.$ and $\\left.y^2<5 x\\right\\}$. Three distinct points $P, Q$ and $R$ are randomly chosen from $X$. Then the probability that $P, Q$ and $R$ form a triangle whose area is a positive integer, is :",
+    "solution": "$$\n\\frac{x^2}{8}+\\frac{y^2}{20}<1 \\text { and } y^2<5 x\n$$\n\nLet $ \\frac{x^2}{8}+\\frac{y^2}{20}=1$ ........(1)\n\nand\n$$\ny^2=5 x\n$$ .........(2)\n\nOn solving (1) and (2), we get\n\n$$\n\\begin{aligned}\n& \\frac{x^2}{8}+\\frac{5 x}{20}=1 \\\\\\\\\n& \\frac{x^2}{8}+\\frac{x}{4}=1\n\\end{aligned}\n$$\n\n$\\begin{aligned} x^2+2 x =8 \\\\\\\\ \\Rightarrow x^2+2 x-8 =0 \\\\ \\\\\\Rightarrow (x+4)(x-2) =0 \\\\\\\\ \\Rightarrow x =-4, 2 \\\\\\\\ \\Rightarrow x =2(-4 \\text { is not possible }) \\\\\\\\ \\Rightarrow y^2 =10 \\\\\\\\ \\Rightarrow y = \\pm \\sqrt{10}\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} X=\\{(1,1),(1,0),(1,-1),(1,2),(1,-2),(2,1),(2-1), \\\\ (2,3),(2,3),(2,-3),(2,-2),(2,2),(2,0)\\}\\end{aligned}$\n\nLet $S$ be the sample space and $E$ be the event $n(S)={ }^{12} C_3$\n\nFor E :\n\nSelecting 3 points in which 2 points are either or $\\mathrm{x}=1$ and $ \\mathrm{x}=2$ but distance between them is even.\n\nTriangles with base 2 :\n\n$$\n=3 \\times 7+5 \\times 5=46\n$$\n\nTriangles with base 4 :\n\n$$\n=1 \\times 7+3 \\times 5=22\n$$\n\nTriangles with base 6 :\n\n$$\n=1 \\times 5=5\n$$\n\n$P(E)=\\frac{46+22+5}{{ }^{12} C_3}=\\frac{73}{220}$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{71}{220}$",
+      "$\\frac{73}{220}$",
+      "$\\frac{79}{220}$",
+      "$\\frac{83}{220}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrzc8tq1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_012",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose that\n\nBox-I contains 8 red, 3 blue and 5 green balls,\n\nBox-II contains 24 red, 9 blue and 15 green balls,\n\nBox-III contains 1 blue, 12 green and 3 yellow balls,\n\nBox-IV contains 10 green, 16 orange and 6 white balls.\n\nA ball is chosen randomly from Box-I; call this ball $b$. If $b$ is red then a ball is chosen randomly from Box-II, if $b$ is blue then a ball is chosen randomly from Box-III, and if $b$ is green then a ball is chosen randomly from Box-IV. The conditional probability of the event 'one of the chosen balls is white' given that the event 'at least one of the chosen balls is green' has happened, is equal to",
+    "solution": "[Diagram]\n\nA (one of the chosen ball is white)\n\nB (at least one of the chosen ball is green)\n\n$$\n\\begin{aligned}\nP\\left(\\frac{A}{B}\\right) & =\\frac{P(A \\cap B)}{P(B)} \\\\\\\\\n& =\\frac{\\frac{5}{16} \\times \\frac{6}{32}}{\\frac{5}{16} \\times 1+\\frac{8}{16} \\times \\frac{15}{48}+\\frac{3}{16} \\times \\frac{12}{16}} \\\\\\\\\n& =\\frac{15}{156}=\\frac{5}{52}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\frac{15}{256}$",
+      "$\\frac{3}{16}$",
+      "$\\frac{5}{52}$",
+      "$\\frac{1}{8}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lf7eal5m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_013",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two players, $$P_{1}$$ and $$P_{2}$$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $$x$$ and $$y$$ denote the readings on the die rolled by $$P_{1}$$ and $$P_{2}$$, respectively. If $$x>y$$, then $$P_{1}$$ scores 5 points and $$P_{2}$$ scores 0 point. If $$x=y$$, then each player scores 2 points. If $$x < y$$, then $$P_{1}$$ scores 0 point and $$P_{2}$$ scores 5 points. Let $$X_{i}$$ and $$Y_{i}$$ be the total scores of $$P_{1}$$ and $$P_{2}$$, respectively, after playing the $$i^{\\text {th }}$$ round.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) Probability of $$\\left(X_{2} \\geq Y_{2}\\right)$$ is\n(P) $$\\frac{3}{8}$$\n\n\n(II) Probability of $$\\left(X_{2}>Y_{2}\\right)$$ is\n(Q) $$\\frac{11}{16}$$\n\n\n(III) Probability of $$\\left(X_{3}=Y_{3}\\right)$$ is\n(R) $$\\frac{5}{16}$$\n\n\n(IV) Probability of $$\\left(X_{3}>Y_{3}\\right)$$ is\n(S) $$\\frac{355}{864}$$\n\n\n\n(T) $$\\frac{77}{432}$$\n\n\nThe correct option is:",
+    "solution": "Given,\n\n$$\n\\begin{aligned}\n& P(\\text { draw in } 1 \\text { round })=\\frac{6}{36}=\\frac{1}{6} \\\\\\\\\n& P(\\text { win in } 1 \\text { round })=\\frac{1}{2}\\left(1-\\frac{1}{6}\\right)=\\frac{5}{12} \\\\\\\\\n& P(\\text { loss in } 1 \\text { round })=\\frac{5}{12}\n\\end{aligned}\n$$\n\nNow finding the probability of all we get.\n\n$$\n\\begin{aligned}\n& \\mathrm{P}\\left(\\mathrm{X}_2>\\mathrm{Y}_2\\right)=\\mathrm{P}(10,0)+\\mathrm{P}(7,2) \\\\\\\\\n& =\\frac{5}{12} \\times \\frac{5}{12}+\\frac{5}{12} \\times \\frac{1}{6} \\times 2 \\\\\\\\\n& =\\frac{45}{144}=\\frac{5}{16} \\rightarrow \\mathrm{R} \\\\\\\\\n& \\mathrm{P}\\left(\\mathrm{X}_2=\\mathrm{Y}_2\\right)=\\mathrm{P}(5,5)+\\mathrm{P}(4,4) \\\\\\\\\n& =\\frac{5}{12} \\times \\frac{5}{12} \\times 2+\\frac{1}{6} \\times \\frac{1}{6} \\\\\\\\\n& =\\frac{25+2}{72}=\\frac{3}{8} \\\\\\\\\n& \\mathrm{P}\\left(\\mathrm{X}_3=\\mathrm{Y}_3\\right)=\\mathrm{P}(6,6)+\\mathrm{P}(7,7) \\\\\\\\\n& =\\frac{1}{6 \\times 6 \\times 6}+\\frac{5}{12} \\times \\frac{1}{6} \\times \\frac{5}{12} \\times \\frac{1}{6} \\\\\\\\\n& =\\frac{77}{432} \\rightarrow \\mathrm{F} \\\\\\\\\n& \\mathrm{P}\\left(\\mathrm{X}_3>\\mathrm{Y}_3\\right)=\\frac{1}{2}\\left(1-\\frac{77}{432}\\right)=\\frac{355}{864} \\rightarrow \\mathrm{S} \\\\\\\\\n& P\\left(X_2 \\geq Y_2\\right)=\\frac{5}{16}+\\frac{3}{8}=\\frac{11}{16} \\rightarrow \\mathrm{Q}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(I) $$\\rightarrow$$ (Q); (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow$$ (T); (IV) $$\\rightarrow(S)$$",
+      "(I) $$\\rightarrow$$ (Q); (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow$$ (T); (IV) $$\\rightarrow$$ (T)",
+      "(I) $$\\rightarrow$$ (P); (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow(\\mathrm{Q}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{S})$$",
+      "(I) $$\\rightarrow$$ (P); (II) $$\\rightarrow$$ (R); (III) $$\\rightarrow$$ (Q); (IV) $$\\rightarrow$$ (T)"
+    ]
+  },
+  {
+    "id": "math_probability_014",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider three sets E$_{1}$ = {1, 2, 3}, F$_{1}$ = {1, 3, 4} and G$_{1}$ = {2, 3, 4, 5}. Two elements are chosen at random, without replacement, from the set E$_{1}$, and let S$_{1}$ denote the set of these chosen elements. Let E$_{2}$ = E$_{1}$ $$-$$ S$_{1}$ and F$_{2}$ = F$_{1}$ $$\\cup$$ S$_{1}$. Now two elements are chosen at random, without replacement, from the set F$_{2}$ and let S$_{2}$ denote the set of these chosen elements.\n\nLet G$_{2}$ = G$_{1}$ $$\\cup$$ S$_{2}$. Finally, two elements are chosen at random, without replacement, from the set G$_{2}$ and let S$_{3}$ denote the set of these chosen elements.\n\nLet E$_{3}$ = E$_{2}$ $$\\cup$$ S$_{3}$. Given that E$_{1}$ = E$_{3}$, let p be the conditional probability of the event S$_{1}$ = {1, 2}. Then the value of p is",
+    "solution": "[Diagram]\n\nTo find : Probability P = $${{P({S_1} \\cap ({E_1} = {E_3}))} \\over {P({E_1} = {E_3})}} = {{P({A_{1,2}})} \\over {P(A)}}$$\n\nwhere $$P(A) = P({A_{1,2}}) + P({A_{1,3}}) + P({A_{2,3}})$$\n\nAlso, A$_{1, 2}$ represents 1, 2 chosen at start and similarly others.\n\nNow, $$P({A_{1,2}}) = {1 \\over 3} \\times {{1 \\times {}^3{C_1}} \\over {{}^4{C_2}}} \\times {1 \\over {{}^5{C_2}}} = {1 \\over 3} \\times {3 \\over 6} \\times {1 \\over {10}} = {1 \\over 3} \\times {1 \\over 2} \\times {1 \\over {10}}P({A_{1,3}}) = {1 \\over 3} \\times {{1 \\times {}^2{C_1}} \\over {{}^4{C_2}}} \\times {1 \\over {{}^5{C_2}}} = {1 \\over 3} \\times {2 \\over 3} \\times {1 \\over {10}}P({A_{2,3}}) = {1 \\over 3} \\times \\left[ {{{{}^3{C_2} \\times 1} \\over {{}^4{C_2}}} \\times {1 \\over {{}^4{C_2}}} + {{1 \\times {}^3{C_1}} \\over {{}^4{C_2}}} \\times {1 \\over {{}^5{C_2}}}} \\right] = {1 \\over 3} \\times \\left[ {{3 \\over 6} \\times {1 \\over 6} + {3 \\over 6} \\times {1 \\over {10}}} \\right] = {1 \\over 3}\\left[ {{1 \\over 2} \\times {1 \\over 6} + {1 \\over 2} \\times {1 \\over {10}}} \\right]P(A) = {1 \\over 3}\\left[ {{1 \\over 2} \\times {1 \\over {10}} + {1 \\over 2} \\times 0 + {1 \\over 2} \\times {1 \\over {10}} + {1 \\over 2} \\times {1 \\over 6} + {2 \\over 3} \\times {1 \\over {10}} + {1 \\over 3} \\times 0} \\right] = {1 \\over 3}\\left[ {{1 \\over 4}} \\right] = {1 \\over {12}}\\therefore$$ Required probability $$ = {{{1 \\over 3}\\left( {{1 \\over 2} \\times {1 \\over {10}}} \\right)} \\over {{1 \\over {12}}}}$$ [$$\\becauseP = {{P({A_{1,2}})} \\over {P(A)}}$$]\n\n$$ = {1 \\over {60}} \\times {{12} \\over 1} = {1 \\over 5}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over 5}$$",
+      "$${3 \\over 5}$$",
+      "$${1 \\over 2}$$",
+      "$${2 \\over 5}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxvpf6y1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_015",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let C$_{1}$ and C$_{2}$ be two biased coins such that the probabilities of getting head in a single toss are $${{2 \\over 3}}$$ and $${{1 \\over 3}}$$, respectively. Suppose $$\\alpha $$ is the number of heads that appear when C$_{1}$ is tossed twice, independently, and suppose $$\\beta $$ is the number of heads that appear when C$_{2}$ is tossed twice, independently. Then the probability that the roots of the quadratic polynomial x$^{2}$ $$-$$ ax + $$\\beta $$ are real and equal, is",
+    "solution": "It is given that $$\\alpha $$ is the number of heads that appear when C$_{1}$ is tossed twice, the probability distribution of random variable $$\\alpha $$ is\n\n\n[Diagram]\n\n\nSimilarly, it is given that $$\\beta $$ is the number of heads that appear when C$_{2}$ is tossed twice, so probability distribution of random variable $$\\beta $$ is\n\n\n[Diagram]\n\n\nNow, as the roots of quadratic polynomial x$^{2}$ $$-\\alpha $$x + $$\\beta $$ are real and equal, so D = $$\\alpha $$$^{2}$ $$-$$ 4$$\\beta $$ = 0 and it is possible if ($$\\alpha $$, $$\\beta $$) = (0, 0) or (2, 1)\n\n$$ \\therefore $$ Required probability\n\n= $${\\left( {{1 \\over 3}} \\right)^2}{\\left( {{2 \\over 3}} \\right)^2} + {\\left( {{2 \\over 3}} \\right)^2}\\left( {{4 \\over 9}} \\right)$$\n\n= $${{4 \\over {81}}}$$ + $${{16 \\over {81}}}$$ = $${{20 \\over {81}}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{40} \\over {81}}$$",
+      "$${{20} \\over {81}}$$",
+      "$${{1} \\over {2}}$$",
+      "$${{1} \\over {4}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_016",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are five students S$_{1}$, S$_{2}$, S$_{3}$, S$_{4}$ and S$_{5}$ in a music class and for them there are five seats R$_{1}$, R$_{2}$, R$_{3}$, R$_{4}$ and R$_{5}$ arranged in a row, where initially the seat R$_{i}$ is allotted to the student S$_{i}$, i = 1, 2, 3, 4, 5. But, on the examination day, the five students are randomly allotted the five seats.\n\n(There are two questions based on Paragraph \"A\", the question given below is one of them)\n\nThe probability that, on the examination day, the student S$_{1}$ gets the previously allotted seat R$_{1}$, and NONE of the remaining students gets the seat previously allotted to him/her is",
+    "solution": "Here, five students S$_{1}$, S$_{1}$, S$_{3}$, S$_{4}$ and S$_{5}$ and five seats R$_{1}$, R$_{2}$, R$_{3}$, R$_{4}$ and R$_{5}$\n\n$$ \\therefore $$ Total number of arrangement of sitting five students is 5! = 120\n\nHere, S$_{1}$ gets previously allotted seat R$_{1}$\n\n$$ \\therefore $$ S$_{2}$, S$_{3}$, S$_{4}$ and S$_{5}$ not get previously seats.\n\nTotal number of way S$_{2}$, S$_{3}$, S$_{4}$ and S$_{5}$ not get previously seats is\n\n$$4!\\left( {1 - {1 \\over {1!}} + {1 \\over {2!}} - {1 \\over {3!}} + {1 \\over {4!}}} \\right) = 24\\left( {1 - 1 + {1 \\over 2} - {1 \\over 6} + {1 \\over {24}}} \\right) = 24\\left( {{{12 - 4 + 1} \\over {24}}} \\right) = 9 \\therefore $$ Required probability = $${9 \\over {120}} = {3 \\over {40}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${3 \\over {40}}$$",
+      "$${1 \\over 8}$$",
+      "$${7 \\over 40}$$",
+      "$${1 \\over 5}$$"
+    ]
+  },
+  {
+    "id": "math_probability_017",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are five students S$_{1}$, S$_{2}$, S$_{3}$, S$_{4}$ and S$_{5}$ in a music class and for them there are five seats R$_{1}$, R$_{2}$, R$_{3}$, R$_{4}$ and R$_{5}$ arranged in a row, where initially the seat R$_{i}$ is allotted to the student S$_{i}$, i = 1, 2, 3, 4, 5. But, on the examination day, the five students are randomly allotted the five seats.\n\n(There are two questions based on Paragraph \"A\", the question given below is one of them)\n\nFor i = 1, 2, 3, 4, let T$_{i}$ denote the event that the students S$_{i}$ and S$_{i+1}$ do NOT sit adjacent to each other on the day of the examination. Then, the probability of the event $${T_1} \\cap {T_2} \\cap {T_3} \\cap {T_4}$$ is",
+    "solution": "Here, $$n({T_1} \\cap {T_2} \\cap {T_3} \\cap {T_4})$$ = Total $$ - n(\\overline {{T_1}} \\cup \\overline {{T_2}} \\cup \\overline {{T_3}} \\cup \\overline {{T_4}} ) \\Rightarrow n({T_1} \\cap {T_2} \\cap {T_3} \\cap {T_4}) = 5! - [{}^4{C_1}4!2!\\, - ({}^3{C_1}3!2! + {}^3{C_1}3!2!2!) + ({}^2{C_1}2!2!\\, + \\,{}^4{C_1}2.2!) - 2] \\Rightarrow n({T_1} \\cap {T_2} \\cap {T_3} \\cap {T_4}) = 120 - [192 - (36 + 72) + (8 + 16) - 2] = 120 - [192 - 108 + 24 - 2] = 14 \\therefore $$ Required probability = $${{14} \\over {120}} = {7 \\over {60}}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over {15}}$$",
+      "$${1 \\over {10}}$$",
+      "$${7 \\over {60}}$$",
+      "$${1 \\over {5}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_018",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three randomly chosen nonnegative integers x, y and z are found to satisfy the equation x + y + z = 10. Then the probability that z is even, is",
+    "solution": "To solve this problem, we need to find the total number of possible solutions to the equation $ x + y + z = 10 $ where $ x, y, $ and $ z $ are nonnegative integers.\n\nFirst, we employ the \"stars and bars\" method to determine the number of nonnegative integer solutions to this equation. This method states that the number of ways to partition $ n $ identical items (our sum) into $ k $ distinct groups (our variables) is given by:\n\n$$ \\binom{n + k - 1}{k - 1} $$\n\nFor $ x + y + z = 10 $, we have $ n = 10 $ and $ k = 3 $. Plugging into the formula, we get:\n\n$$ \\binom{10 + 3 - 1}{3 - 1} = \\binom{12}{2} $$\n\nWe calculate the binomial coefficient:\n\n$$ \\binom{12}{2} = \\frac{12 \\times 11}{2 \\times 1} = 66 $$\n\nSo, there are 66 possible solutions to the equation $ x + y + z = 10 $.\n\nNext, we need to find the number of solutions for which $ z $ is even. Let $ z = 2k $ where $ k $ is a nonnegative integer. Then the equation becomes:\n\n$$ x + y + 2k = 10 $$\n\nRearranging it, we get:\n\n$$ x + y = 10 - 2k $$\n\nHere, $ 10 - 2k $ must be nonnegative, so $ k $ can take values $ 0, 1, 2, 3, 4, 5 $ making total 6 possible values of k.\n\nFor each value of $ k $, $ x + y $ must equal the corresponding $ 10 - 2k $. The number of nonnegative integer solutions to $ x + y = m $ for any nonnegative integer $ m $ is given by:\n\n$$ \\binom{m + 1}{1} = m + 1 $$\n\nWe will sum the solutions for each valid $ k $:\n\nWhen $ k = 0 $: $ x + y = 10 $, the number of solutions is $ 11 $.\n\nWhen $ k = 1 $: $ x + y = 8 $, the number of solutions is $ 9 $.\n\nWhen $ k = 2 $: $ x + y = 6 $, the number of solutions is $ 7 $.\n\nWhen $ k = 3 $: $ x + y = 4 $, the number of solutions is $ 5 $.\n\nWhen $ k = 4 $: $ x + y = 2 $, the number of solutions is $ 3 $.\n\nWhen $ k = 5 $: $ x + y = 0 $, the number of solutions is $ 1 $.\n\nSumming these, we get:\n\n$$ 11 + 9 + 7 + 5 + 3 + 1 = 36 $$\n\nThus, there are 36 solutions where $ z $ is even out of a total of 66 solutions. Hence, the probability that $ z $ is even is given by:\n\n$$ \\frac{36}{66} = \\frac{6}{11} $$\n\nThus, the correct answer is:\n\nOption C: $$ \\frac{6}{11} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over {2}}$$",
+      "$${36 \\over {55}}$$",
+      "$${6 \\over {11}}$$",
+      "$${5 \\over {11}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_019",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Football teams $${T_1}$$ and $${T_2}$$ have to play two games against each other. It is assumed that the outcomes of the two games are independent. The probabilities of $${T_1}$$ winning, drawing and losing a game against $${T_2}$$ are $${1 \\over 2},{1 \\over 6}$$ and $${1 \\over 3}$$ respectively. Each team gets $$3$$ points for a win, $$1$$ point for a draw and $$0$$ point for a loss in a game. Let $$X$$ and $$Y$$ denote the total points scored by teams $${T_1}$$ and $${T_2}$$ respectively after two games.\n$$\\,\\,\\,\\,P\\,\\left( {X > Y} \\right)$$ is",
+    "solution": "$$\\bullet$$ Probability of wining of T$_{1}$ against T$_{2}$ is = 1/2.\n$$\\bullet$$ Probability of drawing of T$_{1}$ against T$_{2}$ is = 1/6.\n$$\\bullet$$ Probability of losing of T$_{1}$ against T$_{2}$ is = 1/3.\n$$\\bullet$$3 points for win.\n$$\\bullet$$1 point for draw.\n$$\\bullet$$ 0 point for loss.\nHere, P(X > Y) = P(T$_{1}$ win) P(T$_{1}$ win) + P(T$_{1}$ win) P(draw) + P(draw) P(T$_{1}$ win)\n$$ = \\left( {{1 \\over 2} \\times {1 \\over 2}} \\right) + \\left( {{1 \\over 2} \\times {1 \\over 6}} \\right) + \\left( {{1 \\over 6} \\times {1 \\over 2}} \\right) = {5 \\over {12}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${1 \\over 4}$$",
+      "$${5 \\over 12}$$",
+      "$${1 \\over 2}$$",
+      "$${7 \\over 12}$$"
+    ]
+  },
+  {
+    "id": "math_probability_020",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Football teams $${T_1}$$ and $${T_2}$$ have to play two games against each other. It is assumed that the outcomes of the two games are independent. The probabilities of $${T_1}$$ winning, drawing and losing a game against $${T_2}$$ are $${1 \\over 2},{1 \\over 6}$$ and $${1 \\over 3}$$ respectively. Each team gets $$3$$ points for a win, $$1$$ point for a draw and $$0$$ point for a loss in a game. Let $$X$$ and $$Y$$ denote the total points scored by teams $${T_1}$$ and $${T_2}$$ respectively after two games.\n$$P\\,\\left( {X = Y} \\right)$$ is",
+    "solution": "$$\\bullet$$ Probability of wining of T$_{1}$ against T$_{2}$ = 1/2.\n$$\\bullet$$ Probability of drawing of T$_{1}$ against T$_{2}$ is = 1/6.\n$$\\bullet$$ Probability of losing of T$_{1}$ against T$_{2}$ is = 1/3.\n$$\\bullet$$ 3 points for win.\n$$\\bullet$$ 1 point for draw.\n$$\\bullet$$ 0 point for loss.\nP[X = Y] = P(draw) . P(draw) + P(T$_{1}$ win) P(T$_{2}$ win) + P(T$_{2}$ win) . P(T$_{1}$ win)\n= (1/6 $$\\times$$ 1/6) + (1/2 $$\\times$$ 1/3) + (1/3 $$\\times$$ 1/2) = 13/36",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{11} \\over {36}}$$",
+      "$${{1} \\over {3}}$$",
+      "$${{13} \\over {36}}$$",
+      "$${{1} \\over {2}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_021",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A computer producing factory has only two plants $${T_1}$$ and $${T_2}.$$ Plant $${T_1}$$ produces $$20$$% and plant $${T_2}$$ produces $$80$$% of the total computers produced. $$7$$% of computers produced in the factory turn out to be defective. It is known that $$P$$ (computer turns out to be defective given that it is produced in plant $${T_1}$$)\n\n$$ = 10P$$ (computer turns out to be defective given that it is produced in plant $${T_2}$$),\n\nwhere $$P(E)$$ denotes the probability of an event $$E$$. A computer produced in the factory is randomly selected and it does not turn out to be defective. Then the probability that it is produced in plant $${T_2}$$ is",
+    "solution": "Let $P_1$ be the defective computers that are produced from plant $T_1$ and $P_2$ be that from plant $T_2$.\n\nThe total percentage of the defective computers produced is $7 \\%$.\n\nNow, $P_1=10 P$ and $P_2=P$.\n\nThe computers produced that are defective:\n\n$$\n\\begin{gathered}\n\\frac{20}{100} \\times P_1+\\frac{80}{100} \\times P_2=\\frac{7}{100} \\\\\\\\\n20 P_1+80 P_2=7 \\\\\\\\\n200 P+80 P=7 \\\\\\\\\nP=\\frac{7}{280}=\\frac{1}{40}\n\\end{gathered}\n$$\n\nNow, the probability of the defective products is calculated as follows:\n\n$$\n\\frac{20}{100} P_1+\\frac{80}{100} P_2=\\frac{20}{100} \\times \\frac{1}{4}+\\frac{80}{100} \\times \\frac{1}{40}=\\frac{28}{400}=\\frac{7}{100}\n$$\n\nThe probability of producing NOT defective computers is\n\n$$\n1-\\frac{7}{100}=\\frac{93}{100}\n$$\n\nThe probability that plant $T_2$ produces NOT defective computers is calculated as follows:\n\n$$\n\\frac{(80 / 100) \\times(39 / 40)}{(93 / 100)}=\\frac{78}{93}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{36} \\over {73}}$$",
+      "$${{47} \\over {79}}$$",
+      "$${{78} \\over {93}}$$",
+      "$${{75} \\over {83}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_022",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Box $$1$$ contains three cards bearing numbers $$1,2,3;$$ box $$2$$ contains five cards bearing numbers $$1,2,3,4,5;$$ and box $$3$$ contains seven cards bearing numbers $$1,2,3,4,5,6,7.$$ A card is drawn from each of the boxes. Let $${x_i}$$ be number on the card drawn from the $${i^{th}}$$ box, $$i=1,2,3.$$\nThe probability that $${x_1} + {x_2} + {x_3}$$ is odd, is",
+    "solution": "Given three Boxes:\n\n[Diagram]\n\nGiven, that a card is drow from each Box and $$x_i$$ denote the number on the card drawn from $$i^{\\text {tht }}$$ box, $$i=1,2,3$$.\nSample space $$={ }^3 \\mathrm{C}_1 .{ }^5 \\mathrm{C}_1 .{ }^7 \\mathrm{C}_1=3 \\cdot 5 \\cdot 7=105$$.\nLet A be the event when $$x_1+x_2+x_3$$ is odd.\nCase I: When all $$x_1, x_2, x_3$$ are odd\nNo. of ways $$={ }^2 \\mathrm{C}_1 .{ }^3 \\mathrm{C}_1 .{ }^4 \\mathrm{C}_1=2.3 \\cdot 4=24$$\nCase II: When $$x_1$$ is odd and $$x_2, x_3$$ are even\nNo. of ways $$={ }^2 \\mathrm{C}_1 .{ }^2 \\mathrm{C}_1 .{ }^3 \\mathrm{C}_1=12$$\nCase III: When $$x_2$$ is odd and $$x_1, x_3$$ are even\nNo. of ways $$={ }^1 \\mathrm{C}_1 .{ }^3 \\mathrm{C}_1 .{ }^3 \\mathrm{C}_1=9$$\nCase IV: When $$x_3$$ is odd and $$x_1, x_2$$ are even\nNo. of ways $$={ }^1 \\mathrm{C}_1 .{ }^2 \\mathrm{C}_1 . \\mathrm{C}_1 \\mathrm{C}_1=8$$\nNo. of favorable cases for A is\n$$\\begin{aligned}\n24+12+9+8 & =53 \\\\\n\\text { Required Probability } & =\\mathrm{P}(\\mathrm{A})=\\frac{53}{105}\n\\end{aligned}$$\nHint:\nRecall that sum of three numbers is odd only when\n(i) All three numbers are odd.\n(ii) Two numbers are even and one is odd.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{29} \\over {105}}$$",
+      "$${{53} \\over {105}}$$",
+      "$${{57} \\over {105}}$$",
+      "$${{1} \\over {2}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqnnm2f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_023",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Box $$1$$ contains three cards bearing numbers $$1,2,3;$$ box $$2$$ contains five cards bearing numbers $$1,2,3,4,5;$$ and box $$3$$ contains seven cards bearing numbers $$1,2,3,4,5,6,7.$$ A card is drawn from each of the boxes. Let $${x_i}$$ be number on the card drawn from the $${i^{th}}$$ box, $$i=1,2,3.$$\nThe probability that $${x_1},$$, $${x_2},{x_3}$$ are in an arithmetic progression, is",
+    "solution": "Given three Boxes :\n\n[Diagram]\n\nGiven, that a card is drow from each box and $$x_i$$ denote the number on the card drawn from $$i^{\\text {th }}$$ box, $$i=1,2,3$$.\nSample Space $$={ }^3 \\mathrm{C}_1 .{ }^5 \\mathrm{C}_1 .{ }^7 \\mathrm{C}_1=3 \\cdot 5 \\cdot 7=105$$.\nLet B be the event when $$x_1, x_2, x_3$$ are in A.P.\n$$\\Rightarrow 2 x_2=x_1+x_3$$\nHere, $$x_1+x_3$$ is even number and for every even value of $$x_1+x_3$$ there is only one possible value of $$x_2x_1+x_2$$ is even in two cases\nCase I: When both $$x_1$$ and $$x_2$$ are even\nNo. of ways $$={ }^1 \\mathrm{C}_1$$. $${ }^3 \\mathrm{C}_{1=}=3$$\nCase II: When both $$x_1$$ and $$x_2$$ are odd\nNo. of ways $$={ }^2 \\mathrm{C}_1 .{ }^4 \\mathrm{C}_1=2 \\times 4=8$$\nNumber of favorable cases for $$\\mathrm{B}=3+8=11$$\nRequired probability $$=\\frac{11}{105}$$\nHint:\n$$2 x_2=x_1+x_3$$ indicate, $$x_1+x_3$$ is even and for every even value of $$x_1+x_3$$ there is only one possible value of $$x_2$$. Now, $$x_1+x_3$$ is even in two cases:\n(i) When both $$x_1$$ and $$x_2$$ are even.\n(ii) When both $$x_1$$ and $$x_2$$ are odd.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{9} \\over {105}}$$",
+      "$${{10} \\over {105}}$$",
+      "$${{11} \\over {105}}$$",
+      "$${{7} \\over {105}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqnnm2f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_024",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three boys and two girls stand in a queue. The probability, that the number of boys ahead of every girl is at least one more than the number of girls ahead of her, is",
+    "solution": "Given, 3 boys and 2 girls stand in a queue.\nSample space $$n(s)=\\left| \\!{\\underline {\\,\n{5} \\,}} \\right.=120$$\nAccording to the given condition, following cases may arise.\nBGGBB $$\\quad \\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.$$\nGGBBB $$\\quad \\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.$$\nGBGBB $$\\quad \\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.$$\nGBBGB $$\\quad \\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.$$\nBGBGB $$\\quad \\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.$$\nSo, number of favorable ways $$=5\\left| \\!{\\underline {\\,\n{3} \\,}} \\right. \\left| \\!{\\underline {\\,\n{2} \\,}} \\right.=60$$\nRequired probability $$=\\frac{60}{120}=\\frac{1}{2}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${1 \\over 2}$$",
+      "$${1 \\over 3}$$",
+      "$${2 \\over 3}$$",
+      "$${3 \\over 4}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs0mr4e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_025",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box $${B_1}$$ contains $$1$$ white ball, $$3$$ red balls and $$2$$ black balls. Another box $${B_2}$$ contains $$2$$ white balls, $$3$$ red balls and $$4$$ black balls. A third box $${B_3}$$ contains $$3$$ white balls, $$4$$ red balls and $$5$$ black balls.\nIf $$2$$ balls are drawn (without replacement) from a randomly selected box and one of the balls is white and the other ball is red, the probability that these $$2$$ balls are drawn from box $${B_2}$$ is",
+    "solution": "Let $$E$$ be the event of one white and one red balls $$A_1, A_2, A_3$$ be the events of both balls are from box $$\\mathrm{B}_1, \\mathrm{~B}_2, \\mathrm{~B}_3$$ respectively\nNow, the probability of one white and one red both balls are drawn from box $$B_2$$ is $$P\\left(\\frac{A_2}{E}\\right)$$.\n$$\\Rightarrow P\\left(\\frac{A_2}{E}\\right)=\\frac{P\\left(A_2 \\cap E\\right)}{P(E)}\\begin{aligned}\n& \\Rightarrow P\\left(\\frac{A_2}{E}\\right)=\\frac{P\\left(A_2\\right) \\cdot P\\left(\\frac{E}{A_2}\\right)}{P\\left(A_1\\right) \\cdot P\\left(\\frac{E}{A_1}\\right)+P\\left(A_2\\right).\\mathrm{P}\\left(\\frac{\\mathrm{E}}{\\mathrm{A}_2}\\right)+\\mathrm{P}\\left(\\mathrm{A}_3\\right) \\cdot \\mathrm{P}\\left(\\frac{\\mathrm{E}}{\\mathrm{A}_3}\\right)} \\\\\n& \\Rightarrow \\mathrm{P}\\left(\\frac{\\mathrm{A}_2}{\\mathrm{E}}\\right)=\\frac{\\frac{1}{3} \\times \\frac{{ }^2 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_1}{{ }^9 \\mathrm{C}_2}}{\\frac{1}{3} \\times \\frac{{ }^1 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_1}{{ }^6 \\mathrm{C}_2}+\\frac{1}{3} \\times \\frac{{ }^2 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_1}{{ }^9 \\mathrm{C}_2}+\\frac{1}{3} \\times \\frac{{ }^3 \\mathrm{C}_1 \\cdot{ }^4 \\mathrm{C}_1}{{ }^{12} \\mathrm{C}_2} } \\\\\n& \\Rightarrow \\mathrm{P}\\left(\\frac{\\mathrm{A}_2}{\\mathrm{E}}\\right)=\\frac{\\frac{1}{6}}{\\frac{1}{5}+\\frac{1}{6}+\\frac{2}{11}} \\\\\n& \\Rightarrow \\mathrm{P}\\left(\\frac{\\mathrm{A}_2}{\\mathrm{E}}\\right)=\\frac{55}{181} \\\\\n\\end{aligned}$$\nHints:\n$$\\Rightarrow$$ Recall the Bay's theorem\n$$\n\\begin{gathered}\nP\\left(\\frac{A_2}{E}\\right)=\\frac{P\\left(A_2\\right) \\cdot P\\left(\\frac{E}{A_2}\\right)}{P\\left(A_1\\right) \\cdot P\\left(\\frac{E}{A}\\right)+P\\left(A_2\\right) \\cdot P\\left(\\frac{E}{A_2}\\right)+P\\left(A_3\\right) \\cdot P\\left(\\frac{E}{A_3}\\right)}\\\\\n\\end{gathered}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{116} \\over {181}}$$",
+      "$${{126} \\over {181}}$$",
+      "$${{65} \\over {181}}$$",
+      "$${{55} \\over {181}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs0mr4e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_026",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box $${B_1}$$ contains $$1$$ white ball, $$3$$ red balls and $$2$$ black balls. Another box $${B_2}$$ contains $$2$$ white balls, $$3$$ red balls and $$4$$ black balls. A third box $${B_3}$$ contains $$3$$ white balls, $$4$$ red balls and $$5$$ black balls.\nIf $$1$$ ball is drawn from each of the boxex $${B_1},{B_2}$$ and $${B_3},$$ the probability that all $$3$$ drawn balls are of the same colour is",
+    "solution": "[Diagram]\n\n$$\\begin{aligned}\n& \\text { Let } \\mathrm{P} \\text { be the probability of same colour balls } \\\\\n& \\text { drawn from each boxes } \\mathrm{B}_1, \\mathrm{~B}_2, \\mathrm{~B}_3 \\\\\n& \\therefore \\quad \\mathrm{P}=\\mathrm{P} \\text { (all are white) }+\\mathrm{P} \\text { (all are red) }+\\mathrm{P} \\text { (all } \\\\\n& \\quad \\text { are Black) } \\\\\n& \\Rightarrow P=\\frac{1}{6} \\times \\frac{2}{9} \\times \\frac{3}{12}+\\frac{3}{6} \\times \\frac{3}{9} \\times \\frac{4}{12}+\\frac{2}{6} \\times \\frac{4}{9} \\times \\frac{5}{12} \\\\\n& \\Rightarrow P=\\frac{6}{648}+\\frac{36}{648}+\\frac{40}{648} \\\\\n& \\Rightarrow P=\\frac{82}{648}\n\\end{aligned}$$\nHints:\nThe probability of one ball is drawn from each boxes $$B_1, B_2, B_3$$ is equal to the sum of probabilities of all are white balls, all are red balls and all are Black balls.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{82} \\over {648}}$$",
+      "$${{90} \\over {648}}$$",
+      "$${{558} \\over {648}}$$",
+      "$${{566} \\over {648}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzs0mr4e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_027",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four persons independently solve a certain problem correctly with probabilities $${1 \\over 2},{3 \\over 4},{1 \\over 4},{1 \\over 8}.$$ Then the probability that the problem is solved correctly by at least one of them is",
+    "solution": "Let A, B, C, D are the events of solving a problem.\nGiven: $$\\mathrm{P}(\\mathrm{A})=\\frac{1}{2}, \\mathrm{P}(\\mathrm{B})=\\frac{3}{4}, \\mathrm{P}(\\mathrm{C})=\\frac{1}{4}, \\mathrm{P}(\\mathrm{D})=\\frac{1}{8}$$\nAlso given A, B, C, D are independent events.\nLet P is the probability of solved by at least one person.\n$$\\Rightarrow \\mathrm{P}=1-$$ (Probability that none of the person can solve the problem)\n$$\\begin{aligned}\n& \\Rightarrow \\mathrm{P}=1-\\mathrm{P}(\\overline{\\mathrm{A}} \\cap \\overline{\\mathrm{B}} \\cap \\overline{\\mathrm{C}} \\cap \\overline{\\mathrm{D}}) \\\\\n& \\Rightarrow \\mathrm{P}=1-\\mathrm{P}(\\overline{\\mathrm{A}}) \\cdot \\mathrm{P}(\\overline{\\mathrm{B}}) \\cdot \\mathrm{P}(\\overline{\\mathrm{C}}) \\cdot \\mathrm{P}(\\overline{\\mathrm{D}}) \\\\\n& \\Rightarrow \\mathrm{P}=1-(1-\\mathrm{P}(\\mathrm{A}))(1-\\mathrm{P}(\\mathrm{B}))(1-\\mathrm{P}(\\mathrm{C}))(1-\\mathrm{P}(\\mathrm{D})) \\\\\n& \\Rightarrow \\mathrm{P}=1-\\left(1-\\frac{1}{2}\\right)\\left(1-\\frac{3}{4}\\right)\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{8}\\right) \\\\\n& \\Rightarrow \\mathrm{P}=1-\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4} \\times \\frac{7}{8} \\\\\n& \\Rightarrow \\mathrm{P}=1-\\frac{21}{256}\\\\\n& \\Rightarrow \\mathrm{P}=\\frac{235}{256}\n\\end{aligned}$$\nHints:\n$$\\Rightarrow$$ (i) If $$A$$ and $$B$$ are independent events, then\n$$\\begin{aligned}\n& \\rightarrow \\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})=\\mathrm{P}(\\mathrm{A}) \\cdot \\mathrm{P}(\\mathrm{B}) \\\\\n& \\rightarrow \\mathrm{P}(\\overline{\\mathrm{A}} \\cap \\overline{\\mathrm{B}})=\\mathrm{P}(\\overline{\\mathrm{A}}) \\cdot \\mathrm{P}(\\overline{\\mathrm{B}})=(1-\\mathrm{P}(\\mathrm{A}))(1-\\mathrm{P}(\\mathrm{B})) \\\\\n& \\rightarrow \\mathrm{P}(\\overline{\\mathrm{A}} \\cap \\mathrm{B})=\\mathrm{P}(\\overline{\\mathrm{A}}) \\cdot \\mathrm{P}(\\mathrm{B})=(1-\\mathrm{P}(\\mathrm{A})) \\mathrm{P}(\\mathrm{B}) \\\\\n& \\rightarrow \\mathrm{P}(\\mathrm{A} \\cap \\overline{\\mathrm{B}})=\\mathrm{P}(\\mathrm{A}) \\cdot \\mathrm{P}(\\overline{\\mathrm{B}})=\\mathrm{P}(\\mathrm{A}) \\cdot(1-\\mathrm{P}(\\mathrm{B}))\n\\end{aligned}$$\n(ii) Probability of at least one person can solve the problem $$= 1-$$ Probability that none of the persons can solve that problem.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{235} \\over {256}}$$",
+      "$${{21} \\over {256}}$$",
+      "$${{3} \\over {256}}$$",
+      "$${{253} \\over {256}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_028",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Four fair dice $${D_1,}{D_2,}{D_3}$$ and $${D_4}$$ ; each having six faces numbered $$1, 2, 3, 4, 5$$ and $$6$$ are rolled simultaneously. The probability that $${D_4}$$ shows a number appearing on one of $${D_1},{D_2}$$ and $${D_3}$$ is",
+    "solution": "For the given condition, the sample space $$=6^4$$\nFor favourable condition\nCase I : For $$D_4$$ there are $${ }^6 C_1$$ way. Now, it appears on any one of $$D_1, D_2, D_3$$ i.e. $${ }^3 C_1 \\cdot 1$$, for other two there are $$5 \\times 5$$ ways.\n$$\\Rightarrow{ }^6 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_1 \\cdot 1 \\cdot 5^2=450 \\text { Ways }$$\nCase II : For $$\\mathrm{D}_4$$ there are $${ }^6 \\mathrm{C}_1$$ ways. Now, it appears on any two of $$D_1, D_2, D_3$$ i.e. $${ }^3 \\mathrm{C}_2 .1 .1$$, for other one there are 5 ways.\n$$\\Rightarrow{ }^6 \\mathrm{C}_1 \\cdot{ }^3 \\mathrm{C}_2 \\cdot 1^2 \\cdot 5=90 \\text { Ways }$$\nCase III : For $$\\mathrm{D}_4$$ there are $${ }^6 \\mathrm{C}_1$$ ways. Now, it appears on all i.e. $$1^3$$.\n$$\\Rightarrow{ }^6 \\mathrm{C}_1 \\cdot 1^3=6$$\nTotal number of favourable cases\n$$\\begin{aligned}\n& =450+90+6 \\\\\n& =546 \\text { ways }\n\\end{aligned}$$\nThus, Probability $$=\\frac{546}{6^4}=\\frac{91}{216}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{91} \\over {216}}$$",
+      "$${{108} \\over {216}}$$",
+      "$${{125} \\over {216}}$$",
+      "$${{127} \\over {216}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6an8g0f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_029",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given that the drawn ball from $${U_2}$$ is white, the probability that head appeared on the coin is",
+    "solution": "$$P\\left( {{H \\over W}} \\right) = {{P(W/H) \\times P(H)} \\over {P(W/T)\\,.\\,P(T) + (W/H)\\,.\\,P(H)}} = {{{1 \\over 2}\\left( {{3 \\over 5} \\times 1 + {2 \\over 5} \\times {1 \\over 2}} \\right)} \\over {23/30}} = {{12} \\over {23}}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{17} \\over {23}}$$",
+      "$${{11} \\over {23}}$$",
+      "$${{15} \\over {23}}$$",
+      "$${{12} \\over {23}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6an8g0f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_030",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability of the drawn ball from $${U_2}$$ being white is",
+    "solution": "H $$\\to$$ One ball from U$_{1}$ to U$_{2}$.\nT $$\\to$$ Two balls from U$_{1}$ to U$_{2}$.\nE : One ball drawn from U$_{2}$.\nP/W from\n$${U_2} = {1 \\over 2} \\times \\left( {{3 \\over 5} \\times 1} \\right) + {1 \\over 2} \\times \\left( {{2 \\over 5} \\times {1 \\over 2}} \\right) + {1 \\over 2} \\times \\left( {{{{}^3{C_2}} \\over {{}^5{C_2}}} \\times 1} \\right) + {1 \\over 2} \\times \\left( {{{{}^2{C_2}} \\over {{}^5{C_2}}} \\times {1 \\over 3}} \\right) + {1 \\over 2} \\times \\left( {{{{}^3{C_1}\\,.\\,{}^2{C_1}} \\over {{}^5{C_2}}} \\times {2 \\over 3}} \\right) = {{23} \\over {30}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{13} \\over {30}}$$",
+      "$${{23} \\over {30}}$$",
+      "$${{19} \\over {30}}$$",
+      "$${{11} \\over {30}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6an8g0f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_031",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A signal which can be green or red with probability $${4 \\over 5}$$ and $${1 \\over 5}$$ respectively, is received by station A and then transmitted to station $$B$$. The probability of each station receving the signal correctly is $${3 \\over 4}$$. If the signal received at atation $$B$$ is green, then the probability that the original signal was green is",
+    "solution": "From the tree-diagram it follows that\n\n[Diagram]\n\n$$P({B_G}) = {{46} \\over {80}}P({B_G}|G) = {{10} \\over {16}} = {5 \\over 8}\\thereforeP({B_G} \\cap G) = {5 \\over 8} \\times {4 \\over 5} = {1 \\over 2}P(G|{B_G}) = {{{1 \\over 2}} \\over {P({B_G})}} = {1 \\over 2} \\times {{80} \\over {46}} = {{20} \\over {23}}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${3 \\over 5}$$",
+      "$${6 \\over 7}$$",
+      "$${20 \\over 23}$$",
+      "$${9 \\over 20}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6an8g0f.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_032",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\omega $$ be a complex cube root of unity with $$\\omega\ne 1.$$ A fair die is thrown three times. If $${r_1},{r_2}$$ and $${r_3}$$ are the numbers obtained on the die, then the probability that $${\\omega ^{{r_1}}} + {\\omega ^{{r_2}}} + {\\omega ^{{r_3}}} = 0$$ is",
+    "solution": "Sample space A dice is thrown thrice, $$n(s) = 6 \\times 6 \\times 6$$.\nFavorable events $${\\omega ^{{r_1}}} + {\\omega ^{{r_2}}} + {\\omega ^{{r_3}}} = 0$$\ni.e. $$({r_1},{r_2},{r_3})$$ are ordered 3-triples which can take values,\n$$\\left. {\\matrix{\n{(1,2,3),} & {(1,5,3),} & {(4,2,3),} & {(4,5,3)} \\cr\n{(1,2,6),} & {(1,5,6),} & {(4,2,6),} & {(4,5,6)} \\cr\n\n} } \\right\\}$$\ni.e. 8 ordered pairs and each can be arranged in 3! ways = 6\n$$\\thereforen(E) = 8 \\times 6 \\Rightarrow P(E) = {{8 \\times 6} \\over {6 \\times 6 \\times 6}} = {2 \\over 9}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 18}$$",
+      "$${1 \\over 9}$$",
+      "$${2 \\over 9}$$",
+      "$${1 \\over 36}$$"
+    ]
+  },
+  {
+    "id": "math_probability_033",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability that X = 3 equals",
+    "solution": "The required probability is $$P(X = 3)\\left( {{5 \\over 6}} \\right)\\left( {{5 \\over 6}} \\right){1 \\over 6} = {{25} \\over {216}}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{25} \\over {216}}$$",
+      "$${{25} \\over {36}}$$",
+      "$${{5} \\over {36}}$$",
+      "$${{125} \\over {216}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_034",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability that $$X\\ge3$$ equals :",
+    "solution": "The probability $$P(X \\ge 3)$$ is nothing but the probability of $$P(X \\le 2)$$:\n$${1 \\over 6} + {5 \\over 6} \\times {1 \\over 6} = {{11} \\over {36}}$$\nThe required probability is\n$$1 - {{11} \\over {36}} = {{25} \\over {36}}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{125} \\over {216}}$$",
+      "$${{25} \\over {36}}$$",
+      "$${{5} \\over {36}}$$",
+      "$${{25} \\over {216}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_035",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The conditional probability that $$X\\ge6$$ given $$X>3$$ equals :",
+    "solution": "$$X \\ge 6$$: The probability for\n$${{{5^5}} \\over {{6^6}}} + {{{5^6}} \\over {{6^7}}}\\, + \\,...\\, + \\,\\infty = {{{5^5}} \\over {{6^6}}}\\left( {{1 \\over {1 - 5/6}}} \\right) = {\\left( {{5 \\over 6}} \\right)^5}$$\nFor $$X>3$$, we have\n$${{{5^3}} \\over {{6^4}}} + {{{5^4}} \\over {{6^5}}}\\, + {{{5^5}} \\over {{6^6}}}\\, + ...\\, + \\,\\infty = {\\left( {{5 \\over 6}} \\right)^3}$$<?p>\nHence, the conditional probability is\n$${{{{(5/6)}^6}} \\over {{{(5/6)}^3}}} = {{25} \\over {36}}$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{125} \\over {216}}$$",
+      "$${{25} \\over {216}}$$",
+      "$${{5} \\over {36}}$$",
+      "$${{25} \\over {36}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_036",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An experiment has 10 equally likely outcomes. Let A and B be two non-empty events of the experiment. If A consists of 4 outcomes, the number of outcomes that B must have so that A and B are independent is :",
+    "solution": "Given,\nAn experiment has 10 equally likely outcomes,\nLet B have n no of outcomes,\nSo, $$P(B) = {n \\over {10}}P(A) = {4 \\over {10}}P(A \\cap B) = {4 \\over {10}} \\times {n \\over {10}} = {{{{2n} \\over 5}} \\over {10}}$$\nSince, A and B are independent\nn is an integer\nn = 5 or 10",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "2, 4 or 8",
+      "3, 6 or 9",
+      "4 or 8",
+      "5 or 10"
+    ]
+  },
+  {
+    "id": "math_probability_037",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the system of equations $$ax+by=0; cx+dy=0,$$\n\nwhere $$a,b,c,d \\in \\left\\{ {0,1} \\right\\}$$\n\n**STATEMENT - 1 :** The probability that the system of equations has a unique solution is $${3 \\over 8}.$$ and\n\n**STATEMENT - 2 :** The probability that the system of equations has a solution is $$1.$$",
+    "solution": "We have,\n$$ax + by = 0cx + dy = 0$$\nsince, the system of homogeneous equation is always consistent and has a solution.\nTherefore, statement 2 is true.\nNow, $$\\Delta = \\left| {\\matrix{\na & b \\cr\nc & d \\cr\n\n} } \\right|$$ and $$a,b,c,d \\in \\{ 0,1\\} = ad - bc$$\nNo. of ways of selecting $$a,b,c,d$$ from the set {0, 1} is 2 $$\\times$$ 2 $$\\times$$ 2 $$\\times$$ 2 = 16\nIf the system has unique solution,\nThen $$\\Delta\ne0\\Rightarrow$$ either $$ad = 1,bc = 0$$ or $$ad = 0,bc = 1$$ favourable case = 6\nTherefore, probability that system of equation has unique solution is $${6 \\over {16}} = {3 \\over 8}$$. Statement 1 is True.\nHence, the Statement 2 is True but is not a correct explanation of statement 1.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "STATEMENT - 1 is True, STATEMENT - 2 is True; STATEMENT - 2 is a correct explanation for STATEMENT - 1",
+      "STATEMENT - 1 is True, STATEMENT - 2 is True; STATEMENT - 2 is **NOT** a correct explanation for STATEMENT - 1",
+      "STATEMENT - 1 is True, STATEMENT - 2 is False.",
+      "STATEMENT - 1 is False, STATEMENT - 2 is True."
+    ]
+  },
+  {
+    "id": "math_probability_038",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${E^c}$$ denote the complement of an event $$E.$$ Let $$E, F, G$$ be pairwise independent events with $$P\\left( G \\right) > 0$$ and $$P\\left( {E \\cap F \\cap G} \\right) = 0.$$ Then $$P\\left( {{E^c} \\cap {F^c}|G} \\right)$$ equals",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{E}_{1} f_{1} G \\text { are pairwise independent events. } \\\\\\\\\n& \\therefore \\quad \\mathrm{P}(\\mathrm{E} \\cap \\mathrm{F})=\\mathrm{P}(\\mathrm{E}) \\cdot \\mathrm{P}(\\mathrm{F}) \\\\\\\\\n& \\mathrm{P}(\\mathrm{F} \\cap \\mathrm{G})=\\mathrm{P}(\\mathrm{F}) \\cdot \\mathrm{P}(\\mathrm{G}) \\\\\\\\\n& \\mathrm{P}(\\mathrm{G} \\cap \\mathrm{E})=\\mathrm{P}(\\mathrm{G}) \\cdot \\mathrm{P}(\\mathrm{E}) \\\\\\\\\n& \\mathrm{P}\\left(\\frac{\\mathrm{E}^{\\mathrm{c}} \\cap \\mathrm{F}^{\\mathrm{c}}}{\\mathrm{G}}\\right)=\\mathrm{P}\\left(\\frac{\\left(E^{\\mathrm{c}} \\cap \\mathrm{F}^{\\mathrm{c}}\\right) \\cap G}{\\mathrm{P}(\\mathrm{G})}\\right) \\\\\\\\\n&=\\frac{\\mathrm{P}(\\mathrm{G})-\\mathrm{P}(\\mathrm{G} \\cap \\mathrm{E})-\\mathrm{P}(\\mathrm{G} \\cap \\mathrm{F})}{\\mathrm{P}(\\mathrm{G})} \\\\\\\\\n&=1-\\mathrm{P}(\\mathrm{E})-\\mathrm{P}(\\mathrm{F}) \\\\\\\\\n&=\\mathrm{P}\\left(\\mathrm{E}^{\\mathrm{c}}\\right)-\\mathrm{P}(\\mathrm{F}) .\n\\end{aligned}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$P\\left( {{E^c}} \\right) + P\\left( {{F^c}} \\right)$$",
+      "$$P\\left( {{E^c}} \\right) - P\\left( {{F^c}} \\right)$$",
+      "$$P\\left( {{E^c}} \\right) - P\\left( F \\right)$$",
+      "$$P\\left( E \\right) - P\\left( {{F^c}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_probability_039",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One Indian and four American men and their wives are to be seated randomly around a circular table. Then the conditional probability that the Indian man is seated adjacent to his wife given that each American man is seated adjacent to his wife is",
+    "solution": "Let E = event when each American man is seated adjacent to his wife and\nA = event when Indian man is seated adjacent to his wife.\nNow,\n$$n(A\\cap E)=(4!)\\times(2!)^5$$\nEvent when each American man is seated adjacent to his wife.\nAgain $$n(E)=(5!)\\times(2!)^4p\\left( {{A \\over E}} \\right) = {{n(A \\cap E)} \\over {n(E)}} = {{(4!) \\times {{(2!)}^5}} \\over {(5!) \\times {{(2!)}^4}}} = {2 \\over 5}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\frac{1}{2}$$",
+      "$$\\frac{1}{3}$$",
+      "$$\\frac{2}{5}$$",
+      "$$\\frac{1}{5}$$"
+    ]
+  },
+  {
+    "id": "math_probability_040",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let H$$_1$$, H$$_2$$, ..., H$$_n$$ be mutually exclusive and exhaustive events with P(H$$_i$$) > 0, i = 1, 2, ..., n. Let E be any other event with 0 < P(E) < 1.\nStatement 1 : P(H$$_i$$ | E) > P(E | H$$_i$$). P(H$$_i$$) for $$i=1,2,...,n$$.\nStatement 2 : $$\\sum\\limits_{i = 1}^n {P({H_i}) = 1} $$.",
+    "solution": "Statement 1 : If P(H$$_i\\cap$$ E) = O for some, then\n$$P\\left( {{{{H_i}} \\over E}} \\right) = P\\left( {{E \\over {{H_i}}}} \\right) = 0$$\nIf P(H$$_i\\cap$$ E) $$\ne o~\\forall i=1,2,3.......,n$$ then\n$$P\\left( {{{{H_i}} \\over E}} \\right) = {{P({H_i} \\cap E)} \\over {P({H_i})}} \\times {{P({H_i})} \\over {P(E)}} = {{P\\left( {{E \\over {{H_i}}}} \\right) \\times P({H_i})} \\over {P(E)}} > P\\left( {{E \\over {{H_i}}}} \\right) \\times P({H_i})$$\nHence, statement 1 may not always be true.\nStatement 2 : Clearly, we can write as\nH$$_1\\cup$$ H$$_2\\cup$$ H$$_1\\cup$$ ------------------ $$\\cup$$ H$$_n$$ = S\n$$\\Rightarrow$$ P(H$$_1$$) + P(H$$_2$$) + ---------------- + P(H$$_n$$) = 1\nHence, statement 2 is true.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ]
+  },
+  {
+    "id": "math_probability_041",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\mathrm{P}\\left(u_{i}\\right) \\propto i$$, where $$i=1,2,3, \\ldots n$$, then $$\\lim_\\limits{n \\rightarrow \\infty} \\mathrm{P}(w)$$ is equal to:",
+    "solution": "$$\\because \\mathrm{P}\\left(u_{i}\\right) \\propto i\\mathrm{P}\\left(u_{i}\\right)=\\mathrm{K} i$$\nWe know that $$\\sum \\mathrm{P}\\left(\\mathrm{u}_{i}\\right)=1\\begin{aligned}\n\\mathrm{K} \\frac{n(n+1)}{2} & =1 \\\\\n\\mathrm{~K} & =\\frac{2}{n(n+1)} \\\\\n\\mathrm{P}\\left(u_{i}\\right) & =\\frac{2 i}{n(n+1)} \\\\\n\\mathrm{P}\\left(\\frac{w}{u_{2 i}}\\right) & =\\frac{2 i}{n+1}\n\\end{aligned}$$\nNow, $$\\quad \\mathrm{P}(w)=\\sum_\\limits{1^{i}=1}^{n} \\mathrm{P}\\left(u_{i}\\right) \\cdot \\mathrm{P}\\left(\\frac{w}{u_{i}}\\right) = \\sum\\limits_{{1^i} = 1}^n {{{2i} \\over {n(n + 1)}}{i \\over {(n + 1)}}} = \\sum\\limits_{{1^i} = 1}^n {{{2{i^2}} \\over {n{{(n + 1)}^2}}}} = {2 \\over {n{{(n + 1)}^2}}}\\sum\\limits_{{1^i} = 1}^n {{i^2}} = {2 \\over {n{{(n + 1)}^2}}}{{n(n + 1)(2n + 1)} \\over 6} = {{2n + 1} \\over {3(n + 1)}}$$\nNow, $$\\mathop {\\lim }\\limits_{n \\to \\infty } {{2n + 1} \\over {3(n + 1)}} = \\mathop {\\lim }\\limits_{n \\to \\infty } {{\\left( {2 + {1 \\over n}} \\right)} \\over {3\\left( {{1 \\over n} + 1} \\right)}} = {2 \\over 3}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1",
+      "$$\\frac{2}{3}$$",
+      "$$\\frac{3}{4}$$",
+      "$$\\frac{1}{4}$$"
+    ]
+  },
+  {
+    "id": "math_probability_042",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\mathrm{P}\\left(u_{i}\\right)=c$$, where $$c$$ is a constant then $$\\mathrm{P}\\left(u_{n} / w\\right)$$ is equal to:",
+    "solution": "Since, $$\\mathrm{P}\\left(u_{i}\\right)=\\mathrm{C}$$ means\nAll events are equally likely\n$$\\mathrm{P}\\left(u_{i}\\right)=\\mathrm{C}=\\frac{1}{n} \\quad$$ for $$i=1,2,3, \\ldots . n\\mathrm{P}(u_n)=\\frac{1}{n}\\mathrm{P}\\left(\\frac{w}{u_{n}}\\right)=\\frac{n}{n+1}\\begin{aligned}\n\\mathrm{P}(w) & =\\sum \\mathrm{P}\\left(u_{i}\\right) \\cdot \\mathrm{P}\\left(\\frac{w}{u_{n}}\\right) \\\\\n& =\\sum\\left(\\frac{1}{n} \\frac{2^{i}}{(n+1)}\\right)=\\frac{1}{n(n+1)} \\cdot \\frac{n(n+1)}{2}=\\frac{1}{2} \\\\\n\\mathrm{P}\\left(\\frac{u_{\\mathrm{n}}}{w}\\right) & =\\frac{\\mathrm{P}\\left(u_{\\mathrm{n}}\\right) \\times \\mathrm{P}\\left(\\frac{w}{u_{\\mathrm{n}}}\\right)}{\\mathrm{P}(w)} \\\\\n& =\\frac{\\frac{1}{n} \\times \\frac{n}{(n+1)}}{\\frac{1}{2}}=\\frac{2}{n+1}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{2}{n+1}$$",
+      "$$\\frac{1}{n+1}$$",
+      "$$\\frac{n}{n+1}$$",
+      "$$\\frac{1}{2}$$"
+    ]
+  },
+  {
+    "id": "math_probability_043",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$n$$ is even and E denotes the event of choosing even numbered urn $$\\left(\\mathrm{P}\\left(u_{i}\\right)=\\frac{1}{n}\\right)$$,\nthen the value of $$\\mathrm{P}(w / \\mathrm{E})$$ is :",
+    "solution": "Total number of ball\nEven numbered urns $$=\\frac{n}{2}(n+1)$$\nTotal no. of white balls = $$2+4+6+....+n$$.\n$$=2(1+2+3+...+m)$$\nwhere $$m=\\frac{n}{2}=2 \\times \\frac{m(m+1)}{2}=\\frac{n}{2} \\cdot\\left(\\frac{n}{2}+1\\right)=\\frac{n(n+2)}{4}\\therefore \\quad \\mathrm{P}\\left(\\frac{w}{\\mathrm{E}}\\right)=\\frac{\\frac{n}{4}(n+2)}{\\frac{n}{2}(n+1)}=\\frac{(n+2)}{2(n+1)}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\frac{n+2}{2 n+1}$$",
+      "$$\\frac{n+2}{2(n+1)}$$",
+      "$$\\frac{n}{n+1}$$",
+      "$$\\frac{1}{n+1}$$"
+    ]
+  },
+  {
+    "id": "math_probability_044",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A six faced fair dice is thrown until $$1$$ comes, then the probability that $$1$$ comes in even no. of trials is",
+    "solution": "$$\\begin{aligned}\nP\\left(E_{\\text {car }}\\right)=\\frac{1}{7} \\quad & P\\left(E_{S_{\\text {cooter }}}\\right)=\\frac{3}{2} \\\\\nP\\left(E_{\\text {bus}}\\right)=\\frac{2}{7} \\quad & P\\left(E_{\\text {train }}\\right)=\\frac{1}{7} \\\\\nP\\left(\\frac{E_{\\text {late }}}{E_{\\text {car }}}\\right) & =\\frac{2}{9} \\\\\nP\\left(\\frac{E_{\\text {late }}}{E_{\\text {scooter }}}\\right) & =\\frac{1}{9} \\\\\nE\\left(\\frac{E_{\\text {late }}}{E_{\\text {bus }}}\\right) & =\\frac{4}{9} \\\\\nE\\left(\\frac{E_{\\text {late }}}{E_{\\text {train }}}\\right) & =\\frac{1}{9}\\end{aligned}$$\nUsing Total probability theorem.\n$$\\begin{aligned}\n& P\\left(E_{\\text {late }}\\right)=P\\left(E_{\\text {car }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {car }}}\\right)+P\\left(E_{\\text {scooter }}\\right) \\\\\n& \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {scooter }}}\\right)+P\\left(E_{\\text {Bus }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {Bus }}}\\right) \\\\\n& +P\\left(E_{\\text {train }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {train }}}\\right) \\\\\n& =\\frac{1}{7} \\times \\frac{2}{9}+\\frac{3}{2} \\times \\frac{1}{9}+\\frac{2}{7} \\times \\frac{4}{9}+\\frac{1}{7} \\times \\frac{1}{9} \\\\\n& =\\frac{2}{63}+\\frac{3}{18}+\\frac{8}{63}+\\frac{1}{63}=\\frac{11}{63}+\\frac{3}{18}=\\frac{43}{126} \\\\\n& \\mathrm{P}\\left(\\mathrm{E}_{\\text {ontime }}\\right)=1-\\frac{43}{126}=\\frac{83}{126} \\\\\n& P\\left(\\frac{E_{\\text {car }}}{E_{\\text {ontime }}}\\right)=\\frac{P\\left(E_{\\text {car }} \\cap E_{\\text {ontime }}\\right)}{P\\left(E_{\\text {ontime }}\\right)} \\\\\n& =\\frac{P\\left(E_{\\text {car }}\\right) \\times P\\left(E_{\\text {ontime }}\\right)}{P\\left(E_{\\text {ontime }}\\right)}=P\\left(E_{\\text {car }}\\right)=\\frac{1}{7}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$5/11$$",
+      "$$5/6$$",
+      "$$6/11$$",
+      "$$1/6$$"
+    ]
+  },
+  {
+    "id": "math_probability_045",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A person goes office either by car, scooter, bus or train, proability of which being $$\\frac{1}{7}, \\frac{3}{2}, \\frac{2}{7}$$ and $$\\frac{1}{7}$$, respectively. Probability that he reaches office late, if he takes car, scooter, bus or train is $$\\frac{2}{9}, \\frac{1}{9}, \\frac{4}{9}$$ and $$\\frac{1}{9}$$, respectively. Given that he reached office in time, then what is the probability that he travelled by a car?",
+    "solution": "$$\\begin{aligned}\nP\\left(E_{\\text {car }}\\right)=\\frac{1}{7} \\quad & P\\left(E_{S_{\\text {cooter }}}\\right)=\\frac{3}{2} \\\\\nP\\left(E_{\\text {bus}}\\right)=\\frac{2}{7} \\quad & P\\left(E_{\\text {train }}\\right)=\\frac{1}{7} \\\\\nP\\left(\\frac{E_{\\text {late }}}{E_{\\text {car }}}\\right) & =\\frac{2}{9} \\\\\nP\\left(\\frac{E_{\\text {late }}}{E_{\\text {scooter }}}\\right) & =\\frac{1}{9} \\\\\nE\\left(\\frac{E_{\\text {late }}}{E_{\\text {bus }}}\\right) & =\\frac{4}{9} \\\\\nE\\left(\\frac{E_{\\text {late }}}{E_{\\text {train }}}\\right) & =\\frac{1}{9}\\end{aligned}$$\nUsing Total probability theorem.\n$$\\begin{aligned}\n& P\\left(E_{\\text {late }}\\right)=P\\left(E_{\\text {car }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {car }}}\\right)+P\\left(E_{\\text {scooter }}\\right) \\\\\n& \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {scooter }}}\\right)+P\\left(E_{\\text {Bus }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {Bus }}}\\right) \\\\\n& +P\\left(E_{\\text {train }}\\right) \\times P\\left(\\frac{E_{\\text {late }}}{E_{\\text {train }}}\\right) \\\\\n& =\\frac{1}{7} \\times \\frac{2}{9}+\\frac{3}{2} \\times \\frac{1}{9}+\\frac{2}{7} \\times \\frac{4}{9}+\\frac{1}{7} \\times \\frac{1}{9} \\\\\n& =\\frac{2}{63}+\\frac{3}{18}+\\frac{8}{63}+\\frac{1}{63}=\\frac{11}{63}+\\frac{3}{18}=\\frac{43}{126} \\\\\n& \\mathrm{P}\\left(\\mathrm{E}_{\\text {ontime }}\\right)=1-\\frac{43}{126}=\\frac{83}{126} \\\\\n& P\\left(\\frac{E_{\\text {car }}}{E_{\\text {ontime }}}\\right)=\\frac{P\\left(E_{\\text {car }} \\cap E_{\\text {ontime }}\\right)}{P\\left(E_{\\text {ontime }}\\right)} \\\\\n& =\\frac{P\\left(E_{\\text {car }}\\right) \\times P\\left(E_{\\text {ontime }}\\right)}{P\\left(E_{\\text {ontime }}\\right)}=P\\left(E_{\\text {car }}\\right)=\\frac{1}{7}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\frac{1}{7}$$",
+      "$$\\frac{1}{8}$$",
+      "$$\\frac{3}{7}$$",
+      "$$\\frac{3}{8}$$"
+    ]
+  },
+  {
+    "id": "math_probability_046",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If three distinct numbers are chosen randomly from the first $$100$$ natural numbers, then the probability that all three of them are divisible by both $$2$$ and $$3$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$4/25$$",
+      "$$4/35$$",
+      "$$4/33$$",
+      "$$4/1155$$"
+    ]
+  },
+  {
+    "id": "math_probability_047",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two numbers are selected randomly from the set $$S = \\left\\{ {1,2,3,4,5,6} \\right\\}$$ without replacement one by one. The probability that minimum of the two numbers is less than $$4$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$1/15$$",
+      "$$14/15$$",
+      "$$1/5$$",
+      "$$4/5$$"
+    ]
+  },
+  {
+    "id": "math_probability_048",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$P\\left( B \\right) = {3 \\over 4},P\\left( {A \\cap B \\cap \\overline C } \\right) = {1 \\over 3}$$ and\n\n$$P\\left( {\\overline A \\cap B \\cap \\overline C } \\right) = {1 \\over 3},\\,\\,$$ then $$P\\left( {B \\cap C} \\right)$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1/12$$",
+      "$$1/6$$",
+      "$$1/15$$",
+      "$$1/9$$"
+    ]
+  },
+  {
+    "id": "math_probability_049",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the integers $$m$$ and $$n$$ are chosen at random from $$1$$ to $$100$$, then the probability that a number of the form $${7^m} + {7^n}$$ is divisible by $$5$$ equals",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1/4$$",
+      "$$1/7$$",
+      "$$1/8$$",
+      "$$1/49$$"
+    ]
+  },
+  {
+    "id": "math_probability_050",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Seven white balls and three black balls are randomly placed in a row. The probability that no two black balls are placed adjacently equals",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$7/15$$",
+      "$$2/15$$",
+      "$$1/3$$"
+    ]
+  },
+  {
+    "id": "math_probability_051",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are four machines and it is known that exactly two of them are faulty. They are tested, one by one, in a random order till both the faulty machines are identified. Then the probability that only two tests are needed is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1/3$$",
+      "$$1/6$$",
+      "$$1/2$$",
+      "$$1/4$$"
+    ]
+  },
+  {
+    "id": "math_probability_052",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A fair coin is tossed repeatedly. If the tail appears on first four tosses, then the probability of the head appearing on the fifth toss equals",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$1/32$$",
+      "$$31/32$$",
+      "$$1/5$$"
+    ]
+  },
+  {
+    "id": "math_probability_053",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$E$$ and $$F$$ are events with $$P\\left( E \\right) \\le P\\left( F \\right)$$ and $$P\\left( {E \\cap F} \\right) > 0,$$ then",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "occurrence of $$E \\Rightarrow $$ occurrence of $$F$$",
+      "occurrence of $$F \\Rightarrow $$ occurrence of $$E$$",
+      "non-occurrence of $$E \\Rightarrow $$ non-occurrence of $$F$$",
+      "none of the above implications holds"
+    ]
+  },
+  {
+    "id": "math_probability_054",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If from each of the three boxes containing $$3$$ white and $$1$$ black, $$2$$ white and $$2$$ black, $$1$$ white and $$3$$ black balls, one ball is drawn at random, then the probability that $$2$$ white and $$1$$ black ball will be drawn is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$13/32$$",
+      "$$1/4$$",
+      "$$1/32$$",
+      "$$3/16$$"
+    ]
+  },
+  {
+    "id": "math_probability_055",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the three events $$A, B,$$ and $$C,P$$ (exactly one of the events $$A$$ or $$B$$ occurs) $$=P$$ (exactly one of the two events $$B$$ or $$C$$ occurs)$$=P$$ (exactly one of the events $$C$$ or $$A$$ occurs)$$=p$$ and $$P$$ (all the three events occur simultaneously) $$ = {p^2},$$ where $$0 < p < 1/2.$$ Then the probability of at least one of the three events $$A,B$$ and $$C$$ occurring is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{3p + 2{p^2}} \\over 2}$$",
+      "$${{p + 3{p^2}} \\over 4}$$",
+      "$${{p + 3{p^2}} \\over 2}$$",
+      "$${{3p + 2{p^2}} \\over 4}$$"
+    ]
+  },
+  {
+    "id": "math_probability_056",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability of India winning a test match against West Indies is $$1/2$$. Assuming independence from match to match the probability that in a $$5$$ match series India's second win occurs at third test is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1/8$$",
+      "$$1/4$$",
+      "$$1/2$$",
+      "$$2/3$$"
+    ]
+  },
+  {
+    "id": "math_probability_057",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three of six vertices of a regular hexagon are chosen at random. The probability that the triangle with three vertices is equilateral, equals",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$1/5$$",
+      "$$1/10$$",
+      "$$1/20$$"
+    ]
+  },
+  {
+    "id": "math_probability_058",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$A, B, C$$ be three mutually independent events. Consider the two statements $${S_1}$$ and $${S_2}{S_1}\\,:\\,A$$ and $$B \\cup C$$ are independent\n\n$${S_2}\\,:\\,A$$ and $$B \\cap C$$ are independent\n\nThen,",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Both $${S_1}$$ and $${S_2}$$ are true",
+      "Only $${S_1}$$ is true",
+      "Only $${S_2}$$ is true",
+      "Neither $${S_1}$$ nor $${S_2}$$ is true"
+    ]
+  },
+  {
+    "id": "math_probability_059",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An unbiased die with faces marked $$1,2,3,4,5$$ and $$6$$ is rolled four times. Out of four face values obtained, the probability that the minimum face value is not less than $$2$$ and the maximum face value is not greater than $$5,$$ is then:",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$16/81$$",
+      "$$1/81$$",
+      "$$80/81$$",
+      "$$65/81$$"
+    ]
+  },
+  {
+    "id": "math_probability_060",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "India plays two matches each with West Indies and Australia. In any match the probabilities of India getting, points $$0,1$$ and $$2$$ are $$0.45, 0.05$$ and $$0.50$$ respectively. Assuming that the outcomes are independent, the probability of India getting at least $$7$$ points is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$0.8750$$",
+      "$$0.0875$$",
+      "$$0.0625$$",
+      "$$0.0250$$"
+    ]
+  },
+  {
+    "id": "math_probability_061",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One hundred identical coins, each with probability, $$p,$$ of showing up heads are tossed once. If $$0 < p < 1$$ and the probability of heads showing on $$50$$ coins is equal to that of heads showing on $$51$$ coins, then the value of $$p$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$1/2$$",
+      "$$49/101$$",
+      "$$50/101$$",
+      "$$51/101.$$"
+    ]
+  },
+  {
+    "id": "math_probability_062",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A student appears for tests, $$I$$, $$II$$ and $$III$$. The student is successful if he passes either in tests $$I$$ and $$II$$ or tests $$I$$ and $$III$$. The probabilities of student passing in tests $$I$$, $$II$$ and $$III$$ are $$p, q$$ and $${1 \\over 2}$$ respectively. If the probability that the student is successful is $${1 \\over 2}$$, then",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$p=q=1$$",
+      "$$p = q = {1 \\over 2}$$",
+      "$$p=1,q=0$$",
+      "$$p = 1,q = {1 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_probability_063",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability that at least one of the events $$A$$ and $$B$$ occurs is $$0.6$$. If $$A$$ and $$B$$ occur simultaneously with probability $$0.2,$$ then $$P\\left( {\\overline A } \\right) + P\\left( {\\overline B } \\right)$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$0.4$$",
+      "$$0.8$$",
+      "$$1.2$$",
+      "$$1.4$$"
+    ]
+  },
+  {
+    "id": "math_probability_064",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains $$24$$ identical balls of which $$12$$ are white and $$12$$ are black. The balls are drawn at random from the box one at a time with replacement. The probability that a white ball is drawn for the $$4$$th time on the $$7$$th draw is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$5/64$$",
+      "$$27/32$$",
+      "$$5/32$$",
+      "$$1/2$$"
+    ]
+  },
+  {
+    "id": "math_probability_065",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three identical dice are rolled. The probability that the same number will appear on each of them is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1/6$$",
+      "$$1/36$$",
+      "$$1/18$$",
+      "$$3/28$$"
+    ]
+  },
+  {
+    "id": "math_probability_066",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Fifteen coupons are numbered $$1, 2 ........15,$$ respectively. Seven coupons are selected at random one at a time with replacement. The probability that the largest number appearing on a selected coupon is $$9,$$ is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\left( {{9 \\over {16}}} \\right)^6}$$",
+      "$${\\left( {{18 \\over {15}}} \\right)^7}$$",
+      "$${\\left( {{3 \\over {5}}} \\right)^7}$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_probability_067",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$A$$ and $$B$$ are two events such that $$P\\left( A \\right) > 0,$$ and $$P\\left( B \\right)\ne 1,$$ then $$P\\left( {{{\\overline A } \\over {\\overline B }}} \\right)$$ is equal to",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$1 - P({A \\over B})$$ (Here $$\\overline A $$ and $$\\overline B $$ are complements of $$A$$ and $$B$$ respectively).",
+      "$$1 - P({{\\overline A } \\over B})$$ (Here $$\\overline A $$ and $$\\overline B $$ are complements of $$A$$ and $$B$$ respectively).",
+      "$${{1 - P\\left( {A \\cup B} \\right)} \\over {P\\left( {\\overline B } \\right)}}$$ (Here $$\\overline A $$ and $$\\overline B $$ are complements of $$A$$ and $$B$$ respectively).",
+      "$${{P\\left( {\\overline A } \\right)} \\over {P\\left( {\\overline B } \\right)}}$$ (Here $$\\overline A $$ and $$\\overline B $$ are complements of $$A$$ and $$B$$ respectively)."
+    ]
+  },
+  {
+    "id": "math_probability_068",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two events $$A$$ and $$B$$ have probabilities $$0.25$$ and $$0.50$$ respectively. The probability that both $$A$$ and $$B$$ occur simultaneously is $$0.14$$. Then the probability that neither $$A$$ nor $$B$$ occurs is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$0.39$$",
+      "$$0.25$$",
+      "$$0.11$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_probability_069",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability that an event $$A$$ happens in one trial of an experiment is $$0.4.$$ Three independent trials of the experiment are performed. The probability that the event $$A$$ happens at least once is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$0.936$$",
+      "$$0.784$$",
+      "$$0.904$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_probability_070",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two fair dice are tossed. Let $$x$$ be the event that the first die shows an even number and $$y$$ be the event that the second die shows an odd number. The two events $$x$$ and $$y$$ are:",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Mutually exclusive",
+      "Independent and mutually exclusive",
+      "Dependent",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_probability_071",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A factory has a total of three manufacturing units, $M_1, M_2$, and $M_3$, which produce bulbs independent of each other. The units $M_1, M_2$, and $M_3$ produce bulbs in the proportions of $2: 2: 1$, respectively. It is known that $20 \\%$ of the bulbs produced in the factory are defective. It is also known that, of all the bulbs produced by $M_1, 15 \\%$ are defective. Suppose that, if a randomly chosen bulb produced in the factory is found to be defective, the probability that it was produced by $M_2$ is $\\frac{2}{5}$.\nIf a bulb is chosen randomly from the bulbs produced by $M_3$, then the probability that it is defective is __________.",
+    "solution": "$H_1$: The bulb is produced by unit $M_1$.\n$H_2$: The bulb is produced by unit $M_2$.\n$H_3$: The bulb is produced by unit $M_3$.\n$E$: The bulb is defective.\n\nThe unit production proportions and known probabilities are:\n\n$P(H_1) = \\frac{2}{5}$, $P(H_2) = \\frac{2}{5}$, $P(H_3) = \\frac{1}{5}$\n$P(E | H_1) = \\frac{15}{100} = \\frac{3}{20}$\n\nThe total probability of a defective bulb is given by:\n$ P(E) = P(E | H_1) \\cdot P(H_1) + P(E | H_2) \\cdot P(H_2) + P(E | H_3) \\cdot P(H_3) $\nGiven:\n$ P(E) = 0.20 = \\frac{3}{20} \\cdot \\frac{2}{5} + P(E | H_2) \\cdot \\frac{2}{5} + P(E | H_3) \\cdot \\frac{1}{5} $\nThis simplifies to:\n$ 2P(E | H_2) + P(E | H_3) = \\frac{7}{10} \\quad \\text{...(i)} $\nAdditionally, the probability that a defective bulb is from $M_2$ is given as:\n$ P(H_2 | E) = \\frac{2}{5} = \\frac{P(E | H_2) \\cdot \\frac{2}{5}}{\\frac{1}{5}} $\nSolving the equation above gives:\n$ P(E | H_2) = \\frac{1}{5} \\quad \\text{...(ii)} $\nUsing the equations (i) and (ii), we substitute $P(E | H_2)$ into (i):\n$ 2 \\cdot \\frac{1}{5} + P(E | H_3) = \\frac{7}{10} $\nSolving for $P(E | H_3)$:\n$ \\frac{2}{5} + P(E | H_3) = \\frac{7}{10} $\nConverting $\\frac{2}{5}$ to $\\frac{4}{10}$ gives:\n$ \\frac{4}{10} + P(E | H_3) = \\frac{7}{10} $\n$ P(E | H_3) = \\frac{7}{10} - \\frac{4}{10} = \\frac{3}{10} $\nTherefore, the probability that a randomly chosen bulb from $M_3$ is defective is 0.30.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_072",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A bag contains $N$ balls out of which 3 balls are white, 6 balls are green, and the remaining balls are blue. Assume that the balls are identical otherwise. Three balls are drawn randomly one after the other without replacement. For $i=1,2,3$, let $W_i, G_i$, and $B_i$ denote the events that the ball drawn in the $i^{\\text {th }}$ draw is a white ball, green ball, and blue ball, respectively. If the probability $P\\left(W_1 \\cap G_2 \\cap B_3\\right)=\\frac{2}{5 N}$ and the conditional probability $P\\left(B_3 \\mid W_1 \\cap G_2\\right)=\\frac{2}{9}$, then $N$ equals ________.",
+    "solution": "3 White\n6 Green\n$$(\\mathrm{N}-9)$$ Blue\n$$\\begin{aligned}\n& \\text { Given } P\\left(W_1 \\cap G_2 \\cap B_3\\right)=\\frac{2}{5 N} \\\\\n& \\text { and } P\\left(B_3 \\mid W_1 \\cap G_2\\right)=\\frac{2}{9} \\\\\n& \\Rightarrow \\frac{P\\left(B_3 \\cap W_1 \\cap G_2\\right)}{P\\left(W_1 \\cap G_2\\right)}=\\frac{2}{9} \\\\\n& \\Rightarrow \\frac{2}{5 N} \\times \\frac{N \\times(N-1)}{3 \\times 6}=\\frac{2}{9} \\\\\n& \\Rightarrow N=11\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_073",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $X$ be a random variable, and let $P(X=x)$ denote the probability that $X$ takes the value $x$. Suppose that the points $(x, P(X=x)), x=0,1,2,3,4$, lie on a fixed straight line in the $x y$-plane, and $P(X=x)=0$ for all $x \\in \\mathbb{R}-\\{0,1,2,3,4\\}$. If the mean of $X$ is $\\frac{5}{2}$, and the variance of $X$ is $\\alpha$, then the value of $24 \\alpha$ is _____________.",
+    "solution": "Let equation of line is $$\\mathrm{y=mx+c}$$\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n\n\n$$\\mathrm{x}$$\n0\n1\n2\n3\n4\n$$\\mathrm{R-\\{0,1,2,3,4\\}}\\mathrm{P(x)}\\mathrm{c}\\mathrm{m+c}\\mathrm{2m+c}\\mathrm{3m+c}\\mathrm{4m+c}$$\n0\n\n\n$$\\sum_{x=0}^4(m x+c)=1 \\Rightarrow 10 m+5 c=1 \\Rightarrow 2 m+c=\\frac{1}{5}\\quad \\text{.... (i)}\\begin{aligned}\n& \\text { mean }=\\sum x_i P_i=\\sum_{i=0}^4\\left(m x_i+c\\right) \\cdot x_i=30 m+10 c=\\frac{5}{2} \\\\\n& \\therefore 3 m+c=\\frac{1}{4} \\ldots(2) \\\\\n& \\text { from (1) and (2) } \\mathrm{m}=\\frac{1}{20}, \\mathrm{c}=\\frac{1}{10} \\\\\n& \\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2=\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}+\\mathrm{c}\\right) \\mathrm{x}_1^2 \\\\\n& =\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}^3+c \\mathrm{x}_{\\mathrm{i}}^2\\right) \\Rightarrow 100 \\mathrm{~m}+30 \\mathrm{c}(\\text { Now putting } \\mathrm{m} \\text { and } \\mathrm{c}) \\\\\n& \\Rightarrow \\Sigma \\mathrm{P}_{\\mathrm{i}}^2=5+3=8 \\\\\n& \\text { Variance }=\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2-\\left(\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}\\right)^2=8-\\left(\\frac{5}{2}\\right)^2=\\frac{7}{4} \\\\\n& \\therefore 24 \\alpha=42\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_074",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $X$ be the set of all five digit numbers formed using 1,2,2,2,4,4,0. For example, 22240 is in $X$ while 02244 and 44422 are not in $X$. Suppose that each element of $X$ has an equal chance of being chosen. Let $p$ be the conditional probability that an element chosen at random is a multiple of 20 given that it is a multiple of 5 . Then the value of $38 p$ is equal to :",
+    "solution": "Number of elements in $\\mathrm{X}$ which are multiple of 5\n\n[Diagram]\n\nAmong these 38 elements, let us calculate when element is not divisible by 20\n\n[Diagram]\n\n$\\therefore p=\\frac{38-7}{38} $\n\n$\n\\therefore 38 p=31$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ltxtd4vt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_075",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $p_i$ be the probability that a randomly chosen point has $i$ many friends, $i=0,1,2,3,4$. Let $X$ be a random variable such that for $i=0,1,2,3,4$, the probability $P(X=i)=p_i$. Then the value of $7 E(X)$ is :",
+    "solution": "[Diagram]\n\nNumber of points having 0 friend $=0$\n\nNumber of points having 1 friend $=0$\n\nNumber of points having 2 friends $=4$\n\nNumber of points having 3 friends $=5 \\times 4=20$\n\nNumber of points having 4 friends $=49-24=25$\n\n$\\mathrm{P}_{\\mathrm{i}}=$ Probability that randomly selected points has friends\n\n$\\mathrm{P}_0=0$ (0 friends)\n\n$\\mathrm{P}_1=0$ (exactly 1 friends)\n\n$\\mathrm{P}_2=\\frac{{ }^4 \\mathrm{C}_1}{{ }^{49} \\mathrm{C}_1}=\\frac{4}{9}$ (exactly 2 friends)\n\n$\\mathrm{P}_3=\\frac{{ }^{20} \\mathrm{C}_1}{{ }^{49} \\mathrm{C}_1}=\\frac{20}{49}$ (exactly 3 friends)\n\n$\\mathrm{P}_4=\\frac{{ }^{25} \\mathrm{C}_1}{{ }^{49} \\mathrm{C}_1}=\\frac{25}{49}$ (exactly 4 friends)\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline x & 0 & 1 & 2 & 3 & 4 \\\\\n\\hline P(x) & 0 & 0 & \\frac{4}{49} & \\frac{20}{49} & \\frac{25}{49} \\\\\n\\hline\n\\end{array}\n$$\n\n$\\begin{aligned} & \\text { Mean }=E(x)=\\sum x_i P_i=0+0+\\frac{8}{49}+\\frac{60}{49}+\\frac{100}{49}=\\frac{168}{49} \\\\\\\\ & 7(E(x))=\\frac{168}{49} \\times 7=24\\end{aligned}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiosmtu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_076",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two distinct points are chosen randomly out of the points $A_1, A_2, \\ldots, A_{49}$. Let $p$ be the probability that they are friends. Then the value of $7 p$ is :",
+    "solution": "Total number of ways of selecting 2 persons $={ }^{49} \\mathrm{C}_2$\n\nNumber of ways in which 2 friends are selected $=6 \\times 7 \\times 2=84$\n\n$$7 \\mathrm{P}=\\frac{84 \\times 2}{49 \\times 48} \\times 7=\\frac{1}{2}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiosmtu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_077",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a study about a pandemic, data of 900 persons was collected. It was found that\n\n190 persons had symptom of fever,\n\n220 persons had symptom of cough,\n\n220 persons had symptom of breathing problem,\n\n330 persons had symptom of fever or cough or both,\n\n350 persons had symptom of cough or breathing problem or both,\n\n340 persons had symptom of fever or breathing problem or both,\n\n30 persons had all three symptoms (fever, cough and breathing problem).\n\nIf a person is chosen randomly from these 900 persons, then the probability that the person has at most one symptom is ____________.",
+    "solution": "Let person had symptom of fever $=n(F)=190$\n\nPerson had symptom of cough $=n(\\mathrm{C})=220$\n\nPerson had symptom of breathing $=n(\\mathrm{~B})=220$\n\nPerson had symptom of fever or cough\n\n$$\n=n(\\mathrm{~F} \\cup \\mathrm{C})=330\n$$\n\nPerson had symptom of cough or breathing\n\n$$\n=n(\\mathrm{C} \\cup \\mathrm{B})=350\n$$\n\nPerson had symptom of fever or breathing\n\n$$\n=n(\\mathrm{~F} \\cup \\mathrm{B})=340\n$$\n\nPerson had symptom of fever, cough and breathing $=n(\\mathrm{~F} \\cap \\mathrm{C} \\cup \\mathrm{B})=30$\n\nSo $n(\\mathrm{~F} \\cap \\mathrm{C})=n(\\mathrm{~F})+n(\\mathrm{C})-n(\\mathrm{~F} \\cup \\mathrm{C})$\n\n$=190+220-330$\n\n$=80$\n\nand\n\n$ n(\\mathrm{F} \\cap \\mathrm{B}) =n(\\mathrm{~F})+n(\\mathrm{~B})-n(\\mathrm{~F} \\cup \\mathrm{B}) $\n\n$ =190+220-340 $\n\n$ =70 $\n\nand $ n(\\mathrm{C} \\cap \\mathrm{B}) =n(\\mathrm{C})+n(\\mathrm{~B})-n(\\mathrm{C} \\cap \\mathrm{B}) $\n\n$ =220+220-350 $\n\n$ =90$\n\nNumber of people having at most one symptom\n\n$$\n=70+80+90+480\n=720\n\n$$\n\n[Diagram]\n\nRequired probability $=\\frac{720}{900}=0.80$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ldgx1xgl.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_078",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A number of chosen at random from the set {1, 2, 3, ....., 2000}. Let p be the probability that the chosen number is a multiple of 3 or a multiple of 7. Then the value of 500p is __________.",
+    "solution": "Given, set = {1, 2, 3, ...., 2000}\n\nLet E$_{1}$ = Event that it is a multiple of 3 = {3, 6, 9, ...., 1998}\n\n$$\\therefore$$ n(E$_{1}$) = 666\n\nand E$_{2}$ = Event that it is a multiple of 7 = {7, 14, ..., 1995}\n\n$$\\therefore$$ n(E$_{2}$) = 285\n\n$${E_1} \\cap {E_2}$$ = multiple of 21 = {21, 42, ....., 1995}\n\n$$n({E_1} \\cap {E_2}) = 95\\thereforeP({E_1} \\cup {E_2}) = P({E_1}) + P({E_2}) - P({E_1} \\cap {E_2})P({E_1} \\cup {E_2}) = {{666 + 285 - 95} \\over {2000}} = {{856} \\over {2000}} = p$$ (given)\n\nHence, $$500p = 500 \\times {{856} \\over {2000}} = {{856} \\over 4} = 214$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_079",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three numbers are chosen at random, one after another with replacement, from the set S = {1, 2, 3, ......, 100}. Let p$_{1}$ be the probability that the maximum of chosen numbers is at least 81 and p$_{2}$ be the probability that the minimum of chosen numbers is at most 40.\n\nThe value of $${{625} \\over 4}{p_1}$$ is ___________.",
+    "solution": "p$_{1}$ = 1 $$-$$ p (all 3 numbers are $$\\le$$ 80)\n\n$$ = 1 - {\\left( {{{80} \\over {100}}} \\right)^3} = {{125 - 64} \\over {125}} = {{61} \\over {125}}$$\n\nSo, $${{625{p_1}} \\over 4} = {{625} \\over 4} \\times {{61} \\over {125}} = {5 \\over 4} \\times 61 = 76.25$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_080",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three numbers are chosen at random, one after another with replacement, from the set S = {1, 2, 3, ......, 100}. Let p$_{1}$ be the probability that the maximum of chosen numbers is at least 81 and p$_{2}$ be the probability that the minimum of chosen numbers is at most 40.\n\nThe value of $${{125} \\over 4}{p_2}$$ is ___________.",
+    "solution": "p$_{2}$ = 1 $$-$$ p (all three numbers are > 40)\n\n$$ = 1 - {\\left( {{{60} \\over {100}}} \\right)^3} = 1 - {{27} \\over {125}} = {{98} \\over {125}}$$\n\nSo, $${{125{p_2}} \\over 4} = {{125} \\over 4} \\times {{98} \\over {125}} = {{98} \\over 4} = 24.50$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_081",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probability that a missile hits a target successfully is 0.75. In order to destroy the target completely, at least three successful hits are required. Then the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95, is ............",
+    "solution": "It is given that the probability, a missile hits a target successfully $$p = {3 \\over 4}$$, so the probability to not hits the target is $${1 \\over 4}$$. And it is also given that to destroy the target completely, at least three successful hits are required.\n\nNow, according to the question, let the minimum number of missiles required to fired is n, so\n\n$$^n{C_3}{p^3}{q^{n - 3}}{ + ^n}{C_4}{p^4}{q^{n - 4}} + ...{ + ^n}{C_n}{p^n}\\, \\ge \\,0.95 \\Rightarrow 1 - \\left\\{ {^n{C_0}{{\\left( {{1 \\over 4}} \\right)}^n}{ + ^n}{C_1}\\left( {{3 \\over 4}} \\right){{\\left( {{1 \\over 4}} \\right)}^{n - 1}}{ + ^n}{C_2}{{\\left( {{3 \\over 4}} \\right)}^2}{{\\left( {{1 \\over 4}} \\right)}^{n - 2}}} \\right\\}\\, \\ge \\,0.95 \\Rightarrow 1 - {{95} \\over {100}}\\, \\ge \\,{1 \\over {{4^n}}} + {{3n} \\over {{4^n}}} + {{n(n - 1)} \\over 2}{9 \\over {{4^n}}} \\Rightarrow {{{4^n}} \\over {20}}\\, \\ge \\,{{2 + 6n + 9{n^2} - 9n} \\over 2} \\Rightarrow 10(9{n^2} - 3n + 2)\\, \\le \\,{4^n}$$\n\nNow, at n = 3, LHS = 720, RHS = 64\n\nat n = 4, LHS = 1340, RHS = 256\n\nat n = 5, LHS = 2120, RHS = 1024\n\nat n = 6, LHS = 3080, RHS = 4096\n\nHence, n = 6 missiles should be fired.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_082",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two fair dice, each with faces numbered 1, 2, 3, 4, 5 and 6, are rolled together and the sum of the numbers on the faces is observed. This process is repeated till the sum is either a prime number or a perfect square. Suppose the sum turns out to be a perfect square before it turns out to be a prime number. If p is the probability that this perfect square is an odd number, then the value of 14p is ..........",
+    "solution": "Let an event E of sum of outputs are perfect square (i.e., 4 or 9), so\n\nE = {(1, 3), (2, 2), (3, 1), (3, 6), (4, 5), (5, 4), (6, 3)}\n\nand an event F of sum of outputs are prime numbers\n\n(i.e., 2, 3, 5, 7, 11) so\n\nF = {(1, 1), (1, 2), (2, 1), (1, 4), (2, 3), (3, 2), (4, 1), (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1), (5, 6), (6, 5)}\n\nand event T of sum of outputs are odd numbers\n\n(i.e., 3, 5, 7, 9, 11)\n\nT = {(1, 2), (2, 1), (1, 4), (2, 3), (3, 2), (4, 1), (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1), (3, 6), (4, 5), (5, 4), (6, 3), (5, 6), (6, 5)}\n\nNow, required probability $$p = P(T/E) = {{P(T \\cap E)} \\over {P(E)}}$$\n\nwhere, $${P(T \\cap E)}$$ = probability of occurring perfect square odd number before prime\n\n$$ = \\left( {{4 \\over {36}}} \\right) + \\left( {{{14} \\over {36}}} \\right)\\left( {{4 \\over {36}}} \\right) + {\\left( {{{14} \\over {36}}} \\right)^2}\\left( {{4 \\over {36}}} \\right) + ....\\infty = {{{4 \\over {36}}} \\over {1 - {{14} \\over {36}}}} = {4 \\over {22}} = {2 \\over {11}}$$\n\nand P(E) = probability of occurring perfect square before prime\n\n$$ = \\left( {{7 \\over {36}}} \\right) + \\left( {{{14} \\over {36}}} \\right)\\left( {{7 \\over {36}}} \\right) + {\\left( {{{14} \\over {36}}} \\right)^2}\\left( {{7 \\over {36}}} \\right) + ....\\infty = {{{7 \\over {36}}} \\over {1 - {{14} \\over {36}}}} = {7 \\over {22}} \\therefore P(T/E) = {{{2 \\over {11}}} \\over {{7 \\over {22}}}} = {4 \\over 7} = p \\Rightarrow 14p = 8$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_083",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let S be the sample space of all 3 $$ \\times $$ 3 matrices with entries from the set {0, 1}. Let the events E$_{1}$ and E$_{2}$ be given by\n\nE$_{1}$ = {A$$ \\in $$S : det A = 0} and\n\nE$_{2}$ = {A$$ \\in $$S : sum of entries of A is 7}.\n\nIf a matrix is chosen at random from S, then the conditional probability P(E$_{1}$ | E$_{2}$) equals ...............",
+    "solution": "Given sample space (S) of al 3 $$ \\times $$ 3 matrices with entries from the set {0, 1} and events\n\nE$_{1}$ = {A$$ \\in $$S : det(A) = 0} and\n\nE$_{2}$ = {A$$ \\in $$S : sum of entries of A is 7}.\n\nFor event E$_{2}$, means sum of entries of matrix A is 7, then we need seven 1s and two 0s.\n\n$$ \\therefore $$ Number of different possible matrices = $${{9!} \\over {7!2!}} \\Rightarrow $$ n(E$_{2}$) = 36\n\nFor event E$_{1}$, |A| = 0, both the zeroes must be in same row/column.\n\n$$ \\therefore $$ Number of matrices such that their determinant is zero = $$6 \\times {{3!} \\over {2!}}$$ = 18 = $$n({E_1} \\cap {E_2}) \\therefore $$ Required probability,\n\n$$P\\left( {{{{E_1}} \\over {{E_2}}}} \\right) = {{n({E_1} \\cap {E_2})} \\over {n({E_2})}} = {{18} \\over {36}} = {1 \\over 2} = 0.50$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_084",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum number of times a fair coin needs to be tossed, so that the probability of getting at least two heads is at least $$0.96,$$ is",
+    "solution": "Let the coin is tossed $$n$$ times.\n$$\\because p$$ (at least 2 heads) $$=1-[p$$ (one heads) $$+p$$ (No heads)$$\\}$$\nAs we know, by binominal probability theorem the probability of getting $$r$$ success in $$n$$ trials with $$p$$ being the probability of success and $$q$$ be the probability of failure, is given by $${ }^n \\mathrm{C}_r(p)^r(q)^{n-r}$$.\nLet head be considered as the success and tail be the failure probability of getting head in a toss $$=p=\\frac{1}{2}$$ and probability of getting tail in a toss $$=q=\\frac{1}{2}\\begin{aligned}\n& \\therefore \\mathrm{P}(\\text { one head })={ }^n \\mathrm{C}_1\\left(\\frac{1}{2}\\right)^1\\left(\\frac{1}{2}\\right)^{n-1} \\\\\n& ={ }^n \\mathrm{C}_1\\left(\\frac{1}{2}\\right)^n \\\\\n& \\Rightarrow \\mathrm{P} \\text { (one head) }=n\\left(\\frac{1}{2}\\right)^n \\\\\n& \\text { Similarly, } \\mathrm{P}(\\text {No heads})={ }^n \\mathrm{C}_0\\left(\\frac{1}{2}\\right)^0\\left(\\frac{1}{2}\\right)^n \\\\\n& \\Rightarrow \\mathrm{P}(\\text { No heads })=\\left(\\frac{1}{2}\\right)^n \\quad\\left\\{\\because n_{c_o}=1\\right\\} \\\\\n& \\therefore \\mathrm{P} \\text { (at least } 2 \\text { heads) }=1-\\left\\{n\\left(\\frac{1}{2}\\right)^n+\\left(\\frac{1}{2}\\right)^n\\right\\}\n\\end{aligned}\\begin{aligned}\n& \\qquad=1-\\frac{(n+1)}{2^n} \\\\\n& \\because P(\\text { at least } 2 \\text { heads }) \\geq 0.96 \\\\\n& \\Rightarrow 1-\\frac{(n+1)}{2^n} \\geq 0.96 \\\\\n& \\Rightarrow 0.04 \\geq \\frac{n+1}{2^n} \\\\\n& \\Rightarrow \\frac{1}{25} \\geq \\frac{n+1}{2^n} \\\\\n& \\Rightarrow \\frac{2^n}{n+1} \\geq 25 \\\\\n& \\Rightarrow n \\geq 8\n\\end{aligned}$$\nSo, the minimum number of times a fair coin to be tossed is 8.\nHint:\n(i) P (at least 2 heads) $$=1-\\{\\mathrm{P}$$ (one head} + $$\\mathrm{P}$$(No heads)}\n(ii) Use binomial probability theorem and simplify it.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_085",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Of the three independent events $${E_1},{E_2}$$ and $${E_3},$$ the probability that only $${E_1}$$ occurs is $$\\alpha ,$$ only $${E_2}$$ occurs is $$\\beta $$ and only $${E_3}$$ occurs is $$\\gamma .$$ Let the probability $$p$$ that none of events $${E_1},{E_2}$$ or $${E_3}$$ occurs satisfy the equations $$\\left( {\\alpha -2\\beta } \\right)p = \\alpha \\beta $$ and $$\\left( {\\beta - 3\\gamma } \\right)p = 2\\beta \\gamma .$$ All the given probabilities are assumed to lie in the interval $$(0, 1)$$.\nThen $${{\\Pr obability\\,\\,of\\,\\,occurrence\\,\\,of\\,\\,{E_1}} \\over {\\Pr obability\\,\\,of\\,\\,occurrence\\,\\,of\\,\\,{E_3}}}$$",
+    "solution": "Given, three independent events $$\\mathrm{E}_1, \\mathrm{E}_2$$ and $$\\mathrm{E}_3$$.\nProbability that only\n$$\\mathrm{E}_1 \\text { occurs }=\\mathrm{P}\\left(\\mathrm{E}_1 \\cap \\overline{\\mathrm{E}}_2 \\cap \\overline{\\mathrm{E}}_3\\right)=\\alpha$$\nProbability that only\n$$\\mathrm{E}_2 \\text { occurs }=\\mathrm{P}\\left(\\mathrm{E}_1 \\cap \\overline{\\mathrm{E}}_2 \\cap \\overline{\\mathrm{E}}_3\\right)=\\beta$$\nProbability that only\n$$\\mathrm{E}_3 \\text { occurs }=P\\left(\\bar{E}_1 \\cap \\bar{E}_2 \\cap E_3\\right)=\\gamma$$\nProbability that none of $$E_1, E_2$$ or $$E_3$$ occurs\n$$=P\\left(\\overline{\\mathrm{E}}_1 \\cap \\overline{\\mathrm{E}}_2 \\cap \\overline{\\mathrm{E}}_3\\right)=\\rho\\begin{aligned}\n& \\text { Let } \\mathrm{P}\\left(\\mathrm{E}_1\\right)=x, \\mathrm{P}\\left(\\mathrm{E}_2\\right)=y \\text { and } \\mathrm{P}\\left(\\mathrm{E}_3\\right)=z \\\\\n& \\alpha=\\mathrm{P}\\left(\\mathrm{E}_1\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_2\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_3\\right) \\\\\n& \\Rightarrow \\quad \\alpha=x(1-y)(1-z) \\quad \\text{... (i)}\\\\\n& \\beta=\\mathrm{P}\\left(\\overline{\\mathrm{E}}_1\\right) \\cdot \\mathrm{P}\\left(\\mathrm{E}_2\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_3\\right) \\\\\n& \\Rightarrow \\quad \\beta=(1-x) \\cdot(y)(1-z) \\quad \\text{... (ii)}\\\\\n& \\gamma=\\mathrm{P}\\left(\\overline{\\mathrm{E}}_1\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_2\\right) \\cdot \\mathrm{P}\\left(\\mathrm{E}_3\\right) \\\\\n& \\Rightarrow \\quad \\gamma=(1-x)(1-y) z \\quad \\text{... (iii)}\\\\\n& \\rho=\\mathrm{P}\\left(\\overline{\\mathrm{E}}_1\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_2\\right) \\cdot \\mathrm{P}\\left(\\overline{\\mathrm{E}}_3\\right) \\\\\n& \\Rightarrow \\quad \\rho=(1-x)(1-y)(1-z) \\quad \\text{... (iv)}\\\\\n\\end{aligned}$$\nGiven $$(\\alpha-2 \\beta) \\rho=a \\beta$$ and $$(\\beta-3 \\gamma) \\rho=2 b \\gamma\\begin{aligned}\n\\Rightarrow \\quad & {[x(1-y)(1-z)-2(1-x) y(1-z)](1-x) } \\\\\n& (1-y)(1-z) \\\\\n& =x(1-y)(1-z) \\cdot(1-x) y(1-z) \\text { and } \\\\\n& {[(1-x) y(1-z)-3(1-x)(1-y) z](1-x) } \\\\\n& (1-y)(1-z) \\\\\n& =2(1-x) y(1-z) \\cdot(1-x)(1-y) z \\\\\n\\Rightarrow \\quad & {[x-x y-2 y+2 x y](1-x)(1-y)(1-z)^2 } \\\\\n& =x y(1-x)(1-y)(1-z)^2 \\text { and } \\\\\n& {[y-y z-3 z+3 y z](1-x)^2(1-y)(1-z) } \\\\\n& =2 y z(1-x)^2(1-y)(1-z) \\\\\n\\Rightarrow \\quad & (x-2 y+x y)=x y \\text { and }(y-3 z+2 y z)=2 y z \\\\\n\\Rightarrow \\quad & x=2 y \\text { and } y=3 z \\\\\n\\Rightarrow \\quad & \\frac{x}{2}=y=3 z \\\\\n\\Rightarrow \\quad & \\frac{x}{Z}=6\n\\end{aligned}\\Rightarrow \\frac{\\text { Probability of occurrence of } E_1}{\\text { Probability of occurrence of } E_3}=\\frac{x}{Z}=6$$\nHints :\nIf $$\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$$ are independent events, then probability of occurrence of only event A\n$$=\\mathrm{P}(\\mathrm{A} \\cap \\overline{\\mathrm{B}} \\cap \\overline{\\mathrm{C}})=\\mathrm{P}(\\mathrm{A}) \\cdot \\mathrm{P}(\\overline{\\mathrm{B}}) \\cdot \\mathrm{P}(\\overline{\\mathrm{C}})$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_086",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let E, F and G be three events having probabilities $$P(E) = {1 \\over 8}$$, $$P(F) = {1 \\over 6}$$ and $$P(G) = {1 \\over 4}$$, and let P (E $$\\cap$$ F $$\\cap$$ G) = $${1 \\over {10}}$$. For any event H, if H$^{c}$ denotes the complement, then which of the following statements is (are) TRUE?",
+    "solution": "For option (a)\n\n$$P(E \\cap F \\cap {G^C}) = P(E \\cap F) - P(E \\cap F \\cap G) \\le P(E) - P(E \\cap F \\cap G) = {1 \\over 8} - {1 \\over {10}} = {1 \\over {40}}$$\n\nFor option (b)\n\n$$P({E^C} \\cap F \\cap G) = P(F \\cap G) - P(E \\cap F \\cap G) \\le P(F) - P(E \\cap F \\cap G) = {1 \\over 6} - {1 \\over {10}} = {1 \\over {15}}$$\n\nFor option (c)\n\n$$P(E \\cup F \\cup G) \\le P(E) + P(F) + P(G) = {1 \\over 8} + {1 \\over 6} + {1 \\over 4} = {{3 + 4 + 6} \\over {24}} = {{13} \\over {24}}$$\n\nFor option (d)\n\n$$P({E^C} \\cap {F^C} \\cap {G^C}) = 1 - P(E \\cap F \\cap G) \\ge 1 - {{13} \\over {24}}P({E^C} \\cap {F^C} \\cap {G^C}) \\ge {{11} \\over {24}} > {5 \\over {12}}$$",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$P(E \\cap F \\cap {G^c}) \\le {1 \\over {40}}$$",
+      "$$P({E^c} \\cap F \\cap G) \\le {1 \\over {15}}$$",
+      "$$P(E \\cup F \\cup G) \\le {{13} \\over {24}}$$",
+      "$$P({E^c} \\cup {F^c} \\cup {G^c}) \\le {5 \\over {12}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_087",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There are three bags B$_{1}$, B$_{2}$ and B$_{3}$. The bag B$_{1}$ contains 5 red and 5 green balls, B$_{2}$ contains 3 red and 5 green balls, and B$_{3}$ contains 5 red and 3 green balls. Bags B$_{1}$, B$_{2}$ and B$_{3}$ have probabilities $${3 \\over {10}}$$, $${3 \\over {10}}$$ and $${4 \\over {10}}$$ respectively of being chosen. A bag is selected at random and a ball is chosen at random from the bag. Then which of the following options is/are correct?",
+    "solution": "It is given that there are three bags B$_{1}$, B$_{2}$ and B$_{3}$ and probabilities of being chosen B$_{1}$, B$_{2}$ and B$_{3}$ are respectively.\n\n$$ \\therefore P({B_1}) = {3 \\over {10}},\\,P({B_2}) = {3 \\over {10}}$$ and $$P({B_3}) = {4 \\over {10}}$$.\n\n\n[Diagram]\n\n\nNow, probability that the chosen ball is green, given that selected bag is\n\n$${B_3} = P\\left( {{G \\over {{B_3}}}} \\right) = {3 \\over 8}$$\n\nNow, probability that the selected bag is B$_{3}$, given that the chosen ball is green = $$P\\left( {{{{B_3}} \\over G}} \\right) = {{P\\left( {{G \\over {{B_3}}}} \\right)P({B_3})} \\over {P\\left( {{G \\over {{B_1}}}} \\right)P({B_1}) + P\\left( {{G \\over {{B_2}}}} \\right)P({B_2}) + P\\left( {{G \\over {{B_3}}}} \\right)P({B_3})}}$$\n\n[by Baye's theorem]\n\n= $${{\\left( {{3 \\over 8} \\times {4 \\over {10}}} \\right)} \\over {\\left( {{5 \\over {10}} \\times {3 \\over {10}}} \\right) + \\left( {{5 \\over 8} \\times {3 \\over {10}}} \\right) + \\left( {{3 \\over 8} \\times {4 \\over {10}}} \\right)}} = {{{1 \\over 2}} \\over {{1 \\over 2} + {5 \\over 8} + {1 \\over 2}}} = {4 \\over {13}}$$\n\nNow, probability that the chosen ball is green = P(G)\n\n= $$P({B_1})P\\left( {{G \\over {{B_1}}}} \\right) + P({B_2})P\\left( {{G \\over {{B_2}}}} \\right) + P({B_3})P\\left( {{G \\over {{B_3}}}} \\right)$$\n\n[By using theorem of total probability]\n\n= $$\\left( {{3 \\over {10}} \\times {5 \\over {10}}} \\right) + \\left( {{3 \\over {10}} \\times {5 \\over 8}} \\right) + \\left( {{4 \\over {10}} \\times {3 \\over 8}} \\right)$$\n\n= $${3 \\over {20}} + {3 \\over {16}} + {3 \\over {20}} = {{12 + 15 + 12} \\over {80}} = {{39} \\over {80}}$$\n\nNow, probability that the selected bag is B$_{3}$ and the chosen ball is green\n\n= $$P({B_3}) \\times P\\left( {{G \\over {{B_3}}}} \\right) = {4 \\over {10}} \\times {3 \\over 8} = {3 \\over {20}}$$\n\nHence, options (a) and (c) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "Probability that the chosen ball is green, given that the selected bag is B$_{3}$, equals $${3 \\over 8}$$.",
+      "Probability that the selected bag is B$_{3}$, given that the chosen ball is green, equals $${5 \\over 13}$$.",
+      "Probability that the chosen ball is green equals $${39 \\over 80}$$.",
+      "Probability that the selected bag is B$_{3}$ and the chosen ball is green equals $${3 \\over 10}$$."
+    ]
+  },
+  {
+    "id": "math_probability_088",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let X and Y be two events such that $$P(X) = {1 \\over 3}$$, $$P(X|Y) = {1 \\over 2}$$ and $$P(Y|X) = {2 \\over 5}$$. Then",
+    "solution": "$$P(X) = {1 \\over 3}P\\left( {{X \\over Y}} \\right) = {{P(X \\cap Y)} \\over {P(Y)}} = {1 \\over 2}P\\left( {{Y \\over X}} \\right) = {{P(X \\cap Y)} \\over {P(X)}} = {2 \\over 5}P(X \\cap Y) = {2 \\over {15}}P(Y) = {4 \\over {15}}P\\left( {{{X'} \\over Y}} \\right) = {{P(Y) - P(X \\cap Y)} \\over {P(Y)}} = {{{4 \\over {15}} - {2 \\over {15}}} \\over {{4 \\over {15}}}} = {1 \\over 2}P(X \\cup Y) = {1 \\over 3} + {4 \\over {15}} - {2 \\over {15}} = {7 \\over {15}} = {7 \\over {15}}$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$P(Y) = {4 \\over {15}}$$",
+      "$$P(X'|Y) = {1 \\over 2}$$",
+      "$$P(X \\cup Y) = {2 \\over 5}$$",
+      "$$P(X \\cap Y) = {1 \\over 5}$$"
+    ]
+  },
+  {
+    "id": "math_probability_089",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${n_1}$$ and $${n_2}$$ be the number of red and black balls, respectively, in box $${\\rm I}$$. Let $${n_3}$$ and $${n_4}$$ be the number of red and black balls, respectively, in box $${\\rm I}{\\rm I}.$$\nA ball is drawn at random from box $${\\rm I}$$ and transferred to box $${\\rm I}{\\rm I}.$$ If the probability of drawing a red ball from box $${\\rm I},$$ after this transfer, is $${1 \\over 3},$$ then the correct option(s) with the possible values of $${n_1}$$ and $${n_2}$$ is(are)",
+    "solution": "[Diagram]\n\n$$\\therefore$$ P (drawing red ball from B$_{1}$) = $${1 \\over 3} \\Rightarrow \\left( {{{{n_1} - 1} \\over {{n_1} + {n_2} - 1}}} \\right)\\left( {{{{n_1}} \\over {{n_1} + {n_2}}}} \\right) + \\left( {{{{n_2}} \\over {{n_1} + {n_2}}}} \\right)\\left( {{{{n_1}} \\over {{n_1} + {n_2} - 1}}} \\right) = {1 \\over 3} \\Rightarrow {{n_1^2 + {n_1}{n_2} - {n_1}} \\over {({n_1} + {n_2})({n_1} + {n_2} - 1)}} = {1 \\over 3}$$\nClearly, options (c) and (d) satisfy.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${n_1} = 4$$ and $${n_2} = 6$$",
+      "$${n_1} = 2$$ and $${n_2} = 3$$",
+      "$${n_1} = 10$$ and $${n_2} = 20$$",
+      "$${n_1} = 3$$ and $${n_2} = 6$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0why4o9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_probability_090",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${n_1}$$ and $${n_2}$$ be the number of red and black balls, respectively, in box $${\\rm I}$$. Let $${n_3}$$ and $${n_4}$$ be the number of red and black balls, respectively, in box $${\\rm I}{\\rm I}.$$\nOne of the two boxes, box $${\\rm I}$$ and box $${\\rm I}{\\rm I},$$ was selected at random and a ball was drawn randomly out of this box. The ball was found to be red. If the probability that this red ball was drawn from box $${\\rm I}{\\rm I}$$ is $${1 \\over 3},$$ then the correct option(s) with the possible values of $${n_1}{n_2},{n_3}$$ and $${n_4}$$ is (are)",
+    "solution": "Box I : red balls $$\\to$$ n$_{1}$\nblack balls $$\\to$$ n$_{2}$\nBox II : red balls $$\\to$$ n$_{3}$\nblack balls $$\\to$$ n$_{4}$\n$$P(R) = {1 \\over 2}.{{{n_1}} \\over {{n_1} + {n_2}}} + {1 \\over 2}.{{{n_3}} \\over {{n_3} + {n_4}}}$$\nP(Box II / R) $$ = {{{1 \\over 2}.{{{n_3}} \\over {{n_3} + {n_4}}}} \\over {{1 \\over 2}.{{{n_1}} \\over {{n_1} + {n_2}}} + {1 \\over 2}.{{{n_3}} \\over {{n_3} + {n_4}}}}} = {1 \\over {1 + \\left( {{{{{{n_1}} \\over {{n_1} + {n_2}}}} \\over {{{{n_3}} \\over {{n_3} + {n_4}}}}}} \\right)}} = {1 \\over 3}$$\nThus, $${{{n_1}} \\over {{n_1} + {n_2}}} = 2{{{n_3}} \\over {{n_3} + {n_4}}}$$\ni.e. $$2\\left( {1 + {{{n_2}} \\over {{n_1}}}} \\right) = 1 + {{{n_4}} \\over {{n_3}}}$$ i.e. $${{{n_4}} \\over {{n_3}}} - 2{{{n_2}} \\over {{n_1}}} = 1$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$${n_1} = 3,{n_2} = 3,{n_3} = 5,{n_4} = 15$$",
+      "$${n_1} = 3,{n_2} = 6,{n_3} = 10,{n_4} = 50$$",
+      "$${n_1} = 8,{n_2} = 6,{n_3} = 5,{n_4} = 20$$",
+      "$${n_1} = 6,{n_2} = 12,{n_3} = 5,{n_4} = 20$$"
+    ]
+  },
+  {
+    "id": "math_probability_091",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$X$$ and $$Y$$ be two events such that $$P\\left( {X|Y} \\right) = {1 \\over 2},P\\left( {Y|X} \\right) = {1 \\over 3}$$ and $$P\\left( {X \\cap Y} \\right) = {1 \\over 6}.$$ Which of the following is (are) correct ?",
+    "solution": "Let's analyze the given conditions and evaluate which options are correct.\n\nGiven:\n\n$$ P(X|Y) = \\frac{1}{2} P(Y|X) = \\frac{1}{3} P(X \\cap Y) = \\frac{1}{6} $$\n\nNow, let's proceed step by step through each option.\n\nOption A: $$ P(X \\cup Y) = \\frac{2}{3} $$\n\nWe can use the formula for the union of two events:\n\n$$ P(X \\cup Y) = P(X) + P(Y) - P(X \\cap Y) $$\n\nTo find $$ P(X) $$ and $$ P(Y) $$, we use the definitions of conditional probability:\n\n$$ P(X|Y) = \\frac{P(X \\cap Y)}{P(Y)} \\frac{1}{2} = \\frac{\\frac{1}{6}}{P(Y)} P(Y) = \\frac{1}{6} \\times 2 = \\frac{1}{3} $$\n\nSimilarly,\n\n$$ P(Y|X) = \\frac{P(X \\cap Y)}{P(X)} \\frac{1}{3} = \\frac{\\frac{1}{6}}{P(X)} P(X) = \\frac{1}{6} \\times 3 = \\frac{1}{2} $$\n\nNow, substituting these values into the union formula:\n\n$$ P(X \\cup Y) = \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{6} $$\n\nTo add these fractions, we need a common denominator. The common denominator is 6:\n\n$$ P(X \\cup Y) = \\frac{3}{6} + \\frac{2}{6} - \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3} $$\n\nHence, Option A is correct.\n\nOption B: $$ X $$ and $$ Y $$ are independent\n\nFor two events $$ X $$ and $$ Y $$ to be independent, the following condition should hold:\n\n$$ P(X \\cap Y) = P(X) \\times P(Y) $$\n\nWe already found that:\n\n$$ P(X) = \\frac{1}{2} P(Y) = \\frac{1}{3} P(X \\cap Y) = \\frac{1}{6} $$\n\nChecking the independence condition:\n\n$$ P(X) \\times P(Y) = \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} $$\n\nSince this is equal to $$ P(X \\cap Y) $$, $$ X $$ and $$ Y $$ are indeed independent.\n\nHence, Option B is correct.\n\nOption C: $$ X $$ and $$ Y $$ are not independent\n\nFrom the previous analysis, we have shown that $$ X $$ and $$ Y $$ are independent.\n\nHence, Option C is not correct.\n\nOption D: $$ P((X^c) \\cap Y) = \\frac{1}{3} $$\n\nTo find $$ P((X^c) \\cap Y) $$, we use the fact that:\n\n$$ P(Y) = P((X \\cap Y) \\cup (X^c \\cap Y)) $$\n\nSince $$ (X \\cap Y) $$ and $$ (X^c \\cap Y) $$ are disjoint events, we can write:\n\n$$ P(Y) = P(X \\cap Y) + P(X^c \\cap Y) $$\n\nGiven:\n\n$$ P(Y) = \\frac{1}{3} P(X \\cap Y) = \\frac{1}{6} $$\n\nSubstituting these,\n\n$$ \\frac{1}{3} = \\frac{1}{6} + P(X^c \\cap Y) $$\n\nSolving for $$ P(X^c \\cap Y) $$:\n\n$$ P(X^c \\cap Y) = \\frac{1}{3} - \\frac{1}{6} = \\frac{2}{6} - \\frac{1}{6} = \\frac{1}{6} $$\n\nThis contradicts Option D, as it says $$ \\frac{1}{3} $$.\n\nHence, Option D is not correct.\n\nIn conclusion:\n\nOption A and Option B are correct.\n\nOption C and Option D are not correct.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$$P\\left( {X \\cup Y} \\right) = {2 \\over 3}$$",
+      "$$X$$ and $$Y$$ are independent",
+      "$$X$$ and $$Y$$ are not independent",
+      "$$P\\left( {{X^c} \\cap Y} \\right) = {1 \\over 3}$$"
+    ]
+  },
+  {
+    "id": "math_probability_092",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ship is fitted with three engines $${E_1},{E_2}$$ and $${E_3}$$. The engines function independently of each other with respective probabilities $${1 \\over 2},{1 \\over 4}$$ and $${1 \\over 4}$$. For the ship to be operational at least two of its engines must function. Let $$X$$ denote the event that the ship is operational and Let $${X_1},{X_2}$$ and $${X_3}$$ denote respectively the events that the engines $${E_1},{E_2}$$ and $${E_3}$$ are functioning. Which of the following is (are) true?",
+    "solution": "$$\\begin{array}{r}\n\\text { Given, } \\mathrm{P}\\left(\\mathrm{X}_1\\right)=\\frac{1}{2} \\Rightarrow \\mathrm{P}\\left(\\overline{\\mathrm{X}}_1\\right)=1-\\frac{1}{2}=\\frac{1}{2} \\\\\n\\mathrm{P}\\left(\\mathrm{X}_2\\right)=\\frac{1}{4} \\Rightarrow \\mathrm{P}\\left(\\bar{X}_2\\right)=1-\\frac{1}{4}=\\frac{3}{4} \\\\\n\\mathrm{P}\\left(\\mathrm{X}_3\\right)=\\frac{1}{4} \\Rightarrow \\mathrm{P}\\left(\\bar{X}_3\\right)=1-\\frac{1}{4}=\\frac{3}{4}\n\\end{array}\\begin{aligned}\n& \\text { Now, } P(X)=P\\left(E_1 E_2 E_3\\right)+P\\left(\\bar{E}_1 E_2 E_3\\right)+P\\left(E_1\\right. \\\\\n& \\left.\\overline{\\mathrm{E}}_2 \\mathrm{E}_3\\right)+\\mathrm{P}\\left(\\mathrm{E}_1 \\mathrm{E}_2 \\overline{\\mathrm{E}}_3\\right) \\\\\n& =\\frac{1}{2} \\cdot \\frac{1}{4} \\cdot \\frac{1}{4}+\\frac{1}{2} \\cdot \\frac{1}{4} \\cdot \\frac{1}{4}+\\frac{1}{2} \\cdot \\frac{3}{4} \\cdot \\frac{1}{4}+\\frac{1}{2} \\cdot \\frac{1}{4} \\cdot \\frac{3}{4} \\\\\n\\end{aligned}\\begin{aligned}\n& P(X)=\\frac{1}{32}+\\frac{1}{32}+\\frac{3}{32}+\\frac{3}{32} \\\\\n& P(X)=\\frac{1}{4}\n\\end{aligned}$$\n(i) $$\\mathrm{P}\\left(\\frac{\\mathrm{X}_1^c}{\\mathrm{X}}\\right)=\\frac{\\mathrm{P}\\left(\\mathrm{X}_1^c \\cap \\mathrm{X}\\right)}{\\mathrm{P}(\\mathrm{X})}$$\nNow, $$X_1^c \\cap X$$ indicates the event that the ship is operational but $$\\mathrm{E}_1$$ is not functioning.\n$$\\begin{aligned}\n& \\therefore \\quad \\mathrm{P}\\left(\\mathrm{X}_1^c \\cap \\mathrm{X}\\right)=\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}=\\frac{1}{32} \\\\\n& \\therefore \\mathrm{P}\\left(\\frac{\\mathrm{X}_1^c}{\\mathrm{X}}\\right)=\\frac{\\frac{1}{32}}{\\frac{1}{4}}=\\frac{1}{8}\n\\end{aligned}$$\n(ii) P (Exactly two engines of the ship are functioning $$\\mid X$$)\n$$\\begin{aligned}\n& =\\frac{\\mathrm{P}\\left(\\overline{\\mathrm{E}}_1 \\mathrm{E}_2 \\mathrm{E}_3\\right)+\\mathrm{P}\\left(\\mathrm{E}_1 \\overline{\\mathrm{E}}_2 \\mathrm{E}_3\\right)+1\\left(\\mathrm{E}_1 \\mathrm{E}_2 \\overline{\\mathrm{E}}_3\\right)}{\\mathrm{P}(\\mathrm{X})} \\\\\n& =\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{4}} \\\\\n& =\\frac{7}{8}\n\\end{aligned}\\begin{aligned}\n\\text { (iii) } & P\\left(X \\mid X_2\\right)=\\frac{P\\left(X \\cap X_2\\right)}{P\\left(X_2\\right)} \\\\\n& =\\frac{P\\left(E_1 E_2 E_3\\right)+P\\left(\\bar{E}_1 E_2 E_3\\right)+P\\left(E_1 E_2 \\bar{E}_3\\right)}{P\\left(X_2\\right)} \\\\\n& =\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{4}} \\\\\n& =\\frac{5}{8}\n\\end{aligned}\\begin{aligned}\n\\text { (iv) } & P\\left(X \\mid X_1\\right)=\\frac{P\\left(X \\cap X_1\\right)}{P\\left(X_1\\right)} \\\\\n= & \\frac{P\\left(E_1 E_2 E_3\\right)+P\\left(E_1 \\bar{E}_2 E_3\\right)+P\\left(E_1 E_2 \\bar{E}_3\\right)}{P\\left(X_1\\right)} \\\\\n= & \\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{2}} \\\\\n= & \\frac{7}{16}\n\\end{aligned}$$",
+    "answerKey": [
+      "D",
+      "B"
+    ],
+    "options": [
+      "$$P\\left[ {X_1^c|X} \\right] = {3 \\over {16}}$$",
+      "$$P$$ [exactly two engines of the ship are functioning $$\\left. {|X} \\right] = {7 \\over 8}$$",
+      "$$P\\left[ {X|{X_2}} \\right] = {5 \\over {16}}$$",
+      "$$P\\left[ {X|{X_1}} \\right] = {7 \\over {16}}$$"
+    ]
+  },
+  {
+    "id": "math_probability_093",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$E$$ and $$F$$ be two independent events. The probability that exactly one of them occurs is $$\\,{{11} \\over {25}}$$ and the probability of none of them occurring is $$\\,{{2} \\over {25}}$$. If $$P(T)$$ denotes the probability of occurrence of the event $$T,$$ then",
+    "solution": "Let $$P(E) = e$$ and $$P(F) = f$$.\n$$P(E \\cup F) - P(E \\cap F) = {{11} \\over {25}} \\Rightarrow e + f - 2ef = {{11} \\over {25}}$$ ...... (1)\n$$P(\\overline E \\cap \\overline F ) = {2 \\over {25}} \\Rightarrow (1 - e)(1 - f) = {2 \\over {25}} \\Rightarrow 1 - e - f + ef = {2 \\over {25}}$$ ...... (2)\nFrom Eqs. (1) and (2), we get\n$$ef = {{12} \\over {25}}$$ and $$e + f = {7 \\over 5}$$\nSolving, we get\n$$e = {4 \\over 5},\\,f = {3 \\over 5}$$ or $$e = {3 \\over 5},\\,f = {4 \\over 5}$$",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$P\\left( E \\right) = {4 \\over 5},P\\left( F \\right) = {3 \\over 5}$$",
+      "$$P\\left( E \\right) = {1 \\over 5},P\\left( F \\right) = {2 \\over 5}$$",
+      "$$P\\left( E \\right) = {2 \\over 5},P\\left( F \\right) = {1 \\over 5}$$",
+      "$$P\\left( E \\right) = {3 \\over 5},P\\left( F \\right) = {4 \\over 5}$$"
+    ]
+  },
+  {
+    "id": "math_probability_094",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The probabilities that a student passes in Mathematics, Physics and Chemistry are $$m, p$$ and $$c,$$ respectively. Of these subjects, the student has a $$75%$$ chance of passing in at least one, a $$50$$% chance of passing in at least two, and a $$40$$% chance of passing in exactly two. Which of the following relations are true?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C",
+      "B"
+    ],
+    "options": [
+      "$$p+m+c=19/20$$",
+      "$$p+m+c=27/20$$",
+      "$$pmc=1/10$$",
+      "$$pmc=1/4$$"
+    ]
+  },
+  {
+    "id": "math_probability_095",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\overline E $$ and $$\\overline F $$ are the complementary events of events $$E$$ and $$F$$ respectively and if $$0 < P\\left( F \\right) < 1,$$ then",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$P\\left( {E/F} \\right) + P\\left( {\\overline E /F} \\right) = 1$$",
+      "$$P\\left( {E/F} \\right) + P\\left( {E/\\overline F } \\right) = 1$$",
+      "$$P\\left( {\\overline E /F} \\right) + P\\left( {E/\\overline F } \\right) = 1$$",
+      "$$P\\left( {E/\\overline F } \\right) + P\\left( {\\overline E /\\overline F } \\right) = 1$$"
+    ]
+  },
+  {
+    "id": "math_probability_096",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$0 < P\\left( A \\right) < 1,0 < P\\left( B \\right) < 1$$ and\n\n$$P\\left( {A \\cup B} \\right) = P\\left( A \\right) + P\\left( B \\right) - P\\left( A \\right)P\\left( B \\right)$$ then",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$P\\left( {B/A} \\right) = P\\left( B \\right) - P\\left( A \\right)$$",
+      "$$P\\left( {A' - B'} \\right) = P\\left( {A'} \\right) - P\\left( {B'} \\right)$$",
+      "$$P\\left( {A \\cup B} \\right)' = P\\left( {A'} \\right) - P\\left( {B'} \\right)$$",
+      "$$P\\left( {A/B} \\right) = P\\left( A \\right)$$"
+    ]
+  },
+  {
+    "id": "math_probability_097",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$E$$ and $$F$$ are two independent events. The probability that both $$E$$ and $$F$$ happen is $$1/12$$ and the probability that neither $$E$$ nor $$F$$ happens is $$1/2.$$ Then,",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$\\,P\\left( E \\right) = 1/3,P\\left( F \\right) = 1/4$$",
+      "$$\\,P\\left( E \\right) = 1/2,P\\left( F \\right) = 1/6$$",
+      "$$\\,P\\left( E \\right) = 1/6,P\\left( F \\right) = 1/2$$",
+      "$$\\,P\\left( E \\right) = 1/4,P\\left( F \\right) = 1/3$$"
+    ]
+  },
+  {
+    "id": "math_probability_098",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For any two events $$A$$ and $$B$$ in a simple space",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$P\\left( {A/B} \\right) \\ge {{P\\left( A \\right) + P\\left( B \\right) - 1} \\over {P\\left( B \\right)}},P\\left( B \\right)\ne 0$$ is always true",
+      "$$P\\left( {A \\cap \\overline B } \\right) = P\\left( A \\right) - P\\left( {A \\cap B} \\right)\\,\\,$$ does not hold",
+      "$$P\\left( {A \\cup B} \\right) = 1 - P\\left( {\\overline A } \\right)P\\left( {\\overline B } \\right),$$ if $$A$$ and $$B$$ are independent",
+      "$$P\\left( {A \\cup B} \\right) = 1 - P\\left( {\\overline A } \\right)P\\left( {\\overline B } \\right),$$ if $$A$$ and $$B$$ are disjoint."
+    ]
+  },
+  {
+    "id": "math_probability_099",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$E$$ and $$F$$ are independent events such that $$0 < P\\left( E \\right) < 1$$ and $$0 < P\\left( F \\right) < 1,$$ then",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C",
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$E$$ and $$F$$ are mutually exclusive",
+      "$$E$$ and $${F^c}$$ (the complement of the event $$F$$) are independent",
+      "$${E^c}$$ and $${F^c}$$ are independent",
+      "$$P\\left( {E|F} \\right) + P\\left( {{E^c}|F} \\right) = 1.$$"
+    ]
+  },
+  {
+    "id": "math_probability_100",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For two given events $$A$$ and $$B,P\\left( {A \\cap B} \\right)$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "C",
+      "A"
+    ],
+    "options": [
+      "not less than $$P\\left( A \\right) + P\\left( B \\right) - 1$$",
+      "not greater than $$P\\left( A \\right) + P\\left( B \\right)$$",
+      "equal to $$P\\left( A \\right) + P\\left( B \\right) - P\\left( {A \\cup B} \\right)\\,\\,$$",
+      "$$P\\left( A \\right) + P\\left( B \\right) + P\\left( {A \\cup B} \\right)\\,\\,$$"
+    ]
+  },
+  {
+    "id": "math_probability_101",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$M$$ and $$N$$ are any two events, the probability that exactly one of them occurs is",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$P\\left( M \\right) + P\\left( N \\right) - 2P\\left( {M \\cap N} \\right)$$",
+      "$$P\\left( M \\right) + P\\left( N \\right) - P\\left( {M \\cap N} \\right)$$",
+      "$$P\\left( {{M^c}} \\right) + P\\left( {{N^c}} \\right) - 2P\\left( {{M^c} \\cap {N^c}} \\right)$$",
+      "$$P\\left( {M \\cap {N^c}} \\right) + P\\left( {{M^c} \\cap N} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_probability_102",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A$$ and $$B$$ are two independent events. $$C$$ is even in which exactly one of $$A$$ or $$B$$ occurs. Prove that $$P\\left( C \\right) \\ge P\\left( {A \\cup B} \\right)P\\left( {\\overline A \\cap \\overline B } \\right)$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_103",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains $$12$$ red and $$6$$ white balls. Balls are drawn from the box one at a time without replacement. If in $$6$$ draws there are at least $$4$$ white balls, find the probability that exactly one white is drawn in the next two draws. (binomial coefficients can be left as such)",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_104",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A$$ is targeting to $$B, B$$ and $$C$$ are targeting to $$A.$$ Probability of hitting the target by $$A,B$$ and $$C$$ are $${2 \\over 3},{1 \\over 2}$$ and $${1 \\over 3}$$ respectively. If $$A$$ is hit then find the probability that $$B$$ hits the target and $$C$$ does not.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_105",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a student to qualify, he must pass at least two out of three exams. The probability that he will pass the 1$^{st}$ exam is $$p.$$ If he fails in one of the exams then the probability of his passing in the next exam is $${p \\over 2}$$ otherwise it remains the same. Find the probability that he will qualify.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_106",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains $$N$$ coins, $$m$$ of which are fair and the rest are biased. The probability of getting a head when a fair coin is tossed is $$1/2$$, while it is $$2/3$$ when a biased coin is tossed. A coin is drawn from the box at random and is tossed twice. The first time it shows head and the second time it shows tail. what is the probability that the coin drawn is fair?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_107",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An unbiased die, with faces numbered $$1,2,3,4,5,6,$$ is thrown $$n$$ times and the list of $$n$$ numbers showing up is noted. What is the probability that, among the numbers $$1,2,3,4,5,6,$$ only three numbers appear in this list?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_108",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An urn contains $$m$$ white and $$n$$ black balls. A ball is drawn at random and is put back into the urn along with $$k$$ additional balls of the same colour as that of the ball drawn. A ball is again drawn at random. What is the probability that the ball drawn now is white?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_109",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A coin has probability $$p$$ of showing head when tossed. It is tossed $$n$$ times. Let $${p_n}$$ denote the probability that no two (or more) consecutive heads occur. Prove that $${p_1} = 1,{p_2} = 1 - {p^2}$$ and $${p_n} = \\left( {1 - p} \\right).\\,\\,{p_{n - 1}} + p\\left( {1 - p} \\right){p_{n - 2}}$$ for all $$n \\ge 3.$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_110",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Eight players $${P_1},{P_2},.....{P_8}$$ play a knock-out tournament. It is known that whenever the players $${P_i}$$ and $${P_j}$$ play, the player $${P_i}$$ will win if $$i < j.$$ Assuming that the players are paired at random in each round, what is the probability that the player $${P_4}$$ reaches the final?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_111",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three players, $$A,B$$ and $$C,$$ toss a coin cyclically in that order (that is $$A, B, C, A, B, C, A, B,...$$) till a head shows. Let $$p$$ be the probability that the coin shows a head. Let $$\\alpha ,\\,\\,\\,\\beta $$ and $$\\gamma $$ be, respectively, the probabilities that $$A, B$$ and $$C$$ gets the first head. Prove that $$\\beta = \\left( {1 - p} \\right)\\alpha $$ Determine $$\\alpha ,\\beta $$ and $$\\gamma $$ (in terms of $$p$$).",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_112",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${C_1}$$ and $${C_2}$$ be the graphs of the functions $$y = {x^2}$$ and $$y = 2x,0 \\le x \\le 1$$ respectively. Let $${C_3}$$ be the graph of a function $$y=f(x),0 \\le x \\le 1,f(0)=0.$$ For a point $$P$$ on $${C_1},$$ let the lines through $$P,$$ parallel to the axes, meet $${C_2}$$ and $${C_3}$$ at $$Q$$ and $$R$$ respectively (see figure.) If for every position of $$P$$ (on $${C_1}$$ ), the areas of the shaded regions $$OPQ$$ and $$ORP$$ are equal, determine the function$$f(x).$$\n\n[Diagram]",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_113",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$p$$ and $$q$$ are chosen randomly from the set $$\\left\\{ {1,2,3,4,5,6,7,8,9,10} \\right\\},$$ with replacement, determine the probability that the roots of the equation $${x^2} + px + q = 0$$ are real.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_114",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In how many ways three girls and nine boys can be seated in two vans, each having numbered seats, $$3$$ in the front and $$4$$ at the back? How many seating arrangements are possible if $$3$$ girls should sit together in a back row on adjacent seats? Now, if all the seating arrangements are equally likely, what is the probability of $$3$$ girls sitting together in a back row on adjacent seats?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_115",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An unbiased coin is tossed. If the result is a head, a pair of unbiased dice is rolled and the number obtained by adding the numbers on the two faces is noted. If the result is a tail, a card from a well shuffled pack of eleven cards numbered $$2, 3,4,.....12$$ is picked and the number on the card is noted. What is the probability that the noted number is either $$7$$ or $$8$$?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_116",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Numbers are selected at random, one at a time, from the two- digit numbers $$00, 01, 02 ......, 99$$ with replacement. An event $$E$$ occurs if only if the product of the two digits of a selected number is $$18$$. If four numbers are selected, find probability that the event $$E$$ occurs at least $$3$$ times.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_117",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A lot contains $$50$$ defective and $$50$$ non defective bulbs. Two bulbs are drawn at random, one at a time, with replacement. The events $$A, B, C$$ are defined as\n\n$$A=$$ (the first bulbs is defective)\n\n$$B=$$ (the second bulbs is non-defective)\n\n$$C=$$ (the two bulbs are both defective or both non defective)\n\nDetermine whether\n\n(i) $$\\,\\,\\,\\,\\,A, B, C$$ are pairwise independent\n\n(ii)$$\\,\\,\\,\\,\\,A, B, C$$ are independent",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_118",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a test an examine either guesses or copies or knows the answer to a multiple choice question with four choices. The probability that he make a guess is $$1/3$$ and the probability that he copies the answer is $$1/6$$. The probability that his answer is correct given that he copied it, is $$1/8$$. Find the probability that he knew the answer to the questions given that he correctly answered it.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_119",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A is a set containing $$n$$ elements. $$A$$ subset $$P$$ of $$A$$ is chosen at random. The set $$A$$ is reconstructed by replacing the elements of $$P.A$$ subset $$Q$$ of $$A$$ is again chosen at random. Find the probability that $$P$$ and $$Q$$ have no common elements.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_120",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose the probability for A to win a game against B is $$0.4.$$ If $$A$$ has an option of playing either a \"best of $$3$$ games\" or a \"best of $$5$$ games\" match against $$B$$, which option should be choose so that the probability of his winning the match is higher ? (No game ends in a draw).",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_121",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains $$2$$ fifty paise coins, $$5$$ twenty five paise coins and a certain fixed number $$N\\,\\,\\left( { \\ge 2} \\right)$$ of ten and five paise coins. Five coins are taken out of the box at random. Find the probability that the total value of these $$5$$ coins is less than one rupee and fifty paise.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_122",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A man takes a step forward with probability $$0.4$$ and backwards with probability $$0.6$$ Find the probability that at the end of eleven steps he is one step away from the starting point.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_123",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A lot contains $$20$$ articles. The probability that the lot contains exactly $$2$$ defective articles is $$0.4$$ and the probability that the lot contains exactly $$3$$ defective articles is $$0.6$$. Articles are drawn from the lot at random one by one without replacement and are tested till all defective articles are found. What is the probability that the testing procedure ends at the twelth testing.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_124",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a multiple-choice question there are four alternative answers, of which one or more are correct. A candidate will get marks in the question only if he ticks the correct answers. The candidate decides to tick the answers at random, If he is allowed upto three chances to answer the questions, find the probability that he will get marks in the questions.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_125",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a certain city only two newspapers $$A$$ and $$B$$ are published, it is known that $$25$$% of the city population reads $$A$$ and $$20$$% reads $$B$$ while $$8$$% reads both $$A$$ and $$B$$. It is also known that $$30$$% of those who read $$A$$ but not $$B$$ look into advertisements and $$40$$% of those who read $$B$$ but not $$A$$ look into advertisements while $$50$$% of those who read both $$A$$ and $$B$$ look into advertisements. What is the percentage of the population that reads an advertisement?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_126",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A, B, C$$ are events such that\n\n$$P\\left( A \\right) = 0.3,P\\left( B \\right) = 0.4,P\\left( C \\right) = 0.8P\\left( {AB} \\right) = 0.08,P\\left( {AC} \\right) = 0.28;\\,\\,P\\left( {ABC} \\right) = 0.09$$\nIf $$P\\left( {A \\cup B \\cup C} \\right) \\ge 0.75,$$ then show that $$P(BC)$$ lies in the interval $$0.23 \\le x \\le 0.48$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_127",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Cards are drawn one by one at random from a well - shuffled full pack of $$52$$ playing cards until $$2$$ aces are obtained for the first time. If $$N$$ is the number of cards required to be drawn, then show that $${P_r}\\left\\{ {N = n} \\right\\} = {{\\left( {n - 1} \\right)\\left( {52 - n} \\right)\\left( {51 - n} \\right)} \\over {50 \\times 49 \\times 17 \\times 13}}$$ where $$2 \\le n \\le 50$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_128",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$A$$ and $$B$$ are two candidates seeking admission in $$IIT.$$ The probability that $$A$$ is selected is $$0.5$$ and the probability that both $$A$$ and $$B$$ are selected is atmost $$0.3$$. Is it possible that the probability of $$B$$ getting selected is $$0.9$$ ?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_129",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An anti-aircraft gun can take a maximum of four shots at an enemy plane moving away from it. The probabilities of hitting the plane at the first, second, third and fourth shot are $$0.4, 0.3, 0.2$$ and $$0.1$$ respectively. What is the probability that the gun hits the plane?",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_130",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Six boys and six girls sit in a row randomly. Find the probability that\n\n(i) the six girls sit together\n\n(ii) the boys and girls sit alternately.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_131",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Balls are drawn one-by-one without replacement from a box containing $$2$$ black, $$4$$ white and $$3$$ red balls till all the balls are drawn. Find the probability that the balls drawn are in the order $$2$$ black, $$4$$ white and $$3$$ red.",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_132",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three faces of a fair die are yellow, two faces red and one blue. The die is tossed three times. The probability that the colours, yellow, red and blue, appear in the first, second and the third tosses respectively is ...............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_133",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the mean and the variance of binomial variate $$X$$ are $$2$$ and $$1$$ respectively, then the probability that $$X$$ takes a value greater than one is equal to ...............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_134",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$A$$ and $$B$$ be two events such that $$P\\,\\,\\left( A \\right)\\,\\, = \\,\\,0.3$$ and $$P\\left( {A \\cup B} \\right) = 0.8.$$ If $$A$$ and $$B$$ are independent events then $$P(B)=$$ ................",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_135",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A pair of fair dice is rolled together till a sum of either $$5$$ or $$7$$ is obtained. Then the probability that $$5$$ comes before $$7$$ is ...............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_136",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Urn $$A$$ contains $$6$$ red and $$4$$ black balls and urn $$B$$ contains $$4$$ red and $$6$$ black balls. One ball is drawn at random from urn $$A$$ and placed in urn $$B$$. The one ball is drawn at random from urn $$B$$ and placed in urn $$A$$. If one ball is now drawn at random from urn $$A$$, the probability that it is found to be red is ................",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_137",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${{1 + 3p} \\over 3},\\,\\,\\,{{1 - p} \\over 4}$$ and $$\\,{{1 - 2p} \\over 2}$$ are the probabilities of three mutually exclusive events, then the set of all values of $$p$$ is ..............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_138",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A box contains $$100$$ tickets numbered $$1, 2, ....., 100.$$ Two tickets are chosen at random. It is given that the maximum number on the two chosen tickets is not more than $$10.$$ The minimum number on them is $$5$$ with probability ........",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_139",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$P\\left( {A \\cup B} \\right) = P\\left( {A \\cap B} \\right)$$ if and only if the relation between $$P(A)$$ and $$P(B)$$ is .............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_140",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a biased die the probabilities for the different faces to turn up are given below :\n\n[Diagram]\n\nThis die tossed and you are told that either face $$1$$ or face $$2$$ has turned up. Then the probability that it is face $$1$$ is ...............",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_probability_141",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Probability",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the letters of the word \"Assassin\" are written down at random in a row, the probability that no two S's occur together is $$1/35$$",
+    "solution": "Solution for this Probability question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

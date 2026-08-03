@@ -1,0 +1,359 @@
+[
+  {
+    "id": "chem_ionic_equilibrium_001",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The solubility of barium iodate in an aqueous solution prepared by mixing 200 mL of 0.010 M barium nitrate with 100 mL of 0.10 M sodium iodate is $\\boldsymbol{X} \\times 10^{-6} \\mathrm{~mol} \\mathrm{dm}^{-3}$. The value of $\\boldsymbol{X}$ is ____________.\n**Use:** Solubility product constant $\\left(K_{\\mathrm{sp}}\\right)$ of barium iodate $=1.58 \\times 10^{-9}$",
+    "solution": "[Diagram]\n\nCalculate the concentration of iodate ions $\\left[\\text{IO}_3^-\\right]$ in the equilibrium mixture:\n\nThe concentration in the prepared solution is given by:\n$ \\left[\\text{IO}_3^-\\right]_{\\text{eqm}} = \\frac{6}{300} = 0.02 \\, \\text{M} $\n\nWrite the expression for the solubility product constant ($ K_{\\text{sp}} $) for barium iodate:\n$ K_{\\text{sp}} = [\\text{Ba}^{2+}][\\text{IO}_3^-]^2 $\nRearrange to solve for the concentration of barium ions $[\\text{Ba}^{2+}]$:\n$ [\\text{Ba}^{2+}] = \\frac{1.58 \\times 10^{-9}}{(0.02)^2} = 3.95 \\times 10^{-6} \\, \\text{M} $\nThe solubility of $\\text{Ba}(\\text{IO}_3)_2$, which is the same as the concentration of barium ions in this context, is:\n$ X = 3.95 $\n\nThus, the solubility constant $ X $ is $ 3.95 $, and the solubility of barium iodate is $ 3.95 \\times 10^{-6} \\, \\text{mol dm}^{-3} $.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1maxnmjgn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_002",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "On decreasing the $p \\mathrm{H}$ from 7 to 2 , the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ to $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$. The $p \\mathrm{~K}_{\\mathrm{a}}$ of $\\mathrm{HX}$ is",
+    "solution": "Relationship between solubility, $\\mathrm{H}^{+}$and $\\mathrm{K}_{\\mathrm{a}}$ is given by\n\n$$\n\\begin{aligned}\n\\mathrm{S} & =\\sqrt{\\frac{\\left(\\mathrm{K}_{\\mathrm{SP}}\\left[\\mathrm{H}^{+}\\right]+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} \\\\\\\\\n\\text { If } \\mathrm{pH}=7 & \\Rightarrow\\left(\\mathrm{H}^{+}\\right)=10^{-7} \\\\\\\\\n\\mathrm{~S} & =10^{-4} \\mathrm{~mol} / \\mathrm{L}\n\\end{aligned}\n\n\\begin{aligned}\n\\Rightarrow 10^{-4} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-7}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(i) \\\\\\\\\n10^{-3} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-2}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(ii)\n\\end{aligned}\n$$\n\nDividing and squaring equation (i) by equation (ii),\n\n$$\n\\begin{aligned}\n& \\frac{\\left(10^{-4}\\right)^2}{\\left(10^{-3}\\right)^2}=\\frac{K_{SP}\\left(10^{-7}+K_a\\right)}{K_a} \\times \\frac{K_a}{K_{SP}\\left(10^{-2}+K_a\\right)} \\\\\\\\\n& \\Rightarrow 10^{-2}=\\frac{10^{-7}+\\mathrm{K}_{\\mathrm{a}}}{10^{-2}+\\mathrm{K}_{\\mathrm{a}}} \\\\\\\\\n& \\Rightarrow 10^{-4}+10^{-2} \\cdot \\mathrm{K}_{\\mathrm{a}}=10^{-7}+\\mathrm{K}_{\\mathrm{a}} \\\\\\\\\n& \\therefore \\mathrm{K}_{\\mathrm{a}} \\simeq 10^{-4} \\\\\\\\\n& \\Rightarrow \\mathrm{pK}_{\\mathrm{a}}=4\n\\end{aligned}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_003",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Paragraph**\n\nWhen 100 mL of 1.0 M HCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7$^{o}$ C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralization of a strong acid with a strong base is constant (-57.0 kJ/mol), this experiment could be used to measure the calorimeter constant. In a second experiment (Expt. 2) 100 mL of 2.0 M acetic acid (K$_{a}$ = 2.0 $$\\times$$ 10$^{-5}$) was mixed with 100 mL of 1.0 M NaOH (under identical conditions to Expt. 1) where a temperature rise of 5.6$^{o}$ C was measured. (Consider heat capacity of all solutions as 4.2 J/gK and density of all solutions as 1.0 g m/L)\n\n**Question**\n\nEnthalpy of dissociation (in kJ/mol) of acetic acid obtained from the Expt. 2 is",
+    "solution": "Energy evolved on neutralization of HCl and NaOH is\n0.1 $$\\times$$ 57 = 5.7 kJ = 5700 J\nEnergy utilized to rise the temperature of the solution is\nms . $$\\Delta$$T = 200 $$\\times$$ 1 $$\\times$$ 4.2 $$\\times$$ 5.7 = 4788 J\nEnergy used to increase temperature of calorimeter is\n= 5700 $$-$$ 4788 = 912 J\nms . $$\\Delta$$T = 912\nm $$\\times$$ s $$\\times$$ 5.7 = 912 $$\\rightarrow$$ ms = 160 J$$^\\circ$$C$^{$$-$$1}$ [Calorimeter constant]\nEnergy evolved by neutralization of CH$_{3}$COOH and NaOH is\n= 200 $$\\times$$ 4.2 $$\\times$$ 5.6 + 160 $$\\times$$ 5.6 = 5600 J\nSo, the energy used in dissociation of 0.1 mol CH$_{3}$COOH is\n= 5700 $$-$$ 5600 = 100 J\nThus, enthalpy of dissociation is 1 kJ mol$^{$$-$$1}$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1.0",
+      "10.0",
+      "24.5",
+      "51.4"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_004",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "At 25 °C, the concentration of H$^{+}$ ions in 1.00 × 10$^{−3}$ M aqueous solution of a weak monobasic acid having acid dissociation constant (K$_{a}$) of 4.00 × 10$^{−11}$ is X × 10$^{−7}$ M. The value of X is ______.**Use:** Ionic product of water (K$_{w}$) = 1.00 × 10$^{−14}$ at 25 °C",
+    "solution": "$$\n\\text { Temperature }=25^{\\circ} \\mathrm{C}\n$$Concentration of aqueous solution of weak monobasic acid $=1.00 \\times 10^{-3} \\mathrm{~m}$Arid dissociation constant $\\left(K_a\\right)$ of the weak monobasic acid $=4.00 \\times 10^{-11}$$$\n\\text { Ionic product of water }\\left(K_w\\right)=1.00 \\times 10^{-14}\n$$Concentration of $\\mathrm{H}^{+}$ions $=X \\times 10^{-7} \\mathrm{M}$ Consider$$\nH A \\rightleftharpoons H^{+}+A^{-}HA - \\,\\,\\,\\,\\,\\,\\,monobasic \\,\\,Weak \\,\\,\\,acid\n\nC_1\n\nc_1\\left(1-\\alpha_1\\right) \\quad c_1 \\alpha_1 \\quad c_1 \\alpha_1\n\n\\text { So, } K_a=\\frac{\\left[H^{+}\\right][A^-]}{[H A]}\n\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1\\left(1-\\alpha_1\\right)} \\quad \\alpha_1 \\ll 1 \\quad \\text { so, } 1-\\alpha_1 \\approx 1\n\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1}, k a c_1=\\left[H^{+}\\right] c_1 \\alpha_1-(1)\n\n\\begin{aligned}\n&\\text { Consider, }\\\\\n&\\begin{aligned}\n& \\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\\\\n& \\mathrm{C}_2\\left(1-\\alpha_2\\right) \\mathrm{C}_2 \\alpha_2 \\quad \\mathrm{C}_2 \\alpha_2\n\\end{aligned}\n\\end{aligned}\n$$So,\n\n$$\n\\begin{aligned}\nK_W & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{OH}^{-}\\right] \\\\\nK_W & =\\left[\\mathrm{H}^{+}\\right] \\mathrm{C}_2 \\alpha_2 \\,\\,\\,\\,\\,\\,\\,...(2)\n\\end{aligned}\n$$\n\nAdd\n(1) and (2) $\\Rightarrow$$$\nK_a C_1+K_w=\\left[H^{+}\\right] C_1 \\alpha_1+\\left[H^{+}\\right] C_2 \\alpha_2=\\left[H^{+}\\right]\\left(C_1 \\alpha_1+C_2 \\alpha_2\\right)\n$$\n\nConcentration of $\\mathrm{H}^{+}$has contribution from, both HA and $\\mathrm{H}_2 \\mathrm{O}$. So, $\\left[\\mathrm{H}^{+}\\right]=c_1 \\alpha_1+\\mathrm{C}_2 \\alpha_2$\nSubstitute for $\\left[H^A\\right]$ as,$$\nK_a c_1+K_w=\\left[H^{+}\\right]\\left(c_1 \\alpha_1+c_2 \\alpha_2\\right)\n\n\\begin{aligned}\nK_a C_1+K_w & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{H}^{+}\\right] \\\\\n& =\\left[\\mathrm{H}^{+}\\right]^2\n\\end{aligned}\n\n\\begin{aligned}\n&\\text { So, }\\\\\n&\\begin{aligned}\n{\\left[H^{+}\\right] } & =\\sqrt{K_a C_1+K w} \\\\\n& =\\sqrt{4.00 \\times 10^{-11} \\times 1.00 \\times 10^{-3}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{4.00 \\times 10^{-14}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{5.00 \\times 10^{-14}} \\\\\n& =2.24 \\times 10^{-7} \\mathrm{M}\\left(\\times \\times 10^{-7}\\right)\n\\end{aligned}\n\\end{aligned}\n$$So, value of $X$ is 2.24 Answer: 2.24",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_005",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Concentration of $\\mathrm{H}_{2} \\mathrm{SO}_{4}$ and $\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ in a solution is $1 \\mathrm{M}$ and $1.8 \\times 10^{-2} \\mathrm{M}$, respectively. Molar solubility of $\\mathrm{PbSO}_{4}$ in the same solution is $\\mathrm{X} \\times 10^{-\\mathrm{Y}} \\mathrm{M}$ (expressed in scientific notation). The value of $Y$ is ________.\n\n[Given: Solubility product of $\\mathrm{PbSO}_{4}\\left(K_{s p}\\right)=1.6 \\times 10^{-8}$. For $\\mathrm{H}_{2} \\mathrm{SO}_{4}, K_{a l}$ is very large and $\\left.K_{a 2}=1.2 \\times 10^{-2}\\right]$",
+    "solution": "Given,\n\nConentration of $\\mathrm{H}_2 \\mathrm{SO}_4=1 \\mathrm{M}$\n\nConentration of $\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ = $1.8 \\times 10^{-2} \\mathrm{M}$\n\n[Diagram]\n\nFrom the above two equations, we get\n\n$$\n\\left[\\mathrm{H}^{+}\\right]=1 \\mathrm{M} \\text { and }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}\n$$\n\n[Diagram]\n\n$$\nK_c=\\frac{1.8 \\times 10^{-2} \\times 1}{1}=1.8 \\times 10^{-2}\n$$\n\nand it is given that $\\mathrm{K}_{a_2}\\left(\\mathrm{Q}_c\\right)=1.2 \\times 10^{-2} \\mathrm{M}$\n\nSince, $\\mathrm{K}_{a_2}$ (i.e., $\\mathrm{Q}_c$ ) $<\\mathrm{K}_c$\n\n$\\therefore$ Rather than dissociation of $\\mathrm{HSO}_4^{-}$into $\\mathrm{H}^{+}$and $\\mathrm{SO}_4^{2-}$ ions, association between already present $\\mathrm{H}^{+}$and $\\mathrm{SO}_4^{2-}$ will take place.\n\nAssuming ' $x$ ' mol/L of $\\mathrm{SO}_4^{2-}$ and $\\mathrm{H}^{+}$combines to form $\\mathrm{HSO}_4^{-}$\n\n[Diagram]\n\n$\\begin{aligned} & \\mathrm{K}_{a 2}=\\frac{\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{SO}_4^{2-}\\right]}{\\left[\\mathrm{HSO}_4^{-}\\right]} \\\\\\\\ & 1.2 \\times 10^{-2}=\\frac{(1-x)\\left(1.8 \\times 10^{-2}-x\\right)}{(1+x)} \\\\\\\\ & \\because x<<1, \\text { so }(1+x) \\approx 1 \\text { and }(1-x) \\approx 1 \\\\\\\\ & 1.2 \\times 10^{-2}=1.8 \\times 10^{-2}-x \\\\\\\\ & x=\\left(1.8 \\times 10^{-2}\\right)-\\left(1.2 \\times 10^{-2}\\right) \\\\\\\\ & x=0.6 \\times 10^{-2} \\mathrm{M} \\\\\\\\ & \\text { So, }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}-x \\\\\\\\ & {\\left[\\mathrm{SO}_4^{2-}\\right] }=\\left(1.8 \\times 10^{-2}\\right)-\\left(0.6 \\times 10^{-2}\\right) \\\\\\\\ & {\\left[\\mathrm{SO}_4^{2-}\\right] }=1.2 \\times 10^{-2} \\mathrm{M}\\end{aligned}$\n\n[Diagram]\n\nGiven, $\\quad \\mathrm{K}_{s p}=1.6 \\times 10^{-8}$\n\n$$ \\therefore $$ $y\\left(1.2 \\times 10^{-2}+y\\right)=1.6 \\times 10^{-8}$\n\nSince, $y<<1$, So $1.2 \\times 10^{-2}+y \\approx 1.2 \\times 10^{-2}$\n\nSo, $y \\times 1.2 \\times 10^{-2}=1.6 \\times 10^{-8}$\n\n$$ \\Rightarrow $$ $y =\\frac{1.6 \\times 10^{-8}}{1.2 \\times 10^{-2}}$\n\n$$ \\Rightarrow $$ $ y =1.33 \\times 10^{-6} $\n\n$\nX \\times 10^{-Y} \\mathrm{M} =1.33 \\times 10^{-6} \\mathrm{M}\n\n$\n\nSo, $\\mathrm{Y}=6$\n\nHence, the value of $Y$ is 6 .",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ld6nse2j.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_006",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution is prepared by mixing $0.01 \\mathrm{~mol}$ each of $\\mathrm{H}_{2} \\mathrm{CO}_{3}, \\mathrm{NaHCO}_{3}, \\mathrm{Na}_{2} \\mathrm{CO}_{3}$, and $\\mathrm{NaOH}$ in $100 \\mathrm{~mL}$ of water. $p \\mathrm{H}$ of the resulting solution is _________.\n\n[Given: $p \\mathrm{~K}_{\\mathrm{a} 1}$ and $p \\mathrm{~K}_{\\mathrm{a} 2}$ of $\\mathrm{H}_{2} \\mathrm{CO}_{3}$ are $6.37$ and 10.32, respectively; $\\log 2=0.30$ ]",
+    "solution": "First acid base reaction between H$_{2}$CO$_{3}$ and NaOH takes place.\n\n[Diagram]\n\nIn the final solution, we have 0.01 mole Na$_{2}$CO$_{3}$ and 0.02 moles of NaHCO$_{3}$.\nHere, we have a buffer of NaHCO$_{3}$ and Na$_{2}$CO$_{3}$.\n$$\\thereforepH = p{K_{{a_2}}} + \\log {{[Salt]} \\over {[Acid]}} = 10.32 + \\log {{\\left( {{{0.01} \\over {0.1}}} \\right)} \\over {\\left( {{{0.02} \\over {0.1}}} \\right)}} = 10.32 + \\log {1 \\over 2} = 10.32 - \\log 2 = 10.32 - 0.3 = 10.02\\thereforepH = 10.02$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ldcp9135.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_007",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A solution of 0.1 M weak base (B) is titrated with 0.1 M of a strong acid (HA). The variation of pH of the solution with the volume of HA added is shown in the figure below. What is the pK$_{b}$ of the base? The neutralisation reaction is given by\n\n$$B + HA\\buildrel {} \\over\n\\longrightarrow B{H^ + } + {A^ - }$$\n\n\n[Diagram]",
+    "solution": "From the given diagram, 63 mL volume of HA used till equivalence point. At half of equivalence point, solution will be basic buffer with B and BH$^{+}$.\n\n$$pOH = p{K_b} + \\log {{[B{H^ + }]} \\over {[B]}}$$\n\nAt half equivalence point :\n\n[BH$^{+}$] = [B] ($$ \\because $$ pH = 11)\n\nTherefore, pOH = pK$_{b}$ = 14 $$-$$ 11 = 3\n\n$$ \\because $$ pK$_{b}$ = 3.00",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx9urh2v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_008",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An acidified solution of 0.05 M Zn$^{2+}$ is saturated with 0.1 M H$_{2}$S. What is the minimum molar concentration (M) of H$^{+}$ required to prevent the precipitation of ZnS?\n\nUse K$_{sp}$(ZnS) = 1.25 $$ \\times $$ 10$^{$$-$$22}$ and overall dissociation constant of\n\nH$_{2}$S, K$_{net}$ = K$_{1}$K$_{2}$ = 1 $$ \\times $$ 10$^{-21}$.",
+    "solution": "$$ZnS(s)\\buildrel {} \\over\n\\longrightarrow \\mathop {Z{n^{2 + }}(aq)}\\limits_{(0.05\\,M)} + {S^{2 - }}(aq){K_{sp}}(ZnS) = [Z{n^{2 + }}][{S^{2 - }}] = 1.25 \\times {10^{ - 22}}0.05 \\times [{S^{2 - }}] = 1.25 \\times {10^{ - 22}} \\Rightarrow [{S^{2 - }}] = {{1.25 \\times {{10}^{ - 22}}} \\over {0.05}} \\Rightarrow 25 \\times {10^{ - 22}}M$$\n\nFor H$_{2}$S, $$\\mathop {{H_2}S}\\limits_{(0.1M)} \\buildrel {} \\over\n\\longrightarrow 2{H^ + } + \\mathop {{S^{ - 2}}}\\limits_{(25 \\times {{10}^{ - 22}}M)} {K_{net}} = 1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2}[{S^{2 - }}]} \\over {[{H_2}S]}}1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2} \\times 25 \\times {{10}^{ - 22}}} \\over {[0.1]}}{[{H^ + }]^2} = {1 \\over {25}}[{H^ + }] = {1 \\over 5} = 0.2M$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_009",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The solubility of a salt of weak acid $$(AB)$$ at $$pH\\,3$$ is $$Y \\times {10^{ - 3}}mol\\,{L^{ - 1}}.$$ The value of $$Y$$ is ________________.\n\n(Given that the value of solubility product of $$AB\\left( {{K_{sp}}} \\right) = 2 \\times {10^{ - 10}}$$ and the value of ionization constant of $$HB\\left( {{K_a}} \\right) = 1 \\times {10^{ - 8}}$$)",
+    "solution": "Let solubility of AB in the buffer of pH 3 = x\n\n[Diagram]\n\nK$_{3}$ = $${{{K_{sp}}} \\over {{K_a}}}{K_3} = {{[HB][{A^ + }]} \\over {[{H^ + }]}} = {{{K_{sp}}} \\over {{K_a}}}\\therefore{{{x^2}} \\over {({{10}^{ - 3}})}} = {{2 \\times {{10}^{ - 10}}} \\over {1 \\times {{10}^{ - 8}}}}\\therefore$$ x = 4.47 $$\\times$$ 10$^{$$-$$3}$ M = y $$\\times$$ 10$^{$$-$$3}$ M\n$$\\therefore$$ y = 4.47",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kz5rcxis.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_010",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In 1 L saturated solution of AgCl [K$_{sp}$(AgCl) = 1.6 $$\\times$$ 10$^{-10}$], 0.1 mol of CuCl [K$_{sp}$(CuCl) = 1.0 $$\\times$$ 10$^{-6}$] is added. The resultant concentration of Ag$^{+}$ in the solution is 1.6 $$\\times$$ 10$^{-x}$. The value of \"x\" is",
+    "solution": "(i) The solubility of $\\mathrm{AgCl}(\\mathrm{s})$ in saturated solution is expressed as :\n$$ \\mathrm{H}_2 \\mathrm{O}+\\mathrm{AgCl}_{(s)} \\rightarrow \\underset{x}{\\mathrm{Ag}^{+}}(a q)+\\underset{x} {\\mathrm{Cl}^{-}}(a q) $$\nThough $\\mathrm{AgCl}(\\mathrm{s})$ has low solubility with $\\mathrm{K}_{s p}=1.6$ $\\times 10^{-10}$ still some silver $\\left(\\mathrm{Ag}^{+}\\right)$and chloride $\\left(\\mathrm{Cl}^{-}\\right)$ are dissolved in solution. Let the concentration of these ions be $x \\mathrm{~mol}^{-1}$ (in solution).\n$$ \\begin{aligned} {[\\mathrm{Ag}]^{+} } & =\\left[\\mathrm{Cl}^{-}\\right]=x \\\\ & =1.6 \\times 10^{-10} \\\\ \\mathrm{CuCl}(s)+\\mathrm{H}_2 \\mathrm{O}(l) & \\rightleftharpoons \\mathrm{Cu}^{+}(a q)+\\mathrm{Cl}^{-}(a q) \\end{aligned} $$\n(ii) Similarly though CuCl has low solubility in aqueous solution $\\left[K_{s p}=1.0 \\times 10^{-6}\\right]$, still some copper $\\left(\\mathrm{Cu}^{+}\\right)$and chloride $\\left(\\mathrm{Cl}^{-}\\right)$are dissolved in the solution. Let the concentration of these ions be $y \\mathrm{~mol} \\mathrm{~L}^{-1}$ (in solution).\n$$ \\left[\\mathrm{Cu}^{+}\\right]=\\left[\\mathrm{Cl}^{-}\\right]=y $$\n(iii) The salts $\\mathrm{AgCl}(\\mathrm{s})$ and $\\mathrm{CuCl}(\\mathrm{s})$ are present in equilibrium with their ions as follows :\n$\\text{AgCl}(s) + \\text{H}_2\\text{O} \\rightleftharpoons \\underset{x}{\\text{Ag}^+ (aq)} + \\underset{x+y}{\\text{Cl}^- (aq)}$\n$K_{sp}(\\text{AgCl}) = 1.6 \\times 10^{-10} = x(x + y) \\quad \\ldots \\text{(i)}$\n$\\text{CuCl}_{(s)} + \\text{H}_2\\text{O} \\rightleftharpoons \\underset{x}{\\text{Cu}^+ (aq)} + \\underset{y+x}{\\text{Cl}^- (aq)}$\n$K_{sp}(\\text{CuCl}) = 1.0 \\times 10^{-6} = y \\times (x + y) \\quad \\ldots \\text{(ii)}$\nDividing equation (ii) by (i) :\n$ \\frac{1.0 \\times 10^{-6}}{1.6 \\times 10^{-10}} = \\frac{y}{x} $\n$ \\frac{y}{x} = \\frac{1.0}{1.6} \\times 10^4 $ …(iii)\nNo. of moles of CuCl = $0.1 \\text{ mol}$\nVolume of solution = $1 \\text{ L}$\n$\\begin{aligned} & \\text { Concentration of } \\mathrm{CuCl}=\\frac{\\text { No. of moles of } \\mathrm{CuCl}}{\\text { Volume of solution }} \\\\\\\\ & \\text { Concentration of } \\mathrm{CuCl}=\\frac{0.1 \\mathrm{~mol}}{1 \\mathrm{~L}}=0.1\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} \\mathrm{K}_{s p} & =1.0 \\times 10^{-6}=y \\times y \\\\\\\\ y & =\\sqrt{10^{-6}}=10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}\\end{aligned}$\nSubstituting value of $y$ in equation (iii),\n$$ \\begin{aligned} \\frac{\\left[\\mathrm{Cu}^{+}\\right]}{\\left[\\mathrm{Ag}^{+}\\right]}=\\frac{y}{x} & =\\frac{10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}}{x}=10^4 \\frac{1.0}{1.6} \\\\ x & =1.6 \\times 10^{-7} \\end{aligned} $$\nThe concentration of silver ion, $\\left[\\mathrm{Ag}^{+}\\right]=x$ $=1.6 \\times 10^{-7} \\mathrm{~mol}$ L.\n\nHence, the value of $x$ in 1.6 $\\times 10^{-x}$ is 7 .",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m0dwxm5q.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_011",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Amongst the following the total number of compounds whose aqueous solution turns red litmus paper blue is\n\nKCN, K$_{2}$SO$_{4}$, (NH$_{4}$)$_{2}$C$_{2}$O$_{4}$, NaCl, Zn(NO$_{3}$)$_{2}$, FeCl$_{3}$, K$_{2}$CO$_{3}$, NH$_{4}$NO$_{3}$ and LiCN",
+    "solution": "Given that\n$${K_a}({C_6}{H_5}COOH) = 1 \\times {10^{ - 4}}$$.\npH of 0.01 M $${C_6}{H_5}COONa$$.\n\n[Diagram]\n\n$${K_h} = {{{K_w}} \\over {{K_a}}} = {{0.01\\,{h^2}} \\over {1 - h}} \\Rightarrow {{{{10}^{ - 14}}} \\over {{{10}^{ - 4}}}} = {{{{10}^{ - 2}}{h^2}} \\over {1 - h}}1 - h$$ is approximately equal to 1.\n[OH$$^-$$] = $$0.01h$$ = 0.01 $$\\times$$ 10$$^{-4}$$ = 10$$^{-6}$$\n[H$$^+$$] = 10$$^{-8}$$\npH = 8",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5ce03.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_012",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The dissociation constant of a substituted benzoic acid at 25$$^\\circ$$C is 1.0 $$\\times$$ 10$$^{-4}$$. The pH of a 0.01 M solution of its sodium salt is __________.",
+    "solution": "Given that\n$${K_a}({C_6}{H_5}COOH) = 1 \\times {10^{ - 4}}$$.\npH of 0.01 M $${C_6}{H_5}COONa$$.\n\n[Diagram]\n\n$${K_h} = {{{K_w}} \\over {{K_a}}} = {{0.01\\,{h^2}} \\over {1 - h}} \\Rightarrow {{{{10}^{ - 14}}} \\over {{{10}^{ - 4}}}} = {{{{10}^{ - 2}}{h^2}} \\over {1 - h}}1 - h$$ is approximately equal to 1.\n[OH$$^-$$] = $$0.01h$$ = 0.01 $$\\times$$ 10$$^{-4}$$ = 10$$^{-6}$$\n[H$$^+$$] = 10$$^{-8}$$\npH = 8",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5ce03.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_013",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Dilution processes of different aqueous solutions, with water, are given in** LIST - I.** The effects of dilution of the solutions on $$\\left[ {{H^ + }} \\right]$$ are given in **LIST - II**\n\n(Note: Degree of dissociation (a) of weak acid and weak base is $$<<1;$$ degree of hydrolysis of salt $$<<1;\\left[ {{H^ + }} \\right]$$ represents the concentration of $${H^ + }$$ ions)\n\n.tg {border-collapse:collapse;border-spacing:0;border:none;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-adtk{font-weight:bold;font-size:20px;text-align:left}\n.tg .tg-13k7{font-size:20px;text-align:left}\n\n\n\nLIST-I\n\nLIST-II\n\n\nP.\n(10 mL of 0.1 M NaOH + 20 mL of\n0.1 M acetic acid) diluted to 60 mL\n1.\nthe value of [H$^{+}$] does not change\non dilution\n\n\nQ.\n(20 mL of 0.1 M NaOH + 20 mL of\n0.1 M acetic acid) diluted to 80 mL\n2.\nthe value of [H$^{+}$] changes to half\nof its initial value on dilution\n\n\nR.\n(20 mL of 0.1 M HCL + 20 mL of\n0.1 M ammonia solution) diluted to\n80 mL\n3.\nthe value of [H$^{+}$] changes to two\ntimes of its initial value on dilution\n\n\nS.\n10 mL saturated solution of Ni(OH)$_{2}$\nin equilibrium with excess solid\nNi(OH)$_{2}$ is diluted to 20 mL (solid\nNi(OH)$_{2}$ is still present after dilution).\n4.\nthe value of [H$^{+}$] changes to $${1 \\over {\\sqrt 2 }}$$\ntimes of its initial value on dilution\n\n\n\n\n5.\nthe value of [H$^{+}$] changes to $$\\sqrt 2 $$\ntimes of its initial value on dilution\n\n\n\nMatch each process given in ** LIST-I** with one or more effect(s) in **LIST-II.** The correct option is :",
+    "solution": "**P.** Sodium hydroxide reacts with acetic acid to form sodium acetate.\n\n[Diagram]\n\nThe final solution will be a buffer of $\\mathrm{CH}_3 \\mathrm{COOH}$ and $\\mathrm{CH}_3 \\mathrm{COONa}$ as $\\mathrm{CH}_3 \\mathrm{COOH}$ is not completely neutralised by $\\mathrm{NaOH}$.\n\nThe final moles of $\\mathrm{CH}_3 \\mathrm{COOH}=$ moles of $\\mathrm{CH}_3 \\mathrm{COONa}$ = 0.001 mol\n\n$$\n\\mathrm{Ph}=p \\mathrm{~K}_a+\\log \\frac{\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]}{\\left[\\mathrm{CH}_3 \\mathrm{COOH}\\right]}\n$$\n\n$\\Rightarrow\\left[\\mathrm{H}^{+}\\right]$will not change on dilution as concentration of salt and acid does not change on dilution.\n\n$\\therefore$ Correct match $\\mathrm{P}-1$\n\nQ.\n[Diagram]\n\n$$\n\\begin{aligned}\n& \\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\mathrm{old}}=\\frac{20 \\times 0.1}{40}=\\frac{2}{40} \\\\\\\\\n& {\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\text {new }}=\\frac{2}{80}}\n\\end{aligned}\n\n\\begin{aligned}\n{\\left[\\mathrm{OH}^{-}\\right] } & =\\sqrt{\\mathrm{K}_{\\mathrm{H}} \\mathrm{C}} \\\\\\\\\n& =\\sqrt{\\left(\\frac{\\mathrm{K}_w}{\\mathrm{~K}_a} \\mathrm{C}\\right)} \\\\\\\\\n{\\left[\\mathrm{H}^{+}\\right]_1 } & =\\sqrt{\\frac{\\mathrm{K}_w \\mathrm{~K}_a}{\\mathrm{C}}} \\\\\\\\\n\\frac{\\left[\\mathrm{H}^{+}\\right]_2}{\\left[\\mathrm{H}^{+}\\right]_1}=\\sqrt{\\frac{\\mathrm{C}_1}{\\mathrm{C}_2}} & =\\sqrt{\\frac{0.05}{0.025}}=\\sqrt{2}\n\\end{aligned}\n$$\n\nCorrect match Q-5\n\nR.\n[Diagram]\n\nAs per the condition given in $R$ the resultant solution before dilution contains 2 millimoles of $\\mathrm{NH}_4 \\mathrm{Cl}$ in $40 \\mathrm{~mL}$ of solution. Hence, a salt of strong acid and weak base is formed. For this,\n\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }}=\\sqrt{\\frac{K_w \\times C}{K_b}}\n$$\n\nNow on dilution upto $80 \\mathrm{~mL}$ new conc. becomes $C / 2$.\n\nSo\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\sqrt{\\frac{K_w \\times \\frac{C}{2}}{K_b}}\n$$\n\nor\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }} \\times \\frac{1}{\\sqrt{2}}\n$$\n\n(S) For a saturated solution,\n\n[Diagram]\n\n$$\n\\begin{aligned}\nK_{s p}=s \\times(2 s)^2=4 s^3 \\\\\\\\\n\\Rightarrow s=\\left[\\mathrm{OH}^{-}\\right]=\\sqrt[3]{\\frac{K_{s p}}{4}}\n\\end{aligned}\n$$\n\nIrrespective of volume of solution, $\\left[\\mathrm{H}^{+}\\right]$remains constant.\n\n(S) $\\rightarrow$ (1)",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$P - 4;Q - 2;R - 3;S - 1$$",
+      "$$P - 4;Q - 3;R - 2;S - 3$$",
+      "$$P - 1;Q - 4;R - 5;S - 3$$",
+      "$$P - 1;Q - 5;R - 4;S - 1$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhyawev7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_014",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Solubility product constants (K$$_{sp}$$) of salts of types MX, MX$$_2$$ and M$$_3$$X at temperature T are 4.0 $$\\times$$ 10$$^{-8}$$, 3.2 $$\\times$$ 10$$^{-14}$$ and 2.7 $$\\times$$ 10$$^{-15}$$, respectively. Solubilities (mol dm$$^{-3}$$) of the salts at temperature 'T' are in the order:",
+    "solution": "MX > M$$_3$$X > MX$$_2\\Rightarrow~~\\mathrm{MX} \\to\\mathrm{\\mathop {{M^ + }}\\limits_S + \\mathop {{M^ - }}\\limits_S}$$\nSolubiliity, (S$$_1$$) of\n$$MX = \\sqrt {{K_{sp}}} = \\sqrt {4 \\times {{10}^{ - 8}}} = 2 \\times {10^{ - 4}}\\,M \\Rightarrow M{X_2} \\to \\mathop {{M^ + }}\\limits_S + \\mathop {2{X^ - }}\\limits_S {K_{sp}} = {(s)^1}{(2s)^2} = 4{s^3}S = {\\left( {{{3.2 \\times {{10}^{ - 14}}} \\over 4}} \\right)^{{1 \\over 3}}}{K_{sp}} = 2 \\times {10^{ - 5}}\\,M \\Rightarrow {M_3}X \\to \\mathop {3{M^ + }}\\limits_{3S} + \\mathop {{X^{3 - }}}\\limits_S {K_{sp}} = {(3s)^3}{s^1} = 27{s^4}S = {\\left( {{{2.7 \\times {{10}^{ - 15}}} \\over {27}}} \\right)^{{1 \\over 9}}} = {({10^{ - 16}})^{{1 \\over 2}}}S = {10^{ - 4}}\\,M = 1 \\times {10^{ - 14}}\\,M$$\nHence, option (D) is correct.\nMX > M$$_3$$X > MX$$_2$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "MX > MX$$_2$$ > M$$_3$$X",
+      "M$$_3$$X > MX$$_2$$ > MX",
+      "MX$$_2$$ > M$$_3$$X > MX",
+      "MX > M$$_3$$X > MX$$_2$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg94ilt6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_015",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "2.5 mL of $$\\frac{2}{5}$$M weak monoacidic base (K$$_b$$ = 1 $$\\times$$ 10$$^{-12}$$ at 25$$^\\circ$$C) is titrated with $$\\frac{2}{15}$$M HCl in water at 25$$^\\circ$$C. The concentration of H$$^+$$ at equivalence point is (K$$_w$$ = 1 $$\\times$$ 10$$^{-14}$$ at 25$$^\\circ$$C).",
+    "solution": "Weak monoacidic base, e.g., BOH is neutralised as follows:\nBOH + HCl $$\\to$$ BCl + H$$_2$$O\nAt the equivalence point, all BOH get converted into the salt. The concentration of H$$^+$$ (or pH of solution) is due to hydrolysis of the resultant salt (BCl, cationic hydrolysis here.)\n\n[Diagram]\n\nVolume of HCl used up,\n$${V_a} = {{{N_b}{V_b}} \\over {{N_a}}}{V_a} = {{2.5 \\times 2 \\times 15} \\over {2 \\times 5}}{V_a} = 7.5$$\nConcentration of salt,\n$$[BCl] = {{conc.\\,of\\,base} \\over {total\\,volume}} = {{2 \\times 2.5} \\over {5(7.5 + 2.5)}} = {1 \\over {10}} = 0.1{K_h} = {{C{h^2}} \\over {1 - h}} = {{{K_w}} \\over {{K_b}}} = {{{{10}^{ - 14}}} \\over {{{10}^{ - 12}}}} = {10^{ - 2}} = {{0.1 \\times {h^2}} \\over {1 - h}}$$ ..... (i)\n(h should be estimated whether that can be neglected or not.)\nOn calculating, $$h = 0.27$$ (significant, not negligible)\n$$[{H^ + }] = Ch = 0.1 \\times 0.27 = 2.7 \\times {10^{ - 2}}$$ M",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "3.7 $$\\times$$ 10$$^{-13}$$ M",
+      "3.2 $$\\times$$ 10$$^{-7}$$ M",
+      "3.2 $$\\times$$ 10$$^{-2}$$ M",
+      "2.7 $$\\times$$ 10$$^{-2}$$ M"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg94ilt6.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_ionic_equilibrium_016",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Paragraph**\n\nWhen 100 mL of 1.0 M KCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7$^{o}$ C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralization of a strong acid with a strong base is constant (-57.0 kJ/mol), this experiment could be used to measure the calorimeter constant. In a second experiment (Expt. 2) 100 mL of 2.0 M acetic acid (K$_{a}$ = 2.0 $$\\times$$ 10$^{-5}$) was mixed with 100 mL of 1.0 M NaOH (under identical conditions to Expt. 1) where a temperature rise of 5.6$^{o}$ C was measured. (Consider heat capacity of all solutions as 4.2 J/gK and density of all solutions as 1.0 g m/L)\n\n**Question**\n\nThe pH of the solution after Expt. 2 is",
+    "solution": "In Expt. 2, the final solution is a buffer as it contains equimolar amounts of acid and salt.\n$$pH = p{K_a} + \\log {{(salt)} \\over {(acid)}}$$ ..... (1)\n$$p{K_a} = - \\log (2 \\times {10^{ - 5}}) = - 0.3010 + 5 = 4.699 \\approx 4.7[Salt] = [C{H_3}COONa] = {{100} \\over {200}} \\times 2 = 1\\,M[Acid) = [C{H_3}COOH] = {{200 - 100} \\over {200}} \\times 2 = {{100} \\over {200}} \\times 2 = 1\\,M$$\nSubstituting the values in Eq. (1), we get\n$$pH = 4.7 + \\log {1 \\over 1} = 4.7$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "2.8",
+      "4.7",
+      "5.0",
+      "7.0"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_017",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The K$_{sp}$ of Ag$_{2}$CrO$_{4}$ is 1.1 $$\\times$$ 10$^{-12}$ at 298 K. The solubility (in mol/L) of Ag$_{2}$CrO$_{4}$ in a 0.1 M AgNO$_{3}$ solution is",
+    "solution": "To determine the solubility of Ag$_{2}$CrO$_{4}$ in a 0.1 M AgNO$_{3}$ solution, let’s consider the solubility equilibrium and how it is affected by the common ion effect.\n\nFirst, let’s establish the dissociation equation for Ag$_{2}$CrO$_{4}$ :\n\n$$Ag_2CrO_4(s) \\rightleftharpoons 2Ag^+ (aq) + CrO_4^{2-} (aq)$$\n\nThe solubility product constant, K$_{sp}$, is given by :\n\n$$K_{sp} = [Ag^+]^2 [CrO_4^{2-}]$$\n\nGiven that K$_{sp}$ = 1.1 $$\\times$$ 10$^{-12}$.\n\nIn a 0.1 M AgNO$_{3}$ solution, the concentration of Ag$^{+}$ ions from AgNO$_{3}$ alone is already 0.1 M. Let’s denote the additional solubility of Ag$_{2}$CrO$_{4}$ in this solution as $s$.\n\nTherefore, the total concentration of Ag$^{+}$ ions will be (0.1 + 2s) M, and the concentration of CrO$_{4}$$^{2-}$ ions will be $s$ M.\n\nSubstituting these into the K$_{sp}$ expression :\n\n$$K_{sp} = (0.1 + 2s)^2 s$$\n\nGiven that K$_{sp}$ is a very small number, we can assume that $2s$ is much smaller than 0.1, therefore $0.1 + 2s \\approx 0.1$. This simplifies our equation to :\n\n$$K_{sp} \\approx (0.1)^2 s$$\n\nSubstitute $K_{sp} = 1.1 \\times 10^{-12}$ into the equation :\n\n$$1.1 \\times 10^{-12} \\approx (0.1)^2 s1.1 \\times 10^{-12} \\approx 0.01 s$$\n\nSolving for $s$ :\n\n$$s = \\frac{1.1 \\times 10^{-12}}{0.01} = 1.1 \\times 10^{-10}$$\n\nHence, the solubility of Ag$_{2}$CrO$_{4}$ in a 0.1 M AgNO$_{3}$ solution is 1.1 $$\\times$$ 10$^{-10}$ mol/L.\n\nThe correct option is B: 1.1 $$\\times$$ 10$^{-10}$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1.1 $$\\times$$ 10$^{-11}$",
+      "1.1 $$\\times$$ 10$^{-10}$",
+      "1.1 $$\\times$$ 10$^{-12}$",
+      "1.1 $$\\times$$ 10$^{-9}$"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_018",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The initial rate of hydrolysis of methyl acetate (1M) by a weak acid (HA, 1M) is 1/100$^{th}$ of that of a strong acid (HX, 1M), at 25$^{o}$C. The K$_{a}$ of HA is",
+    "solution": "Let's break down this problem step-by-step:\n\nUnderstanding the Reaction:\n\nThe hydrolysis of methyl acetate (MeCOOCH$_{3}$) is catalyzed by both strong acids (like HX) and weak acids (like HA). The reaction proceeds as follows:\n\n$$ MeCOOCH_3 + H_2O \\xrightarrow[or \\, HA]{H^+ \\, or \\, HX} MeCOOH + CH_3OH $$\n\nRate of Reaction and Acid Strength:\n\nThe rate of acid-catalyzed hydrolysis depends on the concentration of H$^{+}$ ions.\n\nStrong acids ionize completely. So, a 1M solution of HX provides 1M H$^{+}$ ions.\n\nWeak acids ionize partially. So, a 1M solution of HA will provide significantly less than 1M H$^{+}$ ions.\n\nInformation from the Problem:\n\nWe are told that the initial rate of hydrolysis with HA is 1/100$^{th}$ of that with HX. Since the rate is directly proportional to [H$^{+}$], this means the [H$^{+}$] from HA is 1/100$^{th}$ of that from HX.\n\nCalculating K$_{a}$:\n\n[H$^{+}$] from HX: Since HX is a strong acid and fully ionizes, [H$^{+}$] = 1M.\n\n[H$^{+}$] from HA: This is 1/100$^{th}$ the [H$^{+}$] from HX, so [H$^{+}$] = (1/100) \\* 1M = 10$^{-2}$ M.\n\nSetting up the K$_{a}$ expression:\n\n$$ K_a = \\frac{[H^+][A^-]}{[HA]} $$\n\nSince the initial concentration of HA is 1M and it ionizes to a small extent, we can approximate:\n\n[HA] ≈ 1 M\n\n[H$^{+}$] = [A$^{-}$] = 10$^{-2}$ M\n\nCalculating K$_{a}$:\n\n$$ K_a = \\frac{(10^{-2})(10^{-2})}{1} = 1 \\times 10^{-4} $$\n\nAnswer:\n\nTherefore, the K$_{a}$ of the weak acid HA is 1 × 10$^{-4}$ (Option A).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1 $$\\times$$ 10$^{-4}$",
+      "1 $$\\times$$ 10$^{-5}$",
+      "1 $$\\times$$ 10$^{-6}$",
+      "1 $$\\times$$ 10$^{-3}$"
+    ]
+  },
+  {
+    "id": "chem_ionic_equilibrium_019",
+    "subject": "Chemistry",
+    "chapter": "Ionic Equilibrium",
+    "topic": "Ionic Equilibrium",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Aqueous solution of HNO$_{3}$, KOH and CH$_{3}$COOH and CH$_{3}$COONa of identical concentrations are provided. The pairs of solutions which form a buffer upon mixing is(are)",
+    "solution": "Solution for this Ionic Equilibrium question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "HNO$_{3}$ and CH$_{3}$COOH",
+      "KOH and CH$_{3}$COONa",
+      "HNO$_{3}$ and CH$_{3}$COONa",
+      "CH$_{3}$COOH and CH$_{3}$COONa"
+    ]
+  }
+]

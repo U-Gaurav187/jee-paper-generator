@@ -1,0 +1,427 @@
+[
+  {
+    "id": "chem_solid_state_001",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The density (in $\\mathrm{g} \\mathrm{cm}^{-3}$ ) of the metal which forms a cubic close packed (ccp) lattice with an axial distance (edge length) equal to 400 pm is ___________.\nUse: Atomic mass of metal $=105.6 \\mathrm{amu}$ and Avogadro's constant $=6 \\times 10^{23} \\mathrm{~mol}^{-1}$",
+    "solution": "• In a ccp (fcc) unit cell, number of atoms per cell, n = 4\n• Edge length\n$$a=400\\text{ pm}=400\\times10^{-12}\\text{ m}=4.0\\times10^{-8}\\text{ cm}$$\n• Volume of cell\n$$V=a^3=(4.0\\times10^{-8}\\text{ cm})^3=6.4\\times10^{-23}\\text{ cm}^3$$\n• Mass of one atom\n$$m_{\\rm atom}=\\frac{M}{N_A}=\\frac{105.6\\text{ g/mol}}{6.0\\times10^{23}\\text{ mol}^{-1}} =1.76\\times10^{-22}\\text{ g}$$\n• Mass of unit cell\n$$m_{\\rm cell}=n\\;m_{\\rm atom}=4\\times1.76\\times10^{-22}=7.04\\times10^{-22}\\text{ g}$$\n• Density\n$$\\rho=\\frac{m_{\\rm cell}}{V} =\\frac{7.04\\times10^{-22}}{6.4\\times10^{-23}} \\approx11\\;\\text{g/cm}^3$$\nAnswer: 11 g·cm⁻³.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_002",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a metal deficient oxide sample, $\\mathbf{M}_{\\mathbf{x}} \\mathbf{Y}_2 \\mathbf{O}_4$ ( $\\mathbf{M}$ and $\\mathbf{Y}$ are metals), $\\mathbf{M}$ is present in both +2 and +3 oxidation states and $\\mathbf{Y}$ is in +3 oxidation state. If the fraction of $\\mathbf{M}^{2+}$ ions present in $\\mathbf{M}$ is $\\frac{1}{3}$, the value of $\\mathbf{X}$ is _______ .",
+    "solution": "To find the value of $ X $ in the metal deficient oxide sample $ M_x Y_2 O_4 $, where $ M $ is present in both +2 and +3 oxidation states and $ Y $ is in the +3 oxidation state, and given that the fraction of $ M^{2+} $ ions present in $ M $ is $\\frac{1}{3}$, follow these steps:\n\nCharge Balance Equation:\n\nThe total charge contributed by the cations ($ M $ and $ Y $) must balance the total negative charge contributed by the oxide ions $ O $:\n\n$ x(M^{2+} + M^{3+}) + 2(Y^{3+}) = 4(-2) $\n\nOxidation States and Charges:\n\nLet the total number of $ M $ ions be $ x $.\n\nGiven $\\frac{1}{3}$ of $ M $ ions are $ M^{2+} $, the remaining $\\frac{2}{3}$ are $ M^{3+} $.\n\nNumber of Ions:\n\nNumber of $ M^{2+} $ ions = $\\frac{x}{3}$.\n\nNumber of $ M^{3+} $ ions = $\\frac{2x}{3}$.\n\nTotal Positive Charge:\n\nCharge from $ M^{2+} $ ions = $ \\left(\\frac{x}{3}\\right) \\times 2 = \\frac{2x}{3} $.\n\nCharge from $ M^{3+} $ ions = $ \\left(\\frac{2x}{3}\\right) \\times 3 = 2x $.\n\nCharge from $ Y^{3+} $ ions = $ 2 \\times 3 = 6 $.\n\nTotal Positive Charge Calculation:\n\n$ \\frac{2x}{3} + 2x + 6 $\n\nTotal Negative Charge:\n\nCharge from 4 oxygen ions $ (O^{2-}) $:\n\n$ 4 \\times (-2) = -8 $\n\nSetting Up the Charge Balance:\n\n$ \\frac{2x}{3} + 2x + 6 = 8 $\n\nSolving for $ x $:\n\n$ \\frac{2x}{3} + 2x + 6 = 8 $\n\n$ \\frac{2x}{3} + 2x = 2 $\n\n$ \\frac{2x + 6x}{3} = 2 $\n\n$ \\frac{8x}{3} = 2 $\n\n$ 8x = 6 $\n\n$ x = \\frac{6}{8} $\n\n$ x = 0.75 $\n\nThus, the value of $ X $ is $ \\boxed{0.75} $.\n\nAnswer:\n\nOption D: 0.75",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0.25",
+      "0.33",
+      "0.67",
+      "0.75"
+    ]
+  },
+  {
+    "id": "chem_solid_state_003",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Atoms of metals $\\mathrm{x}, \\mathrm{y}$, and $\\mathrm{z}$ form face-centred cubic (fcc) unit cell of edge length $\\mathrm{L}_{\\mathrm{x}}$, body-centred cubic (bcc) unit cell of edge length $\\mathrm{L}_y$, and simple cubic unit cell of edge length $\\mathrm{L}_z$, respectively.\n\nIf $\\mathrm{r}_{\\mathrm{z}}=\\frac{\\sqrt{3}}{2} r_{\\mathrm{y}} ; \\mathrm{r}_{\\mathrm{y}}=\\frac{8}{\\sqrt{3}} \\mathrm{r}_{\\mathrm{x}} ; M_{\\mathrm{z}}=\\frac{3}{2} M_{\\mathrm{y}}$ and $M_{\\mathrm{z}}=3 M_{\\mathrm{x}}$, then the correct statement(s) is(are) :\n\n[Given: $M_x, M_y$, and $M_z$ are molar masses of metals $x, y$, and $z$, respectively.\n\n$\\mathrm{r}_{\\mathrm{x}}, \\mathrm{r}_{\\mathrm{y}}$, and $\\mathrm{r}_{\\mathrm{z}}$ are atomic radii of metals $\\mathrm{x}, \\mathrm{y}$, and $\\mathrm{z}$, respectively.]",
+    "solution": "**1. Atomic radii relations :**\n\nGiven,\n\n$$ r_{y} = \\frac{8}{\\sqrt{3}} r_{x} \\tag{1} $$ ......(1)\n\n$$ r_{z} = \\frac{\\sqrt{3}}{2} r_{y} \\tag{2} $$ ........(2)\n\nSubstituting Eq. (1) into Eq. (2), we get :\n\n$$ r_{z} = \\frac{\\sqrt{3}}{2} \\times \\frac{8}{\\sqrt{3}} r_{x} = 4 r_{x} \\tag{3} $$ .......(3)\n\n**2. Edge lengths of the unit cells :**\n\nThe edge lengths (L) of the unit cells for x, y, and z are given by :\n\n$$ L_x = 2 \\sqrt{2} r_x \\quad \\text{(for FCC)} \\tag{4} $$ .......(4)\n\n$$ L_y = 4 r_y = \\frac{32}{\\sqrt{3}} r_x \\quad \\text{(for BCC, using Eq. (1))} \\tag{5} $$ .......(5)\n\n$$ L_z = 2 r_z = 8 r_x \\quad \\text{(for simple cubic, using Eq. (3))} \\tag{6} $$ .......(6)\n\n**3. Comparing the edge lengths :**\n\nFrom Eq. (4), (5) and (6), we find :\n\n$$ L_y > L_z > L_x \\tag{7} $$\n\nThis means Option B : $L_y > L_z$ is correct.\n\n**4. Packing Efficiencies :**\n\nThe packing efficiencies for FCC, BCC, and simple cubic are calculated as follows :\n\n- FCC :\n\n$$ PE_{fcc} = \\frac{4 \\times \\frac{4}{3} \\pi r_x^3}{(L_x)^3} = \\frac{\\pi}{\\sqrt{2}} \\tag{8} $$\n\n- BCC :\n\n$$ PE_{bcc} = \\frac{2 \\times \\frac{4}{3} \\pi r_y^3}{(L_y)^3} = \\frac{3 \\pi \\sqrt{3}}{32} \\tag{9} $$\n\n- Simple Cubic :\n\n$$ PE_{sc} = \\frac{1 \\times \\frac{4}{3} \\pi r_z^3}{(L_z)^3} = \\frac{\\pi}{6} \\tag{10} $$\n\nComparing these packing efficiencies, we find :\n\n$$ PE_{fcc} > PE_{bcc} > PE_{sc} \\tag{11} $$\n\nThis means Option A : Packing efficiency of unit cell of $x > y > z$ is correct.\n\n**5. Calculating Densities :**\n\nThe densities of x and y are given by the formula $d = \\frac{Z \\cdot M}{N_a \\cdot L^3}$, where $Z$ is the number of atoms in the unit cell, $M$ is the molar mass of the metal, $N_a$ is Avogadro's number, and $L$ is the edge length of the unit cell.\n\n- For x (FCC), $Z=4$ :\n\n$$ d_x = \\frac{4 M_x}{N_a (L_x)^3} \\tag{12} $$\n\n- For y (BCC), $Z=2$ :\n\n$$ d_y = \\frac{2 M_y}{N_a (L_y)^3} \\tag{13} $$\n\n$M_z=\\frac{3}{2} M_y$ and $M_z=3 M_x$. This implies that $M_x=\\frac{M_y}{2}$. Thus, $2M_x=M_y$, we can write :\n\n$$ \\frac{d_x}{d_y} = \\frac{2 M_x}{M_y} \\times \\left(\\frac{L_y}{L_x}\\right)^3 \\tag{14} $$ .......(7)\n\nSubstituting the given relation $2 M_x = M_y$ into Eq. (7), we get :\n\n$$ \\frac{d_x}{d_y} = 2 \\times 1 \\times \\left(\\frac{32/3}{2 \\sqrt{2}}\\right)^3 \\tag{15} $$ ..........(8)\n\nAfter simplifying Eq. (8), we find $d_x > d_y$.\n\nThis means Option D : Density of $x > y$ is correct.\n\nSo, the correct answers are Options A, B, and D.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "Packing efficiency of unit cell of $x>$ Packing efficiency of unit cell of $y>$ Packing efficiency of unit cell of $z$",
+      "$\\mathrm{L}_{\\mathrm{y}}>\\mathrm{L}_{\\mathrm{z}}$",
+      "$\\mathrm{L}_{\\mathrm{x}}>\\mathrm{L}_{\\mathrm{y}}$",
+      "Density of $x>$ Density of $y$"
+    ]
+  },
+  {
+    "id": "chem_solid_state_004",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The edge length of unit cell of a metal having molecular weight $$75 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ is 5 $$\\mathop A\\limits^o $$ which crystallizes in cubic lattice. If the density is $$2 \\mathrm{~g} / \\mathrm{cc}$$, find the radius of metal atom. $$\\left(\\mathrm{N}_{\\mathrm{A}}=6 \\times 10^{23}\\right)$$. Give the answer in $$\\mathrm{pm}$$.",
+    "solution": "Given,\n$$\\mathrm{M}_{w}=75 \\mathrm{~g} \\mathrm{~mol}^{-1}a=5\\mathop A\\limits^o $$ = 5 $$\\times$$ 10$$^{-8}$$ cm\n$$\\rho=2$$ g cm$$^{-3}\\mathrm{N_A=6\\times10^{23}}$$\nTo Find: Radius of metal atom ($$r$$)\nTo find the value of $$r$$, we need to find out\nthe type of unit cell. For that, the value of Z\nis required. On the basis of the value of Z the\ntype of unit cell can be identified and using\nsuitable formula, radius of metal atom will be\ndetermined.\nStep 1 : Determination of $$Z_{\\text {eff }}$$\nThe formula for calculating $$\\mathrm{Z}_{\\text {eff }}$$ will be obtained from the formula for density.\nThe formula for calculating density is,\n$$\\rho=\\frac{\\mathrm{Z} \\times \\mathrm{M}_{w}}{a^{3} \\times \\mathrm{N}_{\\mathrm{A}}}$$\nHere, $$\\rho$$ is the density of unit cell, Z is the number of atoms present in a unit cell, $$\\mathrm{M}_{w}$$ is the molecular weight, $$a$$ is the edge length of a unit cell and $$\\mathrm{N}_{\\mathrm{A}}$$ is the Avogadro's number.\nOn rearranging this formula,\n$$\\mathrm{Z}=\\frac{\\rho \\times a^{3} \\times \\mathrm{N}_{\\mathrm{A}}}{\\mathrm{M}_{w}}$$ ...... (i)\nSubstituting the respective values in equation (i),\n$$Z=\\frac{2 \\times\\left(5 \\times 10^{-8}\\right)^{3} \\times\\left(6 \\times 10^{23}\\right)}{75}\\therefore \\quad \\mathrm{Z}=1.98 \\approx 2$$\nThe value of Z is 2 for BCC (body centered cubic) unit cell.\nStep 1: Determination of radius of metal atom.\nFor $$\\mathrm{BCC}$$, the radius of atom is given by,\n$$4 r=\\sqrt{3} a$$\nHere, $$r$$ denotes the radius of the atom.\n$$\\begin{array}{ll}\n\\therefore & r=\\frac{\\sqrt{3}}{4} a \\\\\n\\therefore & r=\\frac{\\sqrt{3}}{4} \\times 5=2.165 ~\\mathop A\\limits^o \\\\\n\\therefore & r=216.5 ~\\mathrm{pm}\n\\end{array}$$\nThe radius of metal atom is $$216.5 ~\\mathrm{pm}$$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_005",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an ionic solid $$MX$$ with $$NaCl$$ structure. Construct a new structure $$(Z)$$ whose unit cell is constructed from the unit cell of $$MX$$ following the sequential instructions given below. Neglect the charge balance.\n\n$$(i)\\,\\,\\,\\,\\,$$ Remove all the anions $$(X)$$ except the central one\n\n$$(ii)\\,\\,\\,\\,$$ Replace all the face centered cations $$(M)$$ by anions $$(X)(iii)\\,\\,$$ Remove all the corner cations $$(M)(iv)\\,\\,\\,\\,$$ Replace the central anion $$(X)$$ with cation $$(M)$$\n\nThe value of $$\\,\\,\\left( {{{number\\,\\,of\\,\\,anions} \\over {number\\,\\,of\\,\\,cations}}} \\right)\\,\\,$$ in $$Z$$ is ___________.",
+    "solution": "The unit cell of initial structure of ionic solid MX looks like\n\n[Diagram]\n\nIn NaCl type of solids cations (Na$^{+}$) occupy the octahedral voids while anions (Cl$^{$$-$$}$) occupy the face centre positions.\nHowever, as per the demand of problem the position of cations and anions are swapped.\nWe also know that (for 1 unit cell)\n(A) Total number of atoms at FCC = 4\n(B) Total number of octahedral voids = 4 (as no. of atoms at FCC = No. of octahedral voids)\nNow taking the conditions one by one\n(i) If we remove all the anions except the central one than number of left anions.\n= 4 $$-$ 3 = 1\n(ii) If we replace all the face centred cations by anions than effective number of cations will be = 4 $$-$$ 3 = 1 Likewise effective number of anions will be = 1 + 3 = 4\n(iii) If we remove all the corner cations then effective number of cations will be 1 $$-$$ 1 = 0\n(iv) If we replace central anion with cation then effective number of cations will be 0 + 1 = 1 Likewise effective number of anions will be 4 $$-$$ 1 = 3\nThus, as the final outcome, total number of cations present in Z after fulfilling all the four sequential instructions = 1 Likewise, total number of anions = 3\nHence, the value of $${{Number\\,of\\,anions} \\over {Number\\,of\\,cations}} = {3 \\over 1} = 3$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_006",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A crystalline solid of a pure substance has a face-centered cubic structure with a cell edge of $$400pm.$$ If the density of the substance in the crystal is $$8g\\,c{m^{ - 3}},$$ then the number of atoms present in $$256g$$ of the crystal is $$N \\times {10^{24}}.$$ The value of $$N$$ is",
+    "solution": "**Given**:\n\n(i) Edge length of face centred cubic (FCC) unit cell (a) $=400 \\mathrm{pm}$\n\n(ii) Density of the substance $(\\rho)=8 \\mathrm{~g} \\mathrm{~cm}^{-3}$\n\n(iii) Mass of the crystal $(m)=256 \\mathrm{~g}$\n\n**To Find**: The value of $\\mathrm{N}$ in $\\mathrm{N} \\times 10^{24}$\n\n**Formula**: Density of the cell $(\\rho)$\n\n$$\n\\begin{aligned}\n& =\\frac{\\text { Mass of crystal }(\\mathrm{M}) \\times \\begin{array}{l}\n\\text { No. of atoms in unit cell } \\\\\n\\end{array}}{\\text { Volume of unit cell } \\times \\text { No. of atoms of pure substance in mass m }} \\\\\n\\end{aligned}\n$$\n\n**Calculations**: A face-centred cubic (F.C.C.) lattice has atoms of pure substance at the corner of the unit cell and/or atom each at the centre of the face of the unit cell.\n\nSince there are eight atoms at the corners and one atom at each of the six faces (i.e., six atoms in total):\n\nTotal number of atoms present per unit cell $(z)$\n\n$$\n=\\frac{1}{8} \\times 8+\\frac{1}{2} \\times 6=4\n$$\n\nDensity of the cell $(\\rho)$\n\n$$\n\\begin{aligned}\n& =\\frac{256 \\mathrm{~g} \\times 4}{\\left(400 \\times 10^{-10}\\right)^3 \\times \\mathrm{N}^1} \\\\\\\\\n& 8 \\mathrm{~g} \\mathrm{~cm}^{-3}=\\frac{256 \\mathrm{~g} \\times 4}{\\left(400 \\times 10^{-10}\\right) \\times \\mathrm{N}^1} \\\\\\\\\n& \\mathrm{~N}^{\\prime}=\\frac{256 \\mathrm{~g} \\times 4}{8 \\mathrm{~g} \\mathrm{~cm}^{-3} \\times(400)^3 \\times 10^{-30}} \\\\\\\\\n& \\mathbf{N}^{\\prime}=2 \\times 10^{24} \\text { atoms }\n\\end{aligned}\n$$\n\nHence, the crystal of pure substance of mass $256 \\mathrm{~g}$ contains $2 \\times 10^{24}$ atoms.\n\nNow, $\\mathrm{N}^{\\prime}=\\mathrm{N} \\times 10^{24}$\n\nTherefore, value of $\\mathrm{N}=2$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_007",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of hexagonal faces that are present in a truncated octahedron is ____________.",
+    "solution": "(i) The shape of a regular octahedron :\n\n[Diagram]\n\nWhen the octahedron is truncated from all edges.\n\n[Diagram]\n\n(ii) Each face of truncated octahedron is hexagonal.\nSince, there are 8 faces, there are eight hexagons.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m0dviqo5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_008",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The coordination number of Al in the crystalline state of AlCl$$_3$$ is ___________.",
+    "solution": "AlCl$_{3}$ exists as a close packed lattice of chloride\nions Cl$^{–}$\nwith Al$^{3+}$ occupying octahedral holes.\nHence, coordination number of Al$^{3+}$ is = 6.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_009",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An element crystallises in fcc lattice having edge length 400 pm. Calculate the maximum diameter of the atom which can be placed in interstitial site such that the structure is not distorted.",
+    "solution": "**Types of Voids in FCC:**\nIn a face-centered cubic (FCC) structure, there are two types of empty spaces, called voids: tetrahedral voids and octahedral voids.\n**Ratio for Void Sizes:**\nFor a tetrahedral void: $$\\frac{r}{R}=0.225$$\nFor an octahedral void: $$\\frac{r}{R}=0.414$$\nHere, $r$ is the radius of the smaller atom that goes into the empty site (the interstitial atom), and $R$ is the radius of the atom making up the structure.\n**Choosing the Correct Void:**\nThe largest atom that can fit into the FCC structure without changing its shape fits in the octahedral void, because this void is bigger than the tetrahedral one. So, we use the octahedral void ratio: $$\\frac{r}{R}=0.414$$\n**Finding the Radius ($R$) of the Main Atom:**\nIn FCC, the relation between the radius $R$ and the edge length $a$ is: $$R=\\frac{a}{2\\sqrt{2}}$$\nThe question says $a = 400$ pm.\n**Calculate $R$:**\n$$R=\\frac{400}{2\\sqrt{2}}$$\n**Find $r$ (radius of the maximum atom that fits in an octahedral site):**\nSubstitute the value of $R$ into the octahedral void ratio:\n$$r=0.414\\times\\frac{400}{2\\sqrt{2}}=58.55~\\text{pm}$$\n**Calculate Diameter:**\nThe diameter of the atom is twice the radius:\nDiameter = $2r = 2 \\times 58.55 = 117.1~\\text{pm}$\n**Final Answer:**\nThe largest atom that can fit into the empty site in an FCC lattice (without changing the structure) has a diameter of 117.1 pm.\n**Note:**\nOnly the octahedral void is considered for calculating the maximum possible diameter, because it is the largest void in FCC structures.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_solid_state_010",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Atom $\\mathrm{X}$ occupies the fcc lattice sites as well as alternate tetrahedral voids of the same lattice. The packing efficiency (in %) of the resultant solid is closest to",
+    "solution": "Atom $X$ occupies FCC lattice sites as well as alternate tetrahedral voids of FCC.\n\nIn FCC, tetrahedral voids are 8 (in a unit cell)\n\nHence\n\nAtom $X$ in a unit cell (FCC lattice sites) $=8 \\times \\frac{1}{8}+6 \\times \\frac{1}{2}=4$\n\nAtom $X$ in a unit cell (in T.V.) $=\\frac{1}{2} \\times 8=4$\n\nTotal atom $\\mathrm{X}$ in one unit cell $=8$\n\nFor relation between a and r, since T.V. forms at $\\frac{1}{4}$ th of body diagonal,\n\n$$\n\\begin{aligned}\n& \\frac{a \\sqrt{3}}{4}=2 r \\\\\\\\\n&\\Rightarrow a=\\frac{8 r}{\\sqrt{3}}\n\\end{aligned}\n$$\n\nPacking efficiency\n\n$=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{a^3} \\times 100=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{\\left(\\frac{8 r}{\\sqrt{3}}\\right)^3} \\times 100 \\simeq 35 \\%$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "25",
+      "35",
+      "55",
+      "75"
+    ]
+  },
+  {
+    "id": "chem_solid_state_011",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the given close packed structure of a salt made of cation X and anion Y shown below (ions of only one face are shown for clarity), the packing fraction is approximately (packing fraction = $${{packing\\,efficiency} \\over {100}}$$)\n\n[Diagram]",
+    "solution": "[Diagram]\n\nRadius of cation X = r$_{+}$\n\nNumber of cation X present = $$6 \\times {1 \\over 2} = 3$$\n\nRadius of anion Y = r$_{$$-$$}$\n\nNumber of anion Y present = $${1 \\over 8} \\times 8 = 1$$\n\nSide of unit cell = a\n\nAs two anions are touching each other, so side of unit cell,\n\na = 2r$_{$$-$$}$\n\nVolume of unit cell = a$^{3}$ = (2r$_{$$-$$}$)$^{3}$ = 8r$$_ - ^3$$\n\nVolume of cations X = Number of cation $$\\times$$ Volume of one cation = 3 $$\\times{4 \\over 3}\\pi r_ + ^3$$\n\nVolume of anions Y = Number of anion $$\\times$$ Volume of one anion = 1 $$\\times{4 \\over 3}\\pi r_ - ^3$$\n\nRadius ratio for close packed structure, $${{{r_ + }} \\over {{r_ - }}} = 0.414$$\n\nPacking efficiency = $${{Volume\\,of\\,cation \\times Number\\,of\\,cations + Volume\\,of\\,anion \\times Number\\,of\\,anions} \\over {Volume\\,of\\,unit\\,cell}} \\times 100$$\n\nPacking fraction = $${{Packing\\,efficiency} \\over {100}} = {{1 \\times {4 \\over 3}\\pi r_ - ^3 + 3 \\times {4 \\over 3}\\pi r_ + ^3} \\over {8r_ - ^3}} = {{4\\pi } \\over {3 \\times 8}}\\left[ {{{r_ - ^3} \\over {r_ - ^3}} + {{3r_ + ^3} \\over {r_ - ^3}}} \\right] = {\\pi \\over 6}[1 + 3{(0.414)^3}] = {{3.14} \\over 6}(1 + 3 \\times 0.0710) = {{3.14} \\over 6} \\times 1.213 = 0.63$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0.74",
+      "0.63",
+      "0.52",
+      "0.48"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx79j9w2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_012",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The arrangement of X$^{$$-$$}$ ions around A$^{+}$ ion in solid AX is given in the figure (not drawn to scale). If the radius of X$^{$$-$$}$ is 250 pm, the radius of A$^{+}$ is\n\n[Diagram]",
+    "solution": "From the figure, it can be seen that the cation A$^{+}$ occupies octahedral void formed by the anion X$^{$$-$$}$. The radius ratio for an octahedral void is r$_{A$^{+}$}$ / r$_{X$^{$$-$$}$}$ = 0.414. Now, given that the radius of anion X$^{$$-$$}$ is 250 pm, so the radius of A$^{+}$ is\nr$_{A$^{+}$}$ = 0.414 $$\\times$$ 250 = 103.50 $$ \\simeq $$ 104 pm",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "104 pm",
+      "125 pm",
+      "183 pm",
+      "57 pm"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1tvt9pr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_013",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A compound M$_{p}$X$_{q}$ has cubic close packing (ccp) arrangement of X. Its unit cell structure is shown below. The empirical formula of the compound is\n\n[Diagram]",
+    "solution": "8 X atoms present at the corners.\nAtoms contribute to 1 unit cell $$ = {1 \\over 8} \\times 8 = 1$$\n6 X atoms present at the face centres.\nAtoms contribute to 1 unit cell $$ = 6 \\times {1 \\over 2} = 3$$\nTotal X atoms $$ = 3 + 1 = 4$$\n4 M atoms present at edge centres.\nAtoms present in 1 unit cell $$ = 4 \\times {1 \\over 4} = 1$$\n1 M atom present at body centre and it contribute completely to 1 unit cell.\nThus, total M atoms in one unit cell $$ = 1 + 1 = 2$$\nRatio is $$M:X::2:4::1:2$$\nThus, empirical formula is $$M{X_2}$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "MX",
+      "MX$_{2}$",
+      "M$_{2}$X",
+      "M$_{5}$X$_{14}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l24ldf3x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_014",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The packing efficiency of the twodimensional square unit cell shown below is\n\n[Diagram]",
+    "solution": "The diagonal is given as 4r, where r is the radius of atom or sphere forming close packed structure.\n$$ \\begin{aligned} \\text { Diagonal } & =\\sqrt{\\mathrm{L}^2+\\mathrm{L}^2}=\\sqrt{2 \\mathrm{~L}^2} \\\\\\\\ 4 r & =\\sqrt{2 \\mathrm{~L}^2} \\text { or } \\mathrm{L}=\\frac{4 r}{\\sqrt{2}}=2 \\sqrt{2} r \\\\\\\\ \\text { or } \\text { Total area } & =\\mathrm{L}^2 \\\\\\\\ (2 \\sqrt{2} r)^2 & =8 r^2 \\end{aligned} $$\nNumber of spheres inside the square is\n$$ 1+4\\left(\\frac{1}{4}\\right)=2 $$\nArea of each sphere $=\\pi r^2$\nTotal area of spheres $=2 \\times \\pi r^2$\n$$ \\begin{aligned} \\text { Packing fraction } & =\\frac{\\text { Total area of spheres }}{\\text { Total area }} \\\\\\\\ & =\\frac{2 \\times \\pi r^2}{8 r^2}=\\frac{\\pi}{4}=0.785 \\end{aligned} $$\nSo, the percentage fraction is $78.5 \\%$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$39.27 \\%$",
+      "$68.02 \\%$",
+      "$74.05 \\%$",
+      "$78.54 \\%$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1m4me1u3t.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_015",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of atoms in this HCP unit cell is :",
+    "solution": "The number of atoms in a HCP unit cells is 6.\n3 atoms are at the middle of the unit cell and each atom contributes 1 atom to the unit cell.\n2 atoms are at the two face centres of the unit cell and each atom contributes 1/2 atom to the unit cell.\n12 atoms are at the 12 corners of the unit cell and each atom contributes 1/6 atom to the unit cell.\nThe number of atoms in one unit cell\n(3 $$\\times$$ 1) + (2 $$\\times$$ 1/2) + (12 $$\\times$$ 1/6) = 3 + 1 + 2 = 6",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "4",
+      "6",
+      "12",
+      "17"
+    ]
+  },
+  {
+    "id": "chem_solid_state_016",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The volume of this HCP unit cell is :",
+    "solution": "Volume of unit cell = Area of base $$\\times$$ Height of the unit cell\nThe (HCP) is a hexagonal prism structure. The base of (HCP) is a hexagon. We know that the hexagon is made of the 6 equilateral triangles.\nArea of equilateral triangle $$ = {{\\sqrt 3 } \\over 4}\\,{a^2}$$\nTherefore, the area of the base is given as,\nArea of base $$ = 6\\times{{\\sqrt 3 } \\over 4}\\,{a^2}$$\nLet's the 'h' be the height of the hexagonal unit\nTherefore, we have\n$${h \\over a} = \\sqrt {{8 \\over 3}} $$\nNow, substitute these values in the volumes of (HCP) we have,\nVolume of HCP = Area of base $$\\times$$ height of the hexagon\n$$\\therefore$$ Volume of HCP $$ = 6 \\times {{\\sqrt 3 } \\over 4}\\,{a^2} \\times \\sqrt {{8 \\over 3}} a$$\nSince, spheres touch each other, the edge length 'a' is equal to twice the radius of the atom. That is a = 2r\nSubstitute these values in the volume we get,\nVolume of HCP $$ = 6 \\times {{\\sqrt 3 } \\over 4}\\,{a^2} \\times \\sqrt {{8 \\over 3}} a = 6 \\times {{\\sqrt 3 } \\over 4}\\,{(2r)^2} \\times {{\\sqrt 8 } \\over {\\sqrt 2 }}2r = 24\\sqrt 2 {r^3}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$24\\sqrt 2 \\,{r^3}$$",
+      "$$16\\sqrt 2 \\,{r^3}$$",
+      "$$12\\sqrt 2 \\,{r^3}$$",
+      "$${{64} \\over {3\\sqrt 3 }}\\,{r^3}$$"
+    ]
+  },
+  {
+    "id": "chem_solid_state_017",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The empty space in this HCP unit cell is :",
+    "solution": "Packing fraction = $$\\frac{\\mathrm{Total~volume~of~unit~cell}}{\\mathrm{Volume~occupied}}$$\nSubstituting the values of occupied sphere and volume of the unit cell we have:\n$$ \\Rightarrow {{6 \\times {4 \\over 3} \\times \\pi {r^3}} \\over {24\\sqrt 2 {r^3}}} = 0.74$$\nRearranging and solving % occupied space = 74%\nThe space in the HCP unit cell = 100 $$-$$ 74 = 26%",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "74%",
+      "47.6%",
+      "32%",
+      "26%"
+    ]
+  },
+  {
+    "id": "chem_solid_state_018",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the crystal system/unit cells mentioned in Column I with their characteristic features mentioned in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nSimple cubic and face-centred cubic\n(P)\nhave these cell parameters $$a=b=c$$ and $$\\alpha=\\beta=\\gamma$$\n\n\n(B)\ncubic and rhombohedral\n(Q)\nare two crystal systems\n\n\n(C)\ncubic and tetragonal\n(R)\nhave only two crystallographic of 90$$^\\circ$$\n\n\n(D)\nhexagonal and monoclinic\n(S)\nbelong to same crystal system",
+    "solution": "(A) Simple cubic and face centered cubic unit cells\nhave cell parameters as $$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$\nThey belong to same crystal system.\n(B) Cubic and rhombohedral unit cells have cell\nparameters $$a = b = c$$ and $$\\alpha = \\beta = \\gamma$$. They are two crystal systems.\n(C) Cell parameters of cubic unit cell: $$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$\nb. Rhombohedral unit cell has cell parameters:\n$$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$ not equal to 90\n(D) Hexagonal and monoclinic unit cells are two\ncrystal system:\nThe have only two crystallography angles of\n90$$^\\circ$$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\mathrm{A-(s);B-(q);C-(q);(d)-(q,r)}$$",
+      "$$\\mathrm{A-(p,s);B-(p);C-(q);(d)-(r)}$$",
+      "$$\\mathrm{A-(p,s);B-(p,q);C-(q);(d)-(q,r)}$$",
+      "$$\\mathrm{A-(s);B-(q);C-(q);(d)-(q)}$$"
+    ]
+  },
+  {
+    "id": "chem_solid_state_019",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The cubic unit cell structure of a compound containing cation M and anion X is shown below. When compared to the anion, the cation has smaller ionic radius. Choose the correct statement(s).\n\n[Diagram]",
+    "solution": "(a) The empirical formula of the compound :\n\nContribution of M and X :\n\n$${M_{\\left( {2 \\times {1 \\over 2}} \\right)}}{X_{\\left( {4 \\times {1 \\over 4}} \\right)}} \\Rightarrow MX$$\n\n(b) Coordination number of both M and X is 8.\n\n(c) Distance between M and X\n\n$$ = \\sqrt {{{{a^2}} \\over 4} + {{{a^2}} \\over 2}} = \\sqrt {{3 \\over 4}} a = {{\\sqrt 3 } \\over 2}a \\Rightarrow $$ 0.866 a\n\n(d) $${r_M}\\,:\\,{r_X} = (\\sqrt 3 - 1)\\,:\\,1 \\Rightarrow 0.732:1$$, thus statement (d) is incorrect.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "The empirical formula of the compound is MX.",
+      "The cation M and anion X have different coordination geometries.",
+      "The ratio of M$$-$$X bond length of the cubic unit cell edge length is 0.866.",
+      "The ratio of the ionic radii of cation M to anion X is 0.414."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx9t7fqf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_solid_state_020",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The CORRECT statement(s) for cubic close packed (ccp) three dimensional structure is (are) :",
+    "solution": "Coordination number cannot be 12, for any atom in the topmost layer, as there is no layer above it. Thus, each atom is in contact with six atoms in the same layer and three atoms from the layer below it.\nFor cubic close packing, we have\nPacking fraction = $${{Volume\\,of\\,four\\,spheres\\,in\\,the\\,unit\\,cell} \\over {Total\\,volume\\,of\\,the\\,unit\\,cell}} = 4 \\times {{(4/3)\\pi {r^3}} \\over {16\\sqrt 2 {r^3}}} = {\\pi \\over {3\\sqrt 2 }} = 0.74 = 74\\% $$\nIn fcc unit cell, the effective number of atoms is\nOne atom at each corner = 8 corner atoms $$ \\times {1 \\over 8} = 1$$\nAtoms at each of the six face centres :\n6 face centered atoms $$ \\times {1 \\over 2} = 3$$.\nNumber of octahedral voids = 4.\nNumber of tetrahedral voids = 8.\nTherefore, per atom, there is one octahedral void and two tetrahedral voids.\nIn fcc (or ccp), the unit edge length is given by\n$$\\sqrt 2 a = 4r \\Rightarrow a = {{4r} \\over {\\sqrt 2 }} = 2\\sqrt 2 r$$",
+    "answerKey": [
+      "C",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The number of the nearest neighbours of an atom present in the topmost layer is 12",
+      "The efficiency of an atom packing is 74%",
+      "The number of octahedral and tetrahedral voids per atom are 1 and 2, respectively",
+      "The unit cell edge length is $$2 \\sqrt 2$$ times the radius of the atom"
+    ]
+  },
+  {
+    "id": "chem_solid_state_021",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the unit cell of a mineral has cubic close packed (ccp) array of oxygen atoms with m fraction of octahedral holes occupied by aluminium ions and n fraction of tetrahedral holes occupied by magnesium ions, m and n, respectively, are",
+    "solution": "For ccp, Z = 4 = no. of O-atoms\nNo. of octahedral voids = 4\nNo. of tetrahedral voids = 2 $$\\times$$ 4 = 8\nNo. of Al$^{3+}$ ions = m $$\\times$$ 4\nNo. of Mg$^{2+}$ ions = n $$\\times$$ 8\nThus, the formula of the mineral is Al$_{4m}$ Mg$_{8n}$O$_{4}$\n4m(+3) + 8n(+2) + 4($$-$$2) = 0\n12m + 16n $$-$$ 8 = 0\n4(3m + 4n $$-$$ 2) = 0\n3m + 4n = 2\nPossible values of m and n are $${1 \\over 2}$$ and $${1 \\over 8}$$ respectively.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "1/2, 1/8",
+      "1, 1/4",
+      "1/2, 1/2",
+      "1/4, 1/8"
+    ]
+  },
+  {
+    "id": "chem_solid_state_022",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct statement(s) regarding defects in solids is (are)",
+    "solution": "Frenkel defect occurs in compounds in which the anions are much larger in size than cations. It is a dislocation effect. The presence of Schottky defects lowers the density of the crystal, it hence affects the physical properties of the crystal. In the metal excess defects, the electrons trapped in anion vacancies are known as F-centres.",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "Frenkel defect is usually favoured by a very small difference in the sizes of cation and anion.",
+      "Frenkel defect is a dislocation defect.",
+      "Trapping of an electron in the lattice leads to the formation of F-centre.",
+      "Schottky defects have no effect on the physical properties of solids."
+    ]
+  },
+  {
+    "id": "chem_solid_state_023",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "topic": "Solid State",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A compound AB has rock salt type structure. The formula weight of AB is 6.023 Y amu, and the closest A - B distance is Y$^{1/3}$ nm, where Y is an arbitrary number\n\n(a) Find the density of the lattice\n\n(b) If the density of lattice is found to be 20 kg m$^{-3}$, then predict the type of defect",
+    "solution": "AB has a rock salt (NaCl) structure. This type of crystal structure possesses fcc unit cell and contains four formula units per unit cell, i.e., Z = 4.\nIn case of a rock salt structure, the edge-length (a) of the unit cell = 2 $$\\times$$ (radius of cation + radius of anion)\nTherefore, the edge-length (a) of the unit cell of AB crystal = 2 $$\\times$$ Y$^{1/3}$ nm = 2Y$^{1/3}$ $$\\times$$ 10$^{$$-$$9}$ m.\nWe know, $$\\rho = {{Z \\times M} \\over {N \\times {a^3}}}$$\nGiven : M = 6.022 Y g mol$^{$$-$$1}$ = 6.022 $$\\times$$ 10$^{$$-$$3}$ Y kg mol$^{$$-$$1}$\n$$\\therefore\\rho = {{4 \\times 6.022 \\times {{10}^{ - 3}}Y} \\over {6.022 \\times {{10}^{23}} \\times {{(2{Y^{1/3}} \\times {{10}^{ - 9}})}^3}}} = 5.0$$ kg m$^{$$-$$3}$\n(1) Density of the crystal = 5.0 kg m$^{$$-$$3}$\n(2) The observed density (= 20 kg m$^{$$-$$3}$) is higher than that of the calculated density. This indicates that the crystal structure of AB is likely to have non-stoichiometric defect in the form of metal excess or metal deficiency defect or to have impurity defect in the form of substitutional impurity defect or interstitial impurity defect.",
+    "answerKey": [
+      "A"
+    ]
+  }
+]

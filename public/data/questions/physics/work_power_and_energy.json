@@ -1,0 +1,785 @@
+[
+  {
+    "id": "phy_work_power_and_energy_001",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A student skates up a ramp that makes an angle 30$$^\\circ$$ with the horizontal. He/she starts (as shown in the figure) at the bottom of the ramp with speed v$_{0}$ and wants to turn around over a semicircular path xyz of radius R during which he/she reaches a maximum height h (at point y) from the ground as shown in the figure. Assume that the energy loss is negligible and the force required for this turn at the highest point is provided by his/her weight only. Then (g is the acceleration due to gravity)\n\n\n[Diagram]",
+    "solution": "Apply energy conservation,\n\n$${1 \\over 2}mv_0^2 = mgh + {1 \\over 2}m{v^2}{1 \\over 2}m{v^2} = {1 \\over 2}mv_0^2 - mgh$$ ..... (i)\n\nAt top point y, the centripetal force provided by the component of mg,\n\nmg sin$$\\theta$$ = centripetal force = $${{m{v^2}} \\over R}{{m{v^2}} \\over R} = mg\\sin \\theta $$\n\nPutting this value in Eq. (i), we get\n\n$${{mgR\\sin \\theta } \\over 2} = {1 \\over 2}mv_0^2 - mgh{{mgR} \\over 2}{1 \\over 2} = {1 \\over 2}mv_0^2 - mgh{{gR} \\over 2} = v_0^2 - 2gh$$\n\nAt point x and a of circular path, the points are at same height but less than h. So the velocity is more than point y.\nSo required centripetal force = $$\\frac{mv^{2}}{r}$$ is more.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$$v_0^2 - 2gh = {1 \\over 2}gR$$",
+      "$$v_0^2 - 2gh = {{\\sqrt 3 } \\over 2}gR$$",
+      "the centripetal force required at points x and z is zero",
+      "the centripetal force required is maximum at points x and z"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_002",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle is moved along a path AB-BC-CD-DE-EF-FA, as shown in figure, in presence of a force $$F = (\\alpha y\\widehat i + 2\\alpha x\\widehat j)$$ N, where x and y are in meter and $$\\alpha $$ = $$ - $$1 Nm$^{-1}$. The work done on the particle by this force F will be ............... Joule.\n\n\n[Diagram]",
+    "solution": "d = F.dr\n\nd = $$\\alpha $$ydx + 2$$\\alpha $$xdy\n\nA$$ \\to $$B, y = 1, dy = 0\n\nthen $${W_{A \\to B}} = \\int {\\alpha ydx} = \\alpha 1\\int_0^1 {dx} = \\alpha $$\n\nB$$ \\to $$C, x = 1, dx = 0\n\nthen $${W_{B \\to C}} = 2\\alpha 1\\int_1^{0.5} {dy} = - 2\\alpha (0.5) = - \\alpha $$\n\nC$$ \\to $$D, y = 0.5, dy = 0\n\nthen $${W_{C \\to D}} = \\int_1^{0.5} {\\alpha ydx} = \\alpha .{1 \\over 2}\\int_1^{0.5} {dx} = - {\\alpha \\over 4}$$\n\nD$$ \\to $$E, x = 0.5, dx = 0\n\nthen $${W_{D \\to E}} = 2\\alpha \\int {xdy} = 2\\alpha .{1 \\over 2}\\int\\limits_{0.5}^0 {dy} = - {\\alpha \\over 2}$$\n\nE$$ \\to $$F, y = 0, dy = 0 then W$_{EF}$ = 0\n\nF$$ \\to $$A, x = 0, dx = 0 then W$_{F$$ \\to $$A}$ = 0\n\n$$ \\therefore W = \\alpha - \\alpha - {\\alpha \\over 4} - {\\alpha \\over 2} = - {{3\\alpha } \\over 4}$$\n\nGiven, $$\\alpha = - 1 \\Rightarrow W = {3 \\over 4}J = 0.75J$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_003",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the List-$${\\rm I}$$ below, four different paths of a particle are given as functions of time. In these functions, $$\\alpha $$ and $$\\beta $$ are positive constants of appropriate dimensions and $$\\alpha\ne \\beta $$ In each case, the force acting on the particle is either zero or conservative. In List-$${\\rm I}{\\rm I}$$, five physical quantities of the particle are mentioned $$\\overrightarrow p $$ is the linear momentum, $$\\overrightarrow L $$ is the angular momentum about the origin, $$K$$ is the kinetic energy, $$U$$ is the potential energy and $$E$$ is the total energy. Match each path in List-$${\\rm I}$$ with those quantities in List-$${\\rm II}$$, which are conserved for that path.\n\n.tg {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-pjk9{font-size:22px;text-align:left}\n.tg .tg-wrg0{font-size:22px;text-align:center;vertical-align:top}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n\n\nLIST - I\nLIST - II\n\n\nP.\n$$\\overrightarrow r $$(t)=$$\\alpha t\\,\\widehat i + \\beta t\\widehat j$$\n1.\n$$\\overrightarrow p $$\n\n\nQ.\n$$\\overrightarrow r \\left( t \\right) = \\alpha \\cos \\,\\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j$$\n2.\n$$\\overrightarrow L $$\n\n\nR.\n$$\\overrightarrow r \\left( t \\right) = \\alpha \\left( {\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\widehat j} \\right)$$\n3.\nK\n\n\nS.\n$$\\overrightarrow r \\left( t \\right) = \\alpha t\\,\\widehat i + {\\beta \\over 2}{t^2}\\widehat j$$\n4.\nU\n\n\n\n\n5.\nE",
+    "solution": "The linear momentum $$\\overrightarrow p $$ of a particle is conserved if force on it is zero i.e., $$\\overrightarrow F = m\\overrightarrow a = \\overrightarrow 0 $$. If $$\\overrightarrow p $$ is conserved then kinetic energy $$K = {p^2}/2m$$ is also conserved. The angular momentum $$\\overrightarrow L $$ of a particle is conserved if torque on it is zero i.e., $$\\overrightarrow \\tau = \\overrightarrow r \\times \\overrightarrow F = \\overrightarrow 0 $$. The total energy E is conserved for conservative forces.\nFor P : $$\\overrightarrow r (t) = \\alpha t\\widehat i + \\beta t\\widehat j\\overrightarrow v = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta \\widehat j$$ = constant\n$$ \\Rightarrow \\overrightarrow p $$ is constant (conserved)\nNow, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}} $$ = constant\nTherefore, $$K = {1 \\over 2}m{v^2}$$ is constant (conserved)\nNow, $$\\overrightarrow a = {{d\\overrightarrow v } \\over {dt}} = 0 \\Rightarrow \\overrightarrow F = m\\overrightarrow a = 0$$\nThus, $$F =\nabla U \\Rightarrow U$$ is constant (conserved)\nNow, $$E = U + K \\Rightarrow E$$ is constant, since U and K are constant\nNow, $$\\overrightarrow L = m(\\overrightarrow r \\times \\overrightarrow v ) = 0 \\Rightarrow \\overrightarrow L $$ is constant (conserved)\nThus, the correct mapping is $$P \\to 1,2,3,4,5$$.\nFor Q : $$\\overrightarrow r (t) = \\alpha \\cos \\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j \\Rightarrow v = {{d\\overrightarrow r } \\over {dt}} = - \\alpha \\omega \\sin \\omega t\\,\\widehat i + \\beta \\omega \\cos \\omega t\\,\\widehat j$$\nSo v is not a constant $$ \\Rightarrow \\overrightarrow p $$ is not conserved for the path.\nNow, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}{{\\sin }^2}\\omega t + {\\beta ^2}{\\omega ^2}\\sin \\omega t} $$ which is not constant. Therefore,\n$$K = {1 \\over 2}m{v^2}$$ is not constant (not conserved)\nNow, $$\\overrightarrow a = {{d\\overrightarrow v } \\over {dt}} = - \\alpha {\\omega ^2}\\cos \\omega t\\,\\widehat i + \\beta {\\omega ^2}\\sin \\omega t\\,\\widehat j \\Rightarrow \\overrightarrow a $$ is not constant\n$$ \\Rightarrow \\overrightarrow F $$ is not constant\n$$ \\Rightarrow \\overrightarrow U $$ is not constant (not conserved)\nE = U + K is constant (conserved)\nNow, $$\\overrightarrow L = m(\\overrightarrow r \\times \\overrightarrow v ) = m\\omega \\alpha \\beta \\widehat k \\Rightarrow \\overrightarrow L $$ is constant (conserved)\nThus, the correct mapping is $$Q \\to 2,5$$.\nFor R : $$\\overrightarrow r (t) = \\alpha (\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\,\\widehat j)\\overrightarrow v = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\omega ( - \\sin \\omega t\\,\\widehat i + \\cos \\omega t\\,\\widehat j) \\Rightarrow \\overrightarrow v $$ is not a constant\n$$ \\Rightarrow \\overrightarrow p $$ is not a constant (not conserved)\nNow, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}({{\\sin }^2}\\omega t + {{\\cos }^2}\\omega t)} = \\alpha \\omega \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ is constant\n$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ is a constant (conserved)\nNow, $$\\overrightarrow a = {{dv} \\over {dt}} = \\alpha {\\omega ^2}( - \\sin \\omega t\\,\\widehat i - \\cos \\omega t\\,\\widehat j) \\Rightarrow \\overrightarrow a $$ is not constant\nSince $$ E = U + K$$ is constant (conserved)\n$$\\Rightarrow U$$ is constant (conserved)\nNow, $$\\overrightarrow L = m(\\overrightarrow r \\times \\overrightarrow v ) = m\\omega {\\alpha ^2}\\widehat k \\Rightarrow \\overrightarrow L $$ is constant (conserved)\nThus, the correct mapping is $$R \\to 2,3,4,5.$$\nFor S : $$\\overrightarrow r (t) = \\alpha t\\,\\widehat i + {\\beta \\over 2}{t^2}\\,\\widehat j\\overrightarrow v = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta t\\,\\widehat j \\Rightarrow \\overrightarrow v $$ is not conserved\n$$ \\Rightarrow \\overrightarrow p $$ is not conserved\nNow, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}\\,{t^2}} \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ is not conserved\n$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ is not conserved\n$$\\overrightarrow a = {{d\\overrightarrow v } \\over {dt}} = \\beta \\widehat j \\Rightarrow E = U + K$$ is conserved\nBut, U is not conserved.\nNow, $$\\overrightarrow L = m(\\overrightarrow r \\times \\overrightarrow v ) = {1 \\over 2}\\alpha \\beta {t^2}\\widehat k \\Rightarrow \\overrightarrow L $$ is not conserved.\nThus, the correct mapping is $$S \\to 5$$.\nTherefore, option (A) is correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$P \\to 1,2,3,4,5;\\,Q \\to 2,5;R \\to 2,3,4,5;S \\to 5$$",
+      "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 3,5;R \\to 2,3,4,5;S \\to 2,5$$",
+      "$$P \\to 2,3,4;{\\mkern 1mu} Q \\to 5;R \\to 1,2,4;S \\to 2,5$$",
+      "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 2,5;R \\to 2,3,4,5;S \\to 2,5$$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_004",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small particle of mass m moving inside a heavy, hollow and straight tube along the tube axis undergoes elastic collision at two ends. The tube has no friction and it is closed at one end by a flat surface while the other end is fitted with a heavy movable flat piston as shown in figure.\n\n\n[Diagram]\n\nWhen the distance of the piston from closed end is L = L$_{0}$, the particle speed is v = v$_{0}$. The piston is moved inward at a very low speed V such that $$V < < {{dL} \\over L}{v_0}$$, where dL is the infinitesimal displacement of the piston. Which of the following statement(s) is/are correct?",
+    "solution": "[Diagram]\n\n\nChange in speed = $$(2v + {v_0} - {v_0}) = 2v$$ In every collision it acquires 2v,\n\n\n[Diagram]\n\n\n$$f = {v \\over {2x}}{{dv} \\over {dt}} = f \\times 2vdv = {v \\over {2x}}2vdtdv = {v \\over {2x}}2( - dx)$$\n\nIntegration on both sides limits v$_{0}$ to v, we get\n\n$$\\int\\limits_{{v_0}}^v {{{dv} \\over v}} = \\int\\limits_l^x {{{ - dx} \\over x}} \\Rightarrow \\ln {v \\over {{v_0}}} = - \\ln {x \\over l} \\Rightarrow v = {{{v_0}l} \\over x}$$\n\nwhere, $$x = {l \\over 2},v = 2{v_0}$$\n\nso, $$f = {{2{v_0}} \\over {2{l \\over 2}}} = {{2{v_0}} \\over l} \\therefore {{{k_f}} \\over {{k_i}}} = 4$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "After each collision with the piston, the particle speed increases by 2V.",
+      "If the piston moved inward by dL, the particle speed increases $$2v{{dL} \\over L}$$.",
+      "The particle's kinetic energy increases by a factor of 4 when the piston is moved inward from L$_{0}$ to 1/2 L$_{0}$.",
+      "The rate at which the particle strikes the piston is v/L."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6zwya0p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_005",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass $$m$$ is initially at rest at the origin. It is subjected to a force and starts moving along the $$x$$-axis. Its kinetic energy $$K$$ changes with time as $$dK/dt = \\gamma t,$$ where $$\\gamma $$ is a positive constant of appropriate dimensions. Which of a positive constant of appropriate dimensions. Which of the following statement is (are) true?",
+    "solution": "Given, a particle at rest is subjected to force. Motion of particle is along x-axis.\nChange in kinetic energy is given as\n$$K = {{dK} \\over {dt}} = \\gamma t$$ ..... (1)\nwhere $$\\gamma$$ is positive constant.\nWe know that kinetic energy is given by\n$$K = {1 \\over 2}m{v^2}$$...... (2)\nNow, differentiate Eq. (2), we get\n$${{dK} \\over {dt}} = {2 \\over 2}mv{{dv} \\over {dt}} = mv{{dv} \\over {dt}}{{dK} \\over {dt}} = mv{{dv} \\over {dt}}$$ ....... (3)\nFrom Eqs. (1) and (3), we get\n$$mv{{dv} \\over {dt}} = \\gamma t \\Rightarrow mv\\,dv = \\gamma t\\,dt$$ ...... (4)\nIntegrating Eq. (4), we get\n$$\\int {mv\\,dv = \\int {\\gamma t\\,dt \\Rightarrow m\\int {v\\,dv = \\gamma \\int {t\\,dt} } } } {{m{v^2}} \\over 2} = {{\\gamma {t^2}} \\over 2} \\Rightarrow m{v^2} = \\gamma {t^2} \\Rightarrow {v^2} = {\\gamma \\over m}{t^2} \\Rightarrow v = \\sqrt {{\\gamma \\over m}} t \\Rightarrow v \\propto t$$\nSince, $$\\gamma$$ and m are constant so the speed of particle is proportional to time therefore option (B) is true.\nAlso, $$a = {{dv} \\over {dt}} \\Rightarrow a = \\sqrt {{\\gamma \\over m}} $$ = constant\nF = ma = constant\nSo, option (A) is true.\nAlso, $$v = {{dr} \\over {dt}} \\Rightarrow {{dr} \\over {dt}} = \\sqrt {{\\gamma \\over m}} t \\Rightarrow dr = \\sqrt {{\\gamma \\over m}} t\\,dt$$ ...... (5)\nIntegrating Eq. (5), we get\n$$\\int {dr = \\int {\\sqrt {{\\gamma \\over m}} t\\,dt \\Rightarrow r = \\sqrt {{\\gamma \\over m}} {{{t^2}} \\over 2}} } \\Rightarrow r \\propto {t^2}$$\nSo, the distance of the particle from the origin increases at t$^{2}$ so option (C) is false.\nA force is conservative if work done by the force in any closed loop is zero (i.e., work done is independent of the path). If force is constant (both magnitude and direction) then work done by the force in a closed loop is given by\n$$W = \\oint {\\overrightarrow F \\,.\\,d\\overrightarrow r = \\overrightarrow F \\,.\\,\\oint {d\\overrightarrow r = \\overrightarrow F \\,.\\,\\overrightarrow 0 } = 0} $$.\nNote that we are able to take $$\\overrightarrow F $$ out of integral sign because $$\\overrightarrow F $$ is constant and $$\\oint {d\\overrightarrow r } $$ is zero because integration is carried out over a closed loop. The argument 'since force is constant, hence it is conservative' should be understood properly. The kinetic friction force and viscous drag force (when body moves with a terminal speed) are both constant (in magnitude) but are non-conservative. These forces cannot start the particle motion from the rest. The situation given in this problem is similar to a particle dropped from rest under the gravitational force. This force is constant, can initiate the motion given in the problem and is conservative.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The force applied on the particle is constant",
+      "The speed of the particle is proportional to time",
+      "The distance of the particle from the origin increases linearly with time",
+      "The force is conservative"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_006",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A flat plate is moving normal to its plane through a gas under the reaction of a constant force $$F.$$ The gas is kept at a very low pressure. The speed of the plate $$v$$ is much less than the average speed u of the gas molecules.\n\nWhich of the following options is /are true?",
+    "solution": "It is given that the average speed of gas molecules is u; the speed of the plate is v; the force on the plate if F.\n\n[Diagram]\n\n$$\\bullet$$ Just before the collision : The gas molecules are approaching the leading and trailing faces of the plate with speed u.\n$$\\bullet$$ Just after the collision : The gas molecules bounce back with speed u$_{1}$ and u$_{2}$.\n$$\\bullet$$ At trailing face\nThe speed before collision is u $$-$$ v.\nThe speed after collision is u$_{2}$ + v.\nFrom law of conservation of linear momentum, we have\nu$_{2}$ + v = u $$-$$ v\nThat is,\nu$_{2}$ = u $$-$$ 2v ....... (1)\nand\n$$\\Delta$$u$_{2}$ = 2u $$-$$ 2v ....... (2)\n$$\\bullet$$ At leading face\nThe speed before collision is u + v.\nThe speed after collision is u$_{1}$ $$-$$ v.\nFrom law of conservation of linear momentum, we have\nu$_{1}$ $$-$$ v = u + v\nThat is,\nu$_{1}$ = u + 2v ..... (3)\nand\n$$\\Delta$$u$_{1}$ = 2u + 2v ...... (4)\nNow, from Newton's second law of motion, we have\n$$F = {{dp} \\over {dt}}\\bullet$$ For leading face : $${F_1} = {{d{p_1}} \\over {dt}}$$.\nThe volume swept by the plate is A(u + v). Therefore,\n$${F_1} = {{d{p_1}} \\over {dt}} = \\rho A(u + v)\\Delta {u_1}{F_1} = \\rho A(u + v)(2u + 2v)$$ ....... (5)\n$$\\bullet$$ For trailing face : $${F_2} = {{d{p_2}} \\over {dt}}$$\nThe volume swept by the plate is A(u $$-$$ v). Therefore,\n$${F_2} = {{d{p_2}} \\over {dt}} = \\rho A(u - v)\\Delta {u_2}{F_2} = \\rho A(u - v)(2u - 2v)$$ ....... (6)\n\n[Diagram]\n\nThe net force on the plate is\n$${F_{net}} = {F_1} - {F_2} = \\rho A(u + v)(2u + 2v) - \\rho A(u - v)(2u - 2v) = 2\\rho A(u + v)(u + v) - 2\\rho A(u - v)(u - v) = 2\\rho A{(u + v)^2} - 2\\rho A{(u - v)^2} = 2\\rho A[{(u + v)^2} - {(u - v)^2}] = 2\\rho A[{u^2} + {v^2} + 2uv - ({u^2} + {v^2} - 2uv)] = 2\\rho A({u^2} + {v^2} + 2uv - {u^2} - {v^2} + 2uv) = 2\\rho A(4uv) = 8\\rho Auv$$\nTherefore, the pressure difference is\n$${{{F_{net}}} \\over A} = {{8\\rho Auv} \\over A} = 8\\rho uv$$\nThus, the pressure difference between the leading and trailing faces of the plate is proportional to uv. Hence, option (A) is correct.\nNow,\n$${F_{net}} = 8\\rho Auv$$\nThe net resistive force is\n$$F - (8\\rho Au)v = {{mdv} \\over {dt}}$$\nwhere F is the constant force applied by the gas molecules on the plate.\nThe resistive force experienced by the plate is proportional to v.\nHence, option (B) is also correct.\nAt a later time, the velocity v becomes sufficient and the external force $$F( = 8\\rho Auv)$$ balances the resistive force.\nHence, option (D) is also correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The pressure difference between the leading and trailing faces of the plate is proportional to uv",
+      "The resistive force experimenced by the plate is proportional to $$v$$",
+      "The plate will continue to move with constant non-zero acceleration, at all times",
+      "At a later time the external force $$F$$ balances the resistive force"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0kk7ai5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_007",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thin ring of mass 2 kg and radius 0.5 m is rolling without on a horizontal plane with velocity 1 m/s. A small ball of mass 0.1 kg, moving with velocity 20 m/s in the opposite direction hits the ring at a height of 0.75 m and goes vertically up with velocity 10 m/s. Immediately after the collision,\n\n[Diagram]",
+    "solution": "Let M be the mass of the ring and m that of the ball and\nlet V and $$\\upsilon $$ be their velocity before collision. The initial momentum of the system (ring and ball) in the horizontal direction is\n$${\\overrightarrow p _i} = M\\overrightarrow V + m\\overrightarrow \\upsilon = 2 \\times 1 + 0.1 \\times ( - 20) = 2 - 2 = 0$$\nFrom conservation of momentum, the final momentum of the system $${\\overrightarrow p _f} = 0$$ in the horizontal direction. Hence $${V_{cm}} = 0$$ for the ring, i.e. the ring has pure rotation about its centre of mass. So choice (a) is correct.\nThe total initial angular momentum of the system about the point of collision is\n$${L_i} = m\\upsilon r - I\\omega = m\\upsilon r - M{R^2}{V \\over R} = m\\upsilon r - MRV = 0.1 \\times 20 \\times 0.75 - 2 \\times 0.5 \\times 1 = 1.5 - 1 = 0.5$$ kg m$^{2}$ s$^{$$-$$1}$\nFrom the conservation of angular momentum, the final angular velocity must be anticlockwise. Hence the friction between the ring and the ground is to the left. So the correct choices are (a) and (c).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "the ring has pure rotation about its stationary CM.",
+      "the ring comes to a complete stop.",
+      "friction between the ring and the ground is to the left.",
+      "there is no friction between the ring and the ground."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2mm234v.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_008",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ball moves over a fixed track as shown in the figure. From $A$ to $B$, the ball rolls without slipping. Surface $B C$ is frictionless. $K_A, K_B$ and $K_c$ are kinetic energies of the ball at $A, B$ and C , respectively. Then\n[Diagram]",
+    "solution": "The work done by the friction force is zero in rolling without slipping. The surface BC is frictionless. Thus mechanical energy of the balls is conserved.\ni.e., it is same at point $\\mathrm{A}, \\mathrm{B}$ and C .\nIf $K_A, K_B$ and $K_C$ represent the total oenergies (transtational plus rotational)\nThen, $\\mathrm{K}_{\\mathrm{A}}+\\mathrm{mgh}_{\\mathrm{A}}=\\mathrm{K}_{\\mathrm{B}}=\\mathrm{K}_{\\mathrm{C}}+\\mathrm{mgh}_{\\mathrm{C}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$\nThe equation (i) gives $K_B>K_C$ and $K_B>K_A$ irrespective of the relation between $\\mathrm{h}_{\\mathrm{A}}$ and $\\mathrm{h}_{\\mathrm{C}}$.\nLet us analyses the problem a little more.\nLet $K_B{ }^{\\text {tans }}$ and $K_C{ }^{\\text {trans }}$ are translational kinetics energies and $K_B{ }^{\\text {rot }}$ and $K_C{ }^{\\text {rot }}$ rotational kinetic energies of balls.\nThe equation (i) can be written as\n$$ \\begin{aligned} \\mathrm{K}_{\\mathrm{A}}+m g h_A & =\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\operatorname{tran}}+\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\mathrm{rot}} \\\\ & =\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\operatorname{tran}}+\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\mathrm{rot}}+m g h_{\\mathrm{C}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii) \\end{aligned} $$\nTrack $B C$ is frictionless and there is no torque on the ball about its centre of mass. Hence, its angular acceleration is zero, i.e., it moves with a constant angular velocity, which implies.\n$$ \\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\mathrm{rot}}=\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\mathrm{rot}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iv)$$\nThe equation (iii) and (iv) gives $\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\text {trans }}>\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\text {trans }}$.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "$h_{\\mathrm{A}}>h_{\\mathrm{c}^{\\prime}} \\mathrm{K}_{\\mathrm{B}}>\\mathrm{K}_{\\mathrm{C}}$.",
+      "$h_{\\mathrm{A}}>h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{C}}>\\mathrm{K}_{\\mathrm{A}}$.",
+      "$h_{\\mathrm{A}}=h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{B}}=\\mathrm{K}_{\\mathrm{C}}$.",
+      "$h_{\\mathrm{A}} < h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{B}}>\\mathrm{K}_{\\mathrm{C}}$."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt286uv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_009",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A force $$F = - K\\left( {y\\widehat i + x\\widehat j} \\right)$$ (where K is a positive constant) acts on a particle moving in the xy plane. Starting from the origin, the particle is taken along the positive x axis to the point $$\\left( {a,0} \\right)$$, and then parallel to the y axis to the point $$\\left( {a,a} \\right)$$. The total work done by the force F on the particle is",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ - 2K{a^2}$$",
+      "$$2K{a^2}$$",
+      "$$ - K{a^2}$$",
+      "$$K{a^2}$$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_010",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A stone tied to a string of length L is whirled in a vertical circle with the other end of the string at the center. At a certain instant of time, the stone is at its lowest position, and has a speed u. The magnitude of the change in its velocity as it reaches a position where the string is horizontal is",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\sqrt {{u^2} - 2gL} $$",
+      "$$\\sqrt {2gL} $$",
+      "$$\\sqrt {{u^2} - gL} $$",
+      "$$\\sqrt {2\\left( {{u^2} - gL} \\right)} $$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_011",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the particle. The motion of the particle takes place in a plane. It follows that :",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D",
+      "C"
+    ],
+    "options": [
+      "Its velocity is constant",
+      "its acceleration is constant",
+      "its kinetic energy is constant",
+      "it moves in a circular path"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_012",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A uniform chain of length L and mass M is lying on a smooth table and one third of its length is hanging vertically down over the edge of the table. If g is acceleration due to gravity, the work required to pull the hanging part on to the table is",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "MgL",
+      "$${{MgL} \\over 3}$$",
+      "$${{MgL} \\over 9}$$",
+      "$${{MgL} \\over {18}}$$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_013",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in the time t is proportional to",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "t$^{1/2}$",
+      "t$^{3/4}$",
+      "t$^{3/2}$",
+      "t$^{2}$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_014",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spring-block system is resting on a frictionless floor as shown in the figure. The spring constant is $$2.0\\,N{m^{ - 1}}$$ and the mass of the block is $$2.0kg.$$ Ignore the mass of the spring. Initially the spring is an unstretched condition. Another block of mass $$1.0kg$$ moving with a speed of $$2.0m{s^{ - 1}}$$ collides elastically with the first block. The collision is such that the $$2.0kg$$ block does not hit the wall. The distance, in metres, between the two blocks when the spring returns to its unstretched position for the first time after the collision is __________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAfter collision the 2.0 kg block will perform simple harmonic oscillation with time period\n$$T = 2\\pi \\sqrt {{m \\over k}} $$\nGiven m = 2.0 kg and k = 2.0 N m$^{$$-$$1}$, we have\nT = 2$$\\pi$$\nThus, the block returns to its original position in time\n$$t = {T \\over 2}$$ = $$\\pi$$ s\nThat is, t = 3.14 s\nNow, if v$_{1}$ and v$_{2}$ are velocities of 1.0 kg block and 2.0 kg block, respectively, before collision; v'$_{1}$ and v'$_{2}$ are velocities of 1.0 kg block and 2.0 block, respectively, after collision. So, by conservation of momentum\nm$_{1}$v$_{1}$ + m$_{2}$v$_{2}$ = m$_{1}$v'$_{1}$ + m$_{2}$v'$_{2}$\nHere, m$_{1}$ = 1.0 kg, v$_{1}$ is initial speed of 1.0 kg block = 2.0 m s$^{$$-$$1}$, m$_{2}$ = 2.0 kg, v$_{2}$ is initial speed of 2.0 kg block = 0.0 m s$^{$$-$$1}$, v'$_{1}$ is final speed of 1.0 kg block after collision and v'$_{2}$ is final speed of 2.0 kg block after collision. Then, 1.0 kg $$\\times$$ 2.0 m/s + 2.0 kg $$\\times$$ 0 m/s = 1.0 v'$_{1}$ + 2.0 v'$_{2}$\nv'$_{1}$ + 2v'$_{2}$ = 2 ..... (1)\nAlso, using definition of coefficient of restitution\nv'$_{2}$ $$-$$ v'$_{1}$ = $$\\varepsilon $$(v$_{1}$ $$-$$ v$_{2}$)\nSince collision is elastic, So $$\\varepsilon $$ = 1\n$$\\Rightarrow$$ v'$_{2}$ $$-$$ v'$_{1}$ = v$_{1}$ $$-$$ v$_{2}$\n$$\\Rightarrow$$ v'$_{2}$ $$-$$ v'$_{1}$ = 2 $$-$$ 0\n$$\\Rightarrow$$ v'$_{2}$ $$-$$ v'$_{1}$ = 2 ...... (2)\nFrom Eqs. (1) and (2), we get\n$$v{'_2} = {4 \\over 3}$$ m s$^{$$-$$1}$ and $$v{'_1} = {-2 \\over 3}$$ m s$^{$$-$$1}$\nTherefore, distance between the blocks is given as\n$$s = v{'_1} \\times t = {{ - 2} \\over 3} \\times 3.14 = 2.09$$ m",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kyg0p41m.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_015",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider an elliptically shaped rail PQ in the vertical plane with\nOP = 3 m and OQ = 4 m. A block of mass 1 kg is pulled along the\nrail from P to Q with a force of 18 N, which is always parallel to\nline PQ (see the figure given). Assuming no frictional losses, the\nkinetic energy of the block when it reaches Q is (n × 10) Joules. The\nvalue of n is (take acceleration due to gravity = 10 ms$^{–2}$)\n\n\n[Diagram]",
+    "solution": "Work done by the gravitational force is $${W_g} = mgh\\cos 180^\\circ $$\n= $$-$$ mgh = $$-$$1 $$\\times$$ 10 $$\\times$$ 4 = $$-$$40 J\nWork done by the applied force F\n$${W_F} = Fd\\cos 0^\\circ = Fd = 18 \\times 5 = 90$$ J\nAccording to work-energy theorem\n$$\\Delta$$K = W$_{g}$ + W$_{F}$\n$$\\Delta$$K = $$-$$40 J + 90 J = 50 J = (5 $$\\times$$ 10) J\n$$\\therefore$$ n = 5",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky3jj6ai.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_016",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A bob of mass m, suspended by a string of length l$_{1}$ is given a minimum velocity required to complete a full circle in the vertical plane. At the highest point, it collides elastically with another bob of mass m suspended by a string of length l$_{2}$, which is initially at rest. Both the strings are mass-less and inextensible. If the second bob, after collision acquires the minimum speed required to complete a full circle in the vertical plane, the ratio $${{{l_1}} \\over {{l_2}}}$$ is",
+    "solution": "To determine the minimum velocity required for the bob of mass $ m $ to complete a full circle in the vertical plane, we start with the condition at the bottommost point:\n\n$ u = \\sqrt{5 g l_1} \\text{ (at point A)} $\n\n[Diagram]\n\nAt the highest point B, using the conservation of energy, we get:\n\n$ \\frac{1}{2} m u_1^2 = m g (2 l_1) + \\frac{1}{2} m v_1^2 $\n\nSimplifying, we have:\n\n$ v_1^2 = u_1^2 - 4 g l_1 $\n\nSubstituting $ u_1 = \\sqrt{5 g l_1} $:\n\n$ v_1^2 = 5 g l_1 - 4 g l_1 $\n\n$ v_1 = \\sqrt{g l_1} $\n\nWhen the bob at point B elastically collides with another identical mass that is initially at rest, the velocities swap due to the nature of elastic collisions. Thus, the second bob attains the velocity:\n\n$ u_2 = v_1 = \\sqrt{g l_1} $\n\nFor the second bob to complete its circular path, the minimum velocity requirement is:\n\n$ u_2 = \\sqrt{5 g l_2} = \\sqrt{g l_1} $\n\n$\\therefore \\frac{l_1}{l_2}=5$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzxj737e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_017",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass 0.2 kg is moving in one dimension under a force that delivers a constant power 0.5 W to\nthe particle. If the initial speed (in m/s) of the particle is zero, the speed (in m/s) after 5 s is",
+    "solution": "To determine the speed of a particle after $ t = 5 $ seconds, given a constant power, the following steps should be taken :\n\nPower Equation: Power is the rate at which work is done, and work is the change in kinetic energy :\n$$ P = \\frac{d(W)}{dt} = \\frac{d}{dt} \\left( \\frac{1}{2} m v^2 \\right) $$\nGiven Data :\n\nMass of the particle ($ m $) = 0.2 kg\nConstant power ($ P $) = 0.5 W\nInitial speed ($ v_0 $) = 0 m/s\n\nDifferentiating Kinetic Energy with Respect to Time :\n$$ P = \\frac{d}{dt} \\left( \\frac{1}{2} m v^2 \\right) = m v \\frac{dv}{dt} $$\nRearranging to Solve for $ v \\frac{dv}{dt} $ :\n$$ 0.5 = 0.2 \\cdot v \\cdot \\frac{dv}{dt} \\frac{dv}{dt} = \\frac{5}{2v} $$\nIntegrating Both Sides :\n$$ v \\, dv = \\frac{5}{2} \\, dt \\int v \\, dv = \\int \\frac{5}{2} \\, dt \\frac{v^2}{2} = \\frac{5t}{2} + C $$\nApplying Initial Condition (when $ t = 0 $, $ v = 0 $) :\n$$ 0 = \\frac{5 \\cdot 0}{2} + C C = 0 $$\nSolving for $ v $ :\n$$ \\frac{v^2}{2} = \\frac{5t}{2} v^2 = 5t v = \\sqrt{5t} $$\nSpeed After 5 Seconds :\n$$ v = \\sqrt{5 \\cdot 5} = \\sqrt{25} = 5 \\, \\text{m/s} $$\n\nThus, the speed of the particle after 5 seconds is 5 m/s.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2jfj8nc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_018",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 0.18 kg is attached to a spring of force-constant 2 N/m. The\ncoefficient of friction between the block and the floor is 0.1. Initially the\nblock is at rest and the spring is un-stretched. An impulse is given to the\nblock as shown in the figure. The block slides a distance of 0.06 m and\ncomes to rest for the first time. The initial velocity of the block in m/s is\nV = N/10. Then N is\n\n[Diagram]",
+    "solution": "[Diagram]\n\nLoss of kinetic energy $$ = {1 \\over 2}m{V^2}$$\nWork done against friction $$ = \\mu mgx$$\nGain in potential energy $$ = {1 \\over 2}k{x^2}$$\nFrom work-energy principle,\n$${1 \\over 2}m{V^2} = \\mu mgx + {1 \\over 2}k{x^2} \\Rightarrow {1 \\over 2} \\times 0.18 \\times {V^2} = 0.1 \\times 0.18 \\times 10 \\times 0.06 + {1 \\over 2} \\times 2 \\times {(0.06)^2} \\Rightarrow V = 0.4 = {4 \\over {10}}$$ ms$^{$$-$$1}$. Hence, N = 4.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2jfj8nc.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_019",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A light inextensible string that goes over a smooth fixed pulley as shown in the figure connects two blocks of masses 0.36 kg and 0.72 kg. Taking g = 10 m/s$^{2}$, find the work done (in joules) by the string on the block of mass 0.36 kg during the first second after the system is released from rest.\n\n[Diagram]",
+    "solution": "We have,\n$$a = \\left( {{{{m_1} - {m_2}} \\over {{m_1} + {m_2}}}} \\right)g = \\left( {{{0.72 - 0.36} \\over {0.72 - 0.36}}} \\right) \\times 10 = {g \\over 3} = {{10} \\over 3}T = {{2{m_1}{m_2}g} \\over {{m_1} + {m_2}}} = {{2 \\times 0.72 \\times 0.36 \\times 10} \\over {0.72 + 0.36}} = 4.8$$ N\n$$s = {1 \\over 2}a{t^2} = {1 \\over 2} \\times {{10} \\over 3} \\times {1^2} = {5 \\over 3}$$ m\nThe work done by the rope on 0.36 kg is\n$$W = Ts\\cos 0^\\circ = 4.8 \\times {5 \\over 3} = + 8$$ J",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6nyu51.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_020",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three objects A, B and C are kept in a straight line on a frictionless horizontal surface. These have masses m, 2m and m, respectively. The object A moves towards B with a speed 9 m/s and makes an elastic collision with it. Thereafter, B makes completely inelastic collision with C. All motions occur on the same straight line. Find the final speed (in m/s) of the object C.",
+    "solution": "Let $$V_1$$ and $$V_2$$ be the velocities of blocks A and B immediately after the elastic collision:\n$${v_1} = \\left( {{{{m_1} - {m_2}} \\over {{m_1} + {m_2}}}} \\right)m = \\left( {{{m - 2m} \\over {m + 2m}}} \\right) \\times 9 = - 3$$ m/s\n$${v_2} = \\left( {{{2{m_1}} \\over {{m_1} + {m_2}}}} \\right)m = \\left( {{{2m} \\over {m + 2m}}} \\right) \\times 9 = 6$$ m/s\n\n[Diagram]\n\nAfter the perfectly inelastic collision between blocks B and C, let $$v$$ be the common velocity. Applying centre of mass concept, we get\n$$2m{v_2} = (2m + m)v \\Rightarrow v = {2 \\over 3} \\times 6 = 4$$ m/s",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4t36o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_021",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There is a rectangular plate of mass M kg of dimensions ( $a \\times b$ ). The plate is held in horizontal position by striking $n$ small balls each of mass m per unit area per unit time. These are striking in the shaded half region of the plate. The balls are colliding elastically with velocity $v$. What is $v$ ?\n[Diagram]\nIt is given $n=100, \\mathrm{M}=3 \\mathrm{~kg}, m=0.01 \\mathrm{~kg}$; $b=2 m ; a=1 \\mathrm{~m} ; g=10 \\mathrm{~m} / \\mathrm{s}^2$",
+    "solution": "The ball collides elastically with the stationary plate. In this collision, velocity of the ball gets reversed.\nThe conversation of linear momentum,\n$$ \\begin{aligned} \\mathrm{P}_{i(\\text { ball })}+\\mathrm{P}_{i(\\text { plate })} & =\\mathrm{P}_{f(\\text { ball })}+\\mathrm{P}_{f(\\text { plate })} \\\\ \\Delta \\mathrm{P}_{\\text {plate }} & =-\\Delta \\mathrm{P}_{\\text {ball }} \\\\ & =-m v-(-m v) \\\\ & =2 m v \\text { (upwards). } \\end{aligned} $$\nnumber of balls striking the plate in times $\\Delta t$ is $\\mathrm{N}=n(a b / 2) \\Delta \\mathrm{t}=n a b \\Delta t / 2$.\nThus, the total change in the plate's momentum in time $\\Delta t$ is\n$$ \\Delta \\mathrm{P}=\\mathrm{N} \\Delta \\mathrm{P}_{(\\text {plate })}=\\text { mvnab } \\Delta t . $$\nBy Newton's second law, upward force on the\n$$ \\text { plate is } \\mathrm{F}=\\frac{\\Delta \\mathrm{P}}{\\Delta t}=m v n a b .\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i) $$\nThis force effectively acts at the centre of the shaded region.\ni.e., at a distance $\\frac{3 b}{4}$ from the hinge.\nIn equillibrium $\\mathrm{F}+\\mathrm{R}=m g$, and torque due to all the forces about any point is zero.\nThe torque about a point on the hinge is\n$$ \\mathrm{F}\\left(\\frac{3 b}{4}\\right)-\\operatorname{Mg}\\left(\\frac{b}{2}\\right)=0 \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii)$$\nSubstitute value of F from equation (i) into equation (ii) to get\n$$ \\begin{aligned} \\mathrm{F} & =\\frac{\\mathrm{Mg} b}{2} \\times \\frac{4}{3 b}=\\frac{\\mathrm{Mg} 2}{3}=\\text { mvnab } \\\\ v & =\\frac{q 2 \\mathrm{Mg}}{3 m n a b}=\\frac{2 \\times 3 \\times 10}{3 \\times 0.01 \\times 100 \\times 1 \\times 2} \\\\ & =\\frac{60}{6}=10 \\mathrm{~m} / \\mathrm{s} \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt3poq9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_022",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of unit mass is moving along the x-axis under the\ninfluence of a force and its total energy is conserved. Four\npossible forms of the potential energy of the particle are given\nin Column I (a and U$_{0}$\nare constants). Match the potential\nenergies in Column I to the corresponding statement(s) in\nColumn II:\n\n[Diagram]",
+    "solution": "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q); (D)→(P), (R), (T)",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A)→(P), (Q), (R); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)",
+      "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)",
+      "(A)→(P), (Q), (R), (T); (B)→(Q); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)",
+      "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l139c1wp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_023",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tennis ball is dropped on a horizontal smooth surface. It bounces back to its original position after hitting the surface. The force on the ball during the collision is proportional to the length of compression of the ball. Which one of the following sketches describes the variation of its kinetic energy K with time t most appropriately? The figures are only illustrative and not to the scale.",
+    "solution": "As tennis ball is dropped, so its initial velocity, u = 0\nSuppose its velocity at any time t = v\nAcceleration due to gravity = g\n$$\\therefore$$ v = u + gt\n$$\\Rightarrow$$ v = gt ..... (i)\nWe know, kinetic energy,\n$$K = {1 \\over 2}m{v^2} = {1 \\over 2}m({g^2}{t^2})$$ [Using eqn. (i)]\n$$ \\Rightarrow K = {1 \\over 2}m{g^2}{t^2} \\Rightarrow K \\propto {t^2}$$ (As m and g are constant)\nThis shows that relation between kinetic energy of tennis ball K and time t is parabolic.\nDuring the collision, velocity of the ball falls sharply to zero as it is compressed and regains maximum velocity in the same short time interval.\nThis relation is best illustrated by the option (b).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzug0j2p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_024",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The magnitude of the normal reaction that acts on the block at the point Q is",
+    "solution": "[Diagram]\n\nAt point Q, the forces acting on the particle are normal reaction $N_Q$, gravitational force $m g$ and frictional force $f$. Resolve these in the directions parallel and perpendicular to the path. The net force towards the centre $(P)$ provides the centripetal acceleration. Apply Newton's second law in a direction normal to the path to get\n$${N_Q} - mg\\sin 30^\\circ = {{m{v^2}} \\over R} \\Rightarrow {N_Q} = mg\\sin 30^\\circ +{{m{v^2}} \\over R} = 1 \\times 10 \\times {1 \\over 2} + {{100} \\over {40}} = 5 + {5 \\over 2} = {{15} \\over 2} \\Rightarrow {N_Q} = 7.5$$ N\nHence, option (A) is correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "7.5 N",
+      "8.6 N",
+      "11.5 N",
+      "22.5 N"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzug0j2p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_025",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The speed of the block when it reaches the point Q is",
+    "solution": "[Diagram]\n\nHere we will use the concept of work-energy theorem. By work-energy theorem,\nTotal work done = Change in KE\n$$\\Rightarrow$$ Workdone by gravity + workdone by friction = $$\\Delta KE \\Rightarrow mgR\\sin 30^\\circ - 150 = {1 \\over 2}m{v^2} - 0 \\Rightarrow 1 \\times 10 \\times 40 \\times {1 \\over 2} - 150 = {1 \\over 2}{v^2} \\Rightarrow 200 - 150 = {1 \\over 2}{v^2} \\Rightarrow {v^2} = 100 \\Rightarrow v = 10$$ m/s\nHence, option (B) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "5 ms$^{-1}$",
+      "10 ms$^{-1}$",
+      "$$10\\sqrt 3 $$ ms$^{-1}$",
+      "20 ms$^{-1}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzug0j2p.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_026",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The work done on a particle of mass m by a force\n$$$K\\left[ {{x \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat i + {y \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat j} \\right]$$$\n(K being a constant of appropriate dimensions), when the particle is taken from the point $$\\left( {a,0} \\right)$$ to the point $$\\left( {0,a} \\right)$$ along a circular path of radius a about the origin in the x-y plane is",
+    "solution": "The work done on a particle of mass *m* by a force\n\n$$ \\vec{F}=K\\left[\\frac{x}{\\left(x^2+y^2\\right)^{3/2}} \\hat{i}+\\frac{y}{\\left(x^2+y^2\\right)^{3/2}} \\hat{j}\\right] $$\n\n(with *K* being a constant with appropriate dimensions), when the particle is taken from the point *(a,0)* to the point *(0,a)* along a circular path of radius *a* about the origin in the x-y plane is:\n\n[Diagram]\n\nLet $ \\vec{r}=x \\hat{i}+y \\hat{j} $\n\nTherefore, $ d \\vec{r}=d x \\hat{i}+d y \\hat{j} $ and $ r=\\sqrt{x^2+y^2} $\n\nWork done by the force in moving a particle from A to B is\n\n$$\\begin{aligned} W & =\\int_{r_A}^{r_B} \\vec{F} \\cdot d \\vec{r} \\\\\\\\ & =\\int_{r_A}^{r_B} K \\left[\\frac{x}{(x^2+y^2)^{3/2}} \\hat{i}+\\frac{y}{(x^2+y^2)^{3/2}} \\hat{j}\\right] \\cdot (d x \\hat{i}+d y \\hat{j}) \\\\\\\\ & =K \\int_{r_A}^{r_B} \\frac{x d x}{(x^2+y^2)^{3/2}} + \\frac{y d y}{(x^2+y^2)^{3/2}} \\\\\\\\ & =K \\int_{r_A}^{r_B} \\frac{1}{(x^2+y^2)^{3/2}} \\left[d\\left(\\frac{x^2}{2}\\right) + d\\left(\\frac{y^2}{2}\\right)\\right] \\\\\\\\ & =K \\int_{r_A}^{r_B} \\frac{1}{2(x^2 + y^2)^{3/2}} d(x^2 + y^2) \\\\\\\\ & =K \\int_{r_A}^{r_B} \\frac{1}{2 r^3} d(r^2) = K \\int_{r_A}^{r_B} \\frac{2 r d r}{2 r^3} = K \\int_{r_A}^{r_B} \\frac{d r}{r^2} \\quad (\\because r=\\sqrt{x^2 + y^2}) \\\\\\\\ & =K\\left[-\\frac{1}{r}\\right]_{r_A}^{r_B} = K\\left[\\frac{1}{r_A} - \\frac{1}{r_B}\\right] \\end{aligned}$$\n\nHere, $ r_A = a $ and $ r_B = a $\n\nTherefore, $ W = 0 $",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${{2K\\pi } \\over a}$$",
+      "$${{K\\pi } \\over a}$$",
+      "$${{K\\pi } \\over {2a}}$$",
+      "0"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzxjl2fa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_027",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block of mass 2 kg is free to move along the x-axis. It is at rest and from t = 0 onwards, it is subjected to a time-dependent force F(t) in the x-direction. The force F(t) varies with t as shown in the figure. The kinetic energy of the block after 4.5 s is\n\n[Diagram]",
+    "solution": "The t - F diagram is a straight line passing through (0, 4) and (3, 0). The equation of this straight line is\n$$F = - {4 \\over 3}t + 4$$.\nNewton's second law gives acceleration of the block as\n$$a = F/m = - {2 \\over 3}t + 2$$.\nIntegrate to get the velocity v at 4.5 s\n$$v = \\int_0^{4.5} {a\\,dt = \\int_0^{4.5} {\\left( { - {2 \\over 3}t + 2} \\right)dt = 2.25} } $$ m/s.\nThus, kinetic energy of the block at 4.5 s is\n$$K = {1 \\over 2}m{v^2} = 5.06$$ J.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "4.50 J",
+      "7.50 J",
+      "5.06 J",
+      "14.06 J"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l4bkrh4s.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_028",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A block (B) is attached to two unstretched springs S1 and S2 with spring constants k and 4k respectively (see figure I). The other ends are attached to identical supports M1 and M2 not attached to the walls. The springs and supports have negligible mass. There is no friction anywhere. The block displaced towards wall 1 by a small distance x (figure II) and released. The block returns and moves a maximum distance y towards wall 2. Displacements x and y are measured with respect to the equilibrium position of the block B. The ratio $$\\frac{y}{x}$$ is :\n\n[Diagram]",
+    "solution": "When the block B is displaced towards wall-1 only spring S$$_1$$ is compressed and S$$_2$$ is in natural state.\nIf spring S$$_2$$ is not attached to wall but it is free but it gain momentum ($$\\uparrow$$) and moves towards S$$_1$$.\nThe spring S$$_1$$ comes to natural length and spring S$$_2$$ gets compressed.\nSo if there is no frictional force i.e.,\n$$fr=0$$\nSo potential energy of spring S$$_1$$ as the potential energy of spring.\nHence, $${(PE)_{{S_1}}} = {(PE)_{{S_2}}} \\Rightarrow {1 \\over 2}{k_1}{x^2} = {1 \\over 2}{k_2}y \\Rightarrow 1k{x^2} = (4k){y^2} \\Rightarrow {x^2} = 4{y^2}$$\nPotential energy of spring.\nHence, $${(PE)_{{S_1}}} = {(PE)_{{S_2}}} \\Rightarrow {1 \\over 2}{k_1}{x^2} = {1 \\over 2}{k_2}{y^2} \\Rightarrow {1 \\over 2}k{x^2} = {1 \\over 2}(4k){y^2} \\Rightarrow {x^2} = 4{y^2} \\Rightarrow {y \\over x} = {1 \\over 2}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "4",
+      "2",
+      "$$\\frac{1}{2}$$",
+      "$$\\frac{1}{4}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgl8gkdz.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_029",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A bob of mass M is suspended by a massless string of length L. The horizontal velocity V at position A is just sufficient to make it reach the point B. The angle $$\\theta$$ at which the speed of the bob is half of that at A, satisfies,\n\n[Diagram]",
+    "solution": "The bob of mass m requires velocity to reach at a point with vertical circular motion.\n$$V = \\sqrt {5gl} $$\nThen, $$h = L - L\\cos \\theta = L(1 - \\cos \\theta )$$\nApplying law of conservation of energy at point A & C\nKinetic energy (K.E)$_{A}$ + Potential energy (U$_{A}$) = Kinetic energy (K.E$_{C}$) + Potential energy (U$_{C}$)\n\n[Diagram]\n\n$$ \\Rightarrow {1 \\over 2}m{V^2} + 0 = {1 \\over 2}m{\\left( {{{\\sqrt {5gl} } \\over 2}} \\right)^2} + mgL(1 - \\theta ) \\Rightarrow {{5L} \\over 2} = {{5L} \\over 8} + L(1 - \\cos \\theta )$$ ($$\\becauseV = \\sqrt {5gl} $$)\n$$ \\Rightarrow {5 \\over 2} - {5 \\over 8} = 1 - \\cos \\theta \\Rightarrow {{20 - 5} \\over 8} = 1 - \\cos \\theta \\Rightarrow \\cos \\theta = 1 - {{15} \\over 8} \\Rightarrow \\cos \\theta = {{ - 7} \\over 8} \\Rightarrow \\theta = 152^\\circ \\therefore{{3\\pi } \\over 4} < \\theta < \\pi $$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\theta = {\\pi \\over 4}$$",
+      "$${\\pi \\over 4} < \\theta < {\\pi \\over 2}$$",
+      "$${\\pi \\over 2} < \\theta < {{3\\pi } \\over 4}$$",
+      "$${{3\\pi } \\over 4} < \\theta < \\pi $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgmdto7d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_030",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**Statement 1 :**\nA block of mass m starts moving on a rough horizontal surface with a velocity v. It stops due to friction between the block and the surface after moving through a certain distance. The surface is now tilted to an angle of 30$$^\\circ$$ with the horizontal and the same block is made to go up on the surface with the same initial velocity v. The decrease in the mechanical energy in the second situation is smaller than that in the first situation.\n**Statement 2 :**\nThe coefficient of friction between the block and the surface decreases with the increase in the angle of inclination.",
+    "solution": "Case I:\n\n[Diagram]\n\nCase II : Tilted at 30$$^\\circ$$.\n$$N = mg\\cos 30^\\circ = mg{{\\sqrt 3 } \\over 2}{f_2} = \\mu B = rmg{{\\sqrt 3 } \\over 2}{f_1} = {l \\over N} = {l \\over {mg{{\\sqrt 3 } \\over 2}}}$$\nCase III : $$\\Delta$$E $$ = {1 \\over 2}m{v^2} - mgh$$ = Decreases\nOption (C) is correct because friction is depend on surface.\nCase I :\nStatement 1 : In the 1$^{st}$ case the mechanical energy is completely converted into heat energy because of friction.\nCase II :\nM.E. is converted into heat due to friction but another part of M.E. is retained in the form of P.E. of block. Therefore statement I is correct.\nStatement 2 : This is a wrong statement because the coefficient of friction between block and surface does not depend on angle of inclination.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggcyk9x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_work_power_and_energy_031",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle is acted by a force F = kx, where k is a +ve constant. Its potential energy at x = 0 is zero. Which\ncurve correctly represents the variation of potential energy of the block with respect to x",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_032",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If W$_{1}$, W$_{2}$ and W$_{3}$ represent the work done in moving a particle from A to B along three different paths 1, 2 and 3 respectively (as shown) in the\ngravitational field of a point mass m, find the correct relation between\nW$_{1}$, W$_{2}$ and W$_{3}$.\n\n[Diagram]",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "W1 > W2 > W3",
+      "W1 = W2 = W3",
+      "W1 < W2 < W3",
+      "W2 > W1 > W3"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_033",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal spring with spring-constant k is hung from the ceiling and a block of mass M is attached to its lower end. The mass is released with the spring initially unstretched. Then the maximum extension in the spring is",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${{4Mg} \\over k}$$",
+      "$${{2Mg} \\over k}$$",
+      "$${{Mg} \\over k}$$",
+      "$${{Mg} \\over {2k}}$$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_034",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A wind-powered generator converts wind energy into electrical energy. Assume that the generator converts a fixed fraction of the wind energy intercepted by its blades into electrical energy. For wind speed v, the electrical power output will be proportional to",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "v",
+      "v$^{2}$",
+      "v$^{3}$",
+      "v$^{4}$"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_035",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spring of force-constant k is cut into two pieces such that one piece is double the length of the other. Then the long piece will have a force-constant of",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( {{2 \\over 3}} \\right)k$$",
+      "$$\\left( {{3 \\over 2}} \\right)k$$",
+      "3 k",
+      "6 k"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_036",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A particle of mass m is moving in a circular path of constant radius r such that its centripetal acceleration $${a_c}$$ is varying with time t as $${a_c}$$ = k$^{2}$rt$^{2}$ where k is a constant. The power delivered to the perticles by the force acting on it is:",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$2\\pi m{k^2}{r^2}t$$",
+      "$$m{k^2}{r^2}t$$",
+      "$${{\\left( {m{k^4}{r^2}{t^5}} \\right)} \\over 3}$$",
+      "zero"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_037",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a machine is lubricated with oil",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "the mechanical advantage of the machine increases",
+      "the mechanical efficiency of the machine increases",
+      "both its mechanical advantage and efficiency increases",
+      "its efficiency increases, but its mechanical advantage decreases"
+    ]
+  },
+  {
+    "id": "phy_work_power_and_energy_038",
+    "subject": "Physics",
+    "chapter": "Work Power & Energy",
+    "topic": "Work Power & Energy",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two masses of 1gm and 4 gm are moving with equal kinetic energies. The ratio of the magnitude of their linear momentum is",
+    "solution": "Solution for this Work Power & Energy question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "4 : 1",
+      "$$\\sqrt 2 :1$$",
+      "$$1:2$$",
+      "1 : 16"
+    ]
+  }
+]

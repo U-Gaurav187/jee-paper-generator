@@ -1,0 +1,1743 @@
+[
+  {
+    "id": "math_trigonometric_functions_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of solutions of the pair of equations\n$$$\\,2{\\sin ^2}\\theta - \\cos 2\\theta = 0$$2co{s^2}\\theta - 3\\sin \\theta = 0$$$\nin the interval $$\\left[ {0,2\\pi } \\right]$$",
+    "solution": "(P)\n$$ \\begin{aligned} & \\sin ^6 x+\\cos ^2 x=1, x \\in[-\\pi, \\pi] \\\\ & \\because \\sin ^6 x \\leq \\sin ^2 x \\text { and } \\cos ^4 x \\leq \\cos ^2 x \\text { for } x \\in[-\\pi, \\pi] \\\\ & \\therefore \\sin ^6 x+\\cos ^4 x \\leq \\sin ^2 x+\\cos ^2 x-1 \\end{aligned} $$\nEquality holds only when $\\sin ^6 x=\\sin ^2 x$ and $\\cos ^4 x=\\cos ^2 x$\nThis occurs when $\\sin x \\in\\{-1,0,1\\}$ and $\\cos x \\in\\{-1,0,1\\}$\n$$ \\therefore x \\in\\left\\{-\\pi, \\frac{-\\pi}{2}, 0, \\frac{\\pi}{2}, \\pi\\right\\} \\Rightarrow 5 \\text { solutions } \\Rightarrow 5 \\text { elements } $$\n(Q)\n$$ \\begin{aligned} & \\sin ^2 x+\\cos ^6 x=1 \\\\ & 1-\\cos ^2 x+\\cos ^6 x=1 \\\\ & \\cos ^6 x-\\cos ^2 x=0 \\\\ & \\cos ^2 x\\left(\\cos ^4 x-1\\right)=0 \\\\ & \\cos ^2 x\\left(\\cos ^2 x-1\\right)\\left(\\cos ^2 x+1\\right)=0 \\\\ & \\because \\cos ^2 x+1\neq 0 \\\\ & \\therefore \\cos ^2 x=0 \\Rightarrow x=\\frac{\\pi}{2}, \\frac{-\\pi}{2} \\\\ & \\cos ^2 x=1 \\Rightarrow x=0 \\\\ & \\therefore 3 \\text { elements. } \\end{aligned} $$\n(R)\n$$ \\begin{aligned} & \\cos ^2 \\frac{x}{2}-\\sin ^2 x=\\frac{1}{2} \\\\ & \\frac{1+\\cos x}{2}-\\left(1-\\cos ^2 x\\right)=\\frac{1}{2} \\\\ & \\Rightarrow 1+\\cos x-2+2 \\cos ^2 x=1 \\\\ & 2 \\cos ^2 x+\\cos -2=0 \\\\ & \\cos x=\\frac{-1 \\pm \\sqrt{1+16}}{4} \\\\ & \\cos x=\\frac{-1+\\sqrt{17}}{4}, \\frac{-1-\\sqrt{17}}{4} \\\\ & \\text { only possibility } \\cos x=\\frac{-1+\\sqrt{17}}{4}, \\frac{-1-\\sqrt{17}}{4} \\end{aligned} $$\n\n[Diagram]\n\nNumber of elements in $[-\\pi, \\pi]$ is 2\n(S)\n$$ \\begin{aligned} & 6 \\sin ^2 \\frac{x}{2}-\\cos 3 x=3, x \\in[-2 \\pi, 2 \\pi] \\\\ & 3(1-\\cos x)-\\cos 3 x=3 \\\\ & \\Rightarrow-3 \\cos x-\\cos 3 x=0 \\\\ & \\Rightarrow \\cos 3 x+3 \\cos x=0 \\\\ & \\Rightarrow 4 \\cos ^3 x=0 \\Rightarrow \\cos x=0 \\end{aligned} $$\nFor $x \\in[-2 \\pi, 2 \\pi]$\n$$ \\cos x=0 \\Rightarrow x \\in\\left\\{\\frac{-3 \\pi}{2}, \\frac{-\\pi}{2}, \\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right\\} $$\n$\\Rightarrow 4$ elements.\n$$ (P) \\rightarrow(5),(Q) \\rightarrow(3),(R) \\rightarrow(2),(S) \\rightarrow(4) $$\nOption (B) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "four"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpcj4uq5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the curve $C_1$ given by\n$$ y=e^{-x} \\quad \\text { for } x \\in[0,10 \\pi], $$\nand the curve $C_2$ given by\n$$ y=e^{-x}(\\sin x+\\cos x) \\quad \\text { for } x \\in[0,10 \\pi] . $$\nLet $n$ be the total number of points of intersection of the curves $C_1$ and $C_2$.\nSuppose that $\\alpha_1, \\alpha_2, \\ldots, \\alpha_n \\in[0,10 \\pi]$ are the $x$-coordinates of the points of intersection of the curves $C_1$ and $C_2$ such that\n$$ \\alpha_1<\\alpha_2<\\cdots<\\alpha_n . $$\nThe value of $n$ is $\\_\\_\\_\\_$ .",
+    "solution": "We are given two curves:\nFor curve $ C_1 $, $ y = e^{-x} $.\nFor curve $ C_2 $, $ y = e^{-x} (\\sin x + \\cos x) $.\n\nAt intersection points, both have the same $ y $-values. So, we set them equal:\n$$ e^{-x} = e^{-x} (\\sin x + \\cos x) $$\n\nWe can divide both sides by $ e^{-x} $ since $ e^{-x}\neq 0 $. This gives:\n$$ \\sin x + \\cos x = 1 $$\n\nWe know that $ \\sin x + \\cos x = \\sqrt{2} \\cos\\left(x - \\frac{\\pi}{4}\\right) $.\nSubstitute this into the equation:\n$$ \\sqrt{2} \\cos\\left(x - \\frac{\\pi}{4}\\right) = 1 \\Rightarrow \\cos\\left(x - \\frac{\\pi}{4}\\right) = \\frac{1}{\\sqrt{2}} $$\n\nThe general solution of $ \\cos\\theta = \\frac{1}{\\sqrt{2}} $ is:\n$$ \\theta = 2n\\pi \\pm \\frac{\\pi}{4}, \\quad n \\in \\mathbb{Z} $$\nSo,\n$$ x - \\frac{\\pi}{4} = 2n\\pi \\pm \\frac{\\pi}{4} $$\n\nFrom the “+” sign: $ x = 2n\\pi + \\frac{\\pi}{2} $.\nFrom the “–” sign: $ x = 2n\\pi $.\n**Find all solutions in the interval [0, 10π].**\nFor $ x = 2n\\pi $: $ n = 0, 1, 2, 3, 4, 5 \\Rightarrow x = 0, 2\\pi, 4\\pi, 6\\pi, 8\\pi, 10\\pi $.\nFor $ x = 2n\\pi + \\frac{\\pi}{2} $: $ n = 0, 1, 2, 3, 4 \\Rightarrow x = \\frac{\\pi}{2}, \\frac{5\\pi}{2}, \\frac{9\\pi}{2}, \\frac{13\\pi}{2}, \\frac{17\\pi}{2} $.\n**List all distinct intersection points.**\n$$ x \\in \\left\\{ 0, \\frac{\\pi}{2}, 2\\pi, \\frac{5\\pi}{2}, 4\\pi, \\frac{9\\pi}{2}, 6\\pi, \\frac{13\\pi}{2}, 8\\pi, \\frac{17\\pi}{2}, 10\\pi \\right\\} $$\n**Therefore, the total number of intersection points is 11.**\nHence, $ n = 11 $.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_003",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $P Q R S$ be a quadrilateral in a plane, where\n\n$Q R=1, \\angle P Q R=\\angle Q R S=70^{\\circ}, \\angle P Q S=15^{\\circ}$ and $\\angle P R S=40^{\\circ}$.\n\nIf $\\angle R P S=\\theta^{\\circ}, P Q=\\alpha$ and $P S=\\beta$, then the interval(s) that contain(s) the value of\n\n$4 \\alpha \\beta \\sin \\theta^{\\circ}$ is/are",
+    "solution": "[Diagram]\n\nApplying sine rule in $\\triangle P Q R$,\n\n$$\n\\begin{aligned}\n& \\frac{\\alpha}{\\sin 30^{\\circ}}=\\frac{1}{\\sin 80^{\\circ}} \\\\\\\\\n\\Rightarrow & \\alpha=\\frac{1}{2 \\sin 80^{\\circ}}\n\\end{aligned}\n$$\n\nApplying sine rule in $\\triangle P R S$,\n\n$$\n\\begin{aligned}\n& \\frac{\\beta}{\\sin 40^{\\circ}}=\\frac{1}{\\sin \\theta} \\\\\\\\\n\\Rightarrow \\beta \\sin \\theta=& \\sin 40^{\\circ}\n\\end{aligned}\n$$\n\nFrom (i) and (ii),\n\n$$\n4 \\alpha \\beta \\sin \\theta=4 \\cdot \\frac{1}{2 \\sin 80^{\\circ}} \\cdot \\sin 40^{\\circ}=\\frac{1}{\\cos 40^{\\circ}}\n$$\n\nUsing $\\cos 0^{\\circ}=1, \\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}, \\cos 45^{\\circ}=\\frac{1}{\\sqrt{2}}$ and $\\cos 60^{\\circ}=\\frac{1}{2}$\n\nOnly Options (A) and (B) are correct.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$(0, \\sqrt{2})$",
+      "$(1,2)$",
+      "$(\\sqrt{2}, 3)$",
+      "$(2 \\sqrt{2}, 3 \\sqrt{2})$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l89gkgk2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_004",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the range of values of $$\\,t$$ for which $$$2\\,\\sin \\,t = {{1 - 2x + 5{x^2}} \\over {3{x^2} - 2x - 1}},\\,\\,\\,\\,\\,t\\, \\in \\,\\left[ { - {\\pi \\over 2},\\,{\\pi \\over 2}} \\right].$$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_005",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The real roots of the equation $$\\,{\\cos ^7}x + {\\sin ^4}x = 1$$ in the interval $$\\left( { - \\pi ,\\pi } \\right)$$ are ...., ...., and ______.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_006",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "There exists a value of $$\\theta $$ between 0 and $$2\\pi $$ that satisfies the equation $$\\,\\,{\\sin ^4}\\theta - 2{\\sin ^2}\\theta - 1 = 0.$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_007",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\n\n\nList-I\nList-II\n\n\n\n\n\n(P) The number of elements in the set\n\n$$\\left\\{x \\in [-\\pi,\\pi] : \\sin^6 x + \\cos^4 x = 1 \\right\\}$$\n\n\n(1) is 1\n\n\n\n\n\n(Q) The number of elements in the set\n\n$$\\left\\{x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] : \\sin^2 x + \\cos^6 x = 1 \\right\\}$$\n\n\n(2) is 2\n\n\n\n\n\n(R) The number of elements in the set\n\n$$\\left\\{x \\in [-\\pi,\\pi] : \\cos^2\\left(\\frac{x}{2}\\right) - \\sin^2 x = \\frac{1}{2} \\right\\}$$\n\n\n(3) is 3\n\n\n\n\n\n(S) The number of elements in the set\n\n$$\\left\\{x \\in [-2\\pi,2\\pi] : 6\\sin^2\\left(\\frac{x}{2}\\right) - \\cos 3x = 3 \\right\\}$$\n\n\n(4) is 4\n\n(5) is 5",
+    "solution": "(P)\n$$ \\begin{aligned} & \\sin ^6 x+\\cos ^2 x=1, x \\in[-\\pi, \\pi] \\\\ & \\because \\sin ^6 x \\leq \\sin ^2 x \\text { and } \\cos ^4 x \\leq \\cos ^2 x \\text { for } x \\in[-\\pi, \\pi] \\\\ & \\therefore \\sin ^6 x+\\cos ^4 x \\leq \\sin ^2 x+\\cos ^2 x-1 \\end{aligned} $$\nEquality holds only when $\\sin ^6 x=\\sin ^2 x$ and $\\cos ^4 x=\\cos ^2 x$\nThis occurs when $\\sin x \\in\\{-1,0,1\\}$ and $\\cos x \\in\\{-1,0,1\\}$\n$$ \\therefore x \\in\\left\\{-\\pi, \\frac{-\\pi}{2}, 0, \\frac{\\pi}{2}, \\pi\\right\\} \\Rightarrow 5 \\text { solutions } \\Rightarrow 5 \\text { elements } $$\n(Q)\n$$ \\begin{aligned} & \\sin ^2 x+\\cos ^6 x=1 \\\\ & 1-\\cos ^2 x+\\cos ^6 x=1 \\\\ & \\cos ^6 x-\\cos ^2 x=0 \\\\ & \\cos ^2 x\\left(\\cos ^4 x-1\\right)=0 \\\\ & \\cos ^2 x\\left(\\cos ^2 x-1\\right)\\left(\\cos ^2 x+1\\right)=0 \\\\ & \\because \\cos ^2 x+1\neq 0 \\\\ & \\therefore \\cos ^2 x=0 \\Rightarrow x=\\frac{\\pi}{2}, \\frac{-\\pi}{2} \\\\ & \\cos ^2 x=1 \\Rightarrow x=0 \\\\ & \\therefore 3 \\text { elements. } \\end{aligned} $$\n(R)\n$$ \\begin{aligned} & \\cos ^2 \\frac{x}{2}-\\sin ^2 x=\\frac{1}{2} \\\\ & \\frac{1+\\cos x}{2}-\\left(1-\\cos ^2 x\\right)=\\frac{1}{2} \\\\ & \\Rightarrow 1+\\cos x-2+2 \\cos ^2 x=1 \\\\ & 2 \\cos ^2 x+\\cos -2=0 \\\\ & \\cos x=\\frac{-1 \\pm \\sqrt{1+16}}{4} \\\\ & \\cos x=\\frac{-1+\\sqrt{17}}{4}, \\frac{-1-\\sqrt{17}}{4} \\\\ & \\text { only possibility } \\cos x=\\frac{-1+\\sqrt{17}}{4}, \\frac{-1-\\sqrt{17}}{4} \\end{aligned} $$\n\n[Diagram]\n\nNumber of elements in $[-\\pi, \\pi]$ is 2\n(S)\n$$ \\begin{aligned} & 6 \\sin ^2 \\frac{x}{2}-\\cos 3 x=3, x \\in[-2 \\pi, 2 \\pi] \\\\ & 3(1-\\cos x)-\\cos 3 x=3 \\\\ & \\Rightarrow-3 \\cos x-\\cos 3 x=0 \\\\ & \\Rightarrow \\cos 3 x+3 \\cos x=0 \\\\ & \\Rightarrow 4 \\cos ^3 x=0 \\Rightarrow \\cos x=0 \\end{aligned} $$\nFor $x \\in[-2 \\pi, 2 \\pi]$\n$$ \\cos x=0 \\Rightarrow x \\in\\left\\{\\frac{-3 \\pi}{2}, \\frac{-\\pi}{2}, \\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right\\} $$\n$\\Rightarrow 4$ elements.\n$$ (P) \\rightarrow(5),(Q) \\rightarrow(3),(R) \\rightarrow(2),(S) \\rightarrow(4) $$\nOption (B) is correct.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(P) $\\to$ (2), (Q) $\\to$ (5), (R) $\\to$ (3), (S) $\\to$ (4)",
+      "(P) $\\to$ (5), (Q) $\\to$ (3), (R) $\\to$ (2), (S) $\\to$ (4)",
+      "(P) $\\to$ (5), (Q) $\\to$ (4), (R) $\\to$ (1), (S) $\\to$ (3)",
+      "(P) $\\to$ (4), (Q) $\\to$ (3), (R) $\\to$ (2), (S) $\\to$ (5)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpcj4uq5.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_008",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\frac{\\pi}{2} < x < \\pi$ be such that $\\cot x=\\frac{-5}{\\sqrt{11}}$. Then\n\n$$ \\left(\\sin \\frac{11 x}{2}\\right)(\\sin 6 x-\\cos 6 x)+\\left(\\cos \\frac{11 x}{2}\\right)(\\sin 6 x+\\cos 6 x) $$\n\nis equal to :",
+    "solution": "Given the information, let's start by analyzing the trigonometric relationships involving $\\cot x = \\frac{-5}{\\sqrt{11}}$ where $\\frac{\\pi}{2} < x < \\pi$.\n\nWe know that $\\cot x$ is the reciprocal of $\\tan x$. Hence,\n\n$$ \\cot x = \\frac{\\cos x}{\\sin x} = \\frac{-5}{\\sqrt{11}} $$\n\nFrom the above, it follows that:\n\n$$ \\cos x = -5k \\text{ and } \\sin x = \\sqrt{11}k $$\n\nfor some constant $k$. Using the Pythagorean identity:\n\n$$ \\cos^2 x + \\sin^2 x = 1 $$\n\nLet’s substitute the values of $\\cos x$ and $\\sin x$ into this identity:\n\n$$ (-5k)^2 + (\\sqrt{11}k)^2 = 1 25k^2 + 11k^2 = 1 36k^2 = 1 k^2 = \\frac{1}{36} k = \\frac{1}{6} \\text{ or } k = -\\frac{1}{6} $$\n\nTherefore, we have two sets of values:\n\n$$ \\cos x = -\\frac{5}{6} \\text{ and } \\sin x = \\frac{\\sqrt{11}}{6} $$\n\nGiven that $x$ is in the interval $\\left(\\frac{\\pi}{2}, \\pi\\right)$, where sine is positive and cosine is negative, we take:\n\n$$ \\cos x = -\\frac{5}{6},\\ \\sin x = \\frac{\\sqrt{11}}{6} $$\n\nNow consider the expression:\n\n$$\\left(\\sin \\frac{11 x}{2}\\right)(\\sin 6 x - \\cos 6 x) + \\left(\\cos \\frac{11 x}{2}\\right)(\\sin 6 x + \\cos 6 x) $$\n\nTo solve this, first find $\\frac{11x}{2}$ which lies in the interval $\\left(\\frac{11\\pi}{4}, \\frac{11\\pi}{2}\\right)$. Next, we simplify each term using sum-to-product identities:\n\nNotice:\n\n$$ \\sin 6x - \\cos 6x = \\sqrt{2} \\sin \\left( 6x - \\frac{\\pi}{4} \\right) \\sin 6x + \\cos 6x = \\sqrt{2} \\cos \\left( 6x - \\frac{\\pi}{4} \\right) $$\n\nUsing these, the given expression becomes:\n\n$$ \\left(\\sin \\frac{11x}{2}\\right) \\sqrt{2} \\sin \\left(6x - \\frac{\\pi}{4} \\right) + \\left(\\cos \\frac{11x}{2}\\right) \\sqrt{2} \\cos \\left(6x - \\frac{\\pi}{4} \\right) $$\n\nThis further simplifies using the angle sum identities:\n\n$$ = \\sqrt{2} \\left(\\sin \\frac{11x}{2} \\sin \\left(6x - \\frac{\\pi}{4}\\right) + \\cos \\frac{11x}{2} \\cos \\left(6x - \\frac{\\pi}{4}\\right)\\right) $$\n\nUtilizing the cosine of the difference identity:\n\n$$ \\sin A \\sin B + \\cos A \\cos B = \\cos(A - B) $$\n\nSubstitute $A = \\frac{11x}{2}$ and $B = 6x - \\frac{\\pi}{4}$:\n\n$$ \\cos \\left(\\frac{11x}{2} - \\left(6x - \\frac{\\pi}{4}\\right)\\right) = \\cos \\left(\\frac{11x}{2} - 6x + \\frac{\\pi}{4}\\right) = \\cos \\left( - \\frac{x}{2} + \\frac{\\pi}{4} \\right) = \\cos \\left(\\frac{\\pi}{4} - \\frac{x}{2}\\right) $$\n\nUsing the values of trigonometric functions:\n\n$$ \\cos \\left(\\frac{\\pi}{4} - \\frac{x}{2}\\right) = \\frac{\\sqrt{11}+1}{2\\sqrt{3}} $$\n\nThus, the correct option is:\n\nOption B\n\n$$ \\frac{\\sqrt{11}+1}{2 \\sqrt{3}} $$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\frac{\\sqrt{11}-1}{2 \\sqrt{3}}$",
+      "$\\frac{\\sqrt{11}+1}{2 \\sqrt{3}}$",
+      "$\\frac{\\sqrt{11}+1}{3 \\sqrt{2}}$",
+      "$\\frac{\\sqrt{11}-1}{3 \\sqrt{2}}$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_009",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following lists :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) $$\\left\\{x \\in\\left[-\\frac{2 \\pi}{3}, \\frac{2 \\pi}{3}\\right]: \\cos x+\\sin x=1\\right\\}$$\n(P) has two elements\n\n\n(II) $$\\left\\{x \\in\\left[-\\frac{5 \\pi}{18}, \\frac{5 \\pi}{18}\\right]: \\sqrt{3} \\tan 3 x=1\\right\\}$$\n(Q) has three elements\n\n\n(III) $$\\left\\{x \\in\\left[-\\frac{6 \\pi}{5}, \\frac{6 \\pi}{5}\\right]: 2 \\cos (2 x)=\\sqrt{3}\\right\\}$$\n(R) has four elements\n\n\n(IV) $$\\left\\{x \\in\\left[-\\frac{7 \\pi}{4}, \\frac{7 \\pi}{4}\\right]: \\sin x-\\cos x=1\\right\\}$$\n(S) has five elements\n\n\n\n(T) has six elements\n\n\nThe correct option is:",
+    "solution": "Solving all question one by one we get,\n\n$$\n\\begin{aligned}\n\\text { (i) } & \\left\\{x \\in\\left[\\frac{-2 \\pi}{3}, \\frac{2 \\pi}{3}\\right], \\cos x+\\sin x=1\\right\\} \\\\\\\\\n& \\cos x+\\sin x=1 \\\\\\\\\n\\Rightarrow \\quad & \\sin \\left(\\frac{\\pi}{4}+x\\right)=\\frac{1}{\\sqrt{2}} \\\\\\\\\n\\Rightarrow & \\frac{\\pi}{4}+x=n \\pi+(-1)^n \\frac{\\pi}{4}\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow x=n \\pi+(-1)^n \\frac{\\pi}{4}-\\frac{\\pi}{4} \\\\\\\\\n& \\text { So, } x \\in\\left\\{0, \\frac{\\pi}{2}\\right\\} \\\\\\\\\n& \\therefore x \\text { has } 2 \\text { elements } \\rightarrow P\n\\end{aligned}\n\n\\begin{aligned}\n& \\text { (ii) }\\left\\{x \\in\\left(\\frac{-5 \\pi}{18}, \\frac{5 \\pi}{18}\\right), \\sqrt{3} \\tan 3 x=1\\right\\} \\\\\\\\\n& \\Rightarrow \\tan 3 x=\\frac{1}{\\sqrt{3}} \\\\\\\\\n& \\Rightarrow x=n \\pi+\\frac{\\pi}{6} \\\\\\\\\n& \\Rightarrow x=\\frac{n \\pi}{3}+\\frac{\\pi}{18} \\\\\\\\\n& \\text { So } x \\in\\left\\{\\frac{\\pi}{18}, \\frac{-5 \\pi}{18}\\right\\} \\\\\\\\\n& \\therefore x \\text { has 2 elements } \\rightarrow P\n\\end{aligned}\n\n\\begin{aligned}\n& \\text { (iii) }\\left\\{x \\in\\left[\\frac{-6 \\pi}{5}, \\frac{6 \\pi}{5}\\right], 2 \\cos 2 x=\\sqrt{3}\\right\\} \\\\\\\\\n& \\Rightarrow 2 \\cos 2 x=\\sqrt{3} \\\\\\\\\n& \\Rightarrow \\cos 2 x=\\frac{\\sqrt{3}}{2} \\\\\\\\\n& \\Rightarrow 2 x=2 n \\pi \\pm \\frac{\\pi}{6} \\\\\\\\\n& \\Rightarrow x=n \\pi \\pm \\frac{\\pi}{12} \\\\\\\\\n& \\text { So } x \\in\\left\\{ \\pm \\frac{\\pi}{12}, \\pi \\pm \\frac{\\pi}{12},-\\pi \\pm \\frac{\\pi}{12}\\right\\} \\\\\\\\\n& \\therefore x \\text { has } 6 \\text { elements } \\rightarrow \\mathrm{T}\n\\end{aligned}\n\n\\begin{aligned}\n& \\text { (iv) }\\left\\{x \\in\\left[\\frac{-7 \\pi}{4}, \\frac{7 \\pi}{4}\\right], \\sin x-\\cos x=1\\right\\} \\\\\\\\\n& \\Rightarrow \\sin x-\\cos x=1 \\\\\\\\\n& \\Rightarrow \\sin \\left(x-\\frac{\\pi}{4}\\right)=\\frac{1}{\\sqrt{2}} \\\\\\\\\n& \\Rightarrow x-\\frac{\\pi}{4}=n \\pi+(-1)^n \\frac{\\pi}{4} \\\\\\\\\n& \\Rightarrow x=n \\pi+(-1)^n \\frac{\\pi}{4}+\\frac{\\pi}{4} \\\\\\\\\n& \\text { So, } \\\\\\\\\n& x \\in\\left\\{\\frac{\\pi}{2}, \\frac{-3 \\pi}{2}, \\pi,-\\pi\\right\\} \\\\\\\\\n& \\therefore x \\text { has } 4 \\text { elements } \\rightarrow \\mathrm{R}\n\\end{aligned}\n$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(I) $$\\rightarrow(\\mathrm{P})$$; (II) $$\\rightarrow(\\mathrm{S})$$; (III) $$\\rightarrow(\\mathrm{P})$$; (IV) $$\\rightarrow(\\mathrm{S})$$",
+      "(I) $$\\rightarrow$$ (P); (II) $$\\rightarrow$$ (P); (III) $$\\rightarrow$$ (T); (IV) $$\\rightarrow$$ (R)",
+      "(I) $$\\rightarrow$$ (Q); (II) $$\\rightarrow(\\mathrm{P})$$; (III) $$\\rightarrow$$ (T); (IV) $$\\rightarrow$$ (S)",
+      "(I) $$\\rightarrow(\\mathrm{Q})$$; (II) $$\\rightarrow(\\mathrm{S}) ;$$ (III) $$\\rightarrow(\\mathrm{P})$$; (IV) $$\\rightarrow(\\mathrm{R})$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_010",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f(x) = sin($$\\pi $$ cos x) and g(x) = cos(2$$\\pi $$ sin x) be two functions defined for x > 0. Define the following sets whose elements are written in the increasing order:\n\nX = {x : f(x) = 0}, Y = {x : f'(x) = 0}\n\nZ = {x : g(x) = 0}, W = {x : g'(x) = 0}\n\nList - I contains the sets X, Y, Z and W. List - II contains some information regarding these sets.\n\n[Diagram]\n\nWhich of the following is the only CORRECT combination?",
+    "solution": "For Z = {x : g(x) = 0}, x > 0\n\n$$ \\because $$ g(x) = cos(2$$\\pi $$ sin x) = 0\n\n$$ \\Rightarrow 2\\pi \\sin x = (2n + 1){\\pi \\over 2},\\,n \\in $$ Integer\n\n$$ \\Rightarrow \\sin x = - {3 \\over 4}, - {1 \\over 4},{1 \\over 4},{3 \\over 4}$$ [$$ \\because $$ sin x $$ \\in $$ [$$-$$1, 1]]\n\nhere values of sin x, $$ - {3 \\over 4}, - {1 \\over 4},{1 \\over 4},{3 \\over 4}$$ are in an A.P. but corresponding values of x are not in an AP so, (iii) $$ \\to $$ R.\n\nFor W = {x : g'(x) = 0}, x > 0\n\nSo, g'(x) = $$-$$2 $$\\pi $$ cos x sin(2$$\\pi $$ sin x) = 0\n\n$$ \\Rightarrow $$ either cos x = 0 or sin(2$$\\pi $$ sin x) = 0\n\n$$ \\Rightarrow $$ either $$x = (2n + 1){\\pi \\over 2}$$ or 2$$\\pi $$ sin x = n$$\\pi $$, n$$ \\in $$ Integers.\n\n$$ \\because 2\\pi \\sin x = nx \\Rightarrow \\sin x = {n \\over 2} = - 1, - {1 \\over 2},0,{1 \\over 2},1$$ {$$ \\because $$ sin x $$ \\in $$[$$-$$1, 1)}\n\n$$ \\because x = n\\pi ,\\,(2n + 1){\\pi \\over 2}$$ or $$x = n\\pi + {( - 1)^n}\\left( { \\pm {\\pi \\over 6}} \\right) \\Rightarrow $$ (iv) $$ \\to $$ P, R, S\n\nHence, option (a) is correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(IV), (P), (R), (S)",
+      "(III), (P), (Q), (U)",
+      "(III), (R), (U)",
+      "(IV), (Q), (T)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwzfqd3e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_011",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f(x) = sin($$\\pi $$ cos x) and g(x) = cos(2$$\\pi $$ sin x) be two functions defined for x > 0. Define the following sets whose elements are written in the increasing order :\n\nX = {x : f(x) = 0}, Y = {x : f'(x) = 0}\n\nZ = {x : g(x) = 0}, W = {x : g'(x) = 0}\n\nList - I contains the sets X, Y, Z and W. List - II contains some information regarding these sets.\n\n[Diagram]\n\nWhich of the following combinations is correct?",
+    "solution": "For, X = {x : f(x) = 0}, x > 0\n\nNow, f(x) = 0\n\n$$ \\Rightarrow $$ sin($$\\pi $$ cos x) = 0, x > 0\n\n$$ \\Rightarrow \\pi $$ cos x = n$$\\pi $$, n $$ \\in $$ Integer.\n\n$$ \\Rightarrow $$ cos x = n\n\n$$ \\Rightarrow $$ cos x = $$-$$1, 0, 1\n\n{$$ \\because $$ cos x $$ \\in $$[$$-$$1, 1]}\n\nWhen\ncos x = ± 1$$ \\Rightarrow $$ x = n$$\\pi $$\n\nWhen\ncos x = 0 $$ \\Rightarrow $$ x = (2n + 1)$${{\\pi \\over 2}}$$\n\nHence, (i) $$ \\to $$ (P), (Q)\n\nFor, Y = {x : f'(x) = 0}, x > 0\n\nNow, f'(x) = 0\n\n$$ \\Rightarrow -\\pi $$ sin x cos($$\\pi $$ cos x) = 0\n\n$$ \\Rightarrow $$ either sin x = 0 $$ \\Rightarrow $$ x = n$$\\pi $$, n is an integer,\n\nor cos($$\\pi $$ cos x) = 0\n\n$$ \\Rightarrow \\pi $$ cos x = (2n + 1)$${{\\pi \\over 2}}$$, n is an integer\n\n$$ \\Rightarrow $$ cos x = $${{{2n + 1} \\over 2}} \\Rightarrow \\cos x = \\pm {1 \\over 2}$$ {$$ \\because $$ cos x $$ \\in $$[$$-$$1, 1]}\n\n$$ \\Rightarrow $$ x = $$2n\\pi \\pm {\\pi \\over 3}$$ or $$2n\\pi \\pm {{2\\pi } \\over 3}$$, n is an integer.\n\nSo, (ii) $$ \\to $$ (Q), (T)\n\nHence, option (a) is correct.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(II), (Q), (T)",
+      "(II), (R), (S)",
+      "(I), (P), (R)",
+      "(I), (Q), (U)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwzfqd3e.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_012",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the triangle PQR varies, then the minimum value of cos(P + Q) + cos(Q + R) + cos(R + P) is",
+    "solution": "cos(P + Q) + cos(Q + R) + cos(R + P)\n\n= $$-$$ (cosR + cosP + cosQ)\n\nMax. of cosP + cosQ + cosR = $${3 \\over 2}$$\n\nMin. of cos(P + Q) + cos(Q + R) + cos(R + P) is = $$ - {3 \\over 2}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$ - {3 \\over 2}$$",
+      "$${3 \\over 2}$$",
+      "$${5 \\over 3}$$",
+      "$$ - {5 \\over 3}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_013",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of\n\n$$\\sum\\limits_{k = 1}^{13} {{1 \\over {\\sin \\left( {{\\pi \\over 4} + {{\\left( {k - 1} \\right)\\pi } \\over 6}} \\right)\\sin \\left( {{\\pi \\over 4} + {{k\\pi } \\over 6}} \\right)}}} $$ is equal to",
+    "solution": "It is given that,\n$$\\sum\\limits_{k = 1}^{13} {{1 \\over {\\sin \\left( {{\\pi \\over 4} + {{(k - 1)\\pi } \\over 6}} \\right)\\sin \\left( {{\\pi \\over 4} + {{k\\pi } \\over 6}} \\right)}}} $$\nLet $$\\alpha = {\\pi \\over 4}$$ and $$\\beta = {\\pi \\over 6}$$. Therefore,\n$$\\sum\\limits_{k = 1}^{13} {{1 \\over {\\sin (\\alpha + k\\beta )sin(\\alpha + (k - 1)\\beta )}}} = {1 \\over {\\sin \\beta }}\\sum\\limits_{k = 1}^{13} {{{\\sin ((\\alpha + k\\beta ) - (\\alpha + (k - 1)\\beta ))} \\over {\\sin (\\alpha + k\\beta )\\sin (\\alpha + (k - 1)\\beta )}}} = {1 \\over {\\sin \\beta }}\\sum\\limits_{k = 1}^{13} {(\\cot (\\alpha + (k - 1)\\beta ) - \\cot (\\alpha + k\\beta ))} = {1 \\over {\\sin \\beta }}\\{ [\\cot (\\alpha ) - \\cot (\\alpha + \\beta )] + [\\cot (\\alpha + \\beta ) - \\cot (\\alpha + 2\\beta )] + ...... + [\\cot (\\alpha + 12\\beta ) - \\cot (\\alpha + 13\\beta )]\\} = {1 \\over {\\sin \\beta }}(\\cot \\alpha - \\cot (\\alpha + 13\\beta )) = {1 \\over {\\sin (\\pi /6)}}\\left( {\\cot {\\pi \\over 4} - \\cot \\left( {{\\pi \\over 4} + {{13\\pi } \\over 6}} \\right)} \\right) = 2(1 - 2 + \\sqrt 3 ) = 2(\\sqrt 3 - 1)$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$3 - \\sqrt 3 $$",
+      "$$2\\left( {3 - \\sqrt 3 } \\right)$$",
+      "$$2\\left( {\\sqrt 3 - 1} \\right)\\,\\,\\,$$",
+      "$$2\\left( {2 - \\sqrt 3 } \\right)$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_014",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$S = \\left\\{ {x \\in \\left( { - \\pi ,\\pi } \\right):x\ne 0, \\pm {\\pi \\over 2}} \\right\\}.$$ The sum of all distinct solutions of the equation $$\\sqrt 3 \\,\\sec x + \\cos ec\\,x + 2\\left( {\\tan x - \\cot x} \\right) = 0$$ in the set S is equal to",
+    "solution": "Let us consider\n\n$$\nS=\\left\\{x \\in(-\\pi, \\pi), x\neq 0, \\pm \\frac{\\pi}{2}\\right\\}\n$$\n\nThe given equation is\n\n$$\n\\begin{aligned}\n& \\sqrt{3} \\sec x+\\operatorname{cosec} x+2(\\tan x-\\cot x)=0 \\\\\\\\\n& \\Rightarrow \\frac{\\sqrt{3}}{\\cos x}+\\frac{1}{\\sin x}+2\\left(\\frac{\\sin x}{\\cos x}-\\frac{\\cos x}{\\sin x}\\right)=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} \\sin x+\\cos x+2\\left(\\sin ^2 x-\\cos ^2 x\\right)=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} \\sin x+\\cos x=2 \\cos 2 x \\\\\\\\\n& \\Rightarrow \\frac{\\sqrt{3}}{2} \\sin x+\\frac{1}{2} \\cos x=\\cos 2 x \\\\\\\\\n& \\Rightarrow \\cos x \\cos \\frac{\\pi}{3}+\\sin x \\sin \\frac{\\pi}{3}=\\cos 2 x \\\\\\\\\n& \\Rightarrow \\cos 2 x=\\cos \\left(x-\\frac{\\pi}{3}\\right) \\\\\\\\\n& \\Rightarrow 2 x=2 n \\pi \\pm\\left(x-\\frac{\\pi}{3}\\right) \\quad\\quad(x \\in I)\n\\end{aligned}\n$$\n\n**Case 1**: When\n\n$$\n2 x=2 n \\pi+x-\\frac{\\pi}{3},\n$$\n\nwe have $x=2 n \\pi-\\frac{\\pi}{3}$.\n\nIf $n=0$, we get $x=-\\frac{\\pi}{3}$.\n\nIf $n=1$, we get $x=2 \\pi-\\frac{\\pi}{3}$.\n\nIf $n=-1, x=-2 \\pi-\\frac{\\pi}{3}$.\n\n**Case 2**: When\n\n$2 x=2 n \\pi-x+\\frac{\\pi}{3}$, we get $x=\\frac{2 n \\pi}{3}+\\frac{\\pi}{9}$.\n\nIf $n=0$, we get $x=\\frac{\\pi}{9}$.\n\nIf $n=1$, we get $x=\\frac{2 \\pi}{3}+\\frac{\\pi}{9}$.\n\nIf $n=2$, we get $n=2 x=\\frac{4 \\pi}{3}+\\frac{\\pi}{9}$.\n\nIf $n=-1$, we get $x=\\frac{-2 \\pi}{3}+\\frac{\\pi}{9}$.\n\nTherefore, the sum of all distinct solutions of the given equation is\n\n$$\n\\frac{-\\pi}{3}+\\frac{\\pi}{9}+\\frac{2 \\pi}{3}+\\frac{\\pi}{9}-\\frac{2 \\pi}{3}+\\frac{\\pi}{9}=0\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ - {{7\\pi } \\over 9}$$",
+      "$$ - {{2\\pi } \\over 9}$$",
+      "0",
+      "$${{5\\pi } \\over 9}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_015",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$x \\in \\left( {0,\\pi } \\right),$$ the equation $$\\sin x + 2\\sin 2x - \\sin 3x = 3$$ has",
+    "solution": "$$\\begin{aligned}\n& \\text { Given, } \\sin x+2 \\sin 2 x-\\sin 3 x=3 \\quad \\text{... (i)}\\\\\n& \\Rightarrow \\quad-[\\sin 3 x-\\sin x]+2 \\sin 2 x=3\n\\end{aligned}$$\nWe know\n$$\\begin{aligned}\n& \\sin \\mathrm{C}-\\sin \\mathrm{D}=2 \\cos \\left(\\frac{\\mathrm{C}+\\mathrm{D}}{2}\\right) \\cdot \\sin \\left(\\frac{\\mathrm{C}-\\mathrm{D}}{2}\\right) \\\\\n& \\text { and } \\sin 2 \\theta=2 \\sin \\theta \\cdot \\cos \\theta \\\\\n& \\therefore-2 \\cos \\left(\\frac{3 x+x}{2}\\right) \\cdot \\sin \\left(\\frac{3 x-x}{2}\\right)+2 \\cdot 2 \\sin x \\cdot \\cos x=3 \\\\\n& \\Rightarrow \\quad-2 \\cos 2 x \\cdot \\sin x+4 \\sin x \\cdot \\cos x=3 \\\\\n& \\Rightarrow \\quad-2 \\sin x[\\cos 2 x-2 \\cos x]=3 \\\\\n& \\Rightarrow \\quad-2 \\sin x\\left[2 \\cos ^2 x-1-2 \\cos x\\right]=3 \\\\\n& \\Rightarrow \\quad-4 \\sin x\\left[\\cos ^2 x-2 \\cdot \\frac{1}{2} \\cos x+\\left(\\frac{1}{2}\\right)^2-\\left(\\frac{1}{2}\\right)^2-\\frac{1}{2}\\right]=3\n\\end{aligned}\\begin{array}{lr}\n\\Rightarrow & -4 \\sin x\\left[\\left(\\cos x-\\frac{1}{2}\\right)^2-\\frac{3}{4}\\right]=3 \\\\\n\\Rightarrow & -4 \\sin x\\left(\\cos x-\\frac{1}{2}\\right)^2+3 \\sin x=3 \\\\\n\\Rightarrow & 3 \\sin x-3=4 \\sin x\\left(\\cos x-\\frac{1}{2}\\right)^2\n\\end{array}$$\nDraw the graph of $$y=3 \\sin x-3$$ and $$y=\\left(\\cos x-\\frac{1}{2}\\right)^2$$ in the interval $$x \\in(0, \\pi)$$\n\n[Diagram]\n\nIt is clear that the graphs $$y=3 \\sin x-3$$ and $$y=\\left(\\cos x-\\frac{1}{2}\\right)$$ does not intersect in $$x \\in(0, \\pi)$$ Hence, the given equation $$\\sin x+2 \\sin 2 x-\\sin 3 x=3$$ does not have any solution in the interval $$x \\in(0, \\pi)$$\nHint:\n(i) Recall the formula $$\\sin 2 x=2 \\sin x \\cdot \\cos x, \\cos 2 x=2 \\cos ^2 x-1$$ and $$\\sin \\mathrm{C}-\\sin \\mathrm{D}=2 \\cos \\left(\\frac{\\mathrm{C}+\\mathrm{D}}{2}\\right) \\cdot \\sin \\left(\\frac{\\mathrm{C}-\\mathrm{D}}{2}\\right)$$\n(ii) The number of point of intersection of graphs of $$y=f(x)$$ and $$y=g(x)$$ is equal to the number of solution of $$f(x)=g(x)$$ in the given interval.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "infinitely many solutions",
+      "three solutions",
+      "one solution",
+      "no solution"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzqlawqs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_016",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of points in $$\\left( { - \\infty \\,\\infty } \\right),$$ for which $${x^2} - x\\sin x - \\cos x = 0,$$ is",
+    "solution": "$$\\text { We know the graph of } y=x \\sin x \\text { is }$$\n\n[Diagram]\n\nAnd the graph of $$y=\\cos x$$ is\n\n[Diagram]\n\nNow add the graph of $$y=x \\sin x$$ and $$y=\\cos x$$ and also draw the graph of $$y=x^2$$\n\n[Diagram]\n\nIt is clear that the graph of $$y=x^2$$ and $$y=x \\sin x +\\cos x$$ intersect at two points\n$$\\therefore$$ The equation $$x^2=x \\sin x+x$$ satisfy for two values of $$x$$.\nHints:\n(i) Recall the graph of $$y=x \\sin x, y=\\cos x$$ and $$y=x^2$$.\n(ii) Recall the method of addition of two graphs.\n(iii) The number of point of intersection of graphs of $$y=f(x)$$ and $$y=g(x)$$ is equal to the number of solution of $$f(x)=g(x)$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "6",
+      "4",
+      "2",
+      "0"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzseexo3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_017",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = \\{ \\theta :\\sin \\theta - \\cos \\theta = \\sqrt 2 \\cos \\theta \\} $$ and $$Q = \\{ \\theta :\\sin \\theta + \\cos \\theta = \\sqrt 2 \\sin \\theta \\} $$ be two sets. Then",
+    "solution": "$$P = \\{ \\theta :\\sin \\theta - \\cos \\theta = \\sqrt 2 \\cos \\theta \\} \\Rightarrow \\cos \\theta \\left( {\\sqrt 2 + 1} \\right) = \\sin \\theta \\Rightarrow \\tan \\theta = \\sqrt 2 + 1$$ ..... (i)\n$$Q = \\{ \\theta :\\sin \\theta + \\cos \\theta = \\sqrt 2 \\sin \\theta \\} \\Rightarrow \\sin \\theta \\left( {\\sqrt 2 - 1} \\right) = \\cos \\theta \\Rightarrow \\tan \\theta = {1 \\over {\\sqrt 2 - 1}} \\times {{\\sqrt 2 + 1} \\over {\\sqrt 2 + 1}} = \\left( {\\sqrt 2 + 1} \\right)$$ ...... (ii)\n$$\\thereforeP = Q$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$P \\subset Q$$ and $$Q - P\ne \\emptyset $$",
+      "$$Q\not\\subset P$$",
+      "$$P\not\\subset Q$$",
+      "$$P = Q$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_018",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements/expressions in Column I with the values given in Column II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nRoot(s) of the expression $$2{\\sin ^2}\\theta + {\\sin ^2}2\\theta = 2$$\n(P)\n$${\\pi \\over 6}$$\n\n\n(B)\nPoints of discontinuity of the function $$f(x) = \\left[ {{{6x} \\over \\pi }} \\right]\\cos \\left[ {{{3x} \\over \\pi }} \\right]$$, where $$[y]$$ denotes the largest integer less than or equal to y\n(Q)\n$${\\pi \\over 4}$$\n\n\n(C)\nVolume of the parallelopiped with its edges represented by the vectors $$\\widehat i + \\widehat j + \\widehat i + 2\\widehat j$$ and $$\\widehat i + \\widehat j + \\pi \\widehat k$$\n(R)\n$${\\pi \\over 3}$$\n\n\n(D)\nAngle between vectors $$\\overrightarrow a $$ and $$\\overrightarrow b $$ where $$\\overrightarrow a $$, $$\\overrightarrow b $$ and $$\\overrightarrow c $$ are unit vectors satisfying $$\\overrightarrow a + \\overrightarrow b + \\sqrt 3 \\overrightarrow c = \\overrightarrow 0 $$\n(S)\n$${\\pi \\over 2}$$\n\n\n\n\n(T)\n$$\\pi $$",
+    "solution": "(a) We have\n$$2{\\sin ^2}\\theta + 4{\\sin ^2}\\theta {\\cos ^2}\\theta = 2{\\sin ^2}\\theta + 2{\\sin ^2}\\theta (1 - {\\sin ^2}\\theta ) = 13{\\sin ^2}\\theta - 2{\\sin ^4}\\theta - 1 = 0 \\Rightarrow \\sin \\theta = \\pm {1 \\over {\\sqrt 2 }}, \\pm 1 \\Rightarrow \\theta = {\\pi \\over 4},{\\pi \\over 2}$$\n(B) Let $$y = {{3x} \\over \\pi } \\Rightarrow {1 \\over 2} \\le y \\le 3\\forall x \\in \\left[ {{\\pi \\over 4},\\pi } \\right]$$\nNow, $$f(y) = [2y]\\cos [y]$$.\nThe critical points are\n$$y = {1 \\over 2},y = 1,y = {3 \\over 2}$$ and $$y = 3\\Rightarrow$$ points of discontinuity $$\\left\\{ {{\\pi \\over 6},{\\pi \\over 3},{\\pi \\over 2},\\pi } \\right\\}$$.\n(C) $$\\left| {\\matrix{\n1 & 1 & 0 \\cr\n1 & 2 & 0 \\cr\n1 & 1 & \\pi \\cr\n\n} } \\right| = \\pi \\Rightarrow $$ volume of parallelepiped = $$\\pi$$.\n(D) We have\n$$\\left| {\\overrightarrow a + \\overrightarrow b } \\right| = \\sqrt 3 \\Rightarrow \\sqrt {2 + 2\\cos \\alpha } = \\sqrt 3 \\Rightarrow 2 + 2\\cos \\alpha = 3 \\Rightarrow \\alpha = {\\pi \\over 3}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)$$\\to$$(Q), (S); (B)$$\\to$$(P), (R), (S), (T); (C)$$\\to$$(Q); (D)$$\\to$$(T)",
+      "(A)$$\\to$$(R), (S); (B)$$\\to$$(P), (R), (S), (T); (C)$$\\to$$(T); (D)$$\\to$$(P)",
+      "(A)$$\\to$$(Q), (S); (B)$$\\to$$(P), (R), (S), (T); (C)$$\\to$$(T); (D)$$\\to$$(R)",
+      "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q), (R), (S), (T); (C)$$\\to$$(T); (D)$$\\to$$(R)"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_019",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the Statements/Expressions in Column I with the Statements/Expressions in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nThe minimum value of $${{{x^2} + 2x + 4} \\over {x + 2}}$$ is\n(P)\n0\n\n\n(B)\nLet A and B be 3 $$\\times$$ 3 matrices of real numbers, where A is symmetric, B is skew-symmetric and (A + B) (A $$-$$ B) = (A $$-$$ B) (A + B). If (AB)$$^t$$ = ($$-1$$)$$^k$$ AB, where (AB)$$^t$$ is the transpose of the matrix AB, then the possible values of k are\n(Q)\n1\n\n\n(C)\nLet $$a=\\log_3\\log_3 2$$. An integer k satisfying $$1 < {2^{( - k + 3 - a)}} < 2$$, must be less than\n(R)\n2\n\n\n(D)\nIf $$\\sin \\theta = \\cos \\varphi $$, then the possible values of $${1 \\over \\pi }\\left( {\\theta + \\varphi - {\\pi \\over 2}} \\right)$$ are\n(S)\n3",
+    "solution": "(A) Let $$y = {{{x^2} + 2x + 4} \\over {x + 2}}{{dy} \\over {dx}} = {{{x^2} + 4x} \\over {{{(x + 2)}^2}}} = 0x = 0, - 4{{{d^2}y} \\over {d{x^2}}} = {8 \\over {{{(x + 2)}^3}}}$$\nAt $$x = 0,{{{d^2}y} \\over {d{x^2}}}$$ is true\n$$\\therefore$$ y is min. when $$x = 0\\therefore{y_{\\min }} = 2$$\n(A) - (iii)\n(B) As A is symmetric and B is skew symmetric matrix\nWe should have\nA$$^+$$ = A and B$$^+$$ = $$-$$B ...... (i)\nAlso given that\n(A + B) (A $$-$$ B) = (A $$-$$ B) (A + B)\nA$$^2-$$ AB + BA $$-$$ B$$^2$$ = A$$^2$$ + AB $$-$$ AB $$-$$ B$$^2$$\n2BA = 2AB or AB = BA ...... (ii)\nNow, given that\n(AB)$$^t$$ = ($$-$$1)$$^k$$AB\n(BA)$$^t$$ = ($$-$$1)$$^k$$AB (Using equation (i))\n$$\\Rightarrow$$ K should be an odd no.\n$$\\therefore$$ B - (ii, iv)\n(C) Given that,\n$$a = {\\log _3}{\\log _3}2 \\Rightarrow {\\log _3}2 = {3^a} \\Rightarrow {{{1_x}} \\over {{{\\log }_2}^3}} = {3^a}$$\nOr $${\\log _2}^3 = {3^{ - a}}3 = {2^{(3 - a)}}$$\nNow, $$ < {2^{( - k + 3 - a)}} < 2 \\Rightarrow 1 < {2^{ - 2}}.\\,{2^{3 - a}} < 2 \\Rightarrow 1 < {2^{ - k}}\\,.\\,3 < 2$$ (using eq. (i))\n$$ = {1 \\over 3}\\,.\\, < {2^{ - k}} < {2 \\over 3} \\Rightarrow {3 \\over 2} < {2^k} < 3 \\Rightarrow k = 1\\therefore$$ k is less than 2 and 3.\n$$\\therefore$$ (C) - (iii, iv)\n(D) Given that,\n$$\\sin \\theta = \\cos \\phi \\cos \\left( {{\\pi \\over 2} - \\theta } \\right) = \\cos \\phi = {\\pi \\over 2} - \\theta = 2n\\pi \\pm \\phi ,n \\in Z \\Rightarrow \\theta \\pm \\phi - {\\pi \\over 2} = - 2n\\pi = {1 \\over \\pi }\\left( {\\theta \\pm \\phi - {\\pi \\over 2}} \\right) = - 2n\\therefore$$ Here, possible value of $${1 \\over \\pi }\\left( {\\theta \\pm \\phi - {\\pi \\over 2}} \\right)$$ are 0 and 2 for $$n = 0, - 1\\therefore$$ (D) - p, r",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "A - iii; B - ii, iv; C - iii, iv; D - i, iii",
+      "A - iii; B - ii; C - iii, iv; D - i, iii",
+      "A - ii; B - ii, iv; C - iii, iv; D - i",
+      "A - ii; B - ii, iv; C - iii, iv; D - i, iii"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_020",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of solutions of the pair of equations\n$$2{\\sin ^2}\\theta - \\cos 2\\theta = 02{\\cos ^2}\\theta - 3\\sin \\theta = 0$$\nin the interval $$[0,2\\pi]$$ is",
+    "solution": "Given,\n$$2{\\sin ^2}\\theta - \\cos 2\\theta = 0$$ and\n$$2{\\cos ^2}\\theta - 3\\sin \\theta = 02{\\sin ^2}\\theta - \\cos 2\\theta = 0$$ ..... (i)\n$$2{\\sin ^2}\\theta - (1 - 2{\\sin ^2}\\theta ) = 04{\\sin ^2}\\theta - 1 = 04{\\sin ^2}\\theta = 1{\\sin ^2}\\theta = {1 \\over 4}\\sin \\theta = \\sqrt {{1 \\over 4}} \\Rightarrow \\sin \\theta = \\pm {1 \\over 2}$$\nAnd, $$2{\\cos ^2}\\theta - 3\\sin \\theta = 0$$ ..... (ii)\n$$2(1 - {\\sin ^2}\\theta ) - 3\\sin \\theta = 02 - 2{\\sin ^2}\\theta - 3\\sin \\theta = 02{\\sin ^2}\\theta + 3\\sin \\theta - 2 = 0\\sin \\theta = {{ - 3 \\pm \\sqrt {{3^2} - 4 \\times 2 \\times ( - 2)} } \\over {2 \\times 2}}\\sin \\theta = {{ - 3 \\pm \\sqrt {9 + 16} } \\over 4}$$ (using quadratic formula)\n$$\\sin \\theta = {{ - 3 \\pm 5} \\over 4}$$ or $$\\sin \\theta = {{ - 3 + 5} \\over 4},{{ - 3 - 5} \\over 4}\\sin \\theta = {1 \\over 2}$$ or $$\\sin \\theta = - 2$$ ($$ - 1 \\le \\sin \\theta \\le 1$$)\n$$\\therefore\\sin \\theta = {1 \\over 2}$$\nSo, the solution of the pair of equation is\n$$\\sin \\theta = {1 \\over 2}\\sin \\theta = \\sin {\\pi \\over 6}\\sin \\theta = \\sin \\left( {\\pi - {\\pi \\over 6}} \\right)$$ [$$\\because\\sin (\\pi - x) = \\sin x$$]\n$$\\theta = {\\pi \\over 6}$$ or $${{5\\pi } \\over 6}\\theta = {\\pi \\over 6},{{5\\pi } \\over 6},\\theta \\in [0,2\\pi ]$$\nSo, the number of solutions are 2.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "four"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_021",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\theta \\in\\left(0, \\frac{\\pi}{4}\\right)$$ and $$t_{1}=(\\tan \\theta)^{\\tan \\theta}, t_{2}=(\\tan \\theta)^{\\cot \\theta}, t_{3}=(\\cot \\theta)^{\\tan \\theta}$$ and $$t_{4}=(\\cot \\theta)^{\\cot \\theta}$$, then",
+    "solution": "$$\\begin{aligned}\n& 0 < \\theta < \\frac{\\pi}{4} \\\\\n& \\therefore \\quad 0 < \\tan \\theta < 1 \\\\\n& \\text { Whereas } 1 < \\cot \\theta < \\infty \\\\\n& t_{1}=(\\tan \\theta)^{\\tan \\theta} \\\\\n& \\log t_{1}=\\tan \\theta \\log (\\tan \\theta) \\\\\n& =\\tan \\theta \\log \\left(\\frac{1}{\\cot \\theta}\\right) \\\\\n& =-\\tan \\theta \\log (\\cot \\theta) \\\\\n& \\Rightarrow \\quad t_{1}=-\\cot \\theta^{\\tan \\theta} \\\\\n& =-t_{3} \\\\\n& \\Rightarrow \\quad t_{1} < t_{3} \\\\\n& t_{2}=(\\tan \\theta)^{\\cot \\theta} \\\\\n& \\log t_{2}=\\cot \\theta \\log (\\tan \\theta) \\\\\n& =-\\cot \\theta \\log (\\cot \\theta) \\\\\n& =-\\log (\\cot \\theta)^{\\cot \\theta} \\\\\n& \\therefore \\quad t_{2}=-t_{4} \\\\\n& \\Rightarrow \\quad t_{2} < t_{4}\n\\end{aligned}\\text { And also }(\\tan \\theta)^{\\tan \\theta} < 1 \\text { and }(\\cot \\theta)^{\\cot \\theta} > 1t_{1} < t_{4}\\text { hence, } \\quad t_{4} > t_{3}> t_{1} > t_{2}$$\nShortcut Method:\n$$\\begin{aligned}\n& \\tan \\theta < 1 \\text { and } \\cot \\theta > 1 \\\\\n& \\Rightarrow \\quad(\\tan \\theta)^{\\tan \\theta}<1 \\text { and }(\\cot \\theta)^{\\cot \\theta} > 1 \\\\\n& t_{4} > t_{1} \\\\\n& \\text { Only (B) have option containing } t_{4} > t_{1}\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$t_{1}>t_{2}>t_{3}>t_{4}$$",
+      "$$t_{4}>t_{3}>t_{1}>t_{2}$$",
+      "$$t_{3}>t_{1}>t_{2}>t_{4}$$",
+      "$$t_{2}>t_{3}>t_{1}>t_{4}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_022",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $0<\\theta<2 \\pi$, then the intervals of values of $\\theta$ for which $2 \\sin ^2 \\theta-5 \\sin \\theta+2>0$, is",
+    "solution": "We have the inequality:\n\n$$2 \\sin^2 \\theta - 5 \\sin \\theta + 2 > 0$$\n**Step 1: Let $\\sin \\theta = t$**\nThe inequality becomes:\n\n$$2t^2 - 5t + 2 > 0$$\n**Step 2: Factor the Quadratic**\nWe can write:\n\n$$2t^2 - 5t + 2 = (t-2)(2t-1)$$\nSo,\n\n$$(t-2)(2t-1) > 0$$\n**Step 3: Find When the Product is Positive**\nA product $(t-a)(t-b) > 0$ when $t < \\min(a,b)$ or $t > \\max(a,b)$.\nHere, the roots are $t=2$ and $t=\\frac{1}{2}$, so:\n\n$$t < \\frac{1}{2} \\quad \\text{or} \\quad t > 2$$\n**Step 4: Relate Back to $\\sin \\theta$**\nSo,\n\n$$\\sin \\theta < \\frac{1}{2} \\quad \\text{or} \\quad \\sin \\theta > 2$$\nBut $\\sin \\theta$ cannot be bigger than $1$ for any real $\\theta$, so $\\sin \\theta > 2$ is not possible.\nSo the only valid option is:\n\n$$\\sin \\theta < \\frac{1}{2}$$\n**Step 5: Find the Values of $\\theta$**\nFor $0 < \\theta < 2\\pi$, $\\sin \\theta = \\frac{1}{2}$ at $\\theta = \\frac{\\pi}{6}$ and $\\theta = \\frac{5\\pi}{6}$.\nSo, $\\sin \\theta < \\frac{1}{2}$ when $\\theta$ is between $0$ and $\\frac{\\pi}{6}$, or between $\\frac{5\\pi}{6}$ and $2\\pi$.\nSo the solution is:\n\n$$\\theta \\in \\left(0, \\frac{\\pi}{6}\\right) \\cup \\left(\\frac{5\\pi}{6}, 2\\pi\\right)$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$\\left(0, \\frac{\\pi}{6}\\right) \\cup\\left(\\frac{5 \\pi}{6}, 2 \\pi\\right)$",
+      "$\\left(\\frac{\\pi}{8}, \\frac{5 \\pi}{6}\\right)$",
+      "$\\left(0, \\frac{\\pi}{8}\\right) \\cup\\left(\\frac{\\pi}{6}, \\frac{5 \\pi}{6}\\right)$",
+      "$\\left(\\frac{41 \\pi}{48}, \\pi\\right)$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_023",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$\\cos \\left( {\\alpha - \\beta } \\right) = 1$$ and $$\\,\\cos \\left( {\\alpha + \\beta } \\right) = 1/e$$ where $$\\alpha ,\\,\\beta \\in \\left[ { - \\pi ,\\pi } \\right].$$\n\nParis of $$\\alpha ,\\,\\beta $$ which satisfy both the equations is/are",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_024",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given both $$\\theta $$ and $$\\phi $$ are acute angles and $$\\sin \\,\\theta = {1 \\over 2},\\,\\cos \\,\\phi = {1 \\over 3},$$ then the value of $$\\theta + \\phi $$ belongs to",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( {{\\pi \\over 3},\\left. {{\\pi \\over 2}} \\right]} \\right.$$",
+      "$$\\left( {{\\pi \\over 2},{{2\\pi } \\over 3}} \\right)$$",
+      "$$\\left( {{{2\\pi } \\over 3},\\left. {{{5\\pi } \\over 6}} \\right]} \\right.$$",
+      "$$\\left( {{{5\\pi } \\over 6},\\pi } \\right]$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_025",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of integral values of $$k$$ for which the equation $$7\\cos x + 5\\sin x = 2k + 1$$ has a solution is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "4",
+      "8",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_026",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha + \\beta = \\pi /2$$ and $$\\beta + \\gamma = \\alpha ,$$ then $$\\tan \\,\\alpha \\,$$ equals",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$2\\left( {\\tan \\beta + \\tan \\gamma } \\right)$$",
+      "$$\\,\\tan \\beta + \\tan \\gamma $$",
+      "$$\\tan \\beta + 2\\tan \\gamma $$",
+      "$$2\\tan \\beta + \\tan \\gamma $$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_027",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum value of $$\\left( {\\cos {\\alpha _1}} \\right).\\left( {\\cos {\\alpha _2}} \\right).....\\left( {\\cos {\\alpha _n}} \\right),$$ under the restrictions\n$$0 \\le {\\alpha _1},{\\alpha _2},....,{\\alpha _n} \\le {\\pi \\over 2}$$ vand $$\\left( {\\cot {\\alpha _1}} \\right).\\left( {\\cot {\\alpha _2}} \\right)....\\left( {\\cot {\\alpha _n}} \\right) = 1$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$1/{2^{n/2}}$$",
+      "$$1/{2^n}$$",
+      "$$1/2n\\,$$",
+      "1"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_028",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of distinct real roots of $$\\left| {\\matrix{\n{\\sin x} & {\\cos x} & {\\cos x} \\cr\n{\\cos x} & {\\sin x} & {\\cos x} \\cr\n{\\cos x} & {\\cos x} & {\\sin x} \\cr\n\n} } \\right|\\,\\, = 0$$ in the interval $$ - {\\pi \\over 4} \\le x \\le {\\pi \\over 4}$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_029",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f\\left( \\theta \\right) = \\sin \\theta \\left( {\\sin \\theta + \\sin 3\\theta } \\right)$$. Then $$f\\left( \\theta \\right)$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ \\ge 0\\,\\,$$ only when $$\\theta \\ge 0$$",
+      "$$ \\le 0$$ for all real $$\\theta $$",
+      "$$ \\ge 0$$ for all real $$\\theta $$",
+      "$$ \\le 0$$ only when $$\\theta \\le 0$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_030",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a triangle $$PQR,\\angle R = \\pi /2$$. If $$\\,\\,\\tan \\left( {P/2} \\right)$$ and $$\\tan \\left( {Q/2} \\right)$$ are the roots of the equation $$a{x^2} + bx + c = 0\\left( {a\ne 0} \\right)$$ then.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$a + b = c$$",
+      "$$a + c = b$$",
+      "$$b + c = a$$",
+      "$$b = c$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_031",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of values of $$x\\,\\,$$ in the interval $$\\left[ {0,\\,5\\pi } \\right]$$ satisfying the equation $$3\\,{\\sin ^2}x - 7\\,\\sin \\,x + 2 = 0$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0",
+      "5",
+      "6",
+      "10"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_032",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following number(s) is /are rational?",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\sin {\\mkern 1mu} {15^ \\circ }$$",
+      "$$\\cos {\\mkern 1mu} {15^ \\circ }$$",
+      "$$\\sin {\\mkern 1mu} {15^ \\circ }{\\mkern 1mu} \\cos {\\mkern 1mu} {15^ \\circ }$$",
+      "$$\\sin {\\mkern 1mu} {15^ \\circ }{\\mkern 1mu} \\cos {\\mkern 1mu} {75^ \\circ }$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_033",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$${\\sec ^2}\\theta = {{4xy} \\over {{{\\left( {x + y} \\right)}^2}}}\\,$$ is true if and only if",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$x + y\ne 0\\,$$",
+      "$$x = y,\\,x\ne 0$$",
+      "$$x = y\\,$$",
+      "$$x\ne 0,\\,y\ne 0$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_034",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The minimum value of the expression $$\\sin \\,\\alpha + \\sin \\,\\beta \\, + \\sin \\,\\gamma ,\\,$$ where $$\\alpha ,\\,\\beta ,\\,\\gamma $$ are real numbers satisfying $$\\alpha + \\beta + \\gamma = \\pi $$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "positive",
+      "zero",
+      "negative",
+      "-3"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_035",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$\\,3{\\left( {\\sin x - \\cos x} \\right)^4} + 6{\\left( {\\sin x + \\cos x} \\right)^2} + 4\\left( {{{\\sin }^6}x + {{\\cos }^6}x} \\right) = $$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_036",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The general values of $$\\theta $$ satisfying the equation $$2{\\sin ^2}\\theta - 3\\sin \\theta - 2 = 0$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$n\\pi + {\\left( { - 1} \\right)^n}\\pi /6$$",
+      "$$n\\pi + {\\left( { - 1} \\right)^n}\\pi /2 $$",
+      "$$n\\pi + {\\left( { - 1} \\right)^n}5\\pi /6$$",
+      "$$n\\pi + {\\left( { - 1} \\right)^n}7\\pi /6$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_037",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\omega \\,$$ is an imaginary cube root of unity then the value of $$\\sin \\left\\{ {\\left( {{\\omega ^{10}} + {\\omega ^{23}}} \\right)\\pi - {\\pi \\over 4}} \\right\\}$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ - {{\\sqrt 3 } \\over 2}\\,$$",
+      "$$ - {1 \\over {\\sqrt 2 }}$$",
+      "$${1 \\over {\\sqrt 2 }}$$",
+      "$${{\\sqrt 3 } \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_038",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$2{\\sin ^2}x + 3\\sin x - 2 > 0$$ and $${x^2} - x - 2 < 0$$ ($$x$$ is measured in radians). Then $$x$$ lies in the interval",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {{\\pi \\over 6},\\,{{5\\pi } \\over 6}} \\right)\\,\\,$$",
+      "$$\\left( { - 1,\\,{{5\\pi } \\over 6}} \\right)$$",
+      "$$\\left( { - 1,\\,2} \\right)\\,\\,\\,$$",
+      "$$\\left( {{\\pi \\over 6},\\,2} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_039",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$0 < x < {\\pi \\over 4}$$ then $$\\left( {\\sec 2x - \\tan 2x} \\right)$$ equals",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\tan \\left[ {x - {\\pi \\over 4}} \\right]$$",
+      "$$\\tan \\left[ {{\\pi \\over 4} - x} \\right]$$",
+      "$$\\tan \\left[ {x + {\\pi \\over 4}} \\right]$$",
+      "$${\\tan ^2}\\left[ {x + {\\pi \\over 4}} \\right]$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_040",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$n$$ be a positive integer such that $$\\sin {\\pi \\over {2n}} + \\cos {\\pi \\over {2n}} = {{\\sqrt n } \\over 2}.$$ Then",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$6 \\le n \\le 8$$",
+      "$$4 < n \\le 8$$",
+      "$$4 \\le n \\le 8$$",
+      "$$4 < n < 8$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_041",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Number of solutions of the equation $$\\tan x + \\sec x = 2\\cos x\\,$$ lying in the interval $$\\left[ {0,2\\pi } \\right]$$ is:",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_042",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In this questions there are entries in columns 1 and 2. Each entry in column 1 is related to exactly one entry in column 2. Write the correct letter from column 2 against the entry number in column 1 in your answer book.\n$${{\\sin \\,3\\alpha } \\over {\\cos 2\\alpha }}$$ is\n**Column $${\\rm I}$$**\n(A) positive\n(B) negative\n\n**Column $${\\rm I}{\\rm I}$$**\n(p) $$\\left( {{{13\\pi } \\over {48}},{{14\\pi } \\over {48}}} \\right)$$\n(q) $$\\left( {{{14\\pi } \\over {48}},\\,{{18\\pi } \\over {48}}} \\right)$$\n(r) $$\\left( {{{18\\pi } \\over {48}},\\,{{23\\pi } \\over {48}}} \\right)$$\n(s) $$\\left( {0,\\,{\\pi \\over 2}} \\right)$$\n**Options:-**",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( A \\right) - r,\\,\\left( B \\right) - q$$",
+      "$$\\left( A \\right) - r,\\,\\left( B \\right) - p$$",
+      "$$\\left( A \\right) - s,\\,\\left( B \\right) - r$$",
+      "$$\\left( A \\right) - p,\\,\\left( B \\right) - q$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_043",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $$\\left( {\\cos p - 1} \\right){x^2} + \\left( {\\cos p} \\right)x + \\sin p = 0\\,$$\nIn the variable x, has real roots. Then p can take any value in the interval",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {0,2\\pi } \\right)\\,$$",
+      "$$\\left( { - \\pi ,0} \\right)\\,\\,\\,$$",
+      "$$\\left[ { - {\\pi \\over 2},{\\pi \\over 2}} \\right]\\,$$",
+      "$$\\left( {0,\\pi } \\right)$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_044",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The general solutions of $$\\,\\sin x - 3\\sin 2x + \\sin 3x = \\cos x - 3\\cos 2x + \\cos 3x$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$n\\pi + {\\pi \\over 8}$$",
+      "$${{n\\pi } \\over 2} + {\\pi \\over 8}$$",
+      "$${\\left( { - 1} \\right)^n}{{n\\pi } \\over 2} + {\\pi \\over 8}\\,\\,$$",
+      "$$2n\\pi + {\\cos ^{ - 1}}{3 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_045",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of the expression $$\\sqrt 3 \\,\\cos \\,ec\\,{20^0} - \\sec \\,{20^0}$$ is equal to",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "2",
+      "$$2\\sin {20^0}/\\sin {40^0}$$",
+      "4",
+      "$$4\\sin {20^0}/\\sin {40^0}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_046",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of all possible triplets $$\\left( {{a_1},\\,{a_2},\\,{a_3}} \\right)$$ such that $${a_1} + {a_2}\\,\\,\\cos \\left( {2x} \\right) + {a_3}{\\sin ^2}\\left( x \\right) = 0\\,$$ for all $$x$$ is",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "zero",
+      "one",
+      "three",
+      "infinite"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_047",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The expression $$2\\left[ {{{\\sin }^6}\\left( {{\\pi \\over 2} + \\alpha } \\right) + {{\\sin }^6}\\left( {5\\pi - \\alpha } \\right)} \\right]$$ is equal to",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0",
+      "1",
+      "3",
+      "$$\\sin \\,4\\,\\alpha + \\cos \\,6\\,\\alpha \\,\\,\\,\\,$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_048",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$\\left( {1 + \\cos {\\pi \\over 8}} \\right)\\left( {1 + \\cos {{3\\pi } \\over 8}} \\right)\\left( {1 + \\cos {{5\\pi } \\over 8}} \\right)\\left( {1 + \\cos {{7\\pi } \\over 8}} \\right)$$ is equal to",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${1 \\over 2}$$",
+      "$$\\cos {\\pi \\over 8}$$",
+      "$${1 \\over 8}$$",
+      "$${{1 + \\sqrt 2 } \\over {2\\sqrt 2 }}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_049",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The general solution of the trigonometric equation sin x+cos x=1 is given by:",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$2n\\pi ;\\,n = 0,\\, \\pm 1,\\, \\pm 2....$$",
+      "$$x = 2n\\pi + \\pi /2;\\,n = 0,\\, \\pm 1,\\, \\pm 2....$$",
+      "$$x = n\\pi + {\\left( { - 1} \\right)^n}\\,\\,\\,\\,\\,\\,\\,{\\pi \\over 4} - {\\pi \\over 4}$$ ; $$n = 0,\\, \\pm 1,\\, \\pm 2..$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_050",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation $$\\,2{\\cos ^2}{x \\over 2}{\\sin ^2}x = {x^2} + {x^{ - 2}};\\,0 < x \\le {\\pi \\over 2}$$ has",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "no real solution",
+      "one real solution",
+      "more than one solution",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_051",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given $$A = {\\sin ^2}\\theta + {\\cos ^4}\\theta $$ then for all real values of $$\\theta $$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1 \\le A \\le 2$$",
+      "$${3 \\over 4} \\le A \\le 1$$",
+      "$${13\\over 16} \\le A \\le 1$$",
+      "$${3 \\over 4} \\le A \\le {{13} \\over {16}}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_052",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\alpha + \\beta + \\gamma = 2\\pi ,$$ then",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$tan{\\alpha \\over 2} + \\tan {\\beta \\over 2} + \\tan {\\gamma \\over 2} = \\tan {\\alpha \\over 2}\\tan {\\beta \\over 2}\\tan {\\gamma \\over 2}$$",
+      "$$\\tan {\\alpha \\over 2}\\tan {\\beta \\over 2} + \\tan {\\beta \\over 2}\\tan {\\gamma \\over 2} + \\tan {\\gamma \\over 2}\\tan {\\alpha \\over 2} = 1$$",
+      "$$tan{\\alpha \\over 2} + \\tan {\\beta \\over 2} + \\tan {\\gamma \\over 2} = - \\tan {\\alpha \\over 2}\\tan {\\beta \\over 2}\\tan {\\gamma \\over 2}$$",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_053",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\tan \\theta = - {4 \\over 3},then\\sin \\theta \\,is\\,$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$ - {4 \\over 5}\\,but\\,not\\,{4 \\over 5}$$",
+      "$$ - {4 \\over 5}\\,or\\,{4 \\over 5}$$",
+      "$${4 \\over 5}\\,\\,but\\,not\\, - {4 \\over 5}$$",
+      "None of these."
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_054",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let\n$$ \\alpha=\\frac{1}{\\sin 60^{\\circ} \\sin 61^{\\circ}}+\\frac{1}{\\sin 62^{\\circ} \\sin 63^{\\circ}}+\\cdots+\\frac{1}{\\sin 118^{\\circ} \\sin 119^{\\circ}} $$\nThen the value of\n$$ \\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2 $$\nis _____________.",
+    "solution": "To solve for the value of $\\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2$, we begin by considering the expression for $\\alpha$:\n$ \\alpha = \\frac{1}{\\sin 60^{\\circ} \\cdot \\sin 61^{\\circ}} + \\frac{1}{\\sin 62^{\\circ} \\cdot \\sin 63^{\\circ}} + \\cdots + \\frac{1}{\\sin 118^{\\circ} \\cdot \\sin 119^{\\circ}} $\nUsing the identity for the product of sines:\n$ \\sin(x-y) = \\sin x \\cdot \\cos y - \\cos x \\cdot \\sin y $\nwe can transform each term:\n$ \\sin 1^{\\circ} \\cdot \\alpha = \\frac{\\sin(61^{\\circ} - 60^{\\circ})}{\\sin 60^{\\circ} \\cdot \\sin 61^{\\circ}} + \\frac{\\sin(63^{\\circ} - 62^{\\circ})}{\\sin 62^{\\circ} \\cdot \\sin 63^{\\circ}} + \\dots + \\frac{\\sin(119^{\\circ} - 118^{\\circ})}{\\sin 118^{\\circ} \\cdot \\sin 119^{\\circ}} $\nThis simplifies to:\n$ \\sin 1^{\\circ} \\cdot \\alpha = \\cot 60^{\\circ} - \\cot 61^{\\circ} + \\cot 62^{\\circ} - \\cot 63^{\\circ} + \\cdots + \\cot 118^{\\circ} - \\cot 119^{\\circ} $\nThis forms a telescoping series, simplifying to:\n$ \\sin 1^{\\circ} \\cdot \\alpha = \\cot 60^{\\circ} $\nTherefore:\n$ \\alpha = \\frac{\\cot 60^{\\circ}}{\\sin 1^{\\circ}} = \\frac{1/\\sqrt{3}}{\\sin 1^{\\circ}} = \\frac{\\operatorname{cosec} 1^{\\circ}}{\\sqrt{3}} $\nFinally, we calculate:\n$ \\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2 = \\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\frac{\\operatorname{cosec} 1^{\\circ}}{\\sqrt{3}}}\\right)^2 = 3 $",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_055",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$\n\\text { Then the inradius of the triangle } A B C \\text { is }\n$$ :",
+    "solution": "In radius $ r=\\frac{\\Delta}{S}=\\left[\\frac{a}{2 R(\\sin A+\\sin B+\\sin C)}\\right)$\n\n$$\n\\begin{aligned}\nr & =\\frac{a}{\\sin \\left(\\frac{\\pi}{2}-2 C\\right) \\sin \\left(\\frac{\\pi}{2}+C\\right)+\\sin C} \\\\\\\\\n& =\\frac{a}{\\cos 2 C+\\cos C+\\sin C} \\\\\\\\\n& =\\frac{a}{\\cos 2 C+\\sqrt{1+\\sin 2 C}} \\\\\\\\\n& =\\frac{\\frac{3 \\sqrt{7}}{16}}{\\sqrt{\\frac{7}{4}}+\\sqrt{\\frac{7}{2}}}=\\frac{1}{4} \\\\\\\\\n\\Rightarrow r & =\\frac{1}{4}=0.25 \\\\\\\\\n\\Rightarrow r & =0.25\n\\end{aligned}\n$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_056",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $\\alpha$ and $\\beta$ be real numbers such that $-\\frac{\\pi}{4}<\\beta<0<\\alpha<\\frac{\\pi}{4}$.\n\nIf $\\sin (\\alpha+\\beta)=\\frac{1}{3}$ and $\\cos (\\alpha-\\beta)=\\frac{2}{3}$, then the greatest integer less than or equal to\n\n$$\n\\left(\\frac{\\sin \\alpha}{\\cos \\beta}+\\frac{\\cos \\beta}{\\sin \\alpha}+\\frac{\\cos \\alpha}{\\sin \\beta}+\\frac{\\sin \\beta}{\\cos \\alpha}\\right)^{2}\n$$\n\nis",
+    "solution": "Given, $$\\sin (\\alpha + \\beta ) = {1 \\over 3}$$\nand $$\\cos (\\alpha - \\beta ) = {2 \\over 3}$$\nLet, $$E = {{\\sin \\alpha } \\over {\\cos \\beta }} + {{\\cos \\beta } \\over {\\sin \\alpha }} + {{\\cos \\alpha } \\over {\\sin \\beta }} + {{\\sin \\beta } \\over {\\cos \\alpha }} = {{\\sin \\alpha } \\over {\\cos \\beta }} + {{\\cos \\alpha } \\over {\\sin \\beta }} + {{\\cos \\beta } \\over {\\sin \\alpha }} + {{\\sin \\beta } \\over {\\cos \\alpha }} = {{\\sin \\alpha \\sin \\beta + \\cos \\alpha \\cos \\beta } \\over {\\sin \\beta \\cos \\beta }} + {{\\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta } \\over {\\sin \\alpha \\cos \\alpha }} = {{\\cos (\\alpha - \\beta )} \\over {\\sin \\beta \\cos \\beta }} + {{\\cos (\\alpha - \\beta )} \\over {\\sin \\alpha \\cos \\alpha }} = \\cos (\\alpha - \\beta )\\left[ {{2 \\over {2\\sin \\beta \\cos \\beta }} + {2 \\over {2\\sin \\alpha \\cos \\alpha }}} \\right] = {2 \\over 3}\\left[ {{2 \\over {\\sin 2\\beta }} + {2 \\over {\\sin 2\\alpha }}} \\right] = {4 \\over 3}\\left[ {{1 \\over {\\sin 2\\beta }} + {1 \\over {\\sin 2\\alpha }}} \\right] = {4 \\over 3}\\left[ {{{\\sin 2\\alpha + \\sin 2\\beta } \\over {\\sin 2\\alpha \\sin 2\\beta }}} \\right] = {{4 \\times 2} \\over 3}\\left[ {{{2\\sin \\left( {{{2\\alpha + 2\\beta } \\over 2}} \\right)\\cos \\left( {{{2\\alpha - 2\\beta } \\over 2}} \\right)} \\over {2\\sin 2\\alpha \\sin 2\\beta }}} \\right] = {{16} \\over 3}\\left[ {{{\\sin (\\alpha + \\beta )\\cos (\\alpha - \\beta )} \\over {\\cos (2\\alpha - 2\\beta ) - cos(2\\alpha + 2\\beta )}}} \\right] = {{16} \\over 3}\\left[ {{{{1 \\over 3} \\times {2 \\over 3}} \\over {(2{{\\cos }^2}(\\alpha - \\beta ) - 1) - (1 - 2{{\\sin }^2}(\\alpha + \\beta ))}}} \\right] = {{32} \\over {27}}\\left[ {{1 \\over {2 \\times {4 \\over 9} - 2 + 2 \\times {1 \\over 9}}}} \\right] = {{32} \\over {27}}\\left[ {{9 \\over {8 - 18 + 2}}} \\right] = {{32} \\over {27}}\\left[ {{9 \\over { - 8}}} \\right] = - {4 \\over 3}\\therefore{E^2} = {{16} \\over 9} = 1.77 \\Rightarrow [{E^2}] = 1$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_057",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let f : R $$ \\to $$ R be a differentiable function with f(0) = 1 and satisfying the equation f(x + y) = f(x) f'(y) + f'(x) f(y) for all x, y$$ \\in $$ R.\n\nThen, the value of log$_{e}$(f(4)) is ...........",
+    "solution": "Given,\n\n$$f(x + y) = f(x)f'(y) + f'(x)f(y),\\,\\forall x,y \\in R$$ and f(0) = 1\n\nPut x = y = 0, we get\n\nf(0) = f(0) f'(0) + f'(0) f(0)\n\n$$ \\Rightarrow 1 = 2f'(0) \\Rightarrow f'(0) = {1 \\over 2}$$\n\nPut x = x and y = 0, we get\n\nf(x) = f(x) f'(0) + f'(x) f(0)\n\n$$ \\Rightarrow f(x) = {1 \\over 2}f(x) + f'(x) \\Rightarrow f'(x) = {1 \\over 2}f(x) \\Rightarrow {{f'(x)} \\over {f(x)}} = {1 \\over 2}$$\n\nOn integrating, we get\n\n$$\\log f(x) = {1 \\over 2}x + C \\Rightarrow f(x) = A{e^{{1 \\over 2}x}}$$, where e$^{C}$ = A\n\nIf f(0) = 1, then A = 1\n\nHence, $$f(x) = {e^{{1 \\over 2}x}} \\Rightarrow {\\log _e}f(x) = {1 \\over 2}x \\Rightarrow {\\log _e}f(4) = {1 \\over 2} \\times 4 = 2$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_058",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of distinct solutions of the equation\n\n$${5 \\over 4}{\\cos ^2}\\,2x + {\\cos ^4}\\,x + {\\sin ^4}\\,x + {\\cos ^6}\\,x + {\\sin ^6}\\,x\\, = \\,2$$\n\nin the interval $$\\left[ {0,\\,2\\pi } \\right]$$ is",
+    "solution": "Given: $\\frac{5}{4} \\cos ^2 2 x+\\cos ^4 x+\\sin ^4 x+\\cos ^6 x+$ $\\sin ^6 x=2$\n\n$$\n\\begin{aligned}\n\\Rightarrow & \\frac{5}{4} \\cos ^2 2 x+\\left(\\cos ^2 x\\right)^2+\\left(\\sin ^2 x\\right)^2+\\left(\\cos ^2 x\\right)^3 \\\\\\\\\n& +\\left(\\sin ^2 x\\right)^3=2\\quad\\quad...(i)\n\\end{aligned}\n$$\n\nAs we know, $a^2+b^2+2 a b=(a+b)^2$\n\n$$\n\\Rightarrow a^2+b^2=(a+b)^2-2 a b\n$$\n\nAnd $a^3+b^3+3 a b(a+b)=(a+b)^3$\n\n$$\n\\Rightarrow a^3+b^3=(a+b)^3-3 a b(a+b)\n$$\n\nSo, equation (i) can be written as\n\n$$\n\\begin{aligned}\n& \\frac{5}{4} \\cos ^2 2 x+\\left(\\cos ^2 x+\\sin ^2 x\\right)^2-2\\left(\\cos ^2 x\\right) \\\\\\\\\n&\\left(\\sin ^2 x\\right)+\\left(\\cos ^2 x+\\sin ^2 x\\right)^3-3 \\cos ^2 x \\sin ^2 x \\\\\\\\\n&\\left(\\cos ^2 x+\\sin ^2 x\\right)=2 \\\\\\\\\n& \\Rightarrow \\frac{5}{4} \\cos ^2 2 x+(1)^2-2 \\cos ^2 x \\sin ^2 x+(1)^3 \\\\\\\\\n&-3 \\cos ^2 x \\sin ^2 x(1)=2~~~~\\left\\{\\because \\cos ^2 x+\\sin ^2 x=1\\right\\}\n\\end{aligned}\n\n\\begin{aligned}\n& \\Rightarrow \\frac{5}{4} \\cos ^2 2 x+2-5 \\cos ^2 x \\sin ^2 x=2 \\\\\\\\\n& \\Rightarrow \\frac{5}{4} \\cos ^2 2 x-5 \\cos ^2 x \\sin ^2 x=0\n\\end{aligned}\n$$\n\nAs we know, $\\sin 2 \\theta=2 \\sin \\theta \\cos \\theta$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{5}{4} \\cos ^2 2 x-\\frac{5}{4} \\sin ^2 2 x=0 \\\\\\\\\n& \\because \\cos 2 \\theta=\\cos ^2 \\theta-\\sin ^2 \\theta \\\\\\\\\n& \\Rightarrow \\frac{5}{4} \\cos 4 x=0 \\\\\\\\\n& \\Rightarrow \\cos 4 x=0 \\\\\\\\\n& \\Rightarrow 4 x=2(n+1) \\frac{\\pi}{2}, n \\in \\mathrm{I} \\\\\\\\\n& \\because x \\in[0,2 \\pi]\n\\end{aligned}\n$$\n\nSo, possible distinct values of $x$ are $\\frac{\\pi}{8}, \\frac{3 \\pi}{8}, \\frac{5 \\pi}{8}, \\frac{7 \\pi}{8}, \\frac{9 \\pi}{8}, \\frac{11 \\pi}{8}, \\frac{13 \\pi}{8}$ and $\\frac{15 \\pi}{8}$.\n\nSo, the number of distinct solutions of the given equation are 8 .",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6and8uu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_059",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The positive integer value of $$n\\, > \\,3$$ satisfying the equation $${1 \\over {\\sin \\left( {{\\pi \\over n}} \\right)}} = {1 \\over {\\sin \\left( {{{2\\pi } \\over n}} \\right)}} + {1 \\over {\\sin \\left( {{{3\\pi } \\over n}} \\right)}}$$ is",
+    "solution": "We have,\n$${1 \\over {\\sin (\\pi /n)}} - {1 \\over {\\sin (3\\pi /n)}} = {1 \\over {\\sin (2\\pi /n)}} \\Rightarrow {{\\sin (3\\pi /n) - \\sin (\\pi /n)} \\over {\\sin (\\pi /n)\\sin (3\\pi /n)}} = {1 \\over {\\sin (2\\pi /n)}}{{(2\\sin (\\pi /n)\\cos (2\\pi /n))\\sin (2\\pi /n)} \\over {\\sin (\\pi /n)\\sin (3\\pi /n)}} = 1 \\Rightarrow \\sin {{4\\pi } \\over n} = \\sin {{3\\pi } \\over n} \\Rightarrow {{4\\pi } \\over n} + {{3\\pi } \\over n} = \\pi \\Rightarrow n = 7$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6and8uu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_060",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of all possible values of $$\\theta $$ where $$0 < \\theta < \\pi ,$$ for which the system of equations\n$$$\\left( {y + z} \\right)\\cos {\\mkern 1mu} 3\\theta = \\left( {xyz} \\right){\\mkern 1mu} \\sin 3\\theta $$x\\sin 3\\theta = {{2\\cos 3\\theta } \\over y} + {{2\\sin 3\\theta } \\over z}$$\\left( {xyz} \\right){\\mkern 1mu} \\sin 3\\theta = \\left( {y + 2z} \\right){\\mkern 1mu} \\cos 3\\theta + y{\\mkern 1mu} sin3\\theta $$$\nhave a solution $$\\left( {{x_0},{y_0},{z_0}} \\right)$$ with $${y_0}{z_0}{\\mkern 1mu}\ne {\\mkern 1mu} 0,$$ is",
+    "solution": "View the equation in xyz, y and t.\nWe have,\n$$(xyz)\\sin 3\\theta - y\\cos 3\\theta - z\\cos 3\\theta = 0(xyz)\\sin 3\\theta - 2y\\sin 3\\theta - 2z\\cos 3\\theta = 0(xyz)\\sin 3\\theta - y(\\cos 3\\theta + \\sin 3\\theta ) - 2z\\cos 3\\theta = 0xyz\ne 0$$\nHence, the equation has non-trivial solution which gives\n$$\\left| {\\matrix{\n{\\sin 3\\theta } & { - \\cos 3\\theta } & { - \\cos 3\\theta } \\cr\n{\\sin 3\\theta } & { - 2\\sin 3\\theta } & { - 2\\cos 3\\theta } \\cr\n{\\sin 3\\theta } & { - (\\cos 3\\theta + \\sin 3\\theta )} & { - 2\\cos 3\\theta } \\cr\n\n} } \\right| = 0 \\Rightarrow \\sin 3\\theta \\cos 3\\theta (\\sin 3\\theta - \\cos 3\\theta ) = 0 \\Rightarrow \\sin 3\\theta = 0$$ then $$xyz = 0$$ (not possible)\n$$\\cos 3\\theta = 0$$ not possible\n$$\\sin 3\\theta = \\cos 3\\theta \\Rightarrow \\tan 3\\theta = 13\\theta = n\\pi + {\\pi \\over 4},n \\in z\\theta = {{n\\pi } \\over 3} + {\\pi \\over {12}}$$ ; $$\\theta = {\\pi \\over {12}},{{5\\pi } \\over {12}},{{9\\pi } \\over {12}}$$\nThus there are 3 solutions.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6and8uu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_061",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of values of $$\\theta $$ in the interval, $$\\left( { - {\\pi \\over 2},\\,{\\pi \\over 2}} \\right)$$ such\nthat$$\\,\\theta\ne {{n\\pi } \\over 5}$$ for $$n = 0,\\, \\pm 1,\\, \\pm 2$$ and $$\\tan \\,\\theta = \\cot \\,5\\theta \\,$$ as well as $$\\sin \\,2\\theta = \\cos \\,4 \\theta $$ is",
+    "solution": "Given, $$\\tan \\theta = \\cot 5\\theta \\Rightarrow \\tan \\theta = \\tan \\left( {{\\pi \\over 2} - 5\\theta } \\right) \\Rightarrow {\\pi \\over 2} - 5\\theta = n\\pi + \\theta \\Rightarrow 6\\theta = {\\pi \\over 2} - {{n\\pi } \\over 6} \\Rightarrow \\theta = {\\pi \\over {12}} - {{n\\pi } \\over 6}$$\nAlso $$\\cos 4\\theta = \\sin 2\\theta = \\cos \\left( {{\\pi \\over 2} - 2\\theta } \\right) \\Rightarrow 4\\theta = 2n\\pi \\, \\pm \\,\\left( {{\\pi \\over 2} - 2\\theta } \\right)$$\nTaking positive\n$$6\\theta = 2n\\pi + {\\pi \\over 2} \\Rightarrow \\theta = {{n\\pi } \\over 3} + {\\pi \\over {12}}$$\nTaking negative\n$$2\\theta = 2n\\pi - {\\pi \\over 2} \\Rightarrow \\theta = n\\pi - {\\pi \\over 4}$$\nAbove values of $$\\theta$$ suggests that there are only 3 common solutions.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_062",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum value of the expression $${1 \\over {{{\\sin }^2}\\theta + 3\\sin \\theta \\cos \\theta + 5{{\\cos }^2}\\theta }}$$ is",
+    "solution": "Let\n$$f(\\theta ) = {1 \\over {{{\\sin }^2}\\theta + 3\\sin \\theta \\cos \\theta + 5{{\\cos }^2}\\theta }}$$\nAgain let\n$$g(\\theta ) = {\\sin ^2}\\theta + 3\\sin \\theta \\cos \\theta + 5{\\cos ^2}\\theta = {{1 - \\cos 2\\theta } \\over 2} + 5\\left( {{{1 + \\cos 2\\theta } \\over 2}} \\right) + {3 \\over 2}\\sin 2\\theta = 3 + 2\\cos 2\\theta + {3 \\over 2}\\sin 2\\theta \\thereforeg{(\\theta )_{\\min }} = 3 - \\sqrt {4 + {9 \\over 4}} = 3 - {5 \\over 2} = {1 \\over 2}\\thereforef(\\theta ) = {1 \\over {g{{(\\theta )}_{\\min }}}} = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6and8uu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_063",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two parallel chords of a circle of radius 2 are at a distance $$\\sqrt 3 + 1$$ apart. If the chords subtend at the center , angles of $${\\pi \\over k}$$ and $${{2\\pi } \\over k},$$ where$$k > 0,$$ then the value of $$\\left[ k \\right]$$ is\n[**Note :[k]** denotes the largest integer less than or equal to k ]",
+    "solution": "Let $$\\theta = {\\pi \\over {2k}}$$\n\n[Diagram]\n\n$$\\cos \\theta = {x \\over 2} \\Rightarrow \\cos 2\\theta = {{\\sqrt 3 + 1 - x} \\over 2} \\Rightarrow 2{\\cos ^2}\\theta - 1 = {{\\sqrt 3 + 1 - x} \\over 2} \\Rightarrow 2\\left( {{{{x^2}} \\over 4}} \\right) - 1 = {{\\sqrt 3 + 1 - x} \\over 2} \\Rightarrow {x^2} + x - 3 - \\sqrt 3 = 0 \\Rightarrow x = {{ - 1 \\pm \\sqrt {1 + 12 + 4\\sqrt 3 } } \\over 2} = {{ - 1 \\pm \\sqrt {13 + 4\\sqrt 3 } } \\over 2} = {{ - 1 + 2\\sqrt 3 + 1} \\over 2} = \\sqrt 3 \\therefore\\cos \\theta = {{\\sqrt 3 } \\over 2} \\Rightarrow \\theta = {\\pi \\over 6}\\therefore$$ Required angle $$ = {\\pi \\over k} = 2\\theta = {\\pi \\over 3} \\Rightarrow k = 3$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6and8uu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_064",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For non-negative integers n, let\n\n$$f(n) = {{\\sum\\limits_{k = 0}^n {\\sin \\left( {{{k + 1} \\over {n + 2}}\\pi } \\right)} \\sin \\left( {{{k + 2} \\over {n + 2}}\\pi } \\right)} \\over {\\sum\\limits_{k = 0}^n {{{\\sin }^2}\\left( {{{k + 1} \\over {n + 2}}\\pi } \\right)} }}$$\n\nAssuming cos$^{$$-1$$}$ x takes values in [0, $$\\pi $$], which of the following options is/are correct?",
+    "solution": "It is given, that for non-negative integers 'n',\n\n$$f(n) = {{\\sum\\limits_{k = 0}^n {\\sin \\left( {{{k + 1} \\over {n + 2}}\\pi } \\right)} \\sin \\left( {{{k + 2} \\over {n + 2}}\\pi } \\right)} \\over {\\sum\\limits_{k = 0}^n {{{\\sin }^2}\\left( {{{k + 1} \\over {n + 2}}\\pi } \\right)} }} = {{\\sum\\limits_{k = 0}^n {\\left( {\\cos {\\pi \\over {n + 2}} - \\cos \\left( {{{2k + 3} \\over {n + 2}}\\pi } \\right)} \\right)} } \\over {\\sum\\limits_{k = 0}^n {\\left( {1 - \\cos \\left( {{{2k + 2} \\over {n + 2}}\\pi } \\right)} \\right)} }}$$\n\n[$$ \\because 2\\sin A\\sin B = \\cos (A - B) - \\cos (A + B)\\,and\\,2si{n^2}A = 1 - \\cos 2A$$]\n\n$$={{\\left( {\\cos \\left( {{\\pi \\over {n + 2}}} \\right)} \\right)\\sum\\limits_{k = 0}^n {1 - \\left\\{ {\\cos {{3\\pi } \\over {n + 2}} + \\cos {{5\\pi } \\over {n + 2}} + \\cos {{7\\pi } \\over {n + 2}} + ... + \\cos \\left( {{{2n + 3} \\over {n + 2}}\\pi } \\right)} \\right\\}} } \\over {\\sum\\limits_{k = 0}^n {1 - \\left\\{ {\\cos {{2\\pi } \\over {n + 2}} + \\cos {{4\\pi } \\over {n + 2}} + \\cos {{6\\pi } \\over {n + 2}} + ... + \\cos \\left( {{{2n + 2} \\over {n + 2}}\\pi } \\right)} \\right\\}} }}={{(n + 1)\\cos \\left( {{\\pi \\over {n + 2}}} \\right) - {{\\sin \\left( {{{n\\pi } \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}\\cos \\left( {{{n + 3} \\over {n + 2}}\\pi } \\right)} \\over {(n + 1) - {{\\sin \\left( {{{n\\pi } \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}\\cos \\left( {{{n + 3} \\over {n + 2}}\\pi } \\right)}}$$\n\n[$$ \\because \\cos (\\alpha ) + \\cos (\\alpha + \\beta ) + cos(\\alpha + 2\\beta ) + ... + cos(\\alpha + (n - 1)\\beta ) = {{\\sin \\left( {{{n\\beta } \\over 2}} \\right)} \\over {\\sin \\left( {{\\beta \\over 2}} \\right)}}\\cos \\left. {\\left( {{{2\\alpha + (n - 1)\\beta } \\over 2}} \\right)} \\right] = {{(n + 1)\\cos \\left( {{\\pi \\over {n + 2}}} \\right) - {{\\sin \\left( {\\pi - {\\pi \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}\\cos \\left( {\\pi + {\\pi \\over {n + 2}}} \\right)} \\over {(n + 1) - {{\\sin \\left( {\\pi - {\\pi \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}\\cos (\\pi )}} = {{(n + 1)\\cos \\left( {{\\pi \\over {n + 2}}} \\right) + {{\\sin \\left( {{\\pi \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}\\cos \\left( {{\\pi \\over {n + 2}}} \\right)} \\over {(n + 1) + {{\\sin \\left( {{\\pi \\over {n + 2}}} \\right)} \\over {\\sin \\left( {{\\pi \\over {n + 2}}} \\right)}}}} = {{(n + 2)\\cos \\left( {{\\pi \\over {n + 2}}} \\right)} \\over {(n + 2)}} = \\cos \\left( {{\\pi \\over {n + 2}}} \\right) \\Rightarrow f(n) = \\cos \\left( {{\\pi \\over {n + 2}}} \\right)$$\n\nNow, $$f(6) = \\cos \\left( {{\\pi \\over 8}} \\right) \\because \\alpha = \\tan ({\\cos ^{ - 1}}f((6))) = \\tan \\left( {{\\pi \\over 8}} \\right)\\left\\{ \\matrix{\n{\\cos ^{ - 1}}\\cos x = x \\hfill \\cr\nif\\,x \\in \\left( {0,\\,{\\pi \\over 2}} \\right) \\hfill \\cr} \\right\\} = \\sqrt 2 - 1 \\Rightarrow (\\alpha + 1) = \\sqrt 2 \\Rightarrow {(\\alpha + 1)^2} = 2 \\Rightarrow {\\alpha ^2} + 2\\alpha + 1 = 2 \\Rightarrow {\\alpha ^2} + 2\\alpha - 1 = 0$$\n\nNow, $$f(4) = \\cos \\left( {{\\pi \\over {4 + 2}}} \\right) = \\cos \\left( {{\\pi \\over 6}} \\right) = {{\\sqrt 3 } \\over 2}$$,\n\nNow, $$\\sin (7{\\cos ^{ - 1}}f(5)) = \\sin \\left( {7{{\\cos }^{ - 1}}\\left( {\\cos \\left( {{\\pi \\over {5 + 2}}} \\right)} \\right)} \\right) = \\sin \\left( {7\\left( {{\\pi \\over 7}} \\right)} \\right) = \\sin \\pi = 0$$\n\nand Now, $$\\mathop {\\lim }\\limits_{n \\to \\infty } f(x) = \\mathop {\\lim }\\limits_{n \\to \\infty } \\cos {\\pi \\over {n + 2}} = \\cos 0 = 1$$\n\nHence, options (a), (b) and (c) are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "If $$\\alpha $$ = tan(cos$^{$$-$$1}$ f(6)), then $$\\alpha $$$^{2}$ + 2$$\\alpha -$$1 = 0",
+      "$$f(4) = {{\\sqrt 3 } \\over 2}$$",
+      "sin(7 cos$^{$$-$$1}$ f(5)) = 0",
+      "$$\\mathop {\\lim }\\limits_{n \\to \\infty } \\,f(n) = {1 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_065",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a $$\\Delta $$PQR = 30$$^\\circ $$ and the sides PQ and QR have lengths 10$$\\sqrt 3 $$ and 10, respectively. Then, which of the following statement(s) is(are) TRUE?",
+    "solution": "We have,\n\nIn $$\\Delta $$PQR\n\n$$\\angle PQR = 30^\\circ PQ = 10\\sqrt 3 QR = 10$$\n\n[Diagram]\n\nBy cosine rule\n\n$$\\cos 30^\\circ = {{P{Q^2} + Q{R^2} - P{R^2}} \\over {2PQ.QR}} \\Rightarrow {{\\sqrt 3 } \\over 2} = {{300 + 100 - P{R^2}} \\over {200\\sqrt 3 }} \\Rightarrow 300 = 300 + 100 - P{R^2} \\Rightarrow PR = 10$$\n\nSince, $$PR = QR = 10 \\therefore \\angle QPR = 30^\\circ $$ and $$\\angle QRP = 120^\\circ $$\n\nArea of $$\\Delta PQR = {1 \\over 2}PQ.QR.\\sin 30^\\circ = {1 \\over 2} \\times 10\\sqrt 3 \\times 10 \\times {1 \\over 2} = 25\\sqrt 3 $$\n\nRadius of incircle of\n\n$$\\Delta PQR = {{Area\\,of\\,\\Delta PQR} \\over {Semi - perimetre\\,of\\,\\Delta PQR}}$$\n\ni.e. $$r = {\\Delta \\over s} = {{25\\sqrt 3 } \\over {{{10\\sqrt 3 + 10 + 10} \\over 2}}} = {{25\\sqrt 3 } \\over {5(\\sqrt 3 + 2)}} \\Rightarrow r = 5\\sqrt 3 (2 - \\sqrt 3 ) = 10\\sqrt 3 - 15$$\n\nand radius of circumcircle\n\n$$(R) = {{abc} \\over {4\\Delta }} = {{10\\sqrt 3 \\times 10 \\times 10} \\over {4 \\times 25\\sqrt 3 }} = 10 \\therefore $$ Area of circumcircle of\n\n$$\\Delta PQR = \\pi {R^2} = 100\\pi $$\n\nHence, option (b), (c) and (d) are correct answer.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\angle QPR = 45^\\circ $$",
+      "The area of the $$\\Delta PQR$$ is $$25\\sqrt 3 $$ and $$\\angle QRP = 120^\\circ $$",
+      "The radius of the incircle of the $$\\Delta PQR$$ is $$10\\sqrt 3 -$$ 15",
+      "The area of the circumcircle of the $$\\Delta PQR$$ is 100$$\\pi $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx1449ua.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_066",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\alpha $$ and $$\\beta $$ be non zero real numbers such that $$2(\\cos \\beta - \\cos \\alpha ) + \\cos \\alpha \\cos \\beta = 1$$. Then which of the following is/are true?",
+    "solution": "$$2(\\cos \\beta - \\cos \\alpha ) + \\cos \\alpha \\cos \\beta = 1$$\n\nor $$4(\\cos \\beta - \\cos \\alpha ) + 2\\cos \\alpha \\cos \\beta = 2 \\Rightarrow 1 - \\cos \\alpha + \\cos \\beta - \\cos \\alpha \\cos \\beta = 3 + 3\\cos \\alpha - 3\\cos \\beta - 3\\cos \\alpha \\cos \\beta \\Rightarrow (1 - \\cos \\alpha )(1 + \\cos \\beta ) = 3(1 + \\cos \\alpha )(1 - \\cos \\beta ) \\Rightarrow {{(1 - \\cos \\alpha )} \\over {(1 + \\cos \\alpha )}} = {{3(1 - \\cos \\beta )} \\over {1 + \\cos \\beta }} \\Rightarrow {\\tan ^2}{\\alpha \\over 2} = 3{\\tan ^2}{\\beta \\over 2} \\therefore \\tan {\\alpha \\over 2} \\pm \\sqrt 3 \\tan {\\beta \\over 2} = 0$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$\\sqrt 3 \\tan \\left( {{\\alpha \\over 2}} \\right) - \\tan \\left( {{\\beta \\over 2}} \\right) = 2$$",
+      "$$\\tan \\left( {{\\alpha \\over 2}} \\right) - \\sqrt 3 \\tan \\left( {{\\beta \\over 2}} \\right) = 0$$",
+      "$$\\tan \\left( {{\\alpha \\over 2}} \\right) + \\sqrt 3 \\tan \\left( {{\\beta \\over 2}} \\right) = 0$$",
+      "$$\\sqrt 3 \\tan \\left( {{\\alpha \\over 2}} \\right) + \\tan \\left( {{\\beta \\over 2}} \\right) = 2$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_067",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$f\\left( x \\right) = x\\sin \\,\\pi x,\\,x > 0.$$ Then for all natural numbers $$n,\\,f'\\left( x \\right)$$ vanishes at",
+    "solution": "Given, ,$$f(x)=x \\cdot \\sin \\pi x, x>0\\Rightarrow \\quad f^{\\prime}(x)=1 \\cdot \\sin \\pi x+x \\cdot \\pi \\cos \\pi x$$\nApply $$f^{\\prime}(x)=0\\begin{aligned}\n& \\Rightarrow \\sin \\pi x+\\pi x \\cos \\pi x=0 \\\\\n& \\Rightarrow \\sin \\pi x=-\\pi x \\cos \\pi x \\\\\n& \\Rightarrow \\frac{\\sin \\pi x}{\\cos \\pi x}=-\\pi x \\\\\n& \\Rightarrow \\tan \\pi x=-\\pi x\n\\end{aligned}$$\nDraw the graph of $$y=\\tan \\pi x$$ and $$y=-\\pi x$$ for $$x>0$$\n\n[Diagram]\n\nIt is clear that $$y=\\tan \\pi x$$ and $$y=-\\pi x$$ intersect at a unique point if $$\\frac{1}{2} < x < 1$$ as $$\\frac{3}{2} < x < 2$$ as $$\\frac{5}{2} < x < 3$$ or.....\nSo, $$y=\\tan \\pi x$$ and $$y=-\\pi x$$ intersect at a unique point is $$x \\in\\left(n+\\frac{1}{2}, n+1\\right)$$ as $$(n, n+1)$$.\nHints:\nThe number of point of intersection of graphs of $$y=f(x)$$ and $$y=g(x)$$ is equal to the number of solution of $$f(x)=g(x)$$",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "A unique point in the interval $$\\left( {n,\\,n + {1 \\over 2}} \\right)$$",
+      "A unique point in the interval $$\\left( {n + {1 \\over 2},n + 1} \\right)$$",
+      "A unique point in the interval $$\\left( {n,\\,n + 1} \\right)$$",
+      "Two points in the interval $$\\left( {n,\\,n + 1} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzskr04i.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_trigonometric_functions_068",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\theta ,\\,\\varphi \\, \\in \\,\\left[ {0,2\\pi } \\right]$$ be such that\n\n$$2\\cos \\theta \\left( {1 - \\sin \\,\\varphi } \\right) = {\\sin ^2}\\theta \\,\\,\\left( {\\tan {\\theta \\over 2} + \\cot {\\theta \\over 2}} \\right)\\cos \\varphi - 1,\\,\\tan \\left( {2\\pi - \\theta } \\right) > 0$$ and $$ - 1 < \\sin \\theta \\, < - {{\\sqrt 3 } \\over 2},$$\nthen $$\\varphi $$ cannot satisfy",
+    "solution": "Given, $$\\tan (2 \\pi-\\theta)>0\\begin{aligned}\n& \\Rightarrow 0<(2 \\pi-\\theta)<\\frac{\\pi}{2} \\text { or } \\pi<(2 \\pi-\\theta)<\\frac{3 \\pi}{2} \\\\\n& \\Rightarrow \\frac{3 \\pi}{2}<\\theta<2 \\pi \\text { or } \\frac{\\pi}{2}<\\theta<\\pi \\quad \\text{... (i)}\n\\end{aligned}$$\nAlso, $$-1<\\sin \\theta<\\frac{-\\sqrt{3}}{2}\\Rightarrow \\frac{3 \\pi}{2}<\\theta<\\frac{5 \\pi}{3} \\quad \\text{... (ii)}$$\nFrom (i) and (ii),\n$$\\Rightarrow \\theta \\in\\left(\\frac{3 \\pi}{2}, \\frac{5 \\pi}{3}\\right)\\quad \\text{... (iii)}$$\nNow,\n$$\\begin{aligned}\n& 2 \\cos \\theta(1-\\sin \\phi)=\\sin ^2 \\theta\\left(\\tan \\frac{\\theta}{2}+\\cot \\frac{\\theta}{2}\\right) \\cos \\phi-1 \\\\\n& \\Rightarrow 2 \\cos \\theta(1-\\sin \\phi) \\\\\n& =\\sin ^2 \\theta\\left(\\frac{\\sin \\frac{\\theta}{2}}{\\cos \\frac{\\theta}{2}}+\\frac{\\cos \\frac{\\theta}{2}}{\\sin \\frac{\\theta}{2}}\\right) \\cos \\phi-1 \\\\\n& \\Rightarrow 2 \\cos \\theta(1-\\sin \\phi) \\\\\n& =\\sin ^2 \\theta\\left(\\frac{\\sin ^2 \\frac{\\theta}{2}+\\cos ^2 \\frac{\\theta}{2}}{\\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}}\\right) \\cos \\phi-1\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow \\quad 2 \\cos \\theta(1-\\sin \\phi) \\\\\n&=\\sin \\theta \\cdot \\sin \\theta\\left(\\frac{1}{\\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}}\\right) \\cos \\phi-1\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow \\quad 2 \\cos (1-\\sin \\phi)=\\frac{2 \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2} \\cdot \\cos \\phi \\cdot \\sin \\theta}{\\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}}-1 \\\\\n& \\Rightarrow \\quad 2 \\cos \\theta(1-\\sin \\phi)=2 \\sin \\theta \\cos \\phi-1 \\\\\n& \\Rightarrow \\quad 2 \\cos \\theta+1=2 \\sin (\\theta+\\phi) \\\\\n& \\text { As } \\theta \\in\\left(\\frac{3 \\pi}{2}, \\frac{5 \\pi}{3}\\right) \\quad \\text{[from (iii)]}\\\\\n& \\Rightarrow 2 \\cos \\theta+1 \\in(1,2) \\\\\n& \\Rightarrow 1<2 \\sin (\\theta+\\phi)<2 \\\\\n& \\Rightarrow \\frac{1}{2}<\\sin (\\theta+\\phi)<1\n\\end{aligned}\\begin{aligned}\n& \\text { Now, } \\theta, \\phi \\in[0,2 \\pi] \\\\\n& \\theta+\\phi \\in[0,4 \\pi] \\\\\n& \\Rightarrow \\theta+\\phi \\in\\left(\\frac{\\pi}{6}, \\frac{5 \\pi}{6}\\right) \\text { or } \\theta+\\phi \\in\\left(\\frac{13 \\pi}{6}, \\frac{17 \\pi}{6}\\right) \\\\\n& \\Rightarrow \\frac{\\pi}{6}-\\theta<\\phi<\\frac{5 \\pi}{6}-\\theta \\text { or } \\frac{13 \\pi}{6}-\\theta<\\phi<\\frac{17 \\pi}{6}-\\theta \\\\\n& \\Rightarrow \\phi \\in\\left(-\\frac{3 \\pi}{2}, \\frac{-2 \\pi}{3}\\right) \\cup\\left(\\frac{2 \\pi}{3}, \\frac{7 \\pi}{6}\\right) \\\\\n& {\\left[\\because \\theta \\in\\left(\\frac{3 \\pi}{2}, \\frac{5 \\pi}{3}\\right)\\right] }\n\\end{aligned}$$",
+    "answerKey": [
+      "C",
+      "D",
+      "A"
+    ],
+    "options": [
+      "$$0 < \\varphi < {\\pi \\over 2}$$",
+      "$${\\pi \\over 2} < \\varphi < {{4\\pi } \\over 3}$$",
+      "$${{4\\pi } \\over 3} < \\varphi < {{3\\pi } \\over 2}$$",
+      "$${{3\\pi } \\over 2} < \\varphi < 2\\pi $$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_069",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$0 < \\theta < {\\pi \\over 2},$$ the solution (s) of\n$$$\\sum\\limits_{m = 1}^6 {\\cos ec\\,\\left( {\\theta + {{\\left( {m - 1} \\right)\\pi } \\over 4}} \\right)\\,\\cos ec\\,\\left( {\\theta + {{m\\pi } \\over 4}} \\right) = 4\\sqrt 2 } $$$ is (are)",
+    "solution": "Given solutions\n$${1 \\over {\\sin (\\pi /4)}}\\left[ {{{\\sin (\\theta + \\pi /4 - \\theta )} \\over {\\sin \\theta \\,.\\,\\sin (\\theta + \\pi /4)}} + {{\\sin (\\theta + \\pi /2 - (\\theta + \\pi /4))} \\over {\\sin (\\theta + \\pi /4)\\,.\\,(\\theta + \\pi /2)}}\\, + \\,...\\, + \\,{{\\sin ((\\theta + 3\\pi /2) - (\\theta + 5\\pi /4))} \\over {\\sin (\\theta + 3\\pi /2)\\,.\\,\\sin (\\theta + 5\\pi /4)}}} \\right] = 4\\sqrt 2 \\Rightarrow \\sqrt 2 [\\cos \\theta - \\cot (\\theta + \\pi /4) + \\cot (\\theta + \\pi /4) - \\cot (\\theta + \\pi /2)\\, + \\,...\\, + \\,\\cot (\\theta + 5\\pi /4) - \\cot (\\theta + 3\\pi /2)] = 4\\sqrt 2 \\Rightarrow \\tan \\theta + \\cot \\theta = 4 \\Rightarrow \\tan \\theta = 2 \\pm \\sqrt 3 \\Rightarrow \\theta = {\\pi \\over {12}}$$ or $${{5\\pi } \\over {12}}$$",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "$$\\,{\\pi \\over 4}$$",
+      "$$\\,{\\pi \\over 6 }$$",
+      "$$\\,{\\pi \\over 12}$$",
+      "$$\\,{5\\pi \\over 12}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_070",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${{{{\\sin }^4}x} \\over 2} + {{{{\\cos }^4}x} \\over 3} = {1 \\over 5},$$ then",
+    "solution": "It is given that\n$${{{{\\sin }^4}x} \\over 2} + {{{{\\cos }^4}x} \\over 3} = {1 \\over 5}3{\\sin ^4}x + 2{(1 - {\\sin ^2}x)^2} = {6 \\over 5} \\Rightarrow 25{\\sin ^4}x - 20{\\sin ^2}x + 4 = 0 \\Rightarrow {\\sin ^2}x = {2 \\over 5}$$ and $${\\cos ^2}x = {3 \\over 5}$$\nHence, $${\\tan ^2}x = {2 \\over 3}$$\nTherefore, $${{{{\\sin }^8}x} \\over 8} + {{{{\\cos }^8}x} \\over {27}} = {1 \\over {125}}$$",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "$${\\tan ^2}x = {2 \\over 3}$$",
+      "$${{{{\\sin }^8}x} \\over 8} + {{{{\\cos }^8}x} \\over {27}} = {1 \\over {125}}$$",
+      "$${\\tan ^2}x = {1 \\over 3}$$",
+      "$${{{{\\sin }^8}x} \\over 8} + {{{{\\cos }^8}x} \\over {27}} = {2 \\over {125}}$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_071",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a positive integer $$\\,n$$, let\n\n$${f_n}\\left( \\theta \\right) = \\left( {\\tan {\\theta \\over 2}} \\right)\\,\\left( {1 + \\sec \\theta } \\right)\\,\\left( {1 + \\sec 2\\theta } \\right)\\,\\left( {1 + \\sec 4\\theta } \\right).....\\left( {1 + \\sec {2^n}\\theta } \\right).$$ Then",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${f_2}\\left( {{\\pi \\over {16}}} \\right) = 1$$",
+      "$${f_3}\\left( {{\\pi \\over {32}}} \\right) = 1$$",
+      "$${f_4}\\left( {{\\pi \\over {64}}} \\right) = 1$$",
+      "$${f_5}\\left( {{\\pi \\over {128}}} \\right) = 1$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_072",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The values of $$\\theta $$ lying between $$\\theta = \\theta $$ and $$\\theta = \\pi /2$$ and satisfying the equation\n$$\\left| {\\matrix{\n{1 + {{\\sin }^2}\\theta } & {{{\\cos }^2}\\theta } & {4\\sin 4\\theta } \\cr\n{{{\\sin }^2}\\theta } & {1 + {{\\cos }^2}\\theta } & {4\\sin 4\\theta } \\cr\n{{{\\sin }^2}\\theta } & {{{\\cos }^2}\\theta } & {1 + 4\\sin 4\\theta } \\cr\n\n} } \\right| = 0$$ are",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$7\\pi /24$$",
+      "$$5\\pi /24$$",
+      "$$11\\pi /24$$",
+      "$$\\pi /24$$"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_073",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In any triangle $$ABC,$$ prove that\n$$$\\cot {A \\over 2} + \\cot {B \\over 2} + \\cot {C \\over 2} = \\cot {A \\over 2}\\cot {B \\over 2}\\cot {C \\over 2}.$$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_074",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove that $$\\tan \\,\\alpha + 2\\tan 2\\alpha + 4\\tan 4\\alpha + 8\\cot 8\\alpha = \\cot \\alpha $$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_075",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove that the values of the function $${{\\sin x\\cos 3x} \\over {\\sin 3x\\cos x}}$$ do not lie between $${1 \\over 3}$$ and 3 for any real $$x.$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_076",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Prove that $$\\sum\\limits_{k = 1}^{n - 1} {\\left( {n - k} \\right)\\,\\cos \\,{{2k\\pi } \\over n} = - {n \\over 2},} $$ where $$n \\ge 3$$ is an integer.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_077",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all values of $$\\theta $$ in the interval $$\\left( { - {\\pi \\over 2},{\\pi \\over 2}} \\right)$$ satisfying the equation $$\\left( {1 - \\tan \\,\\theta } \\right)\\left( {1 + \\tan \\,\\theta } \\right)\\,\\,{\\sec ^2}\\theta + \\,\\,{2^{{{\\tan }^2}\\theta }} = 0.$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_078",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the smallest positive number $$p$$ for which the equation $$\\cos \\left( {p\\,\\sin x} \\right) = \\sin \\left( {p\\cos x} \\right)$$ has a solution $$x\\, \\in \\,\\left[ {0,2\\pi } \\right]$$.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_079",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Determine the smallest positive value of number $$x$$ (in degrees) for which\n$$$\\tan \\left( {x + {{100}^ \\circ }} \\right) = \\tan \\left( {x + {{50}^ \\circ }} \\right)\\,\\tan \\left( x \\right)\\tan \\left( {x - {{50}^ \\circ }} \\right).$$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_080",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that the value of $${{\\tan x} \\over {\\tan 3x}},$$ wherever defined never lies between $${1 \\over 3}$$ and 3.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_081",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\exp \\,\\,\\,\\left\\{ {\\left( {\\left( {{{\\sin }^2}x + {{\\sin }^4}x + {{\\sin }^6}x + \\,\\,\\,..............\\infty } \\right)\\,In\\,\\,2} \\right)} \\right\\}$$ satiesfies the equation $${x^2} - 9x + 8 = 0,$$ find the value of $${{\\cos x} \\over {\\cos x + \\sin x}},\\,0 < x < {\\pi \\over 2}.$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_082",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$ABC$$ is a triangle such that\n$$$\\sin \\left( {2A + B} \\right) = \\sin \\left( {C - A} \\right) = \\, - \\sin \\left( {B + 2C} \\right) = {1 \\over 2}.$$$\nIf $$A,\\,B$$ and $$C$$ are in arithmetic progression, determine the values of $$A,\\,B$$ and $$C$$.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_083",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the values of $$x \\in \\left( { - \\pi , + \\pi } \\right)$$ which satisfy the equation $${g^{(1 + \\left| {\\cos x} \\right| + \\left| {{{\\cos }^2}x} \\right| + \\left| {{{\\cos }^3}x} \\right| + ...)}} = {4^3}$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_084",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find all solutions of $$4{\\cos ^2}\\,x\\sin x - 2{\\sin ^2}x = 3\\sin x$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_085",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that $$$16\\cos \\left( {{{2\\pi } \\over {15}}} \\right)\\cos \\left( {{{4\\pi } \\over {15}}} \\right)\\cos \\left( {{{8\\pi } \\over {15}}} \\right)\\cos \\left( {{{16\\pi } \\over {15}}} \\right) = 1$$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_086",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Without using tables, prove that $$\\left( {\\sin \\,{{12}^ \\circ }} \\right)\\left( {\\sin \\,{{48}^ \\circ }} \\right)\\left( {\\sin \\,{{54}^ \\circ }} \\right) = {1 \\over 8}.$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_087",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For all $$\\theta $$ in $$\\left[ {0,\\,\\pi /2} \\right]$$ show that, $$\\cos \\left( {\\sin \\theta } \\right) \\ge \\,\\sin \\,\\left( {\\cos \\theta } \\right).$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_088",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given $$A = \\left\\{ {x:{\\pi \\over 6} \\le x \\le {\\pi \\over 3}} \\right\\}$$ and\n\n$$f\\left( x \\right) = \\cos x - x\\left( {1 + x} \\right);$$ find $$f\\left( A \\right).$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_089",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given $$\\alpha + \\beta - \\gamma = \\pi ,$$ prove that\n\n$$\\,{\\sin ^2}\\alpha + {\\sin ^2}\\beta - {\\sin ^2}\\gamma = 2\\sin \\alpha {\\mkern 1mu} \\sin \\beta {\\mkern 1mu} \\cos y$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_090",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(a) Draw the graph of $$y = {1 \\over {\\sqrt 2 }}\\left( {cinx + \\cos x} \\right)$$ from $$x = - {\\pi \\over 2}$$ to $$x = {\\pi \\over 2}$$.\n(b) If $$\\cos \\left( {\\alpha + \\beta } \\right) = {4 \\over 5},\\,\\,\\sin \\,\\left( {\\alpha - \\beta } \\right) = \\,{5 \\over {13}},$$ and $$\\alpha ,\\,\\beta $$ lies between 0 and $${\\pi \\over 4}$$, find tan2$$\\alpha $$.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_091",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\tan \\alpha = {m \\over {m + 1}}\\,$$ and $$\\tan \\beta = {2 \\over {2m + 1}},$$ find the possible values of $$\\left( {\\alpha + \\beta } \\right).$$",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_092",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "General value of $$\\theta $$ satisfying the equation $${\\tan ^2}\\theta + \\sec \\,2\\,\\theta = 1$$ is _________.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_093",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$A > 0,B > 0\\,$$ and $$A + B = \\pi /3,$$ then the maximum value of tan A tan B is _______.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_094",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$K = \\sin \\left( {\\pi /18} \\right)\\sin \\left( {5\\pi /18} \\right)\\sin \\left( {7\\pi /18} \\right),$$ then the numerical value of K is ______.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_095",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of\n\n$$\\sin {\\pi \\over {14}}\\sin {{3\\pi } \\over {14}}\\sin {{5\\pi } \\over {14}}\\sin {{7\\pi } \\over {14}}\\sin {{9\\pi } \\over {14}}\\sin {{11\\pi } \\over {14}}\\sin {{13\\pi } \\over {14}}$$ is equal to ______.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_096",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The solution set of the system of equations $$X + Y = {{2\\pi } \\over 3},cox\\,x + cos\\,y = {3 \\over 2},$$ where x and y are real, is _____.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_097",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The sides of a triangle inscribed in a given circle subtend angles $$\\alpha $$, $$\\beta $$ and $$\\gamma $$ at the centre. The minimum value of the arithmetic mean of $$cos\\left[ {\\alpha + {\\pi \\over 2}} \\right],\\,\\cos \\left[ {\\beta + {\\pi \\over 2}} \\right]$$ and $$cos\\left[ {\\gamma + {\\pi \\over 2}} \\right]$$ is equal to _______.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_098",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The set of all $$x$$ in the interval $$\\left[ {0,\\,\\pi } \\right]$$ for which $$2\\,{\\sin ^2}x - 3\\sin x + 1 \\ge 0,$$ is _____.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_099",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Suppose $${\\sin ^3}\\,x\\sin 3x = \\sum\\limits_{m = 0}^n {{C_m}\\cos \\,mx} $$ is an identity in x, where C$_{0}$, C$_{1}$ ,....C$_{n}$ are constants, and $${C_n}\ne 0$$ , then the value of n is _____.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_trigonometric_functions_100",
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions & Equations",
+    "topic": "Trigonometric Functions & Equations",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\tan \\,A = \\left( {1 - \\cos B} \\right)/\\sin B,$$ then $$tan2A = tan\\,B$$.",
+    "solution": "Solution for this Trigonometric Functions & Equations question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

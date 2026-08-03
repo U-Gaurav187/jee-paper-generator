@@ -1,0 +1,1479 @@
+[
+  {
+    "id": "math_straight_lines_001",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$O\\left( {0,0} \\right),P\\left( {3,4} \\right),Q\\left( {6,0} \\right)$$ be the vertices of the triangles $$OPQ$$. The point $$R$$ inside the triangle $$OPQ$$ is such that the triangles $$OPR$$, $$PQR$$, $$OQR$$ are of equal area. The coordinates of $$R$$ are",
+    "solution": "$\\left.\\begin{array}{c}4 x-3 y=12 \\alpha \\\\ 4 x+3 y=\\frac{12}{\\alpha}\\end{array}\\right\\} \\rightarrow 16 x^2-9 y^2=144$\n$\\begin{aligned} & \\frac{x^2}{9}-\\frac{y^2}{16}=1 \\rightarrow \\text { Curve :S } \\\\ & T: y=m x \\pm \\sqrt{9 m^2-16} \\\\ & m=\\frac{4 \\sqrt{2}}{3} \\\\ & y=\\frac{4 \\sqrt{2} x}{3} \\pm \\sqrt{32-16} \\\\ & 3 y=4 \\sqrt{2} x \\pm 12 \\\\ & \\text { as } q>0 \\\\ & 3 y=4 \\sqrt{2} x+12\\end{aligned}$\n$$ \\mathrm{p}=-\\frac{3}{\\sqrt{2}} \\quad \\& \\quad \\mathrm{q}=4 \\mathrm{pq}=-6 \\sqrt{2} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( {{4 \\over 3},3} \\right)$$",
+      "$$\\left( {3,{2 \\over 3}} \\right)$$",
+      "$$\\left( {3,{4 \\over 3}} \\right)$$",
+      "$$\\left( {{4 \\over 3},{2 \\over 3}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_002",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the lines L$_{1}$ and L$_{2}$ defined by\n\n$${L_1}:x\\sqrt 2 + y - 1 = 0$$ and $${L_2}:x\\sqrt 2 - y + 1 = 0$$\n\nFor a fixed constant $$\\lambda$$, let C be the locus of a point P such that the product of the distance of P from L$_{1}$ and the distance of P from L$_{2}$ is $$\\lambda$$$^{2}$. The line y = 2x + 1 meets C at two points R and S, where the distance between R and S is $$\\sqrt {270} $$. Let the perpendicular bisector of RS meet C at two distinct points R' and S'. Let D be the square of the distance between R' and S'.\n\nThe value of $$\\lambda$$$^{2}$ is __________.",
+    "solution": "According to the question,\n\n$$C:\\left| {{{x\\sqrt 2 + y - 1} \\over {\\sqrt 3 }}} \\right|\\left| {{{x\\sqrt 2 - y + 1} \\over {\\sqrt 3 }}} \\right| = {\\lambda ^2} \\Rightarrow C:{{\\left| {{{(x\\sqrt 2 )}^2} - {{(y - 1)}^2}} \\right|} \\over {\\sqrt 3 \\times \\sqrt 3 }} = {\\lambda ^2} \\Rightarrow C:\\left| {2{x^2} - {{(y - 1)}^2}} \\right| = 3{\\lambda ^2}$$\n\nLet R $$\\equiv$$ (x$_{1}$, y$_{1}$) and S(x$_{2}$, y$_{2}$)\n\n$$\\because$$ C cuts y $$-$$ 1 = 2x at R and S.\n\nSo, $$\\left| {2{x^2} - 4{x^2}} \\right| = 3{\\lambda ^2} \\Rightarrow x = \\pm \\sqrt {{3 \\over 2}} \\left| \\lambda \\right|\\therefore\\left| {{x_1} - {x_2}} \\right| = \\sqrt 6 \\left| \\lambda \\right|$$\n\nand $$\\left| {{y_1} - {y_2}} \\right| = 2\\left| {{x_1} - {x_2}} \\right| = 2\\sqrt 6 \\left| \\lambda \\right|\\because$$ RS$^{2}$ = 270 (given)\n\n$$ \\Rightarrow {({x_1} - {x_2})^2} + {({y_1} - {y_2})^2} = 270 \\Rightarrow {(\\sqrt 6 \\lambda )^2} + {(2\\sqrt 6 \\left| \\lambda \\right|)^2} = 270 \\Rightarrow 30{\\lambda ^2} = 270 \\Rightarrow {\\lambda ^2} = 9$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_003",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line through the vertex p of a triangle PQR intersects the side QR at the point S and the circumcircle of the triangle PQR at the point T. If S is not the centre of the circumcircle, then :",
+    "solution": "As S is not the centre of the circumcircle, there for PS $$\ne$$ ST and QS $$\ne$$ SR\n\n[Diagram]\n\nAlso, (PS)(ST) = (QS)(SR)\n[$$\\therefore$$ from the properties of two intersecting chords in a circle]\n$$\\Rightarrow$$ A.M $$\\ge$$ G.M\nWe get $${{{1 \\over {PS}} + {1 \\over {ST}}} \\over 2} \\ge \\sqrt {{1 \\over {PS}} \\times {1 \\over {ST}}} $$\nor\n$${1 \\over {PS}} + {1 \\over {ST}} \\ge {2 \\over {\\sqrt {QS \\times SR} }}{{QS + SR} \\over 2} \\ge \\sqrt {QS \\times SR} $$ ..... (i)\n$${1 \\over {\\sqrt {QS \\times SR} }} \\ge {2 \\over {QR}}$$ .... (ii)\n$$ \\Rightarrow {1 \\over {PS}} + {1 \\over {ST}} \\ge {4 \\over {QR}}$$ From (i) and (ii)",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$${1 \\over {PS}} + {1 \\over {ST}} < {2 \\over {\\sqrt {QS \\times SR} }}$$",
+      "$${1 \\over {PS}} + {1 \\over {ST}} > {2 \\over {\\sqrt {QS \\times SR} }}$$",
+      "$${1 \\over {PS}} + {1 \\over {ST}} < {4 \\over {QR}}$$",
+      "$${1 \\over {PS}} + {1 \\over {ST}} > {4 \\over {QR}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgg7hqbh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_004",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of the triangle formed by intersection of a line parallel to $$x$$-axis and passing through $$P (h, k)$$ with the lines $$y = x $$ and $$x + y = 2$$ is $$4{h^2}$$. Find the locus of the point $$P$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_005",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The vertices of a triangle are $$A\\left( { - 1, - 7} \\right)B\\left( {5,\\,1} \\right)$$ and $$C\\left( {1,\\,4} \\right).$$ The equation of the bisector of the angle $$\\angle ABC$$ is ............... .",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_006",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The lines $$2x + 3y + 19 = 0$$ and $$9x + 6y - 17 = 0$$ cut the coordinates axes in concyclic points.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_straight_lines_007",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The lines $${L_1}:y - x = 0$$ and $${L_2}:2x + y = 0$$ intersect the line $${L_3}:y + 2 = 0$$ at $$P$$ and $$Q$$ respectively. The bisector of the acute angle between $${L_1}$$ and $${L_2}$$ intersects $${L_3}$$ at $$R$$.\n**Statement-1:** The ratio $$PR$$ : $$RQ$$ equals $$2\\sqrt 2 :\\sqrt 5 $$. because\n\n**Statement-2:** In any triangle, bisector of an angle divides the triangle into two similar triangles.",
+    "solution": "$\\left.\\begin{array}{c}4 x-3 y=12 \\alpha \\\\ 4 x+3 y=\\frac{12}{\\alpha}\\end{array}\\right\\} \\rightarrow 16 x^2-9 y^2=144$\n$\\begin{aligned} & \\frac{x^2}{9}-\\frac{y^2}{16}=1 \\rightarrow \\text { Curve :S } \\\\ & T: y=m x \\pm \\sqrt{9 m^2-16} \\\\ & m=\\frac{4 \\sqrt{2}}{3} \\\\ & y=\\frac{4 \\sqrt{2} x}{3} \\pm \\sqrt{32-16} \\\\ & 3 y=4 \\sqrt{2} x \\pm 12 \\\\ & \\text { as } q>0 \\\\ & 3 y=4 \\sqrt{2} x+12\\end{aligned}$\n$$ \\mathrm{p}=-\\frac{3}{\\sqrt{2}} \\quad \\& \\quad \\mathrm{q}=4 \\mathrm{pq}=-6 \\sqrt{2} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is not a correct explanation for Statement- 1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True."
+    ]
+  },
+  {
+    "id": "math_straight_lines_008",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let *S* denote the locus of the point of intersection of the pair of lines$4x - 3y = 12\\alpha$,$4\\alpha x + 3\\alpha y = 12$,where $\\alpha$ varies over the set of non-zero real numbers. Let *T* be the tangent to *S* passing through the points $(p, 0)$ and $(0, q)$, $q > 0$, and parallel to the line $4x - \\frac{3}{\\sqrt{2}} y = 0$.Then the value of $pq$ is :",
+    "solution": "$\\left.\\begin{array}{c}4 x-3 y=12 \\alpha \\\\ 4 x+3 y=\\frac{12}{\\alpha}\\end{array}\\right\\} \\rightarrow 16 x^2-9 y^2=144$\n$\\begin{aligned} & \\frac{x^2}{9}-\\frac{y^2}{16}=1 \\rightarrow \\text { Curve :S } \\\\ & T: y=m x \\pm \\sqrt{9 m^2-16} \\\\ & m=\\frac{4 \\sqrt{2}}{3} \\\\ & y=\\frac{4 \\sqrt{2} x}{3} \\pm \\sqrt{32-16} \\\\ & 3 y=4 \\sqrt{2} x \\pm 12 \\\\ & \\text { as } q>0 \\\\ & 3 y=4 \\sqrt{2} x+12\\end{aligned}$\n$$ \\mathrm{p}=-\\frac{3}{\\sqrt{2}} \\quad \\& \\quad \\mathrm{q}=4 \\mathrm{pq}=-6 \\sqrt{2} $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$-6\\sqrt{2}$",
+      "$-3\\sqrt{2}$",
+      "$-9\\sqrt{2}$",
+      "$-12\\sqrt{2}$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_009",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$a > b > c > 0,$$ the distance between $$(1, 1)$$ and the point of intersection of the lines $$ax + by + c = 0$$ and $$bx + ay + c = 0$$ is less than $$\\left( {2\\sqrt 2 } \\right)$$. Then",
+    "solution": "Let P is the point of intersection of line $$a x+b y +c=0$$ and $$b x+a y-c=0\\mathrm{P}=\\left(\\frac{-c}{a+b}, \\frac{-c}{a+b}\\right)$$\nGiven, the distance between $$(1,1)$$ and $$P$$ is less than $$2 \\sqrt{2}\\begin{aligned}\n& \\therefore \\sqrt{\\left(1+\\frac{c}{a+b}\\right)^2+\\left(1+\\frac{c}{a+b}\\right)^2}<2 \\sqrt{2} \\\\\n& \\Rightarrow \\sqrt{2}\\left|\\frac{a+b+c}{a+b}\\right|<2 \\sqrt{2} \\\\\n& \\Rightarrow\\left|\\frac{a+b+c}{a+b}\\right|<2 \\\\\n& \\therefore a>b>c>0 \\\\\n& \\therefore \\frac{a+b+c}{a+b}<2 \\\\\n& \\Rightarrow a+b+c<2 a+2 b \\\\\n& \\Rightarrow a+b-c>0\n\\end{aligned}$$\nHence, option (A) correct\n$$\\therefore$$ Given $$a > b > c > 0\\therefore a-b$$ is positive and c is also positive\n$$\\Rightarrow a-b+c>0$$\nHence, option (C) is also true.\nHints :\nGiven, $$a > b > c > 0$$\nSo, $$a-b, a-c, b$$ and $$c$$ all are positive\n$$\\therefore \\quad a-b+c>0, a-c+b>0$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$a + b - c > 0$$",
+      "$$a - b + c < 0$$",
+      "$$a - b + c = > 0$$",
+      "$$a + b - c < 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6dtnvpw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_010",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line $$L$$ through the point $$(3, -2)$$ is inclined at an angle $${60^ \\circ }$$ to the line $$\\sqrt {3x} + y = 1.$$ If $$L$$ also intersects the x-axis, then the equation of $$L$$ is",
+    "solution": "We have $$\\left| {{{m + \\sqrt 3 } \\over {1 - \\sqrt 3 m}}} \\right| = \\sqrt 3 $$.\n$$ \\Rightarrow m + \\sqrt 3 = \\pm (\\sqrt 3 - 3m) \\Rightarrow 4m = 0 \\Rightarrow m = 0$$\nor $$2m = 2\\sqrt 3 \\Rightarrow m = \\sqrt 3 $$\nTherefore, the equation is\n$$y + 2 = \\sqrt 3 (x - 3) \\Rightarrow \\sqrt 3 x - y - (2 + 3\\sqrt 3 ) = 0$$\n\n[Diagram]",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$y + \\sqrt {3x} + 2 - 3\\sqrt 3 = 0$$",
+      "$$y - \\sqrt {3x} + 2 + 3\\sqrt 3 = 0$$",
+      "$$\\sqrt {3y} - x + 3 + 2\\sqrt 3 = 0$$",
+      "$$\\sqrt {3y} + x - 3 + 2\\sqrt 3 = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6dtnvpw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_011",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider three points $$P = ( - \\sin (\\beta - \\alpha ), - cos\\beta ),Q = (cos(\\beta - \\alpha ),\\sin \\beta )$$ and $$R = (\\cos (\\beta - \\alpha + \\theta ),\\sin (\\beta - \\theta ))$$ where $$0 < \\alpha ,\\beta ,\\theta < {\\pi \\over 4}$$. Then :",
+    "solution": "$$\\Delta = \\left| {\\matrix{\n{\\cos (\\beta - \\alpha )} & {\\sin \\beta } & 1 \\cr\n{ - \\sin (\\beta - \\alpha )} & { - \\cos \\beta } & 1 \\cr\n{\\cos (\\beta - \\alpha - \\theta )} & {\\sin (\\beta - \\theta )} & 1 \\cr\n\n} } \\right|{R_3} \\to R(\\cos \\theta {R_1} + \\sin \\theta {R_2}) = \\left| {\\matrix{\n{\\cos (\\beta - \\alpha )} & {\\sin \\beta } & 1 \\cr\n{ - \\sin (\\beta - \\alpha )} & { - \\cos \\beta } & 1 \\cr\n0 & 0 & {1 - (\\cos \\theta + \\sin \\theta )} \\cr\n\n} } \\right| = - [1 - (\\cos \\theta + \\sin \\theta )]\\cos (2\\beta - \\alpha )\ne 0 = 2\\beta < {\\pi \\over 2}$$ and $$\\alpha > 0 \\Rightarrow (2\\beta - \\alpha ) < {\\pi \\over 2} \\Rightarrow \\cos (2\\beta - \\alpha )\ne 0$$\nAlso, since $$0 < \\theta < {\\pi \\over 2} \\Rightarrow \\cos \\theta + \\sin \\theta > 1\\Delta\ne 0\\Rightarrow$$ P, Q and R are not collinear.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "P lies on the line segment RQ",
+      "Q lies on the line segment PR",
+      "R lies on the line segment QP",
+      "P, Q, R are non-collinear"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghvnstp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_012",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the lines given by:\n$${L_1}:x + 3y - 5 = 0{L_2}:3x - ky - 1 = 0{L_3}:5x + 2y - 12 = 0$$\nMatch the Statement/Expressions in Column I with the Statements/Expressions in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nL$$_1$$, L$$_2$$, L$$_3$$ are concurrent, if\n(P)\n$$K = - 9$$\n\n\n(B)\nOne of L$$_1$$, L$$_2$$, L$$_3$$ is parallel to atleast one of the other two, if\n(Q)\n$$K = - {6 \\over 5}$$\n\n\n(C)\nL$$_1$$, L$$_2$$, L$$_3$$ form a triangle, if\n(R)\n$$K = {5 \\over 6}$$\n\n\n(D)\nL$$_1$$, L$$_2$$, L$$_3$$ do not form a triangle, if\n(S)\n$$K = 5$$",
+    "solution": "We have,\n(A)\n$${L_1}:x + 3y - 5 = 0{L_2}:3x - ky - 1 = 0{L_3}:5x + 2y - 12 = 0$$\nPoint of intersection of L$$_1$$ and L$$_2$$ is (2, 1)\nIf lines are concurrent, then (2, 1) will satisfy L$$_2\\Rightarrow 3(2)-k(1)-1=0k=5$$\n(A) $$\\to$$ (iv)\n(B) If L$$_1$$ and L$$_2$$ are parallel\n$${3 \\over 1} = {{ - k} \\over 3}\ne {{ - 1} \\over { - 5}} \\Rightarrow k - 9$$\nIf L$$_2$$ and L$$_3$$ are parallel\n$${3 \\over 5} = {{ - k} \\over 2}k = {{ - 6} \\over 5}$$\n(B) $$\\to$$ (i, ii)\n(C) As lines form a triangle, they cannot be concurrent and no two of them are parallel.\n$$\\Rightarrow k\ne5,-9,\\frac{-6}{5}\\Rightarrow k=\\frac{5}{6}$$\n(C) $$\\to$$ (iii)\n(D) If the lines do not form a triangle then\n$$k=5,-9,\\frac{-6}{5}$$\n(D) $$\\to$$ (i, ii, iv)",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "A - iv; B - ii; C - iii; D - i, ii",
+      "A - iv; B - i, ii; C - iii; D - i, ii, iv",
+      "A - iv; B - i; C - iii; D - i, ii",
+      "A - ii; B - i, iii; C - iii; D - i, ii, iv"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghvnstp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_013",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a and b be non-zero real numbers. Then, the equation\n\n$$(a{x^2} + b{y^2} + c)({x^2} - 5xy + 6{y^2}) = 0$$ represents :",
+    "solution": "Let a and b be non-zero real numbers.\nTherefore, the given equation $$(a{x^2} + b{y^2} + c)({x^2} - 5xy + 6{y^2}) = 0$$ implies either\n$${x^2} - 5xy + 6{y^2} = 0(x - 2y)(x - 3y) = 0x = 2y$$ and $$x = 3y$$ represent two straight line passing through origin or $$a{x^2} + b{y^2} + c = 0$$ when c = 0 and a and b are of same signs then\n$$a{x^2} + b{y^2} + c = 0y=0$$\nWhich is a point specified as the origin. When a = b and c is of sign opposite to that of a $$a{x^2} + b{y^2} + c = 0$$ represent a circle.\nHence, the given equation,\n$$(a{x^2} + b{y^2} + c)({x^2} - 5xy + 6{y^2}) = 0$$\nMay represent two straight lines and a circle.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "four straight lines, when c = 0 and a, b are of the same sign",
+      "two straight lines and a circle, when a = b, and c is of sign opposite to that of a",
+      "two straight lines and a hyperbola, when a and b are of the same sign and c is of sign opposite to that of a",
+      "a circle and an ellipse, when a and b are of the same sign and c is of sign opposite to that of a"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghvnstp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_014",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\mathrm{O(0,0), P(3,4), Q(6,0)}$$ be the vertices of the triangle OPQ. The point R inside the triangle OPQ is such that the triangles OPR, PQR, OQR are of equal area. The coordinates of R are",
+    "solution": "[Diagram]\n\n$$\\because$$ ar. $$(\\triangle \\mathrm{OPR}=$$ ar. $$(\\triangle \\mathrm{PQR})=$$ ar. $$(\\triangle \\mathrm{OQR})$$\nR should be the centroid of $$\\triangle \\mathrm{OPQ}\n\\begin{aligned}R(x, y) & =\\left(\\frac{0+3+6}{3}, \\frac{0+4+0}{3}\\right) \\\\\n& =\\left(\\frac{9}{3}, \\frac{4}{3}\\right) \\\\\n& =\\left(3, \\frac{4}{3}\\right)\n\\end{aligned}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left(\\frac{4}{3}, 3\\right)$$",
+      "$$\\left(3, \\frac{2}{3}\\right)$$",
+      "$$\\left(3, \\frac{4}{3}\\right)$$",
+      "$$\\left(\\frac{4}{3}, \\frac{2}{3}\\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mghvnstp.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_015",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Lines $$\\mathrm{L}_{1}: y-x=0$$ and $$\\mathrm{L}_{2}: 2 x+y=0$$ intersect the line $$\\mathrm{L}_{3}: y+2=0$$ at $$\\mathrm{P}$$ and $$\\mathrm{Q}$$, respectively. The bisector of the acute angle between $$L_{1}$$ and $$L_{2}$$ intersects $$L_{3}$$ at $$R$$.\n**STATEMENT - 1 :** The ratio PR : RQ equals $$2 \\sqrt{2}: \\sqrt{5}$$.\n**STATEMENT - 2 :** In any triangle, bisector of an angle divides the triangle into two similar triangles.",
+    "solution": "Intersection of $$\\mathrm{L}_{1}$$ and $$\\mathrm{L}_{3}$$ is $$\\mathrm{P}=(-2,-2)$$\nIntersection of $$\\mathrm{L}_{2}$$ and $$\\mathrm{L}_{3}$$ is $$\\mathrm{Q}=(1,-2)$$\nNow, Intersection of $$\\mathrm{L}_{1}$$ and $$\\mathrm{L}_{2}$$ is $$\\mathrm{O}(0,0)$$ equation of angular bisector of $$\\triangle \\mathrm{OPQ}$$ will be $$(\\sqrt{5}+2 \\sqrt{2}) x=(\\sqrt{5}-\\sqrt{2}) y$$\nIn $$\\triangle \\mathrm{OPQ}$$, angle of bisector of $$\\mathrm{O}$$ divides $$\\mathrm{PQ}$$ in the ratio of OP : OQ which is $$2 \\sqrt{2}: \\sqrt{5}$$ but it does not divide triangle into two similar triangle. Statement 1 is true, statements 2 is false.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is true; Statement-2 is a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrn04l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_016",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the following linear equations\n$$ax + by + cz = 0bx + cy + az = 0cx + ay + bz = 0$$\nMatch the conditions/expressions in Column I with statements in Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$a + b + c\ne 0$$ and $${a^2} + {b^2} + {c^2} = ab + bc + ca$$\n(P)\nthe equations represent planes meeting only at a single point.\n\n\n(B)\n$$a + b + c = 0$$ and $${a^2} + {b^2} + {c^2}\ne ab + bc + ca$$\n(Q)\nthe equations represent the line $$x=y=z$$.\n\n\n(C)\n$$a + b + c\ne 0$$ and $${a^2} + {b^2} + {c^2}\ne ab + bc + ca$$\n(R)\nthe equations represent identical planes.\n\n\n(D)\n$$a + b + c = 0$$ and $${a^2} + {b^2} + {c^2} = ab + bc + ca$$\n(S)\nthe equations represent the whole of the three dimensional space.",
+    "solution": "The given system can be written as\n(A) AX = 0\nWhere $$A = \\left( {\\matrix{\na & b & c \\cr\nb & c & a \\cr\nc & a & b \\cr\n\n} } \\right),X = \\left( {\\matrix{\nx \\cr\ny \\cr\nz \\cr\n\n} } \\right)|A| = \\left| {\\matrix{\na & b & c \\cr\nb & c & a \\cr\nc & a & b \\cr\n\n} } \\right| = (a + b + c)\\left| {\\matrix{\n1 & b & c \\cr\n1 & c & a \\cr\n1 & a & b \\cr\n\n} } \\right| = (a + b + c)\\left| {\\matrix{\n1 & b & c \\cr\n0 & {c - b} & {a - c} \\cr\n0 & {a - b} & {b - c} \\cr\n\n} } \\right|$$\nR$$_2\\to$$ R$$_2-$$ R$$_1$$, R$$_3\\to$$ R$$_3-$$ R$$_1 = (a + b + c)(bc + ac + ab - {a^2} - {b^2} - {c^2}) = {1 \\over 2}(a + b + c)[{(b - c)^2} + {(c - a)^2} + {(a - b)^2}]$$\nIf $$a + b + c\ne 0$$ and $${a^2} + {b^2} + {c^2} = bc + ca + ab$$ then $$a = b = c\ne 0$$\nThus, three equation represent identical planes $$x + y + z = 0$$\n(B) If $$a + b + c = 0$$ we get two equations as\n$$ax + by = (a + b)zbx + cy = (b + c)z$$\nEliminating y, we have $$(ac - {b^2})x = (ac - {b^2})zx = z$$\nputting $$x = z$$ in first equation, we get\n$$ax + by + cx = 0by = - (a + c)x = bxy = x$$\nhence, $$x = y = z$$\n(C) If $$a + b + c\ne 0{a^2} + {b^2} + {c^2}\ne ab + bc + ca$$ then $$|A|\ne 0$$\nSo, only solution is\n$$x = y = z = 0$$\n(D) If $$a + b + c = 0,{a^2} + {b^2} + {c^2} = ab + bc + ca{(b - c)^2} + {(c - a)^2} + {(a - b)^2} = 0a = b = ca = b = c = 0$$\nThus, the system represents the whole three dimensional space.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "A - (q), B - (r), C - (p), D - (s)",
+      "A - (r), B - (q), C - (s), D - (p)",
+      "A - (r), B - (p), C - (q), D - (s)",
+      "A - (r), B - (q), C - (p), D - (s)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrn04l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_017",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of the triangle formed by the intersection of a line parallel to X-axis and passing through $$(h, k)$$ with the lines $$y=x$$ and $$x+y=2$$ is $$4 h^{2}$$. Find the locus of point $$P$$.",
+    "solution": "Locus of point is $$2 x= \\pm(y-1)$$.\nHere the triangle formed by a line parallel to $$X$$-axis passing through $$\\mathrm{P}(h, k)$$ and the straight line $$y=x$$ and $$y=2-x$$ could be shown below.\n\n[Diagram]\n\nHere, area of $$\\Delta$$ABC = $$4h^2$$\nand also $$\\triangle$$ABC is right angled at A.\n$$\\frac{1}{2} \\mathrm{AB} \\cdot \\mathrm{AC}=4 h^{2}$$\nWhere, $$\\quad \\mathrm{AB}=\\sqrt{2(k-1)^{2}}=\\sqrt{2}[k-1]$$\nand\n$$\\begin{aligned}\n\\mathrm{AC}= & \\sqrt{(2-k-1)^{2}+(k-1)^{2}} \\\\\n= & \\sqrt{2(k-1)^{2}}=\\sqrt{2}[k-1] \\\\& \\because(1-k)^{2}=(k-1)^{2}\\end{aligned}$$\nNow, $$\\frac{1}{2} \\times \\sqrt{2}|k-1| \\cdot \\sqrt{2}|k-1|=4 h^{2}\\Rightarrow \\quad(k-1)^{2}=4 h^{2}\\Rightarrow \\quad 2 h= \\pm(k-1)$$\nThe locus of a point is\n$$2 x= \\pm(y-1)$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$3x=\\pm~(y-1)$$",
+      "$$x=\\pm~3(y-1)$$",
+      "$$2x=\\pm~(y-1)$$",
+      "$$x=\\pm~5(y-1)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdrn04l.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_018",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Area of the triangle formed by the line $$x + y = 3$$ and angle bisectors of the pair of straight line $${x^2} - {y^2} + 2y = 1$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2 sq. units",
+      "4 sq. units",
+      "6 sq. units",
+      "8 sq. units"
+    ]
+  },
+  {
+    "id": "math_straight_lines_019",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Orthocentre of triangle with vertices $$\\left( {0,0} \\right),\\left( {3,4} \\right)$$ and $$\\left( {4,0} \\right)$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\,\\,\\left( {3,{5 \\over 4}} \\right)$$",
+      "$$\\left( {3,12} \\right)$$",
+      "$$\\left( {3,{3 \\over 4}} \\right)$$",
+      "$$\\left( {3,9} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_020",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of integral points (integral point means both the coordinates should be integer) exactly in the interior of the triangle with vertices $$\\left( {0,0} \\right),\\left( {0,21} \\right)$$ and $$\\left( {21,0} \\right)$$, is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "133",
+      "190",
+      "233",
+      "105"
+    ]
+  },
+  {
+    "id": "math_straight_lines_021",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$0 < \\alpha < {\\pi \\over 2}$$ be fixed angle. If $$P = \\left( {\\cos \\theta ,\\,\\sin \\theta } \\right)$$ and $$Q = \\left( {\\cos \\left( {\\alpha - \\theta } \\right),\\,\\sin \\left( {\\alpha - \\theta } \\right)} \\right),$$ then $$Q$$ is obtained from $$P$$ by",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "clockwise rotation around origin through an angle $$\\alpha $$",
+      "anticlockwise rotation around origin through an angle $$\\alpha $$",
+      "reflection in the line through origin with slope tan $$\\alpha $$",
+      "reflection in the line through origin with slope tan $$\\left( {\\alpha /2} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_022",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line through the origin $$O$$ meets the parallel lines $$4x+2y=9$$ and $$2x+y+6=0$$ at points $$P$$ and $$Q$$ respectively. Then the point $$O$$ divides the segemnt $$PQ$$ in the ratio",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$1 : 2$$",
+      "$$3 : 4$$",
+      "$$2 : 1$$",
+      "$$4 : 3$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_023",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$P = \\left( { - 1,\\,0} \\right),\\,Q = \\left( {0,\\,0} \\right)$$ and $$R = \\left( {3,\\,3\\sqrt 3 } \\right)$$ be three points.\n\nThen the equation of the bisector of the angle $$PQR$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${{\\sqrt 3 } \\over 2}x + y = 0$$",
+      "$$x + \\sqrt 3 y = 0$$",
+      "$$\\sqrt 3 x + y = 0$$",
+      "$$x + {{\\sqrt 3 } \\over 2}y = 0$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_024",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The pair of lines represented by\n\n$$3a{x^2} + 5xy + \\left( {{a^2} - 2} \\right){y^2} = 0$$ are perpendicular to each other for",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "two values of $$a$$",
+      "$$\\forall \\,a$$",
+      "for one values of $$a$$",
+      "for no values of $$a$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_025",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the pair of lines $$a{x^2} + 2hxy + b{y^2} + 2gx + 2fy + c = 0$$ intersect on the $$y$$ axis then",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$2fgh = b{g^2} + c{h^2}$$",
+      "$$b{g^2}\ne c{h^2}$$",
+      "$$\\,abc = 2fgh$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_straight_lines_026",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Locus of mid point of the portion between the axes of $$x\\cos \\alpha + y\\sin \\alpha = p$$ where $$p$$ is constant is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${x^2} + {y^2} = {4 \\over {{p^2}}}\\,\\,\\,$$",
+      "$${x^2} + {y^2} = 4{p^2}$$",
+      "$${1 \\over {{x^2}}} + {1 \\over {{y^2}}} = {2 \\over {{p^2}}}$$",
+      "$${1 \\over {{x^2}}} + {1 \\over {{y^2}}} = {4 \\over {{p^2}}}$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_027",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A triangle with vertices $$(4, 0), (-1, -1), (3, 5)$$is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "isosceles and right angled",
+      "isosceles but not right angled",
+      "right angled but not isosceles",
+      "neither right angled nor isosceles"
+    ]
+  },
+  {
+    "id": "math_straight_lines_028",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Area of the parallelogram formed by the lines $$y = mx$$, $$y = mx + 1$$, $$y = nx$$ and $$y = nx + 1$$ equals",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left| {m + n} \\right|/{\\left( {m - n} \\right)^2}$$",
+      "$$2/\\left| {m + n} \\right|$$",
+      "$$1/\\left( {\\left| {m + n} \\right|} \\right)$$",
+      "$$1/\\left( {\\left| {m - n} \\right|} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_029",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of integer values of $$m$$, for which the $$x$$-coordinate of the point of intersection of the lines $$3x + 4y = 9$$ and $$y = mx + 1$$ is also an integer, is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2",
+      "0",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "math_straight_lines_030",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The incentre of the triangle with vertices $$\\left( {1,\\,\\sqrt 3 } \\right),\\left( {0,\\,0} \\right)$$ and $$\\left( {2,\\,0} \\right)$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {1,\\,{{\\sqrt 3 } \\over 2}} \\right)$$",
+      "$$\\left( {{2 \\over 3},\\,{1 \\over {\\sqrt 3 }}} \\right)$$",
+      "$$\\left( {{2 \\over 3},\\,{{\\sqrt 3 } \\over 2}} \\right)$$",
+      "$$\\left( {1,\\,{1 \\over {\\sqrt 3 }}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_031",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$PS$$ be the median of the triangle with vertices $$P(2, 2),Q(6, -1)$$ and $$R(7, 3).$$ The equation of the line passing through $$(1, -1)$$ and parallel to $$PS$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$2x - 9y - 7 = 0$$",
+      "$$2x - 9y - 11 = 0$$",
+      "$$2x + 9y - 11 = 0$$",
+      "$$2x + 9y + 7 = 0$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_032",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Lt $$PQR$$ be a right angled isosceles triangle, right angled at $$P(2, 1)$$. If the equation of the line $$QR$$ is $$2x + y = 3,$$ then the equation representing the pair of lines $$PQ$$ and $$PR$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$3{x^2} - 3{y^2} + 8xy + 20x + 10y + 25 = 0$$",
+      "$$3{x^2} - 3{y^2} + 8xy - 20x - 10y + 25 = 0$$",
+      "$$3{x^2} - 3{y^2} + 8xy + 10x + 15y + 20 = 0$$",
+      "$$3{x^2} - 3{y^2} - 8xy - 10x - 15y - 20 = 0$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_033",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $${x_1},\\,{x_2},\\,{x_3}$$ as well as $${y_1},\\,{y_2},\\,{y_3}$$, are in G.P. with the same common ratio, then the points $$\\left( {{x_1},\\,{y_1}} \\right),\\left( {{x_2},\\,{y_2}} \\right)$$ and $$\\left( {{x_3},\\,{y_3}} \\right).$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "lie on a straight line",
+      "lie on an ellipse",
+      "lie on a circle",
+      "are vertices of a triangle"
+    ]
+  },
+  {
+    "id": "math_straight_lines_034",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\left( {P\\left( {1,2} \\right),\\,Q\\left( {4,6} \\right),\\,R\\left( {5,7} \\right)} \\right)$$ and $$S\\left( {a,b} \\right)$$ are the vertices of a parrallelogram $$PQRS,$$ then",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$a = 2,\\,b = 4$$",
+      "$$a = 3,\\,b = 4$$",
+      "$$a = 2,\\,b = 3$$",
+      "$$a = 3,\\,b = 5$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_035",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The diagonals of a parralleogram $$PQRS$$ are along the lines $$x + 3y = 4$$ and $$6x - 2y = 7$$. Then $$PQRS$$ must be a.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "rectangle",
+      "square",
+      "cyclic quadrilateral",
+      "rhombus."
+    ]
+  },
+  {
+    "id": "math_straight_lines_036",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The orthocentre of the triangle formed by the lines $$xy=0$$ and $$x+y=1$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( {{1 \\over 2},\\,{1 \\over 2}} \\right)$$",
+      "$$\\left( {{1 \\over 3},\\,{1 \\over 3}} \\right)$$",
+      "$$\\left( {0,\\,0} \\right)$$",
+      "$$\\left( {{1 \\over 4},\\,{1 \\over 4}} \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_037",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of a variable point whose distance from $$\\left( { - 2,\\,0} \\right)$$ is $$2/3$$ times its distance from the line $$x = - {9 \\over 2}$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "ellipse -",
+      "parabola",
+      "hyperbola",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_straight_lines_038",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equations to a pair of opposites sides of parallelogram are $${x^2} - 5x + 6 = 0$$ and $${y^2} - 6y + 5 = 0,$$ the equations to its diagonals are",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$x + 4y = 13,\\,y = 4x - 7$$",
+      "$$4x + y = 13,\\,4y = x - 7$$",
+      "$$4x + y = 13,\\,y = 4x - 7$$",
+      "$$y - 4x = 13,\\,y + 4x = 7$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_039",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the sum of the distances of a point from two perpendicular lines in a plane is 1, then its locus is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "square",
+      "circle",
+      "straight line",
+      "two intersecting lines"
+    ]
+  },
+  {
+    "id": "math_straight_lines_040",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Line $$L$$ has intercepts $$a$$ and $$b$$ on the coordinate axes. When the axes are rotated through a given angle, keeping the origin fixed, the same line $$L$$ has intercepts $$p$$ and $$q$$, then",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${a^2} + {b^2} = {p^2} + {q^2}$$",
+      "$${1 \\over {{a^2}}} + {1 \\over {{b^2}}} = {1 \\over {{p^2}}} + {1 \\over {{q^2}}}$$",
+      "$${a^2} + {p^2} = {b^2} + {q^2}$$",
+      "$${1 \\over {{a^2}}} + {1 \\over {{p^2}}} = {1 \\over {{b^2}}} + {1 \\over {{q^2}}}$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_041",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$P=(1, 0),Q=(-1, 0)$$ and $$R=(2, 0)$$ are three given points, then locus of the point $$S$$ satisfying the relation $$S{Q^2} + S{R^2} = 2S{P^2},$$ is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "a straight line parallel to x-axis",
+      "a circle passing through the origin",
+      "a circle with the centre at the origin",
+      "a straight line parallel to y-axis."
+    ]
+  },
+  {
+    "id": "math_straight_lines_042",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The points $$\\left( {0,{8 \\over 3}} \\right),\\,\\,\\left( {1,\\,3} \\right)$$ and $$\\left( {82,\\,30} \\right)$$ are vertices of",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "an obtuse angled triangle",
+      "an acute angled triangle",
+      "a right angled triangle",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_straight_lines_043",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A vector $$\\overline a $$ has components $$2p$$ and $$1$$ with respect to a rectangular cartesian system. This system is rotated through a certain angle about the origin in the counter clockwise sense. If, with respect to the new system, $$\\overline a $$ has components $$p + 1$$ and $$1$$, then",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$p = 0$$",
+      "$$p = 1$$ or $$p = - {1 \\over 3}$$",
+      "$$\\,p = - 1$$ or $$p = {1 \\over 3}$$",
+      "$$p = 1$$ or $$p = -1$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_044",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The straight lines $$x + y = 0,\\,3x + y - 4 = 0,\\,x + 3y - 4 = 0$$ form a triangle which is",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "isosceles",
+      "equilateral",
+      "right angled",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_straight_lines_045",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The point $$\\,\\left( {4,\\,1} \\right)$$ undergoes the following three transformations successively.\n\nReflection about the line $$y=x$$.\n\nTranslation through a distance 2 units along the positive direction of x-axis.\n\nRotation through an angle $$p/4$$ about the origin in the counter clockwise direction.\n\nThen the final position of the point is given by the coordinates.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( {{1 \\over {\\sqrt 2 }},{7 \\over {\\sqrt 2 }}} \\right)$$",
+      "$$\\left( { - \\sqrt 2 ,\\,7\\sqrt 2 } \\right)$$",
+      "$$\\left( { - {1 \\over {\\sqrt 2 }},{7 \\over {\\sqrt 2 }}} \\right)$$",
+      "$$\\left( { \\sqrt 2 ,\\,7\\sqrt 2 } \\right)$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_046",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The points $$\\left( { - a,\\, - b} \\right),\\,\\left( {0,\\,0} \\right),\\,\\left( {a,\\,b} \\right)$$ and $$\\left( {{a^2},\\,ab} \\right)$$ are :",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Collinear",
+      "Vertices of a parallelogram",
+      "Vertices of a rectangle",
+      "None of these"
+    ]
+  },
+  {
+    "id": "math_straight_lines_047",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the lines L$_{1}$ and L$_{2}$ defined by\n\n$${L_1}:x\\sqrt 2 + y - 1 = 0$$ and $${L_2}:x\\sqrt 2 - y + 1 = 0$$\n\nFor a fixed constant $$\\lambda$$, let C be the locus of a point P such that the product of the distance of P from L$_{1}$ and the distance of P from L$_{2}$ is $$\\lambda$$$^{2}$. The line y = 2x + 1 meets C at two points R and S, where the distance between R and S is $$\\sqrt {270} $$. Let the perpendicular bisector of RS meet C at two distinct points R' and S'. Let D be the square of the distance between R' and S'.\n\nThe value of D is __________.",
+    "solution": "According to the question,\n\n$$C:\\left| {{{x\\sqrt 2 + y - 1} \\over {\\sqrt 3 }}} \\right|\\left| {{{x\\sqrt 2 - y + 1} \\over {\\sqrt 3 }}} \\right| = {\\lambda ^2} \\Rightarrow C:{{\\left| {{{(x\\sqrt 2 )}^2} - {{(y - 1)}^2}} \\right|} \\over {\\sqrt 3 \\times \\sqrt 3 }} = {\\lambda ^2} \\Rightarrow C:\\left| {2{x^2} - {{(y - 1)}^2}} \\right| = 3{\\lambda ^2}$$\n\nLet R $$\\equiv$$ (x$_{1}$, y$_{1}$) and S(x$_{2}$, y$_{2}$)\n\n$$\\because$$ C cuts y $$-$$ 1 = 2x at R and S.\n\nSo, $$\\left| {2{x^2} - 4{x^2}} \\right| = 3{\\lambda ^2} \\Rightarrow x = \\pm \\sqrt {{3 \\over 2}} \\left| \\lambda \\right|\\therefore\\left| {{x_1} - {x_2}} \\right| = \\sqrt 6 \\left| \\lambda \\right|$$\n\nand $$\\left| {{y_1} - {y_2}} \\right| = 2\\left| {{x_1} - {x_2}} \\right| = 2\\sqrt 6 \\left| \\lambda \\right|\\because$$ RS$^{2}$ = 270 (given)\n\n$$ \\Rightarrow {({x_1} - {x_2})^2} + {({y_1} - {y_2})^2} = 270 \\Rightarrow {(\\sqrt 6 \\lambda )^2} + {(2\\sqrt 6 \\left| \\lambda \\right|)^2} = 270 \\Rightarrow 30{\\lambda ^2} = 270 \\Rightarrow {\\lambda ^2} = 9$$\n\nNow, mid-point of RS is $$\\left( {{{{x_1} + {x_2}} \\over 2},{{{y_1} + {y_2}} \\over 2}} \\right) \\equiv (0,1)$$ and slope of RS = 2 and slope of $$R'S' = {{ - 1} \\over 2}\\therefore$$ Equation of $$R'S':y - 1 = - {1 \\over 2}x$$ i.e. 2y $$-$$ 2 = $$-$$x\n\n$$ \\Rightarrow x + 2y - 2 = 0$$\n\nOn solving x + 2y $$-$$ 2 = 0 with C, we get\n\n$${x^2} = {{12} \\over 7}{\\lambda ^2} \\Rightarrow \\left| {{x_1} - {x_2}} \\right| = 2\\sqrt {{{12} \\over 7}} \\left| \\lambda \\right|$$\n\nand $$\\left| {{y_1} - {y_2}} \\right| = {1 \\over 2}\\left| {{x_1} - {x_2}} \\right| = \\sqrt {{{12} \\over 7}} \\left| \\lambda \\right|$$\n\nHence, $$D \\equiv {(R'S')^2} = {({x_1} - {x_2})^2} + {({y_1} - {y_2})^2} = {{12} \\over 7} \\times 9 \\times 5 = {{12 \\times 45} \\over 7} \\approx 77.14$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_048",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a point $$P$$ in the plane, Let $${d_1}\\left( P \\right)$$ and $${d_2}\\left( P \\right)$$ be the distance of the point $$P$$ from the lines $$x - y = 0$$ and $$x + y = 0$$ respectively. The area of the region $$R$$ consisting of all points $$P$$ lying in the first quadrant of the plane and satisfying $$2 \\le {d_1}\\left( P \\right) + {d_2}\\left( P \\right) \\le 4$$, is",
+    "solution": "[Diagram]\n\nLet $P(X, Y)$ is the point in first quadrant.\n\nNow, $2 \\leq\\left|\\frac{x-y}{\\sqrt{2}}\\right|+\\left|\\frac{x+y}{\\sqrt{2}}\\right| \\leq 4$\n\n$$2 \\sqrt{2} \\leq|x-y|+|x+y| \\leq 4 \\sqrt{2}$$\n\n**Case I :** $x \\geq y$\n\n$\\begin{array}{rlrl}2 \\sqrt{2} \\leq(x-y)+(x+y) \\leq 4 \\sqrt{2} \\\\\\\\ \\Rightarrow x \\in[\\sqrt{2}, 2 \\sqrt{2}]\\end{array}$\n\n**Case II :** $x < y$\n\n$\\begin{aligned} 2 \\sqrt{2} & \\leq y-x+(x+y) \\leq 4 \\sqrt{2} \\\\\\\\ y & \\in[\\sqrt{2}, 2 \\sqrt{2}]\\end{aligned}$\n\n$\\Rightarrow A=(2 \\sqrt{2})^2-(\\sqrt{2})^2=6$ sq units",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1luxpr1c1.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_straight_lines_049",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${L_1}$$ be a straight line passing through the origin and $${L_2}$$ be the straight line $$x + y = 1$$. If the intercepts made by the circle $${x^2} + {y^2} - x + 3y = 0$$ on $${L_1}$$ and $${L_2}$$ are equal, then which of the following equations can represent $${L_1}$$?",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$x + y = 0$$",
+      "$$x -y = 0$$",
+      "$$x + 7y = 0$$",
+      "$$x - 7y = 0$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_050",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the vertices $$P, Q, R$$ of a triangle $$PQR$$ are rational points, which of the following points of the triangle $$PQR$$ is (are) always rational point(s)?",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "centroid ( A rational point is a point both of whose co-ordinates are rational numbers.)",
+      "incentre. ( A rational point is a point both of whose co-ordinates are rational numbers.)",
+      "circumcentre ( A rational point is a point both of whose co-ordinates are rational numbers.)",
+      "orthocentre ( A rational point is a point both of whose co-ordinates are rational numbers.)"
+    ]
+  },
+  {
+    "id": "math_straight_lines_051",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "All points lying inside the triangle formed by the points $$\\left( {1,\\,3} \\right),\\,\\left( {5,\\,0} \\right)$$ and $$\\left( { - 1,\\,2} \\right)$$ satisfy",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$3x + 2y \\ge 0$$",
+      "$$2x + y - 13 \\ge 0$$",
+      "$$2x - 3y - 12 \\le 0$$",
+      "$$ - 2x + y \\ge 0$$"
+    ]
+  },
+  {
+    "id": "math_straight_lines_052",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three lines $$px + qy + r = 0$$, $$qx + ry + p = 0$$ and $$rx + py + q = 0$$ are concurrent if",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "$$p + q + r = 0$$",
+      "$${p^2} + {q^2} + {r^2} = qr + rp + pq$$",
+      "$${p^3} + {q^3} + {r^3} = 3pqr$$",
+      "none of these."
+    ]
+  },
+  {
+    "id": "math_straight_lines_053",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line $$L$$ with negative slope passes through the point $$(8, 2)$$ and cuts the positive coordinate axes at points $$P$$ and $$Q$$. Find the absolute minimum value of $$OP + OQ,$$ as $$L$$ varies, where $$O$$ is the origin.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_054",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line $$L$$ through the origin meets the lines $$x + y = 1$$ and $$x + y = 3$$ at $$P $$ and $$Q$$ respectively. Through $$P$$ and $$Q$$ two straight lines $${L_1}$$ and $${L_2}$$ are drawn, parallel to $$2x - y = 5$$ and $$3x + y = 5$$ respectively. Lines $${L_1}$$ and $${L_2}$$ intersect at $$R$$. Show that the locus of $$R$$, as $$L$$ varies is a straight line.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_055",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$a, b, c$$ be real numbers with $${a^2} + {b^2} + {c^2} = 1.$$ Show that\nthe equation $$\\left| {\\matrix{\n{ax - by - c} & {bx + ay} & {cx + a} \\cr\n{bx + ay} & { - ax + by - c} & {cy + b} \\cr\n{cx + a} & {cy + b} & { - ax - by + c} \\cr\n\n} } \\right| = 0$$\n\nrepresents a straight line.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_056",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$ABC$$ and $$PQR$$ be any two triangles in the same plane. Assume that the prependiculars from the points $$A, B, C$$ to the sides $$QR, RP, PQ$$ respectively are concurrent. Using vector methods or otherwise, prove that the prependiculars from $$P, Q, R $$ to $$BC,CA$$, $$AB$$ respectively are also concurrent.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_057",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For points $$P\\,\\,\\, = \\left( {{x_1},\\,{y_1}} \\right)$$ and $$Q\\,\\,\\, = \\left( {{x_2},\\,{y_2}} \\right)$$ of the co-ordinate plane, a new distance $$d\\left( {P,\\,Q} \\right)$$ is defined by $$d\\left( {P,\\,Q} \\right) = \\left( {{x_2},\\,{y_2}} \\right)\\left| {{x_1} - {x_2}} \\right| + \\left| {{y_1} - {y_2}} \\right|.$$ Let $$O = (0, 0)$$ and $$A = (3, 2)$$. Prove that the set of points in the first quadrant which are equidistant (with respect to the new distance) from $$O$$ and $$A$$ consists of the union of a line segment of finite length and an infinite ray. Sketch this set in a labelled diagram.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_058",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Using co-ordinate geometry, prove that the three altitudes of any triangle are concurrent.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_059",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A rectangle $$PQRS$$ has its side $$PQ$$ parallel to the line $$y = mx$$ and vertices $$P, Q$$ and $$S$$ on the lines $$y = a, x = b$$ and $$x = -b,$$ respectively. Find the locus of the vertex $$R$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_060",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tagent at a point $${P_1}$$ {other than $$(0, 0)$$} on the curve $$y = {x^3}$$ meets the curve again at $${P_2}$$. The tangent at $${P_2}$$ meets the curve at $${P_3}$$, and so on. Show that the abscissae of $${P_1},\\,{P_2},{P_3}......{P_n},$$ form a G.P. Also find the ratio.\n[area $$\\left( {\\Delta {P_1},{P_2},{P_3}} \\right)$$]/[area $$\\left( {{P_2},{P_3},{P_4}} \\right)$$]",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_061",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A line through $$A (-5, -4)$$ meets the line $$x + 3y + 2 = 0,2x + y + 4 = 0$$ and $$x - y - 5 = 0$$ at the points $$B, C$$ and $$D$$ respectively. If $${\\left( {15/AB} \\right)^2} + {\\left( {10/AC} \\right)^2} = {\\left( {6/AD} \\right)^2},$$ find the equation of the line.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_062",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Determine all values of $$\\alpha $$ for which the point $$\\left( {\\alpha ,\\,{\\alpha ^2}} \\right)$$ lies insides the triangle formed by the lines\n$$$\\matrix{\n{2x + 3y - 1 = 0} \\cr\n{x + 2y - 3 = 0} \\cr\n{5x - 6y - 1 = 0} \\cr\n\n} $$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_063",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Show that all chords of the curve $$3{x^2} - {y^2} - 2x + 4y = 0,$$ which subtend a right angle at the origin, pass through a fixed point. Find the coordinates of the point.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_064",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equation of the line passing through the point $$(2, 3)$$ and making intercept of length 2 units between the lines $$y + 2x = 3$$ and $$y + 2x = 5$$.\n\n[Diagram]",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_065",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A line cuts the $$x$$-axis at $$A (7, 0)$$ and the $$y$$-axis at $$B (0, -5)$$. A variable line $$PQ$$ is drawn perpendicular to $$AB$$ cutting the $$x$$axis in $$P$$ and they $$Y$$-axis in $$Q$$. If $$AQ$$ and $$BP$$ intersect at $$R$$, find the locus of R.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_066",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Straight lines $$3x + 4y = 5$$ and $$4x - 3y = 15$$ intersect at the point $$A$$. Points $$B$$ and $$C$$ are choosen on these two lines such that $$AB = AC$$. Determine the possible equations of the line $$BC$$ passing through the point $$(1, 2)$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_067",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$ABC$$ be a triangle with $$AB = AC$$. If $$D$$ is the midpoint of $$BC, E$$ is the foot of the perpendicular drawn from $$D$$ to $$AC$$ and $$F$$ the mid-point of $$DE$$, prove that $$AF$$ is perpendicular to $$BE$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_068",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Lines$${L_1} = ax + by + c = 0$$ and $${L_2} = lx + my + n = 0$$ intersect at the point $$P$$ and make an angle $$\\theta $$ with each other. Find the equation of a line $$L$$ different from $${L_2}$$ which passes through $$P$$ and makes the same angle $$\\theta $$ with $${L_1}$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_069",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two sides of rhombus $$ABCD$$ are parallel to the lines $$y = x + 2$$ and $$y = 7x + 3$$. If the diagonals of the rhombus intersect at the point $$(1, 2)$$ and the vertex $$A$$ is on the $$y$$-axis, find possible co-ordinates of $$A$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_070",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One of the diameters of the circle circumscribing the rectangle $$ABCD$$ is $$4y = x + 7$$. If $$A$$ and $$B$$ are the points $$(-3, 4)$$ and $$(5, 4)$$ respectively, then find the area of rectangle.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_071",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two equal sides of an isosceles triangle are given by the equations $$7x - y + 3 = 0$$ and $$x + y - 3 = 0$$ and its thirds side passes through the point $$(1, -10)$$. Determine the equation of the third side.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_072",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The end $$A, B$$ of a straight line segment of constant length $$c$$ slide upon the fixed rectangular axes $$OX, OY$$ respectively. If the rectangle $$OAPB$$ be completed, then show that the locus of the foot of the perpendicular drawn from $$P$$ to $$AB$$ is $${x^{{2 \\over 3}}} + {y^{{2 \\over 3}}} = {c^{{2 \\over 3}}}$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_073",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The coordinates of $$A, B, C$$ are $$(6, 3), (-3, 5), (4, -2)$$ respectively, and $$P$$ is any point $$(x, y)$$. Show that the ratio of the area of the triangles $$\\Delta PBC$$ and $$\\Delta ABC$$ is $$\\left| {{{x + y - 2} \\over 7}} \\right|$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_074",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The vertices of a triangle are\n$$\\left[ {a{t_1}{t_2},\\,\\,a\\left( {{t_1} + {t_2}} \\right)} \\right],\\,\\,\\left[ {a{t_2}{t_3},a\\left( {{t_2} + {t_3}} \\right)} \\right],\\,\\,\\left[ {a{t_3}{t_1},\\,a\\left( {{t_3} + {t_1}} \\right)} \\right]$$. Find the orthocentre of the triangle.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_075",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line $$L$$ is perpendicular to the line $$5x - y = 1.$$ The area of the triangle formed by the line $$L$$ and the coordinate axes is $$5$$. Find the equation of the Line $$L$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_076",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(a) Two vertices of a triangle are $$(5, -1)$$ and $$(-2, 3).$$ If the orthocentre of the triangle is the origin, find the coordinates of the third point.\n\n(b) Find the equation of the line which bisects the obtuse angle between the lines $$x - 2y + 4 = 0$$ and $$4x - 3y + 2 = 0$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_077",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One side of rectangle lies along the line $$4x + 7y + 5 = 0.$$ Two of its vertices are $$(-3, 1)$$ and $$(1, 1).$$ Find the equations of the other three sides.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_078",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A straight line segment of length $$\\ell $$ moves with its ends on two mutually perpendicular lines. Find the locus of the point which divides the line segment in the ratio $$1 : 2$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_079",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of a triangle is $$5$$. Two of its vertices are $$A\\left( {2,1} \\right)$$ and $$B\\left( {3, - 2} \\right)$$. The third vertex $$C$$ lies on $$y = x + 3$$. Find $$C$$.",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_080",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the algebraic sum of the perpendicular distances from the points $$\\left( {2,0} \\right),\\,\\left( {0,\\,2} \\right)\\left( {1,\\,1} \\right)$$ to a variable straight line be zero; then the line passes through a fixed point whose cordinates are ...............",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_081",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The orthocentre of the triangle formed by the lines $$x + y = 1,\\,2x + 3y = 6$$ and $$4x - y + 4 = 0$$ lies in quadrant number .............",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_082",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a,\\,b$$ and $$c$$ are in A.P., then the straight line $$ax + by + c = 0$$ will always pass through a fixed point whose coordinates are ...............",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_083",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Given the points $$A\\left( {0,4} \\right)$$ and $$B\\left( {0, - 4} \\right)$$, the equation of the locus of the point $$P\\left( {x,y} \\right)$$ such that $$\\left| {AP - BP} \\right| = 6$$ is .............",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_084",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The set of lines $$ax + by + c = 0,$$ where $$3a + 2b + 4c = 0$$ is concurrent at the point ..........",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_085",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$y = {10^x}$$ is the reflection of $${\\log _{10}}\\,x$$ in the line whose equation is ...........",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_086",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area enclosed within the curve $$\\left| x \\right| + \\left| y \\right| = 1$$ is .................",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_straight_lines_087",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Straight Lines",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The straight line $$5x + 4y = 0$$ passes through the point of intersection of the straight lines $$x + 2y - 10 = 0$$ and $$2x + y + 5 = 0.$$",
+    "solution": "Solution for this Straight Lines question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

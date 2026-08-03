@@ -1,0 +1,1840 @@
+[
+  {
+    "id": "chem_structure_of_atom_001",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$\\mathbf{X}^{\\boldsymbol{a}+}$ and $\\mathbf{Y}^{\\boldsymbol{b}+}$ are hydrogen-like species. The wavelength of light absorbed during the transition between the states with principal quantum numbers $n=1$ and $n=2$ of $\\mathbf{X}^{\\boldsymbol{a}+}$ is $\\lambda$. The wavelength of light absorbed during the transition between the states with principal quantum numbers $n=2$ and $n=4$ of $\\mathbf{Y}^{\\boldsymbol{b}+}$ is $9 \\lambda$. The lowest possible value of $(\\boldsymbol{a}+\\boldsymbol{b})$ is $\\_\\_\\_\\_$ .",
+    "solution": "The formula for the wavelength of light absorbed in a transition for a hydrogen-like species is:\n$$\\frac{1}{\\lambda} = R_H z^2 \\left[ \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right]$$\n**For** $ X^{a+} $:\n$$\\frac{1}{\\lambda} = R_H (z_x)^2 \\left( \\frac{1}{1^2} - \\frac{1}{2^2} \\right) \\qquad \\ldots\\ldots\\ldots (1)$$\n**For** $ Y^{b+} $:\nSince wavelength is $9\\lambda$,\n$$\\frac{1}{9\\lambda} = R_H (z_y)^2 \\left( \\frac{1}{2^2} - \\frac{1}{4^2} \\right) \\qquad \\ldots\\ldots\\ldots (2)$$\n**Dividing Equation (1) by Equation (2):**\n$$9 = \\frac{z_x^2}{z_y^2} \\times \\frac{\\left( \\frac{3}{4} \\right)}{\\left( \\frac{3}{16} \\right)}9 = \\frac{z_x^2}{z_y^2} \\times 4\\frac{z_x^2}{z_y^2} = \\frac{9}{4}\\frac{z_x}{z_y} = \\frac{3}{2}$$\n**Choosing the smallest integer values** that satisfy the ratio:\nLet $ z_x = 3 $ and $ z_y = 2 $.\nFor hydrogen-like ions, $ z = \\text{atomic number} = a + 1 $ (since one electron is left).\nThus, for $ X^{a+} $: $ a = 3 - 1 = 2 $\nAnd for $ Y^{b+} $: $ b = 2 - 1 = 1 $\n**Therefore, the lowest possible value of** $ a + b = 2 + 1 = 3 $.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_002",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The 2s and the 2p orbital energies of hydrogen atom are $E_{2s}({H})$ and $E_{2p}({H})$, respectively. The 2s and the 2p orbital energies of lithium atom are $E_{2s}({Li})$ and $E_{2p}({Li})$, respectively. The correct option(s) about the orbital energies is(are)",
+    "solution": "To compare orbital energies, we analyze hydrogen (single-electron system) and lithium (multi-electron system) separately.\n(i) Hydrogen atom (single-electron system):\n\nIn hydrogen-like species, the energy of an orbital depends only on the principal quantum number $ n $, not on $ l $. Therefore, all orbitals having the same $ n $ possess equal energy.\nHence, for hydrogen:\n$ E_{2s}(H) = E_{2p}(H) $\nSo, Option B is correct.\n(ii) Lithium atom (multi-electron system):\n\nIn multi-electron atoms, orbital energies depend on the $ (n + l) $ rule. The orbital with lower $ (n + l) $ value has lower energy. If two orbitals have the same $ n + l $, the one with lower $ n $ is lower in energy.\nFor lithium:\n\nFor $ 2s $: $ n = 2, \\, l = 0 \\Rightarrow n + l = 2 $\n\nFor $ 2p $: $ n = 2, \\, l = 1 \\Rightarrow n + l = 3 $\n\nSince $ (n + l)_{2s} < (n + l)_{2p} $, we get:\n$ E_{2s}(Li) < E_{2p}(Li) $\nThis is further supported by the fact that the $ 2s $ orbital penetrates closer to the nucleus and experiences higher effective nuclear charge, making it more stable (lower energy).\nThus, Option A is correct.\n(iii) Comparison between hydrogen and lithium:\n\nEnergy of an orbital is given by:\n$ E \\propto -\\frac{Z_{\\text{eff}}^2}{n^2} $\nIn lithium, even after shielding by two inner $ 1s $ electrons, the effective nuclear charge experienced by the $ 2s $ electron is greater than that in hydrogen. As a result, the $ 2s $ electron in lithium is more strongly attracted and has lower (more negative) energy.\nTherefore:\n$ E_{2s}(Li) < E_{2s}(H) $\nSo, Option D is also correct.\n(iv) Checking Option C:\n\nSince $ E_{2p}(H) = E_{2s}(H) $ and $ E_{2s}(Li) $ is lower than $ E_{2s}(H) $, we have:\n$ E_{2p}(H) > E_{2s}(Li) $\nThus, Option C is incorrect.\nFinal Answer: A, B and D",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "$E_{2s}({Li}) < E_{2p}({Li})$",
+      "$E_{2s}({H}) = E_{2p}({H})$",
+      "$E_{2p}({H}) < E_{2s}({Li})$",
+      "$E_{2s}({H}) > E_{2s}({Li})$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_003",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to Bohr's model, the highest kinetic energy is associated with the electron in the",
+    "solution": "According to Bohr's model of the hydrogen atom, the kinetic energy of an electron in a particular orbit is given by the expression:\n\n$$ K.E. = \\frac{1}{2}mv^2 $$\n\nWhere $m$ is the mass of the electron and $v$ is its velocity. However, a more useful expression involving only constants is:\n\n$$ K.E. = \\frac{13.6 \\, \\text{eV} \\, Z^2}{n^2} $$\n\nWhere $Z$ is the atomic number and $n$ is the principal quantum number of the orbit. This formula shows that the kinetic energy of the electron is directly proportional to the square of the atomic number $Z$ and inversely proportional to the square of the orbit number $n$.\n\nLet's analyze each option keeping the above formula in mind:\n\nOption A: First orbit of hydrogen ($\\mathrm{H}$, $Z = 1$, $n = 1$)\n\n$$ K.E. = \\frac{13.6 \\, \\text{eV} \\, (1)^2}{(1)^2} = 13.6 \\, \\text{eV} $$\n\nOption B: First orbit of $ \\mathrm{He}^{+} $ ($Z = 2$, $n = 1$)\n\n$$ K.E. = \\frac{13.6 \\, \\text{eV} \\, (2)^2}{(1)^2} = 54.4 \\, \\text{eV} $$\n\nOption C: Second orbit of $ \\mathrm{He}^{+} $ ($Z = 2$, $n = 2$)\n\n$$ K.E. = \\frac{13.6 \\, \\text{eV} \\, (2)^2}{(2)^2} = 13.6 \\, \\text{eV} $$\n\nOption D: Second orbit of $ \\mathrm{Li}^{2+} $ ($Z = 3$, $n = 2$)\n\n$$ K.E. = \\frac{13.6 \\, \\text{eV} \\, (3)^2}{(2)^2} = 30.6 \\, \\text{eV} $$\n\nFrom the above calculations, it is evident that the highest kinetic energy is associated with the electron in the first orbit of $ \\mathrm{He}^{+} $ (Option B), which is $54.4 \\, \\text{eV}$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "first orbit of $\\mathrm{H}$ atom",
+      "first orbit of $\\mathrm{He}^{+}$",
+      "second orbit of $\\mathrm{He}^{+}$",
+      "second orbit of $\\mathrm{Li}^{2+}$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_004",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the velocity (ms$^{-1}$) of electron in first Bohr's orbit of radius a$_{0}$. Also find the de Broglie's wavelength (in m). Find the orbital angular momentum of 2p orbital of hydrogen atom in units of $$h/2 \\pi$$.",
+    "solution": "For hydrogen atom;\nz = 1, n = 1\nor, v = 2.18 $$\\times$$ 10$^{6}$ ms$^{$$-$$1}$\nde-Broglie's wavelength, $$\\lambda = {h \\over {mv}} = {{6.626 \\times {{10}^{ - 34}}kg\\,{m^2}{s^{ - 1}}} \\over {9.11 \\times {{10}^{ - 31}}kg \\times 2.18 \\times {{10}^6}\\,m{s^{ - 1}}}} = 3.34 \\times {10^{ - 10}}\\,m$$\nOrbital angular momentum\n$$ = \\sqrt {l(l + 1)} .\\,{h \\over {2\\pi }}$$\nFor 2p-orbital, l = 1\n$$\\therefore$$ Orbital angular momentum $$ = \\sqrt 2 \\,.\\,h/2\\pi $$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_005",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The outermost electronic configuration of Cr is _______.",
+    "solution": "The outermost electronic configuration of an element refers to the arrangement of electrons in the outer shell or energy level closest to the nucleus that contains electrons. For chromium (Cr), which has the atomic number 24, its electron configuration can be initially thought to follow the typical filling order based on the Aufbau principle, which suggests an expected configuration of [Ar] 3d$^{4}$ 4s$^{2}$, where [Ar] represents the electron configuration up to argon, a noble gas with a closed-shell configuration.\n\nHowever, chromium is an exception to the typical filling order because half-filled and fully filled subshells are known to be more stable due to electron exchange energy and symmetry. As a result, one electron from the 4s orbital is used to fill the 3d orbital, giving chromium a more stable half-filled 3d subshell. Therefore, the actual outermost electron configuration of chromium is [Ar] 3d$^{5}$ 4s$^{1}$.\n\nThis configuration emphasizes the stability of having a half-filled d subshell, which is energetically more favorable for chromium. This adjustment from the expected configuration demonstrates the importance of experimental observations in determining the actual electronic structures of elements, which sometimes deviate from theoretical predictions due to underlying quantum mechanical principles and electron-electron interactions.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_006",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a given electric field, $$\\beta-particles $$ are deflected more than $$\\alpha-particles$$ in spite of $$\\alpha-particles$$ having larger charge.",
+    "solution": "TRUE is correct, and here's why:\n\nThe extent to which charged particles are deflected in an electric field depends primarily on two factors: their charge and their mass. While it's true that $\\alpha$-particles (which are helium nuclei consisting of 2 protons and 2 neutrons) carry a larger charge (+2e) compared to $\\beta$-particles (which are high-energy electrons or positrons carrying a charge of -e or +e), the mass of the $\\alpha$-particles is significantly larger than that of the $\\beta$-particles. Specifically, an $\\alpha$-particle is roughly 7300 times more massive than a $\\beta$-particle.\n\nThe force exerted on a charged particle in an electric field is given by $F = qE$, where $F$ is the force, $q$ is the charge of the particle, and $E$ is the electric field strength. While the force acting on an $\\alpha$-particle is greater due to its larger charge, the effect of this force (in terms of acceleration, given by $a = F/m$, where $a$ is acceleration and $m$ is mass) is much less significant for $\\alpha$-particles because of their larger mass.\n\n$\\beta$-particles, being lighter, experience a greater acceleration for a given force, which results in a more pronounced deflection in an electric field despite their smaller charge. Thus, the key factor in the deflection of charged particles in an electric field is not just the magnitude of their charge but also their mass and the resulting acceleration from the force experienced in the electric field.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_007",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $\\mathrm{He}^{+}$, a transition takes place from the orbit of radius $105.8 \\mathrm{pm}$ to the orbit of radius $26.45 \\mathrm{pm}$. The wavelength (in nm) of the emitted photon during the transition is _______.\n\n[**Use :**\n\nBohr radius, $\\mathrm{a}=52.9 \\mathrm{pm}$\n\nRydberg constant, $R_{\\mathrm{H}}=2.2 \\times 10^{-18} \\mathrm{~J}$\n\nPlanck's constant, $\\mathrm{h}=6.6 \\times 10^{-34} \\mathrm{~J} \\mathrm{~s}$\n\nSpeed of light, $\\mathrm{c}=3 \\times 10^8 \\mathrm{~m} \\mathrm{~s}^{-1}$ ]",
+    "solution": "1. The radius of the nth orbit in a single-electron system is given by the equation:\n\n$$r = \\frac{52.9 \\times n^2}{Z}$$\n\nwhere $r$ is in pm, $n$ is the principal quantum number, and $Z$ is the atomic number.\n\n2. For a $\\mathrm{He}^{+}$ ion, $Z=2$.\n\n3. We are given the initial radius $r_2 = 105.8$ pm and the final radius $r_1 = 26.45$ pm.\n\n4. We can substitute these radii into the equation for $r$ to find the corresponding quantum numbers.\n\nFor $r_2 = 105.8$ pm, we get :\n\n$$105.8 = \\frac{52.9 \\times n_2^2}{2}$$\n\nwhich gives $n_2 = 2$.\n\nSimilarly, for $r_1 = 26.45$ pm, we get :\n\n$$26.45 = \\frac{52.9 \\times n_1^2}{2}$$\n\nwhich gives $n_1 = 1$.\n\n5. Therefore, the transition is from $n_2 = 2$ to $n_1 = 1$.\n\n6. The energy difference during this transition is equal to the energy of the emitted photon, which is given by :\n\n$$E = \\frac{hc}{\\lambda} = R_H Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$$\n\nwhere $h$ is the Planck's constant, $c$ is the speed of light, $R_H$ is the Rydberg constant, and $\\lambda$ is the wavelength of the photon.\n\n7. Substituting all known values into this equation gives :\n\n$$\\frac{6.6 \\times 10^{-34} \\, \\mathrm{J} \\, \\mathrm{s} \\times 3 \\times 10^8 \\, \\mathrm{m/s}}{\\lambda} = 2.2 \\times 10^{-18} \\, \\mathrm{J} \\times 2^2 \\left( \\frac{1}{1^2} - \\frac{1}{2^2} \\right)$$\n\nSolving this equation yields $\\lambda = 30 \\times 10^{-9}$ m, or 30 nm.\n\n8. So, the wavelength of the emitted photon during the transition is 30 nm.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_008",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a helium (He) atom that absorbs a photon of wavelength 330 nm. The change in the velocity (in cm s$^{$$-$$1}$) of He atom after the photon absorption is __________.\n\n(Assume : Momentum is conserved when photon is absorbed.\n\nUse : Planck constant = 6.6 $$\\times$$ 10$^{$$-$$34}$ J s, Avogadro number = 6 $$\\times$$ 10$^{23}$ mol$^{$$-$$1}$, Molar mass of He = 4 g mol$^{$$-$$1}$)",
+    "solution": "Wavelength of photon absorbed, $$\\lambda$$ = 330 nm = 330 $$\\times$$ 10$^{$$-$$9}$ m\n\nPlanck's constant, h = 6.6 $$\\times$$ 10$^{$$-$$34}$ J s\n\nMolar mass of He, M = 4 g mol$^{$$-$$1}$ = 4 $$\\times$$ 10$^{$$-$$3}$ kg mol$^{$$-$$1}$\n\nAvogadro number, N$_{A}$ = 6 $$\\times$$ 10$^{23}$ mol$^{$$-$$1}$\n\nMass of one atom of He, $$m = {M \\over {{N_A}}} = {{4 \\times {{10}^{ - 3}}} \\over {6 \\times {{10}^{23}}}} = {2 \\over 3} \\times {10^{ - 26}}$$ kg\n\nVelocity, = V cm/s.\n\nUsing de-Broglie equation,\n\n$$\\lambda = {h \\over {mv}} \\Rightarrow v = {h \\over {m\\lambda }} = {{6.6 \\times {{10}^{ - 34}}} \\over {2/3 \\times {{10}^{ - 26}} \\times 330 \\times {{10}^{ - 9}}}} = {{6.6 \\times 3 \\times {{10}^{ - 34}} \\times {{10}^{35}}} \\over {2 \\times 330}} = 0.03 \\times 10 = 0.3$$ m/s\n\n= 30 cm/s",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_009",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The figure below is the plot of potential energy versus internuclear distance (d) of H$_{2}$ molecule in the electronic ground state. What is the value of the net potential energy E$_{0}$ (as indicated in the figure) in kJ mol$^{-1}$, for d = d$_{0}$ at which the electron-electron repulsion and the nucleus-nucleus repulsion energies are absent? As reference, the potential energy of H atom is taken as zero when its electron and the nucleus are infinitely far apart.\nUse Avogadro constant as 6.023 $$ \\times $$ 10$^{23}$ mol$^{-1}$.\n\n[Diagram]",
+    "solution": "Given that, electrons and nucleus are at infinite distance, so potential energy of H-atom is taken as zero.\n\nTherefore, according to Bohr's model, potential energy of a H-atom with electron in its ground state = $$-$$27.2 eV\n\nAt d = d$_{0}$, nucleus-nucleus and electron-electron repulsion is absent.\n\nHence, potential energy will be calculated for 2 H atoms = $$-$$2 $$ \\times $$ 27.2 eV = $$-$$54.4 eV\n\nPotential energy of 1 mol H atoms in kJ\n\n= $${{54.4 \\times 6.02 \\times {{10}^{23}} \\times 1.6 \\times {{10}^{ - 19}}} \\over {1000}}$$\n\n= $$ - 5242.4192$$ kJ/mol",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx9uefqh.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_010",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Not considering the electronic spin, the degeneracy of the second excited state( n = 3) of H atom is 9, while\nthe degeneracy of the second excited state of H$^{–}$ is ___________.",
+    "solution": "(i) Number of electrons in hydride ion $\\left(\\mathrm{H}^{-}\\right)$ is $=2$\n\n(ii) Electronic configuration of ground state in $\\mathrm{H}^{-}$ ion (G.S) = 1s$^{2}$\n\n[Diagram]\n\n(iii) Electronic configuration of first excited state of $\\mathrm{H}^{-}$ion $\\left(\\mathrm{E}{S_1}\\right)$\n\n[Diagram]\n\n(iv) Electronic configuration of second excited state of $\\mathrm{H}^{-}\\left(\\right.$E.S $\\left._2\\right)$\n\n[Diagram]\n\n(v) The electron in $2 p$ orbital can occupy any three $2 p$ orbitals $2 p_{x^{\\prime}} 2 p_y$ and $2 p_z$ as follows :\n\n[Diagram]\n\nHence, three degenerate orbitals represents second excited state of H$^{–}$.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzovoai4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_011",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In an atom, the total number of electrons having quantum numbers n = 4, |m$_{l}$| = 1 and m$_{s}$ = –1/2 is",
+    "solution": "As n = 4, so l = 0, 1, 2, 3 which implies the orbitals are\n4s, 4p, 4d and 4f.\nNow, |m$_{l}$\n| = 1 implies m$_{l}$\n= +1 and −1. Therefore, l can be\n3, 2, 1, as for l = 0, m$_{l}$\n= 0.\nFor l = 1, m$_{l}$\n= −1, 0, +1\nFor l = 2, m$_{l}$\n= −2, −1, 0, +1, +2\nFor l = 3, m$_{l}$\n= −3, −2, −1, 0, +1, +2, +3\nTherefore, there are six possible orbitals with |m$_{l}$\n| = 1 .\nAlso, given that m$_{s}$\n= −1/2 so six electrons are possible\nwith m$_{s}$\n= −1/2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_012",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The atomic masses of He and Ne are 4 and 20 a.m.u., respectively. The value of the de Broglie wavelength\nof He gas at –73$^{o}$C is “M” times that of the de Broglie wavelength of Ne at 727$^{o}$C. M is",
+    "solution": "To solve this problem, we will use the de Broglie wavelength formula, which is given by\n\n$$\\lambda = \\frac{h}{mv}$$\n\nwhere $\\lambda$ is the de Broglie wavelength, $h$ is Planck's constant, $m$ is the mass of the particle, and $v$ is the velocity of the particle.\n\nHowever, it's more relevant to use the form of the de Broglie equation that involves temperature, given that kinetic energy ($KE$) at a particular temperature is linked to the velocity of the gas particles. The kinetic energy for a gas particle can be calculated using the equation:\n\n$$KE = \\frac{3}{2}k_{B}T$$\n\nwhere $k_B$ is the Boltzmann constant and $T$ is the temperature in Kelvin. The velocity $v$ of a gas particle can be related to its kinetic energy by the equation:\n\n$$KE = \\frac{1}{2}mv^2$$\n\nSolving for $v$ gives:\n\n$$v = \\sqrt{\\frac{2KE}{m}} = \\sqrt{\\frac{3k_BT}{m}}$$\n\nSubstituting $v$ in the de Broglie wavelength formula gives:\n\n$$\\lambda = \\frac{h}{m\\sqrt{\\frac{3k_BT}{m}}} = \\frac{h}{\\sqrt{3mk_BT}}$$\n\nGiven that we are comparing helium (He) and neon (Ne) gases, the relative de Broglie wavelengths can be related by the mass of the particles and their temperatures. For helium and neon, respectively, this becomes:\n\n$$\\lambda_{He} = \\frac{h}{\\sqrt{3m_{He}k_BT_{He}}}\\lambda_{Ne} = \\frac{h}{\\sqrt{3m_{Ne}k_BT_{Ne}}}$$\n\nGiven the temperatures are –73°C for He and 727°C for Ne, we first convert these temperatures to Kelvin:\n\n$$T_{He} = 200K \\quad (\\text{-73°C + 273})T_{Ne} = 1000K \\quad (\\text{727°C + 273})$$\n\nThe ratio of the de Broglie wavelength of He to Ne, $\\frac{\\lambda_{He}}{\\lambda_{Ne}}$, would thus be:\n\n$$\\frac{\\lambda_{He}}{\\lambda_{Ne}} = \\frac{\\frac{h}{\\sqrt{3m_{He}k_BT_{He}}}}{\\frac{h}{\\sqrt{3m_{Ne}k_BT_{Ne}}}} = \\sqrt{\\frac{m_{Ne}T_{Ne}}{m_{He}T_{He}}}$$\n\nSubstituting the masses ($m_{He}=4$ a.m.u. and $m_{Ne}=20$ a.m.u., with $1$ a.m.u. approximately equal to $1.660539 \\times 10^{-27}$ kg, though this conversion is not strictly necessary for a ratio where units cancel out) and the temperatures:\n\n$$\\frac{\\lambda_{He}}{\\lambda_{Ne}} = \\sqrt{\\frac{20 \\times 1000}{4 \\times 200}} = \\sqrt{\\frac{20000}{800}} = \\sqrt{25} = 5$$\n\nTherefore, the value of $M$, which is the multiplier for the de Broglie wavelength of He gas at –73°C compared to that of Ne at 727°C, is 5.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_013",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The work function\n( φ )\nof some metals is listed below. The number of metals which will show\nphotoelectric effect when light of 300 nm wavelength falls on the metal is\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-s6z2{text-align:center}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-yw4l{vertical-align:top}\n\n\nMetal\nLi\nNa\nK\nMg\nCu\nAg\nFe\nPt\nW\n\n\nФ (eV)\n2.4\n2.3\n2.2\n3.7\n4.8\n4.3\n4.7\n6.3\n4.75",
+    "solution": "To determine the number of metals that will show the photoelectric effect when light of 300 nm wavelength falls on them, we first need to calculate the energy (in eV) of the incident photons. The energy ($E$) of a photon can be calculated using the formula:\n\n$E = \\frac{hc}{\\lambda}$\n\nwhere\n\n$h$ is Planck's constant ($6.626 \\times 10^{-34}$ J·s),\n\n$c$ is the speed of light ($3.00 \\times 10^{8}$ m/s),\n\n$\\lambda$ is the wavelength of the light (in meters).\n\nFirst, convert the wavelength from nm to meters:\n\n$300\\, \\text{nm} = 300 \\times 10^{-9}\\, \\text{m}$\n\nThen, calculate the energy of the photons:\n\n$E = \\frac{(6.626 \\times 10^{-34}\\, \\text{J·s}) \\times (3.00 \\times 10^{8}\\, \\text{m/s})}{300 \\times 10^{-9}\\, \\text{m}}$\n\n$E = \\frac{(6.626 \\times 3.00) \\times 10^{-19}}{300}\\, \\text{J}$\n\n$E = \\frac{19.878 \\times 10^{-19}}{300}\\, \\text{J}$\n\n$E \\approx 6.626 \\times 10^{-19}\\, \\text{J}$\n\nTo convert the energy from joules to electron volts (eV), we divide by the charge of an electron ($1.602 \\times 10^{-19}$ C):\n\n$E \\approx \\frac{6.626 \\times 10^{-19}\\, \\text{J}}{1.602 \\times 10^{-19}\\, \\text{C/e^-}} \\approx 4.14\\, \\text{eV}$\n\nNow, to determine whether the photoelectric effect will occur, we compare the energy of the incident photons to the work function ($\\phi$) of each metal. The photoelectric effect occurs if the photon energy is greater than or equal to the work function of the metal:\n\nFor Li ($\\phi = 2.4\\, \\text{eV}$): Yes, $4.14\\, \\text{eV} > 2.4\\, \\text{eV}$\n\nFor Na ($\\phi = 2.3\\, \\text{eV}$): Yes, $4.14\\, \\text{eV} > 2.3\\, \\text{eV}$\n\nFor K ($\\phi = 2.2\\, \\text{eV}$): Yes, $4.14\\, \\text{eV} > 2.2\\, \\text{eV}$\n\nFor Mg ($\\phi = 3.7\\, \\text{eV}$): Yes, $4.14\\, \\text{eV} > 3.7\\, \\text{eV}$\n\nFor Cu ($\\phi = 4.8\\, \\text{eV}$): No, $4.14\\, \\text{eV} < 4.8\\, \\text{eV}$\n\nFor Ag ($\\phi = 4.3\\, \\text{eV}$): No, $4.14\\, \\text{eV} < 4.3\\, \\text{eV}$\n\nFor Fe ($\\phi = 4.7\\, \\text{eV}$): No, $4.14\\, \\text{eV} < 4.7\\, \\text{eV}$\n\nFor Pt ($\\phi = 6.3\\, \\text{eV}$): No, $4.14\\, \\text{eV} < 6.3\\, \\text{eV}$\n\nFor W ($\\phi = 4.75\\, \\text{eV}$): No, $4.14\\, \\text{eV} < 4.75\\, \\text{eV}$\n\nThus, the number of metals which will show the photoelectric effect when light of 300 nm wavelength falls on the metal is 4 (Li, Na, K, Mg).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_014",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The maximum number of electrons that can have principal quantum number, n = 3, and spin quantum number, m$_{s}$ = − 1/2 , is",
+    "solution": "To answer this question, we need to consider the quantum numbers that describe electrons in atoms. Each electron in an atom is described by four quantum numbers:\n\nThe principal quantum number ($n$) dictates the energy level and size of the electron orbital.\n\nThe azimuthal (angular momentum) quantum number ($l$) defines the shape of the orbital. For a given $n$, $l$ can take any integer value from 0 to $n-1$.\n\nThe magnetic quantum number ($m_l$) describes the orientation of the orbital in space. For a given $l$, $m_l$ can take values from $-l$ to $+l$, including zero.\n\nThe spin quantum number ($m_s$) describes the direction of the electron's spin and can have a value of $+\\frac{1}{2}$ or $-\\frac{1}{2}$.\n\nGiven the principal quantum number, $n = 3$, and the spin quantum number, $m_s = -\\frac{1}{2}$, we need to calculate the maximum number of electrons that can fit this criteria.\n\nFor $n = 3$, the possible values of $l$ are 0, 1, and 2 (s, p, and d orbitals respectively). Here's how the orbitals break down:\n\nWhen $l = 0$ (the 3s orbital), $m_l = 0$, so there's 1 orbital.\n\nWhen $l = 1$ (the 3p orbitals), $m_l$ can be -1, 0, or +1, providing 3 orbitals.\n\nWhen $l = 2$ (the 3d orbitals), $m_l$ can be -2, -1, 0, +1, or +2, giving 5 orbitals.\n\nEach orbital can hold 2 electrons with opposite spins. Since we are specifically looking for electrons with $m_s = -\\frac{1}{2}$, we can only count one electron per orbital. Therefore, we sum the total number of orbitals across the s, p, and d sublevels for $n = 3$:\n\n3s: 1 orbital $ \\times $ 1 electron (with $m_s = -\\frac{1}{2}$) = 1 electron\n\n3p: 3 orbitals $ \\times $ 1 electron (with $m_s = -\\frac{1}{2}$) = 3 electrons\n\n3d: 5 orbitals $ \\times $ 1 electron (with $m_s = -\\frac{1}{2}$) = 5 electrons\n\nIf we sum these, we get:\n\n1 + 3 + 5 = 9 electrons\n\nThus, the maximum number of electrons that can have the principal quantum number $n = 3$ and the spin quantum number $m_s = -\\frac{1}{2}$ is 9.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_015",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find out the number of waves made by a Bohr electron in once complete revolution in its 3rd orbit?",
+    "solution": "According to Bohr's theory\n$$mvr = {{nh} \\over {2\\pi }}$$\nIn the third orbit, n = 3\n$$\\thereforemvr = 3\\left( {{h \\over {2\\pi }}} \\right)$$ ...... (i)\nAccording to de Broglie expression\n$$\\lambda = {h \\over {mv}}$$ ...... (ii)\nSubstituting this in equation (i), we get\n$$\\left( {{h \\over \\lambda }} \\right)r = 3\\left( {{h \\over {2\\pi }}} \\right)$$ or $$3\\lambda = 2\\pi r$$\nThus, the circumference of third orbit is equal to three times the wavelength of electron i.e., the number of waves made by Bohr electron in one complete revolution is three.\nIn general, the number of waves made by a Bohr electron in an orbit is equal to its principal quantum number.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_016",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What is the maximum number of electrons that may be present in all atomic orbitals with principal quantum number 3 and azimuthal quantum number 2?",
+    "solution": "For n = 3 and l = 2 (i.e., 3d orbital), the values of m varies from –2 to +2, that is, −2, −1, 0, +1, +2 and for each m\nthere are 2 values of s, that is, +1/2 and −1/2.\nSo the maximum number of electrons in five 3d orbitals is\n5 × 2 = 10.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_017",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Among the following, the correct statement(s) for electrons in an atom is(are)",
+    "solution": "Let's analyze each statement one by one:\n\n**Option A: Uncertainty principle rules out the existence of definite paths for electrons.**\nThis statement is correct. The Heisenberg Uncertainty Principle states that it is impossible to simultaneously know both the exact momentum and the exact position of a particle. Therefore, the concept of a definite path for electrons is not applicable according to quantum mechanics.\n\n**Option B: The energy of an electron in $$2s$$ orbital of an atom is lower than the energy of an electron that is infinitely far away from the nucleus.**\nThis statement is also correct. The energy of an electron in any bound state (such as the $$2s$$ orbital) is always lower (more negative) than that of an electron at an infinite distance from the nucleus (which would have zero energy). This is because an electron infinitely far away from the nucleus is considered to be free from nuclear attraction and thus its potential energy is zero.\n\n**Option C: According to Bohr's model, the most negative energy value for an electron is given by $$n=1$$, which corresponds to the most stable orbit.**\nThis statement is correct as well. In Bohr’s model of the atom, the energy levels of electrons are given by $$E_n = -\\frac{13.6 eV}{n^2}$$. The energy is most negative when $$n = 1$$, indicating the most stable orbit and thus the lowest energy state (the ground state).\n\n**Option D: According to Bohr's model, the magnitude of velocity of electrons increases with increase in values of $$n$$.**\nThis statement is incorrect. According to Bohr’s model, the speed of an electron in a circular orbit around the nucleus decreases with an increase in the principal quantum number $$n$$. The velocity $$v_n$$ is given by the formula: $$v_n = \\frac{2.18 \\times 10^6 m/s}{n}$$, where $$n$$ is the principal quantum number. Hence, as $$n$$ increases, $$v_n$$ decreases.\n\nTherefore, the correct statements are:\nOption A, Option B, and Option C.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Uncertainty principle rules out the existence of definite paths for electrons.",
+      "The energy of an electron in $2 s$ orbital of an atom is lower than the energy of an electron that is infinitely far away from the nucleus.",
+      "According to Bohr's model, the most negative energy value for an electron is given by $\\mathrm{n}=1$, which corresponds to the most stable orbit.",
+      "According to Bohr's model, the magnitude of velocity of electrons increases with increase in values of $n$."
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_018",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For diatomic molecules, the correct statement(s) about the molecular orbitals formed by the overlap of two $2 p_{z}$ orbitals is(are)",
+    "solution": "[Diagram]\n\nOption (A) is correct.\n\n[Diagram]\n\nOption (B) is incorrect.\n\n[Diagram]\n\n$\\pi^*$ orbital has zero node is the plane which is perpendicular to the molecular axis and goes through the center of molecule.\n\nSo, option (C) is incorrect.\n\n[Diagram]\n\n$\\pi^*$ Orbital has one node in the $x y-$ plane containing the molecular axis.\n\nOption (D) is correct.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "$\\sigma$ orbital has a total of two nodal planes.",
+      "$\\sigma^{*}$ orbital has one node in the $x z$-plane containing the molecular axis.",
+      "$\\pi$ orbital has one node in the plane which is perpendicular to the molecular axis and goes through the center of the molecule.",
+      "$\\pi^{*}$ orbital has one node in the $x y$-plane containing the molecular axis."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ldcpjbak.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_019",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ground state energy of hydrogen atom is $$-$$13.6 eV. Consider an electronic state $$\\psi $$ of He$^{+}$ whose energy, azimuthal quantum number and magnetic quantum number are $$-$$3.4 eV, 2 and 0, respectively.\n\nWhich of the following statement(s) is(are) true for the state $$\\psi $$?",
+    "solution": "Given, ground state energy of hydrogen atom = $$-$$13.6 eV\n\nEnergy of He$^{+}$ = $$-$$3.4 eV, Z = 2\n\nEnergy of He$^{+}$, E = $$ - {{13.6 \\times {Z^2}} \\over {{n^2}}}eV - 3.4eV = {{ - 13.6 \\times {{(2)}^2}} \\over {{n^2}}} \\Rightarrow $$ n = $$\\sqrt {{{ - 13.6 \\times 4} \\over {34}}} \\Rightarrow $$ n = 4\n\nGiven, azimuthal quantum number (l) = 2 (d $$-$$ subshell)\n\nMagnetic quantum number (m) = 0\n\n$$ \\therefore $$ Angular nodes (l) = 2\n\nRadial node = n $$-$$ l $$-$$ 1 = 4 $$-$$ 2 $$-$$ 1 = 1\n\nnl = 4d state\n\nHence, options (a), (c) are correct.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "It is a 4d state",
+      "The nuclear charge experienced by the electron in this state is less than 2e, where e is the magnitude of the electronic charge",
+      "It has 2 angular nodes",
+      "It has 3 radial nodes"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_020",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ground state electronic configuration of nitrogen atom can be represented by",
+    "solution": "Let's analyze each option one by one:\n\nOption A: The electronic configuration of Cr is [Ar] 3d$^{5}$4s$^{1}$. (Atomic number of Cr = 24)\n\nThis statement is correct. Chromium (Cr) has an atomic number of 24, which means it has 24 electrons. The expected configuration, following the Aufbau principle, would be [Ar] 3d$^{4}$4s$^{2}$. However, chromium is an exception to the expected order. To achieve a more stable and lower energy configuration, one electron from the 4s orbital moves to the 3d orbital, resulting in the configuration [Ar] 3d$^{5}$4s$^{1}$. This configuration is more stable due to the half-filled 3d subshell, providing extra stability to the atom.\n\nOption B: The magnetic quantum number may have negative value\n\nThis statement is correct. The magnetic quantum number, denoted as \\( m_l \\), describes the orientation of the orbital in space and can have integer values ranging from \\(-l\\) to \\(+l\\), where \\(l\\) is the azimuthal quantum number (also known as the orbital angular momentum quantum number). For example, if \\(l = 2\\) (d orbitals), \\(m_l\\) can have the values of -2, -1, 0, +1, +2, indicating that there are five different orientations for d orbitals in space.\n\nOption C: In a silver atom, 23 electrons have a spin of one type and 24 of the opposite type. (Atomic number of Ag = 47)\n\nThis statement is correct. Silver (Ag) has an atomic number of 47, indicating it has 47 electrons. Electrons are fermions, and they follow the Pauli exclusion principle, which states that no two electrons can have the same set of quantum numbers within an atom. This implies that electrons fill orbitals in pairs, with opposite spins. In the case of silver, with 47 electrons, this means there will be an unpaired electron. Thus, there will be 23 electrons with one spin direction and 24 electrons with the opposite spin, making the statement correct.\n\nOption D: The oxidation state of Nitrogen in HN$_{3}$ is -3\n\nThis statement is incorrect. HN$_{3}$, also known as hydrazoic acid, contains nitrogen in a relatively unusual oxidation state. To determine the oxidation state of nitrogen in HN$_{3}$, let's assign oxidation numbers based on the usual oxidation states hydrogen (H) as \\(+1\\) and nitrogen (N), which will be determined. The sum of the oxidation states in a neutral compound is zero. In HN$_{3}$, with one H atom, hydrogen contributes \\(+1\\) to the total. If the nitrogen's oxidation state were \\(-3\\), the total would not balance to 0 with three nitrogen atoms. Instead, the structure and electronegativity of nitrogen suggest a different setup, where one nitrogen is more positive and the other two are more negative, but overall, nitrogen typically has positive oxidation states in HN$_{3}$. A common way to rationalize the states is to consider the central nitrogen in a covalent triple bond with a negative oxidation state, but overall, the nitrogen connected with hydrogen tends to have a positive oxidation state due to the high electronegativity of nitrogen compared to hydrogen. The correct total oxidation state of nitrogen in HN$_{3}$ depends on how the bonding is considered but is certainly not -3 overall for all nitrogen atoms.\n\nTherefore, the correct statements are Option A and Option B, and Option C, while Option D is incorrect.",
+    "answerKey": [
+      "A",
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_021",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The energy of an electron in the first Bohr orbit of H atom is -13.6 eV. The possible energy value(s) of the excited state(s) for electrons in Bohr orbits of hydrogen is (are)",
+    "solution": "Let's analyze each option one by one:\n\nOption A: The electronic configuration of Cr is [Ar] 3d$^{5}$4s$^{1}$. (Atomic number of Cr = 24)\n\nThis statement is correct. Chromium (Cr) has an atomic number of 24, which means it has 24 electrons. The expected configuration, following the Aufbau principle, would be [Ar] 3d$^{4}$4s$^{2}$. However, chromium is an exception to the expected order. To achieve a more stable and lower energy configuration, one electron from the 4s orbital moves to the 3d orbital, resulting in the configuration [Ar] 3d$^{5}$4s$^{1}$. This configuration is more stable due to the half-filled 3d subshell, providing extra stability to the atom.\n\nOption B: The magnetic quantum number may have negative value\n\nThis statement is correct. The magnetic quantum number, denoted as \\( m_l \\), describes the orientation of the orbital in space and can have integer values ranging from \\(-l\\) to \\(+l\\), where \\(l\\) is the azimuthal quantum number (also known as the orbital angular momentum quantum number). For example, if \\(l = 2\\) (d orbitals), \\(m_l\\) can have the values of -2, -1, 0, +1, +2, indicating that there are five different orientations for d orbitals in space.\n\nOption C: In a silver atom, 23 electrons have a spin of one type and 24 of the opposite type. (Atomic number of Ag = 47)\n\nThis statement is correct. Silver (Ag) has an atomic number of 47, indicating it has 47 electrons. Electrons are fermions, and they follow the Pauli exclusion principle, which states that no two electrons can have the same set of quantum numbers within an atom. This implies that electrons fill orbitals in pairs, with opposite spins. In the case of silver, with 47 electrons, this means there will be an unpaired electron. Thus, there will be 23 electrons with one spin direction and 24 electrons with the opposite spin, making the statement correct.\n\nOption D: The oxidation state of Nitrogen in HN$_{3}$ is -3\n\nThis statement is incorrect. HN$_{3}$, also known as hydrazoic acid, contains nitrogen in a relatively unusual oxidation state. To determine the oxidation state of nitrogen in HN$_{3}$, let's assign oxidation numbers based on the usual oxidation states hydrogen (H) as \\(+1\\) and nitrogen (N), which will be determined. The sum of the oxidation states in a neutral compound is zero. In HN$_{3}$, with one H atom, hydrogen contributes \\(+1\\) to the total. If the nitrogen's oxidation state were \\(-3\\), the total would not balance to 0 with three nitrogen atoms. Instead, the structure and electronegativity of nitrogen suggest a different setup, where one nitrogen is more positive and the other two are more negative, but overall, nitrogen typically has positive oxidation states in HN$_{3}$. A common way to rationalize the states is to consider the central nitrogen in a covalent triple bond with a negative oxidation state, but overall, the nitrogen connected with hydrogen tends to have a positive oxidation state due to the high electronegativity of nitrogen compared to hydrogen. The correct total oxidation state of nitrogen in HN$_{3}$ depends on how the bonding is considered but is certainly not -3 overall for all nitrogen atoms.\n\nTherefore, the correct statements are Option A and Option B, and Option C, while Option D is incorrect.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "-3.4 eV",
+      "-4.2 eV",
+      "-6.8 eV",
+      "-1.5 eV"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_022",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Decrease in atomic number is observed during",
+    "solution": "Let's analyze each option one by one:\n\nOption A: The electronic configuration of Cr is [Ar] 3d$^{5}$4s$^{1}$. (Atomic number of Cr = 24)\n\nThis statement is correct. Chromium (Cr) has an atomic number of 24, which means it has 24 electrons. The expected configuration, following the Aufbau principle, would be [Ar] 3d$^{4}$4s$^{2}$. However, chromium is an exception to the expected order. To achieve a more stable and lower energy configuration, one electron from the 4s orbital moves to the 3d orbital, resulting in the configuration [Ar] 3d$^{5}$4s$^{1}$. This configuration is more stable due to the half-filled 3d subshell, providing extra stability to the atom.\n\nOption B: The magnetic quantum number may have negative value\n\nThis statement is correct. The magnetic quantum number, denoted as \\( m_l \\), describes the orientation of the orbital in space and can have integer values ranging from \\(-l\\) to \\(+l\\), where \\(l\\) is the azimuthal quantum number (also known as the orbital angular momentum quantum number). For example, if \\(l = 2\\) (d orbitals), \\(m_l\\) can have the values of -2, -1, 0, +1, +2, indicating that there are five different orientations for d orbitals in space.\n\nOption C: In a silver atom, 23 electrons have a spin of one type and 24 of the opposite type. (Atomic number of Ag = 47)\n\nThis statement is correct. Silver (Ag) has an atomic number of 47, indicating it has 47 electrons. Electrons are fermions, and they follow the Pauli exclusion principle, which states that no two electrons can have the same set of quantum numbers within an atom. This implies that electrons fill orbitals in pairs, with opposite spins. In the case of silver, with 47 electrons, this means there will be an unpaired electron. Thus, there will be 23 electrons with one spin direction and 24 electrons with the opposite spin, making the statement correct.\n\nOption D: The oxidation state of Nitrogen in HN$_{3}$ is -3\n\nThis statement is incorrect. HN$_{3}$, also known as hydrazoic acid, contains nitrogen in a relatively unusual oxidation state. To determine the oxidation state of nitrogen in HN$_{3}$, let's assign oxidation numbers based on the usual oxidation states hydrogen (H) as \\(+1\\) and nitrogen (N), which will be determined. The sum of the oxidation states in a neutral compound is zero. In HN$_{3}$, with one H atom, hydrogen contributes \\(+1\\) to the total. If the nitrogen's oxidation state were \\(-3\\), the total would not balance to 0 with three nitrogen atoms. Instead, the structure and electronegativity of nitrogen suggest a different setup, where one nitrogen is more positive and the other two are more negative, but overall, nitrogen typically has positive oxidation states in HN$_{3}$. A common way to rationalize the states is to consider the central nitrogen in a covalent triple bond with a negative oxidation state, but overall, the nitrogen connected with hydrogen tends to have a positive oxidation state due to the high electronegativity of nitrogen compared to hydrogen. The correct total oxidation state of nitrogen in HN$_{3}$ depends on how the bonding is considered but is certainly not -3 overall for all nitrogen atoms.\n\nTherefore, the correct statements are Option A and Option B, and Option C, while Option D is incorrect.",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "alpha emission",
+      "beta amission",
+      "positron emisson",
+      "electron capture"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_023",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statement(s) is (are) correct?",
+    "solution": "Let's analyze each option one by one:\n\nOption A: The electronic configuration of Cr is [Ar] 3d$^{5}$4s$^{1}$. (Atomic number of Cr = 24)\n\nThis statement is correct. Chromium (Cr) has an atomic number of 24, which means it has 24 electrons. The expected configuration, following the Aufbau principle, would be [Ar] 3d$^{4}$4s$^{2}$. However, chromium is an exception to the expected order. To achieve a more stable and lower energy configuration, one electron from the 4s orbital moves to the 3d orbital, resulting in the configuration [Ar] 3d$^{5}$4s$^{1}$. This configuration is more stable due to the half-filled 3d subshell, providing extra stability to the atom.\n\nOption B: The magnetic quantum number may have negative value\n\nThis statement is correct. The magnetic quantum number, denoted as \\( m_l \\), describes the orientation of the orbital in space and can have integer values ranging from \\(-l\\) to \\(+l\\), where \\(l\\) is the azimuthal quantum number (also known as the orbital angular momentum quantum number). For example, if \\(l = 2\\) (d orbitals), \\(m_l\\) can have the values of -2, -1, 0, +1, +2, indicating that there are five different orientations for d orbitals in space.\n\nOption C: In a silver atom, 23 electrons have a spin of one type and 24 of the opposite type. (Atomic number of Ag = 47)\n\nThis statement is correct. Silver (Ag) has an atomic number of 47, indicating it has 47 electrons. Electrons are fermions, and they follow the Pauli exclusion principle, which states that no two electrons can have the same set of quantum numbers within an atom. This implies that electrons fill orbitals in pairs, with opposite spins. In the case of silver, with 47 electrons, this means there will be an unpaired electron. Thus, there will be 23 electrons with one spin direction and 24 electrons with the opposite spin, making the statement correct.\n\nOption D: The oxidation state of Nitrogen in HN$_{3}$ is -3\n\nThis statement is incorrect. HN$_{3}$, also known as hydrazoic acid, contains nitrogen in a relatively unusual oxidation state. To determine the oxidation state of nitrogen in HN$_{3}$, let's assign oxidation numbers based on the usual oxidation states hydrogen (H) as \\(+1\\) and nitrogen (N), which will be determined. The sum of the oxidation states in a neutral compound is zero. In HN$_{3}$, with one H atom, hydrogen contributes \\(+1\\) to the total. If the nitrogen's oxidation state were \\(-3\\), the total would not balance to 0 with three nitrogen atoms. Instead, the structure and electronegativity of nitrogen suggest a different setup, where one nitrogen is more positive and the other two are more negative, but overall, nitrogen typically has positive oxidation states in HN$_{3}$. A common way to rationalize the states is to consider the central nitrogen in a covalent triple bond with a negative oxidation state, but overall, the nitrogen connected with hydrogen tends to have a positive oxidation state due to the high electronegativity of nitrogen compared to hydrogen. The correct total oxidation state of nitrogen in HN$_{3}$ depends on how the bonding is considered but is certainly not -3 overall for all nitrogen atoms.\n\nTherefore, the correct statements are Option A and Option B, and Option C, while Option D is incorrect.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The electronic configuration of Cr is [Ar] 3d$^{5}$4s$^{1}$.(Atomic number of Cr = 24)",
+      "The magnetic quantum number may have negative value",
+      "In silver atom, 23 electrons have a spin of one type and 24 of the opposite type. (Atomic number of Ag = 47)",
+      "The oxidation state of Nitrogen in HN$_{3}$ is -3"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_024",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When alpha particles are sent through a thin metal foil, most of them go straight through the foil because",
+    "solution": "To answer this question, it's important to understand what an isotone is. Isotones are nuclides (a specific type of atom) that have the same number of neutrons but different numbers of protons. The term isotone comes from the root \"iso-\" meaning same and \"-tone\" referring to neutrons, similar to how isotope refers to atoms with the same number of protons but different numbers of neutrons.\n\nFirst, let's figure out the number of neutrons in the given isotope of Germanium $_{32}^{76}Ge$. You can calculate the number of neutrons by subtracting the atomic number (the number of protons, denoted as Z) from the mass number (the sum of protons and neutrons, denoted as A). This gives us:\n\n$$\\text{Number of Neutrons} = A - Z$$\n\nFor $_{32}^{76}Ge$, this calculation would be:\n\n$$76 - 32 = 44$$\n\nSo, $_{32}^{76}Ge$ has 44 neutrons. An isotone of $_{32}^{76}Ge$ would therefore also need to have 44 neutrons. Now, we will calculate the number of neutrons in each option to see which ones match this criteria.\n\nOption A: $_{32}^{77}Ge$\n\n$$\\text{Neutrons} = 77 - 32 = 45 \\text{ (not an isotone)}$$\n\nOption B: $_{33}^{77}As$ (since the atomic number 33 corresponds to Arsenic, not Germanium)\n\n$$\\text{Neutrons} = 77 - 33 = 44 \\text{ (is an isotone)}$$\n\nOption C: $_{34}^{77}Se$ (since the atomic number 34 corresponds to Selenium, not Germanium)\n\n$$\\text{Neutrons} = 77 - 34 = 43 \\text{ (not an isotone)}$$\n\nOption D: $_{34}^{78}Se$ (once again, atomic number 34 is for Selenium)\n\n$$\\text{Neutrons} = 78 - 34 = 44 \\text{ (is an isotone)}$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "alpha particles are much heavier than electrons",
+      "alpha particles are positively charged",
+      "most part of the atom is empty space",
+      "alpha particle move with high velocity"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_025",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Many elements have non-integral atomic masses because:",
+    "solution": "To answer this question, it's important to understand what an isotone is. Isotones are nuclides (a specific type of atom) that have the same number of neutrons but different numbers of protons. The term isotone comes from the root \"iso-\" meaning same and \"-tone\" referring to neutrons, similar to how isotope refers to atoms with the same number of protons but different numbers of neutrons.\n\nFirst, let's figure out the number of neutrons in the given isotope of Germanium $_{32}^{76}Ge$. You can calculate the number of neutrons by subtracting the atomic number (the number of protons, denoted as Z) from the mass number (the sum of protons and neutrons, denoted as A). This gives us:\n\n$$\\text{Number of Neutrons} = A - Z$$\n\nFor $_{32}^{76}Ge$, this calculation would be:\n\n$$76 - 32 = 44$$\n\nSo, $_{32}^{76}Ge$ has 44 neutrons. An isotone of $_{32}^{76}Ge$ would therefore also need to have 44 neutrons. Now, we will calculate the number of neutrons in each option to see which ones match this criteria.\n\nOption A: $_{32}^{77}Ge$\n\n$$\\text{Neutrons} = 77 - 32 = 45 \\text{ (not an isotone)}$$\n\nOption B: $_{33}^{77}As$ (since the atomic number 33 corresponds to Arsenic, not Germanium)\n\n$$\\text{Neutrons} = 77 - 33 = 44 \\text{ (is an isotone)}$$\n\nOption C: $_{34}^{77}Se$ (since the atomic number 34 corresponds to Selenium, not Germanium)\n\n$$\\text{Neutrons} = 77 - 34 = 43 \\text{ (not an isotone)}$$\n\nOption D: $_{34}^{78}Se$ (once again, atomic number 34 is for Selenium)\n\n$$\\text{Neutrons} = 78 - 34 = 44 \\text{ (is an isotone)}$$",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "they have isotopes",
+      "their isotopes have non-integral masses",
+      "their isotopes have different masses",
+      "the constitutents, neutrons, protons and electrons combine to give fractional masses"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_026",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An isotone of $${}_{32}^{76}Ge$$ is",
+    "solution": "To answer this question, it's important to understand what an isotone is. Isotones are nuclides (a specific type of atom) that have the same number of neutrons but different numbers of protons. The term isotone comes from the root \"iso-\" meaning same and \"-tone\" referring to neutrons, similar to how isotope refers to atoms with the same number of protons but different numbers of neutrons.\n\nFirst, let's figure out the number of neutrons in the given isotope of Germanium $_{32}^{76}Ge$. You can calculate the number of neutrons by subtracting the atomic number (the number of protons, denoted as Z) from the mass number (the sum of protons and neutrons, denoted as A). This gives us:\n\n$$\\text{Number of Neutrons} = A - Z$$\n\nFor $_{32}^{76}Ge$, this calculation would be:\n\n$$76 - 32 = 44$$\n\nSo, $_{32}^{76}Ge$ has 44 neutrons. An isotone of $_{32}^{76}Ge$ would therefore also need to have 44 neutrons. Now, we will calculate the number of neutrons in each option to see which ones match this criteria.\n\nOption A: $_{32}^{77}Ge$\n\n$$\\text{Neutrons} = 77 - 32 = 45 \\text{ (not an isotone)}$$\n\nOption B: $_{33}^{77}As$ (since the atomic number 33 corresponds to Arsenic, not Germanium)\n\n$$\\text{Neutrons} = 77 - 33 = 44 \\text{ (is an isotone)}$$\n\nOption C: $_{34}^{77}Se$ (since the atomic number 34 corresponds to Selenium, not Germanium)\n\n$$\\text{Neutrons} = 77 - 34 = 43 \\text{ (not an isotone)}$$\n\nOption D: $_{34}^{78}Se$ (once again, atomic number 34 is for Selenium)\n\n$$\\text{Neutrons} = 78 - 34 = 44 \\text{ (is an isotone)}$$",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$${}_{32}^{77}Ge$$",
+      "$${}_{33}^{77}Ge$$",
+      "$${}_{34}^{77}Ge$$",
+      "$${}_{34}^{78}Ge$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_027",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the Bohr's model of a one-electron atom where the electron moves around the nucleus. In the following List-I contains some quantities for the nth orbit of the atom and List-II contains options showing how they depend on n.\n\n[Diagram]\n\nWhich of the following options has the correct combination considering List-I and List-II?",
+    "solution": "(III) Kinetic energy of the electron in nth orbit,\n\n$$K.E. = + 13.6 \\times {{{Z^2}} \\over {{n^2}}}$$ or $$K.E. \\propto {1 \\over {{n^2}}}$$ or $$K.E. \\propto {n^{ - 2}}$$\n\nFrom List-II, correct match is (III, P)\n\n(IV) Potential energy of the electron in the nth orbit,\n\n$$P.E. = - 2 \\times 13.6 \\times {{{Z^2}} \\over {{n^2}}} \\Rightarrow P.E. \\propto {1 \\over {{n^2}}} \\Rightarrow P.E. \\propto {n^{ - 2}}$$\n\nFrom List-II, correct match is (IV, P).\n\nHence, correct matching from List-I and List-II on the basis of given options is (III, P).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(III), (P)",
+      "(III), (S)",
+      "(IV), (U)",
+      "(IV), (Q)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwupu9z4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_028",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the Bohr's model of a one-electron atom where the electron moves around the nucleus. In the following List-I contains some quantities for the nth orbit of the atom and List-II contains options showing how they depend on n.\n\n[Diagram]\n\nWhich of the following options has the correct combination considering List-I and List-II?",
+    "solution": "(I) Radius of the nth orbit, r = $$0.529 \\times {{{n^2}} \\over Z}$$\n\nHere, $$r \\propto {n^2}$$\n\nFrom List-II, correct match is (I, T)\n\n(II) Angular momentum of the electron, $$mvr = {{nh} \\over {2\\pi }}$$ or $$mvr \\propto n$$\n\nFrom List - II, correct match (II, S)\n\nHence, correct matching from List-I and List-II on the basis of given options is (I, T).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(II), (R)",
+      "(I), (P)",
+      "(I), (T)",
+      "(II), (Q)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kwtj0nsx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_029",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For $$H{e^ + }$$ ion, the only INCORRECT combination is",
+    "solution": "The ion $\\mathrm{He}^{+}$having 1 electron (in $1 s$ orbital) is hydrogen like species; hence, its $1 s$ orbital will have:\n\n(i) Wave function same as that of hydrogen, i.e.,\n\n$$\n\\psi_{1,0,0}=\\left(\\frac{Z}{a_0}\\right)^{3 / 2} e^{-Z r / a_0}\n$$\n\n(ii) The probability density for the electron in the $1 s$ orbital is represented as:\n\n[Diagram]\n\nFor $1 s$ orbital probability density is maximum at the nucleus.\n\n(iii) Probability density for $2 s$ orbitals is given by\n\n$$\n=\\frac{1}{2 a_0^{3 / 2}}\\left(1-\\frac{r}{2 a_0}\\right) e^{-r / 2 a_0}\n$$\n\nProbability density $\\propto \\frac{1}{a_0^3}$\n\n(iv) For electron in the $1 s$ orbital, the wave function of electron is not the function of angular wave function i.e., $\\theta$ and $\\phi$. Hence, 1 s orbital cannot have the wave function\n\n$$\n\\psi_{n, l, m_l} \\propto\\left(\\frac{Z}{a_0}\\right)^{5 / 2} r e^{\\left(-Z r / 2 a_0\\right) \\cos \\theta}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(I) (i) (R)",
+      "(II) (ii) (Q)",
+      "(I) (iii) (R)",
+      "(I) (i) (S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li0ywvr7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_030",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For hydrogen atom, the only CORRECT combination is :",
+    "solution": "(i) Wave function for 1s orbital of hydrogen atom with $n, l$ and $m_l$ as quantum numbers is given\n\n$$\n\\psi_{n, l, m_l}=\\frac{1}{\\sqrt{\\pi}}\\left(\\frac{Z}{a_0}\\right)^{3 / 2} e^{-Z r / a_0}\n$$\n\nWhere, $\\mathrm{Z}$ is atomic number of the element, $r$ is the variable distance of electron from the nucleus, $a_0$ is the Bohr's radius\n\nFor $1 \\mathrm{~s}$ orbital, $n=1, l=0, m_l=0$ and wave function is represented as :\n\n$$\n\\begin{aligned}\n& \\psi_{1,0,0}=\\frac{1}{\\sqrt{\\pi}}\\left(\\frac{Z}{a_0}\\right)^{3 / 2} e^{-Z r / a_0} \\\\\\\\\n\\Rightarrow \\psi_{1,0,0} & \\propto\\left(\\frac{Z}{a_0}\\right)^{3 / 2} e^{-Z r / a_0}\n\\end{aligned}\n$$\n\n(ii) Energy of excitation of electron from $n_1=2$ to $n_2=4$ is given as :\n\n$$\n\\begin{aligned}\n& \\mathrm{E}_{2 \\rightarrow 4} \\propto-\\mathrm{R}\\left(\\frac{1}{n_2^2}-\\frac{1}{n_1^2}\\right) \\\\\\\\\n& \\mathrm{E}_{2 \\rightarrow 4} \\propto-\\mathrm{R}\\left(\\frac{1}{4^2}-\\frac{1}{2^2}\\right) \\\\\\\\\n& \\mathrm{E}_{2 \\rightarrow 4} \\propto-\\mathrm{R}\\left(\\frac{-3}{16}\\right)=\\frac{3 R}{16}\n\\end{aligned}\n$$\n\n(iii) Energy of excitation of electron from $n_1=2$ to $n_2=4$ is given as:\n\n$$\n\\begin{aligned}\n\\mathrm{E}_{2 \\rightarrow 6} & \\propto-\\mathrm{R}\\left(\\frac{1}{n_2^2}-\\frac{1}{n_1^2}\\right) \\\\\\\\\n\\mathrm{E}_{2 \\rightarrow 6} & \\propto-R\\left(\\frac{1}{6^2}-\\frac{1}{2^2}\\right) \\\\\\\\\n& =-\\left(\\frac{1}{36}-\\frac{1}{4}\\right) R \\\\\\\\\nE_{2 \\rightarrow 6} & \\propto \\frac{+8 R}{36}\n\\end{aligned}\n$$\n\nThe ratio of the energy of transition in the two cases is given by :\n\n$$\n\\begin{aligned}\n& \\frac{E_{2 \\rightarrow 4}}{E_{2 \\rightarrow 6}}=\\frac{3 R}{16} \\times \\frac{6}{8 R}=\\frac{27}{32} \\\\\\\\\n& E_{2 \\rightarrow 4}=\\frac{27}{32} \\times E_{2 \\rightarrow 6}\n\\end{aligned}\n$$\n\nthe energy of transition from 2 to 4 excited state is $\\frac{27}{32}$ times the energy of transition from 2 to 6 excited state.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(I) (i) (S)",
+      "(II) (i) (Q)",
+      "(I) (i) (P)",
+      "(I) (iv) (R)"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_031",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the given orbital in Column 1, the only **CORRECT** combination for any hydrogen-like species is :",
+    "solution": "- Option (A) : Incorrect. The total number of radial nodes is given by $n-l-1$. For $1 s$ orbital, the radial node is zero (i.e. $1-0-1=0$ ).\n\n- Option (B) : Incorrect. $d_{z^2}$ orbital has two lobes that point in opposite directions along $z$-axis plus a doughnut-shaped ring of electron density around the centre that lies in the $x y$-plane. Therefore, it does not have any nodal plane.\n\n- Option (C) : Correct. The total number of radial nodes is given by $n-l-1$.\n\nFor $2 s$ : Radial nodes $=2-0-1=1$\n\nThe orbital 2s of hydrogen like species can be\ndiagrammatically represented as :\n\n[Diagram]\n\nThere is a spherical region of zero electron density between $1 s$ and the $2 s$ orbital of hydrogen like species. This spherical region is called the node. Only one radial node exist between $1 s$ and $2 s$.\n\nThe plot of wave function for $2 s$ verses radial distance from the nucleus is represented as\n\n[Diagram]\n\nPoint $P$ represents the region of zero electron density at a distance $r$ from the nucleus. This represents spherical node.\n\n- Option (D) : Incorrect. The probability density at nucleus is for $2p$ orbital is zero.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "(I) (ii) (S)",
+      "(IV) (iv) (R)",
+      "(II) (ii) (P)",
+      "(III) (iii) (P)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1li1f7tgs.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_032",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "P is the probability of finding the 1s electron of hydrogen atom in a spherical shell of infinitesimal thickness, dr, at a distance r from the nucleus. The volume of this shell is $$4\\pi r^2dr$$. The quantitative ketch of the dependence of P on r is",
+    "solution": "The probability of finding an electron of hydrogen atom in a spherical shell of infinitesimal thickness, $d r$, at a distance $r$ from the nucleus, with volume $d V=4 \\pi r^2 d r$ is\n\n$$\nP=\\psi^2 \\cdot d V=\\psi^2 \\cdot 4 \\pi r^2 d r=R^2(r) 4 \\pi r^2 d r\n$$\n\nHere, $R^2(r)$ is the radial density function.\n\nFor $1 s$ subshell, $n=1, l=0$ and $n-l-1=0$. Thus, the number of radial and angular nodes $=0$. For 1s orbital, the probability\nof finding an electron will be maximum at near to the\nthe nucleus, as 1s orbital is the nearest to the\nnucleus as it is the lowest orbital in terms of\nenergy. Therefore, the plot of radial probability $P=R^2(r) 4 \\pi r^2$ versus $r$ is as follows :\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0nisayo.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_033",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The kinetic energy of an electron in the second Bohr orbit of a hydrogen atom is [$$\\alpha_0$$ is Bohr radius]",
+    "solution": "For Bohr orbit, angular momentum is\n$$mvr_n = \\frac{nh}{2\\pi}$$\nVelocity, $$v = \\frac{nh}{2\\pi mr_n} \\quad \\text{... (i)}$$\nKinetic energy, $$K.E. = \\frac{1}{2}mv^2 \\quad \\text{... (ii)}$$\nBy putting the value of $v$ from (i) into (ii),\n$$K.E. = \\frac{1}{2}m \\times \\frac{n^2h^2}{4\\pi^2m^2r_n^2} = \\frac{n^2h^2}{8\\pi^2mr_n^2}$$\nFor second Bohr orbit, $n = 2$\n$$r_n = a_0 \\times n^2 \\quad (a_0 = \\text{Bohr radius})r_n = 4a_0K.E. = \\frac{(2)^2h^2}{8\\pi^2m(4a_0)^2}$$\nThus, $$K.E. = \\frac{h^2}{32\\pi^2ma_0^2}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${h^2 \\over {4{\\pi ^2}m\\alpha _0^2}}$$",
+      "$${h^2 \\over {16{\\pi ^2}m\\alpha _0^2}}$$",
+      "$${h^2 \\over {32{\\pi ^2}m\\alpha _0^2}}$$",
+      "$${h^2 \\over {64{\\pi ^2}m\\alpha _0^2}}$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_034",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hydrogen like species Li$^{2+}$ is in a spherically symmetric state S$_{1}$ with one radial node. Upon absorbing light the ion undergoes transition to a state S$_{2}$. The state S$_{2}$ has one radial node and its energy is equal to the ground state energy of the hydrogen atom.\n\nThe state S$_{1}$ is :",
+    "solution": "For hydrogen-like species, the energy levels depend on the principal quantum number $n$ and are inversely proportional to the square of $n$, and they can be characterized by their nuclear charge $Z$. The energy for a hydrogen-like ion can be expressed as:\n\n$E_n = -\\dfrac{Z^2R_H}{n^2}$\n\nwhere $R_H$ is the Rydberg constant for hydrogen, $Z$ is the atomic number (for Li$^{2+}$, $Z=3$), and $n$ is the principal quantum number associated with the energy level.\n\nGiven that S$_{2}$ has energy equal to the ground state energy of the hydrogen atom ($E_n$ for hydrogen when $n=1$ and $Z=1$ is $E_1 = -R_H$), and given that S$_{2}$ has one radial node. The radial node information tells us about the principal quantum number $n$, as the number of radial nodes is given by $n-l-1$, where $l$ is the azimuthal quantum number.\n\nThe ground state of hydrogen corresponds to $n=1$. For the given species Li$^{2+}$ to have the same energy as the ground state of the hydrogen atom but for state S$_{2}$, we can use the energy relation. Since the energy is specified to be the same as hydrogen's ground state, let's set up the equality according to the equation given and solve for $n$ specific to the condition (Li$^{2+}$ is considered here, but the condition is about energy equivalence).\n\nGiven that S$_{2}$ has one radial node, it cannot be the ground state energy level for Li$^{2+}$ (which would directly correspond to $n=1$), it implies a different $n$. For one radial node, the condition $n-l-1 = 1$ must be met.\n\nThe options presented are:\n\n1s ($n=1$, $l=0$) - No radial nodes\n\n2s ($n=2$, $l=0$) - One radial node\n\n2p ($n=2$, $l=1$) - No radial nodes, due to the different $l$\n\n3s ($n=3$, $l=0$) - Two radial nodes\n\nS$_{1}$ is described as having one radial node. Based on the rule for the number of radial nodes ($n-l-1$), the only states that fits this condition directly from the options provided are $2s$ (since for a $2s$ orbital, $n=2$, $l=0$, yielding $2-0-1=1$ radial node).\n\nHence, the correct option for S$_{1}$ is:\n\nOption B: 2s",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1s",
+      "2s",
+      "2p",
+      "3s"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6or3un.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_035",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hydrogen like species Li$^{2+}$ is in a spherically symmetric state S$_{1}$ with one radial node. Upon absorbing light the ion undergoes transition to a state S$_{2}$. The state S$_{2}$ has one radial node and its energy is equal to the ground state energy of the hydrogen atom.\n\nEnergy of the state S$_{1}$ in units of the hydrogen atom ground state energy is:",
+    "solution": "For a hydrogen-like ion, the energy levels can be given by the formula:\n\n$$E_n = -\\frac{Z^2}{n^2} E_0$$\n\nwhere $E_n$ is the energy of the nth level, $Z$ is the atomic number (for Li$^{2+}$, $Z=3$), $n$ is the principal quantum number, and $E_0$ is the ground state energy of the hydrogen atom ($-13.6 \\, eV$).\n\nGiven that state $S_2$ has energy equal to the ground state energy of the hydrogen atom and one radial node, we identify that $S_2$ corresponds to $n=2$ for a hydrogen atom. This is because for hydrogen-like species, the number of radial nodes is given by $n-1$, where $n$ is the principal quantum number. The ground state ($n=1$) has 0 nodes, the first excited state ($n=2$) has 1 radial node, etc.\n\nSince the energy of $S_2$ is equal to the ground state energy of the hydrogen atom, we can directly compare the energies. For hydrogen ($Z=1$), the ground state energy ($n=1$) is:\n\n$$E = -E_0$$\n\nFor the Li$^{2+}$ ion in state $S_2$ (which we established is equivalent to $n=2$ in terms of energy for hydrogen), we use the formula $E_n = -\\frac{Z^2}{n^2} E_0$. Since $Z=3$ for Li$^{2+}$, and given that $S_2$ has the energy equivalent to the ground state of hydrogen ($E_0$), we solve for the energy ratio rather than the specific energy of $S_2$.\n\nWe then look at $S_1$, which we know must be the ground state for Li$^{2+}$ since it is the state before $S_2$ and has one radial node (indicating $n=2$ for $S_1$).\n\nThus, for $S_1$, which actually corresponds to $n=2$ for Li$^{2+}$, the energy in units of the hydrogen atom ground state energy is:\n\n$$E_{S_1} = -\\frac{Z^2}{n^2} E_0 = -\\frac{3^2}{2^2}E_0 = -\\frac{9}{4}E_0$$\n\nNow, to express this in units of the hydrogen atom ground state energy ($-E_0$):\n\n$$\\frac{E_{S_1}}{E_0} = -\\frac{9}{4} = -2.25$$\n\nSo, considering the provided options and the fact that energy levels are usually considered in positive values when comparing magnitudes, the correct answer is:\n\nOption C: 2.25.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "0.75",
+      "1.50",
+      "2.25",
+      "4.50"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_036",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The hydrogen like species Li$^{2+}$ is in a spherically symmetric state S$_{1}$ with one radial node. Upon absorbing light the ion undergoes transition to a state S$_{2}$. The state S$_{2}$ has one radial node and its energy is equal to the ground state energy of the hydrogen atom.\n\nThe orbital angular momentum quantum number of the state S$_{2}$ is",
+    "solution": "To identify the orbital angular momentum quantum number, $l$, for the state $S_2$ of a hydrogen-like species such as $Li^{2+}$, we can refer to the given information and the known equations for the energy levels of hydrogen-like atoms. Hydrogen-like atoms or ions have only one electron and their energy in a particular state is given by the equation:\n\n$$E_n = -\\frac{Z^2}{n^2} E_0$$\n\nwhere:\n\n$E_n$ is the energy of the electron in the nth energy level,\n\n$Z$ is the atomic number of the species (for $Li$, $Z = 3$),\n\n$n$ is the principal quantum number,\n\n$E_0$ is the energy of the ground state of hydrogen ($-13.6$ eV).\n\nThe problem states that $S_2$ has energy equal to the ground state energy of the hydrogen atom. The ground state of hydrogen corresponds to $n = 1$ and $E_0 = -13.6$ eV. However, for $Li^{2+}$, with $Z = 3$, the same energy level could be attained at a different value of $n$ since the $Z^2$ factor magnifies the energy levels with increasing atomic number. Let's calculate the principal quantum number, $n$, for the $Li^{2+}$ ion that would give it an energy equal to $E_0$:\n\nFor $Li^{2+}$ ion to have the ground state energy of a hydrogen atom, we can set the energies equal and solve for $n$:\n\n$$-\\frac{Z^2}{n^2}E_0 = E_0$$\n\nSubstituting $Z = 3$ and simplifying:\n\n$$-\\frac{9}{n^2} = 1$$\n\nFrom which we find, $n^2 = 9$ and thus $n = 3$.\n\nFurthermore, the problem states that $S_1$ has one radial node and upon absorbing light, it transitions to $S_2$ which also has one radial node. Radial nodes are related to the principal quantum number $n$ and the angular quantum number $l$ by the formula:\n\nNumber of radial nodes = $n - l - 1$\n\nGiven that $S_2$ has one radial node, we can plug $n = 3$ into the radial node formula to solve for $l$:\n\n$$1 = 3 - l - 1$$\n\nThis simplifies to:\n\n$$l = 3 - 2l = 1$$\n\nTherefore, the orbital angular momentum quantum number of the state $S_2$ is 1, which corresponds to option B.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_037",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the entries in Column I with the correctly related quantum number(s) in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nOrbital angular momentum of the electron in a hydrogen-like atomic orbital.\n(P)\nPrincipal quantum number\n\n\n(B)\nA hydrogen-like one-electron wave function obeying Pauli's principle.\n(Q)\nAzimuthal quantum number\n\n\n(C)\nShape, size and orientation of hydrogen like atomic orbitals.\n(R)\nMagnetic quantum number\n\n\n(D)\nProbability density of electron at the nucleus in hydrogen-like atom.\n(S)\nElectron spin quantum number",
+    "solution": "(A) Orbital angular momentum of the electron in a hydrogen-like atomic orbital is represented by azimuthal quantum number.\n(B) A hydrogen-like one-electron wave function obeying Pauli principle correspond to Electron spin quantum number.\n(C) Shape, size and orientation of hydrogen-like atomic orbitals are determined by Azimuthal, principal and Magnetic quantum number.\n(D) Probability density of electron at the nucleus in hydrogen-like atom is determined by Principal quantum number, Azimuthal quantum number and Magnetic quantum number.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "(A) $$\\to$$ q,r; (B) $$\\to$$ p,q,r; (C) $$\\to$$ p,q,r; (D) $$\\to$$ q,r;",
+      "(A) $$\\to$$ q,r; (B) $$\\to$$ p,q,r,s; (C) $$\\to$$ p,q; (D) $$\\to$$ s,r;",
+      "(A) $$\\to$$ r,s; (B) $$\\to$$ p,q,r; (C) $$\\to$$ p,q,r; (D) $$\\to$$ p,q;",
+      "(A) $$\\to$$ q,r; (B) $$\\to$$ p,q,r,s; (C) $$\\to$$ p,q,r; (D) $$\\to$$ p,q;"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6or3un.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_038",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**STATEMENT - 1 :** The plot of atomic number (y-axis) versus number of neutrons (x-axis) for stable nuclei shows a curvature towards x-axis from the line of 45$^{o}$ slope as the atomic number is increased.\n\n**STATEMENT - 2 :** Proton-proton electrostatic repulsions begin to overcome attractive forces involving protons and neutrons in heavier nuclides",
+    "solution": "With increase in the atomic number, the proton-proton electrostatic repulsion begins to overcome attractive forces involving proton and neutrons in heavier nuclides. The stability relationship can be represented by a line with a slope of 45$$^\\circ$$, i.e., the maximum stability is attained when N = Z. Right of the curve a radioactive nuclide would be neutron rich and would decay by $$\\beta$$-emission to produce a daughter nucleus with a lower n/p ratio. For heavier nuclides, p-p repulsions start to offset the attractive forces and an excess of neutrons over protons, is required for stability.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1",
+      "Statement - 1 is True, Statement - 2 is True; Statement - 2 is NOT a correct explanation for Statement - 1",
+      "Statement - 1 is true, Statement - 2 is False",
+      "Statement - 1 is False, Statement - 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lg6or3un.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "chem_structure_of_atom_039",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A positron is emitted from $$_{11}^{23}$$Na The ratio of the atomic mass and atomic number of the resulting nuclide is :",
+    "solution": "Given:\nA positron is emitted from:\n$ {}^{23}_{11}\\text{Na} $\n\nStep 1: Recall what happens in positron emission.\nA positron is a $\\beta^+$ particle, i.e. $ {}^0_{+1}e $.\nIn positron emission:\n$ p \\rightarrow n + e^+ +\nu_e $\nSo inside the nucleus:\n\nNumber of protons decreases by 1,\nNumber of neutrons increases by 1,\nThe mass number (A) remains the same.\n\nStep 2: Apply this to sodium-23.\n$ {}^{23}_{11}\\text{Na} \\rightarrow {}^{23}_{10}\\text{X} + e^+ +\nu_e $\nSo the new nucleus has:\n\nAtomic number $Z = 10$\nMass number $A = 23$\n\nThe element with $Z = 10$ is Neon (Ne).\nHence, the daughter nucleus is $ {}^{23}_{10}\\text{Ne} $.\n\nStep 3: Find the required ratio.\nThey ask for the ratio of atomic mass (mass number) to atomic number of the resulting nuclide:\n$ \\frac{A}{Z} = \\frac{23}{10} $\n\n✅ Final Answer:\n$ \\boxed{\\frac{23}{10}} $\nOption C: $\\dfrac{23}{10}$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\frac{22}{10}$$",
+      "$$\\frac{22}{11}$$",
+      "$$\\frac{23}{10}$$",
+      "$$\\frac{23}{12}$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_040",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to Bohr's theory\n\nE$_{n}$ = Total energy, K$_{n}$ = Kinetic Energy, V$_{n}$ = Potential Energy, r$_{n}$ = Radius of n$^{th}$ orbit\n\nMatch the following\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\n$$\\frac{V_n}{K_n} = ?$$\n(P)\n0\n\n\n(B)\nIf radius of $$n^{\\text{th}}$$ orbit $$\\propto E_n^x$$, $$x = ?$$\n(Q)\n−1\n\n\n(C)\nAngular momentum in lowest orbital\n(R)\n−2\n\n\n(D)\n$$\\frac{1}{r_n} \\propto Z^y = ?$$\n(S)\n1",
+    "solution": "(A) The $\\mathrm{V}_n$ and $\\mathrm{K}_n$ denotes potential energy and kinetic energy of an electron.\nThe expression for kinetic theory and potential energy are given by Bohr atomic theory as shown below.\n$$ \\begin{array}{rlrl} & \\mathrm{V}_n =-\\frac{\\mathrm{Ze}^2}{r} \\text { and } \\mathrm{K}_n=\\frac{\\mathrm{Ze}^2}{2 r} \\\\ \\text { Hence, } & \\frac{\\mathrm{V}_n}{\\mathrm{~K}_n} =\\frac{-\\frac{\\mathrm{Ze}^2}{r}}{\\frac{\\mathrm{Ze}^2}{2 r}} \\\\ & \\therefore \\frac{\\mathrm{~V}_n}{\\mathrm{~K}_n} =-2 \\end{array} $$\nHence, option A in column I matches with option R in column II.\n(B) The $\\mathrm{E}_n$ denoted the total energy of an electron which is the sum of potential and kinetic energy of an electron.\nThe radius of $n^{\\text {th }}$ orbit of an atom is denoted by $r_n$.\nWhere $n$ denoted the number of an orbit.\nThe radius of $n^{\\text {th }}$ orbit is directly proportional to the square of $n$ and the total energy of an electron is inversely proportional to that of square of $n$.\n$$ r_n \\propto n^2 \\text { and } \\mathrm{E}_n \\propto \\frac{1}{n^2} $$\nTherefore,\n$$ \\mathrm{E}_n \\propto \\frac{1}{r_n} \\text { or } r_n \\propto \\mathrm{E}_n^{-1} $$\nThe value of $x$ will be,\n$$ x=-1 $$\nHence, option B in column I matches with option Q in column II.\n(C) According to the Bohr theory, angular momentum for an orbital is given as,\n$$ \\omega=\\sqrt{l(l+1)} \\frac{h}{2 \\pi} $$\nHere, $\\omega$ is the angular momentum for an orbital, $l$ is the azimuthal quantum number and $h$ is the Planck's constant.\nThe lowest atomic orbital in any atom is $1 s$, which has least energy in the atom.\nFor $1 s$ orbital, the azimuthal quantum number is 0 as the orbital possess spherical shape.\nSubstituting the value of $l$ in above equation for 1s orbital,\n$$ \\begin{aligned} & \\omega=\\sqrt{0(0+1)} \\frac{h}{2 \\pi} \\\\ & \\omega=0 \\end{aligned} $$\nHence, the value of angular momentum for lowest orbital will be zero.\nHence, option C in column I matches with option P in column II.\n(D) The Z denotes the atomic number of an element.\nThe radius of an orbit and atomic number of an element are related by following relation.\n$$ \\frac{1}{r_n} \\propto Z_n $$\nIf $\\frac{1}{r_n} \\propto Z^y$, then $y=1$\nHence, option D in column I matches with option $S$ in column II.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A) $$\\to$$ R, (B) $$\\to$$ Pp, (C) $$\\to$$ Qq, (D) $$\\to$$ S",
+      "(A) $$\\to$$ R, (B) $$\\to$$ Q, (C) $$\\to$$ P, (D) $$\\to$$ S",
+      "(A) $$\\to$$ S, (B) $$\\to$$ P, (C) $$\\to$$ Q, (D) $$\\to$$R",
+      "(A) $$\\to$$ P, (B) $$\\to$$ R, (C) $$\\to$$ Q, (D) $$\\to$$ S"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_041",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of radial nodes of 3s and 2p orbitals are respectively",
+    "solution": "To find the number of radial nodes in an orbital, we use the formula:\n\n$$\\text{Number of radial nodes} = n - l - 1$$\n\nwhere $n$ is the principal quantum number, and $l$ is the azimuthal quantum number (also known as the angular momentum quantum number).\n\nFor the 3s orbital:\n\n$n = 3$ (since it is the 3rd energy level) and $l = 0$ (s orbital corresponds to $l = 0$).\n\nPlugging these values into the formula gives:\n\n$$\\text{Number of radial nodes for 3s} = 3 - 0 - 1 = 2$$\n\nFor the 2p orbital:\n\n$n = 2$ (since it is the 2nd energy level) and $l = 1$ (p orbital corresponds to $l = 1$).\n\nTherefore, the number of radial nodes for the 2p orbital is:\n\n$$\\text{Number of radial nodes for 2p} = 2 - 1 - 1 = 0$$\n\nThus, the number of radial nodes of 3s and 2p orbitals are respectively 2 and 0.\n\nOption A is correct: 2, 0",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2, 0",
+      "0, 2",
+      "1, 2",
+      "2, 1"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_042",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of which of the following orbit is same as that of the first Bohr's orbit of hydrogen atom?",
+    "solution": "To compare the radius of these different orbits to the first Bohr's orbit of the hydrogen atom, we can use the formula for the radius of the nth orbit in the hydrogen-like atom, which is given by:\n\n$$\nr_n = \\frac{n^2h^2}{4\\pi^2kme^2}Z^{-1}\n$$\n\nWhere:\n\n$r_n$ is the radius of the nth orbit,\n\n$n$ is the principal quantum number,\n\n$h$ is Planck's constant,\n\n$k$ is Coulomb's constant,\n\n$m$ is the mass of the electron,\n\n$e$ is the charge of the electron,\n\n$Z$ is the atomic number or the number of protons in the nucleus (which also equals the charge of the nucleus in a hydrogen-like atom).\n\nFor the first Bohr orbit of the hydrogen atom ($n=1$ and $Z=1$), the radius is:\n\n$$\nr_1 = \\frac{1^2h^2}{4\\pi^2kme^2}(1)^{-1}\n$$\n\nWe must compare this with the options provided. The formula simplifies to identifying where the $n^2/Z$ ratio for each option is equal to 1, as it is for hydrogen's first orbit.\n\nOption A: He$^{+}$ ($Z=2$, $n=2$)\n\n$\\frac{n^2}{Z} = \\frac{2^2}{2} = 2$\n\nOption B: Li$^{2+}$ ($Z=3$, $n=2$)\n\n$\\frac{n^2}{Z} = \\frac{2^2}{3} \\approx 1.33$\n\nOption C: Li$^{2+}$ ($Z=3$, $n=3$)\n\n$\\frac{n^2}{Z} = \\frac{3^2}{3} = 3$\n\nOption D: Be$^{3+}$ ($Z=4$, $n=2$)\n\n$\\frac{n^2}{Z} = \\frac{2^2}{4} = 1$\n\nThus, the radius is the same as that of the first Bohr's orbit of hydrogen atom only for Option D: Be$^{3+}$ ($n=2$), because in this case, the ratio $n^2/Z = 1$, matching the ratio for hydrogen's first orbit.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "He$^{+}$ (n = 2)",
+      "Li$^{2+}$ (n = 2)",
+      "Li$^{2+}$ (n = 3)",
+      "Be$^{3+}$ (n = 2)"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_043",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following pairs are isoelectronic and isostructural?\n\n$$NO_3^-$$, $$CO_3^{2-}$$, $$ClO_3^-$$, SO$_{3}$",
+    "solution": "Isoelectronic species are those that have the same number of electrons. Isostructural species have the same geometric arrangement of atoms.\n\nFirst, let's determine if the given pairs are isoelectronic.\n\n$$NO_3^-$$: Nitrogen has 7 electrons, and each oxygen has 8 electrons. The negative charge adds one more electron. Therefore, $$NO_3^-$$ has $$7 + 3 \\cdot 8 + 1 = 32$$ electrons.\n\n$$CO_3^{2-}$$: Carbon has 6 electrons, each oxygen has 8 electrons, and the $${2-}$$ charge adds 2 more electrons. Therefore, $$CO_3^{2-}$$ has $$6 + 3 \\cdot 8 + 2 = 32$$ electrons.\n\n$$ClO_3^-$$: Chlorine has 17 electrons, each oxygen has 8 electrons, and the negative charge adds 1 more electron. Therefore, $$ClO_3^-$$ has $$17 + 3 \\cdot 8 + 1 = 42$$ electrons.\n\n$$SO_3$$: Sulfur has 16 electrons, and each oxygen has 8 electrons. Therefore, $$SO_3$$ has $$16 + 3 \\cdot 8 = 40$$ electrons.\n\nBased on the number of electrons, $$NO_3^-$$ and $$CO_3^{2-}$$ are isoelectronic.\n\nNow, let's determine if these species are isostructural. Both $$NO_3^-$$ and $$CO_3^{2-}$$ have a trigonal planar structure.\n\nTherefore, the correct option is:\n\nOption A: $$NO_3^-$$, $$CO_3^{2-}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$NO_3^-$$, $$CO_3^{2-}$$",
+      "SO$_{3}$, $$NO_3^-$$",
+      "$$ClO_3^-$$, $$CO_3^{2-}$$",
+      "$$CO_3^{2-}$$, SO$_{3}$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_044",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the nitrogen atom has electronic configuration 1s$^{7}$, it would have energy lower than that of the normal ground state configuration 1s$^{2}$2s$^{2}$2p$^{3}$, because the electrons would be closer to the nucleus. Yet 1s$^{7}$ is not observed because it violates",
+    "solution": "The correct answer is Option C: Pauli exclusion principle.\n\nThe Pauli exclusion principle states that no two electrons can have the same set of four quantum numbers. In simpler terms, it means that each orbital can hold a maximum of two electrons, and these two electrons must have opposite spins. The quantum numbers that define an electron's state in an atom include the principal quantum number (n), the angular momentum quantum number (l), the magnetic quantum number (m$_{l}$), and the spin quantum number (m$_{s}$).\n\nThe electronic configuration given as 1s$^{7}$ would imply trying to place seven electrons into the 1s orbital. However, an s orbital can accommodate a maximum of two electrons, provided they have opposite spins. This arrangement means that trying to place more than two electrons in the 1s orbital would indeed violate the Pauli exclusion principle because it would require at least some of these electrons to have the same set of quantum numbers, which is not possible.\n\nLet's briefly address why the other options do not fit:\n\nOption A: Heisenberg uncertainty principle concerns itself with the limit to which the position and momentum (or velocity) of an electron can be known simultaneously. This principle does not directly relate to the issue of how many electrons can occupy a given orbital or energy level.\n\nOption B: Hund's rule deals with the distribution of electrons across orbitals of the same energy (degeneracy). It states that electrons will fill each degenerate orbital singly before any orbital gets a second electron, and all singly occupied orbitals will have electrons with the same spin. This rule does not apply to the violation seen in the 1s$^{7}$ configuration.\n\nOption D: Bohr's postulate of stationary orbits pertains to the quantum condition that electrons orbit the nucleus in certain stable orbits without radiating energy. This principle is more historical and foundational to quantum theory and does not address the occupancy limits of orbitals or the exclusion principle directly.\n\nTherefore, the concept violated by having a 1s$^{7}$ configuration is the Pauli exclusion principle (Option C), as this configuration suggests more than two electrons attempting to occupy the same quantum state within the 1s orbital, which is not permissible.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Heisenberg uncertainty principle",
+      "Hund's rule",
+      "Pauli exclusion principle",
+      "Bohr postulate of stationary orbits"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_045",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Rutherford's experiment, which established the nuclear model of the atom, used a beam of",
+    "solution": "The correct option is Option D: helium nuclei, which impinged on a metal foil and got scattered.\n\nRutherford's experiment is a landmark in the study of atomic structure. In this experiment, a beam of alpha particles, which are essentially helium nuclei (comprising two protons and two neutrons, and thus positively charged), was directed at a thin gold foil. Most of the alpha particles passed through the foil with little to no deflection, which suggested that atoms are mostly empty space. However, a small fraction of the alpha particles were deflected at large angles, and a very few even bounced back towards the source. This observation was unexpected based on the prevailing model of the atom at the time, which was J.J. Thomson's \"plum pudding\" model where the atom was thought to be a uniform sphere of positive charge with electrons embedded within it.\n\nThe results of Rutherford's experiment led him to propose a new model of the atom, known as the nuclear model. In this model, an atom consists of a small, dense nucleus that contains most of the atom's mass and all of its positive charge, surrounded by electrons that occupy the remaining vast space of the atom. The nucleus is tiny compared to the overall size of the atom, explaining why most alpha particles passed through the foil unimpeded. The large deflections occurred when an alpha particle came close to the nucleus, being repelled by its positive charge. This discovery was fundamental in moving away from the idea of an atom as a homogenous sphere to an atom with a dense central nucleus around which electrons orbit.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\beta-particles$$, which impinged on a metal foil and got absorbed",
+      "$$\\gamma-particles$$, which impinged on a metal foil and ejected electrons",
+      "helium atoms, which impinged on a metal foil and got scattered",
+      "helium nuclei, which impinged on a metal foil and got scattered"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_046",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The quantum numbers +1/2 and -1/2 for the electron spin represent",
+    "solution": "The correct option is D: two quantum mechanical spin states which have no classical analogue. The concept of electron spin with quantum numbers +1/2 and -1/2 indeed represents two intrinsic angular momentum states of an electron, but it doesn't directly correspond to the physical picture of the electron spinning around its own axis like a planet, either clockwise or anticlockwise. This description of spin is a quantum mechanical property that has no classical analogue, meaning that it cannot be accurately described using classical physics concepts. These two states can be associated with the magnetic moment of the electron pointing in two opposite directions, often referred to simplistically as \"up\" and \"down\" in the context of its orientation in an external magnetic field, but it's important to understand this is a representation that helps visualize their quantum mechanical behavior regarding their interaction with magnetic fields, rather than a literal physical spinning.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "rotation of the electron in clockwise and anticlockwise direction respectively",
+      "rotation of the electron in anticlockwise and clockwise direction respectively",
+      "magnetic moment of the electron pointing up and down respectively",
+      "two quantum mechanical spin states which have no classical analogue"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_047",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The wavelength associated with a golf ball weighing 200 g and moving at speed of 5 m/h is of the order",
+    "solution": "To calculate the wavelength associated with a moving object, we use the de Broglie wavelength formula, which is given as:\n\n$$\\lambda = \\frac{h}{mv}$$\n\nwhere:\n\n$\\lambda$ is the wavelength,\n\n$h$ is the Planck constant ($6.626 \\times 10^{-34} \\, \\text{m}^2 \\text{kg} / \\text{s}$),\n\n$m$ is the mass of the object (in kg),\n\n$v$ is the velocity of the object (in m/s).\n\nGiven that the golf ball weighs 200 g (which is 0.2 kg) and is moving at a speed of 5 m/h. First, let's convert the speed into m/s since the units need to be consistent:\n\n$ 5 \\, \\text{m/h} \\times \\left(\\frac{1 \\, \\text{h}}{3600 \\, \\text{s}}\\right) = \\frac{5}{3600} \\, \\text{m/s} = \\frac{1}{720} \\, \\text{m/s} $\n\nNow, we can substitute the values into the de Broglie equation:\n\n$ \\lambda = \\frac{6.626 \\times 10^{-34} \\, \\text{m}^2\\text{kg}/\\text{s}}{0.2 \\, \\text{kg} \\times \\frac{1}{720} \\, \\text{m/s}} $\n\n$ \\lambda = \\frac{6.626 \\times 10^{-34}}{0.2 \\times \\frac{1}{720}} = \\frac{6.626 \\times 10^{-34}}{\\frac{1}{3600}} $\n\n$ \\lambda = 6.626 \\times 10^{-34} \\times 3600 $\n\n$ \\lambda = 2.38536 \\times 10^{-30} \\, \\text{m} $\n\nThe calculated wavelength is therefore of the order of $10^{-30}$ m.\n\nCorrect Answer: Option C, $10^{-30}$ m.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "10$^{-10}$ m",
+      "10$^{-20}$ m",
+      "10$^{-30}$ m",
+      "10$^{-40}$ m"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_048",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of nodal planes in a p$_{x}$ orbital is",
+    "solution": "The number of nodal planes in an atomic orbital refers to the planes through the nucleus where the probability of finding an electron is zero. For a p$_{x}$ orbital, which is one of the three p orbitals (px, py, pz), the characteristic feature is its dumbbell-shaped electron cloud which is symmetric about the nucleus and is oriented along the x-axis (assuming px for this case).\n\nA nodal plane is essentially a region that divides the electron cloud of an orbital into two or more parts where the probability of finding an electron is zero. In the case of p orbitals, there is a central nodal plane that passes through the nucleus and is perpendicular to the axis along which the orbital is oriented. For the p$_{x}$ orbital, this central nodal plane is oriented such that it divides the orbital into two lobes along the y and z axes. This means there is one nodal plane in the p$_{x}$ orbital, where the probability of finding an electron is zero.\n\nTherefore, the correct answer is:\n\n**Option A: one**",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "one",
+      "two",
+      "three",
+      "zero"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_049",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electronic configuration of an element is 1s$^{2}$, 2s$^{2}$ 2p$^{6}$, 3s$^{2}$ 3p$^{6}$ 3d$^{5}$, 4s$^{1}$ This represents its",
+    "solution": "The electronic configuration provided is: 1s$^{2}$, 2s$^{2}$ 2p$^{6}$, 3s$^{2}$ 3p$^{6}$ 3d$^{5}$, 4s$^{1}$. This configuration gives us a total electron count of $2 + 2 + 6 + 2 + 6 + 5 + 1 = 24$ electrons, which is precisely the number of electrons that chromium (Cr), an element with atomic number 24, possesses in its neutral state.\n\nHowever, the standard ground state electron configuration for chromium is typically written as: $$1s^2 2s^2 2p^6 3s^2 3p^6 3d^5 4s^1$$ This is due to the increased stability offered by having a half-filled d-subshell, which is an exception to the expected order where the 4s orbital is filled before the 3d orbitals begin to fill. Despite this seeming irregularity, this electron configuration does not represent an excited state; rather, it's a common anomaly observed due to subshell energy levels and the stability provided by half-filled or fully filled subshells.\n\nGiven the options:\n\nOption A - Excited State: This is not correct because the configuration provided does match chromium’s recognized ground state configuration, due to the stability preferences of electron arrangements.\n\nOption B - Ground State: This is correct because this configuration corresponds to the stable configuration for chromium, taking into account the exception for electron distribution for enhanced stability due to half-filled d-subshells.\n\nOption C - Cationic Form: This is not correct because a cationic form would suggest the loss of electrons, which is not indicated in this configuration.\n\nOption D - Anionic Form: This is not correct because an anionic form would imply the addition of electrons, which is also not indicated in this configuration.\n\nTherefore, the correct answer is Option B - Ground State.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "excited state",
+      "ground state",
+      "cationic form",
+      "anionic form"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_050",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electrons, identified by quantum numbers n and l, (i) n = 4, l = 1, (ii) n = 4, l = 0, (iii) n = 3, l = 2 and (iv) n = 3, l = 1 can be placed in order of increasing energy, from the lowest to highest, as",
+    "solution": "To place the electrons in order of increasing energy based on their quantum numbers, we consider the principles that dictate electron energy levels in atoms. The energy of an electron in an atom is primarily determined by its principal quantum number ($n$) and azimuthal (or angular momentum) quantum number ($l$). Generally, the energy of an electron increases with an increase in the $n$ value. However, for electrons within the same $n$ level, those with higher $l$ values have slightly higher energies due to electron penetration and shielding effects. In multi-electron atoms, due to electron-electron repulsion and orbital shapes, orbitals with the same $n$ but different $l$ values do not have the same energy.\n\nGiven the quantum numbers:\n\n(i) $n = 4, l = 1$\n\n(ii) $n = 4, l = 0$\n\n(iii) $n = 3, l = 2$\n\n(iv) $n = 3, l = 1$\n\nWe'll arrange them in order of increasing energy.\n\nThe principal quantum number, $n$, primarily determines the energy level. Hence, states with $n = 3$ would generally have lower energy compared to states with $n = 4$. Within the same $n$ level, the energy increases with $l$. Thus, a higher $l$ value indicates a slightly higher energy within the same $n$ level.\n\nBased on these guidelines, we can place the given states in the following order:\n\n(iv) $n = 3, l = 1$\n\n(iii) $n = 3, l = 2$\n\n(ii) $n = 4, l = 0$\n\n(i) $n = 4, l = 1$\n\nSo, the electrons in order of increasing energy, from the lowest to highest, are **Option A (iv)<(iii)<(ii)<(i)**. This ranking reflects that within the same principal quantum number, $n$, the electron energy increases with the azimuthal quantum number, $l$, and electrons with a lower principal quantum number typically have lower energy than those with a higher $n$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(iv)<(ii)<(iii)<(i)",
+      "(ii)<(iv)<(i)<(iii)",
+      "(i)<(iii)<(ii)<(iv)",
+      "(iii)<(i)<(iv)<(ii)"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_051",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The orbital diagram in which the Aufbau principle is violated is",
+    "solution": "The orbital angular momentum (L) of an electron in an atom is given by the formula:\n\n$$L = \\sqrt{l(l + 1)}\\left(\\frac{h}{2\\pi}\\right)$$\n\nwhere $l$ is the azimuthal quantum number or orbital quantum number, and $h$ is the Planck constant. The azimuthal quantum number $l$ determines the shape of the orbital and for a given electron shell $n$, $l$ can have values from 0 to $n-1$.\n\nFor a d-electron, the value of $l$ is 2, since the orbitals are designated as follows:\n\ns-orbital: $l = 0$\n\np-orbital: $l = 1$\n\nd-orbital: $l = 2$\n\nf-orbital: $l = 3$\n\nSubstituting $l = 2$ into the formula for orbital angular momentum, we get:\n\n$$L = \\sqrt{2(2 + 1)}\\left(\\frac{h}{2\\pi}\\right) = \\sqrt{6}\\left(\\frac{h}{2\\pi}\\right)$$\n\nThis shows that the correct option for the orbital angular momentum of a d-electron is Option A:\n\n$$\\sqrt{6}\\left(\\frac{h}{2\\pi}\\right)$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]",
+      "[Diagram]"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_052",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "**ASSERTION:**\n\nNuclide $${}_{13}^{30}Al$$ is less stable than $${}_{20}^{40}Ca$$\n\n**REASON:**\n\nNuclides having odd number of protons and neutrons are generally unstable.",
+    "solution": "Solution for this Structure of Atom question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "If both assertion and reason are correct, and reason is the correct explanation of the assertion.",
+      "If both assertion and reason are correct, and reason is not the correct explanation of the assertion.",
+      "If assertion is correct but reason is incorrect.",
+      "If assertion is incorrect but reason is correct."
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_053",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For a d-electron the orbital angular momentum is",
+    "solution": "The orbital angular momentum (L) of an electron in an atom is given by the formula:\n\n$$L = \\sqrt{l(l + 1)}\\left(\\frac{h}{2\\pi}\\right)$$\n\nwhere $l$ is the azimuthal quantum number or orbital quantum number, and $h$ is the Planck constant. The azimuthal quantum number $l$ determines the shape of the orbital and for a given electron shell $n$, $l$ can have values from 0 to $n-1$.\n\nFor a d-electron, the value of $l$ is 2, since the orbitals are designated as follows:\n\ns-orbital: $l = 0$\n\np-orbital: $l = 1$\n\nd-orbital: $l = 2$\n\nf-orbital: $l = 3$\n\nSubstituting $l = 2$ into the formula for orbital angular momentum, we get:\n\n$$L = \\sqrt{2(2 + 1)}\\left(\\frac{h}{2\\pi}\\right) = \\sqrt{6}\\left(\\frac{h}{2\\pi}\\right)$$\n\nThis shows that the correct option for the orbital angular momentum of a d-electron is Option A:\n\n$$\\sqrt{6}\\left(\\frac{h}{2\\pi}\\right)$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\sqrt 6 \\left( {h/2\\pi } \\right)$$",
+      "$$\\sqrt 2 \\left( {h/2\\pi } \\right)$$",
+      "$$ \\left( {h/2\\pi } \\right)$$",
+      "$$2 \\left( {h/2\\pi } \\right)$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_054",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The orbital angular momentum of an electron in 2s orbital is",
+    "solution": "The correct answer is Option B: Zero.\n\nOrbital angular momentum of an electron in any given orbital is determined by the azmuthal quantum number (l), which defines the shape of the orbital. The formula to calculate the magnitude of orbital angular momentum is given by: $$L = \\sqrt{l(l+1)} \\frac{h}{2\\pi}$$ where $L$ is the orbital angular momentum, $l$ is the azmuthal quantum number, and $h$ is Planck's constant.\n\nFor an electron in a 2s orbital, the principal quantum number, $n$, is 2, and the azmuthal quantum number, $l$, for an s orbital is 0 (since the value of $l$ ranges from 0 to $n-1$).\n\nPutting $l=0$ in the formula gives:\n\n$$L = \\sqrt{0(0+1)} \\frac{h}{2\\pi} = 0$$\n\nThus, the orbital angular momentum of an electron in a 2s orbital is Zero, as there is no angular momentum associated with s orbitals owing to their spherical symmetry.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$ + {1 \\over 2}.{h \\over {2\\pi }}$$",
+      "Zero",
+      "$${h \\over {2\\pi }}$$",
+      "$$\\sqrt 2 .{h \\over {2\\pi }}$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_055",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A 3p orbital has",
+    "solution": "To determine the number and types of nodes in a 3p orbital, we need to understand what nodes are and specifically look at the quantum numbers associated with the 3p orbital.\n\nNodes are regions in an atomic orbital where the probability of finding an electron is zero. There are two types of nodes: radial (or spherical) nodes and angular (or nodal planes).\n\nThe number of radial nodes in an orbital can be found using the formula:\n\n$\\text{Number of radial nodes} = n - l - 1$\n\nWhere $n$ is the principal quantum number and $l$ is the azimuthal (angular momentum) quantum number.\n\nFor a 3p orbital, $n = 3$ and $l = 1$ (since p orbitals correspond to $l = 1$). Substituting these values into the formula gives:\n\n$\\text{Number of radial nodes} = 3 - 1 - 1 = 1$\n\nThis means there is one radial (spherical) node in a 3p orbital.\n\nThe number of angular nodes is directly related to the azimuthal quantum number $l$. Specifically, the number of angular nodes is equal to $l$.\n\nSince $l = 1$ for p orbitals, there is one angular (non-spherical) node. This is a plane that passes through the nucleus, dividing the orbital into two lobes where the probability of finding an electron is zero.\n\nThus, a 3p orbital has one spherical (radial) node and one non-spherical (angular) node. This corresponds to Option C: one spherical and one non spherical node.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "two non spherical nodes",
+      "two spherical nodes",
+      "one spherical and one non spherical node",
+      "one spherical and two non spherical nodes"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_056",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following relates to photons both as wave motion and as a stream of particles?",
+    "solution": "The relation that connects photons both as wave motion and as a stream of particles is Option D, $E = hv$. This equation is known as the Planck-Einstein relation. Here, $E$ stands for the energy of a single photon, $h$ is Planck's constant ($6.626 \\times 10^{-34}$ m$^{2}$kg/s), and $v$ (or $f$ in some texts) represents the frequency of the electromagnetic wave associated with the photon.\n\nThis equation encapsulates the dual nature of light and all electromagnetic radiation, embodying both wave and particle characteristics. The wave aspect is captured through the frequency ($v$), which is a fundamental property of waves. The particle aspect is represented by quantizing the energy in discrete packets called photons, with each photon having a quantum of energy $E$.\n\nIn contrast, Option A (Interference) and Option C (Diffraction) are phenomena that demonstrate the wave nature of light, and Option B ($E = mc^2$), Einstein's mass-energy equivalence, describes how mass and energy are related but is not directly related to the dual characteristic of photons.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "Inference",
+      "E = mc$^{2}$",
+      "Diffraction",
+      "E = hv"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_057",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following does not characterise X-rays?",
+    "solution": "The option that does not characterize X-rays is Option C: Deflected by electric and magnetic fields.\n\nX-rays are a form of electromagnetic radiation, like light or radio waves, but they have much shorter wavelengths and higher energy. Here's a brief explanation of each option:\n\nOption A: The radiation can ionise gases\n\nX-rays have enough energy to remove electrons from atoms or molecules, thereby ionizing the gases. This is one of the properties that makes X-rays extremely useful in medical imaging and industrial applications, as they can penetrate materials and reveal information based on the level of ionization that occurs.\n\nOption B: It causes ZnS to fluorescence\n\nWhen X-rays strike certain materials, they can cause these materials to emit light in a process known as fluorescence. Zinc sulfide (ZnS) is one such material that fluoresces upon exposure to X-rays. This property is utilized in X-ray screens and detectors.\n\nOption C: Deflected by electric and magnetic fields\n\nThis statement is false in the context of X-rays and is what sets them apart from charged particles. X-rays, being electromagnetic radiation, are not deflected by electric or magnetic fields. This property is contrasted with charged particles such as electrons, which can be deflected by these fields. Electromagnetic waves, including X-rays, propagate in a straight line and are unaffected by electric and magnetic fields because they carry no charge.\n\nOption D: Have wavelengths shorter than ultraviolet rays\n\nX-rays do indeed have wavelengths shorter than ultraviolet rays. The electromagnetic spectrum is ordered by wavelength and frequency, with X-rays situated between ultraviolet rays and gamma rays. The shorter the wavelength, the higher the energy of the electromagnetic waves. X-rays typically have wavelengths in the range of 0.01 to 10 nanometers, indicating higher energy and allowing them to penetrate many materials.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "The radiation can ionise gases",
+      "It causes ZnS to fluorescence",
+      "Deflected by electric and magnetic fields",
+      "Have wavelengths shorter than ultraviolet rays"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_058",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct set of quantum numbers for the unpaired electron of chlorine atom is",
+    "solution": "To identify the correct set of quantum numbers for the unpaired electron in a chlorine atom, we first need to understand the electronic configuration of chlorine. The electronic configuration of chlorine (atomic number 17) is $1s^2 2s^2 2p^6 3s^2 3p^5$. The outer shell configuration, where the unpaired electron resides, is $3p^5$. This means the unpaired electron is in the 3p orbital.\n\nThe quantum numbers designate the following:\n\n$n$ is the principal quantum number, indicating the energy level.\n\n$l$ is the azimuthal (or angular momentum) quantum number, indicating the shape of the orbital.\n\n$m_l$ (or simply $m$ here) is the magnetic quantum number, indicating the orientation of the orbital.\n\nFor the 3p orbital, which is where our unpaired electron is:\n\n$n = 3$ because the electron is in the third energy level.\n\n$l = 1$ because for p orbitals, $l = 1$.\n\n$m$ could be -1, 0, or 1 because for $l = 1$, $m_l$ can take values from $-l$ to $+l$.\n\nGiven that chlorine's 3p orbital has 5 electrons, they would fill the three p orbitals ($m_l = -1, 0, 1$) as follows: one electron each in the $m_l = -1$ and $m_l = 1$ orbitals, and the three remaining electrons would begin to pair up. Since each p orbital (with a distinct $m_l$ value) can hold two electrons, by the time we are placing the fifth electron, we have already placed two electrons in the $m_l = -1$ and $0$ orbitals (assuming we fill them first and follow Hund’s rule, which states that electrons fill each orbital singly before any orbital gets a second electron). Thus, the unpaired electron would be the one in the $m_l = 1$ orbital because it is the last to receive an electron, making it unpaired.\n\nTherefore, the correct set of quantum numbers for the unpaired electron in a chlorine atom is:\n\n$n = 3$\n\n$l = 1$\n\n$m = 1$\n\nThis matches with Option C: $n = 3$, $l = 1$, $m = 1$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "n = 2, l = 1, m = 0",
+      "n = 2, l = 1, m = 1",
+      "n = 3, l = 1, m = 1",
+      "n = 3, l = 0, m = 0"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_059",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The correct ground state electronic configuration of chromium atom is",
+    "solution": "The correct ground state electronic configuration of a chromium (Cr) atom is Option A: [Ar] 3d$^{5}$ 4s$^{1}$.\n\nTo understand why, we need to recall that chromium is an exception to the general rule of electron configurations. Normally, we would follow the Aufbau principle to sequentially fill the 4s orbital before the 3d orbitals. This would suggest an expected configuration similar to Option B, [Ar] 3d$^{4}$ 4s$^{2}$, for a chromium atom. However, chromium is an exception due to the extra stability provided by a half-filled d subshell.\n\nElectron configurations for elements are determined by the principles of lower energy and higher stability. Half-filled and fully-filled subshells (like 3d$^{5}$ and 3d$^{10}$) are particularly stable configurations. For chromium, the configuration [Ar] 3d$^{5}$ 4s$^{1}$ offers a lower energy state compared to a completely filled 4s orbital and a less-than-half-filled 3d orbital. By having five electrons in the 3d subshell and only one in the 4s, both stability and a lower energy configuration are achieved.\n\nTherefore, the correct answer is:\nOption A: [Ar] 3d$^{5}$ 4s$^{1}$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "[Ar] 3d$^{5}$ 4s$^{1}$",
+      "[Ar] 3d$^{4}$ 4s$^{2}$",
+      "[Ar] 3d$^{6}$ 4s$^{0}$",
+      "[Ar] 4d$^{5}$ 4s$^{1}$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_060",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The outermost electronic configuration of the most electronegative element is",
+    "solution": "The most electronegative element is fluorine, which is located in the halogen group (Group 17) of the periodic table. Electronegativity is a measure of the tendency of an atom to attract a bonding pair of electrons. Fluorine has the highest electronegativity value because of its small size and the high effective nuclear charge it can exert on the bonding electrons. The outermost electronic configuration of an element determines its chemical properties including its electronegativity.\n\nThe general outer electronic configuration of Group 17 elements (halogens) is $$ns^2 np^5$$. This configuration indicates that in the outermost shell, there are two electrons in the s orbital ($$ns^2$$) and five electrons in the p orbitals ($$np^5$$). These elements require only one more electron to achieve the stable electronic configuration of a noble gas (which has a full valence shell). This high affinity for electrons is what makes the halogens, and fluorine in particular, very electronegative.\n\nTherefore, the correct answer is:\n\nOption C: $$ns^2 np^5$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "ns$^{2}$ np$^{3}$",
+      "ns$^{2}$ np$^{4}$",
+      "ns$^{2}$ np$^{5}$",
+      "ns$^{2}$ np$^{6}$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_061",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The wavelength of a spectral line for an electronic transition is inversely related to :",
+    "solution": "The wavelength of a spectral line for an electronic transition in an atom or molecule is determined by the difference in energy ($E$) between the two energy levels involved in the transition. According to the Planck relation, the energy difference between the two levels is related to the frequency ($f$) of the emitted or absorbed radiation by $E = hf$, where $h$ is Planck's constant. The frequency ($f$) of the radiation is related to its wavelength ($\\lambda$) and the speed of light ($c$) by the equation $c = \\lambda f$. Combining these equations gives us the relation $\\lambda = \\frac{hc}{E}$.\n\nOption A, \"The number of electrons undergoing the transition,\" does not directly affect the wavelength of the spectral line. The wavelength is determined by the energy difference between the initial and final states of the transition, not the number of electrons involved.\n\nOption B, \"The nuclear charge of the atom,\" indirectly affects the energy levels of electrons in the atom, particularly for hydrogen-like atoms where the energy levels are indeed dependent on the nuclear charge. However, the primary relationship between wavelength and an atomic property is not directly with nuclear charge but with the energy difference between levels, which can be influenced by nuclear charge among other factors.\n\nOption C, \"The difference in the energy of the energy levels involved in the transition,\" is the correct option. As explained, the wavelength ($\\lambda$) of the emitted or absorbed radiation is directly related to the energy difference ($E$) between the two levels involved in the transition by the equation $\\lambda = \\frac{hc}{E}$, making the relationship inverse as stated in the question.\n\nOption D, \"The velocity of the electron undergoing the transition,\" does not directly determine the wavelength of the spectral line. While the velocity of an electron can influence its kinetic energy, and thus indirectly affect transitions and spectral lines in specific contexts (such as Doppler broadening), the primary relationship is between the wavelength and the energy difference of the levels involved in the transition.\n\nTherefore, the correct answer is Option C: \"The difference in the energy of the energy levels involved in the transition.\" This highlights the inverse relationship between the wavelength of a spectral line and the energy difference of the transition involved.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "The number of electrons undergoing the trasition",
+      "The nuclear charge of the atom",
+      "the difference in the energy of the energy levels involved in the transition",
+      "the velocity of the electron undergoing the transition"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_062",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The triad of nuclei that is isotonic is",
+    "solution": "The most electronegative element is fluorine, which is located in the halogen group (Group 17) of the periodic table. Electronegativity is a measure of the tendency of an atom to attract a bonding pair of electrons. Fluorine has the highest electronegativity value because of its small size and the high effective nuclear charge it can exert on the bonding electrons. The outermost electronic configuration of an element determines its chemical properties including its electronegativity.\n\nThe general outer electronic configuration of Group 17 elements (halogens) is $$ns^2 np^5$$. This configuration indicates that in the outermost shell, there are two electrons in the s orbital ($$ns^2$$) and five electrons in the p orbitals ($$np^5$$). These elements require only one more electron to achieve the stable electronic configuration of a noble gas (which has a full valence shell). This high affinity for electrons is what makes the halogens, and fluorine in particular, very electronegative.\n\nTherefore, the correct answer is:\n\nOption C: $$ns^2 np^5$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${}_6^{14}C$$, $${}_7^{15}N$$, $${}_9^{17}C$$",
+      "$${}_6^{12}C$$, $${}_7^{14}N$$, $${}_9^{19}C$$",
+      "$${}_6^{14}C$$, $${}_7^{14}N$$, $${}_9^{17}C$$",
+      "$${}_6^{14}C$$, $${}_7^{14}N$$, $${}_9^{19}C$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_063",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Rutherford's alpha particle scattering experiment eventually led to the conclusion that:",
+    "solution": "Rutherford's alpha particle scattering experiment, conducted by Ernest Rutherford in the early 20th century, was a groundbreaking experiment that led to a fundamental change in how scientists understood the structure of atoms. In this experiment, Rutherford and his team fired alpha particles (helium nuclei) at a thin sheet of gold foil. They observed the scattering of these alpha particles, expecting most to pass straight through the foil with minimal deflection, as was predicted by the plum pudding model of the atom prevalent at the time. This model posited that atoms were composed of a diffuse cloud of positive charge within which electrons were embedded like plums in a pudding.\n\nHowever, Rutherford observed that a small fraction of alpha particles were deflected at very large angles, with some even bouncing back towards the source. This was a completely unexpected result and could not be explained by the plum pudding model. Rutherford proposed a new model of the atom to account for these observations. He suggested that instead of being distributed throughout the atom, as the plum pudding model proposed, the positive charge (and most of the atom's mass) was concentrated in a very small, dense region at the center of the atom. He called this the nucleus. The electrons then occupied the space around the nucleus, much like planets orbiting the sun. This model explained why most of the alpha particles passed through the gold foil (they passed through the empty space around the nucleus) and why some were deflected at large angles (they came close to or collided with the dense, positively charged nucleus).\n\nBased on this information, the correct conclusion that can be drawn from Rutherford's alpha particle scattering experiment is:\n\nOption B: electrons occupy space around the nucleus.\n\nThis conclusion was revolutionary because it overthrew the then-accepted plum pudding model and led to the planetary model of the atom, where a dense nucleus is surrounded by electrons in orbit. It specifically emphasized the existence of a central nucleus within the atom, around which electrons move, rather than being about the relationship between mass and energy (A), the specific structure of the nucleus in terms of protons and neutrons (C), or the precision of impact points with matter (D).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "mass and energy are related",
+      "electrons occupy space around the nucleus",
+      "neutrons are buried deep in the nucleus",
+      "the point of impact with matter can be precisely determined"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_064",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ratio of the energy of a photon of 2000Å wavelength to that 4000Å radiation is",
+    "solution": "To solve this problem, we need to understand the relationship between the energy of a photon and its wavelength. The energy of a photon (E) can be calculated using the equation:\n\n$$E = \\frac{hc}{\\lambda}$$\n\nwhere:\n\n$E$ is the energy of the photon,\n\n$h$ is Planck's constant ($6.626 \\times 10^{-34} \\, \\text{J s}$),\n\n$c$ is the speed of light in vacuum ($3.0 \\times 10^8 \\, \\text{m/s}$),\n\n$\\lambda$ is the wavelength of the photon.\n\nLet's denote the energy of a photon with a wavelength of 2000Å as $E_1$, and the energy of a photon with a wavelength of 4000Å as $E_2$. We need to find the ratio $\\frac{E_1}{E_2}$.\n\nFirst, convert wavelengths from Ångströms to meters, since the constants are in SI units:\n\n1Å = $10^{-10}$ meters.\n\nSo, 2000Å = $2000 \\times 10^{-10}$ meters = $2 \\times 10^{-7}$ meters.\n\nAnd 4000Å = $4000 \\times 10^{-10}$ meters = $4 \\times 10^{-7}$ meters.\n\nNext, we can substitute the values into the energy equation for both $E_1$ and $E_2$ and then find their ratio:\n\n$$E_1 = \\frac{hc}{\\lambda_1} = \\frac{6.626 \\times 10^{-34} \\times 3.0 \\times 10^8}{2 \\times 10^{-7}}E_2 = \\frac{hc}{\\lambda_2} = \\frac{6.626 \\times 10^{-34} \\times 3.0 \\times 10^8}{4 \\times 10^{-7}}$$\n\nNow, let's find the ratio $\\frac{E_1}{E_2}$:\n\n$$\\frac{E_1}{E_2} = \\frac{\\frac{6.626 \\times 10^{-34} \\times 3.0 \\times 10^8}{2 \\times 10^{-7}}}{\\frac{6.626 \\times 10^{-34} \\times 3.0 \\times 10^8}{4 \\times 10^{-7}}} = \\frac{4 \\times 10^{-7}}{2 \\times 10^{-7}} = 2$$\n\nTherefore, the ratio of the energy of a photon of 2000Å wavelength to that of a 4000Å radiation is 2. Hence, the correct answer is:\n\nOption D: 2",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "1/4",
+      "4",
+      "1/2",
+      "2"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_065",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following sets of quantum numbers represents an impossible arrangement?",
+    "solution": "To determine which set of quantum numbers represents an impossible arrangement, we need to understand the rules governing the values of these quantum numbers:\n\nPrincipal Quantum Number ($n$): Represents the shell (energy level) of an electron in an atom and can take positive integer values such that $n = 1, 2, 3, \\ldots$\n\nAzimuthal (or Angular Momentum) Quantum Number ($l$): Defines the shape of the orbital, and for any given $n$, $l$ can take values from $0$ to $n - 1$. For example, if $n = 3$, then $l$ can be $0$, $1$, or $2$.\n\nMagnetic Quantum Number ($m_{l}$): Describes the orientation of the orbital in space relative to the other orbitals and can have integer values ranging from $-l$ to $+l$, including zero. Thus, for $l = 2$, $m_{l}$ can be $-2, -1, 0, 1, 2$.\n\nSpin Quantum Number ($m_{s}$): Specifies the spin of the electron and can take values of $-1/2$ or $+1/2$.\n\nNow, let's evaluate the given options:\n\nOption A: $n = 3, l = 2, m_{l} = -2, m_{s} = 1/2$\n\nThis set of quantum numbers is possible because:\n\nWith $n = 3$, $l$ can be $0$, $1$, or $2$, so $l = 2$ is valid.\n\nFor $l = 2$, $m_{l}$ can range from $-2$ to $2$, so $m_{l} = -2$ is valid.\n\n$m_{s}$ has a valid value of $1/2$.\n\nOption B: $n = 4, l = 0, m_{l} = 0, m_{s} = 1/2$\n\nThis combination is also correct because:\n\nWith $n = 4$, $l$ can be $0, 1, 2, 3$, hence $l = 0$ is valid.\n\nFor $l = 0$, the only valid value for $m_{l}$ is $0$, which matches.\n\n$m_{s} = 1/2$ is a valid value for the spin quantum number.\n\nOption C: $n = 3, l = 2, m_{l} = -3, m_{s} = 1/2$\n\nThis set of quantum numbers is impossible because:\n\nAlthough $n = 3$ and $l = 2$ are valid combinations, for $l = 2$, $m_{l}$ can only be $-2, -1, 0, 1,$ or $2$. The value of $m_{l} = -3$ is outside this permissible range, making this set of quantum numbers impossible.\n\nOption D: $n = 5, l = 3, m_{l} = 0, m_{s} = -1/2$\n\nThis option is also possible because:\n\nWith $n = 5$, $l = 3$ is within the valid range ($0$ through $4$).\n\nFor $l = 3$, $m_{l} = 0$ falls within the valid range ($-3, -2, -1, 0, 1, 2, 3$).\n\n$m_{s} = -1/2$ is a valid spin quantum number value.\n\nTherefore, the impossible arrangement among the given options is Option C: $n = 3, l = 2, m_{l} = -3, m_{s} = 1/2$.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "n = 3, l = 2, m$_{l}$ = -2, m$_{s}$ = 1/2",
+      "n = 4, l = 0, m$_{l}$ = 0, m$_{s}$ = 1/2",
+      "n = 3, l = 2, m$_{l}$ = -3, m$_{s}$ = 1/2",
+      "n = 5, l = 3, m$_{l}$ = 0, m$_{s}$ = -1/2"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_066",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The sum of the number of neutrons and proton in the isotope of hydrogen is",
+    "solution": "The isotope of hydrogen referred to in the question is not explicitly mentioned, so we will consider all possible isotopes of hydrogen to address the query properly. Hydrogen has three isotopes: protium ($^1H$), deuterium ($^2H$), and tritium ($^3H$). The sum of the number of neutrons and protons (nucleons) in each isotope gives us:\n\nProtium ($^1H$): It has 1 proton and 0 neutrons, so the sum is $1 + 0 = 1$.\n\nDeuterium ($^2H$): It has 1 proton and 1 neutron, so the sum is $1 + 1 = 2$.\n\nTritium ($^3H$): It has 1 proton and 2 neutrons, so the sum is $1 + 2 = 3$.\n\nAmong the provided options, Option D: 3 is correct for tritium, the third isotope of hydrogen. Therefore, the sum of the number of protons and neutrons in the tritium isotope of hydrogen is 3.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "6",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_067",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Bohr Model can explain",
+    "solution": "The correct option is **Option B: spectrum of an atom or ion containing one electron only.**\n\nThe Bohr Model, proposed by Niels Bohr in 1913, attempts to explain the atomic structure and the quantization of energy levels. The model was specifically developed to describe the hydrogen atom, the simplest atom consisting of only one electron. However, the principles of the Bohr Model can be generalized to any atom or ion that contains only one electron moving around a nucleus. This includes not only the hydrogen atom (which has one proton and one electron) but also singly ionized helium (He+), doubly ionized lithium (Li2+), and so on, where each of these ions has only one electron. The reason the Bohr Model works for these systems is that the system's physics is dominated by the interaction between the single electron and the nucleus, which can be described using the same quantization rules Bohr proposed.\n\nThe Bohr Model cannot accurately describe:\n\n**Option A:** The spectrum of hydrogen atom only - This option is partially true but incomplete. The Bohr Model does explain the hydrogen spectrum, but it is not limited to only hydrogen.\n\n**Option C:** The spectrum of the hydrogen molecule - The Bohr Model does not apply to molecules, including the hydrogen molecule (H2), because molecules involve more complex interactions between multiple electrons and nuclei that the model does not account for.\n\n**Option D:** The solar spectrum - The solar spectrum is generated by the light emitted from the Sun, which includes a wide variety of atoms and molecules in different states. The Bohr Model cannot explain the solar spectrum because it is only applicable to atoms or ions with a single electron.\n\nIn conclusion, the Bohr Model is applicable and can explain the spectra of atoms or ions that contain only a single electron (Option B), because its foundational assumptions are based on the quantized orbits of an electron around a nucleus in such systems.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "the spectrum of hydrogen atom only",
+      "spectrum of an atom or ion containing one electron only",
+      "the spectrum of the hydrogen molecule",
+      "the solar spectrum"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_068",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The radius of an atomic nucleus is of the order of",
+    "solution": "The size of an atomic nucleus can be understood in terms of its radius, though it's important to note that nuclei are not always perfectly spherical. The radius, $ R $, of a nucleus is often given by the formula $ R = R_0 A^{1/3} $, where $ R_0 $ is a constant approximately equal to $ 1.2 \\times 10^{-15} $ meters (or $ 1.2 \\times 10^{-13} $ cm) and $ A $ is the mass number of the atom (which represents the total number of protons and neutrons in the nucleus).\n\nBased on this formula, we can see that the order of magnitude for the size of a nucleus is indeed very small. The given options are:\n\nOption A: $ 10^{-10} $ cm\n\nOption B: $ 10^{-13} $ cm\n\nOption C: $ 10^{-15} $ cm\n\nOption D: $ 10^{-8} $ cm\n\nThe radius of an atomic nucleus is closest to Option B: $ 10^{-13} $ cm, considering the conversion from $ 1.2 \\times 10^{-15} $ meters to centimeters. While $ 10^{-15} $ meters (or femtometers/fm) is a commonly used unit to describe the scale of nuclear radii directly, when converted to centimeters, the scale of $ 10^{-13} $ cm fits the description of the size of an atomic nucleus closer than the other options provided.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "10$^{-10}$ cm",
+      "10$^{-13}$ cm",
+      "10$^{-15}$ cm",
+      "10$^{-8}$ cm"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_069",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Electromangnetic radiation with maximum wavelength is:",
+    "solution": "The electromagnetic spectrum is organized in order of increasing frequency or decreasing wavelength. Among the options given, we can categorize these types of electromagnetic radiation from the shortest wavelength (highest frequency) to the longest wavelength (lowest frequency) as follows:\n\nX-ray: These have very short wavelengths and are on the higher frequency end of the spectrum.\n\nUltraviolet (UV): UV radiation has shorter wavelengths than visible light but longer than X-rays.\n\nInfrared: Infrared radiation has longer wavelengths than visible light, sitting just beyond the red part of the visible spectrum.\n\nRadiowave: Radiowaves have the longest wavelengths in the electromagnetic spectrum and, correspondingly, the lowest frequencies.\n\nGiven this arrangement, radiowaves have the maximum wavelength among the options listed, making Option B the correct answer.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "ultraviolet",
+      "radiowave",
+      "X-ray",
+      "infrared"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_070",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The increasing order (lowest first) for the values of e/m (charges/mass) for electron (e), proton (p), neutron (n) and alpha particle ($$\\alpha$$) is:",
+    "solution": "To determine the increasing order of $$\\frac{e}{m}$$ (charge-to-mass ratio) for electron (e), proton (p), neutron (n), and alpha particle ($$\\alpha$$), we need to understand the properties of these particles:\n\nElectron (e): The electron has a charge of $$-1.6 \\times 10^{-19} \\text{C} $$ and a mass of approximately $$9.11 \\times 10^{-31} \\text{kg}.$$\n\nProton (p): The proton has a charge of $$+1.6 \\times 10^{-19} \\text{C} $$ and a mass of approximately $$1.67 \\times 10^{-27} \\text{kg}.$$\n\nNeutron (n): The neutron has no charge ($$0 \\text{C}$$) and a mass of approximately $$1.67 \\times 10^{-27} \\text{kg}.$$ Since the charge is zero, the charge-to-mass ratio for a neutron is effectively $$0.$$\n\nAlpha Particle ($$\\alpha$$): An alpha particle consists of 2 protons and 2 neutrons, with a total charge of $$2 \\times 1.6 \\times 10^{-19} \\text{C}$$ and a total mass of approximately $$4 \\times 1.67 \\times 10^{-27} \\text{kg} = 6.68 \\times 10^{-27} \\text{kg}.$$\n\nNow, let's calculate the $$\\frac{e}{m}$$ values for each of these particles (except for neutron where this value is 0 because it has no charge):\n\nFor an electron, $$\\frac{e}{m} = \\frac{1.6 \\times 10^{-19}}{9.11 \\times 10^{-31}} \\approx 1.76 \\times 10^{11} \\frac{C}{kg}$$\n\nFor a proton, $$\\frac{e}{m} = \\frac{1.6 \\times 10^{-19}}{1.67 \\times 10^{-27}} \\approx 9.58 \\times 10^{7} \\frac{C}{kg}$$\n\nFor an alpha particle, $$\\frac{e}{m} = \\frac{2 \\times 1.6 \\times 10^{-19}}{6.68 \\times 10^{-27}} \\approx 4.79 \\times 10^{7} \\frac{C}{kg}$$\n\nTherefore, in increasing order of the charge-to-mass ratio ($$\\frac{e}{m}$$), we have:\n\nNeutron (n) with $$0 \\frac{C}{kg}$$\n\nAlpha particle ($$\\alpha$$) with $$4.79 \\times 10^{7} \\frac{C}{kg}$$\n\nProton (p) with $$9.58 \\times 10^{7} \\frac{C}{kg}$$\n\nElectron (e) with $$1.76 \\times 10^{11} \\frac{C}{kg}$$\n\nThe correct order is then n, $$\\alpha$$, p, e, which corresponds to:\n\nOption D: n, $$\\alpha$$, p, e",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "e, p, n, $$\\alpha$$",
+      "n, p, e, $$\\alpha$$",
+      "n, p, $$\\alpha$$, e",
+      "n, $$\\alpha$$, p, e"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_071",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which electronic level would allow the hydrogen atom to absorb a photon but not to emit a photon?",
+    "solution": "The concept here revolves around the structure of hydrogen atom energy levels and how electrons move between these levels by absorbing or emitting photons. Importantly, all the options given (1s, 2s, 2p, and 3s) are valid electronic levels for a hydrogen atom. However, the key lies in understanding the process of absorption and emission of photons in relation to these levels.\n\nIn a hydrogen atom, when an electron moves from a lower energy level to a higher energy level, it absorbs a specific amount of energy, which is taken in as a photon. Conversely, when an electron drops from a higher energy level to a lower energy level, it emits a photon, releasing the previously absorbed energy.\n\nFor an electronic level to allow the hydrogen atom to absorb a photon but not to emit a photon, the concept itself is somewhat misleading because any excited state (above the ground state) has the potential both to absorb (moving to an even higher level) and to emit photons (returning to a lower energy state). However, considering the question's framing, we can interpret it as looking for a level that fundamentally represents the ground state or a state from which no photon emission would occur without first absorbing energy to reach an excited state.\n\nGiven the options:\n- 1s (Option D): This is the ground state of a hydrogen atom, the lowest energy level.\n- 2s and 2p (Option B and C): These are excited states above the ground state.\n- 3s (Option A): This is a further excited state above 2s and 2p.\n\nTherefore, Option D (1s) is the only level from which the atom cannot emit a photon without first absorbing energy because it is the ground state. In any other state (2s, 2p, 3s), the atom can both absorb a photon to move to a higher state and emit a photon when it transitions back to a lower energy level, including the 1s level.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "3s",
+      "2p",
+      "2s",
+      "1s"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_072",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Correct set of four quantum numbers for the valence (outermost) electron of rubidium (Z = 37) is",
+    "solution": "To find the correct set of four quantum numbers for the valence (outermost) electron of rubidium (Z = 37), we first need to understand what each quantum number represents and the electron configuration of rubidium.\n\nThe four quantum numbers are:\n\nThe principal quantum number $(n)$ - indicates the energy level of the electron.\n\nThe azimuthal (or angular momentum) quantum number $(l)$ - defines the shape of the electron's orbit, where $l$ ranges from 0 to $n-1$.\n\nThe magnetic quantum number $(m_l)$ - specifies the orientation of the orbital, with possible values ranging from $-l$ to $+l$.\n\nThe spin quantum number $(m_s)$ - indicates the direction of the electron's spin, which can be either $+\\frac{1}{2}$ or $-\\frac{1}{2}$.\n\nNow, let's look at the electron configuration of rubidium. Rubidium (Z = 37) has an electronic configuration of $[Kr] 5s^1$. This means its valence electron is in the 5s orbital.\n\nSo, for the valence electron of rubidium, the quantum numbers can be determined as follows:\n\n$n = 5$, since it's in the 5s orbital, relating to the principal quantum number.\n\n$l = 0$, for an s-orbital (which is spherical), the azimuthal quantum number is always 0.\n\n$m_l = 0$, since for $l = 0$, the only value $m_l$ can take is 0.\n\n$m_s = +\\frac{1}{2}$ or $-\\frac{1}{2}$, representing the spin of the electron. Without specific magnetic interactions defined, either spin state is possible, but given the choices we can assume $+\\frac{1}{2}$.\n\nTherefore, the correct set of four quantum numbers for the valence electron of rubidium is represented by Option D: 6, 0, 0, $+\\frac{1}{2}$. However, since the valence electron of rubidium actually occupies the 5s orbital, not the 6th energy level, there seems to be an error in my explanation—Option D suggests a principal quantum number (n) of 6, which does not correspond to the 5s orbital of rubidium.\n\nThe correct option should be related to the 5s orbital's characteristics, thereby correcting my mistake, the accurate answer is:\n\nOption A: 5, 0, 0, $+\\frac{1}{2}$, which rightly corresponds to the 5s orbital where rubidium's valence electron resides.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "5, 0, 0, $$ + {1 \\over 2}$$",
+      "5, 1, 0, $$ + {1 \\over 2}$$",
+      "5, 1, 1, $$ + {1 \\over 2}$$",
+      "6, 0, 0, $$ + {1 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_073",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Any p-orbital can accommodate upto",
+    "solution": "According to the Pauli exclusion principle and quantum mechanics, an orbital can accommodate a maximum of two electrons, and these electrons must have opposite spins. The p-orbital is no exception to this rule. In an atom, the p-orbitals are degenerate, meaning they have the same energy level in a given shell. Each p-orbital (p$_{x}$, p$_{y}$, and p$_{z}$) can accommodate 2 electrons, making a total of 6 electrons for all three p-orbitals in a subshell having opposite spins. However, focusing on any single p-orbital, it can only accommodate two electrons with opposite spins, as they have to obey the Pauli exclusion principle, which states that no two electrons in an atom can have the same set of four quantum numbers. Therefore, the correct answer is:\n\nOption D: two electrons with opposite spins.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "four electrons",
+      "six electons",
+      "two electrons with parallel spins",
+      "two electrons with opposite spins"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_074",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The principal quantum number of an atom is related to the",
+    "solution": "The principal quantum number, denoted as **n**, is one of the four quantum numbers which define the unique quantum state of an electron. The principal quantum number essentially determines the overall size and energy level of an atomic orbital. It is a positive integer ($n = 1, 2, 3, \\ldots$) that indicates the shell to which an electron belongs in an atom. As **n** increases, the orbital becomes larger, meaning the electron is further from the nucleus and has higher energy.\n\nGiven the options:\n\n**Option A: size of the orbital** - This option is correct. The principal quantum number directly affects the size of the orbital. A higher principal quantum number indicates a larger orbital.\n\n**Option B: spin angular momentum** - This option is incorrect. The spin angular momentum is related to the spin quantum number ($s$), not the principal quantum number ($n$).\n\n**Option C: orbital angular momentum** - This option is partially correct in the sense that the principal quantum number indirectly affects orbital angular momentum because it determines the possible values for the angular momentum quantum number (l), which directly affects orbital angular momentum. However, the principal quantum number itself does not directly specify orbital angular momentum.\n\n**Option D: orientation of the orbital in space** - This option is incorrect. The orientation of the orbital in space is determined by the magnetic quantum number ($m_l$), not the principal quantum number ($n$).\n\nTherefore, the correct answer is **Option A: size of the orbital**, as it most directly and accurately describes the role of the principal quantum number.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "size of the orbital",
+      "spin angular momentum",
+      "orbital angular momentum",
+      "orientation of the orbital in space"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_075",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Rutherford's scattering experiment is related to the size of the",
+    "solution": "Rutherford's scattering experiment, conducted by Ernest Rutherford in the early 20th century, is crucial for understanding the structure of the atom. In this experiment, Rutherford and his team directed a beam of alpha particles (which are positively charged particles) at a thin sheet of gold foil and observed the pattern of scattering of these alpha particles after they hit the foil. The observations were unexpected at the time. Most of the alpha particles passed straight through the foil with little or no deflection, but a small fraction of the particles was deflected at very large angles, and some were even scattered back in the direction they came from.\n\nThis experimental evidence led to the conclusion that most of the atom is empty space, and all the positive charge and almost all the mass must be concentrated in a very small central region within the atom. This dense central region was named the nucleus. Hence, Rutherford's scattering experiment is directly related to discovering the size and presence of the nucleus in the center of atoms. Therefore, the correct answer is:\n\nOption A: nucleus",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "nucleus",
+      "atom",
+      "electron",
+      "neutron"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_076",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ion that is isoelectronic with CO is",
+    "solution": "To determine which ion is isoelectronic with CO, we first need to understand what \"isoelectronic\" means. Two species are isoelectronic if they have the same number of electrons.\n\nCarbon monoxide (CO) has a total of 10 electrons:\n\nCarbon (C) has 6 electrons and Oxygen (O) has 8 electrons. Therefore:\n\n$$6 + 8 = 14\\, \\text{electrons}$$\n\nNow, let's examine each option:\n\nOption A: CN$^{-}$\n\nCyanide ion (CN$^{-}$) has:\n\nCarbon (C) with 6 electrons, Nitrogen (N) with 7 electrons, and one additional electron because of the negative charge:\n\n$$6 + 7 + 1 = 14\\, \\text{electrons}$$\n\nOption B: NO$_{2}$\n\nNitrogen dioxide (NO$_{2}$) has:\n\nNitrogen (N) with 7 electrons and two Oxygen (O) each with 8 electrons:\n\n$$7 + 8 \\times 2 = 23\\, \\text{electrons}$$\n\nOption C: SO$_{2}$\n\nSulfur dioxide (SO$_{2}$) has:\n\nSulfur (S) with 16 electrons and two Oxygen (O) each with 8 electrons:\n\n$$16 + 8 \\times 2 = 32\\, \\text{electrons}$$\n\nOption D: ClO$_{2}$\n\nChlorine dioxide (ClO$_{2}$) has:\n\nChlorine (Cl) with 17 electrons and two Oxygen (O) each with 8 electrons:\n\n$$17 + 8 \\times 2 = 33\\, \\text{electrons}$$\n\nFrom the above calculations, we can conclude that the ion CN$^{-}$ (option A) has the same number of electrons as CO and is therefore isoelectronic with it. So, the correct answer is:\n\nOption A: CN$^{-}$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "CN$^{-}$",
+      "NO$_{2}$",
+      "SO$_{2}$",
+      "ClO$_{2}$"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_077",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Rutherford's experiment on scattering of $$\\alpha-particles$$ showed for the first time that the atom has",
+    "solution": "Rutherford's experiment on the scattering of $$\\alpha$$-particles, conducted between 1908 and 1913, was groundbreaking in the field of atomic physics. In this experiment, Rutherford and his colleagues, Hans Geiger and Ernest Marsden, aimed a beam of alpha particles (which are positively charged particles) at a thin gold foil and observed their scattering patterns using a fluorescence screen.\n\nThe results were surprising and led to a dramatic shift in the understanding of the atomic structure. Most of the alpha particles passed straight through the gold foil, a few were deflected at large angles, and a very small number were deflected backward. This was in stark contrast to the expectations based on the plum pudding model of the atom that was prevalent at the time, which proposed that the atom was a diffuse cloud of positive charge with electrons embedded throughout.\n\nThe only way Rutherford could explain the observed scattering patterns was by proposing that the atom consists of a tiny, dense nucleus that contains all of its positive charge and most of its mass. This nucleus is surrounded by a cloud of electrons, which occupies the rest of the atom's volume but contributes negligibly to its mass. The alpha particles were mostly passing through the empty space of the atom, but when they came close to the dense nucleus, they were deflected by its positive charge.\n\nTherefore, Rutherford's experiment showed for the first time that the atom has a nucleus, making the correct answer:\n\nOption C: nucleus.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "electrons",
+      "protons",
+      "nucleus",
+      "neutrons"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_078",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of neutrons in dipositive zinc ion with mass number 70 is",
+    "solution": "To find the number of neutrons in a dipositive zinc ion (Zn$^{2+}$) with a mass number of 70, we first need to understand what each term means and then perform the calculation:\n\n1. Mass number: This is the total number of protons and neutrons in an atom's nucleus. For this zinc ion, the mass number is given as 70.\n\n2. Zinc's atomic number: The atomic number of an element represents the number of protons in the nucleus of an atom of that element. For zinc, the atomic number is 30, which means every zinc atom has 30 protons.\n\n3. Dipositive zinc ion (Zn$^{2+}$): This indicates a zinc ion that has lost two electrons, becoming positively charged. However, the loss of electrons does not affect the number of protons or neutrons in the nucleus, so the atomic and mass numbers are unaffected by the ion's charge state.\n\nTo find the number of neutrons in the zinc ion, we subtract the number of protons (atomic number) from the mass number:\n\n$ \\text{Number of neutrons} = \\text{Mass number} - \\text{Atomic number} $\n\nFor the zinc ion in question:\n\n$ \\text{Number of neutrons} = 70 - 30 = 40 $\n\nTherefore, the number of neutrons in the dipositive zinc ion with a mass number of 70 is 40, which corresponds to option D.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_079",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(A) Calculate velocity of electron in the first orbit of hydrogen atom (Given : $$r=a_0=0.529\\mathop A\\limits^o $$).\n(B) Calculate the de Broglie's wavelength of the electron in first Bohr orbit.\n(C) Calculate the orbital angular momentum of 2p orbital in terms of $$h/2\\pi$$ units.",
+    "solution": "The Bohr's model was proposed by Niels Bohr\nand Ernst Rutherford which states that the\nelectrons revolve around the nucleus in circular\norbits known as energy shells.\nThe angular momentum for an electron can be\ncalculated using following formula,\n$$mvr = {{nh} \\over {2\\pi }}$$ ..... (i)\nHere, m is the mass of an electron and $$v$$ is the\nvelocity of electron. The $$r$$ represents the radius\nof the $$n^{th}$$ orbit. The $$h$$ denotes Planck’s constant and $$n$$ denotes the number of orbits in which electron is revolving.\n$$r = {a_0} = 0.529\\,\\mathop A\\limits^o = 0.529 \\times {10^{ - 10}}$$ m\n$$h = 6.626 \\times {10^{ - 34}}$$ kg m$$^2$$/s\n$$m = 9.1 \\times {10^{ - 31}}$$ kg\n$$n = 1\\pi=3.14$$\nPutting respective values in equation (i),\n$$9.1 \\times {10^{ - 31}} \\times v \\times 0.529 \\times {10^{ - 10}} = {{1 \\times 6.626 \\times {{10}^{ - 34}}} \\over {2 \\times 3.14}}v = {{1 \\times 6.626 \\times {{10}^{ - 34}}} \\over {2 \\times 3.14 \\times 9.1 \\times {{10}^{ - 31}} \\times 0.529 \\times {{10}^{ - 10}}}}$$ m/s\n$$v = 2.19 \\times {10^6}$$ m/s\nHence, the velocity of electron in the first Bohr\norbit of hydrogen atom is $$2.19 \\times {10^6}$$ m/s.\n(B) The angular momentum of an electron orbit is\ngiven as,\n$$mvr = {{nh} \\over {2\\pi }}$$ ..... (i)\nThe de Broglie wavelength is given by,\n$$\\lambda = {h \\over p}$$ ..... (ii)\nHere, $$\\lambda$$ denotes de Broglie wavelength, h is Planck’s constant and P is the momentum.\nThe momentum P is given as,\n$$P = mv$$\nSubstitute value of P in equation (i),\n$$mvr = {{nh} \\over {2\\pi }} \\Rightarrow \\Pr = {{nh} \\over {2\\pi }}$$\nFrom equation (ii),\n$${h \\over \\lambda } = {{nh} \\over {2\\pi r}}$$\nOn simplifying further,\n$$\\lambda = {{2\\pi r} \\over n}$$ ..... (iii)\n$$\\lambda = 2\\pi \\times 0.529\\,\\mathop A\\limits^o $$\nWe know, for first Bohr's orbit,\nn = 1 and r = 0.529 $$\\times$$ 10$$^{-10}$$ m\n$$\\lambda=2\\times3.14\\times0.529\\times10^{-10}$$ m\n$$=3.32\\times10^{-10}$$ m\n1 angstrom = 10$$^{-10}$$ m\n$$\\therefore\\lambda = 3.32\\,\\mathop A\\limits^o $$\nTherefore, the de Broglie's wavelength of the\nelectron in first Bohr orbit is 3.32 angstrom.\n(C) The orbital angular momentum of an orbital in\nterms of $$\\frac{h}{2\\pi}$$ is given by,\nOrbital angular momentum = $$\\sqrt {l(l + 1)} {h \\over {2\\pi }}$$\nHere, $$l$$ is the angular momentum quantum\nnumber.\nFor $$2p$$ orbital, $$l = 1$$\nSubstituting value of $$l$$ in above equation, we get\n\nOrbital angular momentum $$ = \\sqrt {l(l + 1)} {h \\over {2\\pi }}$$\nOrbital angular momentum $$ = \\sqrt 2 {h \\over {2\\pi }}$$\nTherefore, the orbital angular momentum for\n2p orbital is $$\\sqrt 2 {h \\over {2\\pi }}$$.\nFinal Answer\n(A) The velocity of electron in the first Bohr orbit of\nhydrogen atom is $$2.19 \\times {10^6}$$ m/s.\n(B) $$\\lambda = 3.32\\,\\mathop A\\limits^o $$\n(C) The orbital angular momentum for 2p orbital is $$\\sqrt 2 {h \\over {2\\pi }}$$.\nShortcut Method:\nThe de Broglie's wavelength for first Bohr\norbit can be calculated as follows:\n$$\\lambda = {h \\over {mv}} = {{6.63 \\times {{10}^{ - 34}}} \\over {9.1 \\times {{10}^{ - 31}} \\times 2.18 \\times {{10}^6}}} = 0.33 \\times {10^{ - 9}}$$ m $$ = 3.3\\,\\mathop A\\limits^o $$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_080",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A ball of mass 100 g is moving with 100 ms$^{-1}$. Find it's wavelength.",
+    "solution": "To find the wavelength of a ball moving with a certain velocity, we use the de Broglie wavelength formula:\n\n$\\lambda = \\frac{h}{p}$\n\nWhere:\n\n$\\lambda$ is the wavelength,\n\n$h$ is Planck's constant, which is approximately $6.626 \\times 10^{-34} \\, \\text{Js}$ (joule-second),\n\n$p$ is the momentum of the object, calculated as the product of its mass ($m$) and velocity ($v$).\n\nGiven that the mass ($m$) of the ball is 100 g (which should be converted to kilograms to be consistent with the SI units), so $m = 0.1 \\, \\text{kg}$, and the velocity ($v$) of the ball is $100 \\, \\text{m/s}$, we can calculate the momentum ($p$) as:\n\n$p = m \\cdot v = 0.1 \\, \\text{kg} \\cdot 100 \\, \\text{m/s} = 10 \\, \\text{kg} \\cdot \\text{m/s}$\n\nNow, substituting the values of $h$ and $p$ into the de Broglie wavelength equation:\n\n$\\lambda = \\frac{6.626 \\times 10^{-34} \\, \\text{Js}}{10 \\, \\text{kg} \\cdot \\text{m/s}}$\n\n$\\lambda = 6.626 \\times 10^{-35} \\, \\text{m}$\n\nSo, the wavelength of the ball moving at a velocity of $100 \\, \\text{m/s}$ is $6.626 \\times 10^{-35} \\, \\text{m}$, which is an extremely small wavelength, demonstrating the particle nature of macroscopic objects becomes significant only at the quantum scale.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_081",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "(a) The Schrodinger wave equation for hydrogen atom is\n\n$$$\\psi = {1 \\over {4\\sqrt {2\\pi } }}{\\left( {{1 \\over {{a_0}}}} \\right)^{3/2}}\\left( {2 - {{{r_0}} \\over {{a_0}}}} \\right){e^{ - {r_0}/{a_0}}}$$$\n\nWhere a$_{0}$ is Bohr's radius. If the radial node in 2s be at r$_{0}$, then find r$_{0}$ in terms of a$_{0}$.\n\n(b) A baseball having mass 100 g moves with velocity 100 m/s. Determine the value of wavelength of baseball.",
+    "solution": "(a) Probability of finding electrons at any place = $$\\psi _{2s}^2 = 0$$ at node\n$$\\therefore\\psi _{2s}^2 = 0 = {1 \\over {4\\sqrt {2\\pi } }}{\\left( {{1 \\over {{a_0}}}} \\right)^3}\\left( {2 - {r \\over {{a_0}}}} \\right) \\times {e^{ - r/{a_0}}}$$\nor $$\\left( {2 - {r \\over {{a_0}}}} \\right) = 0$$ or $$2 = {r \\over {{a_0}}}$$ or $$r = 2{a_0}$$\n(b) $$\\lambda = {h \\over {mv}}h = 6.626 \\times {10^{ - 34}}\\,Js$$, m = 100 g = 0.1 kg v = 100 ms$^{$$-$$1}$\n$$\\therefore\\lambda = {{6.626 \\times {{10}^{ - 34}}\\,kg\\,{m^2}\\,{s^{ - 1}}} \\over {0.1\\,kg \\times 100\\,m{s^{ - 1}}}} = 6.626 \\times {10^{ - 35}}\\,m$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_082",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Wavelength of high energy transition of H-atoms is 91.2 nm. Calculate the corresponding wavelength of He atoms.",
+    "solution": "$${1 \\over \\lambda } = {R_H}{Z^2}\\left[ {{1 \\over {n_1^2}} - {1 \\over {n_2^2}}} \\right]\\therefore{1 \\over {91.2}} = {R_H}\\left[ {{1 \\over {{1^2}}} - {1 \\over {{n^2}}}} \\right]$$\nSince R$_{H}$ = constant\n$${{{\\lambda _{He}}} \\over {{\\lambda _H}}} = {{Z_H^2} \\over {Z_{He}^2}} = {1 \\over 4}$$\nor, $${\\lambda _{He}} = {{{\\lambda _H}} \\over 4} = {{91.2} \\over 4} = 22.8$$ nm",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_083",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the energy required to excite one litre of hydrogen gas at 1 atm and 298 K to the first excited state of atomic hydrogen. The energy for the dissociation of H-H bond 436 kJ mol$^{-1}$.",
+    "solution": "No. of moles of H$_{2}$ gas,\n$$n = {{PV} \\over {RT}} = {{1 \\times 1} \\over {0.0821 \\times 298}} = 0.0409$$\nEnergy required to dissociate 0.0409 mol H$_{2}$ into atoms $$ = 0.0409 \\times 436 = 17.83$$ kJ\nNo. of moles of H atoms\n$$ = 2 \\times 0.0409 = 0.0818{E_n} = - {{1312} \\over {{n^2}}}$$ kJ mol$^{$$-$$1}$\n$$\\therefore$$ Energy required for excitation of 0.0818 moles of H atoms from ground state to first excited state\n$$ = ({E_2} - {E_1}) \\times 0.0818$$ kJ mol$^{$$-$$1}$\n$$ = - \\left[ {\\left( {{{ - 1312} \\over {{2^2}}}} \\right) - \\left( {{{ - 1312} \\over {{1^2}}}} \\right)} \\right] \\times 0.0818$$ kJ\n= 80.49 kJ\nTotal energy required for excitation of 1 litre H$_{2}$ gas = 17.83 + 80.49 = 98.32 kJ",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_084",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the wave number for the shortest wavelength transition in the Balmer series of atomic hydrogen.",
+    "solution": "To calculate the wave number for the shortest wavelength transition in the Balmer series of atomic hydrogen, we need to understand what the Balmer series represents and how the wave number is related to the wavelength of electromagnetic radiation.\n\nThe Balmer series corresponds to electron transitions from higher energy levels (n > 2) down to n = 2 in the hydrogen atom. The wavelength of the emitted photon during such a transition is given by the Rydberg formula, which for hydrogen is:\n\n$$\\frac{1}{\\lambda} = R \\left( \\frac{1}{2^2} - \\frac{1}{n^2} \\right)$$\n\nwhere:\n\n$$\\lambda$$ is the wavelength of the emitted light.\n$$R$$ is the Rydberg constant for hydrogen, approximately $$1.097 \\times 10^7 \\, \\text{m}^{-1}$$.\n$$n$$ is the principal quantum number of the higher energy level (n > 2).\n\nThe wave number $$\\bar{\nu}$$ is defined as the reciprocal of the wavelength (in meters), thus:\n\n$$\\bar{\nu} = \\frac{1}{\\lambda}$$\n\nSubstituting the Rydberg formula for $$\\frac{1}{\\lambda}$$ gives us:\n\n$$\\bar{\nu} = R \\left( \\frac{1}{2^2} - \\frac{1}{n^2} \\right)$$\n\nThe shortest wavelength transition in the Balmer series corresponds to the transition with the largest energy difference, which occurs when the electron comes from an infinitely high energy level (n = ∞) down to n = 2. Therefore, for the shortest wavelength (and hence highest frequency and largest wave number), set n = ∞ in the equation. As $$n$$ approaches ∞, $$\\frac{1}{n^2}$$ approaches 0, and the equation simplifies to:\n\n$$\\bar{\nu}_{min} = R \\left( \\frac{1}{2^2} \\right) = R \\left( \\frac{1}{4} \\right) = \\frac{1.097 \\times 10^7 \\, \\text{m}^{-1}}{4}$$\n\nPerforming the calculation:\n\n$$\\bar{\nu}_{min} = 2.743 \\times 10^6 \\, \\text{m}^{-1}$$\n\nThus, the wave number for the shortest wavelength transition in the Balmer series of atomic hydrogen is $$2.743 \\times 10^6 \\, \\text{m}^{-1}$$. This corresponds to the transition from n = ∞ to n = 2.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_085",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the hydrogen atom to be a proton embedded in a cavity of radius a$_{0}$ (Bohr radius) whose charge is neutralised by the addition of an electron to the cavity in vacuum, infinitely slowly. Estimate the average total energy of an electron in it's ground state in a hydrogen atom as the work done in the above neutralisation process. Also, if the magnitude of the average kinetic energy is half the magnitude of the average potential energy, find the average potential energy.",
+    "solution": "Bond energy per molecule $$ = {{240 \\times {{10}^3}\\,J} \\over {6.02 \\times {{10}^{23}}}} = 3.98 \\times {10^{ - 19}}$$ J/molecule\nEnergy absorbed\n$$hc/\\lambda = {{6.62 \\times {{10}^{ - 34}}\\,Js \\times 3 \\times {{10}^8}\\,m\\,{s^{ - 1}}} \\over {4500 \\times {{10}^{ - 10}}\\,m}} = 4.41 \\times {10^{ - 19}}\\,J$$\nKinetic energy\n$$ = (4.41 \\times {10^{ - 19}} - 3.98 \\times {10^{ - 19}})\\,J = 4.3 \\times {10^{ - 20}}\\,J$$\nKinetic energy per atom\n$$ = {{4.3 \\times {{10}^{ - 20}}} \\over 2}\\,J = 2.15 \\times {10^{ - 20}}\\,J$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_086",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Iodine molecule dissociates into atoms after absorbing light of 4500 Å. If one quantum of radiation is absorbed by each molecule, calculate the kinetic energy of iodine atoms. (Bond energy of I$_{2}$ = 240 kJ mol$^{-1}$)",
+    "solution": "Bond energy per molecule $$ = {{240 \\times {{10}^3}\\,J} \\over {6.02 \\times {{10}^{23}}}} = 3.98 \\times {10^{ - 19}}$$ J/molecule\nEnergy absorbed\n$$hc/\\lambda = {{6.62 \\times {{10}^{ - 34}}\\,Js \\times 3 \\times {{10}^8}\\,m\\,{s^{ - 1}}} \\over {4500 \\times {{10}^{ - 10}}\\,m}} = 4.41 \\times {10^{ - 19}}\\,J$$\nKinetic energy\n$$ = (4.41 \\times {10^{ - 19}} - 3.98 \\times {10^{ - 19}})\\,J = 4.3 \\times {10^{ - 20}}\\,J$$\nKinetic energy per atom\n$$ = {{4.3 \\times {{10}^{ - 20}}} \\over 2}\\,J = 2.15 \\times {10^{ - 20}}\\,J$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_087",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "What transition in the hydrogen spectrum would have the same wavelength as the Balmer transition n = 4 to n = 2 of He$^{+}$ spectrum?",
+    "solution": "For a spectral transition\n$${1 \\over \\lambda } = {R_H}{Z^2}\\left( {{1 \\over {{n_1}^2}} - {1 \\over {{n_2}^2}}} \\right)\\therefore$$ For He$^{+}$ ion, we have\n$${1 \\over \\lambda } = {R_H}\\,.\\,{(2)^2}\\left( {{1 \\over {{2^2}}} - {1 \\over {{4^2}}}} \\right) = {3 \\over 4}{R_H}$$ ..... (i)\nNow for hydrogen atom\n$${1 \\over \\lambda } = {R_H}\\left( {{1 \\over {{n_1}^2}} - {1 \\over {{n_2}^2}}} \\right)$$ ...... (ii)\nEquating equations (i) and (ii), we get\n$$\\left( {{1 \\over {{n_1}^2}} - {1 \\over {{n_2}^2}}} \\right) = {3 \\over 4}$$\nObviously n$_{1}$ = 1 and n$_{2}$ = 2. Hence, the transition n = 2 to n = 1 in hydrogen atom will have the same wavelength as the transition, n = 4 to n = 2 in He$^{+}$ species. The transition belongs to Lyman series.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_088",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Estimate the difference in energy between 1st and 2nd Bohr orbit for a hydrogen atom. At what minimum atomic number, a transition from n = 2 to n = 1 energy level would result in the emission of X-rays with $$\\lambda = 3.0 \\times {10^{ - 8}}$$? Which hydrogen atom like species does this atomic number correspond to?",
+    "solution": "(i) The expression for the energy difference between two electronic levels is given by\n$$\\Delta E = hv = h\\,.\\,{c \\over \\lambda } = hc\\overline v $$ ...... (i)\n$$\\overline v = {R_H}\\left( {{1 \\over {{n_1}^2}} - {1 \\over {{n_2}^2}}} \\right){Z^2}$$ ..... (ii)\n$$\\Delta E = hc\\,.\\,{R_H}\\left( {{1 \\over {{n_1}^2}} - {1 \\over {{n_2}^2}}} \\right){Z^2}$$ ..... (iii)\nZ = 1 for H atom\nTherefore, energy difference between first and second orbit of H - atom is given by\n$$\\Delta E = {R_H}\\,.\\,hc\\left( {{1 \\over {{1^2}}} - {1 \\over {{2^2}}}} \\right) = (1.09677 \\times {10^7}\\,{m^{ - 1}})(6.626 \\times {10^{ - 34}}\\,Js)(3 \\times {10^8}\\,m{s^{ - 1}}) \\times \\left( {{1 \\over {{2^2}}} - {1 \\over {{2^2}}}} \\right) = 1.635 \\times {10^{ - 18}}\\,J$$\n(ii) Energy of X-rays of wavelength\n$$\\lambda = {{hc} \\over \\lambda }$$\nEnergy emission for hydrogen like atom during transition from n = 2 to n = 1 energy state = $$1.635 \\times {10^{ - 18}}\\,{Z^2}J\\therefore1.635 \\times {10^{ - 18}}\\,{Z^2}J = {{hc} \\over \\lambda } = {{(6.626 \\times {{10}^{ - 34}}Js)(3 \\times {{10}^8}\\,m{s^{ - 1}})} \\over {(3 \\times {{10}^{ - 8}}\\,m)}}\\therefore$$ Z = 2\n(iii) The hydrogen atom-like species having atomic number 2 is He$^{+}$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_089",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "According to Bohr's theory, the electronic energy of hydrogen atom in the n$^{th}$ Bohr's orbit is given by $${E_n} = {{ - 21.6 \\times {{10}^{ - 19}}} \\over {{n^2}}}J$$. Calculate the longest wavelength of light (in Å) that will be needed to remove an electron from the third Bohr orbit of the He$^{+}$ ion.",
+    "solution": "Solution for this Structure of Atom question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_090",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Give reasons why the ground state outermost electronic configuration of silicon is:\n\n[Diagram]",
+    "solution": "To calculate the energy required to completely remove an electron from the n = 2 orbit in a hydrogen atom, we need to understand that completely removing an electron refers to ionizing the atom. Ionization requires the electron to move from its given orbit (in this case, n = 2) to essentially n = ∞, where its energy would be 0.\n\nGiven, the energy of an electron in a hydrogen atom is:\n\n$ E = \\frac{-21.7 \\times 10^{-12}}{n^2} $ ergs.\n\nFor n = 2 (initial state energy $E_i$):\n\n$ E_i = \\frac{-21.7 \\times 10^{-12}}{2^2} $\n\n$ E_i = \\frac{-21.7 \\times 10^{-12}}{4} $\n\n$ E_i = -5.425 \\times 10^{-12} $ ergs.\n\nFor n = ∞ (final state energy, $E_f$), the energy is 0 since the electron is completely removed from the atom.\n\nThe energy required ($E_{required}$) to remove the electron is the difference in energy between the final and initial states:\n\n$ E_{required} = E_f - E_i $\n\n$ E_{required} = 0 - (-5.425 \\times 10^{-12}) $\n\n$ E_{required} = 5.425 \\times 10^{-12} $ ergs.\n\nTo find the longest wavelength ($\\lambda_{max}$) of light that can be used to cause this transition (which means providing exactly the energy calculated above), we use the relationship between energy and wavelength provided by the equation:\n\n$ E = \\frac{hc}{\\lambda} $\n\nWhere:\n\n$E$ is the energy in ergs,\n\n$h$ is Planck's constant ($6.626 \\times 10^{-27}$ erg·s),\n\n$c$ is the speed of light in vacuum ($3.00 \\times 10^{10}$ cm/s),\n\n$\\lambda$ is the wavelength in cm.\n\nRearranging this equation to solve for $\\lambda$:\n\n$ \\lambda = \\frac{hc}{E} $\n\nSubstituting the values:\n\n$ \\lambda_{max} = \\frac{(6.626 \\times 10^{-27}) \\times (3.00 \\times 10^{10})}{5.425 \\times 10^{-12}} $\n\n$ \\lambda_{max} = \\frac{1.9878 \\times 10^{-16}}{5.425 \\times 10^{-12}} $\n\n$ \\lambda_{max} = 3.664 \\times 10^{-5} $ cm, or 366.4 nm.\n\nThus, the energy required to remove an electron completely from the n = 2 orbit is $5.425 \\times 10^{-12}$ ergs, and the longest wavelength of light that can be used to cause this transition is $3.664 \\times 10^{-5}$ cm (or 366.4 nm when converted to nanometers for more common wavelength units in light spectra considerations).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_091",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electron energy in hydrogen atom is given by E = (-21.7 $$\\times$$ 10$^{-12}$)/n$^{2}$ ergs. Calculate the energy required to remove an electron completely from the n = 2 orbit. What is the longest wavelength (in cm) of light that can be used to cause this transition?",
+    "solution": "To calculate the energy required to completely remove an electron from the n = 2 orbit in a hydrogen atom, we need to understand that completely removing an electron refers to ionizing the atom. Ionization requires the electron to move from its given orbit (in this case, n = 2) to essentially n = ∞, where its energy would be 0.\n\nGiven, the energy of an electron in a hydrogen atom is:\n\n$ E = \\frac{-21.7 \\times 10^{-12}}{n^2} $ ergs.\n\nFor n = 2 (initial state energy $E_i$):\n\n$ E_i = \\frac{-21.7 \\times 10^{-12}}{2^2} $\n\n$ E_i = \\frac{-21.7 \\times 10^{-12}}{4} $\n\n$ E_i = -5.425 \\times 10^{-12} $ ergs.\n\nFor n = ∞ (final state energy, $E_f$), the energy is 0 since the electron is completely removed from the atom.\n\nThe energy required ($E_{required}$) to remove the electron is the difference in energy between the final and initial states:\n\n$ E_{required} = E_f - E_i $\n\n$ E_{required} = 0 - (-5.425 \\times 10^{-12}) $\n\n$ E_{required} = 5.425 \\times 10^{-12} $ ergs.\n\nTo find the longest wavelength ($\\lambda_{max}$) of light that can be used to cause this transition (which means providing exactly the energy calculated above), we use the relationship between energy and wavelength provided by the equation:\n\n$ E = \\frac{hc}{\\lambda} $\n\nWhere:\n\n$E$ is the energy in ergs,\n\n$h$ is Planck's constant ($6.626 \\times 10^{-27}$ erg·s),\n\n$c$ is the speed of light in vacuum ($3.00 \\times 10^{10}$ cm/s),\n\n$\\lambda$ is the wavelength in cm.\n\nRearranging this equation to solve for $\\lambda$:\n\n$ \\lambda = \\frac{hc}{E} $\n\nSubstituting the values:\n\n$ \\lambda_{max} = \\frac{(6.626 \\times 10^{-27}) \\times (3.00 \\times 10^{10})}{5.425 \\times 10^{-12}} $\n\n$ \\lambda_{max} = \\frac{1.9878 \\times 10^{-16}}{5.425 \\times 10^{-12}} $\n\n$ \\lambda_{max} = 3.664 \\times 10^{-5} $ cm, or 366.4 nm.\n\nThus, the energy required to remove an electron completely from the n = 2 orbit is $5.425 \\times 10^{-12}$ ergs, and the longest wavelength of light that can be used to cause this transition is $3.664 \\times 10^{-5}$ cm (or 366.4 nm when converted to nanometers for more common wavelength units in light spectra considerations).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_092",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Calculate the wavelength in Angstrom of the photon that is emitted when an electron in the Bohr orbit, n = 2 returns to the orbit, n = 1 in the hydrogen atom. The ionization potential of the ground state hydrogen atom is 2.17 $$\\times$$ 10$^{-11}$ erg per atom.",
+    "solution": "Solution for this Structure of Atom question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_093",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The energy of the electron in the second and the third Bohr's orbits of the hydrogen atom is -5.42 $$\\times$$ 10$^{-12}$ erg and -2.41 $$\\times$$ 10$^{-12}$ erg respectively. Calculate the wavelength (in Å) of the emitted radiation when the electron drops from the third to second orbit.",
+    "solution": "Solution for this Structure of Atom question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_094",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The 2p$_{x}$, 2p$_{y}$ and 2p$_{z}$ orbitals of atom have identical shapes but differ in their _____.",
+    "solution": "The 2p$_{x}$, 2p$_{y}$, and 2p$_{z}$ orbitals of an atom have identical shapes but differ in their spatial orientations. These orbitals belong to the same principal energy level (n=2) and are part of the p orbital set, which means they have the same shape, characterized by a dumbbell-like structure. However, each of the orbitals is oriented along a different axis in three-dimensional space:\n\nThe 2p$_{x}$ orbital is oriented along the x-axis.\n\nThe 2p$_{y}$ orbital is oriented along the y-axis.\n\nThe 2p$_{z}$ orbital is oriented along the z-axis.\n\nThis orientation difference is crucial for understanding how electrons can occupy these orbitals and how they can overlap with orbitals from other atoms to form chemical bonds. Despite their different orientations, all three 2p orbitals have the same energy level, making them degenerate orbitals in the absence of an external electric or magnetic field.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_095",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Wave functions of electrons in atoms and molecules are called ______.",
+    "solution": "Wave functions of electrons in atoms and molecules are called orbitals. An orbital is a mathematical function that describes the wave-like behavior of either one electron or a pair of electrons in an atom. This function can be used to calculate the probability of finding any electron of an atom in any specific region around the atom's nucleus. The square of the orbital's magnitude |ψ|$^{2}$ represents the probability density of finding an electron at a particular point in space.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_096",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The light radiations with discrete quantities of energy are called ______.",
+    "solution": "The light radiations with discrete quantities of energy are called photons. Photons are elementary particles that are the quantum of the electromagnetic field, including electromagnetic radiation such as light, and the force carrier for the electromagnetic force. In quantum mechanics, the energy of a photon is quantized, meaning it exists only in discrete amounts. The energy $$E$$ of a photon is given by the equation $$E = hf$$, where $$h$$ is Planck's constant (approximately $$6.626 \\times 10^{-34} m^2 kg / s$$) and $$f$$ is the frequency of the electromagnetic wave. This principle supports the particle theory of light, where light can be viewed as consisting of particles or photons, in contrast to the classical wave theory of light.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_097",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The uncertainty principle and the concept of wave nature of matter were proposed by ______ and ______ respectively. (Heisenberg Schrodinger, Maxwell, de Broglie)",
+    "solution": "The uncertainty principle was proposed by Werner Heisenberg, and the concept of the wave nature of matter was proposed by Louis de Broglie. Therefore, the correct answer is **Heisenberg and de Broglie** respectively.\n\nThe uncertainty principle, also known as Heisenberg's uncertainty principle, is a fundamental theory in quantum mechanics that states it is impossible to simultaneously know both the exact position and the exact momentum of a particle. This principle challenges the classical idea that these properties can be measured simultaneously with arbitrary accuracy. It introduces a fundamental limit to the precision with which certain pairs of physical properties, such as position and momentum, can be simultaneously known.\n\nOn the other hand, Louis de Broglie introduced the revolutionary idea of the wave nature of matter. This concept, known as wave-particle duality, posits that all matter exhibits both wave-like and particle-like properties. De Broglie's hypothesis laid the foundation for quantum mechanics by suggesting that particles such as electrons could be described by wave functions, leading to the development of the Schrödinger equation which describes how the quantum state of a physical system changes over time.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_098",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Elements of the same mass number but of different atomic numbers are known as ____.",
+    "solution": "Elements of the same mass number but of different atomic numbers are known as isobars. The mass number of an atom is defined as the sum of its protons and neutrons, which gives the total number of nucleons in the atom's nucleus. Isobars have equal mass numbers, meaning they have the same total number of protons and neutrons, but they differ in their atomic numbers, which indicates they have different numbers of protons. This difference in proton number means isobars are different elements. As they have different numbers of neutrons as well, their chemical properties can vary significantly.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_099",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Isotopes of an element differ in the number of ______ in their nuclei.",
+    "solution": "Isotopes of an element differ in the number of neutrons in their nuclei. Each atom is characterized by the number of protons found in its nucleus, which defines the atomic number of the element. However, atoms of the same element can have varying numbers of neutrons; these variations are known as isotopes. Despite these differences in neutron numbers, isotopes of an element maintain the same chemical properties, as these are determined by the electron configuration, which in turn is dictated by the number of protons. The differing number of neutrons does, however, affect the atomic mass of the isotopes, resulting in isotopes having different atomic masses while belonging to the same element.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_100",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The mass of a hydrogen atom is ______ kg.",
+    "solution": "The mass of a hydrogen atom, which is predominantly a proton for the most common isotope ($^1H$), is about $1.673 \\times 10^{-27}$ kilograms. Therefore, we can say the mass of a hydrogen atom is approximately $1.673 \\times 10^{-27}$ kg.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_101",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When there are two electrons in the same orbital, they have _____ spins.",
+    "solution": "When there are two electrons in the same orbital, they have opposite spins. This phenomenon is a consequence of the Pauli Exclusion Principle, which states that no two electrons in an atom can have the same set of four quantum numbers. The quantum numbers describe the properties of electron orbitals around an atom, including the principal quantum number (n), the azimuthal quantum number (l), the magnetic quantum number (m$_{l}$), and the spin quantum number (m$_{s}$). When two electrons are in the same orbital, they share the same n, l, and m$_{l}$ values but must have different m$_{s}$ values. Since the spin quantum number can only take on two values, +1/2 or −1/2, the two electrons in the same orbital must have one with +1/2 spin and the other with −1/2 spin, thus ensuring their spins are opposite.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_102",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The electron density in the XY plane in 3d$_{x$^{2}$ - y$^{2}$}$ orbital is zero",
+    "solution": "The statement provided in the question is FALSE. Gamma rays are indeed a form of electromagnetic radiation, like light, microwaves, and X-rays, but their defining characteristic is not primarily defined by their wavelength in the range of $10^{-6}$ to $10^{-5}$ cm. Instead, gamma rays are on the extreme high-energy end of the electromagnetic spectrum and are characterized by their very short wavelengths and high frequency.\n\nSpecifically, gamma rays have wavelengths less than about $10^{-10}$ meters (or 0.1 nanometers). This means they are on the order of picometers ($10^{-12}$ meters) and even shorter, which is much shorter than the wavelength range mentioned in the question. Gamma rays typically come from nuclear reactions, radioactive decay, or processes occurring in celestial objects under extreme conditions, such as supernova explosions or the regions around black holes.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_103",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Gamma rays are electromagnetic radiations of wavelengths of 10$^{-6}$ to 10$^{-5}$ cm",
+    "solution": "The statement provided in the question is FALSE. Gamma rays are indeed a form of electromagnetic radiation, like light, microwaves, and X-rays, but their defining characteristic is not primarily defined by their wavelength in the range of $10^{-6}$ to $10^{-5}$ cm. Instead, gamma rays are on the extreme high-energy end of the electromagnetic spectrum and are characterized by their very short wavelengths and high frequency.\n\nSpecifically, gamma rays have wavelengths less than about $10^{-10}$ meters (or 0.1 nanometers). This means they are on the order of picometers ($10^{-12}$ meters) and even shorter, which is much shorter than the wavelength range mentioned in the question. Gamma rays typically come from nuclear reactions, radioactive decay, or processes occurring in celestial objects under extreme conditions, such as supernova explosions or the regions around black holes.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_104",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The energy of the electron in the 3d-orbital is less than that in the 4s-orbital in the hydrogen atom.",
+    "solution": "FALSE is correct in the context of a hydrogen atom.\n\nIn the hydrogen atom, the energy levels of electrons are determined primarily by the principal quantum number $n$. For a given value of $n$, all sublevels (s, p, d, and f) have the same energy. This property is a consequence of the hydrogen atom's simplicity and the fact that its energy levels depend only on the principal quantum number due to its one-electron system. Therefore, the energy of an electron in a 3d-orbital ($n=3$) is the same as the energy of an electron in a 3s or 3p orbital in a hydrogen atom.\n\nHowever, in multi-electron atoms, the energy levels are split due to electron-electron repulsions and the overall greater complexity of the quantum states. This is where the energy of an electron in the 4s-orbital can be lower than that in the 3d-orbital, making the 4s level fill before the 3d in the process of electron configuration in multi-electron atoms such as potassium or calcium. But, in the specific case of the hydrogen atom, which contains only one electron, the statement that the energy of the electron in the 3d-orbital is less than that in the 4s-orbital is incorrect, thus FALSE.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "chem_structure_of_atom_105",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Structure of Atom",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The outer electronic configuration of the ground state chromium atom is 3d$^{4}$ 4s$^{2}$",
+    "solution": "Statement is FALSE. The outer electronic configuration of the ground state chromium atom is unusual compared to what might be expected based on a straightforward application of the Aufbau principle. The actual outer electronic configuration of chromium is $3d^{5} 4s^{1}$, not $3d^{4} 4s^{2}$.\n\nThis configuration arises because a half-filled d subshell ($3d^{5}$) is more stable than the configuration $3d^{4} 4s^{2}$. By promoting an electron from the 4s orbital to the 3d orbital to achieve a half-filled d subshell, chromium minimizes its energy. This is due to the increased exchange energy and symmetry of the half-filled d subshell, leading to greater stability. Thus, the correct outer electronic configuration of a ground state chromium atom is $3d^{5} 4s^{1}$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

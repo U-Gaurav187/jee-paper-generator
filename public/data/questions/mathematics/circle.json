@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "math_circle_001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $P$ be the point on the parabola $y = x^2$ such that the slope of the tangent to the parabola at the point $P$ is $4$. Let $Q$ be the point in the first quadrant lying on the circle $x^2 + y^2 = 2$ such that the slope of the tangent to the circle at the point $Q$ is $-1$. Let $R$ be the point in the first quadrant lying on the ellipse $x^2 + 4y^2 = 8$ such that the slope of the tangent to the ellipse at the point $R$ is $-\\frac{1}{2}$. Then the radius of the circle passing through the points $P, Q$ and $R$ is",
+    "solution": "The equation of the parabola is $$y = x^2.$$\nDifferentiate to find the slope of the tangent:\n\n$$\\frac{dy}{dx} = 2x.$$\nGiven that the slope is 4,\n\n$$2x = 4 \\Rightarrow x = 2.$$\nSubstitute $x = 2$ into $y = x^2$:\n\n$$y = (2)^2 = 4.$$\nHence, $P(2, 4)$.\nFor the circle $x^2 + y^2 = 2$, differentiate:\n\n$$2x + 2y\\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac{x}{y}.$$\nGiven that the slope is $-1$,\n\n$$-\\frac{x}{y} = -1 \\Rightarrow x = y.$$\nSince $Q$ is in the first quadrant, substitute $x = y$ into the circle’s equation:\n\n$$x^2 + x^2 = 2 \\Rightarrow 2x^2 = 2 \\Rightarrow x = 1, y = 1.$$\nHence, $Q(1, 1)$.\nFor the ellipse $x^2 + 4y^2 = 8$, differentiate:\n\n$$2x + 8y\\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac{x}{4y}.$$\nGiven that the slope is $-\\frac{1}{2}$,\n\n$$-\\frac{x}{4y} = -\\frac{1}{2} \\Rightarrow x = 2y.$$\nSince $R$ is in the first quadrant, substitute $x = 2y$ into the ellipse:\n\n$$(2y)^2 + 4y^2 = 8 \\Rightarrow 8y^2 = 8 \\Rightarrow y = 1.$$\nThen $x = 2y = 2$, so $R(2, 1)$.\n\n[Diagram]\n\nThe triangle $ \\triangle PQR $ is right-angled.\nNow, find the length $PQ$:\n\n$$PQ = \\sqrt{(2 - 1)^2 + (4 - 1)^2} = \\sqrt{10}.$$\nThe radius of the circle passing through the three points is half the hypotenuse, so\n\n$$\\text{Radius} = \\frac{\\sqrt{10}}{2} = \\sqrt{\\frac{5}{2}}.$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\sqrt{10}$",
+      "$\\sqrt{5}$",
+      "$\\sqrt{\\dfrac{5}{2}}$",
+      "$2\\sqrt{5}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mpcbxxqn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_002",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $A_1, A_2, A_3, \\ldots, A_8$ be the vertices of a regular octagon that lie on a circle of radius 2 . Let $P$ be a point on the circle and let $P A_i$ denote the distance between the points $P$ and $A_i$ for $i=1,2, \\ldots, 8$. If $P$ varies over the circle, then the maximum value of the product $P A_1 \\times P A_2 \\times \\cdots \\cdots \\times P A_8$, is :",
+    "solution": "$A_1, A_2, A_3, \\ldots, A_8$ vertices of a regular octagon lying on a circle of radius 2 .\n\nLet say, $Z=(2)(1)^{1 / 8}$\n\n$$\n\\begin{aligned}\n& \\Rightarrow Z^8=2^8 \\times 1 \\\\\\\\\n& \\Rightarrow Z^8-2^8=0\n\\end{aligned}\n$$\n\n$\\begin{aligned} & \\Rightarrow Z=2,2 \\alpha, 2 \\alpha^2, 2 \\alpha^3, \\ldots, 2 \\alpha^7 ; \\alpha=e^{i \\frac{2 \\pi}{8}} \\\\\\\\ & \\Rightarrow Z^8-2^8=(Z-2)(Z-2 \\alpha)\\left(Z-2 \\alpha^2\\right)\\left(Z-2 \\alpha^3\\right) \\ldots\\left(Z-2 \\alpha^7\\right) \\\\\\\\ & \\Rightarrow\\left|Z^8-2^8\\right|=|Z-2||Z-2 \\alpha| \\ldots .\\left|Z-2 \\alpha^7\\right| \\\\\\\\ & \\text { But }\\left|Z^8+\\left(-2^8\\right)\\right| \\leq|Z|^8+2^8\\end{aligned}$\n\n$\\begin{aligned} \\Rightarrow|Z-2||Z-2 \\alpha| \\ldots\\left|Z-2 \\alpha^7\\right| & \\leq|Z|^8+2^8 \\\\\\\\ & \\leq 2^8+2^8 \\\\\\\\ & \\leq 2^9\\end{aligned}$\n\n$\\Rightarrow \\operatorname{Max}\\left(P A_1 \\cdot P A_2 \\ldots P A_8\\right)=2^9$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_003",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $G$ be a circle of radius $R>0$. Let $G_{1}, G_{2}, \\ldots, G_{n}$ be $n$ circles of equal radius $r>0$. Suppose each of the $n$ circles $G_{1}, G_{2}, \\ldots, G_{n}$ touches the circle $G$ externally. Also, for $i=1,2, \\ldots, n-1$, the circle $G_{i}$ touches $G_{i+1}$ externally, and $G_{n}$ touches $G_{1}$ externally. Then, which of the following statements is/are TRUE?",
+    "solution": "[Diagram]\n\nHere if we add center of circles G$_{1}$, G$_{2}$, G$_{3}$ ....... G$_{n}$, then we get a polygon of n sides.\nFrom figure you can see one side of polygon makes angle $$\\theta$$ with the center.\n$$\\therefore$$ n sides make angle = n$$\\theta$$\nWe know, $$n\\theta = 2\\pi \\Rightarrow \\theta = {{2\\pi } \\over n}$$\nHere triangle OMN is an isosceles triangle. Line joining of point O and midpoint O of MN (point A) is perpendicular to line MN and perpendicular bisector of angle $$\\theta$$.\n$$\\therefore\\angle MOA = {\\theta \\over 2} = {\\pi \\over n}$$\nFrom right angle triangle OMA,\n$$\\sin {\\pi \\over n} = {r \\over {R + r}} \\Rightarrow R + r = r{\\mathop{\\rm cosec}\nolimits} {\\pi \\over n}$$\nOption A:\nWhen $$n = 4$$,\n$$R + r = r{\\mathop{\\rm cosec}\nolimits} {\\pi \\over 4} \\Rightarrow R + r = \\sqrt 2 r \\Rightarrow R = \\left( {\\sqrt 2 - 1} \\right)r\\therefore$$ Option (A) is wrong.\nOption B :\nWhen $$n = 5$$,\n$$R + r = r{\\mathop{\\rm cosec}\nolimits} {\\pi \\over 5} = r{\\mathop{\\rm cosec}\nolimits} 36^\\circ $$\nWe know, in 0 to $${\\pi \\over 2}$$, $${\\mathop{\\rm cosec}\nolimits} \\theta $$ is decreasing.\n$$\\therefore{\\mathop{\\rm cosec}\nolimits} 45^\\circ < {\\mathop{\\rm cosec}\nolimits} 36^\\circ < {\\mathop{\\rm cosec}\nolimits} 30^\\circ \\Rightarrow \\sqrt 2 < {\\mathop{\\rm cosec}\nolimits} 36^\\circ < 2 \\Rightarrow \\sqrt 2 r < r{\\mathop{\\rm cosec}\nolimits} 36^\\circ < 2r \\Rightarrow \\sqrt 2 r - r < r{\\mathop{\\rm cosec}\nolimits} 36^\\circ - r < 2r - r \\Rightarrow \\left( {\\sqrt 2 - 1} \\right)r < R < r\\thereforeR < r$$, when $$n = 5\\therefore$$ Option (B) is wrong.\nOption C :\nWhen $$n = 8$$,\n$$R + r = r{\\mathop{\\rm cosec}\nolimits} {\\pi \\over 8}{\\mathop{\\rm cosec}\nolimits} \\theta$$ is decreasing function in 0 to $${\\pi \\over 2}$$.\n$$\\therefore{\\mathop{\\rm cosec}\nolimits} {\\pi \\over 8} > {\\mathop{\\rm cosec}\nolimits} {\\pi \\over 4} \\Rightarrow r{\\mathop{\\rm cosec}\nolimits} {\\pi \\over 8} > \\sqrt 2 r \\Rightarrow R + r > \\sqrt 2 r \\Rightarrow R > \\left( {\\sqrt 2 - 1} \\right)r\\therefore$$ Option (C) is correct.\nOption D :\nWhen $$n = 12$$, then\n$$R + r = r\\left( {\\cos ec{\\pi \\over {12}}} \\right) \\Rightarrow R + r = r \\times {{2\\sqrt 2 } \\over {\\sqrt 3 - 1}}$$ [as $$\\cos ec{\\pi \\over {12}} = {{2\\sqrt 2 } \\over {\\sqrt 3 - 1}}$$]\n$$ \\Rightarrow R + r = r \\times {{2\\sqrt 2 \\left( {\\sqrt 3 + 1} \\right)} \\over 2} \\Rightarrow R + r = \\sqrt 2 r\\left( {\\sqrt 3 + 1} \\right) \\Rightarrow R = \\left[ {\\sqrt 2 \\left( {\\sqrt 3 + 1} \\right) - 1} \\right]r \\Rightarrow R < \\sqrt 2 \\left( {\\sqrt 3 + 1} \\right)r\\therefore$$ Option (D) is correct.",
+    "answerKey": [
+      "C",
+      "D"
+    ],
+    "options": [
+      "If $n=4$, then $(\\sqrt{2}-1) r < R$",
+      "If $n=5$, then $r < R$",
+      "If $n=8$, then $(\\sqrt{2}-1) r < R$",
+      "If $n=12$, then $\\sqrt{2}(\\sqrt{3}+1) r > R$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l942qosw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_004",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Circles with radii 3, 4 and 5 touch each other externally. It P is the point of intersection of tangents to these circles at their points of contact, find the distance of P from the points of contact.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_005",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The chords of contact of the pair of tangents drawn from each point on the line 2x + y = 4 to circle $${x^2} + {y^2} = 1$$ pass through the point........................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_006",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The line x + 3y = 0 is a diameter of the circle $${x^2} + {y^2} - 6x + 2y = 0\\,$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  },
+  {
+    "id": "math_circle_007",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the straight line $y=2 x$ touch a circle with center $(0, \\alpha), \\alpha>0$, and radius $r$ at a point $A_1$. Let $B_1$ be the point on the circle such that the line segment $A_1 B_1$ is a diameter of the circle. Let $\\alpha+r=5+\\sqrt{5}$.\n\nMatch each entry in **List-I** to the correct entry in **List-II**.\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\n}\nth {\nbackground-color: #1E90FF;\ncolor: white;\n}\nth, td {\nborder: 1px solid lightgrey;\npadding: 8px;\ntext-align: left;\n}\nbody[data-theme='dark'] th, body[data-theme='dark'] td {\nborder: 1px solid white;\n}\n\n\n\n\nList-I\nList-II\n\n\n\n\n(P) $\\alpha$ equals\n(1) $(-2, 4)$\n\n\n(Q) $r$ equals\n(2) $\\sqrt{5}$\n\n\n(R) $A_1$ equals\n(3) $(-2, 6)$\n\n\n(S) $B_1$ equals\n(4) $5$\n\n\n\n(5) $(2, 4)$\n\n\n\nThe correct option is",
+    "solution": "[Diagram]\n\nConsider centre as $$\\mathrm{P}(0, \\alpha), \\alpha>0\\left|\\frac{2(0)-\\alpha}{\\sqrt{5}}\\right|=\\mathrm{r}\\begin{aligned}\n& |-\\alpha|=\\sqrt{5} r \\\\\n& \\alpha=\\sqrt{5} r \\\\\n& \\therefore \\alpha+r=5+\\sqrt{5} \\\\\n& \\sqrt{5} r+r=\\sqrt{5}(\\sqrt{5}+1) \\\\\n& r=\\sqrt{5}, \\alpha=5 \\\\\n& \\therefore P(0,5)\n\\end{aligned}$$\nFoot of perpendicular from $$P$$ to line $$2 x-y=0\\begin{aligned}\n& \\frac{x-0}{2}=\\frac{y-5}{-1}=\\frac{-(2(0)-5)}{5}=1 \\\\\n& x=2, y=4 \\quad A_1(2,4)\n\\end{aligned}$$\nLet $$\\mathrm{B}(\\mathrm{p}, \\mathrm{q}) \\quad \\therefore \\frac{\\mathrm{p}+2}{2}=0, \\frac{\\mathrm{q}+4}{2}=5\\therefore \\mathrm{p}=-2, \\mathrm{q}=6 \\quad B(-2,6)$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "$(\\mathrm{P}) \\rightarrow(2) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(5) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "$(\\mathrm{P}) \\rightarrow(2) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(3) \\quad(\\mathrm{S}) \\rightarrow(5)$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lze4yztn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_008",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider M with $$r = {{1025} \\over {513}}$$. Let k be the number of all those circles C$_{n}$ that are inside M. Let l be the maximum possible number of circles among these k circles such that no two circles intersect. Then",
+    "solution": "$$\\because{a_n} = {1 \\over {{2^{n - 1}}}}$$ and $${S_n} = 2\\left( {1 - {1 \\over {{2^n}}}} \\right)$$\n\nFor circle C$_{n}$ to be inside M.\n\n$${S_{n - 1}} + {a_n} < {{1025} \\over {513}} \\Rightarrow {S_n} < {{1025} \\over {513}} \\Rightarrow 2\\left( {1 - {1 \\over {{2^n}}}} \\right) < {{1025} \\over {513}} \\Rightarrow 1 - {1 \\over {{2^n}}} < {{1025} \\over {1026}} \\Rightarrow 1 - {1 \\over {{2^n}}} < 1 - {1 \\over {1026}} \\Rightarrow {{ - 1} \\over {{2^n}}} < {{ - 1} \\over {1026}} \\Rightarrow {1 \\over {{2^n}}} > {1 \\over {1026}} \\Rightarrow {2^n} < 1026 \\Rightarrow n \\le 10\\therefore$$ Number of circles inside be 10 = k. Clearly, alternate circle do not intersect each other i.e. C$_{1}$, C$_{3}$, C$_{5}$, C$_{7}$, C$_{9}$ do not intersect each other as well as C$_{2}$, C$_{4}$, C$_{6}$, C$_{8}$ and C$_{10}$ do not intersect each other.\n\nHence, maximum 5 set of circles do not intersect each other.\n\n$$\\therefore$$ l = 5\n\nSo, 3k + 2l = 40",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "k + 2l = 22",
+      "2k + l = 26",
+      "2k + 3l = 34",
+      "3k + 2l = 40"
+    ]
+  },
+  {
+    "id": "math_circle_009",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider M with $$r = {{({2^{199}} - 1)\\sqrt 2 } \\over {{2^{198}}}}$$. The number of all those circles D$_{n}$ that are inside M is",
+    "solution": "$$\\becauser = {{({2^{199}} - 1)\\sqrt 2 } \\over {{2^{198}}}}$$\n\nNow, $$\\sqrt 2 {s_{n - 1}} + {a_n} < \\left( {{{{2^{199}} - 1} \\over {{2^{198}}}}} \\right)\\sqrt 2 2\\sqrt 2 \\left( {1 - {1 \\over {{2^{n - 1}}}}} \\right) + {1 \\over {{2^{n - 1}}}} < \\left( {{{{2^{199}} - 1} \\over {{2^{198}}}}} \\right)\\sqrt 2 \\therefore2\\sqrt 2 - {{\\sqrt 2 } \\over {{2^{n - 2}}}} + {1 \\over {{2^{n - 1}}}} < 2\\sqrt 2 - {{\\sqrt 2 } \\over {{2^{198}}}}{1 \\over {{2^{n - 2}}}}\\left( {{1 \\over 2} - \\sqrt 2 } \\right) < - {{\\sqrt 2 } \\over {{2^{198}}}} \\Rightarrow {{2\\sqrt 2 - 1} \\over {2\\,.\\,{2^{n - 2}}}} > {{\\sqrt 2 } \\over {{2^{198}}}} \\Rightarrow {2^{n - 2}} < \\left( {2 - {1 \\over {\\sqrt 2 }}} \\right)\\,.\\,{2^{197}}\\therefore$$ n $$\\le$$ 199\n\nSo, number of circles = 199",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "198",
+      "199",
+      "200",
+      "201"
+    ]
+  },
+  {
+    "id": "math_circle_010",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a triangle $$\\Delta$$ whose two sides lie on the x-axis and the line x + y + 1 = 0. If the orthocenter of $$\\Delta$$ is (1, 1), then the equation of the circle passing through the vertices of the triangle $$\\Delta$$ is",
+    "solution": "Equation of circle passing through C(0, 0) is\n\nx$^{2}$ + y$^{2}$ + 2gx + 2fy = 0 ..... (i)\n\nSince Eq. (i), also passes through ($$-$$1, 0) and (1, $$-$$2).\n\n\n[Diagram]\n\nThen, 1 $$-$$ 2g = 0 $$\\Rightarrow$$ g = 1 / 2\n\nand 5 + 1 $$-$$ 4f = 0 $$\\Rightarrow$$ f = 3 / 2\n\n$$\\therefore$$ Equation of circumcircle is x$^{2}$ + y$^{2}$ + 2 $$\\times{1 \\over 2}$$x + 2 $$\\times{3 \\over 2}$$y = 0\n\ni.e. x$^{2}$ + y$^{2}$ + x + 3y = 0",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "x$^{2}$ + y$^{2}$ $$-$$ 3x + y = 0",
+      "x$^{2}$ + y$^{2}$ + x + 3y = 0",
+      "x$^{2}$ + y$^{2}$ + 2y $$-$$ 1 = 0",
+      "x$^{2}$ + y$^{2}$ + x + y = 0"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxxgi6h9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_011",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A line y = mx + 1 intersects the circle $${(x - 3)^2} + {(y + 2)^2}$$ = 25 at the points P and Q. If the midpoint of the line segment PQ has x-coordinate $$ - {3 \\over 5}$$, then which one of the following options is correct?",
+    "solution": "It is given that points P and Q are intersecting points of circle $${(x - 3)^2} + {(y + 2)^2}$$ = 25 .....(i)\n\nLine y = mx + 1 .....(ii)\n\nAnd, the mid-point of PQ is A having x-coordinate $$ - {3 \\over 5}$$\n\nso y-coordinate is $$1 - {3 \\over 5}$$ m.\n\nSo, $$A\\left( { - {3 \\over 5},1 - {3 \\over 5}m} \\right)$$\n\nFrom the figure,\n\n$$ \\because $$ AC $$ \\bot $$ PQ\n\n\n[Diagram]\n\n\n$$ \\Rightarrow $$ (slope of AC) $$ \\times $$ (slope of PQ) = $$ - $$1\n\n$$ \\Rightarrow \\left( {{{ - 2 - 1 + {3 \\over 5}m} \\over {3 + {3 \\over 5}}}} \\right) \\times m = - 1 \\Rightarrow {{(3/5)m - 3} \\over {18/5}}m = - 1 \\Rightarrow \\left( {{{3m - 15} \\over {18}}} \\right)m = - 1 \\Rightarrow 3{m^2} - 15m + 18 = 0 \\Rightarrow {m^2} - 5m + 6 = 0 \\Rightarrow $$ m = 2 or 3",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "6 $$ \\le $$ m < 8",
+      "$$ - $$3 $$ \\le $$ m < $$ - $$1",
+      "4 $$ \\le $$ m < 6",
+      "2 $$ \\le $$ m < 4"
+    ]
+  },
+  {
+    "id": "math_circle_012",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let S be the circle in the XY-plane defined the equation x$^{2}$ + y$^{2}$ = 4.\n\nLet E$_{1}$E$_{2}$ and F$_{1}$F$_{2}$ be the chords of S passing through the point P$_{0}$ (1, 1) and parallel to the X-axis and the Y-axis, respectively. Let G$_{1}$G$_{2}$ be the chord of S passing through P$_{0}$ and having slope$$-$$1. Let the tangents to S at E$_{1}$ and E$_{2}$ meet at E$_{3}$, then tangents to S at F$_{1}$ and F$_{2}$ meet at F$_{3}$, and the tangents to S at G$_{1}$ and G$_{2}$ meet at G$_{3}$. Then, the points E$_{3}$, F$_{3}$ and G$_{3}$ lie on the curve",
+    "solution": "[Diagram]\n\nEquation of tangent at $${E_1}( - \\sqrt 3 ,1)$$ is\n\n$$ - \\sqrt 3 $$x + y = 4 and at $${E_2}(\\sqrt 3 ,1)$$ is $$\\sqrt 3 $$x + y = 4\n\nIntersection point of tangent at E$_{1}$ and E$_{2}$ is (0, 4)\n\n$$ \\therefore $$ Coordinates of E$_{3}$ is (0, 4)\n\nSimilarly, equation of tangent at\n\n$${F_1}(1, - \\sqrt 3 )$$ and $${F_2}(1,\\sqrt 3 )$$ are x $$-\\sqrt 3 $$y = 4 and\n\nx + $$\\sqrt 3 $$y = 4, respectively and intersection point\nis (4, 0), i.e., F$_{3}$(4, 0) and equation of tangent at G$_{1}$(0, 2) and G$_{2}$(2, 0) are 2y = 4 and 2x = 4, respectively and intersection point\nis (2, 2) i.e., G$_{3}$(2, 2).\n\nPoint E$_{3}$(0, 4), F$_{3}$(4, 0) and G$_{3}$(2, 2) satisfies the line x + y = 4.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "x + y = 4",
+      "(x $$-$$ 4)$^{2}$ + (y $$-$$ 4)$^{2}$ = 16",
+      "(x $$-$$ 4)(y $$-$$ 4) = 4",
+      "xy = 4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kx16fezu.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_013",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tangent PT is drawn to the circle $${x^2}\\, + {y^2} = 4$$ at the point P $$\\left( {\\sqrt 3 ,1} \\right)$$. A straight line L, perpendicular to PT is a tangent to the circle $${(x - 3)^2}$$ + $${y^2}$$ = 1\nA common tangent of the two circles is",
+    "solution": "The equation of tangent of the circle $$x^2+y^2=4$$ is $$y=m x \\pm 2 \\sqrt{1+m^2}\\quad \\text{.... (i)}$$\nLet $$y=m x \\pm 2 \\sqrt{1+m^2}$$ also touches $$(x-3)^2+ y^2=1\\Rightarrow(x-3)^2+\\left(m x \\pm 2 \\sqrt{1+m^2}\\right)^2=1\\Rightarrow x^2-6 x+9+m^2 x^2+4\\left(1+m^2\\right) \\pm 4 m \\sqrt{1+m^2} x=1\\Rightarrow\\left(1+m^2\\right) x^2+\\left(-6 \\pm 4 m \\sqrt{1+m^2}\\right) x+4\\left(m^2+3\\right)=0$$\nApply\n$$\\begin{aligned}\n& \\quad \\left(-6 \\pm 4 m \\sqrt{1+m^2}\\right)^2-4\\left(1+m^2\\right) \\cdot 4\\left(m^2+3\\right)=0 \\\\\n\\Rightarrow \\quad & 36+16 m^2\\left(1+m^2\\right) \\pm 48 m \\sqrt{1+m^2} \\\\\n& \\quad -16\\left(m^4+4 m^2+3\\right)=0 \\\\\n\\Rightarrow \\quad & 4 m^2+1= \\pm 4 m \\sqrt{1+m^2}\n\\end{aligned}$$\nOn squaring both side\n$$\\begin{array}{rlrl}\n\\Rightarrow & 16 m^4+1+8 m^2 =16 m^2+16 m^4 \\\\\n\\Rightarrow & m^2 =\\frac{1}{8} \\\\\n\\Rightarrow & m = \\pm \\frac{1}{2 \\sqrt{2}}\n\\end{array}\\begin{array}{ll}\n\\text { Put } & m= \\pm \\frac{1}{2 \\sqrt{2}} \\text { in the equation (i) } \\\\\n\\Rightarrow & y= \\pm \\frac{x}{2 \\sqrt{2}} \\pm \\frac{6}{2 \\sqrt{2}} \\\\\n\\Rightarrow & 2 \\sqrt{2} y= \\pm x \\pm 6\n\\end{array}$$\nHence, the equation of common tangent of given circles are $$2 \\sqrt{2} y=-x+6,2 \\sqrt{2} y=x+6, 2 \\sqrt{2} y=-x-6$$ and $$2 \\sqrt{2} y=x-6$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "x = 4",
+      "y = 2",
+      "$${x + \\sqrt 3 \\,y = 4}$$",
+      "$${x +2 \\sqrt 2 \\,y = 6}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzuxyz2z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_014",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A tangent PT is drawn to the circle $${x^2}\\, + {y^2} = 4$$ at the point P $$\\left( {\\sqrt 3 ,1} \\right)$$. A straight line L, perpendicular to PT is a tangent to the circle $${(x - 3)^2}$$ + $${y^2}$$ = 1.\nA possible equation of L is",
+    "solution": "Equation of tangent PT of the circle $$x^2+y^2=4$$ at $$\\mathrm{P}(\\sqrt{3}, 1)$$ is\n$$\\Rightarrow \\quad \\sqrt{3} x+y=4$$\nGiven, L is a line perpendicular to PT\n$$\\therefore \\quad \\mathrm{L} \\equiv x-\\sqrt{3} y=\\lambda$$\nAlso given L is the tangent of circle\n$$(x-3)^2+y^2=1\\begin{array}{ll}\n\\Rightarrow & 1=\\frac{|3-\\sqrt{3} \\cdot 0-\\lambda|}{\\sqrt{1^2+(-\\sqrt{3})^2}} \\\\\n\\Rightarrow & |3-\\lambda|=2 \\\\\n\\Rightarrow & 3-\\lambda= \\pm 2 \\\\\n\\Rightarrow & \\lambda=1,5\n\\end{array}$$\nHence, the possible equation of line L are $$x-\\sqrt{3} y=1$$ and $$x-\\sqrt{3} y=5$$.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${x - \\sqrt 3 \\,y = 1}$$",
+      "$${x + \\sqrt 3 \\,y = 1}$$",
+      "$${x - \\sqrt 3 \\,y = -1}$$",
+      "$${x + \\sqrt 3 \\,y = 5}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzuxyz2z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_015",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of the mid-point of the chord of contact of tangents drawn from points lying on the straight line 4x - 5y = 20 to the circle $${x^2}\\, + \\,{y^2} = 9$$ is",
+    "solution": "[Diagram]\n\nEquation of the chord AB is $$\\mathrm{T}=0\\Rightarrow \\alpha x+\\left(\\frac{4 \\alpha-20}{5}\\right) y=9\\quad \\text{... (i)}$$\nAlso, equation of the chord AB whose mid-point is $$(h, k)$$ is $$\\mathrm{T}=\\mathrm{S}_1\\begin{aligned}\n& \\Rightarrow \\quad h x+k y-9=h^2+k^2-9 \\\\\n& \\Rightarrow \\quad h x+k y=h^2+k^2 \\quad \\text{... (ii)}\n\\end{aligned}\\because$$ Equations (i) and (ii) both represent the same line\n$$\\begin{aligned}\n& \\therefore \\frac{\\alpha}{h}=\\frac{\\frac{4 \\alpha-20}{5}}{k}=\\frac{9}{h^2+k^2} \\\\\n& \\Rightarrow \\alpha=\\frac{9 h}{h^2+k^2} \\quad \\text { and } \\quad \\frac{4 \\alpha-20}{5}=\\frac{9 k}{h^2+k^2}\n\\end{aligned}\\begin{aligned}\n& \\Rightarrow \\alpha=\\frac{9 h}{h^2+k^2} \\quad \\text { and } \\quad 4 \\alpha=\\frac{45 k}{h^2+k^2}+20 \\\\\n& \\Rightarrow \\alpha=\\frac{9 h}{h^2+k^2} \\quad \\text { and } \\quad \\alpha=\\frac{45 k+20\\left(h^2+k^2\\right)}{4\\left(h^2+k^2\\right)}\n\\end{aligned}\\begin{array}{ll}\n\\Rightarrow & \\frac{9 h}{h^2+k^2}=\\frac{45 k+20\\left(h^2+k^2\\right)}{4\\left(h^2+k^2\\right)} \\\\\n\\Rightarrow & 36 h=45 k+20\\left(h^2+k^2\\right)\n\\end{array}\\Rightarrow 20\\left(x^2+y^2\\right)-36 x+45 y=0$$, which is the required locus.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$20\\,({x^2}\\, + \\,{y^2}) - \\,\\,36x\\,\\, + \\,\\,45y = 0$$",
+      "$$20\\,({x^2}\\, + \\,{y^2}) + \\,\\,36x\\,\\, - \\,\\,45y = 0$$",
+      "$$36\\,({x^2}\\, + \\,{y^2}) - \\,\\,20x\\,\\, + \\,\\,45y = 0$$",
+      "$$36\\,({x^2}\\, + \\,{y^2}) + \\,\\,20x\\,\\, - \\,\\,45y = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzuxyz2z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_016",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The circle passing through the point (-1, 0) and touching the y-axis at (0, 2) also passes through the point.",
+    "solution": "Circle touching y-axis at (0, 2) is $${(x - 0)^2} + {(y - 2)^2} + \\lambda x = 0$$ passes through ($$-$$1, 0).\nTherefore, $$1 + 4 - \\lambda = 0 \\Rightarrow \\lambda = 5$$\nHence, $${x^2} + {y^2} + 5x - 4y + 4 = 0$$\nSubstituting $$y = 0 \\Rightarrow x = - 1,\\, - 4$$.\nHence, the Circle passes through ($$-$$4, 0).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( { - {3 \\over 0},0} \\right)$$",
+      "$$\\left( { - {5 \\over 2},2} \\right)$$",
+      "$$\\left( { - {3 \\over 0},\\,{5 \\over 2}} \\right)$$",
+      "(- 4, 0)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1leul9gcn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_017",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangents drawn from the point P (1, 8) to the circle\n\n$${x^2}\\, + \\,{y^2}\\, - \\,6x\\, - 4y\\, - 11 = 0$$\n\ntouch the circle at the points A and B. The equation of the cirumcircle of the triangle PAB is",
+    "solution": "From the given data, the centre of the circle is C(3, 2).\nSince, CA and CB are perpendicular to PA and PB, CP is the diameter of the circumcircle of triangle PAB. Its equation is\n$$(x - 3)(x - 1) + (y - 2)(y - 8) = 0$$\nor $${x^2} + {y^2} - 4x - 10y + 19 = 0$$.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${x^2}\\, + \\,{y^2}\\, + \\,4x\\,\\, - 6y\\, + 19 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,4x\\,\\, - 10y\\, + 19 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,2x\\,\\, + 6y\\, - 29 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,6x\\,\\, - 4y\\, + 19 = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1leul9gcn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_018",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider\n\n$$\\,{L_1}:\\,\\,2x\\,\\, + \\,\\,3y\\, + \\,p\\,\\, - \\,\\,3 = 0\\,{L_2}:\\,\\,2x\\,\\, + \\,\\,3y\\, + \\,p\\,\\, + \\,\\,3 = 0$$\nwhere p is a real number, and $$\\,C:\\,{x^2}\\, + \\,{y^2}\\, + \\,6x\\, - 10y\\, + \\,30 = 0$$\n\n\n** STATEMENT-1 : ** If line $${L_1}$$ is a chord of circle C, then line $${L_2}$$ is not always a diameter of circle C\n\n**and **\n\n** STATEMENT-2 : ** If line $${L_1}$$ is a diameter of circle C, then line $${L_2}$$ is not a chord of circle C.",
+    "solution": "Equation of circle C is\n$${(x + 3)^2} + {(y - 5)^2} = 9 + 25 - 30 = 4 \\Rightarrow {(x + 3)^2} + {(y - 5)^2} = {2^2}$$\nCentre = (3, $$-$$5)\nIf L$_{1}$ is diameter, then it passes through the center (3, $$-$$5),\n\n$$ \\therefore 2(3) + 3( - 5) + p - 3 = 0 \\Rightarrow p = 12\\therefore$$ L$_{1}$ is $$2x + 3y + 9 = 0$$\nand L$_{2}$ is $$2x + 3y + 15 = 0$$\nDistance of centre of circle from $${L_2}(d) = \\left| {{{2(3) + 3( - 5) + 15} \\over {\\sqrt {{2^2} + {3^2}} }}} \\right| = {6 \\over {\\sqrt {12} }} < 2$$ [radius of circle]\n$$\\therefore$$ L$_{2}$ is a chord of circle C.\nStatement 2 is false.\n\n[Diagram]\n\nStatement - 1 is true. If L$_{1}$\nis a chord, L$_{2}$\nmay lie outside\nthe circle.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct rexplanation for Statement-1",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct rexplanation for Statement-1",
+      "Statement-1 is True, Statement-2 is False",
+      "Statement-1 is False, Statement-2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1leul9gcn.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_019",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Equations of the sides QR, RP are",
+    "solution": "Equation of PR is X-axis, that is $$y = 0$$ and the equation of side QR is\n$$\\left( {y - {3 \\over 2}} \\right) = \\sqrt 3 \\left( {x - {{\\sqrt 3 } \\over 2}} \\right)y = \\sqrt 3 x$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$y = {2 \\over {\\sqrt 3 }}\\,x + \\,1,\\,\\,y = \\, - {2 \\over {\\sqrt 3 }}\\,x - 1$$",
+      "$$y = {1 \\over {\\sqrt 3 }}\\,x,\\,\\,y = \\,0$$",
+      "$$y = {{\\sqrt 3 } \\over 2}\\,x + \\,1,\\,\\,y = \\, - {{\\sqrt 3 } \\over 2}\\,x - 1$$",
+      "$$y = \\sqrt 3 \\,x,\\,\\,y = \\,0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgi21pxj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_020",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Points E and F are given by",
+    "solution": "Slope of line $$PQ = - \\sqrt 3 $$\nTherefore, PQ make 120$$^\\circ$$ angle with x-axis. So, side PR lies along X-axis.\nTherefore, $$F = \\left( {\\sqrt 3 ,0} \\right)$$\nNow, equation CE is $${{x - \\sqrt 3 } \\over {{{ - \\sqrt 3 } \\over 2}}} = {{y - 1} \\over {{1 \\over 2}}} = 1E = \\left( {{{\\sqrt 3 } \\over 2},{3 \\over 2}} \\right)$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\left( {{{\\,\\sqrt 3 } \\over 2},\\,{3 \\over 2}} \\right),\\,\\left( {\\sqrt 3 ,\\,0} \\right)$$",
+      "$$\\left( {{{\\,\\sqrt 3 } \\over 2},\\,{1 \\over 2}} \\right),\\,\\left( {\\sqrt 3 ,\\,0} \\right)$$",
+      "$$\\left( {{{\\,\\sqrt 3 } \\over 2},\\,{3 \\over 2}} \\right),\\,\\left( {{{\\,\\sqrt 3 } \\over 2},\\,{1 \\over 2}} \\right)$$",
+      "$$\\left( {{{\\,3} \\over 2},\\,{{\\sqrt 3 } \\over 2}} \\right),\\,\\left( {{{\\,\\sqrt 3 } \\over 2},\\,{1 \\over 2}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgi21pxj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_021",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of circle C is",
+    "solution": "Let centre of circle C be (h, k) then,\n$$\\left| {{{\\sqrt 3 h + k - 6} \\over {\\sqrt {3 + 1} }}} \\right| = 1\\sqrt 3 h + k - 6 = 2, - 2\\sqrt 3 h + k = 4$$ (rejecting 2 because origin and centre of point $$\\left( {\\sqrt 3 ,1} \\right)$$, satisfies eq.)\neq. of circle (C) is\n$${\\left( {x - \\sqrt 3 } \\right)^2} + {(y - 1)^2} = 1$$\nClearly point E and F satisfy the equation in given option D.\nAs $${\\left( {x - 2\\sqrt 3 } \\right)^2} + {(y - 1)^2} = 1$$ not possible.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${\\left( {x\\, - 2\\sqrt 3 \\,} \\right)^2} + {(y - 1)^2} = 1$$",
+      "$${\\left( {x\\, - 2\\sqrt 3 \\,} \\right)^2} + {(y + {1 \\over 2})^2} = 1$$",
+      "$${\\left( {x\\, - \\sqrt 3 \\,} \\right)^2} + {(y + 1)^2} = 1$$",
+      "$${\\left( {x\\, - \\sqrt 3 \\,} \\right)^2} + {(y - 1)^2} = 1$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgi21pxj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_022",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\mathrm{ABCD}$$ be a quadrilateral with area 18 , with side $$\\mathrm{A B}$$ parallel to the side $$\\mathrm{C D}$$ and $$\\mathrm{A B}=2 \\mathrm{CD}$$. Let $$\\mathrm{AD}$$ be perpendicular to $$\\mathrm{AB}$$ and $$\\mathrm{CD}$$. If a circle is drawn inside the quadrilateral ABCD touching all the sides, then its radius is :",
+    "solution": "[Diagram]\n\nArea = $$\\frac{1}{2}$$ (sum of parallel sides height)\n$$18=\\frac{1}{2}(3 \\alpha)(2 r) \\Rightarrow \\alpha r=6$$\nLine, $$y=\\frac{-2 r}{\\alpha}(x-2 \\alpha)$$ is tangent to circle $$(x-r)^{2}+(y-r)^{2}=r^{2}2 \\alpha=3 r$$ and $$\\alpha r=6\\Rightarrow r=2$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "3",
+      "2",
+      "$$\\frac{3}{2}$$",
+      "1"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgi21pxj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_023",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the statements in Column I with the properties Column II.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nTwo intersecting circles\n(P)\nhave a common tangent\n\n\n(B)\nTwo mutually external circles\n(Q)\nhave a common normal\n\n\n(C)\nTwo circles, one strictly inside the other\n(R)\ndo not have a common tangent\n\n\n(D)\nTwo branches of a hyperbola\n(S)\ndo not have a common normal",
+    "solution": "(A) $$\\to (p),(q)$$\n\n[Diagram]\n\nIt is clear from the fig, that two intersecting circles have a common tangent and a common normal joining the centres.\n(B) $$\\to (p),(q)$$\n\n[Diagram]\n\n(C) $$\\to (q),(r)$$\nTwo circles when one is completely inside the other have a common normal C$$_1$$ C$$_2$$ but not common tangent.\n\n[Diagram]\n\n(D) $$\\to (q),(r)$$\nTwo branches of hyperbola have no common tangent but have a common normal joining S$$_1$$ and S$$_2$$.\n\n[Diagram]",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\mathrm{A-(p);B-(p),(q);C-(q),(r);D-(q)}$$",
+      "$$\\mathrm{A-(p),(q);B-(q);C-(r);D-(q),(r)}$$",
+      "$$\\mathrm{A-(q);B-(p),(q);C-(q),(r);D-(r)}$$",
+      "$$\\mathrm{A-(p),(q);B-(p),(q);C-(q),(r);D-(q),(r)}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgi335z3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_024",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Tangents are drawn from the point (17, 7) to the circle $$x^2+y^2=169$$.\n**Statement 1 :** The tangents are mutually perpendicular.\n**Statement 2 :** The locus of the points from which mutually perpendicular tangents can be drawn to the given circle is $$x^2+y^2=338$$",
+    "solution": "Locus of the points of intersections of perpendicular tangents to the circles\n$${x^2} + {y^2} = {a^2}{x^2} + {y^2} = 2{a^2}\\therefore$$ director circle of $${x^2} + {y^2} = 169$$ is the circle of $${x^2} + {y^2} = (169)(2) = 338$$\n\n[Diagram]\n\nThe point (17, 7) lies of on the circle $${x^2} + {y^2} = 338$$. Thus, the tangent drawn from (17, 7) to the circle $${x^2} + {y^2} = 169$$ are perpendicular.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1",
+      "Statement 1 is True, Statement 2 is False",
+      "Statement 1 is False, Statement 2 is True"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggpq5ms.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_025",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circle touches the line $L$ and the circle $C_1$ externally such that both the circles are on the same side of the line, then the locus of center of the circle is:",
+    "solution": "$$ \\text { Here, } \\mathrm{MP}=r_1+k $$\n\n[Diagram]\n$$ \\begin{aligned} & \\Rightarrow \\quad(h-0)^2+(k-b)^2=\\left(r_1+k\\right)^2 \\\\ & \\Rightarrow \\quad h^2+(k-b)^2=\\left(r_1+k\\right)^2 \\end{aligned} \\begin{array}{lrl} \\Rightarrow & h^2+k^2+b^2-2 b k & =r_1+k^2+2 r_1 k \\\\ \\Rightarrow & h^2 & =-b^2+2 k\\left(r_1+b\\right) \\end{array} $$\nReplace $h$ by $x$ and $k$ by $y$\n$$ x^2=-b^2+2 y\\left(r_1+b\\right) $$\n$\\Rightarrow \\quad$ Parabola.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "ellipse",
+      "hyperbola",
+      "parabola",
+      "parts of straight line"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgul8l7x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_026",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A line $M$ through $A$ is drawn parallel to $B D$. Point $S$ moves such that its distances from\nthe line BD and the vertex A are equal. If locus of S cuts M at $\\mathrm{T}_2$ and $\\mathrm{T}_3$ and AC at $\\mathrm{T}_1$, then area of $\\Delta T_1 T_2 T_3$ is :",
+    "solution": "$$ \\text { Diagonal of square with side length } 2 \\text { is } 2 \\sqrt{2} $$\n\n[Diagram]\n\n$$ \\begin{aligned} &\\begin{aligned} \\therefore & & \\mathrm{OA} & =\\sqrt{2} \\\\ & & \\mathrm{AT}_1 & =\\frac{\\mathrm{OA}}{2}=\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}} \\end{aligned}\\\\ &\\text { Area of } \\Delta T_1 T_2 T_3 \\end{aligned} \\begin{aligned} & =\\frac{1}{2}\\left(\\mathrm{AT}_1\\right) \\times\\left(\\mathrm{T}_2 \\mathrm{~T}_3\\right) \\\\ & =\\frac{1}{2}\\left(\\mathrm{AT}_1\\right) \\times 2 \\sqrt{2} \\\\ & =\\frac{2 \\sqrt{2}}{2 \\sqrt{2}}=1 \\end{aligned} $$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$\\frac{1}{2}$ sq. units",
+      "$\\frac{2}{3}$ sq. units",
+      "1 sq. unit",
+      "2 sq. units"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgulec42.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_027",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circle is given by $${x^2}\\, + \\,{(y\\, - \\,1\\,)^2}\\, = \\,1$$, another circle C touches it externally and also the x-axis, then thelocus of its centre is",
+    "solution": "let A, B and C be the centres of circles\nrespectively.\nWe know,\nAP, BP and CP bisects the angle formed by the\nsector at centre A\n\n[Diagram]\n\n$$\\mathrm{P}$$ is the point of incentre of $$\\triangle \\mathrm{ABC}$$ and therefore\n$$\\begin{aligned}\nr & =\\frac{\\Delta}{s}=\\frac{\\sqrt{s(s-a)(s-b)(s-c)}}{s} \\\\\n& =\\sqrt{\\frac{(s-a)(s-b)(s-c)}{\\mathrm{s}}}\n\\end{aligned}$$\nNow, $$2 s=7+8+9$$ (from figure)\n$$\\Rightarrow \\quad s=12$$\nNow, $$r=\\sqrt{\\frac{(12-7)(12-8)(12-9)}{12}}=\\sqrt{\\frac{60}{12}}=\\sqrt{5} \\text { units }$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\{ (x,\\,y):\\,\\,{x^2} = \\,4y\\} \\, \\cup \\,\\{ (x,\\,y):\\,\\,y \\le \\,0\\,\\} $$",
+      "$$\\{ (x,\\,y):\\,\\,{x^2} + \\,{(y\\, - \\,1)^2}\\, = \\,4\\} \\, \\cup \\,\\{ (x,\\,\\,y):\\,\\,y \\le \\,0\\,\\} $$",
+      "$$\\{ (x,\\,y):\\,\\,{x^2} = \\,y\\} \\, \\cup \\,\\{ (0,\\,\\,y):\\,\\,y \\le \\,0\\,\\} $$",
+      "$$\\{ (x,\\,y):\\,\\,{x^2} = \\,4y\\} \\, \\cup \\,\\{ (0,\\,\\,y):\\,\\,y \\le \\,0\\,\\} $$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdr4dg8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_028",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Circles with radii 3, 4 and 5 touch each other\nexternally if P is the point of intersection\nof tangents to these circles at their points\nof contact. Find the distance of P from the\npoint of contact.",
+    "solution": "let A, B and C be the centres of circles\nrespectively.\nWe know,\nAP, BP and CP bisects the angle formed by the\nsector at centre A\n\n[Diagram]\n\n$$\\mathrm{P}$$ is the point of incentre of $$\\triangle \\mathrm{ABC}$$ and therefore\n$$\\begin{aligned}\nr & =\\frac{\\Delta}{s}=\\frac{\\sqrt{s(s-a)(s-b)(s-c)}}{s} \\\\\n& =\\sqrt{\\frac{(s-a)(s-b)(s-c)}{\\mathrm{s}}}\n\\end{aligned}$$\nNow, $$2 s=7+8+9$$ (from figure)\n$$\\Rightarrow \\quad s=12$$\nNow, $$r=\\sqrt{\\frac{(12-7)(12-8)(12-9)}{12}}=\\sqrt{\\frac{60}{12}}=\\sqrt{5} \\text { units }$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "5",
+      "$$\\sqrt3$$",
+      "$$\\sqrt5$$",
+      "3"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mhdr4dg8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_029",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If one of the diameters of the circle $${x^2} + {y^2} - 2x - 6y + 6 = 0$$ is a chord to the circle with centre (2, 1), then the radius of the circle is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\sqrt 3 }$$",
+      "$${\\sqrt 2 }$$",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "math_circle_030",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The centre of circle inscibed in square formed by the lines $${x^2} - 8x + 12 = 0\\,\\,and\\,{y^2} - 14y + 45 = 0$$, is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(4, 7)",
+      "(7, 4)",
+      "(9, 4)",
+      "(4, 9)"
+    ]
+  },
+  {
+    "id": "math_circle_031",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$a > 2b > 0$$ then the positive value of $$m$$ for which $$y = mx - b\\sqrt {1 + {m^2}} $$ is a common tangent to $${x^2} + {y^2} = {b^2}$$ and $${\\left( {x - a} \\right)^2} + {y^2} = {b^2}$$ is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${{2b} \\over {\\sqrt {{a^2} - 4{b^2}} }}$$",
+      "$${{\\sqrt {{a^2} - 4{b^2}} } \\over {2b}}$$",
+      "$${{2b} \\over {a - 2b}}$$",
+      "$${{b} \\over {a - 2b}}$$"
+    ]
+  },
+  {
+    "id": "math_circle_032",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the tangent at the point P on the circle $${x^2} + {y^2} + 6x + 6y = 2$$ meets a straight line 5x - 2y + 6 = 0 at a point Q on the y-axis, then the lenght of PQ is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "4",
+      "$${2\\sqrt 5 }$$",
+      "5",
+      "$${3\\sqrt 5 }$$"
+    ]
+  },
+  {
+    "id": "math_circle_033",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let A B be a chord of the circle $${x^2} + {y^2} = {r^2}$$ subtending a right angle at the centre. Then the locus of the centriod of the triangle PAB as P moves on the circle is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "a parabola",
+      "a circle",
+      "an ellipse",
+      "a pair of straight lines"
+    ]
+  },
+  {
+    "id": "math_circle_034",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let PQ and RS be tangents at the extremities of the diameter PR of a circle of radius r. If PS and RQ intersect at a point X on the circumference of the circle, then 2r equals",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\sqrt {PQ.\\,RS} $$",
+      "(PQ + RS) / 2",
+      "2 PQ. RS/(PQ + RS)",
+      "$$\\sqrt {\\left( {P{Q^2} + \\,R{S^2}} \\right)} \\,\\,/2$$"
+    ]
+  },
+  {
+    "id": "math_circle_035",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the circles $${x^2}\\, + \\,{y^2}\\, + \\,\\,2x\\, + \\,2\\,k\\,y\\,\\, + \\,6\\,\\, = \\,\\,0,\\,\\,{x^2}\\, + \\,\\,{y^2}\\, + \\,2ky\\, + \\,k\\, = \\,0$$ intersect orthogonally, then k is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2 or $$ - {3 \\over 2}$$",
+      "- 2 or $$ - {3 \\over 2}$$",
+      "2 or $$ {3 \\over 2}$$",
+      "- 2 or $$ {3 \\over 2}$$"
+    ]
+  },
+  {
+    "id": "math_circle_036",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The triangle PQR is inscribed in the circle $${x^2}\\, + \\,\\,{y^2} = \\,25$$. If Q and R have co-ordinates (3, 4) and ( - 4, 3) respectively, then $$\\angle \\,Q\\,P\\,R$$ is equal to",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\pi \\over 2}$$",
+      "$${\\pi \\over 3}$$",
+      "$${\\pi \\over 4}$$",
+      "$${\\pi \\over 6}$$"
+    ]
+  },
+  {
+    "id": "math_circle_037",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If two distinct chords, drawn from the point (p, q) on the circle $${x^2}\\, + \\,{y^2} = \\,px\\, + \\,qy\\,\\,(\\,where\\,pq\\,\ne \\,0)$$ are bisected by the x - axis, then",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${p^2}\\, = \\,\\,{q^2}$$",
+      "$$\\,{p^2}\\, = \\,\\,8\\,{q^2}$$",
+      "$${p^2}\\, < \\,\\,8\\,{q^2}$$",
+      "$${p^2}\\, > \\,\\,8\\,{q^2}$$."
+    ]
+  },
+  {
+    "id": "math_circle_038",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The angle between a pair of tangents drawn from a point P to the circle $${x^2}\\, + \\,{y^2}\\, + \\,\\,4x\\, - \\,6\\,y\\, + \\,9\\,{\\sin ^2}\\,\\alpha \\, + \\,13\\,{\\cos ^2}\\,\\alpha \\, = \\,0$$ is $$2\\,\\alpha $$.\n\nThe equation of the locus of the point P is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${x^2}\\, + \\,{y^2}\\, + \\,\\,4x\\, - \\,6\\,y\\, + \\,4\\, = \\,0$$",
+      "$${x^2}\\, + \\,{y^2}\\, + \\,\\,4x\\, - \\,6\\,y\\,\\, - \\,9\\,\\, = \\,0$$",
+      "$${x^2}\\, + \\,{y^2}\\, + \\,\\,4x\\, - \\,6\\,y\\,\\, - \\,4\\,\\, = \\,0$$",
+      "$${x^2}\\, + \\,{y^2}\\, + \\,\\,4x\\, - \\,6\\,y\\,\\, + \\,9\\,\\, = \\,0$$"
+    ]
+  },
+  {
+    "id": "math_circle_039",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The circles $${x^2} + {y^2} - 10x + 16 = 0$$ and $${x^2} + {y^2} = {r^2}$$ intersect each other in two distinct points if",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "r < 2",
+      "r > 8",
+      "2 < r < 8",
+      "$$2 \\le r \\le 8$$"
+    ]
+  },
+  {
+    "id": "math_circle_040",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of the centre of a circle, which touches externally the circle $${x^2} + {y^2} - 6x - 6y + 14 = 0$$ and also touches the y-axis, is given by the equation:",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$${x^2} - 6x - 10y + 14 = 0$$",
+      "$${x^2} - 10x - 6y + 14 = 0$$",
+      "$${y^2} - 6x - 10y + 14 = 0$$",
+      "$${y^2} - 10x - 6y + 14 = 0$$"
+    ]
+  },
+  {
+    "id": "math_circle_041",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The centre of a circle passing through the points (0, 0), (1, 0) and touching the circle $${x^2} + {y^2} = 9$$is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {{3 \\over 2},{1 \\over 2}} \\right)\\,$$",
+      "$$\\left( {{1 \\over 2},{3 \\over 2}} \\right)\\,$$",
+      "$$\\left( {{1 \\over 2},{1 \\over 2}} \\right)\\,$$",
+      "$$\\left( {{1 \\over 2}, - {2^{{1 \\over 2}}}} \\right)\\,$$"
+    ]
+  },
+  {
+    "id": "math_circle_042",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the two circles $${(x - 1)^2} + {(y - 3)^2} = {r^2}$$ and $${x^2} + {y^2} - 8x + 2y + 8 = 0$$ intersect in two distinct points, then",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2 < r < 8",
+      "r < 2",
+      "r = 2",
+      "r > 2"
+    ]
+  },
+  {
+    "id": "math_circle_043",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The lines 2x - 3y = 5 and 3x - 4y = 7 are diameters of a circle of area 154 sq. units. Then the equation of this circle is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${x^2} + {y^2} + 2x - 2y = 62$$",
+      "$${x^2} + {y^2} + 2x - 2y = 47$$",
+      "$${x^2} + {y^2} - 2x + 2y = 47$$",
+      "$${x^2} + {y^2} - 2x + 2y = 62$$c"
+    ]
+  },
+  {
+    "id": "math_circle_044",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a circle passes through the point (a, b) and cuts the circle $${x^2}\\, + \\,{y^2}\\, = \\,{k^2}$$ orthogonally, then the equation of the locus of its centre is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$2\\,ax\\, + \\,2\\,by\\, - \\,({a^2}\\, + \\,{b^2}\\, + \\,\\,{k^2})\\, = \\,0$$",
+      "$$2\\,ax\\, + \\,2\\,by\\, - \\,({a^2}\\, - \\,\\,{b^2}\\, + \\,\\,{k^2})\\, = \\,0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,3\\,\\,ax\\, + \\,4\\,by\\, + \\,\\,({a^2}\\, + \\,\\,{b^2}\\, - \\,\\,{k^2})\\, = \\,0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,2\\,\\,ax\\, - \\,4\\,by\\, + \\,\\,({a^2}\\, - \\,\\,{b^2}\\, - \\,\\,{k^2})\\, = \\,0$$."
+    ]
+  },
+  {
+    "id": "math_circle_045",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The locus of the mid-point of a chord of the circle $${x^2} + {y^2} = 4$$ which subtends a right angle at the origin is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "x + y = 2",
+      "$${x^2} + {y^2} = 1$$",
+      "$${x^2} + {y^2} = 2$$",
+      "$$x + y $$=1"
+    ]
+  },
+  {
+    "id": "math_circle_046",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the circle passing through (1, 1) and the points of intersection of $${x^2} + {y^2} + 13x - 3y = 0$$ and $$2{x^2} + 2{y^2} + 4x - 7y - 25 = 0$$ is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$4{x^2} + 4{y^2} - 30x - 10y - 25 = 0$$",
+      "$$4{x^2} + 4{y^2} + 30x - 13y - 25 = 0$$",
+      "$$4{x^2} + 4{y^2} - 17x - 10y + 25 = 0$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_circle_047",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The centre of the circle passing through the point (0, 1) and touching the curve $$\\,y = {x^2}$$ at (2, 4) is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\left( {{{ - 16} \\over 5},{{ - 27} \\over {10}}} \\right)$$",
+      "$$\\left( {{{ - 16} \\over 7},{{53} \\over {10}}} \\right)$$",
+      "$$\\left( {{{ - 16} \\over 5},{{53} \\over {10}}} \\right)$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_circle_048",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two circles $${x^2} + {y^2} = 6$$ and $${x^2} + {y^2} - 6x + 8 = 0$$ are given. Then the equation of the circle through their points of intersection and the point (1, 1) is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$${x^2} + {y^2} - 6x + 4 = 0$$",
+      "$${x^2} + {y^2} - 3x + 1 = 0$$",
+      "$${x^2} + {y^2} - 4y + 2 = 0$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_circle_049",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A square is inscribed in the circle $${x^2} + {y^2} - 2x + 4y + 3 = 0$$. Its sides are parallel to the coordinate axes. The one vertex of the square is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {1 + \\sqrt {2,} - 2} \\right)$$",
+      "$$\\,\\left( {1 - \\sqrt {2}, - 2} \\right)$$",
+      "$$\\,\\,\\left( {1, - 2 + \\sqrt 2 } \\right)$$",
+      "none of these"
+    ]
+  },
+  {
+    "id": "math_circle_050",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $C_1$ be the circle of radius 1 with center at the origin. Let $C_2$ be the circle of radius $r$ with center at the point $A=(4,1)$, where $1 < r < 3$. Two distinct common tangents $P Q$ and $S T$ of $C_1$ and $C_2$ are drawn. The tangent $P Q$ touches $C_1$ at $P$ and $C_2$ at $Q$. The tangent $S T$ touches $C_1$ at $S$ and $C_2$ at $T$. Mid points of the line segments $P Q$ and $S T$ are joined to form a line which meets the $x$-axis at a point $B$. If $A B=\\sqrt{5}$, then the value of $r^2$ is :",
+    "solution": "[Diagram]\n\nLet $M$ and $N$ be midpoints of $P Q$ and $S T$ respectively.\n\n$\\Rightarrow M N$ is a radical axis of two circles\n\n$C_1: x^2+y^2=1$ ........(i)\n\n$\\begin{aligned} & C_2:(x-4)^2+(y-1)^2=r^2 \\\\\\\\ & \\Rightarrow x^2+y^2-8 x-2 y+17-r^2=0 .......(ii)\\end{aligned}$\n\nFrom (i) and (ii);\n\nEquation of $M N: 8 x+2 y-18+r^2=0$\n\n$\\Rightarrow B$ is on $x$-axis $\\Rightarrow B\\left(\\frac{18-r^2}{8}, 0\\right)$\n\n$$\n\\begin{aligned}\n& A B=\\sqrt{5} \\\\\\\\\n& \\sqrt{\\left(\\frac{18-r^2}{8}-4\\right)^2+1}=\\sqrt{5}\n\\end{aligned}\n$$\n\n$\\Rightarrow$ On solving $r^2=2$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1ltwkmct9.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_051",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$A B C$$ be the triangle with $$A B=1, A C=3$$ and $$\\angle B A C=\\frac{\\pi}{2}$$. If a circle of radius $$r>0$$ touches the sides $$A B, A C$$ and also touches internally the circumcircle of the triangle $$A B C$$, then the value of $$r$$ is __________ .",
+    "solution": "[Diagram]\n\nHere ABC is a right angle triangle. BC is the Hypotenuse of the triangle.\nWe know, diameter of circumcircle of a right angle triangle is equal to the Hypotenuse of the triangle also midpoint of Hypotenuse is the center of circle.\n$$\\thereforeBC$$ = Diameter of the circle\nHere $$B = (0,1)$$ and $$C(3,0)\\thereforeBC = \\sqrt {{3^2} + {1^2}} = \\sqrt {9 + 1} = \\sqrt {10} \\therefore$$ Radius of circumcircle $$(R) = {{\\sqrt {10} } \\over 2}\\therefore$$ Center of circle $$(M) = \\left( {{{3 + 0} \\over 2},\\,{{0 + 1} \\over 2}} \\right) = \\left( {{3 \\over 2},\\,{1 \\over 2}} \\right)$$\nCenter of circle which touches line AB and AC $$ = (r,r)$$\nNow distance between center of two circles,\n$$ME = R - r = {{\\sqrt {10} } \\over 2} - r \\Rightarrow {\\left( {r - {3 \\over 2}} \\right)^2} + {\\left( {r - {1 \\over 2}} \\right)^2} = {\\left( {{{\\sqrt {10} } \\over 2} - r} \\right)^2} \\Rightarrow {r^2} - 3r + {9 \\over 4} + {r^2} - r + {1 \\over 4} = {{10} \\over 4} + {r^2} - \\sqrt {10} r \\Rightarrow {r^2} - 4r + \\sqrt {10} r = 0 \\Rightarrow r(r - 4 + \\sqrt {10} ) = 0 \\Rightarrow r = 0$$ or $$r = r - \\sqrt {10} \\thereforer = 4 - \\sqrt {10} $$ [as $$r\ne 0$$]\n$$ = 0.837 \\simeq 0.84$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7uq1yy8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_052",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the region R = {(x, y) $$\\in$$ R $$\\times$$ R : x $$\\ge$$ 0 and y$^{2}$ $$\\le$$ 4 $$-$$ x}. Let F be the family of all circles that are contained in R and have centers on the x-axis. Let C be the circle that has largest radius among the circles in F. Let ($$\\alpha$$, $$\\beta$$) be a point where the circle C meets the curve y$^{2}$ = 4 $$-$$ x.\n\nThe radius of the circle C is ___________.",
+    "solution": "Given, x $$\\ge$$ 0, y$^{2}$ $$\\le$$ 4 $$-$$ x\n\nLet equation of circle be\n\n(x $$-$$ h)$^{2}$ + y$^{2}$ = h$^{2}$ .... (i)\n\n\n[Diagram]\n\nSolving Eq. (i) with y$^{2}$ = 4 $$-$$ x, we get\n\nx$^{2}$ $$-$$ 2hx + 4 $$-$$ x = 0\n\n$$\\Rightarrow$$ x$^{2}$ $$-$$ x(2h + 1) + 4 = 0 .... (ii)\n\nFor touching/tangency, Discriminant (D) = 0\n\ni.e. (2h + 1)$^{2}$ = 16 $$\\Rightarrow$$ 2h + 1 = $$\\pm$$ 4\n\n$$\\Rightarrow$$ 2h = $$\\pm$$ 4 $$-$$ 1\n\n$$\\Rightarrowh = {3 \\over 2},h = {{ - 5} \\over 2}$$ (Rejected) because part of circle lies outside R. So, $$h = {3 \\over 2}$$ = radius of circle (C).",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxxm6ya4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_053",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the region R = {(x, y) $$\\in$$ R $$\\times$$ R : x $$\\ge$$ 0 and y$^{2}$ $$\\le$$ 4 $$-$$ x}. Let F be the family of all circles that are contained in R and have centers on the x-axis. Let C be the circle that has largest radius among the circles in F. Let ($$\\alpha$$, $$\\beta$$) be a point where the circle C meets the curve y$^{2}$ = 4 $$-$$ x.\n\nThe value of $$\\alpha$$ is ___________.",
+    "solution": "Given, x $$\\ge$$ 0, y$^{2}$ $$\\le$$ 4 $$-$$ x\n\nLet equation of circle be\n\n(x $$-$$ h)$^{2}$ + y$^{2}$ = h$^{2}$ .... (i)\n\n\n[Diagram]\n\nSolving Eq. (i) with y$^{2}$ = 4 $$-$$ x, we get\n\nx$^{2}$ $$-$$ 2hx + 4 $$-$$ x = 0\n\n$$\\Rightarrow$$ x$^{2}$ $$-$$ x(2h + 1) + 4 = 0 .... (ii)\n\nFor touching/tangency, Discriminant (D) = 0\n\ni.e. (2h + 1)$^{2}$ = 16 $$\\Rightarrow$$ 2h + 1 = $$\\pm$$ 4\n\n$$\\Rightarrow$$ 2h = $$\\pm$$ 4 $$-$$ 1\n\n$$\\Rightarrowh = {3 \\over 2},h = {{ - 5} \\over 2}$$ (Rejected) because part of circle lies outside R. So, $$h = {3 \\over 2}$$ = radius of circle (c).\n\nPutting h = 3/2 in Eq. (ii),\n\nx$^{2}$ $$-$$ 4x + 4 = 0 $$\\Rightarrow$$ (x $$-$$ 2)$^{2}$ = 0 $$\\Rightarrow$$ x = 2\n\nSo, $$\\alpha$$ = 2",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1kxxm6ya4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_054",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let O be the centre of the circle x$^{2}$ + y$^{2}$ = r$^{2}$, where $$r > {{\\sqrt 5 } \\over 2}$$. Suppose PQ is a chord of this circle and the equation of the line passing through P and Q is 2x + 4y = 5. If the centre of the circumcircle of the triangle OPQ lies on the line x + 2y = 4, then the value of r is .............",
+    "solution": "As we know that the equation of family of circles passes through the points of intersection of given circle x$^{2}$ + y$^{2}$ = r$^{2}$ and line PQ : 2x + 4y = 5 is,\n\n(x$^{2}$ + y$^{2}$ $$-$$ r$^{2}$) + $$\\lambda $$(2x + 4y $$-$$ 5) = 0 ......(i)\n\nSince, the circle (i) passes through the centre of circle\n\nx$^{2}$ + y$^{2}$ = r$^{2}$,\n\nSo, $$-$$ r$^{2}$ $$-$$ 5$$\\lambda $$ = 0\n\nor 5$$\\lambda $$ + r$^{2}$ = 0 ....(ii)\n\nand the centre of circle (i) lies on the line x + 2y = 4, so centre ($$-\\lambda $$, $$-$$ 2$$\\lambda $$) satisfy the line x + 2y = 4.\n\nTherefore, $$-\\lambda -$$4$$\\lambda $$ = 4\n\n$$ \\Rightarrow -$$5$$\\lambda $$ = 4\n\n$$ \\Rightarrow $$ r$^{2}$ = 4 {from Eq. (ii)}\n\n$$ \\Rightarrow $$ r = 2",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_055",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let the point B be the reflection of the point A(2, 3) with respect to the line $$8x - 6y - 23 = 0$$. Let $$\\Gamma_{A} $$ and $$\\Gamma_{B} $$ be circles of radii 2 and 1 with centres A and B respectively. Let T be a common tangent to the circles $$\\Gamma_{A} $$ and $$\\Gamma_{B} $$ such that both the circles are on the same side of T. If C is the point of intersection of T and the line passing through A and B, then the length of the line segment AC is .................",
+    "solution": "According to given information the figure is as following\n\n\n[Diagram]\n\n\nFrom the figure,\n\n$$AC = {2 \\over {\\sin \\theta }}$$ ....(i)\n\n$$ \\because \\sin \\theta = {1 \\over {CB}}$$ (from $$\\Delta $$CPB) .... (ii)\n\nand $$\\sin \\theta = {2 \\over {AC}} = {2 \\over {CB + AB}}$$ (from $$\\Delta $$CQA) ....(iii)\n\n$$ \\because $$ AB = AM + MB = 2AM [$$ \\because $$ AM = MB]\n\n$$ = 2{{\\left| {(8 \\times 2) - (6 \\times 3) - 23} \\right|} \\over {\\sqrt {64 + 36} }} = {{2 \\times 25} \\over {10}} = 5.00$$\n\nFrom Eqs. (ii) and (iii), we get\n\n$$\\sin \\theta = {1 \\over {CB}} = {2 \\over {CB + AB}} \\Rightarrow {1 \\over {CB}} = {2 \\over {CB + 5}}$$ [$$ \\because $$ AB = 5]\n\n$$ \\Rightarrow CB + 5 = 2CB \\Rightarrow CB = 5 = {1 \\over {\\sin \\theta }}$$\n\nFrom the Eq. (i), we get\n\n$$AC = {2 \\over {\\sin \\theta }} = 2 \\times 5 = 10.00$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_056",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The straight line 2x - 3y = 1 divides the circular region $${x^2}\\, + \\,{y^2}\\, \\le \\,6$$ into two parts.\n\nIf $$S = \\left\\{ {\\left( {2,\\,{3 \\over 4}} \\right),\\,\\left( {{5 \\over 2},\\,{3 \\over 4}} \\right),\\,\\left( {{1 \\over 4} - \\,{1 \\over 4}} \\right),\\,\\left( {{1 \\over 8},\\,{1 \\over 4}} \\right)} \\right\\}$$ then the number of points (s) in S lying inside the smaller part is",
+    "solution": "$$L:2x - 3y - 1S:{x^2} + {y^2} - 6$$\nIf $${L_1} > 0$$ and $${S_1} < 0$$\nThe point lies in the smaller part. Therefore, $$\\left( {2,{3 \\over 4}} \\right)$$ and $$\\left( {{1 \\over 4}, - {1 \\over 4}} \\right)$$ lie inside.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l6ay6s91.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_057",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The centres of two circles $${C_1}$$ and $${C_2}$$ each of unit radius are at a distance of 6 units from each other. Let P be the mid point of the line segement joining the centres of $${C_1}$$ and $${C_2}$$ and C a circle touching circles $${C_1}$$ and $${C_2}$$ externally. If a common tangent to $${C_1}$$ and passing through P is also a common tangent to $${C_2}$$ and C, then the radius of the circle C is",
+    "solution": "We have\n$$\\cos \\alpha = {{2\\sqrt 2 } \\over 3}\\sin \\alpha = {1 \\over 3}\\tan \\alpha = {{2\\sqrt 2 } \\over R} \\Rightarrow R = {{2\\sqrt 2 } \\over {\\tan \\alpha }} = 8$$ units.\n\n[Diagram]",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft5nid4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_058",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let RS be the diameter of the circle $${x^2}\\, + \\,{y^2} = 1$$, where S is the point (1, 0). Let P be a variable point (other than R and S) on the circle and tangents to the circle at S and P meet at the point Q. The normal to the circle at P intersects a line drawn through Q parallel to RS at point E. Then the locus of E passes through the point (s)",
+    "solution": "Let, P $$\\equiv$$ (cos$$\\theta$$, sin$$\\theta$$)\n$$\\therefore$$ equation of tangent and normal at P\nx cos$$\\theta$$ + y sin$$\\theta$$ = 1 ..... (1)\nand y = x tan$$\\theta$$ ...... (2)\nNow, equation of tangent at S : x = 1 ...... (3)\nSolving (1) and (3), Q $$\\equiv$$ (1, cosec$$\\theta-$$ cot$$\\theta$$)\n$$\\therefore$$ equation of straight line parallel to RS drawn from Q\ny = cosec$$\\theta-$$ cot$$\\theta$$ ..... (4)\nLet, E $$\\equiv$$ (h, k)\n$$\\therefore$$ k = h tan$$\\theta$$ [from (2)]\nor, $$\\tan \\theta = {k \\over h}$$\nAgain, k = cosec$$\\theta-$$ cot$$\\theta$$ [from (4)]\n\n[Diagram]\n\nor, $$k = {{1 - \\cos \\theta } \\over {\\sin \\theta }}$$\nor, $$k = {{1 - {h \\over {\\sqrt {{h^2} + {k^2}} }}} \\over {{k \\over {\\sqrt {{h^2} + {k^2}} }}}} = {{\\sqrt {{h^2} + {k^2}} - h} \\over k}$$\nor, $${k^2} = \\sqrt {{h^2} + {k^2}} - h$$\nor, $$h + {k^2} = \\sqrt {{h^2} + {k^2}} \\therefore$$ locus of E $$x + {y^2} = \\sqrt {{x^2} + {y^2}} $$\nClearly, points $$\\left( {{1 \\over 3},{1 \\over {\\sqrt 3 }}} \\right)$$ and $$\\left( {{1 \\over 3}, - {1 \\over {\\sqrt 3 }}} \\right)$$ are on locus of E.\nTherefore, (A) and (C) are the correct options.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$$\\left( {{1 \\over 3}\\,,{1 \\over {\\sqrt 3 }}} \\right)$$",
+      "$$\\left( {{1 \\over 4}\\,,{1 \\over 2}} \\right)$$",
+      "$$\\left( {{1 \\over 3}\\,, - {1 \\over {\\sqrt 3 }}} \\right)$$",
+      "$$\\left( {{1 \\over 4}\\,,-{1 \\over 2}} \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1dibkzd.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_059",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circle S passes through the point (0, 1) and is orthogonal to the circles $${(x - 1)^2}\\, + \\,{y^2} = 16\\,\\,and\\,\\,{x^2}\\, + \\,{y^2} = 1$$. Then",
+    "solution": "Let, the equation of the required circle is\n$${x^2} + {y^2} + 2gx + 2fy + c = 0$$ ..... (1)\nCircle (I) cuts the circle $${(x - 1)^2} + {y^2} = 16$$\ni.e., $${x^2} + {y^2} - 2x = 15$$ orthogonally\n$$\\therefore2( - g + 0) = - 15 + c$$\nor, $$ - 2g = - 15 + c$$\nThe circle (1) also cuts the circle $${x^2} + {y^2} = 1$$ orthogonally.\n$$\\therefore$$ 0 = $$-$$1 + c or, c = 1\n$$\\therefore$$ g = 7\nNow, the circle (1) passes through the point (0, 1).\n$$\\therefore2f + 1 + c = 0$$ or, $$2f + 1 + 1 = 0$$ or, f = $$-$$1\n$$\\therefore$$ the equation of the required circle is\n$${x^2} + {y^2} + 14x - 2y + 1 = 0$$\nwhose centre is ($$-$$7, 1) and radius $$ = \\sqrt {49 + 1 - 1} = 7$$ units\nTherefore, (B) and (C) are the correct option.\nNote :\nThe condition of the circle $${x^2} + {y^2} + 2{g_1}x + 2{f_1}y + {c_1} = 0$$ cuts orthogonally to the circle $${x^2} + {y^2} + 2{g_2}x + 2{f_2}y + {c_2} = 0$$ is $$2{g_1}{g_2} + 2{f_1}{f_2} = {c_1} + {c_2}$$",
+    "answerKey": [
+      "C",
+      "B"
+    ],
+    "options": [
+      "radius of S is 8",
+      "radius of S is 7",
+      "centre of S is (- 7, 1)",
+      "centre of S is (- 8, 1)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzrxtdzj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_060",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Circle (s) touching x-axis at a distance 3 from the origin and having an intercept of length $$2\\sqrt 7 $$ on y-axis is (are)",
+    "solution": "Let a circle $$x^2+y^2+2 g x+2 f y+c=0$$ touches $$x$$-axis and have $y$-intercept of length $$2 \\sqrt{7}$$.\n$$\\begin{aligned}\n& \\therefore 2 \\sqrt{g^2-c}=0 \\text { and } 2 \\sqrt{f^2-c}=2 \\sqrt{7} \\\\\n& \\Rightarrow g^2=c \\text { and } f^2-c=7 \\\\\n& \\Rightarrow c=g^2=f^2-7 \\quad \\text{... (i)}\n\\end{aligned}$$\n\n[Diagram]\n\nGiven, the circle touches $$x$$-axis at a distance 3 unit from origin.\n$$\\begin{aligned}\n& \\therefore|-g|=3 \\\\\n& \\Rightarrow g= \\pm 3\n\\end{aligned}$$\nPut $$g= \\pm 3$$ in the equation\n$$\\Rightarrow c=9 \\text { and } f= \\pm 4$$\nHence, the possible equation of circles are\n$$\\begin{aligned}\n& x^2+y^2-6 x+8 y+9=0, \\\\\n& x^2+y^2-6 x-8 y+9=0,\n\\end{aligned}\\begin{aligned}\n& x^2+y^2+6 x+8 y+9=0 \\text { and } x^2+y^2+6 x-8 y \\\\\n& +9=0\n\\end{aligned}$$\nHints:\nThe length of X-intercept and Y-intercept of the circle $$x^2+y^2+2 g x+2 f y+c=0$$ are $$2 \\sqrt{g^2-c}$$ and $$2 \\sqrt{f^2-c}$$ respectively.",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "$${x^2}\\, + \\,{y^2}\\, - \\,6x\\,\\, + 8y\\, + 9 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,6x\\,\\, + 7y\\, + 9 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,6x\\,\\, - 8y\\, + 9 = 0$$",
+      "$${x^2}\\, + \\,{y^2}\\, - \\,6x\\,\\,- 7y\\, + 9 = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzrxtdzj.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "math_circle_061",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The number of common tangents to the circles $${x^2}\\, + \\,{y^2} = 4$$ and $${x^2}\\, + \\,{y^2}\\, - 6x\\, - 8y = 24$$ is",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "0",
+      "1",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "math_circle_062",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the circle $${x^2}\\, + \\,{y^2} = \\,{a^2}$$ intersects the hyperbola $$xy = {c^2}$$ in four points $$P\\,({x_1},\\,{y_1}),\\,Q\\,\\,({x_2},\\,{y_2}),\\,\\,R\\,({x_3},\\,{y_3}),\\,S\\,({x_4},\\,{y_4}),$$ then",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "$${x_1}\\, + \\,{x_2} + \\,{x_3}\\, + \\,{x_4}\\, = 0$$",
+      "$${y_1}\\, + \\,{y_2} + \\,{y_3}\\, + \\,{y_4}\\, = 0$$",
+      "$${x_1}\\,{x_2}\\,{x_3}\\,{x_4}\\, = {c^4}$$",
+      "$${y_1}\\,{y_2}\\,{y_3}\\,{y_4}\\, = {c^4}$$"
+    ]
+  },
+  {
+    "id": "math_circle_063",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equations of the tangents drawn from the origin to the circle $${x^2}\\, + \\,{y^2}\\, - \\,2rx\\,\\, - 2hy\\, + {h^2} = 0$$, are",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A",
+      "C"
+    ],
+    "options": [
+      "x = 0",
+      "y = 0",
+      "$$({h^2}\\, - \\,{r^2})\\,x - \\,\\,2rhy\\, = \\,0$$",
+      "$$({h^2}\\, - \\,{r^2})\\,x + \\,\\,2rhy\\, = \\,0$$"
+    ]
+  },
+  {
+    "id": "math_circle_064",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equation of circle touching the line 2x + 3y + 1 = 0 at (1, -1) and cutting orthogonally the circle having line segment joining (0, 3) and (- 2, -1) as diameter.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_065",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For the circle $${x^2}\\, + \\,{y^2} = {r^2}$$, find the value of r for which the area enclosed by the tangents drawn from the point P (6, 8) to the circle and the chord of contact is maximum.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_066",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$C_1$$ and $$C_2$$ be two circles with $$C_2$$ lying inside $$C_1$$. A circle C lying inside $$C_1$$ touches $$C_1$$ internally and $$C_2$$ externally. Identify the locus of the centre of C.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_067",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $$\\,2{x^2}\\, + \\,{y^2} - \\,3xy = 0$$ be the equation of a pair of tangents drawn from the origin O to a circle of radius 3 with centre in the first quadrant. If A is one of the points of contact, find the length of OA.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_068",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${T_1}$$, $${T_2}$$ be two tangents drawn from (- 2, 0) onto the circle $$C:{x^2}\\,\\, + \\,{y^2} = 1$$. Determine the circles touching C and having $${T_1}$$, $${T_2}$$ as their pair of tangents. Further, find the equations of all possible common tangents to these circles, when taken two at a time.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_069",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$C_1$$ and $$C_2$$ are two concentric circles, the radius of $$C_2$$ being twice that of $$C_1$$. From a point P on $$C_2$$, tangents PA and PB are drawn to $$C_1$$. Prove that the centroid of the triangle PAB lies on $$C_1$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_070",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let C be any circle with centre $$\\,\\left( {0\\, , \\sqrt {2} } \\right)$$. Prove that at the most two rational points can to there on C. (A rational point is a point both of whose coordinates are rational numbers.)",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_071",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circle passes through three points A, B and C with the line segment AC as its diameter. A line passing through A angles DAB and CAB are $$\\,\\alpha \\,\\,and\\,\\,\\beta $$ respectively and the distance between the point A and the mid point of the line segment DC is d, prove that the area of the circle is $$${{\\pi \\,{d^2}\\,\\,{{\\cos }^2}\\,\\,\\alpha } \\over {{{\\cos }^2}\\,\\alpha \\, + \\,{{\\cos }^2}\\,\\beta \\, + \\,\\,2\\,\\cos \\,\\,\\alpha \\,\\,\\cos \\,\\beta \\,\\cos \\,\\,(\\beta - \\alpha )\\,}}$$$",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_072",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the intervals of value of a for which the line y + x = 0 bisects two chords drawn from a point $$\\left( {{{1\\, + \\,\\sqrt 2 a} \\over 2},\\,{{1\\, - \\,\\sqrt 2 a} \\over 2}} \\right)$$ to the circle $$\\,\\,2{x^2}\\, + \\,2{y^2} - (\\,1\\, + \\sqrt 2 a)\\,x - (1 - \\sqrt 2 a)\\,y = 0$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_073",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the coordinates of the point at which the circles $${x^2}\\, + \\,{y^2} - \\,4x - \\,2y = - 4\\,\\,and\\,\\,{x^2}\\, + \\,{y^2} - \\,12x - \\,8y = - 36$$ touch each other. Also find equations common tangests touching the circles in the distinct points.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_074",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider a family of circles passing through two fixed points A (3, 7) and B (6, 5). Show that the chords on which the circle $${x^2}\\, + \\,{y^2} - \\,4x - \\,6y - 3 = 0$$ cuts the members of the family are concurrent at a point. Find the coordinate of this point.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_075",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a circle be given by 2x (x - a) + y (2y - b) = 0, $$(a\\,\ne \\,0,\\,\\,b\\,\ne 0)$$. Find the condition on a abd b if two chords, each bisected by the x-axis, can be drawn to the circle from $$\\left( {a,\\,\\,{b \\over 2}} \\right)$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_076",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two circles, each of radius 5 units, touch each other at (1, 2). If the equation of their common tangent is 4x + 3y = 10, find the equation of the circles.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_077",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A circle touches the line y = x at a point P such that OP = $${4\\sqrt 2 \\,}$$, where O is the origin. The circle contains the point (- 10, 2) in its interior and the length of its chord on the line x + y = 0 is $${6\\sqrt 2 \\,}$$. Determine the equation of the circle.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_078",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If $$\\left( {{m_i},{1 \\over {{m_i}}}} \\right),\\,{m_i}\\, > \\,0,\\,i\\, = 1,\\,2,\\,3,\\,4$$ are four distinct points on a circle, then show that $${m_1}\\,{m_2}\\,{m_3}\\,{m_4}\\, = 1$$",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_079",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let a given line $$L_1$$ intersects the x and y axes at P and Q, respectively. Let another line $$L_2$$, perpendicular to $$L_1$$, cut the x and y axes at R and S, respectively. Show that the locus of the point of intersection of the lines PS and QR is a circle passing through the origin.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_080",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The circle $${x^2}\\, + \\,{y^2} - \\,4x\\, - 4y + \\,4 = 0$$ is inscribed in a triangle which has two of its sides along the co-ordinate axes. The locus of the circumcentre of the triangle is $$x\\, + \\,y\\, - xy\\, + k\\,{\\left( {{x^2}\\, + \\,{y^2}} \\right)^{1/2}} = 0$$. Find k.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_081",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Lines 5x + 12y - 10 = 0 and 5x - 12y - 40 = 0 touch a circle $$C_1$$ of diameter 6. If the centre of $$C_1$$ lies in the first quadrant, find the equation of the circle $$C_2$$ which is concentric with $$C_1$$ and cuts intercepts of length 8 on these lines.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_082",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The abscissa of the two points A and B are the roots of the equation $${x^2}\\, + \\,2ax\\, - {b^2} = 0$$ and their ordinates are the roots of the equation $${x^2}\\, + \\,2px\\, - {q^2} = 0$$. Find the equation and the radius of the circle with AB as diameter.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_083",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Through a fixed point (h, k) secants are drawn to the circle $$\\,{x^2}\\, + \\,{y^2} = \\,{r^2}$$. Show that the locus of the mid-points of the secants intercepted by the circle is $$\\,{x^2}\\, + \\,{y^2} $$ = $$hx + ky$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_084",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equations of the circle passing through (- 4, 3) and touching the lines x + y = 2 and x - y = 2.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_085",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let A be the centre of the circle $${x^2}\\, + \\,{y^2}\\, - \\,2x\\,\\, - 4y\\, - 20 = 0\\,$$. Suppose that the tangents at the points B (1, 7) and D (4. - 2) on the circle meet at the point C. Find the area of the quadrilateral ABCD.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_086",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Find the equation of the circle whose radius is 5 and which touches the circle $${x^2}\\, + \\,{y^2}\\, - \\,2x\\,\\, - 4y\\, - 20 = 0\\,$$ at the point (5, 5).",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_087",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "For each natural number k, let $${C_k}$$ denote the circle with radius k centimetres and centre at the origin. On the circle $${C_k}$$, a-particle moves k centimetres in the counter-clockwise direction. After completing its motion on $${C_k}$$, the particle moves to $${C_{k + 1}}$$ in the radial direction. The motion of the patticle continues in the manner. The particle starts at (1, 0). If the particle crosses the positive direction of the x-axis for the first time on the circle $${C_n}$$ then n = ..............",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_088",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The intercept on the line y = x by the circle $${x^2} + {y^2} - 2x = 0$$ is AB. Equation of the circle with AB as a diameter is................................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_089",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the locus of the mid-points of the circle $$4{x^2} + 4{y^2} - 12x + 4y + 1 = 0$$ that subtend an angle of $$2\\pi /3$$ at its centre is.................................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_090",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If a circle passes through the points of intersection of the coordinate axes with the lines $$\\lambda \\,x - y + 1 = 0$$ and x - 2y + 3 = 0, then the value of $$\\lambda $$ = .........",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_091",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of the triangle formed by the positive x-axis and the normal and the tangent to the circle $${x^2} + {y^2} = 4\\,\\,at\\,\\,\\left( {1,\\sqrt 3 } \\right)$$ is,..................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_092",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the circle $${C_1}:{x^2} + {y^2} = 16$$ intersects another circle $${C_2}$$ of radius 5 in such a manner that common chord is of maximum lenght and has a slope equal to 3/4, then the coordinates of the centre of $${C_2}$$ are.............................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_093",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The area of the triangle formed by the tangents from the point (4, 3) to the circle $${x^2} + {y^2} = 9$$ and the line joining their points of contact is...................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_094",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The equation of the line passing through the points of intersection of the circles $$3{x^2} + 3{y^2} - 2x + 12y - 9 = 0$$ and $${x^2} + {y^2} - 6x + 2y - 15 = 0$$ is..............................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_095",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "From the point A(0, 3) on the circle $${x^2} + 4x + {(y - 3)^2} = 0$$, a chord AB is drawn and extended to a point M such that AM = 2AB. The equation of the locus of M is..........................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_096",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Let $${x^2} + {y^2} - 4x - 2y - 11 = 0$$ be a circle. A pair of tangentas from the point (4, 5) with a pair of radi from a quadrilateral of area............................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_097",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "From the origin chords are drawn to the circle $${(x - 1)^2} + {y^2} = 1$$. The equation of the locus of the mid-points of these chords is.............",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_098",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The lines 3x - 4y + 4 = 0 and 6x - 8y - 7 = 0 are tangents to the same circle. The radius of this circle is ........................................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_099",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The point of intersection of the line 4x - 3y - 10 = 0 and the circle $${x^2} + {y^2} - 2x + 4y - 20 = 0$$ are ........................and ...................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_100",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If A and B are points in the plane such that PA/PB = k (constant) for all P on a given circle, then the value of k cannot be equal to ..........................................",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "math_circle_101",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "No tangent can be drawn from the point (5/2, 1) to the circumcircle of the triangle with vertices $$\\left( {1,\\sqrt 3 } \\right)\\,\\,\\left( {1, - \\sqrt 3 } \\right),\\,\\,\\left( {3,\\sqrt 3 } \\right)$$.",
+    "solution": "Solution for this Circle question (JEE Advanced PYQ).",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "TRUE",
+      "FALSE"
+    ]
+  }
+]

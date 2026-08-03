@@ -1,0 +1,1617 @@
+[
+  {
+    "id": "phy_heat_and_thermodynamics_001",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Ten moles of an ideal monoatomic gas, initially in state $\\boldsymbol{a}$ at atmospheric pressure and temperature $T_a=27^{\\circ} \\mathrm{C}$, is enclosed in a metal cylinder of volume $V_0$ fitted with a frictionless piston. The gas is suddenly compressed to state $\\boldsymbol{b}$ with volume $V_0 / 3$. Now, keeping the piston stationary, the cylinder is submerged in a water bath of temperature $11^{\\circ} \\mathrm{C}$ until the gas reaches the temperature of the water bath, which is denoted as state $\\boldsymbol{c}$. Finally, while still in the water bath, the piston is brought slowly to its initial position, which is denoted as state $\\boldsymbol{f}$. If $R$ is universal gas constant, then the correct option(s) is/are :\n[Given: $9^{1 / 3}=2.08$ ]",
+    "solution": "When a gas is compressed suddenly in a cylinder, there is no sufficient time for heat exchange to take place between the gas and its surroundings $\\mathrm{Q}_{\\mathrm{a} \\rightarrow \\mathrm{b}}=0$. Therefore, this process is adiabatic.\nThe relation between temperature (T) and volume (V) for an adiabatic process\n$$T V^{ u-1} = \\text{constant}$$\nwhere $\\gamma = \\dfrac{C_p}{C_v}$ is the adiabatic constant.\nFor an ideal monoatomic gas, $C_v = \\dfrac{3}{2}R$ and $C_p = \\dfrac{5}{2}R$, so:\n$$\\gamma = \\dfrac{5}{3}\\gamma - 1 = \\dfrac{5}{3} - 1 = \\dfrac{2}{3}$$\nFor state a the temperature is given as $T_a = 27^{\\circ}\\mathrm{C} = 27 + 273 = 300\\ \\mathrm{K}$\nThe volume of gas at state a is $V_a = V_0$ and at state b it is $V_b = \\dfrac{V_0}{3}$\nApplying the adiabatic condition $T_a V_a^{\\gamma-1} = T_b V_b^{\\gamma-1}$:\n$$300 \\times (V_0)^{2/3} = T_b \\left(\\dfrac{V_0}{3}\\right)^{2/3}T_b = 300 \\times (3)^{2/3} = 300 \\times (9)^{1/3}$$\nUsing the given value $(9)^{1/3} = 2.081$\n$$T_b = 300 \\times 2.081 = 624.3\\ \\mathrm{K} \\approx 624\\ \\mathrm{K}$$\nUsing the relation between pressure and volume for adiabatic process, $P V^{\\gamma} = \\text{constant}$:\n$$P_b = P_a \\left(\\dfrac{V_a}{V_b}\\right)^{\\gamma} = P_a (3)^{5/3} = P_a \\times 3 \\times 3^{2/3} = P_a \\times 3 \\times 2.081 = 6.243\\,P_a$$\nSo, the pressure at state b is approximately 6.24 times the atmospheric pressure, not 2.08 times. Thus, option (D) is incorrect.\nThe change in internal energy $(\\Delta U_{a\\to b})$:\n$$\\Delta U_{a\\to b} = n C_v (T_b - T_a)$$\nGiven $n = 10$ moles and $C_v = \\dfrac{3}{2}R$:\n$$ \\Delta U_{a \\rightarrow b}=10 \\times\\left(\\frac{3}{2} R\\right) \\times(624.3-300) \\Delta U_{a \\rightarrow b}=15 R \\times 324.3=4864.5 R \\approx 4860 R$$\nThus, option (B) is correct.\nIt is given that the piston is kept stationary in the process $\\mathrm{b} \\rightarrow \\mathrm{c}$, which means the volume remains constant $\\left(\\mathrm{V}_{\\mathrm{c}}=\\mathrm{V}_{\\mathrm{b}}=\\frac{\\mathrm{V}_0}{3}\\right)$, making it an isochoric process. The gas cools until it reaches the water bath temperature:\n$$ \\mathrm{T}_{\\mathrm{c}}=11^{\\circ} \\mathrm{C}=11+273=284 \\mathrm{~K} $$\nFor the process $\\mathrm{c} \\rightarrow \\mathrm{f}$ the piston is moved slowly while remaining immersed in the water bath, ensuring the gas maintains thermal equilibrium with the reservoir. This is an isothermal process at $\\mathrm{T}_{\\mathrm{f}}=\\mathrm{T}_{\\mathrm{c}}=284 \\mathrm{~K}$.\nThe volume is brought back to its initial position:\n$$ V_f=V_0 $$\n$a \\rightarrow b$ the volume decreases from $V_0$ to $\\frac{V_0}{3}$ along a steep adiabatic curve.\n$\\mathrm{b} \\rightarrow \\mathrm{c}$ the volume stays constant at $\\frac{\\mathrm{V}_0}{3}$ while pressure falls vertically as temperature drops from 624 K to 284 K .\n$\\mathrm{c} \\rightarrow \\mathrm{f}$ the volume expands from $\\frac{\\mathrm{V}_0}{3}$ back to $\\mathrm{V}_0$ along a less steep isothermal curve at 284 K .\n\n[Diagram]\n\nThus, option (A) is correct.\nInternal energy is a state function, which means its total change depends on the initial and final temperatures of the system, irrespective of the path taken:\n$$ \\Delta \\mathrm{U}_{\\text {net }}=\\mathrm{U}_{\\mathrm{f}}-\\mathrm{U}_{\\mathrm{a}}=\\mathrm{nC}_{\\mathrm{v}}\\left(\\mathrm{~T}_{\\mathrm{f}}-\\mathrm{T}_{\\mathrm{a}}\\right) $$\nTemperature at state a is $\\mathrm{T}_{\\mathrm{a}}=300 \\mathrm{~K}$ and $\\mathrm{T}_{\\mathrm{f}}=284 \\mathrm{~K}$ :\n$$ \\begin{gathered} \\Delta U_{\\text {net }}=10 \\times\\left(\\frac{3}{2} R\\right) \\times(284-300) \\\\ \\Delta U_{\\text {net }}=15 R \\times(-16)=-240 R \\end{gathered} $$\nThus, option (C) is correct.\nTherefore, the correct options are (A), (B), and (C).",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "The schematic P-V diagram of the processes described above is :\n[Diagram]",
+      "The change in internal energy in going from state **a** to **b** is $4860R$.",
+      "The net change in the internal energy in the whole process is $-240R$.",
+      "The pressure and temperature of the state **b** are $2.08$ times the atmospheric pressure and $624\\,K$, respectively."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9wqnf3.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_002",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "As shown in the figure, five Carnot engines, each with efficiency $\\eta$ and same number of cycles per unit time, are operating between six heat reservoirs. The amount of heat released per cycle by one engine is completely absorbed by the next engine. Consider $Q_0$ to be the amount of heat absorbed per cycle by the first engine and $W$ as the amount of total work done by all the engines per cycle, then the net efficiency of the system is found to be\n$$\\eta_{\\mathrm{net}} = \\frac{W}{Q_0} = \\frac{211}{243}.$$\nThe value of $\\eta$ is:\n\n[Diagram]",
+    "solution": "[Diagram]\n\nEach engine has the exact same individual thermal efficiency, $\\eta$.\nThe efficiency of any heat engine is defined as the ratio of work done $\\left(\\mathrm{W}_{\\mathrm{i}}\\right)$ to the heat absorbed $\\left(\\mathrm{Q}_{\\mathrm{in}, \\mathrm{i}}\\right)$ :\n$$ \\eta=\\frac{W_i}{Q_{i n, i}}=1-\\frac{Q_{o u t, i}}{Q_{i n, i}} $$\nSo, the ratio of heat rejected to heat absorbed for any single engine in the series is :\n$$ \\frac{\\mathrm{Q}_{o u t, \\mathrm{i}}}{\\mathrm{Q}_{\\mathrm{in}, \\mathrm{i}}}=1-\\eta $$\nFor engine $\\mathrm{E}_1$\nAbsorbed heat is $Q_0$ from the first reservoir.\nRejected heat is $Q_1=Q_0(1-\\eta)$\nWork done is $\\mathrm{W}_1=\\eta \\mathrm{Q}_0$.\nFor engine $\\mathrm{E}_2$ :\nAbsorbs heat rejected by $E_1$, so $Q_{\\text {absorbed }, 2}=Q_1=Q_0(1-\\eta)$.\nRejected heat is $Q_2=Q_1(1-\\eta)=Q_0(1-\\eta)^2$\nWork done is $\\mathrm{W}_2=\\eta \\mathrm{Q}_1=\\eta \\mathrm{Q}_0(1-\\eta)$\nFor engine $\\mathrm{E}_3$ :\nAbsorbed heat is $Q_2$.\nRejected heat is $Q_3=Q_2(1-\\eta)=Q_0(1-\\eta)^3$.\nWork done $\\mathrm{W}_3=\\eta \\mathrm{Q}_2=\\eta \\mathrm{Q}_0(1-\\eta)^2$\nFor engine $\\mathrm{E}_4$ :\nAbsorbed heat is $Q_3$.\nRejects heat is $Q_4=Q_3(1-\\eta)=Q_0(1-\\eta)^4$.\nWork done is $\\mathrm{W}_4=\\eta \\mathrm{Q}_3=\\eta \\mathrm{Q}_0(1-\\eta)^3$.\nFor engine $\\mathrm{E}_5$ :\nAbsorbed heat is $Q_4$.\nRejected heat is $Q_5=Q_4(1-\\eta)=Q_0(1-\\eta)^5$.\nWork done is $\\mathrm{W}_5=\\eta \\mathrm{Q}_4=\\eta \\mathrm{Q}_0(1-\\eta)^4$\nThe total work W performed by all 5 engines combined per cycle is the sum of their individual works:\n$$ \\mathrm{W}=\\mathrm{W}_1+\\mathrm{W}_2+\\mathrm{W}_3+\\mathrm{W}_4+\\mathrm{W}_5 $$\nBy the principle of energy conservation across the entire system, the total work done must equal the initial heat input to the first engine minus the final heat rejected by the last engine :\n$$ \\mathrm{W}=\\mathrm{Q}_0-\\mathrm{Q}_5 W=Q_0-Q_0(1-\\eta)^5=Q_0\\left[1-(1-\\eta)^5\\right] $$\nThe net efficiency $\\eta_{\\text {net }}$ of the combined system is given by:\n$$ \\eta_{\\text {net }}=\\frac{W}{Q_0}=1-(1-\\eta)^5 $$\nIt is given that $\\eta_{\\text {net }}=\\frac{211}{243}$.\n$$ 1-(1-\\eta)^5=\\frac{211}{243} \\begin{gathered} (1-\\eta)^5=1-\\frac{211}{243} \\\\ (1-\\eta)^5=\\frac{243-211}{243} \\\\ (1-\\eta)^5=\\frac{32}{243} \\\\ 1-\\eta=\\left(\\frac{32}{243}\\right)^{1 / 5} \\\\ 1-\\eta=\\frac{2}{3} \\\\ \\eta=1-\\frac{2}{3}=\\frac{1}{3} \\end{gathered} $$\nTherefore, the value of $\\eta$ is $\\frac{1}{3}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9w2hfx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_003",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas undergoes the cyclic process $\\mathrm{J} \\rightarrow \\mathrm{K} \\rightarrow \\mathrm{L} \\rightarrow \\mathrm{M} \\rightarrow \\mathrm{J}$, as shown in the P-T diagram.\n\n[Diagram]\n\nMatch the quantities mentioned in List-I with their values in List-II and choose the correct option.\n\n[ $\\mathcal{R}$ is the gas constant.]\n\n\ntable {\nwidth: 100%;\nborder-collapse: collapse;\n}\nth {\nbackground-color: #1E90FF;\ncolor: white;\n}\nth, td {\nborder: 1px solid lightgrey;\npadding: 8px;\ntext-align: left;\n}\nbody[data-theme='dark'] th, body[data-theme='dark'] td {\nborder: 1px solid white;\n}\n\n\n\nList-I\nList-II\n\n\n\n\n(P) Work done in the complete cyclic process\n(1) $RT_0 - 4RT_0 \\ln 2$\n\n\n(Q) Change in the internal energy of the gas in the process JK\n(2) $0$\n\n\n(R) Heat given to the gas in the process KL\n(3) $3RT_0$\n\n\n(S) Change in the internal energy of the gas in the process MJ\n(4) $-2RT_0 \\ln 2$\n\n\n\n(5) $-3RT_0 \\ln 2$",
+    "solution": "$$\\begin{aligned}\n& \\mathrm{J}\\left(\\mathrm{P}_0, \\mathrm{~V}_0, \\mathrm{~T}_0\\right) \\\\\n& K\\left(P_0, 3 V_0, 3 T_0\\right) \\\\\n& \\mathrm{M}\\left(2 \\mathrm{P}_0, \\frac{\\mathrm{V}_0}{2}, \\mathrm{~T}_0\\right) \\\\\n& \\mathrm{L}\\left(2 \\mathrm{P}_{\\circ}, \\frac{3 \\mathrm{~V}_0}{2}, 3 \\mathrm{~T}_0\\right) \\\\\n& \\mathrm{P}_0 \\mathrm{~V}_0=\\mathrm{nRT}_0 \\\\\n& \\mathrm{JK} \\rightarrow \\text { isobaric } \\Rightarrow \\mathrm{W}=\\mathrm{P}_0\\left(2 \\mathrm{~V}_0\\right)=2 \\mathrm{nRT}_0 \\\\\n& \\Delta \\mathrm{U}=\\frac{3}{2} \\mathrm{nR}\\left(2 \\mathrm{~T}_0\\right)=3 \\mathrm{nRT}_0 \\\\\n& \\mathrm{KL} \\rightarrow \\text { isothermal } \\rightarrow \\mathrm{W}=\\mathrm{nR}(3 \\mathrm{~T}) \\ell \\mathrm{n}\\left(\\frac{1}{2}\\right)=-3 \\mathrm{nRT}_0 \\ell \\mathrm{n} 2 \\\\\n& \\Delta \\mathrm{U}=0 \\Rightarrow \\mathrm{Q}=-3 \\mathrm{nRT}_0 \\ell \\mathrm{n} 2 \\\\\n& \\mathrm{LM} \\rightarrow \\text { isobaric }=2 \\mathrm{P}_0\\left(-\\mathrm{V}_0\\right)=-2 \\mathrm{nRT}_0 \\\\\n& \\mathrm{MJ} \\rightarrow \\text { isothermal } \\Rightarrow \\mathrm{nRT}_0 \\ln 2 ; \\Delta \\mathrm{U}=0 \\\\\n& \\mathrm{WD}_{\\text {nes }}=-2 \\mathrm{nRT}_0 \\ln 2 \\\\\n& \\mathrm{P} \\rightarrow 4, \\mathrm{Q} \\rightarrow 3, \\mathrm{R} \\rightarrow 5, \\mathrm{~S} \\rightarrow 2 \\\\\n&\n\\end{aligned}$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 4$",
+      "$\\mathrm{P} \\rightarrow 4 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 2$",
+      "$\\mathrm{P} \\rightarrow 4 ; \\mathrm{Q} \\rightarrow 1 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 2$",
+      "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 4$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lwpwe12z.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_004",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A quasi-static cycle of a monoatomic ideal gas contains an isothermal process $(ab)$, followed by an isochoric process $(bc)$ and an adiabatic process $(ca)$ as shown in the figure. The volumes of the gas are $V_1$ and $V_2$ at $a$ and $b$, respectively. If the cycle has heat input $Q_{\\mathrm{in}}$ and output $Q_{\\mathrm{out}}$, then the efficiency of the cycle is defined as $$\\eta = \\frac{Q_{\\mathrm{in}} - Q_{\\mathrm{out}}}{Q_{\\mathrm{in}}}.$$ The correct statement(s) is/are:\n[Given: $\\ln 2 \\approx 0.7$]\n\n[Diagram]",
+    "solution": "Let $n_m$ be the number of moles of the monoatomic ideal gas.\nFor a monoatomic gas, the molar heat capacity at constant volume is $C_v = \\frac{3}{2}R$, and the adiabatic constant is\n$$\\gamma = \\frac{5}{3}$$\nFor process $a \\rightarrow b$ (Isothermal Process):\nThe temperature remains constant: $T_a = T_b = T_0 \\rightarrow \\Delta T_{ab} = 0$\nSo, the change in internal energy is zero: $\\Delta U_{ab} = 0$\nThe volume changes from $V_1$ to $V_2 (V_2 > V_1)$. So, it's an isothermal expansion.\nThe work done by the gas during isothermal process is given as $W = nRT \\ln\\left(\\frac{V_f}{V_i}\\right)$, where $n$ is the amount of gas, $T$ is the temperature, $V_f$ is the final volume and $V_i$ is the initial volume.\nAccording to the first law of thermodynamics,\n$$Q_{ab} = \\Delta U_{ab} + W_{ab} = 0 + n_m R T_0 \\ln\\left(\\frac{V_2}{V_1}\\right)$$\nSince $V_2 > V_1$, $Q_{ab} > 0$. Which means heat is absorbed by the gas ($Q_{absorbed} = Q_{ab}$).\nFor the process $b \\rightarrow c$ (Isochoric Process):\nThe volume is kept constant, $V_c = V_b = V_2 \\rightarrow \\Delta V = 0$\nSo, the work done is zero, $W_{bc} = 0$.\nUsing first law of thermodynamics the heat transferred directly equals the change in internal energy:\n$$Q_{bc} = \\Delta U_{bc} = n_m C_v (T_c - T_b) = \\frac{3}{2} n_m R (T_c - T_0)$$\nFor the process $c \\rightarrow a$ (Adiabatic Process):\nAs in adiabatic process there is no heat is exchanged with the surroundings $Q_{ca} = 0$.\nThe state changes from $(V_2, T_c)$ back to $(V_1, T_0)$ and completes the cycle.\nFor a reversible adiabatic process ($c \\rightarrow a$), the relationship between temperature $T$ and volume $V$ is\n$$T V^{\\gamma - 1} = \\text{constant}$$\nApplying this equation at states $c$ and $a$:\n$$T_c V_c^{\\gamma - 1} = T_a V_a^{\\gamma - 1}$$\nSubstituting $V_c = V_2$, $V_a = V_1$, and $T_a = T_0$:\n$$T_c V_2^{\\gamma - 1} = T_0 V_1^{\\gamma - 1} \\rightarrow \\frac{T_0}{T_c} = \\left(\\frac{V_2}{V_1}\\right)^{\\gamma - 1}$$\nFor a monoatomic gas, $\\gamma - 1 = \\frac{5}{3} - 1 = \\frac{2}{3}$.\nTherefore :\n\n$$\\frac{T_0}{T_c} = \\left(\\frac{V_2}{V_1}\\right)^{2/3}$$\nWhen $\\frac{v_2}{v_1} = 8$\n$$\\frac{T_a}{T_c} = \\frac{T_a}{T_c} = (8)^{2/3} = (2^3)^{2/3} = 2^2 = 4$$\nWhich means $T_a = 4\\,T_c$, i.e., the temperature of the gas at state a is exactly 4 times the temperature at state c.\nThus, option (C) is correct.\nProcess $a \\rightarrow b$ is isothermal ($T_a = T_b$). Using the ideal gas law $(PV = n_mRT)$:\n$$P_a\\,V_a = P_bV_b \\rightarrow P_aV_1 = P_bV_2\\frac{P_a}{P_b} = \\frac{V_2}{V_1}$$\nIf $\\frac{v_2}{v_1} = 8$, then:\n$$\\frac{P_a}{P_b} = 8 \\rightarrow P_a = 8\\,P_b$$\nSo, the pressure of the gas at a is 8 times the pressure of the gas at b. Thus, option (D) is incorrect.\nSince $T_a = T_0$ and $T_c = T_0/4$ when $\\frac{v_2}{v_1} = 8$, the temperature decreases during the constant-volume process $b \\rightarrow c$. The heat exchanged in process $b \\rightarrow c$ is:\n$$Q_{bc} = \\frac{3}{2}\\,n_m\\,R\\,(T_c - T_b) = \\frac{3}{2}\\,n_m\\,R\\left(\\frac{T_0}{4} - T_0\\right) = \\frac{3}{2}\\,n_m\\,R\\left(-\\frac{3}{4}T_0\\right) = -\\frac{9}{8}\\,n_m\\,R\\,T_0$$\nThe negative sign indicates that heat is released by the system\n$$Q_{\\text{released}} = |Q_{bc}| = 1.125\\,n_m\\,R\\,T_0$$\nThe heat absorbed during the isothermal process $a \\rightarrow b$:\n$$Q_{ab} = n_m\\,R\\,T_0\\,\\ln\\left(\\frac{V_2}{V_1}\\right) = n_m\\,R\\,T_0\\,\\ln(8) = n_m\\,R\\,T_0\\,\\ln(2^3) = 3\\,n_m\\,R\\,T_0\\,\\ln(2)$$\nUsing the given approximation $\\ln(2) \\approx 0.7$:\n$$Q_{ab} \\approx 3\\,n_m\\,R\\,T_0(0.7) = 2.1\\,n_m\\,R\\,T_0$$\nSo, heat released in $b \\rightarrow c$ is $Q_{\\text{released}} = 1.125\\,n_m\\,R\\,T_0$\nHeat absorbed in $a \\rightarrow b$ is $Q_{\\text{absorbed}} = 2.1\\,n_m\\,R\\,T_0$\nHence, the heat released in process $b \\rightarrow c$ is smaller than the heat absorbed in process $a \\rightarrow b$. Thus, option (A) is correct.\nThe net efficiency $\\eta$ of the cycle is,\n$$\\eta = \\frac{Q_{\\text{in}} - Q_{\\text{out}}}{Q_{\\text{in}}} = 1 - \\frac{Q_{\\text{out}}}{Q_{\\text{in}}}$$\nHere, $Q_{\\text{in}} = Q_{ab} = n_m\\,R\\,T_0\\,\\ln\\left(\\frac{v_2}{v_1}\\right)$ and $Q_{\\text{out}} = |Q_{bc}| = \\frac{3}{2}\\,n_m\\,R\\,(T_0 - T_c)$.\nAlso, $T_c = T_0\\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1}$.\nSubstituting into $Q_{\\text{out}}$,\n\n$$Q_{\\text{out}} = \\frac{3}{2} n_m R T_0 \\left[ 1 - \\left( \\frac{V_1}{V_2} \\right)^{\\gamma - 1} \\right]$$\nSubstituting both heat expressions into the efficiency formula:\n$$\\eta = 1 - \\frac{\\frac{3}{2} n_m R T_0 \\left[ 1 - \\left( \\frac{V_1}{V_2} \\right)^{\\gamma - 1} \\right]}{n_m R T_0 \\ln\\left( \\frac{V_2}{V_1} \\right)}\\eta = 1 - \\frac{\\frac{3}{2} \\left[ 1 - \\left( \\frac{V_1}{V_2} \\right)^{2/3} \\right]}{\\ln\\left( \\frac{V_2}{V_1} \\right)}$$\nFor a fixed volume ratio $V_2/V_1$, the efficiency $\\eta$ does not depend on the temperature of the isothermal process.\nThus, option (B) is correct.\nTherefore, the correct options are (A), (B), and (C)",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "If $\\dfrac{V_2}{V_1} = 8$, the heat released in the process **bc** is smaller than the heat absorbed in the process **ab**.",
+      "For a given value of $V_2/V_1$, $\\eta$ does not depend on the temperature of the isothermal process.",
+      "If $V_2/V_1 = 8$, then the temperature of the gas at *a* is $4$ times the temperature of the gas at *c*.",
+      "If $V_2/V_1 = 8$, then the pressure of the gas at *a* is $4$ times the pressure of the gas at *b*."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9vmpox.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_005",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The efficiency of a Carnot engine operating with a hot reservoir kept at a temperature of 1000 K is 0.4 . It extracts 150 J of heat per cycle from the hot reservoir. The work extracted from this engine is being fully used to run a heat pump which has a coefficient of performance 10 . The hot reservoir of the heat pump is at a temperature of 300 K . Which of the following statements is/are correct :",
+    "solution": "Carnot Engine:\n\nHot reservoir temperature ($T_H$) = 1000 K\nEfficiency ($\\eta$) = 0.4\nHeat extracted from the hot reservoir ($Q_H$) = 150 J per cycle\nHeat Pump:\n\nCoefficient of Performance (COP) = 10\nWork input ($W_{pump}$) = Work output from the engine ($W_{engine}$)\nHot reservoir temperature ($T_{H,hp}$) = 300 K\n\nLet's analyze each statement:\nStatement A: Work extracted from the Carnot engine in one cycle is 60 J.\nThe efficiency of an engine is defined as the ratio of the work output to the heat input from the hot reservoir.\n$$ \\eta = \\frac{W_{engine}}{Q_H} $$\nWe are given $\\eta = 0.4$ and $Q_H = 150$ J. We can find the work done by the engine:\n$$ W_{engine} = \\eta \\times Q_H = 0.4 \\times 150 \\text{ J} = 60 \\text{ J} $$\nThis statement is correct.\nStatement B: Temperature of the cold reservoir of the Carnot engine is 600 K.\nFor a Carnot engine, the efficiency can also be expressed in terms of the temperatures of the hot and cold reservoirs:\n$$ \\eta = 1 - \\frac{T_C}{T_H} $$\nwhere $T_C$ is the temperature of the cold reservoir and $T_H$ is the temperature of the hot reservoir (both in Kelvin).\nWe know $\\eta = 0.4$ and $T_H = 1000$ K. We can solve for $T_C$:\n$$ 0.4 = 1 - \\frac{T_C}{1000} \\frac{T_C}{1000} = 1 - 0.4 = 0.6 T_C = 0.6 \\times 1000 \\text{ K} = 600 \\text{ K} $$\nThis statement is also correct.\nStatement C: Temperature of the cold reservoir of the heat pump is 270 K.\nThe coefficient of performance (COP) for a heat pump is defined as the ratio of the heat delivered to the hot reservoir ($Q_{H,hp}$) to the work input ($W_{pump}$). For an ideal (Carnot) heat pump operating between temperatures $T_{C,hp}$ and $T_{H,hp}$, the COP is also given by:\n$$ \\text{COP} = \\frac{T_{H,hp}}{T_{H,hp} - T_{C,hp}} $$\nWe are given the COP of the heat pump is 10 and its hot reservoir temperature $T_{H,hp} = 300$ K. Let's assume this heat pump is operating ideally with this COP. We can find $T_{C,hp}$:\n$$ 10 = \\frac{300 \\text{ K}}{300 \\text{ K} - T_{C,hp}} $$\nLet's solve for $T_{C,hp}$:\n$$ 10 \\times (300 - T_{C,hp}) = 300 3000 - 10 T_{C,hp} = 300 10 T_{C,hp} = 3000 - 300 = 2700 T_{C,hp} = \\frac{2700}{10} \\text{ K} = 270 \\text{ K} $$\nThis statement is correct, assuming the heat pump is ideal.\nStatement D: Heat supplied to the hot reservoir of the heat pump in one cycle is 540 J.\nThe COP of a heat pump is also defined as the ratio of the heat delivered to the hot reservoir ($Q_{H,hp}$) to the work input ($W_{pump}$).\n$$ \\text{COP} = \\frac{Q_{H,hp}}{W_{pump}} $$\nWe know the COP is 10 and the work input to the heat pump is the work output from the engine, which we found to be $W_{pump} = W_{engine} = 60$ J.\nSo, the heat supplied to the hot reservoir of the heat pump is:\n$$ Q_{H,hp} = \\text{COP} \\times W_{pump} = 10 \\times 60 \\text{ J} = 600 \\text{ J} $$\nThis statement says the heat supplied is 540 J, which does not match our calculation of 600 J.\nThis statement is incorrect.\nBased on our analysis, statements A, B, and C are correct.",
+    "answerKey": [
+      "A",
+      "B",
+      "C"
+    ],
+    "options": [
+      "Work extracted from the Carnot engine in one cycle is **60 J**.",
+      "Temperature of the cold reservoir of the Carnot engine is **600 K**.",
+      "Temperature of the cold reservoir of the heat pump is **270 K**.",
+      "Heat supplied to the hot reservoir of the heat pump in one cycle is **540 J**."
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_006",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In the given $P-V$ diagram, a monoatomic gas $\\left(\\gamma=\\frac{5}{3}\\right)$ is first compressed adiabatically from state $A$ to state $B$. Then it expands isothermally from state $B$ to state $C$. [Given: $\\left(\\frac{1}{3}\\right)^{0.6} \\simeq 0.5, \\ln 2 \\simeq 0.7$ ].\n\n[Diagram]\n\nWhich of the following statement(s) is(are) correct?",
+    "solution": "For adiabatic process $(\\mathrm{A} \\rightarrow \\mathrm{B})$\n\n$$\n\\begin{aligned}\n& \\mathrm{P}_{\\mathrm{A}} \\mathrm{V}_{\\mathrm{A}}^\\gamma=\\mathrm{P}_{\\mathrm{B}} \\mathrm{V}_{\\mathrm{B}}^\\gamma \\\\\\\\\n& 10^5 \\times(0.8)^{\\frac{5}{3}}=3 \\times 10^5\\left(\\mathrm{~V}_{\\mathrm{B}}\\right)^{\\frac{5}{3}} \\\\\\\\\n& \\Rightarrow \\mathrm{V}_{\\mathrm{B}}=0.8 \\times\\left(\\frac{1}{3}\\right)^{0.6}=0.4\n\\end{aligned}\n$$\n\nWork done in process $\\mathrm{A} \\rightarrow \\mathrm{B}$\n\n$$\n\\begin{aligned}\n& \\mathrm{W}_{\\mathrm{AB}}=\\frac{\\mathrm{P}_{\\mathrm{A}} \\mathrm{V}_{\\mathrm{A}}-\\mathrm{P}_{\\mathrm{B}} \\mathrm{V}_{\\mathrm{B}}}{\\gamma-1} \\\\\\\\\n& \\Rightarrow \\mathrm{W}_{\\mathrm{AB}}=\\frac{10^5 \\times 0.8-3 \\times 10^5 \\times 0.4}{\\frac{5}{3}-1} \\\\\\\\\n& \\Rightarrow \\mathrm{W}_{\\mathrm{AB}}=-60 \\mathrm{~kJ}=\\Rightarrow\\left|\\mathrm{W}_{\\mathrm{AB}}\\right|=60 \\mathrm{~kJ}\n\\end{aligned}\n$$\n\nWork done in process $\\mathrm{B} \\rightarrow \\mathrm{C}$ (Isothermal process)\n\n$$\n\\begin{aligned}\n& \\mathrm{W}_{\\mathrm{BC}}=\\mathrm{nRT} \\ell \\mathrm{n} \\frac{\\mathrm{V}_{\\mathrm{C}}}{\\mathrm{V}_{\\mathrm{B}}}=\\mathrm{P}_{\\mathrm{B}} \\mathrm{V}_{\\mathrm{B}} \\ell \\mathrm{n} \\frac{\\mathrm{V}_{\\mathrm{C}}}{\\mathrm{V}_{\\mathrm{B}}} \\\\\\\\\n& \\Rightarrow \\mathrm{W}_{\\mathrm{BC}}=3 \\times 10^5 \\times 0.4 \\ell \\mathrm{n} \\frac{0.8}{0.4} \\\\\\\\\n& \\Rightarrow \\mathrm{W}_{\\mathrm{BC}}=84 \\mathrm{~kJ}\n\\end{aligned}\n$$\n\nWork done in process $\\mathrm{C} \\rightarrow \\mathrm{A}$\n\n$$\n\\mathrm{W}_{\\mathrm{CA}}=\\mathrm{P} \\Delta \\mathrm{V}=0 \\quad(\\because \\Delta \\mathrm{V}=0)\n$$\n\nSo total work done in the process $\\mathrm{A} \\rightarrow \\mathrm{B} \\rightarrow \\mathrm{C}$\n\n$$\n\\begin{aligned}\n& \\mathrm{W}_{\\mathrm{ABC}}=\\mathrm{W}_{\\mathrm{AB}}+\\mathrm{W}_{\\mathrm{BC}}+\\mathrm{W}_{\\mathrm{CA}}=-60+84+0 \\\\\\\\\n& \\mathrm{~W}_{\\mathrm{ABC}}=24 \\mathrm{~kJ}\n\\end{aligned}\n$$\n\nSo correct options are (B,C,D)",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The magnitude of the total work done in the process $A \\rightarrow B \\rightarrow C$ is $144 \\mathrm{~kJ}$.",
+      "The magnitude of the work done in the process $B \\rightarrow C$ is $84 \\mathrm{~kJ}$.",
+      "The magnitude of the work done in the process $A \\rightarrow B$ is $60 \\mathrm{~kJ}$.",
+      "The magnitude of the work done in the process $C \\rightarrow A$ is zero."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l7ga7vku.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_007",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The filament of a light bulb has surface area 64 mm$^{2}$\n. The filament can be considered as a black\nbody at temperature 2500 K emitting radiation like a point source when viewed from far. At night\nthe light bulb is observed from a distance of 100 m. Assume the pupil of the eyes of the observer to\nbe circular with radius 3 mm. Then\n\n(Take Stefan-Boltzmann constant = 5.67 $$ \\times $$ 10$^{−8}$ Wm$^{−2}$K$^{−4}$\n, Wien’s displacement constant =\n2.90 $$ \\times $$ 10$^{−3}$ m-K, Planck’s constant = 6.63 $$ \\times $$ 10$^{−34}$ Js, speed of light in vacuum = 3.00 $$ \\times $$\n10$^{8}$ ms$^{−1}$)",
+    "solution": "Here, A = 64 mm$^{2}$, T = 2500K (where, A = surface area of filament, T = temperature of filament, d is distance of bulb from observer and R$_{e}$ = radius of pupil of eye)\n\nPoint source, d = 100 m, R$_{e}$ = 3 mm\n\n(a) P = $$\\sigma $$AeT$^{$$-$$4}$\n\n= 5.67 $$ \\times $$ 10$^{$$-$$8}$ $$ \\times $$ 64 $$ \\times $$ 10$^{$$-$$6}$ $$ \\times $$ 1 $$ \\times $$ (2500)$^{4}$\n\n($$ \\because $$ e = 1 for black body)\n\n= 141.75 W\n\n(b) Power reaching to the eye\n\n= $${P \\over {4\\pi {d^2}}} \\times (\\pi R_e^2) = {{141.75} \\over {4\\pi \\times {{(100)}^2}}} \\times \\pi \\times {(3 \\times {10^{ - 3}})^2} = 3.189375 \\times {10^{ - 8}}$$ W\n\n(c) $${\\lambda _m}T = b{\\lambda _m} \\times 2500 = 2.9 \\times {10^{ - 3}} \\Rightarrow {\\lambda _m} = 1.16 \\times {10^{ - 6}}$$ = 1160 nm\n\n(d) Power received by one eye of observer = $$\\left( {{{hc} \\over \\lambda }} \\right) \\times {{\\Delta N} \\over {\\Delta t}}$$\n\nwhere, $${{\\Delta N} \\over {\\Delta t}}$$ = number of photons.\n\nentering into eye per second.\n\n$$ = 3.189375 \\times {10^{ - 8}} = {{6.63 \\times {{10}^{ - 34}} \\times 3 \\times {{10}^8}} \\over {1740 \\times {{10}^{ - 9}}}} \\times {{\\Delta N} \\over {\\Delta t}} \\Rightarrow {{\\Delta N} \\over {\\Delta t}} = 2.79 \\times {10^{11}}$$",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "power radiated by the filament is in the range 642 W to 645 W",
+      "radiated power entering into one eye of the observer is\nin the range 3.15 $$ \\times $$ 10$^{−8}$ W to\n3.25 $$ \\times $$ 10$^{−8}$ W",
+      "the wavelength corresponding to the maximum intensity of light is 1160 nm",
+      "taking the average wavelength of emitted radiation to be 1740 nm, the total number of photons\nentering per second into one eye of the observer is in the range 2.75 $$ \\times $$ 10$^{11}$ to 2.85 $$ \\times $$ 10$^{11}$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_008",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A mixture of ideal gas containing 5 moles of monatomic gas and 1 mole of rigid diatomic gas is initially at pressure P$_{0}$, volume V$_{0}$, and temperature T$_{0}$. If the gas mixture is adiabatically compressed to a volume $${{{V_0}} \\over 4}$$, then the correct statement(s) is/are\n\n(Given, 2$^{1.2}$ = 2.3; 2$^{3.2}$ = 9.2; R is a gas constant)",
+    "solution": "$${\\gamma _{mix}} = {{{n_1}{C_{p1}} + {n_2}{C_{p2}}} \\over {{n_1}{C_{v1}} + {n_2}{C_{v2}}}} = {8 \\over 5}W = {{{P_1}{V_1} - {P_2}{V_2}} \\over {\\gamma - 1}}{P_0}{V_0}^{8/5} = {P_2}{\\left( {{{{V_0}} \\over 4}} \\right)^{8/5}}{P_2} = 9.2{P_0}W = {{{P_0}{V_0} - 9.2{P_0}{{{V_0}} \\over 4}} \\over {3/5}} = - 13R{T_0} \\therefore |W| = 13R{T_0}$$\n\n(b) $${T_1}V_1^{\\gamma - 1} = {T_2}V_2^{\\gamma - 1}{T_2} = {T_1}{(2)^{6/5}} = 23{T_0}$$\n\nAverage kinetic energy of gas mixture\n\n= $$nC{v_{mix}}{T_2} = 23R{T_0}$$",
+    "answerKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The final pressure of the gas mixture after compression is in between 9P$_{0}$ and 10P$_{0}$",
+      "The average kinetic energy of the gas mixture after compression is in between 18RT$_{0}$ and 19RT$_{0}$",
+      "Adiabatic constant of the gas mixture is 1.6",
+      "The work |W| done during the process is 13RT$_{0}$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_009",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas goes through a thermodynamic cycle, as shown in the volume versus temperature (V-T) diagram. The correct statement(s) is/are [R is the gas constant]\n\n\n[Diagram]",
+    "solution": "P-V graph of the given V-T graph is shown below.\n\n\n[Diagram]\n\n\n(d) $$\\left| {{{\\Delta {Q_{1 \\to 2}}} \\over {\\Delta {Q_{3 \\to 4}}}}} \\right| = \\left| {{{N{C_p}\\Delta {T_{1 \\to 2}}} \\over {N{C_p}\\Delta {T_{3 \\to 4}}}}} \\right| = {{{T_0}} \\over {{T_0}/2}} = 2$$\n\n(b) $$\\left| {{{\\Delta {Q_{1 \\to 2}}} \\over {\\Delta {Q_{2 \\to 3}}}}} \\right| = \\left| {{{N{C_p}\\Delta {T_{1 \\to 2}}} \\over {N{C_p}\\Delta {T_{3 \\to 4}}}}} \\right| = {{{C_p}} \\over {{C_V}}} = {5 \\over 3}$$\n\n(a) $${W_{cycle}} = {p_0}{V_0} = nR\\left[ {{{{T_0}} \\over 2}} \\right]$$\n\nNote For ideal gas equation,\n\npV = nRT\n\n$$ \\therefore $$ (pV)$_{4}$ = (nRT)$_{4}$\n\nor p$_{0}$V$_{0}$ = $$nR{{{T_0}} \\over 2}$$ = $$R{{{T_0}} \\over 2}$$\n\nas n = 1\n\n(c) Wrong as no adiabatic process is involved.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "Work done in this thermodynamic cycle (1$$ \\to $$2$$ \\to $$3$$ \\to $$4$$ \\to $$1) is $$\\left| W \\right| = {1 \\over 2}R{T_0}$$.",
+      "The ratio of heat transfer during processes 1$$ \\to $$2 and 2$$ \\to $$3 is $$\\left| {{{{Q_{1 \\to 2}}} \\over {{Q_{2 \\to 3}}}}} \\right| = {5 \\over 3}$$",
+      "The above thermodynamic cycle exhibits only isochoric and adiabatic processes.",
+      "The ratio of heat transfer during processes 1$$ \\to $$2 and 3$$ \\to $$4 is $$\\left| {{{{Q_{1 \\to 2}}} \\over {{Q_{3 \\to 4}}}}} \\right| = {1 \\over 2}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l71iiut7.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_010",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas undergoes a cyclic process as shown in the figure (where $$V$$ is the volume and $$T$$ is the temperature). Which of the statements below is (are) true?\n\n[Diagram]",
+    "solution": "In process I, volume is changing. Therefore, it is not isochoric. Therefore 'A' is incorrect.\nIn process II, q = $$\\Delta$$U + W . $$\\Delta$$U = 0 as temperature is constant. Therefore, q = W. Here W = P(V$_{f}$ $$-$$ V$_{i}$) is positive therefore q is positive i.e., gas absorbs heat. Therefore 'B' is correct.\nFor process IV, q = $$\\Delta$$U + W. Here $$\\Delta$$ = 0 and W is negative (volume decreases). Therefore q is negative i.e., gas releases heat. 'C' is correct.\nFor an isobaric process, V $$\\propto$$ T i.e., we will get a straight inclined line in T-V graph. Therefore I and II are NOT isobaric. 'D' is correct.",
+    "answerKey": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "Process $${\\rm I}$$ is an isochoric process",
+      "In process $${\\rm II}$$, gas absorbs heat",
+      "In process $${\\rm IV}$$, gas releases heat",
+      "Process $${\\rm I}$$ and $${\\rm III}$$ are **not** isobaric"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_011",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal monoatomic gas is confined in a horizontal cylinder by a spring loaded piston (as shown in the figure). Initially the gas is at temperature T$_{1}$, pressure P$_{1}$ and volume V$_{1}$ and the spring is in its relaxed state. The gas is then heated very slowly to temperature T$_{2}$, pressure P$_{2}$ and volume V$_{2}$. During this process the piston moves out by a distance x.\n\nIgnoring the friction between the piston and the cylinder, the correct statements is/are\n\n\n[Diagram]",
+    "solution": "Initially both the compartments has same pressure as they are in equilibrium.\n\n[Diagram]\n\nSuppose spring is compressed by x on heating the gas.\nLet A be the area of cross-section of piston. As gas is ideal monoatomic, so\n$${{{P_1}{V_1}} \\over {{T_1}}} = {{{P_2}{V_2}} \\over {{T_2}}}$$ ...... (i)\nForce on spring by gas = kx\n$$\\therefore{P_2} = {P_1} + {{kx} \\over A}$$ ...... (ii)\nCase I : When $${V_2} = 2{V_1}$$, $${T_2} = 3{T_1}$$\nFrom Eqn. (i)\n$${{{P_1}{V_1}} \\over {{T_1}}} = {{{P_2}(2{V_1})} \\over {3{T_1}}} \\Rightarrow {P_2} = {3 \\over 2}{P_1}$$\nPutting this value in eqn. (ii) we get\n$${3 \\over 2}{P_1} = {P_1} + {{kx} \\over A} \\Rightarrow kx = {{{P_1}A} \\over 2}x = {{{V_2} - {V_1}} \\over A} = {{2{V_1} - {V_1}} \\over A} = {{{V_1}} \\over A}$$\nEnergy stored in the spring\n$$ = {1 \\over 2}k{x^2} = {1 \\over 2}(kx)(x) = {{{P_1}{V_1}} \\over 4}$$\nSo, option (a) is correct.\nChange in internal energy,\n$$\\Delta U = {f \\over 2}({P_2}{V_2} - {P_1}{V_1}) = {3 \\over 2}\\left( {{3 \\over 2}{P_1} \\times 2{V_1} - {P_1}{V_1}} \\right) = 3{P_1}{V_1}$$\nSo, option (b) is correct.\nCase II : When $${V_2} = 3{V_1}$$ and $${T_2} = 4{T_1}$$\nFrom Eqn. (i),\n$${{{P_1}{V_1}} \\over {{T_1}}} = {{{P_2}(3{V_1})} \\over {4{T_1}}} \\Rightarrow {P_2} = {4 \\over 3}{P_1}x = {{{V_2} - {V_1}} \\over A} = {{2{V_1}} \\over A}$$\nFrom eqn. (ii),\n$${4 \\over 3}{P_1} = {P_1} + {{kx} \\over A} \\Rightarrow kx = {{{P_1}A} \\over 3}$$\nGas is heated very slowly so pressure on the other compartment remains same.\nWork done by gas = Work done by gas on atmosphere + Energy stored in spring.\n$${W_g} = {P_1}Ax + {1 \\over 2}k{x^2} = {P_1}(2{V_1}) + {1 \\over 2}\\left( {{{{P_1}A} \\over 3}} \\right)\\left( {{{2{V_1}} \\over A}} \\right) = 2{P_1}{V_1} + {1 \\over 3}{P_1}{V_1} = {7 \\over 3}{P_1}{V_1}$$\nSo, option (c) is correct.\nHeat supplied to the gas,\n$$\\Delta Q = {W_g} + \\Delta U = {7 \\over 3}{P_1}{V_1} + {3 \\over 2}({P_2}{V_2} - {P_1}{V_1}) = {7 \\over 3}{P_1}{V_1} + {3 \\over 2}\\left( {{4 \\over 3}{P_1} \\times 3{V_1} - {P_1}{V_1}} \\right) = {7 \\over 3}{P_1}{V_1} + {9 \\over 2}{P_1}{V_1} = {{41} \\over 6}{P_1}{V_1}$$\nSo, option (d) is incorrect.",
+    "answerKey": [
+      "B",
+      "C",
+      "A"
+    ],
+    "options": [
+      "If V$_{2}$ = 2V$_{1}$ and T$_{2}$ = 3T$_{l}$, then the energy stored in the spring is $${1 \\over 4}{P_1}{V_1}$$",
+      "If V$_{2}$ = 2V$_{1}$ and T$_{2}$ = 3T$_{1}$, then the change in internal energy is $$3{P_1}{V_1}$$",
+      "If V$_{2}$ = 3V$_{1}$ and T$_{2}$ = 4T$_{1}$, then the work done by the gas is $${7 \\over 3}{P_1}{V_1}$$",
+      "If V$_{2}$ = 3V$_{1}$ and T$_{2}$ = 4T$_{1}$, then the heat supplied to the gas is $${17 \\over 6}{P_1}{V_1}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0wnwxbf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_012",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A container of fixed volume has a mixture of one mole of hydrogen and one mole of helium in equilibrium\nat temperature T. Assuming the gases are ideal, the correct statement(s) is(are)",
+    "solution": "The internal energy of one mole of an ideal gas at temperature T is given by $$U = {f \\over 2}RT$$, where f is the degrees of freedom of the gas molecule. The degress of freedom of the gas molecule. The degrees of freedom for hydrogen (diatomic) and helium (monatomic) gases are f$_{H2}$ = 5 and f$_{He}$ = 3, respectively. Thus, $${U_{{H_2}}} = {5 \\over 2}RT$$ and $${U_{He}} = {3 \\over 2}RT$$. The total internal energy of the gas mixture is\n$${U_{total}} = {U_{{H_2}}} + {U_{He}} = {5 \\over 2}RT + {3 \\over 2}RT = 4RT$$.\nThe mixture contains two moles of the gases. The internal energy per mole of the mixture is $${U_{mix}} = {U_{total}}/2 = 2RT$$.\nThe specific heat at constant volume is given by $${C_v} = dU/dT$$. Thus, the specific heats at constant volume for helium and the mixture are\n$${C_{v,He}} = d{U_{He}}/dT = {3 \\over 2}R$$, and\n$${C_{v,mix}} = d{U_{mix}}/dT = 2R$$\nThe specific heats at constant pressure, $${C_p} = {C_v} + R$$, for these gases are\n$${C_{p,He}} = {C_{v,He}} + R = {5 \\over 2}R$$, and\n$${C_{p,mix}} = {C_{v,mix}} + R = 3R$$.\nThe ratio of specific heats, $$\\gamma = {C_p}/{C_v}$$, are $${\\gamma _{He}} = 5/3$$ and $${\\gamma _{mix}} = 3/2$$. The speed of sound, in a gas of molecular mass M, is given by $${v_s} = \\sqrt {\\gamma RT/M} $$. The molecular mass of the gas mixture is\n$${M_{mix}} = {{{n_{{H_2}}}{M_{{H_2}}} + {n_{He}}{M_{He}}} \\over {{n_{{H_2}}} + {n_{He}}}} = {{(1)(2) + (1)(4)} \\over {1 + 1}} = 3$$ g/mol,\nwhere n$_{H2}$ = 1 and n$_{He}$ = 1 are the number of moles of hydrogen and helium in the gas mixture. The ratio of the speeds of sound in the gas mixture and helium is\n$${{{v_{s,mix}}} \\over {{v_{s,He}}}} = {{\\sqrt {{\\gamma _{mix}}RT/{M_{mix}}} } \\over {\\sqrt {{\\gamma _{He}}RT/{M_{He}}} }} = \\sqrt {{{{\\gamma _{mix}}} \\over {{\\gamma _{He}}}}{{{M_{He}}} \\over {{M_{mix}}}}} = \\sqrt {{{(3/2)(4)} \\over {(5/3)(3)}}} = \\sqrt {{6 \\over 5}} $$\nThe rms speed of the atoms/molecules is given by $${v_{rms}} = \\sqrt {3RT/M} $$. The ratio of the rms speed of helium atoms to that of hydrogen molecules is\n$${{{v_{rms,He}}} \\over {{v_{rms,{H_2}}}}} = {{\\sqrt {3RT/{M_{He}}} } \\over {\\sqrt {3RT/{M_{{H_2}}}} }} = \\sqrt {{{{M_{{H_2}}}} \\over {{M_{He}}}}} = \\sqrt {{2 \\over 4}} = \\sqrt {{1 \\over 2}} $$.",
+    "answerKey": [
+      "A",
+      "B",
+      "D"
+    ],
+    "options": [
+      "The average energy per mole of the gas mixture is 2RT",
+      "The ratio of speed of sound in the gas mixture to that in helium gas is $$\\sqrt {{6 \\over 5}} $$",
+      "The ratio of the rms speed of helium atoms to that of hydrogen molecules is $${1 \\over 2}$$",
+      "The ratio of the rms speed of helium atoms to that of hydrogen molecules is $${1 \\over {\\sqrt 2 }}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qh6sg8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_013",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The figure below shows the variation of specific heat capacity (C) of a solid as a function of temperature (T). The temperature is increased continuously from 0 to 500 K at a constant rate. Ignoring any volume change, the following statement(s) is(are) correct to a reasonable approximation.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nAccording to definition of specific heat capacity,\n$$C = {{\\Delta Q} \\over {m\\Delta T}} \\Rightarrow \\Delta Q = mC\\Delta T\\therefore{{\\Delta Q} \\over {\\Delta t}} = mC{{\\Delta T} \\over {\\Delta t}}$$\nRate of heat absorbed $$R = {{\\Delta Q} \\over {\\Delta t}} \\Rightarrow {{\\Delta Q} \\over {\\Delta t}} \\propto C$$\n(a) In 0-100 K,\nC increases with T but not linearly. So R increases but not linearly.\n(b) As $$\\Delta Q = mC\\Delta TQ = m\\int {C\\Delta T} $$\n= m area under C-T curve\nFrom the graph it is clear that area under C-T is more in 400-500 K than in 0-100 K.\nTherefore, heat absorbed in 0-100 K is less than in 400-500 K.\n(c) In 400-500 K,\nC remains constant so there is no change in R.\n(d) In 200-300 K,\nC increases so R increases.",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The rate at which heat is absorbed in the range 0-100 K varies linearly with temperature T.",
+      "Heat absorbed in increasing the temperature from 0-100 K is less than the heat required for increasing the temperature from 400-500 K.",
+      "There is no change in the rate of heat absorption in the range 400-500 K.",
+      "The rate of heat absorption increases in the range 200-300 K."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qh6sg8.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_014",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of an ideal gas in initial state A undergoes a cyclic process ABCA, as shown in the figure. Its pressure at A is P$_{0}$. Choose the correct option(s) from the following:\n\n[Diagram]",
+    "solution": "The internal energy of one mole of an ideal gas at temperature T is given by U = 3RT/2. The process AB is isothermal i.e., T$_{A}$ = T$_{B}$ = T$_{0}$, which makes U$_{A}$ = U$_{B}$.\nThe work done in the isothermal process AB is\nW$_{AB}$ = nRT ln(V$_{B}$/V$_{A}$)\n= nRT$_{0}$ ln(4V$_{0}$/V$_{0}$) = p$_{0}$V$_{0}$ ln4.\nInformation regarding p and T at C can not be obtained from the given graph. Unless it is mentioned that line BC passes through origin or not.\nHence, the correct options are (a) and (b).\nNote:\nIf we assume that the line BC pass through the origin. In the process BC, the slope V/T is constant. Thus, BC is an isobaric process (as V/T = nR/p, by the ideal gas equation). Thus,\np$_{C}$ = p$_{B}$ = RT$_{B}$ / V$_{B}$\n= RT$_{0}$/(4V$_{0}$) = (RT$_{0}$/V$_{0}$)4 = p$_{0}$/4.\nApply the ideal gas equation for the states A and C to get\n$${T_C} = {{{p_C}{V_C}} \\over {{p_0}{V_0}}}{T_0} = {{({p_0}/4){V_0}} \\over {{p_0}{V_0}}}{T_0} = {T_0}/4$$.",
+    "answerKey": [
+      "A",
+      "B"
+    ],
+    "options": [
+      "Internal energies at A and B are the same.",
+      "Work done by the gas in process AB is P$_{0}$V$_{0}$ ln4.",
+      "Pressure at C is P$_{0}$/4.",
+      "Temperature at C is T$_{0}$/4."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l31jr736.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_015",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The figure shows the PV plot of an ideal gas taken through a cycle ABCDA. The part ABC is a semicircle and CDA is half of an ellipse. Then,\n\n[Diagram]",
+    "solution": "We observe the following:\n$$\\bullet$$ For the path B $$\\to$$ C $$\\to$$ D, the volume (V) decreases; $$\\Delta$$W < 0.\n$$\\Delta U < 0 \\Rightarrow \\Delta Q < 0\\bullet$$ For the process A $$\\to$$ B $$\\to$$ C, $$\\Delta$$W is the area of the semicircle and $$\\Delta W\ne 0$$.\n$$\\bullet$$ For the process A $$\\to$$ B (semicircle), it cannot be an isothermal process (whose PV-diagram is a rectangular hyperbola).\n$$\\bullet$$ For (clockwise) process A $$\\to$$ B $$\\to$$ C $$\\to$$ D $$\\to$$ A, $$\\Delta$$W is the area enclosed, which is positive.",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "the process during the path A $$\\to$$ B is isothermal.",
+      "heat flows out of the gas during the path B $$\\to$$ C $$\\to$$ D.",
+      "work done during the path A $$\\to$$ B $$\\to$$ C is zero.",
+      "positive work is done by the gas in the cycle ABCDA."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft47k37.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_016",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "$$C_V$$ and $$C_P$$ denote the molar specific heat capacities of a gas at constant volume and constant pressure, respectively. Then",
+    "solution": "We know that $${C_P} - {C_V} = R$$ is same for all gases. For a diatomic gas, we have\n$${C_V} = {{5R} \\over 2}$$\nTherefore, $${C_P} = {C_V} + R = {{7R} \\over 2}$$\nFor a monoatomic gas, we have\n$${C_V} = {{3R} \\over 2}{C_P} = {{5R} \\over 2}$$\nTherefore,\n$${C_P} + {C_V} = 6R$$ (diatomic)\n$${C_P} + {C_V} = 4R$$ (monoatomic)\n$${{{C_P}} \\over {{C_V}}} = {7 \\over 5} = 1.4$$ (diatomic)\n$${{{C_P}} \\over {{C_V}}} = {5 \\over 3} = 1.67$$ (monoatomic)\n$${C_P}\\,.\\,{C_V} = {{35{R^2}} \\over 4}$$ (diatomic)\n$${C_P}\\,.\\,{C_V} = {{15{R^2}} \\over 4}$$ (monoatomic)",
+    "answerKey": [
+      "B",
+      "D"
+    ],
+    "options": [
+      "$$C_P-C_V$$ is larger for a diatomic ideal gas than for a monoatomic ideal gas.",
+      "$$C_P+C_V$$ is larger for a diatomic ideal gas than for a monoatomic ideal gas.",
+      "$$C_P/C_V$$ is larger for a diatomic ideal gas than for a monoatomic ideal gas.",
+      "$$C_P~.C_V$$ is larger for a diatomic ideal gas than for a monoatomic ideal gas."
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_017",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In a dark room with ambient temperature $\\mathrm{T}_0$, a black body is kept at a temperature T . Keeping the temperature of the black body constant (at T), sunrays are allowed to fall on the black body through a hole in the roof of the dark room. Assuming that there is no change in the ambient temperature of the room, which of the following statement(s) is/are correct?",
+    "solution": "Since the radiation is continuously falling on the black body, the quantity of radiation absorbed per second will increase.\nThe reason given in question is self explanatory. With an increase in temperature, the entire Plank's curve shifts upwards and hence radiation in any spectrum will increase. Reflected energy per unit time will be zero since black body has zero reflectivity and hence it will remain constant.\nThe bodies which radiate energy in the form of photons can be determined using Kirchoff's\nlaw of radiation. When these photons reach another surface, they may be absorbed, reflected or transmitted. Since the radiation is continuously falling on the black body, the quantity of radiation absorbed per second will increase.\nTherefore, the quantity of radiation absorbed by the black body in unit time will increase, since emissivity = absorptivity, hence the quantity of radiation emitted by black body in unit time will increases, Black body radiates more energy in unit time in the visible spectrum, the reflected energy in unit time by the black body remains same.\nHence, the option (A), (B), (C) and (D) are the correct answer.",
+    "answerKey": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      "The quantity of radiation absorbed by the black body in unit time will increase.",
+      "Since emissivity $=$ absorptivity, hence the quantity of radiation emitted by black body in unit time will increase.",
+      "Black body radiates more energy in unit time in the visible spectrum.",
+      "The reflected energy in unit time by the black body remains the same."
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_018",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "As shown in the figure, an insulated container is fitted with a thermally conducting but immovable partition ($P_1$) and a freely movable but thermally insulated piston ($P_2$). The partition $P_1$ with thermal conductivity $K$, cross sectional area $A$ and width $x$ divides the container into two sections, $S_1$ and $S_2$, each containing one mole of a monoatomic gas. The piston $P_2$ moves freely such that the gas in $S_2$ is always at the atmospheric pressure. Initially, the difference between the temperatures of $S_1$ and $S_2$ is $\\Delta T_0$. The time it takes for the temperature difference to become $\\frac{\\Delta T_0}{2}$ is $nxR/KA$, where $R$ is the universal gas constant. The value of $n$ is:\n[ Given: $ln 2 \\approx 0.7$ ]\n\n[Diagram]",
+    "solution": "The two compartments, $S_1$ and $S_2$, separated by a rigid, conducting partition $P_1$.\nSection $S_1$ is bounded by the outer insulated container walls and the immovable, rigid partition $P_1$.\nBecause the boundaries cannot move, its volume remains completely constant $\\mathrm{V}=$ constant. Therefore, the gas in $\\mathrm{S}_1$ undergoes an isochoric (constant volume) process.\nSection $\\mathrm{S}_2$ is bounded on one side by a freely movable, frictionless, insulated piston $\\mathrm{P}_2$.\nSince it moves freely to balance the external atmospheric pressure, the pressure of the gas inside $S_2$ remains constant $\\mathrm{P}=$ constant $=\\mathrm{P}_{\\mathrm{atm}}$.\nTherefore, the gas in $\\mathrm{S}_2$ undergoes an isobaric (constant pressure) process.\nBoth compartments contain $\\mathrm{n}_{\\mathrm{m}}=1$ mole of an ideal monoatomic gas.\nFor a monoatomic ideal gas, the molar heat capacity at constant volume $\\left(\\mathrm{C}_{\\mathrm{v}}\\right)$ is $\\mathrm{C}_{\\mathrm{v}}=\\frac{3}{2} \\mathrm{R}$\nThe molar heat capacity at constant pressure $(C_p)$ is given by $C_p = C_v + R$\n$$C_p = \\frac{3}{2}R + R = \\frac{5}{2}R$$\nLet $T_1$ be the instantaneous temperature of the gas in $S_1$ and $T_2$ be the instantaneous temperature of the gas in $S_2$ at any time $t$.\nLet us assume that $S_1$ is initially at a higher temperature than $S_2$, so $T_1 > T_2$.\nAs time progresses, heat $dQ$ flows across the conducting partition $P_1$ from the hotter section $S_1$ to the cooler section $S_2$.\nFor section $S_1$ the gas undergoes isochoric cooling.\nThe heat lost by $S_1$ causes its temperature to decrease by $dT_1$:\n$$dQ = -n_m C_v\\, dT_1 = -(1)\\left(\\frac{3}{2}R\\right)dT_1 \\rightarrow dT_1 = -\\frac{2}{3R}dQ$$\nFor section $S_2$ where the gas undergoes isobaric heating.\nThe same amount of heat $dQ$ enters $S_2$, causing its temperature to increase by $dT_2$:\n$$dQ = n_m C_p\\, dT_2 = (1)\\left(\\frac{5}{2}R\\right)dT_2 \\rightarrow dT_2 = \\frac{2}{5R}dQd(\\Delta T) = dT_1 - dT_2d(\\Delta T) = -\\frac{2}{3R}dQ - \\frac{2}{5R}dQ = -\\left(\\frac{2}{3R} + \\frac{2}{5R}\\right)dQd(\\Delta T) = -\\left(\\frac{10 + 6}{15R}\\right)dQ = -\\frac{16}{15R}dQ$$\nAccording to the rate of heat flow $\\frac{dQ}{dt}$ through a conducting barrier of thermal conductivity $K$, area $A$, and thickness $x$ under a temperature difference $(T_1 - T_2)$ is given by:\n$$\\frac{dQ}{dt} = \\frac{KA}{x}(T_1 - T_2) = \\frac{KA}{x}\\,\\Delta T$$\nTherefore, the infinitesimal heat transferred in a time interval $dt$ is:\n$$dQ = \\frac{KA}{x}\\Delta T\\, dt$$\nSubstituting the expression for $dQ$,\n$$d(\\Delta T) = -\\frac{16}{15R}\\left(\\frac{KA}{x}\\Delta T\\right)\\frac{d(\\Delta T)}{\\Delta T} = -\\frac{16KA}{15xR}dt$$\nAt $\\mathrm{t}=0$, the initial temperature difference is $\\Delta \\mathrm{T}=\\Delta \\mathrm{T}_0$.\nAt $\\mathrm{t}=\\tau$, the final temperature difference becomes $\\Delta \\mathrm{T}=\\frac{\\Delta \\mathrm{T}_0}{2}$.\n$$ \\int\\limits_{\\Delta \\mathrm{T}_0}^{\\Delta \\mathrm{T}_0 / 2} \\frac{\\mathrm{~d}(\\Delta \\mathrm{~T})}{\\Delta \\mathrm{T}}=-\\frac{16 \\mathrm{KA}}{15 \\times \\mathrm{R}} \\int\\limits_0^\\tau \\mathrm{dt} \\Rightarrow [\\tn\\left(\\Delta T\\right)]^{\\Delta T_0/2}_{\\Delta T_0} = -\\frac{16KA}{15xR}\\,\\tau\\Rightarrow \\ln\\left(\\frac{\\Delta T_0/2}{\\Delta T_0}\\right) = -\\frac{16KA}{15xR}\\,\\tau\\Rightarrow \\ln \\frac{1}{2} = -\\frac{16KA}{15xR}\\,\\tau\\Rightarrow -\\ln 2 = -\\frac{16KA}{xR}\\,\\tau \\Rightarrow \\ln 2 = \\frac{16KA}{15xR}\\,\\tau\\Rightarrow \\tau = \\frac{15}{16}\\ln(2)\\frac{xR}{KA}$$\nUsing the given approximation $\\ln 2 \\approx 0.7$:\n$$\\tau = \\frac{15}{16} \\times (0.7) \\times \\frac{xR}{KA} = \\frac{10.5\\,xR}{16\\,KA} = 0.65625\\,\\frac{xR}{KA}\\Rightarrow n \\approx 0.66$$\nTherefore, the correct answer is 0.66.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1mp9w6i9x.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_019",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal monatomic gas of $n$ moles is taken through a cycle $W X Y Z W$ consisting of consecutive adiabatic and isobaric quasi-static processes, as shown in the schematic $V-T$ diagram. The volume of the gas at $W, X$ and $Y$ points are, $64 \\mathrm{~cm}^3, 125 \\mathrm{~cm}^3$ and $250 \\mathrm{~cm}^3$, respectively. If the absolute temperature of the gas $T_W$ at the point $W$ is such that $n R T_W=1 \\mathrm{~J}$ ( $R$ is the universal gas constant), then the amount of heat absorbed (in J ) by the gas along the path $X Y$ is ___________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$$ \\begin{aligned} & \\mathrm{nRT}_{\\mathrm{w}}=\\mathrm{P}_{\\mathrm{w}} \\mathrm{~V}_{\\mathrm{w}}=1 \\mathrm{~J} \\\\ & \\mathrm{P}_{\\mathrm{W}}=\\frac{1}{64} \\times 10^6 \\mathrm{~Pa} \\end{aligned} $$\nFor WX process\n$$ \\begin{aligned} & P_X V_X^y=P_W V_W^y \\\\ & \\Rightarrow P_X=P_W\\left(\\frac{V_W}{V_X}\\right)^y \\end{aligned} $$\namount of heat absorbed in XY process\n$$ \\begin{aligned} \\mathrm{Q} & =\\mathrm{nCP} \\Delta \\mathrm{~T}=\\mathrm{n} \\times \\frac{5}{2} \\mathrm{R} \\times\\left[\\mathrm{T}_{\\mathrm{Y}}-\\mathrm{T}_{\\mathrm{X}}\\right] \\quad\\left[\\text { For monoatomic gas } \\mathrm{C}_{\\mathrm{P}}=\\frac{5 \\mathrm{R}}{2}\\right] \\\\ \\mathrm{Q} & =\\frac{5}{2}\\left[\\mathrm{nRT}_{\\mathrm{Y}}-\\mathrm{nRT}_{\\mathrm{X}}\\right] \\\\ & =\\frac{5}{2}\\left[\\mathrm{P}_{\\mathrm{Y}} \\mathrm{~V}_{\\mathrm{Y}}-\\mathrm{P}_{\\mathrm{X}} \\mathrm{~V}_{\\mathrm{X}}\\right] \\\\ & =\\frac{5}{2} \\mathrm{P}_{\\mathrm{X}}\\left[\\mathrm{~V}_{\\mathrm{Y}}-\\mathrm{V}_{\\mathrm{X}}\\right] \\quad\\left[\\because \\mathrm{P}_{\\mathrm{X}}=\\mathrm{P}_{\\mathrm{Y}} ; \\text { Isobaric process }\\right] \\\\ & =\\frac{5}{2} \\times \\mathrm{P}_{\\mathrm{W}} \\times\\left[\\frac{\\mathrm{V}_{\\mathrm{W}}}{\\mathrm{~V}_{\\mathrm{X}}}\\right]^{\\mathrm{y}}\\left[\\mathrm{~V}_{\\mathrm{Y}}-\\mathrm{V}_{\\mathrm{X}}\\right] \\end{aligned} $$\nPutting values :\nQ = 1.6 Joule",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawp3pxw.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_020",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The left and right compartments of a thermally isolated container of length $L$ are separated by a thermally conducting, movable piston of area $A$. The left and right compartments are filled with $\\frac{3}{2}$ and 1 moles of an ideal gas, respectively. In the left compartment the piston is attached by a spring with spring constant $k$ and natural length $\\frac{2 L}{5}$. In thermodynamic equilibrium, the piston is a distance $\\frac{L}{2}$ from the left and right edges of the container as shown in the figure. Under the above conditions, if the pressure in the right compartment is $P=\\frac{k L}{A} \\alpha$, then the value of $\\alpha$ is __________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nExtension in spring\n$$ \\begin{aligned} & \\mathrm{x}=0.5 \\mathrm{~L}-0.4 \\mathrm{~L} \\\\ & =0.1 \\mathrm{~L} \\end{aligned} $$\nFBD of piston\n\n[Diagram]\n\n$$ \\begin{aligned} & \\mathrm{kx}+\\mathrm{P}_2 \\mathrm{~A}=\\mathrm{P}_1 \\mathrm{~A} \\\\ & \\mathrm{P}_2 \\mathrm{~A}=\\mathrm{P}_1 \\mathrm{~A}-\\mathrm{kx} \\\\ & \\mathrm{P}_2=\\mathrm{P}_1-\\frac{\\mathrm{kL}}{\\mathrm{~A}(10)} ........(i) \\\\ & \\mathrm{P}_1 \\mathrm{~V}=\\mathrm{n}_1 \\mathrm{RT} \\\\ & \\mathrm{P}_2 \\mathrm{~V}=\\mathrm{n}_2 \\mathrm{RT} \\\\ & \\frac{\\mathrm{P}_1}{\\mathrm{P}_2}=\\frac{\\mathrm{n}_1}{\\mathrm{n}_2}=\\frac{3}{2} \\end{aligned} \\begin{aligned} & \\mathrm{P}_1=\\frac{3}{2} \\mathrm{P}_2 ........(ii) \\\\ & \\mathrm{P}_2=\\frac{3}{2} \\mathrm{P}_2-\\frac{\\mathrm{kL}}{10 \\mathrm{~A}} \\\\ & \\frac{\\mathrm{P}_2}{2}=\\frac{\\mathrm{kL}}{10 \\mathrm{~A}} \\\\ & \\mathrm{P}_2=\\frac{\\mathrm{kL}}{5 \\mathrm{~A}}=\\frac{\\mathrm{kL}}{\\mathrm{~A}} \\alpha \\\\ & \\alpha=\\frac{1}{5}=0.2 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mawpdeed.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_021",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two identical plates P and Q , radiating as perfect black bodies, are kept in vacuum at constant absolute temperatures $\\mathrm{T}_{\\mathrm{P}}$ and $\\mathrm{T}_{\\mathrm{Q}}$, respectively, with $\\mathrm{T}_{\\mathrm{Q}}<\\mathrm{T}_{\\mathrm{P}}$, as shown in Fig. 1. The radiated power transferred per unit area from P to Q is $W_0$. Subsequently, two more plates, identical to P and Q , are introduced between P and Q, as shown in Fig. 2. Assume that heat transfer takes place only between adjacent plates. If the power transferred per unit area in the direction from $P$ to $Q$ (Fig. 2) in the steady state is $W_S$, then the ratio $\\frac{W_0}{W_S}$ is ________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\nSince the plates are blackbodies, they emit radiation according to the Stefan-Boltzmann law. The power emitted per unit area by a blackbody is given by.\n$$ P=\\sigma T^4 . $$\nWhere, $\\sigma=$ Stefan - Boltzmann constant\n$$ \\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^2 \\mathrm{k}^4 $$\nWhen two blackbodies face each other, the net power transfer per unit area from $P$ to $Q=$ power emitted by $P$ toward $Q$ - power emitted by $Q$ toward $P$\nSo,\n$$ W_0=\\sigma T_p^4-\\dot{\\sigma} T_a^4=\\sigma\\left(T_p^4-T_a^4\\right)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i) $$\nAfter introducing two additional plates: assuming temperature $T_1$ and $T_2$ for these plates.\nIn the steady state, the power transfer per unit area through each interface (From $P$ to plate $1,1 \\rightarrow 2,2 \\rightarrow Q$ ) must be same, because there is no accumulation of energy in the intermediate plates.\nSo\n$$ \\begin{aligned} & \\sigma\\left(T_p^4-T_1^4\\right)=W_S \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii)\\\\ & \\sigma\\left(T_1^4-T_2^4\\right)=W_S \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii)\\end{aligned} $$\nand $\\sigma\\left(T_2^4-T_a^4\\right)=W_S\\,\\,\\,\\,...(iv)$\nby adding $e q^n$ (2), (3) and (4),\n$$ \\begin{aligned} & \\sigma\\left(T_p^4-T _1^4+T_1^4-T_2^4+T_2^4-T_Q^4\\right)=3 W_S \\\\ \\Rightarrow & \\sigma\\left(T_p^4-T_Q^4\\right)=3 W_S \\\\ \\Rightarrow & W_0=3 W_S \\\\ & \\Rightarrow \\frac{W_0}{W_S}=3 \\end{aligned} $$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mb0dq8bf.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_022",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spherical soap bubble inside an air chamber at pressure $P_0=10^5 \\mathrm{~Pa}$ has a certain radius so that the excess pressure inside the bubble is $\\Delta P=144 \\mathrm{~Pa}$. Now, the chamber pressure is reduced to $8 P_0 / 27$ so that the bubble radius and its excess pressure change. In this process, all the temperatures remain unchanged. Assume air to be an ideal gas and the excess pressure $\\Delta P$ in both the cases to be much smaller than the chamber pressure. The new excess pressure $\\Delta P$ in $\\mathrm{Pa}$ is ______.",
+    "solution": "Case - 1\n\n[Diagram]\n\n$$\\begin{aligned}\n& P-P_0=\\Delta P=\\frac{4 T}{R} \\\\\n& P=\\left(P_0+\\frac{4 T}{R}\\right)\n\\end{aligned}$$\nCase-2\n\n[Diagram]\n\n$$\\begin{aligned}\n& \\mathrm{P}_1-\\frac{8 \\mathrm{P}_0}{27}=\\Delta \\mathrm{P}_1=\\frac{4 \\mathrm{~T}}{\\mathrm{R}_1} \\\\\n& \\mathrm{P}_1=\\frac{4 \\mathrm{~T}}{\\mathrm{R}_1}+\\frac{8 \\mathrm{P}_0}{27}\n\\end{aligned}$$\nConstant temperature process\n$$\\begin{aligned}\n& \\mathrm{PV}=\\mathrm{P}_1 \\mathrm{~V}_1 \\\\\n& \\left(\\mathrm{P}_0+\\frac{4 \\mathrm{~T}}{\\mathrm{R}}\\right) \\frac{4}{3} \\pi \\mathrm{R}^3=\\left(\\frac{4 \\mathrm{~T}}{\\mathrm{R}_1}+\\frac{8 \\mathrm{P}_0}{27}\\right) \\frac{4}{3} \\pi \\mathrm{R}_1^3 ;\\left(\\frac{4 \\mathrm{~T}}{\\mathrm{R}}\\right),\\left(\\frac{4 \\mathrm{~T}}{\\mathrm{R}_1}\\right) \\rightarrow \\text { (Neglected) } \\\\\n& \\mathrm{R}=\\frac{2}{3} \\mathrm{R}_1 \\Rightarrow \\mathrm{R}_1=\\frac{3}{2} \\mathrm{R} \\\\\n& \\Delta \\mathrm{P}_1=\\frac{4 \\mathrm{~T}}{\\mathrm{R}_1}=\\frac{4 \\mathrm{~T}}{3 \\mathrm{R}} \\times 2=\\frac{2}{3} \\times(144)=96 \\mathrm{~Pa}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1lzgj9byv.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_023",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The specific heat capacity of a substance is temperature dependent and is given by the formula $C=k T$, where $k$ is a constant of suitable dimensions in SI units, and $T$ is the absolute temperature. If the heat required to raise the temperature of $1 \\mathrm{~kg}$ of the substance from $-73^{\\circ} \\mathrm{C}$ to $27^{\\circ} \\mathrm{C}$ is $n k$, the value of $n$ is ________.\n\n[Given: $0 \\mathrm{~K}=-273{ }^{\\circ} \\mathrm{C}$.]",
+    "solution": "To solve this problem, we need to integrate the heat capacity over the given temperature range because the specific heat capacity is temperature dependent. We are given that the specific heat capacity $$C$$ is defined as $$C = kT$$, where $$k$$ is a constant, and $$T$$ is the absolute temperature.\n\nThe heat required to raise the temperature, $$Q$$, can be found using the following integral:\n\n$$ Q = \\int_{T_1}^{T_2} C \\, dT $$\n\nGiven $$C = kT$$, the integral becomes:\n\n$$ Q = \\int_{T_1}^{T_2} kT \\, dT $$\n\nWe need to convert the given temperatures from Celsius to Kelvin. The temperatures given are:\n\nInitial temperature: $$-73^{\\circ} \\mathrm{C}$$\nFinal temperature: $$27^{\\circ} \\mathrm{C}$$\n\nIn Kelvin, these temperatures are:\n\n$$T_1 = -73^{\\circ} \\mathrm{C} + 273 = 200 \\, \\mathrm{K}T_2 = 27^{\\circ} \\mathrm{C} + 273 = 300 \\, \\mathrm{K}$$\n\nNow we can evaluate the integral:\n\n$$ Q = k \\int_{200}^{300} T \\, dT $$\n\nIntegrating, we get:\n\n$$ Q = k \\left[ \\frac{T^2}{2} \\right]_{200}^{300} $$\n\nSubstituting the limits of integration:\n\n$$ Q = k \\left[ \\frac{300^2}{2} - \\frac{200^2}{2} \\right] $$\n\nSolving the values inside the brackets:\n\n$$ Q = k \\left[ \\frac{90000}{2} - \\frac{40000}{2} \\right] Q = k \\left[ 45000 - 20000 \\right] Q = k \\cdot 25000 $$\n\nWe are given that this heat is equal to $$nk$$:\n\n$$ nk = k \\cdot 25000 $$\n\nDividing both sides by $$k$$, we get:\n\n$$ n = 25000 $$\n\nThus, the value of $$n$$ is 25000.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_024",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of an ideal gas undergoes two different cyclic processes I and II, as shown in the $P-V$ diagrams below. In cycle I, processes $a, b, c$ and $d$ are isobaric, isothermal, isobaric and isochoric, respectively. In cycle II, processes $a^{\\prime}, b^{\\prime}, c^{\\prime}$ and $d^{\\prime}$ are isothermal, isochoric, isobaric and isochoric, respectively. The total work done during cycle $\\mathrm{I}$ is $W_I$ and that during cycle II is $W_{I I}$. The ratio $W_I / W_{I I}$ is ________.\n\n[Diagram]",
+    "solution": "[Diagram]\n\n$\\begin{aligned} W_1 & =W_a+W_b+W_c+W_d \\\\\\\\ & =4 P_0\\left(2 V_0-V_0\\right)+n R T \\ln \\left(\\frac{4 V_0}{2 V_0}\\right)+2 P_0\\left(V_0-4 V_0\\right)+0 \\\\\\\\ & =4 P_0 V_0+n R\\left(\\frac{8 P_0 V_0}{n R}\\right) \\ln 2-6 P_0 V_0 \\\\\\\\ & =8 P_0 V_0 \\ln 2-2 P_0 V_0\\end{aligned}$\n\n[Diagram]\n\n$\\begin{aligned} W_{\\text {II }} & =W_a^{\\prime}+W_b^{\\prime}+W_c^{\\prime}+W_d^{\\prime} \\\\\\\\ & =n R T \\ln \\left(\\frac{2 V_0}{V_0}\\right)+0+P_0\\left(V_0-2 V_0\\right)+0 \\\\\\\\ & =n R\\left(\\frac{4 P_0 V_0}{n R}\\right) \\ln 2-P_0 V_0 \\\\\\\\ & =4 P_0 V_0 \\ln 2-P_0 V_0\\end{aligned}$\n\n$\\frac{W_I}{W_{I I}}=\\frac{8 P_0 V_0 \\ln 2-2 P_0 V_0}{4 P_0 V_0 \\ln 2-P_0 V_0}=2$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiq5ezt.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_025",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Considering the air flow to be streamline, the steady mass flow rate of air exiting the chimney is _________ $\\mathrm{gm} \\mathrm{s}^{-1}$.",
+    "solution": "We know, $$\n\\begin{aligned}\n& \\mathrm{P_a}=\\frac{\\rho R \\mathrm{T}}{M}\n\\end{aligned}\n$$\n\nFor a gas R and M are constant. So, $$\\rho T$$ = Constant (for constant pressure).\n\nThe density of hot air inside the furnace is = $$\\rho $$\n\nThe air gets heated inside the furnace at constant pressure P$_{a}$.\n\n$$ \\therefore\n\\rho_{\\mathrm{a}} \\mathrm{T}_{\\mathrm{a}}=\\rho \\mathrm{T}\n\\Rightarrow $$ 1.2 $$ \\times $$ 300 = $$\\rho \\times $$ 360\n\n$$\\Rightarrow \\rho=1 \\mathrm{~kg} / \\mathrm{m}^3$$\n\nBuoyant force applied on the hot air = $\\rho_{\\mathrm{a}}$Vg (Upward direction)\n\nWeight of the hot air = $$\\rho $$Vg (Downward direction)\n\n$$ \\therefore $$ Net force on the hot air = $\\rho_{\\mathrm{a}}$Vg - $$\\rho $$Vg\n\nLet acceleration of the hot air in the upward direction = $a$\n\nand mass of the hot air = $$\\rho $$V\n\n$$ \\therefore \\rho $$V$a$ = $\\rho_{\\mathrm{a}}$Vg - $$\\rho $$Vg\n\n$$ \\Rightarrow $$ $a$ = $${{{\\rho _a}Vg - \\rho Vg} \\over {\\rho V}}$$\n\n= $${{{\\rho _a}g - \\rho g} \\over \\rho }$$\n\n= $${{1.2 \\times 10 - 1 \\times 10} \\over 1}$$\n\n= 2 m/s$^{2}$\n\n$$ \\therefore $$ Velocity(v) of the hot air when exiting the chimney using formula $${v^2} = {u^2} + 2ah$$,\n\n$${v^2} = 0 + 2 \\times 2 \\times 9 \\Rightarrow $$ v = 6 m/s\n\nMass flow rate = $${{dm} \\over {dt}}$$ = $$\\rho $$Av\n\n= $$\n\\rho \\times \\frac{\\pi \\mathrm{d}^2}{4} \\times\\mathrm{v}=1 \\times \\frac{\\pi}{4} \\times 10^{-2} \\times 6\n$$\n\n= $${{471} \\over {10000}}$$ kg/s = $${{471} \\over {10000}} \\times 1000$$ gm/s = 47.1",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqctg4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_026",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "When the chimney is closed using a cap at the top, a pressure difference $\\Delta P$ develops between the top and the bottom surfaces of the cap. If the changes in the temperature and density of the hot air, due to the stoppage of air flow, are negligible then the value of $\\Delta P$ is __________ $\\mathrm{N} \\mathrm{m}^{-2}$.",
+    "solution": "We know, $$\n\\begin{aligned}\n& \\mathrm{P_a}=\\frac{\\rho R \\mathrm{T}}{M}\n\\end{aligned}\n$$\n\nFor a gas R and M are constant. So, $$\\rho T$$ = Constant (for constant pressure).\n\nThe density of hot air inside the furnace is = $$\\rho $$\n\nThe air gets heated inside the furnace at constant pressure P$_{a}$.\n\n$$ \\therefore\n\\rho_{\\mathrm{a}} \\mathrm{T}_{\\mathrm{a}}=\\rho \\mathrm{T}\n\\Rightarrow $$ 1.2 $$ \\times $$ 300 = $$\\rho \\times $$ 360\n\n$$\\Rightarrow \\rho=1 \\mathrm{~kg} / \\mathrm{m}^3$$\n\nAfter chimney is closed,\n\nPressure at the bottom surface, P$_{1}$ = P$_{a}$ - $$\\rho $$gh = P$_{a}$ - (1)(10)(9)\n\nPressure at the bottom surface, P$_{2}$ = P$_{a}$ - $$\\rho $$$_{a}$g(h + H) = P$_{a}$ - (1.2)(10)(9 + 1)\n\n$$ \\therefore $$ Pressure difference $\\Delta P$ develops between the top and the bottom surfaces of the cap\n\n= P$_{1}$ - P$_{2}$\n\n= P$_{a}$ - (1)(10)(9) - P$_{a}$ + (1.2)(10)(9 + 1)\n\n= 120 - 90 = 30",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1liiqctg4.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_027",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A closed container contains a homogeneous mixture of two moles of an ideal monatomic gas $(\\gamma=5 / 3)$ and one mole of an ideal diatomic gas $(\\gamma=7 / 5)$. Here, $\\gamma$ is the ratio of the specific heats at constant pressure and constant volume of an ideal gas. The gas mixture does a work of 66 Joule when heated at constant pressure. The change in its internal energy is _______ Joule.",
+    "solution": "First, we identify the heat capacities at constant volume for monatomic and diatomic gases.\n\nFor a monatomic ideal gas, the heat capacity at constant volume, $C_{v1}$, is $\\left(\\frac{3}{2}\\right)R$. This comes from the degrees of freedom for a monatomic gas, which are three (x, y, and z motions).\n\nFor a diatomic ideal gas, the heat capacity at constant volume, $C_{v2}$, is $\\left(\\frac{5}{2}\\right)R$. This comes from the degrees of freedom for a diatomic gas, which are five (x, y, and z motions and rotation about two axes).\n\nNext, we find the average heat capacity at constant volume for the gas mixture, $C_{v_{\\text{mix}}}$, which is a weighted average based on the number of moles of each gas :\n\n$$C_{v_{\\text{mix}}} = \\frac{n_1 C_{v1} + n_2 C_{v2}}{n_1 + n_2} = \\frac{2 \\times \\left(\\frac{3}{2}\\right)R + 1 \\times \\left(\\frac{5}{2}\\right)R}{2 + 1} = \\frac{11R}{6}$$\n\nThe change in internal energy $\\Delta U$ for a given number of moles $n$ and change in temperature $\\Delta T$ is given by :\n\n$$\\Delta U = n C_{v} \\Delta T$$\n\nGiven that the work done by the system at constant pressure is :\n\n$$W = n R \\Delta T$$\n\nWe can replace $\\Delta T = \\frac{W}{nR}$ in the equation for $\\Delta U$ to get :\n\n$$\\Delta U = n C_{v_{\\text{mix}}} \\times \\frac{W}{n R} = C_{v_{\\text{mix}}} \\times \\frac{W}{ R} = \\frac{11R}{6} \\times \\frac{66}{ R} = 121 \\, \\text{Joule}$$\n\nSo the change in internal energy is indeed 121 Joule.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_028",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A soft plastic bottle, filled with water of density 1 gm/cc, carries an inverted glass test-tube with some air (ideal gas) trapped as shown in the figure. The test-tube has a mass of 5 gm, and it is made of a thick glass of density 2.5 gm/cc. Initially the bottle is sealed at atmosphere pressure p$_{0}$ = 10$^{5}$ Pa so that the volume of the trapped air is v$_{0}$ = 3.3 cc. When the bottle is squeezed from outside at constant temperature, the pressure inside rises and the volume of the trapped air reduces. It is found that the test tube begins to sink at pressure p$_{0}$ + $$\\Delta$$p without changing its orientation. At this pressure, the volume of the trapped air is v$_{0}$ $$-\\Delta$$v. Let $$\\Delta$$v = X cc and $$\\Delta$$p = Y $$\\times$$ 10$^{3}$ Pa.\n\n[Diagram]\n\nThe value of X is _______________.",
+    "solution": "When the tube just sinks/floats, then average density = density of water\n\n$${{Mass} \\over {total\\,volume}}$$ = 1 gm/cc\n\n$$ \\Rightarrow {{5gm} \\over {total\\,volume}}$$ = 1 gm/cc\n\n$$\\Rightarrow$$ Total volume = 5 cc\n\n$$\\Rightarrow$$ Volume of tube + final volume of air in the tube = 5 cc\n\n$$ \\Rightarrow {{5gm} \\over {2.5gm/cc}} + {V_f} = 5\\Rightarrow$$ V$_{f}$ = 5 $$-$$ 2 = 3 cc\n\n$$\\Rightarrow\\Delta$$V = 0.3 cc",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_029",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A soft plastic bottle, filled with water of density 1 gm/cc, carries an inverted glass test-tube with some air (ideal gas) trapped as shown in the figure. The test-tube has a mass of 5 gm, and it is made of a thick glass of density 2.5 gm/cc. Initially the bottle is sealed at atmosphere pressure p$_{0}$ = 10$^{5}$ Pa so that the volume of the trapped air is v$_{0}$ = 3.3 cc. When the bottle is squeezed from outside at constant temperature, the pressure inside rises and the volume of the trapped air reduces. It is found that the test tube begins to sink at pressure p$_{0}$ + $$\\Delta$$p without changing its orientation. At this pressure, the volume of the trapped air is v$_{0}$ $$-\\Delta$$v. Let $$\\Delta$$v = X cc and $$\\Delta$$p = Y $$\\times$$ 10$^{3}$ Pa.\n\n[Diagram]\n\nThe value of Y is _______________.",
+    "solution": "When the tube just sinks/floats, then average density = density of water\n\n$${{Mass} \\over {total\\,volume}}$$ = 1 gm/cc\n\n$$ \\Rightarrow {{5gm} \\over {total\\,volume}}$$ = 1 gm/cc\n\n$$\\Rightarrow$$ Total volume = 5 cc\n\n$$\\Rightarrow$$ Volume of tube + final volume of air in the tube = 5 cc\n\n$$ \\Rightarrow {{5gm} \\over {2.5gm/cc}} + {V_f} = 5\\Rightarrow$$ V$_{f}$ = 5 $$-$$ 2 = 3 cc\n\n$$\\Rightarrow\\Delta$$V = 0.3 cc\n\nFor isothermal process,\n\n$${p_i}{V_i} = {p_f}{V_f} \\Rightarrow {p_f} = {10^5} \\times {{3.3} \\over 3}$$\n\np$_{f}$ = 1.1 $$\\times$$ 10$^{5}$\n\np$_{f}$ $$-$$ p$_{i}$ = 1.1 $$\\times$$ 10$^{5}$ $$-$$ 10$^{5}$\n\n= 0.1 $$\\times$$ 10$^{5}$ = 10 $$\\times$$ 10$^{3}$ Pa $$\\Rightarrow$$ Y = 10",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_030",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A small object is placed at the center of a large evacuated hollow spherical container. Assume that the container is maintained at 0 K. At time t = 0, the temperature of the object is 200 K. The temperature of the object becomes 100 K at t = t$_{1}$ and 50 K at t = t$_{2}$. Assume the object and the container to be ideal black bodies. The heat capacity of the object does not depend on temperature. The ratio (t$_{2}$/t$_{1}$) is ____________.",
+    "solution": "T$_{s}$ = 0 K\n\nT$_{i}$ = 200 K, e = 1\n\n$$ - Ms{{dT} \\over {dt}} = {{dQ} \\over {dt}} = \\sigma eA{T^4} - {{dT} \\over {dt}} = {{\\sigma A{T^4}} \\over {Ms}}{{\\sigma A} \\over {Ms}}\\int\\limits_{{t_i}}^{{t_f}} {dt = - \\int\\limits_{{T_i}}^{{T_f}} {{{dT} \\over {{T^4}}}} } {{\\sigma A} \\over {Ms}}({t_f} - {t_i}) = {1 \\over 3}\\left( {{1 \\over {T_f^3}} - {1 \\over {T_i^3}}} \\right){{{{\\sigma A} \\over {Ms}}({t_1} - 0) = {1 \\over 3}\\left( {{1 \\over {{{(100)}^3}}} - {1 \\over {{{(200)}^3}}}} \\right)} \\over {{{\\sigma A} \\over {Ms}}({t_2} - 0) = {1 \\over 3}\\left( {{1 \\over {{{(50)}^3}}} - {1 \\over {{{(200)}^3}}}} \\right)}}{{{t_1}} \\over {{t_2}}} = {{{{{{(200)}^3} - {{(100)}^3}} \\over {{{(100)}^3}{{(200)}^3}}}} \\over {{{{{(200)}^3} - {{(50)}^3}} \\over {{{(50)}^3}{{(200)}^3}}}}}\\therefore{{{t_2}} \\over {{t_1}}} = {9 \\over 1}$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_031",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thermally isolated cylindrical closed vessel of height 8 m is kept vertically. It is divided into two\nequal parts by a diathermic (perfect thermal conductor) frictionless partition of mass 8.3 kg. Thus the\npartition is held initially at a distance of 4 m from the top, as shown in the schematic figure below.\nEach of the two parts of the vessel contains 0.1 mole of an ideal gas at temperature 300 K. The\npartition is now released and moves without any gas leaking from one part of the vessel to the other.\nWhen equilibrium is reached, the distance of the partition from the top (in m) will be _______.\n\n(take\nthe acceleration due to gravity = 10 ms$^{−2}$\nand the universal gas constant = 8.3 J mol$^{−1}$K$^{−1}$).\n\n[Diagram]",
+    "solution": "To start with, both the compartments have same volume. Under the action of weight, moving down by distance $x$, length of upper compartment will be $(4+x)$ and that of lower compartment $(4-x)$.\n\n[Diagram]\n\nVolumes of two compartments are\n\n$$\nV_1=(4+x) A \\text { and } V_2=(4-x) A\n$$\n\nAt equilibrium,\n\n$$\nF_2=F_1+m g\n\n\\begin{aligned}\n& P_2 A=P_1 A+m g \\\\\\\\\n& P_2=P_1+\\frac{m g}{A}\n\\end{aligned}\n$$\n\nFrom $P V=n R T$, we get $P=\\frac{n R T}{V}$\n\n$$\n\\begin{aligned}\n& \\frac{n R T}{V_2}=\\frac{n R T}{V_1}+\\frac{m g}{A} \\\\\\\\\n\\Rightarrow & n R T\\left[\\frac{1}{V_2}-\\frac{1}{V_1}\\right]=\\frac{m g}{A} \\\\\\\\\n\\Rightarrow & n R T\\left[\\frac{1}{A(4-x)}-\\frac{1}{4(4+x)}\\right]=\\frac{m g}{A} \\\\\\\\\n\\Rightarrow & \\frac{n R T}{A}\\left[\\frac{(4+x)-(4-x)}{(4-x)(4+x)}\\right]=\\frac{m g}{A} \\\\\\\\\n\\Rightarrow & n R T\\left[\\frac{2 x}{\\left(16-x^2\\right)}\\right]=m g \\\\\\\\\n\\Rightarrow & 0.1 \\times 8.3 \\times 300\\left[\\frac{2 x}{\\left(16-x^2\\right)}\\right]=8.3 \\times 10 \\\\\\\\\n\\Rightarrow & \\frac{6 x}{16-x^2}=1 \\Rightarrow 16-x^2=6 x \\\\\\\\\n\\Rightarrow & x^2+6 x-16=0 \\\\\\\\\n\\Rightarrow & x=\\frac{-6 \\pm \\sqrt{36+64}}{2} \\\\\\\\\n& x=\\frac{-6 \\pm \\sqrt{100}}{2}=\\frac{-6 \\pm 10}{2} \\\\\\\\\n& x=\\frac{10-6}{2} \\text { or } \\frac{-10-6}{2}=-8 \\text { or } 2\n\\end{aligned}\n$$\n\nNeglecting negative $\\operatorname{sign} x=2$\n\nPartition from top $=4+2=6 \\mathrm{~m}$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lhvfclhx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_032",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A spherical bubble inside water has radius R. Take the pressure inside the bubble and the water pressure to be p$_{0}$. The bubble now gets compressed radially in an adiabatic manner so that its radius becomes (R $$-$$ a). For a << R the magnitude of the work done in the process in given by (4$$\\pi$$p$_{0}$Ra$^{2}$)X, where X is a constant and $$\\gamma$$ = C$_{p}$/C$_{v}$ = 41/30. The value of X is ________.",
+    "solution": "As change in the kinetic energy of the surface of the bubble is zero.\n\n$$ \\therefore $$ W$_{external}$ + W$_{water}$ + W$_{gas}$ = 0 ....(i)\n\nwhere W$_{external}$ = work done by external agent\n\nW$_{water}$ = work done by water\n\nW$_{gas}$ = work done by gas\n\nFor adiabatic process, $${P_1}V_1^\\gamma = {P_2}V_2^\\gamma $$\n\nHere, $${P_0}{\\left[ {{4 \\over 3}\\pi {R^3}} \\right]^{{{41} \\over {30}}}} = P{\\left[ {{4 \\over 3}\\pi {{\\left( {R - a} \\right)}^3}} \\right]^{{{41} \\over {30}}}} \\Rightarrow $$ P = $${P_0}{\\left[ {{R \\over {R - a}}} \\right]^{{{41} \\over {10}}}}$$\n\nNow, W$_{gas}$ = $${{{P_1}{V_1} - {P_2}{V_2}} \\over {\\gamma - 1}}$$\n\n= $${{{P_0} \\times {4 \\over 3}\\pi {R^3} - P \\times {4 \\over 3}\\pi {{\\left( {R - a} \\right)}^3}} \\over {{{41} \\over {30}} - 1}}$$\n\n= $${{{P_0} \\times {4 \\over 3}\\pi {R^3} - {P_0}{{\\left[ {{R \\over {R - a}}} \\right]}^{{{41} \\over {10}}}} \\times {4 \\over 3}\\pi {{\\left( {R - a} \\right)}^3}} \\over {{{41} \\over {30}} - 1}}$$\n\n= $${{{P_0} \\times {4 \\over 3}\\pi {R^3}\\left[ {1 - {{\\left( {{R \\over {R - a}}} \\right)}^{{{41} \\over {10}}}}{{\\left( {{{R - a} \\over R}} \\right)}^3}} \\right]} \\over {{{11} \\over {30}}}}$$\n\n= $${{{40} \\over {11}}{P_0}\\pi {R^3}\\left[ {1 - {{\\left( {{{R - a} \\over R}} \\right)}^{ - {{41} \\over {10}}}}{{\\left( {{{R - a} \\over R}} \\right)}^3}} \\right]}$$\n\n= $${{40} \\over {11}}{P_0}\\pi {R^3}\\left[ {1 - {{\\left( {1 - {a \\over R}} \\right)}^{ - {{11} \\over {10}}}}} \\right]$$\n\n= $${{40} \\over {11}}{P_0}\\pi {R^3}\\left[ {1 - 1 - {{11a} \\over {10R}} - {{\\left( { - {{11} \\over {10}}} \\right)\\left( { - {{11} \\over {10}} - 1} \\right)} \\over 2}{{{a^2}} \\over {{R^2}}}} \\right]$$\n\n= -4P$_{0}$$$\\pi $$R$^{2}$$$a$$ - $${{40 \\times 21} \\over {100 \\times 2}}{P_0}\\pi R{a^2}$$\n\n= -4P$_{0}$$$\\pi $$R$^{2}$$$a$$ - $$4.2{P_0}\\pi R{a^2}$$\n\nW$_{water}$ = P$_{0}$dV\n\n= P$_{0}$$${\\left[ {{4 \\over 3}\\pi {R^3} - {4 \\over 3}\\pi {{\\left( {R - a} \\right)}^3}} \\right]}$$\n\n= $${{{4{P_0}} \\over 3}\\pi \\left[ {{R^3} - {{\\left( {R - a} \\right)}^3}} \\right]}$$\n\n= $${{{4{P_0}} \\over 3}\\pi \\left[ {\\left[ {R - \\left( {R - a} \\right)} \\right]\\left[ {{R^2} + R\\left( {R - a} \\right) + {{\\left( {R - a} \\right)}^2}} \\right]} \\right]}$$\n\n= $${{{4{P_0}} \\over 3}\\pi \\left[ {\\left[ a \\right]\\left[ {3{R^2} - 3Ra + {a^2}} \\right]} \\right]}$$\n\n= $${{{4{P_0}} \\over 3}\\pi \\left[ {\\left( {3{R^2}a - 3R{a^2} + {a^3}} \\right)} \\right]}$$\n\n= $${4{P_0}\\pi \\left[ {{R^2}a - R{a^2}} \\right]}$$ [ignore $${{a^3}}$$ term as no $${{a^3}}$$ term in the question]\n\n$$ \\therefore $$ W$_{gas}$ + W$_{water}$ = -$$4{P_0}\\pi R{a^2}$$ - $$4.2{P_0}\\pi R{a^2}$$\n\n= $$ - 4{P_0}\\pi R{a^2}\\left[ {1 + 1.05} \\right]$$\n\n= $$ - 4{P_0}\\pi R{a^2}\\left[ {2.05} \\right]$$\n\nFrom (i), W$_{external}$ = - (W$_{gas}$ + W$_{water}$)\n\n= $$4{P_0}\\pi R{a^2}\\left[ {2.05} \\right] \\therefore $$ X = 2.05",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_033",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A container with 1 kg of water in it is kept in sunlight, which causes the water to get warmer than the surroundings. The average energy per unit time per unit area received due to the sunlight is 700 Wm$^{$$-$$2}$ and it is absorbed by the water over an effective area of 0.05m$^{2}$. Assuming that the heat loss from the water to the surroundings is governed by Newton's law of cooling, the difference (in $$^\\circ$$C) in the temperature of water and the surroundings after a long time will be ___________. (Ignore effect of the container, and take constant for Newton's law of cooling = 0.001 s$^{$$-$$1}$, Heat capacity of water = 4200 J kg$^{$$-$$1}$ K$^{$$-$$1}$)",
+    "solution": "$${{dQ} \\over {dt}} = e\\sigma A({T^4} - T_0^4)$$\n\nFor small temperature change,\n\n$${{dQ} \\over {dt}} = e\\sigma A{T^3}\\Delta T$$ .... (i)\n\n$${{mCdT} \\over {dt}} = e\\sigma A{T^3}\\Delta T \\Rightarrow {{dT} \\over {dt}} = {{e\\sigma A{T^3}} \\over {mC}}\\Delta T{{e\\sigma A{T^3}} \\over {mC}}\\to$$ constant for Newton law of cooling\n\n$$ \\therefore {{e\\sigma A{T^3}} \\over {mC}} = 0.001 \\Rightarrow e\\sigma A{T^3} = mC \\times 0.001 = 1 \\times 4200 \\times 0.001e\\sigma A{T^3} = 4.2$$ .... (ii)\n\n$${{dQ} \\over {dt}} = 700 \\times 0.05 = 35$$ W ..... (iii)\n\nPutting the value of Eqs. (ii) and (iii) in Eq. (i), we get\n\n$$35 = 4.2\\Delta T \\Rightarrow {{35} \\over {4.2}} = \\Delta T \\Rightarrow \\Delta T = 8.33$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_034",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider one mole of helium gas enclosed in a container at initial pressure P$_{1}$ and volume V$_{1}$. It\nexpands isothermally to volume 4V$_{1}$. After this, the gas expands adiabatically and its volume becomes\n32V$_{1}$. The work done by the gas during isothermal and adiabatic expansion processes are W$_{iso}$ and\nW$_{adia}$, respectively. If the ratio $${{{W_{iso}}} \\over {{W_{adia}}}}$$ = f ln 2, then f is ______.",
+    "solution": "[Diagram]\n\n\n$${{{p_1}} \\over 4}{(4{V_1})^{5/3}} = {p_2}{(32{V_1})^{5/3}}{p_2} = {{{p_1}} \\over 4}{\\left( {{1 \\over 8}} \\right)^{5/3}} = {{{p_1}} \\over {128}}{W_{adi}} = {{{p_1}{V_1} - {p_2}{V_2}} \\over {\\gamma - 1}} = {{{p_1}{V_1} - {{{p_1}} \\over {128}}(32{V_1})} \\over {{5 \\over 3} - 1}} = {{{p_1}{V_1}(3/4)} \\over {2/3}} = {9 \\over 8}{p_1}{V_1}{W_{iso}} = {p_1}{V_1}\\ln \\left( {{{4{V_1}} \\over {{V_1}}}} \\right) = 2{p_1}{V_1}\\ln 2 \\therefore {{{W_{iso}}} \\over {{W_{adi}}}} = {{16} \\over 9}\\ln 2 \\Rightarrow f = {{16} \\over 9} = 1.7778 \\approx 1.78$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_035",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas undergoes an adiabatic expansion in which its volume becomes eight times its initial value. If the initial temperature of the gas is $$100\\,K$$ and the universal gas constant $$R=8.0J\\,mo{l^{ - 1}}{K^{ - 1}},$$ the decrease in its internal energy, in *Joule,* is ____________.",
+    "solution": "The degrees of freedom of a monatomic gas is f = 3. Its molar specific heats are $${C_v} = {f \\over 2}RT$$ and $${C_p} = {C_v} + R = {{(f + 2)} \\over 2}RT$$. The ratio of specific heats is given by\n$$\\gamma = {C_p}/{C_v} = (f + 2)/f = 5/3$$.\nIn an adiabatic process, $$TV_{}^{\\gamma - 1}$$ = constant. Hence, $${T_1}V_1^{\\gamma - 1} = {T_2}V_2^{\\gamma - 1}$$, which gives\n$${T_2} = {T_1}{({V_1}/{V_2})^{\\gamma - 1}} = 100{(1/8)^{5/3 - 1}} = 25\\,K$$,\nwhere we used T$_{1}$ = 100 K and V$_{2}$ = 8V$_{1}$. The change in internal energy of one mole of the ideal gas is\n$$\\Delta U = {U_2} - {U_1} = {f \\over 2}R{T_2} - {f \\over 2}R{T_1} = {f \\over 2}R({T_2} - {T_1}) = (3/2)(8)(25 - 100) = - 900\\,J$$.\nThus, the decrease in internal energy of the gas is 900 J.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_036",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A metal is heated in a furnace where a sensor is kept above the metal surface to read the power radiated (P)\nby the metal. The sensor has a scale that displays $${\\log _2}\\left( {{P \\over {{P_0}}}} \\right)$$, where P$_{0}$ is a constant. When the metal\nsurface is at a temperature of 487$^{o}$C, the sensor shows a value 1. Assume that the emissivity of the metallic\nsurface remains constant. What is the value displayed by the sensor when the temperature of the metal\nsurface is raised to 2767$^{o}$C?",
+    "solution": "$${\\log _2} = {{{p_1}} \\over {{p_0}}} = 1$$\n\nTherefore, $${{{p_1}} \\over {{p_0}}} = 2$$\n\nAccording to Stefan's law, p $$ \\propto $$ T$^{2}$\n\n$$ \\Rightarrow {{{p_2}} \\over {{p_1}}} = {\\left( {{{{T_2}} \\over {{T_1}}}} \\right)^4} = {\\left( {{{2767 + 273} \\over {487 + 273}}} \\right)^4} = {4^4}{{{p_2}} \\over {{p_1}}} = {{{p_2}} \\over {2{p_0}}} = {4^4} \\Rightarrow {{{p_2}} \\over {{p_0}}} = 2 \\times {4^4}{\\log _2}{{{p_2}} \\over {{p_0}}} = {\\log _2}[2 \\times {4^4}] = {\\log _2}2 + {\\log _2}{4^4} = 1 + {\\log _2}{2^8} = 1 + 8 = 9$$",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_037",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two spherical stars A and B emit blackbody radiation. The radius of A is 400 times that of B and A emits\n10$^{4}$ times the power emitted from B. The ratio $$\\left( {{{{\\lambda _A}} \\over {{\\lambda _B}}}} \\right)$$ of their wavelengths $${{\\lambda _A}}$$ and $${{\\lambda _B}}$$ at which the peaks\noccur in their respective radiation curves is",
+    "solution": "Power, $$P = (\\sigma {T^4}A) = \\sigma {T^4}(4\\pi {R^2})$$\nor, $$P \\propto {T^4}{R^2}$$ ..... (i)\nAccording to Wien's law,\n$$\\lambda \\propto {1 \\over T}$$\n($$\\lambda$$ is the wavelength at which peak occurs)\n$$\\therefore$$ Eq. (i) will become,\n$$P \\propto {{{R^2}} \\over {{\\lambda ^4}}}$$\nor, $$\\lambda \\propto {\\left[ {{{{R^2}} \\over P}} \\right]^{1/4}} \\Rightarrow {{{\\lambda _A}} \\over {{\\lambda _B}}} = {\\left[ {{{{R_A}} \\over {{R_B}}}} \\right]^{1/2}}{\\left[ {{{{P_B}} \\over {{P_A}}}} \\right]^{1/4}} = {[400]^{1/2}}{\\left[ {{1 \\over {{{10}^4}}}} \\right]^{1/4}} = 2$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4ipydr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_038",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A thermodynamic system is taken from an initial state i with internal energy U$_{i}$ = 100 J to the final state f along two different paths iaf and ibf, as schematically shown in the figure. The work done by the system along the paths af, ib and bf are W$_{af}$ = 200 J, W$_{ib}$ = 50 J and W$_{bf}$ = 100 J respectively. The heat supplied to the system along the path iaf, ib and bf are Q$_{iaf}$, Q$_{ib}$ and Q$_{bf}$ respectively. If the internal energy of the system in the state b is U$_{b}$ = 200 J and Q$_{iaf}$ = 500 J, the ratio Q$_{bf}$ / Q$_{ib}$ is\n\n\n[Diagram]",
+    "solution": "In a thermodynamics process, the heat supplied to the system, the increase in internal energy of the system, and the work done by the system are related by the first law of thermodynamics, $$\\Delta Q = \\Delta U + \\Delta W$$.\n\nThe first law of thermodynamics for the process iaf gives\n\n$${Q_{iaf}} = {U_{iaf}} + {W_{iaf}} = ({U_f} - {U_i}) + ({W_{ia}} + {W_{af}})$$ ..... (1)\n\nSubstitute Q$_{iaf}$ = 500 J, U$_{i}$ = 100 J, W$_{ia}$ = 0 (constant volume), and W$_{af}$ = 200 J in equation (1) to get U$_{f}$ = 400 J.\n\nIn the process ib,\n\n$${Q_{ib}} = {U_{ib}} + {W_{ib}} = ({U_b} - {U_i}) + {W_{ib}}$$ ..... (2)\n\nSubstitute U$_{b}$ = 200 J, U$_{i}$ = 100 J, and W$_{ib}$ = 50 J in equation (2) to get Q$_{ib}$ = 150 J.\n\nIn the process bf,\n\n$${Q_{bf}} = {U_{bf}} + {W_{bf}} = ({U_f} - {U_b}) + {W_{bf}}$$ ..... (3)\n\nSubstitute U$_{f}$ = 400 J, U$_{b}$ = 200 J and W$_{bf}$ = 100 J in equation (3) to get Q$_{bf}$ = 300 J. Thus, Q$_{bf}$/Q$_{ib}$ = 300/150 = 2.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1ky4ipydr.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_039",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Steel wire of lenght ‘L’ at 40$^{o}$C is suspended from the ceiling and then a mass ‘m’ is hung from its free\nend. The wire is cooled down from 40$^{o}$C to 30$^{o}$C to regain its original length ‘L’. The coefficient of linear\nthermal expansion of the steel is 10$^{−5}$ /$^{o}$C, Young’s modulus of steel is 10$^{11}$ N/m$^{2}$ and radius of the wire is 1 mm. Assume that L >> diameter of the wire. Then the value of ‘m’ in kg is nearly",
+    "solution": "Change in length $$\\Delta L = L\\,\\alpha \\,\\Delta T$$ ..... (i)\nAlso $$Y = {{mgL} \\over {A\\Delta L}} \\Rightarrow \\Delta L = {{mgL} \\over {YA}}$$ ..... (ii)\nEquation (i) and (ii) we get ($$\\becauseA = \\pi {r^2}$$)\n$$m = {{\\alpha \\Delta TY \\times \\pi {r^2}} \\over g} = {{({{10}^{ - 5}}) \\times (10) \\times ({{10}^{11}}) \\times 3.14 \\times {{(1 \\times {{10}^{ - 3}})}^2}} \\over {9.8}}$$\n= 3.2 kg $$ \\simeq $$ 3 kg",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_040",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A piece of ice (heat capacity = 2100 J kg$^{-1}$ $^{o}$C$^{-1}$ and latent heat = 3.36 $$ \\times $$ 10$^{5}$ J kg$^{-1}$ ) of mass m grams is at\n- 5 $^{o}$C at atmospheric pressure. It is given 420 J of heat so that the ice starts melting. Finally when the\nice-water mixture is in equilibrium, it is found that 1 gm of ice has melted. Assuming there is no other heat\nexchange in the process, the value of m is",
+    "solution": "In the final state, ice-water mixture is in equilibrium. Thus, the temperature of m grams of ice is raised from $$-$$5 $$^\\circ$$C to 0 $$^\\circ$$C. The heat absorbed in this process is\nQ$_{1}$ = mS$$\\Delta$$T. ...... (1)\nThe state of m$_{1}$ = 1 g of ice is changed from solid to liquid. The heat absorbed in the melting process is\nQ$_{2}$ = m$_{1}$L. ........ (2)\nThe heat supplied is Q = 420 J. By energy conservation, Q = Q$_{1}$ + Q$_{2}$. Substitute Q$_{1}$ and Q$_{2}$ from equations (1) and (2) to get\n$$m = {{Q - {m_1}L} \\over {S\\Delta T}} = {{420 - ({{10}^{ - 3}})(3.36 \\times {{10}^5})} \\over {(2100)(5)}} = 8 \\times {10^{ - 3}}$$ kg = 8 g.",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4qowa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_041",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two spherical bodies A (radius 6 cm ) and B (radius 18 cm ) are at temperature T$_{1}$ and T$_{2}$, respectively.\nThe maximum intensity in the emission spectrum of A is at 500 nm and in that of B is at 1500 nm.\nConsidering them to be black bodies, what will be the ratio of the rate of total energy radiated by A to that\nof B?",
+    "solution": "According to Wien's displacement law, $$\\lambda$$$_{m}$T = constant\n$$\\therefore{({\\lambda _m})_A}{T_A} = {({\\lambda _m})_B}{T_B}$$\nor, $${{{T_A}} \\over {{T_B}}} = {{{{({\\lambda _m})}_B}} \\over {{{({\\lambda _m})}_A}}} = {{1500\\,nm} \\over {500\\,nm}}$$ or $${{{T_A}} \\over {{T_B}}} = 3$$ ...... (i)\nAccording to Stefan Boltzmann law, rate of energy radiated by a black body\n$$E = \\sigma A{T^4} = \\sigma 4\\pi {R^2}{T^4}$$ [Here, $$A = 4\\pi {R^2}$$]\n$$\\therefore{{{E_A}} \\over {{E_B}}} = {\\left( {{{{R_A}} \\over {{R_B}}}} \\right)^2}{\\left( {{{{T_A}} \\over {{T_B}}}} \\right)^4} = {\\left( {{{6\\,cm} \\over {18\\,cm}}} \\right)^2}{(3)^4}$$ (Using (i))\n$$ = 9$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4qowa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_042",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A diatomic ideal gas is compressed adiabatically $${1 \\over {32}}$$ of its initial volume. If the initial temperature of the gas is T$_{i}$ (in Kelvin) and the final temperature is a T$_{i}$, the value of $$a$$ is",
+    "solution": "The diatomic gas has five degrees of freedom i.e., f = 5. Thus, the internal energy per mole, specific heat at constant volume, specific heat at constant pressure, and the ratio of specific heats for a diatomic gas, are given by\n$$U = (f/2)RT = (5/2)RT$$, $${C_v} = dU/dT = 5R/2$$, $${C_p} = {C_v} + R = 7R/2$$, $$\\gamma = {C_p}/{C_v} = 7/5$$.\nFor an adiabatic process, $$T{V^{\\gamma - 1}}$$ = constant\n$${T_i}V_i^{\\gamma - 1} = {T_f}V_f^{\\gamma - 1}$$\nSubstituting the given values, we get\n$${T_i}V_i^{\\gamma - 1} = a{T_i}{\\left( {{{{V_i}} \\over {32}}} \\right)^{\\gamma - 1}} \\Rightarrow a = {32^{\\gamma - 1}}$$\nFor diatomic gas, $$\\gamma = {7 \\over 5}a = {32^{{7 \\over 5} - 1}} = {32^{2/5}} = {2^2} = 4$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4qowa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_043",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A metal rod AB of length 10x has its one end A in ice at 0$$^\\circ$$C and the other end B in water at 100$$^\\circ$$C. If a point P on the rod is maintained at 400$$^\\circ$$C, then it is found that equal amounts of water and ice evaporate and melt per unit time. The latent heat of evaporation of water is 540 cal/g and latent heat of melting of ice is 80 cal/g. If the point P is at a distance of $$\\lambda x$$ from the ice end A, find the value of $$\\lambda$$. (Neglect any heat loss to the surrounding.)",
+    "solution": "The steady rate of flow of heat is\n$${{\\Delta Q} \\over {\\Delta t}} = kA\\left( {{{\\Delta T} \\over {\\Delta x}}} \\right)$$\n\n[Diagram]\n\nTherefore, $${{kA(400 - 0^\\circ )} \\over {\\lambda x}} = {m_{ice}}\\,{l_{ice}}{{kA(400 - 100)} \\over {(10 - \\lambda )x}} = {m_{water}}\\,{l_{water}}$$\nwhere $${m_{ice}}$$ is the mass of ice melted per unit times and $${m_{water}}$$ is the mass of water evaporated per unit times. It is given that\n$${m_{ice}} = {m_{water}}$$\nTherefore, $${{kA \\times 400} \\over {\\lambda x({l_{ice}})}} = {{kA \\times 300} \\over {(10 - \\lambda )x\\,{l_{water}}}} \\Rightarrow 4(10 - \\lambda ) \\times 540 = 3\\lambda \\times 80 \\Rightarrow 5400 - 540\\lambda = 60\\lambda \\Rightarrow \\lambda = 9$$",
+    "answerKey": [
+      "A"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lft4qowa.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_044",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "In an insulated vessel, 0.05 kg steam at 373 K and 0.45 kg of ice at 253 K are mixed. Then, find the final temperature of the mixture.",
+    "solution": "$$ 0.05 \\mathrm{~kg} \\text { steam at } 373 \\mathrm{~K} \\xrightarrow{\\mathrm{Q}_1}0.05 \\mathrm{~kg} \\text { water at } 373 \\mathrm{~K} \\text {. } 0.05 \\mathrm{~kg} \\text { water at } 373 \\mathrm{~K} \\xrightarrow{\\mathrm{Q}_2} 0.05 \\mathrm{~kg} \\text { water at } 273 \\mathrm{~K} 0.45 \\mathrm{~kg} \\text { ice at } 253 \\mathrm{~K} \\xrightarrow{\\mathrm{Q}_3} 0.45 \\mathrm{~kg} \\text { ice at } 273 \\mathrm{~K} 0.45 \\mathrm{~kg} \\text { ice at } 273 \\mathrm{~K} \\xrightarrow{\\mathrm{Q}_4} 0.45 \\mathrm{~kg} \\text { water at } 273 \\mathrm{~K} \\begin{aligned} &\\begin{aligned} & \\Rightarrow \\mathrm{Q}_1=m \\mathrm{~L}=50(540)=27000 \\mathrm{cal}=27 \\mathrm{kcal} (\\mathrm{Q}=m \\mathrm{~L}) \\\\ & \\mathrm{Q}_2=m s \\Delta t=(50)(1)(100)=500 \\mathrm{cal}=5 \\mathrm{kcal} \\\\ & \\mathrm{Q}_3=m s \\Delta t=(4.50)(0.5)(20)=4500 \\mathrm{cal}=4.5 \\mathrm{kcal} \\\\ & \\mathrm{Q}_4=(m \\mathrm{~L})=450 \\times 580=36000 \\mathrm{cal}=36 \\mathrm{kcal} \\,\\, [fusion]\\end{aligned}\\\\ &\\text { } \\end{aligned} $$\nSince, $Q_1+Q_2>Q_3$ but $Q_1+Q_2\nTherefore temperature of mixture $=273 \\mathrm{~K}$\n(or $0^{\\circ} \\mathrm{C}$ )\nMethod II\nHeat lost by steam to covert into $0^{\\circ} \\mathrm{C}$ water\n$$ \\begin{gathered} \\mathrm{H}_{\\mathrm{L}}=0.05 \\times 540+0.05 \\times 10 \\times 1 \\\\ {\\left[\\mathrm{Q}=\\mathrm{H}_{\\mathrm{L}}=m \\mathrm{~L}+m s \\Delta t\\right]} \\\\ \\mathrm{H}_{\\mathrm{L}}=27+5=32 \\mathrm{kcal} \\end{gathered} $$\nHeat required by ice to change into $0^{\\circ} \\mathrm{C}$ water.\n$$ \\begin{aligned} \\mathrm{H}_{\\mathrm{g}} & =450(20) \\frac{1}{2}+450 \\times 80 \\\\ & =4500+36000=40500 \\mathrm{cal} \\\\ & =40.5 \\mathrm{kcal} \\end{aligned} $$\n$\\Rightarrow$ To convert ice, we have $450 \\times \\frac{1}{2}=225 \\mathrm{cal}$.\nBut we need 32000 cal.\nTherefore, ice will remain as ice. Hence final temperature is $0^{\\circ} \\mathrm{C}$.",
+    "answerKey": [
+      "A"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_045",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal gas is in thermodynamic equilibrium. The number of degrees of freedom of a molecule of the gas is $n$. The internal energy of one mole of the gas is $U_n$ and the speed of sound in the gas is $\\mathrm{v}_n$. At a fixed temperature and pressure, which of the following is the correct option?",
+    "solution": "**1. Formula for Sound Velocity:**\n\n\n- The velocity of sound, denoted as $$ v $$, is determined by the equation $$ v = \\sqrt{\\frac{\\gamma R T}{M}} $$, where:\n\n\n- $$ \\gamma $$ is a factor given by $$ \\gamma = 1 + \\frac{2}{n} $$.\n\n\n- $$ R $$ is the gas constant.\n\n\n- $$ T $$ is the temperature.\n\n\n- $$ M $$ is the molar mass of the gas.\n\n**2. Relation of $$ \\gamma $$ with $$ n $$:**\n\n\n- The value of $$ \\gamma $$ is inversely related to $$ n $$. This means as $$ n $$ increases, $$ \\gamma $$ decreases.\n\n**3. Internal Energy Relation:**\n\n- The internal energy, denoted as $$ U $$, for a mole of gas is given by $$ U = \\frac{n R T}{2} $$.\n\n**4. Effect of Increasing $$ n $$ on Sound Velocity and Internal Energy:**\n\nWhen the value of $$ n $$ increases:\n\n- The factor $$ \\gamma $$ decreases, according to its formula.\n\n- As a result, the velocity of sound $$ v $$ also decreases, as it is dependent on $$ \\sqrt{\\gamma} $$.\n\n- Conversely, the internal energy $$ U_n $$ increases with the increase in $$ n $$, as evident from the internal energy formula.\n\nTherefore, in summary, a higher value of $$ n $$ leads to a lower velocity of sound and higher internal energy in the context of these formulas.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$v_3 < v_6$ and $U_3 > U_6$",
+      "$v_5 > v_3$ and $U_3 > U_5$",
+      "$v_5 > v_7$ and $U_5 < U_7$",
+      "$v_6 < v_7$ and $U_6 < U_7$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_046",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of an ideal gas expands adiabatically from an initial state $\\left(T_{\\mathrm{A}}, V_0\\right)$ to final state $\\left(T_{\\mathrm{f}}, 5 V_0\\right)$. Another mole of the same gas expands isothermally from a different initial state $\\left(T_{\\mathrm{B}}, V_0\\right)$ to the same final state $\\left(T_{\\mathrm{f}}, 5 V_0\\right)$. The ratio of the specific heats at constant pressure and constant volume of this ideal gas is $\\gamma$. What is the ratio $T_{\\mathrm{A}} / T_{\\mathrm{B}}$ ?",
+    "solution": "[Diagram]\n\nThe expansion of an ideal gas can be analyzed using the thermodynamic relations for adiabatic and isothermal processes.\n\nAdiabatic Expansion: For an adiabatic process, we use the relation involving temperatures and volumes at the initial and final states, which is given by :\n\n$ TV^{\\gamma-1} = \\text{constant} $\n\nTherefore, for the adiabatic expansion from $(T_A, V_0)$ to $(T_f, 5V_0)$, we have :\n\n$ T_A V_0^{\\gamma-1} = T_f (5V_0)^{\\gamma-1} $\n\nSimplifying, we get :\n$ T_A = T_f \\times 5^{\\gamma-1} $\n\nIsothermal Expansion : In an isothermal process, the temperature remains constant. So, $ T_B = T_f $ for the isothermal expansion from $(T_B, V_0)$ to $(T_f, 5V_0)$.\n\nTo find the ratio $ T_A / T_B $, we substitute the expressions for $ T_A $ and $ T_B $ :\n\n$ \\frac{T_A}{T_B} = \\frac{T_f \\times 5^{\\gamma-1}}{T_f} $\n\n$ \\frac{T_A}{T_B} = 5^{\\gamma-1} $\nTherefore, the ratio $ T_A / T_B $ is $ 5^{\\gamma-1} $, which corresponds to Option A.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$5^{\\gamma-1}$",
+      "$5^{1-\\gamma}$",
+      "$5^\\gamma$",
+      "$5^{1+\\gamma}$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-6y3zli1lrnph20o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_047",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Match the temperature of a black body given in List-I with an appropriate statement in List-II, and choose the correct option.\n\n[Given: Wien's constant as $2.9 \\times 10^{-3} \\mathrm{~m}-\\mathrm{K}$ and $\\frac{h c}{e}=1.24 \\times 10^{-6} \\mathrm{~V}-\\mathrm{m}$ ]\n\n.tg {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\nList - I\nList - II\n\n\n\n(P) $2000 \\mathrm{~K}$\n(1) The radiation at peak wavelength can lead to emission of photoelectrons from a metal of work function $4 \\mathrm{eV}$.\n\n\n(Q) $3000 \\mathrm{~K}$\n(2) The radiation at peak wavelength is visible to human eye.\n\n\n(R) $5000 \\mathrm{~K}$\n(3) The radiation at peak emission wavelength will result in the widest central maximum of a single slit diffraction.\n\n\n(S) $10000 \\mathrm{~K}$\n(4) The power emitted per unit area is $1 / 16$ of that emitted by a blackbody at temperature $6000 \\mathrm{~K}$.\n\n\n\n(5) The radiation at peak emission wavelength can be used to image human bones.",
+    "solution": "$\\lambda_m T=b$\n\nFor option $(\\mathrm{P})$ temperature is minimum hence $\\lambda _\\mathrm{m}$ will be maximum.\n\n$\\lambda_m=\\frac{b}{T}=\\frac{2.9 \\times 10^{-3}}{2000}=1.45 \\times 10^{-6} \\mathrm{~m}=1450 \\mathrm{~nm}$\n\n$\\begin{aligned} & \\sin \\theta=\\frac{\\lambda}{d} \\\\\\\\ & 2 \\theta=\\text { width of central maximum } \\\\\\\\ \\Rightarrow & \\text { width } \\propto \\lambda . \\\\\\\\ \\Rightarrow & \\text {maximum width of }(\\mathrm{P}) \\\\\\\\ & \\mathrm{P} \\rightarrow 3\\end{aligned}$\n\n$\\begin{aligned} & \\Rightarrow \\text { For option }(\\mathrm{Q}),\\mathrm{T}=3000 \\\\\\\\ & \\\\ & \\lambda_\\mathrm{m}=\\frac{\\mathrm{b}}{\\mathrm{T}}=\\frac{2.9 \\times 10^{-3}}{30000} \\\\\\\\ & \\lambda_\\mathrm{m}=\\frac{2.9}{3} \\times 10^{-6} \\\\\\\\ & =0.96 \\times 10^{-6} \\\\\\\\ & =966.6 \\mathrm{~nm} \\\\\\\\ & \\mathrm{P}_{3000}=6 \\mathrm{~A}(3000)^4 \\\\\\\\ & \\mathrm{P}_{6000}=6 \\mathrm{~A}(6000)^4 \\\\\\\\ & \\frac{\\mathrm{P}_{3000}}{\\mathrm{P}_{6000}}=\\left(\\frac{1}{2}\\right)^4=\\frac{1}{16} \\\\\\\\ & \\mathrm{P}_{3000}=\\frac{1}{16} \\mathrm{P}_{6000} \\\\\\\\ & \\mathrm{Q}-4\\end{aligned}$\n\n$\\begin{aligned} \\Rightarrow & \\text { For }(\\mathrm{R}), \\mathrm{T}=5000 \\mathrm{~K} \\\\\\\\ & \\lambda_\\mathrm{m}=\\frac{2.9 \\times 10^{-3}}{5 \\times 10^3}=0.58 \\times 10^{-6} \\\\\\\\ & =580 \\mathrm{~nm} \\\\\\\\ & \\text { Visible to human eyes } \\\\\\\\ & \\mathrm{R}-2\\end{aligned}$\n\nFor $(S), T=10,000 K$\n\n$\\lambda_m T=b \\Rightarrow \\lambda_m=\\frac{2.9 \\times 10^{-3}}{10,000}=290 \\mathrm{~nm}$\n\n$$\n\\begin{aligned}\n\\phi & =4 e \\mathrm{~V} \\\\\\\\\n\\Rightarrow \\lambda_{\\mathrm{T}} & =\\frac{1240}{4}=310 \\mathrm{n} \\mathrm{m}\n\\end{aligned}\n$$\n\nTo emit photoelectron\n\n$$\n\\begin{aligned}\n& \\lambda_0 < \\lambda_{\\mathrm{T}} \\\\\\\\\n& \\Rightarrow \\mathrm{S} \\rightarrow 1\n\\end{aligned}\n$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$P \\rightarrow 3, Q \\rightarrow 5, R \\rightarrow 2, S \\rightarrow 3$",
+      "$P \\rightarrow 3, Q \\rightarrow 2, R \\rightarrow 4, S \\rightarrow 1$",
+      "$P \\rightarrow 3, Q \\rightarrow 4, R \\rightarrow 2, S \\rightarrow 1$",
+      "$P \\rightarrow 1, Q \\rightarrow 2, R \\rightarrow 5, S \\rightarrow 3$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_048",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "List I describes thermodynamic processes in four different systems. List II gives the magnitudes (either exactly or as a close approximation) of possible changes in the internal energy of the system due to the process.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n\n\nList-I\nList-II\n\n\n\n(I) $10^{-3} \\mathrm{~kg}$ of water at $100^{\\circ} \\mathrm{C}$ is converted to steam at the same temperature, at a pressure of $10^{5} \\mathrm{~Pa}$. The volume of the system changes from $10^{-6} \\mathrm{~m}^{3}$ to $10^{-3} \\mathrm{~m}^{3}$ in the process. Latent heat of water $=2250\\, \\mathrm{~kJ} / \\mathrm{kg}$.\n\n(P) $2 \\mathrm{~kJ}$\n\n\n(II) $0.2$ moles of a rigid diatomic ideal gas with volume $V$ at temperature $500 \\mathrm{~K}$ undergoes an isobaric expansion to volume $3 \\mathrm{~V}$. Assume $R=8.0 \\mathrm{Jmol}^{-1} \\mathrm{~K}^{-1}$.\n\n(Q) $7 k J$\n\n\n(III) One mole of a monatomic ideal gas is compressed adiabatically from volume $V=\\frac{1}{3} \\mathrm{~m}^{3}$ and pressure $2 \\mathrm{kPa}$ to volume $\\frac{V}{8}$.\n\n(R) $4 \\mathrm{~kJ}$\n\n\n(IV) Three moles of a diatomic ideal gas whose molecules can vibrate, is given $9 \\mathrm{~kJ}$ of heat and undergoes isobaric expansion.\n\n(S) $5 \\mathrm{~kJ}$\n\n\n\n(T) $3 \\mathrm{~kJ}$\n\n\nWhich one of the following options is correct?",
+    "solution": "$$U = ML - P\\Delta V = {10^{ - 3}} \\times 2250 - {10^2}kP \\times ({10^{ - 3}} - {10^{ - 6}})$$ m$^{3}$\n= 2.25 kJ $$-$$ 0.1 kJ\n= 2.15 kJ\nI $$\\to$$ P\n(II) $${C_V} = {{5R} \\over 2}$$ (rigid diatomic)\nFor isobaric expansion\n$$V \\propto T{{{V_1}} \\over {{V_2}}} = {{{T_1}} \\over {{T_2}}} \\Rightarrow {V \\over {3V}} = {{500} \\over {{T_2}}} \\Rightarrow {T_2} = 1500\\,K\\Delta U = n{C_V}\\Delta T = 0.2 \\times {{5 \\times 8} \\over 2} \\times (1500 - 500)$$ J = 4 kJ\nII $$\\to$$ R\n(III) Adiabatic expansion $$\\left( {\\gamma = {5 \\over 3}} \\right){P_1}V_1^\\gamma = {P_2}V_2^\\gamma \\Rightarrow $$ (2 kPa) $$ \\times V_0^{5/3} = {P_2} \\times {\\left( {{{{V_0}} \\over 8}} \\right)^{5/3}}{P_2} = 64$$ kPa\n$$\\Delta U = n{C_V}\\Delta T = {{3nR\\Delta T} \\over 2} = {3 \\over 2}({P_2}{V_2} - {P_1}{V_1}) = {3 \\over 2} \\times \\left( {64 \\times {1 \\over {3 \\times 8}} - 2 \\times {1 \\over 3}} \\right) = {3 \\over 2} \\times \\left( {{8 \\over 3} - {2 \\over 3}} \\right) = 3$$ kJ\nIII $$\\to$$ T\n(IV) For isobaric expaision,\n$$\\Delta U = n{C_V}\\Delta T = {7 \\over 2}\\,nR\\Delta T\\Delta Q = n{C_P}\\Delta T = {9 \\over 2}\\,nR\\Delta T{{\\Delta U} \\over {\\Delta Q}} = {7 \\over 9}\\Delta U = {7 \\over 9}\\Delta Q = 7$$ kJ\nIV $$\\to$$ Q",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "I $\\rightarrow$ T, II $\\rightarrow$ R, III $\\rightarrow$ S, IV $\\rightarrow$ Q",
+      "I $\\rightarrow$ S, II $\\rightarrow$ P, III $\\rightarrow$ T, IV $\\rightarrow$ P",
+      "I $\\rightarrow$ P, II $\\rightarrow$ R, III $\\rightarrow$ T, IV $\\rightarrow$ Q",
+      "I $\\rightarrow$ Q, II $\\rightarrow$ R, III $\\rightarrow$ S, IV $\\rightarrow$ T"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_049",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $${{{T_R}} \\over {{T_0}}}$$ is",
+    "solution": "$$\\gamma = {3 \\over 2}{T_0}{V_0}^{{3 \\over 2} - 1} = {T_R} \\times {\\left( {{{{V_0}} \\over 2}} \\right)^{{3 \\over 2} - 1}}{{{T_R}} \\over {{T_0}}} = \\sqrt 2 $$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$\\sqrt 2 $$",
+      "$$\\sqrt 3 $$",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_050",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The value of $${Q \\over {R{T_0}}}$$ is",
+    "solution": "$$Q = \\Delta U = \\Delta {U_1} + \\Delta {U_2}\\Delta {U_2} = 1 \\times 2R \\times (\\sqrt 2 {T_0} - {T_0}) + 2R{T_0}(\\sqrt 2 - 1)$$\n\nFor $$\\Delta$$U$_{2}$ : Using mole conservation of left side.\n\n$${{{p_0}{V_0}} \\over {R{T_0}}} = {{2\\sqrt 2 {p_0}{{3{V_0}} \\over 2}} \\over {R{T_L}}} \\Rightarrow {T_L} = 3\\sqrt 2 {T_0}\\Delta {U_1} = 1 \\times 2R \\times (3\\sqrt 2 {T_0} - {T_0}) = 2R{T_0}(3\\sqrt 2 - 1)Q = 2R{T_0}(\\sqrt 2 - 1) + 2R{T_0}(3\\sqrt 2 - 1) = 2R{T_0}(4\\sqrt 2 - 2){{\\Delta Q} \\over {R{T_0}}} = 2(4\\sqrt 2 - 1)$$",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$4(2\\sqrt 2 + 1)$$",
+      "$$4(2\\sqrt 2 - 1)$$",
+      "$$(5\\sqrt 2 + 1)$$",
+      "$$(5\\sqrt 2 - 1)$$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_051",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal gas undergoes a four step cycle as shown in the P-V diagram below. During this cycle, heat is absorbed by the gas in\n\n[Diagram]",
+    "solution": "**Process 1**\n\np = constant, Volume increases and temperature also increases\n\nQ = W + $$\\Delta$$U\n\n$$\\therefore$$ W = positive, $$\\Delta$$U = positive\n\n$$\\Rightarrow$$ Heat is positive and supplied to the gas.\n\n**Process 2**\n\nV = constant, Pressure decreases\n\nT $$\\propto$$ pV [as V = constant]\n\n$$\\Rightarrow$$ Temperature decreases\n\nW = 0\n\n$$\\Delta$$T is negative and $$\\Delta$$U = $${f \\over 2}$$nR$$\\Delta$$T\n\n$$\\therefore\\Delta$$U is also negative\n\nQ = $$\\Delta$$U + W\n\n$$\\therefore$$ Heat is negative and rejected by gas.\n\n**Process 3**\n\np = constant, Volume decreases\n\n$$\\Rightarrow$$ Temperature also decreases\n\nW = p$$\\Delta$$V = negative\n\n$$\\Delta$$U = $${f \\over 2}$$nR$$\\Delta$$T = negative\n\n$$\\therefore$$ Heat is negative and rejected by gas.\n\n**Process 4**\n\nV = constant, Pressure increases\n\nW = 0 (as V = constant)\n\npV = nRT $$\\Rightarrow$$ Temperature increase\n\n$$\\Rightarrow\\Delta$$U = $${f \\over 2}$$nR$$\\Delta$$T is positive\n\n$$\\Delta$$Q = $$\\Delta$$U + W = positive",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "steps 1 and 2",
+      "steps 1 and 3",
+      "steps 1 and 4",
+      "steps 2 and 4"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_052",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the process on one mole of monatomic ideal gas is as shown in the TV-diagram with $${P_0}{V_0} = {1 \\over 3}R{T_0}$$, the correct match is,\n\n\n[Diagram]",
+    "solution": "1-2 process is isothermal and 2-3 process is isochoric.\n\n(I) $${W_{1 \\to 2}} = nRI\\,\\ln {{{V_f}} \\over {{V_i}}} = 1 \\times R{{{T_0}} \\over 3}\\,\\ln {{{V_2}} \\over {{V_1}}}$$\n\nW$_{2$$ \\to $$3}$ = 0 (Isochoric process)\n\n$${W_{1 \\to 2 \\to 3}}$$ = $${W_{1 \\to 2}}$$ + $${W_{2 \\to 3}}$$\n\n= $${{R{T_0}} \\over 3}$$ ln 2(I$$ \\to $$P)\n\n(II) $$\\Delta U = {f \\over 2}nR({T_f} - {T_i})\\Delta {U_{1 \\to 2 \\to 3}} = {3 \\over 2}\\left[ {{T_0} - {{{T_0}} \\over 3}} \\right] = R{T_0}$$ (II$$ \\to $$R)\n\n(III) $${Q_{1 \\to 2 \\to 3}} = \\Delta {U_{1 \\to 2 \\to 3}} + {W_{1 \\to 2 \\to 3}}$$\n\n(First law of thermodynamics)\n\n$$ = R{T_0} + {{R{T_0}} \\over 3}\\ln 2{{R{T_0}} \\over 3}[3 + \\ln 2]$$ (III$$ \\to $$T)\n\n(IV) $${Q_{1 \\to 2}} = \\Delta {U_{1 \\to 2}} + {W_{1 \\to 2}} = 0 + {{R{T_0}} \\over 3}ln2 = {{R{T_0}} \\over 3}ln2$$ (IV$$ \\to $$P)",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "I $$ \\to $$ P, II $$ \\to $$ R, III $$ \\to $$ T, IV $$ \\to $$ S",
+      "I $$ \\to $$ P, II $$ \\to $$ T, III $$ \\to $$ Q, IV $$ \\to $$ T",
+      "I $$ \\to $$ S, II $$ \\to $$ T, III $$ \\to $$ Q, IV $$ \\to $$ U",
+      "I $$ \\to $$ P, II $$ \\to $$ R, III $$ \\to $$ T, IV $$ \\to $$ P"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_053",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "If the process carried out on one mole of monoatomic ideal gas is as shown in the PV-diagram with $${p_0}{V_0} = {1 \\over 3}R{T_0}$$, the correct match is,\n\n[Diagram]",
+    "solution": "(I) $${W_{1 \\to 2 \\to 3}} = {W_{1 \\to 2}} + {W_{2 \\to 3}} = {P_0}[2{V_0} - {V_0}] + 0 = {P_0}{V_0}{W_{1 \\to 2 \\to 3}} = {P_0}{V_0} = {{R{T_0}} \\over 3}$$ (I$$ \\to $$Q)\n\n$${U_{1 \\to 2 \\to 3}} = {3 \\over 2}\\left[ {{{3{P_0}} \\over 2} \\times 2{V_0} - {P_0}{V_0}} \\right] = {3 \\over 2} \\times 2{P_0}{V_0} = 3{P_0}{V_0} = R{T_0}$$(II$$ \\to $$R)\n\n(III) $${Q_{1 \\to 2 \\to 3}} = {U_{1 \\to 2 \\to 3}} + {W_{1 \\to 2 \\to 3}} = R{T_0} + {{R{T_0}} \\over 3} = {{4R{T_0}} \\over 3}$$(III$$ \\to $$S)\n\n(IV) $${Q_{1 \\to 2}} = n{C_p}\\Delta T = n{5 \\over 2}R({T_2} - {T_1}) = {5 \\over 2}[{P_0}2{V_0} - {P_0}{V_0}] = {5 \\over 2}{P_0}{V_0} = {5 \\over 2}{{R{T_0}} \\over 3} = {5 \\over 6}{R_0}{T_0}$$ (IV$$ \\to $$U)",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "I$$ \\to $$S, II $$ \\to $$ R, III $$ \\to $$ Q, IV $$ \\to $$ T",
+      "I $$ \\to $$ Q, II $$ \\to $$ R, III $$ \\to $$ P, IV $$ \\to $$ U",
+      "I $$ \\to $$ Q, II $$ \\to $$ S, III $$ \\to $$ R, IV $$ \\to $$ U",
+      "I $$ \\to $$ Q, II $$ \\to $$ R, III $$ \\to $$ S, IV $$ \\to $$ U"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_054",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas undergoes four thermodynamic processes as shown schematically in the $$PV$$-diagram below. Among these four processes, one is isobaric, one is isochoric, one is isothermal and one is adiabatic. Match the processes mentioned in **List-I** with the corresponding statements in **List-II**.\n\n[Diagram]\n\n\n.tg {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n\n\nLIST - I\nLIST - II\n\n\nP.\nIn process I\n1.\nWork done by the gas is zero\n\n\nQ.\nIn process II\n2.\nTemperature of the gas remains\nunchanged\n\n\nR.\nIn process III\n3.\nNo heat is exchanged between\nthe gas and its surroundings\n\n\nS.\nIn process IV\n4.\nWork done by the gas is 6P0V0",
+    "solution": "Process I is adiabatic, therefore, $$\\Delta$$Q = 0\n$$\\Rightarrow\\Delta$$Q = $$\\Delta$$U + W $$\\Rightarrow$$ W = $$-\\Delta$$U\nThus, W < 0 since volume of gas is decreasing $$\\Rightarrow\\Delta$$U > 0 Therefore, temperature of gas increases and no heat is exchanged between gas and surroundings.\nThus, the correct mapping is P $$\\to$$ 3.\nProcess II is isobaric, therefore, pressure remains constant\n$$\\Rightarrow$$ W = P$$\\Delta$$V = 3P$_{0}$[3V$_{0}$ $$-$$ V$_{0}$] = 6P$_{0}$V$_{0}$\nTherefore, work done by gas in process II is 6P$_{0}$V$_{0}$.\nThus, the correct mapping is Q $$\\to$$ 4.\nProcess III is isochoric, therefore, volume remains constant\n$$\\Rightarrow\\Delta$$Q = $$\\Delta$$U + W $$\\Rightarrow\\Delta$$Q = $$\\Delta$$U\nand work done by gas is zero.\nThus, the correct mapping is R $$\\to$$ 1.\nProcess IV is isothermal process, therefore temperature remains constant\n$$\\Rightarrow\\Delta$$Q = $$\\Delta$$U + W $$\\Rightarrow\\Delta$$Q = W and $$\\Delta$$ = 0\nThus, the correct mapping is S $$\\to$$ 2.\nTherefore, option (C) is correct.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$P \\to 4;Q \\to 3;R \\to 1;S \\to 2$$",
+      "$$P \\to 1;Q \\to 3;R \\to 2;S \\to 4$$",
+      "$$P \\to 3;Q \\to 4;R \\to 1;S \\to 2$$",
+      "$$P \\to 3;Q \\to 4;R \\to 2;S \\to $$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_055",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following options is the correct combination?",
+    "solution": "[Diagram]\n\n$$\\because$$ dW = PdV\nand there is no change in volume in isochoric process.\n$$\\therefore$$ dW = 0",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "$$\\left( {{\\rm I}V} \\right)\\left( {ii} \\right)\\left( S \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}{\\rm I}} \\right)\\left( {ii} \\right)\\left( S \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}} \\right)\\left( {iv} \\right)\\left( P \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}} \\right)\\left( {iv} \\right)\\left( R \\right)$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l0kjstz2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_056",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which of the following options is the only correct representation of a process in which\n\n$$\\Delta U = \\Delta Q - P\\Delta V$$?",
+    "solution": "Compare the given relation, $$\\Delta$$U = $$\\Delta$$Q $$-$$ p$$\\Delta$$V, with the first law of thermodynamics, $$\\Delta$$Q = $$\\Delta$$U + $$\\Delta$$W, to get work done by the gas as $$\\Delta$$W = p$$\\Delta$$V. This is the work done in an isobaric process. The p-V diagram of this process is shown in (P). The work done in this process is $${W_{1 \\to 2}} = \\int {pdV = p{V_1} - p{V_2}} $$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {{\\rm I}{\\rm I}} \\right)\\left( {iv} \\right)\\left( R \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}{\\rm I}} \\right)\\left( {iii} \\right)\\left( P \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}} \\right)\\left( {iii} \\right)\\left( S \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}} \\right)\\left( {iii} \\right)\\left( P \\right)$$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_057",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following options correctly represents a thermodynamic process that is used as a correction in the determination of the speed of sound in an ideal gas?",
+    "solution": "Adiabatic process is used as a correction in the determination of the speed of sound in an ideal gas. The p-V diagram of this process is shown in (Q). The work done on the gas in an adiabatic process is given by $${W_{1 \\to 2}} = {{{p_2}{V_2} - {p_1}{V_1}} \\over {\\gamma - 1}}$$.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "$$\\left( {\\rm I} \\right)\\left( {ii} \\right)\\left( Q \\right)$$",
+      "$$\\left( {{\\rm I}V} \\right)\\left( {ii} \\right)\\left( R \\right)$$",
+      "$$\\left( {{\\rm I}{\\rm I}{\\rm I}} \\right)\\left( {iv} \\right)\\left( R \\right)$$",
+      "$$\\left( {\\rm I} \\right)\\left( {iv} \\right)\\left( Q \\right)$$"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_058",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A gas is enclosed in a cylinder with a movable frictionless piston. Its initial thermodynamic state at\npressure P$_{i}$ = 10$^{5}$ Pa and volume V$_{i}$ = 10$^{-3}$ m$^{3}$ changes to a final state at P$_{f}$ = $$\\left( {{1 \\over {32}}} \\right) \\times {10^5}\\,Pa$$ and\nV$_{f}$ = 8 $$ \\times $$ 10$^{-3}$ m$^{3}$ in an adiabatic quasi-static process, such that P$^{3}$V$^{5}$ = constant. Consider another\nthermodynamic process that brings the system from the same initial state to the same final state in two\nsteps: an isobaric expansion at P$_{i}$ followed by an isochoric (isovolumetric) process at volume V$_{f}$. The amount of heat supplied to the system in the two-step process is approximately",
+    "solution": "In the first process : $${p_i}p_i^\\gamma = {p_f}V_f^\\gamma $$\n\n\n[Diagram]\n\n\n$$ \\Rightarrow {{{p_i}} \\over {{p_f}}} = {\\left( {{{{V_f}} \\over {{V_i}}}} \\right)^\\gamma } \\Rightarrow 32 = {8^\\gamma }\\gamma = {5 \\over 3}$$ ... (i)\n\nFor the two step process,\n\n$$W = {p_i}({V_f} - {V_i}) = {10^5}(7 \\times {10^{ - 3}})W = 7 \\times {10^2}J\\Delta U = {f \\over 2}({p_f}{V_f} - {p_i}{V_i}) = {1 \\over {\\gamma - 1}}\\left( {{1 \\over 4} \\times {{10}^2} - {{10}^2}} \\right)\\Delta U = - {3 \\over 2}.{3 \\over 4} \\times {10^2} = - {9 \\over 8} \\times {10^2}JQ - W = \\Delta U \\Rightarrow Q = 7 \\times {10^2} - {9 \\over 8} \\times {10^2} = {{47} \\over 8} \\times {10^2}J = 588J$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "112 J",
+      "294 J",
+      "588 J",
+      "813 J"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_059",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The ends Q and R of two thin wires, PQ and RS, are soldered (joined) together. Initially each of the wires\nhas a length of 1 m at 10$^{o}$C. Now the end P is maintained at 10$^{o}$C, while the end S is heated and\nmaintained at 400$^{o}$C. The system is thermally insulated from its surroundings. If the thermal conductivity\nof wire PQ is twice that of the wire RS and the coefficient of linear thermal expansion of PQ is 1.2 $$ \\times $$ 10$^{-5}$ K$^{-1}$ , the change in length of the wire PQ is",
+    "solution": "[Diagram]\n\n\nRate of heat flow from P to Q,\n\n$${{dQ} \\over {dt}} = {{2KA(T - 10)} \\over 1}$$\n\nRate of heat flow from Q to S,\n\n$${{dQ} \\over {dt}} = {{KA(4000 - T)} \\over 1}$$\n\nAt steady state, state rate of heat flow is same\n\n$$ \\therefore {{2KA(T - 10)} \\over 1} = KA(400 - T)$$\n\nor $$2T - 20 = 400 - T$$ or $$3T = 420 \\therefore T = 140^\\circ $$\n\n\n[Diagram]\n\n\nTemperature of junction is $$140^\\circ $$C.\n\nTemperature at a distance x from end P is $${T_x} = (130x + 10^\\circ )$$\n\nChange in length dx is suppose dy.\n\nThen, $$dy = \\alpha dx({T_x} - 10)\\int_0^{\\Delta y} {dy} = \\int_0^1 {\\alpha dx(130x + 10 - 10)} \\Delta y = \\left[ {{{\\alpha {x^2}} \\over 2} \\times 130} \\right]_0^1\\Delta y = 1.2 \\times {10^{ - 5}} \\times 65\\Delta y = 78.0 \\times {10^{ - 5}}$$ m = 0.78 mm",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "0.78 mm",
+      "0.90 mm",
+      "1.56 mm",
+      "2.34 mm"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_060",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A water cooler of storage capacity 120 litres can cool water at a constant rate of P watts. In a closed circulation system (as shown schematically in the figure), the water from the cooler is used to cool an external device that generates constantly 3 kW of heat (thermal load).\n\nThe temperature of water fed into the device cannot exceed 30°C and the entire stored 120 litres of water is initially cooled to 10°C. The entire system is thermally insulated. The minimum value of P (in watts) for which the device can be operated for 3 hours is :\n\n[Diagram]\n\n(Specific heat of water is 4.2 kJ kg$^{−1}$ K$^{−1}$ and the density of water is 1000 kg m$^{−3}$)",
+    "solution": "Heat generated in device in 3 h\n\n= Time $$\\times$$ power\n\n= 3 $$\\times$$ 3600 $$\\times$$ 3 $$\\times$$ 10$^{3}$ = 324 $$\\times$$ 10$^{5}$ J\n\nHeat used to heat water = ms $$\\Delta\\theta$$\n\n= 120 $$\\times$$ 1 $$\\times$$ 4.2 $$\\times$$ 10$^{3}$ $$\\times$$ 20J\n\nHeat absorbed by coolant\n\nPt = 324 $$\\times$$ 10$^{5}$ $$-$$ 120 $$\\times$$ 1 $$\\times$$ 4.2 $$\\times$$ 10$^{3}$ $$\\times$$ 20J\n\nPt = (325 $$-$$ 100.8) $$\\times$$ 10$^{5}$ J = 223.2 $$\\times$$ 10$^{5}$ J\n\nP = $${{223.2 \\times {{10}^5}} \\over {3600}}$$ = 2067 W",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "1600",
+      "2067",
+      "2533",
+      "3933"
+    ]
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_061",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Parallel rays of light of intensity $$I$$ = 912 Wm$^{–2}$ are incident on a spherical black body kept in surroundings\nof temperature 300 K. Take Stefan-Boltzmann constant $$\\sigma $$ = 5.7 $$ \\times $$ 10$^{–8}$ Wm$^{–2}$K$^{–4}$ and assume that the energy\nexchange with the surroundings is only through radiation. The final steady state temperature of the black\nbody is close to",
+    "solution": "Effective area of incident light = $$\\pi$$r$^{2}$\nTotal energy per second = 912 $$\\times\\pi$$r$^{2}$\nFrom Stefan's law, we have\nE = Ae $$\\sigma$$ (T$^{4}$ $$-$$ T$$_0^4$$)\nFor black body emissivity, e = 1.\nA = 4$$\\pi$$r$^{2}$\n912 $$\\times\\pi$$r$^{2}$ = 4$$\\pi$$r$^{2}$ $$\\times$$ 5.7 $$\\times$$ 10$^{$$-$$8}$ [T$^{4}$ $$-$$ 300$^{4}$]\n$$({T^4} - {300^4}) = {{912} \\over {4 \\times 5.7 \\times {{10}^{ - 8}}}} = 40 \\times {10^8}{T^4} = 40 \\times {10^8} + {3^4} \\times {10^8}{T^4} = (90 + 81) \\times {10^8} \\Rightarrow 121 \\times {10^8}T = {(121)^{1/4}} \\times 100 = \\sqrt {11} \\times 100 \\Rightarrow 3.3 \\times 100$$\nT = 330 K",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "330 K",
+      "660 K",
+      "990 K",
+      "1550 K"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17popel.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_062",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Consider the partition to be rigidly fixed so that it does not move. When equilibrium is achieved, the final temperature of the gases will be",
+    "solution": "T is final temperature, when equilibrium is reached\nHeat gained = Heat lost\n$$n{C_p}\\Delta T = n{C_v}\\Delta T2 \\times {{7R} \\over 2} \\times (T - 400) = 2 \\times {{3R} \\over 2} \\times (700 - T)7T - 2800 = 2100 - 3T10T = 4900T = 490K$$",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "550 K",
+      "525 K",
+      "513 K",
+      "490 K"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17popel.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_063",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Now consider the partition to be free to move without friction so that the pressure of gases in both compartments is the same. Then total work done by the gases till the time they achieve equilibrium will be",
+    "solution": "Heat lost by monoatomic gas = Heat gained by diatomic gas\n$$2 \\times {5 \\over 2}R \\times (700 - T) = 2 \\times {5 \\over 2}R(T - 400)3500 - 5T = 7T - 280012T = 6300$$ or, $$T = 525K$$\nWork done by monoatomic gas:\n$$ = {n_1}R\\Delta T$$ ($$\\because$$ PV = nRT)\n$$ = 2 \\times R \\times (700 - 525)$$ ($$\\Delta$$T is negative)\n$$ = - 350R$$\nWork done by diatomic gas $$ = {n_2}R\\Delta T = 2R(525 - 400) = 250R$$. (There is gain in temperature)\nThe net work done = $$-$$350 + 250 = $$-$$100R and $$\\Delta$$T is positive.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "250 R",
+      "200 R",
+      "100 R",
+      "$$-$$100 R"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l17popel.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_064",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic ideal gas is taken along two cyclic processes E $$\\to$$ F $$\\to$$ G $$\\to$$ E and E $$\\to$$ F $$\\to$$ H $$\\to$$ E as shown in the PV diagram. The processes involved are purely isochoric, isobaric, isothermal or adiabatic.\n\n[Diagram]\n\nMatch the paths in List I with the magnitudes of the work done in List II and select the correct answer using the codes given below the lists :\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nList I\n\nList II\n\n\n\nP.\n$$G \\to E$$\n\n1.\n160$${P_0}{V_0}$$ln2\n\n\n\nQ.\n$$G \\to H$$\n\n2.\n36$${P_0}{V_0}$$\n\n\nR.\n$$F \\to H$$\n\n3.\n24$${P_0}{V_0}$$\n\n\nS.\n$$F \\to G$$\n\n4.\n31$${P_0}{V_0}$$",
+    "solution": "From the given figure, it can be concluded that process FG is isothermal and process FH is adiabatic.\n$${\\gamma _{mono}} = 1 + {2 \\over f} = {5 \\over 3}{P_0}V_G^{5/3} = 32{P_0}V_0^{5/3}{V_G} = {(32)^{3/5}}{V_0} = 8{V_0}\\Delta {W_{GE}} = {P_0}({V_0} - 32{V_0}) = - 31{P_0}{V_0}$$\nThus, the correct mapping is (P) $$\\to$$ (4).\n$$\\Delta {W_{GH}} = {P_0}(8{V_0} - 32{V_0}) = - 24{P_0}{V_0}$$\nThus, the correct mapping is (Q) $$\\to$$ (3).\n$$\\Delta {W_{FH}} = {{{P_0}(8{V_0}) - 32{P_0}{V_0}} \\over {1 - (5/3)}} = {{ - 24{P_0}{V_0}} \\over { - (2/3)}} = 36{P_0}{V_0}$$\nThus the correct mapping is (R) $$\\to$$ (2).\n$$\\Delta {W_{FG}} = 32R{T_0}\\ln 32 = 32R{T_0}\\ln {2^5} = 160R{T_0}\\ln 2 = 160{P_0}{V_0}\\ln 2$$\nThus, the correct mapping is (S) $$\\to$$ (1).",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P-4, Q-3, R-2, S-1",
+      "P-4, Q-3, R-1, S-2",
+      "P-3, Q-1, R-2, S-4",
+      "P-1, Q-3, R-2, S-4"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1qhy3wi.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_065",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two non-reactive monoatomic ideal gases have their atomic masses in the ratio 2 : 3. The ratio of their\npartial pressures, when enclosed in a vessel kept at a constant temperature, is 4 : 3. The ratio of their\ndensities is",
+    "solution": "To determine the ratio of the densities of the two non-reactive monoatomic ideal gases, we can use the ideal gas law and the given information. The ideal gas law is given by:\n\n$$ PV = nRT $$\n\nWhere:\n\nP is the pressure\n\nV is the volume\n\nn is the number of moles\n\nR is the gas constant\n\nT is the temperature\n\nGiven that the gases are monoatomic and non-reactive, their molecular masses are directly proportional to their atomic masses. Let the atomic masses of the two gases be $M_1$ and $M_2$, with $M_1 : M_2 = 2 : 3$.\n\nThe density ($\\rho$) of a gas is given by the formula:\n\n$$ \\rho = \\frac{m}{V} $$\n\nWhere $m$ is the mass and $V$ is the volume. Using the ideal gas law, we can relate density to pressure and temperature.\n\nFrom the ideal gas law:\n\n$$ PV = nRT $$\n\nSince $ n = \\frac{m}{M} $, where $M$ is the molar mass, we have:\n\n$$ P = \\frac{mRT}{MV} $$\n\nRearranging to solve for density ($\\rho\\ = \\frac{m}{V}$):\n\n$$ \\rho = \\frac{PM}{RT} $$\n\nThus, the density of a gas is directly proportional to its pressure and molar mass, and inversely proportional to the temperature. Given that the ratio of their partial pressures $P_1 : P_2 = 4 : 3$, we can write:\n\n$$ \\rho_1 = \\frac{P_1 M_1}{RT} \\rho_2 = \\frac{P_2 M_2}{RT} $$\n\nTaking the ratio of the densities:\n\n$$ \\frac{\\rho_1}{\\rho_2} = \\frac{\\left(\\frac{P_1 M_1}{RT}\\right)}{\\left(\\frac{P_2 M_2}{RT}\\right)} = \\frac{P_1 M_1}{P_2 M_2} $$\n\nSubstituting the given ratios, $ P_1 : P_2 = 4 : 3 $ and $ M_1 : M_2 = 2 : 3 $, into the equation, we get:\n\n$$ \\frac{\\rho_1}{\\rho_2} = \\frac{4 \\times 2}{3 \\times 3} = \\frac{8}{9} $$\n\nTherefore, the ratio of their densities is $ \\frac{8}{9} $, which corresponds to option D. Consequently, the answer is:\n\nOption D: 8 : 9",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "1 : 4",
+      "1 : 2",
+      "6 : 9",
+      "8 : 9"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1rn03t2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_066",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two rectangular blocks, having identical dimensions, can be arranged in either configuration-I or configuration-II as shown in the figure. One of the blocks has thermal conductivity $$\\kappa $$ and the other 2$$\\kappa $$. The temperature difference between the ends along the x-axis is the same in both the configurations. It takes 9 s to transport a certain amount of heat from the hot end to the cold end in configuration-I. The time to transport the same amount of heat in configuration-II is\n\n[Diagram]",
+    "solution": "Let L and A be length and area of cross-section of each block.\n$$\\therefore$$ Thermal resistance of block 1 is\n$$\\therefore{R_1} = {L \\over {\\kappa A}}$$\nThermal resistance of block 2 is\n$${R_2} = {L \\over {2\\kappa A}}$$\nIn configuration I, two blocks are connected in series. So, their equivalent thermal resistance is\n\n[Diagram]\n\n$${R_S} = {R_1} + {R_2} = {L \\over {\\kappa A}} + {L \\over {2\\kappa A}} = {3 \\over 2}{L \\over {\\kappa A}}$$ ...... (i)\n$$\\therefore$$ Rate of heat flow in configuration I is\n$$\\therefore{Q \\over t} = {{{T_1} - {T_2}} \\over {{R_s}}}$$ ..... (ii)\n\n[Diagram]\n\nIn configuration II, two blocks are connected in parallel. So, their equivalent thermal resistance is\n$${1 \\over {{R_P}}} = {1 \\over {{R_1}}} + {1 \\over {{R_2}}} = {1 \\over {{L \\over {\\kappa A}}}} + {1 \\over {{L \\over {2\\kappa A}}}} = {{3\\kappa A} \\over L}$$ ...... (iii)\n$${R_P} = {1 \\over 3}{L \\over {\\kappa A}}\\therefore$$ Rate of same amount of heat flow in configuration II is\n$$\\therefore{Q \\over {t'}} = {{{T_1} - {T_2}} \\over {{R_P}}}$$ ...... (iv)\nDivide (ii) by (iv), we get\n$${{t'} \\over t} = {{{R_P}} \\over {{R_S}}} = {1 \\over 3}{L \\over {\\kappa A}} \\times {{2\\kappa A} \\over {3L}} = {2 \\over 9}$$ (Using (i) and (iii))\n$$t' = {2 \\over 9}t = {2 \\over 9} \\times 9s = 2s$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "2.0 s",
+      "3.0 s",
+      "4.5 s",
+      "6.0 s"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l1rn03t2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_067",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Two moles of ideal helium gas are in a rubber balloon at 30$^{o}$C. The balloon is fully expandable\nand can be assumed to require no energy in its expansion. The temperature of the gas in the balloon is slowly changed to 35$^{o}$C. The amount of heat required in raising the temperature is\nnearly (take R = 8.31 J/mol.K)",
+    "solution": "Here's a breakdown of how to solve this problem:\n\nUnderstanding the Concepts\n\nIdeal Gas: An ideal gas is a theoretical gas that follows the ideal gas law perfectly. The ideal gas law is a relationship between pressure ($$P$$), volume ($$V$$), temperature ($$T$$), and the number of moles ($$n$$) of a gas:\n\n$$PV = nRT$$, where $$R$$ is the ideal gas constant.\n\nHeat Capacity: Heat capacity is the amount of heat energy required to raise the temperature of a substance by 1 degree Celsius (or 1 Kelvin). For an ideal gas, we can use the specific heat capacity at constant volume ($$C_v$$) or at constant pressure ($$C_p$$).\n\nConstant Volume Process: In a constant volume process, the volume of the gas remains constant. The heat required to raise the temperature is given by:\n\n$$Q = nC_v\\Delta T$$\n\nConstant Pressure Process: In a constant pressure process, the pressure of the gas remains constant. The heat required to raise the temperature is given by:\n\n$$Q = nC_p\\Delta T$$\n\nMolar Heat Capacities of Helium: Helium is a monatomic gas. For monatomic gases, we have:\n\n$$C_v = \\frac{3}{2}RC_p = \\frac{5}{2}R$$\n\nSolving the Problem\n\nIdentify the Process: Since the balloon is fully expandable, the pressure remains constant. This is a constant pressure process.\n\nCalculate the Heat: Use the formula for heat at constant pressure:\n\n$$Q = nC_p\\Delta T$$\n\nSubstitute the Values:\n\n$$n = 2 \\text{ moles}C_p = \\frac{5}{2}R = \\frac{5}{2}(8.31 \\text{ J/mol.K})\\Delta T = 35^\\circ C - 30^\\circ C = 5 K$$\n\nSolve for Q:\n\n$$Q = (2 \\text{ moles}) \\times \\left(\\frac{5}{2} \\times 8.31 \\text{ J/mol.K}\\right) \\times (5 K) Q = 207.75 \\text{ J}$$\n\nAnswer:\n\nThe amount of heat required to raise the temperature of the helium gas is approximately 208 J. Therefore, the correct answer is Option D.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "62 J",
+      "104 J",
+      "124 J",
+      "208 J"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l253p44d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_068",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A mixture of 2 moles of helium gas (atomic mass = 4 amu) and 1 mole of argon gas (atomic mass = 40 amu) is kept at 300 K in a container. The ratio of the rms speeds $$\\left( {{{{v_{rms}}\\left( {helium} \\right)} \\over {{v_{rms}}\\left( {\\arg on} \\right)}}} \\right)$$ is",
+    "solution": "The root mean square (rms) speed of a gas is given by the formula :\n\n$$v_{rms} = \\sqrt{\\frac{3kT}{m}}$$\n\nwhere :\n\n$$k$$ is the Boltzmann constant\n\n$$T$$ is the temperature in Kelvin\n\n$$m$$ is the mass of one molecule of the gas\n\nGiven that the atomic mass of helium is 4 amu and that of argon is 40 amu, we can find the rms speed ratio by comparing the rms speeds of helium and argon, as temperature $$T$$ and Boltzmann constant $$k$$ are the same for both gases :\n\n$$\\frac{v_{rms} \\left( \\text{helium} \\right)}{v_{rms} \\left( \\text{argon} \\right)} = \\sqrt{\\frac{m_{\\text{argon}}}{m_{\\text{helium}}}}$$\n\nSubstituting the masses :\n\n$$m_{\\text{helium}} = 4 \\text{ amu}m_{\\text{argon}} = 40 \\text{ amu}$$\n\nwe get :\n\n$$\\frac{v_{rms} \\left( \\text{helium} \\right)}{v_{rms} \\left( \\text{argon} \\right)} = \\sqrt{\\frac{40}{4}} = \\sqrt{10} \\approx 3.16$$\n\nThus, the ratio of the rms speeds of helium to argon is approximately 3.16.\n\nThe correct answer is :\n\nOption D : 3.16",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "0.32",
+      "0.45",
+      "2.24",
+      "3.16"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l253p44d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_069",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Three very large plates of same area are kept parallel and close to each other. They are considered as ideal black surfaces and have very high thermal conductively. The first and third plates are maintained at temperatures 2T and 3T, respectively. The temperature of the middle (i.e. second) plate under steady state condition is",
+    "solution": "Let the steady state temperature of the middle plate to T$_{0}$. In the steady state, the heat radiated per unit time by the middle plate is equal to the heat received per unit time by it. The middle plate radiates heat from both the surfaces and receives the heat radiated by the first and the third plates.\n\n[Diagram]\n\nStefan-Boltzmann law gives the rate of heat loss and heat gain by the middle plate as\n$$d{Q_{out}}/dt = \\sigma AT_0^4 + \\sigma AT_0^4$$,\n$$d{Q_{in}}/dt = \\sigma A{(2T)^4} + \\sigma A{(3T)^4}$$.\nThe steady state condition, $$d{Q_{out}}/dt = d{Q_{in}}/dt\\sigma A{(2T)^4} + \\sigma A{(3T)^4} = \\sigma 2A{({T_0})^4}16{T^4} + 81{T^4} = 2{({T_0})^4}97{T^4} = 2{({T_0})^4}{({T_0})^4} = {{97} \\over 2}{T^4} = {\\left( {{{97} \\over 2}} \\right)^{1/4}}T$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$${\\left( {{{65} \\over 2}} \\right)^{1/4}}T$$",
+      "$${\\left( {{{97} \\over 4}} \\right)^{1/4}}T$$",
+      "$${\\left( {{{97} \\over 2}} \\right)^{1/4}}T$$",
+      "$${(97)^{1/4}}T$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l253p44d.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_070",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "One mole of a monatomic gas is taken through a cycle ABCDA as shown in the PV diagram. Column II give the characteristics involved in the cycle. Match them with each of the processes given in Column I.\n\n[Diagram]\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nProcess A$$ \\to $$ B\n(P)\nInternal energy decreases.\n\n\n(B)\nProcess B$$ \\to $$C\n(Q)\nInternal energy increase.\n\n\n(C)\nProcess C$$ \\to $$D\n(R)\nHeat is lost.\n\n\n(D)\nProcess D$$ \\to $$A\n(S)\nHeat is gained.\n\n\n\n\n(T)\nWork is done on the gas.",
+    "solution": "[Diagram]\n\nProcess A $$\\to$$ B,\nIt is a isobaric process\nP = constant, V $$\\propto$$ T\n$$\\because$$ V$_{B}$ < V$_{A}$ $$\\Rightarrow$$ T$_{B}$ < T$_{A}$\n$$\\Delta$$U = nC$_{V}$$$\\Delta$$T = $$-$$ve\nHence internal energy decreases.\n$$\\Delta$$Q = nC$_{P}$$$\\Delta$$T = $$-$$ve\nHence heat is lost.\n$$\\Delta$$W = nR$$\\Delta$$T = $$-$$ve\nHence, work is done on the gas.\nProcess, B $$\\to$$ C,\nIt is a isochoric process.\nV = constant, P $$\\propto$$ T\n$$\\because$$ P$_{C}$ < P$_{B}$ $$\\Rightarrow$$ T$_{C}$ < T$_{B}$\n$$\\Delta$$U = nC$_{V}$$$\\Delta$$T = $$-$$ve\nHence, internal energy decreases.\n$$\\Delta$$W = 0, $$\\Delta$$Q = $$\\Delta$$U = $$-$$ve\nHence, heat is lost.\nProcess C $$\\to$$ D,\nIt is a isobaric process.\nP = constant, V $$\\propto$$ T\n$$\\because$$ V$_{D}$ > V$_{C}$ $$\\Rightarrow$$ T$_{D}$ > T$_{C}$\n$$\\Delta$$U = nC$_{V}$$$\\Delta$$T = +ve\nHence internal energy increases.\n$$\\Delta$$Q = nC$_{P}$$$\\Delta$$T = +ve\nHence, heat is gained.\n$$\\Delta$$W = nR$$\\Delta$$T = +ve\nHence, work is done by the gas.\nProcess, D $$\\to$$ A\nAccording to ideal gas equation\n$${{{P_A}{V_A}} \\over {{T_A}}} = {{{P_D}{V_D}} \\over {{T_D}}} \\Rightarrow {{(3P)(3V)} \\over {{T_A}}} = {{(P)(9V)} \\over {{T_D}}} \\Rightarrow {T_D} = {T_A}$$\nHence, it is a isothermal process.\n$$\\therefore\\Delta$$U = 0\n$$\\because$$ V$_{A}$ < V$_{D}$\n$$\\Delta$$W = $$-$$ve, hence work done is done on the gas.\n$$\\Delta$$Q = $$\\Delta$$W = $$-$$ve, hence heat is lost.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "(A)$$\\to$$(P), (R), (T); (B)$$\\to$$(P), R; (C)$$\\to$$(Q), (S); (D)$$\\to$$(R), (T)",
+      "(A)$$\\to$$(P), (T); (B)$$\\to$$(P), (R); (C)$$\\to$$(Q), (S); (D)$$\\to$$(R)",
+      "(A)$$\\to$$(R), (T); (B)$$\\to$$(P), (R); (C)$$\\to$$(S); (D)$$\\to$$(R), (T)",
+      "(A)$$\\to$$(P), (R), (T); (B)$$\\to$$(P), (R); (C)$$\\to$$(Q); (D)$$\\to$$(R), (T)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1l2ml6be2.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_071",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "5.6 liter of helium gas at STP is adiabatically compressed to 0.7 liter. Taking the initial temperature to be\nT$_{1}$, the work done in the process is",
+    "solution": "Initially\nV$_{1}$ = 5.6 l, T$_{1}$ = 273 K, P$_{1}$ = 1 atm,\n$$\\gamma = {5 \\over 3}$$ (For monoatomic gas)\nThe number of moles of gas is $$n = {{5.6l} \\over {22.4l}} = {1 \\over 4}$$\nFinally (after adiabatic compression)\nV$_{2}$ = 0.7 l\nFor adiabatic compression $${T_1}V_1^{\\gamma - 1} = {T_2}V_2^{\\gamma - 1}\\therefore{T_2} = {T_1}{\\left( {{{{V_1}} \\over {{V_2}}}} \\right)^{\\gamma - 1}} = {T_1}{\\left( {{{5.6} \\over {0.7}}} \\right)^{{5 \\over 3} - 1}} = {T_1}{(8)^{2/3}} = 4{T_1}$$\nWork done during an adiabatic process is\n$$W = {{nR[{T_1} - {T_2}]} \\over {(\\gamma - 1)}} = {{{1 \\over 4}R[{T_1} - 4{T_1}]} \\over {\\left[ {{5 \\over 3} - 1} \\right]}} = - {9 \\over 8}R{T_1}$$\nNegative sign shows that work is done on the gas.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$${9 \\over 8}R{T_1}$$",
+      "$${3 \\over 2}R{T_1}$$",
+      "$${15 \\over 8}R{T_1}$$",
+      "$${9 \\over 2}R{T_1}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgnde05o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_072",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A real gas behaves like an ideal gas if its",
+    "solution": "In an ideal gas, the average force of attraction between the molecules and volume of the molecules (in\ncomparison to volume of the gas) are negligibly small.\nThese conditions are satisfied for a real gas when pressure is low and temperature is high.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "pressure and temperature are both high",
+      "pressure and temperature are both low",
+      "pressure is high and temperature is low",
+      "pressure is low and temperature is high"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgnde05o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_073",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Column II gives certain systems undergoing a process. Column I suggests changes in some of the parameters related to the system. Match the statements in Column I to the appropriate process(es) from Column II:\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nThe energy of the system is increased.\n(P)\nSystem : A capacitor, initially uncharged.\nProcess : It is connected to a battery.\n\n\n(B)\nMechanical energy is provided to the system, which is converted into energy of random motion of its parts.\n(Q)\nSystem : A gas in an adiabatic container filled with an adiabatic piston.\nProcess : The gas is compressed by pushing the piston.\n\n\n(C)\nInternal energy of the system is converted into its mechanical energy.\n(R)\nSystem : A gas in a rigid container.\nProcess : The gas gets cooled due to colder atmosphere surrounding it.\n\n\n(D)\nMass of the system is decreased.\n(S)\nSystem : A heavy nucleus, initially at rest.\nProcess : The nucleus fissions into two fragments of nearly equal masses and some neutrons are emitted.\n\n\n\n\n(T)\nSystem : A resistive wire loop.\nProcess : The loop is placed in a time varying magnetic field perpendicular to its plane.",
+    "solution": "(A)$$\\to$$(P), (Q), (T)\n$$\\bullet$$ Case (P) : $$U=\\frac{1}{2}CV^2\\bullet$$ Case (Q) : Since the work is done on the system, the internal energy increases.\n$$\\bullet$$ Case (T) : time varying $$\\overrightarrow B $$ creates an induced $$\\overrightarrow E $$ causing current to flow. This dissipates heat in the loop: $$H=L^2(Rt)$$.\n(B)$$\\to$$(Q) : As explained above.\n(C)$$\\to$$(S)\n$$\\bullet$$ Case (S) : Mass defect is converted into energy which is released.\n(D)$$\\to$$(S) : As explained above.",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "(A)$$\\to$$(P), (S), (T); (B)$$\\to$$(Q); (C)$$\\to$$(S); (D)$$\\to$$(S), (R)",
+      "(A)$$\\to$$(P), (Q), (T); (B)$$\\to$$(Q); (C)$$\\to$$(S); (D)$$\\to$$(S)",
+      "(A)$$\\to$$(P), (Q), (T); (B)$$\\to$$(T); (C)$$\\to$$(S); (D)$$\\to$$(S)",
+      "(A)$$\\to$$(S), (Q), (T); (B)$$\\to$$(Q); (C)$$\\to$$(S); (D)$$\\to$$(S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgnde05o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_074",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Column I contains a list of processes involving expansion of an ideal gas. Match this with Column II describing the thermodynamic change during this process. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\nColumn I\n\nColumn II\n\n\n\n(A)\nAn insulated container has two chambers separated by a valve. Chamber I contains an ideal gas and the Chamber II has vacuum. The valve is opened.\n\n[Diagram]\n\n(P)\nThe temperature of the gas decreases\n\n\n(B)\nAn ideal monatomic gas expands to twice its original volume such that its pressure P $$\\propto\\frac{1}{\\mathrm{V}^2}$$, where V is the volume of the gas\n(Q)\nThe temperature of the gas increase or remains constant.\n\n\n(C)\nAn ideal monoatomic gas expands to twice its original volume such that its pressure P $$\\propto\\frac{1}{\\mathrm{V}^{4/3}}$$, where V is its volume\n(R)\nThe gas loses heat\n\n\n(D)\nAn ideal monoatomic gas expands such that its pressure P and volume V follows the behaviour shown in the graph\n\n[Diagram]\n\n(S)\nThe gas gains heat",
+    "solution": "As the ideal gas expands in vacuum, no work is done i.e., w = 0\nContainer is insulated, so no heat lost or gained i.e., Q = 0.\nAccording to the first law of thermodynamics\n$$\\Delta$$U = Q + w\n$$\\therefore\\Delta$$U = 0\nTherefore, no change in the temperature of the gas.\n(b) $$\\to$$ ($$p, r$$) :\nGiven, PV$$^2$$ = constant ... (i)\nFor ideal gas, $${{PV} \\over T}$$ = constant .... (ii)From (i) and (ii) V $$\\mu$$ T = constant\nAs gas expands, its volume increase and temperature decreases.\n$$\\therefore$$ (p) is the correct.\nAlso, Q = nC$$\\Delta$$T .... (i)\nWhere C = molar specific heat\nFor a polytropic process,\n$$C = {C_V} + {R \\over {1 - n}}$$ and\nPV$$^n$$ = constant\nHere, PV$$^2$$ = constant, where n = 2\n$$\\thereforeC = {C_V} + {R \\over {1.2}} = {C_V} - R$$\nFor monoatomic gas,\n$${C_V} = {3 \\over 2}R\\thereforeC = {3 \\over 2}R - R = {R \\over 2}$$\nSubstituting this value in (1), we get\n$$Q = n \\times {R \\over 2} \\times \\Delta T$$\nTemperature decreases i.e., $$\\Delta$$T is negative. Therefore, Q is negative. This is turn mean that heat is lost by the gas during the process.\nSo (r) is the correct option.\n(C) $$\\to$$ (P, S)\nV$$^{1/3}\\times$$ T = constant\n$$\\Rightarrow$$ As the gas expands and volume increases, the temperature decreases. Therefore (P) is the correct option.\nIn the process, $$x = {4 \\over 3}\\thereforeC = {C_V} + {R \\over {1 - {4 \\over 3}}} = {3 \\over 2}R + {{3R} \\over { - 1}} = {3 \\over 2}R - 3R = - {{3R} \\over 2}\\thereforeQ = n\\left( { - {3 \\over 2}R} \\right)\\Delta t$$\nAs $$\\Delta t$$ = $$-$$negative ($$-$$ve), Q = positive (+ve). That means heat is gained by the gas during the process.\n(s) is correct.\n(d) $$\\to$$ (q, s)\n$$\\Delta T = {{\\Delta (PV)} \\over {nR}}\\Delta (PV)$$ = Positive $$\\therefore\\Delta$$T = positive\n$$\\therefore$$ Temperature increase (Q) is the correct option.\nFrom graph it is clear that, during the process the pressure of the gas increases which shows that the internal energy of the gas has increased. Also, the volume increases which means work is done by the system which needs energy. We conclude from the above fact that gas gains heat during the process.\n(S) is correct.",
+    "answerKey": [
+      "D"
+    ],
+    "options": [
+      "A $$\\to$$ (P); B $$\\to$$ (P, Q); C $$\\to$$ (R, S); D $$\\to$$ (P, R)",
+      "A $$\\to$$ (P); B $$\\to$$ (R, S); C $$\\to$$ (P, Q); D $$\\to$$ (Q, S)",
+      "A $$\\to$$ (Q); B $$\\to$$ (R, S); C $$\\to$$ (P, S); D $$\\to$$ (P, R)",
+      "A $$\\to$$ (Q); B $$\\to$$ (P, Q); C $$\\to$$ (P, S); D $$\\to$$ (Q, S)"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-1lgnde05o.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_075",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "An ideal gas is expanding such that PT$$^2$$ = constant. The coefficient of volume expansion of the gas is",
+    "solution": "Given, PT$$^2$$ = constant ..... (i)\nFor an ideal gas,\n$$\\frac{\\mathrm{PV}}{\\mathrm{T}}$$ = constant ...... (ii)\nFrom above two equation, after eliminating P.\n$$\\frac{\\mathrm{V}}{\\mathrm{T^3}}$$ = Constant\n$$\\Rightarrow$$ V = KT$$^3$$, where $$k$$ = constant.\n$$\\frac{d\\mathrm{V}}{\\mathrm{V}}=3\\frac{d\\mathrm{T}}{\\mathrm{T}} \\Rightarrow dV = \\left( {{3 \\over T}} \\right)VdT$$ ..... (iii)\nChange in volume due to thermal expansion is given by $$dV=Vydt$$ ..... (iv)\nWhere, $$y$$ = coefficient of volume expansion\nFrom equation (iii) and (iv), we have,\n$$VydT = \\left( {{3 \\over T}} \\right)VdT \\Rightarrow y = {3 \\over T}$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\frac{1}{\\mathrm{T}}$$",
+      "$$\\frac{2}{\\mathrm{T}}$$",
+      "$$\\frac{3}{\\mathrm{T}}$$",
+      "$$\\frac{4}{\\mathrm{T}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdq086.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_076",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "STATEMENT 1\nThe total translational kinetic energy of all the molecules of a given mass of an ideal gas is 1.5 times the product of its pressure and its volume.\nBecause\nSTATEMENT 2\nThe molecules of a gas collide with each other and the velocities of the molecules change due to the collision.",
+    "solution": "Statement 1 :\nTotal translational kinetic energy $$=\\frac{3}{2} n \\mathrm{RT}$$\nwhere,\nn = no. of moles\nR = gas constant\nT = Temperature\nbut, PV = nRT\n$$\\therefore$$ K.E. = 1.5 PV\nStatement 2 : Molecules of a gas collide with each other and the velocities of the molecules change due to collision.\nBut statement 2 is not a correct explanation of statement 1 .",
+    "answerKey": [
+      "B"
+    ],
+    "options": [
+      "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.",
+      "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct for Statement-1.",
+      "Statement-1 is True, Statement-2 is False.",
+      "Statement-1 is False, Statement-2 is True."
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdq086.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_077",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The piston is now pulled out slowly and held at a distance 2L from the top. The pressure in the cylinder between its top and the piston will then be",
+    "solution": "When the piston is pulled out slowly, the pressure drop produced inside the cylinder is almost instantaneously neutralized by the air entering from outside into the cylinder. So, the pressure inside the cylinder is P$$_0$$ throughout the slow pulling process.",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "P$$_0$$",
+      "$${{{P_0}} \\over 2}$$",
+      "$${{{P_0}} \\over 2} + {{Mg} \\over {\\pi {R^2}}}$$",
+      "$${{{P_0}} \\over 2} - {{Mg} \\over {\\pi {R^2}}}$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggdq086.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_078",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "The piston is taken completely out of the cylinder. The hole at the top is sealed. A water tank is brought below the cylinder and put in a position so that the water surface in the tank is at the same level as the top of the cylinder as shown in the figure. The density of the water is $$\\rho$$. In equilibrium, the height H of the water column in the cylinder satisfies\n\n[Diagram]",
+    "solution": "At equilibrium, P = P\n$$\\Rightarrow$$ P = P$$_0$$ + (L$$_0-$$ H)$$\\rho$$g ..... (i)\n$$ \\Rightarrow {P_0}\\pi (\\pi {R^2}{L_0}) = P[\\pi {R^2}({L_0} - H)] \\Rightarrow P = {{{L_0}{P_0}} \\over {{L_0} - H}}$$ ..... (ii)\nFrom (i) as (ii)\n$$ \\Rightarrow {{{L_0}{P_0}} \\over {{L_0} - H}} = {P_0} + ({L_0} - H)\\rho g \\Rightarrow {L_0}{P_0} = {P_0}({L_0} - H) + {({L_0} - H)^2}\\rho g \\Rightarrow \\rho g{({L_0} - H)^2} + {P_0}({L_0} - H) - {L_0}{P_0} = 0$$",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$\\rho g{({L_0} - H)^2} + {P_0}({L_0} - H) + {L_0}{P_0} = 0$$",
+      "$$\\rho g{({L_0} - H)^2} - {P_0}({L_0} - H) - {L_0}{P_0} = 0$$",
+      "$$\\rho g{({L_0} - H)^2} + {P_0}({L_0} - H) - {L_0}{P_0} = 0$$",
+      "$$\\rho g{({L_0} - H)^2} - {P_0}({L_0} - H) + {L_0}{P_0} = 0$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mggduzho.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_079",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "Heat given to the processes is positive. Match Column I with Column II:\n\n[Diagram]\n\n.tg {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\noverflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\nfont-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n\n\nColumn I\nColumn II\n\n\n\n(A)\nJK\n(P)\n$$\n\\Delta W>0\n$$\n\n\n(B)\nKL\n(Q)\n$$\n\\Delta \\mathrm{Q}<0\n$$\n\n\n(C)\nLM\n(R)\n$$\n\\Delta \\mathrm{W}<0\n$$\n\n\n(D)\nMJ\n(S)\n$$\n\\Delta Q>0\n$$",
+    "solution": "$$ \\mathrm{Q}=\\Delta \\mathrm{U}+\\mathrm{W}, \\mathrm{~W}=\\int \\mathrm{P} d \\mathrm{~V} $$\nAlong JK : V is constant, P is decreasing and\n$\\mathrm{P} \\propto \\mathrm{T}, \\mathrm{T}$ should also decrease.\nAs $\\mathrm{PV}=n \\mathrm{RT}$.\n$$ \\begin{aligned} \\therefore & & \\mathrm{W} & =P \\Delta V=0 \\\\ & & \\Delta \\mathrm{U} & =\\Delta \\mathrm{Q}<0 \\quad \\text { (negative) } \\end{aligned} $$\n$\\Rightarrow$ Along KL : $\\mathrm{P}=$ constant, i.e., isobaric process.\n$\\therefore n \\mathrm{C}_{\\mathrm{V}} \\Delta \\mathrm{T}$ is increasing. So temperature should also increase.\n$$ \\begin{aligned} & \\therefore \\Delta \\mathrm{W}=\\mathrm{PdV}>0, \\Delta \\mathrm{U}=n \\mathrm{C}_{\\mathrm{V}} \\Delta \\mathrm{~T}>0 \\text { and } \\\\ & \\mathrm{Q}=m c \\Delta T>0 . \\end{aligned} $$\n$\\therefore$ Volume increases, $\\Delta \\mathrm{W}>0$\n$\\Rightarrow$ Along LM : MV = constant, $\\Delta \\mathrm{V}=0$ [isochoric process]\nboth P increases and T increases.\n$$ \\therefore W=0, \\Delta U>0 \\text { and } Q>0 \\quad[\\Delta Q=\\Delta U] $$\n$\\Rightarrow$ Along $\\mathrm{MJ}: \\mathrm{V}$ is decreasing, $\\therefore \\Delta \\mathrm{W}<0$\nT is also decreasing, $\\Delta \\mathrm{V}<0$ and $\\Delta \\mathrm{Q}<0$\nP increases.",
+    "answerKey": [
+      "C"
+    ],
+    "options": [
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{~S}) ; \\mathrm{C} \\rightarrow(\\mathrm{Q}) ; \\mathrm{D} \\rightarrow( \\mathrm{R})]$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}) ; \\mathrm{C} \\rightarrow(\\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{Q})]$$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{P}, \\mathrm{~S}) ; \\mathrm{C} \\rightarrow(\\mathrm{~S}) ; \\mathrm{D} \\rightarrow(\\mathrm{Q}, \\mathrm{R})] $$",
+      "$$ [\\mathrm{A} \\rightarrow(\\mathrm{Q}) ; \\mathrm{B} \\rightarrow(\\mathrm{S}) ; \\mathrm{C} \\rightarrow(\\mathrm{S}) ; \\mathrm{D} \\rightarrow( \\mathrm{R})]$$"
+    ],
+    "media": {
+      "type": "image",
+      "url": "./assets/questions/images/file-jaoe38c1mgt4pqsx.png",
+      "position": "bottom"
+    }
+  },
+  {
+    "id": "phy_heat_and_thermodynamics_080",
+    "subject": "Physics",
+    "chapter": "Heat & Thermodynamics",
+    "topic": "Heat & Thermodynamics",
+    "type": "scq",
+    "difficulty": "Hard",
+    "questionText": "A cylinder of mass $$1 \\mathrm{~kg}$$ is given heat of $$20000 \\mathrm{~J}$$ at atmospheric pressure. If initially temperature of cylinder is $$20^{\\circ} \\mathrm{C}$$, find\n(A) The final temperature of the cylinder;\n(B) The work done by the cylinder;\n(C) The change in internal energy of the cylinder.\nGiven :\nThe specific heat of cylinder\n$$=400 \\mathrm{~J} \\mathrm{~kg}^{-1 \\circ} \\mathrm{C}^{-1}$$\nCoefficient of volume expansion\n$$=9 \\times 10^{-5}{ }^{\\circ} \\mathrm{C}^{-1} \\text {; }$$\nAtmospheric pressure $$=10^{5} \\mathrm{~N} / \\mathrm{m}^{2}$$ Density of cylinder $$=9000 \\mathrm{~kg} / \\mathrm{m}^{3}$$ )",
+    "solution": "(A) Heat supplied to the cylinder is used up in if raising temperature of cylinder $$=m s \\Delta \\mathrm{T}$$\n(i) $$\\mathrm{Q}_{1}=m s \\Delta \\mathrm{T}=1 \\times 400(\\mathrm{~T}-20) \\text {...(i) }$$\nS = 400 J kg$$^{-10}$$C$$^{-1}$$\n(ii) doing work $$=\\mathrm{P}_{\\text {atom }}\\left(\\mathrm{V}_{2}-\\mathrm{V}_{1}\\right)$$\nWork done $$=\\mathrm{P}_{\\mathrm{atm}}\\left(\\mathrm{V}_{2}-\\mathrm{V}_{1}\\right)\\mathrm{Q}_{2}=10^{5} \\times\\left(\\mathrm{V}_{1} \\gamma \\Delta \\mathrm{T}\\right)\\mathrm{Q}_{2}=10^{5} \\times \\frac{\\text { mass }}{\\text { density }} \\times \\gamma(\\mathrm{T}-20)\\mathrm{Q}_{2}=10^{5} \\times \\frac{1}{900} \\times 9 \\times 10^{-5} \\times(\\mathrm{T}-20)\\mathrm{Q}_{2}=0.001(\\mathrm{~T}-20)$$ ...... (ii)\n$$\\therefore \\quad \\mathrm{Q}_{1}+\\mathrm{Q}_{2}=\\mathrm{Q}$$ Heat supplied.\n(Given $$\\mathrm{Q}=20000 \\mathrm{~J}$$ )\n400.$$(T-20)+0.001(T-20)=20000400.001(\\mathrm{~T}-20)=2000\\mathrm{T}-20=\\frac{20000}{400.001}=50$$ (approx)\n$$\\mathrm{T}=50+20=70^{\\circ} \\mathrm{C}$$ ...... (iii)\n(B) Workdone by cylinder\n$$\\begin{aligned}\n\\mathrm{W} & =\\mathrm{Q}_{2}=0.001(70-2 a) \\\\\n& =0.001(50) \\\\\n\\mathrm{W} & =0.05 \\mathrm{~J} .\\end{aligned}$$\n(C) Change in internal energy\n$$\\begin{aligned}\n\\Delta \\mathrm{U} & =20000-0.05 \\\\\n& =19999.95 \\mathrm{~J}=1.9 \\times 10^{4} \\mathrm{~J}\n\\end{aligned}$$",
+    "answerKey": [
+      "A"
+    ],
+    "options": [
+      "$$(\\mathrm{A}) 70^{\\circ} \\mathrm{C}$$, (B) $$0.05 \\mathrm{~J}$$ (C) $$\\Delta \\mathrm{U}=1.9 \\times 10^{4} \\mathrm{~J}$$",
+      "$$(\\mathrm{A}) 70^{\\circ} \\mathrm{C}$$, (B) $$0.05 \\mathrm{~J}$$ (C) $$\\Delta \\mathrm{U}=2.9 \\times 10^{4} \\mathrm{~J}$$",
+      "$$(\\mathrm{A}) 60^{\\circ} \\mathrm{C}$$, (B) $$0.05 \\mathrm{~J}$$ (C) $$\\Delta \\mathrm{U}=1.9 \\times 10^{4} \\mathrm{~J}$$",
+      "$$(\\mathrm{A}) 70^{\\circ} \\mathrm{C}$$, (B) $$0.07 \\mathrm{~J}$$ (C) $$\\Delta \\mathrm{U}=1.9 \\times 10^{4} \\mathrm{~J}$$"
+    ]
+  }
+]
